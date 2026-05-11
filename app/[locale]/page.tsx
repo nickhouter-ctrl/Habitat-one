@@ -139,7 +139,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
       {/* ---- Spaces ---- */}
       <Section className="bg-clay-800 text-cream">
-        <div className="pointer-events-none absolute -right-32 top-10 h-80 w-80 rounded-full bg-terracotta-600/20 blur-3xl" />
+        <div className="pointer-events-none absolute -right-16 top-10 h-72 w-72 rounded-full bg-terracotta-600/20 blur-3xl" />
         <Container className="relative">
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <SectionHeading
@@ -325,7 +325,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                   </div>
                 </div>
               </Reveal>
-              <div className="pointer-events-none absolute -left-10 -top-10 -z-10 h-48 w-48 rounded-full bg-terracotta-400/25 blur-2xl" />
+              <div className="pointer-events-none absolute -left-6 -top-8 -z-10 h-44 w-44 rounded-full bg-terracotta-400/25 blur-2xl" />
             </div>
             <div>
               <SectionHeading eyebrow={t("locationEyebrow")} title={t("locationTitle")} text={t("locationText")} className="max-w-none" />

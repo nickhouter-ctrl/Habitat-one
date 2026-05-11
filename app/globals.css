@@ -101,6 +101,8 @@
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
+    /* never allow a sideways swipe — clip (not hidden) so it doesn't break sticky/scroll */
+    overflow-x: clip;
   }
   body {
     background-color: var(--color-background);
@@ -109,7 +111,7 @@
     font-feature-settings: "ss01", "cv05";
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
   ::selection {
     background-color: var(--color-terracotta-500);
