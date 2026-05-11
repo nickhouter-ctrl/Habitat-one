@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "name": "Indoor",
+    "slug": "indoor",
+    "parent_id": null,
+    "sort_order": 1,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-09-11T11:57:36.959",
+    "image_path": "1-1757591885333.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Outdoor",
+    "slug": "outdoor",
+    "parent_id": null,
+    "sort_order": 2,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": "2-1755784332913.png"
+  },
+  {
+    "id": 3,
+    "name": "Living Room",
+    "slug": "living-room",
+    "parent_id": 1,
+    "sort_order": 1,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": "1755788582097-living-room-ai.png"
+  },
+  {
+    "id": 4,
+    "name": "Kitchen",
+    "slug": "kitchen",
+    "parent_id": 1,
+    "sort_order": 2,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": "1755788823693-kitchen-ai.png"
+  },
+  {
+    "id": 5,
+    "name": "Bedroom",
+    "slug": "bedroom",
+    "parent_id": 1,
+    "sort_order": 3,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": "1755788895861-bedroom-ai.png"
+  },
+  {
+    "id": 6,
+    "name": "Bathroom",
+    "slug": "bathroom",
+    "parent_id": 1,
+    "sort_order": 4,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": "1755788968483-bathroom-ai.png"
+  },
+  {
+    "id": 7,
+    "name": "Terrace",
+    "slug": "terrace",
+    "parent_id": 2,
+    "sort_order": 1,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": "1755789094776-terrace-ai.png"
+  },
+  {
+    "id": 8,
+    "name": "Garden",
+    "slug": "garden",
+    "parent_id": 2,
+    "sort_order": 2,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": "1755789194286-garden-ai.png"
+  },
+  {
+    "id": 9,
+    "name": "Pool Area",
+    "slug": "pool-area",
+    "parent_id": 2,
+    "sort_order": 3,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": "1755789285954-pool-area-ai.png"
+  },
+  {
+    "id": 10,
+    "name": "Outdoor Kitchen",
+    "slug": "outdoor-kitchen",
+    "parent_id": 2,
+    "sort_order": 4,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": "1755789427875-outdoor-kitchen-ai.png"
+  },
+  {
+    "id": 11,
+    "name": "Floors",
+    "slug": "living-room-floors",
+    "parent_id": 3,
+    "sort_order": 1,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": null
+  },
+  {
+    "id": 12,
+    "name": "Walls",
+    "slug": "living-room-walls",
+    "parent_id": 3,
+    "sort_order": 2,
+    "is_active": true,
+    "created_at": "2025-08-21T05:55:25.706849",
+    "updated_at": "2025-08-21T05:55:25.706849",
+    "image_path": null
+  },
+  {
+    "id": 48,
+    "name": "SPC Flooring",
+    "slug": "spc-flooring",
+    "parent_id": 11,
+    "sort_order": 0,
+    "is_active": true,
+    "created_at": "2025-12-23T16:24:32.798925",
+    "updated_at": "2026-01-02T12:52:43.093",
+    "image_path": null
+  },
+  {
+    "id": 49,
+    "name": "Faucets",
+    "slug": "faucets",
+    "parent_id": 6,
+    "sort_order": 0,
+    "is_active": true,
+    "created_at": "2026-01-05T16:13:57.336885",
+    "updated_at": "2026-01-05T16:13:57.336885",
+    "image_path": null
+  }
+]

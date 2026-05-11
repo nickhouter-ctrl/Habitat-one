@@ -1,0 +1,25 @@
+{
+  "not_found": "Project Not Found",
+  "not_found_desc": "The project you're looking for doesn't exist.",
+  "back_to_projects": "Back to Projects",
+  "project": "Project",
+  "project_details": "Project Details",
+  "default_desc": "A {{type}} project located in {{location}}.",
+  "type": "Type",
+  "location": "Location",
+  "size": "Size",
+  "rooms": "Rooms",
+  "style": "Style",
+  "completion": "Completion",
+  "gallery": "Gallery",
+  "explore_more": "Explore more",
+  "other_projects": "Other projects",
+  "tags": {
+    "renovation": "Before",
+    "result": "After Renovation"
+  },
+  "tag_descriptions": {
+    "renovation": "A glimpse of the space before we began transforming it.",
+    "result": "The finished result after our complete renovation."
+  }
+}

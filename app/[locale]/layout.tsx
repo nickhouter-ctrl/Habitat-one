@@ -1,0 +1,88 @@
+import type { Metadata, Viewport } from "next";
+import { notFound } from "next/navigation";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Montserrat, Cormorant_Garamond } from "next/font/google";
+import { routing } from "@/i18n/routing";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import { ScrollProgress } from "@/components/ui/scroll-progress";
+import "../globals.css";
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const cormorant = Cormorant_Garamond({
+  variable: "--font-cormorant",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  minimumScale: 1,
+  maximumScale: 5,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#faf4e8" },
+    { media: "(prefers-color-scheme: dark)", color: "#0f2e36" },
+  ],
+  colorScheme: "light",
+};
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return {
+    metadataBase: new URL("https://habitat-one.com"),
+    title: { default: t("title"), template: `%s · ${t("siteName")}` },
+    description: t("description"),
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      siteName: t("siteName"),
+      locale,
+      type: "website",
+    },
+  };
+}
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
+  setRequestLocale(locale);
+
+  return (
+    <html
+      lang={locale}
+      className={`${montserrat.variable} ${cormorant.variable} h-full`}
+    >
+      <body className="min-h-full flex flex-col bg-sand-50 text-ink antialiased">
+        <NextIntlClientProvider>
+          <ScrollProgress />
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}

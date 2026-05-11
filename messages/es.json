@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "siteName": "Habitat One",
+    "title": "Habitat One — Construye, reforma y vive con belleza en Xàbia",
+    "description": "La plataforma completa para construir, reformar y vivir en Xàbia. Materiales premium, propiedades seleccionadas, asesoría legal y diseño arquitectónico — todo bajo un mismo techo en la Costa Blanca."
+  },
+  "nav": {
+    "home": "Inicio",
+    "materials": "Materiales",
+    "products": "Productos",
+    "spaces": "Espacios",
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "sale": "Inmobiliaria",
+    "about": "Quiénes somos",
+    "contact": "Contacto",
+    "showroom": "Showroom",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "quote": "Pedir presupuesto",
+    "openMenu": "Abrir menú"
+  },
+  "common": {
+    "brand": "Habitat One",
+    "place": "Xàbia · Costa Blanca",
+    "exploreAll": "Ver todo",
+    "viewAll": "Ver todo",
+    "discover": "Descubre",
+    "learnMore": "Saber más",
+    "readMore": "Leer más",
+    "getInTouch": "Contacta",
+    "requestQuote": "Pedir presupuesto",
+    "talkToUs": "Habla con nuestro equipo",
+    "back": "Volver",
+    "backToList": "Volver al listado",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "loading": "Cargando…",
+    "items": "elementos",
+    "from": "desde",
+    "scrollToExplore": "Desplázate para explorar",
+    "comingSoon": "Detalles bajo petición",
+    "onRequest": "Bajo petición"
+  },
+  "hero": {
+    "eyebrow": "Xàbia · Jávea · Costa Blanca",
+    "titleA": "La casa de tus sueños",
+    "titleB": "en Xàbia",
+    "titleC": "empieza aquí",
+    "subtitle": "De la primera piedra al último olivo — Habitat One reúne materiales de construcción premium, diseño arquitectónico, asesoría legal y las mejores propiedades de Xàbia. Un hogar mediterráneo, construido con un solo equipo.",
+    "ctaPrimary": "Ver materiales",
+    "ctaSecondary": "Ver nuestros proyectos",
+    "scroll": "Desplaza",
+    "badge": "Establecidos en la Costa Blanca"
+  },
+  "stats": {
+    "years": "años en la Costa Blanca",
+    "projects": "viviendas transformadas",
+    "materials": "acabados seleccionados",
+    "languages": "idiomas hablados"
+  },
+  "home": {
+    "pillarsEyebrow": "Una plataforma, cuatro mundos",
+    "pillarsTitle": "Todo lo que necesita una casa en Xàbia",
+    "pillarsText": "Comprar, construir y reformar en la Costa Blanca suele significar coordinar una docena de empresas. Nosotros las hemos reunido bajo un mismo techo.",
+    "pillarMaterials": "Materiales premium",
+    "pillarMaterialsText": "Paneles de piedra y madera de gran formato, baño en solid surface, terrazo, microcemento y grifería — seleccionados para el clima mediterráneo.",
+    "pillarProperties": "Socios inmobiliarios",
+    "pillarPropertiesText": "Agentes inmobiliarios locales independientes trabajan junto a nosotros desde el showroom de Xàbia — y las casas que ofrecen las conviertes en un hogar terminado con un solo equipo.",
+    "pillarLegal": "Asesoría legal",
+    "pillarLegalText": "Compraventa, NIE, licencias y permisos de obra gestionados por abogados locales de confianza — en tu idioma.",
+    "pillarDesign": "Arquitectura y diseño",
+    "pillarDesignText": "Arquitectos e interioristas que moldean la luz, la piedra y la sombra en casas que se sienten Xàbia.",
+    "spacesEyebrow": "Estancia por estancia",
+    "spacesTitle": "Pensado para cada espacio",
+    "spacesText": "Dentro y fuera — descubre materiales e ideas seleccionados para cada parte de la casa mediterránea.",
+    "indoor": "Interior",
+    "outdoor": "Exterior",
+    "exploreSpace": "Explorar",
+    "materialsEyebrow": "La biblioteca de materiales",
+    "materialsTitle": "Superficies con historia",
+    "materialsText": "Travertino, madera quemada, tapial, hormigón beige — acabados de aspecto natural diseñados para durar junto al mar.",
+    "productsEyebrow": "De la colección",
+    "productsTitle": "Productos destacados",
+    "productsText": "Una muestra de las piezas que más prescribimos para cocinas, baños y fachadas en Xàbia.",
+    "viewCatalog": "Ver el catálogo completo",
+    "projectsEyebrow": "Antes y después",
+    "projectsTitle": "Transformaciones en Xàbia",
+    "projectsText": "Arrastra el control de cada proyecto para ver cómo casas cansadas de la Costa Blanca se convierten en serenos hogares mediterráneos.",
+    "viewProjects": "Ver todos los proyectos",
+    "processEyebrow": "Cómo trabajamos",
+    "processTitle": "De la idea a las llaves en cinco pasos",
+    "processText": "Un único interlocutor, desde la primera llamada hasta el día en que enciendes la vela en la terraza.",
+    "step1": "Escuchar y visitar",
+    "step1Text": "Nos vemos en la finca, entendemos tu parcela, presupuesto y sueños, y la recorremos juntos.",
+    "step2": "Diseño y plan de materiales",
+    "step2Text": "Los arquitectos y nuestro equipo de materiales dibujan los espacios y seleccionan acabados para el clima y la luz.",
+    "step3": "Legal y licencias",
+    "step3Text": "Nuestros abogados gestionan la compra, los permisos y el papeleo para que nada frene la obra.",
+    "step4": "Construir y reformar",
+    "step4Text": "Constructores locales seleccionados ejecutan las obras, supervisadas según el diseño y el pliego de materiales.",
+    "step5": "Entrega y cuidado",
+    "step5Text": "Entregamos una casa terminada — y seguimos disponibles para mantenimiento, mobiliario y la siguiente idea.",
+    "testimonialsEyebrow": "Lo que dicen los propietarios",
+    "testimonialsTitle": "Casas, y las personas que las habitan",
+    "locationEyebrow": "Por qué Xàbia",
+    "locationTitle": "Sol sobre el Montgó, sal en el aire",
+    "locationText": "Entre el macizo del Montgó y los acantilados del Cap de la Nau, Xàbia es uno de los microclimas mejor protegidos del Mediterráneo — 320 días de sol, colinas cubiertas de pinos, tres bahías distintas y un casco antiguo de piedra. Por eso solo trabajamos aquí.",
+    "locationPoint1": "El casco antiguo, el Puerto y el Arenal — tres Xàbias, un pueblo",
+    "locationPoint2": "Un microclima protegido alrededor del parque natural del Montgó",
+    "locationPoint3": "Playas con Bandera Azul y calas escondidas en el Cap de la Nau",
+    "locationPoint4": "Piedra tosca, cal y encalado — el lenguaje constructivo local",
+    "ctaTitle": "Construyamos tu villa en Xàbia.",
+    "ctaText": "Cuéntanos tu parcela, tu casa o tu idea. Te responderemos con materiales, planos y un plan claro — en tu idioma.",
+    "ctaButton": "Empieza tu proyecto",
+    "ctaSecondary": "Visita el showroom"
+  },
+  "materials": {
+    "eyebrow": "La biblioteca de materiales",
+    "title": "Materiales",
+    "intro": "Superficies de aspecto natural, listas para el clima, para suelos, paredes y fachadas. Cada acabado de nuestra biblioteca se elige por cómo vive bajo el sol, la sal y la sombra del Mediterráneo.",
+    "count": "{count} materiales en la biblioteca",
+    "usedIn": "Usado en",
+    "relatedProducts": "Productos en este material",
+    "noProducts": "Habla con nosotros sobre productos en este material.",
+    "applications": "Aplicaciones típicas",
+    "swatch": "Muestra de material",
+    "descriptions": {
+      "oak-wood": "Un panel cálido de gran formato en aspecto madera, en Magic Flexible Stone — la veta natural de la madera con la durabilidad y el mantenimiento fácil de la piedra, listo para suelos, paredes y fachadas junto al mar.",
+      "dark-wood": "Un acabado abujardado profundo en tonos oscuros y ricos — pensado para paredes protagonistas y entornos lujosos, con la textura de la madera envejecida y la resistencia de la piedra flexible.",
+      "concrete": "Un composite de cemento, árido y agua, apreciado por su resistencia, durabilidad y versatilidad — un panel de hormigón beige sereno para suelos, paredes y fachadas que envejece muy bien.",
+      "stone": "Nuestra familia de piedra natural flexible: paneles grandes y ligeros con el aspecto y el tacto de la piedra real, en una paleta de beiges y grises — para suelos, paredes protagonistas y exteriores.",
+      "sandstone": "Un aspecto de roca sedimentaria, principalmente partículas minerales de tamaño arena, con durabilidad natural y una superficie de textura rica — ideal para paneles arquitectónicos y fachadas.",
+      "concrete-stone": "Un panel poly-wood en suaves tonos amarillos — la calidez de la madera y el cuerpo de la piedra, para suelos resistentes y revestimientos de pared dentro y fuera.",
+      "solid-surface-stone": "Una piedra solid surface no porosa — sin juntas, reparable y cálida al tacto — usada para bañeras, lavabos y piezas de baño a medida."
+    }
+  },
+  "products": {
+    "eyebrow": "La colección",
+    "title": "Productos",
+    "intro": "Las piezas que más prescribimos para casas de la Costa Blanca — paneles de pared de gran formato, baño en solid surface, espejos, herrajes y más.",
+    "count": "{count} productos",
+    "filterAll": "Todos",
+    "collectionBathroom": "Baño",
+    "collectionWallPanels": "Magic Flexible Stone",
+    "collectionAccessories": "Accesorios",
+    "searchPlaceholder": "Buscar productos…",
+    "noResults": "Ningún producto coincide con tu búsqueda.",
+    "clearFilters": "Borrar filtros",
+    "sku": "Referencia",
+    "dimensions": "Dimensiones",
+    "material": "Material",
+    "materials": "Materiales",
+    "space": "Espacios",
+    "collection": "Colección",
+    "enquire": "Consultar este producto",
+    "related": "También te puede gustar",
+    "specsTitle": "Especificaciones",
+    "noImage": "Imagen bajo petición",
+    "featured": "Destacado",
+    "colour": "Colores",
+    "i18n": {
+      "shower-tray-drainage-match-with-the-shower-trays-1765881447305": {
+        "name": "Desagüe de plato de ducha",
+        "short": "Desagüe de plato de ducha, a juego con los platos de ducha."
+      },
+      "shower-tray-1200-900-50-1765881447585": {
+        "name": "Plato de ducha 1200×900×50"
+      },
+      "shower-tray-1400-800-60-1765881447763": {
+        "name": "Plato de ducha"
+      },
+      "shower-glass-1200-900-2000-1765881447927": {
+        "name": "Mampara de ducha"
+      },
+      "wash-basin-870-415-160-1765881448101": {
+        "name": "Lavabo"
+      },
+      "wash-basin-600-400-145-1765881448593": {
+        "name": "Lavabo"
+      },
+      "wash-basin-290-290-145-1765881448777": {
+        "name": "Lavabo"
+      },
+      "solid-surface-bathroom-tray-250-250-25-1765881448962": {
+        "name": "Bandeja de baño en solid surface",
+        "short": "Bandeja de baño 250×250×25 mm"
+      },
+      "mirror-600-800-30-1765881449334": {
+        "name": "Espejo"
+      },
+      "paper-holder-173-89-55-1765881449490": {
+        "name": "Portarrollos"
+      },
+      "towel-bar-627-71-25-1765881449656": {
+        "name": "Toallero de barra"
+      },
+      "makeup-mirrors-200mm-1765881449818": {
+        "name": "Espejo de maquillaje",
+        "short": "Espejo de maquillaje ø 200 mm"
+      },
+      "shower-set-1765881449999": {
+        "name": "Conjunto de ducha",
+        "short": "Talla única"
+      },
+      "robe-hook-80-72-36-1765881450340": {
+        "name": "Colgador"
+      },
+      "toilet-brush-holder-389-195-140-1765881450523": {
+        "name": "Portaescobillas",
+        "short": "Portaescobillas 389×195×140 mm"
+      },
+      "double-towel-rack-625-219-151-1765881450705": {
+        "name": "Toallero doble"
+      },
+      "concealed-cistern-flush-1070-90-500-1765881451194": {
+        "name": "Cisterna empotrada"
+      },
+      "brushed-stainless-steel-button-cover-240-160-12-1765881451362": {
+        "name": "Placa de pulsador en acero inoxidable cepillado"
+      },
+      "basin-drainage-match-with-basins-kkr-2121-kkr-1169-kkr-1507": {
+        "name": "Desagüe de lavabo",
+        "short": "Desagüe de lavabo, juego completo — C + solid surface"
+      },
+      "mirror-400x800x20mm": {
+        "name": "Espejo de baño",
+        "short": "Espejo dorado 400×800×20 mm"
+      },
+      "shower-tray-black": {
+        "name": "Plato de ducha negro",
+        "short": "Medidas 1200×900×35 mm"
+      },
+      "shower-tray-white": {
+        "name": "Plato de ducha blanco",
+        "short": "1225×900×68 mm — plato de ducha blanco, lujoso y elegante"
+      },
+      "wall-hung-toilet": {
+        "name": "Inodoro suspendido",
+        "short": "Inodoro suspendido 500×360×360 mm"
+      },
+      "wall-hung-toilet-white": {
+        "name": "Inodoro suspendido (blanco)",
+        "short": "Inodoro suspendido 500×360×350 mm"
+      },
+      "concrete-board-": {
+        "name": "Panel de hormigón",
+        "short": "Panel de hormigón 3060×1200 mm"
+      },
+      "ripple-board-": {
+        "name": "Panel ondulado"
+      },
+      "ms-travertino": {
+        "name": "MS Travertino"
+      },
+      "line-stone-board": {
+        "name": "Panel de piedra lineal",
+        "short": "Panel de piedra lineal 3000×600 mm"
+      },
+      "fine-line-stone-board-": {
+        "name": "Panel de piedra de líneas finas",
+        "short": "Panel de piedra de líneas finas 3000×600 mm"
+      },
+      "rust-board-": {
+        "name": "Panel óxido",
+        "short": "Placa media: 2940×970 — abujardado: 3060×1180"
+      },
+      "square-line-stone-": {
+        "name": "Piedra de líneas cuadradas",
+        "short": "Piedra de líneas cuadradas 2800×580 mm"
+      },
+      "huge-travertine-": {
+        "name": "Travertino (gran formato)"
+      },
+      "roman-huge-travertine": {
+        "name": "Travertino romano (gran formato)",
+        "short": "Categoría: piedra blanda pura 3–5 mm · grosor 3–5 mm · uso: pared/pared decorativa"
+      },
+      "wood-cement-board-": {
+        "name": "Panel de madera-cemento"
+      },
+      "charcoal-burnt-wood-board": {
+        "name": "Panel de madera quemada (carbón)"
+      },
+      "coarse-charcoal-burnt-wood-board": {
+        "name": "Panel de madera quemada gruesa (carbón)"
+      },
+      "linear-travertine": {
+        "name": "Travertino lineal"
+      },
+      "ando-cement-": {
+        "name": "Ando Cement"
+      },
+      "zen-ando-cement-board": {
+        "name": "Panel de cemento Zen Ando"
+      },
+      "ancient-wood-board-": {
+        "name": "Panel de madera antigua"
+      },
+      "poly-wood-board": {
+        "name": "Panel Poly-Wood"
+      },
+      "italian-travertine-": {
+        "name": "Travertino italiano"
+      },
+      "terrazzo-rough-stone": {
+        "name": "Terrazo piedra rústica"
+      },
+      "travertine": {
+        "name": "Travertino"
+      },
+      "rough-granite-": {
+        "name": "Granito rústico"
+      },
+      "rockface-stone": {
+        "name": "Piedra de pared rocosa"
+      },
+      "cut-stone-": {
+        "name": "Piedra cortada"
+      },
+      "age-stone-": {
+        "name": "Piedra envejecida"
+      },
+      "danxia-rammed-earth-board-": {
+        "name": "Panel de tapial Danxia"
+      },
+      "rampart-rammed-earth-board-": {
+        "name": "Panel de tapial Muralla"
+      },
+      "cave-rammed-earth-board-": {
+        "name": "Panel de tapial Cueva"
+      },
+      "bathtub": {
+        "name": "Bañera",
+        "short": "Bañera 1780×785×590 mm"
+      },
+      "bathtub-white": {
+        "name": "Bañera blanca",
+        "short": "1750×832×550 mm ▪ Material: piedra solid surface ▪ Acabado: mate ▪ Color: Designer White"
+      }
+    }
+  },
+  "spaces": {
+    "eyebrow": "Estancia por estancia",
+    "title": "Espacios",
+    "intro": "Cada parte de la casa mediterránea pide materiales, luz y cuidado distintos. Descubre ideas y acabados espacio por espacio.",
+    "indoor": "Espacios interiores",
+    "outdoor": "Espacios exteriores",
+    "exploreMaterials": "Materiales para este espacio",
+    "exploreProducts": "Productos para este espacio",
+    "ideasFor": "Ideas para el",
+    "noItems": "Habla con nosotros para ideas a medida para este espacio.",
+    "names": {
+      "bathroom": "Baño",
+      "kitchen": "Cocina",
+      "living-room": "Salón",
+      "bedroom": "Dormitorio",
+      "terrace": "Terraza",
+      "garden": "Jardín",
+      "pool-area": "Zona de piscina",
+      "outdoor-kitchen": "Cocina exterior"
+    },
+    "descriptions": {
+      "bathroom": "El baño pide superficies que aguanten el vapor y el agua sin inmutarse. Reunimos lavabos, bañeras y platos de ducha en solid surface, paneles de gran formato en aspecto piedra, grifería cepillada y luz cálida — una estancia serena, tipo spa, hecha para durar junto al mar.",
+      "kitchen": "La cocina es donde se reúne la casa. Encimeras resistentes, paneles de pared de gran formato tras la zona de cocción, microcemento y frentes de madera cálida — acabados elegidos para el uso diario, la limpieza fácil y cómo se mueve la luz mediterránea a lo largo del día.",
+      "living-room": "El salón es el corazón de la casa. Suelos continuos de piedra o madera cálida, paredes protagonistas en paneles Magic Flexible Stone, microcemento y enlucido de cal — materiales que enmarcan la vista, reciben el sol de la tarde y se sienten bien bajo los pies.",
+      "bedroom": "El dormitorio debe transmitir calma. Suelos suaves de madera, paredes cálidas de cal o microcemento, una pared de cabecero tapizada y luz indirecta suave — una paleta de descanso, con materiales que respiran en el clima de la Costa Blanca.",
+      "terrace": "La terraza es una estancia al aire libre. Pavimento de piedra antideslizante, pérgolas con sombra, una cocina exterior y bancos integrados — superficies y detalles diseñados para el sol, la sal y el viento de Levante, para que luzcan mejor cada temporada.",
+      "garden": "El jardín une la casa con la tierra. Caminos de piedra envejecida, muros de contención de piedra seca, plantación autóctona — olivo, almendro, lavanda, romero — e iluminación cuidada, todo en materiales que envejecen con elegancia al exterior.",
+      "pool-area": "La zona de piscina es la que más sufre: cloro, sal y sol pleno. Prescribimos perímetros de piscina, coronaciones, tarimas antideslizantes y duchas exteriores en acabados que sobreviven de verdad — y siguen luciendo serenos.",
+      "outdoor-kitchen": "La cocina exterior convierte el verano en la temporada principal. Encimeras de piedra o solid surface, revestimientos de gran formato, una barbacoa y almacenaje integrados, carpintería resistente a la intemperie — todo pensado para vivir fuera todo el año en la Costa Blanca."
+    }
+  },
+  "projects": {
+    "eyebrow": "Antes y después",
+    "title": "Proyectos",
+    "intro": "Reformas y obra nueva por toda Xàbia. Arrastra el tirador de cada proyecto para revelar el antes — y lo que puede hacer un plan de materiales bien pensado.",
+    "count": "{count} proyectos",
+    "before": "Antes",
+    "after": "Después",
+    "dragHint": "Arrastra para comparar",
+    "location": "Ubicación",
+    "year": "Año",
+    "scope": "Alcance",
+    "materialsUsed": "Materiales y productos",
+    "moreProjects": "Más transformaciones",
+    "viewProject": "Ver proyecto",
+    "galleryTitle": "De la obra",
+    "style": "Estilo",
+    "duration": "Duración",
+    "days": "días"
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Servicios",
+    "intro": "Cuatro equipos, un solo director de proyecto. Todo lo que necesitas para comprar, construir, reformar y amueblar una casa en Xàbia.",
+    "partnersTitle": "Socios locales de confianza",
+    "partnerNote": "Trabajamos codo con codo con profesionales consolidados de Xàbia. Uno de ellos:",
+    "whatWeHandle": "De qué nos ocupamos",
+    "talkAbout": "Habla con nosotros sobre",
+    "viewService": "Leer más",
+    "requestThis": "Solicitar este servicio"
+  },
+  "sale": {
+    "eyebrow": "Inmobiliaria · Xàbia",
+    "title": "Encontrar tu casa en Xàbia",
+    "intro": "Agentes inmobiliarios independientes trabajan junto a nosotros desde el showroom de Habitat One en Xàbia. Una pequeña selección, escogida a mano, de villas, parcelas y proyectos de reforma aparecerá aquí muy pronto — y puedes convertir cualquiera de ellos en una casa terminada con un solo equipo.",
+    "soon": "Anuncios muy pronto",
+    "soonText": "Estamos preparando una lista breve de propiedades que merecen tu tiempo. Mientras tanto, dinos qué buscas y te ponemos en contacto con el agente adecuado.",
+    "howTitle": "Cómo funciona",
+    "s1": "Agentes locales, en el sitio",
+    "s1Text": "Agentes inmobiliarios independientes de confianza tienen un puesto en nuestro showroom de Xàbia y lo usan para recibir clientes y guiarlos por los materiales y las ideas.",
+    "s2": "Selección escogida, pronto",
+    "s2Text": "Estamos reuniendo una pequeña selección de villas, parcelas con vistas al mar y proyectos de reforma por toda Xàbia. Aparecerán aquí.",
+    "s3": "Compra y luego construye con nosotros",
+    "s3Text": "¿Has comprado un proyecto de reforma o una parcela desnuda? Nuestros arquitectos, abogados y constructores siguen desde ahí — un director de proyecto, un plan, una casa terminada.",
+    "s4": "Dinos qué buscas",
+    "s4Text": "¿Buscando ahora? Envíanos tu encargo — zona, presupuesto, obra nueva o reforma — y te emparejamos con el agente adecuado y un plan realista.",
+    "buyerCta": "Dinos qué buscas",
+    "agentTitle": "¿Eres agente inmobiliario en Xàbia?",
+    "agentText": "Acogemos a agentes independientes en el showroom. Si quieres un puesto, el showroom y un socio para la parte de diseño y obra, ponte en contacto.",
+    "agentCta": "Habla con nosotros sobre colaborar",
+    "visitCta": "Visita el showroom"
+  },
+  "about": {
+    "eyebrow": "Quiénes somos",
+    "title": "Habitat One",
+    "lead": "Tu socio en materiales premium, asesoramiento de diseño y artesanía experta en la Costa Blanca.",
+    "storyEyebrow": "Nuestra historia",
+    "storyTitle": "Todo bajo un mismo techo para la casa de tus sueños",
+    "p1": "En Habitat One reunimos todo lo que necesitas para hacer realidad tu casa ideal. Nuestro centro de experiencia en Jávea está concebido como un concepto integral de one-stop-shopping, en el que liberamos por completo a nuestros clientes — desde la compra hasta la entrega y todo lo que hay en medio.",
+    "sub2": "De la compra a la casa soñada",
+    "p2": "Tanto si buscas una vivienda existente, un proyecto de reforma o una obra nueva: junto a nuestro socio Verhome Group te acompañamos en la compra de propiedades cuidadosamente seleccionadas. A menudo oportunidades únicas — incluidas, por ejemplo, propiedades de banco — que transformamos en viviendas de alta calidad totalmente a tu medida.",
+    "sub3": "Toda la experiencia bajo un mismo techo",
+    "p3": "Dentro de Habitat One encontrarás toda la experiencia bajo un mismo techo. Desde arquitectos y constructores hasta apoyo legal y administrativo, como la ayuda para obtener el número NIE. Además ofrecemos una amplia gama de materiales y acabados de alta calidad, importados directamente de Asia, Italia, España y otros países europeos. Cocinas, baños, suelos, chimeneas e instalaciones sostenibles como bombas de calor — todo cuidadosamente elegido por calidad, diseño y precio.",
+    "sub4": "Lo que nos distingue",
+    "p4": "Lo que nos distingue es la combinación de socios de confianza, artesanía y un enfoque totalmente integrado. Tú decides el estilo y el resultado final; nosotros nos encargamos de la ejecución — eficiente, transparente y con atención al detalle.",
+    "p5": "Habitat One es más que un showroom. Es el lugar donde las ideas se hacen realidad, y donde tu casa soñada en España se construye sin preocupaciones.",
+    "valuesEyebrow": "Nuestros valores",
+    "valuesTitle": "Lo que nos mueve",
+    "value1": "La calidad primero",
+    "value1Text": "Solo trabajamos con fabricantes europeos de confianza y seleccionamos personalmente cada producto de nuestra colección para garantizar los más altos estándares.",
+    "value2": "Trato personal",
+    "value2Text": "Cada proyecto es único. Nos tomamos el tiempo de entender tus necesidades y damos un asesoramiento a medida — del concepto a la entrega.",
+    "value3": "Pasión por el diseño",
+    "value3Text": "Vivimos y respiramos interiorismo y arquitectura. Nuestro equipo se adelanta a las tendencias para inspirar y guiar tus decisiones.",
+    "value4": "Arraigados localmente",
+    "value4Text": "Con base en Xàbia, entendemos el clima local, los estilos constructivos y la normativa. Somos tu vecino de confianza en cada proyecto.",
+    "statsTitle": "Habitat One en cifras",
+    "ctaTitle": "¿Listo para empezar tu proyecto?",
+    "ctaText": "Visita nuestro showroom en Xàbia o ponte en contacto — nos encantará ayudarte a hacer realidad tu visión.",
+    "teamTitle": "Las personas con las que trabajarás",
+    "teamNote": "Un equipo unido de arquitectos, interioristas, especialistas en materiales y jefes de obra — junto a socios de confianza en la Costa Blanca, entre ellos Verhome Group y Antón Abogados."
+  },
+  "contact": {
+    "eyebrow": "Saluda",
+    "title": "Hablemos de tu casa",
+    "intro": "Cuéntanos tu parcela, tu propiedad o tu idea. Solemos responder en un día laborable — en inglés, neerlandés, español o alemán.",
+    "formTitle": "Envíanos un mensaje",
+    "name": "Tu nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono (opcional)",
+    "subject": "Asunto",
+    "subjectOptions": {
+      "general": "Consulta general",
+      "materials": "Materiales y productos",
+      "renovation": "Reforma u obra nueva",
+      "property": "Comprar una propiedad",
+      "legal": "Legal y papeleo",
+      "showroom": "Visitar el showroom"
+    },
+    "message": "Tu mensaje",
+    "messagePlaceholder": "Cuéntanos tu proyecto, parcela o propiedad…",
+    "consent": "Acepto que Habitat One se ponga en contacto conmigo sobre mi consulta.",
+    "send": "Enviar mensaje",
+    "sending": "Enviando…",
+    "sent": "Gracias — tu mensaje está en camino. Te contactaremos en breve.",
+    "errorRequired": "Rellena este campo.",
+    "errorEmail": "Introduce un correo electrónico válido.",
+    "infoTitle": "Habitat One",
+    "addressLabel": "Showroom y estudio",
+    "address": "Carrer del Pla, Xàbia (Jávea), 03730 Alicante, España",
+    "phoneLabel": "Teléfono",
+    "emailLabel": "Correo",
+    "hoursLabel": "Horario",
+    "hoursWeek": "Visitas únicamente con cita previa — estamos aquí de lunes a sábado.",
+    "languagesLabel": "Idiomas",
+    "mapTitle": "Encuéntranos en Xàbia",
+    "mapNote": "Aparcamiento gratuito en el showroom. Visitas a proyectos y al almacén de piedra con cita previa.",
+    "hoursByAppointment": "Visitas únicamente con cita previa — estamos aquí de lunes a sábado.",
+    "hoursShort": "Solo con cita previa"
+  },
+  "showroom": {
+    "eyebrow": "Visítanos",
+    "title": "El showroom de Xàbia",
+    "intro": "Vive en persona nuestra selección de materiales premium. Toca, compara y descubre la paleta perfecta para tu proyecto.",
+    "experienceTitle": "Qué encontrarás",
+    "exp1": "Biblioteca de materiales",
+    "exp1Text": "Toca y compara cientos de materiales premium — piedra natural, cerámica, madera maciza, microcemento y más.",
+    "exp2": "Consulta de diseño",
+    "exp2Text": "Reserva una sesión gratuita con nuestros arquitectos y diseñadores para planificar tu reforma u obra nueva.",
+    "exp3": "Instalaciones reales",
+    "exp3Text": "Ve nuestros materiales instalados en ambientes a escala real para visualizar el resultado final.",
+    "exp4": "Servicio de muestras",
+    "exp4Text": "Llévate muestras de material para probarlas en tu propia luz y espacio.",
+    "visitTitle": "Planifica tu visita",
+    "bookTitle": "Reserva una consulta",
+    "bookText": "Las consultas son gratuitas y duran aproximadamente una hora. Dinos cuándo te viene bien.",
+    "bookButton": "Solicitar una cita",
+    "addressTitle": "Dirección",
+    "hoursTitle": "Horario",
+    "directions": "Cómo llegar",
+    "tourTitle": "Tour virtual",
+    "tourText": "Un recorrido 360° por el showroom de Jávea está en camino. De momento, ven a verlo en persona.",
+    "tourSoon": "Próximamente",
+    "subtitle": "Ver · Sentir · Experimentar",
+    "howToGetHere": "Cómo llegar",
+    "directionsText": "En el corazón de Xàbia con aparcamiento gratuito — a 90 minutos de Valencia y 75 del aeropuerto de Alicante."
+  },
+  "footer": {
+    "tagline": "Construye, reforma y vive con belleza en Xàbia — materiales, diseño, derecho e inmuebles bajo un mismo techo mediterráneo.",
+    "exploreTitle": "Explorar",
+    "companyTitle": "Empresa",
+    "contactTitle": "Contacto",
+    "newsletterTitle": "Notas desde Xàbia",
+    "newsletterText": "Novedades de materiales, historias de proyectos y, de vez en cuando, una casa en venta. Sin ruido.",
+    "newsletterPlaceholder": "Tu correo",
+    "newsletterButton": "Suscribirme",
+    "newsletterThanks": "Gracias — ya estás en la lista.",
+    "rights": "Todos los derechos reservados.",
+    "builtIn": "Diseñado y construido en la Costa Blanca.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "langLabel": "Idioma"
+  },
+  "notFound": {
+    "title": "Esta estancia no existe (todavía)",
+    "text": "La página que buscas se ha movido o nunca existió. Te llevamos de vuelta a algo sólido.",
+    "button": "Volver al inicio",
+    "browse": "Ver el catálogo"
+  },
+  "appointment": {
+    "title": "Reservar una cita",
+    "subtitle": "Programa una visita personalizada al showroom con nuestro equipo.",
+    "rolePrompt": "Para reservar una visita al showroom, dinos tu rol profesional.",
+    "roleArchitect": "Arquitecto",
+    "roleSales": "Comercial",
+    "roleHomeowner": "Propietario",
+    "roleOther": "Otro",
+    "proOnly": "Las citas están reservadas a profesionales",
+    "proOnlyDesc": "Las citas en el showroom están disponibles actualmente para arquitectos y profesionales del sector. Puedes enviarnos un mensaje — estaremos encantados de ayudarte y de recibirte en horario de apertura.",
+    "contactInstead": "Envíanos un mensaje",
+    "continueBooking": "Continuar con la reserva",
+    "changeRole": "Cambiar rol",
+    "pickSlot": "Elige una fecha y hora que te vengan bien. Confirmaremos tu cita o te propondremos una alternativa.",
+    "availableTimes": "Horarios disponibles",
+    "selected": "Seleccionado",
+    "name": "Nombre",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "notes": "Notas (opcional)",
+    "namePh": "Tu nombre",
+    "emailPh": "tu@email.com",
+    "notesPh": "¿Algo que debamos saber?",
+    "submit": "Solicitar cita",
+    "sending": "Enviando…",
+    "received": "¡Solicitud recibida!",
+    "receivedDesc": "Revisaremos tu solicitud y la confirmaremos por correo — o te propondremos otra hora.",
+    "bookAnother": "Reservar otra",
+    "chooseDate": "Elige una fecha"
+  }
+}

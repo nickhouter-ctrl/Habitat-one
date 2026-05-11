@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "siteName": "Habitat One",
+    "title": "Habitat One — Bouwen, renoveren & mooi wonen in Xàbia",
+    "description": "Het complete platform om te bouwen, renoveren en wonen in Xàbia. Premium materialen, geselecteerde woningen, juridische begeleiding en architectonisch ontwerp — alles onder één dak aan de Costa Blanca."
+  },
+  "nav": {
+    "home": "Home",
+    "materials": "Materialen",
+    "products": "Producten",
+    "spaces": "Ruimtes",
+    "projects": "Projecten",
+    "services": "Diensten",
+    "sale": "Vastgoed",
+    "about": "Over ons",
+    "contact": "Contact",
+    "showroom": "Showroom",
+    "menu": "Menu",
+    "close": "Sluiten",
+    "quote": "Offerte aanvragen",
+    "openMenu": "Menu openen"
+  },
+  "common": {
+    "brand": "Habitat One",
+    "place": "Xàbia · Costa Blanca",
+    "exploreAll": "Bekijk alles",
+    "viewAll": "Alles bekijken",
+    "discover": "Ontdek",
+    "learnMore": "Meer weten",
+    "readMore": "Lees meer",
+    "getInTouch": "Neem contact op",
+    "requestQuote": "Offerte aanvragen",
+    "talkToUs": "Praat met ons team",
+    "back": "Terug",
+    "backToList": "Terug naar overzicht",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "loading": "Laden…",
+    "items": "items",
+    "from": "vanaf",
+    "scrollToExplore": "Scroll om te ontdekken",
+    "comingSoon": "Details op aanvraag",
+    "onRequest": "Op aanvraag"
+  },
+  "hero": {
+    "eyebrow": "Xàbia · Jávea · Costa Blanca",
+    "titleA": "Jouw droomhuis",
+    "titleB": "in Xàbia",
+    "titleC": "begint hier",
+    "subtitle": "Van de eerste steen tot de laatste olijfboom — Habitat One brengt premium bouwmaterialen, architectonisch ontwerp, juridische begeleiding en de mooiste woningen in Xàbia samen. Eén mediterraan thuis, gebouwd met één team.",
+    "ctaPrimary": "Bekijk materialen",
+    "ctaSecondary": "Bekijk onze projecten",
+    "scroll": "Scroll",
+    "badge": "Gevestigd aan de Costa Blanca"
+  },
+  "stats": {
+    "years": "jaar aan de Costa Blanca",
+    "projects": "woningen getransformeerd",
+    "materials": "geselecteerde afwerkingen",
+    "languages": "talen gesproken"
+  },
+  "home": {
+    "pillarsEyebrow": "Eén platform, vier werelden",
+    "pillarsTitle": "Alles wat een huis in Xàbia nodig heeft",
+    "pillarsText": "Kopen, bouwen en renoveren aan de Costa Blanca betekent meestal jongleren met een tiental bedrijven. Wij hebben ze onder één dak gebracht.",
+    "pillarMaterials": "Premium materialen",
+    "pillarMaterialsText": "Grootformaat steen- en houtpanelen, solid-surface badkamerproducten, terrazzo, microcement en kranen — geselecteerd voor het mediterrane klimaat.",
+    "pillarProperties": "Vastgoedpartners",
+    "pillarPropertiesText": "Onafhankelijke lokale makelaars werken samen met ons vanuit de showroom in Xàbia — en de woningen die zij aanbieden, maak je met één team tot een afgewerkt huis.",
+    "pillarLegal": "Juridische begeleiding",
+    "pillarLegalText": "Aankoop, NIE, vergunningen en projectlicenties geregeld door vertrouwde lokale juristen — in jouw taal.",
+    "pillarDesign": "Architectuur & ontwerp",
+    "pillarDesignText": "Architecten en interieurontwerpers die licht, steen en schaduw vormgeven tot huizen die aanvoelen als Xàbia.",
+    "spacesEyebrow": "Ruimte voor ruimte",
+    "spacesTitle": "Ontworpen voor elke ruimte",
+    "spacesText": "Binnen en buiten — ontdek geselecteerde materialen en ideeën voor elk deel van het mediterrane huis.",
+    "indoor": "Binnen",
+    "outdoor": "Buiten",
+    "exploreSpace": "Ontdek",
+    "materialsEyebrow": "De materiaalbibliotheek",
+    "materialsTitle": "Oppervlakken met een verhaal",
+    "materialsText": "Travertijn, verbrand hout, stampleem, beige beton — natuurlijk ogende afwerkingen, gemaakt om te blijven aan zee.",
+    "productsEyebrow": "Uit de collectie",
+    "productsTitle": "Uitgelichte producten",
+    "productsText": "Een blik op de stukken die wij het meest voorschrijven voor keukens, badkamers en gevels in Xàbia.",
+    "viewCatalog": "Bekijk de volledige catalogus",
+    "projectsEyebrow": "Voor & na",
+    "projectsTitle": "Transformaties in Xàbia",
+    "projectsText": "Sleep de slider bij elk project om te zien hoe vermoeide Costa Blanca-huizen serene mediterrane woningen worden.",
+    "viewProjects": "Bekijk alle projecten",
+    "processEyebrow": "Hoe wij werken",
+    "processTitle": "Van idee tot sleutel in vijf stappen",
+    "processText": "Eén aanspreekpunt, van het eerste telefoontje tot de dag dat je de kaars op het terras aansteekt.",
+    "step1": "Luisteren & bezoeken",
+    "step1Text": "We komen ter plaatse, begrijpen je perceel, budget en dromen en lopen het samen na.",
+    "step2": "Ontwerp & materiaalplan",
+    "step2Text": "Architecten en ons materiaalteam tekenen de ruimtes en kiezen afwerkingen voor het klimaat en het licht.",
+    "step3": "Juridisch & vergunningen",
+    "step3Text": "Onze juristen regelen de aankoop, vergunningen en papieren zodat niets de bouw vertraagt.",
+    "step4": "Bouwen & renoveren",
+    "step4Text": "Geselecteerde lokale aannemers voeren de werken uit, gecontroleerd op ontwerp en materiaalbestek.",
+    "step5": "Oplevering & nazorg",
+    "step5Text": "We leveren een afgewerkt huis op — en blijven bereikbaar voor onderhoud, meubels en het volgende idee.",
+    "testimonialsEyebrow": "Wat eigenaren zeggen",
+    "testimonialsTitle": "Huizen, en de mensen erin",
+    "locationEyebrow": "Waarom Xàbia",
+    "locationTitle": "Zon op de Montgó, zout in de lucht",
+    "locationText": "Tussen het Montgó-massief en de kliffen van de Cap de la Nau ligt Xàbia, een van de best beschermde microklimaten van de Middellandse Zee — 320 dagen zon, met pijnbomen begroeide heuvels, drie verschillende baaien en een oude stad van steen. Daarom werken wij alleen hier.",
+    "locationPoint1": "De oude stad, de haven en de Arenal — drie Xàbia's, één dorp",
+    "locationPoint2": "Een beschermd microklimaat rond het natuurpark Montgó",
+    "locationPoint3": "Blue-Flag-stranden en verborgen baaien op de Cap de la Nau",
+    "locationPoint4": "Tosca-steen, witkalk en kalk — de lokale bouwtaal",
+    "ctaTitle": "Laten wij jouw Xàbia-villa bouwen.",
+    "ctaText": "Vertel ons over je perceel, je huis of je idee. Wij komen terug met materialen, tekeningen en een helder plan — in jouw taal.",
+    "ctaButton": "Start je project",
+    "ctaSecondary": "Bezoek de showroom"
+  },
+  "materials": {
+    "eyebrow": "De materiaalbibliotheek",
+    "title": "Materialen",
+    "intro": "Natuurlijk ogende, klimaatbestendige oppervlakken voor vloeren, wanden en gevels. Elke afwerking in onze bibliotheek is gekozen op hoe ze leeft in mediterrane zon, zout en schaduw.",
+    "count": "{count} materialen in de bibliotheek",
+    "usedIn": "Gebruikt in",
+    "relatedProducts": "Producten in dit materiaal",
+    "noProducts": "Praat met ons over producten in dit materiaal.",
+    "applications": "Typische toepassingen",
+    "swatch": "Materiaalstaal",
+    "descriptions": {
+      "oak-wood": "Een warm, grootformaat hout-look paneel in Magic Flexible Stone — de natuurlijke houtnerf met de duurzaamheid en het lage onderhoud van steen, klaar voor vloeren, wanden en gevels aan zee.",
+      "dark-wood": "Een diepe, gebouchardeerde afwerking in rijke donkere tinten — gemaakt voor statement-wanden en luxueuze locaties, met de textuur van verweerd hout en de veerkracht van flexibele steen.",
+      "concrete": "Een composiet van cement, aggregaat en water, geliefd om kracht, duurzaamheid en veelzijdigheid — een rustig beige betonpaneel voor vloeren, wanden en gevels dat mooi veroudert.",
+      "stone": "Onze familie flexibele natuursteen: grote, lichte panelen met de look en feel van echte steen, in een palet van beiges en grijzen — voor vloeren, accentwanden en buitentoepassingen.",
+      "sandstone": "Een sedimentaire rotswand-look, voornamelijk zandkorrelige mineraaldeeltjes, met natuurlijke duurzaamheid en een rijk getextureerd oppervlak — ideaal voor architectonische panelen en gevels.",
+      "concrete-stone": "Een poly-wood paneel in zachte gele tinten — de warmte van hout en het lichaam van steen, voor slijtvaste vloeren en wandbekledingen binnen en buiten.",
+      "solid-surface-stone": "Een niet-poreuze solid-surface steen — naadloos, herstelbaar en warm bij aanraking — gebruikt voor baden, wastafels en maatwerk badkamerstukken."
+    }
+  },
+  "products": {
+    "eyebrow": "De collectie",
+    "title": "Producten",
+    "intro": "De stukken die wij het meest voorschrijven voor Costa Blanca-woningen — grootformaat wandpanelen, solid-surface badkamerproducten, spiegels, beslag en meer.",
+    "count": "{count} producten",
+    "filterAll": "Alle",
+    "collectionBathroom": "Badkamer",
+    "collectionWallPanels": "Magic Flexible Stone",
+    "collectionAccessories": "Accessoires",
+    "searchPlaceholder": "Producten zoeken…",
+    "noResults": "Geen producten gevonden voor je zoekopdracht.",
+    "clearFilters": "Filters wissen",
+    "sku": "Referentie",
+    "dimensions": "Afmetingen",
+    "material": "Materiaal",
+    "materials": "Materialen",
+    "space": "Ruimtes",
+    "collection": "Collectie",
+    "enquire": "Vraag naar dit product",
+    "related": "Misschien ook interessant",
+    "specsTitle": "Specificaties",
+    "noImage": "Afbeelding op aanvraag",
+    "featured": "Uitgelicht",
+    "colour": "Kleuren",
+    "i18n": {
+      "shower-tray-drainage-match-with-the-shower-trays-1765881447305": {
+        "name": "Douchebak-afvoer",
+        "short": "Douchebakafvoer, passend bij de douchebakken."
+      },
+      "shower-tray-1200-900-50-1765881447585": {
+        "name": "Douchebak 1200×900×50"
+      },
+      "shower-tray-1400-800-60-1765881447763": {
+        "name": "Douchebak"
+      },
+      "shower-glass-1200-900-2000-1765881447927": {
+        "name": "Douchewand (glas)"
+      },
+      "wash-basin-870-415-160-1765881448101": {
+        "name": "Wastafel"
+      },
+      "wash-basin-600-400-145-1765881448593": {
+        "name": "Wastafel"
+      },
+      "wash-basin-290-290-145-1765881448777": {
+        "name": "Wastafel"
+      },
+      "solid-surface-bathroom-tray-250-250-25-1765881448962": {
+        "name": "Solid-surface badkamerschaaltje",
+        "short": "Badkamerschaaltje 250×250×25 mm"
+      },
+      "mirror-600-800-30-1765881449334": {
+        "name": "Spiegel"
+      },
+      "paper-holder-173-89-55-1765881449490": {
+        "name": "Toiletrolhouder"
+      },
+      "towel-bar-627-71-25-1765881449656": {
+        "name": "Handdoekstang"
+      },
+      "makeup-mirrors-200mm-1765881449818": {
+        "name": "Make-upspiegel",
+        "short": "Make-upspiegel ø 200 mm"
+      },
+      "shower-set-1765881449999": {
+        "name": "Doucheset",
+        "short": "Eén maat"
+      },
+      "robe-hook-80-72-36-1765881450340": {
+        "name": "Jashaak"
+      },
+      "toilet-brush-holder-389-195-140-1765881450523": {
+        "name": "Toiletborstelhouder",
+        "short": "Toiletborstelhouder 389×195×140 mm"
+      },
+      "double-towel-rack-625-219-151-1765881450705": {
+        "name": "Dubbel handdoekrek"
+      },
+      "concealed-cistern-flush-1070-90-500-1765881451194": {
+        "name": "Inbouwreservoir"
+      },
+      "brushed-stainless-steel-button-cover-240-160-12-1765881451362": {
+        "name": "Bedieningsplaat geborsteld rvs"
+      },
+      "basin-drainage-match-with-basins-kkr-2121-kkr-1169-kkr-1507": {
+        "name": "Wastafelafvoer",
+        "short": "Wastafelafvoer, complete set — C + solid surface"
+      },
+      "mirror-400x800x20mm": {
+        "name": "Badkamerspiegel",
+        "short": "Spiegel goud 400×800×20 mm"
+      },
+      "shower-tray-black": {
+        "name": "Douchebak zwart",
+        "short": "Afmetingen 1200×900×35 mm"
+      },
+      "shower-tray-white": {
+        "name": "Douchebak wit",
+        "short": "1225×900×68 mm — douchebak wit, luxe en stijlvol"
+      },
+      "wall-hung-toilet": {
+        "name": "Hangtoilet",
+        "short": "Hangtoilet 500×360×360 mm"
+      },
+      "wall-hung-toilet-white": {
+        "name": "Hangtoilet (wit)",
+        "short": "Hangtoilet 500×360×350 mm"
+      },
+      "concrete-board-": {
+        "name": "Betonpaneel",
+        "short": "Betonpaneel 3060×1200 mm"
+      },
+      "ripple-board-": {
+        "name": "Golfpaneel"
+      },
+      "ms-travertino": {
+        "name": "MS Travertino"
+      },
+      "line-stone-board": {
+        "name": "Lijnsteenpaneel",
+        "short": "Lijnsteenpaneel 3000×600 mm"
+      },
+      "fine-line-stone-board-": {
+        "name": "Fijnlijnsteenpaneel",
+        "short": "Fijnlijnsteenpaneel 3000×600 mm"
+      },
+      "rust-board-": {
+        "name": "Roestpaneel",
+        "short": "Middenplaat: 2940×970 — gebouchardeerd: 3060×1180"
+      },
+      "square-line-stone-": {
+        "name": "Vierkante lijnsteen",
+        "short": "Vierkante lijnsteen 2800×580 mm"
+      },
+      "huge-travertine-": {
+        "name": "Travertijn (groot formaat)"
+      },
+      "roman-huge-travertine": {
+        "name": "Romeins travertijn (groot formaat)",
+        "short": "Categorie: pure zachte steen 3–5 mm · dikte 3–5 mm · toepassing: wand/accentwand"
+      },
+      "wood-cement-board-": {
+        "name": "Houtcementpaneel"
+      },
+      "charcoal-burnt-wood-board": {
+        "name": "Verbrand houtpaneel (houtskool)"
+      },
+      "coarse-charcoal-burnt-wood-board": {
+        "name": "Grof verbrand houtpaneel (houtskool)"
+      },
+      "linear-travertine": {
+        "name": "Lineair travertijn"
+      },
+      "ando-cement-": {
+        "name": "Ando-cement"
+      },
+      "zen-ando-cement-board": {
+        "name": "Zen Ando-cementpaneel"
+      },
+      "ancient-wood-board-": {
+        "name": "Oud-houtpaneel"
+      },
+      "poly-wood-board": {
+        "name": "Poly-Wood-paneel"
+      },
+      "italian-travertine-": {
+        "name": "Italiaans travertijn"
+      },
+      "terrazzo-rough-stone": {
+        "name": "Terrazzo ruwe steen"
+      },
+      "travertine": {
+        "name": "Travertijn"
+      },
+      "rough-granite-": {
+        "name": "Ruw graniet"
+      },
+      "rockface-stone": {
+        "name": "Rotswandsteen"
+      },
+      "cut-stone-": {
+        "name": "Gezaagde steen"
+      },
+      "age-stone-": {
+        "name": "Verouderde steen"
+      },
+      "danxia-rammed-earth-board-": {
+        "name": "Danxia stampleempaneel"
+      },
+      "rampart-rammed-earth-board-": {
+        "name": "Vestingmuur stampleempaneel"
+      },
+      "cave-rammed-earth-board-": {
+        "name": "Grot stampleempaneel"
+      },
+      "bathtub": {
+        "name": "Bad",
+        "short": "Bad 1780×785×590 mm"
+      },
+      "bathtub-white": {
+        "name": "Bad wit",
+        "short": "1750×832×550 mm ▪ Materiaal: solid-surface steen ▪ Afwerking: mat ▪ Kleur: Designer White"
+      }
+    }
+  },
+  "spaces": {
+    "eyebrow": "Ruimte voor ruimte",
+    "title": "Ruimtes",
+    "intro": "Elk deel van het mediterrane huis vraagt om andere materialen, licht en zorg. Ontdek ideeën en afwerkingen ruimte voor ruimte.",
+    "indoor": "Binnenruimtes",
+    "outdoor": "Buitenruimtes",
+    "exploreMaterials": "Materialen voor deze ruimte",
+    "exploreProducts": "Producten voor deze ruimte",
+    "ideasFor": "Ideeën voor de",
+    "noItems": "Praat met ons voor ideeën op maat voor deze ruimte.",
+    "names": {
+      "bathroom": "Badkamer",
+      "kitchen": "Keuken",
+      "living-room": "Woonkamer",
+      "bedroom": "Slaapkamer",
+      "terrace": "Terras",
+      "garden": "Tuin",
+      "pool-area": "Zwembad",
+      "outdoor-kitchen": "Buitenkeuken"
+    },
+    "descriptions": {
+      "bathroom": "De badkamer vraagt om oppervlakken die stoom en water moeiteloos doorstaan. We brengen solid-surface wastafels, baden en douchebakken, grootformaat steen-look panelen, geborsteld messing en warm licht samen — een rustige, spa-achtige ruimte, gemaakt om te blijven aan zee.",
+      "kitchen": "De keuken is waar het huis samenkomt. Slijtvaste werkbladen, grootformaat wandpanelen achter de kookplaat, microcement en warme houten fronten — afwerkingen gekozen voor dagelijks gebruik, makkelijk schoonmaken en de manier waarop het mediterrane licht door de dag beweegt.",
+      "living-room": "De woonkamer is het hart van het huis. Doorlopende steen- of warme houtvloeren, accentwanden in Magic Flexible Stone-panelen, microcement en kalkpleister — materialen die het uitzicht omlijsten, de middagzon opvangen en fijn aanvoelen onder de voeten.",
+      "bedroom": "De slaapkamer moet rust uitstralen. Zachte houtvloeren, warme kalk- of microcementwanden, een gestoffeerde hoofdbordwand en zacht indirect licht — een rustgevend palet, met materialen die ademen in het klimaat van de Costa Blanca.",
+      "terrace": "Het terras is een buitenkamer. Slipvaste stenen bestrating, schaduwrijke pergola's, een buitenkeuken en ingebouwde zitbanken — oppervlakken en details gemaakt voor zon, zout en de Levante-wind, zodat ze er met elk seizoen mooier uitzien.",
+      "garden": "De tuin verbindt het huis met het land. Getrommelde stenen paden, droogstenen keermuren, inheemse beplanting — olijf, amandel, lavendel, rozemarijn — en doordachte verlichting, allemaal in materialen die buiten mooi verouderen.",
+      "pool-area": "Het zwembad krijgt het zwaarst te verduren van alle ruimtes: chloor, zout en volle zon. We schrijven zwembadranden, boordstenen, antislip-terrasdelen en buitendouches voor in afwerkingen die het bewezen overleven — en sereen blijven ogen.",
+      "outdoor-kitchen": "De buitenkeuken maakt van de zomer het hoofdseizoen. Werkbladen van steen of solid surface, grootformaat bekleding, een ingebouwde barbecue en opbergruimte, weerbestendig timmerwerk — alles gedetailleerd om het hele jaar buiten te leven aan de Costa Blanca."
+    }
+  },
+  "projects": {
+    "eyebrow": "Voor & na",
+    "title": "Projecten",
+    "intro": "Renovaties en nieuwbouw in heel Xàbia. Sleep de greep bij elk project om het 'voor' te onthullen — en wat een doordacht materiaalplan kan doen.",
+    "count": "{count} projecten",
+    "before": "Voor",
+    "after": "Na",
+    "dragHint": "Sleep om te vergelijken",
+    "location": "Locatie",
+    "year": "Jaar",
+    "scope": "Omvang",
+    "materialsUsed": "Materialen & producten",
+    "moreProjects": "Meer transformaties",
+    "viewProject": "Bekijk project",
+    "galleryTitle": "Van de bouw",
+    "style": "Stijl",
+    "duration": "Duur",
+    "days": "dagen"
+  },
+  "services": {
+    "eyebrow": "Wat wij doen",
+    "title": "Diensten",
+    "intro": "Vier teams, één projectleider. Alles wat je nodig hebt om een huis in Xàbia te kopen, bouwen, renoveren en inrichten.",
+    "partnersTitle": "Vertrouwde lokale partners",
+    "partnerNote": "We werken hand in hand met gevestigde professionals in Xàbia. Een van hen:",
+    "whatWeHandle": "Wat wij regelen",
+    "talkAbout": "Praat met ons over",
+    "viewService": "Lees meer",
+    "requestThis": "Deze dienst aanvragen"
+  },
+  "sale": {
+    "eyebrow": "Vastgoed · Xàbia",
+    "title": "Jouw huis vinden in Xàbia",
+    "intro": "Onafhankelijke makelaars werken samen met ons vanuit de Habitat One-showroom in Xàbia. Een kleine, zorgvuldig gekozen selectie villa's, percelen en renovatieprojecten verschijnt hier binnenkort — en je kunt elk ervan met één team tot een afgewerkt huis maken.",
+    "soon": "Aanbod komt binnenkort",
+    "soonText": "We stellen een korte lijst samen van woningen die je aandacht waard zijn. Vertel ons ondertussen wat je zoekt, dan brengen we je in contact met de juiste makelaar.",
+    "howTitle": "Hoe het werkt",
+    "s1": "Lokale makelaars, op locatie",
+    "s1Text": "Vertrouwde onafhankelijke makelaars hebben een werkplek in onze showroom in Xàbia en gebruiken die om klanten te ontmoeten en ze door materialen en ideeën te leiden.",
+    "s2": "Geselecteerd aanbod, binnenkort",
+    "s2Text": "We stellen een kleine selectie villa's, percelen met zeezicht en renovatieprojecten in heel Xàbia samen. Die verschijnen hier.",
+    "s3": "Kopen, daarna met ons bouwen",
+    "s3Text": "Een renovatieproject of kale kavel gekocht? Onze architecten, juristen en aannemers nemen het over — één projectleider, één plan, één afgewerkt huis.",
+    "s4": "Vertel ons wat je zoekt",
+    "s4Text": "Nu aan het zoeken? Stuur ons je wensen — wijk, budget, nieuwbouw of renovatie — en we koppelen je aan de juiste makelaar en een realistisch plan.",
+    "buyerCta": "Vertel ons wat je zoekt",
+    "agentTitle": "Ben je makelaar in Xàbia?",
+    "agentText": "We bieden onafhankelijke makelaars een plek in de showroom. Wil je een werkplek, de showroom en een partner voor het ontwerp- en bouwgedeelte? Neem contact op.",
+    "agentCta": "Praat met ons over samenwerken",
+    "visitCta": "Bezoek de showroom"
+  },
+  "about": {
+    "eyebrow": "Over ons",
+    "title": "Habitat One",
+    "lead": "Jouw partner voor premium materialen, ontwerpadvies en vakmanschap aan de Costa Blanca.",
+    "storyEyebrow": "Ons verhaal",
+    "storyTitle": "Alles onder één dak voor jouw droomhuis",
+    "p1": "Bij Habitat One brengen we alles samen wat je nodig hebt om jouw ideale huis te realiseren. Ons experience center in Jávea is opgezet als een compleet one-stop-shopping-concept, waarbij we onze klanten volledig ontzorgen — van aankoop tot oplevering en alles daartussenin.",
+    "sub2": "Van aankoop tot droomhuis",
+    "p2": "Of je nu op zoek bent naar een bestaande woning, een renovatieproject of nieuwbouw: samen met onze partner Verhome Group begeleiden we je bij de aankoop van zorgvuldig geselecteerde woningen. Vaak unieke kansen — waaronder bijvoorbeeld bankwoningen — die we transformeren tot hoogwaardige woningen, volledig op maat van jouw wensen.",
+    "sub3": "Alle expertise onder één dak",
+    "p3": "Binnen Habitat One vind je alle expertise onder één dak. Van architecten en aannemers tot juridische en administratieve ondersteuning, zoals hulp bij het verkrijgen van een NIE-nummer. Daarnaast bieden we een uitgebreid assortiment hoogwaardige materialen en afwerkingen, rechtstreeks ingekocht uit Azië, Italië, Spanje en andere Europese landen. Denk aan keukens, badkamers, vloeren, haarden en duurzame installaties zoals warmtepompen — allemaal zorgvuldig geselecteerd op kwaliteit, design en prijs.",
+    "sub4": "Wat ons onderscheidt",
+    "p4": "Wat ons onderscheidt is de combinatie van betrouwbare partners, vakmanschap en een volledig geïntegreerde aanpak. Jij bepaalt de stijl en het eindresultaat; wij verzorgen de uitvoering — efficiënt, transparant en met oog voor detail.",
+    "p5": "Habitat One is meer dan een showroom. Het is de plek waar ideeën werkelijkheid worden, en waar jouw Spaanse droomhuis zorgeloos wordt gerealiseerd.",
+    "valuesEyebrow": "Onze waarden",
+    "valuesTitle": "Wat ons drijft",
+    "value1": "Kwaliteit voorop",
+    "value1Text": "We werken uitsluitend met vertrouwde Europese fabrikanten en selecteren elk product in onze collectie persoonlijk om de hoogste standaard te garanderen.",
+    "value2": "Persoonlijke aanpak",
+    "value2Text": "Elk project is uniek. We nemen de tijd om jouw wensen te begrijpen en geven advies op maat — van concept tot oplevering.",
+    "value3": "Passie voor design",
+    "value3Text": "We leven en ademen interieurontwerp en architectuur. Ons team blijft de trends voor om jouw keuzes te inspireren en te begeleiden.",
+    "value4": "Lokaal geworteld",
+    "value4Text": "Gevestigd in Xàbia begrijpen we het lokale klimaat, de bouwstijlen en de regelgeving. We zijn je vertrouwde buur in elk project.",
+    "statsTitle": "Habitat One in cijfers",
+    "ctaTitle": "Klaar om je project te starten?",
+    "ctaText": "Bezoek onze showroom in Xàbia of neem contact op — we helpen je graag jouw visie tot leven te brengen.",
+    "teamTitle": "De mensen met wie je werkt",
+    "teamNote": "Een hecht team van architecten, interieurontwerpers, materiaalspecialisten en uitvoerders — plus vertrouwde partners aan de Costa Blanca, waaronder de Verhome Group en Antón Abogados."
+  },
+  "contact": {
+    "eyebrow": "Zeg hallo",
+    "title": "Laten we over jouw huis praten",
+    "intro": "Vertel ons over je perceel, je woning of je idee. We reageren meestal binnen één werkdag — in het Engels, Nederlands, Spaans of Duits.",
+    "formTitle": "Stuur ons een bericht",
+    "name": "Je naam",
+    "email": "E-mailadres",
+    "phone": "Telefoon (optioneel)",
+    "subject": "Onderwerp",
+    "subjectOptions": {
+      "general": "Algemene vraag",
+      "materials": "Materialen & producten",
+      "renovation": "Renovatie of nieuwbouw",
+      "property": "Een woning kopen",
+      "legal": "Juridisch & papieren",
+      "showroom": "Showroom bezoeken"
+    },
+    "message": "Je bericht",
+    "messagePlaceholder": "Vertel ons over je project, perceel of woning…",
+    "consent": "Ik ga ermee akkoord dat Habitat One contact met mij opneemt over mijn vraag.",
+    "send": "Bericht versturen",
+    "sending": "Versturen…",
+    "sent": "Dank je — je bericht is onderweg. We nemen snel contact op.",
+    "errorRequired": "Vul dit veld in.",
+    "errorEmail": "Voer een geldig e-mailadres in.",
+    "infoTitle": "Habitat One",
+    "addressLabel": "Showroom & studio",
+    "address": "Carrer del Pla, Xàbia (Jávea), 03730 Alicante, Spanje",
+    "phoneLabel": "Telefoon",
+    "emailLabel": "E-mail",
+    "hoursLabel": "Openingstijden",
+    "hoursWeek": "Bezoek alleen op afspraak — we zijn er voor je van maandag t/m zaterdag.",
+    "languagesLabel": "Talen",
+    "mapTitle": "Vind ons in Xàbia",
+    "mapNote": "Gratis parkeren bij de showroom. Bezoeken aan projecten en de steenopslag op afspraak.",
+    "hoursByAppointment": "Bezoek alleen op afspraak — we zijn er voor je van maandag t/m zaterdag.",
+    "hoursShort": "Alleen op afspraak"
+  },
+  "showroom": {
+    "eyebrow": "Bezoek ons",
+    "title": "De showroom in Xàbia",
+    "intro": "Ervaar onze zorgvuldig samengestelde selectie premium materialen in het echt. Voel, vergelijk en ontdek het perfecte palet voor jouw project.",
+    "experienceTitle": "Wat je hier vindt",
+    "exp1": "Materiaalbibliotheek",
+    "exp1Text": "Voel en vergelijk honderden premium materialen — natuursteen, keramiek, hardhout, microcement en meer.",
+    "exp2": "Ontwerpconsult",
+    "exp2Text": "Boek een gratis sessie met onze eigen architecten en ontwerpers om je renovatie of nieuwbouw te plannen.",
+    "exp3": "Live opstellingen",
+    "exp3Text": "Zie onze materialen toegepast in volledige ruimte-opstellingen om het eindresultaat te visualiseren.",
+    "exp4": "Stalenservice",
+    "exp4Text": "Neem materiaalstalen mee naar huis om ze in je eigen licht en ruimte te testen.",
+    "visitTitle": "Plan je bezoek",
+    "bookTitle": "Boek een consultatie",
+    "bookText": "Consultaties zijn gratis en duren ongeveer een uur. Laat ons weten wanneer het je uitkomt.",
+    "bookButton": "Vraag een afspraak aan",
+    "addressTitle": "Adres",
+    "hoursTitle": "Openingstijden",
+    "directions": "Routebeschrijving",
+    "tourTitle": "Virtuele tour",
+    "tourText": "Een 360°-rondleiding door de showroom in Jávea is in de maak. Kom hem voorlopig in het echt bekijken.",
+    "tourSoon": "Binnenkort",
+    "subtitle": "Zien · Voelen · Ervaren",
+    "howToGetHere": "Hoe kom je hier",
+    "directionsText": "In het hart van Xàbia met gratis parkeren — op 90 minuten van Valencia en 75 minuten van de luchthaven van Alicante."
+  },
+  "footer": {
+    "tagline": "Bouwen, renoveren en mooi wonen in Xàbia — materialen, ontwerp, recht en vastgoed onder één mediterraan dak.",
+    "exploreTitle": "Ontdek",
+    "companyTitle": "Bedrijf",
+    "contactTitle": "Contact",
+    "newsletterTitle": "Notities uit Xàbia",
+    "newsletterText": "Nieuwe materialen, projectverhalen en af en toe een huis te koop. Geen ruis.",
+    "newsletterPlaceholder": "Je e-mail",
+    "newsletterButton": "Aanmelden",
+    "newsletterThanks": "Dank je — je staat op de lijst.",
+    "rights": "Alle rechten voorbehouden.",
+    "builtIn": "Ontworpen & gebouwd aan de Costa Blanca.",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "cookies": "Cookies",
+    "langLabel": "Taal"
+  },
+  "notFound": {
+    "title": "Deze ruimte bestaat (nog) niet",
+    "text": "De pagina die je zoekt is verplaatst of heeft nooit bestaan. We brengen je terug naar iets stevigs.",
+    "button": "Terug naar home",
+    "browse": "Bekijk de catalogus"
+  },
+  "appointment": {
+    "title": "Maak een afspraak",
+    "subtitle": "Plan een persoonlijk showroombezoek met ons team.",
+    "rolePrompt": "Om een showroombezoek te boeken, vertel ons je professionele rol.",
+    "roleArchitect": "Architect",
+    "roleSales": "Verkoop",
+    "roleHomeowner": "Huiseigenaar",
+    "roleOther": "Anders",
+    "proOnly": "Afspraken zijn voorbehouden aan professionals",
+    "proOnlyDesc": "Showroomafspraken zijn momenteel beschikbaar voor architecten en verkoopprofessionals. Stuur ons gerust een bericht — we helpen je graag en verwelkomen je tijdens openingstijden.",
+    "contactInstead": "Stuur ons een bericht",
+    "continueBooking": "Verder naar boeken",
+    "changeRole": "Rol wijzigen",
+    "pickSlot": "Kies een datum en tijd die jou uitkomt. We bevestigen je afspraak of stellen een alternatief voor.",
+    "availableTimes": "Beschikbare tijden",
+    "selected": "Gekozen",
+    "name": "Naam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "notes": "Opmerkingen (optioneel)",
+    "namePh": "Je naam",
+    "emailPh": "jij@email.com",
+    "notesPh": "Iets dat we moeten weten?",
+    "submit": "Afspraak aanvragen",
+    "sending": "Versturen…",
+    "received": "Aanvraag ontvangen!",
+    "receivedDesc": "We bekijken je aanvraag en bevestigen per e-mail — of stellen een ander tijdstip voor.",
+    "bookAnother": "Nog een afspraak",
+    "chooseDate": "Kies een datum"
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 11,
+    "name": "Wood Board",
+    "description": "Wood stone board",
+    "is_active": true,
+    "created_at": "2025-08-21T09:33:43.033121",
+    "updated_at": "2026-03-23T09:10:40.235127",
+    "image_path": "1774257036801-d3sua7uyybn.jpg",
+    "slug": "oak-wood"
+  },
+  {
+    "id": 15,
+    "name": "Rust Board - Bush-hammered",
+    "description": "Dark Wood, perfect for luxurious locations",
+    "is_active": true,
+    "created_at": "2025-08-21T10:43:09.627449",
+    "updated_at": "2026-03-23T09:13:11.058992",
+    "image_path": "1774257189876-o0ypgum07m8.jpg",
+    "slug": "dark-wood"
+  },
+  {
+    "id": 16,
+    "name": "Concrete board - Beige",
+    "description": "A composite material composed of cement, aggregate, and water, known for its strength, durability, and versatility in flooring applications.",
+    "is_active": true,
+    "created_at": "2025-08-25T11:33:08.577816",
+    "updated_at": "2026-03-23T09:11:54.001517",
+    "image_path": "1774257113311-m4liv1qave.jpg",
+    "slug": "concrete"
+  },
+  {
+    "id": 18,
+    "name": "Stone",
+    "description": null,
+    "is_active": true,
+    "created_at": "2025-08-27T13:26:28.268185",
+    "updated_at": "2025-08-27T13:58:52.953161",
+    "image_path": "1756303132313-ivhisz762lj.jpeg",
+    "slug": "stone"
+  },
+  {
+    "id": 27,
+    "name": "Rockface stone - Beige",
+    "description": "A sedimentary rock composed mainly of sand-sized mineral particles, offering natural durability and a textured surface ideal for architectural panels.",
+    "is_active": true,
+    "created_at": "2025-08-29T14:49:26.161435",
+    "updated_at": "2026-03-23T09:15:31.401888",
+    "image_path": "1774257329265-mazvgrfpkl.jpg",
+    "slug": "sandstone"
+  },
+  {
+    "id": 29,
+    "name": "Poly Wood Board - Yellow",
+    "description": null,
+    "is_active": true,
+    "created_at": "2025-09-01T08:52:18.50495",
+    "updated_at": "2026-03-23T09:17:18.862868",
+    "image_path": "1774257436443-3o3sin61a19.jpg",
+    "slug": "concrete-stone"
+  },
+  {
+    "id": 39,
+    "name": "Solid Surface Stone",
+    "description": "Solid surface stone material used for the bathtub body",
+    "is_active": true,
+    "created_at": "2026-03-26T12:06:05.306128",
+    "updated_at": "2026-03-26T12:06:05.306128",
+    "image_path": null,
+    "slug": "solid-surface-stone"
+  }
+]

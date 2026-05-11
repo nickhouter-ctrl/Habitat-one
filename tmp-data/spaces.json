@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Bathroom",
+    "slug": "bathroom",
+    "image_path": "space-1770741558951-tep9949oy7.png",
+    "description": null,
+    "environment": "indoor",
+    "sort_order": 1,
+    "is_active": true,
+    "created_at": "2026-02-10T15:34:36.069906+00:00",
+    "updated_at": "2026-02-10T16:39:20.116202+00:00"
+  },
+  {
+    "id": 2,
+    "name": "Kitchen",
+    "slug": "kitchen",
+    "image_path": "space-1770741572123-4q9tb7r48yg.png",
+    "description": null,
+    "environment": "indoor",
+    "sort_order": 2,
+    "is_active": true,
+    "created_at": "2026-02-10T15:34:36.069906+00:00",
+    "updated_at": "2026-02-10T16:39:33.333727+00:00"
+  },
+  {
+    "id": 3,
+    "name": "Living Room",
+    "slug": "living-room",
+    "image_path": "space-1770741580132-af1qypg6suc.png",
+    "description": null,
+    "environment": "indoor",
+    "sort_order": 3,
+    "is_active": true,
+    "created_at": "2026-02-10T15:34:36.069906+00:00",
+    "updated_at": "2026-02-10T16:39:41.288007+00:00"
+  },
+  {
+    "id": 4,
+    "name": "Bedroom",
+    "slug": "bedroom",
+    "image_path": "space-1770741586177-9zcl3em1a86.png",
+    "description": null,
+    "environment": "indoor",
+    "sort_order": 4,
+    "is_active": true,
+    "created_at": "2026-02-10T15:34:36.069906+00:00",
+    "updated_at": "2026-02-10T16:39:47.173053+00:00"
+  },
+  {
+    "id": 5,
+    "name": "Terrace",
+    "slug": "terrace",
+    "image_path": "space-1770741607297-x80kntv5md7.png",
+    "description": null,
+    "environment": "outdoor",
+    "sort_order": 5,
+    "is_active": true,
+    "created_at": "2026-02-10T15:34:36.069906+00:00",
+    "updated_at": "2026-02-10T16:40:08.487579+00:00"
+  },
+  {
+    "id": 6,
+    "name": "Garden",
+    "slug": "garden",
+    "image_path": "space-1770741613373-en9rvq85yim.png",
+    "description": null,
+    "environment": "outdoor",
+    "sort_order": 6,
+    "is_active": true,
+    "created_at": "2026-02-10T15:34:36.069906+00:00",
+    "updated_at": "2026-02-10T16:40:14.707525+00:00"
+  },
+  {
+    "id": 7,
+    "name": "Pool Area",
+    "slug": "pool-area",
+    "image_path": "space-1770741619328-h56bce9cggt.png",
+    "description": null,
+    "environment": "outdoor",
+    "sort_order": 7,
+    "is_active": true,
+    "created_at": "2026-02-10T15:34:36.069906+00:00",
+    "updated_at": "2026-02-10T16:40:20.436472+00:00"
+  },
+  {
+    "id": 8,
+    "name": "Outdoor Kitchen",
+    "slug": "outdoor-kitchen",
+    "image_path": "space-1770741625328-7hyoe4fuh76.png",
+    "description": null,
+    "environment": "outdoor",
+    "sort_order": 8,
+    "is_active": true,
+    "created_at": "2026-02-10T15:34:36.069906+00:00",
+    "updated_at": "2026-02-10T16:40:26.498702+00:00"
+  }
+]

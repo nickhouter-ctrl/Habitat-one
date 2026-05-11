@@ -1,0 +1,38 @@
+{
+  "title": "Book an Appointment",
+  "role_prompt": "To book a showroom visit, please let us know your professional role.",
+  "roles": {
+    "architect": "Architect",
+    "sales": "Sales",
+    "homeowner": "Homeowner",
+    "other": "Other"
+  },
+  "professionals_only": "Appointments are reserved for professionals",
+  "professionals_only_desc": "Our showroom appointments are currently available for architects and sales professionals. You're welcome to send us a message using the contact form below — we'd love to help!",
+  "continue": "Continue to booking",
+  "request_received": "Request Received!",
+  "request_received_desc": "We'll review your request and send you a confirmation or suggest an alternative time via email.",
+  "book_another": "Book Another",
+  "change_role": "Change role",
+  "select_datetime": "Select a date and time that works for you. We'll confirm your appointment or suggest an alternative.",
+  "available_times": "Available times",
+  "selected": "Selected",
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone",
+  "notes": "Notes (optional)",
+  "name_placeholder": "Your name",
+  "email_placeholder": "your@email.com",
+  "notes_placeholder": "Anything we should know?",
+  "request_appointment": "Request Appointment",
+  "sending": "Sending...",
+  "weekdays": {
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  }
+}

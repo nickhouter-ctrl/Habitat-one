@@ -1,26 +1,423 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ----------------------------------------------------------------------------
+   HABITAT ONE — Mediterranean design system (Xàbia / Costa Blanca)
+---------------------------------------------------------------------------- */
+
+@theme {
+  /* Palette */
+  --color-sand-50: #fcf8f0;
+  --color-sand-100: #f8f1e3;
+  --color-sand-200: #f0e4cd;
+  --color-sand-300: #e6d3b2;
+  --color-sand-400: #d8bd8e;
+
+  --color-terracotta-300: #e0a380;
+  --color-terracotta-400: #d08a5f;
+  --color-terracotta-500: #c2703f;
+  --color-terracotta-600: #a85a2f;
+  --color-terracotta-700: #8a4827;
+
+  --color-clay-600: #8c4a2f;
+  --color-clay-700: #6f3a25;
+  --color-clay-800: #54301f;
+
+  --color-olive-400: #9ba067;
+  --color-olive-500: #7d8252;
+  --color-olive-600: #62683f;
+  --color-olive-700: #4c5132;
+
+  --color-sea-400: #4f93a0;
+  --color-sea-500: #2f7585;
+  --color-sea-600: #235e6c;
+  --color-sea-700: #1b4954;
+  --color-sea-900: #0f2e36;
+
+  --color-gold-400: #d8b25e;
+  --color-gold-500: #c79a45;
+  --color-gold-600: #a87f33;
+
+  --color-ink: #2a2018;
+  --color-ink-soft: #5a4f43;
+  --color-cream: #faf4e8;
+  --color-whitewash: #fffdf8;
+
+  /* Semantic */
+  --color-background: var(--color-sand-50);
+  --color-foreground: var(--color-ink);
+
+  /* Fonts (provided via next/font CSS variables) */
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-cormorant), ui-serif, Georgia, serif;
+
+  /* Radii */
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.75rem;
+  --radius-3xl: 2.5rem;
+
+  /* Easing */
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Animations */
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-float-slow: float 11s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.6s linear infinite;
+  --animate-marquee: marquee 38s linear infinite;
+  --animate-spin-slow: spin 26s linear infinite;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@keyframes float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -16px, 0);
+  }
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  *,
+  ::before,
+  ::after {
+    border-color: color-mix(in oklab, var(--color-sand-300) 60%, transparent);
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv05";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background-color: var(--color-terracotta-500);
+    color: var(--color-whitewash);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-terracotta-500);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  /* keep keyboard focus visible on dark sections too */
+  .bg-sea-900 :focus-visible,
+  .bg-clay-800 :focus-visible,
+  .text-cream :focus-visible {
+    outline-color: var(--color-gold-400);
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+  }
+  /* Decorative scrollbar */
+  ::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-sand-100);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-terracotta-400);
+    border-radius: 999px;
+    border: 3px solid var(--color-sand-100);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-terracotta-600);
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .container-x {
+    width: 100%;
+    max-width: 84rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-x {
+      padding-inline: 2rem;
+    }
+  }
+
+  /* Eyebrow / kicker label */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--color-terracotta-600);
+  }
+  .eyebrow::before {
+    content: "";
+    width: 1.8rem;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.5;
+  }
+  .eyebrow.is-light {
+    color: var(--color-gold-400);
+  }
+
+  /* Hairline divider with a diamond, very mediterranean tilework feel */
+  .rule-diamond {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--color-terracotta-400);
+  }
+  .rule-diamond::before,
+  .rule-diamond::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    background: linear-gradient(
+      to right,
+      transparent,
+      color-mix(in oklab, currentColor 55%, transparent),
+      transparent
+    );
+  }
+
+  /* Buttons */
+  .btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    border-radius: 999px;
+    padding: 0.85rem 1.6rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    transition:
+      transform 0.4s var(--ease-out-soft),
+      box-shadow 0.4s var(--ease-out-soft),
+      background-color 0.3s ease,
+      color 0.3s ease;
+    will-change: transform;
+  }
+  .btn:active {
+    transform: translateY(1px) scale(0.99);
+  }
+  .btn-primary {
+    background: linear-gradient(
+      135deg,
+      var(--color-terracotta-500),
+      var(--color-clay-600)
+    );
+    color: var(--color-whitewash);
+    box-shadow:
+      0 14px 30px -12px color-mix(in oklab, var(--color-clay-700) 65%, transparent),
+      inset 0 1px 0 color-mix(in oklab, white 30%, transparent);
+  }
+  .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow:
+      0 22px 44px -14px color-mix(in oklab, var(--color-clay-700) 70%, transparent),
+      inset 0 1px 0 color-mix(in oklab, white 35%, transparent);
+  }
+  .btn-ghost {
+    background: color-mix(in oklab, var(--color-whitewash) 70%, transparent);
+    color: var(--color-ink);
+    border: 1px solid color-mix(in oklab, var(--color-clay-600) 28%, transparent);
+    backdrop-filter: blur(8px);
+  }
+  .btn-ghost:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-terracotta-500);
+    color: var(--color-terracotta-700);
+  }
+  .btn-sea {
+    background: linear-gradient(135deg, var(--color-sea-500), var(--color-sea-700));
+    color: var(--color-whitewash);
+    box-shadow: 0 14px 30px -12px color-mix(in oklab, var(--color-sea-900) 60%, transparent);
+  }
+  .btn-sea:hover {
+    transform: translateY(-3px);
+  }
+  .btn-outline-light {
+    border: 1px solid color-mix(in oklab, white 55%, transparent);
+    color: var(--color-whitewash);
+    background: color-mix(in oklab, white 8%, transparent);
+    backdrop-filter: blur(6px);
+  }
+  .btn-outline-light:hover {
+    transform: translateY(-3px);
+    background: color-mix(in oklab, white 16%, transparent);
+  }
+
+  /* Card surface */
+  .surface {
+    background: var(--color-whitewash);
+    border: 1px solid color-mix(in oklab, var(--color-sand-300) 70%, transparent);
+    border-radius: var(--radius-2xl);
+    box-shadow:
+      0 1px 0 color-mix(in oklab, white 60%, transparent) inset,
+      0 30px 60px -40px color-mix(in oklab, var(--color-clay-800) 40%, transparent);
+  }
+
+  /* Glassy panel for dark imagery */
+  .glass {
+    background: color-mix(in oklab, var(--color-sea-900) 35%, transparent);
+    backdrop-filter: blur(14px) saturate(140%);
+    border: 1px solid color-mix(in oklab, white 16%, transparent);
+  }
+
+  /* Decorative gradient text */
+  .text-gradient {
+    background: linear-gradient(
+      120deg,
+      var(--color-terracotta-600),
+      var(--color-gold-500) 45%,
+      var(--color-sea-600)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Azulejo-ish pattern overlay */
+  .pattern-azulejo {
+    background-image:
+      radial-gradient(circle at 10px 10px, color-mix(in oklab, var(--color-sea-600) 14%, transparent) 2px, transparent 0),
+      radial-gradient(circle at 30px 30px, color-mix(in oklab, var(--color-terracotta-500) 12%, transparent) 2px, transparent 0);
+    background-size: 40px 40px;
+  }
+  .pattern-dots {
+    background-image: radial-gradient(
+      color-mix(in oklab, var(--color-clay-600) 16%, transparent) 1px,
+      transparent 1.4px
+    );
+    background-size: 22px 22px;
+  }
+
+  /* Sun-glow blob */
+  .glow-blob {
+    background: radial-gradient(
+      circle at 50% 50%,
+      color-mix(in oklab, var(--color-gold-400) 65%, transparent),
+      transparent 65%
+    );
+    filter: blur(40px);
+  }
+
+  /* 3D perspective helpers */
+  .perspective {
+    perspective: 1400px;
+  }
+  .perspective-near {
+    perspective: 900px;
+  }
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  /* Shimmering skeleton / accent line */
+  .shimmer-line {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in oklab, var(--color-gold-400) 80%, transparent),
+      transparent
+    );
+    background-size: 200% 100%;
+    animation: var(--animate-shimmer);
+  }
+
+  /* Underline-on-hover link */
+  .link-underline {
+    position: relative;
+  }
+  .link-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1.5px;
+    width: 100%;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.45s var(--ease-out-soft);
+  }
+  .link-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  /* Tape-measure-ish numeral */
+  .numeral {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  .mask-fade-b {
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent);
+    mask-image: linear-gradient(to bottom, black 60%, transparent);
+  }
+  .mask-fade-x {
+    -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  }
+  .drag-none {
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }
