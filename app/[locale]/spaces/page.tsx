@@ -33,7 +33,7 @@ export default async function SpacesPage({ params }: { params: Promise<{ locale:
               {t("indoor")}
             </h2>
           </Reveal>
-          <StaggerGroup className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-2">
+          <StaggerGroup className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-2">
             {indoor.map((s, i) => (
               <StaggerItem key={s.slug} className={i === 0 ? "sm:col-span-2" : ""}>
                 <SpaceCard space={s} name={t(`names.${s.slug}`)} environmentLabel={t("indoor")} large={i === 0} />
@@ -51,7 +51,7 @@ export default async function SpacesPage({ params }: { params: Promise<{ locale:
               {t("outdoor")}
             </h2>
           </Reveal>
-          <StaggerGroup className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-2">
+          <StaggerGroup className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-2">
             {outdoor.map((s, i) => (
               <StaggerItem key={s.slug} className={i === 0 ? "sm:col-span-2" : ""}>
                 <SpaceCard space={s} name={t(`names.${s.slug}`)} environmentLabel={t("outdoor")} large={i === 0} />

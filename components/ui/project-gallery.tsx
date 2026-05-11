@@ -38,7 +38,7 @@ export function ProjectGallery({ images, alt }: { images: string[]; alt: string 
 
   return (
     <>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {images.map((src, i) => (
           <button
             key={src}
@@ -57,7 +57,7 @@ export function ProjectGallery({ images, alt }: { images: string[]; alt: string 
               className="object-cover transition-transform duration-700 group-hover:scale-[1.06]"
             />
             <div className="absolute inset-0 bg-clay-800/0 transition-colors duration-300 group-hover:bg-clay-800/15" />
-            <span className="absolute right-3 top-3 grid h-9 w-9 translate-y-2 place-items-center rounded-full bg-cream/90 text-clay-800 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+            <span className="absolute right-3 top-3 grid grid-cols-1 h-9 w-9 translate-y-2 place-items-center rounded-full bg-cream/90 text-clay-800 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
               <ZoomIn className="h-4 w-4" />
             </span>
           </button>
@@ -80,7 +80,7 @@ export function ProjectGallery({ images, alt }: { images: string[]; alt: string 
                   type="button"
                   onClick={close}
                   aria-label="Close"
-                  className="absolute right-4 top-4 z-10 grid h-11 w-11 place-items-center rounded-full border border-cream/25 bg-cream/10 text-cream transition-colors hover:bg-cream/20"
+                  className="absolute right-4 top-4 z-10 grid grid-cols-1 h-11 w-11 place-items-center rounded-full border border-cream/25 bg-cream/10 text-cream transition-colors hover:bg-cream/20"
                 >
                   <X className="h-5 w-5" />
                 </button>
@@ -90,7 +90,7 @@ export function ProjectGallery({ images, alt }: { images: string[]; alt: string 
                       type="button"
                       onClick={(e) => { e.stopPropagation(); go(-1); }}
                       aria-label="Previous"
-                      className="absolute left-3 top-1/2 z-10 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full border border-cream/25 bg-cream/10 text-cream transition-colors hover:bg-cream/20 md:left-6"
+                      className="absolute left-3 top-1/2 z-10 grid grid-cols-1 h-12 w-12 -translate-y-1/2 place-items-center rounded-full border border-cream/25 bg-cream/10 text-cream transition-colors hover:bg-cream/20 md:left-6"
                     >
                       <ChevronLeft className="h-6 w-6" />
                     </button>
@@ -98,7 +98,7 @@ export function ProjectGallery({ images, alt }: { images: string[]; alt: string 
                       type="button"
                       onClick={(e) => { e.stopPropagation(); go(1); }}
                       aria-label="Next"
-                      className="absolute right-3 top-1/2 z-10 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full border border-cream/25 bg-cream/10 text-cream transition-colors hover:bg-cream/20 md:right-6"
+                      className="absolute right-3 top-1/2 z-10 grid grid-cols-1 h-12 w-12 -translate-y-1/2 place-items-center rounded-full border border-cream/25 bg-cream/10 text-cream transition-colors hover:bg-cream/20 md:right-6"
                     >
                       <ChevronRight className="h-6 w-6" />
                     </button>

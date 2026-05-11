@@ -26,7 +26,7 @@ export async function Footer() {
 
       <div className="container-x relative">
         {/* CTA strip */}
-        <div className="grid gap-8 border-b border-cream/10 py-14 md:grid-cols-[1.4fr_1fr] md:items-end md:py-16">
+        <div className="grid grid-cols-1 gap-8 border-b border-cream/10 py-14 md:grid-cols-[1.4fr_1fr] md:items-end md:py-16">
           <div>
             <p className="eyebrow is-light">{t("common.place")}</p>
             <h2 className="mt-4 max-w-xl text-3xl leading-tight text-cream md:text-[2.6rem]">
@@ -46,7 +46,7 @@ export async function Footer() {
         </div>
 
         {/* Columns */}
-        <div className="grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1.4fr]">
+        <div className="grid grid-cols-1 gap-10 py-14 md:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1.4fr]">
           <div>
             <Logo dark={false} />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-cream/65">

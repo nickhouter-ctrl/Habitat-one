@@ -43,7 +43,7 @@ export default async function ContactPage({
 
       <Section className="bg-sand-50">
         <Container>
-          <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr]">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.3fr_1fr]">
             <Reveal>
               <div className="surface rounded-[2rem] p-7 md:p-9">
                 <h2 className="font-display text-2xl text-ink md:text-3xl">{t("formTitle")}</h2>
@@ -60,7 +60,7 @@ export default async function ContactPage({
                     const I = row.icon;
                     return (
                       <li key={row.label} className="flex items-start gap-3.5">
-                        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-cream/10 text-terracotta-300">
+                        <span className="grid grid-cols-1 h-9 w-9 shrink-0 place-items-center rounded-xl bg-cream/10 text-terracotta-300">
                           <I className="h-4 w-4" />
                         </span>
                         <div>

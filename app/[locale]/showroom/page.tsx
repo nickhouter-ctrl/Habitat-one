@@ -53,7 +53,7 @@ export default async function ShowroomPage({ params }: { params: Promise<{ local
                 <Image src="/site/hero_background.jpg" alt="" fill priority sizes="100vw" className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-clay-800/65 via-clay-800/15 to-transparent" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-cream">
-                  <span className="grid h-16 w-16 place-items-center rounded-full bg-cream/15 backdrop-blur-sm ring-1 ring-cream/30">
+                  <span className="grid grid-cols-1 h-16 w-16 place-items-center rounded-full bg-cream/15 backdrop-blur-sm ring-1 ring-cream/30">
                     <Play className="ml-1 h-7 w-7" />
                   </span>
                   <p className="mt-4 font-display text-2xl md:text-3xl">{t("tourTitle")}</p>
@@ -72,7 +72,7 @@ export default async function ShowroomPage({ params }: { params: Promise<{ local
           <Reveal>
             <h2 className="font-display text-3xl text-ink md:text-4xl">{t("experienceTitle")}</h2>
           </Reveal>
-          <StaggerGroup className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <StaggerGroup className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {exp.map((e) => {
               const I = e.icon;
               return (
@@ -82,7 +82,7 @@ export default async function ShowroomPage({ params }: { params: Promise<{ local
                       <div className="relative h-40 overflow-hidden">
                         <Image src={e.img} alt="" fill sizes="(max-width:1024px) 50vw, 25vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110" />
                         <div className="absolute inset-0 bg-gradient-to-t from-clay-800/60 to-transparent" />
-                        <span className="absolute left-4 top-4 grid h-10 w-10 place-items-center rounded-2xl bg-cream/90 text-clay-700 backdrop-blur-sm">
+                        <span className="absolute left-4 top-4 grid grid-cols-1 h-10 w-10 place-items-center rounded-2xl bg-cream/90 text-clay-700 backdrop-blur-sm">
                           <I className="h-5 w-5" />
                         </span>
                       </div>
@@ -102,7 +102,7 @@ export default async function ShowroomPage({ params }: { params: Promise<{ local
       {/* Book + visit info */}
       <Section id="book" className="bg-clay-800 text-cream">
         <Container className="relative">
-          <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr] lg:items-start">
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.1fr_1fr] lg:items-start">
             <Reveal>
               <AppointmentBooking />
             </Reveal>
@@ -114,7 +114,7 @@ export default async function ShowroomPage({ params }: { params: Promise<{ local
                 </div>
                 <div className="rounded-2xl bg-cream/5 p-6">
                   <div className="flex items-start gap-3">
-                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-cream/10 text-terracotta-300"><MapPin className="h-4 w-4" /></span>
+                    <span className="grid grid-cols-1 h-9 w-9 shrink-0 place-items-center rounded-xl bg-cream/10 text-terracotta-300"><MapPin className="h-4 w-4" /></span>
                     <div>
                       <p className="text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-cream/45">{t("addressTitle")}</p>
                       {site.addressLines.map((l) => <p key={l} className="text-sm text-cream/85">{l}</p>)}
@@ -125,7 +125,7 @@ export default async function ShowroomPage({ params }: { params: Promise<{ local
                     </div>
                   </div>
                   <div className="mt-5 flex items-start gap-3">
-                    <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-cream/10 text-terracotta-300"><Clock className="h-4 w-4" /></span>
+                    <span className="grid grid-cols-1 h-9 w-9 shrink-0 place-items-center rounded-xl bg-cream/10 text-terracotta-300"><Clock className="h-4 w-4" /></span>
                     <div>
                       <p className="text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-cream/45">{t("hoursTitle")}</p>
                       <p className="text-sm text-cream/85">{tc("hoursByAppointment")}</p>

@@ -47,7 +47,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
       <Section className="bg-sea-900 pt-28 pb-0 text-cream md:pt-32">
         <Container className="relative">
           <BackLink href="/services" label={t("title")} />
-          <div className="mt-7 grid gap-10 pb-14 lg:grid-cols-2 lg:items-center">
+          <div className="mt-7 grid grid-cols-1 gap-10 pb-14 lg:grid-cols-2 lg:items-center">
             <div>
               <span className="inline-flex items-center gap-2 rounded-full bg-cream/10 px-3 py-1.5 text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-terracotta-300">
                 <Icon name={service.icon} className="h-3.5 w-3.5" />
@@ -81,7 +81,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
       <Section className="bg-sand-50">
         <Container>
-          <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr]">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.4fr_1fr]">
             <Reveal>
               <div>
                 <p className="text-lg leading-relaxed text-ink">{loc(service.intro, locale)}</p>
@@ -108,7 +108,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                 <ul className="mt-4 space-y-2.5">
                   {loc(service.items, locale).map((it) => (
                     <li key={it} className="flex items-start gap-2.5 text-sm text-ink-soft">
-                      <span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-terracotta-500/15 text-terracotta-600">
+                      <span className="mt-0.5 grid grid-cols-1 h-5 w-5 shrink-0 place-items-center rounded-full bg-terracotta-500/15 text-terracotta-600">
                         <Check className="h-3 w-3" />
                       </span>
                       {it}
@@ -128,10 +128,10 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
       <Section className="bg-cream">
         <Container>
           <h2 className="font-display text-2xl text-ink md:text-3xl">{t("title")}</h2>
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {others.map((s) => (
               <Link key={s.slug} href={`/services/${s.slug}`} className="surface group flex h-full flex-col gap-3 rounded-3xl p-6">
-                <span className="grid h-11 w-11 place-items-center rounded-2xl bg-sand-100 text-terracotta-600">
+                <span className="grid grid-cols-1 h-11 w-11 place-items-center rounded-2xl bg-sand-100 text-terracotta-600">
                   <Icon name={s.icon} className="h-5 w-5" />
                 </span>
                 <h3 className="font-display text-lg text-ink transition-colors group-hover:text-terracotta-700">{loc(s.title, locale)}</h3>

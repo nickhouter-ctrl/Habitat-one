@@ -55,7 +55,7 @@ export default async function SpaceDetailPage({ params }: { params: Promise<{ lo
 
       <Section className="bg-sand-50">
         <Container>
-          <div className="grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
             <Reveal>
               <div className="relative aspect-[16/11] overflow-hidden rounded-[2rem] border border-sand-200 shadow-[0_40px_80px_-40px_rgba(84,48,31,0.4)]">
                 {space.image ? (
@@ -126,7 +126,7 @@ export default async function SpaceDetailPage({ params }: { params: Promise<{ lo
       <Section className="bg-cream">
         <Container>
           <h3 className="font-display text-xl text-ink">{t("title")}</h3>
-          <div className="mt-6 grid gap-5 sm:grid-cols-3">
+          <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-3">
             {others.map((s) => (
               <SpaceCard key={s.slug} space={s} name={t(`names.${s.slug}`)} environmentLabel={s.environment === "indoor" ? t("indoor") : t("outdoor")} />
             ))}

@@ -30,7 +30,7 @@ export default async function ProjectsPage({ params }: { params: Promise<{ local
 
       <Section className="bg-sand-50">
         <Container>
-          <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center">
             <Reveal>
               <BeforeAfter
                 beforeSrc={featured.beforeImage ?? featured.afterImage ?? "/site/material_card.jpg"}
@@ -62,7 +62,7 @@ export default async function ProjectsPage({ params }: { params: Promise<{ local
           <div className="mt-14 flex items-center justify-between">
             <p className="text-sm text-ink-soft">{t("count", { count: projects.length })}</p>
           </div>
-          <StaggerGroup className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <StaggerGroup className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {rest.map((p) => (
               <StaggerItem key={p.slug}>
                 <ProjectCard project={p} beforeLabel={t("before")} afterLabel={t("after")} />

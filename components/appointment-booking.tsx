@@ -84,7 +84,7 @@ export function AppointmentBooking() {
                     onClick={() => pickRole(r.id)}
                     className="group flex flex-col items-center gap-2.5 rounded-2xl border border-cream/15 bg-cream/5 px-4 py-6 text-center transition-colors hover:border-terracotta-300 hover:bg-cream/10"
                   >
-                    <span className="grid h-11 w-11 place-items-center rounded-xl bg-cream/10 text-terracotta-300 transition-colors group-hover:bg-terracotta-500 group-hover:text-cream">
+                    <span className="grid grid-cols-1 h-11 w-11 place-items-center rounded-xl bg-cream/10 text-terracotta-300 transition-colors group-hover:bg-terracotta-500 group-hover:text-cream">
                       <I className="h-5 w-5" />
                     </span>
                     <span className="text-sm font-medium">{r.label}</span>
@@ -165,7 +165,7 @@ export function AppointmentBooking() {
               <label className={lbl} htmlFor="ap-name">{t("name")}</label>
               <input id="ap-name" required className={field} placeholder={t("namePh")} />
             </div>
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
                 <label className={lbl} htmlFor="ap-email">{t("email")}</label>
                 <input id="ap-email" type="email" required className={field} placeholder={t("emailPh")} />

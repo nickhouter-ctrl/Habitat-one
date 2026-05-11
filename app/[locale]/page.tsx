@@ -104,7 +104,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             text={t("pillarsText")}
             className="max-w-3xl"
           />
-          <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <StaggerGroup className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {pillars.map((p) => {
               const Icon = p.icon;
               return (
@@ -114,7 +114,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                       <div className="relative h-44 overflow-hidden">
                         <Image src={p.img} alt="" fill sizes="(max-width:1024px) 50vw, 25vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110" />
                         <div className="absolute inset-0 bg-gradient-to-t from-clay-800/70 to-transparent" />
-                        <span className="absolute left-4 top-4 grid h-10 w-10 place-items-center rounded-2xl bg-cream/90 text-clay-700 backdrop-blur-sm">
+                        <span className="absolute left-4 top-4 grid grid-cols-1 h-10 w-10 place-items-center rounded-2xl bg-cream/90 text-clay-700 backdrop-blur-sm">
                           <Icon className="h-5 w-5" />
                         </span>
                       </div>
@@ -155,11 +155,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               </Link>
             </Reveal>
           </div>
-          <div className="mt-12 grid gap-5 lg:grid-cols-3">
+          <div className="mt-12 grid grid-cols-1 gap-5 lg:grid-cols-3">
             <Reveal className="lg:col-span-2">
               <SpaceCard space={heroSpace} name={tsp(`names.${heroSpace.slug}`)} environmentLabel={t("indoor")} large />
             </Reveal>
-            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-1">
               {sideSpaces.slice(0, 2).map((s) => (
                 <Reveal key={s.slug} delay={0.05}>
                   <SpaceCard space={s} name={tsp(`names.${s.slug}`)} environmentLabel={s.environment === "indoor" ? t("indoor") : t("outdoor")} />
@@ -240,7 +240,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             text={t("projectsText")}
             className="max-w-2xl"
           />
-          <div className="mt-12 grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center">
+          <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center">
             <Reveal>
               <div>
                 <BeforeAfter
@@ -265,7 +265,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               </div>
             </Reveal>
           </div>
-          <StaggerGroup className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <StaggerGroup className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {otherProjects.map((p) => (
               <StaggerItem key={p.slug}>
                 <ProjectCard project={p} beforeLabel={tp("before")} afterLabel={tp("after")} />
@@ -287,11 +287,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <Section className="bg-sea-900 text-cream">
         <Container className="relative">
           <SectionHeading light eyebrow={t("processEyebrow")} title={t("processTitle")} text={t("processText")} />
-          <ol className="mt-14 grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
+          <ol className="mt-14 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-5">
             {[1, 2, 3, 4, 5].map((n, idx) => (
               <Reveal as="li" key={n} delay={idx * 0.08} className="relative">
                 <div className="flex items-center gap-3">
-                  <span className="numeral grid h-11 w-11 place-items-center rounded-full border border-cream/25 bg-cream/5 text-lg text-terracotta-300">
+                  <span className="numeral grid grid-cols-1 h-11 w-11 place-items-center rounded-full border border-cream/25 bg-cream/5 text-lg text-terracotta-300">
                     {String(n).padStart(2, "0")}
                   </span>
                   {n < 5 && (
@@ -309,7 +309,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       {/* ---- Why Xàbia ---- */}
       <Section className="bg-sand-50">
         <Container>
-          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-center">
             <div className="relative">
               <Reveal>
                 <TiltCard intensity={5} lift={4} radius="rounded-[2.2rem]">
@@ -329,13 +329,13 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             </div>
             <div>
               <SectionHeading eyebrow={t("locationEyebrow")} title={t("locationTitle")} text={t("locationText")} className="max-w-none" />
-              <StaggerGroup className="mt-8 grid gap-4 sm:grid-cols-2">
+              <StaggerGroup className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {locationPoints.map((p, i) => {
                   const Icon = p.icon;
                   return (
                     <StaggerItem key={i}>
                       <div className="flex items-start gap-3 rounded-2xl border border-sand-200 bg-whitewash p-4">
-                        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-sand-100 text-terracotta-600">
+                        <span className="grid grid-cols-1 h-9 w-9 shrink-0 place-items-center rounded-xl bg-sand-100 text-terracotta-600">
                           <Icon className="h-4 w-4" />
                         </span>
                         <p className="text-sm leading-relaxed text-ink-soft">{p.text}</p>

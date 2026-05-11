@@ -65,7 +65,7 @@ export default async function SalePage({ params }: { params: Promise<{ locale: s
           <Reveal>
             <h2 className="font-display text-3xl text-ink md:text-4xl">{t("howTitle")}</h2>
           </Reveal>
-          <StaggerGroup className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <StaggerGroup className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {steps.map((s) => {
               const I = s.icon;
               return (
@@ -75,7 +75,7 @@ export default async function SalePage({ params }: { params: Promise<{ locale: s
                       <div className="relative h-40 overflow-hidden">
                         <Image src={s.img} alt="" fill sizes="(max-width:1024px) 50vw, 25vw" className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110" />
                         <div className="absolute inset-0 bg-gradient-to-t from-clay-800/65 to-transparent" />
-                        <span className="absolute left-4 top-4 grid h-10 w-10 place-items-center rounded-2xl bg-cream/90 text-clay-700 backdrop-blur-sm">
+                        <span className="absolute left-4 top-4 grid grid-cols-1 h-10 w-10 place-items-center rounded-2xl bg-cream/90 text-clay-700 backdrop-blur-sm">
                           <I className="h-5 w-5" />
                         </span>
                         <span className="numeral absolute right-4 top-4 rounded-full bg-clay-800/65 px-2.5 py-1 text-xs text-cream backdrop-blur-sm">
@@ -98,7 +98,7 @@ export default async function SalePage({ params }: { params: Promise<{ locale: s
       {/* For agents */}
       <Section className="bg-clay-800 text-cream">
         <Container className="relative">
-          <div className="grid gap-10 lg:grid-cols-[1.05fr_1fr] lg:items-center">
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.05fr_1fr] lg:items-center">
             <Reveal>
               <TiltCard intensity={5} lift={4} radius="rounded-[2rem]">
                 <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] border border-cream/15 shadow-2xl">

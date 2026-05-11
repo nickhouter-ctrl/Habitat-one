@@ -47,7 +47,7 @@ export function SpaceCard({
         )}
         <div className="absolute inset-x-0 bottom-0 flex items-end justify-between p-5">
           <h3 className={cn("font-display text-cream", large ? "text-3xl" : "text-xl")}>{label}</h3>
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-cream/90 text-clay-800 transition-transform duration-300 group-hover:scale-110">
+          <span className="grid grid-cols-1 h-9 w-9 place-items-center rounded-full bg-cream/90 text-clay-800 transition-transform duration-300 group-hover:scale-110">
             <ArrowUpRight className="h-4 w-4" />
           </span>
         </div>

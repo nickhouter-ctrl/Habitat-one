@@ -45,7 +45,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ local
               const reversed = i % 2 === 1;
               return (
                 <Reveal key={s.slug}>
-                  <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+                  <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center">
                     <div className={cn(reversed && "lg:order-last")}>
                       <TiltCard intensity={5} lift={4} radius="rounded-[2rem]">
                         <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] border border-sand-200 shadow-[0_40px_80px_-40px_rgba(84,48,31,0.4)]">
@@ -62,7 +62,7 @@ export default async function ServicesPage({ params }: { params: Promise<{ local
                       <h2 className="mt-3 font-display text-3xl text-ink md:text-4xl">{loc(s.title, locale)}</h2>
                       <p className="mt-3 text-lg text-ink">{loc(s.tagline, locale)}</p>
                       <p className="mt-4 leading-relaxed text-ink-soft">{loc(s.intro, locale)}</p>
-                      <ul className="mt-6 grid gap-2 sm:grid-cols-2">
+                      <ul className="mt-6 grid grid-cols-1 gap-2 sm:grid-cols-2">
                         {loc(s.items, locale).map((it) => (
                           <li key={it} className="flex items-start gap-2 text-sm text-ink-soft">
                             <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-terracotta-500" />
@@ -91,12 +91,12 @@ export default async function ServicesPage({ params }: { params: Promise<{ local
               <span className="eyebrow is-light">{t("partnersTitle")}</span>
               <h2 className="mt-4 font-display text-3xl text-cream md:text-4xl">{t("partnerNote")}</h2>
             </div>
-            <div className="mt-10 grid gap-8 lg:grid-cols-2">
+            <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-2">
               {partners.map((s) => (
                 <Reveal key={s.slug}>
                   <div className="surface flex h-full flex-col gap-5 rounded-[2rem] bg-cream p-7 text-ink md:flex-row md:p-9">
                     <div className="md:w-1/2">
-                      <span className="grid h-12 w-12 place-items-center rounded-2xl bg-sea-600 text-cream">
+                      <span className="grid grid-cols-1 h-12 w-12 place-items-center rounded-2xl bg-sea-600 text-cream">
                         <Icon name={s.icon} className="h-5 w-5" />
                       </span>
                       <h3 className="mt-4 font-display text-2xl text-ink">{s.partner?.name ?? loc(s.title, locale)}</h3>

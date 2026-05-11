@@ -32,7 +32,7 @@ export function NewsletterForm() {
           <button
             type="submit"
             aria-label={t("newsletterButton")}
-            className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-terracotta-500 text-cream transition-transform duration-300 hover:scale-105"
+            className="grid grid-cols-1 h-9 w-9 shrink-0 place-items-center rounded-full bg-terracotta-500 text-cream transition-transform duration-300 hover:scale-105"
           >
             <ArrowRight className="h-4 w-4" />
           </button>

@@ -66,7 +66,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       <Section className="bg-sea-900 pt-28 pb-16 text-cream md:pt-32">
         <Container className="relative">
           <BackLink href="/products" label={t("title")} />
-          <div className="mt-8 grid gap-10 lg:grid-cols-2 lg:items-start">
+          <div className="mt-8 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-start">
             <Reveal>
               <ProductGallery
                 variants={product.variants}
@@ -89,7 +89,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                 {lead && <p className="mt-4 text-lg text-cream/75">{lead}</p>}
                 {product.description && <p className="mt-5 leading-relaxed text-cream/65">{product.description}</p>}
 
-                <dl className="mt-7 grid gap-3 sm:grid-cols-2">
+                <dl className="mt-7 grid grid-cols-1 gap-3 sm:grid-cols-2">
                   {product.sku && <Spec icon={<Tag className="h-4 w-4" />} label={t("sku")}>{product.sku}</Spec>}
                   {product.dimensions && <Spec icon={<Ruler className="h-4 w-4" />} label={t("dimensions")}>{product.dimensions}</Spec>}
                   {colours && (
@@ -135,7 +135,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       {/* Lifestyle scenes */}
       <Section className="bg-sand-50">
         <Container>
-          <div className="grid gap-5 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
             {sceneImages.map((src, i) => (
               <Reveal key={src + i} delay={i * 0.08}>
                 <div className="relative aspect-[16/10] overflow-hidden rounded-3xl border border-sand-200">
@@ -169,7 +169,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 function Spec({ icon, label, children }: { icon: React.ReactNode; label: string; children: React.ReactNode }) {
   return (
     <div className="flex items-center gap-3 rounded-2xl border border-cream/15 bg-cream/5 px-4 py-3">
-      <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-cream/10 text-terracotta-300">{icon}</span>
+      <span className="grid grid-cols-1 h-8 w-8 shrink-0 place-items-center rounded-lg bg-cream/10 text-terracotta-300">{icon}</span>
       <span className="min-w-0">
         <span className="block text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-cream/45">{label}</span>
         <span className="block truncate text-sm text-cream">{children}</span>

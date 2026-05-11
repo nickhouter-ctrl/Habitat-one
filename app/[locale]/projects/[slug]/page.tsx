@@ -75,7 +75,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
             </Reveal>
           ) : null}
 
-          <div className="mt-12 grid gap-12 lg:grid-cols-[1.4fr_1fr]">
+          <div className="mt-12 grid grid-cols-1 gap-12 lg:grid-cols-[1.4fr_1fr]">
             <Reveal>
               <div>
                 <p className="text-lg leading-relaxed text-ink-soft md:text-xl">{project.description}</p>
@@ -128,7 +128,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
       <Section className="bg-sand-50">
         <Container>
           <h2 className="font-display text-2xl text-ink md:text-3xl">{t("moreProjects")}</h2>
-          <StaggerGroup className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <StaggerGroup className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {more.map((p) => (
               <StaggerItem key={p.slug}>
                 <ProjectCard project={p} beforeLabel={t("before")} afterLabel={t("after")} />
@@ -146,7 +146,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
 function Meta({ icon, label, children }: { icon: React.ReactNode; label: string; children: React.ReactNode }) {
   return (
     <div className="flex items-center gap-2.5">
-      <span className="grid h-8 w-8 place-items-center rounded-lg bg-cream/10 text-terracotta-300">{icon}</span>
+      <span className="grid grid-cols-1 h-8 w-8 place-items-center rounded-lg bg-cream/10 text-terracotta-300">{icon}</span>
       <span>
         <span className="block text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-cream/45">{label}</span>
         <span className="text-sm text-cream">{children}</span>

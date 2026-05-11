@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 export function Logo({ dark = true, className }: { dark?: boolean; className?: string }) {
   return (
     <span className={cn("group inline-flex items-center gap-2.5", className)}>
-      <span className="relative grid h-9 w-9 place-items-center">
+      <span className="relative grid grid-cols-1 h-9 w-9 place-items-center">
         <svg
           viewBox="0 0 40 40"
           className="h-9 w-9 transition-transform duration-500 group-hover:rotate-[8deg]"

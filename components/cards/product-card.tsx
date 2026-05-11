@@ -72,7 +72,7 @@ export function ProductCard({
               ★
             </span>
           )}
-          <span className="absolute bottom-3 right-3 grid h-9 w-9 translate-y-2 place-items-center rounded-full bg-clay-700 text-cream opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+          <span className="absolute bottom-3 right-3 grid grid-cols-1 h-9 w-9 translate-y-2 place-items-center rounded-full bg-clay-700 text-cream opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
             <ArrowUpRight className="h-4 w-4" />
           </span>
           {hasColourOptions(product) && (

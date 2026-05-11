@@ -40,9 +40,9 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onSubmit={onSubmit}
-          className="grid gap-5"
+          className="grid grid-cols-1 gap-5"
         >
-          <div className="grid gap-5 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
             <div>
               <label className={labelClass} htmlFor="cf-name">
                 {t("name")}
@@ -56,7 +56,7 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
               <input id="cf-email" name="email" type="email" required className={fieldClass} placeholder="anna@example.com" />
             </div>
           </div>
-          <div className="grid gap-5 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
             <div>
               <label className={labelClass} htmlFor="cf-phone">
                 {t("phone")}

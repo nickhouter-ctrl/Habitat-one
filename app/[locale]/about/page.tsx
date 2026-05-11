@@ -142,7 +142,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               <h2 className="mt-3 font-display text-[clamp(2rem,6vw,2.75rem)] font-semibold leading-[1.1] text-clay-700">{t("valuesTitle")}</h2>
             </div>
           </Reveal>
-          <StaggerGroup className="grid gap-6 md:grid-cols-2">
+          <StaggerGroup className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {values.map((v) => {
               const I = v.icon;
               return (

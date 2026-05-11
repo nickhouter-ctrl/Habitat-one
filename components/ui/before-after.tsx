@@ -125,7 +125,7 @@ export function BeforeAfter({
             dragging.current = true;
           }}
           style={{ touchAction: "none" }}
-          className="absolute left-1/2 top-1/2 grid h-12 w-12 -translate-x-1/2 -translate-y-1/2 cursor-ew-resize place-items-center rounded-full border border-whitewash/80 bg-whitewash/95 text-clay-800 shadow-lg backdrop-blur transition-transform duration-300 hover:scale-110 active:scale-95"
+          className="absolute left-1/2 top-1/2 grid grid-cols-1 h-12 w-12 -translate-x-1/2 -translate-y-1/2 cursor-ew-resize place-items-center rounded-full border border-whitewash/80 bg-whitewash/95 text-clay-800 shadow-lg backdrop-blur transition-transform duration-300 hover:scale-110 active:scale-95"
         >
           <MoveHorizontal className="h-5 w-5" />
         </button>

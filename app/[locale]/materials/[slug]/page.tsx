@@ -51,7 +51,7 @@ export default async function MaterialDetailPage({ params }: { params: Promise<{
 
       <Section className="bg-sand-50">
         <Container>
-          <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
             <Reveal>
               <TiltCard intensity={6} lift={5} radius="rounded-[2rem]">
                 <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] border border-sand-200 shadow-[0_40px_80px_-40px_rgba(84,48,31,0.4)] sm:aspect-[4/5]">
