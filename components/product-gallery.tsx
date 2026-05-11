@@ -43,22 +43,22 @@ export function ProductGallery({
 
   return (
     <div>
-      <div className="relative aspect-[4/3] overflow-hidden rounded-[1.6rem] border border-cream/15 bg-gradient-to-br from-sand-100 to-sand-200 sm:rounded-[2rem]">
+      <div className="relative flex aspect-[16/11] items-center justify-center overflow-hidden rounded-[1.4rem] border border-cream/15 bg-sand-100 sm:rounded-[1.8rem]">
         {main ? (
           <AnimatePresence mode="wait">
             <motion.div
               key={main}
-              initial={{ opacity: 0, scale: 1.02 }}
+              initial={{ opacity: 0, scale: 1.01 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.35 }}
-              className="absolute inset-0"
+              className="absolute inset-2 sm:inset-3"
             >
-              <Image src={main} alt={productName} fill priority sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
+              <Image src={main} alt={productName} fill priority sizes="(max-width:1024px) 100vw, 50vw" className="object-contain" />
             </motion.div>
           </AnimatePresence>
         ) : (
-          <div className="flex h-full flex-col items-center justify-center gap-3 text-clay-700/50">
+          <div className="flex flex-col items-center justify-center gap-3 text-clay-700/45">
             <ImageOff className="h-10 w-10" />
             <span>{noImageLabel}</span>
           </div>
