@@ -54,7 +54,7 @@ export default async function MaterialDetailPage({ params }: { params: Promise<{
           <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
             <Reveal>
               <TiltCard intensity={6} lift={5} radius="rounded-[2rem]">
-                <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-sand-200 shadow-[0_40px_80px_-40px_rgba(84,48,31,0.4)]">
+                <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] border border-sand-200 shadow-[0_40px_80px_-40px_rgba(84,48,31,0.4)] sm:aspect-[4/5]">
                   {material.image ? (
                     <Image src={material.image} alt={`${material.name} — ${t("swatch")}`} fill sizes="(max-width:1024px) 100vw, 45vw" className="object-cover" />
                   ) : (

@@ -81,7 +81,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               </Reveal>
               <Reveal delay={0.1}>
                 <TiltCard intensity={5} lift={4} radius="rounded-sm">
-                  <div className="relative aspect-[5/6] w-full overflow-hidden rounded-sm border border-sand-200 shadow-[0_30px_60px_-35px_rgba(84,48,31,0.4)] sm:w-[22rem] md:w-[25rem]">
+                  <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm border border-sand-200 shadow-[0_30px_60px_-35px_rgba(84,48,31,0.4)] sm:aspect-[5/6] sm:w-[22rem] md:w-[25rem]">
                     <Image src="/about/inline.jpg" alt={t("title")} fill sizes="(max-width:768px) 100vw, 25rem" className="object-cover" />
                   </div>
                 </TiltCard>

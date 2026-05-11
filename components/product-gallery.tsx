@@ -43,7 +43,7 @@ export function ProductGallery({
 
   return (
     <div>
-      <div className="relative aspect-square overflow-hidden rounded-[2rem] border border-cream/15 bg-gradient-to-br from-sand-100 to-sand-200">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-[1.6rem] border border-cream/15 bg-gradient-to-br from-sand-100 to-sand-200 sm:rounded-[2rem]">
         {main ? (
           <AnimatePresence mode="wait">
             <motion.div
