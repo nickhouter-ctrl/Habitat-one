@@ -1,18 +1,23 @@
 import { cn } from "@/lib/utils";
 
+/**
+ * Habitat One wordmark — recreated from the original site:
+ * "HABITAT" with "ONE" set just below, indented to the right and tucked up a
+ * touch. Montserrat (Avenir on the original) bold, tight tracking.
+ */
 export function Logo({ dark = true, className }: { dark?: boolean; className?: string }) {
   return (
     <span
       className={cn(
-        "inline-flex flex-col items-center font-sans font-extrabold uppercase leading-[0.92] tracking-[0.06em]",
-        "text-[1.05rem] sm:text-[1.15rem]",
-        dark ? "text-ink" : "text-cream",
+        "flex flex-col items-start font-sans font-bold uppercase leading-none",
+        "text-[1.35rem] tracking-[-0.02em] sm:text-[1.6rem]",
+        dark ? "text-[#402419]" : "text-cream",
         className,
       )}
       aria-label="Habitat One"
     >
       <span>Habitat</span>
-      <span>One</span>
+      <span className="-mt-[0.18em] ml-[0.85em]">One</span>
     </span>
   );
 }
