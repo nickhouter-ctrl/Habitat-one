@@ -142,7 +142,7 @@
     "count": "{count} productos",
     "filterAll": "Todos",
     "collectionBathroom": "Baño",
-    "collectionWallPanels": "Magic Flexible Stone",
+    "collectionWallPanels": "Magic Flexibel Stone",
     "collectionAccessories": "Accesorios",
     "searchPlaceholder": "Buscar productos…",
     "noResults": "Ningún producto coincide con tu búsqueda.",
@@ -338,7 +338,15 @@
         "name": "Bañera blanca",
         "short": "1750×832×550 mm ▪ Material: piedra solid surface ▪ Acabado: mate ▪ Color: Designer White"
       }
-    }
+    },
+    "allProducts": "Todos los productos",
+    "spaces": "Espacios",
+    "allSpaces": "Todos los espacios",
+    "allMaterials": "Todos los materiales",
+    "filters": "Filtros",
+    "clearAll": "Borrar todos los filtros",
+    "showResults": "Mostrar {count} productos",
+    "activeFilters": "Filtros activos"
   },
   "spaces": {
     "eyebrow": "Estancia por estancia",

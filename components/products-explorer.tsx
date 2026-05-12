@@ -3,9 +3,9 @@
 import { useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "motion/react";
-import { Search, X } from "lucide-react";
+import { Search, X, SlidersHorizontal, ChevronRight } from "lucide-react";
 import { ProductCard } from "@/components/cards/product-card";
-import { catalogSpaces, collections, type CatalogProduct } from "@/lib/data/catalog";
+import { catalogMaterials, catalogSpaces, collections, type CatalogProduct } from "@/lib/data/catalog";
 import { cn } from "@/lib/utils";
 
 export function ProductsExplorer({
@@ -16,14 +16,14 @@ export function ProductsExplorer({
   initialQuery?: string;
 }) {
   const t = useTranslations("products");
+  const ts = useTranslations("spaces");
   const [collection, setCollection] = useState<string>("all");
   const [space, setSpace] = useState<string>("all");
+  const [material, setMaterial] = useState<string>("all");
   const [query, setQuery] = useState(initialQuery);
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
-  const collectionLabel = (id: string) => {
-    const c = collections.find((x) => x.id === id);
-    return c ? t(c.key) : id;
-  };
+  const collectionLabel = (id: string) => collections.find((c) => c.id === id)?.key;
 
   const localName = (slug: string) => {
     const k = `i18n.${slug}.name`;
@@ -33,118 +33,276 @@ export function ProductsExplorer({
     const k = `i18n.${slug}.short`;
     return t.has(k) ? t(k) : "";
   };
+  const matchesQuery = (p: CatalogProduct, q: string) => {
+    if (!q) return true;
+    const hay = `${p.name} ${localName(p.slug)} ${p.short ?? ""} ${localShort(p.slug)} ${p.sku ?? ""} ${p.dimensions ?? ""}`.toLowerCase();
+    return hay.includes(q);
+  };
 
-  const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return products.filter((p) => {
-      if (collection !== "all" && p.collection !== collection) return false;
-      if (space !== "all" && !p.spaces.includes(space)) return false;
-      if (q) {
-        const hay = `${p.name} ${localName(p.slug)} ${p.short ?? ""} ${localShort(p.slug)} ${p.sku ?? ""} ${p.dimensions ?? ""}`.toLowerCase();
-        if (!hay.includes(q)) return false;
-      }
-      return true;
-    });
+  const q = query.trim().toLowerCase();
+
+  // "base" = everything except the collection filter — used for the per-collection counts
+  const base = useMemo(
+    () =>
+      products.filter(
+        (p) => (space === "all" || p.spaces.includes(space)) && (material === "all" || p.materials.includes(material)) && matchesQuery(p, q),
+      ),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [products, collection, space, query]);
+    [products, space, material, q],
+  );
+  const filtered = useMemo(() => base.filter((p) => collection === "all" || p.collection === collection), [base, collection]);
 
-  const hasFilters = collection !== "all" || space !== "all" || query.trim() !== "";
+  const collectionCount = (id: string) => (id === "all" ? base.length : base.filter((p) => p.collection === id).length);
+
+  // counts for spaces & materials honour the active collection + query (but not the space/material filter itself)
+  const forSpaceMatCounts = useMemo(
+    () => products.filter((p) => (collection === "all" || p.collection === collection) && matchesQuery(p, q)),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [products, collection, q],
+  );
+  const spaceCount = (slug: string) => forSpaceMatCounts.filter((p) => p.spaces.includes(slug)).length;
+  const materialCount = (slug: string) => forSpaceMatCounts.filter((p) => p.materials.includes(slug)).length;
+
+  const usedSpaces = catalogSpaces.filter((s) => products.some((p) => p.spaces.includes(s.slug)));
+  const usedMaterials = catalogMaterials.filter((m) => products.some((p) => p.materials.includes(m.slug)));
+
+  const hasFilters = collection !== "all" || space !== "all" || material !== "all" || query.trim() !== "";
+  const clearAll = () => {
+    setCollection("all");
+    setSpace("all");
+    setMaterial("all");
+    setQuery("");
+  };
+
+  const Sidebar = (
+    <div className="space-y-8">
+      {/* Collections */}
+      <div>
+        <p className="text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-ink-soft/55">{t("collection")}</p>
+        <ul className="mt-3 space-y-0.5">
+          {[{ id: "all", label: t("allProducts") }, ...collections.map((c) => ({ id: c.id, label: t(c.key) }))].map((c) => {
+            const active = collection === c.id;
+            const n = collectionCount(c.id);
+            return (
+              <li key={c.id}>
+                <button
+                  onClick={() => setCollection(c.id)}
+                  className={cn(
+                    "flex w-full items-center justify-between gap-2 rounded-xl px-3 py-2.5 text-left text-sm transition-colors",
+                    active ? "bg-clay-700 text-cream" : "text-ink hover:bg-sand-100",
+                  )}
+                >
+                  <span className={cn("flex items-center gap-1.5", active && "font-medium")}>
+                    {c.label}
+                  </span>
+                  <span className={cn("text-xs tabular-nums", active ? "text-cream/70" : "text-ink-soft/45")}>{n}</span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+
+      {/* Spaces */}
+      <FilterGroup label={t("spaces")} allLabel={t("allSpaces")} active={space} onAll={() => setSpace("all")}>
+        {usedSpaces.map((s) => {
+          const active = space === s.slug;
+          const n = spaceCount(s.slug);
+          return (
+            <FilterRow key={s.slug} active={active} disabled={n === 0 && !active} count={n} onClick={() => setSpace(active ? "all" : s.slug)}>
+              {ts(`names.${s.slug}`)}
+            </FilterRow>
+          );
+        })}
+      </FilterGroup>
+
+      {/* Materials */}
+      <FilterGroup label={t("materials")} allLabel={t("allMaterials")} active={material} onAll={() => setMaterial("all")}>
+        {usedMaterials.map((m) => {
+          const active = material === m.slug;
+          const n = materialCount(m.slug);
+          return (
+            <FilterRow key={m.slug} active={active} disabled={n === 0 && !active} count={n} onClick={() => setMaterial(active ? "all" : m.slug)}>
+              {m.name}
+            </FilterRow>
+          );
+        })}
+      </FilterGroup>
+
+      {hasFilters && (
+        <button onClick={clearAll} className="inline-flex items-center gap-1.5 text-sm font-medium text-terracotta-700 hover:text-clay-700">
+          <X className="h-3.5 w-3.5" />
+          {t("clearAll")}
+        </button>
+      )}
+    </div>
+  );
 
   return (
-    <div>
-      {/* Controls */}
-      <div className="flex flex-col gap-5 rounded-3xl border border-sand-200 bg-whitewash/70 p-5 backdrop-blur-sm md:flex-row md:items-center md:justify-between">
-        <div className="flex flex-wrap items-center gap-2">
-          <FilterChip active={collection === "all"} onClick={() => setCollection("all")}>
-            {t("filterAll")}
-          </FilterChip>
-          {collections.map((c) => (
-            <FilterChip key={c.id} active={collection === c.id} onClick={() => setCollection(c.id)}>
-              {t(c.key)}
-            </FilterChip>
-          ))}
-        </div>
-        <div className="flex items-center gap-3">
-          <select
-            value={space}
-            onChange={(e) => setSpace(e.target.value)}
-            className="rounded-full border border-sand-300 bg-sand-50 px-4 py-2 text-sm text-ink-soft focus:border-terracotta-400 focus:outline-none"
-          >
-            <option value="all">{t("space")}</option>
-            {catalogSpaces.map((s) => (
-              <option key={s.slug} value={s.slug}>
-                {s.name}
-              </option>
-            ))}
-          </select>
-          <div className="relative">
-            <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-soft/50" />
+    <div className="lg:flex lg:gap-10">
+      {/* ---- Sidebar (desktop) ---- */}
+      <aside className="hidden w-64 shrink-0 lg:block">
+        <div className="surface sticky top-24 rounded-2xl p-5">{Sidebar}</div>
+      </aside>
+
+      {/* ---- Main ---- */}
+      <div className="min-w-0 flex-1">
+        {/* Search + mobile filter toggle */}
+        <div className="flex flex-wrap items-center gap-3">
+          <div className="relative min-w-0 flex-1">
+            <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-soft/45" />
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder={t("searchPlaceholder")}
-              className="w-44 rounded-full border border-sand-300 bg-sand-50 py-2 pl-9 pr-3 text-sm text-ink placeholder:text-ink-soft/45 focus:border-terracotta-400 focus:outline-none sm:w-56"
+              className="w-full rounded-full border border-sand-300 bg-whitewash py-3 pl-11 pr-4 text-sm text-ink placeholder:text-ink-soft/45 focus:border-terracotta-400 focus:outline-none focus:ring-2 focus:ring-terracotta-400/15"
             />
           </div>
-        </div>
-      </div>
-
-      <div className="mt-6 flex items-center justify-between">
-        <p className="text-sm text-ink-soft">{t("count", { count: filtered.length })}</p>
-        {hasFilters && (
           <button
-            onClick={() => {
-              setCollection("all");
-              setSpace("all");
-              setQuery("");
-            }}
-            className="inline-flex items-center gap-1.5 text-sm font-medium text-terracotta-700 hover:text-clay-700"
+            onClick={() => setMobileFiltersOpen((v) => !v)}
+            className="inline-flex items-center gap-2 rounded-full border border-sand-300 bg-whitewash px-4 py-3 text-sm font-medium text-ink hover:bg-sand-100 lg:hidden"
           >
-            <X className="h-3.5 w-3.5" />
-            {t("clearFilters")}
+            <SlidersHorizontal className="h-4 w-4" />
+            {t("filters")}
+            {hasFilters && <span className="h-1.5 w-1.5 rounded-full bg-terracotta-500" />}
           </button>
+        </div>
+
+        {/* Mobile filters panel */}
+        <AnimatePresence initial={false}>
+          {mobileFiltersOpen && (
+            <motion.div
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "auto", opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+              className="overflow-hidden lg:hidden"
+            >
+              <div className="surface mt-4 rounded-2xl p-5">{Sidebar}</div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* Active-filter pills + count */}
+        <div className="mt-5 flex flex-wrap items-center gap-2">
+          <span className="text-sm text-ink-soft">{t("count", { count: filtered.length })}</span>
+          <span className="text-ink-soft/30">·</span>
+          {collection !== "all" && (
+            <Pill onClear={() => setCollection("all")}>{t(collectionLabel(collection)!)}</Pill>
+          )}
+          {space !== "all" && <Pill onClear={() => setSpace("all")}>{ts(`names.${space}`)}</Pill>}
+          {material !== "all" && <Pill onClear={() => setMaterial("all")}>{catalogMaterials.find((m) => m.slug === material)?.name ?? material}</Pill>}
+          {query.trim() && <Pill onClear={() => setQuery("")}>“{query.trim()}”</Pill>}
+        </div>
+
+        {/* Grid */}
+        {filtered.length === 0 ? (
+          <div className="mt-10 rounded-3xl border border-dashed border-sand-300 py-20 text-center text-ink-soft">
+            {t("noResults")}
+            {hasFilters && (
+              <div className="mt-4">
+                <button onClick={clearAll} className="btn btn-ghost">{t("clearAll")}</button>
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="mt-7 grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
+            <AnimatePresence initial={false}>
+              {filtered.map((p) => (
+                <motion.div
+                  key={p.id}
+                  initial={{ opacity: 0, scale: 0.96 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.96 }}
+                  transition={{ duration: 0.25 }}
+                >
+                  <ProductCard product={p} collectionLabel={t(collectionLabel(p.collection)!)} noImageLabel={t("noImage")} />
+                </motion.div>
+              ))}
+            </AnimatePresence>
+          </div>
         )}
       </div>
-
-      {/* Grid */}
-      {filtered.length === 0 ? (
-        <div className="mt-12 rounded-3xl border border-dashed border-sand-300 py-20 text-center text-ink-soft">
-          {t("noResults")}
-        </div>
-      ) : (
-        <div className="mt-8 grid grid-cols-2 gap-4 sm:gap-5 md:grid-cols-3 lg:grid-cols-4">
-          <AnimatePresence initial={false}>
-            {filtered.map((p) => (
-              <motion.div
-                key={p.id}
-                initial={{ opacity: 0, scale: 0.94 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.94 }}
-                transition={{ duration: 0.3 }}
-              >
-                <ProductCard product={p} collectionLabel={collectionLabel(p.collection)} noImageLabel={t("noImage")} />
-              </motion.div>
-            ))}
-          </AnimatePresence>
-        </div>
-      )}
     </div>
   );
 }
 
-function FilterChip({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {
+function FilterGroup({
+  label,
+  allLabel,
+  active,
+  onAll,
+  children,
+}: {
+  label: string;
+  allLabel: string;
+  active: string;
+  onAll: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <div>
+      <p className="text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-ink-soft/55">{label}</p>
+      <ul className="mt-2.5 space-y-0.5">
+        <li>
+          <button
+            onClick={onAll}
+            className={cn(
+              "flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-sm transition-colors",
+              active === "all" ? "font-medium text-terracotta-700" : "text-ink-soft hover:bg-sand-100 hover:text-ink",
+            )}
+          >
+            {allLabel}
+          </button>
+        </li>
+        {children}
+      </ul>
+    </div>
+  );
+}
+
+function FilterRow({
+  active,
+  disabled,
+  count,
+  onClick,
+  children,
+}: {
+  active: boolean;
+  disabled?: boolean;
+  count: number;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <li>
+      <button
+        onClick={onClick}
+        disabled={disabled}
+        className={cn(
+          "flex w-full items-center justify-between gap-2 rounded-lg px-3 py-2 text-left text-sm transition-colors",
+          active ? "bg-sand-100 font-medium text-terracotta-700" : "text-ink hover:bg-sand-100",
+          disabled && "cursor-not-allowed opacity-35 hover:bg-transparent",
+        )}
+      >
+        <span className="flex items-center gap-1.5">
+          {active && <ChevronRight className="h-3 w-3 text-terracotta-500" />}
+          {children}
+        </span>
+        <span className={cn("text-xs tabular-nums", active ? "text-terracotta-700/60" : "text-ink-soft/40")}>{count}</span>
+      </button>
+    </li>
+  );
+}
+
+function Pill({ children, onClear }: { children: React.ReactNode; onClear: () => void }) {
   return (
     <button
-      onClick={onClick}
-      className={cn(
-        "relative rounded-full px-4 py-2 text-sm font-medium transition-colors",
-        active ? "text-cream" : "text-ink-soft hover:text-ink",
-      )}
+      onClick={onClear}
+      className="inline-flex items-center gap-1.5 rounded-full bg-sand-100 px-2.5 py-1 text-xs font-medium text-clay-700 transition-colors hover:bg-sand-200"
     >
-      {active && (
-        <motion.span layoutId="prod-chip" className="absolute inset-0 rounded-full bg-clay-700" transition={{ type: "spring", stiffness: 350, damping: 30 }} />
-      )}
-      <span className="relative">{children}</span>
+      {children}
+      <X className="h-3 w-3" />
     </button>
   );
 }

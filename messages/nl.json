@@ -142,7 +142,7 @@
     "count": "{count} producten",
     "filterAll": "Alle",
     "collectionBathroom": "Badkamer",
-    "collectionWallPanels": "Magic Flexible Stone",
+    "collectionWallPanels": "Magic Flexibel Stone",
     "collectionAccessories": "Accessoires",
     "searchPlaceholder": "Producten zoeken…",
     "noResults": "Geen producten gevonden voor je zoekopdracht.",
@@ -338,7 +338,15 @@
         "name": "Bad wit",
         "short": "1750×832×550 mm ▪ Materiaal: solid-surface steen ▪ Afwerking: mat ▪ Kleur: Designer White"
       }
-    }
+    },
+    "allProducts": "Alle producten",
+    "spaces": "Ruimtes",
+    "allSpaces": "Alle ruimtes",
+    "allMaterials": "Alle materialen",
+    "filters": "Filters",
+    "clearAll": "Alle filters wissen",
+    "showResults": "Toon {count} producten",
+    "activeFilters": "Actieve filters"
   },
   "spaces": {
     "eyebrow": "Ruimte voor ruimte",

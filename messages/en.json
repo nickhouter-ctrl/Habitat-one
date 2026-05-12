@@ -142,7 +142,7 @@
     "count": "{count} products",
     "filterAll": "All",
     "collectionBathroom": "Bathroom",
-    "collectionWallPanels": "Magic Flexible Stone",
+    "collectionWallPanels": "Magic Flexibel Stone",
     "collectionAccessories": "Accessories",
     "searchPlaceholder": "Search products…",
     "noResults": "No products match your search.",
@@ -159,7 +159,15 @@
     "noImage": "Image on request",
     "featured": "Featured",
     "colour": "Colours",
-    "i18n": {}
+    "i18n": {},
+    "allProducts": "All products",
+    "spaces": "Spaces",
+    "allSpaces": "All spaces",
+    "allMaterials": "All materials",
+    "filters": "Filters",
+    "clearAll": "Clear all filters",
+    "showResults": "Show {count} products",
+    "activeFilters": "Active filters"
   },
   "spaces": {
     "eyebrow": "Room by room",

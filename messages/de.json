@@ -142,7 +142,7 @@
     "count": "{count} Produkte",
     "filterAll": "Alle",
     "collectionBathroom": "Bad",
-    "collectionWallPanels": "Magic Flexible Stone",
+    "collectionWallPanels": "Magic Flexibel Stone",
     "collectionAccessories": "Zubehör",
     "searchPlaceholder": "Produkte suchen…",
     "noResults": "Keine Produkte passen zu Ihrer Suche.",
@@ -338,7 +338,15 @@
         "name": "Badewanne weiß",
         "short": "1750×832×550 mm ▪ Material: Solid-Surface-Stein ▪ Oberfläche: matt ▪ Farbe: Designer White"
       }
-    }
+    },
+    "allProducts": "Alle Produkte",
+    "spaces": "Räume",
+    "allSpaces": "Alle Räume",
+    "allMaterials": "Alle Materialien",
+    "filters": "Filter",
+    "clearAll": "Alle Filter zurücksetzen",
+    "showResults": "{count} Produkte anzeigen",
+    "activeFilters": "Aktive Filter"
   },
   "spaces": {
     "eyebrow": "Raum für Raum",
