@@ -5,19 +5,20 @@ import { setRequestLocale } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
 import { PageHeader } from "@/components/ui/page-header";
-import { Container, Section } from "@/components/ui/section";
+import { Container, Section, SectionHeading } from "@/components/ui/section";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/ui/reveal";
 import { TiltCard } from "@/components/ui/tilt-card";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import type { Locale } from "@/i18n/routing";
 import {
   formatPriceEUR,
-  getPublishedProperties,
+  getPropertiesGrouped,
   PROPERTIES_UI,
   PROPERTY_STATUS_LABELS,
   PROPERTY_TYPE_LABELS,
   type CrmProperty,
 } from "@/lib/data/properties";
+import { cn } from "@/lib/utils";
 
 export async function generateMetadata({
   params,
@@ -34,21 +35,28 @@ const FALLBACK_IMAGE = "/site/hero_background.jpg";
 function PropertyCard({
   property,
   locale,
+  unavailable = false,
 }: {
   property: CrmProperty;
   locale: Locale;
+  unavailable?: boolean;
 }) {
   const ui = PROPERTIES_UI[locale];
   const img = property.images?.[0] ?? FALLBACK_IMAGE;
   const price = formatPriceEUR(property.priceEur, locale);
   const typeLabel = PROPERTY_TYPE_LABELS[locale][property.type] ?? property.type;
-  const statusLabel = PROPERTY_STATUS_LABELS[locale][property.status];
+  const statusLabel =
+    PROPERTY_STATUS_LABELS[locale][property.status] ??
+    (unavailable ? ui.soldBadgeCard : undefined);
 
   return (
-    <TiltCard className="h-full" intensity={7} lift={6}>
+    <TiltCard className="h-full" intensity={unavailable ? 4 : 7} lift={unavailable ? 3 : 6}>
       <Link
         href={`/properties/${property.id}`}
-        className="surface group block h-full overflow-hidden rounded-3xl"
+        className={cn(
+          "surface group block h-full overflow-hidden rounded-3xl",
+          unavailable && "opacity-80 hover:opacity-100",
+        )}
       >
         <div className="relative aspect-[4/3] overflow-hidden">
           <Image
@@ -56,13 +64,23 @@ function PropertyCard({
             alt={property.title}
             fill
             sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
-            className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+            className={cn(
+              "object-cover transition-transform duration-700 ease-out group-hover:scale-105",
+              unavailable && "grayscale-[35%]",
+            )}
           />
           <span className="absolute left-3 top-3 rounded-full bg-cream/90 px-2.5 py-1 text-xs font-medium text-ink shadow-sm">
             {typeLabel}
           </span>
-          {statusLabel && property.status !== "available" && (
-            <span className="absolute right-3 top-3 rounded-full bg-terracotta-700/90 px-2.5 py-1 text-xs font-medium text-cream shadow-sm">
+          {statusLabel && (unavailable || property.status !== "available") && (
+            <span
+              className={cn(
+                "absolute right-3 top-3 rounded-full px-2.5 py-1 text-xs font-medium shadow-sm",
+                unavailable
+                  ? "bg-ink/80 text-cream"
+                  : "bg-terracotta-700/90 text-cream",
+              )}
+            >
               {statusLabel}
             </span>
           )}
@@ -93,7 +111,7 @@ function PropertyCard({
             )}
           </div>
           <div className="mt-1 flex items-center justify-between border-t border-sand-200 pt-3">
-            <span className="font-display text-lg text-ink">
+            <span className={cn("font-display text-lg text-ink", unavailable && "line-through opacity-60")}>
               {price ? (
                 <>
                   <span className="text-sm font-normal text-ink-soft">{ui.from} </span>
@@ -124,7 +142,7 @@ export default async function PropertiesPage({
   setRequestLocale(rawLocale);
 
   const ui = PROPERTIES_UI[locale] ?? PROPERTIES_UI.en;
-  const properties = await getPublishedProperties();
+  const { available, unavailable } = await getPropertiesGrouped();
 
   return (
     <>
@@ -137,13 +155,13 @@ export default async function PropertiesPage({
 
       <Section className="bg-sand-50">
         <Container>
-          {properties.length === 0 ? (
+          {available.length === 0 ? (
             <Reveal>
               <p className="max-w-xl text-base text-ink-soft">{ui.none}</p>
             </Reveal>
           ) : (
             <StaggerGroup className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {properties.map((p) => (
+              {available.map((p) => (
                 <StaggerItem key={p.id}>
                   <PropertyCard property={p} locale={locale} />
                 </StaggerItem>
@@ -152,6 +170,25 @@ export default async function PropertiesPage({
           )}
         </Container>
       </Section>
+
+      {unavailable.length > 0 && (
+        <Section className="border-t border-sand-200 bg-cream">
+          <Container>
+            <SectionHeading
+              eyebrow={ui.eyebrow}
+              title={ui.soldHeading}
+              text={ui.soldIntro}
+            />
+            <StaggerGroup className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {unavailable.map((p) => (
+                <StaggerItem key={p.id}>
+                  <PropertyCard property={p} locale={locale} unavailable />
+                </StaggerItem>
+              ))}
+            </StaggerGroup>
+          </Container>
+        </Section>
+      )}
 
       <CtaBanner />
     </>
