@@ -3,10 +3,32 @@ import { catalogMaterials, type CatalogMaterial } from "./materials.generated";
 import { catalogSpaces, type CatalogSpace } from "./spaces.generated";
 import { catalogCategories, type CatalogCategory } from "./categories.generated";
 
+export type Collection = CatalogProduct["collection"];
+
+// Manual collection fixes on top of the auto-generated classification.
+// (The catalog's own categories don't cleanly map to our three storefront
+//  collections, so a handful of products need to be re-bucketed by hand.)
+const COLLECTION_OVERRIDES: Record<string, Collection> = {
+  // Magic Flexibel Stone wall panels miscategorised as bathroom
+  "ms-travertino": "wall-panels",
+  // Small bathroom accessories — belong in "Accessories", not the fixtures bucket
+  "solid-surface-bathroom-tray-250-250-25-1765881448962": "accessories",
+  "towel-bar-627-71-25-1765881449656": "accessories",
+  "robe-hook-80-72-36-1765881450340": "accessories",
+  "double-towel-rack-625-219-151-1765881450705": "accessories",
+  "paper-holder-173-89-55-1765881449490": "accessories",
+  "toilet-brush-holder-389-195-140-1765881450523": "accessories",
+  "makeup-mirrors-200mm-1765881449818": "accessories",
+  "mirror-600-800-30-1765881449334": "accessories",
+  "mirror-400x800x20mm": "accessories",
+};
+for (const p of catalogProducts) {
+  const o = COLLECTION_OVERRIDES[p.slug];
+  if (o) p.collection = o;
+}
+
 export { catalogProducts, catalogMaterials, catalogSpaces, catalogCategories };
 export type { CatalogProduct, CatalogMaterial, CatalogSpace, CatalogCategory, ProductVariant };
-
-export type Collection = CatalogProduct["collection"];
 
 export const collections: { id: Collection; key: string }[] = [
   { id: "wall-panels", key: "collectionWallPanels" },
