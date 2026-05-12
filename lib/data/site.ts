@@ -28,7 +28,7 @@ export const primaryNav: NavItem[] = [
   { href: "/products", labelKey: "products" },
   { href: "/spaces", labelKey: "spaces" },
   { href: "/projects", labelKey: "projects" },
-  { href: "/sale", labelKey: "sale" },
+  { href: "/properties", labelKey: "sale" },
   { href: "/services", labelKey: "services" },
   { href: "/about", labelKey: "about" },
   { href: "/showroom", labelKey: "showroom" },
