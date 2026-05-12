@@ -86,7 +86,7 @@
     "viewCatalog": "View full catalogue",
     "projectsEyebrow": "Before & after",
     "projectsTitle": "Transformations in Xàbia",
-    "projectsText": "Drag the slider on each project to see how tired Costa Blanca houses become serene Mediterranean homes.",
+    "projectsText": "On every project the before and the after sit side by side — see how a tired house on the Costa Blanca becomes a calm, light-filled Mediterranean home.",
     "viewProjects": "Browse all projects",
     "processEyebrow": "How we work",
     "processTitle": "From idea to keys in five steps",
@@ -195,7 +195,7 @@
   "projects": {
     "eyebrow": "Before & after",
     "title": "Projects",
-    "intro": "Renovations and new builds across Xàbia. Drag the handle on each project to reveal the before — and what a considered material plan can do.",
+    "intro": "A look at the homes we build and renovate in and around Xàbia — from a derelict finca to a brand-new villa. On every project the before and after sit side by side, so you can see the transformation for yourself.",
     "count": "{count} projects",
     "before": "Before",
     "after": "After",
@@ -206,7 +206,7 @@
     "materialsUsed": "Materials & products",
     "moreProjects": "More transformations",
     "viewProject": "View project",
-    "galleryTitle": "From the build",
+    "galleryTitle": "The project in pictures",
     "style": "Style",
     "duration": "Duration",
     "days": "days"

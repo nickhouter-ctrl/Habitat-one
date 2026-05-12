@@ -86,7 +86,7 @@
     "viewCatalog": "Zum vollständigen Katalog",
     "projectsEyebrow": "Vorher & nachher",
     "projectsTitle": "Verwandlungen in Xàbia",
-    "projectsText": "Ziehen Sie den Regler bei jedem Projekt, um zu sehen, wie müde Costa-Blanca-Häuser zu ruhigen mediterranen Zuhausen werden.",
+    "projectsText": "Bei jedem Projekt stehen das Vorher und das Nachher nebeneinander — sehen Sie, wie ein veraltetes Haus an der Costa Blanca zu einem ruhigen, lichtdurchfluteten mediterranen Zuhause wird.",
     "viewProjects": "Alle Projekte ansehen",
     "processEyebrow": "Wie wir arbeiten",
     "processTitle": "Von der Idee zum Schlüssel in fünf Schritten",
@@ -374,7 +374,7 @@
   "projects": {
     "eyebrow": "Vorher & nachher",
     "title": "Projekte",
-    "intro": "Renovierungen und Neubauten in ganz Xàbia. Ziehen Sie den Griff bei jedem Projekt, um das Vorher zu zeigen — und was ein durchdachter Materialplan bewirken kann.",
+    "intro": "Ein Blick auf die Häuser, die wir in und um Xàbia bauen und renovieren — von einer verfallenen Finca bis zur brandneuen Villa. Bei jedem Projekt stehen das Vorher und das Nachher nebeneinander, damit Sie die Verwandlung selbst sehen.",
     "count": "{count} Projekte",
     "before": "Vorher",
     "after": "Nachher",
@@ -385,7 +385,7 @@
     "materialsUsed": "Materialien & Produkte",
     "moreProjects": "Weitere Verwandlungen",
     "viewProject": "Projekt ansehen",
-    "galleryTitle": "Von der Baustelle",
+    "galleryTitle": "Das Projekt in Bildern",
     "style": "Stil",
     "duration": "Dauer",
     "days": "Tage"

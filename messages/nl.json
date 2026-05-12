@@ -86,7 +86,7 @@
     "viewCatalog": "Bekijk de volledige catalogus",
     "projectsEyebrow": "Voor & na",
     "projectsTitle": "Transformaties in Xàbia",
-    "projectsText": "Sleep de slider bij elk project om te zien hoe vermoeide Costa Blanca-huizen serene mediterrane woningen worden.",
+    "projectsText": "Bij elk project staan het 'voor' en het 'na' naast elkaar — zie hoe een gedateerd huis aan de Costa Blanca een rustig, licht mediterraan thuis wordt.",
     "viewProjects": "Bekijk alle projecten",
     "processEyebrow": "Hoe wij werken",
     "processTitle": "Van idee tot sleutel in vijf stappen",
@@ -374,7 +374,7 @@
   "projects": {
     "eyebrow": "Voor & na",
     "title": "Projecten",
-    "intro": "Renovaties en nieuwbouw in heel Xàbia. Sleep de greep bij elk project om het 'voor' te onthullen — en wat een doordacht materiaalplan kan doen.",
+    "intro": "Een blik op de huizen die we in en rond Xàbia bouwen en renoveren — van een vervallen finca tot een gloednieuwe villa. Bij elk project staan het 'voor' en het 'na' naast elkaar, zodat je de transformatie zelf kunt zien.",
     "count": "{count} projecten",
     "before": "Voor",
     "after": "Na",
@@ -385,7 +385,7 @@
     "materialsUsed": "Materialen & producten",
     "moreProjects": "Meer transformaties",
     "viewProject": "Bekijk project",
-    "galleryTitle": "Van de bouw",
+    "galleryTitle": "Het project in beeld",
     "style": "Stijl",
     "duration": "Duur",
     "days": "dagen"
