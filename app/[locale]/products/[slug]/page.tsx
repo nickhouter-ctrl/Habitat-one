@@ -49,6 +49,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const tr = await productI18n(locale, slug);
   const name = tr.name ?? product.name;
   const lead = tr.short ?? product.short;
+  const localized = product.descriptionI18n?.[locale as "nl" | "de" | "en" | "es"];
+  const description = localized ?? product.description ?? null;
 
   const related = relatedProducts(product, 4);
   const colourCount = product.variants.filter((v) => (v.colorHex || v.name) && v.images.length).length;
@@ -84,7 +86,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                 collectionLabel: t(collectionKey[product.collection]),
                 productName: name,
                 productLead: lead ?? null,
-                productDescription: product.description ?? null,
+                productDescription: description,
               }}
               materialNames={materialNames}
               spaceNames={spaceNames}

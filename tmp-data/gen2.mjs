@@ -106,6 +106,8 @@ const outProducts = products
       sku: clean(p.sku) || null,
       short: clean(p.short_description) || null,
       description: clean(p.description) || null,
+      descriptionI18n: (p.description_i18n && typeof p.description_i18n === "object") ? p.description_i18n : null,
+      additionalSizes: Array.isArray(p.additional_sizes) ? p.additional_sizes.filter((x) => typeof x === "string" && x.trim()) : null,
       image: cardImage,
       featured: !!p.featured,
       dimensions: dims(p) || (() => {
@@ -141,6 +143,8 @@ export interface CatalogProduct {
   sku: string | null;
   short: string | null;
   description: string | null;
+  descriptionI18n: { nl?: string; de?: string; en?: string; es?: string } | null;
+  additionalSizes: string[] | null;
   image: string | null;
   featured: boolean;
   dimensions: string | null;

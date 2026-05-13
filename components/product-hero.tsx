@@ -76,6 +76,11 @@ export function ProductHero({
           {product.dimensions && (
             <Spec icon={<Ruler className="h-4 w-4" />} label={labels.dimensions}>
               {product.dimensions}
+              {product.additionalSizes && product.additionalSizes.length > 0 && (
+                <span className="block text-[0.72rem] text-cream/55">
+                  + {product.additionalSizes.join(" · ")}
+                </span>
+              )}
             </Spec>
           )}
           {hasSwatches && (
