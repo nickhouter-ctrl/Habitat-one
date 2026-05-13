@@ -21,7 +21,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "accessories";
+  collection: "bathroom" | "wall-panels" | "accessories" | "doors";
   variants: ProductVariant[];
 }
 
@@ -86,12 +86,12 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "shower-tray-1400-800-60-1765881447763",
     "sku": "KKR-T011",
     "short": "1400*800*60",
-    "description": "Shower tray White",
+    "description": "1200*900*50",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/272.jpg",
     "featured": false,
-    "dimensions": "1400*800*60",
+    "dimensions": "1200 × 900 mm · t 50 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -1085,7 +1085,7 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "rust-board-",
     "sku": "MS-018",
     "short": "Medium plate: 2940*970 - Bush Hammered: 3060*1180",
-    "description": "3060*1180",
+    "description": "2940mm*970mm",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/316.jpg",

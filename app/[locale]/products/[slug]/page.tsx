@@ -36,7 +36,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return { title: tr.name ?? p.name, description: tr.short ?? p.short ?? p.description ?? undefined };
 }
 
-const collectionKey = { bathroom: "collectionBathroom", "wall-panels": "collectionWallPanels", accessories: "collectionAccessories" } as const;
+const collectionKey = {
+  bathroom: "collectionBathroom",
+  "wall-panels": "collectionWallPanels",
+  accessories: "collectionAccessories",
+  doors: "collectionDoors",
+} as const;
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
