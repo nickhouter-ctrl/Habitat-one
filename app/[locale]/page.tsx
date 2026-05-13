@@ -45,7 +45,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const tmat = await getTranslations("materials");
 
   const pillars = [
-    { icon: Layers, key: "Materials", href: "/materials", img: "/materials/27.jpg" },
+    { icon: Layers, key: "Materials", href: "/products", img: "/materials/27.jpg" },
     { icon: HomeIcon, key: "Properties", href: "/sale", img: "/projects/wip/91.jpg" },
     { icon: Scale, key: "Legal", href: "/services/anton-abogados-lawyer-javea", img: "/projects/wip/99.jpg" },
     { icon: Compass, key: "Design", href: "/services/architecture-interior-design", img: "/projects/wip/93.jpg" },
@@ -186,7 +186,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <SectionHeading eyebrow={t("materialsEyebrow")} title={t("materialsTitle")} text={t("materialsText")} />
             <Reveal direction="left">
-              <Link href="/materials" className="btn btn-ghost shrink-0">
+              <Link href="/products" className="btn btn-ghost shrink-0">
                 {tn("materials")}
                 <ArrowRight className="h-4 w-4" />
               </Link>
