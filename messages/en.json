@@ -160,7 +160,119 @@
     "noImage": "Image on request",
     "featured": "Featured",
     "colour": "Colours",
-    "i18n": {},
+    "i18n": {
+      "lime-dacite-yellow-lime-1778674932941": {
+        "name": "Lime Dacite — Yellow Lime"
+      },
+      "xps-backer-board-20mm-1778674932941": {
+        "name": "XPS Backer Board 20mm"
+      },
+      "wall-hung-basin-kkr-1261-1-1778674932941": {
+        "name": "Wall Hung Basin  KKR-1261-1"
+      },
+      "bathtub-kkr-b008-b-1778674932941": {
+        "name": "Bathtub KKR-B008-B"
+      },
+      "bathtub-drainage-solid-surface-drain-cover-kkr-pu9-1778674932941": {
+        "name": "Bathtub Drainage + Drain Cover KKR-PU9"
+      },
+      "bathtub-drainage-resin-drain-cover-kkr-pu9-resin-1778674932941": {
+        "name": "Bathtub Drainage + Drain Cover KKR-PU9 (resin)"
+      },
+      "wall-hung-basin-kkr-1264-1-1778674932941": {
+        "name": "Wall Hung Basin  KKR-1264-1"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a026-1778674932941": {
+        "name": "Translucent Acrylic Sheet KKR-A026"
+      },
+      "modified-acrylic-solid-surface-sheet-kkr-m8807-1778674932941": {
+        "name": "Modified Acrylic Sheet KKR-M8807"
+      },
+      "xps-backer-board-10mm-1778674932941": {
+        "name": "XPS Backer Board 10mm"
+      },
+      "cabinet-basin-kkr-h7072-d-1778674932941": {
+        "name": "Cabinet Basin KKR-H7072-D"
+      },
+      "cabinet-basin-kkr-h7036-1778674932941": {
+        "name": "Cabinet Basin KKR-H7036"
+      },
+      "countertop-basin-kkr-2124-1778674932941": {
+        "name": "Countertop Basin KKR-2124"
+      },
+      "freestanding-basin-drainage-set-kkr-pd032-1778674932941": {
+        "name": "Freestanding Basin Drainage Set KKR-PD032"
+      },
+      "countertop-basin-kkr-1169-1778674932941": {
+        "name": "Countertop Basin KKR-1169"
+      },
+      "countertop-basin-kkr-1507-1778674932942": {
+        "name": "Countertop Basin KKR-1507"
+      },
+      "freestanding-basin-kkr-1908-1778674932942": {
+        "name": "Freestanding Basin KKR-1908"
+      },
+      "bathtub-kkr-b051-1778674932942": {
+        "name": "Bathtub KKR-B051"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a110-1778674932942": {
+        "name": "Translucent Acrylic Sheet KKR-A110"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a025-1778674932942": {
+        "name": "Translucent Acrylic Sheet KKR-A025"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a001-1778674932942": {
+        "name": "Translucent Acrylic Sheet KKR-A001"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a027-1778674932942": {
+        "name": "Translucent Acrylic Sheet KKR-A027"
+      },
+      "bathtub-rack-kkr-b-rack09-1778674932942": {
+        "name": "Bathtub Rack KKR-B-RACK09"
+      },
+      "xps-backer-board-12mm-1778674932942": {
+        "name": "XPS Backer Board 12mm"
+      },
+      "xps-backer-board-6mm-1778674932942": {
+        "name": "XPS Backer Board 6mm"
+      },
+      "basin-taps-1778674932942": {
+        "name": "Basin Taps"
+      },
+      "xps-backer-board-30mm-1778674932942": {
+        "name": "XPS Backer Board 30mm"
+      },
+      "xps-backer-board-10mm-1778674932942": {
+        "name": "XPS Backer Board 10mm"
+      },
+      "lime-dacite-white-lime-1778674932942": {
+        "name": "Lime Dacite — White Lime"
+      },
+      "wood-concrete-board-light-grey-1778674932942": {
+        "name": "Wood Concrete board — Light Grey"
+      },
+      "wood-concrete-board-medium-grey-1778674932942": {
+        "name": "Wood Concrete board — Medium grey"
+      },
+      "wall-hung-basin-kkr-h5060-d-1778674932942": {
+        "name": "Wall Hung Basin KKR-H5060-D"
+      },
+      "inside-door-1778676102509": {
+        "name": "Inside Door"
+      },
+      "hinges-binnen-1778676102509": {
+        "name": "Hinges (interior)"
+      },
+      "inside-door-2-1778676102509": {
+        "name": "Inside Door 2"
+      },
+      "outside-door-1778676102509": {
+        "name": "Outside Door"
+      },
+      "outside-door-2-1778676102509": {
+        "name": "Outside Door 2"
+      }
+    },
     "allProducts": "All products",
     "spaces": "Spaces",
     "allSpaces": "All spaces",
