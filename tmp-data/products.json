@@ -15,7 +15,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 185,
@@ -39,19 +40,20 @@
     "id": 186,
     "name": "Shower tray white - KKR",
     "slug": "shower-tray-1400-800-60-1765881447763",
-    "description": "Shower tray White ",
+    "description": "1200*900*50",
     "short_description": "1400*800*60",
     "sku": "KKR-T011",
     "thumbnail_path": null,
     "featured": false,
-    "width": null,
+    "width": 900,
     "height": null,
-    "length": null,
-    "thickness": null,
+    "length": 1200,
+    "thickness": 50,
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 187,
@@ -69,7 +71,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 188,
@@ -87,7 +90,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 190,
@@ -105,7 +109,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 191,
@@ -123,7 +128,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 192,
@@ -141,7 +147,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 194,
@@ -159,7 +166,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 195,
@@ -177,7 +185,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 196,
@@ -195,7 +204,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 197,
@@ -213,7 +223,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 198,
@@ -231,7 +242,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 200,
@@ -249,7 +261,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 201,
@@ -267,7 +280,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 202,
@@ -285,7 +299,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 205,
@@ -303,7 +318,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 206,
@@ -321,7 +337,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 322,
@@ -339,7 +356,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 325,
@@ -357,7 +375,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 331,
@@ -375,7 +394,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 332,
@@ -393,7 +413,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 333,
@@ -411,7 +432,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 335,
@@ -429,7 +451,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 336,
@@ -447,7 +470,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 337,
@@ -465,7 +489,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 338,
@@ -483,7 +508,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 339,
@@ -501,7 +527,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 340,
@@ -519,13 +546,14 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 341,
     "name": "Rust Board",
     "slug": "rust-board-",
-    "description": "3060*1180",
+    "description": "2940mm*970mm",
     "short_description": "Medium plate: 2940*970 - \nBush Hammered: 3060*1180",
     "sku": "MS-018",
     "thumbnail_path": null,
@@ -537,7 +565,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 342,
@@ -555,7 +584,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 343,
@@ -573,7 +603,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 344,
@@ -591,7 +622,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 345,
@@ -609,7 +641,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 346,
@@ -627,7 +660,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 347,
@@ -645,7 +679,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 348,
@@ -663,7 +698,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 349,
@@ -681,7 +717,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 350,
@@ -699,7 +736,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 351,
@@ -717,7 +755,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 352,
@@ -735,7 +774,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 353,
@@ -753,7 +793,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 354,
@@ -771,7 +812,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 355,
@@ -789,7 +831,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 356,
@@ -807,7 +850,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 357,
@@ -825,7 +869,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 358,
@@ -843,7 +888,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 359,
@@ -861,7 +907,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 360,
@@ -879,7 +926,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 361,
@@ -897,7 +945,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 362,
@@ -915,7 +964,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 364,
@@ -933,7 +983,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "pcs"
+    "stock_unit": "pcs",
+    "additional_sizes": null
   },
   {
     "id": 367,
@@ -972,7 +1023,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 369,
@@ -993,7 +1045,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 370,
@@ -1014,7 +1067,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 371,
@@ -1035,7 +1089,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 372,
@@ -1056,7 +1111,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 373,
@@ -1077,7 +1133,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 374,
@@ -1098,7 +1155,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 375,
@@ -1119,7 +1177,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 376,
@@ -1140,7 +1199,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 377,
@@ -1161,7 +1221,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 378,
@@ -1182,7 +1243,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 379,
@@ -1203,7 +1265,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 380,
@@ -1224,7 +1287,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 381,
@@ -1245,7 +1309,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 382,
@@ -1266,7 +1331,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 383,
@@ -1287,7 +1353,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 384,
@@ -1308,7 +1375,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 385,
@@ -1329,7 +1397,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 386,
@@ -1350,7 +1419,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 387,
@@ -1371,7 +1441,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 388,
@@ -1392,7 +1463,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 389,
@@ -1413,7 +1485,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 390,
@@ -1434,7 +1507,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 391,
@@ -1455,7 +1529,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 392,
@@ -1476,7 +1551,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 393,
@@ -1495,7 +1571,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 394,
@@ -1516,7 +1593,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 395,
@@ -1537,7 +1615,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 396,
@@ -1558,7 +1637,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 397,
@@ -1579,7 +1659,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 398,
@@ -1600,7 +1681,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 399,
@@ -1621,7 +1703,8 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 400,
@@ -1642,6 +1725,7 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   }
 ]
