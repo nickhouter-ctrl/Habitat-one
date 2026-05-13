@@ -2,78 +2,155 @@
   {
     "id": 100,
     "slug": "travertine",
-    "name": "Travertine",
+    "name": "Travertijn",
+    "name_i18n": {
+      "nl": "Travertijn",
+      "de": "Travertin",
+      "en": "Travertine",
+      "es": "Travertino"
+    },
     "description": "Travertijn-look panelen — warme aardetinten, klassieke uitstraling.",
+    "image_path": null,
     "is_active": true
   },
   {
     "id": 101,
     "slug": "concrete",
     "name": "Beton & Cement",
+    "name_i18n": {
+      "nl": "Beton & Cement",
+      "de": "Beton & Zement",
+      "en": "Concrete & Cement",
+      "es": "Hormigón & Cemento"
+    },
     "description": "Beton- en cement-look — strakke, industriële uitstraling.",
+    "image_path": "16.jpg",
     "is_active": true
   },
   {
     "id": 102,
     "slug": "wood-look",
     "name": "Houtlook",
+    "name_i18n": {
+      "nl": "Houtlook",
+      "de": "Holzoptik",
+      "en": "Wood Look",
+      "es": "Aspecto Madera"
+    },
     "description": "Panelen met hout-textuur — warm en natuurlijk.",
+    "image_path": "11.jpg",
     "is_active": true
   },
   {
     "id": 103,
     "slug": "natural-stone",
     "name": "Natuursteen",
+    "name_i18n": {
+      "nl": "Natuursteen",
+      "de": "Naturstein",
+      "en": "Natural Stone",
+      "es": "Piedra Natural"
+    },
     "description": "Steenpanelen geïnspireerd op graniet, kalksteen en zandsteen.",
+    "image_path": "18.jpg",
     "is_active": true
   },
   {
     "id": 104,
     "slug": "rammed-earth",
     "name": "Rammed Earth",
+    "name_i18n": {
+      "nl": "Aardesteen",
+      "de": "Stampflehm",
+      "en": "Rammed Earth",
+      "es": "Tierra Apisonada"
+    },
     "description": "Aardesteen-look — gelaagde, organische texturen.",
+    "image_path": "27.jpg",
     "is_active": true
   },
   {
     "id": 105,
     "slug": "terrazzo",
-    "name": "Terrazzo & Texture",
+    "name": "Terrazzo & Textuur",
+    "name_i18n": {
+      "nl": "Terrazzo & Textuur",
+      "de": "Terrazzo & Textur",
+      "en": "Terrazzo & Texture",
+      "es": "Terrazo & Textura"
+    },
     "description": "Terrazzo en gestructureerde oppervlakken.",
+    "image_path": "29.jpg",
     "is_active": true
   },
   {
     "id": 106,
     "slug": "solid-surface",
     "name": "Solid Surface",
+    "name_i18n": {
+      "nl": "Solid Surface",
+      "de": "Solid Surface",
+      "en": "Solid Surface",
+      "es": "Superficie Sólida"
+    },
     "description": "Naadloze badkamer-elementen — bad, wastafel, douchebak.",
+    "image_path": null,
     "is_active": true
   },
   {
     "id": 107,
     "slug": "acrylic",
-    "name": "Acrylic Sheets",
+    "name": "Acrylplaat",
+    "name_i18n": {
+      "nl": "Acrylplaat",
+      "de": "Acrylplatten",
+      "en": "Acrylic Sheets",
+      "es": "Láminas Acrílicas"
+    },
     "description": "Doorschijnende acrylplaten — modern licht-design.",
+    "image_path": null,
     "is_active": true
   },
   {
     "id": 108,
     "slug": "glass-mirror",
     "name": "Glas & Spiegels",
+    "name_i18n": {
+      "nl": "Glas & Spiegels",
+      "de": "Glas & Spiegel",
+      "en": "Glass & Mirrors",
+      "es": "Vidrio & Espejos"
+    },
     "description": "Glas en spiegel-elementen voor de badkamer.",
+    "image_path": null,
     "is_active": true
   },
   {
     "id": 109,
     "slug": "brushed-metal",
-    "name": "Geborsteld metaal",
+    "name": "Geborsteld Metaal",
+    "name_i18n": {
+      "nl": "Geborsteld Metaal",
+      "de": "Gebürstetes Metall",
+      "en": "Brushed Metal",
+      "es": "Metal Cepillado"
+    },
     "description": "Towel bars, kranen, hooks en hinges in mat geborsteld metaal.",
+    "image_path": "15.jpg",
     "is_active": true
   },
   {
     "id": 110,
     "slug": "xps-backer",
     "name": "XPS Backer Boards",
+    "name_i18n": {
+      "nl": "XPS Onderplaten",
+      "de": "XPS Trägerplatten",
+      "en": "XPS Backer Boards",
+      "es": "Placas Base XPS"
+    },
     "description": "Onderlaag-platen voor wandpanelen en betegeling.",
+    "image_path": null,
     "is_active": true
   }
 ]
