@@ -111,7 +111,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": "Transform your shower space into a statement of style with this premium shower glass, finished with exquisite bronze detailing. The combination of clear glass and warm metallic tones creates a harmonious balance between minimalism and luxury, making it a standout feature in any bathroom.",
     "image": "/products/v/436.jpg",
     "featured": false,
-    "dimensions": "900 × 1200 × 2000 mm",
+    "dimensions": "1200 × 900 mm · t 2000 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -989,7 +989,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "image": "/products/v/316.jpg",
     "featured": false,
-    "dimensions": null,
+    "dimensions": "1180 × 3060 mm",
     "materials": [
       "concrete",
       "concrete-stone"
@@ -1186,7 +1186,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": "Made by pressing natural stone powder, it has super toughness and can be used in flat and curved shapes, wrapping cylinders with a diameter of 20 mm without cracking. The surface texture is rich and can present various natural material textures, and its natural texture and texture",
     "image": "/products/v/459.jpg",
     "featured": false,
-    "dimensions": "600 × 600 × 3000 mm",
+    "dimensions": "600 × 3000 mm",
     "materials": [
       "concrete",
       "concrete-stone"
@@ -1846,7 +1846,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "image": "/products/v/371.jpg",
     "featured": false,
-    "dimensions": "600 × 600 × 3000 mm",
+    "dimensions": "600 × 1200 mm",
     "materials": [
       "concrete",
       "concrete-stone"
@@ -1999,7 +1999,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "image": "/products/v/380.jpg",
     "featured": false,
-    "dimensions": "2940*570",
+    "dimensions": "570 × 2940 mm",
     "materials": [
       "concrete",
       "concrete-stone"
@@ -2089,7 +2089,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "image": "/products/v/389.jpg",
     "featured": false,
-    "dimensions": "2940*570",
+    "dimensions": "570 × 2940 mm",
     "materials": [
       "concrete",
       "concrete-stone"
