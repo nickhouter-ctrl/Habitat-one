@@ -29,7 +29,7 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "shower-tray-drainage-match-with-the-shower-trays-1765881447305",
     "sku": "KKR-P15-2",
     "short": "showertray drainage match with the showertrays.",
-    "description": "The Shower Tray Drainage component is intended for use alongside shower trays. Specifically designed to act as the drainage element, it matches with the shower trays for a coordinated finish. Ideal for bathroom installations that already feature, or plan to include, a shower tray, this drainage piece ensures visual and functional consistency by aligning with the tray it accompanies.",
+    "description": "match with the shower trays",
     "image": "/products/v/432.jpg",
     "featured": false,
     "dimensions": null,
@@ -74,7 +74,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 186,
-    "name": "Shower tray",
+    "name": "Shower tray white - KKR",
     "slug": "shower-tray-1400-800-60-1765881447763",
     "sku": "KKR-T011",
     "short": "1400*800*60",
@@ -139,10 +139,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "wash-basin-870-415-160-1765881448101",
     "sku": "KKR-2120",
     "short": "870*415*160",
-    "description": null,
+    "description": "870*415*160",
     "image": "/products/v/274.jpg",
     "featured": false,
-    "dimensions": "870*415*160",
+    "dimensions": "870 × 415 mm · t 160 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -170,10 +170,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "wash-basin-600-400-145-1765881448593",
     "sku": "KKR-2123",
     "short": "600mmx400mmx145mm",
-    "description": "Introducing our solid surface stone vessel sink, the epitome of modern luxury. Crafted with high-quality solid surface stone, these sinks offer durability and timeless elegance. Their sleek design and smooth finish add a touch of sophistication to any bathroom.",
+    "description": "600*400*145",
     "image": "/products/v/279.jpg",
     "featured": false,
-    "dimensions": "600 × 145 × 400 mm",
+    "dimensions": "600 × 400 mm · t 145 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -201,10 +201,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "wash-basin-290-290-145-1765881448777",
     "sku": "KKR-1141-2",
     "short": "290*290*145",
-    "description": null,
+    "description": "290*290*145",
     "image": "/products/v/284.jpg",
     "featured": false,
-    "dimensions": "290*290*145",
+    "dimensions": "290 × 290 mm · t 145 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -232,10 +232,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "solid-surface-bathroom-tray-250-250-25-1765881448962",
     "sku": "KKR-1080-1",
     "short": "Bathroom tray 250mmx250mmx25mm",
-    "description": "Add a touch of style and organization to your bathroom with this elegant bathroom tray. Perfect for neatly displaying your soap, perfumes, skincare products, or candles, this tray helps keep your bathroom tidy while creating a beautiful, spa-like atmosphere. Its clean and modern design makes it a stylish accessory that fits effortlessly in any bathroom interior. Whether placed next to the sink, on a vanity, or on a shelf, this bathroom tray brings both functionality and decorative charm. A simple yet beautiful way to elevate your bathroom and keep your essentials organized.",
+    "description": "250*250*25",
     "image": "/products/v/415.jpg",
     "featured": false,
-    "dimensions": null,
+    "dimensions": "250 × 250 mm · t 25 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -263,10 +263,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "mirror-600-800-30-1765881449334",
     "sku": "KKR-8051-2",
     "short": "600mmx800mmx30mm",
-    "description": "The Mirror offers a myriad of advantageous selling points that make it an essential addition to any space. Its sleek and reflective surface adds depth and brightness, making rooms appear more spacious and inviting. As a versatile décor piece, it compl ements various interior styles, from modern to classic. With its functional use, the Mirror aids in daily grooming and styling routines. Its high-quality materials ensure clear and distortion-free reflections. Additionally, the Mirror serves as a practical tool for enhancing safety and security, allowing users to monitor their surroundings. Embrace the beauty, functionality, and versatility of the Mirror to elevate your living spaces.",
+    "description": "600*800*30",
     "image": "/products/v/443.jpg",
     "featured": false,
-    "dimensions": "600mmx800mmx30mm",
+    "dimensions": "600 × 800 mm · t 30 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -292,10 +292,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "paper-holder-173-89-55-1765881449490",
     "sku": "KKR-3209A",
     "short": "173mmx89mmx55mm",
-    "description": "This thoughtfully curated set includes all the essentials to enhance your bathroom's functionality while keeping it organized and modern. From sleek towel racks and towel bars for drying towels, to soap dispensers and soap dishes that add a touch of elegance, every detail is designed for convenience.",
+    "description": "173*89*55",
     "image": "/products/v/439.jpg",
     "featured": false,
-    "dimensions": "173mmx89mmx55mm",
+    "dimensions": "173 × 89 mm · t 55 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -322,10 +322,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "towel-bar-627-71-25-1765881449656",
     "sku": "KKR-3704",
     "short": "627mmx71mmx25mm",
-    "description": "This thoughtfully curated set includes all the essentials to enhance your bathroom's functionality while keeping it organized and modern. From sleek towel racks and towel bars for drying towels, to soap dispensers and soap dishes that add a touch of elegance, every detail is designed for convenience.",
+    "description": "627*71*25",
     "image": "/products/v/441.jpg",
     "featured": false,
-    "dimensions": "627mmx71mmx25mm",
+    "dimensions": "627 × 71 mm · t 25 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -352,7 +352,7 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "makeup-mirrors-200mm-1765881449818",
     "sku": "KKR-8201",
     "short": "Make-up mirror φ200mm",
-    "description": "The Mirror offers a myriad of advantageous selling points that make it an essential addition to any space. Its sleek and reflective surface adds depth and brightness, making rooms appear more spacious and inviting. As a versatile décor piece, it compl ements various interior styles, from modern to classic. With its functional use, the Mirror aids in daily grooming and styling routines. Its high-quality materials ensure clear and distortion-free reflections. Additionally, the Mirror serves as a practical tool for enhancing safety and security, allowing users to monitor their surroundings. Embrace the beauty, functionality, and versatility of the Mirror to elevate your living spaces.",
+    "description": "200mm",
     "image": "/products/v/400.jpg",
     "featured": false,
     "dimensions": null,
@@ -412,10 +412,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "robe-hook-80-72-36-1765881450340",
     "sku": "KKR-3508",
     "short": "80mmx72mmx36mm",
-    "description": "This thoughtfully curated set includes all the essentials to enhance your bathroom's functionality while keeping it organized and modern. From sleek towel racks and towel bars for drying towels, to soap dispensers and soap dishes that add a touch of elegance, every detail is designed for convenience.",
+    "description": "80*72*36",
     "image": "/products/v/442.jpg",
     "featured": false,
-    "dimensions": "80mmx72mmx36mm",
+    "dimensions": "80 × 72 mm · t 36 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -442,10 +442,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "toilet-brush-holder-389-195-140-1765881450523",
     "sku": "KKR-3512",
     "short": "Toilet brush holder 389mmx195mmx140mm",
-    "description": "This thoughtfully curated set includes all the essentials to enhance your bathroom's functionality while keeping it organized and modern. From sleek towel racks and towel bars for drying towels, to soap dispensers and soap dishes that add a touch of elegance, every detail is designed for convenience.",
+    "description": "389*195*140",
     "image": "/products/v/407.jpg",
     "featured": false,
-    "dimensions": null,
+    "dimensions": "389 × 195 mm · t 140 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -474,10 +474,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "double-towel-rack-625-219-151-1765881450705",
     "sku": "KKR-3502A",
     "short": "625mmx219mmx151mm",
-    "description": "This thoughtfully curated set includes all the essentials to enhance your bathroom's functionality while keeping it organized and modern. From sleek towel racks and towel bars for drying towels, to soap dispensers and soap dishes that add a touch of elegance, every detail is designed for convenience.",
+    "description": "625*219*151",
     "image": "/products/v/433.jpg",
     "featured": false,
-    "dimensions": "625mmx219mmx151mm",
+    "dimensions": "625 × 219 mm · t 151 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -504,10 +504,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "concealed-cistern-flush-1070-90-500-1765881451194",
     "sku": "KKR-CT005",
     "short": "1070*90*500",
-    "description": "Check the Measurements",
+    "description": "1070*90*500",
     "image": "/products/v/298.jpg",
     "featured": false,
-    "dimensions": "1070*90*500",
+    "dimensions": "1070 × 90 mm · t 500 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -533,10 +533,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "brushed-stainless-steel-button-cover-240-160-12-1765881451362",
     "sku": "KKR-CT012",
     "short": "240*160*12",
-    "description": null,
+    "description": "240*160*12",
     "image": "/products/v/430.jpg",
     "featured": false,
-    "dimensions": "240*160*12",
+    "dimensions": "240 × 160 mm · t 12 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -563,7 +563,7 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "basin-drainage-match-with-basins-kkr-2121-kkr-1169-kkr-1507",
     "sku": "KKR-PU004",
     "short": "Basin Drainage Whole Set -C+solid surface",
-    "description": "Drainers Experience unparalleled elegance and functionality with our Drainers, crafted from copper with a sleek chrome plating surface. Featuring 304# decorative cups and a deodorant drainage system, these drainers combine style with odor-eliminating efficiency. Upgrade your space with sophistication and practicality.",
+    "description": "Whole Set -C+solid surface",
     "image": "/products/v/435.jpg",
     "featured": false,
     "dimensions": null,
@@ -591,14 +591,14 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 325,
-    "name": "Bathroom Mirror",
+    "name": "Mirror",
     "slug": "mirror-400x800x20mm",
     "sku": "KKR-8058",
     "short": "Mirror gold 400x800x20mm",
-    "description": "The Mirror offers a myriad of advantageous selling points that make it an essential addition to any space. Its sleek and reflective surface adds depth and brightness, making rooms appear more spacious and inviting. As a versatile décor piece, it compl ements various interior styles, from modern to classic. With its functional use, the Mirror aids in daily grooming and styling routines. Its high-quality materials ensure clear and distortion-free reflections. Additionally, the Mirror serves as a practical tool for enhancing safety and security, allowing users to monitor their surroundings. Embrace the beauty, functionality, and versatility of the Mirror to elevate your living spaces.",
+    "description": "400*800*20",
     "image": "/products/v/404.jpg",
     "featured": false,
-    "dimensions": null,
+    "dimensions": "400 × 800 mm · t 20 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -621,14 +621,14 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 331,
-    "name": "Shower tray Black",
+    "name": "Shower tray Black - KKR",
     "slug": "shower-tray-black",
     "sku": "KKR-T122-B",
     "short": "Measurements 1200mmx900mmx35mm",
-    "description": "The Shower Tray Black is designed to bring a sophisticated, modern look to any bathroom space. Finished in an elegant black tone, this tray adds a luxe and stylish touch that effortlessly elevates contemporary interiors. With overall dimensions of 900*1200*35, it offers ample standing room while maintaining a sleek, low-profile silhouette. The combination of generous size and minimalist form makes it a striking yet functional centrepiece for shower areas, allowing seamless integration with a wide range of bathroom décors. Whether you are completing a new build or updating an existing shower, this tray provides a refined foundation that highlights both practicality and design flair.",
+    "description": "900*1200*35",
     "image": "/products/v/414.jpg",
     "featured": false,
-    "dimensions": "1200 × 900 × 35 mm",
+    "dimensions": "900 × 1200 mm · t 35 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -652,14 +652,14 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 332,
-    "name": "Shower tray White",
+    "name": "Shower tray White - KKR",
     "slug": "shower-tray-white",
     "sku": "KKR-T001-D",
     "short": "1225mmx900mmx68mm Shower tray white, luxe and stylish",
-    "description": "This white shower tray offers a luxe and stylish foundation for modern shower spaces. With precise measurements of 1225×900×68, it provides ample surface area while maintaining a slim profile that enhances the overall aesthetic of the bathroom. The clean white finish contributes to a bright, contemporary look, complementing a range of interior design styles. Carefully sized to balance comfort and space efficiency, this shower tray is an elegant solution for upgrading or completing bathroom installations.",
+    "description": "1225*900*68",
     "image": "/products/v/425.jpg",
     "featured": false,
-    "dimensions": "1225 × 900 × 68 mm",
+    "dimensions": "1225 × 900 mm · t 68 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -688,10 +688,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "wall-hung-toilet",
     "sku": "KKR-CT11010",
     "short": "Wall-hung toilet 500mmx360mmx360mm",
-    "description": "Made from high-quality ceramic, these toilets offer a sleek, modern look that fits seamlessly into any bathroom aesthetic. The smooth, easy-to-clean surface ensures long-lasting performance, while the efficient flush system conserves water without compromising on functionality.",
+    "description": "500*360*360",
     "image": "/products/v/406.jpg",
     "featured": false,
-    "dimensions": null,
+    "dimensions": "500 × 360 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -716,10 +716,10 @@ export const catalogProducts: CatalogProduct[] = [
     "slug": "wall-hung-toilet-white",
     "sku": "KKR-CT11023",
     "short": "Wall Hung Toilet 500mmx360mmx350mm",
-    "description": "Made from high-quality ceramic, these toilets offer a sleek, modern look that fits seamlessly into any bathroom aesthetic. The smooth, easy-to-clean surface ensures long-lasting performance, while the efficient flush system conserves water without compromising on functionality.",
+    "description": "500*360*350",
     "image": "/products/v/405.jpg",
     "featured": false,
-    "dimensions": null,
+    "dimensions": "500 × 360 mm · t 350 mm",
     "materials": [],
     "spaces": [
       "bathroom"
@@ -740,11 +740,11 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 336,
-    "name": "Concrete Board",
+    "name": "Concrete board - Pure White",
     "slug": "concrete-board-",
     "sku": "MS-001",
     "short": "Concrete board 3060mmx1200mm",
-    "description": "Pure soft stone 3-5MM Thickness 3-5MM Usable area Wall/Background wall",
+    "description": "3060*1200",
     "image": "/products/v/445.jpg",
     "featured": false,
     "dimensions": "1200 × 3060 mm",
@@ -797,14 +797,14 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 337,
-    "name": "Ripple Board",
+    "name": "Ripple Board - Beige",
     "slug": "ripple-board-",
     "sku": "MS-005",
     "short": "3000mmx600mm",
-    "description": "Category Pure soft stone 2-7MM Thickness 2-7MM Usable area Wall/Background wall",
+    "description": "3000mm*600mm",
     "image": "/products/v/447.jpg",
     "featured": false,
-    "dimensions": "600 × 600 × 3000 mm",
+    "dimensions": "3000mmx600mm",
     "materials": [
       "concrete"
     ],
@@ -845,14 +845,14 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 338,
-    "name": "MS Travertino",
+    "name": "MS Travertino - Beige",
     "slug": "ms-travertino",
     "sku": "MS-008",
     "short": "3000mmx600mm",
-    "description": "Category Pure soft stone 3-5MM Thickness 3-5MM Usable area Wall/Background wall",
+    "description": "3000mm*600mm",
     "image": "/products/v/448.jpg",
     "featured": false,
-    "dimensions": "600 × 600 × 3000 mm",
+    "dimensions": "3000mmx600mm",
     "materials": [
       "concrete"
     ],
@@ -902,14 +902,14 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 339,
-    "name": "Line Stone Board",
+    "name": "Line Stone Board - Beige",
     "slug": "line-stone-board",
     "sku": "MS-013",
     "short": "Line Stone Board 3000mmx600mm",
-    "description": "Category Pure soft stone 4-8MM Thickness 4-8MM Usable area Wall/Background wall",
+    "description": "3000mm *600mm",
     "image": "/products/v/451.jpg",
     "featured": false,
-    "dimensions": "600 × 600 × 3000 mm",
+    "dimensions": null,
     "materials": [
       "concrete",
       "concrete-stone"
@@ -941,14 +941,14 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 340,
-    "name": "Fine Line Stone Board",
+    "name": "Fine Line Stone Board - Beige",
     "slug": "fine-line-stone-board-",
     "sku": "MS-015",
     "short": "Fine Line Stone Board 3000mmx600mm",
-    "description": "Made by pressing natural stone powder, it has super toughness and can be used in flat and curved shapes, wrapping cylinders with a diameter of 20 mm without cracking. The surface texture is rich and can present various natural material textures, and its natural texture and texture Category Pure soft stone 3-5MM Thickness 3-5MM Usable area Wall/Background wall",
+    "description": "3000*600",
     "image": "/products/v/452.jpg",
     "featured": false,
-    "dimensions": "600 × 600 × 3000 mm",
+    "dimensions": "600 × 3000 mm",
     "materials": [
       "concrete",
       "concrete-stone"
@@ -2151,14 +2151,14 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 364,
-    "name": "Bathtub",
+    "name": "Bathtub KKR-B051-A",
     "slug": "bathtub",
     "sku": "KKR-B051-A",
     "short": "Bathtub 1780x785x590mm",
-    "description": "The Solid Surface Bathtub, crafted from premium solid-surface material, blends durable construction with a luxurious aesthetic. Its non-porous surface resists stains, scratches and chemicals for easy maintenance and lasting beauty; ergonomic design and heat-retaining material provide comfortable, warm bathing. Available in customizable shapes and sizes to suit any bathroom design.",
+    "description": "Design white · 1780×785×590mm · solid surface · matt",
     "image": "/products/v/483.jpg",
     "featured": false,
-    "dimensions": "1780 × 785 × 590 mm",
+    "dimensions": "1780 × 785 mm · t 590 mm",
     "materials": [
       "stone"
     ],
