@@ -41,6 +41,7 @@ const collectionKey = {
   "wall-panels": "collectionWallPanels",
   accessories: "collectionAccessories",
   doors: "collectionDoors",
+  "door-accessories": "collectionDoorAccessories",
 } as const;
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {

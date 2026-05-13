@@ -21,7 +21,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "accessories" | "doors";
+  collection: "bathroom" | "wall-panels" | "accessories" | "doors" | "door-accessories";
   variants: ProductVariant[];
 }
 
@@ -3344,7 +3344,7 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "spaces": [],
     "categories": [],
-    "collection": "doors",
+    "collection": "door-accessories",
     "variants": []
   },
   {

@@ -34,6 +34,7 @@ export const collections: { id: Collection; key: string }[] = [
   { id: "wall-panels", key: "collectionWallPanels" },
   { id: "bathroom", key: "collectionBathroom" },
   { id: "doors", key: "collectionDoors" },
+  { id: "door-accessories", key: "collectionDoorAccessories" },
   { id: "accessories", key: "collectionAccessories" },
 ];
 
@@ -92,14 +93,14 @@ export function hasColourOptions(p: CatalogProduct): boolean {
 
 export function featuredProducts(n = 8): CatalogProduct[] {
   const withImg = productsWithImages;
-  const byCol: Record<string, CatalogProduct[]> = { "wall-panels": [], bathroom: [], accessories: [], doors: [] };
+  const byCol: Record<string, CatalogProduct[]> = { "wall-panels": [], bathroom: [], accessories: [], doors: [], "door-accessories": [] };
   // prefer products that offer colour options
   const sorted = [...withImg].sort((a, b) => (b.variants.length > 1 ? 1 : 0) - (a.variants.length > 1 ? 1 : 0));
   for (const p of sorted) byCol[p.collection].push(p);
   const picked: CatalogProduct[] = [];
   let i = 0;
-  while (picked.length < n && (byCol["wall-panels"].length || byCol.bathroom.length || byCol.accessories.length || byCol.doors.length)) {
-    const order = i % 2 === 0 ? ["wall-panels", "bathroom", "doors", "accessories"] : ["bathroom", "wall-panels", "doors", "accessories"];
+  while (picked.length < n && (byCol["wall-panels"].length || byCol.bathroom.length || byCol.accessories.length || byCol.doors.length || byCol["door-accessories"].length)) {
+    const order = i % 2 === 0 ? ["wall-panels", "bathroom", "doors", "door-accessories", "accessories"] : ["bathroom", "wall-panels", "doors", "door-accessories", "accessories"];
     for (const c of order) {
       const next = byCol[c].shift();
       if (next && picked.length < n) picked.push(next);
