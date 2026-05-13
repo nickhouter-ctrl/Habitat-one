@@ -3091,5 +3091,101 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [],
     "collection": "accessories",
     "variants": []
+  },
+  {
+    "id": 401,
+    "name": "Inside Door",
+    "slug": "inside-door-1778676102509",
+    "sku": "DR-002",
+    "short": null,
+    "description": "920 mm 2600 mm 150 mm 45 mm",
+    "descriptionI18n": {
+      "nl": "920 mm\t2600 mm 150 mm 45 mm"
+    },
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "doors",
+    "variants": []
+  },
+  {
+    "id": 402,
+    "name": "Hinges (binnen)",
+    "slug": "hinges-binnen-1778676102509",
+    "sku": "DR-001",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "doors",
+    "variants": []
+  },
+  {
+    "id": 403,
+    "name": "Inside Door 2",
+    "slug": "inside-door-2-1778676102509",
+    "sku": "DR-003",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "doors",
+    "variants": []
+  },
+  {
+    "id": 404,
+    "name": "Outside Door",
+    "slug": "outside-door-1778676102509",
+    "sku": "DR-004",
+    "short": null,
+    "description": "Exterior Wooden Door",
+    "descriptionI18n": {
+      "nl": "Exterior Wooden Door"
+    },
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "doors",
+    "variants": []
+  },
+  {
+    "id": 405,
+    "name": "Outside Door 2",
+    "slug": "outside-door-2-1778676102509",
+    "sku": "DR-005",
+    "short": null,
+    "description": "Exterior Wooden Door with Glass",
+    "descriptionI18n": {
+      "nl": "Exterior Wooden Door with Glass"
+    },
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "doors",
+    "variants": []
   }
 ];
