@@ -163,11 +163,24 @@ export const catalogProducts: CatalogProduct[] = ${JSON.stringify(outProducts, n
 // ---- materials / spaces / categories (unchanged structure) ----
 const matsOut = materials
   .filter((m) => m.is_active !== false)
-  .map((m) => ({ id: m.id, name: clean(m.name), slug: m.slug, description: clean(m.description) || null, image: matExt[m.id] ? `/materials/${m.id}.${matExt[m.id]}` : null }));
+  .map((m) => {
+    const i18n = (m.name_i18n && typeof m.name_i18n === "object") ? m.name_i18n : null;
+    // image_path uit json wint; anders bestaand bestand op id
+    const explicitImg = typeof m.image_path === "string" && m.image_path ? `/materials/${m.image_path}` : null;
+    const idImg = matExt[m.id] ? `/materials/${m.id}.${matExt[m.id]}` : null;
+    return {
+      id: m.id,
+      name: clean(m.name),
+      nameI18n: i18n,
+      slug: m.slug,
+      description: clean(m.description) || null,
+      image: explicitImg || idImg,
+    };
+  });
 fs.writeFileSync(
   "lib/data/materials.generated.ts",
   `// AUTO-GENERATED
-export interface CatalogMaterial { id: number; name: string; slug: string; description: string | null; image: string | null; }
+export interface CatalogMaterial { id: number; name: string; nameI18n: { nl: string; de: string; en: string; es: string } | null; slug: string; description: string | null; image: string | null; }
 export const catalogMaterials: CatalogMaterial[] = ${JSON.stringify(matsOut, null, 2)};
 `,
 );

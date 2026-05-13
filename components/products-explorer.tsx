@@ -1,7 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useTranslations } from "next-intl";
+import Image from "next/image";
+import { useTranslations, useLocale } from "next-intl";
 import { motion, AnimatePresence } from "motion/react";
 import { Search, X, SlidersHorizontal, ChevronRight } from "lucide-react";
 import { ProductCard } from "@/components/cards/product-card";
@@ -17,6 +18,9 @@ export function ProductsExplorer({
 }) {
   const t = useTranslations("products");
   const ts = useTranslations("spaces");
+  const locale = useLocale() as "nl" | "de" | "en" | "es";
+  const matLabel = (m: { name: string; nameI18n: { nl: string; de: string; en: string; es: string } | null }) =>
+    m.nameI18n?.[locale] ?? m.name;
   const [collection, setCollection] = useState<string>("all");
   const [space, setSpace] = useState<string>("all");
   const [material, setMaterial] = useState<string>("all");
@@ -123,7 +127,14 @@ export function ProductsExplorer({
           const n = materialCount(m.slug);
           return (
             <FilterRow key={m.slug} active={active} disabled={n === 0 && !active} count={n} onClick={() => setMaterial(active ? "all" : m.slug)}>
-              {m.name}
+              <span className="flex items-center gap-2">
+                {m.image ? (
+                  <Image src={m.image} alt="" width={20} height={20} className="size-5 shrink-0 rounded-full object-cover" />
+                ) : (
+                  <span className="size-5 shrink-0 rounded-full border border-sand-200 bg-sand-100" aria-hidden />
+                )}
+                <span>{matLabel(m)}</span>
+              </span>
             </FilterRow>
           );
         })}
@@ -191,7 +202,14 @@ export function ProductsExplorer({
             <Pill onClear={() => setCollection("all")}>{t(collectionLabel(collection)!)}</Pill>
           )}
           {space !== "all" && <Pill onClear={() => setSpace("all")}>{ts(`names.${space}`)}</Pill>}
-          {material !== "all" && <Pill onClear={() => setMaterial("all")}>{catalogMaterials.find((m) => m.slug === material)?.name ?? material}</Pill>}
+          {material !== "all" && (
+            <Pill onClear={() => setMaterial("all")}>
+              {(() => {
+                const m = catalogMaterials.find((x) => x.slug === material);
+                return m ? matLabel(m) : material;
+              })()}
+            </Pill>
+          )}
           {query.trim() && <Pill onClear={() => setQuery("")}>“{query.trim()}”</Pill>}
         </div>
 

@@ -66,7 +66,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   if (sceneImages.length === 0) sceneImages.push("/categories/3.jpg");
 
   const materialNames: Record<string, string> = {};
-  for (const m of product.materials) materialNames[m] = materialName(m);
+  for (const m of product.materials) materialNames[m] = materialName(m, locale);
   const spaceNames: Record<string, string> = {};
   for (const s of product.spaces) spaceNames[s] = ts(`names.${s}`);
 

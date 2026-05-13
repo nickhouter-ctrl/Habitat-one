@@ -62,8 +62,12 @@ export function productsByCollection(c: Collection) {
   return catalogProducts.filter((p) => p.collection === c);
 }
 
-export function materialName(slug: string): string {
-  return getMaterialBySlug(slug)?.name ?? slug;
+export function materialName(slug: string, locale?: string): string {
+  const m = getMaterialBySlug(slug);
+  if (!m) return slug;
+  const l = (locale as "nl" | "de" | "en" | "es" | undefined) ?? null;
+  if (l && m.nameI18n && m.nameI18n[l]) return m.nameI18n[l];
+  return m.name;
 }
 export function spaceName(slug: string): string {
   return getSpaceBySlug(slug)?.name ?? slug;

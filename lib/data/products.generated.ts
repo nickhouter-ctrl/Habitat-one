@@ -38,9 +38,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/432.jpg",
     "featured": false,
     "dimensions": null,
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
-      "bathroom"
+      "bathroom",
+      "pool-area"
     ],
     "categories": [
       "bathroom"
@@ -71,9 +74,7 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": null,
     "materials": [],
-    "spaces": [
-      "bathroom"
-    ],
+    "spaces": [],
     "categories": [
       "bathroom"
     ],
@@ -92,9 +93,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/272.jpg",
     "featured": false,
     "dimensions": "1200 × 900 mm · t 50 mm",
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
-      "bathroom"
+      "bathroom",
+      "pool-area"
     ],
     "categories": [
       "bathroom"
@@ -125,9 +129,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/436.jpg",
     "featured": false,
     "dimensions": "1200 × 900 mm · t 2000 mm",
-    "materials": [],
+    "materials": [
+      "glass-mirror"
+    ],
     "spaces": [
-      "bathroom"
+      "bathroom",
+      "pool-area"
     ],
     "categories": [
       "bathroom"
@@ -159,7 +166,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/274.jpg",
     "featured": false,
     "dimensions": "870 × 415 mm · t 160 mm",
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -193,7 +202,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/279.jpg",
     "featured": false,
     "dimensions": "600 × 400 mm · t 145 mm",
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -227,7 +238,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/284.jpg",
     "featured": false,
     "dimensions": "290 × 290 mm · t 145 mm",
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -261,7 +274,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/415.jpg",
     "featured": false,
     "dimensions": "250 × 250 mm · t 25 mm",
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -295,7 +310,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/443.jpg",
     "featured": false,
     "dimensions": "600 × 800 mm · t 30 mm",
-    "materials": [],
+    "materials": [
+      "glass-mirror"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -327,7 +344,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/439.jpg",
     "featured": false,
     "dimensions": "173 × 89 mm · t 55 mm",
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -360,7 +379,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/441.jpg",
     "featured": false,
     "dimensions": "627 × 71 mm · t 25 mm",
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -393,7 +414,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/400.jpg",
     "featured": false,
     "dimensions": null,
-    "materials": [],
+    "materials": [
+      "glass-mirror"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -426,9 +449,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/438.jpg",
     "featured": false,
     "dimensions": null,
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [
-      "bathroom"
+      "bathroom",
+      "pool-area"
     ],
     "categories": [
       "bathroom"
@@ -459,7 +485,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/442.jpg",
     "featured": false,
     "dimensions": "80 × 72 mm · t 36 mm",
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -492,7 +520,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/407.jpg",
     "featured": false,
     "dimensions": "389 × 195 mm · t 140 mm",
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -527,7 +557,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/433.jpg",
     "featured": false,
     "dimensions": "625 × 219 mm · t 151 mm",
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -560,7 +592,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/298.jpg",
     "featured": false,
     "dimensions": "1070 × 90 mm · t 500 mm",
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -592,10 +626,10 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/430.jpg",
     "featured": false,
     "dimensions": "240 × 160 mm · t 12 mm",
-    "materials": [],
-    "spaces": [
-      "bathroom"
+    "materials": [
+      "brushed-metal"
     ],
+    "spaces": [],
     "categories": [
       "bathroom"
     ],
@@ -625,7 +659,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/435.jpg",
     "featured": false,
     "dimensions": null,
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -660,7 +696,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/404.jpg",
     "featured": false,
     "dimensions": "400 × 800 mm · t 20 mm",
-    "materials": [],
+    "materials": [
+      "glass-mirror"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -693,9 +731,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/414.jpg",
     "featured": false,
     "dimensions": "900 × 1200 mm · t 35 mm",
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
-      "bathroom"
+      "bathroom",
+      "pool-area"
     ],
     "categories": [
       "bathroom"
@@ -727,9 +768,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/425.jpg",
     "featured": false,
     "dimensions": "1225 × 900 mm · t 68 mm",
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
-      "bathroom"
+      "bathroom",
+      "pool-area"
     ],
     "categories": [
       "bathroom"
@@ -762,7 +806,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/406.jpg",
     "featured": false,
     "dimensions": "500 × 360 mm",
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -793,7 +839,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/405.jpg",
     "featured": false,
     "dimensions": "500 × 360 mm · t 350 mm",
-    "materials": [],
+    "materials": [
+      "solid-surface"
+    ],
     "spaces": [
       "bathroom"
     ],
@@ -829,8 +877,8 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "spaces": [
       "living-room",
-      "terrace",
-      "bedroom"
+      "bedroom",
+      "kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -888,12 +936,12 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "3000mmx600mm",
     "materials": [
-      "concrete"
+      "terrazzo"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -941,12 +989,12 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "3000mmx600mm",
     "materials": [
-      "concrete"
+      "travertine",
+      "terrazzo"
     ],
     "spaces": [
-      "bathroom",
       "living-room",
-      "terrace"
+      "bedroom"
     ],
     "categories": [],
     "collection": "accessories",
@@ -1004,11 +1052,16 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": null,
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "natural-stone"
     ],
     "spaces": [
-      "living-room"
+      "living-room",
+      "bedroom",
+      "kitchen",
+      "terrace",
+      "garden",
+      "pool-area",
+      "outdoor-kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1047,13 +1100,16 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "600 × 3000 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "natural-stone"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen",
+      "terrace",
+      "garden",
+      "pool-area",
+      "outdoor-kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1092,13 +1148,11 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "1180 × 3060 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "terrazzo"
     ],
     "spaces": [
       "living-room",
-      "bedroom",
-      "terrace"
+      "bedroom"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1136,13 +1190,16 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": null,
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "natural-stone"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen",
+      "terrace",
+      "garden",
+      "pool-area",
+      "outdoor-kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1190,13 +1247,13 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "2400mmx1200mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "travertine",
+      "natural-stone"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1255,13 +1312,13 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "1200 × 2900 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "travertine",
+      "natural-stone"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1309,13 +1366,11 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "600 × 3000 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "concrete"
     ],
     "spaces": [
       "living-room",
-      "bedroom",
-      "terrace"
+      "bedroom"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1354,13 +1409,11 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "550 × 3000 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "wood-look"
     ],
     "spaces": [
       "living-room",
-      "bedroom",
-      "terrace"
+      "bedroom"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1390,13 +1443,11 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "580 × 3000 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "wood-look"
     ],
     "spaces": [
       "living-room",
-      "bedroom",
-      "terrace"
+      "bedroom"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1426,13 +1477,12 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "1200 × 2400 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "travertine"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1476,13 +1526,11 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "1200 × 2400 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "concrete"
     ],
     "spaces": [
       "living-room",
-      "bedroom",
-      "terrace"
+      "bedroom"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1512,13 +1560,11 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "1200 × 2400 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "concrete"
     ],
     "spaces": [
       "living-room",
-      "bedroom",
-      "terrace"
+      "bedroom"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1548,13 +1594,11 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "1190 × 2400 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "wood-look"
     ],
     "spaces": [
       "living-room",
-      "bedroom",
-      "terrace"
+      "bedroom"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1602,13 +1646,11 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "1190 × 3000 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "wood-look"
     ],
     "spaces": [
       "living-room",
-      "bedroom",
-      "terrace"
+      "bedroom"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1647,13 +1689,12 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "1200 × 2900 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "travertine"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1739,13 +1780,16 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "600 × 1200 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "terrazzo"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen",
+      "terrace",
+      "garden",
+      "pool-area",
+      "outdoor-kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1805,10 +1849,13 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "600 × 1200 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "travertine"
     ],
-    "spaces": [],
+    "spaces": [
+      "living-room",
+      "bedroom",
+      "kitchen"
+    ],
     "categories": [],
     "collection": "wall-panels",
     "variants": [
@@ -1882,13 +1929,16 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "600 × 1200 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "natural-stone"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen",
+      "terrace",
+      "garden",
+      "pool-area",
+      "outdoor-kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1936,13 +1986,16 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "600 × 900 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "natural-stone"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen",
+      "terrace",
+      "garden",
+      "pool-area",
+      "outdoor-kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -1981,13 +2034,16 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "600 × 1200 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "natural-stone"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen",
+      "terrace",
+      "garden",
+      "pool-area",
+      "outdoor-kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -2035,13 +2091,16 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "600 × 1200 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "natural-stone"
     ],
     "spaces": [
       "living-room",
       "bedroom",
-      "terrace"
+      "kitchen",
+      "terrace",
+      "garden",
+      "pool-area",
+      "outdoor-kitchen"
     ],
     "categories": [],
     "collection": "wall-panels",
@@ -2115,8 +2174,7 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "580 × 2400 mm",
     "materials": [
-      "concrete-stone",
-      "concrete"
+      "rammed-earth"
     ],
     "spaces": [
       "living-room",
@@ -2205,8 +2263,7 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "570 × 2940 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "rammed-earth"
     ],
     "spaces": [
       "living-room",
@@ -2305,8 +2362,7 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "570 × 2940 mm",
     "materials": [
-      "concrete",
-      "concrete-stone"
+      "rammed-earth"
     ],
     "spaces": [
       "living-room",
@@ -2381,7 +2437,7 @@ export const catalogProducts: CatalogProduct[] = [
     "featured": false,
     "dimensions": "1780 × 785 mm · t 590 mm",
     "materials": [
-      "stone"
+      "solid-surface"
     ],
     "spaces": [
       "bathroom"
@@ -2413,12 +2469,8 @@ export const catalogProducts: CatalogProduct[] = [
     "image": "/products/v/485.jpg",
     "featured": false,
     "dimensions": "1750 × 550 × 832 mm",
-    "materials": [
-      "solid-surface-stone"
-    ],
-    "spaces": [
-      "bathroom"
-    ],
+    "materials": [],
+    "spaces": [],
     "categories": [],
     "collection": "bathroom",
     "variants": [
@@ -2448,8 +2500,13 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "1180 × 3060 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "natural-stone"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2468,8 +2525,15 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 600 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "xps-backer"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom",
+      "kitchen",
+      "outdoor-kitchen"
+    ],
     "categories": [],
     "collection": "wall-panels",
     "variants": []
@@ -2488,8 +2552,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "702 × 452 mm · t 80 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2508,8 +2576,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "1750 × 832 mm · t 550 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "bathroom",
     "variants": []
@@ -2528,8 +2600,13 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": null,
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface",
+      "brushed-metal"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "bathroom",
     "variants": []
@@ -2548,8 +2625,13 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": null,
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface",
+      "brushed-metal"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "bathroom",
     "variants": []
@@ -2568,8 +2650,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "1202 × 455 mm · t 80 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2588,8 +2674,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 1220 mm · t 10 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "acrylic"
+    ],
+    "spaces": [
+      "living-room"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2608,8 +2698,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "3660 × 760 mm · t 12 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "acrylic"
+    ],
+    "spaces": [
+      "living-room"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2628,8 +2722,15 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 1220 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "xps-backer"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom",
+      "kitchen",
+      "outdoor-kitchen"
+    ],
     "categories": [],
     "collection": "wall-panels",
     "variants": []
@@ -2648,8 +2749,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "1829 × 560 mm · t 30 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2668,8 +2773,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "914 × 560 mm · t 30 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2688,8 +2797,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "500 × 330 mm · t 145 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2708,8 +2821,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": null,
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "bathroom",
     "variants": []
@@ -2728,8 +2845,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "500 × 350 mm · t 140 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2748,8 +2869,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "400 × 400 mm · t 320 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2768,8 +2893,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "450 × 450 mm · t 850 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2788,8 +2917,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "1865 × 840 mm · t 595 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "bathroom",
     "variants": []
@@ -2808,8 +2941,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 1220 mm · t 10 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "acrylic"
+    ],
+    "spaces": [
+      "living-room"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2828,8 +2965,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 1220 mm · t 10 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "acrylic"
+    ],
+    "spaces": [
+      "living-room"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2848,8 +2989,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 1220 mm · t 10 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "acrylic"
+    ],
+    "spaces": [
+      "living-room"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2868,8 +3013,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 1220 mm · t 10 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "acrylic"
+    ],
+    "spaces": [
+      "living-room"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2888,8 +3037,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "850 × 220 mm · t 40 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "bathroom",
     "variants": []
@@ -2908,8 +3061,15 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 1220 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "xps-backer"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom",
+      "kitchen",
+      "outdoor-kitchen"
+    ],
     "categories": [],
     "collection": "wall-panels",
     "variants": []
@@ -2928,8 +3088,15 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 600 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "xps-backer"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom",
+      "kitchen",
+      "outdoor-kitchen"
+    ],
     "categories": [],
     "collection": "wall-panels",
     "variants": []
@@ -2946,8 +3113,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": null,
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "brushed-metal"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -2966,8 +3137,15 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 1220 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "xps-backer"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom",
+      "kitchen",
+      "outdoor-kitchen"
+    ],
     "categories": [],
     "collection": "wall-panels",
     "variants": []
@@ -2986,8 +3164,15 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 1220 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "xps-backer"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom",
+      "kitchen",
+      "outdoor-kitchen"
+    ],
     "categories": [],
     "collection": "wall-panels",
     "variants": []
@@ -3006,8 +3191,15 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "2440 × 600 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "xps-backer"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom",
+      "kitchen",
+      "outdoor-kitchen"
+    ],
     "categories": [],
     "collection": "wall-panels",
     "variants": []
@@ -3026,8 +3218,13 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "1180 × 3060 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "natural-stone"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -3046,8 +3243,14 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "1130 × 2950 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "concrete"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom",
+      "kitchen"
+    ],
     "categories": [],
     "collection": "wall-panels",
     "variants": []
@@ -3066,8 +3269,14 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "1130 × 2950 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "concrete"
+    ],
+    "spaces": [
+      "living-room",
+      "bedroom",
+      "kitchen"
+    ],
     "categories": [],
     "collection": "wall-panels",
     "variants": []
@@ -3086,8 +3295,12 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": "1524 × 560 mm · t 101.6 mm",
-    "materials": [],
-    "spaces": [],
+    "materials": [
+      "solid-surface"
+    ],
+    "spaces": [
+      "bathroom"
+    ],
     "categories": [],
     "collection": "accessories",
     "variants": []
@@ -3106,7 +3319,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": null,
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [],
     "categories": [],
     "collection": "doors",
@@ -3124,7 +3339,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": null,
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [],
     "categories": [],
     "collection": "doors",
@@ -3142,7 +3359,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": null,
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [],
     "categories": [],
     "collection": "doors",
@@ -3162,7 +3381,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": null,
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [],
     "categories": [],
     "collection": "doors",
@@ -3182,7 +3403,9 @@ export const catalogProducts: CatalogProduct[] = [
     "image": null,
     "featured": false,
     "dimensions": null,
-    "materials": [],
+    "materials": [
+      "brushed-metal"
+    ],
     "spaces": [],
     "categories": [],
     "collection": "doors",
