@@ -3,6 +3,7 @@ export interface ProductVariant {
   id: number;
   name: string | null;
   colorHex: string | null;
+  sku: string | null;
   images: string[];
 }
 export interface CatalogProduct {
@@ -46,6 +47,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 444,
         "name": "One Color",
         "colorHex": null,
+        "sku": null,
         "images": [
           "/products/v/270.jpg"
         ]
@@ -95,6 +97,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 447,
         "name": "Default",
         "colorHex": "#ffffff",
+        "sku": null,
         "images": [
           "/products/v/272.jpg",
           "/products/v/271.jpg"
@@ -125,6 +128,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 448,
         "name": "Default",
         "colorHex": null,
+        "sku": null,
         "images": [
           "/products/v/437.jpg",
           "/products/v/273.jpg",
@@ -156,6 +160,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 449,
         "name": "White",
         "colorHex": "#fafafa",
+        "sku": null,
         "images": [
           "/products/v/274.jpg",
           "/products/v/275.jpg",
@@ -187,6 +192,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 453,
         "name": "White",
         "colorHex": "#ffffff",
+        "sku": null,
         "images": [
           "/products/v/279.jpg",
           "/products/v/281.jpg",
@@ -218,6 +224,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 454,
         "name": "White",
         "colorHex": "#f5f5f5",
+        "sku": null,
         "images": [
           "/products/v/284.jpg",
           "/products/v/283.jpg",
@@ -249,6 +256,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 455,
         "name": "White",
         "colorHex": "#fdfcfc",
+        "sku": null,
         "images": [
           "/products/v/285.jpg",
           "/products/v/286.jpg",
@@ -280,6 +288,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 457,
         "name": "One color",
         "colorHex": "#c9cacf",
+        "sku": null,
         "images": [
           "/products/v/443.jpg"
         ]
@@ -309,6 +318,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 458,
         "name": "Bronze",
         "colorHex": "#b06803",
+        "sku": null,
         "images": [
           "/products/v/289.jpg",
           "/products/v/439.jpg"
@@ -339,6 +349,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 459,
         "name": "Bronze",
         "colorHex": "#703c00",
+        "sku": null,
         "images": [
           "/products/v/290.jpg",
           "/products/v/441.jpg"
@@ -369,6 +380,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 460,
         "name": "Bronze",
         "colorHex": "#754400",
+        "sku": "KKR-8201",
         "images": [
           "/products/v/291.jpg",
           "/products/v/400.jpg"
@@ -399,6 +411,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 461,
         "name": "Bronze",
         "colorHex": "#7a4100",
+        "sku": null,
         "images": [
           "/products/v/292.jpg",
           "/products/v/438.jpg"
@@ -429,6 +442,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 463,
         "name": "Bronze",
         "colorHex": "#854d00",
+        "sku": null,
         "images": [
           "/products/v/293.jpg",
           "/products/v/442.jpg"
@@ -459,6 +473,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 464,
         "name": "Bronze",
         "colorHex": "#945600",
+        "sku": null,
         "images": [
           "/products/v/409.jpg",
           "/products/v/294.jpg",
@@ -491,6 +506,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 465,
         "name": "Bronze",
         "colorHex": "#754a00",
+        "sku": null,
         "images": [
           "/products/v/295.jpg",
           "/products/v/433.jpg"
@@ -521,6 +537,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 468,
         "name": "One color",
         "colorHex": "#ffffff",
+        "sku": null,
         "images": [
           "/products/v/298.jpg"
         ]
@@ -550,6 +567,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 469,
         "name": "Bronze",
         "colorHex": "#794101",
+        "sku": null,
         "images": [
           "/products/v/299.jpg",
           "/products/v/430.jpg"
@@ -580,6 +598,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 629,
         "name": "Bronze",
         "colorHex": "#b67d1b",
+        "sku": null,
         "images": [
           "/products/v/277.jpg",
           "/products/v/434.jpg",
@@ -612,6 +631,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 635,
         "name": "Gold",
         "colorHex": "#d9a254",
+        "sku": null,
         "images": [
           "/products/v/287.jpg",
           "/products/v/404.jpg"
@@ -642,6 +662,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 647,
         "name": "Black",
         "colorHex": "#6a6a6a",
+        "sku": "SHO",
         "images": [
           "/products/v/411.jpg",
           "/products/v/412.jpg",
@@ -673,6 +694,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 648,
         "name": "White",
         "colorHex": "#fdfcfc",
+        "sku": "WHI",
         "images": [
           "/products/v/268.jpg",
           "/products/v/269.jpg",
@@ -703,6 +725,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 649,
         "name": "White",
         "colorHex": "#f5f5f5",
+        "sku": "WHI",
         "images": [
           "/products/v/296.jpg",
           "/products/v/406.jpg"
@@ -731,6 +754,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 650,
         "name": "White",
         "colorHex": "#ffffff",
+        "sku": "WHI",
         "images": [
           "/products/v/297.jpg",
           "/products/v/405.jpg"
@@ -763,6 +787,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 653,
         "name": "Pure white",
         "colorHex": "#ffffff",
+        "sku": "MS-001",
         "images": [
           "/products/v/301.jpg",
           "/products/v/445.jpg"
@@ -772,6 +797,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 652,
         "name": "Beige",
         "colorHex": "#d3c8bb",
+        "sku": "MS-002",
         "images": [
           "/products/v/300.jpg"
         ]
@@ -780,6 +806,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 651,
         "name": "Light grey",
         "colorHex": "#c7c7c7",
+        "sku": "MS-003",
         "images": [
           "/products/v/303.jpg",
           "/products/v/446.jpg"
@@ -789,6 +816,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 654,
         "name": "Medium grey",
         "colorHex": "#8d8e96",
+        "sku": "MS-004",
         "images": [
           "/products/v/302.jpg"
         ]
@@ -820,6 +848,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 655,
         "name": "Beige",
         "colorHex": "#d3cec0",
+        "sku": "MS-005",
         "images": [
           "/products/v/306.jpg",
           "/products/v/447.jpg"
@@ -829,6 +858,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 656,
         "name": "Concrete grey",
         "colorHex": "#bababa",
+        "sku": "MS-006",
         "images": [
           "/products/v/305.jpg"
         ]
@@ -837,6 +867,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 657,
         "name": "Red",
         "colorHex": "#ac2a2a",
+        "sku": "MS-007",
         "images": [
           "/products/v/304.jpg"
         ]
@@ -868,6 +899,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 659,
         "name": "Beige",
         "colorHex": "#d4c8a5",
+        "sku": "MS-008",
         "images": [
           "/products/v/309.jpg",
           "/products/v/448.jpg"
@@ -877,6 +909,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 661,
         "name": "Dark Grey",
         "colorHex": "#767474",
+        "sku": "MS-010",
         "images": [
           "/products/v/310.jpg"
         ]
@@ -885,6 +918,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 662,
         "name": "Medium grey",
         "colorHex": "#bbb4b4",
+        "sku": "MS-011",
         "images": [
           "/products/v/449.jpg",
           "/products/v/308.jpg"
@@ -894,6 +928,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 660,
         "name": "Light Grey",
         "colorHex": "#cfcfcf",
+        "sku": "MS-012",
         "images": [
           "/products/v/307.jpg"
         ]
@@ -924,6 +959,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 663,
         "name": "Beige",
         "colorHex": "#e2dac5",
+        "sku": "MS-013",
         "images": [
           "/products/v/312.jpg",
           "/products/v/451.jpg"
@@ -933,6 +969,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 664,
         "name": "Dark Grey",
         "colorHex": "#636363",
+        "sku": "MS-014",
         "images": [
           "/products/v/311.jpg"
         ]
@@ -965,6 +1002,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 666,
         "name": "Beige",
         "colorHex": "#dbd2b8",
+        "sku": "MS-015",
         "images": [
           "/products/v/314.jpg",
           "/products/v/452.jpg"
@@ -974,6 +1012,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 665,
         "name": "Concrete",
         "colorHex": "#969998",
+        "sku": "MS-016",
         "images": [
           "/products/v/313.jpg"
         ]
@@ -1006,6 +1045,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 668,
         "name": "Medium Plaid",
         "colorHex": "#a47942",
+        "sku": "MED",
         "images": [
           "/products/v/316.jpg"
         ]
@@ -1014,6 +1054,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 667,
         "name": "Bush Hammered",
         "colorHex": "#9f7c65",
+        "sku": "BUS",
         "images": [
           "/products/v/315.jpg"
         ]
@@ -1046,6 +1087,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 669,
         "name": "Beige",
         "colorHex": "#d7d1c1",
+        "sku": "MS-019",
         "images": [
           "/products/v/317.jpg",
           "/products/v/453.jpg"
@@ -1055,6 +1097,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 671,
         "name": "Dark Grey",
         "colorHex": "#3b3b3a",
+        "sku": "MS-020",
         "images": [
           "/products/v/319.jpg"
         ]
@@ -1063,6 +1106,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 670,
         "name": "Red",
         "colorHex": "#aa6954",
+        "sku": "MS-21",
         "images": [
           "/products/v/318.jpg"
         ]
@@ -1095,6 +1139,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 672,
         "name": "Concrete",
         "colorHex": "#aaa5a0",
+        "sku": "MS-022",
         "images": [
           "/products/v/322.jpg",
           "/products/v/456.jpg",
@@ -1105,6 +1150,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 674,
         "name": "Pure white",
         "colorHex": "#efefef",
+        "sku": "MS-023",
         "images": [
           "/products/v/320.jpg"
         ]
@@ -1113,6 +1159,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 675,
         "name": "Beige",
         "colorHex": "#dddad7",
+        "sku": "MS-024",
         "images": [
           "/products/v/455.jpg",
           "/products/v/321.jpg"
@@ -1122,6 +1169,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 673,
         "name": "Gradient Yellow",
         "colorHex": "#cfc9bf",
+        "sku": "MS-025",
         "images": [
           "/products/v/323.jpg"
         ]
@@ -1154,6 +1202,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 676,
         "name": "White Golden",
         "colorHex": "#dbded3",
+        "sku": "MS-026",
         "images": [
           "/products/v/324.jpg",
           "/products/v/458.jpg"
@@ -1163,6 +1212,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 677,
         "name": "Ivory White",
         "colorHex": "#cec6bb",
+        "sku": "MS-027",
         "images": [
           "/products/v/325.jpg"
         ]
@@ -1171,6 +1221,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 678,
         "name": "Golden rust",
         "colorHex": "#cac5b9",
+        "sku": "MS-028",
         "images": [
           "/products/v/326.jpg"
         ]
@@ -1203,6 +1254,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 679,
         "name": "Light Grey",
         "colorHex": "#d2d4ce",
+        "sku": "MS-029",
         "images": [
           "/products/v/327.jpg",
           "/products/v/459.jpg"
@@ -1212,6 +1264,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 680,
         "name": "Medium Grey",
         "colorHex": "#bfbfba",
+        "sku": "MS-030",
         "images": [
           "/products/v/328.jpg"
         ]
@@ -1244,6 +1297,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 681,
         "name": "Dark Grey",
         "colorHex": "#595959",
+        "sku": "MS-031",
         "images": [
           "/products/v/329.jpg",
           "/products/v/460.jpg"
@@ -1277,6 +1331,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 682,
         "name": "Dark Grey",
         "colorHex": "#53595f",
+        "sku": "MS-032",
         "images": [
           "/products/v/330.jpg",
           "/products/v/461.jpg"
@@ -1310,6 +1365,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 683,
         "name": "Roman White",
         "colorHex": "#c4c2bd",
+        "sku": "MS-033",
         "images": [
           "/products/v/331.jpg",
           "/products/v/332.jpg",
@@ -1322,6 +1378,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 684,
         "name": "Roman Yellow",
         "colorHex": "#d1c7b1",
+        "sku": "MS-034",
         "images": [
           "/products/v/333.jpg",
           "/products/v/334.jpg",
@@ -1356,6 +1413,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 685,
         "name": "Warm Grey",
         "colorHex": "#aeafac",
+        "sku": "MS-035",
         "images": [
           "/products/v/335.jpg",
           "/products/v/466.jpg"
@@ -1389,6 +1447,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 686,
         "name": "Warm Grey",
         "colorHex": "#acadab",
+        "sku": "MS-036",
         "images": [
           "/products/v/336.jpg",
           "/products/v/467.jpg"
@@ -1422,6 +1481,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 689,
         "name": "Khaki",
         "colorHex": "#c7c7c4",
+        "sku": "MS-037",
         "images": [
           "/products/v/339.jpg",
           "/products/v/468.jpg"
@@ -1431,6 +1491,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 688,
         "name": "Dark brown",
         "colorHex": "#9f938d",
+        "sku": "MS-038",
         "images": [
           "/products/v/338.jpg"
         ]
@@ -1439,6 +1500,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 687,
         "name": "Brown",
         "colorHex": "#c2bab8",
+        "sku": "MS-039",
         "images": [
           "/products/v/337.jpg"
         ]
@@ -1471,6 +1533,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 690,
         "name": "Yellow",
         "colorHex": "#cbb998",
+        "sku": "MS-040",
         "images": [
           "/products/v/341.jpg",
           "/products/v/469.jpg"
@@ -1480,6 +1543,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 691,
         "name": "Light brown",
         "colorHex": "#bcb6ae",
+        "sku": "MS-041",
         "images": [
           "/products/v/340.jpg"
         ]
@@ -1512,6 +1576,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 694,
         "name": "Italian White Travertine",
         "colorHex": "#c3c6c0",
+        "sku": "MS-042",
         "images": [
           "/products/v/345.jpg",
           "/products/v/472.jpg",
@@ -1522,6 +1587,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 696,
         "name": "Italian brown Travertine",
         "colorHex": "#c5baa8",
+        "sku": "MS-043",
         "images": [
           "/products/v/346.jpg"
         ]
@@ -1530,6 +1596,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 692,
         "name": "Italian Grey Travertine",
         "colorHex": "#b4b8b8",
+        "sku": "MS-044",
         "images": [
           "/products/v/348.jpg",
           "/products/v/471.jpg"
@@ -1539,6 +1606,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 693,
         "name": "Italian Red Travertine",
         "colorHex": "#9b4934",
+        "sku": "MS-045",
         "images": [
           "/products/v/347.jpg"
         ]
@@ -1547,6 +1615,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 695,
         "name": "Light Grey Wood",
         "colorHex": "#cacdce",
+        "sku": "MS-046",
         "images": [
           "/products/v/344.jpg"
         ]
@@ -1555,6 +1624,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 697,
         "name": "Light Brown Wood",
         "colorHex": "#b5c2c3",
+        "sku": "MS-047",
         "images": [
           "/products/v/343.jpg"
         ]
@@ -1563,6 +1633,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 698,
         "name": "Yellow Wood",
         "colorHex": "#b3b9ba",
+        "sku": "MS-048",
         "images": [
           "/products/v/342.jpg"
         ]
@@ -1595,6 +1666,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 699,
         "name": "Light Grey",
         "colorHex": "#b0b1af",
+        "sku": "MS-051",
         "images": [
           "/products/v/350.jpg",
           "/products/v/474.jpg",
@@ -1606,6 +1678,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 701,
         "name": "Grey",
         "colorHex": "#a4a5a2",
+        "sku": "MS-052",
         "images": [
           "/products/v/351.jpg"
         ]
@@ -1614,6 +1687,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 700,
         "name": "Dark Grey",
         "colorHex": "#908c88",
+        "sku": "MS-053",
         "images": [
           "/products/v/349.jpg"
         ]
@@ -1622,6 +1696,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 702,
         "name": "Yellow",
         "colorHex": "#c2bdb5",
+        "sku": "MS-054",
         "images": [
           "/products/v/476.jpg",
           "/products/v/352.jpg"
@@ -1651,6 +1726,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 703,
         "name": "Concrete",
         "colorHex": "#aea597",
+        "sku": "MS-055",
         "images": [
           "/products/v/357.jpg",
           "/products/v/477.jpg"
@@ -1660,6 +1736,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 705,
         "name": "Beige",
         "colorHex": "#cfc5c0",
+        "sku": "MS-056",
         "images": [
           "/products/v/353.jpg"
         ]
@@ -1668,6 +1745,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 704,
         "name": "Pure White",
         "colorHex": "#dce8e5",
+        "sku": "MS-057",
         "images": [
           "/products/v/354.jpg"
         ]
@@ -1676,6 +1754,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 707,
         "name": "Gradient Yellow",
         "colorHex": "#c8c3b6",
+        "sku": "MS-058",
         "images": [
           "/products/v/356.jpg"
         ]
@@ -1684,6 +1763,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 706,
         "name": "White Golden",
         "colorHex": "#bab8b3",
+        "sku": "MS-059",
         "images": [
           "/products/v/358.jpg"
         ]
@@ -1692,6 +1772,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 708,
         "name": "Grey Golden",
         "colorHex": "#82807b",
+        "sku": "MS-060",
         "images": [
           "/products/v/355.jpg"
         ]
@@ -1724,6 +1805,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 709,
         "name": "Beige",
         "colorHex": "#c8c5c3",
+        "sku": "MS-061",
         "images": [
           "/products/v/360.jpg",
           "/products/v/478.jpg"
@@ -1733,6 +1815,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 710,
         "name": "Pure white",
         "colorHex": "#d2d6d6",
+        "sku": "MS-062",
         "images": [
           "/products/v/359.jpg"
         ]
@@ -1741,6 +1824,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 711,
         "name": "Dark Grey",
         "colorHex": "#4b4746",
+        "sku": "MS-063",
         "images": [
           "/products/v/361.jpg"
         ]
@@ -1773,6 +1857,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 712,
         "name": "Beige",
         "colorHex": "#bebab5",
+        "sku": "MS-064",
         "images": [
           "/products/v/363.jpg",
           "/products/v/479.jpg"
@@ -1782,6 +1867,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 713,
         "name": "Dark Grey",
         "colorHex": "#6b6766",
+        "sku": "MS-065",
         "images": [
           "/products/v/362.jpg"
         ]
@@ -1814,6 +1900,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 715,
         "name": "Red",
         "colorHex": "#4c2723",
+        "sku": "MS-066",
         "images": [
           "/products/v/364.jpg"
         ]
@@ -1822,6 +1909,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 714,
         "name": "Grey",
         "colorHex": "#807f75",
+        "sku": "MS-067",
         "images": [
           "/products/v/366.jpg"
         ]
@@ -1830,6 +1918,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 716,
         "name": "Beige",
         "colorHex": "#d8d9d0",
+        "sku": "MS-069",
         "images": [
           "/products/v/365.jpg",
           "/products/v/480.jpg"
@@ -1863,6 +1952,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 720,
         "name": "Beige",
         "colorHex": "#c5c7c0",
+        "sku": "MS-070",
         "images": [
           "/products/v/371.jpg"
         ]
@@ -1871,6 +1961,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 721,
         "name": "Medium Grey",
         "colorHex": "#b4b8b9",
+        "sku": "MS-071",
         "images": [
           "/products/v/369.jpg"
         ]
@@ -1879,6 +1970,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 719,
         "name": "Dark Grey",
         "colorHex": "#3f4246",
+        "sku": "MS-072",
         "images": [
           "/products/v/368.jpg"
         ]
@@ -1887,6 +1979,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 722,
         "name": "Khaki",
         "colorHex": "#988968",
+        "sku": "MS-073",
         "images": [
           "/products/v/367.jpg"
         ]
@@ -1895,6 +1988,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 723,
         "name": "Gradient Yellow",
         "colorHex": "#cccabc",
+        "sku": "MS-074",
         "images": [
           "/products/v/370.jpg"
         ]
@@ -1903,6 +1997,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 718,
         "name": "Gradient Grey",
         "colorHex": "#c2c6c1",
+        "sku": "MS-075",
         "images": [
           "/products/v/372.jpg"
         ]
@@ -1935,6 +2030,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 724,
         "name": "Beige",
         "colorHex": "#dcdcdc",
+        "sku": "MS-076",
         "images": [
           "/products/v/373.jpg"
         ]
@@ -1943,6 +2039,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 729,
         "name": "Watemelon red",
         "colorHex": "#e68f8e",
+        "sku": "MS-077",
         "images": [
           "/products/v/378.jpg"
         ]
@@ -1951,6 +2048,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 727,
         "name": "Red",
         "colorHex": "#a4705b",
+        "sku": "MS-078",
         "images": [
           "/products/v/379.jpg",
           "/products/v/481.jpg"
@@ -1960,6 +2058,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 730,
         "name": "Light Yellow",
         "colorHex": "#e8bea2",
+        "sku": "MS-079",
         "images": [
           "/products/v/377.jpg"
         ]
@@ -1968,6 +2067,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 731,
         "name": "Khaki",
         "colorHex": "#e3b591",
+        "sku": "MS-080",
         "images": [
           "/products/v/375.jpg"
         ]
@@ -1976,6 +2076,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 728,
         "name": "Light Grey",
         "colorHex": "#d2d4cc",
+        "sku": "MS-081",
         "images": [
           "/products/v/374.jpg"
         ]
@@ -1984,6 +2085,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 725,
         "name": "Dark Grey",
         "colorHex": "#747473",
+        "sku": "MS-083",
         "images": [
           "/products/v/376.jpg"
         ]
@@ -2018,6 +2120,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 737,
         "name": "Beige",
         "colorHex": "#d4d4d4",
+        "sku": "MS-084",
         "images": [
           "/products/v/380.jpg"
         ]
@@ -2026,6 +2129,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 733,
         "name": "Light Grey",
         "colorHex": "#aeb0ac",
+        "sku": "MS-085",
         "images": [
           "/products/v/383.jpg"
         ]
@@ -2034,6 +2138,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 734,
         "name": "Brown red",
         "colorHex": "#a66750",
+        "sku": "MS-086",
         "images": [
           "/products/v/382.jpg"
         ]
@@ -2042,6 +2147,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 732,
         "name": "Watermelon red",
         "colorHex": "#b4726d",
+        "sku": "MS-087",
         "images": [
           "/products/v/385.jpg"
         ]
@@ -2050,6 +2156,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 738,
         "name": "Khaki",
         "colorHex": "#bc906d",
+        "sku": "MS-088",
         "images": [
           "/products/v/386.jpg"
         ]
@@ -2058,6 +2165,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 739,
         "name": "Light yellow",
         "colorHex": "#c9aa8e",
+        "sku": "MS-089",
         "images": [
           "/products/v/387.jpg"
         ]
@@ -2066,6 +2174,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 735,
         "name": "Dark Grey",
         "colorHex": "#373835",
+        "sku": "MS-090",
         "images": [
           "/products/v/381.jpg"
         ]
@@ -2074,6 +2183,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 736,
         "name": "Grey White",
         "colorHex": "#cdcfca",
+        "sku": "MS-091",
         "images": [
           "/products/v/384.jpg"
         ]
@@ -2111,6 +2221,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 741,
         "name": "Light Grey",
         "colorHex": "#afadaa",
+        "sku": "MS-092",
         "images": [
           "/products/v/389.jpg"
         ]
@@ -2119,6 +2230,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 740,
         "name": "Light Yellow",
         "colorHex": "#c6ad93",
+        "sku": "MS-093",
         "images": [
           "/products/v/391.jpg"
         ]
@@ -2127,6 +2239,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 743,
         "name": "Khaki",
         "colorHex": "#a18165",
+        "sku": "MS-094",
         "images": [
           "/products/v/390.jpg"
         ]
@@ -2135,6 +2248,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 742,
         "name": "Dark Grey",
         "colorHex": "#575553",
+        "sku": "MS-096",
         "images": [
           "/products/v/388.jpg"
         ]
@@ -2143,6 +2257,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 751,
         "name": "Brown Red",
         "colorHex": "#000000",
+        "sku": "MS-095",
         "images": [
           "/products/v/486.jpg"
         ]
@@ -2172,6 +2287,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 749,
         "name": null,
         "colorHex": "#a4a4a4",
+        "sku": null,
         "images": [
           "/products/v/482.jpg",
           "/products/v/483.jpg"
@@ -2202,6 +2318,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 750,
         "name": null,
         "colorHex": "#a3a29f",
+        "sku": null,
         "images": [
           "/products/v/484.jpg",
           "/products/v/485.jpg"

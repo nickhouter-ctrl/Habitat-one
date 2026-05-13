@@ -85,7 +85,7 @@ const outProducts = products
       .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0))
       .map((v) => {
         const imgs = (imagesByVariant[v.id] || []).filter((i) => i.image_type !== "explainer").map((i) => `/products/v/${i.id}.jpg`);
-        return { id: v.id, name: clean(v.variant_name) || null, colorHex: v.color_hex || null, images: imgs };
+        return { id: v.id, name: clean(v.variant_name) || null, colorHex: v.color_hex || null, sku: clean(v.sku_suffix) || null, images: imgs };
       })
       .filter((v) => v.images.length > 0);
 
@@ -131,6 +131,7 @@ export interface ProductVariant {
   id: number;
   name: string | null;
   colorHex: string | null;
+  sku: string | null;
   images: string[];
 }
 export interface CatalogProduct {

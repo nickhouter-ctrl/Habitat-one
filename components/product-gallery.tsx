@@ -13,19 +13,29 @@ export function ProductGallery({
   productName,
   noImageLabel,
   colourLabel,
+  activeIndex,
+  onVariantChange,
 }: {
   variants: ProductVariant[];
   fallbackImage: string | null;
   productName: string;
   noImageLabel: string;
   colourLabel: string;
+  /** Optioneel: aangestuurd door een parent (bv. ProductHero) zodat de SKU-balk meeklikt. */
+  activeIndex?: number;
+  onVariantChange?: (i: number) => void;
 }) {
   // variants with at least one image
   const withImages = useMemo(() => variants.filter((v) => v.images.length > 0), [variants]);
   const swatches = useMemo(() => withImages.filter((v) => v.colorHex || v.name), [withImages]);
   const showSwatches = swatches.length > 1;
 
-  const [variantIdx, setVariantIdx] = useState(0);
+  const [internalIdx, setInternalIdx] = useState(0);
+  const variantIdx = activeIndex ?? internalIdx;
+  const setVariantIdx = (i: number) => {
+    if (onVariantChange) onVariantChange(i);
+    else setInternalIdx(i);
+  };
   const [imgIdx, setImgIdx] = useState(0);
 
   const activeVariant = withImages[variantIdx];
