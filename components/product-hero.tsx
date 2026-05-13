@@ -95,7 +95,7 @@ export function ProductHero({
             {product.materials.map((m) => (
               <Link
                 key={m}
-                href={`/materials/${m}`}
+                href={`/products?material=${m}`}
                 className="rounded-full border border-cream/20 px-3 py-1.5 text-sm text-cream/80 transition-colors hover:border-terracotta-300 hover:text-cream"
               >
                 {materialNames[m] ?? m}

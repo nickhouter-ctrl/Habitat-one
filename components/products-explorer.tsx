@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Image from "next/image";
+import { useSearchParams } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
 import { motion, AnimatePresence } from "motion/react";
 import { Search, X, SlidersHorizontal, ChevronRight } from "lucide-react";
@@ -21,9 +22,13 @@ export function ProductsExplorer({
   const locale = useLocale() as "nl" | "de" | "en" | "es";
   const matLabel = (m: { name: string; nameI18n: { nl: string; de: string; en: string; es: string } | null }) =>
     m.nameI18n?.[locale] ?? m.name;
-  const [collection, setCollection] = useState<string>("all");
-  const [space, setSpace] = useState<string>("all");
-  const [material, setMaterial] = useState<string>("all");
+  const searchParams = useSearchParams();
+  const initialMaterial = searchParams?.get("material") ?? "all";
+  const initialSpace = searchParams?.get("space") ?? "all";
+  const initialCollection = searchParams?.get("collection") ?? "all";
+  const [collection, setCollection] = useState<string>(initialCollection);
+  const [space, setSpace] = useState<string>(initialSpace);
+  const [material, setMaterial] = useState<string>(initialMaterial);
   const [query, setQuery] = useState(initialQuery);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 

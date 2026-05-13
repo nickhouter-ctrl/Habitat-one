@@ -19,7 +19,7 @@ export function MaterialCard({
   const desc = description ?? material.description;
   return (
     <TiltCard className={cn("h-full", className)} intensity={8} lift={7}>
-      <Link href={`/materials/${material.slug}`} className="group block h-full overflow-hidden rounded-3xl border border-sand-200 bg-clay-800 text-cream">
+      <Link href={`/products?material=${material.slug}`} className="group block h-full overflow-hidden rounded-3xl border border-sand-200 bg-clay-800 text-cream">
         <div className="relative aspect-[4/5] overflow-hidden">
           {material.image ? (
             <Image

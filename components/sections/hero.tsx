@@ -182,7 +182,7 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.85 }}
           className="mt-6 flex flex-wrap items-center gap-3 sm:mt-9"
         >
-          <Link href="/materials" className="btn btn-primary">
+          <Link href="/products" className="btn btn-primary">
             {t("ctaPrimary")}
             <ArrowRight className="h-4 w-4" />
           </Link>
