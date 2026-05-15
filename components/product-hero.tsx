@@ -5,6 +5,7 @@ import { ArrowUpRight, Ruler, Tag, Layers as LayersIcon, MapPin, Palette } from 
 import type { CatalogProduct } from "@/lib/data/catalog";
 import { Link } from "@/i18n/navigation";
 import { ProductGallery } from "@/components/product-gallery";
+import { QuoteRequestForm } from "@/components/quote-request-form";
 
 export interface HeroLabels {
   collection: string;
@@ -40,6 +41,7 @@ export function ProductHero({
   const swatches = withImages.filter((v) => v.colorHex || v.name);
   const hasSwatches = swatches.length > 1;
   const [variantIdx, setVariantIdx] = useState(0);
+  const [quoteOpen, setQuoteOpen] = useState(false);
 
   const activeVariant = hasSwatches ? withImages[variantIdx] : null;
   const skuToShow = activeVariant?.sku ?? product.sku ?? null;
@@ -117,11 +119,21 @@ export function ProductHero({
           </Tags>
         )}
 
-        <Link href="/contact?subject=materials" className="btn btn-primary mt-8">
+        <button
+          type="button"
+          onClick={() => setQuoteOpen(true)}
+          className="btn btn-primary mt-8"
+        >
           {labels.enquire}
           <ArrowUpRight className="h-4 w-4" />
-        </Link>
+        </button>
       </div>
+      {quoteOpen && (
+        <QuoteRequestForm
+          product={{ sku: skuToShow ?? null, name: labels.productName, slug: product.slug }}
+          onClose={() => setQuoteOpen(false)}
+        />
+      )}
     </div>
   );
 }
