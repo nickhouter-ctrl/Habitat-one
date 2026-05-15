@@ -1732,7 +1732,7 @@
     "id": 401,
     "name": "Inside Door",
     "slug": "inside-door-1778676102509",
-    "description": "920 mm\t2600 mm 150 mm 45 mm",
+    "description": "Basic Interior Room — Waterproof plywood composite wood, 70% solid wood strips filling. 720×2600×45mm.",
     "description_i18n": {
       "nl": "920 mm\t2600 mm 150 mm 45 mm"
     },
@@ -1747,13 +1747,14 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 402,
     "name": "Hinges (binnen)",
     "slug": "hinges-binnen-1778676102509",
-    "description": null,
+    "description": "SS304 brushed bronze scharnieren 3.0×4.0 — 4 stuks per binnendeur",
     "description_i18n": null,
     "short_description": null,
     "sku": "DR-001",
@@ -1766,13 +1767,14 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 403,
     "name": "Inside Door 2",
     "slug": "inside-door-2-1778676102509",
-    "description": null,
+    "description": "Hotel Suite Room — Fire-rated EI(EN1634-1) 30min, 35dB. Waterproof plywood + perlite solid filling. 920×2600×45mm.",
     "description_i18n": null,
     "short_description": null,
     "sku": "DR-003",
@@ -1785,13 +1787,14 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 404,
     "name": "Outside Door",
     "slug": "outside-door-1778676102509",
-    "description": "Exterior Wooden Door",
+    "description": "Outside Door — Waterproof plywood composite wood, 70% solid wood strips filling. 920×2400×50mm.",
     "description_i18n": {
       "nl": "Exterior Wooden Door"
     },
@@ -1806,13 +1809,14 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   },
   {
     "id": 405,
     "name": "Outside Door 2",
     "slug": "outside-door-2-1778676102509",
-    "description": "Exterior Wooden Door with Glass",
+    "description": "Outside Door 2 — Met 300mm zijlicht in dubbel matglas (5mm+12A+5mm). 1220×2400×50mm.",
     "description_i18n": {
       "nl": "Exterior Wooden Door with Glass"
     },
@@ -1827,6 +1831,7 @@
     "dimension_unit": "mm",
     "coverage_value": null,
     "coverage_unit": null,
-    "stock_unit": "Pcs"
+    "stock_unit": "Pcs",
+    "additional_sizes": null
   }
 ]
