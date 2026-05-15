@@ -1833,5 +1833,131 @@
     "coverage_unit": null,
     "stock_unit": "Pcs",
     "additional_sizes": null
+  },
+  {
+    "id": 406,
+    "name": "Deurstopper brons",
+    "slug": "deurstopper-brons-1778854942833",
+    "description": "SS304 brushed bronze deurstopper.",
+    "description_i18n": {
+      "nl": "SS304 brushed bronze deurstopper."
+    },
+    "short_description": null,
+    "sku": "DR-010",
+    "thumbnail_path": null,
+    "featured": false,
+    "width": null,
+    "height": null,
+    "length": null,
+    "thickness": null,
+    "dimension_unit": "mm",
+    "coverage_value": null,
+    "coverage_unit": null,
+    "stock_unit": "Pcs"
+  },
+  {
+    "id": 407,
+    "name": "Deursluiter (concealed)",
+    "slug": "deursluiter-concealed-1778854942833",
+    "description": "CE-cert RVS #304 concealed deursluiter — voor brandwerende deur.",
+    "description_i18n": {
+      "nl": "CE-cert RVS #304 concealed deursluiter — voor brandwerende deur."
+    },
+    "short_description": null,
+    "sku": "DR-007",
+    "thumbnail_path": null,
+    "featured": false,
+    "width": null,
+    "height": null,
+    "length": null,
+    "thickness": null,
+    "dimension_unit": "mm",
+    "coverage_value": null,
+    "coverage_unit": null,
+    "stock_unit": "Pcs"
+  },
+  {
+    "id": 408,
+    "name": "Binnendeur Compleet 920×2600 (bronze)",
+    "slug": "binnendeur-compleet-920-2600-bronze-1778854942833",
+    "description": "Massieve binnendeur 920×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur.",
+    "description_i18n": {
+      "nl": "Massieve binnendeur 920×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur."
+    },
+    "short_description": null,
+    "sku": "DR-002-SET",
+    "thumbnail_path": null,
+    "featured": false,
+    "width": null,
+    "height": null,
+    "length": null,
+    "thickness": null,
+    "dimension_unit": "mm",
+    "coverage_value": null,
+    "coverage_unit": null,
+    "stock_unit": "Pcs"
+  },
+  {
+    "id": 409,
+    "name": "Binnendeur Compleet 720×2600 (bronze)",
+    "slug": "binnendeur-compleet-720-2600-bronze-1778854942833",
+    "description": "Massieve binnendeur 720×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur.",
+    "description_i18n": {
+      "nl": "Massieve binnendeur 720×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur."
+    },
+    "short_description": null,
+    "sku": "DR-003-SET",
+    "thumbnail_path": null,
+    "featured": false,
+    "width": null,
+    "height": null,
+    "length": null,
+    "thickness": null,
+    "dimension_unit": "mm",
+    "coverage_value": null,
+    "coverage_unit": null,
+    "stock_unit": "Pcs"
+  },
+  {
+    "id": 410,
+    "name": "Buitendeur Compleet 920×2400 (matzwart)",
+    "slug": "buitendeur-compleet-920-2400-matzwart-1778854942834",
+    "description": "Massieve buitendeur 920×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur.",
+    "description_i18n": {
+      "nl": "Massieve buitendeur 920×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur."
+    },
+    "short_description": null,
+    "sku": "DR-004-SET",
+    "thumbnail_path": null,
+    "featured": false,
+    "width": null,
+    "height": null,
+    "length": null,
+    "thickness": null,
+    "dimension_unit": "mm",
+    "coverage_value": null,
+    "coverage_unit": null,
+    "stock_unit": "Pcs"
+  },
+  {
+    "id": 411,
+    "name": "Buitendeur Compleet 1220×2400 (matzwart)",
+    "slug": "buitendeur-compleet-1220-2400-matzwart-1778854942834",
+    "description": "Massieve buitendeur 1220×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur.",
+    "description_i18n": {
+      "nl": "Massieve buitendeur 1220×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur."
+    },
+    "short_description": null,
+    "sku": "DR-005-SET",
+    "thumbnail_path": null,
+    "featured": false,
+    "width": null,
+    "height": null,
+    "length": null,
+    "thickness": null,
+    "dimension_unit": "mm",
+    "coverage_value": null,
+    "coverage_unit": null,
+    "stock_unit": "Pcs"
   }
 ]
