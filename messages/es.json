@@ -126,13 +126,17 @@
     "applications": "Aplicaciones típicas",
     "swatch": "Muestra de material",
     "descriptions": {
-      "oak-wood": "Un panel cálido de gran formato en aspecto madera, en Magic Flexible Stone — la veta natural de la madera con la durabilidad y el mantenimiento fácil de la piedra, listo para suelos, paredes y fachadas junto al mar.",
-      "dark-wood": "Un acabado abujardado profundo en tonos oscuros y ricos — pensado para paredes protagonistas y entornos lujosos, con la textura de la madera envejecida y la resistencia de la piedra flexible.",
-      "concrete": "Un composite de cemento, árido y agua, apreciado por su resistencia, durabilidad y versatilidad — un panel de hormigón beige sereno para suelos, paredes y fachadas que envejece muy bien.",
-      "stone": "Nuestra familia de piedra natural flexible: paneles grandes y ligeros con el aspecto y el tacto de la piedra real, en una paleta de beiges y grises — para suelos, paredes protagonistas y exteriores.",
-      "sandstone": "Un aspecto de roca sedimentaria, principalmente partículas minerales de tamaño arena, con durabilidad natural y una superficie de textura rica — ideal para paneles arquitectónicos y fachadas.",
-      "concrete-stone": "Un panel poly-wood en suaves tonos amarillos — la calidez de la madera y el cuerpo de la piedra, para suelos resistentes y revestimientos de pared dentro y fuera.",
-      "solid-surface-stone": "Una piedra solid surface no porosa — sin juntas, reparable y cálida al tacto — usada para bañeras, lavabos y piezas de baño a medida."
+      "travertine": "Paneles efecto travertino — tonos tierra cálidos y un aire clásico y atemporal para suelos, paredes y fachadas.",
+      "concrete": "Efecto hormigón y cemento con una calma sobria e industrial — versátil y duradero, dentro y fuera.",
+      "wood-look": "Paneles con textura natural de madera — la calidez de la madera con el mantenimiento fácil de la piedra.",
+      "natural-stone": "Paneles de piedra ligeros inspirados en granito, caliza y arenisca — el aspecto y el tacto de la piedra natural.",
+      "rammed-earth": "Efecto tierra apisonada con texturas orgánicas en capas — crudo, cálido y con carácter.",
+      "terrazzo": "Terrazo y superficies texturizadas — desenfadado, moteado y con personalidad.",
+      "solid-surface": "Elementos solid surface sin juntas — bañeras, lavabos y platos de ducha, cálidos al tacto y reparables.",
+      "acrylic": "Láminas acrílicas translúcidas — modernas, luminosas y escultóricas.",
+      "glass-mirror": "Elementos de vidrio y espejo que aportan luz y amplitud al baño.",
+      "brushed-metal": "Toalleros, grifos, ganchos y bisagras en metal cepillado mate — los detalles de acabado.",
+      "xps-backer": "Placas base ligeras como soporte estable para paneles de pared y alicatado."
     }
   },
   "products": {

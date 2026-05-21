@@ -20,7 +20,7 @@ export async function Footer() {
   ];
 
   return (
-    <footer className="relative overflow-hidden bg-sea-900 text-cream">
+    <footer className="relative overflow-hidden bg-sea-900 text-cream print:hidden">
       <div className="pointer-events-none absolute -left-32 top-0 h-96 w-96 rounded-full bg-terracotta-600/20 blur-3xl" />
       <div className="pointer-events-none absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-gold-500/10 blur-3xl" />
 

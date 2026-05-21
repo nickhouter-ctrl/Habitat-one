@@ -43,7 +43,7 @@ export function Header() {
     <>
       <header
         className={cn(
-          "fixed inset-x-0 top-0 z-50 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-500",
+          "fixed inset-x-0 top-0 z-50 transition-[background-color,backdrop-filter,box-shadow,border-color] duration-500 print:hidden",
           solid
             ? "border-b border-sand-200/80 bg-cream/85 shadow-[0_10px_40px_-30px_rgba(84,48,31,0.6)] backdrop-blur-xl"
             : "border-b border-transparent bg-transparent",

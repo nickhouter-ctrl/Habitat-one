@@ -126,13 +126,17 @@
     "applications": "Typische Anwendungen",
     "swatch": "Materialmuster",
     "descriptions": {
-      "oak-wood": "Eine warme, großformatige Platte in Holzoptik aus Magic Flexible Stone — die natürliche Holzmaserung mit der Haltbarkeit und der pflegeleichten Art von Stein, bereit für Böden, Wände und Fassaden am Meer.",
-      "dark-wood": "Eine tiefe, gestockte Oberfläche in satten dunklen Tönen — gemacht für Statement-Wände und luxuriöse Settings, mit der Textur von verwittertem Holz und der Widerstandsfähigkeit von flexiblem Stein.",
-      "concrete": "Ein Verbund aus Zement, Zuschlag und Wasser, geschätzt für Festigkeit, Haltbarkeit und Vielseitigkeit — eine ruhige beige Betonplatte für Böden, Wände und Fassaden, die schön altert.",
-      "stone": "Unsere flexible Naturstein-Familie: große, leichte Platten mit der Optik und Haptik von echtem Stein, in einer Palette aus Beige- und Grautönen — für Böden, Akzentwände und Außenbereiche.",
-      "sandstone": "Eine sedimentäre Felsoptik, überwiegend sandkorngroße Mineralpartikel, mit natürlicher Haltbarkeit und reich strukturierter Oberfläche — ideal für Architekturpaneele und Fassaden.",
-      "concrete-stone": "Eine Poly-Wood-Platte in sanften Gelbtönen — die Wärme von Holz und der Körper von Stein, für strapazierfähige Böden und Wandverkleidungen innen und außen.",
-      "solid-surface-stone": "Ein nicht poröser Solid-Surface-Stein — fugenlos, reparierbar und warm im Griff — verwendet für Badewannen, Waschbecken und maßgefertigte Badelemente."
+      "travertine": "Paneele in Travertin-Optik — warme Erdtöne und eine zeitlose, klassische Ausstrahlung für Böden, Wände und Fassaden.",
+      "concrete": "Beton- und Zement-Optik mit klarer, industrieller Ruhe — vielseitig und langlebig, innen und außen.",
+      "wood-look": "Paneele mit natürlicher Holztextur — die Wärme von Holz mit der Pflegeleichtigkeit von Stein.",
+      "natural-stone": "Leichte Steinpaneele inspiriert von Granit, Kalkstein und Sandstein — die Optik und Haptik von echtem Naturstein.",
+      "rammed-earth": "Stampflehm-Optik mit geschichteten, organischen Texturen — roh, warm und charaktervoll.",
+      "terrazzo": "Terrazzo und strukturierte Oberflächen — verspielt, gesprenkelt und eigenwillig.",
+      "solid-surface": "Fugenlose Solid-Surface-Elemente — Wannen, Waschbecken und Duschwannen, warm im Griff und reparierbar.",
+      "acrylic": "Lichtdurchlässige Acrylplatten — modern, hell und skulptural.",
+      "glass-mirror": "Glas- und Spiegelelemente, die das Bad hell und großzügig wirken lassen.",
+      "brushed-metal": "Handtuchhalter, Armaturen, Haken und Scharniere in matt gebürstetem Metall — die finalen Details.",
+      "xps-backer": "Leichte Trägerplatten als stabile Basis für Wandpaneele und Verfliesung."
     }
   },
   "products": {

@@ -423,3 +423,10 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* Printen: schone witte achtergrond — voor de bestellijst uit de keukenplanner. */
+@media print {
+  body {
+    background: #fff;
+  }
+}

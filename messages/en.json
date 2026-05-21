@@ -126,13 +126,17 @@
     "applications": "Typical applications",
     "swatch": "Material swatch",
     "descriptions": {
-      "oak-wood": "A warm, large-format wood-look board in Magic Flexible Stone — the natural grain of timber with the durability and easy maintenance of stone, ready for floors, walls and façades by the sea.",
-      "dark-wood": "A deep, bush-hammered finish in rich dark tones — built for statement walls and luxurious settings, with the texture of weathered timber and the resilience of flexible stone.",
-      "concrete": "A composite of cement, aggregate and water, prized for its strength, durability and versatility — a calm beige concrete board for floors, walls and façades that ages beautifully.",
-      "stone": "Our flexible natural-stone family: large, light panels with the look and feel of real stone, in a palette of beiges and greys — for floors, feature walls and exteriors.",
-      "sandstone": "A sedimentary rockface look, mostly sand-sized mineral particles, offering natural durability and a richly textured surface — ideal for architectural panels and façades.",
-      "concrete-stone": "A poly-wood board in soft yellow tones — the warmth of wood and the body of stone, for hard-wearing floors and wall claddings indoors and out.",
-      "solid-surface-stone": "A non-porous solid-surface stone — seamless, repairable and warm to the touch — used for bathtubs, basins and bespoke bathroom pieces."
+      "travertine": "Travertine-look panels — warm earth tones and a timeless, classic feel for floors, walls and façades.",
+      "concrete": "Concrete and cement looks with a sleek, industrial calm — versatile and durable, indoors and out.",
+      "wood-look": "Panels with a natural wood texture — the warmth of timber with the easy maintenance of stone.",
+      "natural-stone": "Light stone panels inspired by granite, limestone and sandstone — the look and feel of real natural stone.",
+      "rammed-earth": "Rammed-earth looks with layered, organic textures — raw, warm and full of character.",
+      "terrazzo": "Terrazzo and textured surfaces — playful, speckled and characterful.",
+      "solid-surface": "Seamless solid-surface elements — baths, basins and shower trays, warm to the touch and repairable.",
+      "acrylic": "Translucent acrylic sheets — modern, light and sculptural.",
+      "glass-mirror": "Glass and mirror elements that make a bathroom feel bright and spacious.",
+      "brushed-metal": "Towel bars, taps, hooks and hinges in matte brushed metal — the finishing details.",
+      "xps-backer": "Lightweight backer boards as a stable base for wall panels and tiling."
     }
   },
   "products": {

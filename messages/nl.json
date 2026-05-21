@@ -126,13 +126,17 @@
     "applications": "Typische toepassingen",
     "swatch": "Materiaalstaal",
     "descriptions": {
-      "oak-wood": "Een warm, grootformaat hout-look paneel in Magic Flexible Stone — de natuurlijke houtnerf met de duurzaamheid en het lage onderhoud van steen, klaar voor vloeren, wanden en gevels aan zee.",
-      "dark-wood": "Een diepe, gebouchardeerde afwerking in rijke donkere tinten — gemaakt voor statement-wanden en luxueuze locaties, met de textuur van verweerd hout en de veerkracht van flexibele steen.",
-      "concrete": "Een composiet van cement, aggregaat en water, geliefd om kracht, duurzaamheid en veelzijdigheid — een rustig beige betonpaneel voor vloeren, wanden en gevels dat mooi veroudert.",
-      "stone": "Onze familie flexibele natuursteen: grote, lichte panelen met de look en feel van echte steen, in een palet van beiges en grijzen — voor vloeren, accentwanden en buitentoepassingen.",
-      "sandstone": "Een sedimentaire rotswand-look, voornamelijk zandkorrelige mineraaldeeltjes, met natuurlijke duurzaamheid en een rijk getextureerd oppervlak — ideaal voor architectonische panelen en gevels.",
-      "concrete-stone": "Een poly-wood paneel in zachte gele tinten — de warmte van hout en het lichaam van steen, voor slijtvaste vloeren en wandbekledingen binnen en buiten.",
-      "solid-surface-stone": "Een niet-poreuze solid-surface steen — naadloos, herstelbaar en warm bij aanraking — gebruikt voor baden, wastafels en maatwerk badkamerstukken."
+      "travertine": "Panelen in travertijn-look — warme aardetinten en een klassieke, tijdloze uitstraling voor vloeren, wanden en gevels.",
+      "concrete": "Beton- en cement-look met een strakke, industriële rust — veelzijdig en duurzaam, binnen en buiten.",
+      "wood-look": "Panelen met een natuurlijke houttextuur — de warmte van hout met het lage onderhoud van steen.",
+      "natural-stone": "Lichte steenpanelen geïnspireerd op graniet, kalksteen en zandsteen — de look en feel van echte natuursteen.",
+      "rammed-earth": "Aardesteen-look met gelaagde, organische texturen — rauw, warm en vol karakter.",
+      "terrazzo": "Terrazzo en gestructureerde oppervlakken — speels, korrelig en eigenzinnig.",
+      "solid-surface": "Naadloze solid-surface elementen — baden, wastafels en douchebakken, warm bij aanraking en herstelbaar.",
+      "acrylic": "Doorschijnende acrylplaten — modern, licht en sculpturaal.",
+      "glass-mirror": "Glas- en spiegelelementen die de badkamer ruimtelijk en licht maken.",
+      "brushed-metal": "Handdoekstangen, kranen, haken en scharnieren in mat geborsteld metaal — de afwerkende details.",
+      "xps-backer": "Lichte onderlaag-platen als stabiele basis voor wandpanelen en betegeling."
     }
   },
   "products": {
