@@ -96,7 +96,7 @@ export function RoomCanvas({
           onPointerDown={(e) => {
             if (e.target === canvasRef.current) onSelect(null);
           }}
-          className="relative w-full touch-none rounded-lg border-2 border-ink/40 bg-sand-100"
+          className="relative w-full touch-none overflow-hidden rounded-lg border-2 border-ink/40 bg-sand-100"
           style={{ aspectRatio: `${rw} / ${rd}`, maxWidth }}
         >
           {design.items.length === 0 && (

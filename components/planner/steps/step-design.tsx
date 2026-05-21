@@ -207,7 +207,7 @@ export function StepDesign() {
             <RoomCanvas activeLayer={layer} selectedId={selectedId} onSelect={setSelectedId} />
           ) : (
             <div className="space-y-2">
-              <div className="h-[460px] overflow-hidden rounded-xl border border-sand-300 bg-sand-100 sm:h-[540px]">
+              <div className="h-[400px] overflow-hidden rounded-xl border border-sand-300 bg-sand-100 sm:h-[500px] lg:h-[560px]">
                 <Room3D selectedId={selectedId} onSelect={setSelectedId} />
               </div>
               <p className="text-sm text-ink-soft">

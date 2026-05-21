@@ -20,9 +20,6 @@ const COLOR_LABEL: Record<string, string> = {
 export function StepRoom() {
   const { design, dispatch } = usePlanner();
   const { roomWidthCm: rw, roomDepthCm: rd } = design;
-  const previewMax = 360;
-  const previewW = rw >= rd ? previewMax : Math.round(previewMax * (rw / rd));
-  const previewH = rd >= rw ? previewMax : Math.round(previewMax * (rd / rw));
 
   return (
     <div className="space-y-8">
@@ -63,15 +60,18 @@ export function StepRoom() {
         </div>
 
         {/* Live voorbeeld van de lege ruimte (van bovenaf) */}
-        <div className="flex flex-col items-center justify-center rounded-xl border border-sand-300 bg-sand-50 p-6">
+        <div className="flex flex-col items-center justify-center rounded-xl border border-sand-300 bg-sand-50 p-4 sm:p-6">
           <div className="text-xs text-ink-soft">{rw} cm</div>
-          <div className="flex items-center gap-1.5">
-            <div className="text-xs text-ink-soft" style={{ writingMode: "vertical-rl" }}>
+          <div className="flex w-full items-stretch justify-center gap-1.5">
+            <div
+              className="flex items-center text-xs text-ink-soft"
+              style={{ writingMode: "vertical-rl" }}
+            >
               {rd} cm
             </div>
             <div
-              className="rounded-lg border-2 border-ink/40 bg-sand-100"
-              style={{ width: previewW, height: previewH }}
+              className="w-full max-w-[280px] rounded-lg border-2 border-ink/40 bg-sand-100"
+              style={{ aspectRatio: `${rw} / ${rd}` }}
             />
           </div>
           <div className="mt-3 text-sm text-ink-soft">Jouw ruimte, van bovenaf gezien</div>

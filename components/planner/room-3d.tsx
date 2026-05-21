@@ -100,7 +100,7 @@ export function Room3D({
     <Canvas
       shadows
       dpr={[1, 2]}
-      camera={{ position: [rw * 0.72, ch * 1.15, rd * 1.2], fov: 42 }}
+      camera={{ position: [rw * 0.85, ch * 1.3, rd * 1.5], fov: 46 }}
       onPointerMissed={() => onSelect(null)}
     >
       <color attach="background" args={["#efe8d8"]} />
