@@ -22,6 +22,21 @@ export type Rotation = 0 | 90 | 180 | 270;
 /** Tegen welke wand van de ruimte een element vastzit. */
 export type WallSide = "top" | "bottom" | "left" | "right";
 
+/** Soort opening in een wand. */
+export type OpeningKind = "window" | "door";
+
+/** Een raam of deur in een van de wanden van de ruimte. */
+export interface Opening {
+  id: string;
+  kind: OpeningKind;
+  /** In welke wand de opening zit. */
+  wall: WallSide;
+  /** Midden van de opening, cm vanaf de starthoek (top/bottom vanaf links; left/right vanaf boven). */
+  offsetCm: number;
+  /** Breedte van de opening in cm. */
+  widthCm: number;
+}
+
 /**
  * Eén getekend element in het ontwerp. De positie is het middelpunt in cm,
  * in top-down ruimte-coördinaten (0,0 = linkerbovenhoek van de ruimte).
@@ -54,6 +69,8 @@ export interface KitchenDesign {
   ceilingHeightCm: number;
   /** Alle getekende kasten + apparatuur. */
   items: PlacedItem[];
+  /** Ramen en deuren in de wanden — geplaatst in de Ruimte-stap. */
+  openings: Opening[];
   /** Eén cascokleur voor de hele keuken (de fronten dekken de casco's af). */
   carcassColor: CarcassColor;
   /** Gekozen front-stijl (maatwerk) — id uit lib/planner/catalog.ts. */

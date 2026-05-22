@@ -133,6 +133,7 @@ export function RoomCanvas({
             />
           ))}
           {activeLayer === "base" && <IslandDimensions design={design} />}
+          <OpeningMarks design={design} />
         </div>
       </div>
     </div>
@@ -318,6 +319,40 @@ function GapMarkers({ design, layer }: { design: KitchenDesign; layer: CabinetLa
               </div>
             );
           });
+      })}
+    </>
+  );
+}
+
+/** Ramen en deuren als gekleurde balken op de wanden van de plattegrond. */
+function OpeningMarks({ design }: { design: KitchenDesign }) {
+  const { roomWidthCm: rw, roomDepthCm: rd } = design;
+  return (
+    <>
+      {design.openings.map((o) => {
+        const horizontal = o.wall === "top" || o.wall === "bottom";
+        const len = horizontal ? rw : rd;
+        const startPct = ((o.offsetCm - o.widthCm / 2) / len) * 100;
+        const sizePct = (o.widthCm / len) * 100;
+        const thickness = 7;
+        const style: CSSProperties = horizontal
+          ? { left: `${startPct}%`, width: `${sizePct}%`, height: thickness }
+          : { top: `${startPct}%`, height: `${sizePct}%`, width: thickness };
+        if (o.wall === "top") style.top = 0;
+        else if (o.wall === "bottom") style.bottom = 0;
+        else if (o.wall === "left") style.left = 0;
+        else style.right = 0;
+        return (
+          <div
+            key={o.id}
+            title={o.kind === "window" ? "Raam" : "Deur"}
+            style={style}
+            className={cn(
+              "pointer-events-none absolute rounded-sm",
+              o.kind === "window" ? "bg-sea-400" : "bg-terracotta-500",
+            )}
+          />
+        );
       })}
     </>
   );

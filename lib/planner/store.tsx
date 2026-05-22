@@ -17,7 +17,16 @@ import { getCarcass } from "@/lib/data/metod";
 import { getAppliance } from "./appliances";
 import { plannerSteps } from "./catalog";
 import { carcassLayer, clampToRoom, isCornerItem, itemFootprint, snapItem } from "./layout";
-import type { CabinetLayer, KitchenDesign, PlacedItem, PlannerStepId, Rotation } from "./types";
+import type {
+  CabinetLayer,
+  KitchenDesign,
+  Opening,
+  OpeningKind,
+  PlacedItem,
+  PlannerStepId,
+  Rotation,
+  WallSide,
+} from "./types";
 
 // --- Begin-ontwerp --------------------------------------------------------
 
@@ -27,6 +36,7 @@ function initialDesign(): KitchenDesign {
     roomDepthCm: 300,
     ceilingHeightCm: 260,
     items: [],
+    openings: [],
     carcassColor: "wit",
     frontStyleId: null,
     frontFinishId: null,
@@ -51,6 +61,13 @@ export type PlannerAction =
   | { type: "SET_FRONT_STYLE"; id: string }
   | { type: "SET_FRONT_FINISH"; id: string }
   | { type: "SET_SIDE_PANEL"; id: string | null }
+  | { type: "ADD_OPENING"; kind: OpeningKind }
+  | {
+      type: "UPDATE_OPENING";
+      id: string;
+      patch: Partial<Pick<Opening, "wall" | "offsetCm" | "widthCm">>;
+    }
+  | { type: "REMOVE_OPENING"; id: string }
   | { type: "RESET" };
 
 const uid = () => crypto.randomUUID();
@@ -99,23 +116,37 @@ function placeNew(
   return item;
 }
 
+function wallLengthCm(wall: WallSide, d: KitchenDesign): number {
+  return wall === "left" || wall === "right" ? d.roomDepthCm : d.roomWidthCm;
+}
+
+/** Houd een opening binnen de grenzen van zijn wand. */
+function clampOpening(o: Opening, d: KitchenDesign): Opening {
+  const len = wallLengthCm(o.wall, d);
+  const widthCm = clamp(o.widthCm, 30, Math.max(30, len));
+  const offsetCm = clamp(o.offsetCm, widthCm / 2, Math.max(widthCm / 2, len - widthCm / 2));
+  return { ...o, widthCm, offsetCm };
+}
+
 function reducer(state: KitchenDesign, action: PlannerAction): KitchenDesign {
   switch (action.type) {
     case "SET_ROOM_WIDTH": {
       const roomWidthCm = clamp(action.cm, 120, 1200);
+      const next = { ...state, roomWidthCm };
       return {
-        ...state,
-        roomWidthCm,
+        ...next,
         items: state.items.map((i) => ({ ...i, ...clampToRoom(i, roomWidthCm, state.roomDepthCm) })),
+        openings: state.openings.map((o) => clampOpening(o, next)),
       };
     }
 
     case "SET_ROOM_DEPTH": {
       const roomDepthCm = clamp(action.cm, 120, 1200);
+      const next = { ...state, roomDepthCm };
       return {
-        ...state,
-        roomDepthCm,
+        ...next,
         items: state.items.map((i) => ({ ...i, ...clampToRoom(i, state.roomWidthCm, roomDepthCm) })),
+        openings: state.openings.map((o) => clampOpening(o, next)),
       };
     }
 
@@ -228,6 +259,31 @@ function reducer(state: KitchenDesign, action: PlannerAction): KitchenDesign {
 
     case "SET_SIDE_PANEL":
       return { ...state, sidePanelFinishId: action.id };
+
+    case "ADD_OPENING": {
+      const o = clampOpening(
+        {
+          id: uid(),
+          kind: action.kind,
+          wall: "top",
+          offsetCm: state.roomWidthCm / 2,
+          widthCm: action.kind === "door" ? 90 : 120,
+        },
+        state,
+      );
+      return { ...state, openings: [...state.openings, o] };
+    }
+
+    case "UPDATE_OPENING":
+      return {
+        ...state,
+        openings: state.openings.map((o) =>
+          o.id === action.id ? clampOpening({ ...o, ...action.patch }, state) : o,
+        ),
+      };
+
+    case "REMOVE_OPENING":
+      return { ...state, openings: state.openings.filter((o) => o.id !== action.id) };
 
     case "RESET":
       return initialDesign();

@@ -205,6 +205,85 @@ function Room({ design }: { design: KitchenDesign }) {
         <boxGeometry args={[5, ch, rd]} />
         <meshStandardMaterial color="#ebe3d1" roughness={0.95} />
       </mesh>
+      <WallOpenings design={design} />
+    </group>
+  );
+}
+
+/** Ramen en deuren op de zichtbare wanden (achter- en linkerwand). */
+function WallOpenings({ design }: { design: KitchenDesign }) {
+  const { roomWidthCm: rw, roomDepthCm: rd } = design;
+  return (
+    <>
+      {design.openings.map((o) => {
+        const isWindow = o.kind === "window";
+        const h = isWindow ? 125 : 211;
+        const cy = isWindow ? 150 : h / 2;
+        if (o.wall === "top") {
+          return (
+            <OpeningPanel
+              key={o.id}
+              kind={o.kind}
+              position={[o.offsetCm - rw / 2, cy, -rd / 2 + 1]}
+              rotationY={0}
+              w={o.widthCm}
+              h={h}
+            />
+          );
+        }
+        if (o.wall === "left") {
+          return (
+            <OpeningPanel
+              key={o.id}
+              kind={o.kind}
+              position={[-rw / 2 + 1, cy, o.offsetCm - rd / 2]}
+              rotationY={Math.PI / 2}
+              w={o.widthCm}
+              h={h}
+            />
+          );
+        }
+        // Onder-/rechterwand worden niet getekend (camera-zijde).
+        return null;
+      })}
+    </>
+  );
+}
+
+function OpeningPanel({
+  kind,
+  position,
+  rotationY,
+  w,
+  h,
+}: {
+  kind: "window" | "door";
+  position: [number, number, number];
+  rotationY: number;
+  w: number;
+  h: number;
+}) {
+  const isWindow = kind === "window";
+  return (
+    <group position={position} rotation={[0, rotationY, 0]}>
+      <mesh castShadow>
+        <boxGeometry args={[w + 9, h + 9, 3.5]} />
+        <meshStandardMaterial color={isWindow ? "#eae5d8" : "#d4ccba"} roughness={0.6} />
+      </mesh>
+      <mesh position={[0, 0, 1.9]}>
+        <boxGeometry args={[w, h, 1]} />
+        {isWindow ? (
+          <meshStandardMaterial
+            color="#bdd7e2"
+            emissive="#d4e6ec"
+            emissiveIntensity={0.55}
+            roughness={0.08}
+            metalness={0.1}
+          />
+        ) : (
+          <meshStandardMaterial color="#9a8f79" roughness={0.62} />
+        )}
+      </mesh>
     </group>
   );
 }
