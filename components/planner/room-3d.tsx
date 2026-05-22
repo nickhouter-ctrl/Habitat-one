@@ -4,8 +4,8 @@
 // omgevingsbelichting, material-textures (hout, marmer, geborsteld metaal),
 // kasten met sokkel en front-stijl. Klik een element aan om het te kiezen.
 
-import { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Suspense, useEffect, type RefObject } from "react";
+import { Canvas, useThree } from "@react-three/fiber";
 import { Environment, Lightformer, OrbitControls, RoundedBox, useTexture } from "@react-three/drei";
 import type { Texture } from "three";
 import { getCarcass, type Carcass, type CarcassColor } from "@/lib/data/metod";
@@ -88,9 +88,12 @@ function frontGrid(carcass: Carcass, layer: "base" | "wall"): { cols: number; ro
 export function Room3D({
   selectedId,
   onSelect,
+  captureRef,
 }: {
   selectedId: string | null;
   onSelect: (id: string | null) => void;
+  /** Wordt gevuld met een functie die het 3D-canvas als PNG-dataURL teruggeeft. */
+  captureRef?: RefObject<(() => string) | null>;
 }) {
   const { design } = usePlanner();
   const { roomWidthCm: rw, roomDepthCm: rd, ceilingHeightCm: ch } = design;
@@ -100,6 +103,7 @@ export function Room3D({
     <Canvas
       shadows
       dpr={[1, 2]}
+      gl={{ preserveDrawingBuffer: true }}
       camera={{ position: [rw * 0.85, ch * 1.3, rd * 1.5], fov: 46 }}
       onPointerMissed={() => onSelect(null)}
     >
@@ -134,6 +138,8 @@ export function Room3D({
         <Scene selectedId={selectedId} onSelect={onSelect} />
       </Suspense>
 
+      <CaptureBridge captureRef={captureRef} />
+
       <OrbitControls
         target={[0, 95, 0]}
         maxPolarAngle={Math.PI / 2.08}
@@ -143,6 +149,24 @@ export function Room3D({
       />
     </Canvas>
   );
+}
+
+/** Stelt een functie beschikbaar om het 3D-canvas als PNG-dataURL vast te leggen. */
+function CaptureBridge({ captureRef }: { captureRef?: RefObject<(() => string) | null> }) {
+  const gl = useThree((s) => s.gl);
+  const scene = useThree((s) => s.scene);
+  const camera = useThree((s) => s.camera);
+  useEffect(() => {
+    if (!captureRef) return;
+    captureRef.current = () => {
+      gl.render(scene, camera);
+      return gl.domElement.toDataURL("image/png");
+    };
+    return () => {
+      captureRef.current = null;
+    };
+  }, [gl, scene, camera, captureRef]);
+  return null;
 }
 
 /** Scène-inhoud — laadt de textures en rendert de ruimte met alle elementen. */

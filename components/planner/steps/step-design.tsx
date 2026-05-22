@@ -23,6 +23,7 @@ import { applianceLayer } from "@/lib/planner/layout";
 import { usePlanner } from "@/lib/planner/store";
 import type { CabinetLayer, KitchenDesign, PlacedItem } from "@/lib/planner/types";
 import { cn } from "@/lib/utils";
+import { AiRenderPanel } from "../ai-render";
 import { RoomCanvas } from "../room-canvas";
 import { StepHeading } from "../ui";
 
@@ -84,6 +85,8 @@ export function StepDesign() {
   const [tab, setTab] = useState<"appliances" | "cabinets">("appliances");
   const [cabType, setCabType] = useState<CarcassType>("onderkast");
   const [depthFilter, setDepthFilter] = useState<number | null>(null);
+  // Functie om het 3D-canvas vast te leggen voor de AI-render.
+  const captureRef = useRef<(() => string) | null>(null);
 
   // Een nieuw toegevoegd item wordt meteen geselecteerd — zo bouw je een rij
   // op: kast toevoegen klikt steeds aan de vorige vast.
@@ -208,12 +211,19 @@ export function StepDesign() {
           ) : (
             <div className="space-y-2">
               <div className="h-[400px] overflow-hidden rounded-xl border border-sand-300 bg-sand-100 sm:h-[500px] lg:h-[560px]">
-                <Room3D selectedId={selectedId} onSelect={setSelectedId} />
+                <Room3D
+                  selectedId={selectedId}
+                  onSelect={setSelectedId}
+                  captureRef={captureRef}
+                />
               </div>
-              <p className="text-sm text-ink-soft">
-                Sleep om te draaien, scroll om te zoomen. Klik een element om het
-                te selecteren; rechts kun je er kasten aan toevoegen.
-              </p>
+              <div className="flex flex-wrap items-center justify-between gap-3">
+                <p className="text-sm text-ink-soft">
+                  Sleep om te draaien, scroll om te zoomen. Klik een element om
+                  het te selecteren.
+                </p>
+                <AiRenderPanel captureRef={captureRef} />
+              </div>
             </div>
           )}
         </div>
