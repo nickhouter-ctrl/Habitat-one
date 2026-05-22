@@ -7,6 +7,8 @@ import { routing } from "@/i18n/routing";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ScrollProgress } from "@/components/ui/scroll-progress";
+import { QuoteProvider } from "@/components/quote-context";
+import { QuoteRequestForm } from "@/components/quote-request-form";
 import "../globals.css";
 
 const montserrat = Montserrat({
@@ -77,10 +79,13 @@ export default async function LocaleLayout({
     >
       <body className="min-h-full flex flex-col bg-sand-50 text-ink antialiased">
         <NextIntlClientProvider>
-          <ScrollProgress />
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <QuoteProvider>
+            <ScrollProgress />
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+            <QuoteRequestForm />
+          </QuoteProvider>
         </NextIntlClientProvider>
       </body>
     </html>

@@ -160,7 +160,7 @@
     "materials": "Materials",
     "space": "Spaces",
     "collection": "Collection",
-    "enquire": "Enquire about this product",
+    "enquire": "Request a quote",
     "related": "You may also like",
     "specsTitle": "Specifications",
     "noImage": "Image on request",
@@ -286,7 +286,10 @@
     "filters": "Filters",
     "clearAll": "Clear all filters",
     "showResults": "Show {count} products",
-    "activeFilters": "Active filters"
+    "activeFilters": "Active filters",
+    "addToQuote": "Add to quote",
+    "inQuote": "Added to quote",
+    "bookAppointment": "Book an appointment"
   },
   "spaces": {
     "eyebrow": "Room by room",

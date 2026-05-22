@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { X, ArrowUpRight, CheckCircle2 } from "lucide-react";
+import { useQuote } from "@/components/quote-context";
 
 const CRM_API =
   process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
@@ -12,6 +13,9 @@ type Locale = "nl" | "de" | "en" | "es";
 interface Labels {
   title: string;
   subtitle: string;
+  yourProducts: string;
+  noProducts: string;
+  removeAria: string;
   name: string;
   email: string;
   phone: string;
@@ -37,6 +41,9 @@ const L: Record<Locale, Labels> = {
   nl: {
     title: "Vraag offerte aan",
     subtitle: "We nemen binnen 24u contact met je op.",
+    yourProducts: "Producten in je offerte",
+    noProducts: "Nog geen producten toegevoegd — vul je gegevens in voor een algemene aanvraag.",
+    removeAria: "Verwijderen",
     name: "Naam",
     email: "E-mail",
     phone: "Telefoon (optioneel)",
@@ -60,6 +67,9 @@ const L: Record<Locale, Labels> = {
   de: {
     title: "Angebot anfragen",
     subtitle: "Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+    yourProducts: "Produkte in Ihrem Angebot",
+    noProducts: "Noch keine Produkte hinzugefügt — füllen Sie Ihre Daten für eine allgemeine Anfrage aus.",
+    removeAria: "Entfernen",
     name: "Name",
     email: "E-Mail",
     phone: "Telefon (optional)",
@@ -83,6 +93,9 @@ const L: Record<Locale, Labels> = {
   en: {
     title: "Request a quote",
     subtitle: "We'll get back to you within 24h.",
+    yourProducts: "Products in your quote",
+    noProducts: "No products added yet — fill in your details for a general enquiry.",
+    removeAria: "Remove",
     name: "Name",
     email: "Email",
     phone: "Phone (optional)",
@@ -106,6 +119,9 @@ const L: Record<Locale, Labels> = {
   es: {
     title: "Solicitar presupuesto",
     subtitle: "Te contactaremos en menos de 24 horas.",
+    yourProducts: "Productos en tu presupuesto",
+    noProducts: "Aún no hay productos — rellena tus datos para una consulta general.",
+    removeAria: "Eliminar",
     name: "Nombre",
     email: "Correo electrónico",
     phone: "Teléfono (opcional)",
@@ -128,13 +144,8 @@ const L: Record<Locale, Labels> = {
   },
 };
 
-export function QuoteRequestForm({
-  product,
-  onClose,
-}: {
-  product?: { sku: string | null; name: string; slug: string };
-  onClose: () => void;
-}) {
+export function QuoteRequestForm() {
+  const { items, isOpen, closeQuote, removeItem, clearItems } = useQuote();
   const locale = useLocale() as Locale;
   const t = L[locale] ?? L.nl;
   const tNav = useTranslations("nav");
@@ -142,6 +153,12 @@ export function QuoteRequestForm({
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  function handleClose() {
+    closeQuote();
+    setSuccess(false);
+    setError(null);
+  }
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -166,9 +183,9 @@ export function QuoteRequestForm({
           phone: String(f.get("phone") ?? "") || undefined,
           company: company || undefined,
           message: messageParts.join("\n\n"),
-          productSkus: product?.sku ? [product.sku] : [],
-          productNames: product ? [product.name] : [],
-          productSlugs: product ? [product.slug] : [],
+          productSkus: items.map((i) => i.sku).filter((s): s is string => !!s),
+          productNames: items.map((i) => i.name),
+          productSlugs: items.map((i) => i.slug),
           locale,
           source: sourceTag,
         }),
@@ -178,6 +195,7 @@ export function QuoteRequestForm({
         setSubmitting(false);
         return;
       }
+      clearItems();
       setSuccess(true);
     } catch {
       setError(t.errorGeneric);
@@ -186,10 +204,12 @@ export function QuoteRequestForm({
     }
   }
 
+  if (!isOpen) return null;
+
   return (
     <div
       className="fixed inset-0 z-[60] flex items-center justify-center bg-clay-900/60 p-4 backdrop-blur-sm"
-      onClick={onClose}
+      onClick={handleClose}
     >
       <div
         className="relative max-h-[92vh] w-full max-w-lg overflow-auto rounded-3xl border border-sand-200 bg-cream p-7 shadow-[0_20px_80px_-30px_rgba(58,42,32,0.45)]"
@@ -198,7 +218,7 @@ export function QuoteRequestForm({
         <button
           type="button"
           aria-label={t.closeLabel}
-          onClick={onClose}
+          onClick={handleClose}
           className="absolute right-4 top-4 grid h-9 w-9 place-items-center rounded-full text-clay-700 transition-colors hover:bg-sand-200"
         >
           <X className="h-5 w-5" />
@@ -206,12 +226,12 @@ export function QuoteRequestForm({
 
         {success ? (
           <div className="py-6 text-center">
-            <div className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-sage/15 text-sage">
+            <div className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-sea-500/15 text-sea-700">
               <CheckCircle2 className="h-7 w-7" />
             </div>
             <h3 className="mt-4 font-display text-2xl text-ink">{t.successTitle}</h3>
             <p className="mt-2 text-sm text-clay-700">{t.successText}</p>
-            <button onClick={onClose} className="btn btn-primary mt-6">
+            <button onClick={handleClose} className="btn btn-primary mt-6">
               {t.closeLabel}
             </button>
           </div>
@@ -223,13 +243,37 @@ export function QuoteRequestForm({
             <h3 className="mt-2 font-display text-2xl text-ink">{t.title}</h3>
             <p className="mt-1 text-sm text-clay-700/80">{t.subtitle}</p>
 
-            {product && (
-              <div className="mt-4 rounded-xl border border-sand-200 bg-sand-50 px-3 py-2 text-sm">
-                <span className="text-xs text-clay-600">Product</span>
-                <p className="font-medium">{product.name}</p>
-                {product.sku && <p className="text-xs text-clay-700/70">{product.sku}</p>}
-              </div>
-            )}
+            {/* Producten in de offerte */}
+            <div className="mt-4 rounded-xl border border-sand-200 bg-sand-50 p-3">
+              <p className="text-xs font-semibold uppercase tracking-[0.14em] text-clay-700">
+                {t.yourProducts}
+                {items.length > 0 && <span className="text-clay-700/60"> · {items.length}</span>}
+              </p>
+              {items.length === 0 ? (
+                <p className="mt-2 text-sm text-clay-700/70">{t.noProducts}</p>
+              ) : (
+                <ul className="mt-2 divide-y divide-sand-200">
+                  {items.map((it) => (
+                    <li key={it.slug} className="flex items-center justify-between gap-2 py-1.5">
+                      <span className="min-w-0">
+                        <span className="block truncate text-sm font-medium text-ink">{it.name}</span>
+                        {it.sku && (
+                          <span className="block text-xs text-clay-700/60">{it.sku}</span>
+                        )}
+                      </span>
+                      <button
+                        type="button"
+                        aria-label={t.removeAria}
+                        onClick={() => removeItem(it.slug)}
+                        className="shrink-0 rounded-full p-1 text-clay-700/60 transition-colors hover:bg-sand-200 hover:text-terracotta-600"
+                      >
+                        <X className="h-4 w-4" />
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
 
             <form className="mt-5 space-y-3.5" onSubmit={handleSubmit}>
               <Field label={t.type} htmlFor="type">
@@ -275,13 +319,13 @@ export function QuoteRequestForm({
               </Field>
 
               {error && (
-                <p className="rounded-lg border border-terracotta-400/40 bg-terracotta-50 px-3 py-2 text-sm text-terracotta-700">
+                <p className="rounded-lg border border-terracotta-400/40 bg-terracotta-400/10 px-3 py-2 text-sm text-terracotta-700">
                   {error}
                 </p>
               )}
 
               <div className="flex flex-wrap items-center justify-end gap-2 pt-2">
-                <button type="button" onClick={onClose} className="btn btn-ghost">
+                <button type="button" onClick={handleClose} className="btn btn-ghost">
                   {t.cancel}
                 </button>
                 <button type="submit" disabled={submitting} className="btn btn-primary disabled:opacity-60">

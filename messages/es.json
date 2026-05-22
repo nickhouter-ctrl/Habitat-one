@@ -160,7 +160,7 @@
     "materials": "Materiales",
     "space": "Espacios",
     "collection": "Colección",
-    "enquire": "Consultar este producto",
+    "enquire": "Solicitar presupuesto",
     "related": "También te puede gustar",
     "specsTitle": "Especificaciones",
     "noImage": "Imagen bajo petición",
@@ -464,7 +464,10 @@
     "filters": "Filtros",
     "clearAll": "Borrar todos los filtros",
     "showResults": "Mostrar {count} productos",
-    "activeFilters": "Filtros activos"
+    "activeFilters": "Filtros activos",
+    "addToQuote": "Añadir al presupuesto",
+    "inQuote": "Añadido al presupuesto",
+    "bookAppointment": "Reservar una cita"
   },
   "spaces": {
     "eyebrow": "Estancia por estancia",

@@ -10,6 +10,7 @@ import { services } from "@/lib/data/services";
 import { primaryNav } from "@/lib/data/site";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { Logo } from "@/components/logo";
+import { useQuote } from "@/components/quote-context";
 import { cn } from "@/lib/utils";
 
 type DropItem = { href: string; label: string };
@@ -21,6 +22,7 @@ export function Header() {
   const tSpaces = useTranslations("spaces");
   const locale = useLocale() as Locale;
   const pathname = usePathname();
+  const { items, openQuote } = useQuote();
   const [open, setOpen] = useState(false);
 
   // Sluit het menu zodra de route verandert — tijdens render, zonder effect.
@@ -69,13 +71,20 @@ export function Header() {
 
           <div className="ml-auto flex items-center gap-2 sm:ml-0 md:gap-3">
             <LanguageSwitcher dark />
-            <Link
-              href="/contact"
-              className="hidden items-center gap-1.5 rounded-full bg-clay-700 px-4 py-2 text-[0.8rem] font-semibold tracking-wide text-cream transition-colors hover:bg-clay-800 md:inline-flex"
+            <button
+              type="button"
+              onClick={openQuote}
+              className="hidden items-center gap-2 rounded-full bg-clay-700 px-4 py-2 text-[0.8rem] font-semibold tracking-wide text-cream transition-colors hover:bg-clay-800 md:inline-flex"
             >
               {t("quote")}
-              <ArrowUpRight className="h-3.5 w-3.5" />
-            </Link>
+              {items.length > 0 ? (
+                <span className="grid h-5 min-w-[1.25rem] place-items-center rounded-full bg-cream px-1 text-[0.7rem] font-bold text-clay-800">
+                  {items.length}
+                </span>
+              ) : (
+                <ArrowUpRight className="h-3.5 w-3.5" />
+              )}
+            </button>
             <button
               type="button"
               onClick={() => setOpen((v) => !v)}
@@ -197,6 +206,7 @@ function MobileMenu({
   isActive: (href: string) => boolean;
   t: ReturnType<typeof useTranslations>;
 }) {
+  const { items, openQuote } = useQuote();
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -237,14 +247,23 @@ function MobileMenu({
               </motion.div>
             ))}
           </nav>
-          <Link
-            href="/contact"
-            onClick={onClose}
+          <button
+            type="button"
+            onClick={() => {
+              onClose();
+              openQuote();
+            }}
             className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-full bg-clay-700 px-5 py-3.5 text-sm font-semibold text-cream"
           >
             {t("quote")}
-            <ArrowUpRight className="h-4 w-4" />
-          </Link>
+            {items.length > 0 ? (
+              <span className="grid h-5 min-w-[1.25rem] place-items-center rounded-full bg-cream px-1 text-[0.7rem] font-bold text-clay-800">
+                {items.length}
+              </span>
+            ) : (
+              <ArrowUpRight className="h-4 w-4" />
+            )}
+          </button>
         </div>
       </motion.div>
     </motion.div>

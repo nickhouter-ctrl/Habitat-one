@@ -1,11 +1,21 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowUpRight, Ruler, Tag, Layers as LayersIcon, MapPin, Palette } from "lucide-react";
+import {
+  ArrowUpRight,
+  CalendarDays,
+  Check,
+  Layers as LayersIcon,
+  MapPin,
+  Palette,
+  Plus,
+  Ruler,
+  Tag,
+} from "lucide-react";
 import type { CatalogProduct } from "@/lib/data/catalog";
 import { Link } from "@/i18n/navigation";
 import { ProductGallery } from "@/components/product-gallery";
-import { QuoteRequestForm } from "@/components/quote-request-form";
+import { useQuote } from "@/components/quote-context";
 
 export interface HeroLabels {
   collection: string;
@@ -16,6 +26,9 @@ export interface HeroLabels {
   materials: string;
   space: string;
   enquire: string;
+  addToQuote: string;
+  inQuote: string;
+  bookAppointment: string;
   noImage: string;
   collectionLabel: string;
   /** Vertaalde naam (i18n) — valt terug op product.name. */
@@ -41,10 +54,12 @@ export function ProductHero({
   const swatches = withImages.filter((v) => v.colorHex || v.name);
   const hasSwatches = swatches.length > 1;
   const [variantIdx, setVariantIdx] = useState(0);
-  const [quoteOpen, setQuoteOpen] = useState(false);
+  const { addItem, hasItem, openQuote } = useQuote();
 
   const activeVariant = hasSwatches ? withImages[variantIdx] : null;
   const skuToShow = activeVariant?.sku ?? product.sku ?? null;
+  const quoteItem = { slug: product.slug, name: labels.productName, sku: skuToShow };
+  const added = hasItem(product.slug);
 
   return (
     <div className="mt-8 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-start">
@@ -119,21 +134,36 @@ export function ProductHero({
           </Tags>
         )}
 
-        <button
-          type="button"
-          onClick={() => setQuoteOpen(true)}
-          className="btn btn-primary mt-8"
+        <div className="mt-8 flex flex-wrap items-center gap-3">
+          <button
+            type="button"
+            onClick={() => {
+              addItem(quoteItem);
+              openQuote();
+            }}
+            className="btn btn-primary"
+          >
+            {labels.enquire}
+            <ArrowUpRight className="h-4 w-4" />
+          </button>
+          <button
+            type="button"
+            onClick={() => addItem(quoteItem)}
+            className="btn btn-outline-light"
+          >
+            {added ? <Check className="h-4 w-4" /> : <Plus className="h-4 w-4" />}
+            {added ? labels.inQuote : labels.addToQuote}
+          </button>
+        </div>
+        <Link
+          href="/showroom"
+          className="mt-4 inline-flex items-center gap-1.5 text-sm text-cream/75 transition-colors hover:text-cream"
         >
-          {labels.enquire}
-          <ArrowUpRight className="h-4 w-4" />
-        </button>
+          <CalendarDays className="h-4 w-4" />
+          {labels.bookAppointment}
+          <ArrowUpRight className="h-3.5 w-3.5" />
+        </Link>
       </div>
-      {quoteOpen && (
-        <QuoteRequestForm
-          product={{ sku: skuToShow ?? null, name: labels.productName, slug: product.slug }}
-          onClose={() => setQuoteOpen(false)}
-        />
-      )}
     </div>
   );
 }

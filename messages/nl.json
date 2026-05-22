@@ -160,7 +160,7 @@
     "materials": "Materialen",
     "space": "Ruimtes",
     "collection": "Collectie",
-    "enquire": "Vraag naar dit product",
+    "enquire": "Vraag offerte aan",
     "related": "Misschien ook interessant",
     "specsTitle": "Specificaties",
     "noImage": "Afbeelding op aanvraag",
@@ -464,7 +464,10 @@
     "filters": "Filters",
     "clearAll": "Alle filters wissen",
     "showResults": "Toon {count} producten",
-    "activeFilters": "Actieve filters"
+    "activeFilters": "Actieve filters",
+    "addToQuote": "Voeg toe aan offerte",
+    "inQuote": "Toegevoegd aan offerte",
+    "bookAppointment": "Plan een afspraak"
   },
   "spaces": {
     "eyebrow": "Ruimte voor ruimte",

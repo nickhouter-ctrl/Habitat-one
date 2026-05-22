@@ -160,7 +160,7 @@
     "materials": "Materialien",
     "space": "Räume",
     "collection": "Kollektion",
-    "enquire": "Produkt anfragen",
+    "enquire": "Angebot anfragen",
     "related": "Könnte Ihnen auch gefallen",
     "specsTitle": "Spezifikationen",
     "noImage": "Bild auf Anfrage",
@@ -464,7 +464,10 @@
     "filters": "Filter",
     "clearAll": "Alle Filter zurücksetzen",
     "showResults": "{count} Produkte anzeigen",
-    "activeFilters": "Aktive Filter"
+    "activeFilters": "Aktive Filter",
+    "addToQuote": "Zum Angebot hinzufügen",
+    "inQuote": "Zum Angebot hinzugefügt",
+    "bookAppointment": "Termin vereinbaren"
   },
   "spaces": {
     "eyebrow": "Raum für Raum",
