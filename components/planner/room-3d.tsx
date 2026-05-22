@@ -103,7 +103,6 @@ export function Room3D({
     <Canvas
       shadows
       dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
       camera={{ position: [rw * 0.85, ch * 1.3, rd * 1.5], fov: 46 }}
       onPointerMissed={() => onSelect(null)}
     >
