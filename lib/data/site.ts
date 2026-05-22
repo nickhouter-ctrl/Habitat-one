@@ -23,12 +23,13 @@ export interface NavItem {
   labelKey: string;
 }
 
-// Bewust kort gehouden — de overige pagina's staan in de footer.
 export const primaryNav: NavItem[] = [
   { href: "/products", labelKey: "products" },
+  { href: "/spaces", labelKey: "spaces" },
   { href: "/projects", labelKey: "projects" },
   { href: "/properties", labelKey: "sale" },
   { href: "/services", labelKey: "services" },
+  { href: "/about", labelKey: "about" },
   { href: "/showroom", labelKey: "showroom" },
 ];
 
