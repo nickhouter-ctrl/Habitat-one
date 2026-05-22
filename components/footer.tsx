@@ -1,7 +1,7 @@
 import { getTranslations, getLocale } from "next-intl/server";
 import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { site, primaryNav } from "@/lib/data/site";
+import { site } from "@/lib/data/site";
 import { Logo } from "@/components/logo";
 import { NewsletterForm } from "@/components/ui/newsletter-form";
 
@@ -11,7 +11,13 @@ export async function Footer() {
   const year = new Date().getFullYear();
   await getLocale();
 
-  const explore = primaryNav.slice(0, 4);
+  // Volledige paginalijst — de header toont een kortere selectie.
+  const explore = [
+    { href: "/products", labelKey: "products" },
+    { href: "/projects", labelKey: "projects" },
+    { href: "/spaces", labelKey: "spaces" },
+    { href: "/properties", labelKey: "sale" },
+  ];
   const company = [
     { href: "/services", labelKey: "services" },
     { href: "/about", labelKey: "about" },
