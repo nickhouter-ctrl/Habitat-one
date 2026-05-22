@@ -34,7 +34,7 @@ export function PageHeader({
       <div className="absolute inset-0 bg-gradient-to-r from-sea-900/55 via-sea-900/15 to-transparent" />
       <div className="pointer-events-none absolute -left-24 top-0 h-72 w-72 rounded-full bg-terracotta-600/25 blur-3xl" />
 
-      <Container className={cn("relative", size === "compact" ? "pb-10 pt-28 md:pb-14 md:pt-32" : "pb-12 pt-28 md:pb-24 md:pt-40")}>
+      <Container className={cn("relative", size === "compact" ? "pb-10 pt-12 md:pb-14 md:pt-16" : "pb-12 pt-14 md:pb-20 md:pt-24")}>
         <div className={cn("max-w-3xl", align === "center" && "mx-auto text-center")}>
           {eyebrow && (
             <Reveal>

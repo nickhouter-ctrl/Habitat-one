@@ -18,7 +18,8 @@
     "menu": "Menú",
     "close": "Cerrar",
     "quote": "Pedir presupuesto",
-    "openMenu": "Abrir menú"
+    "openMenu": "Abrir menú",
+    "searchPlaceholder": "Buscar productos, materiales, espacios…"
   },
   "common": {
     "brand": "Habitat One",

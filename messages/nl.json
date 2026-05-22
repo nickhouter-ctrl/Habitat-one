@@ -18,7 +18,8 @@
     "menu": "Menu",
     "close": "Sluiten",
     "quote": "Offerte aanvragen",
-    "openMenu": "Menu openen"
+    "openMenu": "Menu openen",
+    "searchPlaceholder": "Zoek producten, materialen, ruimtes…"
   },
   "common": {
     "brand": "Habitat One",

@@ -18,7 +18,8 @@
     "menu": "Menu",
     "close": "Close",
     "quote": "Request a quote",
-    "openMenu": "Open menu"
+    "openMenu": "Open menu",
+    "searchPlaceholder": "Search products, materials, spaces…"
   },
   "common": {
     "brand": "Habitat One",

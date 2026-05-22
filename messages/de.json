@@ -18,7 +18,8 @@
     "menu": "Menü",
     "close": "Schließen",
     "quote": "Angebot anfragen",
-    "openMenu": "Menü öffnen"
+    "openMenu": "Menü öffnen",
+    "searchPlaceholder": "Produkte, Materialien, Räume suchen…"
   },
   "common": {
     "brand": "Habitat One",
