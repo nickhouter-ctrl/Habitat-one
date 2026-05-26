@@ -5,22 +5,27 @@
 ---------------------------------------------------------------------------- */
 
 @theme {
-  /* Palette */
-  --color-sand-50: #fcf8f0;
-  --color-sand-100: #f8f1e3;
-  --color-sand-200: #f0e4cd;
-  --color-sand-300: #e6d3b2;
-  --color-sand-400: #d8bd8e;
+  /* ------------------------------------------------------------------
+     Palette — Leeuwenburgh-quiet: near-white, near-black, no bold accent.
+     The warm tokens below are kept for sparing use (eyebrow flourish on
+     internal pages), but the homepage / products / hero now run on the
+     neutral set.
+  ------------------------------------------------------------------ */
+  --color-sand-50: #f7f5f0;
+  --color-sand-100: #efece3;
+  --color-sand-200: #e3ddd0;
+  --color-sand-300: #cfc6b3;
+  --color-sand-400: #b6a98e;
 
-  --color-terracotta-300: #e0a380;
-  --color-terracotta-400: #d08a5f;
-  --color-terracotta-500: #c2703f;
-  --color-terracotta-600: #a85a2f;
-  --color-terracotta-700: #8a4827;
+  --color-terracotta-300: #cda28a;
+  --color-terracotta-400: #b88566;
+  --color-terracotta-500: #9a6748;
+  --color-terracotta-600: #7d5238;
+  --color-terracotta-700: #5e3d2a;
 
-  --color-clay-600: #8c4a2f;
-  --color-clay-700: #6f3a25;
-  --color-clay-800: #54301f;
+  --color-clay-600: #4a3a30;
+  --color-clay-700: #34291f;
+  --color-clay-800: #1f1815;
 
   --color-olive-400: #9ba067;
   --color-olive-500: #7d8252;
@@ -37,13 +42,15 @@
   --color-gold-500: #c79a45;
   --color-gold-600: #a87f33;
 
-  --color-ink: #2a2018;
-  --color-ink-soft: #5a4f43;
-  --color-cream: #faf4e8;
-  --color-whitewash: #fffdf8;
+  /* Editorial neutrals — the core of the new aesthetic */
+  --color-ink: #161513;
+  --color-ink-soft: #545049;
+  --color-cream: #f3efe7;
+  --color-whitewash: #f7f5f0;
+  --color-paper: #ffffff;
 
   /* Semantic */
-  --color-background: var(--color-sand-50);
+  --color-background: #fbf9f4;
   --color-foreground: var(--color-ink);
 
   /* Fonts (provided via next/font CSS variables) */
@@ -64,6 +71,17 @@
   --animate-shimmer: shimmer 2.6s linear infinite;
   --animate-marquee: marquee 38s linear infinite;
   --animate-spin-slow: spin 26s linear infinite;
+  --animate-ken-burns: kenBurns 22s ease-in-out infinite alternate;
+  --animate-ken-burns-fast: kenBurns 14s ease-in-out infinite alternate;
+}
+
+@keyframes kenBurns {
+  0% {
+    transform: scale(1.02) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: scale(1.12) translate3d(-1.5%, -1%, 0);
+  }
 }
 
 @keyframes float {
@@ -132,10 +150,10 @@
   h2,
   h3,
   h4 {
-    font-family: var(--font-display);
-    font-weight: 600;
-    letter-spacing: -0.01em;
-    line-height: 1.05;
+    font-family: var(--font-sans);
+    font-weight: 500;
+    letter-spacing: -0.018em;
+    line-height: 1.06;
   }
   /* Decorative scrollbar */
   ::-webkit-scrollbar {
@@ -176,21 +194,21 @@
     display: inline-flex;
     align-items: center;
     gap: 0.6rem;
-    font-size: 0.72rem;
-    font-weight: 600;
-    letter-spacing: 0.28em;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.32em;
     text-transform: uppercase;
-    color: var(--color-terracotta-600);
+    color: var(--color-ink-soft);
   }
   .eyebrow::before {
     content: "";
-    width: 1.8rem;
+    width: 1.6rem;
     height: 1px;
     background: currentColor;
-    opacity: 0.5;
+    opacity: 0.45;
   }
   .eyebrow.is-light {
-    color: var(--color-gold-400);
+    color: color-mix(in oklab, white 70%, transparent);
   }
 
   /* Hairline divider with a diamond, very mediterranean tilework feel */
@@ -213,83 +231,69 @@
     );
   }
 
-  /* Buttons */
+  /* Buttons — quiet, editorial, near-black filled or outline */
   .btn {
     position: relative;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 0.55rem;
-    border-radius: 999px;
-    padding: 0.85rem 1.6rem;
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
+    gap: 0.6rem;
+    border-radius: 0;
+    padding: 0.95rem 1.7rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
     transition:
-      transform 0.4s var(--ease-out-soft),
-      box-shadow 0.4s var(--ease-out-soft),
       background-color 0.3s ease,
-      color 0.3s ease;
-    will-change: transform;
+      color 0.3s ease,
+      border-color 0.3s ease;
   }
   .btn:active {
-    transform: translateY(1px) scale(0.99);
+    transform: translateY(1px);
   }
   .btn-primary {
-    background: linear-gradient(
-      135deg,
-      var(--color-terracotta-500),
-      var(--color-clay-600)
-    );
-    color: var(--color-whitewash);
-    box-shadow:
-      0 14px 30px -12px color-mix(in oklab, var(--color-clay-700) 65%, transparent),
-      inset 0 1px 0 color-mix(in oklab, white 30%, transparent);
+    background: var(--color-ink);
+    color: var(--color-paper);
+    border: 1px solid var(--color-ink);
   }
   .btn-primary:hover {
-    transform: translateY(-3px);
-    box-shadow:
-      0 22px 44px -14px color-mix(in oklab, var(--color-clay-700) 70%, transparent),
-      inset 0 1px 0 color-mix(in oklab, white 35%, transparent);
+    background: transparent;
+    color: var(--color-ink);
   }
   .btn-ghost {
-    background: color-mix(in oklab, var(--color-whitewash) 70%, transparent);
+    background: transparent;
     color: var(--color-ink);
-    border: 1px solid color-mix(in oklab, var(--color-clay-600) 28%, transparent);
-    backdrop-filter: blur(8px);
+    border: 1px solid var(--color-ink);
   }
   .btn-ghost:hover {
-    transform: translateY(-3px);
-    border-color: var(--color-terracotta-500);
-    color: var(--color-terracotta-700);
+    background: var(--color-ink);
+    color: var(--color-paper);
   }
   .btn-sea {
-    background: linear-gradient(135deg, var(--color-sea-500), var(--color-sea-700));
-    color: var(--color-whitewash);
-    box-shadow: 0 14px 30px -12px color-mix(in oklab, var(--color-sea-900) 60%, transparent);
+    background: var(--color-sea-700);
+    color: var(--color-paper);
+    border: 1px solid var(--color-sea-700);
   }
   .btn-sea:hover {
-    transform: translateY(-3px);
+    background: transparent;
+    color: var(--color-sea-700);
   }
   .btn-outline-light {
-    border: 1px solid color-mix(in oklab, white 55%, transparent);
-    color: var(--color-whitewash);
-    background: color-mix(in oklab, white 8%, transparent);
-    backdrop-filter: blur(6px);
+    border: 1px solid color-mix(in oklab, white 65%, transparent);
+    color: var(--color-paper);
+    background: transparent;
   }
   .btn-outline-light:hover {
-    transform: translateY(-3px);
-    background: color-mix(in oklab, white 16%, transparent);
+    background: var(--color-paper);
+    color: var(--color-ink);
   }
 
   /* Card surface */
   .surface {
-    background: var(--color-whitewash);
-    border: 1px solid color-mix(in oklab, var(--color-sand-300) 70%, transparent);
-    border-radius: var(--radius-2xl);
-    box-shadow:
-      0 1px 0 color-mix(in oklab, white 60%, transparent) inset,
-      0 30px 60px -40px color-mix(in oklab, var(--color-clay-800) 40%, transparent);
+    background: var(--color-paper);
+    border: 1px solid color-mix(in oklab, var(--color-ink) 9%, transparent);
+    border-radius: 0;
   }
 
   /* Glassy panel for dark imagery */
@@ -393,6 +397,13 @@
 }
 
 @layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
   .text-balance {
     text-wrap: balance;
   }

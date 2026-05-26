@@ -2,7 +2,6 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { Container } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
 
 export async function CtaBanner({
@@ -12,30 +11,34 @@ export async function CtaBanner({
 }) {
   const t = await getTranslations("home");
   return (
-    <section className="relative py-20 md:py-28">
-      <Container>
+    <section className="relative isolate overflow-hidden bg-ink text-paper">
+      <Image src={image} alt="" fill className="object-cover opacity-30" sizes="100vw" />
+      <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/45" />
+      <div className="container-x relative py-24 md:py-32">
         <Reveal>
-          <div className="relative overflow-hidden rounded-[2.5rem] bg-sea-900 px-7 py-14 text-cream shadow-[0_50px_100px_-40px_rgba(15,46,54,0.6)] md:px-16 md:py-20">
-            <Image src={image} alt="" fill className="object-cover opacity-25" sizes="100vw" />
-            <div className="absolute inset-0 bg-gradient-to-r from-sea-900 via-sea-900/85 to-clay-800/40" />
-            <div className="pointer-events-none absolute -right-16 -top-16 h-72 w-72 rounded-full bg-terracotta-600/30 blur-3xl" />
-            <div className="relative max-w-2xl">
-              <p className="eyebrow is-light">{t("ctaSecondary")}</p>
-              <h2 className="mt-4 text-3xl leading-tight text-cream md:text-[2.9rem]">{t("ctaTitle")}</h2>
-              <p className="mt-5 max-w-lg text-cream/75 md:text-lg">{t("ctaText")}</p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <Link href="/contact" className="btn btn-primary">
-                  {t("ctaButton")}
-                  <ArrowUpRight className="h-4 w-4" />
-                </Link>
-                <Link href="/showroom" className="btn btn-outline-light">
-                  {t("ctaSecondary")}
-                </Link>
-              </div>
+          <div className="max-w-2xl">
+            <span className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-paper/70">
+              {t("ctaSecondary")}
+            </span>
+            <h2 className="mt-5 text-3xl font-medium leading-[1.06] tracking-[-0.018em] text-paper sm:text-4xl md:text-[2.8rem]">
+              {t("ctaTitle")}
+            </h2>
+            <p className="mt-6 max-w-lg text-paper/75 md:text-lg">{t("ctaText")}</p>
+            <div className="mt-9 flex flex-wrap gap-4">
+              <Link href="/contact" className="btn btn-outline-light">
+                {t("ctaButton")}
+                <ArrowUpRight className="h-4 w-4" />
+              </Link>
+              <Link
+                href="/showroom"
+                className="inline-flex items-center gap-2 self-center text-[0.78rem] font-medium uppercase tracking-[0.18em] text-paper underline underline-offset-[6px] decoration-paper/35 hover:decoration-paper"
+              >
+                {t("ctaSecondary")}
+              </Link>
             </div>
           </div>
         </Reveal>
-      </Container>
+      </div>
     </section>
   );
 }

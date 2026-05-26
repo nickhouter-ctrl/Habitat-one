@@ -60,7 +60,7 @@ export function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 border-b border-sand-200 bg-cream/95 backdrop-blur print:hidden">
+      <header className="sticky top-0 z-50 border-b border-ink/10 bg-paper/95 backdrop-blur print:hidden">
         {/* Bovenrij — logo · zoekbalk · taal · offerte */}
         <div className="container-x flex items-center gap-3 py-3 sm:gap-5">
           <Link href="/" aria-label="Habitat One — home" className="shrink-0">
@@ -74,11 +74,11 @@ export function Header() {
             <button
               type="button"
               onClick={openQuote}
-              className="hidden items-center gap-2 rounded-full bg-clay-700 px-4 py-2 text-[0.8rem] font-semibold tracking-wide text-cream transition-colors hover:bg-clay-800 md:inline-flex"
+              className="hidden items-center gap-2 bg-ink px-4 py-2.5 text-[0.72rem] font-medium uppercase tracking-[0.16em] text-paper transition-colors hover:bg-ink-soft md:inline-flex"
             >
               {t("quote")}
               {items.length > 0 ? (
-                <span className="grid h-5 min-w-[1.25rem] place-items-center rounded-full bg-cream px-1 text-[0.7rem] font-bold text-clay-800">
+                <span className="grid h-5 min-w-[1.25rem] place-items-center rounded-full bg-paper px-1 text-[0.7rem] font-bold text-ink">
                   {items.length}
                 </span>
               ) : (
