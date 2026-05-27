@@ -10,6 +10,7 @@ import {
 } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { Magnetic } from "@/components/ui/magnetic";
 
 export interface StoryLine {
   heading: string;
@@ -17,6 +18,8 @@ export interface StoryLine {
 }
 
 interface PinnedStoryProps {
+  /** Label that surfaces in the floating chapter indicator (desktop) */
+  chapter?: string;
   /** Optional .mp4/.webm — falls back to a slow Ken-Burns image when omitted */
   videoSrc?: string;
   /** Poster / placeholder image (also used as Ken-Burns layer when video is missing) */
@@ -40,6 +43,7 @@ interface PinnedStoryProps {
  * Section height = lines.length × 100svh — each text gets one viewport.
  */
 export function PinnedStorySection({
+  chapter,
   videoSrc,
   posterImage,
   identifier,
@@ -57,27 +61,37 @@ export function PinnedStorySection({
   return (
     <section
       ref={ref}
+      data-chapter={chapter}
       style={{ height: `${lines.length * scrollPerLine}svh` }}
       className="relative"
     >
       <div className="sticky top-0 h-svh w-full overflow-hidden">
-        {/* Background — video if provided, else Ken-Burns image */}
-        {videoSrc ? (
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            poster={posterImage}
-            className="absolute inset-0 h-full w-full object-cover"
-          >
-            <source src={videoSrc} type="video/mp4" />
-          </video>
-        ) : (
-          <div className="absolute inset-0 animate-ken-burns">
-            <Image src={posterImage} alt="" fill priority sizes="100vw" className="object-cover" />
-          </div>
-        )}
+        {/* Background — video if provided, else Ken-Burns image — drifts up at
+            ~30% scroll speed for a cinematic depth feel. */}
+        <motion.div
+          style={{
+            y: useTransform(scrollYProgress, [0, 1], ["0%", "-12%"]),
+            scale: useTransform(scrollYProgress, [0, 0.5, 1], [1.04, 1.08, 1.12]),
+          }}
+          className="absolute inset-0"
+        >
+          {videoSrc ? (
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              poster={posterImage}
+              className="h-full w-full object-cover"
+            >
+              <source src={videoSrc} type="video/mp4" />
+            </video>
+          ) : (
+            <div className="h-full w-full animate-ken-burns">
+              <Image src={posterImage} alt="" fill priority sizes="100vw" className="object-cover" />
+            </div>
+          )}
+        </motion.div>
 
         {/* Legibility scrim */}
         <div
@@ -180,18 +194,28 @@ function StoryPanel({
   }
 
   const opacity = useTransform(scrollYProgress, times, values);
-  const y = useTransform(
+  // Generous vertical glide — the heading slides in from below as it fades in,
+  // and continues drifting up as the next segment takes over.
+  const headingY = useTransform(
     scrollYProgress,
-    [Math.max(0, start), Math.min(1, end)],
-    [10, -10],
+    [Math.max(0, start - 0.02), Math.min(1, end + 0.02)],
+    [60, -60],
+  );
+  const headingScale = useTransform(
+    scrollYProgress,
+    [Math.max(0, start - 0.02), Math.min(1, end + 0.02)],
+    [1.06, 0.97],
   );
 
   return (
     <motion.div
-      style={{ opacity, y }}
+      style={{ opacity }}
       className="pointer-events-none absolute inset-0 z-10 grid place-items-center px-6"
     >
-      <div className="pointer-events-auto max-w-4xl text-center text-paper">
+      <motion.div
+        style={{ y: headingY, scale: headingScale }}
+        className="pointer-events-auto max-w-4xl text-center text-paper"
+      >
         <h2 className="text-balance font-medium leading-[1.06] tracking-[-0.02em] text-paper text-[2.2rem] sm:text-5xl md:text-6xl lg:text-[5rem]">
           {heading}
         </h2>
@@ -200,13 +224,15 @@ function StoryPanel({
         )}
         {cta && (
           <div className="mt-9 flex justify-center">
-            <Link href={cta.href} className="btn btn-outline-light">
-              {cta.label}
-              <ArrowRight className="h-4 w-4" />
-            </Link>
+            <Magnetic>
+              <Link href={cta.href} className="btn btn-outline-light">
+                {cta.label}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Magnetic>
           </div>
         )}
-      </div>
+      </motion.div>
     </motion.div>
   );
 }

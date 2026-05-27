@@ -8,6 +8,8 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { heroStats } from "@/lib/data/site";
 import { CountUp } from "@/components/ui/count-up";
+import { MaskReveal } from "@/components/ui/mask-reveal";
+import { Magnetic } from "@/components/ui/magnetic";
 
 // Placeholder — swap when the real MagicStone hero image / video arrives.
 const HERO_IMAGE = "/products/v/454.jpg";
@@ -18,15 +20,22 @@ export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
-  const imageY = useTransform(scrollYProgress, [0, 1], ["0%", "12%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-12%"]);
-  const fade = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+  const imageY = useTransform(scrollYProgress, [0, 1], ["0%", "16%"]);
+  const imageScale = useTransform(scrollYProgress, [0, 1], [1, 1.08]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-26%"]);
+  const textScale = useTransform(scrollYProgress, [0, 1], [1, 0.94]);
+  const textBlur = useTransform(scrollYProgress, [0, 1], ["blur(0px)", "blur(6px)"]);
+  const fade = useTransform(scrollYProgress, [0, 0.85], [1, 0]);
 
   return (
-    <section ref={ref} className="relative isolate overflow-hidden bg-paper">
+    <section
+      ref={ref}
+      data-chapter="Intro"
+      className="relative isolate overflow-hidden bg-paper"
+    >
       {/* Full-bleed image — slow Ken Burns zoom + scroll parallax */}
       <div className="relative h-[88svh] min-h-[620px] w-full overflow-hidden">
-        <motion.div style={{ y: imageY }} className="absolute inset-0">
+        <motion.div style={{ y: imageY, scale: imageScale }} className="absolute inset-0">
           <div className="absolute inset-0 animate-ken-burns">
             <Image
               src={HERO_IMAGE}
@@ -41,7 +50,10 @@ export function Hero() {
         {/* Quiet darkening so the headline reads on most photos */}
         <div className="absolute inset-0 bg-gradient-to-b from-ink/10 via-transparent to-ink/55" />
 
-        <motion.div style={{ y: textY, opacity: fade }} className="container-x relative z-10 flex h-full flex-col justify-end pb-14 md:pb-20">
+        <motion.div
+          style={{ y: textY, opacity: fade, scale: textScale, filter: textBlur }}
+          className="container-x relative z-10 flex h-full flex-col justify-end pb-14 md:pb-20"
+        >
           <motion.span
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
@@ -51,14 +63,14 @@ export function Hero() {
             {t("eyebrow")}
           </motion.span>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 18 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+          <MaskReveal
+            as="h1"
+            inView={false}
+            splitBy="word"
             className="mt-5 max-w-4xl text-[2.4rem] font-medium leading-[1.04] tracking-[-0.02em] text-paper sm:text-5xl md:text-[4rem] lg:text-[4.6rem]"
           >
-            {t("titleA")} {t("titleB")} {t("titleC")}
-          </motion.h1>
+            {`${t("titleA")} ${t("titleB")} ${t("titleC")}`}
+          </MaskReveal>
 
           <motion.p
             initial={{ opacity: 0, y: 16 }}
@@ -72,13 +84,15 @@ export function Hero() {
           <motion.div
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.4 }}
+            transition={{ duration: 0.7, delay: 0.55 }}
             className="mt-8 flex flex-wrap items-center gap-3"
           >
-            <Link href="/products?collection=wall-panels" className="btn btn-outline-light">
-              {t("ctaPrimary")}
-              <ArrowRight className="h-4 w-4" />
-            </Link>
+            <Magnetic>
+              <Link href="/products?collection=wall-panels" className="btn btn-outline-light">
+                {t("ctaPrimary")}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Magnetic>
             <Link
               href="/projects"
               className="inline-flex items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-paper/85 underline underline-offset-[6px] decoration-paper/40 hover:decoration-paper"

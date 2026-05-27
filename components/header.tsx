@@ -43,11 +43,17 @@ export function Header() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   // Uitklapmenu's met de bestaande site-inhoud.
-  const dropdowns: Record<string, DropItem[]> = {
-    products: collections.map((c) => ({
-      href: `/products?collection=${c.id}`,
+  // Elke collectie heeft een eigen luxe pagina: MagicStone op /products
+  // (primair), andere collecties op /products/{id}.
+  const productItems: DropItem[] = [
+    ...collections.map((c) => ({
+      href: c.id === "wall-panels" ? "/products" : `/products/${c.id}`,
       label: tProducts(c.key),
     })),
+    { href: "/products/all", label: tProducts("allProducts") },
+  ];
+  const dropdowns: Record<string, DropItem[]> = {
+    products: productItems,
     spaces: catalogSpaces.map((s) => ({
       href: `/spaces/${s.slug}`,
       label: tSpaces(`names.${s.slug}`),

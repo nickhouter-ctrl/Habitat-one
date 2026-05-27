@@ -1,0 +1,106 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "motion/react";
+
+/**
+ * Floating right-edge chapter indicator.
+ *
+ * Every `<section data-chapter="...">` on the page becomes a dot. The dot
+ * for the section currently filling the viewport is expanded and labelled.
+ * Hidden on touch/narrow screens — this is a desktop luxury cue, not a nav.
+ */
+export function ChapterIndicator() {
+  const [enabled, setEnabled] = useState(false);
+  const [chapters, setChapters] = useState<{ id: string; label: string }[]>([]);
+  const [active, setActive] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const m = window.matchMedia("(min-width: 1280px) and (hover: hover)");
+    if (!m.matches) return;
+    const raf = requestAnimationFrame(() => setEnabled(true));
+    return () => cancelAnimationFrame(raf);
+  }, []);
+
+  useEffect(() => {
+    if (!enabled) return;
+
+    function collect() {
+      const els = Array.from(
+        document.querySelectorAll<HTMLElement>("[data-chapter]"),
+      );
+      const list = els.map((el) => ({
+        id: el.dataset.chapterId ?? el.dataset.chapter ?? "",
+        label: el.dataset.chapter ?? "",
+        el,
+      }));
+      // Ensure stable ids
+      list.forEach((c, i) => {
+        if (!c.id) c.id = `ch-${i}`;
+        c.el.dataset.chapterId = c.id;
+      });
+      setChapters(list.map((c) => ({ id: c.id, label: c.label })));
+      return list;
+    }
+
+    const list = collect();
+    if (list.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        // Pick the entry with the largest intersection ratio
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+        if (visible) {
+          setActive((visible.target as HTMLElement).dataset.chapterId ?? null);
+        }
+      },
+      { threshold: [0.25, 0.5, 0.75], rootMargin: "-25% 0px -25% 0px" },
+    );
+    list.forEach(({ el }) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, [enabled]);
+
+  if (!enabled || chapters.length === 0) return null;
+
+  return (
+    <nav
+      aria-label="Section navigation"
+      className="pointer-events-none fixed right-6 top-1/2 z-[55] hidden -translate-y-1/2 xl:flex"
+    >
+      <ul className="flex flex-col items-end gap-5">
+        {chapters.map((c) => {
+          const isActive = c.id === active;
+          return (
+            <li key={c.id} className="flex items-center gap-3">
+              <AnimatePresence>
+                {isActive && (
+                  <motion.span
+                    initial={{ opacity: 0, x: 8 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: 8 }}
+                    transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+                    className="text-[0.62rem] font-medium uppercase tracking-[0.32em] text-ink-soft"
+                  >
+                    {c.label}
+                  </motion.span>
+                )}
+              </AnimatePresence>
+              <motion.span
+                animate={{
+                  width: isActive ? 28 : 12,
+                  backgroundColor: isActive ? "var(--color-ink)" : "transparent",
+                }}
+                transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
+                className="block h-px border-b border-ink/40"
+              />
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  );
+}

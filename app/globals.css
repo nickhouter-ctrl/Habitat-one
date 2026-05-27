@@ -130,6 +130,7 @@
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     overflow-x: clip;
+    cursor: auto;
   }
   ::selection {
     background-color: var(--color-terracotta-500);

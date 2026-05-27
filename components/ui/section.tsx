@@ -18,13 +18,20 @@ export function Section({
   children,
   className,
   id,
+  chapter,
 }: {
   children: ReactNode;
   className?: string;
   id?: string;
+  /** Label that surfaces in the floating chapter indicator (desktop) */
+  chapter?: string;
 }) {
   return (
-    <section id={id} className={cn("relative overflow-x-clip py-14 sm:py-20 md:py-28", className)}>
+    <section
+      id={id}
+      data-chapter={chapter}
+      className={cn("relative overflow-x-clip py-14 sm:py-20 md:py-28", className)}
+    >
       {children}
     </section>
   );

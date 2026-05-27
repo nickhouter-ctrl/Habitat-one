@@ -7,6 +7,10 @@ import { routing } from "@/i18n/routing";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ScrollProgress } from "@/components/ui/scroll-progress";
+import { SmoothScrollProvider } from "@/components/ui/smooth-scroll-provider";
+import { HoverLabel } from "@/components/ui/hover-label";
+import { PageVeil } from "@/components/ui/page-veil";
+import { ChapterIndicator } from "@/components/ui/chapter-indicator";
 import { QuoteProvider } from "@/components/quote-context";
 import { QuoteRequestForm } from "@/components/quote-request-form";
 import "../globals.css";
@@ -77,15 +81,21 @@ export default async function LocaleLayout({
       lang={locale}
       className={`${montserrat.variable} ${cormorant.variable} h-full`}
     >
-      <body className="min-h-full flex flex-col bg-sand-50 text-ink antialiased">
+      <body className="min-h-full flex flex-col bg-background text-ink antialiased">
         <NextIntlClientProvider>
-          <QuoteProvider>
-            <ScrollProgress />
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-            <QuoteRequestForm />
-          </QuoteProvider>
+          <SmoothScrollProvider>
+            <QuoteProvider>
+              <PageVeil />
+              <HoverLabel />
+              <ChapterIndicator />
+              <ScrollProgress />
+              <div className="pointer-events-none fixed inset-0 z-[60] opacity-[0.035] mix-blend-multiply [background-image:url('/site/grain.svg')] [background-size:140px_140px]" aria-hidden />
+              <Header />
+              <main className="flex-1">{children}</main>
+              <Footer />
+              <QuoteRequestForm />
+            </QuoteProvider>
+          </SmoothScrollProvider>
         </NextIntlClientProvider>
       </body>
     </html>

@@ -46,7 +46,11 @@ export function ProductCard({
   const noImg = noImageLabel ?? t("noImage");
 
   return (
-    <Link href={`/products/${product.slug}`} className={cn("group block", className)}>
+    <Link
+      href={`/products/${product.slug}`}
+      data-hover-label="View product"
+      className={cn("group block", className)}
+    >
       <div className="relative aspect-[4/5] overflow-hidden bg-sand-100">
         {product.image ? (
           <Image

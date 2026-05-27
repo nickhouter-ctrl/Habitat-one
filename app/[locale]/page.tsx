@@ -9,6 +9,9 @@ import { ProductsStrip } from "@/components/sections/products-strip";
 import { PinnedStorySection } from "@/components/sections/pinned-story";
 import { Container, Section } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
+import { MaskReveal } from "@/components/ui/mask-reveal";
+import { CurtainReveal } from "@/components/ui/curtain-reveal";
+import { Magnetic } from "@/components/ui/magnetic";
 import { BeforeAfter } from "@/components/ui/before-after";
 import { getProductBySlug, productsByCollection } from "@/lib/data/catalog";
 import { projects } from "@/lib/data/projects";
@@ -33,11 +36,13 @@ function EditorialHeading({
           <span className={`eyebrow ${align === "center" ? "justify-center" : ""}`}>{eyebrow}</span>
         </Reveal>
       )}
-      <Reveal delay={0.04}>
-        <h2 className="mt-5 text-3xl font-medium leading-[1.06] tracking-[-0.018em] text-ink sm:text-4xl md:text-[2.6rem]">
-          {title}
-        </h2>
-      </Reveal>
+      <MaskReveal
+        as="h2"
+        splitBy="word"
+        className="mt-5 text-3xl font-medium leading-[1.06] tracking-[-0.018em] text-ink sm:text-4xl md:text-[2.6rem]"
+      >
+        {title}
+      </MaskReveal>
       {text && (
         <Reveal delay={0.1}>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink-soft md:text-[1.05rem]">
@@ -88,7 +93,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <Hero />
 
       {/* ---- MagicStone — the signature collection ---- */}
-      <Section className="bg-paper py-20 md:py-32">
+      <Section chapter="MagicStone" className="bg-paper py-20 md:py-32">
         <Container>
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1fr_1.1fr] lg:items-center lg:gap-20">
             <div>
@@ -115,10 +120,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               </dl>
               <Reveal className="mt-10">
                 <div className="flex flex-wrap gap-3">
-                  <Link href="/products?collection=wall-panels" className="btn btn-primary">
-                    {t("magicCta")}
-                    <ArrowRight className="h-4 w-4" />
-                  </Link>
+                  <Magnetic>
+                    <Link href="/products?collection=wall-panels" className="btn btn-primary">
+                      {t("magicCta")}
+                      <ArrowRight className="h-4 w-4" />
+                    </Link>
+                  </Magnetic>
                   <Link
                     href="/contact"
                     className="inline-flex items-center gap-2 self-center text-[0.78rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
@@ -130,29 +137,29 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             </div>
 
             <div className="relative grid grid-cols-12 gap-3 sm:gap-4">
-              <Reveal className="col-span-12 sm:col-span-9">
-                <div className="relative aspect-[4/5] overflow-hidden">
-                  <Image
-                    src={magicHero}
-                    alt="Magic Flexible Stone — paneel"
-                    fill
-                    sizes="(max-width:1024px) 90vw, 45vw"
-                    className="object-cover"
-                  />
-                </div>
-              </Reveal>
-              <Reveal direction="up" delay={0.12} className="col-span-7 -mt-12 sm:col-span-5 sm:-mt-20 sm:ml-auto">
-                <div className="relative aspect-square overflow-hidden">
-                  <Image src={magicDetail} alt="" fill sizes="200px" className="object-cover" />
-                </div>
-              </Reveal>
+              <CurtainReveal className="col-span-12 aspect-[4/5] sm:col-span-9">
+                <Image
+                  src={magicHero}
+                  alt="Magic Flexible Stone — paneel"
+                  fill
+                  sizes="(max-width:1024px) 90vw, 45vw"
+                  className="object-cover"
+                />
+              </CurtainReveal>
+              <CurtainReveal
+                direction="up"
+                delay={0.18}
+                className="col-span-7 -mt-12 aspect-square sm:col-span-5 sm:-mt-20 sm:ml-auto"
+              >
+                <Image src={magicDetail} alt="" fill sizes="200px" className="object-cover" />
+              </CurtainReveal>
             </div>
           </div>
         </Container>
       </Section>
 
       {/* ---- MagicStone product strip — horizontal scroll, hover-grow ---- */}
-      <Section className="bg-background py-20 md:py-28">
+      <Section chapter="Collection" className="bg-background py-20 md:py-28">
         <Container>
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <EditorialHeading
@@ -179,6 +186,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
       {/* ---- Story 1 — Italian Travertine (cinematic) ---- */}
       <PinnedStorySection
+        chapter="Travertine"
         identifier={t("story1Identifier")}
         posterImage={story1Poster}
         lines={[
@@ -193,7 +201,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       />
 
       {/* ---- Transformations in Xàbia — before/after drag slider ---- */}
-      <Section className="bg-paper py-20 md:py-28">
+      <Section chapter="Projects" className="bg-paper py-20 md:py-28">
         <Container>
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.4fr] lg:items-center lg:gap-16">
             <div>
@@ -257,6 +265,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
       {/* ---- Story 2 — Charcoal Burnt Wood (cinematic) ---- */}
       <PinnedStorySection
+        chapter="Charcoal"
         identifier={t("story2Identifier")}
         posterImage={story2Poster}
         lines={[
@@ -271,7 +280,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       />
 
       {/* ---- Process — numbered editorial list ---- */}
-      <Section className="bg-paper py-20 md:py-28">
+      <Section chapter="Process" className="bg-paper py-20 md:py-28">
         <Container>
           <EditorialHeading eyebrow={t("processEyebrow")} title={t("processTitle")} text={t("processText")} />
           <ol className="mt-14 grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-5">
@@ -289,7 +298,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </Section>
 
       {/* ---- Why Xàbia ---- */}
-      <Section className="bg-background py-20 md:py-28">
+      <Section chapter="Xàbia" className="bg-background py-20 md:py-28">
         <Container>
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:items-center lg:gap-20">
             <Reveal>
@@ -331,7 +340,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </Section>
 
       {/* ---- Testimonials ---- */}
-      <Section className="bg-paper py-20 md:py-28">
+      <Section chapter="Owners" className="bg-paper py-20 md:py-28">
         <Container>
           <EditorialHeading align="center" eyebrow={t("testimonialsEyebrow")} title={t("testimonialsTitle")} />
           <div className="mt-14">

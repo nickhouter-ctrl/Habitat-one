@@ -24,26 +24,6 @@ export function ProductsStrip({ products }: { products: CatalogProduct[] }) {
 
   return (
     <div className="relative">
-      {/* Scroll arrows — desktop only */}
-      <div className="pointer-events-none absolute -top-16 right-0 hidden gap-2 md:flex">
-        <button
-          type="button"
-          onClick={() => scrollBy(-1)}
-          aria-label="Scroll left"
-          className="pointer-events-auto grid grid-cols-1 h-11 w-11 place-items-center border border-ink/15 bg-paper text-ink transition-colors hover:bg-ink hover:text-paper"
-        >
-          <ArrowLeft className="h-4 w-4" />
-        </button>
-        <button
-          type="button"
-          onClick={() => scrollBy(1)}
-          aria-label="Scroll right"
-          className="pointer-events-auto grid grid-cols-1 h-11 w-11 place-items-center border border-ink/15 bg-paper text-ink transition-colors hover:bg-ink hover:text-paper"
-        >
-          <ArrowRight className="h-4 w-4" />
-        </button>
-      </div>
-
       <div
         ref={scrollerRef}
         className={cn(
@@ -52,20 +32,28 @@ export function ProductsStrip({ products }: { products: CatalogProduct[] }) {
         style={{ scrollbarWidth: "none" }}
       >
         {products.map((p) => {
-          const isHovered = hovered === p.id.toString();
+          const id = p.id.toString();
+          const isHovered = hovered === id;
+          const anyHovered = hovered !== null;
+          const dimmed = anyHovered && !isHovered;
           const name = t.has(`i18n.${p.slug}.name`) ? t(`i18n.${p.slug}.name`) : p.name;
           return (
             <Link
               key={p.id}
               data-card
+              data-hover-label="View product"
               href={`/products/${p.slug}`}
-              onMouseEnter={() => setHovered(p.id.toString())}
+              onMouseEnter={() => setHovered(id)}
               onMouseLeave={() => setHovered(null)}
               className="group block w-[68%] shrink-0 snap-start sm:w-[40%] md:w-[30%] lg:w-[22%]"
             >
               <motion.div
-                animate={{ scale: isHovered ? 1.04 : 1 }}
-                transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+                animate={{
+                  scale: isHovered ? 1.03 : 1,
+                  opacity: dimmed ? 0.55 : 1,
+                  filter: dimmed ? "grayscale(0.6)" : "grayscale(0)",
+                }}
+                transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
                 className="relative aspect-[3/4] overflow-hidden bg-sand-100"
               >
                 {p.image ? (
@@ -88,23 +76,30 @@ export function ProductsStrip({ products }: { products: CatalogProduct[] }) {
                     <span className="px-6 text-center text-xs">{t("noImage")}</span>
                   </div>
                 )}
-                {/* hover overlay with arrow */}
-                <motion.span
-                  animate={{ opacity: isHovered ? 1 : 0, y: isHovered ? 0 : 8 }}
+                {/* low-contrast caption strip — fades in on hover */}
+                <motion.div
+                  animate={{ opacity: isHovered ? 1 : 0, y: isHovered ? 0 : 12 }}
                   transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                  className="absolute bottom-4 right-4 grid grid-cols-1 h-10 w-10 place-items-center bg-paper text-ink"
+                  className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 bg-gradient-to-t from-ink/55 to-transparent p-4"
                 >
-                  <ArrowUpRight className="h-4 w-4" />
-                </motion.span>
+                  <span className="text-[0.62rem] font-medium uppercase tracking-[0.24em] text-paper/85">
+                    View product
+                  </span>
+                  <ArrowUpRight className="h-4 w-4 text-paper" />
+                </motion.div>
               </motion.div>
-              <div className="mt-4">
+              <motion.div
+                animate={{ opacity: dimmed ? 0.4 : 1 }}
+                transition={{ duration: 0.5 }}
+                className="mt-4"
+              >
                 <p className="text-[0.66rem] uppercase tracking-[0.22em] text-ink-soft/70">
                   {p.sku ?? "Magic Flexible Stone"}
                 </p>
-                <h3 className="mt-1.5 text-[0.95rem] font-medium leading-snug text-ink transition-colors group-hover:text-ink-soft md:text-base">
+                <h3 className="mt-1.5 text-[0.95rem] font-medium leading-snug text-ink md:text-base">
                   {name}
                 </h3>
-              </div>
+              </motion.div>
             </Link>
           );
         })}
@@ -121,6 +116,26 @@ export function ProductsStrip({ products }: { products: CatalogProduct[] }) {
             <ArrowUpRight className="mt-3 h-5 w-5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
           </div>
         </Link>
+      </div>
+
+      {/* Scroll controls — sit below the strip on desktop, right-aligned */}
+      <div className="mt-8 hidden items-center justify-end gap-2 md:flex">
+        <button
+          type="button"
+          onClick={() => scrollBy(-1)}
+          aria-label="Scroll left"
+          className="grid grid-cols-1 h-11 w-11 place-items-center border border-ink/15 text-ink transition-colors hover:border-ink hover:bg-ink hover:text-paper"
+        >
+          <ArrowLeft className="h-4 w-4" />
+        </button>
+        <button
+          type="button"
+          onClick={() => scrollBy(1)}
+          aria-label="Scroll right"
+          className="grid grid-cols-1 h-11 w-11 place-items-center border border-ink/15 text-ink transition-colors hover:border-ink hover:bg-ink hover:text-paper"
+        >
+          <ArrowRight className="h-4 w-4" />
+        </button>
       </div>
     </div>
   );

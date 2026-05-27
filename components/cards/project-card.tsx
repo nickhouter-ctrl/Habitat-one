@@ -25,7 +25,11 @@ export function ProjectCard({
   void afterLabel;
 
   return (
-    <Link href={`/projects/${project.slug}`} className={cn("group block", className)}>
+    <Link
+      href={`/projects/${project.slug}`}
+      data-hover-label="View project"
+      className={cn("group block", className)}
+    >
       <div className={cn("relative overflow-hidden bg-sand-100", feature ? "aspect-[16/9]" : "aspect-[4/5]")}>
         <Image
           src={after}

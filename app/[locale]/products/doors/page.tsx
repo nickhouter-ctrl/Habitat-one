@@ -9,15 +9,15 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "products" });
-  return { title: t("collectionWallPanels"), description: t("chapterDescriptionWallPanels") };
+  return { title: t("collectionDoors"), description: t("chapterDescriptionDoors") };
 }
 
-export default async function ProductsPage({
+export default async function DoorsPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <CollectionLuxuryPage collectionId="wall-panels" />;
+  return <CollectionLuxuryPage collectionId="doors" />;
 }
