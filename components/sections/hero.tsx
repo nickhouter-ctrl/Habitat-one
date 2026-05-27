@@ -20,10 +20,9 @@ export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
-  const imageY = useTransform(scrollYProgress, [0, 1], ["0%", "12%"]);
-  const imageScale = useTransform(scrollYProgress, [0, 1], [1, 1.05]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-22%"]);
-  const textScale = useTransform(scrollYProgress, [0, 1], [1, 0.96]);
+  // Keep this hero cheap — only two motion values driving CSS transforms.
+  // Ken Burns already provides the bg scale movement.
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-18%"]);
   const fade = useTransform(scrollYProgress, [0, 0.85], [1, 0]);
 
   return (
@@ -34,7 +33,7 @@ export function Hero() {
     >
       {/* Full-bleed image — slow Ken Burns zoom + scroll parallax */}
       <div className="relative h-[88svh] min-h-[620px] w-full overflow-hidden">
-        <motion.div style={{ y: imageY, scale: imageScale }} className="absolute inset-0">
+        <div className="absolute inset-0">
           <div className="absolute inset-0 animate-ken-burns">
             <Image
               src={HERO_IMAGE}
@@ -45,12 +44,12 @@ export function Hero() {
               className="object-cover"
             />
           </div>
-        </motion.div>
+        </div>
         {/* Quiet darkening so the headline reads on most photos */}
         <div className="absolute inset-0 bg-gradient-to-b from-ink/10 via-transparent to-ink/55" />
 
         <motion.div
-          style={{ y: textY, opacity: fade, scale: textScale }}
+          style={{ y: textY, opacity: fade }}
           className="container-x relative z-10 flex h-full flex-col justify-end pb-14 md:pb-20"
         >
           <motion.span

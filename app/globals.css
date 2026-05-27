@@ -84,6 +84,15 @@
   }
 }
 
+/* Pause Ken-Burns animations on elements that aren't visible — the browser
+   still composites their layers, which costs GPU time. */
+.animate-ken-burns {
+  animation-play-state: paused;
+}
+.animate-ken-burns.is-visible {
+  animation-play-state: running;
+}
+
 @keyframes float {
   0%,
   100% {
