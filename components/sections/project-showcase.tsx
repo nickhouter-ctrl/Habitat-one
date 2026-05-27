@@ -25,7 +25,7 @@ export function ProjectShowcase({
     <section ref={ref} className="relative bg-paper py-16 md:py-24">
       {/* Sticky identifier — pinned to top of viewport while user scrolls */}
       <div className="container-x">
-        <div className="pointer-events-none sticky top-20 z-10 flex items-center justify-between border-y border-ink/15 bg-paper/95 py-3 backdrop-blur md:top-24">
+        <div className="pointer-events-none sticky top-20 z-10 flex items-center justify-between border-y border-ink/15 bg-paper py-3 md:top-24">
           <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink">
             {identifier}
           </p>

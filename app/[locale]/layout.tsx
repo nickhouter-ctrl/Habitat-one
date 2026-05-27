@@ -89,7 +89,8 @@ export default async function LocaleLayout({
               <HoverLabel />
               <ChapterIndicator />
               <ScrollProgress />
-              <div className="pointer-events-none fixed inset-0 z-[60] opacity-[0.035] mix-blend-multiply [background-image:url('/site/grain.svg')] [background-size:140px_140px]" aria-hidden />
+              {/* Grain — keep it cheap: no mix-blend (forces a full-screen composite layer on each paint). */}
+              <div className="pointer-events-none fixed inset-0 z-[60] hidden opacity-[0.05] [background-image:url('/site/grain.svg')] [background-size:140px_140px] motion-safe:lg:block" aria-hidden />
               <Header />
               <main className="flex-1">{children}</main>
               <Footer />

@@ -18,6 +18,10 @@ export function SmoothScrollProvider({ children }: { children: React.ReactNode }
     if (typeof window === "undefined") return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
     if (reduce.matches) return;
+    // Skip Lenis on touch / coarse pointer devices — native momentum scroll
+    // is much faster there, and Lenis can fight iOS Safari's compositor.
+    const coarse = window.matchMedia("(pointer: coarse)");
+    if (coarse.matches) return;
 
     const lenis = new Lenis({
       // Soft wind-down — the page glides like a roll of paper.

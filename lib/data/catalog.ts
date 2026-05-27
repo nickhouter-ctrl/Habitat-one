@@ -34,7 +34,6 @@ export const collections: { id: Collection; key: string }[] = [
   { id: "wall-panels", key: "collectionWallPanels" },
   { id: "bathroom", key: "collectionBathroom" },
   { id: "doors", key: "collectionDoors" },
-  { id: "door-accessories", key: "collectionDoorAccessories" },
   { id: "accessories", key: "collectionAccessories" },
 ];
 

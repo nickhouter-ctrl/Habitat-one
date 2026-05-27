@@ -254,7 +254,7 @@ export async function CollectionLuxuryPage({
       {galleryImages.length > 0 && (
         <section className="bg-paper py-16 md:py-24" data-chapter={t("gallery")}>
           <div className="container-x">
-            <div className="sticky top-20 z-10 flex items-center justify-between border-y border-ink/15 bg-paper/95 py-3 backdrop-blur md:top-24">
+            <div className="sticky top-20 z-10 flex items-center justify-between border-y border-ink/15 bg-paper py-3 md:top-24">
               <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink">
                 {identifier}
               </p>

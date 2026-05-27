@@ -27,27 +27,42 @@ export function HoverLabel() {
     const hasHover = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (!hasHover || reduce) return;
-    const raf = requestAnimationFrame(() => setEnabled(true));
+    const enableRaf = requestAnimationFrame(() => setEnabled(true));
 
-    function onMove(e: PointerEvent) {
-      x.set(e.clientX);
-      y.set(e.clientY);
-      const t = e.target as HTMLElement | null;
-      const hit = t?.closest<HTMLElement>("[data-hover-label]");
-      if (hit) {
-        setLabel(hit.dataset.hoverLabel ?? "View");
-      } else {
-        setLabel(null);
+    let frame = 0;
+    let lastX = 0;
+    let lastY = 0;
+    let lastTarget: EventTarget | null = null;
+    let pendingTarget: HTMLElement | null = null;
+
+    function flush() {
+      x.set(lastX);
+      y.set(lastY);
+      // Label change is the expensive bit — only run closest() once per frame
+      // and only when the under-cursor element actually changed.
+      if (pendingTarget !== lastTarget) {
+        const hit = pendingTarget?.closest?.<HTMLElement>("[data-hover-label]") ?? null;
+        setLabel(hit ? hit.dataset.hoverLabel ?? "View" : null);
+        lastTarget = pendingTarget;
       }
+      frame = 0;
+    }
+    function onMove(e: PointerEvent) {
+      lastX = e.clientX;
+      lastY = e.clientY;
+      pendingTarget = e.target as HTMLElement | null;
+      if (frame === 0) frame = requestAnimationFrame(flush);
     }
     function onLeave() {
+      lastTarget = null;
       setLabel(null);
     }
 
-    window.addEventListener("pointermove", onMove);
+    window.addEventListener("pointermove", onMove, { passive: true });
     window.addEventListener("pointerleave", onLeave);
     return () => {
-      cancelAnimationFrame(raf);
+      cancelAnimationFrame(enableRaf);
+      if (frame) cancelAnimationFrame(frame);
       window.removeEventListener("pointermove", onMove);
       window.removeEventListener("pointerleave", onLeave);
     };

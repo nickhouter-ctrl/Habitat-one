@@ -20,11 +20,10 @@ export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
-  const imageY = useTransform(scrollYProgress, [0, 1], ["0%", "16%"]);
-  const imageScale = useTransform(scrollYProgress, [0, 1], [1, 1.08]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-26%"]);
-  const textScale = useTransform(scrollYProgress, [0, 1], [1, 0.94]);
-  const textBlur = useTransform(scrollYProgress, [0, 1], ["blur(0px)", "blur(6px)"]);
+  const imageY = useTransform(scrollYProgress, [0, 1], ["0%", "12%"]);
+  const imageScale = useTransform(scrollYProgress, [0, 1], [1, 1.05]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-22%"]);
+  const textScale = useTransform(scrollYProgress, [0, 1], [1, 0.96]);
   const fade = useTransform(scrollYProgress, [0, 0.85], [1, 0]);
 
   return (
@@ -51,7 +50,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-ink/10 via-transparent to-ink/55" />
 
         <motion.div
-          style={{ y: textY, opacity: fade, scale: textScale, filter: textBlur }}
+          style={{ y: textY, opacity: fade, scale: textScale }}
           className="container-x relative z-10 flex h-full flex-col justify-end pb-14 md:pb-20"
         >
           <motion.span

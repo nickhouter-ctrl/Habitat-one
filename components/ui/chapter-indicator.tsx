@@ -47,17 +47,17 @@ export function ChapterIndicator() {
     const list = collect();
     if (list.length === 0) return;
 
+    // Single threshold + asymmetric rootMargin = cheap and accurate enough.
+    // The observer fires once per section transition rather than on every
+    // ratio change, which keeps the main thread free during scroll.
     const observer = new IntersectionObserver(
       (entries) => {
-        // Pick the entry with the largest intersection ratio
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+        const visible = entries.find((e) => e.isIntersecting);
         if (visible) {
           setActive((visible.target as HTMLElement).dataset.chapterId ?? null);
         }
       },
-      { threshold: [0.25, 0.5, 0.75], rootMargin: "-25% 0px -25% 0px" },
+      { threshold: 0, rootMargin: "-40% 0px -45% 0px" },
     );
     list.forEach(({ el }) => observer.observe(el));
 
