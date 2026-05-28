@@ -67,10 +67,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const magicFeatured = [...magicWithImg]
     .sort((a, b) => (b.variants.length > 1 ? 1 : 0) - (a.variants.length > 1 ? 1 : 0))
     .slice(0, 10);
-  // MagicStone signature block — lead with the flexibility USP (hands bending
-  // the panel), with a texture close-up as the inset.
+  // MagicStone signature block — the flexibility USP (hands bending the panel).
+  // Shown uncropped (16:9) so the "Magic Flexible Stone" mark stays visible.
   const magicHero = "/products/magic/usp-hand-flex.png";
-  const magicDetail = "/products/magic/concrete-board-light-grey-closeup.png";
 
   // Featured MagicStone products — cinematic scroll-pinned stories
   // Story 1 = Concrete Board (real video content). Story 2 = Charcoal (placeholder).
@@ -140,22 +139,15 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               </Reveal>
             </div>
 
-            <div className="relative grid grid-cols-12 gap-3 sm:gap-4">
-              <CurtainReveal className="col-span-12 aspect-[4/3] sm:col-span-10">
+            <div className="relative">
+              <CurtainReveal className="aspect-[16/9] w-full">
                 <Image
                   src={magicHero}
                   alt="Magic Flexible Stone — buigzaam paneel"
                   fill
-                  sizes="(max-width:1024px) 90vw, 48vw"
+                  sizes="(max-width:1024px) 90vw, 50vw"
                   className="object-cover"
                 />
-              </CurtainReveal>
-              <CurtainReveal
-                direction="up"
-                delay={0.18}
-                className="col-span-6 -mt-10 aspect-[4/3] sm:col-span-5 sm:-mt-16 sm:ml-auto"
-              >
-                <Image src={magicDetail} alt="" fill sizes="240px" className="object-cover" />
               </CurtainReveal>
             </div>
           </div>
