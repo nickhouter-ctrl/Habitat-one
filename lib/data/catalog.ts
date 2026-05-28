@@ -238,6 +238,35 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "cave-rammed-earth-board-": {
+    card: `${MAGIC}/cave-rammed-earth-board-light-grey.png`,
+    variants: {
+      "light grey": [
+        `${MAGIC}/cave-rammed-earth-board-light-grey.png`,
+        `${MAGIC}/cave-rammed-earth-board-light-grey-interior.png`,
+        `${MAGIC}/cave-rammed-earth-board-light-grey-exterior.png`,
+      ],
+      "light yellow": [
+        `${MAGIC}/cave-rammed-earth-board-light-yellow.png`,
+        `${MAGIC}/cave-rammed-earth-board-light-yellow-interior.png`,
+        `${MAGIC}/cave-rammed-earth-board-light-yellow-exterior.png`,
+      ],
+      khaki: [
+        `${MAGIC}/cave-rammed-earth-board-khaki.png`,
+        `${MAGIC}/cave-rammed-earth-board-khaki-exterior.png`,
+      ],
+      "dark grey": [
+        `${MAGIC}/cave-rammed-earth-board-dark-grey.png`,
+        `${MAGIC}/cave-rammed-earth-board-dark-grey-interior.png`,
+        `${MAGIC}/cave-rammed-earth-board-dark-grey-exterior.png`,
+      ],
+      "brown red": [
+        `${MAGIC}/cave-rammed-earth-board-brown-red.png`,
+        `${MAGIC}/cave-rammed-earth-board-brown-red-interior.png`,
+        `${MAGIC}/cave-rammed-earth-board-brown-red-exterior.png`,
+      ],
+    },
+  },
 };
 for (const p of catalogProducts) {
   const ov = PRODUCT_IMAGE_OVERRIDES[p.slug];
@@ -346,6 +375,21 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/ancient-wood-board-khaki-interior.png`,
       `${MAGIC}/ancient-wood-board-dark-brown-interior.png`,
       `${MAGIC}/ancient-wood-board-brown-interior.png`,
+    ],
+  },
+  "cave-rammed-earth-board-": {
+    videos: {
+      "light grey": `${MAGIC}/cave-rammed-earth-board-light-grey.mp4`,
+      "light yellow": `${MAGIC}/cave-rammed-earth-board-light-yellow.mp4`,
+      khaki: `${MAGIC}/cave-rammed-earth-board-khaki.mp4`,
+      "dark grey": `${MAGIC}/cave-rammed-earth-board-dark-grey.mp4`,
+      "brown red": `${MAGIC}/cave-rammed-earth-board-brown-red.mp4`,
+    },
+    // Rammed-earth texture on Mediterranean villa façades.
+    context: [
+      `${MAGIC}/cave-rammed-earth-board-light-yellow-exterior.png`,
+      `${MAGIC}/cave-rammed-earth-board-dark-grey-exterior.png`,
+      `${MAGIC}/cave-rammed-earth-board-brown-red-exterior.png`,
     ],
   },
 };
