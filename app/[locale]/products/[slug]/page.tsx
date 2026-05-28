@@ -60,11 +60,11 @@ const collectionKey = {
 } as const;
 
 const collectionIdentifierPrefix: Record<string, string> = {
-  "wall-panels": "MagicStone · Lignapal 163",
-  bathroom: "Bath · Solid Surface",
-  doors: "Doors · MagicStone",
-  accessories: "Accessory",
-  "door-accessories": "Door · Detail",
+  "wall-panels": "Magic Flexible Stone",
+  bathroom: "Solid Surface · Bathroom",
+  doors: "Magic Flexible Stone · Doors",
+  accessories: "Accessories",
+  "door-accessories": "Door details",
 };
 
 const collectionLandingHref: Record<string, string> = {

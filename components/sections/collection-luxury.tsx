@@ -21,11 +21,11 @@ const collectionKey: Record<string, string> = {
 };
 
 const identifierPrefix: Record<string, string> = {
-  "wall-panels": "MagicStone · Lignapal 163",
-  bathroom: "Bath · Solid Surface 240",
-  doors: "Doors · MagicStone 165",
-  accessories: "Accessory · 170",
-  "door-accessories": "Door · Detail 172",
+  "wall-panels": "Magic Flexible Stone · Collections",
+  bathroom: "Solid Surface · Bathroom",
+  doors: "Magic Flexible Stone · Doors",
+  accessories: "Accessories",
+  "door-accessories": "Door details",
 };
 
 const descriptionKey: Record<string, string> = {

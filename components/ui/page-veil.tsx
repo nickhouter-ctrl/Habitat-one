@@ -59,7 +59,7 @@ export function PageVeil() {
               Magic Flexible Stone
             </span>
             <span className="text-[0.62rem] uppercase tracking-[0.32em] text-ink-soft/70">
-              Lignapal · 163
+              Xàbia · Costa Blanca
             </span>
           </motion.div>
           {/* Hairline that draws across as the veil sits */}
