@@ -345,7 +345,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
-      <CtaBanner />
+      <CtaBanner videoSrc="/products/magic/cta-magicstone.mp4" />
     </>
   );
 }

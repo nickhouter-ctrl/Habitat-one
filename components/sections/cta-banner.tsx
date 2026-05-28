@@ -6,13 +6,29 @@ import { Reveal } from "@/components/ui/reveal";
 
 export async function CtaBanner({
   image = "/scenery/sunset-terrace.jpg",
+  videoSrc,
 }: {
   image?: string;
+  /** Optional autoplay-loop background video (poster falls back to `image`) */
+  videoSrc?: string;
 }) {
   const t = await getTranslations("home");
   return (
     <section className="relative isolate overflow-hidden bg-ink text-paper">
-      <Image src={image} alt="" fill className="object-cover opacity-30" sizes="100vw" />
+      {videoSrc ? (
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster={image}
+          className="absolute inset-0 h-full w-full object-cover opacity-35"
+        >
+          <source src={videoSrc} type="video/mp4" />
+        </video>
+      ) : (
+        <Image src={image} alt="" fill className="object-cover opacity-30" sizes="100vw" />
+      )}
       <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/45" />
       <div className="container-x relative py-24 md:py-32">
         <Reveal>
