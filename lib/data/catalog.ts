@@ -58,6 +58,7 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
       "light grey": [
         `${MAGIC}/concrete-board-light-grey.png`,
+        `${MAGIC}/concrete-board-light-grey-curved.webp`,
         `${MAGIC}/concrete-board-light-grey-hero.png`,
         `${MAGIC}/concrete-board-light-grey-closeup.png`,
       ],
@@ -330,7 +331,7 @@ export const productMedia: Record<string, ProductMedia> = {
     videos: {
       "pure white": `${MAGIC}/concrete-board-pure-white.mp4`,
       beige: `${MAGIC}/concrete-board-beige.mp4`,
-      "light grey": `${MAGIC}/concrete-board-light-grey.mp4`,
+      "light grey": [`${MAGIC}/concrete-board-light-grey.mp4`, `${MAGIC}/concrete-board-light-grey-2.mp4`],
       "medium grey": `${MAGIC}/concrete-board-medium-grey.mp4`,
     },
     context: [`${MAGIC}/usp-hand-flex.png`, `${MAGIC}/usp-curved-wall.png`],
