@@ -267,6 +267,21 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "ando-cement-": {
+    card: `${MAGIC}/ando-cement-front.png`,
+    // Single colour (Warm Grey) — rich gallery: two product angles, two
+    // interiors, two exteriors.
+    variants: {
+      "warm grey": [
+        `${MAGIC}/ando-cement-front.png`,
+        `${MAGIC}/ando-cement-edge.png`,
+        `${MAGIC}/ando-cement-zen.png`,
+        `${MAGIC}/ando-cement-coffee.png`,
+        `${MAGIC}/ando-cement-brutalist.png`,
+        `${MAGIC}/ando-cement-facade.png`,
+      ],
+    },
+  },
 };
 for (const p of catalogProducts) {
   const ov = PRODUCT_IMAGE_OVERRIDES[p.slug];
@@ -390,6 +405,14 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/cave-rammed-earth-board-light-yellow-exterior.png`,
       `${MAGIC}/cave-rammed-earth-board-dark-grey-exterior.png`,
       `${MAGIC}/cave-rammed-earth-board-brown-red-exterior.png`,
+    ],
+  },
+  "ando-cement-": {
+    // No video for this collection yet.
+    context: [
+      `${MAGIC}/ando-cement-zen.png`,
+      `${MAGIC}/ando-cement-brutalist.png`,
+      `${MAGIC}/ando-cement-coffee.png`,
     ],
   },
 };
