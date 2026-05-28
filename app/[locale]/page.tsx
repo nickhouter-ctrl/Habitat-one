@@ -71,13 +71,15 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const magicDetail = magicWithImg[1]?.image ?? "/products/v/460.jpg";
 
   // Featured MagicStone products — cinematic scroll-pinned stories
-  const story1Product = getProductBySlug("italian-travertine-");
+  // Story 1 = Concrete Board (real video content). Story 2 = Charcoal (placeholder).
+  const story1Product = getProductBySlug("concrete-board-");
   const story2Product = getProductBySlug("charcoal-burnt-wood-board");
   const projectImages = projects
     .flatMap((p) => p.gallery)
     .filter((src, i, arr) => arr.indexOf(src) === i);
-  // Use large project gallery photos as placeholders for the background videos.
-  const story1Poster = projectImages[0] ?? "/products/v/470.jpg";
+  // Concrete Board has a real autoplay video; poster falls back to its product shot.
+  const story1Video = "/products/magic/concrete-board-medium-grey.mp4";
+  const story1Poster = "/products/magic/concrete-board-medium-grey-hero.png";
   const story2Poster = projectImages[Math.min(8, projectImages.length - 1)] ?? "/products/v/460.jpg";
 
   const magicPoints = [
@@ -184,10 +186,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
-      {/* ---- Story 1 — Italian Travertine (cinematic) ---- */}
+      {/* ---- Story 1 — Concrete Board (cinematic, real video) ---- */}
       <PinnedStorySection
-        chapter="Travertine"
+        chapter="Concrete"
         identifier={t("story1Identifier")}
+        videoSrc={story1Video}
         posterImage={story1Poster}
         lines={[
           { heading: t("story1Line1") },
