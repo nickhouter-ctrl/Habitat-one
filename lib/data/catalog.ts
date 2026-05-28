@@ -217,6 +217,27 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "ancient-wood-board-": {
+    card: `${MAGIC}/ancient-wood-board-khaki.png`,
+    // Per variant: product shot → interior → villa façade.
+    variants: {
+      khaki: [
+        `${MAGIC}/ancient-wood-board-khaki.png`,
+        `${MAGIC}/ancient-wood-board-khaki-interior.png`,
+        `${MAGIC}/ancient-wood-board-khaki-exterior.png`,
+      ],
+      "dark brown": [
+        `${MAGIC}/ancient-wood-board-dark-brown.png`,
+        `${MAGIC}/ancient-wood-board-dark-brown-interior.png`,
+        `${MAGIC}/ancient-wood-board-dark-brown-exterior.png`,
+      ],
+      brown: [
+        `${MAGIC}/ancient-wood-board-brown.png`,
+        `${MAGIC}/ancient-wood-board-brown-interior.png`,
+        `${MAGIC}/ancient-wood-board-brown-exterior.png`,
+      ],
+    },
+  },
 };
 for (const p of catalogProducts) {
   const ov = PRODUCT_IMAGE_OVERRIDES[p.slug];
@@ -313,6 +334,18 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/age-stone-khaki-exterior.png`,
       `${MAGIC}/age-stone-dark-grey-exterior.png`,
       `${MAGIC}/age-stone-gradient-yellow-exterior.png`,
+    ],
+  },
+  "ancient-wood-board-": {
+    videos: {
+      khaki: `${MAGIC}/ancient-wood-board-khaki.mp4`,
+      brown: `${MAGIC}/ancient-wood-board-brown.mp4`,
+    },
+    // Warm ancient-wood look across three real rooms.
+    context: [
+      `${MAGIC}/ancient-wood-board-khaki-interior.png`,
+      `${MAGIC}/ancient-wood-board-dark-brown-interior.png`,
+      `${MAGIC}/ancient-wood-board-brown-interior.png`,
     ],
   },
 };
