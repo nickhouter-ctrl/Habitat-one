@@ -86,6 +86,11 @@ export function ProductDetailLayout({
   const [mediaIdx, setMediaIdx] = useState(0);
   const current = media[mediaIdx] ?? null;
 
+  // The gallery frame matches the active media's own aspect ratio (default
+  // to a portrait product shot until the real dimensions load in).
+  const [aspect, setAspect] = useState(9 / 16);
+  const portrait = aspect < 1;
+
   function changeVariant(i: number) {
     setVariantIdx(i);
     setMediaIdx(0);
@@ -104,7 +109,17 @@ export function ProductDetailLayout({
     <div className="grid grid-cols-12 gap-x-6 gap-y-10 lg:gap-x-10">
       {/* ---- LEFT: gallery ---- */}
       <div className="col-span-12 lg:col-span-7">
-        <div className="relative aspect-[4/5] w-full overflow-hidden bg-sand-100">
+        {/* The frame adopts each media's own aspect ratio, so portrait product
+            shots and landscape room scenes both fill it edge-to-edge — no
+            grey letterbox, nothing cropped. */}
+        <div className="flex w-full justify-center">
+          <div
+            className={cn(
+              "relative overflow-hidden bg-sand-100",
+              portrait ? "mx-auto h-[68svh] max-w-full" : "max-h-[80svh] w-full",
+            )}
+            style={{ aspectRatio: String(aspect) }}
+          >
           <AnimatePresence mode="wait">
             {current ? (
               <motion.div
@@ -125,7 +140,11 @@ export function ProductDetailLayout({
                     controls
                     poster={current.poster}
                     preload="none"
-                    className="h-full w-full object-contain"
+                    onLoadedMetadata={(e) => {
+                      const v = e.currentTarget;
+                      if (v.videoWidth && v.videoHeight) setAspect(v.videoWidth / v.videoHeight);
+                    }}
+                    className="h-full w-full object-cover"
                   >
                     <source src={current.src} type="video/mp4" />
                   </video>
@@ -136,7 +155,12 @@ export function ProductDetailLayout({
                     fill
                     priority
                     sizes="(max-width:1024px) 100vw, 60vw"
-                    className="object-contain"
+                    onLoad={(e) => {
+                      const img = e.currentTarget;
+                      if (img.naturalWidth && img.naturalHeight)
+                        setAspect(img.naturalWidth / img.naturalHeight);
+                    }}
+                    className="object-cover"
                   />
                 )}
               </motion.div>
@@ -176,6 +200,7 @@ export function ProductDetailLayout({
               </button>
             </>
           )}
+          </div>
         </div>
 
         {/* Thumbnail strip */}
