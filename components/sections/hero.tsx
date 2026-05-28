@@ -11,8 +11,8 @@ import { CountUp } from "@/components/ui/count-up";
 import { MaskReveal } from "@/components/ui/mask-reveal";
 import { Magnetic } from "@/components/ui/magnetic";
 
-// Placeholder — swap when the real MagicStone hero image / video arrives.
-const HERO_IMAGE = "/products/v/454.jpg";
+// Magic Flexible Stone — Pure White in a calm Mediterranean interior.
+const HERO_IMAGE = "/products/magic/concrete-board-pure-white-hero.png";
 
 export function Hero() {
   const t = useTranslations("hero");
