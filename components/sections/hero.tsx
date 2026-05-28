@@ -1,9 +1,9 @@
 "use client";
 
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion, AnimatePresence, useScroll, useTransform } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { heroStats } from "@/lib/data/site";
@@ -11,8 +11,15 @@ import { CountUp } from "@/components/ui/count-up";
 import { MaskReveal } from "@/components/ui/mask-reveal";
 import { Magnetic } from "@/components/ui/magnetic";
 
-// Magic Flexible Stone — Pure White in a calm Mediterranean interior.
-const HERO_IMAGE = "/products/magic/concrete-board-pure-white-hero.png";
+// Magic Flexible Stone — calm Mediterranean interiors that auto-crossfade.
+const HERO_IMAGES = [
+  "/products/magic/concrete-board-pure-white-hero.png",
+  "/products/magic/ms-travertino-light-grey-interior.png",
+  "/products/magic/ripple-board-beige-hero.png",
+  "/products/magic/ms-travertino-medium-grey-interior.png",
+  "/products/magic/ms-travertino-beige-interior.png",
+];
+const SLIDE_MS = 6000;
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -25,26 +32,47 @@ export function Hero() {
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-18%"]);
   const fade = useTransform(scrollYProgress, [0, 0.85], [1, 0]);
 
+  // Auto-advancing slideshow (paused for reduced-motion visitors).
+  const [slide, setSlide] = useState(0);
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const id = window.setInterval(
+      () => setSlide((s) => (s + 1) % HERO_IMAGES.length),
+      SLIDE_MS,
+    );
+    return () => window.clearInterval(id);
+  }, []);
+
   return (
     <section
       ref={ref}
       data-chapter="Intro"
       className="relative isolate overflow-hidden bg-paper"
     >
-      {/* Full-bleed image — slow Ken Burns zoom + scroll parallax */}
+      {/* Full-bleed crossfading slideshow — each slide gets a slow Ken Burns */}
       <div className="relative h-[88svh] min-h-[620px] w-full overflow-hidden">
-        <div className="absolute inset-0">
-          <div className="absolute inset-0 animate-ken-burns">
-            <Image
-              src={HERO_IMAGE}
-              alt="Magic Flexible Stone — wandpaneel"
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover"
-            />
-          </div>
-        </div>
+        <AnimatePresence>
+          <motion.div
+            key={slide}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
+            className="absolute inset-0"
+          >
+            <div className="absolute inset-0 animate-ken-burns is-visible">
+              <Image
+                src={HERO_IMAGES[slide]}
+                alt="Magic Flexible Stone — interieur"
+                fill
+                priority={slide === 0}
+                sizes="100vw"
+                className="object-cover"
+              />
+            </div>
+          </motion.div>
+        </AnimatePresence>
         {/* Quiet darkening so the headline reads on most photos */}
         <div className="absolute inset-0 bg-gradient-to-b from-ink/10 via-transparent to-ink/55" />
 
@@ -100,16 +128,26 @@ export function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Sticky-style product identifier — bottom right corner */}
-        <motion.div
-          initial={{ opacity: 0, y: 14 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.55 }}
-          className="absolute bottom-6 right-6 hidden text-right text-paper md:block"
-        >
-          <p className="text-[0.62rem] uppercase tracking-[0.32em] text-paper/65">Lignapal · MagicStone</p>
-          <p className="mt-1 text-[0.78rem] font-medium uppercase tracking-[0.22em]">163.14 · Travertine</p>
-        </motion.div>
+        {/* Slide indicators — bottom right, clickable */}
+        <div className="absolute bottom-6 right-6 z-10 flex items-center gap-2.5">
+          {HERO_IMAGES.map((_, i) => (
+            <button
+              key={i}
+              type="button"
+              onClick={() => setSlide(i)}
+              aria-label={`Slide ${i + 1}`}
+              className="group p-1"
+            >
+              <span
+                className={
+                  i === slide
+                    ? "block h-[2px] w-8 bg-paper transition-all"
+                    : "block h-[2px] w-4 bg-paper/45 transition-all group-hover:bg-paper/80"
+                }
+              />
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Stats strip — quiet bar under the image */}
