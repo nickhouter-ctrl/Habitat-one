@@ -169,7 +169,10 @@ export async function CollectionLuxuryPage({
         </div>
       </section>
 
-      {/* ---- Editorial intro — sticky identifier + big subhead ---- */}
+      {/* ---- Editorial intro — sticky identifier + big subhead ----
+           Hidden on the MagicStone page: there we go straight from the hero
+           into the products. Other collection pages keep the intro. */}
+      {!isMagic && (
       <section className="bg-paper py-20 md:py-28" data-chapter={t("aboutThisProduct")}>
         <div className="container-x">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.45fr] lg:gap-16">
@@ -218,6 +221,7 @@ export async function CollectionLuxuryPage({
           </div>
         </div>
       </section>
+      )}
 
       {/* ---- Featured products in an asymmetric grid ---- */}
       <section className="bg-background py-20 md:py-28" data-chapter={t("title")}>
