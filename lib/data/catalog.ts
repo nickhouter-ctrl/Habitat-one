@@ -268,6 +268,54 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "danxia-rammed-earth-board-": {
+    card: `${MAGIC}/danxia-rammed-earth-board-beige.png`,
+    // NB: catalogue spelt this variant "Watemelon red" (typo) — key must match.
+    variants: {
+      beige: [
+        `${MAGIC}/danxia-rammed-earth-board-beige.png`,
+        `${MAGIC}/danxia-rammed-earth-board-beige-interior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-beige-exterior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-beige-closeup.png`,
+      ],
+      "watemelon red": [
+        `${MAGIC}/danxia-rammed-earth-board-watermelon-red.png`,
+        `${MAGIC}/danxia-rammed-earth-board-watermelon-red-interior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-watermelon-red-exterior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-watermelon-red-closeup.png`,
+      ],
+      red: [
+        `${MAGIC}/danxia-rammed-earth-board-red.png`,
+        `${MAGIC}/danxia-rammed-earth-board-red-interior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-red-exterior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-red-closeup.png`,
+      ],
+      "light yellow": [
+        `${MAGIC}/danxia-rammed-earth-board-light-yellow.png`,
+        `${MAGIC}/danxia-rammed-earth-board-light-yellow-interior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-light-yellow-exterior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-light-yellow-closeup.png`,
+      ],
+      khaki: [
+        `${MAGIC}/danxia-rammed-earth-board-khaki.png`,
+        `${MAGIC}/danxia-rammed-earth-board-khaki-interior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-khaki-exterior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-khaki-closeup.png`,
+      ],
+      "light grey": [
+        `${MAGIC}/danxia-rammed-earth-board-light-grey.png`,
+        `${MAGIC}/danxia-rammed-earth-board-light-grey-interior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-light-grey-exterior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-light-grey-closeup.png`,
+      ],
+      "dark grey": [
+        `${MAGIC}/danxia-rammed-earth-board-dark-grey.png`,
+        `${MAGIC}/danxia-rammed-earth-board-dark-grey-interior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-dark-grey-exterior.png`,
+        `${MAGIC}/danxia-rammed-earth-board-dark-grey-closeup.png`,
+      ],
+    },
+  },
   "charcoal-burnt-wood-board": {
     card: `${MAGIC}/charcoal-burnt-wood-board-dark-grey.png`,
     variants: {
@@ -434,6 +482,22 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/ando-cement-zen.png`,
       `${MAGIC}/ando-cement-brutalist.png`,
       `${MAGIC}/ando-cement-coffee.png`,
+    ],
+  },
+  "danxia-rammed-earth-board-": {
+    videos: {
+      beige: `${MAGIC}/danxia-rammed-earth-board-beige.mp4`,
+      "watemelon red": `${MAGIC}/danxia-rammed-earth-board-watermelon-red.mp4`,
+      red: `${MAGIC}/danxia-rammed-earth-board-red.mp4`,
+      "light yellow": `${MAGIC}/danxia-rammed-earth-board-light-yellow.mp4`,
+      khaki: `${MAGIC}/danxia-rammed-earth-board-khaki.mp4`,
+      "light grey": `${MAGIC}/danxia-rammed-earth-board-light-grey.mp4`,
+      "dark grey": `${MAGIC}/danxia-rammed-earth-board-dark-grey.mp4`,
+    },
+    context: [
+      `${MAGIC}/danxia-rammed-earth-board-light-yellow-exterior.png`,
+      `${MAGIC}/danxia-rammed-earth-board-dark-grey-exterior.png`,
+      `${MAGIC}/danxia-rammed-earth-board-red-exterior.png`,
     ],
   },
   "charcoal-burnt-wood-board": {
