@@ -36,6 +36,22 @@ const descriptionKey: Record<string, string> = {
   "door-accessories": "chapterDescriptionDoorAccessories",
 };
 
+// In-situ lookbook for the MagicStone page — one real room scene per
+// collection, labelled with the product + colour, linking to the product.
+const MAGIC_LOOKBOOK: {
+  img: string;
+  slug: string;
+  name: string;
+  colour: string;
+}[] = [
+  { img: "/products/magic/concrete-board-medium-grey-hero.png", slug: "concrete-board-", name: "Concrete Board", colour: "Mid Gray" },
+  { img: "/products/magic/ms-travertino-light-grey-interior.png", slug: "ms-travertino", name: "MS Travertino", colour: "Light Grey" },
+  { img: "/products/magic/ripple-board-beige-hero.png", slug: "ripple-board-", name: "Ripple Board", colour: "Beige" },
+  { img: "/products/magic/huge-travertine-beige-interior.png", slug: "huge-travertine-", name: "Huge Travertine", colour: "Beige" },
+  { img: "/products/magic/italian-travertine-white-interior.png", slug: "italian-travertine-", name: "Italian Travertine", colour: "White" },
+  { img: "/products/magic/age-stone-khaki-interior.png", slug: "age-stone-", name: "Age Stone", colour: "Khaki" },
+];
+
 /**
  * Renders a full editorial luxury page for a single product collection.
  * Used at /products (MagicStone) and at /products/{bathroom,doors,…}.
@@ -65,7 +81,12 @@ export async function CollectionLuxuryPage({
   const heroImage = heroImageOverride ?? sorted[0]?.image ?? "/products/v/454.jpg";
   const detailImage = sorted[1]?.image ?? sorted[0]?.image ?? "/products/v/460.jpg";
 
+  // "View all" links pre-filter the explorer to THIS collection, so the user
+  // sees every product in this collection — not the whole catalogue.
+  const allHref = `/products/all?collection=${collectionId}`;
+
   const otherCollections = collections.filter((c) => c.id !== collectionId);
+  const isMagic = collectionId === "wall-panels";
 
   const title = t(collectionKey[collectionId]);
   const identifier = identifierPrefix[collectionId] ?? "Habitat One";
@@ -124,7 +145,7 @@ export async function CollectionLuxuryPage({
                 {products.length} {t("title").toLowerCase()}
               </span>
               <Link
-                href="/products/all"
+                href={allHref}
                 className="inline-flex items-center gap-2 text-paper hover:text-paper/80"
               >
                 {t("viewAllProducts")}
@@ -151,7 +172,7 @@ export async function CollectionLuxuryPage({
                 <Row label={t("collection")}>{title}</Row>
               </dl>
               <Link
-                href="/products/all"
+                href={allHref}
                 className="mt-8 inline-flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
               >
                 {t("viewAllProducts")}
@@ -204,7 +225,7 @@ export async function CollectionLuxuryPage({
             </div>
             <div className="col-span-12 md:col-span-3 md:text-right">
               <Link
-                href="/products/all"
+                href={allHref}
                 className="inline-flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
               >
                 {t("viewAllProducts")}
@@ -274,54 +295,99 @@ export async function CollectionLuxuryPage({
         </section>
       )}
 
-      {/* ---- Other collections — small cards ---- */}
-      <section className="border-t border-ink/10 bg-background py-20 md:py-28" data-chapter={t("collection")}>
-        <div className="container-x">
-          <div className="max-w-3xl">
-            <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
-              {t("collection")}
-            </p>
-            <h2 className="mt-4 text-3xl font-medium leading-[1.06] tracking-[-0.018em] text-ink md:text-4xl">
-              {t("otherCollectionsTitle")}
-            </h2>
-            <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink-soft">
-              {t("otherCollectionsLead")}
-            </p>
-          </div>
+      {/* ---- MagicStone: in-situ lookbook · otherwise: other collections ---- */}
+      {isMagic ? (
+        <section className="border-t border-ink/10 bg-background py-20 md:py-28" data-chapter={t("lookbookTitle")}>
+          <div className="container-x">
+            <div className="max-w-3xl">
+              <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+                {t("lookbookEyebrow")}
+              </p>
+              <h2 className="mt-4 text-3xl font-medium leading-[1.06] tracking-[-0.018em] text-ink md:text-4xl">
+                {t("lookbookTitle")}
+              </h2>
+              <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink-soft">
+                {t("lookbookLead")}
+              </p>
+            </div>
 
-          <div className="mt-12 grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-4">
-            {otherCollections.map((c) => {
-              const cover = productsByCollection(c.id).find((p) => p.image)?.image ?? "/site/material_card.jpg";
-              const total = productsByCollection(c.id).length;
-              const href = c.id === "wall-panels" ? "/products" : `/products/${c.id}`;
-              return (
-                <Link key={c.id} href={href} className="group block">
-                  <div className="relative aspect-[3/4] overflow-hidden bg-sand-100">
+            <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8 lg:grid-cols-3">
+              {MAGIC_LOOKBOOK.map((item) => (
+                <Link key={item.slug} href={`/products/${item.slug}`} className="group block">
+                  <div className="relative aspect-[4/3] overflow-hidden bg-sand-100">
                     <Image
-                      src={cover}
-                      alt=""
+                      src={item.img}
+                      alt={`${item.name} — ${item.colour}`}
                       fill
-                      sizes="(max-width:768px) 50vw, 25vw"
+                      sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
                       className="object-cover transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]"
                     />
                   </div>
                   <div className="mt-4 flex items-end justify-between gap-3">
                     <div>
                       <h3 className="text-base font-medium text-ink transition-colors group-hover:text-ink-soft md:text-lg">
-                        {t(c.key)}
+                        {item.name}
                       </h3>
-                      <p className="mt-1 text-[0.7rem] uppercase tracking-[0.2em] text-ink-soft/70">
-                        {total} {t("title").toLowerCase()}
+                      <p className="mt-1 text-[0.7rem] uppercase tracking-[0.22em] text-ink-soft/70">
+                        {item.colour}
                       </p>
                     </div>
                     <ArrowUpRight className="h-4 w-4 shrink-0 text-ink-soft transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
                   </div>
                 </Link>
-              );
-            })}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ) : (
+        <section className="border-t border-ink/10 bg-background py-20 md:py-28" data-chapter={t("collection")}>
+          <div className="container-x">
+            <div className="max-w-3xl">
+              <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+                {t("collection")}
+              </p>
+              <h2 className="mt-4 text-3xl font-medium leading-[1.06] tracking-[-0.018em] text-ink md:text-4xl">
+                {t("otherCollectionsTitle")}
+              </h2>
+              <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink-soft">
+                {t("otherCollectionsLead")}
+              </p>
+            </div>
+
+            <div className="mt-12 grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-4">
+              {otherCollections.map((c) => {
+                const cover = productsByCollection(c.id).find((p) => p.image)?.image ?? "/site/material_card.jpg";
+                const total = productsByCollection(c.id).length;
+                const href = c.id === "wall-panels" ? "/products" : `/products/${c.id}`;
+                return (
+                  <Link key={c.id} href={href} className="group block">
+                    <div className="relative aspect-[3/4] overflow-hidden bg-sand-100">
+                      <Image
+                        src={cover}
+                        alt=""
+                        fill
+                        sizes="(max-width:768px) 50vw, 25vw"
+                        className="object-cover transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]"
+                      />
+                    </div>
+                    <div className="mt-4 flex items-end justify-between gap-3">
+                      <div>
+                        <h3 className="text-base font-medium text-ink transition-colors group-hover:text-ink-soft md:text-lg">
+                          {t(c.key)}
+                        </h3>
+                        <p className="mt-1 text-[0.7rem] uppercase tracking-[0.2em] text-ink-soft/70">
+                          {total} {t("title").toLowerCase()}
+                        </p>
+                      </div>
+                      <ArrowUpRight className="h-4 w-4 shrink-0 text-ink-soft transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
 
       <CtaBanner image={heroImage} />
     </>
