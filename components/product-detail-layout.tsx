@@ -124,7 +124,7 @@ export function ProductDetailLayout({
                     controls
                     poster={current.poster}
                     preload="none"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-contain"
                   >
                     <source src={current.src} type="video/mp4" />
                   </video>
@@ -135,7 +135,7 @@ export function ProductDetailLayout({
                     fill
                     priority
                     sizes="(max-width:1024px) 100vw, 60vw"
-                    className="object-cover"
+                    className="object-contain"
                   />
                 )}
               </motion.div>

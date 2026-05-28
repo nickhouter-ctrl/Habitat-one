@@ -213,26 +213,23 @@ export async function CollectionLuxuryPage({
             </div>
           </div>
 
-          <div className="mt-16 grid grid-cols-2 gap-x-4 gap-y-12 md:mt-20 md:grid-cols-6 md:gap-x-6 md:gap-y-20">
+          <div className="mt-16 grid grid-cols-2 gap-x-4 gap-y-12 md:mt-20 md:grid-cols-4 md:gap-x-6 md:gap-y-16">
             {featured.map((p, i) => {
-              const wide = (i + 1) % 5 === 0;
-              const colSpan = wide ? "md:col-span-3" : "md:col-span-2";
-              const aspect = wide ? "aspect-[3/2]" : "aspect-[4/5]";
               return (
                 <Link
                   key={p.id}
                   href={`/products/${p.slug}`}
                   data-hover-label="View product"
-                  className={`group block ${colSpan}`}
+                  className="group block"
                 >
-                  <div className={`relative overflow-hidden bg-sand-100 ${aspect}`}>
+                  <div className="relative aspect-[3/4] overflow-hidden bg-sand-100">
                     {p.image && (
                       <Image
                         src={p.image}
                         alt={p.name}
                         fill
-                        sizes="(max-width:768px) 50vw, 33vw"
-                        className="object-cover transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]"
+                        sizes="(max-width:768px) 50vw, 25vw"
+                        className="object-contain p-2 transition-transform duration-[1.1s] ease-out group-hover:scale-[1.03]"
                       />
                     )}
                   </div>
@@ -299,13 +296,13 @@ export async function CollectionLuxuryPage({
               const href = c.id === "wall-panels" ? "/products" : `/products/${c.id}`;
               return (
                 <Link key={c.id} href={href} className="group block">
-                  <div className="relative aspect-[5/6] overflow-hidden">
+                  <div className="relative aspect-[3/4] overflow-hidden bg-sand-100">
                     <Image
                       src={cover}
                       alt=""
                       fill
                       sizes="(max-width:768px) 50vw, 25vw"
-                      className="object-cover transition-transform duration-[1.1s] ease-out group-hover:scale-105"
+                      className="object-contain p-2 transition-transform duration-[1.1s] ease-out group-hover:scale-[1.03]"
                     />
                   </div>
                   <div className="mt-4 flex items-end justify-between gap-3">
