@@ -67,8 +67,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const magicFeatured = [...magicWithImg]
     .sort((a, b) => (b.variants.length > 1 ? 1 : 0) - (a.variants.length > 1 ? 1 : 0))
     .slice(0, 10);
-  const magicHero = magicWithImg[0]?.image ?? "/products/v/458.jpg";
-  const magicDetail = magicWithImg[1]?.image ?? "/products/v/460.jpg";
+  // MagicStone signature block — lead with the flexibility USP (hands bending
+  // the panel), with a texture close-up as the inset.
+  const magicHero = "/products/magic/usp-hand-flex.png";
+  const magicDetail = "/products/magic/concrete-board-light-grey-closeup.png";
 
   // Featured MagicStone products — cinematic scroll-pinned stories
   // Story 1 = Concrete Board (real video content). Story 2 = Charcoal (placeholder).
@@ -139,21 +141,21 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             </div>
 
             <div className="relative grid grid-cols-12 gap-3 sm:gap-4">
-              <CurtainReveal className="col-span-12 aspect-[4/5] sm:col-span-9">
+              <CurtainReveal className="col-span-12 aspect-[4/3] sm:col-span-10">
                 <Image
                   src={magicHero}
-                  alt="Magic Flexible Stone — paneel"
+                  alt="Magic Flexible Stone — buigzaam paneel"
                   fill
-                  sizes="(max-width:1024px) 90vw, 45vw"
+                  sizes="(max-width:1024px) 90vw, 48vw"
                   className="object-cover"
                 />
               </CurtainReveal>
               <CurtainReveal
                 direction="up"
                 delay={0.18}
-                className="col-span-7 -mt-12 aspect-square sm:col-span-5 sm:-mt-20 sm:ml-auto"
+                className="col-span-6 -mt-10 aspect-[4/3] sm:col-span-5 sm:-mt-16 sm:ml-auto"
               >
-                <Image src={magicDetail} alt="" fill sizes="200px" className="object-cover" />
+                <Image src={magicDetail} alt="" fill sizes="240px" className="object-cover" />
               </CurtainReveal>
             </div>
           </div>
