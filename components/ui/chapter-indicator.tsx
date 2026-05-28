@@ -30,15 +30,13 @@ export function ChapterIndicator() {
       const els = Array.from(
         document.querySelectorAll<HTMLElement>("[data-chapter]"),
       );
-      const list = els.map((el) => ({
-        id: el.dataset.chapterId ?? el.dataset.chapter ?? "",
-        label: el.dataset.chapter ?? "",
-        el,
-      }));
-      // Ensure stable ids
-      list.forEach((c, i) => {
-        if (!c.id) c.id = `ch-${i}`;
-        c.el.dataset.chapterId = c.id;
+      // Always assign an index-based id so duplicate data-chapter labels
+      // (e.g. two sections both labelled "Concrete board") never collide as
+      // React keys.
+      const list = els.map((el, i) => {
+        const id = el.dataset.chapterId ?? `ch-${i}`;
+        el.dataset.chapterId = id;
+        return { id, label: el.dataset.chapter ?? "", el };
       });
       setChapters(list.map((c) => ({ id: c.id, label: c.label })));
       return list;
