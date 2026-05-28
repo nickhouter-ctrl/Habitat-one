@@ -267,6 +267,26 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "charcoal-burnt-wood-board": {
+    card: `${MAGIC}/charcoal-burnt-wood-board-dark-grey.png`,
+    variants: {
+      "dark grey": [
+        `${MAGIC}/charcoal-burnt-wood-board-dark-grey.png`,
+        `${MAGIC}/charcoal-burnt-wood-board-dark-grey-interior.png`,
+        `${MAGIC}/charcoal-burnt-wood-board-dark-grey-exterior.png`,
+      ],
+    },
+  },
+  "coarse-charcoal-burnt-wood-board": {
+    card: `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey.png`,
+    variants: {
+      "dark grey": [
+        `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey.png`,
+        `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey-interior.png`,
+        `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey-exterior.png`,
+      ],
+    },
+  },
   "ando-cement-": {
     card: `${MAGIC}/ando-cement-front.png`,
     // Single colour (Warm Grey) — rich gallery: two product angles, two
@@ -413,6 +433,20 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/ando-cement-zen.png`,
       `${MAGIC}/ando-cement-brutalist.png`,
       `${MAGIC}/ando-cement-coffee.png`,
+    ],
+  },
+  "charcoal-burnt-wood-board": {
+    videos: { "dark grey": `${MAGIC}/charcoal-burnt-wood-board-dark-grey.mp4` },
+    context: [
+      `${MAGIC}/charcoal-burnt-wood-board-dark-grey-interior.png`,
+      `${MAGIC}/charcoal-burnt-wood-board-dark-grey-exterior.png`,
+    ],
+  },
+  "coarse-charcoal-burnt-wood-board": {
+    videos: { "dark grey": `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey.mp4` },
+    context: [
+      `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey-interior.png`,
+      `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey-exterior.png`,
     ],
   },
 };
