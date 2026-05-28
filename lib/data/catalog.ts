@@ -87,6 +87,36 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "ms-travertino": {
+    card: `${MAGIC}/ms-travertino-beige.png`,
+    // Per variant: two product angles → in-room scene → texture macro.
+    variants: {
+      beige: [
+        `${MAGIC}/ms-travertino-beige.png`,
+        `${MAGIC}/ms-travertino-beige-2.png`,
+        `${MAGIC}/ms-travertino-beige-interior.png`,
+        `${MAGIC}/ms-travertino-beige-closeup.png`,
+      ],
+      "dark grey": [
+        `${MAGIC}/ms-travertino-dark-grey.jpeg`,
+        `${MAGIC}/ms-travertino-dark-grey-2.png`,
+        `${MAGIC}/ms-travertino-dark-grey-interior.png`,
+        `${MAGIC}/ms-travertino-dark-grey-closeup.png`,
+      ],
+      "medium grey": [
+        `${MAGIC}/ms-travertino-medium-grey.png`,
+        `${MAGIC}/ms-travertino-medium-grey-2.png`,
+        `${MAGIC}/ms-travertino-medium-grey-interior.png`,
+        `${MAGIC}/ms-travertino-medium-grey-closeup.png`,
+      ],
+      "light grey": [
+        `${MAGIC}/ms-travertino-light-grey.png`,
+        `${MAGIC}/ms-travertino-light-grey-2.png`,
+        `${MAGIC}/ms-travertino-light-grey-interior.png`,
+        `${MAGIC}/ms-travertino-light-grey-closeup.png`,
+      ],
+    },
+  },
 };
 for (const p of catalogProducts) {
   const ov = PRODUCT_IMAGE_OVERRIDES[p.slug];
@@ -129,6 +159,20 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/ripple-board-beige-hero.png`,
       `${MAGIC}/ripple-board-concrete-grey-hero.png`,
       `${MAGIC}/ripple-board-red-hero.png`,
+    ],
+  },
+  "ms-travertino": {
+    videos: {
+      beige: `${MAGIC}/ms-travertino-beige.mp4`,
+      "dark grey": `${MAGIC}/ms-travertino-dark-grey.mp4`,
+      "medium grey": `${MAGIC}/ms-travertino-medium-grey.mp4`,
+      "light grey": `${MAGIC}/ms-travertino-light-grey.mp4`,
+    },
+    // Flex hero (with the Magic Flexible Stone mark) + two in-situ rooms.
+    context: [
+      `${MAGIC}/ms-travertino-beige-hero.png`,
+      `${MAGIC}/ms-travertino-light-grey-interior.png`,
+      `${MAGIC}/ms-travertino-medium-grey-interior.png`,
     ],
   },
 };
