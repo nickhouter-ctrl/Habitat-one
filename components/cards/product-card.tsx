@@ -58,7 +58,7 @@ export function ProductCard({
             alt={name}
             fill
             sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
-            className="object-contain p-2 transition-transform duration-[1.1s] ease-out group-hover:scale-[1.03]"
+            className="object-cover transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]"
             priority={priority}
           />
         ) : (

@@ -67,7 +67,7 @@ export function ProductsStrip({ products }: { products: CatalogProduct[] }) {
                       alt={name}
                       fill
                       sizes="(max-width:640px) 70vw, (max-width:1024px) 40vw, 22vw"
-                      className="object-contain p-2"
+                      className="object-cover"
                     />
                   </motion.div>
                 ) : (

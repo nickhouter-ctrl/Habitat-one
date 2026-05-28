@@ -229,7 +229,7 @@ export async function CollectionLuxuryPage({
                         alt={p.name}
                         fill
                         sizes="(max-width:768px) 50vw, 25vw"
-                        className="object-contain p-2 transition-transform duration-[1.1s] ease-out group-hover:scale-[1.03]"
+                        className="object-cover transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]"
                       />
                     )}
                   </div>
@@ -302,7 +302,7 @@ export async function CollectionLuxuryPage({
                       alt=""
                       fill
                       sizes="(max-width:768px) 50vw, 25vw"
-                      className="object-contain p-2 transition-transform duration-[1.1s] ease-out group-hover:scale-[1.03]"
+                      className="object-cover transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]"
                     />
                   </div>
                   <div className="mt-4 flex items-end justify-between gap-3">
