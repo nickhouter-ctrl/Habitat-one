@@ -54,15 +54,16 @@ const MAGIC_LOOKBOOK: {
 
 // Big, full-width render scenes that "fall down" the MagicStone gallery —
 // different products and colours, in real spaces, for a luxe lookbook feel.
-const MAGIC_GALLERY: { img: string; label: string }[] = [
-  { img: "/products/magic/concrete-board-pure-white-hero.png", label: "Concrete Board · Pure White" },
-  { img: "/products/magic/ms-travertino-light-grey-interior.png", label: "MS Travertino · Light Grey" },
-  { img: "/products/magic/huge-travertine-gradient-yellow-exterior.png", label: "Huge Travertine · Gradient Yellow" },
-  { img: "/products/magic/ripple-board-red-hero.png", label: "Ripple Board · Red" },
-  { img: "/products/magic/italian-travertine-red-interior.png", label: "Italian Travertine · Red" },
-  { img: "/products/magic/age-stone-dark-grey-exterior.png", label: "Age Stone · Dark Grey" },
-  { img: "/products/magic/ancient-wood-board-khaki-interior.png", label: "Ancient Wood Board · Khaki" },
-  { img: "/products/magic/ms-travertino-medium-grey-interior.png", label: "MS Travertino · Medium Grey" },
+const MAGIC_GALLERY: { src: string; label: string; video?: boolean }[] = [
+  { src: "/products/magic/magic-gallery-reveal.mp4", label: "Magic Flexible Stone", video: true },
+  { src: "/products/magic/concrete-board-pure-white-hero.png", label: "Concrete Board · Pure White" },
+  { src: "/products/magic/ms-travertino-light-grey-interior.png", label: "MS Travertino · Light Grey" },
+  { src: "/products/magic/huge-travertine-gradient-yellow-exterior.png", label: "Huge Travertine · Gradient Yellow" },
+  { src: "/products/magic/ripple-board-red-hero.png", label: "Ripple Board · Red" },
+  { src: "/products/magic/italian-travertine-red-interior.png", label: "Italian Travertine · Red" },
+  { src: "/products/magic/age-stone-dark-grey-exterior.png", label: "Age Stone · Dark Grey" },
+  { src: "/products/magic/ancient-wood-board-khaki-interior.png", label: "Ancient Wood Board · Khaki" },
+  { src: "/products/magic/ms-travertino-medium-grey-interior.png", label: "MS Travertino · Medium Grey" },
 ];
 
 /**
@@ -304,8 +305,20 @@ export async function CollectionLuxuryPage({
             <div className="mt-10 flex flex-col gap-12 md:mt-16 md:gap-20">
               {isMagic
                 ? MAGIC_GALLERY.map((item, i) => (
-                    <CurtainReveal key={`${item.img}-${i}`} delay={i * 0.04} className="aspect-[16/10]">
-                      <Image src={item.img} alt={item.label} fill sizes="100vw" className="object-cover" />
+                    <CurtainReveal key={`${item.src}-${i}`} delay={i * 0.04} className="aspect-[16/10]">
+                      {item.video ? (
+                        <video
+                          autoPlay
+                          muted
+                          loop
+                          playsInline
+                          className="absolute inset-0 h-full w-full object-cover"
+                        >
+                          <source src={item.src} type="video/mp4" />
+                        </video>
+                      ) : (
+                        <Image src={item.src} alt={item.label} fill sizes="100vw" className="object-cover" />
+                      )}
                       <span className="absolute bottom-4 left-4 rounded-full bg-ink/45 px-4 py-2 text-[0.62rem] font-medium uppercase tracking-[0.22em] text-paper backdrop-blur-sm">
                         {item.label}
                       </span>
