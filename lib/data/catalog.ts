@@ -181,6 +181,42 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "age-stone-": {
+    card: `${MAGIC}/age-stone-beige.png`,
+    // Per variant: product shot → interior → villa façade (exterior).
+    variants: {
+      beige: [
+        `${MAGIC}/age-stone-beige.png`,
+        `${MAGIC}/age-stone-beige-interior.png`,
+        `${MAGIC}/age-stone-beige-exterior.png`,
+      ],
+      "medium grey": [
+        `${MAGIC}/age-stone-medium-grey.png`,
+        `${MAGIC}/age-stone-medium-grey-interior.png`,
+        `${MAGIC}/age-stone-medium-grey-exterior.png`,
+      ],
+      "dark grey": [
+        `${MAGIC}/age-stone-dark-grey.png`,
+        `${MAGIC}/age-stone-dark-grey-interior.png`,
+        `${MAGIC}/age-stone-dark-grey-exterior.png`,
+      ],
+      khaki: [
+        `${MAGIC}/age-stone-khaki.png`,
+        `${MAGIC}/age-stone-khaki-interior.png`,
+        `${MAGIC}/age-stone-khaki-exterior.png`,
+      ],
+      "gradient yellow": [
+        `${MAGIC}/age-stone-gradient-yellow.png`,
+        `${MAGIC}/age-stone-gradient-yellow-interior.png`,
+        `${MAGIC}/age-stone-gradient-yellow-exterior.png`,
+      ],
+      "gradient grey": [
+        `${MAGIC}/age-stone-gradient-grey.png`,
+        `${MAGIC}/age-stone-gradient-grey-interior.png`,
+        `${MAGIC}/age-stone-gradient-grey-exterior.png`,
+      ],
+    },
+  },
 };
 for (const p of catalogProducts) {
   const ov = PRODUCT_IMAGE_OVERRIDES[p.slug];
@@ -262,6 +298,21 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/italian-travertine-white-interior.png`,
       `${MAGIC}/italian-travertine-grey-interior.png`,
       `${MAGIC}/italian-travertine-red-interior.png`,
+    ],
+  },
+  "age-stone-": {
+    videos: {
+      beige: `${MAGIC}/age-stone-beige.mp4`,
+      "medium grey": `${MAGIC}/age-stone-medium-grey.mp4`,
+      "dark grey": `${MAGIC}/age-stone-dark-grey.mp4`,
+      khaki: `${MAGIC}/age-stone-khaki.mp4`,
+      "gradient yellow": `${MAGIC}/age-stone-gradient-yellow.mp4`,
+    },
+    // Aged-stone look on Mediterranean villa façades.
+    context: [
+      `${MAGIC}/age-stone-khaki-exterior.png`,
+      `${MAGIC}/age-stone-dark-grey-exterior.png`,
+      `${MAGIC}/age-stone-gradient-yellow-exterior.png`,
     ],
   },
 };
