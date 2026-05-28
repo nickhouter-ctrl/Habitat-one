@@ -117,6 +117,36 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "huge-travertine-": {
+    card: `${MAGIC}/huge-travertine-beige.png`,
+    // Per variant: two product angles → interior → villa façade (exterior).
+    variants: {
+      concrete: [
+        `${MAGIC}/huge-travertine-concrete.png`,
+        `${MAGIC}/huge-travertine-concrete-2.png`,
+        `${MAGIC}/huge-travertine-concrete-interior.png`,
+        `${MAGIC}/huge-travertine-concrete-exterior.png`,
+      ],
+      "pure white": [
+        `${MAGIC}/huge-travertine-pure-white.png`,
+        `${MAGIC}/huge-travertine-pure-white-2.png`,
+        `${MAGIC}/huge-travertine-pure-white-interior.png`,
+        `${MAGIC}/huge-travertine-pure-white-exterior.png`,
+      ],
+      beige: [
+        `${MAGIC}/huge-travertine-beige.png`,
+        `${MAGIC}/huge-travertine-beige-2.png`,
+        `${MAGIC}/huge-travertine-beige-interior.png`,
+        `${MAGIC}/huge-travertine-beige-exterior.png`,
+      ],
+      "gradient yellow": [
+        `${MAGIC}/huge-travertine-gradient-yellow.png`,
+        `${MAGIC}/huge-travertine-gradient-yellow-2.png`,
+        `${MAGIC}/huge-travertine-gradient-yellow-interior.png`,
+        `${MAGIC}/huge-travertine-gradient-yellow-exterior.png`,
+      ],
+    },
+  },
 };
 for (const p of catalogProducts) {
   const ov = PRODUCT_IMAGE_OVERRIDES[p.slug];
@@ -173,6 +203,19 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/ms-travertino-beige-hero.png`,
       `${MAGIC}/ms-travertino-light-grey-interior.png`,
       `${MAGIC}/ms-travertino-medium-grey-interior.png`,
+    ],
+  },
+  "huge-travertine-": {
+    videos: {
+      beige: `${MAGIC}/huge-travertine-beige.mp4`,
+      "pure white": `${MAGIC}/huge-travertine-pure-white.mp4`,
+      "gradient yellow": `${MAGIC}/huge-travertine-gradient-yellow.mp4`,
+    },
+    // Huge-format travertine on Mediterranean villa façades.
+    context: [
+      `${MAGIC}/huge-travertine-pure-white-exterior.png`,
+      `${MAGIC}/huge-travertine-beige-exterior.png`,
+      `${MAGIC}/huge-travertine-gradient-yellow-exterior.png`,
     ],
   },
 };
