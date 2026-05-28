@@ -52,6 +52,19 @@ const MAGIC_LOOKBOOK: {
   { img: "/products/magic/age-stone-khaki-interior.png", slug: "age-stone-", name: "Age Stone", colour: "Khaki" },
 ];
 
+// Big, full-width render scenes that "fall down" the MagicStone gallery —
+// different products and colours, in real spaces, for a luxe lookbook feel.
+const MAGIC_GALLERY: { img: string; label: string }[] = [
+  { img: "/products/magic/concrete-board-pure-white-hero.png", label: "Concrete Board · Pure White" },
+  { img: "/products/magic/ms-travertino-light-grey-interior.png", label: "MS Travertino · Light Grey" },
+  { img: "/products/magic/huge-travertine-gradient-yellow-exterior.png", label: "Huge Travertine · Gradient Yellow" },
+  { img: "/products/magic/ripple-board-red-hero.png", label: "Ripple Board · Red" },
+  { img: "/products/magic/italian-travertine-red-interior.png", label: "Italian Travertine · Red" },
+  { img: "/products/magic/age-stone-dark-grey-exterior.png", label: "Age Stone · Dark Grey" },
+  { img: "/products/magic/ancient-wood-board-khaki-interior.png", label: "Ancient Wood Board · Khaki" },
+  { img: "/products/magic/ms-travertino-medium-grey-interior.png", label: "MS Travertino · Medium Grey" },
+];
+
 /**
  * Renders a full editorial luxury page for a single product collection.
  * Used at /products (MagicStone) and at /products/{bathroom,doors,…}.
@@ -272,8 +285,8 @@ export async function CollectionLuxuryPage({
         </div>
       </section>
 
-      {/* ---- Stacked gallery ---- */}
-      {galleryImages.length > 0 && (
+      {/* ---- Stacked gallery — big render scenes that fall down the page ---- */}
+      {(isMagic ? MAGIC_GALLERY.length : galleryImages.length) > 0 && (
         <section className="bg-paper py-16 md:py-24" data-chapter={t("gallery")}>
           <div className="container-x">
             <div className="sticky top-20 z-10 flex items-center justify-between border-y border-ink/15 bg-paper py-3 md:top-24">
@@ -284,12 +297,21 @@ export async function CollectionLuxuryPage({
                 {title} · {t("gallery")}
               </p>
             </div>
-            <div className="mt-10 flex flex-col gap-10 md:mt-16 md:gap-16">
-              {galleryImages.map((src, i) => (
-                <CurtainReveal key={`${src}-${i}`} delay={i * 0.05} className="aspect-[3/2]">
-                  <Image src={src} alt={title} fill sizes="100vw" className="object-cover" />
-                </CurtainReveal>
-              ))}
+            <div className="mt-10 flex flex-col gap-12 md:mt-16 md:gap-20">
+              {isMagic
+                ? MAGIC_GALLERY.map((item, i) => (
+                    <CurtainReveal key={`${item.img}-${i}`} delay={i * 0.04} className="aspect-[16/10]">
+                      <Image src={item.img} alt={item.label} fill sizes="100vw" className="object-cover" />
+                      <span className="absolute bottom-4 left-4 rounded-full bg-ink/45 px-4 py-2 text-[0.62rem] font-medium uppercase tracking-[0.22em] text-paper backdrop-blur-sm">
+                        {item.label}
+                      </span>
+                    </CurtainReveal>
+                  ))
+                : galleryImages.map((src, i) => (
+                    <CurtainReveal key={`${src}-${i}`} delay={i * 0.05} className="aspect-[3/2]">
+                      <Image src={src} alt={title} fill sizes="100vw" className="object-cover" />
+                    </CurtainReveal>
+                  ))}
             </div>
           </div>
         </section>
