@@ -160,21 +160,27 @@ export default async function ProductDetailPage({
         </div>
       </section>
 
-      {/* ---- Context / flexibility stills (landscape) ---- */}
+      {/* ---- Context / in-situ stills (landscape) ---- */}
       {contextImages.length > 0 && (
         <section className="bg-background py-16 md:py-24" data-chapter={t("gallery")}>
           <div className="container-x">
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
+            <div
+              className={`grid grid-cols-1 gap-6 md:gap-8 ${
+                contextImages.length === 3 ? "md:grid-cols-3" : "md:grid-cols-2"
+              }`}
+            >
               {contextImages.map((src, i) => (
                 <div
                   key={`${src}-${i}`}
-                  className="relative aspect-[16/10] overflow-hidden bg-sand-100"
+                  className={`relative overflow-hidden bg-sand-100 ${
+                    contextImages.length === 3 ? "aspect-[4/3]" : "aspect-[16/10]"
+                  }`}
                 >
                   <Image
                     src={src}
                     alt={name}
                     fill
-                    sizes="(max-width:768px) 100vw, 50vw"
+                    sizes={contextImages.length === 3 ? "(max-width:768px) 100vw, 33vw" : "(max-width:768px) 100vw, 50vw"}
                     className="object-cover"
                   />
                 </div>

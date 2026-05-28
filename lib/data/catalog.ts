@@ -68,6 +68,25 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "ripple-board-": {
+    card: `${MAGIC}/ripple-board-beige.png`,
+    variants: {
+      beige: [
+        `${MAGIC}/ripple-board-beige.png`,
+        `${MAGIC}/ripple-board-beige-hero.png`,
+        `${MAGIC}/ripple-board-beige-closeup.png`,
+      ],
+      "concrete grey": [
+        `${MAGIC}/ripple-board-concrete-grey.png`,
+        `${MAGIC}/ripple-board-concrete-grey-hero.png`,
+      ],
+      red: [
+        `${MAGIC}/ripple-board-red.png`,
+        `${MAGIC}/ripple-board-red-hero.png`,
+        `${MAGIC}/ripple-board-red-closeup.png`,
+      ],
+    },
+  },
 };
 for (const p of catalogProducts) {
   const ov = PRODUCT_IMAGE_OVERRIDES[p.slug];
@@ -100,6 +119,17 @@ export const productMedia: Record<string, ProductMedia> = {
       "medium grey": `${MAGIC}/concrete-board-medium-grey.mp4`,
     },
     context: [`${MAGIC}/usp-hand-flex.png`, `${MAGIC}/usp-curved-wall.png`],
+  },
+  "ripple-board-": {
+    videos: {
+      beige: `${MAGIC}/ripple-board-beige.mp4`,
+    },
+    // Three in-situ room scenes — japandi, hallway, restaurant.
+    context: [
+      `${MAGIC}/ripple-board-beige-hero.png`,
+      `${MAGIC}/ripple-board-concrete-grey-hero.png`,
+      `${MAGIC}/ripple-board-red-hero.png`,
+    ],
   },
 };
 export function getProductMedia(slug: string): ProductMedia | null {
