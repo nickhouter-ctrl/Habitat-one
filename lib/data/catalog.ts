@@ -268,6 +268,21 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "fine-line-stone-board-": {
+    card: `${MAGIC}/fine-line-stone-board-beige.png`,
+    variants: {
+      beige: [
+        `${MAGIC}/fine-line-stone-board-beige.png`,
+        `${MAGIC}/fine-line-stone-board-beige-interior.png`,
+        `${MAGIC}/fine-line-stone-board-beige-exterior.png`,
+      ],
+      concrete: [
+        `${MAGIC}/fine-line-stone-board-concrete.png`,
+        `${MAGIC}/fine-line-stone-board-concrete-interior.png`,
+        `${MAGIC}/fine-line-stone-board-concrete-exterior.png`,
+      ],
+    },
+  },
   "danxia-rammed-earth-board-": {
     card: `${MAGIC}/danxia-rammed-earth-board-beige.png`,
     // NB: catalogue spelt this variant "Watemelon red" (typo) — key must match.
@@ -482,6 +497,13 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/ando-cement-zen.png`,
       `${MAGIC}/ando-cement-brutalist.png`,
       `${MAGIC}/ando-cement-coffee.png`,
+    ],
+  },
+  "fine-line-stone-board-": {
+    videos: { beige: `${MAGIC}/fine-line-stone-board-beige.mp4` },
+    context: [
+      `${MAGIC}/fine-line-stone-board-beige-exterior.png`,
+      `${MAGIC}/fine-line-stone-board-concrete-interior.png`,
     ],
   },
   "danxia-rammed-earth-board-": {
