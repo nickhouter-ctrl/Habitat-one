@@ -20,8 +20,8 @@ export interface ProductDetailLayoutProps {
   identifier: string;
   materialList: string[];
   spaceList: string[];
-  /** lowercased variant name → video src */
-  variantVideos?: Record<string, string>;
+  /** lowercased variant name → one or more video srcs */
+  variantVideos?: Record<string, string | string[]>;
   labels: {
     aboutThisProduct: string;
     specifications: string;
@@ -73,10 +73,11 @@ export function ProductDetailLayout({
   // then the remaining stills (in-room scene, texture close-up).
   const media = useMemo<Media[]>(() => {
     const variantName = (activeVariant?.name ?? "").toLowerCase().trim();
-    const video = variantVideos?.[variantName];
+    const v = variantVideos?.[variantName];
+    const videos = Array.isArray(v) ? v : v ? [v] : [];
     const list: Media[] = [];
     if (images[0]) list.push({ type: "image", src: images[0] });
-    if (video) list.push({ type: "video", src: video, poster: images[0] });
+    for (const src of videos) list.push({ type: "video", src, poster: images[0] });
     for (const src of images.slice(1)) list.push({ type: "image", src });
     return list;
     // eslint-disable-next-line react-hooks/exhaustive-deps

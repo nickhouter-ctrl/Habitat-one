@@ -147,6 +147,40 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       ],
     },
   },
+  "italian-travertine-": {
+    card: `${MAGIC}/italian-travertine-white.png`,
+    // Per variant: product shot → in-room scene.
+    variants: {
+      "italian white travertine": [
+        `${MAGIC}/italian-travertine-white.png`,
+        `${MAGIC}/italian-travertine-white-interior.png`,
+      ],
+      "italian brown travertine": [
+        `${MAGIC}/italian-travertine-brown.png`,
+        `${MAGIC}/italian-travertine-brown-interior.png`,
+      ],
+      "italian grey travertine": [
+        `${MAGIC}/italian-travertine-grey.png`,
+        `${MAGIC}/italian-travertine-grey-interior.png`,
+      ],
+      "italian red travertine": [
+        `${MAGIC}/italian-travertine-red.png`,
+        `${MAGIC}/italian-travertine-red-interior.png`,
+      ],
+      "light grey wood": [
+        `${MAGIC}/italian-travertine-light-grey-wood.png`,
+        `${MAGIC}/italian-travertine-light-grey-wood-interior.png`,
+      ],
+      "light brown wood": [
+        `${MAGIC}/italian-travertine-light-brown-wood.png`,
+        `${MAGIC}/italian-travertine-light-brown-wood-interior.png`,
+      ],
+      "yellow wood": [
+        `${MAGIC}/italian-travertine-yellow-wood.png`,
+        `${MAGIC}/italian-travertine-yellow-wood-interior.png`,
+      ],
+    },
+  },
 };
 for (const p of catalogProducts) {
   const ov = PRODUCT_IMAGE_OVERRIDES[p.slug];
@@ -165,8 +199,8 @@ for (const p of catalogProducts) {
 // per colour variant and a set of "in context" stills (flexibility USPs etc.).
 // ---------------------------------------------------------------------------
 export interface ProductMedia {
-  /** lowercased variant name → autoplay loop video src */
-  videos?: Record<string, string>;
+  /** lowercased variant name → one or more autoplay loop video srcs */
+  videos?: Record<string, string | string[]>;
   /** Shared context / USP stills shown below the main product area */
   context?: string[];
 }
@@ -193,10 +227,10 @@ export const productMedia: Record<string, ProductMedia> = {
   },
   "ms-travertino": {
     videos: {
-      beige: `${MAGIC}/ms-travertino-beige.mp4`,
+      beige: [`${MAGIC}/ms-travertino-beige.mp4`, `${MAGIC}/ms-travertino-beige-2.mp4`],
       "dark grey": `${MAGIC}/ms-travertino-dark-grey.mp4`,
-      "medium grey": `${MAGIC}/ms-travertino-medium-grey.mp4`,
-      "light grey": `${MAGIC}/ms-travertino-light-grey.mp4`,
+      "medium grey": [`${MAGIC}/ms-travertino-medium-grey.mp4`, `${MAGIC}/ms-travertino-medium-grey-2.mp4`],
+      "light grey": [`${MAGIC}/ms-travertino-light-grey.mp4`, `${MAGIC}/ms-travertino-light-grey-2.mp4`],
     },
     // Flex hero (with the Magic Flexible Stone mark) + two in-situ rooms.
     context: [
@@ -216,6 +250,18 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/huge-travertine-pure-white-exterior.png`,
       `${MAGIC}/huge-travertine-beige-exterior.png`,
       `${MAGIC}/huge-travertine-gradient-yellow-exterior.png`,
+    ],
+  },
+  "italian-travertine-": {
+    videos: {
+      "italian white travertine": `${MAGIC}/italian-travertine-white.mp4`,
+      "italian brown travertine": `${MAGIC}/italian-travertine-brown.mp4`,
+    },
+    // Three in-situ rooms across the range.
+    context: [
+      `${MAGIC}/italian-travertine-white-interior.png`,
+      `${MAGIC}/italian-travertine-grey-interior.png`,
+      `${MAGIC}/italian-travertine-red-interior.png`,
     ],
   },
 };
