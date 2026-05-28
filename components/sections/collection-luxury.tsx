@@ -42,8 +42,12 @@ const descriptionKey: Record<string, string> = {
  */
 export async function CollectionLuxuryPage({
   collectionId,
+  heroImageOverride,
 }: {
   collectionId: Collection;
+  /** Optional editorial hero image (e.g. an in-situ shot) instead of the
+   *  first product's studio thumbnail. */
+  heroImageOverride?: string;
 }) {
   const t = await getTranslations("products");
 
@@ -58,8 +62,8 @@ export async function CollectionLuxuryPage({
     .filter((src, i, arr) => arr.indexOf(src) === i)
     .slice(0, 4) as string[];
 
-  const heroImage = sorted[0]?.image ?? "/products/v/454.jpg";
-  const detailImage = sorted[1]?.image ?? "/products/v/460.jpg";
+  const heroImage = heroImageOverride ?? sorted[0]?.image ?? "/products/v/454.jpg";
+  const detailImage = sorted[1]?.image ?? sorted[0]?.image ?? "/products/v/460.jpg";
 
   const otherCollections = collections.filter((c) => c.id !== collectionId);
 
