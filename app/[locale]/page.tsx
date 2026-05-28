@@ -71,17 +71,15 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   // Shown uncropped (16:9) so the "Magic Flexible Stone" mark stays visible.
   const magicHero = "/products/magic/usp-hand-flex.png";
 
-  // Featured MagicStone products — cinematic scroll-pinned stories
-  // Story 1 = Concrete Board (real video content). Story 2 = Charcoal (placeholder).
+  // Featured MagicStone products — cinematic scroll-pinned stories (real video).
+  // Story 1 = Concrete Board · Mid Gray. Story 2 = Travertino · Beige.
   const story1Product = getProductBySlug("concrete-board-");
-  const story2Product = getProductBySlug("charcoal-burnt-wood-board");
-  const projectImages = projects
-    .flatMap((p) => p.gallery)
-    .filter((src, i, arr) => arr.indexOf(src) === i);
+  const story2Product = getProductBySlug("ms-travertino");
   // Concrete Board has a real autoplay video; poster falls back to its product shot.
   const story1Video = "/products/magic/concrete-board-medium-grey.mp4";
   const story1Poster = "/products/magic/concrete-board-medium-grey-hero.png";
-  const story2Poster = projectImages[Math.min(8, projectImages.length - 1)] ?? "/products/v/460.jpg";
+  const story2Video = "/products/magic/story-travertino-beige.mp4";
+  const story2Poster = "/products/magic/ms-travertino-beige-interior.png";
 
   const magicPoints = [
     { title: t("magicPoint1Title"), text: t("magicPoint1Text") },
@@ -260,10 +258,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </div>
 
-      {/* ---- Story 2 — Charcoal Burnt Wood (cinematic) ---- */}
+      {/* ---- Story 2 — Travertino Beige (cinematic, real video) ---- */}
       <PinnedStorySection
-        chapter="Charcoal"
+        chapter="Travertino"
         identifier={t("story2Identifier")}
+        videoSrc={story2Video}
         posterImage={story2Poster}
         lines={[
           { heading: t("story2Line1") },
