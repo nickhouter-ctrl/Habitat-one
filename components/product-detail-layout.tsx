@@ -1,13 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
-import { ArrowUpRight, CalendarDays, ChevronLeft, ChevronRight, ImageOff } from "lucide-react";
+import { ArrowUpRight, CalendarDays, ChevronLeft, ChevronRight, ImageOff, Play } from "lucide-react";
 import type { CatalogProduct } from "@/lib/data/catalog";
 import { Link } from "@/i18n/navigation";
 import { ProductQuoteActions } from "@/components/product-quote-actions";
 import { cn } from "@/lib/utils";
+
+type Media = { type: "image" | "video"; src: string; poster?: string };
 
 export interface ProductDetailLayoutProps {
   product: CatalogProduct;
@@ -18,6 +20,8 @@ export interface ProductDetailLayoutProps {
   identifier: string;
   materialList: string[];
   spaceList: string[];
+  /** lowercased variant name → video src */
+  variantVideos?: Record<string, string>;
   labels: {
     aboutThisProduct: string;
     specifications: string;
@@ -48,6 +52,7 @@ export function ProductDetailLayout({
   identifier,
   materialList,
   spaceList,
+  variantVideos,
   labels,
 }: ProductDetailLayoutProps) {
   // Build the variant list (only those that actually have imagery)
@@ -63,21 +68,35 @@ export function ProductDetailLayout({
     : fallbackImage
     ? [fallbackImage]
     : [];
-  const [imgIdx, setImgIdx] = useState(0);
-  const currentImage = images[imgIdx] ?? null;
+
+  // Media = product still first (instant), then the colour's video (lazy),
+  // then the remaining stills (in-room scene, texture close-up).
+  const media = useMemo<Media[]>(() => {
+    const variantName = (activeVariant?.name ?? "").toLowerCase().trim();
+    const video = variantVideos?.[variantName];
+    const list: Media[] = [];
+    if (images[0]) list.push({ type: "image", src: images[0] });
+    if (video) list.push({ type: "video", src: video, poster: images[0] });
+    for (const src of images.slice(1)) list.push({ type: "image", src });
+    return list;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [variantIdx]);
+
+  const [mediaIdx, setMediaIdx] = useState(0);
+  const current = media[mediaIdx] ?? null;
 
   function changeVariant(i: number) {
     setVariantIdx(i);
-    setImgIdx(0);
+    setMediaIdx(0);
   }
 
-  function nextImage() {
-    if (images.length === 0) return;
-    setImgIdx((i) => (i + 1) % images.length);
+  function nextMedia() {
+    if (media.length === 0) return;
+    setMediaIdx((i) => (i + 1) % media.length);
   }
-  function prevImage() {
-    if (images.length === 0) return;
-    setImgIdx((i) => (i - 1 + images.length) % images.length);
+  function prevMedia() {
+    if (media.length === 0) return;
+    setMediaIdx((i) => (i - 1 + media.length) % media.length);
   }
 
   return (
@@ -86,23 +105,39 @@ export function ProductDetailLayout({
       <div className="col-span-12 lg:col-span-7">
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-sand-100">
           <AnimatePresence mode="wait">
-            {currentImage ? (
+            {current ? (
               <motion.div
-                key={`${variantIdx}-${imgIdx}`}
+                key={`${variantIdx}-${mediaIdx}`}
                 initial={{ opacity: 0, scale: 1.03 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
                 className="absolute inset-0"
               >
-                <Image
-                  src={currentImage}
-                  alt={`${name}${activeVariant?.name ? ` — ${activeVariant.name}` : ""}`}
-                  fill
-                  priority
-                  sizes="(max-width:1024px) 100vw, 60vw"
-                  className="object-cover"
-                />
+                {current.type === "video" ? (
+                  <video
+                    key={current.src}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    controls
+                    poster={current.poster}
+                    preload="none"
+                    className="h-full w-full object-cover"
+                  >
+                    <source src={current.src} type="video/mp4" />
+                  </video>
+                ) : (
+                  <Image
+                    src={current.src}
+                    alt={`${name}${activeVariant?.name ? ` — ${activeVariant.name}` : ""}`}
+                    fill
+                    priority
+                    sizes="(max-width:1024px) 100vw, 60vw"
+                    className="object-cover"
+                  />
+                )}
               </motion.div>
             ) : (
               <div className="flex h-full flex-col items-center justify-center gap-2 text-ink-soft/55">
@@ -112,28 +147,28 @@ export function ProductDetailLayout({
             )}
           </AnimatePresence>
 
-          {/* Image counter */}
-          {images.length > 1 && (
-            <p className="absolute bottom-4 left-4 z-10 text-[0.62rem] uppercase tracking-[0.32em] text-paper">
-              {String(imgIdx + 1).padStart(2, "0")} / {String(images.length).padStart(2, "0")}
+          {/* Media counter */}
+          {media.length > 1 && (
+            <p className="pointer-events-none absolute bottom-4 left-4 z-10 text-[0.62rem] uppercase tracking-[0.32em] text-paper mix-blend-difference">
+              {String(mediaIdx + 1).padStart(2, "0")} / {String(media.length).padStart(2, "0")}
             </p>
           )}
 
           {/* Prev / Next arrows */}
-          {images.length > 1 && (
+          {media.length > 1 && (
             <>
               <button
                 type="button"
-                onClick={prevImage}
-                aria-label="Previous image"
+                onClick={prevMedia}
+                aria-label="Previous"
                 className="absolute left-4 top-1/2 z-10 grid h-11 w-11 -translate-y-1/2 place-items-center bg-paper/85 text-ink transition-colors hover:bg-paper"
               >
                 <ChevronLeft className="h-4 w-4" />
               </button>
               <button
                 type="button"
-                onClick={nextImage}
-                aria-label="Next image"
+                onClick={nextMedia}
+                aria-label="Next"
                 className="absolute right-4 top-1/2 z-10 grid h-11 w-11 -translate-y-1/2 place-items-center bg-paper/85 text-ink transition-colors hover:bg-paper"
               >
                 <ChevronRight className="h-4 w-4" />
@@ -142,21 +177,34 @@ export function ProductDetailLayout({
           )}
         </div>
 
-        {/* Thumbnail strip of variant images */}
-        {images.length > 1 && (
+        {/* Thumbnail strip */}
+        {media.length > 1 && (
           <div className="mt-4 grid grid-cols-6 gap-2 sm:gap-3">
-            {images.map((src, i) => (
+            {media.map((m, i) => (
               <button
-                key={`${src}-${i}`}
+                key={`${m.src}-${i}`}
                 type="button"
-                onClick={() => setImgIdx(i)}
+                onClick={() => setMediaIdx(i)}
                 className={cn(
                   "relative aspect-square overflow-hidden bg-sand-100 transition-opacity",
-                  i === imgIdx ? "opacity-100 ring-1 ring-ink" : "opacity-60 hover:opacity-100",
+                  i === mediaIdx ? "opacity-100 ring-1 ring-ink" : "opacity-60 hover:opacity-100",
                 )}
-                aria-label={`Image ${i + 1}`}
+                aria-label={m.type === "video" ? "Play video" : `Image ${i + 1}`}
               >
-                <Image src={src} alt="" fill sizes="120px" className="object-cover" />
+                <Image
+                  src={m.type === "video" ? m.poster ?? "" : m.src}
+                  alt=""
+                  fill
+                  sizes="120px"
+                  className="object-cover"
+                />
+                {m.type === "video" && (
+                  <span className="absolute inset-0 grid place-items-center bg-ink/25">
+                    <span className="grid h-7 w-7 place-items-center rounded-full bg-paper/90 text-ink">
+                      <Play className="h-3 w-3 translate-x-[1px] fill-current" />
+                    </span>
+                  </span>
+                )}
               </button>
             ))}
           </div>

@@ -27,6 +27,85 @@ for (const p of catalogProducts) {
   if (o) p.collection = o;
 }
 
+// ---------------------------------------------------------------------------
+// Real product photography overrides.
+// The auto-generated catalogue points at scraped placeholder thumbnails. As
+// real, owned product shots come in we map them here per product slug. Each
+// variant is matched by name; `card` becomes the grid/hero thumbnail.
+// This runs after import, so it survives the prebuild regeneration.
+// ---------------------------------------------------------------------------
+interface ProductImageOverride {
+  /** Replacement card/grid image */
+  card: string;
+  /** Variant name (lowercased) → ordered list of images */
+  variants: Record<string, string[]>;
+}
+const MAGIC = "/products/magic";
+const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
+  "concrete-board-": {
+    card: `${MAGIC}/concrete-board-pure-white.png`,
+    // Per variant: clean product shot → in-room scene → texture close-up.
+    variants: {
+      "pure white": [
+        `${MAGIC}/concrete-board-pure-white.png`,
+        `${MAGIC}/concrete-board-pure-white-hero.png`,
+        `${MAGIC}/concrete-board-pure-white-closeup.png`,
+      ],
+      beige: [
+        `${MAGIC}/concrete-board-beige.png`,
+        `${MAGIC}/concrete-board-beige-hero.png`,
+        `${MAGIC}/concrete-board-beige-closeup.png`,
+      ],
+      "light grey": [
+        `${MAGIC}/concrete-board-light-grey.png`,
+        `${MAGIC}/concrete-board-light-grey-hero.png`,
+        `${MAGIC}/concrete-board-light-grey-closeup.png`,
+      ],
+      "medium grey": [
+        `${MAGIC}/concrete-board-medium-grey.png`,
+        `${MAGIC}/concrete-board-medium-grey-hero.png`,
+        `${MAGIC}/concrete-board-medium-grey-closeup.png`,
+      ],
+    },
+  },
+};
+for (const p of catalogProducts) {
+  const ov = PRODUCT_IMAGE_OVERRIDES[p.slug];
+  if (!ov) continue;
+  for (const v of p.variants) {
+    const key = (v.name ?? "").toLowerCase().trim();
+    const imgs = ov.variants[key];
+    if (imgs) v.images = imgs;
+  }
+  p.image = ov.card;
+}
+
+// ---------------------------------------------------------------------------
+// Rich media (video + shared context imagery) keyed by product slug. Kept
+// separate from the catalogue's string[] image lists so we can attach video
+// per colour variant and a set of "in context" stills (flexibility USPs etc.).
+// ---------------------------------------------------------------------------
+export interface ProductMedia {
+  /** lowercased variant name → autoplay loop video src */
+  videos?: Record<string, string>;
+  /** Shared context / USP stills shown below the main product area */
+  context?: string[];
+}
+export const productMedia: Record<string, ProductMedia> = {
+  "concrete-board-": {
+    videos: {
+      "pure white": `${MAGIC}/concrete-board-pure-white.mp4`,
+      beige: `${MAGIC}/concrete-board-beige.mp4`,
+      "light grey": `${MAGIC}/concrete-board-light-grey.mp4`,
+      "medium grey": `${MAGIC}/concrete-board-medium-grey.mp4`,
+    },
+    context: [`${MAGIC}/usp-hand-flex.png`, `${MAGIC}/usp-curved-wall.png`],
+  },
+};
+export function getProductMedia(slug: string): ProductMedia | null {
+  return productMedia[slug] ?? null;
+}
+
 export { catalogProducts, catalogMaterials, catalogSpaces, catalogCategories };
 export type { CatalogProduct, CatalogMaterial, CatalogSpace, CatalogCategory, ProductVariant };
 

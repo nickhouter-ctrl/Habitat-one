@@ -15,6 +15,7 @@ import { CtaBanner } from "@/components/sections/cta-banner";
 import {
   catalogProducts,
   getProductBySlug,
+  getProductMedia,
   materialName,
   relatedProducts,
   productImages,
@@ -94,13 +95,16 @@ export default async function ProductDetailPage({
   const description = localized ?? product.description ?? null;
 
   const related = relatedProducts(product, 8);
-  // Extra installation/context images shown below the main two-column area.
-  // We skip the hero/variant images already covered by the gallery.
+  const media = getProductMedia(slug);
   const heroImage = product.image ?? "/site/material_card.jpg";
-  const galleryAll = productImages(product);
-  const contextImages = galleryAll
-    .filter((src) => src !== heroImage)
-    .slice(0, 3);
+  // Prefer curated context stills (flexibility USPs etc.); otherwise derive
+  // a few from the product's own imagery.
+  const contextImages =
+    media?.context && media.context.length > 0
+      ? media.context
+      : productImages(product)
+          .filter((src) => src !== heroImage)
+          .slice(0, 3);
 
   const materialList = product.materials
     .map((m) => materialName(m, locale))
@@ -137,6 +141,7 @@ export default async function ProductDetailPage({
             identifier={identifier}
             materialList={materialList}
             spaceList={spaceList}
+            variantVideos={media?.videos}
             labels={{
               aboutThisProduct: t("aboutThisProduct"),
               specifications: t("specifications"),
@@ -155,23 +160,21 @@ export default async function ProductDetailPage({
         </div>
       </section>
 
-      {/* ---- Optional context images ---- */}
+      {/* ---- Context / flexibility stills (landscape) ---- */}
       {contextImages.length > 0 && (
-        <section className="bg-background py-16 md:py-20" data-chapter={t("gallery")}>
+        <section className="bg-background py-16 md:py-24" data-chapter={t("gallery")}>
           <div className="container-x">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
               {contextImages.map((src, i) => (
                 <div
                   key={`${src}-${i}`}
-                  className={`relative aspect-[4/5] overflow-hidden bg-sand-100 ${
-                    i === 0 ? "md:col-span-2 md:aspect-[2/1]" : ""
-                  }`}
+                  className="relative aspect-[16/10] overflow-hidden bg-sand-100"
                 >
                   <Image
                     src={src}
                     alt={name}
                     fill
-                    sizes={i === 0 ? "100vw" : "(max-width:768px) 100vw, 50vw"}
+                    sizes="(max-width:768px) 100vw, 50vw"
                     className="object-cover"
                   />
                 </div>
