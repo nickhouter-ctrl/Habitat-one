@@ -275,6 +275,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         }}
       />
 
+      {/* ---- Story 3 — Magic Flexible Stone (cinematic closing clip) ---- */}
+      <PinnedStorySection
+        chapter="MagicStone"
+        identifier="Magic Flexible Stone"
+        videoSrc="/products/magic/home-story-3.mp4"
+        posterImage="/products/magic/concrete-board-pure-white-hero.png"
+        scrollPerLine={120}
+        lines={[{ heading: t("magicTitle") }]}
+        cta={{ label: t("magicCta"), href: "/products" }}
+      />
+
       {/* ---- Process — numbered editorial list ---- */}
       <Section chapter="Process" className="bg-paper py-20 md:py-28">
         <Container>
