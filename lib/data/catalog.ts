@@ -367,6 +367,75 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
 };
+
+// --- Single-variant / non-uniform collections (handled by hand) ---
+PRODUCT_IMAGE_OVERRIDES["zen-ando-cement-board"] = {
+  card: `${MAGIC}/zen-ando-cement-board-warm-grey.png`,
+  variants: {
+    "warm grey": [
+      `${MAGIC}/zen-ando-cement-board-warm-grey.png`,
+      `${MAGIC}/zen-ando-cement-board-warm-grey-interior.png`,
+      `${MAGIC}/zen-ando-cement-board-warm-grey-interior2.png`,
+      `${MAGIC}/zen-ando-cement-board-warm-grey-closeup.png`,
+    ],
+  },
+};
+PRODUCT_IMAGE_OVERRIDES["rust-board-"] = {
+  card: `${MAGIC}/rust-board-bush-hammered.png`,
+  variants: {
+    "bush hammered": [
+      `${MAGIC}/rust-board-bush-hammered.png`,
+      `${MAGIC}/rust-board-bush-hammered-interior.png`,
+      `${MAGIC}/rust-board-bush-hammered-interior2.png`,
+      `${MAGIC}/rust-board-bush-hammered-closeup.png`,
+    ],
+    "medium plaid": [
+      `${MAGIC}/rust-board-medium-plaid.png`,
+      `${MAGIC}/rust-board-medium-plaid-interior.png`,
+      `${MAGIC}/rust-board-medium-plaid-interior2.png`,
+    ],
+  },
+};
+
+// --- Uniform batch collections — generated from a compact spec ---
+// File convention: `${MAGIC}/{fileSlug}-{colour}[-{part}].png|mp4`, where
+// fileSlug = slug without trailing dash and colour = catalog key with spaces
+// → hyphens.
+interface BatchSpec {
+  slug: string;
+  card: string; // colour slug for the card image
+  keys: string[]; // catalog variant keys (lowercased)
+  parts: string[]; // gallery suffixes after the base product image
+  video: string[] | "all";
+  context: string[]; // "{colour}-{part}" entries shown below the product
+}
+const batchFileSlug = (slug: string) => slug.replace(/-$/, "");
+const colourSlug = (key: string) => key.replace(/\s+/g, "-");
+const BATCHES: BatchSpec[] = [
+  { slug: "wood-cement-board-", card: "light-grey", keys: ["light grey", "medium grey"], parts: ["interior", "closeup"], video: [], context: ["light-grey-interior", "medium-grey-interior"] },
+  { slug: "travertine", card: "beige", keys: ["concrete", "beige", "pure white", "gradient yellow", "white golden", "grey golden"], parts: ["interior", "closeup"], video: ["beige", "concrete", "grey golden", "white golden"], context: ["beige-interior", "concrete-interior", "white-golden-interior"] },
+  { slug: "terrazzo-rough-stone", card: "light-grey", keys: ["light grey", "grey", "dark grey", "yellow"], parts: ["interior", "exterior", "closeup"], video: "all", context: ["light-grey-exterior", "dark-grey-exterior", "yellow-exterior"] },
+  { slug: "square-line-stone-", card: "beige", keys: ["beige", "dark grey", "red"], parts: ["interior", "exterior", "closeup"], video: "all", context: ["beige-exterior", "dark-grey-exterior", "red-exterior"] },
+  { slug: "rough-granite-", card: "beige", keys: ["beige", "pure white", "dark grey"], parts: ["interior", "exterior", "closeup"], video: "all", context: ["beige-exterior", "pure-white-exterior", "dark-grey-exterior"] },
+  { slug: "roman-huge-travertine", card: "white-golden", keys: ["white golden", "ivory white", "golden rust"], parts: ["interior", "interior2", "closeup"], video: "all", context: ["white-golden-interior", "ivory-white-interior", "golden-rust-interior"] },
+  { slug: "rampart-rammed-earth-board-", card: "beige", keys: ["beige", "light grey", "brown red", "watermelon red", "khaki", "light yellow", "dark grey", "grey white"], parts: ["interior", "exterior", "closeup"], video: "all", context: ["light-yellow-exterior", "dark-grey-exterior", "brown-red-exterior"] },
+  { slug: "poly-wood-board", card: "yellow", keys: ["yellow", "light brown"], parts: ["interior", "interior2", "closeup"], video: "all", context: ["yellow-interior", "light-brown-interior"] },
+  { slug: "linear-travertine", card: "roman-white", keys: ["roman white", "roman yellow"], parts: ["interior", "interior2", "closeup"], video: "all", context: ["roman-white-interior", "roman-yellow-interior"] },
+  { slug: "line-stone-board", card: "beige", keys: ["beige", "dark grey"], parts: ["interior", "exterior", "closeup"], video: "all", context: ["beige-exterior", "dark-grey-exterior"] },
+];
+for (const b of BATCHES) {
+  const fs = batchFileSlug(b.slug);
+  const variants: Record<string, string[]> = {};
+  for (const k of b.keys) {
+    const c = colourSlug(k);
+    variants[k] = [
+      `${MAGIC}/${fs}-${c}.png`,
+      ...b.parts.map((part) => `${MAGIC}/${fs}-${c}-${part}.png`),
+    ];
+  }
+  PRODUCT_IMAGE_OVERRIDES[b.slug] = { card: `${MAGIC}/${fs}-${b.card}.png`, variants };
+}
+
 for (const p of catalogProducts) {
   const ov = PRODUCT_IMAGE_OVERRIDES[p.slug];
   if (!ov) continue;
@@ -536,7 +605,32 @@ export const productMedia: Record<string, ProductMedia> = {
       `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey-exterior.png`,
     ],
   },
+  "zen-ando-cement-board": {
+    videos: { "warm grey": `${MAGIC}/zen-ando-cement-board-warm-grey.mp4` },
+    context: [
+      `${MAGIC}/zen-ando-cement-board-warm-grey-interior.png`,
+      `${MAGIC}/zen-ando-cement-board-warm-grey-interior2.png`,
+    ],
+  },
+  "rust-board-": {
+    videos: { "bush hammered": `${MAGIC}/rust-board-bush-hammered.mp4` },
+    context: [
+      `${MAGIC}/rust-board-bush-hammered-interior.png`,
+      `${MAGIC}/rust-board-medium-plaid-interior.png`,
+    ],
+  },
 };
+// Media for the uniform batch collections — generated from the same spec.
+for (const b of BATCHES) {
+  const fs = batchFileSlug(b.slug);
+  const vkeys = b.video === "all" ? b.keys : b.video;
+  const videos: Record<string, string> = {};
+  for (const k of vkeys) videos[k] = `${MAGIC}/${fs}-${colourSlug(k)}.mp4`;
+  productMedia[b.slug] = {
+    videos,
+    context: b.context.map((c) => `${MAGIC}/${fs}-${c}.png`),
+  };
+}
 export function getProductMedia(slug: string): ProductMedia | null {
   return productMedia[slug] ?? null;
 }
