@@ -5,6 +5,8 @@ import { Link } from "@/i18n/navigation";
 import { BackLink } from "@/components/ui/back-link";
 import { CurtainReveal } from "@/components/ui/curtain-reveal";
 import { MaskReveal } from "@/components/ui/mask-reveal";
+import { HeroSlideshow } from "@/components/ui/hero-slideshow";
+import { ProductsStrip } from "@/components/sections/products-strip";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import {
   collections,
@@ -71,7 +73,6 @@ export async function CollectionLuxuryPage({
   const sorted = [...withImg].sort(
     (a, b) => (b.variants.length > 1 ? 1 : 0) - (a.variants.length > 1 ? 1 : 0),
   );
-  const featured = sorted.slice(0, 12);
   const galleryImages = withImg
     .map((p) => p.image)
     .filter((src, i, arr) => arr.indexOf(src) === i)
@@ -88,6 +89,11 @@ export async function CollectionLuxuryPage({
   const isMagic = collectionId === "wall-panels";
   // All in-situ render scenes across the range — the MagicStone lookbook grid.
   const sceneGallery = isMagic ? magicSceneGallery() : [];
+  // Hero slideshow — the override scene first, then a few big in-situ renders.
+  const heroSlides = [
+    heroImage,
+    ...sceneGallery.map((s) => s.src).filter((s) => s !== heroImage),
+  ].slice(0, 6);
 
   const title = t(collectionKey[collectionId]);
   const identifier = identifierPrefix[collectionId] ?? "Habitat One";
@@ -101,17 +107,14 @@ export async function CollectionLuxuryPage({
         className="relative isolate overflow-hidden bg-paper"
       >
         <div className="relative h-[92svh] min-h-[640px] w-full overflow-hidden">
-          <div className="absolute inset-0 animate-ken-burns">
-            <Image
-              src={heroImage}
-              alt={title}
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover"
-            />
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-b from-ink/15 via-transparent to-ink/55" />
+          {isMagic && heroSlides.length > 1 ? (
+            <HeroSlideshow images={heroSlides} />
+          ) : (
+            <div className="absolute inset-0 animate-ken-burns">
+              <Image src={heroImage} alt={title} fill priority sizes="100vw" className="object-cover" />
+            </div>
+          )}
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink/15 via-transparent to-ink/55" />
 
           <div className="container-x relative z-10 flex h-full flex-col justify-between pt-28 pb-14 md:pb-20">
             <div className="flex items-start justify-between">
@@ -225,7 +228,7 @@ export async function CollectionLuxuryPage({
             </div>
             <div className="col-span-6 md:col-span-6 md:text-center">
               <p className="text-[0.66rem] uppercase tracking-[0.22em] text-ink-soft">
-                {featured.length} / {products.length}
+                {products.length} {t("title").toLowerCase()}
               </p>
             </div>
             <div className="col-span-12 md:col-span-3 md:text-right">
@@ -239,40 +242,9 @@ export async function CollectionLuxuryPage({
             </div>
           </div>
 
-          <div className="mt-16 grid grid-cols-2 gap-x-4 gap-y-12 md:mt-20 md:grid-cols-4 md:gap-x-6 md:gap-y-16">
-            {featured.map((p, i) => {
-              return (
-                <Link
-                  key={p.id}
-                  href={`/products/${p.slug}`}
-                  data-hover-label="View product"
-                  className="group block"
-                >
-                  <div className="relative aspect-[3/4] overflow-hidden bg-sand-100">
-                    {p.image && (
-                      <Image
-                        src={p.image}
-                        alt={p.name}
-                        fill
-                        sizes="(max-width:768px) 50vw, 25vw"
-                        className="object-cover transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]"
-                      />
-                    )}
-                  </div>
-                  <div className="mt-4 flex items-start justify-between gap-3">
-                    <div className="min-w-0">
-                      <p className="text-[0.62rem] uppercase tracking-[0.28em] text-ink-soft/60">
-                        {String(i + 1).padStart(2, "0")}
-                      </p>
-                      <h3 className="mt-1.5 text-[0.95rem] font-medium leading-snug text-ink transition-colors group-hover:text-ink-soft md:text-base">
-                        {p.name}
-                      </h3>
-                    </div>
-                    <ArrowUpRight className="mt-1 h-3.5 w-3.5 shrink-0 text-ink-soft transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-                  </div>
-                </Link>
-              );
-            })}
+          {/* Slide through every product in the collection */}
+          <div className="mt-12 md:mt-16">
+            <ProductsStrip products={sorted} />
           </div>
         </div>
       </section>
