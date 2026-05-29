@@ -89,7 +89,6 @@ export function ProductDetailLayout({
   // The gallery frame matches the active media's own aspect ratio (default
   // to a portrait product shot until the real dimensions load in).
   const [aspect, setAspect] = useState(9 / 16);
-  const portrait = aspect < 1;
 
   function changeVariant(i: number) {
     setVariantIdx(i);
@@ -109,16 +108,15 @@ export function ProductDetailLayout({
     <div className="grid grid-cols-12 gap-x-6 gap-y-10 lg:gap-x-10">
       {/* ---- LEFT: gallery ---- */}
       <div className="col-span-12 lg:col-span-7">
-        {/* The frame adopts each media's own aspect ratio, so portrait product
-            shots and landscape room scenes both fill it edge-to-edge — no
-            grey letterbox, nothing cropped. */}
-        <div className="flex w-full justify-center">
+        {/* The frame is full-width and adopts each media's own aspect ratio,
+            so portrait product shots and landscape room scenes both fill it
+            edge-to-edge — no grey letterbox, nothing cropped — and it stays
+            reliable on mobile. A max-height keeps tall portraits in check on
+            wide screens. */}
+        <div>
           <div
-            className={cn(
-              "relative overflow-hidden bg-sand-100",
-              portrait ? "mx-auto h-[68svh] max-w-full" : "max-h-[80svh] w-full",
-            )}
-            style={{ aspectRatio: String(aspect) }}
+            className="relative w-full overflow-hidden bg-sand-100"
+            style={{ aspectRatio: String(aspect), maxHeight: "85svh" }}
           >
           <AnimatePresence mode="wait">
             {current ? (
