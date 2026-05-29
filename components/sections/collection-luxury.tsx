@@ -9,6 +9,7 @@ import { CtaBanner } from "@/components/sections/cta-banner";
 import {
   collections,
   productsByCollection,
+  magicSceneGallery,
   type Collection,
 } from "@/lib/data/catalog";
 
@@ -35,22 +36,6 @@ const descriptionKey: Record<string, string> = {
   accessories: "chapterDescriptionAccessories",
   "door-accessories": "chapterDescriptionDoorAccessories",
 };
-
-// In-situ lookbook for the MagicStone page — one real room scene per
-// collection, labelled with the product + colour, linking to the product.
-const MAGIC_LOOKBOOK: {
-  img: string;
-  slug: string;
-  name: string;
-  colour: string;
-}[] = [
-  { img: "/products/magic/concrete-board-medium-grey-hero.png", slug: "concrete-board-", name: "Concrete Board", colour: "Mid Gray" },
-  { img: "/products/magic/ms-travertino-light-grey-interior.png", slug: "ms-travertino", name: "MS Travertino", colour: "Light Grey" },
-  { img: "/products/magic/ripple-board-beige-hero.png", slug: "ripple-board-", name: "Ripple Board", colour: "Beige" },
-  { img: "/products/magic/huge-travertine-beige-interior.png", slug: "huge-travertine-", name: "Huge Travertine", colour: "Beige" },
-  { img: "/products/magic/italian-travertine-white-interior.png", slug: "italian-travertine-", name: "Italian Travertine", colour: "White" },
-  { img: "/products/magic/age-stone-khaki-interior.png", slug: "age-stone-", name: "Age Stone", colour: "Khaki" },
-];
 
 // Big, full-width render scenes that "fall down" the MagicStone gallery —
 // different products and colours, in real spaces, for a luxe lookbook feel.
@@ -101,6 +86,8 @@ export async function CollectionLuxuryPage({
 
   const otherCollections = collections.filter((c) => c.id !== collectionId);
   const isMagic = collectionId === "wall-panels";
+  // All in-situ render scenes across the range — the MagicStone lookbook grid.
+  const sceneGallery = isMagic ? magicSceneGallery() : [];
 
   const title = t(collectionKey[collectionId]);
   const identifier = identifierPrefix[collectionId] ?? "Habitat One";
@@ -351,26 +338,21 @@ export async function CollectionLuxuryPage({
             </div>
 
             <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8 lg:grid-cols-3">
-              {MAGIC_LOOKBOOK.map((item) => (
-                <Link key={item.slug} href={`/products/${item.slug}`} className="group block">
+              {sceneGallery.map((item, i) => (
+                <Link key={`${item.src}-${i}`} href={item.href} className="group block">
                   <div className="relative aspect-[4/3] overflow-hidden bg-sand-100">
                     <Image
-                      src={item.img}
-                      alt={`${item.name} — ${item.colour}`}
+                      src={item.src}
+                      alt={item.label}
                       fill
                       sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
                       className="object-cover transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]"
                     />
                   </div>
                   <div className="mt-4 flex items-end justify-between gap-3">
-                    <div>
-                      <h3 className="text-base font-medium text-ink transition-colors group-hover:text-ink-soft md:text-lg">
-                        {item.name}
-                      </h3>
-                      <p className="mt-1 text-[0.7rem] uppercase tracking-[0.22em] text-ink-soft/70">
-                        {item.colour}
-                      </p>
-                    </div>
+                    <h3 className="text-base font-medium text-ink transition-colors group-hover:text-ink-soft md:text-lg">
+                      {item.label}
+                    </h3>
                     <ArrowUpRight className="h-4 w-4 shrink-0 text-ink-soft transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
                   </div>
                 </Link>

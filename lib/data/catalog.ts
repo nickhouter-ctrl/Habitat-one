@@ -380,6 +380,15 @@ PRODUCT_IMAGE_OVERRIDES["zen-ando-cement-board"] = {
     ],
   },
 };
+PRODUCT_IMAGE_OVERRIDES["cut-stone-"] = {
+  card: `${MAGIC}/cut-stone-beige.png`,
+  // Only a product shot + flex hero per colour for now.
+  variants: {
+    red: [`${MAGIC}/cut-stone-red.png`, `${MAGIC}/cut-stone-red-hero.png`],
+    grey: [`${MAGIC}/cut-stone-grey.png`, `${MAGIC}/cut-stone-grey-hero.png`],
+    beige: [`${MAGIC}/cut-stone-beige.png`, `${MAGIC}/cut-stone-beige-hero.png`],
+  },
+};
 PRODUCT_IMAGE_OVERRIDES["rockface-stone"] = {
   card: `${MAGIC}/rockface-stone-beige.png`,
   variants: {
@@ -656,6 +665,29 @@ for (const b of BATCHES) {
 }
 export function getProductMedia(slug: string): ProductMedia | null {
   return productMedia[slug] ?? null;
+}
+
+/**
+ * Every in-situ render scene (living rooms, façades, bathrooms…) across the
+ * MagicStone (wall-panels) range — pulled from each product's curated context
+ * imagery, labelled with the product name and linked to the product. Used for
+ * the big lookbook on the MagicStone page.
+ */
+export function magicSceneGallery(): { src: string; label: string; href: string }[] {
+  const seen = new Set<string>();
+  const out: { src: string; label: string; href: string }[] = [];
+  for (const p of catalogProducts) {
+    if (p.collection !== "wall-panels") continue;
+    const m = productMedia[p.slug];
+    if (!m?.context) continue;
+    const href = p.slug === "wall-panels" ? "/products" : `/products/${p.slug}`;
+    for (const src of m.context) {
+      if (seen.has(src)) continue;
+      seen.add(src);
+      out.push({ src, label: p.name, href });
+    }
+  }
+  return out;
 }
 
 export { catalogProducts, catalogMaterials, catalogSpaces, catalogCategories };
