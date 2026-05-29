@@ -42,6 +42,7 @@ const descriptionKey: Record<string, string> = {
 // Big, full-width render scenes that "fall down" the MagicStone gallery —
 // different products and colours, in real spaces, for a luxe lookbook feel.
 const MAGIC_GALLERY: { src: string; label: string; video?: boolean }[] = [
+  { src: "/products/magic/magic-gallery-intro.mp4", label: "Magic Flexible Stone", video: true },
   { src: "/products/magic/magic-gallery-reveal.mp4", label: "Magic Flexible Stone", video: true },
   { src: "/products/magic/concrete-board-pure-white-hero.png", label: "Concrete Board · Pure White" },
   { src: "/products/magic/ms-travertino-light-grey-interior.png", label: "MS Travertino · Light Grey" },
