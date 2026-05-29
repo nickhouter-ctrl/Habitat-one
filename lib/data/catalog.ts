@@ -380,6 +380,22 @@ PRODUCT_IMAGE_OVERRIDES["zen-ando-cement-board"] = {
     ],
   },
 };
+PRODUCT_IMAGE_OVERRIDES["rockface-stone"] = {
+  card: `${MAGIC}/rockface-stone-beige.png`,
+  variants: {
+    beige: [
+      `${MAGIC}/rockface-stone-beige.png`,
+      `${MAGIC}/rockface-stone-beige-interior.png`,
+      `${MAGIC}/rockface-stone-beige-exterior.png`,
+      `${MAGIC}/rockface-stone-beige-closeup.png`,
+    ],
+    "dark grey": [
+      `${MAGIC}/rockface-stone-dark-grey.png`,
+      `${MAGIC}/rockface-stone-dark-grey-exterior.png`,
+      `${MAGIC}/rockface-stone-dark-grey-closeup.png`,
+    ],
+  },
+};
 PRODUCT_IMAGE_OVERRIDES["rust-board-"] = {
   card: `${MAGIC}/rust-board-bush-hammered.png`,
   variants: {
@@ -617,6 +633,13 @@ export const productMedia: Record<string, ProductMedia> = {
     context: [
       `${MAGIC}/rust-board-bush-hammered-interior.png`,
       `${MAGIC}/rust-board-medium-plaid-interior.png`,
+    ],
+  },
+  "rockface-stone": {
+    videos: { beige: `${MAGIC}/rockface-stone-beige.mp4` },
+    context: [
+      `${MAGIC}/rockface-stone-beige-exterior.png`,
+      `${MAGIC}/rockface-stone-dark-grey-exterior.png`,
     ],
   },
 };
