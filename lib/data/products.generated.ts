@@ -3258,7 +3258,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 796,
         "name": "Light Grey",
         "colorHex": "#C4C0B8",
-        "sku": "LG",
+        "sku": "MS-165",
         "images": [
           "/products/v/487.jpg",
           "/products/v/488.jpg",
@@ -3269,7 +3269,7 @@ export const catalogProducts: CatalogProduct[] = [
         "id": 797,
         "name": "Medium Grey",
         "colorHex": "#9D988E",
-        "sku": "MG",
+        "sku": "MS-166",
         "images": [
           "/products/v/490.jpg",
           "/products/v/491.jpg",
