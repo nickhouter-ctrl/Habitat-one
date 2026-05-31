@@ -54,7 +54,7 @@ export function ProductHero({
   const swatches = withImages.filter((v) => v.colorHex || v.name);
   const hasSwatches = swatches.length > 1;
   const [variantIdx, setVariantIdx] = useState(0);
-  const { addItem, hasItem, openQuote } = useQuote();
+  const { addItem, hasVariant, openQuote } = useQuote();
 
   const activeVariant = hasSwatches ? withImages[variantIdx] : null;
   const skuToShow = activeVariant?.sku ?? product.sku ?? null;
@@ -64,7 +64,7 @@ export function ProductHero({
     variant: activeVariant?.name ?? null,
     sku: skuToShow,
   };
-  const added = hasItem(product.slug);
+  const added = hasVariant(quoteItem);
 
   return (
     <div className="mt-8 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-start">

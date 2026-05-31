@@ -42,6 +42,8 @@ interface QuoteContextValue {
   clearItems: () => void;
   /** True als er een regel voor dit product (welke kleur dan ook) in zit. */
   hasItem: (slug: string) => boolean;
+  /** True als precies deze variant (kleur/SKU) al in het mandje zit. */
+  hasVariant: (item: { slug: string; sku?: string | null; variant?: string | null }) => boolean;
   count: number;
   isOpen: boolean;
   openQuote: () => void;
@@ -129,6 +131,8 @@ export function QuoteProvider({ children }: { children: ReactNode }) {
         ),
       clearItems: () => setItems([]),
       hasItem: (slug) => items.some((i) => i.slug === slug),
+      hasVariant: (item) =>
+        items.some((i) => i.key === keyFor(item.slug, item.sku, item.variant)),
       count: items.reduce((n, i) => n + i.qty, 0),
       isOpen,
       openQuote: () => setOpen(true),

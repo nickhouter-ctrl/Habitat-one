@@ -21,9 +21,9 @@ export function ProductQuoteActions({
     inQuote: string;
   };
 }) {
-  const { addItem, hasItem, openQuote } = useQuote();
-  const added = hasItem(slug);
+  const { addItem, hasVariant, openQuote } = useQuote();
   const item = { slug, name, variant, sku };
+  const added = hasVariant(item);
   return (
     <div className="flex flex-wrap items-center gap-3">
       <Magnetic>
