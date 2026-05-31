@@ -35,9 +35,9 @@ export default async function SpacesPage({ params }: { params: Promise<{ locale:
             </h2>
           </Reveal>
           <StaggerGroup className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-2">
-            {indoor.map((s, i) => (
-              <StaggerItem key={s.slug} className={i === 0 ? "sm:col-span-2" : ""}>
-                <SpaceCard space={s} name={t(`names.${s.slug}`)} environmentLabel={t("indoor")} large={i === 0} image={spaceCover(s.slug)} />
+            {indoor.map((s) => (
+              <StaggerItem key={s.slug}>
+                <SpaceCard space={s} name={t(`names.${s.slug}`)} environmentLabel={t("indoor")} image={spaceCover(s.slug)} />
               </StaggerItem>
             ))}
           </StaggerGroup>
@@ -53,9 +53,9 @@ export default async function SpacesPage({ params }: { params: Promise<{ locale:
             </h2>
           </Reveal>
           <StaggerGroup className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-2">
-            {outdoor.map((s, i) => (
-              <StaggerItem key={s.slug} className={i === 0 ? "sm:col-span-2" : ""}>
-                <SpaceCard space={s} name={t(`names.${s.slug}`)} environmentLabel={t("outdoor")} large={i === 0} image={spaceCover(s.slug)} />
+            {outdoor.map((s) => (
+              <StaggerItem key={s.slug}>
+                <SpaceCard space={s} name={t(`names.${s.slug}`)} environmentLabel={t("outdoor")} image={spaceCover(s.slug)} />
               </StaggerItem>
             ))}
           </StaggerGroup>
