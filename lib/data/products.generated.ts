@@ -21,7 +21,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "accessories" | "doors" | "door-accessories";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories";
   variants: ProductVariant[];
 }
 
@@ -2522,7 +2522,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "600 x 2440 mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/369.jpg",
     "featured": false,
     "dimensions": "2440 × 600 mm",
     "materials": [
@@ -2535,7 +2535,7 @@ export const catalogProducts: CatalogProduct[] = [
       "outdoor-kitchen"
     ],
     "categories": [],
-    "collection": "wall-panels",
+    "collection": "backer-boards",
     "variants": []
   },
   {
@@ -2719,7 +2719,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "1220 x 2440 mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/377.jpg",
     "featured": false,
     "dimensions": "2440 × 1220 mm",
     "materials": [
@@ -2732,7 +2732,7 @@ export const catalogProducts: CatalogProduct[] = [
       "outdoor-kitchen"
     ],
     "categories": [],
-    "collection": "wall-panels",
+    "collection": "backer-boards",
     "variants": []
   },
   {
@@ -3058,7 +3058,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "1220 x 2440 mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/391.jpg",
     "featured": false,
     "dimensions": "2440 × 1220 mm",
     "materials": [
@@ -3071,7 +3071,7 @@ export const catalogProducts: CatalogProduct[] = [
       "outdoor-kitchen"
     ],
     "categories": [],
-    "collection": "wall-panels",
+    "collection": "backer-boards",
     "variants": []
   },
   {
@@ -3085,7 +3085,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "600 x 2440 mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/392.jpg",
     "featured": false,
     "dimensions": "2440 × 600 mm",
     "materials": [
@@ -3098,7 +3098,7 @@ export const catalogProducts: CatalogProduct[] = [
       "outdoor-kitchen"
     ],
     "categories": [],
-    "collection": "wall-panels",
+    "collection": "backer-boards",
     "variants": []
   },
   {
@@ -3134,7 +3134,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "1220 x 2440 mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/394.jpg",
     "featured": false,
     "dimensions": "2440 × 1220 mm",
     "materials": [
@@ -3147,7 +3147,7 @@ export const catalogProducts: CatalogProduct[] = [
       "outdoor-kitchen"
     ],
     "categories": [],
-    "collection": "wall-panels",
+    "collection": "backer-boards",
     "variants": []
   },
   {
@@ -3161,7 +3161,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "1220 x 2440 mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/395.jpg",
     "featured": false,
     "dimensions": "2440 × 1220 mm",
     "materials": [
@@ -3174,7 +3174,7 @@ export const catalogProducts: CatalogProduct[] = [
       "outdoor-kitchen"
     ],
     "categories": [],
-    "collection": "wall-panels",
+    "collection": "backer-boards",
     "variants": []
   },
   {
@@ -3188,7 +3188,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "600 x 2440 mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/396.jpg",
     "featured": false,
     "dimensions": "2440 × 600 mm",
     "materials": [
@@ -3201,7 +3201,7 @@ export const catalogProducts: CatalogProduct[] = [
       "outdoor-kitchen"
     ],
     "categories": [],
-    "collection": "wall-panels",
+    "collection": "backer-boards",
     "variants": []
   },
   {

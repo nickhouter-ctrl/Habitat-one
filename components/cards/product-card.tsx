@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 const collectionKey: Record<string, string> = {
   bathroom: "collectionBathroom",
   "wall-panels": "collectionWallPanels",
+  "backer-boards": "collectionBackerBoards",
   accessories: "collectionAccessories",
   doors: "collectionDoors",
   "door-accessories": "collectionDoorAccessories",

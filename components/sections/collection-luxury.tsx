@@ -18,6 +18,7 @@ import {
 const collectionKey: Record<string, string> = {
   bathroom: "collectionBathroom",
   "wall-panels": "collectionWallPanels",
+  "backer-boards": "collectionBackerBoards",
   accessories: "collectionAccessories",
   doors: "collectionDoors",
   "door-accessories": "collectionDoorAccessories",
@@ -25,6 +26,7 @@ const collectionKey: Record<string, string> = {
 
 const identifierPrefix: Record<string, string> = {
   "wall-panels": "Magic Flexible Stone · Collections",
+  "backer-boards": "XPS · Backer Boards",
   bathroom: "Solid Surface · Bathroom",
   doors: "Magic Flexible Stone · Doors",
   accessories: "Accessories",
@@ -33,6 +35,7 @@ const identifierPrefix: Record<string, string> = {
 
 const descriptionKey: Record<string, string> = {
   "wall-panels": "chapterDescriptionWallPanels",
+  "backer-boards": "chapterDescriptionBackerBoards",
   bathroom: "chapterDescriptionBathroom",
   doors: "chapterDescriptionDoors",
   accessories: "chapterDescriptionAccessories",

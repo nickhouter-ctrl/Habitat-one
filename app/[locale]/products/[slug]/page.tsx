@@ -54,6 +54,7 @@ export async function generateMetadata({
 const collectionKey = {
   bathroom: "collectionBathroom",
   "wall-panels": "collectionWallPanels",
+  "backer-boards": "collectionBackerBoards",
   accessories: "collectionAccessories",
   doors: "collectionDoors",
   "door-accessories": "collectionDoorAccessories",
@@ -61,6 +62,7 @@ const collectionKey = {
 
 const collectionIdentifierPrefix: Record<string, string> = {
   "wall-panels": "Magic Flexible Stone",
+  "backer-boards": "XPS · Backer Boards",
   bathroom: "Solid Surface · Bathroom",
   doors: "Magic Flexible Stone · Doors",
   accessories: "Accessories",
@@ -69,6 +71,7 @@ const collectionIdentifierPrefix: Record<string, string> = {
 
 const collectionLandingHref: Record<string, string> = {
   "wall-panels": "/products",
+  "backer-boards": "/products/backer-boards",
   bathroom: "/products/bathroom",
   doors: "/products/doors",
   accessories: "/products/accessories",
