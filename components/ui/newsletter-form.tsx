@@ -1,21 +1,43 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight, Check } from "lucide-react";
+
+const CRM_API =
+  process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
 
 export function NewsletterForm() {
   const t = useTranslations("footer");
+  const locale = useLocale();
   const [done, setDone] = useState(false);
 
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const email = String(new FormData(e.currentTarget).get("email") ?? "").trim();
+    if (!email) return;
+    // Optimistisch: toon meteen de bevestiging; verstuur op de achtergrond.
+    setDone(true);
+    try {
+      await fetch(`${CRM_API}/api/quote-requests`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          name: email,
+          email,
+          message: "Nieuwsbrief-inschrijving via de website.",
+          locale,
+          source: "website:newsletter",
+          kind: "contact",
+        }),
+      });
+    } catch {
+      /* stil — inschrijving is niet kritiek; gebruiker ziet al de bevestiging */
+    }
+  }
+
   return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        setDone(true);
-      }}
-      className="mt-4"
-    >
+    <form onSubmit={onSubmit} className="mt-4">
       {done ? (
         <p className="flex items-center gap-2 rounded-full bg-olive-600/20 px-4 py-3 text-sm text-cream">
           <Check className="h-4 w-4 text-olive-400" />
@@ -25,6 +47,7 @@ export function NewsletterForm() {
         <div className="flex items-center gap-2 rounded-full border border-cream/15 bg-sea-900/40 p-1.5 pl-4 focus-within:border-cream/30">
           <input
             type="email"
+            name="email"
             required
             placeholder={t("newsletterPlaceholder")}
             className="min-w-0 flex-1 bg-transparent text-sm text-cream placeholder:text-cream/40 focus:outline-none"

@@ -1,20 +1,56 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "motion/react";
 import { Send, CheckCircle2, Loader2 } from "lucide-react";
 
 const subjectKeys = ["general", "materials", "renovation", "property", "legal", "showroom"] as const;
 
+const CRM_API =
+  process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
+
+const ERR_TEXT: Record<string, string> = {
+  nl: "Versturen mislukt. Probeer het opnieuw of mail ons direct.",
+  de: "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren.",
+  en: "Sending failed. Please try again or email us directly.",
+  es: "Error al enviar. Vuelve a intentarlo o escríbenos directamente.",
+};
+
 export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subjectKeys)[number] }) {
   const t = useTranslations("contact");
-  const [state, setState] = useState<"idle" | "sending" | "sent">("idle");
+  const locale = useLocale();
+  const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  function onSubmit(e: React.FormEvent) {
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    const f = new FormData(e.currentTarget);
+    const subject = String(f.get("subject") ?? "general");
+    let subjectLabel = subject;
+    try {
+      subjectLabel = t(`subjectOptions.${subject}`);
+    } catch {
+      /* val terug op de sleutel */
+    }
     setState("sending");
-    setTimeout(() => setState("sent"), 1100);
+    try {
+      const res = await fetch(`${CRM_API}/api/quote-requests`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          name: String(f.get("name") ?? ""),
+          email: String(f.get("email") ?? ""),
+          phone: String(f.get("phone") ?? "") || undefined,
+          message: `[${subjectLabel}]\n\n${String(f.get("message") ?? "").trim()}`,
+          locale,
+          source: `website:contact:${subject}`,
+          kind: "contact",
+        }),
+      });
+      setState(res.ok ? "sent" : "error");
+    } catch {
+      setState("error");
+    }
   }
 
   const fieldClass =
@@ -93,6 +129,11 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
             <input type="checkbox" required className="mt-0.5 h-4 w-4 rounded border-sand-300 text-terracotta-500 focus:ring-terracotta-400/30" />
             <span>{t("consent")}</span>
           </label>
+          {state === "error" && (
+            <p className="rounded-xl border border-terracotta-400/40 bg-terracotta-400/10 px-4 py-3 text-sm text-terracotta-700">
+              {ERR_TEXT[locale] ?? ERR_TEXT.en}
+            </p>
+          )}
           <button
             type="submit"
             disabled={state === "sending"}

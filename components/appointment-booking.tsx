@@ -10,6 +10,16 @@ import { cn } from "@/lib/utils";
 type Role = "architect" | "sales" | "homeowner" | "other";
 const TIMES = ["10:00", "11:00", "12:00", "16:00", "17:00"];
 
+const CRM_API =
+  process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
+
+const ERR_TEXT: Record<string, string> = {
+  nl: "Versturen mislukt. Probeer het opnieuw of mail ons direct.",
+  de: "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren.",
+  en: "Sending failed. Please try again or email us directly.",
+  es: "Error al enviar. Vuelve a intentarlo o escríbenos directamente.",
+};
+
 function nextWeekdays(count: number): Date[] {
   const out: Date[] = [];
   const d = new Date();
@@ -30,6 +40,7 @@ export function AppointmentBooking() {
   const [date, setDate] = useState<string | null>(null);
   const [time, setTime] = useState<string | null>(null);
   const [sending, setSending] = useState(false);
+  const [error, setError] = useState(false);
 
   const days = useMemo(() => nextWeekdays(10), []);
   const fmtDate = (d: Date) => d.toLocaleDateString(locale === "en" ? "en-GB" : locale, { weekday: "short", day: "numeric", month: "short" });
@@ -39,13 +50,45 @@ export function AppointmentBooking() {
     setRole(r);
     setStep(r === "architect" || r === "sales" ? "slot" : "blocked");
   }
-  function submit(e: React.FormEvent) {
+  async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    const f = new FormData(e.currentTarget);
+    const notes = String(f.get("notes") ?? "").trim();
+    const when = date ? `${fmtDateLong(date)} · ${time ?? ""}` : (time ?? "");
+    const message = [
+      `Afspraakverzoek: ${when}`,
+      role ? `Rol: ${role}` : "",
+      notes,
+    ]
+      .filter(Boolean)
+      .join("\n\n");
     setSending(true);
-    setTimeout(() => {
+    setError(false);
+    try {
+      const res = await fetch(`${CRM_API}/api/quote-requests`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          name: String(f.get("name") ?? ""),
+          email: String(f.get("email") ?? ""),
+          phone: String(f.get("phone") ?? "") || undefined,
+          message,
+          locale,
+          source: `website:appointment${role ? `:${role}` : ""}`,
+          kind: "appointment",
+        }),
+      });
+      if (!res.ok) {
+        setSending(false);
+        setError(true);
+        return;
+      }
       setSending(false);
       setStep("done");
-    }, 1100);
+    } catch {
+      setSending(false);
+      setError(true);
+    }
   }
   function reset() {
     setRole(null);
@@ -163,22 +206,27 @@ export function AppointmentBooking() {
             </div>
             <div>
               <label className={lbl} htmlFor="ap-name">{t("name")}</label>
-              <input id="ap-name" required className={field} placeholder={t("namePh")} />
+              <input id="ap-name" name="name" required className={field} placeholder={t("namePh")} />
             </div>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
                 <label className={lbl} htmlFor="ap-email">{t("email")}</label>
-                <input id="ap-email" type="email" required className={field} placeholder={t("emailPh")} />
+                <input id="ap-email" name="email" type="email" required className={field} placeholder={t("emailPh")} />
               </div>
               <div>
                 <label className={lbl} htmlFor="ap-phone">{t("phone")}</label>
-                <input id="ap-phone" className={field} placeholder="+34 …" />
+                <input id="ap-phone" name="phone" className={field} placeholder="+34 …" />
               </div>
             </div>
             <div>
               <label className={lbl} htmlFor="ap-notes">{t("notes")}</label>
-              <textarea id="ap-notes" rows={3} className={`${field} resize-none`} placeholder={t("notesPh")} />
+              <textarea id="ap-notes" name="notes" rows={3} className={`${field} resize-none`} placeholder={t("notesPh")} />
             </div>
+            {error && (
+              <p className="rounded-xl border border-terracotta-300/40 bg-terracotta-500/15 px-4 py-3 text-sm text-cream/90">
+                {ERR_TEXT[locale] ?? ERR_TEXT.en}
+              </p>
+            )}
             <div className="flex flex-wrap gap-3 pt-1">
               <button type="submit" disabled={sending} className="btn btn-primary disabled:opacity-60">
                 {sending ? <><Loader2 className="h-4 w-4 animate-spin" />{t("sending")}</> : <>{t("submit")}<ArrowRight className="h-4 w-4" /></>}
