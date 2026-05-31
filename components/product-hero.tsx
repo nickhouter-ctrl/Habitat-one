@@ -63,6 +63,7 @@ export function ProductHero({
     name: labels.productName,
     variant: activeVariant?.name ?? null,
     sku: skuToShow,
+    image: activeVariant?.images?.[0] ?? product.image ?? null,
   };
   const added = hasVariant(quoteItem);
 

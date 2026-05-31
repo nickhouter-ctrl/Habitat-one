@@ -330,6 +330,7 @@ export function ProductDetailLayout({
             name={name}
             variant={activeVariant?.name ?? null}
             sku={activeVariant?.sku ?? product.sku ?? null}
+            image={images[0] ?? product.image ?? null}
             labels={{
               enquire: labels.enquire,
               addToQuote: labels.addToQuote,

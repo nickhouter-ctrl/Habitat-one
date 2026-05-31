@@ -22,6 +22,8 @@ export interface QuoteItem {
   variant: string | null;
   /** Variant-SKU (valt terug op de basis-SKU als er geen variant is). */
   sku: string | null;
+  /** Relatieve afbeelding-URL (bv. /products/v/487.jpg), voor de mandje- en mail-thumbnail. */
+  image: string | null;
   qty: number;
 }
 
@@ -31,6 +33,7 @@ type QuoteInput = {
   name: string;
   variant?: string | null;
   sku?: string | null;
+  image?: string | null;
   qty?: number;
 };
 
@@ -67,10 +70,11 @@ function normalize(raw: unknown): QuoteItem[] {
     if (typeof o.slug !== "string" || typeof o.name !== "string") continue;
     const variant = typeof o.variant === "string" ? o.variant : null;
     const sku = typeof o.sku === "string" ? o.sku : null;
+    const image = typeof o.image === "string" ? o.image : null;
     const qty = typeof o.qty === "number" && o.qty > 0 ? Math.floor(o.qty) : 1;
     const key = typeof o.key === "string" ? o.key : keyFor(o.slug, sku, variant);
     if (out.some((i) => i.key === key)) continue;
-    out.push({ key, slug: o.slug, name: o.name, variant, sku, qty });
+    out.push({ key, slug: o.slug, name: o.name, variant, sku, image, qty });
   }
   return out;
 }
@@ -120,6 +124,7 @@ export function QuoteProvider({ children }: { children: ReactNode }) {
               name: input.name,
               variant: input.variant ?? null,
               sku: input.sku ?? null,
+              image: input.image ?? null,
               qty: add,
             },
           ];

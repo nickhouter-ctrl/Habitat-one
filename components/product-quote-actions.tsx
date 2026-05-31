@@ -9,12 +9,14 @@ export function ProductQuoteActions({
   name,
   variant = null,
   sku,
+  image = null,
   labels,
 }: {
   slug: string;
   name: string;
   variant?: string | null;
   sku: string | null;
+  image?: string | null;
   labels: {
     enquire: string;
     addToQuote: string;
@@ -22,7 +24,7 @@ export function ProductQuoteActions({
   };
 }) {
   const { addItem, hasVariant, openQuote } = useQuote();
-  const item = { slug, name, variant, sku };
+  const item = { slug, name, variant, sku, image };
   const added = hasVariant(item);
   return (
     <div className="flex flex-wrap items-center gap-3">

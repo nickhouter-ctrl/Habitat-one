@@ -191,6 +191,10 @@ export function QuoteRequestForm() {
               `${i.name}${i.variant ? ` — ${i.variant}` : ""}${i.qty > 1 ? ` × ${i.qty}` : ""}`,
           ),
           productSlugs: items.map((i) => i.slug),
+          // Absolute URL's zodat de thumbnails in de bevestigingsmail laden.
+          productImages: items.map((i) =>
+            i.image && typeof window !== "undefined" ? `${window.location.origin}${i.image}` : "",
+          ),
           locale,
           source: sourceTag,
         }),
