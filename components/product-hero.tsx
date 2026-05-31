@@ -58,7 +58,12 @@ export function ProductHero({
 
   const activeVariant = hasSwatches ? withImages[variantIdx] : null;
   const skuToShow = activeVariant?.sku ?? product.sku ?? null;
-  const quoteItem = { slug: product.slug, name: labels.productName, sku: skuToShow };
+  const quoteItem = {
+    slug: product.slug,
+    name: labels.productName,
+    variant: activeVariant?.name ?? null,
+    sku: skuToShow,
+  };
   const added = hasItem(product.slug);
 
   return (

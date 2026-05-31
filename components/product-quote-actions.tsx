@@ -7,11 +7,13 @@ import { Magnetic } from "@/components/ui/magnetic";
 export function ProductQuoteActions({
   slug,
   name,
+  variant = null,
   sku,
   labels,
 }: {
   slug: string;
   name: string;
+  variant?: string | null;
   sku: string | null;
   labels: {
     enquire: string;
@@ -21,7 +23,7 @@ export function ProductQuoteActions({
 }) {
   const { addItem, hasItem, openQuote } = useQuote();
   const added = hasItem(slug);
-  const item = { slug, name, sku };
+  const item = { slug, name, variant, sku };
   return (
     <div className="flex flex-wrap items-center gap-3">
       <Magnetic>

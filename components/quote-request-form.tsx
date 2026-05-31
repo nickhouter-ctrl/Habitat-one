@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { X, ArrowUpRight, CheckCircle2 } from "lucide-react";
+import { X, ArrowUpRight, CheckCircle2, Minus, Plus } from "lucide-react";
 import { useQuote } from "@/components/quote-context";
 
 const CRM_API =
@@ -145,7 +145,7 @@ const L: Record<Locale, Labels> = {
 };
 
 export function QuoteRequestForm() {
-  const { items, isOpen, closeQuote, removeItem, clearItems } = useQuote();
+  const { items, isOpen, closeQuote, removeItem, setQty, clearItems } = useQuote();
   const locale = useLocale() as Locale;
   const t = L[locale] ?? L.nl;
   const tNav = useTranslations("nav");
@@ -183,8 +183,13 @@ export function QuoteRequestForm() {
           phone: String(f.get("phone") ?? "") || undefined,
           company: company || undefined,
           message: messageParts.join("\n\n"),
-          productSkus: items.map((i) => i.sku).filter((s): s is string => !!s),
-          productNames: items.map((i) => i.name),
+          // Uitgelijnde parallelle arrays — kleur + aantal zitten in de naam,
+          // de variant-SKU per regel in productSkus (leeg als er geen is).
+          productSkus: items.map((i) => i.sku ?? ""),
+          productNames: items.map(
+            (i) =>
+              `${i.name}${i.variant ? ` — ${i.variant}` : ""}${i.qty > 1 ? ` × ${i.qty}` : ""}`,
+          ),
           productSlugs: items.map((i) => i.slug),
           locale,
           source: sourceTag,
@@ -254,21 +259,47 @@ export function QuoteRequestForm() {
               ) : (
                 <ul className="mt-2 divide-y divide-sand-200">
                   {items.map((it) => (
-                    <li key={it.slug} className="flex items-center justify-between gap-2 py-1.5">
+                    <li key={it.key} className="flex items-center justify-between gap-2 py-2">
                       <span className="min-w-0">
-                        <span className="block truncate text-sm font-medium text-ink">{it.name}</span>
+                        <span className="block truncate text-sm font-medium text-ink">
+                          {it.name}
+                          {it.variant && <span className="text-clay-700"> — {it.variant}</span>}
+                        </span>
                         {it.sku && (
                           <span className="block text-xs text-clay-700/60">{it.sku}</span>
                         )}
                       </span>
-                      <button
-                        type="button"
-                        aria-label={t.removeAria}
-                        onClick={() => removeItem(it.slug)}
-                        className="shrink-0 rounded-full p-1 text-clay-700/60 transition-colors hover:bg-sand-200 hover:text-terracotta-600"
-                      >
-                        <X className="h-4 w-4" />
-                      </button>
+                      <div className="flex shrink-0 items-center gap-1.5">
+                        <div className="flex items-center rounded-full border border-sand-300 bg-cream">
+                          <button
+                            type="button"
+                            aria-label="−"
+                            onClick={() => setQty(it.key, it.qty - 1)}
+                            className="grid h-7 w-7 place-items-center text-clay-700 transition-colors hover:text-terracotta-600"
+                          >
+                            <Minus className="h-3.5 w-3.5" />
+                          </button>
+                          <span className="min-w-[1.6rem] text-center text-sm tabular-nums text-ink">
+                            {it.qty}
+                          </span>
+                          <button
+                            type="button"
+                            aria-label="+"
+                            onClick={() => setQty(it.key, it.qty + 1)}
+                            className="grid h-7 w-7 place-items-center text-clay-700 transition-colors hover:text-terracotta-600"
+                          >
+                            <Plus className="h-3.5 w-3.5" />
+                          </button>
+                        </div>
+                        <button
+                          type="button"
+                          aria-label={t.removeAria}
+                          onClick={() => removeItem(it.key)}
+                          className="rounded-full p-1 text-clay-700/60 transition-colors hover:bg-sand-200 hover:text-terracotta-600"
+                        >
+                          <X className="h-4 w-4" />
+                        </button>
+                      </div>
                     </li>
                   ))}
                 </ul>

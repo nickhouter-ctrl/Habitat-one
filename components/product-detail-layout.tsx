@@ -258,8 +258,8 @@ export function ProductDetailLayout({
 
         {/* Big, clear specifications */}
         <dl className="mt-10 border-t border-ink/15">
-          {product.sku && (
-            <SpecRow label={labels.sku}>{product.sku}</SpecRow>
+          {(activeVariant?.sku ?? product.sku) && (
+            <SpecRow label={labels.sku}>{activeVariant?.sku ?? product.sku}</SpecRow>
           )}
           {product.dimensions && (
             <SpecRow label={labels.dimensions}>
@@ -328,6 +328,7 @@ export function ProductDetailLayout({
           <ProductQuoteActions
             slug={product.slug}
             name={name}
+            variant={activeVariant?.name ?? null}
             sku={activeVariant?.sku ?? product.sku ?? null}
             labels={{
               enquire: labels.enquire,
