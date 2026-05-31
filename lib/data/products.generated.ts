@@ -3231,7 +3231,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 398,
-    "name": "Wood Concrete board - Light Grey",
+    "name": "Wood Concrete Board",
     "slug": "wood-concrete-board-light-grey-1778674932942",
     "sku": "MS-165",
     "short": null,
@@ -3240,7 +3240,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "2950x1130mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/v/487.jpg",
     "featured": false,
     "dimensions": "1130 × 2950 mm",
     "materials": [
@@ -3253,33 +3253,30 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
-    "variants": []
-  },
-  {
-    "id": 399,
-    "name": "Wood Concrete board - Medium grey",
-    "slug": "wood-concrete-board-medium-grey-1778674932942",
-    "sku": "MS-166",
-    "short": null,
-    "description": "2950x1130mm",
-    "descriptionI18n": {
-      "nl": "2950x1130mm"
-    },
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": "1130 × 2950 mm",
-    "materials": [
-      "concrete"
-    ],
-    "spaces": [
-      "living-room",
-      "bedroom",
-      "kitchen"
-    ],
-    "categories": [],
-    "collection": "wall-panels",
-    "variants": []
+    "variants": [
+      {
+        "id": 796,
+        "name": "Light Grey",
+        "colorHex": "#C4C0B8",
+        "sku": "LG",
+        "images": [
+          "/products/v/487.jpg",
+          "/products/v/488.jpg",
+          "/products/v/489.jpg"
+        ]
+      },
+      {
+        "id": 797,
+        "name": "Medium Grey",
+        "colorHex": "#9D988E",
+        "sku": "MG",
+        "images": [
+          "/products/v/490.jpg",
+          "/products/v/491.jpg",
+          "/products/v/492.jpg"
+        ]
+      }
+    ]
   },
   {
     "id": 400,

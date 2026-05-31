@@ -2143,5 +2143,71 @@
     "sort_order": 0,
     "created_at": "2026-03-26T14:04:55.643206+00:00",
     "image_type": "cinematic"
+  },
+  {
+    "id": 487,
+    "product_id": 398,
+    "variant_id": 796,
+    "image_path": "398-variant-796-lightgrey-product.jpg",
+    "alt_text": "Wood Concrete Board — Light Grey",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-05-31T00:00:00+00:00",
+    "image_type": "product"
+  },
+  {
+    "id": 488,
+    "product_id": 398,
+    "variant_id": 796,
+    "image_path": "398-variant-796-lightgrey-livingroom.jpg",
+    "alt_text": "Wood Concrete Board — Light Grey living room",
+    "is_primary": false,
+    "sort_order": 1,
+    "created_at": "2026-05-31T00:00:00+00:00",
+    "image_type": "cinematic"
+  },
+  {
+    "id": 489,
+    "product_id": 398,
+    "variant_id": 796,
+    "image_path": "398-variant-796-lightgrey-curvedhall.jpg",
+    "alt_text": "Wood Concrete Board — Light Grey curved hall",
+    "is_primary": false,
+    "sort_order": 2,
+    "created_at": "2026-05-31T00:00:00+00:00",
+    "image_type": "cinematic"
+  },
+  {
+    "id": 490,
+    "product_id": 398,
+    "variant_id": 797,
+    "image_path": "398-variant-797-mediumgrey-product.jpg",
+    "alt_text": "Wood Concrete Board — Medium Grey",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-05-31T00:00:00+00:00",
+    "image_type": "product"
+  },
+  {
+    "id": 491,
+    "product_id": 398,
+    "variant_id": 797,
+    "image_path": "398-variant-797-mediumgrey-livingroom.jpg",
+    "alt_text": "Wood Concrete Board — Medium Grey living room",
+    "is_primary": false,
+    "sort_order": 1,
+    "created_at": "2026-05-31T00:00:00+00:00",
+    "image_type": "cinematic"
+  },
+  {
+    "id": 492,
+    "product_id": 398,
+    "variant_id": 797,
+    "image_path": "398-variant-797-mediumgrey-bedroom.jpg",
+    "alt_text": "Wood Concrete Board — Medium Grey bedroom",
+    "is_primary": false,
+    "sort_order": 2,
+    "created_at": "2026-05-31T00:00:00+00:00",
+    "image_type": "cinematic"
   }
 ]

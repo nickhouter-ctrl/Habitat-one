@@ -492,10 +492,7 @@
         "name": "Kalkstein-Paneel — White Lime"
       },
       "wood-concrete-board-light-grey-1778674932942": {
-        "name": "Holzbeton-Paneel — Light Grey"
-      },
-      "wood-concrete-board-medium-grey-1778674932942": {
-        "name": "Holzbeton-Paneel — Medium grey"
+        "name": "Wood Concrete Board"
       },
       "wall-hung-basin-kkr-h5060-d-1778674932942": {
         "name": "Wandhängendes Waschbecken"
@@ -516,7 +513,6 @@
         "name": "Außentür 2"
       }
     },
-    "allProducts": "Alle Produkte",
     "spaces": "Räume",
     "allSpaces": "Alle Räume",
     "allMaterials": "Alle Materialien",
@@ -537,6 +533,7 @@
     "exploreMaterials": "Materialien für diesen Raum",
     "exploreProducts": "Produkte für diesen Raum",
     "ideasFor": "Ideen für den",
+    "gallery": "Impressionen",
     "noItems": "Sprechen Sie mit uns über maßgeschneiderte Ideen für diesen Raum.",
     "names": {
       "bathroom": "Badezimmer",

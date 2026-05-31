@@ -6,6 +6,7 @@ import { Reveal, StaggerGroup, StaggerItem } from "@/components/ui/reveal";
 import { SpaceCard } from "@/components/cards/space-card";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { catalogSpaces } from "@/lib/data/catalog";
+import { spaceCover } from "@/lib/data/space-media";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -36,7 +37,7 @@ export default async function SpacesPage({ params }: { params: Promise<{ locale:
           <StaggerGroup className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-2">
             {indoor.map((s, i) => (
               <StaggerItem key={s.slug} className={i === 0 ? "sm:col-span-2" : ""}>
-                <SpaceCard space={s} name={t(`names.${s.slug}`)} environmentLabel={t("indoor")} large={i === 0} />
+                <SpaceCard space={s} name={t(`names.${s.slug}`)} environmentLabel={t("indoor")} large={i === 0} image={spaceCover(s.slug)} />
               </StaggerItem>
             ))}
           </StaggerGroup>
@@ -54,7 +55,7 @@ export default async function SpacesPage({ params }: { params: Promise<{ locale:
           <StaggerGroup className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-2">
             {outdoor.map((s, i) => (
               <StaggerItem key={s.slug} className={i === 0 ? "sm:col-span-2" : ""}>
-                <SpaceCard space={s} name={t(`names.${s.slug}`)} environmentLabel={t("outdoor")} large={i === 0} />
+                <SpaceCard space={s} name={t(`names.${s.slug}`)} environmentLabel={t("outdoor")} large={i === 0} image={spaceCover(s.slug)} />
               </StaggerItem>
             ))}
           </StaggerGroup>

@@ -314,10 +314,7 @@
         "name": "Lime Dacite — White Lime"
       },
       "wood-concrete-board-light-grey-1778674932942": {
-        "name": "Wood Concrete board — Light Grey"
-      },
-      "wood-concrete-board-medium-grey-1778674932942": {
-        "name": "Wood Concrete board — Medium grey"
+        "name": "Wood Concrete Board"
       },
       "wall-hung-basin-kkr-h5060-d-1778674932942": {
         "name": "Wall Hung Basin"
@@ -338,7 +335,6 @@
         "name": "Outside Door 2"
       }
     },
-    "allProducts": "All products",
     "spaces": "Spaces",
     "allSpaces": "All spaces",
     "allMaterials": "All materials",
@@ -359,6 +355,7 @@
     "exploreMaterials": "Materials for this space",
     "exploreProducts": "Products for this space",
     "ideasFor": "Ideas for the",
+    "gallery": "Inspiration",
     "noItems": "Talk to us for tailored ideas for this space.",
     "names": {
       "bathroom": "Bathroom",

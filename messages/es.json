@@ -492,10 +492,7 @@
         "name": "Panel Dacita — White Lime"
       },
       "wood-concrete-board-light-grey-1778674932942": {
-        "name": "Panel Hormigón-Madera — Light Grey"
-      },
-      "wood-concrete-board-medium-grey-1778674932942": {
-        "name": "Panel Hormigón-Madera — Medium grey"
+        "name": "Wood Concrete Board"
       },
       "wall-hung-basin-kkr-h5060-d-1778674932942": {
         "name": "Lavabo Suspendido"
@@ -516,7 +513,6 @@
         "name": "Puerta Exterior 2"
       }
     },
-    "allProducts": "Todos los productos",
     "spaces": "Espacios",
     "allSpaces": "Todos los espacios",
     "allMaterials": "Todos los materiales",
@@ -537,6 +533,7 @@
     "exploreMaterials": "Materiales para este espacio",
     "exploreProducts": "Productos para este espacio",
     "ideasFor": "Ideas para el",
+    "gallery": "Inspiración",
     "noItems": "Habla con nosotros para ideas a medida para este espacio.",
     "names": {
       "bathroom": "Baño",

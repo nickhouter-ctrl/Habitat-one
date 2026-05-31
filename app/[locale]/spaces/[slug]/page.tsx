@@ -13,6 +13,7 @@ import { MaterialCard } from "@/components/cards/material-card";
 import { SpaceCard } from "@/components/cards/space-card";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { catalogSpaces, getSpaceBySlug, getMaterialBySlug, productsForSpace } from "@/lib/data/catalog";
+import { spaceCover, spaceGallery } from "@/lib/data/space-media";
 
 export function generateStaticParams() {
   return catalogSpaces.map((s) => ({ slug: s.slug }));
@@ -44,10 +45,12 @@ export default async function SpaceDetailPage({ params }: { params: Promise<{ lo
   const materials = materialSlugs.map((m) => getMaterialBySlug(m)).filter((m): m is NonNullable<typeof m> => Boolean(m));
   const others = catalogSpaces.filter((s) => s.slug !== slug && s.environment === space.environment).slice(0, 3);
   const envLabel = space.environment === "indoor" ? t("indoor") : t("outdoor");
+  const cover = spaceCover(slug) ?? space.image;
+  const gallery = spaceGallery(slug);
 
   return (
     <>
-      <PageHeader eyebrow={`${t("eyebrow")} · ${envLabel}`} title={name} intro={`${t("ideasFor")} ${name.toLowerCase()}`} image={space.image ?? "/categories/3.jpg"} size="compact">
+      <PageHeader eyebrow={`${t("eyebrow")} · ${envLabel}`} title={name} intro={`${t("ideasFor")} ${name.toLowerCase()}`} image={cover ?? "/categories/3.jpg"} size="compact">
         <div className="mt-7">
           <BackLink href="/spaces" label={t("title")} />
         </div>
@@ -58,8 +61,8 @@ export default async function SpaceDetailPage({ params }: { params: Promise<{ lo
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
             <Reveal>
               <div className="relative aspect-[16/11] overflow-hidden rounded-[2rem] border border-sand-200 shadow-[0_40px_80px_-40px_rgba(84,48,31,0.4)]">
-                {space.image ? (
-                  <Image src={space.image} alt={name} fill sizes="(max-width:1024px) 100vw, 55vw" className="object-cover" />
+                {cover ? (
+                  <Image src={cover} alt={name} fill sizes="(max-width:1024px) 100vw, 55vw" className="object-cover" />
                 ) : (
                   <div className="h-full w-full bg-gradient-to-br from-sea-500 to-olive-700" />
                 )}
@@ -85,8 +88,31 @@ export default async function SpaceDetailPage({ params }: { params: Promise<{ lo
         </Container>
       </Section>
 
-      {products.length > 0 && (
+      {gallery.length > 0 && (
         <Section className="bg-cream">
+          <Container>
+            <h2 className="font-display text-2xl text-ink md:text-3xl">{t("gallery")}</h2>
+            <StaggerGroup className="mt-8 grid grid-cols-1 gap-4 sm:gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {gallery.map((src, i) => (
+                <StaggerItem key={src}>
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-[1.75rem] border border-sand-200">
+                    <Image
+                      src={src}
+                      alt={`${name} — ${i + 1}`}
+                      fill
+                      sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
+                      className="object-cover transition-transform duration-[1.2s] ease-out hover:scale-[1.05]"
+                    />
+                  </div>
+                </StaggerItem>
+              ))}
+            </StaggerGroup>
+          </Container>
+        </Section>
+      )}
+
+      {products.length > 0 && (
+        <Section className="bg-sand-50">
           <Container>
             <h2 className="font-display text-2xl text-ink md:text-3xl">{t("exploreProducts")}</h2>
             <StaggerGroup className="mt-8 grid grid-cols-2 gap-4 sm:gap-5 md:grid-cols-3 lg:grid-cols-4">
@@ -101,7 +127,7 @@ export default async function SpaceDetailPage({ params }: { params: Promise<{ lo
       )}
 
       {materials.length > 0 && (
-        <Section className="bg-sand-50">
+        <Section className="bg-cream">
           <Container>
             <h2 className="font-display text-2xl text-ink md:text-3xl">{t("exploreMaterials")}</h2>
             <StaggerGroup className="mt-8 grid grid-cols-2 gap-4 sm:gap-5 md:grid-cols-4">
@@ -123,18 +149,18 @@ export default async function SpaceDetailPage({ params }: { params: Promise<{ lo
         </Section>
       )}
 
-      <Section className="bg-cream">
+      <Section className="bg-sand-50">
         <Container>
           <h3 className="font-display text-xl text-ink">{t("title")}</h3>
           <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-3">
             {others.map((s) => (
-              <SpaceCard key={s.slug} space={s} name={t(`names.${s.slug}`)} environmentLabel={s.environment === "indoor" ? t("indoor") : t("outdoor")} />
+              <SpaceCard key={s.slug} space={s} name={t(`names.${s.slug}`)} environmentLabel={s.environment === "indoor" ? t("indoor") : t("outdoor")} image={spaceCover(s.slug)} />
             ))}
           </div>
         </Container>
       </Section>
 
-      <CtaBanner image={space.image ?? "/categories/7.jpg"} />
+      <CtaBanner image={cover ?? "/categories/7.jpg"} />
     </>
   );
 }

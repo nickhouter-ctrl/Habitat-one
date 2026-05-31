@@ -492,10 +492,7 @@
         "name": "Kalkpaneel — White Lime"
       },
       "wood-concrete-board-light-grey-1778674932942": {
-        "name": "Houtbeton-paneel — Light Grey"
-      },
-      "wood-concrete-board-medium-grey-1778674932942": {
-        "name": "Houtbeton-paneel — Medium grey"
+        "name": "Wood Concrete Board"
       },
       "wall-hung-basin-kkr-h5060-d-1778674932942": {
         "name": "Wandhangende Wastafel"
@@ -516,7 +513,6 @@
         "name": "Buitendeur 2"
       }
     },
-    "allProducts": "Alle producten",
     "spaces": "Ruimtes",
     "allSpaces": "Alle ruimtes",
     "allMaterials": "Alle materialen",
@@ -537,6 +533,7 @@
     "exploreMaterials": "Materialen voor deze ruimte",
     "exploreProducts": "Producten voor deze ruimte",
     "ideasFor": "Ideeën voor de",
+    "gallery": "Sfeerbeelden",
     "noItems": "Praat met ons voor ideeën op maat voor deze ruimte.",
     "names": {
       "bathroom": "Badkamer",

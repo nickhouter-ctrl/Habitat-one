@@ -11,14 +11,17 @@ export function SpaceCard({
   environmentLabel,
   className,
   large = false,
+  image,
 }: {
   space: CatalogSpace;
   name?: string;
   environmentLabel?: string;
   className?: string;
   large?: boolean;
+  image?: string | null;
 }) {
   const label = name ?? space.name;
+  const cover = image ?? space.image;
   return (
     <TiltCard className={cn("h-full", className)} intensity={6} lift={6}>
       <Link
@@ -28,9 +31,9 @@ export function SpaceCard({
           large ? "aspect-[16/10]" : "aspect-[4/3]",
         )}
       >
-        {space.image ? (
+        {cover ? (
           <Image
-            src={space.image}
+            src={cover}
             alt={label}
             fill
             sizes={large ? "(max-width:1024px) 100vw, 66vw" : "(max-width:640px) 50vw, 33vw"}

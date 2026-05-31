@@ -1664,7 +1664,7 @@
   },
   {
     "id": 398,
-    "name": "Wood Concrete board - Light Grey",
+    "name": "Wood Concrete Board",
     "slug": "wood-concrete-board-light-grey-1778674932942",
     "description": "2950x1130mm",
     "description_i18n": {
@@ -1682,7 +1682,8 @@
     "coverage_value": null,
     "coverage_unit": null,
     "stock_unit": "Pcs",
-    "additional_sizes": null
+    "additional_sizes": null,
+    "is_active": true
   },
   {
     "id": 399,
@@ -1704,7 +1705,8 @@
     "coverage_value": null,
     "coverage_unit": null,
     "stock_unit": "Pcs",
-    "additional_sizes": null
+    "additional_sizes": null,
+    "is_active": false
   },
   {
     "id": 400,
