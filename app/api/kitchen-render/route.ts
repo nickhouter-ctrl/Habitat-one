@@ -28,7 +28,12 @@ export async function POST(req: Request) {
     return Response.json({ ok: false, error: "missing-input" }, { status: 400 });
   }
 
-  const apiKey = process.env.GOOGLE_GENERATIVE_AI_API_KEY;
+  // Accepteer de gangbare namen, zodat een kleine naamsafwijking niet blokkeert.
+  const apiKey =
+    process.env.GOOGLE_GENERATIVE_AI_API_KEY ||
+    process.env.GEMINI_API_KEY ||
+    process.env.GOOGLE_API_KEY ||
+    process.env.GOOGLE_AI_API_KEY;
   if (!apiKey) {
     return Response.json({ ok: false, error: "AI niet geconfigureerd (geen API-sleutel)." }, { status: 500 });
   }
