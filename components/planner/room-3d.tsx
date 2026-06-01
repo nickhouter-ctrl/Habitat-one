@@ -20,7 +20,8 @@ const WORKTOP_THICKNESS_CM = 4;
 const COUNTER_TOP_CM = 80;
 const PLINTH_H = 12;
 const PLINTH_INSET = 4;
-const GAP = 1.6;
+// Smalle voegnaad tussen fronten — strak, greeploos zoals een maatwerkkeuken.
+const GAP = 0.5;
 const RECESS = "#272320";
 const STEEL_LIGHT = "#cdd2d8";
 const GLASS = "#191b1f";
@@ -81,7 +82,10 @@ function itemBottomCm(item: PlacedItem, design: KitchenDesign): number {
 /** Indeling van het front: aantal kolommen en rijen panelen. */
 function frontGrid(carcass: Carcass, layer: "base" | "wall"): { cols: number; rows: number } {
   if (carcass.placement === "hoog") return { cols: 1, rows: 2 };
-  if (layer === "base") return { cols: carcass.b >= 90 ? 2 : 1, rows: 3 };
+  // Onderkasten als strakke deuren (1 deur, brede kasten 2) i.p.v. ladefronten —
+  // greeploos en rustig, zoals een maatwerkkeuken. Lades blijven onder de
+  // kookplaat/spoelbak (zie de cooktop/sink-render hieronder).
+  if (layer === "base") return { cols: carcass.b >= 80 ? 2 : 1, rows: 1 };
   return { cols: carcass.b >= 75 ? 2 : 1, rows: 1 };
 }
 
@@ -678,7 +682,9 @@ function Item({
           emissiveIntensity={emis}
         />
       )}
-      {/* Het apparaat-front zelf — geborsteld metaal. */}
+      {/* Het apparaat-front. Ingebouwde koel/vries + vaatwasser krijgen een
+          geïntegreerd, greeploos front in het kasthout; zichtbare apparaten
+          (oven, magnetron, koffie, wijnkast) houden een geborsteld-metalen front. */}
       <RoundedBox
         args={[w - 6, faceH, 3.4]}
         radius={0.8}
@@ -687,32 +693,34 @@ function Item({
         castShadow
       >
         <meshStandardMaterial
-          color="#c5c8cc"
-          map={metal.map}
-          normalMap={metal.normalMap}
-          metalness={0.6}
-          roughness={0.36}
+          color={tallFace ? panelColor : "#c5c8cc"}
+          map={tallFace ? panelMap : metal.map}
+          normalMap={tallFace ? panelNormal : metal.normalMap}
+          metalness={tallFace ? 0 : 0.6}
+          roughness={tallFace ? 0.5 : 0.36}
           emissive={emissive}
           emissiveIntensity={emis}
         />
       </RoundedBox>
-      {/* Bedieningsstrip bovenaan. */}
-      <mesh position={[0, faceTop - 4, frontZ + 1.8]}>
-        <boxGeometry args={[w - 12, 5, 1.4]} />
-        <meshStandardMaterial color={STEEL_LIGHT} metalness={0.6} roughness={0.28} />
-      </mesh>
-      {/* Glazen venster (oven, magnetron, koffie, wijnkast). */}
-      {hasWindow && faceH > 24 && (
-        <mesh position={[0, faceY - 4, frontZ + 1.9]}>
-          <boxGeometry args={[w - 16, faceH - 16, 1]} />
-          <meshStandardMaterial color={GLASS} metalness={0.3} roughness={0.1} />
-        </mesh>
+      {/* Bedieningsstrip + handgreep alleen op zichtbare (niet-geïntegreerde) apparaten. */}
+      {!tallFace && (
+        <>
+          <mesh position={[0, faceTop - 4, frontZ + 1.8]}>
+            <boxGeometry args={[w - 12, 5, 1.4]} />
+            <meshStandardMaterial color={STEEL_LIGHT} metalness={0.6} roughness={0.28} />
+          </mesh>
+          {hasWindow && faceH > 24 && (
+            <mesh position={[0, faceY - 4, frontZ + 1.9]}>
+              <boxGeometry args={[w - 16, faceH - 16, 1]} />
+              <meshStandardMaterial color={GLASS} metalness={0.3} roughness={0.1} />
+            </mesh>
+          )}
+          <mesh position={[0, faceTop - 9, frontZ + 2.4]}>
+            <boxGeometry args={[w * 0.5, 2.4, 2.4]} />
+            <meshStandardMaterial color={STEEL_LIGHT} metalness={0.7} roughness={0.22} />
+          </mesh>
+        </>
       )}
-      {/* Handgreep. */}
-      <mesh position={[0, faceTop - 9, frontZ + 2.4]}>
-        <boxGeometry args={[w * 0.5, 2.4, 2.4]} />
-        <meshStandardMaterial color={STEEL_LIGHT} metalness={0.7} roughness={0.22} />
-      </mesh>
     </group>
   );
 }
