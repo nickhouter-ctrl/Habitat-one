@@ -625,16 +625,28 @@ function Item({
             <meshStandardMaterial color="#1d1f24" roughness={0.18} metalness={0.2} />
           </RoundedBox>
         ) : (
-          <mesh position={[0, COUNTER_TOP_CM + WORKTOP_THICKNESS_CM - 1, 0]}>
-            <boxGeometry args={[w * 0.6, 9, d * 0.5]} />
-            <meshStandardMaterial
-              color="#cdd2d8"
-              map={metal.map}
-              normalMap={metal.normalMap}
-              metalness={0.6}
-              roughness={0.3}
-            />
-          </mesh>
+          <group>
+            {/* Spoelbak — verzonken bak, vlak in het werkblad */}
+            <RoundedBox
+              args={[Math.min(w * 0.62, 54), 5, d * 0.46]}
+              radius={0.8}
+              smoothness={3}
+              position={[0, COUNTER_TOP_CM + WORKTOP_THICKNESS_CM - 1.2, d * 0.04]}
+              receiveShadow
+            >
+              <meshStandardMaterial color="#41454a" metalness={0.5} roughness={0.45} />
+            </RoundedBox>
+            {/* Kraan — staander */}
+            <mesh position={[0, COUNTER_TOP_CM + WORKTOP_THICKNESS_CM + 13, -d * 0.24]} castShadow>
+              <cylinderGeometry args={[1.1, 1.3, 26, 16]} />
+              <meshStandardMaterial color="#cfd4d9" metalness={0.85} roughness={0.16} />
+            </mesh>
+            {/* Kraan — uitloop boven de bak */}
+            <mesh position={[0, COUNTER_TOP_CM + WORKTOP_THICKNESS_CM + 25, -d * 0.24 + 6]} castShadow>
+              <boxGeometry args={[2, 2, 13]} />
+              <meshStandardMaterial color="#cfd4d9" metalness={0.85} roughness={0.16} />
+            </mesh>
+          </group>
         )}
       </group>
     );
