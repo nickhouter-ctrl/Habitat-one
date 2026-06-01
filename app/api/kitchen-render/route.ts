@@ -33,10 +33,15 @@ export async function POST(req: Request) {
     return Response.json({ ok: false, error: "AI niet geconfigureerd (geen API-sleutel)." }, { status: 500 });
   }
 
-  // De client stuurt een data-URL (data:image/png;base64,XXXX). Splits mime + data.
-  const match = /^data:(?<mime>[^;]+);base64,(?<data>.+)$/s.exec(image);
-  const inlineMime = match?.groups?.mime ?? "image/png";
-  const inlineData = match?.groups?.data ?? image;
+  // De client stuurt een data-URL (data:image/png;base64,XXXX). Splits mime + data
+  // zonder regex (named groups vereisen ES2018+).
+  let inlineMime = "image/png";
+  let inlineData = image;
+  const comma = image.indexOf(",");
+  if (image.startsWith("data:") && comma !== -1) {
+    inlineMime = image.slice(5, comma).split(";")[0] || "image/png";
+    inlineData = image.slice(comma + 1);
+  }
 
   try {
     const res = await fetch(ENDPOINT, {
