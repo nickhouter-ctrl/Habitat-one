@@ -65,15 +65,20 @@ function itemBottomCm(item: PlacedItem, design: KitchenDesign): number {
   if (item.layer === "base") return 0;
   const c = item.carcassId ? getCarcass(item.carcassId) : null;
   if (c && c.placement === "opzet") {
-    const support = design.items.find(
+    // Een opzetkast staat bovenop de kast eronder: op een hoge kast (op de
+    // vloer) op diens hoogte, of op een bovenkast op 145 + diens hoogte.
+    const supports = design.items.filter(
       (o) =>
         o.instanceId !== item.instanceId &&
-        o.layer === "base" &&
         o.carcassId &&
+        (o.layer === "base" || o.layer === "wall") &&
         Math.abs(o.cx - item.cx) < 20 &&
         Math.abs(o.cy - item.cy) < 20,
     );
-    if (support?.carcassId) return getCarcass(support.carcassId)?.h ?? 0;
+    const wallSup = supports.find((o) => o.layer === "wall");
+    if (wallSup?.carcassId) return HANG_HEIGHT_CM + (getCarcass(wallSup.carcassId)?.h ?? 0);
+    const baseSup = supports.find((o) => o.layer === "base");
+    if (baseSup?.carcassId) return getCarcass(baseSup.carcassId)?.h ?? 0;
     return Math.max(0, design.ceilingHeightCm - c.h);
   }
   return HANG_HEIGHT_CM;

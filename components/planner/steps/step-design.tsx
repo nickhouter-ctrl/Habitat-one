@@ -42,7 +42,10 @@ const TYPES_BY_LAYER: Record<CabinetLayer, CarcassType[]> = {
   wall: ["bovenkast", "bovenhoekkast", "opzetkast"],
 };
 
-/** Advies om een hoge kast met een opzetkast tot het plafond af te maken. */
+/** Onderkant van een hangende kast in cm — gelijk aan room-3d (HANG_HEIGHT_CM). */
+const HANG_HEIGHT_CM = 145;
+
+/** Advies om een hoge kast óf bovenkast met een opzetkast tot het plafond af te maken. */
 interface StackAdvice {
   tall: PlacedItem;
   tallCarcass: Carcass;
@@ -55,8 +58,17 @@ function stackAdvice(design: KitchenDesign): StackAdvice[] {
   for (const item of design.items) {
     if (item.kind !== "carcass" || !item.carcassId) continue;
     const c = getCarcass(item.carcassId);
-    if (!c || c.placement !== "hoog") continue;
-    const gapCm = design.ceilingHeightCm - c.h;
+    if (!c) continue;
+    // Hoe hoog reikt deze kast nu? Een hoge kast staat op de vloer; een
+    // bovenkast hangt met de onderkant op HANG_HEIGHT_CM.
+    const topNow =
+      c.placement === "hoog"
+        ? c.h
+        : c.placement === "boven"
+          ? HANG_HEIGHT_CM + c.h
+          : null;
+    if (topNow == null) continue;
+    const gapCm = design.ceilingHeightCm - topNow;
     if (gapCm < 30) continue;
     const alreadyTopped = design.items.some((o) => {
       if (o.instanceId === item.instanceId || !o.carcassId) return false;
@@ -164,9 +176,10 @@ export function StepDesign() {
                 className="flex flex-wrap items-center justify-between gap-2 text-sm"
               >
                 <span className="text-ink-soft">
-                  Een hoge kast van {a.tallCarcass.h} cm laat {a.gapCm} cm vrij tot
-                  het plafond ({design.ceilingHeightCm} cm). Met een opzetkast van{" "}
-                  {a.top.h} cm maak je het helemaal tot het plafond af.
+                  {a.tallCarcass.placement === "boven" ? "Een bovenkast" : "Een hoge kast"} van{" "}
+                  {a.tallCarcass.h} cm laat {a.gapCm} cm vrij tot het plafond (
+                  {design.ceilingHeightCm} cm). Met een opzetkast van {a.top.h} cm
+                  maak je het helemaal tot het plafond af.
                 </span>
                 <button
                   type="button"
