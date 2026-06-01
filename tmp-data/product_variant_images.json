@@ -1762,7 +1762,7 @@
   {
     "id": 366,
     "product_id": 358,
-    "variant_id": 714,
+    "variant_id": 717,
     "image_path": "358-variant-714-1772617629467-0.jpg",
     "alt_text": "",
     "is_primary": false,
@@ -1784,7 +1784,7 @@
   {
     "id": 480,
     "product_id": 358,
-    "variant_id": 716,
+    "variant_id": 714,
     "image_path": "358-variant-716-cinematic-1774196984703-0.jpeg",
     "alt_text": "Cut Stone - Beige - cinematic",
     "is_primary": false,
@@ -1795,7 +1795,7 @@
   {
     "id": 365,
     "product_id": 358,
-    "variant_id": 716,
+    "variant_id": 714,
     "image_path": "358-variant-716-1772617629467-0.jpg",
     "alt_text": "",
     "is_primary": false,
@@ -2209,5 +2209,49 @@
     "sort_order": 2,
     "created_at": "2026-05-31T00:00:00+00:00",
     "image_type": "cinematic"
+  },
+  {
+    "id": 493,
+    "product_id": 338,
+    "variant_id": 658,
+    "image_path": "338-variant-658-493.jpg",
+    "alt_text": "MS Travertino - Pure White",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-06-01T09:30:00+00:00",
+    "image_type": "product"
+  },
+  {
+    "id": 495,
+    "product_id": 360,
+    "variant_id": 726,
+    "image_path": "360-variant-726-495.jpg",
+    "alt_text": "Danxia Rammed Earth Board - Medium Grey",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-06-01T09:30:00+00:00",
+    "image_type": "product"
+  },
+  {
+    "id": 496,
+    "product_id": 361,
+    "variant_id": 736,
+    "image_path": "361-variant-736-496.jpg",
+    "alt_text": "Rampart Rammed Earth Board - White Grey",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-06-01T09:30:00+00:00",
+    "image_type": "product"
+  },
+  {
+    "id": 494,
+    "product_id": 358,
+    "variant_id": 716,
+    "image_path": "358-variant-716-494.jpg",
+    "alt_text": "Cut Stone - Dark Grey",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-06-01T09:30:00+00:00",
+    "image_type": "product"
   }
 ]
