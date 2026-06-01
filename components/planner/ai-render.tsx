@@ -88,14 +88,20 @@ export function AiRenderPanel({
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ image, prompt: buildPrompt(design) }),
       });
-      const data = (await res.json()) as { ok?: boolean; image?: string };
+      const data = (await res.json()) as { ok?: boolean; image?: string; error?: string };
       if (!res.ok || !data.ok || !data.image) {
-        setError("Het genereren is niet gelukt. Probeer het zo nog eens.");
+        console.error("[kitchen-render] mislukt:", res.status, data.error);
+        setError(
+          data.error
+            ? `Het genereren is niet gelukt — ${data.error}`
+            : "Het genereren is niet gelukt. Probeer het zo nog eens.",
+        );
       } else {
         setResult(data.image);
       }
-    } catch {
-      setError("Er ging iets mis bij het genereren.");
+    } catch (err) {
+      console.error("[kitchen-render] netwerkfout:", err);
+      setError(`Er ging iets mis bij het genereren${err instanceof Error ? ` — ${err.message}` : ""}.`);
     } finally {
       setLoading(false);
     }
