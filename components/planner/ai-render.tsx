@@ -23,7 +23,10 @@ function wallLabel(w: WallSide): string {
 /** Bouwt de beschrijving voor de beeld-AI uit het ontwerp. */
 function buildPrompt(design: KitchenDesign): string {
   const style = getFrontStyle(design.frontStyleId)?.label ?? "vlakke";
-  const finish = getFrontFinish(design.frontFinishId)?.label;
+  const finishObj = getFrontFinish(design.frontFinishId);
+  const finish = finishObj?.label;
+  const isWood = !!finishObj?.isWood;
+  const hasIsland = design.items.some((i) => i.wall === null);
   const openings = design.openings.map(
     (o) => `${o.kind === "window" ? "een raam" : "een deur"} aan de ${wallLabel(o.wall)}`,
   );
@@ -35,15 +38,23 @@ function buildPrompt(design: KitchenDesign): string {
     ),
   ];
   return [
-    "Maak van deze ruwe 3D-keukenweergave een fotorealistische interieurfoto.",
+    "Maak van deze ruwe 3D-keukenweergave een strakke, fotorealistische keukenvisualisatie",
+    "in de stijl van een professionele architectuur-render.",
     "Behoud exact dezelfde indeling, kast- en apparaatposities, kleuren, raam- en",
     "deurposities en camerahoek.",
-    `De kastfronten zijn in ${style} stijl${finish ? ` met een ${finish} afwerking` : ""}.`,
-    appliances.length ? `Apparatuur: ${appliances.join(", ")}.` : "",
+    `De kastfronten zijn greeploos in ${style} stijl${finish ? ` met een ${finish} afwerking` : ""}.`,
+    isWood
+      ? "Doorlopende, natuurlijke verticale houtnerf over de fronten; aangrenzende kasten lopen mooi in de nerf door."
+      : "Egale, matte gespoten fronten met een fluweelzachte afwerking.",
+    hasIsland
+      ? "Het keukeneiland heeft een strak werkblad met waterval-zijkanten die tot de vloer doorlopen."
+      : "",
+    "Een slank, strak werkblad en een rustige, ingetogen spatwand in een zachte tint.",
+    appliances.length ? `Apparatuur, naadloos geïntegreerd: ${appliances.join(", ")}.` : "",
     openings.length ? `De ruimte heeft ${openings.join(" en ")}.` : "",
-    "Natuurlijk daglicht, zachte schaduwen, professionele interieurfotografie,",
-    "fotorealistisch, veel detail, warme moderne mediterrane keuken.",
-    "Geen tekst of watermerk.",
+    "Zacht natuurlijk daglicht, zachte realistische schaduwen, een neutrale lichte",
+    "achtergrond, rustige moderne mediterrane sfeer, fotorealistisch, scherp en veel detail.",
+    "Geen tekst, geen maatlijnen, geen watermerk.",
   ]
     .filter(Boolean)
     .join(" ");
