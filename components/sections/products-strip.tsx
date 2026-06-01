@@ -94,7 +94,7 @@ export function ProductsStrip({ products }: { products: CatalogProduct[] }) {
                 className="mt-4"
               >
                 <p className="text-[0.66rem] uppercase tracking-[0.22em] text-ink-soft/70">
-                  {p.sku ?? "Magic Flexible Stone"}
+                  {p.sku ?? "Flexibel Stone"}
                 </p>
                 <h3 className="mt-1.5 text-[0.95rem] font-medium leading-snug text-ink md:text-base">
                   {name}

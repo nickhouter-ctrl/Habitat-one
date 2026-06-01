@@ -61,17 +61,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const tn = await getTranslations("nav");
   const tp = await getTranslations("projects");
 
-  // MagicStone (wall-panels) — prefer products with imagery and colour variants
+  // Flexibel Stone (wall-panels) — prefer products with imagery and colour variants
   const magicAll = productsByCollection("wall-panels");
   const magicWithImg = magicAll.filter((p) => p.image);
   const magicFeatured = [...magicWithImg]
     .sort((a, b) => (b.variants.length > 1 ? 1 : 0) - (a.variants.length > 1 ? 1 : 0))
     .slice(0, 10);
-  // MagicStone signature block — the flexibility USP (hands bending the panel).
-  // Shown uncropped (16:9) so the "Magic Flexible Stone" mark stays visible.
+  // Flexibel Stone signature block — the flexibility USP (hands bending the panel).
+  // Shown uncropped (16:9) so the "Flexibel Stone" mark stays visible.
   const magicHero = "/products/magic/usp-hand-flex.png";
 
-  // Featured MagicStone products — cinematic scroll-pinned stories (real video).
+  // Featured Flexibel Stone products — cinematic scroll-pinned stories (real video).
   // Story 1 = Concrete Board · Mid Gray. Story 2 = Travertino · Beige.
   const story1Product = getProductBySlug("concrete-board-");
   const story2Product = getProductBySlug("ms-travertino");
@@ -93,8 +93,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <>
       <Hero />
 
-      {/* ---- MagicStone — the signature collection ---- */}
-      <Section chapter="MagicStone" className="bg-paper py-20 md:py-32">
+      {/* ---- Flexibel Stone — the signature collection ---- */}
+      <Section chapter="Flexibel Stone" className="bg-paper py-20 md:py-32">
         <Container>
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1fr_1.1fr] lg:items-center lg:gap-20">
             <div>
@@ -141,7 +141,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               <CurtainReveal className="aspect-[16/9] w-full">
                 <Image
                   src={magicHero}
-                  alt="Magic Flexible Stone — buigzaam paneel"
+                  alt="Flexibel Stone — buigzaam paneel"
                   fill
                   sizes="(max-width:1024px) 90vw, 50vw"
                   className="object-cover"
@@ -152,7 +152,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
-      {/* ---- MagicStone product strip — horizontal scroll, hover-grow ---- */}
+      {/* ---- Flexibel Stone product strip — horizontal scroll, hover-grow ---- */}
       <Section chapter="Collection" className="bg-background py-20 md:py-28">
         <Container>
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
@@ -252,7 +252,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       {/* ---- Trust strip (typographic only) ---- */}
       <div className="border-y border-ink/10 bg-paper">
         <div className="container-x flex flex-wrap items-center justify-center gap-x-10 gap-y-3 py-6 text-[0.7rem] uppercase tracking-[0.32em] text-ink-soft/75">
-          {["Xàbia · Jávea", "Magic Flexible Stone", "Travertino", "Microcemento", "Solid Surface", "Terrazzo"].map((s) => (
+          {["Xàbia · Jávea", "Flexibel Stone", "Travertino", "Microcemento", "Solid Surface", "Terrazzo"].map((s) => (
             <span key={s}>{s}</span>
           ))}
         </div>
@@ -346,7 +346,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </Section>
 
       {/* ---- Closing clip — full-bleed video band near the bottom ---- */}
-      <section className="relative w-full overflow-hidden bg-ink" data-chapter="MagicStone">
+      <section className="relative w-full overflow-hidden bg-ink" data-chapter="Flexibel Stone">
         <video
           autoPlay
           muted

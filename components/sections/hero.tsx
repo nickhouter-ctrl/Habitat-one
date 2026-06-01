@@ -11,7 +11,7 @@ import { CountUp } from "@/components/ui/count-up";
 import { MaskReveal } from "@/components/ui/mask-reveal";
 import { Magnetic } from "@/components/ui/magnetic";
 
-// Magic Flexible Stone — calm Mediterranean interiors that auto-crossfade.
+// Flexibel Stone — calm Mediterranean interiors that auto-crossfade.
 const HERO_IMAGES = [
   "/products/magic/concrete-board-pure-white-hero.png",
   "/products/magic/ms-travertino-light-grey-interior.png",
@@ -65,7 +65,7 @@ export function Hero() {
             <div className="absolute inset-0 animate-ken-burns is-visible">
               <Image
                 src={HERO_IMAGES[slide]}
-                alt="Magic Flexible Stone — interieur"
+                alt="Flexibel Stone — interieur"
                 fill
                 priority={slide === 0}
                 sizes="100vw"

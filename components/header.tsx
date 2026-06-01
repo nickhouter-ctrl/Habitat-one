@@ -43,7 +43,7 @@ export function Header() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   // Uitklapmenu's met de bestaande site-inhoud.
-  // Elke collectie heeft een eigen luxe pagina: MagicStone op /products
+  // Elke collectie heeft een eigen luxe pagina: Flexibel Stone op /products
   // (primair), andere collecties op /products/{id}.
   const productItems: DropItem[] = [
     ...collections.map((c) => ({

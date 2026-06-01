@@ -56,7 +56,7 @@ export function PageVeil() {
               Habitat One
             </span>
             <span className="font-sans text-3xl font-medium leading-none tracking-[-0.02em] sm:text-4xl">
-              Magic Flexible Stone
+              Flexibel Stone
             </span>
             <span className="text-[0.62rem] uppercase tracking-[0.32em] text-ink-soft/70">
               Xàbia · Costa Blanca

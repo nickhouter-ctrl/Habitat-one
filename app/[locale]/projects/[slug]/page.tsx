@@ -74,7 +74,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                 {t("eyebrow")}
               </span>
               <p className="mt-3 text-[0.78rem] font-medium uppercase tracking-[0.22em] text-ink">
-                Magic Flexible Stone
+                Flexibel Stone
               </p>
               <dl className="mt-8 space-y-4 border-t border-ink/15 pt-6">
                 <Row label={t("location")}>{project.location}</Row>
@@ -125,7 +125,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
       {project.gallery.length > 0 && (
         <ProjectShowcase
           images={project.gallery}
-          identifier="Magic Flexible Stone"
+          identifier="Flexibel Stone"
           title={project.title}
         />
       )}

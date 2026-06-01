@@ -9,7 +9,7 @@ export type Collection = CatalogProduct["collection"];
 // (The catalog's own categories don't cleanly map to our three storefront
 //  collections, so a handful of products need to be re-bucketed by hand.)
 const COLLECTION_OVERRIDES: Record<string, Collection> = {
-  // Magic Flexibel Stone wall panels miscategorised as bathroom
+  // Flexibel Stone wall panels miscategorised as bathroom
   "ms-travertino": "wall-panels",
   // Small bathroom accessories — belong in "Accessories", not the fixtures bucket
   "solid-surface-bathroom-tray-250-250-25-1765881448962": "accessories",
@@ -511,7 +511,7 @@ export const productMedia: Record<string, ProductMedia> = {
       "medium grey": [`${MAGIC}/ms-travertino-medium-grey.mp4`, `${MAGIC}/ms-travertino-medium-grey-2.mp4`],
       "light grey": [`${MAGIC}/ms-travertino-light-grey.mp4`, `${MAGIC}/ms-travertino-light-grey-2.mp4`],
     },
-    // Flex hero (with the Magic Flexible Stone mark) + two in-situ rooms.
+    // Flex hero (with the Flexibel Stone mark) + two in-situ rooms.
     context: [
       `${MAGIC}/ms-travertino-beige-hero.png`,
       `${MAGIC}/ms-travertino-light-grey-interior.png`,
@@ -669,9 +669,9 @@ export function getProductMedia(slug: string): ProductMedia | null {
 
 /**
  * Every in-situ render scene (living rooms, façades, bathrooms…) across the
- * MagicStone (wall-panels) range — pulled from each product's curated context
+ * Flexibel Stone (wall-panels) range — pulled from each product's curated context
  * imagery, labelled with the product name and linked to the product. Used for
- * the big lookbook on the MagicStone page.
+ * the big lookbook on the Flexibel Stone page.
  */
 export function magicSceneGallery(): { src: string; label: string; href: string }[] {
   const seen = new Set<string>();

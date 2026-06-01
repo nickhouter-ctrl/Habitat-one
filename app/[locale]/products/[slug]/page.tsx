@@ -61,10 +61,10 @@ const collectionKey = {
 } as const;
 
 const collectionIdentifierPrefix: Record<string, string> = {
-  "wall-panels": "Magic Flexible Stone",
+  "wall-panels": "Flexibel Stone",
   "backer-boards": "XPS · Backer Boards",
   bathroom: "Solid Surface · Bathroom",
-  doors: "Magic Flexible Stone · Doors",
+  doors: "Flexibel Stone · Doors",
   accessories: "Accessories",
   "door-accessories": "Door details",
 };

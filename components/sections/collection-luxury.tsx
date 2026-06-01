@@ -25,10 +25,10 @@ const collectionKey: Record<string, string> = {
 };
 
 const identifierPrefix: Record<string, string> = {
-  "wall-panels": "Magic Flexible Stone · Collections",
+  "wall-panels": "Flexibel Stone · Collections",
   "backer-boards": "XPS · Backer Boards",
   bathroom: "Solid Surface · Bathroom",
-  doors: "Magic Flexible Stone · Doors",
+  doors: "Flexibel Stone · Doors",
   accessories: "Accessories",
   "door-accessories": "Door details",
 };
@@ -42,11 +42,11 @@ const descriptionKey: Record<string, string> = {
   "door-accessories": "chapterDescriptionDoorAccessories",
 };
 
-// Big, full-width render scenes that "fall down" the MagicStone gallery —
+// Big, full-width render scenes that "fall down" the Flexibel Stone gallery —
 // different products and colours, in real spaces, for a luxe lookbook feel.
 const MAGIC_GALLERY: { src: string; label: string; video?: boolean }[] = [
-  { src: "/products/magic/magic-gallery-intro.mp4", label: "Magic Flexible Stone", video: true },
-  { src: "/products/magic/magic-gallery-reveal.mp4", label: "Magic Flexible Stone", video: true },
+  { src: "/products/magic/magic-gallery-intro.mp4", label: "Flexibel Stone", video: true },
+  { src: "/products/magic/magic-gallery-reveal.mp4", label: "Flexibel Stone", video: true },
   { src: "/products/magic/concrete-board-pure-white-hero.png", label: "Concrete Board · Pure White" },
   { src: "/products/magic/ms-travertino-light-grey-interior.png", label: "MS Travertino · Light Grey" },
   { src: "/products/magic/huge-travertine-gradient-yellow-exterior.png", label: "Huge Travertine · Gradient Yellow" },
@@ -59,7 +59,7 @@ const MAGIC_GALLERY: { src: string; label: string; video?: boolean }[] = [
 
 /**
  * Renders a full editorial luxury page for a single product collection.
- * Used at /products (MagicStone) and at /products/{bathroom,doors,…}.
+ * Used at /products (Flexibel Stone) and at /products/{bathroom,doors,…}.
  */
 export async function CollectionLuxuryPage({
   collectionId,
@@ -91,7 +91,7 @@ export async function CollectionLuxuryPage({
 
   const otherCollections = collections.filter((c) => c.id !== collectionId);
   const isMagic = collectionId === "wall-panels";
-  // All in-situ render scenes across the range — the MagicStone lookbook grid.
+  // All in-situ render scenes across the range — the Flexibel Stone lookbook grid.
   const sceneGallery = isMagic ? magicSceneGallery() : [];
   // Hero slideshow — the override scene first, then a few big in-situ renders.
   const heroSlides = [
@@ -165,7 +165,7 @@ export async function CollectionLuxuryPage({
       </section>
 
       {/* ---- Editorial intro — sticky identifier + big subhead ----
-           Hidden on the MagicStone page: there we go straight from the hero
+           Hidden on the Flexibel Stone page: there we go straight from the hero
            into the products. Other collection pages keep the intro. */}
       {!isMagic && (
       <section className="bg-paper py-20 md:py-28" data-chapter={t("aboutThisProduct")}>
@@ -297,7 +297,7 @@ export async function CollectionLuxuryPage({
         </section>
       )}
 
-      {/* ---- MagicStone: in-situ lookbook · otherwise: other collections ---- */}
+      {/* ---- Flexibel Stone: in-situ lookbook · otherwise: other collections ---- */}
       {isMagic ? (
         <section className="border-t border-ink/10 bg-background py-20 md:py-28" data-chapter={t("lookbookTitle")}>
           <div className="container-x">
