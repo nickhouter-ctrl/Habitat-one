@@ -125,6 +125,7 @@ export function Header() {
             onClose={() => setOpen(false)}
             isActive={isActive}
             t={t}
+            dropdowns={dropdowns}
           />
         )}
       </AnimatePresence>
@@ -207,12 +208,16 @@ function MobileMenu({
   onClose,
   isActive,
   t,
+  dropdowns,
 }: {
   onClose: () => void;
   isActive: (href: string) => boolean;
   t: ReturnType<typeof useTranslations>;
+  dropdowns: Record<string, DropItem[]>;
 }) {
   const { items, openQuote } = useQuote();
+  // Welke menukop staat uitgeklapt (één tegelijk). Standaard dicht.
+  const [expanded, setExpanded] = useState<string | null>(null);
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -232,26 +237,82 @@ function MobileMenu({
         <div className="container-x">
           <SearchBar placeholder={t("searchPlaceholder")} className="flex" />
           <nav className="mt-5 flex flex-col">
-            {primaryNav.map((item, i) => (
-              <motion.div
-                key={item.href}
-                initial={{ opacity: 0, x: -16 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.06 + i * 0.04 }}
-              >
-                <Link
-                  href={item.href}
-                  onClick={onClose}
-                  className={cn(
-                    "flex items-baseline justify-between border-b border-sand-200 py-4 text-2xl",
-                    isActive(item.href) ? "text-terracotta-700" : "text-ink",
-                  )}
+            {primaryNav.map((item, i) => {
+              const sub = dropdowns[item.labelKey];
+              const hasSub = !!sub && sub.length > 0;
+              const isOpen = expanded === item.labelKey;
+              return (
+                <motion.div
+                  key={item.href}
+                  initial={{ opacity: 0, x: -16 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.06 + i * 0.04 }}
+                  className="border-b border-sand-200"
                 >
-                  <span>{t(item.labelKey)}</span>
-                  <ArrowUpRight className="h-4 w-4 text-terracotta-500" />
-                </Link>
-              </motion.div>
-            ))}
+                  {hasSub ? (
+                    <>
+                      {/* Kop tikt open/dicht i.p.v. meteen door te linken,
+                          zodat je op mobiel een categorie kunt kiezen. */}
+                      <button
+                        type="button"
+                        onClick={() =>
+                          setExpanded((v) => (v === item.labelKey ? null : item.labelKey))
+                        }
+                        aria-expanded={isOpen}
+                        className={cn(
+                          "flex w-full items-center justify-between py-4 text-2xl",
+                          isActive(item.href) ? "text-terracotta-700" : "text-ink",
+                        )}
+                      >
+                        <span>{t(item.labelKey)}</span>
+                        <ChevronDown
+                          className={cn(
+                            "h-5 w-5 text-terracotta-500 transition-transform duration-200",
+                            isOpen && "rotate-180",
+                          )}
+                        />
+                      </button>
+                      <AnimatePresence initial={false}>
+                        {isOpen && (
+                          <motion.div
+                            initial={{ height: 0, opacity: 0 }}
+                            animate={{ height: "auto", opacity: 1 }}
+                            exit={{ height: 0, opacity: 0 }}
+                            transition={{ duration: 0.22 }}
+                            className="overflow-hidden"
+                          >
+                            <div className="flex flex-col gap-0.5 pb-3 pl-1">
+                              {sub.map((it) => (
+                                <Link
+                                  key={it.href}
+                                  href={it.href}
+                                  onClick={onClose}
+                                  className="rounded-lg px-3 py-2.5 text-base text-ink-soft transition-colors hover:bg-sand-100 hover:text-ink"
+                                >
+                                  {it.label}
+                                </Link>
+                              ))}
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      onClick={onClose}
+                      className={cn(
+                        "flex items-baseline justify-between py-4 text-2xl",
+                        isActive(item.href) ? "text-terracotta-700" : "text-ink",
+                      )}
+                    >
+                      <span>{t(item.labelKey)}</span>
+                      <ArrowUpRight className="h-4 w-4 text-terracotta-500" />
+                    </Link>
+                  )}
+                </motion.div>
+              );
+            })}
           </nav>
           <button
             type="button"
