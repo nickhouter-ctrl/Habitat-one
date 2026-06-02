@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowUpRight, ChevronDown, Menu, Search, X } from "lucide-react";
+import { ArrowUpRight, CalendarCheck, ChevronDown, Menu, Search, X } from "lucide-react";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { catalogSpaces, collections } from "@/lib/data/catalog";
 import { services } from "@/lib/data/services";
@@ -77,6 +77,13 @@ export function Header() {
 
           <div className="ml-auto flex items-center gap-2 sm:ml-0 md:gap-3">
             <LanguageSwitcher dark />
+            <Link
+              href="/showroom"
+              className="hidden items-center gap-2 border border-ink px-4 py-2.5 text-[0.72rem] font-medium uppercase tracking-[0.16em] text-ink transition-colors hover:bg-ink hover:text-paper md:inline-flex"
+            >
+              <CalendarCheck className="h-3.5 w-3.5" />
+              {t("showroom")}
+            </Link>
             <button
               type="button"
               onClick={openQuote}
@@ -331,6 +338,14 @@ function MobileMenu({
               <ArrowUpRight className="h-4 w-4" />
             )}
           </button>
+          <Link
+            href="/showroom"
+            onClick={onClose}
+            className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-full border border-clay-700 px-5 py-3.5 text-sm font-semibold text-clay-800"
+          >
+            <CalendarCheck className="h-4 w-4" />
+            {t("showroom")}
+          </Link>
         </div>
       </motion.div>
     </motion.div>
