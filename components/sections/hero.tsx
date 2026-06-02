@@ -74,8 +74,9 @@ export function Hero() {
             </div>
           </motion.div>
         </AnimatePresence>
-        {/* Quiet darkening so the headline reads on most photos */}
-        <div className="absolute inset-0 bg-gradient-to-b from-ink/10 via-transparent to-ink/55" />
+        {/* Quiet darkening so the headline reads on most photos — a touch
+            stronger at the foot where the text sits, incl. bright slides. */}
+        <div className="absolute inset-0 bg-gradient-to-b from-ink/20 via-ink/5 to-ink/75" />
 
         <motion.div
           style={{ y: textY, opacity: fade }}
@@ -103,7 +104,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.25 }}
-            className="mt-6 max-w-xl text-base leading-relaxed text-paper/80 md:text-lg"
+            className="mt-6 max-w-xl text-base leading-relaxed text-paper/90 md:text-lg"
           >
             {t("subtitle")}
           </motion.p>
@@ -137,7 +138,8 @@ export function Hero() {
               type="button"
               onClick={() => setSlide(i)}
               aria-label={`Slide ${i + 1}`}
-              className="group p-1"
+              aria-current={i === slide}
+              className="group flex items-center px-1.5 py-3"
             >
               <span
                 className={

@@ -118,7 +118,7 @@ export async function CollectionLuxuryPage({
               <Image src={heroImage} alt={title} fill priority sizes="100vw" className="object-cover" />
             </div>
           )}
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink/15 via-transparent to-ink/55" />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink/20 via-ink/5 to-ink/72" />
 
           <div className="container-x relative z-10 flex h-full flex-col justify-between pt-28 pb-14 md:pb-20">
             <div className="flex items-start justify-between">
