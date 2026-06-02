@@ -12,6 +12,7 @@ import { PageVeil } from "@/components/ui/page-veil";
 import { ChapterIndicator } from "@/components/ui/chapter-indicator";
 import { QuoteProvider } from "@/components/quote-context";
 import { QuoteRequestForm } from "@/components/quote-request-form";
+import { JsonLd, localBusinessJsonLd } from "@/components/seo/json-ld";
 import "../globals.css";
 
 const montserrat = Montserrat({
@@ -81,6 +82,7 @@ export default async function LocaleLayout({
       className={`${montserrat.variable} ${cormorant.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-background text-ink antialiased">
+        <JsonLd data={localBusinessJsonLd} />
         <NextIntlClientProvider>
           <QuoteProvider>
             <PageVeil />

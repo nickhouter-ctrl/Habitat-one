@@ -12,6 +12,7 @@ import { BackLink } from "@/components/ui/back-link";
 import { ProductCard } from "@/components/cards/product-card";
 import { ProductDetailLayout } from "@/components/product-detail-layout";
 import { CtaBanner } from "@/components/sections/cta-banner";
+import { JsonLd } from "@/components/seo/json-ld";
 import {
   catalogProducts,
   getProductBySlug,
@@ -120,8 +121,21 @@ export default async function ProductDetailPage({
   const collectionLabel = t(collectionKey[product.collection]);
   const backHref = collectionLandingHref[product.collection] ?? "/products/all";
 
+  const productJsonLd: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    description: lead ?? description ?? undefined,
+    image: `https://habitat-one.com${heroImage}`,
+    sku: product.sku ?? undefined,
+    category: collectionLabel,
+    brand: { "@type": "Brand", name: "Habitat One" },
+    url: `https://habitat-one.com/products/${slug}`,
+  };
+
   return (
     <>
+      <JsonLd data={productJsonLd} />
       {/* ---- Quiet header — back-link + breadcrumb ---- */}
       <section className="bg-paper pt-24 pb-4 md:pt-28">
         <div className="container-x">
