@@ -189,13 +189,22 @@
   }
   .container-x {
     width: 100%;
-    max-width: 84rem;
+    /* Grow with the viewport instead of stopping at a fixed width — on wide
+       screens the content keeps using the space (up to a calm editorial cap)
+       rather than leaving big empty margins. Normal laptops are unaffected. */
+    max-width: 110rem;
     margin-inline: auto;
     padding-inline: 1.25rem;
   }
   @media (min-width: 768px) {
     .container-x {
       padding-inline: 2rem;
+    }
+  }
+  /* Roomier side padding on very wide screens so it breathes. */
+  @media (min-width: 1536px) {
+    .container-x {
+      padding-inline: 3rem;
     }
   }
 
