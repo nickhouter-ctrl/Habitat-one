@@ -13,6 +13,7 @@ import { MaskReveal } from "@/components/ui/mask-reveal";
 import { CurtainReveal } from "@/components/ui/curtain-reveal";
 import { Magnetic } from "@/components/ui/magnetic";
 import { BeforeAfter } from "@/components/ui/before-after";
+import { LazyVideo } from "@/components/ui/lazy-video";
 import { getProductBySlug, productsByCollection } from "@/lib/data/catalog";
 import { projects } from "@/lib/data/projects";
 
@@ -347,16 +348,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
       {/* ---- Closing clip — full-bleed video band near the bottom ---- */}
       <section className="relative w-full overflow-hidden bg-ink" data-chapter="Flexibel Stone">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
+        <LazyVideo
+          src="/products/magic/home-story-3.mp4"
           poster="/products/magic/concrete-board-pure-white-hero.png"
           className="h-[80svh] min-h-[520px] w-full object-cover"
-        >
-          <source src="/products/magic/home-story-3.mp4" type="video/mp4" />
-        </video>
+        />
       </section>
 
       <CtaBanner videoSrc="/products/magic/cta-magicstone.mp4" />

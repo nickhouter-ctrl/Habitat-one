@@ -3,6 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
+import { LazyVideo } from "@/components/ui/lazy-video";
 
 export async function CtaBanner({
   image = "/scenery/sunset-terrace.jpg",
@@ -16,16 +17,11 @@ export async function CtaBanner({
   return (
     <section className="relative isolate overflow-hidden bg-ink text-paper">
       {videoSrc ? (
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
+        <LazyVideo
+          src={videoSrc}
           poster={image}
           className="absolute inset-0 h-full w-full object-cover opacity-35"
-        >
-          <source src={videoSrc} type="video/mp4" />
-        </video>
+        />
       ) : (
         <Image src={image} alt="" fill className="object-cover opacity-30" sizes="100vw" />
       )}

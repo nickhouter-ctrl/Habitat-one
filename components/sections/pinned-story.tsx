@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Magnetic } from "@/components/ui/magnetic";
+import { LazyVideo } from "@/components/ui/lazy-video";
 
 export interface StoryLine {
   heading: string;
@@ -49,16 +50,11 @@ export function PinnedStorySection({
       {/* Pinned background — fills the viewport while the section scrolls past */}
       <div className="sticky top-0 h-svh w-full overflow-hidden">
         {videoSrc ? (
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
+          <LazyVideo
+            src={videoSrc}
             poster={posterImage}
             className="absolute inset-0 h-full w-full object-cover"
-          >
-            <source src={videoSrc} type="video/mp4" />
-          </video>
+          />
         ) : (
           <Image
             src={posterImage}

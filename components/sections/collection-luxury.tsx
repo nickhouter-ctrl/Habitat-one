@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { BackLink } from "@/components/ui/back-link";
 import { CurtainReveal } from "@/components/ui/curtain-reveal";
+import { LazyVideo } from "@/components/ui/lazy-video";
 import { MaskReveal } from "@/components/ui/mask-reveal";
 import { HeroSlideshow } from "@/components/ui/hero-slideshow";
 import { ProductsStrip } from "@/components/sections/products-strip";
@@ -270,15 +271,10 @@ export async function CollectionLuxuryPage({
                 ? MAGIC_GALLERY.map((item, i) => (
                     <CurtainReveal key={`${item.src}-${i}`} delay={i * 0.04} className="aspect-[16/10]">
                       {item.video ? (
-                        <video
-                          autoPlay
-                          muted
-                          loop
-                          playsInline
+                        <LazyVideo
+                          src={item.src}
                           className="absolute inset-0 h-full w-full object-cover"
-                        >
-                          <source src={item.src} type="video/mp4" />
-                        </video>
+                        />
                       ) : (
                         <Image src={item.src} alt={item.label} fill sizes="100vw" className="object-cover" />
                       )}
