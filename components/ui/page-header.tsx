@@ -42,7 +42,7 @@ export function PageHeader({
             </Reveal>
           )}
           <Reveal delay={0.05}>
-            <h1 className="mt-4 font-display text-4xl font-semibold leading-[1.05] text-cream drop-shadow-[0_2px_18px_rgba(8,30,36,0.5)] sm:text-5xl md:text-6xl">
+            <h1 className="mt-4 text-4xl font-medium tracking-[-0.02em] leading-[1.05] text-cream drop-shadow-[0_2px_18px_rgba(8,30,36,0.5)] sm:text-5xl md:text-6xl">
               {title}
             </h1>
           </Reveal>

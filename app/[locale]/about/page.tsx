@@ -38,7 +38,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             <div className="flex flex-col gap-7 md:flex-row md:gap-12">
               <div className="md:w-[20rem] md:shrink-0">
                 <Reveal>
-                  <h1 className="font-display text-[clamp(2.6rem,9vw,4.2rem)] font-semibold leading-[0.92] text-clay-700">
+                  <h1 className="text-[clamp(2.6rem,9vw,4.2rem)] font-medium tracking-[-0.02em] leading-[0.92] text-clay-700">
                     {t("title")}
                   </h1>
                 </Reveal>

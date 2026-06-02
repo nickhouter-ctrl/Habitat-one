@@ -53,7 +53,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
                 <Icon name={service.icon} className="h-3.5 w-3.5" />
                 {t("eyebrow")}
               </span>
-              <h1 className="mt-4 font-display text-4xl font-semibold leading-[1.05] text-cream sm:text-5xl md:text-6xl">
+              <h1 className="mt-4 text-4xl font-medium tracking-[-0.02em] leading-[1.05] text-cream sm:text-5xl md:text-6xl">
                 {loc(service.title, locale)}
               </h1>
               <p className="mt-5 text-lg text-cream/85">{loc(service.tagline, locale)}</p>
