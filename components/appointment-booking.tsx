@@ -76,6 +76,8 @@ export function AppointmentBooking() {
           locale,
           source: `website:appointment${role ? `:${role}` : ""}`,
           kind: "appointment",
+          appointmentDate: date ?? undefined,
+          appointmentTime: time ?? undefined,
         }),
       });
       if (!res.ok) {

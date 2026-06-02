@@ -82,7 +82,7 @@ export function Header() {
               className="hidden items-center gap-2 border border-ink px-4 py-2.5 text-[0.72rem] font-medium uppercase tracking-[0.16em] text-ink transition-colors hover:bg-ink hover:text-paper md:inline-flex"
             >
               <CalendarCheck className="h-3.5 w-3.5" />
-              {t("showroom")}
+              {t("bookVisit")}
             </Link>
             <button
               type="button"
@@ -344,7 +344,7 @@ function MobileMenu({
             className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-full border border-clay-700 px-5 py-3.5 text-sm font-semibold text-clay-800"
           >
             <CalendarCheck className="h-4 w-4" />
-            {t("showroom")}
+            {t("bookVisit")}
           </Link>
         </div>
       </motion.div>
