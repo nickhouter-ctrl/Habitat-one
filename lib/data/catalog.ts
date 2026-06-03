@@ -112,7 +112,7 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "huge-travertine-": {
-    card: `${MAGIC}/huge-travertine-beige.png`,
+    card: `${MAGIC}/huge-travertine-beige-closeup.png`,
     // Per variant: two product angles → interior → villa façade (exterior).
     variants: {
       concrete: [
@@ -128,6 +128,7 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
         `${MAGIC}/huge-travertine-pure-white-exterior.png`,
       ],
       beige: [
+        `${MAGIC}/huge-travertine-beige-closeup.png`,
         `${MAGIC}/huge-travertine-beige.png`,
         `${MAGIC}/huge-travertine-beige-2.png`,
         `${MAGIC}/huge-travertine-beige-interior.png`,
@@ -142,10 +143,11 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "italian-travertine-": {
-    card: `${MAGIC}/italian-travertine-white.png`,
+    card: `${MAGIC}/italian-travertine-white-closeup.png`,
     // Per variant: product shot → in-room scene.
     variants: {
       "italian white travertine": [
+        `${MAGIC}/italian-travertine-white-closeup.png`,
         `${MAGIC}/italian-travertine-white.png`,
         `${MAGIC}/italian-travertine-white-interior.png`,
       ],
