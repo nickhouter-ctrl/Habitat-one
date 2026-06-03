@@ -89,18 +89,26 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     variants: {
       beige: [
         `${MAGIC}/ms-travertino-beige-closeup.png`,
+        `${MAGIC}/ms-travertino-beige-landscape.png`,
         `${MAGIC}/ms-travertino-beige-interior.png`,
+      ],
+      "pure white": [
+        `${MAGIC}/ms-travertino-pure-white-closeup.png`,
+        `${MAGIC}/ms-travertino-pure-white-landscape.png`,
       ],
       "dark grey": [
         `${MAGIC}/ms-travertino-dark-grey-closeup.png`,
+        `${MAGIC}/ms-travertino-dark-grey-landscape.png`,
         `${MAGIC}/ms-travertino-dark-grey-interior.png`,
       ],
       "medium grey": [
         `${MAGIC}/ms-travertino-medium-grey-closeup.png`,
+        `${MAGIC}/ms-travertino-medium-grey-landscape.png`,
         `${MAGIC}/ms-travertino-medium-grey-interior.png`,
       ],
       "light grey": [
         `${MAGIC}/ms-travertino-light-grey-closeup.png`,
+        `${MAGIC}/ms-travertino-light-grey-landscape.png`,
         `${MAGIC}/ms-travertino-light-grey-interior.png`,
       ],
     },
