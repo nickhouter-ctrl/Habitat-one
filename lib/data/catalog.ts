@@ -47,25 +47,21 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     // Per variant: clean product shot → in-room scene → texture close-up.
     variants: {
       "pure white": [
-        `${MAGIC}/concrete-board-pure-white.png`,
-        `${MAGIC}/concrete-board-pure-white-hero.png`,
         `${MAGIC}/concrete-board-pure-white-closeup.png`,
+        `${MAGIC}/concrete-board-pure-white.png`,
       ],
       beige: [
-        `${MAGIC}/concrete-board-beige.png`,
-        `${MAGIC}/concrete-board-beige-hero.png`,
         `${MAGIC}/concrete-board-beige-closeup.png`,
+        `${MAGIC}/concrete-board-beige.png`,
       ],
       "light grey": [
+        `${MAGIC}/concrete-board-light-grey-closeup.png`,
         `${MAGIC}/concrete-board-light-grey.png`,
         `${MAGIC}/concrete-board-light-grey-curved.webp`,
-        `${MAGIC}/concrete-board-light-grey-hero.png`,
-        `${MAGIC}/concrete-board-light-grey-closeup.png`,
       ],
       "medium grey": [
-        `${MAGIC}/concrete-board-medium-grey.png`,
-        `${MAGIC}/concrete-board-medium-grey-hero.png`,
         `${MAGIC}/concrete-board-medium-grey-closeup.png`,
+        `${MAGIC}/concrete-board-medium-grey.png`,
       ],
     },
   },
@@ -73,18 +69,15 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     card: `${MAGIC}/ripple-board-beige.png`,
     variants: {
       beige: [
-        `${MAGIC}/ripple-board-beige.png`,
-        `${MAGIC}/ripple-board-beige-hero.png`,
         `${MAGIC}/ripple-board-beige-closeup.png`,
+        `${MAGIC}/ripple-board-beige.png`,
       ],
       "concrete grey": [
         `${MAGIC}/ripple-board-concrete-grey.png`,
-        `${MAGIC}/ripple-board-concrete-grey-hero.png`,
       ],
       red: [
-        `${MAGIC}/ripple-board-red.png`,
-        `${MAGIC}/ripple-board-red-hero.png`,
         `${MAGIC}/ripple-board-red-closeup.png`,
+        `${MAGIC}/ripple-board-red.png`,
       ],
     },
   },
@@ -379,9 +372,9 @@ PRODUCT_IMAGE_OVERRIDES["cut-stone-"] = {
   card: `${MAGIC}/cut-stone-beige.png`,
   // Only a product shot + flex hero per colour for now.
   variants: {
-    red: [`${MAGIC}/cut-stone-red.png`, `${MAGIC}/cut-stone-red-hero.png`],
-    grey: [`${MAGIC}/cut-stone-grey.png`, `${MAGIC}/cut-stone-grey-hero.png`],
-    beige: [`${MAGIC}/cut-stone-beige.png`, `${MAGIC}/cut-stone-beige-hero.png`],
+    red: [`${MAGIC}/cut-stone-red.png`],
+    grey: [`${MAGIC}/cut-stone-grey.png`],
+    beige: [`${MAGIC}/cut-stone-beige.png`],
   },
 };
 PRODUCT_IMAGE_OVERRIDES["rockface-stone"] = {
@@ -491,12 +484,6 @@ export const productMedia: Record<string, ProductMedia> = {
     videos: {
       beige: `${MAGIC}/ripple-board-beige.mp4`,
     },
-    // Three in-situ room scenes — japandi, hallway, restaurant.
-    context: [
-      `${MAGIC}/ripple-board-beige-hero.png`,
-      `${MAGIC}/ripple-board-concrete-grey-hero.png`,
-      `${MAGIC}/ripple-board-red-hero.png`,
-    ],
   },
   "ms-travertino": {
     videos: {
@@ -505,9 +492,8 @@ export const productMedia: Record<string, ProductMedia> = {
       "medium grey": [`${MAGIC}/ms-travertino-medium-grey.mp4`, `${MAGIC}/ms-travertino-medium-grey-2.mp4`],
       "light grey": [`${MAGIC}/ms-travertino-light-grey.mp4`, `${MAGIC}/ms-travertino-light-grey-2.mp4`],
     },
-    // Flex hero (with the Flexibel Stone mark) + two in-situ rooms.
+    // Two in-situ rooms (curved flex-hero with baked-in watermark removed).
     context: [
-      `${MAGIC}/ms-travertino-beige-hero.png`,
       `${MAGIC}/ms-travertino-light-grey-interior.png`,
       `${MAGIC}/ms-travertino-medium-grey-interior.png`,
     ],
