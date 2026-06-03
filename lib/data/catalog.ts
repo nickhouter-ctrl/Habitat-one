@@ -382,6 +382,16 @@ PRODUCT_IMAGE_OVERRIDES["lime-dacite-yellow-lime-1778674932941"] = {
   card: `${MAGIC}/lime-dacite-yellow-lime-closeup.png`,
   variants: {},
 };
+// Wood Concrete Board — two single products (light + medium grey). Medium grey
+// had no image and was hidden; give both a wood-grain concrete close-up.
+PRODUCT_IMAGE_OVERRIDES["wood-concrete-board-light-grey-1778674932942"] = {
+  card: `${MAGIC}/wood-concrete-board-light-grey-closeup.png`,
+  variants: {},
+};
+PRODUCT_IMAGE_OVERRIDES["wood-concrete-board-medium-grey-1778674932942"] = {
+  card: `${MAGIC}/wood-concrete-board-medium-grey-closeup.png`,
+  variants: {},
+};
 PRODUCT_IMAGE_OVERRIDES["cut-stone-"] = {
   card: `${MAGIC}/cut-stone-beige-closeup.png`,
   // Lead with the woven-stone texture close-up; product shot follows.
