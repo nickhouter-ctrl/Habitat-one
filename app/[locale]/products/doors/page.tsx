@@ -19,5 +19,5 @@ export default async function DoorsPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <CollectionLuxuryPage collectionId="doors" />;
+  return <CollectionLuxuryPage collectionId="doors" heroImageOverride="/scenery/doors-hero.jpg" />;
 }
