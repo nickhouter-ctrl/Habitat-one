@@ -183,38 +183,34 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "age-stone-": {
-    card: `${MAGIC}/age-stone-beige.png`,
-    // Per variant: product shot → interior → villa façade (exterior).
+    card: `${MAGIC}/age-stone-beige-v2.png`,
+    // New fine-stone renders (thin flexible panels). Per variant: product
+    // swatch → matching in-situ interior (light colours use the beige room,
+    // dark colours the charcoal room).
     variants: {
       beige: [
-        `${MAGIC}/age-stone-beige.png`,
-        `${MAGIC}/age-stone-beige-interior.png`,
-        `${MAGIC}/age-stone-beige-exterior.png`,
+        `${MAGIC}/age-stone-beige-v2.png`,
+        `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
       "medium grey": [
-        `${MAGIC}/age-stone-medium-grey.png`,
-        `${MAGIC}/age-stone-medium-grey-interior.png`,
-        `${MAGIC}/age-stone-medium-grey-exterior.png`,
+        `${MAGIC}/age-stone-medium-grey-v2.png`,
+        `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
       "dark grey": [
-        `${MAGIC}/age-stone-dark-grey.png`,
-        `${MAGIC}/age-stone-dark-grey-interior.png`,
-        `${MAGIC}/age-stone-dark-grey-exterior.png`,
+        `${MAGIC}/age-stone-dark-grey-v2.png`,
+        `${MAGIC}/age-stone-dark-grey-interior-v2.png`,
       ],
       khaki: [
-        `${MAGIC}/age-stone-khaki.png`,
-        `${MAGIC}/age-stone-khaki-interior.png`,
-        `${MAGIC}/age-stone-khaki-exterior.png`,
+        `${MAGIC}/age-stone-khaki-v2.png`,
+        `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
       "gradient yellow": [
-        `${MAGIC}/age-stone-gradient-yellow.png`,
-        `${MAGIC}/age-stone-gradient-yellow-interior.png`,
-        `${MAGIC}/age-stone-gradient-yellow-exterior.png`,
+        `${MAGIC}/age-stone-gradient-yellow-v2.png`,
+        `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
       "gradient grey": [
-        `${MAGIC}/age-stone-gradient-grey.png`,
-        `${MAGIC}/age-stone-gradient-grey-interior.png`,
-        `${MAGIC}/age-stone-gradient-grey-exterior.png`,
+        `${MAGIC}/age-stone-gradient-grey-v2.png`,
+        `${MAGIC}/age-stone-dark-grey-interior-v2.png`,
       ],
     },
   },
@@ -542,18 +538,11 @@ export const productMedia: Record<string, ProductMedia> = {
     ],
   },
   "age-stone-": {
-    videos: {
-      beige: `${MAGIC}/age-stone-beige.mp4`,
-      "medium grey": `${MAGIC}/age-stone-medium-grey.mp4`,
-      "dark grey": `${MAGIC}/age-stone-dark-grey.mp4`,
-      khaki: `${MAGIC}/age-stone-khaki.mp4`,
-      "gradient yellow": `${MAGIC}/age-stone-gradient-yellow.mp4`,
-    },
-    // Aged-stone look on Mediterranean villa façades.
+    // New fine-stone in-situ stills (old per-colour videos/exteriors showed a
+    // different, too-rugged stone and are dropped).
     context: [
-      `${MAGIC}/age-stone-khaki-exterior.png`,
-      `${MAGIC}/age-stone-dark-grey-exterior.png`,
-      `${MAGIC}/age-stone-gradient-yellow-exterior.png`,
+      `${MAGIC}/age-stone-beige-interior-v2.png`,
+      `${MAGIC}/age-stone-dark-grey-interior-v2.png`,
     ],
   },
   "ancient-wood-board-": {
