@@ -3,10 +3,10 @@ import type { Localized } from "@/lib/i18n-content";
 export const site = {
   name: "Habitat One",
   email: "hi@habitat-one.com",
-  phone: "+34 965 00 11 22",
-  phoneHref: "+34965001122",
-  whatsapp: "+34 600 11 22 33",
-  addressLines: ["Carrer del Pla, Xàbia (Jávea)", "03730 Alicante · España"],
+  phone: "+31 6 51170545",
+  phoneHref: "+31651170545",
+  whatsapp: "+31 6 51170545",
+  addressLines: ["Camí de la Fontana 3, Locales 2, 3 en 5", "03730 Jávea (Alicante) · España"],
   mapUrl: "https://maps.app.goo.gl/",
   mapEmbed:
     "https://www.openstreetmap.org/export/embed.html?bbox=0.150%2C38.785%2C0.205%2C38.805&layer=mapnik&marker=38.7950%2C0.1655",
