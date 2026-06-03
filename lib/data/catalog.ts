@@ -670,6 +670,19 @@ export function magicSceneGallery(): { src: string; label: string; href: string 
   return out;
 }
 
+// Backer boards: show the "what's possible" application stills on each product page too.
+for (const _bp of catalogProducts) {
+  if (_bp.collection === "backer-boards" && !productMedia[_bp.slug]) {
+    productMedia[_bp.slug] = {
+      context: [
+        "/products/backer/application-shower-niche.jpg",
+        "/products/backer/application-wall-install.png",
+        "/products/backer/board-detail.png",
+      ],
+    };
+  }
+}
+
 export { catalogProducts, catalogMaterials, catalogSpaces, catalogCategories };
 export type { CatalogProduct, CatalogMaterial, CatalogSpace, CatalogCategory, ProductVariant };
 
