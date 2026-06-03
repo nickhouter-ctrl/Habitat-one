@@ -361,7 +361,6 @@ PRODUCT_IMAGE_OVERRIDES["zen-ando-cement-board"] = {
     "warm grey": [
       `${MAGIC}/zen-ando-cement-board-warm-grey-closeup-v2.png`,
       `${MAGIC}/zen-ando-cement-board-warm-grey-v2.png`,
-      `${MAGIC}/zen-ando-cement-board-warm-grey-interior-v2.png`,
     ],
   },
 };
@@ -470,6 +469,27 @@ for (const b of BATCHES) {
     card: hasCloseup ? `${MAGIC}/${fs}-${b.card}-closeup.png` : `${MAGIC}/${fs}-${b.card}.png`,
     variants,
   };
+}
+
+// Products whose imagery was fully regenerated 2026-06-03 from the real order-PDF
+// references (texture close-up + thin flat real-ratio panel). Force every colour
+// gallery to [closeup, landscape] — drops the old mismatched interior/exterior
+// scenes (a matching-scene pass comes later). Paths derived from existing file
+// stems so colour-name typos (e.g. danxia "watemelon") still resolve correctly.
+const REDONE_TO_CLOSEUP_LANDSCAPE = [
+  "ancient-wood-board-", "cave-rammed-earth-board-", "danxia-rammed-earth-board-",
+  "charcoal-burnt-wood-board", "coarse-charcoal-burnt-wood-board", "ando-cement-",
+];
+for (const slug of REDONE_TO_CLOSEUP_LANDSCAPE) {
+  const ov = PRODUCT_IMAGE_OVERRIDES[slug];
+  if (!ov) continue;
+  for (const key of Object.keys(ov.variants)) {
+    const first = ov.variants[key][0];
+    if (!first) continue;
+    const stem = first.replace(/(-closeup|-landscape|-interior|-exterior|-2)?\.png$/, "");
+    ov.variants[key] = [`${stem}-closeup.png`, `${stem}-landscape.png`];
+  }
+  ov.card = ov.card.replace(/(-interior|-exterior|-2)?\.png$/, "").replace(/-closeup$/, "") + "-closeup.png";
 }
 
 for (const p of catalogProducts) {
