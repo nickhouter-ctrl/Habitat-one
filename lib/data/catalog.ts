@@ -72,14 +72,15 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     variants: {
       beige: [
         `${MAGIC}/ripple-board-beige-closeup.png`,
-        `${MAGIC}/ripple-board-beige.png`,
+        `${MAGIC}/ripple-board-beige-landscape.png`,
       ],
       "concrete grey": [
-        `${MAGIC}/ripple-board-concrete-grey.png`,
+        `${MAGIC}/ripple-board-concrete-grey-closeup.png`,
+        `${MAGIC}/ripple-board-concrete-grey-landscape.png`,
       ],
       red: [
         `${MAGIC}/ripple-board-red-closeup.png`,
-        `${MAGIC}/ripple-board-red.png`,
+        `${MAGIC}/ripple-board-red-landscape.png`,
       ],
     },
   },
@@ -118,29 +119,20 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     // Per variant: two product angles → interior → villa façade (exterior).
     variants: {
       concrete: [
-        `${MAGIC}/huge-travertine-concrete.png`,
-        `${MAGIC}/huge-travertine-concrete-2.png`,
-        `${MAGIC}/huge-travertine-concrete-interior.png`,
-        `${MAGIC}/huge-travertine-concrete-exterior.png`,
+        `${MAGIC}/huge-travertine-concrete-closeup.png`,
+        `${MAGIC}/huge-travertine-concrete-landscape.png`,
       ],
       "pure white": [
-        `${MAGIC}/huge-travertine-pure-white.png`,
-        `${MAGIC}/huge-travertine-pure-white-2.png`,
-        `${MAGIC}/huge-travertine-pure-white-interior.png`,
-        `${MAGIC}/huge-travertine-pure-white-exterior.png`,
+        `${MAGIC}/huge-travertine-pure-white-closeup.png`,
+        `${MAGIC}/huge-travertine-pure-white-landscape.png`,
       ],
       beige: [
         `${MAGIC}/huge-travertine-beige-closeup.png`,
-        `${MAGIC}/huge-travertine-beige.png`,
-        `${MAGIC}/huge-travertine-beige-2.png`,
-        `${MAGIC}/huge-travertine-beige-interior.png`,
-        `${MAGIC}/huge-travertine-beige-exterior.png`,
+        `${MAGIC}/huge-travertine-beige-landscape.png`,
       ],
       "gradient yellow": [
-        `${MAGIC}/huge-travertine-gradient-yellow.png`,
-        `${MAGIC}/huge-travertine-gradient-yellow-2.png`,
-        `${MAGIC}/huge-travertine-gradient-yellow-interior.png`,
-        `${MAGIC}/huge-travertine-gradient-yellow-exterior.png`,
+        `${MAGIC}/huge-travertine-gradient-yellow-closeup.png`,
+        `${MAGIC}/huge-travertine-gradient-yellow-landscape.png`,
       ],
     },
   },
@@ -150,32 +142,31 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     variants: {
       "italian white travertine": [
         `${MAGIC}/italian-travertine-white-closeup.png`,
-        `${MAGIC}/italian-travertine-white.png`,
-        `${MAGIC}/italian-travertine-white-interior.png`,
+        `${MAGIC}/italian-travertine-white-landscape.png`,
       ],
       "italian brown travertine": [
-        `${MAGIC}/italian-travertine-brown.png`,
-        `${MAGIC}/italian-travertine-brown-interior.png`,
+        `${MAGIC}/italian-travertine-brown-closeup.png`,
+        `${MAGIC}/italian-travertine-brown-landscape.png`,
       ],
       "italian grey travertine": [
-        `${MAGIC}/italian-travertine-grey.png`,
-        `${MAGIC}/italian-travertine-grey-interior.png`,
+        `${MAGIC}/italian-travertine-grey-closeup.png`,
+        `${MAGIC}/italian-travertine-grey-landscape.png`,
       ],
       "italian red travertine": [
-        `${MAGIC}/italian-travertine-red.png`,
-        `${MAGIC}/italian-travertine-red-interior.png`,
+        `${MAGIC}/italian-travertine-red-closeup.png`,
+        `${MAGIC}/italian-travertine-red-landscape.png`,
       ],
       "light grey wood": [
-        `${MAGIC}/italian-travertine-light-grey-wood.png`,
-        `${MAGIC}/italian-travertine-light-grey-wood-interior.png`,
+        `${MAGIC}/italian-travertine-light-grey-wood-closeup.png`,
+        `${MAGIC}/italian-travertine-light-grey-wood-landscape.png`,
       ],
       "light brown wood": [
-        `${MAGIC}/italian-travertine-light-brown-wood.png`,
-        `${MAGIC}/italian-travertine-light-brown-wood-interior.png`,
+        `${MAGIC}/italian-travertine-light-brown-wood-closeup.png`,
+        `${MAGIC}/italian-travertine-light-brown-wood-landscape.png`,
       ],
       "yellow wood": [
-        `${MAGIC}/italian-travertine-yellow-wood.png`,
-        `${MAGIC}/italian-travertine-yellow-wood-interior.png`,
+        `${MAGIC}/italian-travertine-yellow-wood-closeup.png`,
+        `${MAGIC}/italian-travertine-yellow-wood-landscape.png`,
       ],
     },
   },
@@ -187,32 +178,26 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
       beige: [
         `${MAGIC}/age-stone-beige-closeup.png`,
         `${MAGIC}/age-stone-beige-landscape.png`,
-        `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
       "medium grey": [
         `${MAGIC}/age-stone-medium-grey-closeup.png`,
-        `${MAGIC}/age-stone-medium-grey-v2.png`,
-        `${MAGIC}/age-stone-beige-interior-v2.png`,
+        `${MAGIC}/age-stone-medium-grey-landscape.png`,
       ],
       "dark grey": [
         `${MAGIC}/age-stone-dark-grey-closeup.png`,
-        `${MAGIC}/age-stone-dark-grey-v2.png`,
-        `${MAGIC}/age-stone-dark-grey-interior-v2.png`,
+        `${MAGIC}/age-stone-dark-grey-landscape.png`,
       ],
       khaki: [
         `${MAGIC}/age-stone-khaki-closeup.png`,
-        `${MAGIC}/age-stone-khaki-v2.png`,
-        `${MAGIC}/age-stone-beige-interior-v2.png`,
+        `${MAGIC}/age-stone-khaki-landscape.png`,
       ],
       "gradient yellow": [
         `${MAGIC}/age-stone-gradient-yellow-closeup.png`,
-        `${MAGIC}/age-stone-gradient-yellow-v2.png`,
-        `${MAGIC}/age-stone-beige-interior-v2.png`,
+        `${MAGIC}/age-stone-gradient-yellow-landscape.png`,
       ],
       "gradient grey": [
         `${MAGIC}/age-stone-gradient-grey-closeup.png`,
-        `${MAGIC}/age-stone-gradient-grey-v2.png`,
-        `${MAGIC}/age-stone-dark-grey-interior-v2.png`,
+        `${MAGIC}/age-stone-gradient-grey-landscape.png`,
       ],
     },
   },
@@ -273,15 +258,11 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     variants: {
       beige: [
         `${MAGIC}/fine-line-stone-board-beige-closeup.png`,
-        `${MAGIC}/fine-line-stone-board-beige.png`,
-        `${MAGIC}/fine-line-stone-board-beige-interior.png`,
-        `${MAGIC}/fine-line-stone-board-beige-exterior.png`,
+        `${MAGIC}/fine-line-stone-board-beige-landscape.png`,
       ],
       concrete: [
         `${MAGIC}/fine-line-stone-board-concrete-closeup.png`,
-        `${MAGIC}/fine-line-stone-board-concrete.png`,
-        `${MAGIC}/fine-line-stone-board-concrete-interior.png`,
-        `${MAGIC}/fine-line-stone-board-concrete-exterior.png`,
+        `${MAGIC}/fine-line-stone-board-concrete-landscape.png`,
       ],
     },
   },
@@ -409,9 +390,10 @@ PRODUCT_IMAGE_OVERRIDES["cut-stone-"] = {
   card: `${MAGIC}/cut-stone-beige-closeup.png`,
   // Lead with the woven-stone texture close-up; product shot follows.
   variants: {
-    red: [`${MAGIC}/cut-stone-red.png`],
-    grey: [`${MAGIC}/cut-stone-grey.png`],
+    red: [`${MAGIC}/cut-stone-red-closeup.png`, `${MAGIC}/cut-stone-red-landscape.png`],
+    grey: [`${MAGIC}/cut-stone-grey-closeup.png`, `${MAGIC}/cut-stone-grey-landscape.png`],
     beige: [`${MAGIC}/cut-stone-beige-closeup.png`, `${MAGIC}/cut-stone-beige-landscape.png`],
+    "dark grey": [`${MAGIC}/cut-stone-dark-grey-closeup.png`, `${MAGIC}/cut-stone-dark-grey-landscape.png`],
   },
 };
 PRODUCT_IMAGE_OVERRIDES["rockface-stone"] = {
@@ -420,13 +402,10 @@ PRODUCT_IMAGE_OVERRIDES["rockface-stone"] = {
     beige: [
       `${MAGIC}/rockface-stone-beige-closeup.png`,
       `${MAGIC}/rockface-stone-beige-landscape.png`,
-      `${MAGIC}/rockface-stone-beige-interior.png`,
-      `${MAGIC}/rockface-stone-beige-exterior.png`,
     ],
     "dark grey": [
-      `${MAGIC}/rockface-stone-dark-grey.png`,
-      `${MAGIC}/rockface-stone-dark-grey-exterior.png`,
       `${MAGIC}/rockface-stone-dark-grey-closeup.png`,
+      `${MAGIC}/rockface-stone-dark-grey-landscape.png`,
     ],
   },
 };
@@ -435,14 +414,11 @@ PRODUCT_IMAGE_OVERRIDES["rust-board-"] = {
   variants: {
     "bush hammered": [
       `${MAGIC}/rust-board-bush-hammered-closeup.png`,
-      `${MAGIC}/rust-board-bush-hammered.png`,
-      `${MAGIC}/rust-board-bush-hammered-interior.png`,
-      `${MAGIC}/rust-board-bush-hammered-interior2.png`,
+      `${MAGIC}/rust-board-bush-hammered-landscape.png`,
     ],
     "medium plaid": [
-      `${MAGIC}/rust-board-medium-plaid.png`,
-      `${MAGIC}/rust-board-medium-plaid-interior.png`,
-      `${MAGIC}/rust-board-medium-plaid-interior2.png`,
+      `${MAGIC}/rust-board-medium-plaid-closeup.png`,
+      `${MAGIC}/rust-board-medium-plaid-landscape.png`,
     ],
   },
 };
