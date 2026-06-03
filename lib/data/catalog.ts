@@ -43,7 +43,7 @@ interface ProductImageOverride {
 const MAGIC = "/products/magic";
 const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
   "concrete-board-": {
-    card: `${MAGIC}/concrete-board-pure-white.png`,
+    card: `${MAGIC}/concrete-board-pure-white-closeup.png`,
     // Per variant: clean product shot → in-room scene → texture close-up.
     variants: {
       "pure white": [
@@ -66,7 +66,7 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "ripple-board-": {
-    card: `${MAGIC}/ripple-board-beige.png`,
+    card: `${MAGIC}/ripple-board-beige-closeup.png`,
     variants: {
       beige: [
         `${MAGIC}/ripple-board-beige-closeup.png`,
@@ -82,7 +82,7 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "ms-travertino": {
-    card: `${MAGIC}/ms-travertino-beige.png`,
+    card: `${MAGIC}/ms-travertino-beige-closeup.png`,
     // Per variant: two product angles → in-room scene → texture macro.
     variants: {
       beige: [
@@ -438,15 +438,24 @@ const BATCHES: BatchSpec[] = [
 ];
 for (const b of BATCHES) {
   const fs = batchFileSlug(b.slug);
+  const hasCloseup = b.parts.includes("closeup");
   const variants: Record<string, string[]> = {};
   for (const k of b.keys) {
     const c = colourSlug(k);
-    variants[k] = [
-      `${MAGIC}/${fs}-${c}.png`,
-      ...b.parts.map((part) => `${MAGIC}/${fs}-${c}-${part}.png`),
-    ];
+    const base = `${MAGIC}/${fs}-${c}.png`;
+    const rest = b.parts
+      .filter((part) => part !== "closeup")
+      .map((part) => `${MAGIC}/${fs}-${c}-${part}.png`);
+    // Lead galleries with the texture close-up; the standing panel stays, but not first.
+    variants[k] = hasCloseup
+      ? [`${MAGIC}/${fs}-${c}-closeup.png`, base, ...rest]
+      : [base, ...rest];
   }
-  PRODUCT_IMAGE_OVERRIDES[b.slug] = { card: `${MAGIC}/${fs}-${b.card}.png`, variants };
+  // List/grid thumbnail (card) also leads with the close-up where available.
+  PRODUCT_IMAGE_OVERRIDES[b.slug] = {
+    card: hasCloseup ? `${MAGIC}/${fs}-${b.card}-closeup.png` : `${MAGIC}/${fs}-${b.card}.png`,
+    variants,
+  };
 }
 
 for (const p of catalogProducts) {
