@@ -88,28 +88,20 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     // Per variant: two product angles → in-room scene → texture macro.
     variants: {
       beige: [
-        `${MAGIC}/ms-travertino-beige.png`,
-        `${MAGIC}/ms-travertino-beige-2.png`,
-        `${MAGIC}/ms-travertino-beige-interior.png`,
         `${MAGIC}/ms-travertino-beige-closeup.png`,
+        `${MAGIC}/ms-travertino-beige-interior.png`,
       ],
       "dark grey": [
-        `${MAGIC}/ms-travertino-dark-grey.jpeg`,
-        `${MAGIC}/ms-travertino-dark-grey-2.png`,
-        `${MAGIC}/ms-travertino-dark-grey-interior.png`,
         `${MAGIC}/ms-travertino-dark-grey-closeup.png`,
+        `${MAGIC}/ms-travertino-dark-grey-interior.png`,
       ],
       "medium grey": [
-        `${MAGIC}/ms-travertino-medium-grey.png`,
-        `${MAGIC}/ms-travertino-medium-grey-2.png`,
-        `${MAGIC}/ms-travertino-medium-grey-interior.png`,
         `${MAGIC}/ms-travertino-medium-grey-closeup.png`,
+        `${MAGIC}/ms-travertino-medium-grey-interior.png`,
       ],
       "light grey": [
-        `${MAGIC}/ms-travertino-light-grey.png`,
-        `${MAGIC}/ms-travertino-light-grey-2.png`,
-        `${MAGIC}/ms-travertino-light-grey-interior.png`,
         `${MAGIC}/ms-travertino-light-grey-closeup.png`,
+        `${MAGIC}/ms-travertino-light-grey-interior.png`,
       ],
     },
   },
@@ -482,7 +474,8 @@ for (const b of BATCHES) {
     const rest = b.parts
       .filter((part) => part !== "closeup")
       .map((part) => `${MAGIC}/${fs}-${c}-${part}.png`);
-    // Lead galleries with the texture close-up; the standing panel stays, but not first.
+    // Lead galleries with the texture close-up, then the panel shot (base —
+    // being replaced per colour with a landscape render), then in-situ scenes.
     variants[k] = hasCloseup
       ? [`${MAGIC}/${fs}-${c}-closeup.png`, base, ...rest]
       : [base, ...rest];
