@@ -322,9 +322,10 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "charcoal-burnt-wood-board": {
-    card: `${MAGIC}/charcoal-burnt-wood-board-dark-grey.png`,
+    card: `${MAGIC}/charcoal-burnt-wood-board-dark-grey-closeup.png`,
     variants: {
       "dark grey": [
+        `${MAGIC}/charcoal-burnt-wood-board-dark-grey-closeup.png`,
         `${MAGIC}/charcoal-burnt-wood-board-dark-grey.png`,
         `${MAGIC}/charcoal-burnt-wood-board-dark-grey-interior.png`,
         `${MAGIC}/charcoal-burnt-wood-board-dark-grey-exterior.png`,
@@ -395,13 +396,13 @@ PRODUCT_IMAGE_OVERRIDES["rockface-stone"] = {
   },
 };
 PRODUCT_IMAGE_OVERRIDES["rust-board-"] = {
-  card: `${MAGIC}/rust-board-bush-hammered.png`,
+  card: `${MAGIC}/rust-board-bush-hammered-closeup.png`,
   variants: {
     "bush hammered": [
+      `${MAGIC}/rust-board-bush-hammered-closeup.png`,
       `${MAGIC}/rust-board-bush-hammered.png`,
       `${MAGIC}/rust-board-bush-hammered-interior.png`,
       `${MAGIC}/rust-board-bush-hammered-interior2.png`,
-      `${MAGIC}/rust-board-bush-hammered-closeup.png`,
     ],
     "medium plaid": [
       `${MAGIC}/rust-board-medium-plaid.png`,
