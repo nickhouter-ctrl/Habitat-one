@@ -64,7 +64,7 @@
   "home": {
     "magicEyebrow": "Onze signatuur",
     "magicTitle": "Flexibel Stone",
-    "magicLead": "Échte natuursteen die met de muur meebuigt — lichter dan tegels, in platen tot 1,2 × 2,4 meter. Wij kozen het omdat de warmte van travertijn, hout en aarde overal in huis terecht kan: van wanden tot plafonds, van meubel tot gevel.",
+    "magicLead": "Échte natuursteen die met de muur meebuigt — lichter dan tegels, in platen tot 1,2 × 3,06 meter. Wij kozen het omdat de warmte van travertijn, hout en aarde overal in huis terecht kan: van wanden tot plafonds, van meubel tot gevel.",
     "magicPoint1Title": "Eén materiaal, vele texturen",
     "magicPoint1Text": "Travertijn, verbrand hout, beton, kalksteen — meer dan dertig afwerkingen onder één collectie.",
     "magicPoint2Title": "Naadloos, op formaat",
@@ -189,7 +189,7 @@
     "catalogueTitle": "Vier hoofdstukken,\\nééncuratie",
     "catalogueLead": "Flexibel Stone leidt — gevolgd door badkamer, deuren en accessoires die in hetzelfde mediterrane register staan. Scroll om elk hoofdstuk te ontmoeten.",
     "browseAllProducts": "Doorzoek alles",
-    "chapterDescriptionWallPanels": "Flexibele natuursteen-panelen — travertijn, verbrand hout, beton en kalksteen — in formaten tot 1,2 × 2,4 m. Buigt mee met gebogen muren en plafonds, en wordt zonder voegen geplaatst.",
+    "chapterDescriptionWallPanels": "Flexibele natuursteen-panelen — travertijn, verbrand hout, beton en kalksteen — in formaten tot 1,2 × 3,06 m. Buigt mee met gebogen muren en plafonds, en wordt zonder voegen geplaatst.",
     "chapterDescriptionBathroom": "Solid-surface baden, wastafels en douchebakken — warm bij aanraking en herstelbaar. Naadloze stukken die de badkamer rust geven.",
     "chapterDescriptionDoors": "Massieve binnendeuren in dezelfde houttoon-familie als de wandpanelen — voor doorlopende oppervlakken van vloer tot plafond.",
     "chapterDescriptionDoorAccessories": "Scharnieren in mat geborsteld metaal — het afwerkende detail.",
@@ -525,7 +525,25 @@
     "inQuote": "Toegevoegd aan offerte",
     "bookAppointment": "Plan een afspraak",
     "collectionBackerBoards": "XPS Backer Boards",
-    "chapterDescriptionBackerBoards": "Lichtgewicht XPS backerboards — een stabiele, waterbestendige ondergrond voor wandpanelen en tegelwerk. Verkrijgbaar van 6 tot 30 mm."
+    "chapterDescriptionBackerBoards": "Lichtgewicht XPS backerboards — een stabiele, waterbestendige ondergrond voor wandpanelen en tegelwerk. Verkrijgbaar van 6 tot 30 mm.",
+    "backerFeatures": {
+      "applicationsEyebrow": "Wat er mogelijk is",
+      "applicationsTitle": "De waterdichte basis achter mooie wanden",
+      "applicationsLead": "XPS-backerboards zijn de verborgen laag die natte ruimtes laat werken — een stabiele, volledig waterdichte ondergrond voor douchewanden, nissen, zitbanken, hangtoilet-frames en grootformaat tegelwerk. Van 6 tot 30 mm, binnen en buiten.",
+      "techEyebrow": "Techniek & brandveiligheid",
+      "techTitle": "Gemaakt voor water, gewicht en warmte",
+      "techLead": "Een stijve kern van geëxtrudeerd polystyreen (XPS) onder een met glasvezel versterkte cementlaag — licht te dragen, sterk onder tegels en stabiel bij warmte en vocht.",
+      "point1Title": "Waterdichte XPS-kern",
+      "point1Text": "De gesloten-cel kern neemt geen water op — ideaal achter douches, rond baden en in elke natte ruimte.",
+      "point2Title": "Licht & stijf",
+      "point2Text": "Een fractie van het gewicht van cementplaat, en toch stabiel genoeg voor grootformaat tegels en steenpanelen.",
+      "point3Title": "Brandvertragend",
+      "point3Text": "Opgebouwd met een brandvertragende samenstelling. De volledige brandklasse staat op de technische datasheet.",
+      "point4Title": "Schimmel- & vochtbestendig",
+      "point4Text": "Het mineraal gecoate oppervlak weert schimmel en gaat niet rotten of uitzetten — duurzaam in stoom en zilte lucht.",
+      "certLabel": "Gecertificeerd",
+      "specNote": "Volledige technische datasheet — brandklasse, isolatiewaarde en dichtheid — op aanvraag beschikbaar."
+    }
   },
   "spaces": {
     "eyebrow": "Ruimte voor ruimte",

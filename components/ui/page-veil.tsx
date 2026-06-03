@@ -53,10 +53,10 @@ export function PageVeil() {
             className="flex flex-col items-center gap-3 text-ink"
           >
             <span className="text-[0.62rem] font-medium uppercase tracking-[0.42em] text-ink-soft">
-              Habitat One
+              Welcome to
             </span>
             <span className="font-sans text-3xl font-medium leading-none tracking-[-0.02em] sm:text-4xl">
-              Flexibel Stone
+              Habitat One
             </span>
             <span className="text-[0.62rem] uppercase tracking-[0.32em] text-ink-soft/70">
               Xàbia · Costa Blanca

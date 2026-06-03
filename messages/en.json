@@ -64,7 +64,7 @@
   "home": {
     "magicEyebrow": "Our signature",
     "magicTitle": "Flexibel Stone",
-    "magicLead": "Real natural stone that bends to the wall — lighter than tile, in sheets up to 1.2 × 2.4 m. We chose it because the warmth of travertine, wood and earth can land anywhere in the house: walls, ceilings, furniture, façades.",
+    "magicLead": "Real natural stone that bends to the wall — lighter than tile, in sheets up to 1.2 × 3.06 m. We chose it because the warmth of travertine, wood and earth can land anywhere in the house: walls, ceilings, furniture, façades.",
     "magicPoint1Title": "One material, many textures",
     "magicPoint1Text": "Travertine, burnt wood, concrete, limestone — more than thirty finishes under one collection.",
     "magicPoint2Title": "Seamless, made to size",
@@ -189,7 +189,7 @@
     "catalogueTitle": "Four chapters,\\none curation",
     "catalogueLead": "Flexibel Stone leads — followed by bathroom, doors and accessories tuned to the same Mediterranean register. Scroll to meet each chapter.",
     "browseAllProducts": "Browse everything",
-    "chapterDescriptionWallPanels": "Flexible natural-stone panels — travertine, burnt wood, concrete, limestone — in sheets up to 1.2 × 2.4 m. Wraps curved walls and ceilings, installed without grout.",
+    "chapterDescriptionWallPanels": "Flexible natural-stone panels — travertine, burnt wood, concrete, limestone — in sheets up to 1.2 × 3.06 m. Wraps curved walls and ceilings, installed without grout.",
     "chapterDescriptionBathroom": "Solid-surface tubs, basins and shower trays — warm to touch and repairable. Seamless pieces that bring quiet to a bathroom.",
     "chapterDescriptionDoors": "Solid interior doors tuned to the same timber palette as the wall panels — for continuous surfaces from floor to ceiling.",
     "chapterDescriptionDoorAccessories": "Hinges in brushed matt metal — the finishing detail.",
@@ -347,7 +347,25 @@
     "inQuote": "Added to quote",
     "bookAppointment": "Book an appointment",
     "collectionBackerBoards": "XPS Backer Boards",
-    "chapterDescriptionBackerBoards": "Lightweight XPS backer boards — a stable, waterproof base for wall panels and tiling. Available from 6 to 30 mm."
+    "chapterDescriptionBackerBoards": "Lightweight XPS backer boards — a stable, waterproof base for wall panels and tiling. Available from 6 to 30 mm.",
+    "backerFeatures": {
+      "applicationsEyebrow": "What's possible",
+      "applicationsTitle": "The waterproof base behind beautiful walls",
+      "applicationsLead": "XPS backer boards are the hidden layer that makes wet rooms work — a stable, fully waterproof substrate for shower walls, niches, benches, wall-hung frames and large-format tiling. From 6 to 30 mm, indoors and out.",
+      "techEyebrow": "Technical & fire safety",
+      "techTitle": "Engineered for water, weight and heat",
+      "techLead": "A rigid extruded-polystyrene (XPS) core under a fibreglass-reinforced cement facing — light to carry, strong under tile, and stable in heat and damp.",
+      "point1Title": "Waterproof XPS core",
+      "point1Text": "The closed-cell core doesn't absorb water — ideal behind showers, around baths and in any wet area.",
+      "point2Title": "Lightweight & rigid",
+      "point2Text": "A fraction of the weight of cement board, yet stable enough to carry large-format tiles and stone panels.",
+      "point3Title": "Fire-retardant",
+      "point3Text": "Built with a fire-retardant formulation. The full fire classification is listed on the technical datasheet.",
+      "point4Title": "Mould & moisture resistant",
+      "point4Text": "The mineral-coated surface resists mould and won't rot or swell — durable in steam and salt air.",
+      "certLabel": "Certified",
+      "specNote": "Full technical datasheet — fire class, thermal value and density — available on request."
+    }
   },
   "spaces": {
     "eyebrow": "Room by room",

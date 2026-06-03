@@ -64,7 +64,7 @@
   "home": {
     "magicEyebrow": "Nuestro sello",
     "magicTitle": "Flexibel Stone",
-    "magicLead": "Piedra natural auténtica que se adapta a la pared — más ligera que la baldosa, en planchas de hasta 1,2 × 2,4 m. La elegimos porque la calidez del travertino, la madera y la tierra puede llegar a cualquier rincón de la casa: paredes, techos, mobiliario, fachadas.",
+    "magicLead": "Piedra natural auténtica que se adapta a la pared — más ligera que la baldosa, en planchas de hasta 1,2 × 3,06 m. La elegimos porque la calidez del travertino, la madera y la tierra puede llegar a cualquier rincón de la casa: paredes, techos, mobiliario, fachadas.",
     "magicPoint1Title": "Un material, muchas texturas",
     "magicPoint1Text": "Travertino, madera quemada, hormigón, caliza — más de treinta acabados en una colección.",
     "magicPoint2Title": "Sin juntas, a medida",
@@ -189,7 +189,7 @@
     "catalogueTitle": "Cuatro capítulos,\\nuna curaduría",
     "catalogueLead": "Flexibel Stone abre — seguido de baño, puertas y accesorios afinados al mismo registro mediterráneo. Desplaza para conocer cada capítulo.",
     "browseAllProducts": "Explorar todo",
-    "chapterDescriptionWallPanels": "Paneles flexibles de piedra natural — travertino, madera quemada, hormigón, caliza — en planchas de hasta 1,2 × 2,4 m. Envuelven paredes y techos curvos, sin junta.",
+    "chapterDescriptionWallPanels": "Paneles flexibles de piedra natural — travertino, madera quemada, hormigón, caliza — en planchas de hasta 1,2 × 3,06 m. Envuelven paredes y techos curvos, sin junta.",
     "chapterDescriptionBathroom": "Bañeras, lavabos y platos de ducha en solid-surface — cálidos al tacto y reparables. Piezas sin juntas que dan calma al baño.",
     "chapterDescriptionDoors": "Puertas interiores macizas en la misma familia tonal que los paneles — para superficies continuas de suelo a techo.",
     "chapterDescriptionDoorAccessories": "Bisagras en metal mate cepillado — el detalle final.",
@@ -525,7 +525,25 @@
     "inQuote": "Añadido al presupuesto",
     "bookAppointment": "Reservar una cita",
     "collectionBackerBoards": "XPS Backer Boards",
-    "chapterDescriptionBackerBoards": "Placas base XPS ligeras — una base estable e impermeable para paneles de pared y alicatado. Disponibles de 6 a 30 mm."
+    "chapterDescriptionBackerBoards": "Placas base XPS ligeras — una base estable e impermeable para paneles de pared y alicatado. Disponibles de 6 a 30 mm.",
+    "backerFeatures": {
+      "applicationsEyebrow": "Lo que es posible",
+      "applicationsTitle": "La base impermeable detrás de paredes hermosas",
+      "applicationsLead": "Las placas base XPS son la capa oculta que hace funcionar las zonas húmedas — un soporte estable y totalmente impermeable para paredes de ducha, hornacinas, bancos, bastidores suspendidos y alicatado de gran formato. De 6 a 30 mm, interior y exterior.",
+      "techEyebrow": "Técnica y seguridad contra incendios",
+      "techTitle": "Diseñadas para el agua, el peso y el calor",
+      "techLead": "Un núcleo rígido de poliestireno extruido (XPS) bajo un revestimiento de cemento reforzado con fibra de vidrio — ligero de transportar, resistente bajo el azulejo y estable ante el calor y la humedad.",
+      "point1Title": "Núcleo XPS impermeable",
+      "point1Text": "El núcleo de célula cerrada no absorbe agua — ideal tras duchas, alrededor de bañeras y en cualquier zona húmeda.",
+      "point2Title": "Ligeras y rígidas",
+      "point2Text": "Una fracción del peso de la placa de cemento, y aun así estables para azulejos de gran formato y paneles de piedra.",
+      "point3Title": "Ignífugas",
+      "point3Text": "Fabricadas con una formulación ignífuga. La clasificación de fuego completa figura en la ficha técnica.",
+      "point4Title": "Resistentes a moho y humedad",
+      "point4Text": "La superficie con recubrimiento mineral resiste el moho y no se pudre ni se hincha — duradera ante el vapor y el aire salino.",
+      "certLabel": "Certificado",
+      "specNote": "Ficha técnica completa — clase de fuego, valor térmico y densidad — disponible bajo petición."
+    }
   },
   "spaces": {
     "eyebrow": "Estancia por estancia",

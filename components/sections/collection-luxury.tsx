@@ -65,11 +65,14 @@ const MAGIC_GALLERY: { src: string; label: string; video?: boolean }[] = [
 export async function CollectionLuxuryPage({
   collectionId,
   heroImageOverride,
+  extraSection,
 }: {
   collectionId: Collection;
   /** Optional editorial hero image (e.g. an in-situ shot) instead of the
    *  first product's studio thumbnail. */
   heroImageOverride?: string;
+  /** Optional collection-specific blocks rendered just before the CTA banner. */
+  extraSection?: React.ReactNode;
 }) {
   const t = await getTranslations("products");
 
@@ -381,6 +384,8 @@ export async function CollectionLuxuryPage({
           </div>
         </section>
       )}
+
+      {extraSection}
 
       <CtaBanner image={heroImage} />
     </>

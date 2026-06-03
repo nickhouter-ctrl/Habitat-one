@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CollectionLuxuryPage } from "@/components/sections/collection-luxury";
+import { BackerBoardFeatures } from "@/components/sections/backer-board-features";
 
 export async function generateMetadata({
   params,
@@ -19,5 +20,11 @@ export default async function BackerBoardsPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <CollectionLuxuryPage collectionId="backer-boards" heroImageOverride="/products/backer/stack.jpg" />;
+  return (
+    <CollectionLuxuryPage
+      collectionId="backer-boards"
+      heroImageOverride="/products/backer/stack.jpg"
+      extraSection={<BackerBoardFeatures />}
+    />
+  );
 }

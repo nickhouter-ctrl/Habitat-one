@@ -7,9 +7,10 @@ export const site = {
   phoneHref: "+31651170545",
   whatsapp: "+31 6 51170545",
   addressLines: ["Camí de la Fontana 3, Locales 2, 3 en 5", "03730 Jávea (Alicante) · España"],
-  mapUrl: "https://maps.app.goo.gl/",
+  mapUrl:
+    "https://www.google.com/maps/dir/?api=1&destination=Cam%C3%AD+de+la+Fontana+3%2C+03730+J%C3%A1vea%2C+Alicante%2C+Spain",
   mapEmbed:
-    "https://www.openstreetmap.org/export/embed.html?bbox=0.150%2C38.785%2C0.205%2C38.805&layer=mapnik&marker=38.7950%2C0.1655",
+    "https://www.google.com/maps?q=Cam%C3%AD%20de%20la%20Fontana%203%2C%2003730%20J%C3%A1vea%2C%20Alicante%2C%20Spain&output=embed",
   languages: ["English", "Nederlands", "Español", "Deutsch"],
   social: [
     { label: "Instagram", href: "https://instagram.com" },

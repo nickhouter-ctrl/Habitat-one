@@ -64,7 +64,7 @@
   "home": {
     "magicEyebrow": "Unsere Signatur",
     "magicTitle": "Flexibel Stone",
-    "magicLead": "Echter Naturstein, der sich der Wand anpasst — leichter als Fliesen, in Platten bis 1,2 × 2,4 m. Wir haben es gewählt, weil die Wärme von Travertin, Holz und Erde überall im Haus ankommen kann: Wände, Decken, Möbel, Fassaden.",
+    "magicLead": "Echter Naturstein, der sich der Wand anpasst — leichter als Fliesen, in Platten bis 1,2 × 3,06 m. Wir haben es gewählt, weil die Wärme von Travertin, Holz und Erde überall im Haus ankommen kann: Wände, Decken, Möbel, Fassaden.",
     "magicPoint1Title": "Ein Material, viele Texturen",
     "magicPoint1Text": "Travertin, verkohltes Holz, Beton, Kalkstein — über dreißig Oberflächen in einer Kollektion.",
     "magicPoint2Title": "Fugenlos, nach Maß",
@@ -189,7 +189,7 @@
     "catalogueTitle": "Vier Kapitel,\\neine Kuration",
     "catalogueLead": "Flexibel Stone führt — gefolgt von Bad, Türen und Zubehör im gleichen mediterranen Register. Scrollen Sie, um jedes Kapitel zu entdecken.",
     "browseAllProducts": "Alles durchsuchen",
-    "chapterDescriptionWallPanels": "Flexible Naturstein-Paneele — Travertin, verkohltes Holz, Beton, Kalkstein — in Platten bis 1,2 × 2,4 m. Folgt gebogenen Wänden und Decken, ohne Fugen verlegt.",
+    "chapterDescriptionWallPanels": "Flexible Naturstein-Paneele — Travertin, verkohltes Holz, Beton, Kalkstein — in Platten bis 1,2 × 3,06 m. Folgt gebogenen Wänden und Decken, ohne Fugen verlegt.",
     "chapterDescriptionBathroom": "Solid-Surface-Wannen, Becken und Duschtassen — warm im Griff und reparierbar. Fugenlose Stücke, die ein Bad zur Ruhe bringen.",
     "chapterDescriptionDoors": "Massive Innentüren in derselben Holztonfamilie wie die Wandpaneele — für durchgehende Flächen von Boden bis Decke.",
     "chapterDescriptionDoorAccessories": "Scharniere in gebürstetem Mattmetall — das letzte Detail.",
@@ -525,7 +525,25 @@
     "inQuote": "Zum Angebot hinzugefügt",
     "bookAppointment": "Termin vereinbaren",
     "collectionBackerBoards": "XPS Backer Boards",
-    "chapterDescriptionBackerBoards": "Leichte XPS-Trägerplatten — ein stabiler, wasserfester Untergrund für Wandpaneele und Fliesen. Erhältlich von 6 bis 30 mm."
+    "chapterDescriptionBackerBoards": "Leichte XPS-Trägerplatten — ein stabiler, wasserfester Untergrund für Wandpaneele und Fliesen. Erhältlich von 6 bis 30 mm.",
+    "backerFeatures": {
+      "applicationsEyebrow": "Was möglich ist",
+      "applicationsTitle": "Die wasserdichte Basis hinter schönen Wänden",
+      "applicationsLead": "XPS-Trägerplatten sind die verborgene Schicht, die Nassräume funktionieren lässt — ein stabiler, vollständig wasserdichter Untergrund für Duschwände, Nischen, Bänke, Vorwand-Installationen und großformatige Verfliesung. Von 6 bis 30 mm, innen und außen.",
+      "techEyebrow": "Technik & Brandschutz",
+      "techTitle": "Gemacht für Wasser, Gewicht und Wärme",
+      "techLead": "Ein steifer Kern aus extrudiertem Polystyrol (XPS) unter einer glasfaserverstärkten Zementbeschichtung — leicht zu tragen, stark unter Fliesen und stabil bei Wärme und Feuchte.",
+      "point1Title": "Wasserdichter XPS-Kern",
+      "point1Text": "Der geschlossenzellige Kern nimmt kein Wasser auf — ideal hinter Duschen, um Wannen und in jedem Nassbereich.",
+      "point2Title": "Leicht & steif",
+      "point2Text": "Ein Bruchteil des Gewichts von Zementplatten, dennoch stabil genug für großformatige Fliesen und Steinpaneele.",
+      "point3Title": "Schwer entflammbar",
+      "point3Text": "Mit schwer entflammbarer Rezeptur aufgebaut. Die vollständige Brandklasse steht auf dem technischen Datenblatt.",
+      "point4Title": "Schimmel- & feuchtigkeitsbeständig",
+      "point4Text": "Die mineralisch beschichtete Oberfläche widersteht Schimmel und verrottet oder quillt nicht — langlebig in Dampf und Salzluft.",
+      "certLabel": "Zertifiziert",
+      "specNote": "Vollständiges technisches Datenblatt — Brandklasse, Dämmwert und Dichte — auf Anfrage erhältlich."
+    }
   },
   "spaces": {
     "eyebrow": "Raum für Raum",
