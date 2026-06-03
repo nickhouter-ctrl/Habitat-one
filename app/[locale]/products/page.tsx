@@ -20,6 +20,9 @@ export default async function ProductsPage({
   const { locale } = await params;
   setRequestLocale(locale);
   return (
-    <CollectionLuxuryPage collectionId="wall-panels" />
+    <CollectionLuxuryPage
+      collectionId="wall-panels"
+      heroImageOverride="/products/magic/italian-travertine-red-interior.png"
+    />
   );
 }
