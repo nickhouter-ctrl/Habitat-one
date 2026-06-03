@@ -274,14 +274,14 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "danxia-rammed-earth-board-": {
-    card: `${MAGIC}/danxia-rammed-earth-board-beige.png`,
+    card: `${MAGIC}/danxia-rammed-earth-board-beige-closeup.png`,
     // NB: catalogue spelt this variant "Watemelon red" (typo) — key must match.
     variants: {
       beige: [
+        `${MAGIC}/danxia-rammed-earth-board-beige-closeup.png`,
         `${MAGIC}/danxia-rammed-earth-board-beige.png`,
         `${MAGIC}/danxia-rammed-earth-board-beige-interior.png`,
         `${MAGIC}/danxia-rammed-earth-board-beige-exterior.png`,
-        `${MAGIC}/danxia-rammed-earth-board-beige-closeup.png`,
       ],
       "watemelon red": [
         `${MAGIC}/danxia-rammed-earth-board-watermelon-red.png`,
@@ -343,11 +343,12 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "ando-cement-": {
-    card: `${MAGIC}/ando-cement-front.png`,
-    // Single colour (Warm Grey) — rich gallery: two product angles, two
-    // interiors, two exteriors.
+    card: `${MAGIC}/ando-cement-closeup.png`,
+    // Single colour (Warm Grey) — texture close-up first, then product angles,
+    // interiors, exteriors.
     variants: {
       "warm grey": [
+        `${MAGIC}/ando-cement-closeup.png`,
         `${MAGIC}/ando-cement-front.png`,
         `${MAGIC}/ando-cement-edge.png`,
         `${MAGIC}/ando-cement-zen.png`,
