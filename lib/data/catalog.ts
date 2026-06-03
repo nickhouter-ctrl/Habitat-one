@@ -375,7 +375,6 @@ PRODUCT_IMAGE_OVERRIDES["zen-ando-cement-board"] = {
     "warm grey": [
       `${MAGIC}/zen-ando-cement-board-warm-grey.png`,
       `${MAGIC}/zen-ando-cement-board-warm-grey-interior.png`,
-      `${MAGIC}/zen-ando-cement-board-warm-grey-interior2.png`,
       `${MAGIC}/zen-ando-cement-board-warm-grey-closeup.png`,
     ],
   },
@@ -630,10 +629,8 @@ export const productMedia: Record<string, ProductMedia> = {
     ],
   },
   "zen-ando-cement-board": {
-    videos: { "warm grey": `${MAGIC}/zen-ando-cement-board-warm-grey.mp4` },
     context: [
       `${MAGIC}/zen-ando-cement-board-warm-grey-interior.png`,
-      `${MAGIC}/zen-ando-cement-board-warm-grey-interior2.png`,
     ],
   },
   "rust-board-": {
