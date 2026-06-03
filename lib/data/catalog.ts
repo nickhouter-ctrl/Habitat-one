@@ -371,6 +371,17 @@ PRODUCT_IMAGE_OVERRIDES["zen-ando-cement-board"] = {
     ],
   },
 };
+// Lime Dacite — two single-variant products (no colour variants in the catalogue).
+// Without a card image they were excluded from the listing; give each a texture
+// close-up so they show up.
+PRODUCT_IMAGE_OVERRIDES["lime-dacite-white-lime-1778674932942"] = {
+  card: `${MAGIC}/lime-dacite-white-lime-closeup.png`,
+  variants: {},
+};
+PRODUCT_IMAGE_OVERRIDES["lime-dacite-yellow-lime-1778674932941"] = {
+  card: `${MAGIC}/lime-dacite-yellow-lime-closeup.png`,
+  variants: {},
+};
 PRODUCT_IMAGE_OVERRIDES["cut-stone-"] = {
   card: `${MAGIC}/cut-stone-beige-closeup.png`,
   // Lead with the woven-stone texture close-up; product shot follows.
@@ -672,6 +683,10 @@ export function magicSceneGallery(): { src: string; label: string; href: string 
   }
   return out;
 }
+
+// Lime Dacite — in-situ interiors as context stills.
+productMedia["lime-dacite-white-lime-1778674932942"] = { context: [`${MAGIC}/lime-dacite-white-lime-interior.png`] };
+productMedia["lime-dacite-yellow-lime-1778674932941"] = { context: [`${MAGIC}/lime-dacite-yellow-lime-interior.png`] };
 
 // Backer boards: show the "what's possible" application stills on each product page too.
 for (const _bp of catalogProducts) {
