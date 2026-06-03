@@ -190,22 +190,27 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
         `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
       "medium grey": [
+        `${MAGIC}/age-stone-medium-grey-closeup.png`,
         `${MAGIC}/age-stone-medium-grey-v2.png`,
         `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
       "dark grey": [
+        `${MAGIC}/age-stone-dark-grey-closeup.png`,
         `${MAGIC}/age-stone-dark-grey-v2.png`,
         `${MAGIC}/age-stone-dark-grey-interior-v2.png`,
       ],
       khaki: [
+        `${MAGIC}/age-stone-khaki-closeup.png`,
         `${MAGIC}/age-stone-khaki-v2.png`,
         `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
       "gradient yellow": [
+        `${MAGIC}/age-stone-gradient-yellow-closeup.png`,
         `${MAGIC}/age-stone-gradient-yellow-v2.png`,
         `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
       "gradient grey": [
+        `${MAGIC}/age-stone-gradient-grey-closeup.png`,
         `${MAGIC}/age-stone-gradient-grey-v2.png`,
         `${MAGIC}/age-stone-dark-grey-interior-v2.png`,
       ],
