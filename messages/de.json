@@ -140,8 +140,8 @@
     "locationPoint2": "Ein geschütztes Mikroklima rund um den Naturpark Montgó",
     "locationPoint3": "Blaue-Flagge-Strände und versteckte Buchten am Cap de la Nau",
     "locationPoint4": "Tosca-Stein, Kalkanstrich und Kalk — die lokale Bausprache",
-    "ctaTitle": "Bauen wir Ihre Villa in Xàbia.",
-    "ctaText": "Erzählen Sie uns von Ihrem Grundstück, Ihrem Haus oder Ihrer Idee. Wir melden uns mit Materialien, Zeichnungen und einem klaren Plan — in Ihrer Sprache.",
+    "ctaTitle": "Erleben Sie die Möglichkeiten.",
+    "ctaText": "An ausgewählten Showroom-Tagen sind private Eigentümer willkommen, unsere Materialien, Designs und Baukonzepte zu entdecken. Holen Sie sich Inspiration und besprechen Sie Ihre Ideen mit unserem Team.",
     "ctaButton": "Projekt starten",
     "ctaSecondary": "Showroom besuchen"
   },
@@ -724,6 +724,8 @@
     "directionsText": "Im Herzen von Xàbia mit kostenlosen Parkplätzen — nur 90 Minuten von Valencia und 75 Minuten vom Flughafen Alicante."
   },
   "footer": {
+    "ctaTitle": "Das One-Stop-Bau- und Wohnerlebnis in Xàbia.",
+    "ctaText": "Entdecken Sie sorgfältig kuratierte Materialien, innovative Produkte und inspirierende Lösungen für Ihr Zuhause. Ob Sie bauen, renovieren oder einfach nach Ideen suchen — unser Showroom hilft Ihnen zu entdecken, was möglich ist. Buchen Sie Ihren Besuch über unsere Website und erleben Sie Habitat One selbst.",
     "tagline": "Bauen, renovieren und schön wohnen in Xàbia — Materialien, Design, Recht und Immobilien unter einem mediterranen Dach.",
     "exploreTitle": "Entdecken",
     "companyTitle": "Unternehmen",

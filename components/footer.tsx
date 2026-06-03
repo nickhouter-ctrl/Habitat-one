@@ -30,9 +30,9 @@ export async function Footer() {
           <div>
             <p className="eyebrow is-light">{t("common.place")}</p>
             <h2 className="mt-4 max-w-xl text-3xl leading-tight text-cream md:text-[2.6rem]">
-              {t("home.ctaTitle")}
+              {t("footer.ctaTitle")}
             </h2>
-            <p className="mt-4 max-w-lg text-cream/70">{t("home.ctaText")}</p>
+            <p className="mt-4 max-w-lg text-cream/70">{t("footer.ctaText")}</p>
           </div>
           <div className="flex flex-wrap gap-3 md:justify-end">
             <Link href="/contact" className="btn btn-primary">
