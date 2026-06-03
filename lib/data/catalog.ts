@@ -258,9 +258,10 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "fine-line-stone-board-": {
-    card: `${MAGIC}/fine-line-stone-board-beige.png`,
+    card: `${MAGIC}/fine-line-stone-board-beige-closeup.png`,
     variants: {
       beige: [
+        `${MAGIC}/fine-line-stone-board-beige-closeup.png`,
         `${MAGIC}/fine-line-stone-board-beige.png`,
         `${MAGIC}/fine-line-stone-board-beige-interior.png`,
         `${MAGIC}/fine-line-stone-board-beige-exterior.png`,
@@ -359,22 +360,22 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
 
 // --- Single-variant / non-uniform collections (handled by hand) ---
 PRODUCT_IMAGE_OVERRIDES["zen-ando-cement-board"] = {
-  card: `${MAGIC}/zen-ando-cement-board-warm-grey-v2.png`,
+  card: `${MAGIC}/zen-ando-cement-board-warm-grey-closeup-v2.png`,
   variants: {
     "warm grey": [
+      `${MAGIC}/zen-ando-cement-board-warm-grey-closeup-v2.png`,
       `${MAGIC}/zen-ando-cement-board-warm-grey-v2.png`,
       `${MAGIC}/zen-ando-cement-board-warm-grey-interior-v2.png`,
-      `${MAGIC}/zen-ando-cement-board-warm-grey-closeup-v2.png`,
     ],
   },
 };
 PRODUCT_IMAGE_OVERRIDES["cut-stone-"] = {
-  card: `${MAGIC}/cut-stone-beige.png`,
-  // Only a product shot + flex hero per colour for now.
+  card: `${MAGIC}/cut-stone-beige-closeup.png`,
+  // Lead with the woven-stone texture close-up; product shot follows.
   variants: {
     red: [`${MAGIC}/cut-stone-red.png`],
     grey: [`${MAGIC}/cut-stone-grey.png`],
-    beige: [`${MAGIC}/cut-stone-beige.png`],
+    beige: [`${MAGIC}/cut-stone-beige-closeup.png`, `${MAGIC}/cut-stone-beige.png`],
   },
 };
 PRODUCT_IMAGE_OVERRIDES["rockface-stone"] = {
