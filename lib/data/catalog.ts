@@ -270,6 +270,7 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
         `${MAGIC}/fine-line-stone-board-beige-exterior.png`,
       ],
       concrete: [
+        `${MAGIC}/fine-line-stone-board-concrete-closeup.png`,
         `${MAGIC}/fine-line-stone-board-concrete.png`,
         `${MAGIC}/fine-line-stone-board-concrete-interior.png`,
         `${MAGIC}/fine-line-stone-board-concrete-exterior.png`,
