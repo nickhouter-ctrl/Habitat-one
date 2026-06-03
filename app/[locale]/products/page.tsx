@@ -22,7 +22,7 @@ export default async function ProductsPage({
   return (
     <CollectionLuxuryPage
       collectionId="wall-panels"
-      heroImageOverride="/products/magic/italian-travertine-red-interior.png"
+      heroImageOverride="/scenery/flexibel-stone-hero.jpg"
     />
   );
 }
