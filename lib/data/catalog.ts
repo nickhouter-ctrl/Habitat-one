@@ -176,12 +176,12 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "age-stone-": {
-    card: `${MAGIC}/age-stone-beige-v2.png`,
-    // New fine-stone renders (thin flexible panels). Per variant: product
-    // swatch → matching in-situ interior (light colours use the beige room,
-    // dark colours the charcoal room).
+    card: `${MAGIC}/age-stone-beige-closeup.png`,
+    // New fine-stone renders (thin flexible panels). Per variant: texture
+    // close-up → product swatch → matching in-situ interior.
     variants: {
       beige: [
+        `${MAGIC}/age-stone-beige-closeup.png`,
         `${MAGIC}/age-stone-beige-v2.png`,
         `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
@@ -208,10 +208,11 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "ancient-wood-board-": {
-    card: `${MAGIC}/ancient-wood-board-khaki.png`,
-    // Per variant: product shot → interior → villa façade.
+    card: `${MAGIC}/ancient-wood-board-khaki-closeup.png`,
+    // Per variant: texture close-up → product shot → interior → villa façade.
     variants: {
       khaki: [
+        `${MAGIC}/ancient-wood-board-khaki-closeup.png`,
         `${MAGIC}/ancient-wood-board-khaki.png`,
         `${MAGIC}/ancient-wood-board-khaki-interior.png`,
         `${MAGIC}/ancient-wood-board-khaki-exterior.png`,
@@ -229,9 +230,10 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "cave-rammed-earth-board-": {
-    card: `${MAGIC}/cave-rammed-earth-board-light-grey.png`,
+    card: `${MAGIC}/cave-rammed-earth-board-light-grey-closeup.png`,
     variants: {
       "light grey": [
+        `${MAGIC}/cave-rammed-earth-board-light-grey-closeup.png`,
         `${MAGIC}/cave-rammed-earth-board-light-grey.png`,
         `${MAGIC}/cave-rammed-earth-board-light-grey-interior.png`,
         `${MAGIC}/cave-rammed-earth-board-light-grey-exterior.png`,
@@ -333,9 +335,10 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     },
   },
   "coarse-charcoal-burnt-wood-board": {
-    card: `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey.png`,
+    card: `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey-closeup.png`,
     variants: {
       "dark grey": [
+        `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey-closeup.png`,
         `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey.png`,
         `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey-interior.png`,
         `${MAGIC}/coarse-charcoal-burnt-wood-board-dark-grey-exterior.png`,
@@ -402,13 +405,13 @@ PRODUCT_IMAGE_OVERRIDES["cut-stone-"] = {
   },
 };
 PRODUCT_IMAGE_OVERRIDES["rockface-stone"] = {
-  card: `${MAGIC}/rockface-stone-beige.png`,
+  card: `${MAGIC}/rockface-stone-beige-closeup.png`,
   variants: {
     beige: [
+      `${MAGIC}/rockface-stone-beige-closeup.png`,
       `${MAGIC}/rockface-stone-beige.png`,
       `${MAGIC}/rockface-stone-beige-interior.png`,
       `${MAGIC}/rockface-stone-beige-exterior.png`,
-      `${MAGIC}/rockface-stone-beige-closeup.png`,
     ],
     "dark grey": [
       `${MAGIC}/rockface-stone-dark-grey.png`,
