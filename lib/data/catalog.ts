@@ -182,7 +182,7 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
     variants: {
       beige: [
         `${MAGIC}/age-stone-beige-closeup.png`,
-        `${MAGIC}/age-stone-beige-v2.png`,
+        `${MAGIC}/age-stone-beige-landscape.png`,
         `${MAGIC}/age-stone-beige-interior-v2.png`,
       ],
       "medium grey": [
@@ -401,7 +401,7 @@ PRODUCT_IMAGE_OVERRIDES["cut-stone-"] = {
   variants: {
     red: [`${MAGIC}/cut-stone-red.png`],
     grey: [`${MAGIC}/cut-stone-grey.png`],
-    beige: [`${MAGIC}/cut-stone-beige-closeup.png`, `${MAGIC}/cut-stone-beige.png`],
+    beige: [`${MAGIC}/cut-stone-beige-closeup.png`, `${MAGIC}/cut-stone-beige-landscape.png`],
   },
 };
 PRODUCT_IMAGE_OVERRIDES["rockface-stone"] = {
@@ -409,7 +409,7 @@ PRODUCT_IMAGE_OVERRIDES["rockface-stone"] = {
   variants: {
     beige: [
       `${MAGIC}/rockface-stone-beige-closeup.png`,
-      `${MAGIC}/rockface-stone-beige.png`,
+      `${MAGIC}/rockface-stone-beige-landscape.png`,
       `${MAGIC}/rockface-stone-beige-interior.png`,
       `${MAGIC}/rockface-stone-beige-exterior.png`,
     ],
