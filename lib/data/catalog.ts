@@ -9,8 +9,10 @@ export type Collection = CatalogProduct["collection"];
 // (The catalog's own categories don't cleanly map to our three storefront
 //  collections, so a handful of products need to be re-bucketed by hand.)
 const COLLECTION_OVERRIDES: Record<string, Collection> = {
-  // Flexibel Stone wall panels miscategorised as bathroom
+  // Flexibel Stone wall panels miscategorised by the auto-classifier
   "ms-travertino": "wall-panels",
+  "lime-dacite-white-lime-1778674932942": "wall-panels",
+  "lime-dacite-yellow-lime-1778674932941": "wall-panels",
   // Small bathroom accessories — belong in "Accessories", not the fixtures bucket
   "solid-surface-bathroom-tray-250-250-25-1765881448962": "accessories",
   "towel-bar-627-71-25-1765881449656": "accessories",
