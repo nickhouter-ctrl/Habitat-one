@@ -491,7 +491,6 @@ export const productMedia: Record<string, ProductMedia> = {
       "light grey": [`${MAGIC}/concrete-board-light-grey.mp4`, `${MAGIC}/concrete-board-light-grey-2.mp4`],
       "medium grey": `${MAGIC}/concrete-board-medium-grey.mp4`,
     },
-    context: [`${MAGIC}/usp-hand-flex.png`, `${MAGIC}/usp-curved-wall.png`],
   },
   "ripple-board-": {
     videos: {

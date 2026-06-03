@@ -20,9 +20,6 @@ export default async function ProductsPage({
   const { locale } = await params;
   setRequestLocale(locale);
   return (
-    <CollectionLuxuryPage
-      collectionId="wall-panels"
-      heroImageOverride="/products/magic/usp-curved-wall.png"
-    />
+    <CollectionLuxuryPage collectionId="wall-panels" />
   );
 }
