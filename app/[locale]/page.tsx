@@ -88,11 +88,39 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     { title: t("magicPoint3Title"), text: t("magicPoint3Text") },
   ];
 
+  // "What is Habitat One" — the one-stop building experience, four audiences.
+  const onestopBlocks = [
+    { title: t("onestopBlock1Title"), text: t("onestopBlock1Text") },
+    { title: t("onestopBlock2Title"), text: t("onestopBlock2Text") },
+    { title: t("onestopBlock3Title"), text: t("onestopBlock3Text") },
+    { title: t("onestopBlock4Title"), text: t("onestopBlock4Text") },
+  ];
+
   const featuredProject = projects[0];
 
   return (
     <>
       <Hero />
+
+      {/* ---- What is Habitat One — the one-stop building experience ---- */}
+      <Section chapter="Habitat One" className="bg-background py-20 md:py-28">
+        <Container>
+          <EditorialHeading eyebrow={t("onestopEyebrow")} title={t("onestopTitle")} />
+          <div className="mt-12 grid grid-cols-1 gap-x-10 gap-y-9 sm:grid-cols-2 md:mt-16">
+            {onestopBlocks.map((b, i) => (
+              <Reveal key={b.title} delay={i * 0.06}>
+                <div className="border-t border-ink/15 pt-6">
+                  <span className="text-[0.72rem] font-medium uppercase tracking-[0.2em] text-ink-soft">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="mt-3 text-xl font-medium leading-snug text-ink">{b.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-ink-soft md:text-[0.95rem]">{b.text}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </Container>
+      </Section>
 
       {/* ---- Flexibel Stone — the signature collection ---- */}
       <Section chapter="Flexibel Stone" className="bg-paper py-20 md:py-32">
