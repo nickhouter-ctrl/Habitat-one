@@ -370,12 +370,12 @@ const PRODUCT_IMAGE_OVERRIDES: Record<string, ProductImageOverride> = {
 
 // --- Single-variant / non-uniform collections (handled by hand) ---
 PRODUCT_IMAGE_OVERRIDES["zen-ando-cement-board"] = {
-  card: `${MAGIC}/zen-ando-cement-board-warm-grey.png`,
+  card: `${MAGIC}/zen-ando-cement-board-warm-grey-v2.png`,
   variants: {
     "warm grey": [
-      `${MAGIC}/zen-ando-cement-board-warm-grey.png`,
-      `${MAGIC}/zen-ando-cement-board-warm-grey-interior.png`,
-      `${MAGIC}/zen-ando-cement-board-warm-grey-closeup.png`,
+      `${MAGIC}/zen-ando-cement-board-warm-grey-v2.png`,
+      `${MAGIC}/zen-ando-cement-board-warm-grey-interior-v2.png`,
+      `${MAGIC}/zen-ando-cement-board-warm-grey-closeup-v2.png`,
     ],
   },
 };
@@ -630,7 +630,7 @@ export const productMedia: Record<string, ProductMedia> = {
   },
   "zen-ando-cement-board": {
     context: [
-      `${MAGIC}/zen-ando-cement-board-warm-grey-interior.png`,
+      `${MAGIC}/zen-ando-cement-board-warm-grey-interior-v2.png`,
     ],
   },
   "rust-board-": {
