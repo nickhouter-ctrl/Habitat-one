@@ -758,6 +758,39 @@ for (const _dp of catalogProducts) {
   if (card) _dp.image = card;
 }
 
+// Merge the XPS backer boards into ONE product with thickness variants, so the
+// duplicate thickness SKUs (2× 6 mm, 2× 10 mm, …) collapse into a single product
+// page where you pick the thickness (user request).
+{
+  const _xps = catalogProducts.filter((p) => p.collection === "backer-boards");
+  if (_xps.length > 1) {
+    const ORDER = ["6mm", "10mm", "12mm", "20mm", "30mm"];
+    const byThick = new Map<string, (typeof _xps)[number]>();
+    for (const p of _xps) {
+      const m = p.name.match(/(\d+)\s*mm/i);
+      const key = m ? `${m[1]}mm` : p.name;
+      if (!byThick.has(key)) byThick.set(key, p);
+    }
+    const canonical = _xps[0];
+    canonical.name = "XPS Backer Board";
+    canonical.image = "/products/backer/board-detail.png";
+    canonical.variants = ORDER.filter((k) => byThick.has(k)).map((k, i) => {
+      const src = byThick.get(k)!;
+      return {
+        id: src.id ?? 90000 + i,
+        name: k.replace("mm", " mm"),
+        colorHex: null,
+        sku: src.sku ?? null,
+        images: ["/products/backer/thicknesses.jpg", "/products/backer/board-detail.png", "/products/backer/edge.jpg"],
+      } as ProductVariant;
+    });
+    for (let i = catalogProducts.length - 1; i >= 0; i--) {
+      const p = catalogProducts[i];
+      if (p.collection === "backer-boards" && p !== canonical) catalogProducts.splice(i, 1);
+    }
+  }
+}
+
 // Matching in-situ interiors (2026-06-04): one photoreal room per product whose
 // feature wall reproduces the EXACT real product texture (image-to-image from the
 // order-PDF reference). Shown as a context still so the gallery stays the clean
