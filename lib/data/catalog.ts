@@ -758,35 +758,43 @@ for (const _dp of catalogProducts) {
   if (card) _dp.image = card;
 }
 
-// Merge the XPS backer boards into ONE product with thickness variants, so the
-// duplicate thickness SKUs (2× 6 mm, 2× 10 mm, …) collapse into a single product
-// page where you pick the thickness (user request).
+// XPS backer boards: ONE product per THICKNESS (6/10/12/20/30 mm). Where the same
+// thickness ships in several sizes (6 mm and 10 mm each have two), those collapse
+// into SIZE variants on that thickness's page, sorted by size. (Not colours.)
 {
   const _xps = catalogProducts.filter((p) => p.collection === "backer-boards");
-  if (_xps.length > 1) {
-    const ORDER = ["6mm", "10mm", "12mm", "20mm", "30mm"];
-    const byThick = new Map<string, (typeof _xps)[number]>();
+  if (_xps.length) {
+    const groups = new Map<number, typeof _xps>();
     for (const p of _xps) {
       const m = p.name.match(/(\d+)\s*mm/i);
-      const key = m ? `${m[1]}mm` : p.name;
-      if (!byThick.has(key)) byThick.set(key, p);
+      const mm = m ? parseInt(m[1], 10) : 0;
+      if (!groups.has(mm)) groups.set(mm, []);
+      groups.get(mm)!.push(p);
     }
-    const canonical = _xps[0];
-    canonical.name = "XPS Backer Board";
-    canonical.image = "/products/backer/board-detail.png";
-    canonical.variants = ORDER.filter((k) => byThick.has(k)).map((k, i) => {
-      const src = byThick.get(k)!;
-      return {
-        id: src.id ?? 90000 + i,
-        name: k.replace("mm", " mm"),
-        colorHex: null,
-        sku: src.sku ?? null,
-        images: ["/products/backer/thicknesses.jpg", "/products/backer/board-detail.png", "/products/backer/edge.jpg"],
-      } as ProductVariant;
-    });
+    const widthOf = (p: CatalogProduct) => {
+      const m = (p.dimensions ?? "").match(/(\d+)\s*[×x]\s*(\d+)/);
+      return m ? parseInt(m[2], 10) : 0;
+    };
+    const remove = new Set<CatalogProduct>();
+    for (const [mm, list] of groups) {
+      list.sort((a, b) => widthOf(a) - widthOf(b));
+      const canonical = list[0];
+      canonical.name = `XPS Backer Board ${mm}mm`;
+      canonical.image = "/products/backer/board-detail.png";
+      canonical.variants =
+        list.length > 1
+          ? list.map((p, i) => ({
+              id: p.id ?? 90000 + mm * 10 + i,
+              name: p.dimensions ?? `${mm} mm`,
+              colorHex: null,
+              sku: p.sku ?? null,
+              images: ["/products/backer/thicknesses.jpg", "/products/backer/board-detail.png", "/products/backer/edge.jpg"],
+            } as ProductVariant))
+          : [];
+      for (let j = 1; j < list.length; j++) remove.add(list[j]);
+    }
     for (let i = catalogProducts.length - 1; i >= 0; i--) {
-      const p = catalogProducts[i];
-      if (p.collection === "backer-boards" && p !== canonical) catalogProducts.splice(i, 1);
+      if (remove.has(catalogProducts[i])) catalogProducts.splice(i, 1);
     }
   }
 }

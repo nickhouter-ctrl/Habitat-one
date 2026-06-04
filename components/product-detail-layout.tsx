@@ -26,6 +26,7 @@ export interface ProductDetailLayoutProps {
     aboutThisProduct: string;
     specifications: string;
     availableColours: string;
+    availableSizes: string;
     sku: string;
     dimensions: string;
     materials: string;
@@ -283,7 +284,7 @@ export function ProductDetailLayout({
         {showSwatches && (
           <div className="mt-10">
             <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
-              {labels.availableColours}
+              {product.collection === "backer-boards" ? labels.availableSizes : labels.availableColours}
               <span className="ml-3 text-ink/40">({swatches.length})</span>
             </p>
             <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">

@@ -163,6 +163,7 @@ export default async function ProductDetailPage({
               aboutThisProduct: t("aboutThisProduct"),
               specifications: t("specifications"),
               availableColours: t("availableColours"),
+              availableSizes: t("availableSizes"),
               sku: t("sku"),
               dimensions: t("dimensions"),
               materials: t("materials"),
