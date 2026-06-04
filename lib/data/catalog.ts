@@ -460,9 +460,12 @@ for (const b of BATCHES) {
       .map((part) => `${MAGIC}/${fs}-${c}-${part}.png`);
     // Lead galleries with the texture close-up, then the panel shot (base —
     // being replaced per colour with a landscape render), then in-situ scenes.
+    // Gallery = texture close-up + the thin flat real-ratio panel only. Old
+    // mismatched interior/exterior scenes dropped (reviewed scene pass comes later).
+    void rest;
     variants[k] = hasCloseup
-      ? [`${MAGIC}/${fs}-${c}-closeup.png`, base, ...rest]
-      : [base, ...rest];
+      ? [`${MAGIC}/${fs}-${c}-closeup.png`, base]
+      : [base];
   }
   // List/grid thumbnail (card) also leads with the close-up where available.
   PRODUCT_IMAGE_OVERRIDES[b.slug] = {
@@ -735,11 +738,15 @@ const MATCHING_INTERIOR_SLUGS = new Set([
   "ando-cement", "zen-ando-cement-board", "wood-concrete-board", "wood-cement-board",
   "rust-board",
 ]);
+// Interiors generated 2026-06-04 but AI quality is inconsistent (some walls blurry /
+// not crisply matching). Held back from prod — context cleared so only the clean
+// [closeup, landscape] product pair shows. The `${clean}-interior.png` files remain
+// in the repo for a careful, reviewed interior pass with the user.
 for (const p of catalogProducts) {
   const clean = p.slug.replace(/-$/, "");
   if (!MATCHING_INTERIOR_SLUGS.has(clean)) continue;
   const prev = productMedia[p.slug] ?? {};
-  productMedia[p.slug] = { ...prev, context: [`${MAGIC}/${clean}-interior.png`] };
+  productMedia[p.slug] = { ...prev, context: [] };
 }
 
 export { catalogProducts, catalogMaterials, catalogSpaces, catalogCategories };
