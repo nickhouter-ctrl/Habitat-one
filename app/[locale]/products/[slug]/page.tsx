@@ -46,8 +46,10 @@ export async function generateMetadata({
   const p = getProductBySlug(slug);
   if (!p) return { title: "Product" };
   const tr = await productI18n(locale, slug);
+  // Flexibel Stone (wall-panels) names stay English in every locale.
+  const enName = p.collection === "wall-panels" ? p.name : tr.name ?? p.name;
   return {
-    title: tr.name ?? p.name,
+    title: enName,
     description: tr.short ?? p.short ?? p.description ?? undefined,
   };
 }
@@ -92,7 +94,9 @@ export default async function ProductDetailPage({
   const t = await getTranslations("products");
   const ts = await getTranslations("spaces");
   const tr = await productI18n(locale, slug);
-  const name = tr.name ?? product.name;
+  // Flexibel Stone (wall-panels) names stay English in every locale.
+  const name =
+    product.collection === "wall-panels" ? product.name : tr.name ?? product.name;
   const lead = tr.short ?? product.short ?? null;
   const localized =
     product.descriptionI18n?.[locale as "nl" | "de" | "en" | "es"];

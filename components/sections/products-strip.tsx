@@ -46,7 +46,13 @@ export function ProductsStrip({
           const isHovered = hovered === id;
           const anyHovered = hovered !== null;
           const dimmed = anyHovered && !isHovered;
-          const name = t.has(`i18n.${p.slug}.name`) ? t(`i18n.${p.slug}.name`) : p.name;
+          // Flexibel Stone (wall-panels) names stay English in every locale.
+          const name =
+            p.collection === "wall-panels"
+              ? p.name
+              : t.has(`i18n.${p.slug}.name`)
+                ? t(`i18n.${p.slug}.name`)
+                : p.name;
           return (
             <Link
               key={p.id}

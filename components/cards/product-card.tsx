@@ -16,9 +16,14 @@ const collectionKey: Record<string, string> = {
   "door-accessories": "collectionDoorAccessories",
 };
 
-/** Localised product name (falls back to the catalogue's English name). */
+/**
+ * Localised product name (falls back to the catalogue's English name).
+ * Flexibel Stone (wall-panels) names are always shown in English — the range
+ * is marketed under its English finish names in every locale.
+ */
 export function useProductName(product: CatalogProduct): string {
   const t = useTranslations("products");
+  if (product.collection === "wall-panels") return product.name;
   const key = `i18n.${product.slug}.name`;
   return t.has(key) ? t(key) : product.name;
 }
@@ -37,7 +42,12 @@ export function ProductCard({
   priority?: boolean;
 }) {
   const t = useTranslations("products");
-  const name = t.has(`i18n.${product.slug}.name`) ? t(`i18n.${product.slug}.name`) : product.name;
+  const name =
+    product.collection === "wall-panels"
+      ? product.name
+      : t.has(`i18n.${product.slug}.name`)
+        ? t(`i18n.${product.slug}.name`)
+        : product.name;
   const localShort = t.has(`i18n.${product.slug}.short`) ? t(`i18n.${product.slug}.short`) : null;
   let detail = localShort ?? product.dimensions ?? product.short ?? null;
   if (detail && name && detail.toLowerCase().startsWith(name.toLowerCase()) && detail.length > name.length) {

@@ -69,8 +69,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     .sort((a, b) => (b.variants.length > 1 ? 1 : 0) - (a.variants.length > 1 ? 1 : 0))
     .slice(0, 10);
   // Flexibel Stone signature block — a real in-situ travertine render
-  // (large-format panel on an interior wall), shown uncropped (16:9).
-  const magicHero = "/products/magic/ms-travertino-light-grey-interior.jpg";
+  // (travertine-clad villa façade by the pool), shown uncropped (16:9).
+  const magicHero = "/products/magic/travertine-beige-exterior.jpg";
 
   // Featured Flexibel Stone products — cinematic scroll-pinned stories (real video).
   // Story 1 = Concrete Board · Mid Gray. Story 2 = Travertino · Beige.
