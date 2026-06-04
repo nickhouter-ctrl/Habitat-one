@@ -19,5 +19,5 @@ export default async function BathroomPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <CollectionLuxuryPage collectionId="bathroom" />;
+  return <CollectionLuxuryPage collectionId="bathroom" heroImageOverride="/scenery/bathroom-hero.jpg" />;
 }

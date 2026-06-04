@@ -735,6 +735,19 @@ for (const _bp of catalogProducts) {
   }
 }
 
+// Doors ship without studio photos → give each a real card so the collection
+// actually lists, and so the editorial "detail" image is a door (not the stock
+// dark-house fallback /products/v/460.jpg the user flagged).
+const DOOR_CARDS = ["/scenery/door-product.jpg", "/scenery/doors-corridor.jpg"];
+let _doorCard = 0;
+for (const _dp of catalogProducts) {
+  if (_dp.collection !== "doors") continue;
+  if (!_dp.image) {
+    _dp.image = DOOR_CARDS[_doorCard % DOOR_CARDS.length];
+    _doorCard++;
+  }
+}
+
 // Matching in-situ interiors (2026-06-04): one photoreal room per product whose
 // feature wall reproduces the EXACT real product texture (image-to-image from the
 // order-PDF reference). Shown as a context still so the gallery stays the clean

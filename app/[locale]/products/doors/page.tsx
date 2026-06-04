@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CollectionLuxuryPage } from "@/components/sections/collection-luxury";
+import { DoorFeatures } from "@/components/sections/door-features";
 
 export async function generateMetadata({
   params,
@@ -19,5 +20,11 @@ export default async function DoorsPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <CollectionLuxuryPage collectionId="doors" heroImageOverride="/scenery/doors-hero.jpg" />;
+  return (
+    <CollectionLuxuryPage
+      collectionId="doors"
+      heroImageOverride="/scenery/doors-corridor.jpg"
+      extraSection={<DoorFeatures />}
+    />
+  );
 }
