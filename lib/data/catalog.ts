@@ -711,16 +711,27 @@ export function magicSceneGallery(): { src: string; label: string; href: string 
 productMedia["lime-dacite-white-lime-1778674932942"] = { context: [`${MAGIC}/lime-dacite-white-lime-interior.png`] };
 productMedia["lime-dacite-yellow-lime-1778674932941"] = { context: [`${MAGIC}/lime-dacite-yellow-lime-interior.png`] };
 
-// Backer boards: show the "what's possible" application stills on each product page too.
+// Backer boards: give each board a real card image so it shows in the listing
+// (they ship with no studio photo, by design), and attach the "what's possible"
+// application renders (grey board + teal XPS core, no brand) as context stills.
+const BACKER_APPLICATIONS = [
+  "/products/backer/xps-app-toilet-backboard.png",
+  "/products/backer/xps-app-shower-niche.png",
+  "/products/backer/xps-app-floor-heating.png",
+  "/products/backer/xps-app-shower-bench.png",
+  "/products/backer/xps-app-waterproof-backing.png",
+  "/products/backer/xps-scene-shower.png",
+];
 for (const _bp of catalogProducts) {
-  if (_bp.collection === "backer-boards" && !productMedia[_bp.slug]) {
-    productMedia[_bp.slug] = {
-      context: [
-        "/products/backer/application-shower-niche.jpg",
-        "/products/backer/application-wall-install.png",
-        "/products/backer/board-detail.png",
-      ],
-    };
+  if (_bp.collection !== "backer-boards") continue;
+  if (!_bp.image) _bp.image = "/products/backer/board-detail.png";
+  for (const _v of _bp.variants) {
+    if (!_v.images || _v.images.length === 0) {
+      _v.images = ["/products/backer/board-detail.png", "/products/backer/edge.jpg", "/products/backer/thicknesses.jpg"];
+    }
+  }
+  if (!productMedia[_bp.slug]) {
+    productMedia[_bp.slug] = { context: BACKER_APPLICATIONS };
   }
 }
 
