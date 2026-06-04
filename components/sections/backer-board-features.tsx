@@ -13,12 +13,15 @@ const CERTIFICATIONS = ["ISO 9001", "CE", "ICC"];
 // What you can build from the XPS boards — supplier-style application set,
 // rendered from the real board (grey faces, teal XPS core) with no brand marks.
 const APPLICATIONS = [
-  { src: "/products/backer/xps-app-toilet-backboard.png", label: "Wall-hung toilet backboard" },
+  { src: "/products/backer/xps-scene-vanity.png", label: "Floating bathroom vanity" },
+  { src: "/products/backer/xps-scene-bath.png", label: "Built-in bath surround" },
+  { src: "/products/backer/xps-scene-shower.png", label: "Fully tanked wet room" },
   { src: "/products/backer/xps-app-shower-niche.png", label: "Shower niche" },
+  { src: "/products/backer/xps-app-vanity-niches.png", label: "Vanity with niches" },
   { src: "/products/backer/xps-app-floor-heating.png", label: "Floor-heating system" },
+  { src: "/products/backer/xps-app-toilet-backboard.png", label: "Wall-hung toilet backboard" },
   { src: "/products/backer/xps-app-shower-bench.png", label: "Shower bench" },
   { src: "/products/backer/xps-app-waterproof-backing.png", label: "Waterproof backing" },
-  { src: "/products/backer/xps-scene-shower.png", label: "Fully tanked wet room" },
 ];
 
 export async function BackerBoardFeatures() {

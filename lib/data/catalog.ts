@@ -715,12 +715,12 @@ productMedia["lime-dacite-yellow-lime-1778674932941"] = { context: [`${MAGIC}/li
 // (they ship with no studio photo, by design), and attach the "what's possible"
 // application renders (grey board + teal XPS core, no brand) as context stills.
 const BACKER_APPLICATIONS = [
-  "/products/backer/xps-app-toilet-backboard.png",
-  "/products/backer/xps-app-shower-niche.png",
-  "/products/backer/xps-app-floor-heating.png",
-  "/products/backer/xps-app-shower-bench.png",
-  "/products/backer/xps-app-waterproof-backing.png",
+  "/products/backer/xps-scene-vanity.png",
+  "/products/backer/xps-scene-bath.png",
   "/products/backer/xps-scene-shower.png",
+  "/products/backer/xps-app-shower-niche.png",
+  "/products/backer/xps-app-vanity-niches.png",
+  "/products/backer/xps-app-floor-heating.png",
 ];
 for (const _bp of catalogProducts) {
   if (_bp.collection !== "backer-boards") continue;
@@ -735,17 +735,20 @@ for (const _bp of catalogProducts) {
   }
 }
 
-// Doors ship without studio photos → give each a real card so the collection
-// actually lists, and so the editorial "detail" image is a door (not the stock
-// dark-house fallback /products/v/460.jpg the user flagged).
-const DOOR_CARDS = ["/scenery/door-product.jpg", "/scenery/doors-corridor.jpg"];
-let _doorCard = 0;
+// Doors ship without studio photos → give each its real card (inside = wood,
+// outside = aluminium) so the collection lists and the editorial "detail" image
+// is a door (not the stock dark-house fallback /products/v/460.jpg the user flagged).
+const DOOR_CARD_BY_STEM: Record<string, string> = {
+  "inside-door": "/scenery/door-product.jpg",
+  "inside-door-2": "/scenery/doors-corridor.jpg",
+  "outside-door": "/scenery/outside-door-1.jpg",
+  "outside-door-2": "/scenery/outside-door-2.jpg",
+};
 for (const _dp of catalogProducts) {
   if (_dp.collection !== "doors") continue;
-  if (!_dp.image) {
-    _dp.image = DOOR_CARDS[_doorCard % DOOR_CARDS.length];
-    _doorCard++;
-  }
+  const stem = _dp.slug.replace(/-\d+$/, "");
+  const card = DOOR_CARD_BY_STEM[stem];
+  if (card) _dp.image = card;
 }
 
 // Matching in-situ interiors (2026-06-04): one photoreal room per product whose
