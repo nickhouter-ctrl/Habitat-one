@@ -721,6 +721,27 @@ for (const _bp of catalogProducts) {
   }
 }
 
+// Matching in-situ interiors (2026-06-04): one photoreal room per product whose
+// feature wall reproduces the EXACT real product texture (image-to-image from the
+// order-PDF reference). Shown as a context still so the gallery stays the clean
+// [closeup, landscape] product pair while the application scene still matches.
+const MATCHING_INTERIOR_SLUGS = new Set([
+  "travertine", "terrazzo-rough-stone", "rough-granite", "line-stone-board",
+  "square-line-stone", "concrete-board", "ms-travertino", "huge-travertine",
+  "roman-huge-travertine", "italian-travertine", "age-stone", "cut-stone",
+  "rampart-rammed-earth-board", "cave-rammed-earth-board", "danxia-rammed-earth-board",
+  "rockface-stone", "fine-line-stone-board", "ancient-wood-board", "poly-wood-board",
+  "charcoal-burnt-wood-board", "coarse-charcoal-burnt-wood-board", "linear-travertine",
+  "ando-cement", "zen-ando-cement-board", "wood-concrete-board", "wood-cement-board",
+  "rust-board",
+]);
+for (const p of catalogProducts) {
+  const clean = p.slug.replace(/-$/, "");
+  if (!MATCHING_INTERIOR_SLUGS.has(clean)) continue;
+  const prev = productMedia[p.slug] ?? {};
+  productMedia[p.slug] = { ...prev, context: [`${MAGIC}/${clean}-interior.png`] };
+}
+
 export { catalogProducts, catalogMaterials, catalogSpaces, catalogCategories };
 export type { CatalogProduct, CatalogMaterial, CatalogSpace, CatalogCategory, ProductVariant };
 
