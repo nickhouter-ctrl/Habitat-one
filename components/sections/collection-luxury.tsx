@@ -252,7 +252,11 @@ export async function CollectionLuxuryPage({
 
           {/* Slide through every product in the collection */}
           <div className="mt-12 md:mt-16">
-            <ProductsStrip products={sorted} />
+            <ProductsStrip
+              products={sorted}
+              ctaHref={allHref}
+              ctaLabel={isMagic ? undefined : `Browse all ${title.toLowerCase()}`}
+            />
           </div>
         </div>
       </section>

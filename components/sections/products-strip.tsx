@@ -9,7 +9,17 @@ import { Link } from "@/i18n/navigation";
 import type { CatalogProduct } from "@/lib/data/catalog";
 import { cn } from "@/lib/utils";
 
-export function ProductsStrip({ products }: { products: CatalogProduct[] }) {
+export function ProductsStrip({
+  products,
+  ctaHref = "/products?collection=wall-panels",
+  ctaLabel,
+}: {
+  products: CatalogProduct[];
+  /** Trailing "browse all" tile link (defaults to the Flexibel Stone collection). */
+  ctaHref?: string;
+  /** Trailing tile label (defaults to "Browse all Flexibel Stone products"). */
+  ctaLabel?: string;
+}) {
   const t = useTranslations("products");
   const scrollerRef = useRef<HTMLDivElement>(null);
   const [hovered, setHovered] = useState<string | null>(null);
@@ -106,13 +116,13 @@ export function ProductsStrip({ products }: { products: CatalogProduct[] }) {
 
         {/* Trailing CTA tile */}
         <Link
-          href="/products?collection=wall-panels"
+          href={ctaHref}
           data-card
           className="group flex w-[68%] shrink-0 snap-start items-center justify-center bg-ink text-paper sm:w-[40%] md:w-[30%] lg:w-[22%]"
         >
           <div className="flex flex-col items-start gap-3 p-6">
             <span className="text-[0.66rem] uppercase tracking-[0.32em] text-paper/65">{t("collection")}</span>
-            <span className="text-2xl font-medium leading-tight">{t("viewMagicCollection")}</span>
+            <span className="text-2xl font-medium leading-tight">{ctaLabel ?? t("viewMagicCollection")}</span>
             <ArrowUpRight className="mt-3 h-5 w-5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
           </div>
         </Link>
