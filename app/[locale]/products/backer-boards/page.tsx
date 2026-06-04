@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CollectionLuxuryPage } from "@/components/sections/collection-luxury";
-import { BackerBoardFeatures } from "@/components/sections/backer-board-features";
+import { BackerApplications, BackerBoardFeatures } from "@/components/sections/backer-board-features";
 
 export async function generateMetadata({
   params,
@@ -24,6 +24,8 @@ export default async function BackerBoardsPage({
     <CollectionLuxuryPage
       collectionId="backer-boards"
       heroImageOverride="/products/backer/stack.jpg"
+      belowHero={<BackerApplications />}
+      belowProducts={<BackerApplications />}
       extraSection={<BackerBoardFeatures />}
     />
   );

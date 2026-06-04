@@ -66,6 +66,8 @@ export async function CollectionLuxuryPage({
   collectionId,
   heroImageOverride,
   extraSection,
+  belowHero,
+  belowProducts,
 }: {
   collectionId: Collection;
   /** Optional editorial hero image (e.g. an in-situ shot) instead of the
@@ -73,6 +75,10 @@ export async function CollectionLuxuryPage({
   heroImageOverride?: string;
   /** Optional collection-specific blocks rendered just before the CTA banner. */
   extraSection?: React.ReactNode;
+  /** Optional block rendered directly under the hero/intro. */
+  belowHero?: React.ReactNode;
+  /** Optional block rendered directly under the products slide. */
+  belowProducts?: React.ReactNode;
 }) {
   const t = await getTranslations("products");
 
@@ -223,6 +229,8 @@ export async function CollectionLuxuryPage({
       )}
 
       {/* ---- Featured products in an asymmetric grid ---- */}
+      {belowHero}
+
       <section className="bg-background py-20 md:py-28" data-chapter={t("title")}>
         <div className="container-x">
           <div className="grid grid-cols-12 items-end gap-6 border-t border-ink/15 pt-8">
@@ -260,6 +268,8 @@ export async function CollectionLuxuryPage({
           </div>
         </div>
       </section>
+
+      {belowProducts}
 
       {/* ---- Stacked gallery — big render scenes that fall down the page ---- */}
       {(isMagic ? MAGIC_GALLERY.length : galleryImages.length) > 0 && (

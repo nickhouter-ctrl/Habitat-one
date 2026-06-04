@@ -102,18 +102,30 @@ export function DoorFeatures() {
             </h2>
           </div>
 
-          <div className="mt-12 grid grid-cols-1 gap-x-10 gap-y-8 sm:grid-cols-2 md:mt-16 lg:grid-cols-2">
-            {LAYERS.map(({ n, title, text }) => (
-              <div key={n} className="flex gap-4 border-t border-ink/10 pt-5">
-                <span className="font-display text-2xl leading-none text-terracotta-600">
-                  {n.toString().padStart(2, "0")}
-                </span>
-                <div>
-                  <h3 className="text-[0.95rem] font-medium text-ink">{title}</h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">{text}</p>
+          <div className="mt-12 grid gap-10 md:mt-16 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
+            {/* Cutaway render — our own clean re-shoot of the supplier exploded view */}
+            <div className="relative aspect-[4/3] overflow-hidden bg-sand-100 lg:sticky lg:top-28 lg:self-start">
+              <Image
+                src="/scenery/door-cutaway.png"
+                alt="Exploded cutaway of the layered solid-wood door construction"
+                fill
+                sizes="(max-width:1024px) 100vw, 50vw"
+                className="object-cover"
+              />
+            </div>
+            <div className="grid grid-cols-1 gap-y-6">
+              {LAYERS.map(({ n, title, text }) => (
+                <div key={n} className="flex gap-4 border-t border-ink/10 pt-5">
+                  <span className="font-display text-2xl leading-none text-terracotta-600">
+                    {n.toString().padStart(2, "0")}
+                  </span>
+                  <div>
+                    <h3 className="text-[0.95rem] font-medium text-ink">{title}</h3>
+                    <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">{text}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>

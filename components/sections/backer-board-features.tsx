@@ -24,6 +24,48 @@ const APPLICATIONS = [
   { src: "/products/backer/xps-app-waterproof-backing.png", label: "Waterproof backing" },
 ];
 
+/** "What you can build" application gallery — reused below the hero AND below
+ * the products slide on the XPS Backer Boards collection page. */
+export async function BackerApplications() {
+  const t = await getTranslations("products.backerFeatures");
+  return (
+    <section className="bg-paper py-20 md:py-28" data-chapter={t("applicationsTitle")}>
+      <div className="container-x">
+        <div className="max-w-3xl">
+          <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+            {t("applicationsEyebrow")}
+          </p>
+          <h2 className="mt-4 text-3xl font-medium leading-[1.06] tracking-[-0.018em] text-ink md:text-4xl">
+            {t("applicationsTitle")}
+          </h2>
+          <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink-soft">
+            {t("applicationsLead")}
+          </p>
+        </div>
+
+        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 md:mt-16 md:grid-cols-3 md:gap-8">
+          {APPLICATIONS.map(({ src, label }) => (
+            <figure key={src} className="group">
+              <div className="relative aspect-[4/3] overflow-hidden bg-sand-100">
+                <Image
+                  src={src}
+                  alt={label}
+                  fill
+                  sizes="(max-width:768px) 100vw, 33vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                />
+              </div>
+              <figcaption className="mt-3 text-[0.8rem] font-medium uppercase tracking-[0.16em] text-ink-soft">
+                {label}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export async function BackerBoardFeatures() {
   const t = await getTranslations("products.backerFeatures");
 
@@ -36,42 +78,6 @@ export async function BackerBoardFeatures() {
 
   return (
     <>
-      {/* ---- Applications — what's possible ---- */}
-      <section className="bg-paper py-20 md:py-28" data-chapter={t("applicationsTitle")}>
-        <div className="container-x">
-          <div className="max-w-3xl">
-            <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
-              {t("applicationsEyebrow")}
-            </p>
-            <h2 className="mt-4 text-3xl font-medium leading-[1.06] tracking-[-0.018em] text-ink md:text-4xl">
-              {t("applicationsTitle")}
-            </h2>
-            <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink-soft">
-              {t("applicationsLead")}
-            </p>
-          </div>
-
-          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 md:mt-16 md:grid-cols-3 md:gap-8">
-            {APPLICATIONS.map(({ src, label }) => (
-              <figure key={src} className="group">
-                <div className="relative aspect-[4/3] overflow-hidden bg-sand-100">
-                  <Image
-                    src={src}
-                    alt={label}
-                    fill
-                    sizes="(max-width:768px) 100vw, 33vw"
-                    className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
-                  />
-                </div>
-                <figcaption className="mt-3 text-[0.8rem] font-medium uppercase tracking-[0.16em] text-ink-soft">
-                  {label}
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ---- Technical & fire safety ---- */}
       <section
         className="border-t border-ink/10 bg-background py-20 md:py-28"
