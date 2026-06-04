@@ -749,17 +749,13 @@ const MATCHING_INTERIOR_SLUGS = new Set([
   "ando-cement", "zen-ando-cement-board", "wood-concrete-board", "wood-cement-board",
   "rust-board",
 ]);
-// Matching in-situ scenes (2026-06-04, v2): one interior + one exterior per product,
-// generated image-to-image from the product's own SHARP close-up so the clad wall /
-// façade reproduces the real texture crisply. Appended to every colour gallery →
-// [closeup, thin panel, interior, exterior]. Stale productMedia context cleared.
+// In-situ scenes are being CURATED (2026-06-04): the auto-generated interiors/
+// exteriors render many textured products as rough plaster rather than the precise
+// thin panels, so they're pulled from the galleries (back to [closeup, thin panel]).
+// Good scenes (old or new) will be re-added selectively once picked. Files kept.
 for (const p of catalogProducts) {
   const clean = p.slug.replace(/-$/, "");
   if (!MATCHING_INTERIOR_SLUGS.has(clean)) continue;
-  for (const v of p.variants) {
-    if (!v.images || v.images.length === 0) continue;
-    v.images = [...v.images, `${MAGIC}/${clean}-interior.png`, `${MAGIC}/${clean}-exterior.png`];
-  }
   const prev = productMedia[p.slug] ?? {};
   productMedia[p.slug] = { ...prev, context: [] };
 }
