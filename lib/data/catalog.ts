@@ -735,14 +735,21 @@ for (const _bp of catalogProducts) {
   }
 }
 
-// Doors ship without studio photos → give each its real card (inside = wood,
-// outside = aluminium) so the collection lists and the editorial "detail" image
-// is a door (not the stock dark-house fallback /products/v/460.jpg the user flagged).
+// Remove the door closer + door stopper from the catalogue entirely (user).
+for (let i = catalogProducts.length - 1; i >= 0; i--) {
+  const s = catalogProducts[i].slug;
+  if (s.startsWith("deursluiter-concealed") || s.startsWith("deurstopper-brons")) {
+    catalogProducts.splice(i, 1);
+  }
+}
+// Real door cards. Inside = warm oak flush door + bronze lever (lighter oak on the
+// wider 920, warmer oak on the 720); outside = matte-black aluminium (with glass
+// sidelight on the wider 1220, without on the 920). Keyed by the products.json slug.
 const DOOR_CARD_BY_STEM: Record<string, string> = {
-  "inside-door": "/scenery/door-product.jpg",
-  "inside-door-2": "/scenery/doors-corridor.jpg",
-  "outside-door": "/scenery/outside-door-1.jpg",
-  "outside-door-2": "/scenery/outside-door-2.jpg",
+  "binnendeur-compleet-920-2600-bronze": "/scenery/binnendeur-920-bronze.jpg",
+  "binnendeur-compleet-720-2600-bronze": "/scenery/binnendeur-720-bronze.jpg",
+  "buitendeur-compleet-920-2400-matzwart": "/scenery/buitendeur-920-matzwart.jpg",
+  "buitendeur-compleet-1220-2400-matzwart": "/scenery/buitendeur-1220-matzwart.jpg",
 };
 for (const _dp of catalogProducts) {
   if (_dp.collection !== "doors") continue;
