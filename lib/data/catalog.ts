@@ -738,13 +738,17 @@ const MATCHING_INTERIOR_SLUGS = new Set([
   "ando-cement", "zen-ando-cement-board", "wood-concrete-board", "wood-cement-board",
   "rust-board",
 ]);
-// Interiors generated 2026-06-04 but AI quality is inconsistent (some walls blurry /
-// not crisply matching). Held back from prod — context cleared so only the clean
-// [closeup, landscape] product pair shows. The `${clean}-interior.png` files remain
-// in the repo for a careful, reviewed interior pass with the user.
+// Matching in-situ scenes (2026-06-04, v2): one interior + one exterior per product,
+// generated image-to-image from the product's own SHARP close-up so the clad wall /
+// façade reproduces the real texture crisply. Appended to every colour gallery →
+// [closeup, thin panel, interior, exterior]. Stale productMedia context cleared.
 for (const p of catalogProducts) {
   const clean = p.slug.replace(/-$/, "");
   if (!MATCHING_INTERIOR_SLUGS.has(clean)) continue;
+  for (const v of p.variants) {
+    if (!v.images || v.images.length === 0) continue;
+    v.images = [...v.images, `${MAGIC}/${clean}-interior.png`, `${MAGIC}/${clean}-exterior.png`];
+  }
   const prev = productMedia[p.slug] ?? {};
   productMedia[p.slug] = { ...prev, context: [] };
 }
