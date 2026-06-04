@@ -14,10 +14,10 @@ import { Magnetic } from "@/components/ui/magnetic";
 // Flexibel Stone — calm Mediterranean interiors that auto-crossfade.
 const HERO_IMAGES = [
   "/scenery/home-hero-villa.jpg",
-  "/products/magic/ms-travertino-light-grey-interior.png",
+  "/products/magic/ms-travertino-light-grey-interior.jpg",
   "/products/magic/interior-ibiza-lounge.png",
-  "/products/magic/ms-travertino-medium-grey-interior.png",
-  "/products/magic/ms-travertino-beige-interior.png",
+  "/products/magic/ms-travertino-medium-grey-interior.jpg",
+  "/products/magic/ms-travertino-beige-interior.jpg",
 ];
 const SLIDE_MS = 6000;
 

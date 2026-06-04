@@ -1,4 +1,5 @@
 import { catalogProducts, type CatalogProduct, type ProductVariant } from "./products.generated";
+import { SCENE_STEMS } from "./scenes.generated";
 import { catalogMaterials, type CatalogMaterial } from "./materials.generated";
 import { catalogSpaces, type CatalogSpace } from "./spaces.generated";
 import { catalogCategories, type CatalogCategory } from "./categories.generated";
@@ -680,6 +681,61 @@ for (const b of BATCHES) {
     context: b.context.map((c) => `${MAGIC}/${fs}-${c}.png`),
   };
 }
+// ---------------------------------------------------------------------------
+// Per-colour in-situ scenes (interior + exterior). Every Flexibel Stone colour
+// has a matching `${stem}-interior.jpg` + `${stem}-exterior.jpg` generated from
+// that colour's own sharp close-up, with panels rendered at their real on-wall
+// dimensions. We attach them uniformly here so each variant gallery ends in
+// [close-up, flat panel, interior scene, exterior scene] and the page-level
+// context strip shows real rooms/façades — instead of the older one-off lists.
+// ---------------------------------------------------------------------------
+const SCENE_SET = new Set(SCENE_STEMS);
+const isSceneImg = (s: string) => /-(interior|exterior)\.(png|jpe?g)$/i.test(s);
+// Resolve the scene stem (e.g. "travertine-beige") for a catalogue variant by
+// inspecting its own imagery and the product card, with a colour-name fallback
+// for products whose close-up file omits the colour (e.g. "ando-cement").
+function resolveSceneStem(p: CatalogProduct, v: ProductVariant): string | null {
+  const colour = (v.name ?? "").toLowerCase().trim().replace(/\s+/g, "-");
+  const sources = [...v.images, p.image].filter(Boolean) as string[];
+  for (const src of sources) {
+    const base = src
+      .split("/")
+      .pop()!
+      .replace(/\.\w+$/, "")
+      .replace(/-(closeup|landscape|front|edge|interior|exterior)(-v2)?$/i, "")
+      .replace(/-v2$/i, "");
+    if (SCENE_SET.has(base)) return base;
+    if (colour && SCENE_SET.has(`${base}-${colour}`)) return `${base}-${colour}`;
+  }
+  return null;
+}
+for (const p of catalogProducts) {
+  for (const v of p.variants) {
+    const stem = resolveSceneStem(p, v);
+    if (!stem) continue;
+    let kept = v.images.filter((s) => !isSceneImg(s));
+    // If a variant still only carries stale scraped placeholders (no curated
+    // /magic/ imagery), lead its gallery with the product's magic card instead.
+    if (!kept.some((s) => s.includes("/magic/"))) {
+      kept = p.image ? [p.image] : kept;
+    }
+    v.images = [
+      ...kept,
+      `${MAGIC}/${stem}-interior.jpg`,
+      `${MAGIC}/${stem}-exterior.jpg`,
+    ];
+  }
+}
+// Repoint any context stills that referenced the now-converted .png scenes at
+// their .jpg replacements (leaves bespoke -v2 / non-scene stills untouched).
+for (const m of Object.values(productMedia)) {
+  if (m.context) {
+    m.context = m.context.map((s) =>
+      s.replace(/-(interior|exterior)\.png$/i, "-$1.jpg"),
+    );
+  }
+}
+
 export function getProductMedia(slug: string): ProductMedia | null {
   return productMedia[slug] ?? null;
 }
@@ -708,8 +764,8 @@ export function magicSceneGallery(): { src: string; label: string; href: string 
 }
 
 // Lime Dacite — in-situ interiors as context stills.
-productMedia["lime-dacite-white-lime-1778674932942"] = { context: [`${MAGIC}/lime-dacite-white-lime-interior.png`] };
-productMedia["lime-dacite-yellow-lime-1778674932941"] = { context: [`${MAGIC}/lime-dacite-yellow-lime-interior.png`] };
+productMedia["lime-dacite-white-lime-1778674932942"] = { context: [`${MAGIC}/lime-dacite-white-lime-interior.jpg`, `${MAGIC}/lime-dacite-white-lime-exterior.jpg`] };
+productMedia["lime-dacite-yellow-lime-1778674932941"] = { context: [`${MAGIC}/lime-dacite-yellow-lime-interior.jpg`, `${MAGIC}/lime-dacite-yellow-lime-exterior.jpg`] };
 
 // Backer boards: give each board a real card image so it shows in the listing
 // (they ship with no studio photo, by design), and attach the "what's possible"

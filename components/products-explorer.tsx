@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { useTranslations, useLocale } from "next-intl";
@@ -31,6 +31,23 @@ export function ProductsExplorer({
   const [material, setMaterial] = useState<string>(initialMaterial);
   const [query, setQuery] = useState(initialQuery);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+  // Reflect the active filters in the URL so a filtered view is shareable and
+  // bookmarkable. We write directly with the History API (not the router) so
+  // there is no re-render or scroll jump — the local state stays the source of
+  // truth, the URL just mirrors it.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams();
+    if (collection !== "all") params.set("collection", collection);
+    if (space !== "all") params.set("space", space);
+    if (material !== "all") params.set("material", material);
+    const qq = query.trim();
+    if (qq) params.set("q", qq);
+    const qs = params.toString();
+    const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+    window.history.replaceState(window.history.state, "", url);
+  }, [collection, space, material, query]);
 
   const collectionLabel = (id: string) => collections.find((c) => c.id === id)?.key;
 

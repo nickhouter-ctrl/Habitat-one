@@ -70,7 +70,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     .slice(0, 10);
   // Flexibel Stone signature block — a real in-situ travertine render
   // (large-format panel on an interior wall), shown uncropped (16:9).
-  const magicHero = "/products/magic/ms-travertino-light-grey-interior.png";
+  const magicHero = "/products/magic/ms-travertino-light-grey-interior.jpg";
 
   // Featured Flexibel Stone products — cinematic scroll-pinned stories (real video).
   // Story 1 = Concrete Board · Mid Gray. Story 2 = Travertino · Beige.
@@ -80,7 +80,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const story1Video = "/products/magic/concrete-board-medium-grey.mp4";
   const story1Poster = "/products/magic/concrete-board-medium-grey-hero.png";
   const story2Video = "/products/magic/story-travertino-beige.mp4";
-  const story2Poster = "/products/magic/ms-travertino-beige-interior.png";
+  const story2Poster = "/products/magic/ms-travertino-beige-interior.jpg";
 
   const magicPoints = [
     { title: t("magicPoint1Title"), text: t("magicPoint1Text") },
@@ -105,20 +105,37 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       {/* ---- What is Habitat One — the one-stop building experience ---- */}
       <Section chapter="Habitat One" className="bg-background py-20 md:py-28">
         <Container>
-          <EditorialHeading eyebrow={t("onestopEyebrow")} title={t("onestopTitle")} />
-          <div className="mt-12 grid grid-cols-1 gap-x-10 gap-y-9 sm:grid-cols-2 md:mt-16">
+          <EditorialHeading
+            eyebrow={t("onestopEyebrow")}
+            title={t("onestopTitle")}
+            text={t("onestopLead")}
+          />
+          <div className="mt-14 grid grid-cols-1 gap-x-12 gap-y-10 sm:grid-cols-2 md:mt-20">
             {onestopBlocks.map((b, i) => (
               <Reveal key={b.title} delay={i * 0.06}>
-                <div className="border-t border-ink/15 pt-6">
-                  <span className="text-[0.72rem] font-medium uppercase tracking-[0.2em] text-ink-soft">
+                <div className="flex gap-6 border-t border-ink/15 pt-7">
+                  <span
+                    aria-hidden
+                    className="shrink-0 text-4xl font-medium leading-none tabular-nums text-ink/20 md:text-5xl"
+                  >
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <h3 className="mt-3 text-xl font-medium leading-snug text-ink">{b.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-ink-soft md:text-[0.95rem]">{b.text}</p>
+                  <div className="min-w-0">
+                    <h3 className="text-xl font-medium leading-snug text-ink">{b.title}</h3>
+                    <p className="mt-2 text-sm leading-relaxed text-ink-soft md:text-[0.95rem]">{b.text}</p>
+                  </div>
                 </div>
               </Reveal>
             ))}
           </div>
+          <Reveal className="mt-12">
+            <Magnetic>
+              <Link href="/contact" className="btn btn-primary">
+                {t("onestopCta")}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Magnetic>
+          </Reveal>
         </Container>
       </Section>
 
@@ -187,7 +204,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <EditorialHeading
               eyebrow={t("productsEyebrow")}
-              title={t("magicTitle")}
+              title={t("productsTitle")}
               text={t("productsText")}
               className="max-w-2xl"
             />

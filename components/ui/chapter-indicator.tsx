@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "motion/react";
 
 /**
@@ -14,6 +15,7 @@ export function ChapterIndicator() {
   const [enabled, setEnabled] = useState(false);
   const [chapters, setChapters] = useState<{ id: string; label: string }[]>([]);
   const [active, setActive] = useState<string | null>(null);
+  const pathname = usePathname();
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -23,44 +25,55 @@ export function ChapterIndicator() {
     return () => cancelAnimationFrame(raf);
   }, []);
 
+  // Re-collect the chapters on every route change. This indicator lives in the
+  // root layout and is NOT remounted between pages, so without re-running on
+  // `pathname` the observer would keep watching the previous page's (now
+  // detached) sections — the marker would freeze on one spot after navigating.
   useEffect(() => {
     if (!enabled) return;
 
-    function collect() {
-      const els = Array.from(
-        document.querySelectorAll<HTMLElement>("[data-chapter]"),
-      );
-      // Always assign an index-based id so duplicate data-chapter labels
-      // (e.g. two sections both labelled "Concrete board") never collide as
-      // React keys.
-      const list = els.map((el, i) => {
-        const id = el.dataset.chapterId ?? `ch-${i}`;
-        el.dataset.chapterId = id;
-        return { id, label: el.dataset.chapter ?? "", el };
+    let observer: IntersectionObserver | null = null;
+    let raf2 = 0;
+
+    // Wait two frames so the freshly navigated-to page has committed its DOM
+    // before we query for [data-chapter] sections.
+    const raf1 = requestAnimationFrame(() => {
+      raf2 = requestAnimationFrame(() => {
+        const els = Array.from(
+          document.querySelectorAll<HTMLElement>("[data-chapter]"),
+        );
+        // Index-based id so duplicate data-chapter labels never collide as keys.
+        const list = els.map((el, i) => {
+          const id = `ch-${i}`;
+          el.dataset.chapterId = id;
+          return { id, label: el.dataset.chapter ?? "", el };
+        });
+        setChapters(list.map((c) => ({ id: c.id, label: c.label })));
+        setActive(list[0]?.id ?? null);
+        if (list.length === 0) return;
+
+        // Single threshold + asymmetric rootMargin = cheap and accurate enough.
+        // Fires once per section transition rather than on every ratio change,
+        // keeping the main thread free during scroll.
+        observer = new IntersectionObserver(
+          (entries) => {
+            const visible = entries.find((e) => e.isIntersecting);
+            if (visible) {
+              setActive((visible.target as HTMLElement).dataset.chapterId ?? null);
+            }
+          },
+          { threshold: 0, rootMargin: "-40% 0px -45% 0px" },
+        );
+        list.forEach(({ el }) => observer!.observe(el));
       });
-      setChapters(list.map((c) => ({ id: c.id, label: c.label })));
-      return list;
-    }
+    });
 
-    const list = collect();
-    if (list.length === 0) return;
-
-    // Single threshold + asymmetric rootMargin = cheap and accurate enough.
-    // The observer fires once per section transition rather than on every
-    // ratio change, which keeps the main thread free during scroll.
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries.find((e) => e.isIntersecting);
-        if (visible) {
-          setActive((visible.target as HTMLElement).dataset.chapterId ?? null);
-        }
-      },
-      { threshold: 0, rootMargin: "-40% 0px -45% 0px" },
-    );
-    list.forEach(({ el }) => observer.observe(el));
-
-    return () => observer.disconnect();
-  }, [enabled]);
+    return () => {
+      cancelAnimationFrame(raf1);
+      cancelAnimationFrame(raf2);
+      observer?.disconnect();
+    };
+  }, [enabled, pathname]);
 
   if (!enabled || chapters.length === 0) return null;
 
