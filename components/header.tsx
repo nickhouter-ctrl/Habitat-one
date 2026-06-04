@@ -45,11 +45,21 @@ export function Header() {
   // Uitklapmenu's met de bestaande site-inhoud.
   // Elke collectie heeft een eigen luxe pagina: Flexibel Stone op /products
   // (primair), andere collecties op /products/{id}.
+  // Accessories are bathroom accessories → list them nested right under Bathroom.
   const productItems: DropItem[] = [
-    ...collections.map((c) => ({
-      href: c.id === "wall-panels" ? "/products" : `/products/${c.id}`,
-      label: tProducts(c.key),
-    })),
+    ...collections
+      .filter((c) => c.id !== "accessories")
+      .flatMap((c) => {
+        const row = {
+          href: c.id === "wall-panels" ? "/products" : `/products/${c.id}`,
+          label: tProducts(c.key),
+        };
+        if (c.id !== "bathroom") return [row];
+        const acc = collections.find((x) => x.id === "accessories");
+        return acc
+          ? [row, { href: "/products/accessories", label: `└ ${tProducts(acc.key)}` }]
+          : [row];
+      }),
     { href: "/products/all", label: tProducts("allProducts") },
   ];
   const dropdowns: Record<string, DropItem[]> = {

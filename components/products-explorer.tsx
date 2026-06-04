@@ -89,26 +89,40 @@ export function ProductsExplorer({
       <div>
         <p className="text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-ink-soft/55">{t("collection")}</p>
         <ul className="mt-3 space-y-0.5">
-          {[{ id: "all", label: t("allProducts") }, ...collections.map((c) => ({ id: c.id, label: t(c.key) }))].map((c) => {
-            const active = collection === c.id;
-            const n = collectionCount(c.id);
-            return (
-              <li key={c.id}>
-                <button
-                  onClick={() => setCollection(c.id)}
-                  className={cn(
-                    "flex w-full items-center justify-between gap-2 rounded-xl px-3 py-2.5 text-left text-sm transition-colors",
-                    active ? "bg-clay-700 text-cream" : "text-ink hover:bg-sand-100",
-                  )}
-                >
-                  <span className={cn("flex items-center gap-1.5", active && "font-medium")}>
-                    {c.label}
-                  </span>
-                  <span className={cn("text-xs tabular-nums", active ? "text-cream/70" : "text-ink-soft/45")}>{n}</span>
-                </button>
-              </li>
-            );
-          })}
+          {(() => {
+            const renderRow = (id: string, label: string, nested = false) => {
+              const active = collection === id;
+              const n = collectionCount(id);
+              return (
+                <li key={id}>
+                  <button
+                    onClick={() => setCollection(id)}
+                    className={cn(
+                      "flex w-full items-center justify-between gap-2 rounded-xl py-2.5 text-left text-sm transition-colors",
+                      nested ? "pl-7 pr-3" : "px-3",
+                      active ? "bg-clay-700 text-cream" : "text-ink hover:bg-sand-100",
+                    )}
+                  >
+                    <span className={cn("flex items-center gap-1.5", active && "font-medium")}>
+                      {nested && <span className="text-ink-soft/35">&#9492;</span>}
+                      {label}
+                    </span>
+                    <span className={cn("text-xs tabular-nums", active ? "text-cream/70" : "text-ink-soft/45")}>{n}</span>
+                  </button>
+                </li>
+              );
+            };
+            // Accessories are bathroom accessories → nest them under Bathroom.
+            const top = [
+              { id: "all", label: t("allProducts") },
+              ...collections.filter((c) => c.id !== "accessories").map((c) => ({ id: c.id, label: t(c.key) })),
+            ];
+            return top.flatMap((c) => {
+              const rows = [renderRow(c.id, c.label)];
+              if (c.id === "bathroom") rows.push(renderRow("accessories", t("collectionAccessories"), true));
+              return rows;
+            });
+          })()}
         </ul>
       </div>
 
