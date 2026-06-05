@@ -794,14 +794,25 @@ const PLANTER_MODEL: Record<string, string> = {
   TBO40: "boge-tbo40", TBO48: "boge-tbo48",
   TEP30T: "epocco-tall", TEP38M: "epocco-mild", TEP46H: "epocco-high", TEP48B: "epocco-bold",
 };
-const SOLO_EXCLUDE = new Set(["epocco-bold-220r", "epocco-mild-220r", "epocco-tall-231r", "epocco-high-231r"]);
+// Solo scenes that actually exist on disk (only these get wired — avoids 404s
+// for catalogue variants that have no matching solo, e.g. Bold has no 101GR).
+const SOLO_AVAILABLE = new Set([
+  "boge-tbo40-102gr", "boge-tbo40-106gr", "boge-tbo40-107gr", "boge-tbo40-231r",
+  "boge-tbo48-102gr", "boge-tbo48-106gr", "boge-tbo48-107gr", "boge-tbo48-231r",
+  "epocco-tall-101gr", "epocco-tall-107gr", "epocco-tall-220r", "epocco-tall-231r",
+  "epocco-mild-101gr", "epocco-mild-107gr", "epocco-mild-220r", "epocco-mild-231r",
+  "epocco-high-101gr", "epocco-high-107gr", "epocco-high-220r", "epocco-high-231r",
+  "epocco-bold-107gr", "epocco-bold-220r", "epocco-bold-231r",
+]);
+const SOLO_EXCLUDE = new Set<string>(["epocco-bold-220r", "epocco-mild-220r", "epocco-tall-231r", "epocco-high-231r"]);
 function planterSolo(sku: string | null): string | null {
   const m = sku?.match(/^([A-Za-z]+\d+[A-Za-z]?)-(\d{3}(?:GR|R))$/i);
   if (!m) return null;
   const model = PLANTER_MODEL[m[1].toUpperCase()];
   if (!model) return null;
   const stem = `${model}-${m[2].toLowerCase()}`;
-  return SOLO_EXCLUDE.has(stem) ? null : `${MAGIC}/bloempotten-solo-${stem}.jpg`;
+  if (!SOLO_AVAILABLE.has(stem) || SOLO_EXCLUDE.has(stem)) return null;
+  return `${MAGIC}/bloempotten-solo-${stem}.jpg`;
 }
 {
   const remove = new Set<string>();
