@@ -23,6 +23,7 @@ const collectionKey: Record<string, string> = {
   accessories: "collectionAccessories",
   doors: "collectionDoors",
   "door-accessories": "collectionDoorAccessories",
+  bloempotten: "collectionFlowerPots",
 };
 
 const identifierPrefix: Record<string, string> = {
@@ -32,6 +33,7 @@ const identifierPrefix: Record<string, string> = {
   doors: "Habitat One · Doors",
   accessories: "Accessories",
   "door-accessories": "Door details",
+  bloempotten: "Garden · Bloempotten",
 };
 
 const descriptionKey: Record<string, string> = {
@@ -41,6 +43,7 @@ const descriptionKey: Record<string, string> = {
   doors: "chapterDescriptionDoors",
   accessories: "chapterDescriptionAccessories",
   "door-accessories": "chapterDescriptionDoorAccessories",
+  bloempotten: "chapterDescriptionFlowerPots",
 };
 
 // Big, full-width render scenes that "fall down" the Flexibel Stone gallery —
@@ -68,6 +71,7 @@ export async function CollectionLuxuryPage({
   extraSection,
   belowHero,
   belowProducts,
+  galleryOverride,
 }: {
   collectionId: Collection;
   /** Optional editorial hero image (e.g. an in-situ shot) instead of the
@@ -79,6 +83,9 @@ export async function CollectionLuxuryPage({
   belowHero?: React.ReactNode;
   /** Optional block rendered directly under the products slide. */
   belowProducts?: React.ReactNode;
+  /** Optional in-situ lifestyle shots for the stacked gallery, instead of the
+   *  studio product cut-outs — gives a collection a Flexibel-Stone-style lookbook. */
+  galleryOverride?: string[];
 }) {
   const t = await getTranslations("products");
 
@@ -87,10 +94,12 @@ export async function CollectionLuxuryPage({
   const sorted = [...withImg].sort(
     (a, b) => (b.variants.length > 1 ? 1 : 0) - (a.variants.length > 1 ? 1 : 0),
   );
-  const galleryImages = withImg
-    .map((p) => p.image)
-    .filter((src, i, arr) => arr.indexOf(src) === i)
-    .slice(0, 4) as string[];
+  const galleryImages = (galleryOverride && galleryOverride.length > 0
+    ? galleryOverride
+    : withImg
+        .map((p) => p.image)
+        .filter((src, i, arr) => arr.indexOf(src) === i)
+        .slice(0, 4)) as string[];
 
   const heroImage = heroImageOverride ?? sorted[0]?.image ?? "/products/v/454.jpg";
   const detailImage = sorted[1]?.image ?? sorted[0]?.image ?? "/products/v/460.jpg";

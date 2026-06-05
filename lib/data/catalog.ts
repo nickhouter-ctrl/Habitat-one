@@ -919,6 +919,7 @@ export type { CatalogProduct, CatalogMaterial, CatalogSpace, CatalogCategory, Pr
 
 export const collections: { id: Collection; key: string }[] = [
   { id: "wall-panels", key: "collectionWallPanels" },
+  { id: "bloempotten", key: "collectionFlowerPots" },
   { id: "backer-boards", key: "collectionBackerBoards" },
   { id: "bathroom", key: "collectionBathroom" },
   { id: "doors", key: "collectionDoors" },

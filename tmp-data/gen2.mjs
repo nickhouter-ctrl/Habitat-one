@@ -53,6 +53,7 @@ function collectionFor(name) {
   if (/\bdoor\b|deur|tür|puerta/.test(n)) return "doors";
   if (/bathtub|shower|wash basin|toilet|mirror|towel|robe hook|paper holder|cistern|brush holder|faucet|drainage|button cover|shower set|bathroom tray/.test(n)) return "bathroom";
   if (/\bxps\b|backer board|backer-board/.test(n)) return "backer-boards";
+  if (/\bboge\b|epocco|bloempot|flower ?pot|planter|plantenpot/.test(n)) return "bloempotten";
   if (/board|travertine|cement|stone|granite|terrazzo|rammed earth/.test(n)) return "wall-panels";
   return "accessories";
 }
@@ -154,7 +155,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten";
   variants: ProductVariant[];
 }
 

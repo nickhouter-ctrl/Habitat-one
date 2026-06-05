@@ -21,7 +21,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten";
   variants: ProductVariant[];
 }
 
@@ -1007,6 +1007,15 @@ export const catalogProducts: CatalogProduct[] = [
         "images": [
           "/products/v/309.jpg",
           "/products/v/448.jpg"
+        ]
+      },
+      {
+        "id": 658,
+        "name": "Pure White",
+        "colorHex": "#F4F1EB",
+        "sku": "MS-009",
+        "images": [
+          "/products/v/493.jpg"
         ]
       },
       {
@@ -2059,21 +2068,30 @@ export const catalogProducts: CatalogProduct[] = [
       },
       {
         "id": 714,
-        "name": "Grey",
-        "colorHex": "#807f75",
+        "name": "Beige",
+        "colorHex": "#C9BCA8",
         "sku": "MS-067",
+        "images": [
+          "/products/v/365.jpg",
+          "/products/v/480.jpg"
+        ]
+      },
+      {
+        "id": 717,
+        "name": "Grey",
+        "colorHex": "#8C8B86",
+        "sku": "MS-068",
         "images": [
           "/products/v/366.jpg"
         ]
       },
       {
         "id": 716,
-        "name": "Beige",
-        "colorHex": "#d8d9d0",
+        "name": "Dark Grey",
+        "colorHex": "#4B4A47",
         "sku": "MS-069",
         "images": [
-          "/products/v/365.jpg",
-          "/products/v/480.jpg"
+          "/products/v/494.jpg"
         ]
       }
     ]
@@ -2240,6 +2258,15 @@ export const catalogProducts: CatalogProduct[] = [
         ]
       },
       {
+        "id": 726,
+        "name": "Medium Grey",
+        "colorHex": "#8C8A85",
+        "sku": "MS-082",
+        "images": [
+          "/products/v/495.jpg"
+        ]
+      },
+      {
         "id": 725,
         "name": "Dark Grey",
         "colorHex": "#747473",
@@ -2340,10 +2367,11 @@ export const catalogProducts: CatalogProduct[] = [
       },
       {
         "id": 736,
-        "name": "Grey White",
-        "colorHex": "#cdcfca",
+        "name": "White Grey",
+        "colorHex": "#D6D4CE",
         "sku": "MS-091",
         "images": [
+          "/products/v/496.jpg",
           "/products/v/384.jpg"
         ]
       }
@@ -2426,7 +2454,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 364,
-    "name": "Bathtub KKR-B051-A",
+    "name": "Bathtub",
     "slug": "bathtub",
     "sku": "KKR-B051-A",
     "short": "Bathtub 1780x785x590mm",
@@ -2540,7 +2568,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 370,
-    "name": "Wall Hung Basin KKR-1261-1",
+    "name": "Wall Hung Basin",
     "slug": "wall-hung-basin-kkr-1261-1-1778674932941",
     "sku": "KKR-1261-1",
     "short": null,
@@ -2564,7 +2592,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 371,
-    "name": "Bathtub KKR-B008-B",
+    "name": "Bathtub",
     "slug": "bathtub-kkr-b008-b-1778674932941",
     "sku": "KKR-B008-B",
     "short": null,
@@ -2588,7 +2616,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 372,
-    "name": "Bathtub Drainage + Solid Surface Drain Cover KKR-PU9",
+    "name": "Bathtub Drainage + Solid Surface Drain Cover",
     "slug": "bathtub-drainage-solid-surface-drain-cover-kkr-pu9-1778674932941",
     "sku": "KKR-PU9",
     "short": null,
@@ -2638,7 +2666,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 374,
-    "name": "Wall Hung Basin KKR-1264-1",
+    "name": "Wall Hung Basin",
     "slug": "wall-hung-basin-kkr-1264-1-1778674932941",
     "sku": "KKR-1264-1",
     "short": null,
@@ -2662,7 +2690,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 375,
-    "name": "Translucent Acrylic Solid Surface Sheet KKR-A026",
+    "name": "Translucent Acrylic Solid Surface Sheet",
     "slug": "translucent-acrylic-solid-surface-sheet-kkr-a026-1778674932941",
     "sku": "KKR-A026",
     "short": null,
@@ -2686,7 +2714,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 376,
-    "name": "Modified Acrylic Solid Surface Sheet KKR-M8807",
+    "name": "Modified Acrylic Solid Surface Sheet",
     "slug": "modified-acrylic-solid-surface-sheet-kkr-m8807-1778674932941",
     "sku": "KKR-M8807",
     "short": null,
@@ -2737,7 +2765,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 378,
-    "name": "Cabinet Basin KKR-H7072-D",
+    "name": "Cabinet Basin",
     "slug": "cabinet-basin-kkr-h7072-d-1778674932941",
     "sku": "KKR-H7072-D",
     "short": null,
@@ -2761,7 +2789,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 379,
-    "name": "Cabinet Basin KKR-H7036",
+    "name": "Cabinet Basin",
     "slug": "cabinet-basin-kkr-h7036-1778674932941",
     "sku": "KKR-H7036",
     "short": null,
@@ -2785,7 +2813,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 380,
-    "name": "Countertop Basin KKR-2124",
+    "name": "Countertop Basin",
     "slug": "countertop-basin-kkr-2124-1778674932941",
     "sku": "KKR-2124",
     "short": null,
@@ -2809,7 +2837,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 381,
-    "name": "Freestanding Basin Drainage Set KKR-PD032",
+    "name": "Freestanding Basin Drainage Set",
     "slug": "freestanding-basin-drainage-set-kkr-pd032-1778674932941",
     "sku": "KKR-PD032",
     "short": null,
@@ -2833,7 +2861,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 382,
-    "name": "Countertop Basin KKR-1169",
+    "name": "Countertop Basin",
     "slug": "countertop-basin-kkr-1169-1778674932941",
     "sku": "KKR-1169",
     "short": null,
@@ -2857,7 +2885,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 383,
-    "name": "Countertop Basin KKR-1507",
+    "name": "Countertop Basin",
     "slug": "countertop-basin-kkr-1507-1778674932942",
     "sku": "KKR-1507",
     "short": null,
@@ -2881,7 +2909,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 384,
-    "name": "Freestanding Basin KKR-1908",
+    "name": "Freestanding Basin",
     "slug": "freestanding-basin-kkr-1908-1778674932942",
     "sku": "KKR-1908",
     "short": null,
@@ -2905,7 +2933,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 385,
-    "name": "Bathtub KKR-B051",
+    "name": "Bathtub",
     "slug": "bathtub-kkr-b051-1778674932942",
     "sku": "KKR-B051",
     "short": null,
@@ -2929,7 +2957,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 386,
-    "name": "Translucent Acrylic Solid Surface Sheet KKR-A110",
+    "name": "Translucent Acrylic Solid Surface Sheet",
     "slug": "translucent-acrylic-solid-surface-sheet-kkr-a110-1778674932942",
     "sku": "KKR-A110",
     "short": null,
@@ -2953,7 +2981,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 387,
-    "name": "Translucent Acrylic Solid Surface Sheet KKR-A025",
+    "name": "Translucent Acrylic Solid Surface Sheet",
     "slug": "translucent-acrylic-solid-surface-sheet-kkr-a025-1778674932942",
     "sku": "KKR-A025",
     "short": null,
@@ -2977,7 +3005,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 388,
-    "name": "Translucent Acrylic Solid Surface Sheet KKR-A001",
+    "name": "Translucent Acrylic Solid Surface Sheet",
     "slug": "translucent-acrylic-solid-surface-sheet-kkr-a001-1778674932942",
     "sku": "KKR-A001",
     "short": null,
@@ -3001,7 +3029,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 389,
-    "name": "Translucent Acrylic Solid Surface Sheet KKR-A027",
+    "name": "Translucent Acrylic Solid Surface Sheet",
     "slug": "translucent-acrylic-solid-surface-sheet-kkr-a027-1778674932942",
     "sku": "KKR-A027",
     "short": null,
@@ -3025,7 +3053,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 390,
-    "name": "Bathtub Rack KKR-B-RACK09",
+    "name": "Bathtub Rack",
     "slug": "bathtub-rack-kkr-b-rack09-1778674932942",
     "sku": "KKR-B-RACK09",
     "short": null,
@@ -3280,7 +3308,7 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 400,
-    "name": "Wall Hung Basin - KKR-H5060-D",
+    "name": "Wall Hung Basin",
     "slug": "wall-hung-basin-kkr-h5060-d-1778674932942",
     "sku": "KKR-H5060-D",
     "short": null,
@@ -3303,109 +3331,444 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 401,
-    "name": "Inside Door",
-    "slug": "inside-door-1778676102509",
-    "sku": "DR-002",
+    "id": 406,
+    "name": "Deurstopper brons",
+    "slug": "deurstopper-brons-1778854942833",
+    "sku": "DR-010",
     "short": null,
-    "description": "920 mm 2600 mm 150 mm 45 mm",
+    "description": "SS304 brushed bronze deurstopper.",
     "descriptionI18n": {
-      "nl": "920 mm\t2600 mm 150 mm 45 mm"
+      "nl": "SS304 brushed bronze deurstopper."
     },
     "additionalSizes": null,
     "image": null,
     "featured": false,
     "dimensions": null,
-    "materials": [
-      "brushed-metal"
-    ],
+    "materials": [],
     "spaces": [],
     "categories": [],
     "collection": "doors",
     "variants": []
   },
   {
-    "id": 402,
-    "name": "Hinges (binnen)",
-    "slug": "hinges-binnen-1778676102509",
-    "sku": "DR-001",
+    "id": 407,
+    "name": "Deursluiter (concealed)",
+    "slug": "deursluiter-concealed-1778854942833",
+    "sku": "DR-007",
     "short": null,
-    "description": null,
+    "description": "CE-cert RVS #304 concealed deursluiter — voor brandwerende deur.",
+    "descriptionI18n": {
+      "nl": "CE-cert RVS #304 concealed deursluiter — voor brandwerende deur."
+    },
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "doors",
+    "variants": []
+  },
+  {
+    "id": 408,
+    "name": "Binnendeur Compleet 920×2600 (bronze)",
+    "slug": "binnendeur-compleet-920-2600-bronze-1778854942833",
+    "sku": "DR-002-SET",
+    "short": null,
+    "description": "Massieve binnendeur 920×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur.",
+    "descriptionI18n": {
+      "nl": "Massieve binnendeur 920×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur."
+    },
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "doors",
+    "variants": []
+  },
+  {
+    "id": 409,
+    "name": "Binnendeur Compleet 720×2600 (bronze)",
+    "slug": "binnendeur-compleet-720-2600-bronze-1778854942833",
+    "sku": "DR-003-SET",
+    "short": null,
+    "description": "Massieve binnendeur 720×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur.",
+    "descriptionI18n": {
+      "nl": "Massieve binnendeur 720×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur."
+    },
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "doors",
+    "variants": []
+  },
+  {
+    "id": 410,
+    "name": "Buitendeur Compleet 920×2400 (matzwart)",
+    "slug": "buitendeur-compleet-920-2400-matzwart-1778854942834",
+    "sku": "DR-004-SET",
+    "short": null,
+    "description": "Massieve buitendeur 920×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur.",
+    "descriptionI18n": {
+      "nl": "Massieve buitendeur 920×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur."
+    },
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "doors",
+    "variants": []
+  },
+  {
+    "id": 411,
+    "name": "Buitendeur Compleet 1220×2400 (matzwart)",
+    "slug": "buitendeur-compleet-1220-2400-matzwart-1778854942834",
+    "sku": "DR-005-SET",
+    "short": null,
+    "description": "Massieve buitendeur 1220×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur.",
+    "descriptionI18n": {
+      "nl": "Massieve buitendeur 1220×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur."
+    },
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "doors",
+    "variants": []
+  },
+  {
+    "id": 412,
+    "name": "Boge 40",
+    "slug": "bloempot-boge-40",
+    "sku": "TBO40",
+    "short": "Plantenpot · Flexibel betonlook",
+    "description": "Boge — strakke ronde plantenpot met een fijne betonlook. Vorst- en UV-bestendig, geschikt voor binnen en buiten.",
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [
-      "brushed-metal"
-    ],
+    "image": "/products/v/497.jpg",
+    "featured": true,
+    "dimensions": "380 × 400 mm",
+    "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "door-accessories",
-    "variants": []
+    "collection": "bloempotten",
+    "variants": [
+      {
+        "id": 798,
+        "name": "Salt",
+        "colorHex": "#918d7d",
+        "sku": "TBO40-102GR",
+        "images": [
+          "/products/v/497.jpg"
+        ]
+      },
+      {
+        "id": 799,
+        "name": "Concrete Grey",
+        "colorHex": "#5b676a",
+        "sku": "TBO40-106GR",
+        "images": [
+          "/products/v/498.jpg"
+        ]
+      },
+      {
+        "id": 800,
+        "name": "Macchiato",
+        "colorHex": "#978569",
+        "sku": "TBO40-231R",
+        "images": [
+          "/products/v/499.jpg"
+        ]
+      },
+      {
+        "id": 801,
+        "name": "Graphite",
+        "colorHex": "#585c5e",
+        "sku": "TBO40-107GR",
+        "images": [
+          "/products/v/500.jpg"
+        ]
+      }
+    ]
   },
   {
-    "id": 403,
-    "name": "Inside Door 2",
-    "slug": "inside-door-2-1778676102509",
-    "sku": "DR-003",
-    "short": null,
-    "description": null,
+    "id": 413,
+    "name": "Boge 48",
+    "slug": "bloempot-boge-48",
+    "sku": "TBO48",
+    "short": "Plantenpot · Flexibel betonlook",
+    "description": "Boge — ruime ronde plantenpot met een fijne betonlook. Vorst- en UV-bestendig, geschikt voor binnen en buiten.",
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/v/501.jpg",
     "featured": false,
-    "dimensions": null,
-    "materials": [
-      "brushed-metal"
-    ],
+    "dimensions": "460 × 470 mm",
+    "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "doors",
-    "variants": []
+    "collection": "bloempotten",
+    "variants": [
+      {
+        "id": 802,
+        "name": "Salt",
+        "colorHex": "#918d7d",
+        "sku": "TBO48-102GR",
+        "images": [
+          "/products/v/501.jpg"
+        ]
+      },
+      {
+        "id": 803,
+        "name": "Concrete Grey",
+        "colorHex": "#5b676a",
+        "sku": "TBO48-106GR",
+        "images": [
+          "/products/v/502.jpg"
+        ]
+      },
+      {
+        "id": 804,
+        "name": "Graphite",
+        "colorHex": "#585c5e",
+        "sku": "TBO48-107GR",
+        "images": [
+          "/products/v/503.jpg"
+        ]
+      }
+    ]
   },
   {
-    "id": 404,
-    "name": "Outside Door",
-    "slug": "outside-door-1778676102509",
-    "sku": "DR-004",
-    "short": null,
-    "description": "Exterior Wooden Door",
-    "descriptionI18n": {
-      "nl": "Exterior Wooden Door"
-    },
+    "id": 414,
+    "name": "Epocco Tall",
+    "slug": "bloempot-epocco-tall",
+    "sku": "TEP30T",
+    "short": "Plantenpot · Flexibel betonlook",
+    "description": "Epocco Tall — slanke, hoge plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
+    "descriptionI18n": null,
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/v/504.jpg",
     "featured": false,
     "dimensions": null,
-    "materials": [
-      "brushed-metal"
-    ],
+    "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "doors",
-    "variants": []
+    "collection": "bloempotten",
+    "variants": [
+      {
+        "id": 805,
+        "name": "Sand",
+        "colorHex": "#bab2a0",
+        "sku": "TEP30T-101GR",
+        "images": [
+          "/products/v/504.jpg"
+        ]
+      },
+      {
+        "id": 806,
+        "name": "Red Ochre",
+        "colorHex": "#47170b",
+        "sku": "TEP30T-220R",
+        "images": [
+          "/products/v/505.jpg"
+        ]
+      },
+      {
+        "id": 807,
+        "name": "Macchiato",
+        "colorHex": "#978569",
+        "sku": "TEP30T-231R",
+        "images": [
+          "/products/v/506.jpg"
+        ]
+      },
+      {
+        "id": 808,
+        "name": "Graphite",
+        "colorHex": "#585c5e",
+        "sku": "TEP30T-107GR",
+        "images": [
+          "/products/v/507.jpg"
+        ]
+      }
+    ]
   },
   {
-    "id": 405,
-    "name": "Outside Door 2",
-    "slug": "outside-door-2-1778676102509",
-    "sku": "DR-005",
-    "short": null,
-    "description": "Exterior Wooden Door with Glass",
-    "descriptionI18n": {
-      "nl": "Exterior Wooden Door with Glass"
-    },
+    "id": 415,
+    "name": "Epocco Mild",
+    "slug": "bloempot-epocco-mild",
+    "sku": "TEP38M",
+    "short": "Plantenpot · Flexibel betonlook",
+    "description": "Epocco Mild — elegante plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
+    "descriptionI18n": null,
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/v/508.jpg",
     "featured": false,
-    "dimensions": null,
-    "materials": [
-      "brushed-metal"
-    ],
+    "dimensions": "380 × 700 mm",
+    "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "doors",
-    "variants": []
+    "collection": "bloempotten",
+    "variants": [
+      {
+        "id": 809,
+        "name": "Sand",
+        "colorHex": "#bab2a0",
+        "sku": "TEP38M-101GR",
+        "images": [
+          "/products/v/508.jpg"
+        ]
+      },
+      {
+        "id": 810,
+        "name": "Red Ochre",
+        "colorHex": "#47170b",
+        "sku": "TEP38M-220R",
+        "images": [
+          "/products/v/509.jpg"
+        ]
+      },
+      {
+        "id": 811,
+        "name": "Macchiato",
+        "colorHex": "#978569",
+        "sku": "TEP38M-231R",
+        "images": [
+          "/products/v/510.jpg"
+        ]
+      },
+      {
+        "id": 812,
+        "name": "Graphite",
+        "colorHex": "#585c5e",
+        "sku": "TEP38M-107GR",
+        "images": [
+          "/products/v/511.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "name": "Epocco High",
+    "slug": "bloempot-epocco-high",
+    "sku": "TEP46H",
+    "short": "Plantenpot · Flexibel betonlook",
+    "description": "Epocco High — royale, hoge plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/512.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bloempotten",
+    "variants": [
+      {
+        "id": 813,
+        "name": "Sand",
+        "colorHex": "#bab2a0",
+        "sku": "TEP46H-101GR",
+        "images": [
+          "/products/v/512.jpg"
+        ]
+      },
+      {
+        "id": 814,
+        "name": "Red Ochre",
+        "colorHex": "#47170b",
+        "sku": "TEP46H-220R",
+        "images": [
+          "/products/v/513.jpg"
+        ]
+      },
+      {
+        "id": 815,
+        "name": "Macchiato",
+        "colorHex": "#978569",
+        "sku": "TEP46H-231R",
+        "images": [
+          "/products/v/514.jpg"
+        ]
+      },
+      {
+        "id": 816,
+        "name": "Graphite",
+        "colorHex": "#585c5e",
+        "sku": "TEP46H-107GR",
+        "images": [
+          "/products/v/515.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "name": "Epocco Bold",
+    "slug": "bloempot-epocco-bold",
+    "sku": "TEP48B",
+    "short": "Plantenpot · Flexibel betonlook",
+    "description": "Epocco Bold — robuuste plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/516.jpg",
+    "featured": true,
+    "dimensions": "480 × 600 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bloempotten",
+    "variants": [
+      {
+        "id": 817,
+        "name": "Sand",
+        "colorHex": "#bab2a0",
+        "sku": "TEP48B-101GR",
+        "images": [
+          "/products/v/516.jpg"
+        ]
+      },
+      {
+        "id": 818,
+        "name": "Red Ochre",
+        "colorHex": "#47170b",
+        "sku": "TEP48B-220R",
+        "images": [
+          "/products/v/517.jpg"
+        ]
+      },
+      {
+        "id": 819,
+        "name": "Macchiato",
+        "colorHex": "#978569",
+        "sku": "TEP48B-231R",
+        "images": [
+          "/products/v/518.jpg"
+        ]
+      },
+      {
+        "id": 820,
+        "name": "Graphite",
+        "colorHex": "#585c5e",
+        "sku": "TEP48B-107GR",
+        "images": [
+          "/products/v/519.jpg"
+        ]
+      }
+    ]
   }
 ];
