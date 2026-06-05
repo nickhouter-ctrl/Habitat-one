@@ -62,6 +62,11 @@ export async function generateMetadata({
       locale,
       type: "website",
     },
+    // Google Search Console: set GOOGLE_SITE_VERIFICATION in Vercel to the
+    // "content" value of the HTML-tag verification method (or verify by DNS).
+    verification: process.env.GOOGLE_SITE_VERIFICATION
+      ? { google: process.env.GOOGLE_SITE_VERIFICATION }
+      : undefined,
   };
 }
 
