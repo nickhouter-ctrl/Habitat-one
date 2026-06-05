@@ -26,6 +26,11 @@ export default async function FlowerPotsPage({
     <CollectionLuxuryPage
       collectionId="bloempotten"
       heroImageOverride="/products/magic/bloempotten-hero.jpg"
+      bareHero
+      editorialImages={[
+        "/products/magic/bloempotten-lifestyle-boge.jpg",
+        "/products/magic/bloempotten-lifestyle-epocco.jpg",
+      ]}
       galleryOverride={[
         "/products/magic/bloempotten-terrace.jpg",
         "/products/magic/bloempotten-desert.jpg",

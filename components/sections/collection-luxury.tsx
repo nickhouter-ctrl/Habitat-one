@@ -72,6 +72,8 @@ export async function CollectionLuxuryPage({
   belowHero,
   belowProducts,
   galleryOverride,
+  editorialImages,
+  bareHero = false,
 }: {
   collectionId: Collection;
   /** Optional editorial hero image (e.g. an in-situ shot) instead of the
@@ -86,6 +88,11 @@ export async function CollectionLuxuryPage({
   /** Optional in-situ lifestyle shots for the stacked gallery, instead of the
    *  studio product cut-outs — gives a collection a Flexibel-Stone-style lookbook. */
   galleryOverride?: string[];
+  /** Optional [left, right] sharp in-situ shots for the editorial intro block. */
+  editorialImages?: [string, string];
+  /** Render the hero as a clean full-width banner (the image carries its own
+   *  branding) — no dark gradient or overlaid title. */
+  bareHero?: boolean;
 }) {
   const t = await getTranslations("products");
 
@@ -103,6 +110,8 @@ export async function CollectionLuxuryPage({
 
   const heroImage = heroImageOverride ?? sorted[0]?.image ?? "/products/v/454.jpg";
   const detailImage = sorted[1]?.image ?? sorted[0]?.image ?? "/products/v/460.jpg";
+  const edImage1 = editorialImages?.[0] ?? heroImage;
+  const edImage2 = editorialImages?.[1] ?? detailImage;
 
   // "View all" links pre-filter the explorer to THIS collection, so the user
   // sees every product in this collection — not the whole catalogue.
@@ -129,6 +138,30 @@ export async function CollectionLuxuryPage({
         data-chapter={title}
         className="relative isolate overflow-hidden bg-paper"
       >
+        {bareHero ? (
+          <div className="bg-paper">
+            <div className="container-x flex items-center justify-between pt-24 md:pt-28">
+              <BackLink href="/products/all" label={t("allProducts")} />
+              <p className="hidden text-right text-[0.66rem] uppercase tracking-[0.32em] text-ink-soft md:block">
+                {identifier}
+              </p>
+            </div>
+            <div className="container-x mt-5">
+              <div className="relative aspect-[16/9] w-full overflow-hidden bg-paper">
+                <Image src={heroImage} alt={title} fill priority sizes="100vw" className="object-cover" />
+              </div>
+            </div>
+            <div className="container-x mt-5 flex flex-wrap items-center justify-between gap-y-3 border-t border-ink/10 py-4 text-[0.66rem] uppercase tracking-[0.32em] text-ink-soft">
+              <span className="font-medium text-ink">
+                {products.length} {t("title").toLowerCase()}
+              </span>
+              <Link href={allHref} className="inline-flex items-center gap-2 text-ink hover:text-ink-soft">
+                {t("viewAllProducts")}
+                <ArrowUpRight className="h-3 w-3" />
+              </Link>
+            </div>
+          </div>
+        ) : (
         <div className="relative h-[92svh] min-h-[640px] w-full overflow-hidden">
           {isMagic && heroSlides.length > 1 ? (
             <HeroSlideshow images={heroSlides} />
@@ -181,6 +214,7 @@ export async function CollectionLuxuryPage({
             </div>
           </div>
         </div>
+        )}
       </section>
 
       {/* ---- Editorial intro — sticky identifier + big subhead ----
@@ -221,14 +255,14 @@ export async function CollectionLuxuryPage({
 
               <div className="mt-12 grid grid-cols-12 gap-4">
                 <CurtainReveal className="col-span-12 aspect-[4/5] sm:col-span-7">
-                  <Image src={heroImage} alt={title} fill sizes="(max-width:1024px) 90vw, 40vw" className="object-cover" />
+                  <Image src={edImage1} alt={title} fill sizes="(max-width:1024px) 90vw, 40vw" className="object-cover" />
                 </CurtainReveal>
                 <CurtainReveal
                   direction="up"
                   delay={0.18}
                   className="col-span-7 -mt-8 aspect-square sm:col-span-5 sm:-mt-16 sm:ml-auto"
                 >
-                  <Image src={detailImage} alt="" fill sizes="200px" className="object-cover" />
+                  <Image src={edImage2} alt="" fill sizes="(max-width:1024px) 60vw, 30vw" className="object-cover" />
                 </CurtainReveal>
               </div>
             </div>

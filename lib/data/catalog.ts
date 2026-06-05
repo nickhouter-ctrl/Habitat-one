@@ -785,8 +785,8 @@ export const PLANTER_SIZES: Record<string, { label: string; dim: string }> = {
   TEP48B: { label: "Bold", dim: "480 × 600 mm" },
 };
 const PLANTER_SERIES = [
-  { slug: "bloempot-boge", name: "Boge", card: `${MAGIC}/bloempotten-boge-hero.jpg`, parts: ["bloempot-boge-40", "bloempot-boge-48"] },
-  { slug: "bloempot-epocco", name: "Epocco", card: `${MAGIC}/bloempotten-epocco-hero.jpg`, parts: ["bloempot-epocco-tall", "bloempot-epocco-mild", "bloempot-epocco-high", "bloempot-epocco-bold"] },
+  { slug: "bloempot-boge", name: "Boge", card: `${MAGIC}/bloempotten-boge-card.jpg`, parts: ["bloempot-boge-40", "bloempot-boge-48"] },
+  { slug: "bloempot-epocco", name: "Epocco", card: `${MAGIC}/bloempotten-epocco-card.jpg`, parts: ["bloempot-epocco-tall", "bloempot-epocco-mild", "bloempot-epocco-high", "bloempot-epocco-bold"] },
 ];
 {
   const remove = new Set<string>();
