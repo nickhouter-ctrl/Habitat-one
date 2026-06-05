@@ -14,6 +14,7 @@ const collectionKey: Record<string, string> = {
   accessories: "collectionAccessories",
   doors: "collectionDoors",
   "door-accessories": "collectionDoorAccessories",
+  bloempotten: "collectionFlowerPots",
 };
 
 /**
