@@ -345,7 +345,11 @@ export async function CollectionLuxuryPage({
                   ))
                 : galleryImages.map((src, i) => (
                     <CurtainReveal key={`${src}-${i}`} delay={i * 0.05} className="aspect-[3/2]">
-                      <Image src={src} alt={title} fill sizes="100vw" className="object-cover" />
+                      {src.endsWith(".mp4") ? (
+                        <LazyVideo src={src} className="absolute inset-0 h-full w-full object-cover" />
+                      ) : (
+                        <Image src={src} alt={title} fill sizes="100vw" className="object-cover" />
+                      )}
                     </CurtainReveal>
                   ))}
             </div>

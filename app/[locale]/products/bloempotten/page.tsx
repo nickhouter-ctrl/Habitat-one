@@ -32,6 +32,7 @@ export default async function FlowerPotsPage({
         "/products/magic/bloempotten-lifestyle-epocco.jpg",
       ]}
       galleryOverride={[
+        "/products/magic/bloempotten-pots.mp4",
         "/products/magic/bloempotten-terrace.jpg",
         "/products/magic/bloempotten-desert.jpg",
       ]}
