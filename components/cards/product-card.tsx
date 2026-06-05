@@ -76,8 +76,9 @@ export function ProductCard({
             sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
             className={cn(
               "transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]",
-              // Bloempotten: 3:4 lifestyle-crop vult de kaart volledig (geen padding).
-              product.collection === "bloempotten" ? "object-cover" : "object-cover",
+              // Bloempotten kleurfilter toont de staande pot-foto → heel tonen
+              // (niet bijsnijden); anders vult de 3:4 lifestyle-crop de kaart.
+              product.collection === "bloempotten" && imageOverride ? "object-contain p-4" : "object-cover",
             )}
             priority={priority}
           />
