@@ -323,7 +323,7 @@ export async function CollectionLuxuryPage({
                 {title} · {t("gallery")}
               </p>
             </div>
-            <div className="mt-10 flex flex-col gap-12 md:mt-16 md:gap-20">
+            <div className={`mt-10 md:mt-16 ${collectionId === "doors" ? "grid grid-cols-2 gap-5 sm:grid-cols-3 md:gap-8" : "flex flex-col gap-12 md:gap-20"}`}>
               {isMagic
                 ? MAGIC_GALLERY.map((item, i) => (
                     <CurtainReveal key={`${item.src}-${i}`} delay={i * 0.04} className="aspect-[16/10]">
@@ -341,11 +341,21 @@ export async function CollectionLuxuryPage({
                     </CurtainReveal>
                   ))
                 : galleryImages.map((src, i) => (
-                    <CurtainReveal key={`${src}-${i}`} delay={i * 0.05} className="aspect-[3/2]">
+                    <CurtainReveal
+                      key={`${src}-${i}`}
+                      delay={i * 0.05}
+                      className={collectionId === "doors" ? "aspect-[3/4] bg-sand-100" : "aspect-[3/2]"}
+                    >
                       {src.endsWith(".mp4") ? (
                         <LazyVideo src={src} className="absolute inset-0 h-full w-full object-cover" />
                       ) : (
-                        <Image src={src} alt={title} fill sizes="100vw" className="object-cover" />
+                        <Image
+                          src={src}
+                          alt={title}
+                          fill
+                          sizes={collectionId === "doors" ? "(max-width:640px) 50vw, 33vw" : "100vw"}
+                          className={collectionId === "doors" ? "object-contain" : "object-cover"}
+                        />
                       )}
                     </CurtainReveal>
                   ))}
