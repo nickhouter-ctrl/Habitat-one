@@ -146,10 +146,8 @@ export async function CollectionLuxuryPage({
                 {identifier}
               </p>
             </div>
-            <div className="container-x mt-5">
-              <div className="relative aspect-[16/9] w-full overflow-hidden bg-paper">
-                <Image src={heroImage} alt={title} fill priority sizes="100vw" className="object-cover" />
-              </div>
+            <div className="relative mt-5 aspect-[16/9] w-full overflow-hidden bg-paper">
+              <Image src={heroImage} alt={title} fill priority sizes="100vw" className="object-cover" />
             </div>
             <div className="container-x mt-5 flex flex-wrap items-center justify-between gap-y-3 border-t border-ink/10 py-4 text-[0.66rem] uppercase tracking-[0.32em] text-ink-soft">
               <span className="font-medium text-ink">
