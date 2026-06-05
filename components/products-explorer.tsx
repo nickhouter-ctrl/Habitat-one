@@ -10,6 +10,74 @@ import { ProductCard } from "@/components/cards/product-card";
 import { catalogMaterials, catalogSpaces, collections, type CatalogProduct } from "@/lib/data/catalog";
 import { cn } from "@/lib/utils";
 
+// --- Colour families for the sidebar colour filter ---
+type Loc = "nl" | "de" | "en" | "es";
+const COLOR_FAMILIES: { key: string; swatch: string; label: Record<Loc, string> }[] = [
+  { key: "white", swatch: "#F1ECE3", label: { nl: "Wit", de: "Weiß", en: "White", es: "Blanco" } },
+  { key: "beige", swatch: "#D8CBB2", label: { nl: "Beige", de: "Beige", en: "Beige", es: "Beige" } },
+  { key: "grey", swatch: "#9B9F9E", label: { nl: "Grijs", de: "Grau", en: "Grey", es: "Gris" } },
+  { key: "charcoal", swatch: "#3C4042", label: { nl: "Antraciet", de: "Anthrazit", en: "Charcoal", es: "Antracita" } },
+  { key: "brown", swatch: "#6C6257", label: { nl: "Bruin", de: "Braun", en: "Brown", es: "Marrón" } },
+  { key: "terracotta", swatch: "#9E4A33", label: { nl: "Terracotta", de: "Terrakotta", en: "Terracotta", es: "Terracota" } },
+  { key: "green", swatch: "#5F6B4F", label: { nl: "Groen", de: "Grün", en: "Green", es: "Verde" } },
+  { key: "blue", swatch: "#46606E", label: { nl: "Blauw", de: "Blau", en: "Blue", es: "Azul" } },
+  { key: "yellow", swatch: "#C7A64A", label: { nl: "Geel", de: "Gelb", en: "Yellow", es: "Amarillo" } },
+];
+const COLOUR_HEADER: Record<Loc, string> = { nl: "Kleur", de: "Farbe", en: "Colour", es: "Color" };
+
+function hexToHsl(hex: string): [number, number, number] | null {
+  const m = /^#?([0-9a-f]{6})$/i.exec(hex.trim());
+  if (!m) return null;
+  const n = parseInt(m[1], 16);
+  const r = ((n >> 16) & 255) / 255, g = ((n >> 8) & 255) / 255, b = (n & 255) / 255;
+  const max = Math.max(r, g, b), min = Math.min(r, g, b);
+  const l = (max + min) / 2;
+  let h = 0, s = 0;
+  if (max !== min) {
+    const d = max - min;
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    if (max === r) h = (g - b) / d + (g < b ? 6 : 0);
+    else if (max === g) h = (b - r) / d + 2;
+    else h = (r - g) / d + 4;
+    h *= 60;
+  }
+  return [h, s, l];
+}
+
+/** Map a variant's colour (name keywords first, then hex) to one colour family. */
+function classifyColor(hex: string | null, name: string | null): string | null {
+  const nm = (name ?? "").toLowerCase();
+  if (/pure white|ivory|\bwhite\b/.test(nm)) return "white";
+  if (/black|anthracite/.test(nm)) return "charcoal";
+  if (/terracotta|rust|watermelon|brown red|\bred\b/.test(nm)) return "terracotta";
+  if (/khaki|\bgreen\b/.test(nm)) return "green";
+  if (/\bblue\b/.test(nm)) return "blue";
+  if (/yellow|golden|\bgold\b/.test(nm)) return "yellow";
+  if (/taupe|\bbrown\b|wood/.test(nm)) return "brown";
+  if (/beige|sand|cream|greige/.test(nm)) return "beige";
+  const hsl = hex ? hexToHsl(hex) : null;
+  if (!hsl) return /grey|gray|concrete|charcoal/.test(nm) ? "grey" : null;
+  const [h, s, l] = hsl;
+  if (l > 0.82 && s < 0.16) return "white";
+  if (l < 0.24) return "charcoal";
+  if (s < 0.12) return "grey";
+  if ((h < 22 || h >= 345) && s >= 0.28) return "terracotta";
+  if (h >= 18 && h < 45) return l < 0.5 ? "brown" : "beige";
+  if (h >= 45 && h < 70) return s < 0.25 ? "beige" : "yellow";
+  if (h >= 70 && h < 165) return "green";
+  if (h >= 165 && h < 255) return "blue";
+  return "grey";
+}
+
+function productColorFamilies(p: CatalogProduct): string[] {
+  const fams = new Set<string>();
+  for (const v of p.variants) {
+    const f = classifyColor(v.colorHex, v.name ?? null);
+    if (f) fams.add(f);
+  }
+  return [...fams];
+}
+
 export function ProductsExplorer({
   products,
   initialQuery = "",
@@ -26,9 +94,11 @@ export function ProductsExplorer({
   const initialMaterial = searchParams?.get("material") ?? "all";
   const initialSpace = searchParams?.get("space") ?? "all";
   const initialCollection = searchParams?.get("collection") ?? "all";
+  const initialColor = searchParams?.get("color") ?? "all";
   const [collection, setCollection] = useState<string>(initialCollection);
   const [space, setSpace] = useState<string>(initialSpace);
   const [material, setMaterial] = useState<string>(initialMaterial);
+  const [color, setColor] = useState<string>(initialColor);
   const [query, setQuery] = useState(initialQuery);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
@@ -42,12 +112,13 @@ export function ProductsExplorer({
     if (collection !== "all") params.set("collection", collection);
     if (space !== "all") params.set("space", space);
     if (material !== "all") params.set("material", material);
+    if (color !== "all") params.set("color", color);
     const qq = query.trim();
     if (qq) params.set("q", qq);
     const qs = params.toString();
     const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
     window.history.replaceState(window.history.state, "", url);
-  }, [collection, space, material, query]);
+  }, [collection, space, material, color, query]);
 
   const collectionLabel = (id: string) => collections.find((c) => c.id === id)?.key;
 
@@ -61,9 +132,21 @@ export function ProductsExplorer({
   };
   const matchesQuery = (p: CatalogProduct, q: string) => {
     if (!q) return true;
-    const hay = `${p.name} ${localName(p.slug)} ${p.short ?? ""} ${localShort(p.slug)} ${p.sku ?? ""} ${p.dimensions ?? ""}`.toLowerCase();
-    return hay.includes(q);
+    const skus = [p.sku, ...p.variants.map((v) => v.sku)].filter(Boolean).join(" ");
+    const hay = `${p.name} ${localName(p.slug)} ${p.short ?? ""} ${localShort(p.slug)} ${skus} ${p.dimensions ?? ""}`.toLowerCase();
+    if (hay.includes(q)) return true;
+    // SKU / MS-number match ignoring punctuation: "ms167", "MS167" or "167" → "MS-167"
+    const qn = q.replace(/[^a-z0-9]/g, "");
+    return qn.length >= 2 && skus.toLowerCase().replace(/[^a-z0-9]/g, "").includes(qn);
   };
+
+  // Pre-compute colour families per product once (used by the colour filter).
+  const colorMap = useMemo(() => {
+    const m = new Map<number, string[]>();
+    for (const p of products) m.set(p.id, productColorFamilies(p));
+    return m;
+  }, [products]);
+  const famsOf = (p: CatalogProduct) => colorMap.get(p.id) ?? [];
 
   const q = query.trim().toLowerCase();
 
@@ -71,32 +154,46 @@ export function ProductsExplorer({
   const base = useMemo(
     () =>
       products.filter(
-        (p) => (space === "all" || p.spaces.includes(space)) && (material === "all" || p.materials.includes(material)) && matchesQuery(p, q),
+        (p) =>
+          (space === "all" || p.spaces.includes(space)) &&
+          (material === "all" || p.materials.includes(material)) &&
+          (color === "all" || famsOf(p).includes(color)) &&
+          matchesQuery(p, q),
       ),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [products, space, material, q],
+    [products, space, material, color, q],
   );
   const filtered = useMemo(() => base.filter((p) => collection === "all" || p.collection === collection), [base, collection]);
 
   const collectionCount = (id: string) => (id === "all" ? base.length : base.filter((p) => p.collection === id).length);
 
-  // counts for spaces & materials honour the active collection + query (but not the space/material filter itself)
+  // counts for spaces & materials honour the active collection + query + colour (but not the space/material filter itself)
   const forSpaceMatCounts = useMemo(
-    () => products.filter((p) => (collection === "all" || p.collection === collection) && matchesQuery(p, q)),
+    () => products.filter((p) => (collection === "all" || p.collection === collection) && (color === "all" || famsOf(p).includes(color)) && matchesQuery(p, q)),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [products, collection, q],
+    [products, collection, color, q],
   );
   const spaceCount = (slug: string) => forSpaceMatCounts.filter((p) => p.spaces.includes(slug)).length;
   const materialCount = (slug: string) => forSpaceMatCounts.filter((p) => p.materials.includes(slug)).length;
 
+  // colour counts honour every other active filter (but not the colour filter itself)
+  const colorBase = useMemo(
+    () => products.filter((p) => (collection === "all" || p.collection === collection) && (space === "all" || p.spaces.includes(space)) && (material === "all" || p.materials.includes(material)) && matchesQuery(p, q)),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [products, collection, space, material, q],
+  );
+  const colorCount = (key: string) => colorBase.filter((p) => famsOf(p).includes(key)).length;
+
   const usedSpaces = catalogSpaces.filter((s) => products.some((p) => p.spaces.includes(s.slug)));
   const usedMaterials = catalogMaterials.filter((m) => products.some((p) => p.materials.includes(m.slug)));
+  const usedColors = COLOR_FAMILIES.filter((c) => products.some((p) => famsOf(p).includes(c.key)));
 
-  const hasFilters = collection !== "all" || space !== "all" || material !== "all" || query.trim() !== "";
+  const hasFilters = collection !== "all" || space !== "all" || material !== "all" || color !== "all" || query.trim() !== "";
   const clearAll = () => {
     setCollection("all");
     setSpace("all");
     setMaterial("all");
+    setColor("all");
     setQuery("");
   };
 
@@ -176,6 +273,29 @@ export function ProductsExplorer({
         })}
       </FilterGroup>
 
+      {/* Colours */}
+      {usedColors.length > 0 && (
+        <FilterGroup
+          label={COLOUR_HEADER[locale]}
+          allLabel={{ nl: "Alle kleuren", de: "Alle Farben", en: "All colours", es: "Todos los colores" }[locale]}
+          active={color}
+          onAll={() => setColor("all")}
+        >
+          {usedColors.map((c) => {
+            const active = color === c.key;
+            const n = colorCount(c.key);
+            return (
+              <FilterRow key={c.key} active={active} disabled={n === 0 && !active} count={n} onClick={() => setColor(active ? "all" : c.key)}>
+                <span className="flex items-center gap-2">
+                  <span className="size-5 shrink-0 rounded-full border border-sand-200" style={{ backgroundColor: c.swatch }} aria-hidden />
+                  <span>{c.label[locale]}</span>
+                </span>
+              </FilterRow>
+            );
+          })}
+        </FilterGroup>
+      )}
+
       {hasFilters && (
         <button onClick={clearAll} className="inline-flex items-center gap-1.5 text-sm font-medium text-terracotta-700 hover:text-clay-700">
           <X className="h-3.5 w-3.5" />
@@ -245,6 +365,9 @@ export function ProductsExplorer({
                 return m ? matLabel(m) : material;
               })()}
             </Pill>
+          )}
+          {color !== "all" && (
+            <Pill onClear={() => setColor("all")}>{COLOR_FAMILIES.find((c) => c.key === color)?.label[locale] ?? color}</Pill>
           )}
           {query.trim() && <Pill onClear={() => setQuery("")}>“{query.trim()}”</Pill>}
         </div>
