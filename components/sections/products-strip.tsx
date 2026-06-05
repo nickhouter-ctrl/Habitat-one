@@ -70,7 +70,7 @@ export function ProductsStrip({
                   filter: dimmed ? "grayscale(0.6)" : "grayscale(0)",
                 }}
                 transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-                className="relative aspect-[3/4] overflow-hidden bg-sand-100"
+                className={`relative aspect-[3/4] overflow-hidden ${p.collection === "bloempotten" ? "bg-paper" : "bg-sand-100"}`}
               >
                 {p.image ? (
                   <motion.div
@@ -83,7 +83,7 @@ export function ProductsStrip({
                       alt={name}
                       fill
                       sizes="(max-width:640px) 70vw, (max-width:1024px) 40vw, 22vw"
-                      className="object-cover"
+                      className={p.collection === "bloempotten" ? "object-contain p-4" : "object-cover"}
                     />
                   </motion.div>
                 ) : (
