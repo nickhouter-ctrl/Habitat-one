@@ -731,6 +731,45 @@ for (const m of Object.values(productMedia)) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Manually added product: Romanite — Cloudy Yellow (MS-167, 600 × 1200 mm).
+// A pale cream-ivory vein-cut roman travertine; not in the source catalogue yet.
+// Imagery generated from the real proforma photo (texture close-up → thin flat
+// panel → interior + exterior scene). Injected after the scene post-pass so its
+// gallery is used verbatim.
+// ---------------------------------------------------------------------------
+catalogProducts.push({
+  id: 900167,
+  name: "Romanite",
+  slug: "romanite",
+  sku: "MS-167",
+  short: "600 × 1200 mm",
+  description: null,
+  descriptionI18n: null,
+  additionalSizes: null,
+  image: `${MAGIC}/romanite-cloudy-yellow-closeup.png`,
+  featured: false,
+  dimensions: "600 × 1200 mm",
+  materials: ["travertine"],
+  spaces: ["living-room", "bedroom", "kitchen"],
+  categories: [],
+  collection: "wall-panels",
+  variants: [
+    {
+      id: 900168,
+      name: "Cloudy Yellow",
+      colorHex: "#E9DFC2",
+      sku: "MS-167",
+      images: [
+        `${MAGIC}/romanite-cloudy-yellow-closeup.png`,
+        `${MAGIC}/romanite-cloudy-yellow-landscape.png`,
+        `${MAGIC}/romanite-cloudy-yellow-interior.jpg`,
+        `${MAGIC}/romanite-cloudy-yellow-exterior.jpg`,
+      ],
+    },
+  ],
+});
+
 export function getProductMedia(slug: string): ProductMedia | null {
   return productMedia[slug] ?? null;
 }
