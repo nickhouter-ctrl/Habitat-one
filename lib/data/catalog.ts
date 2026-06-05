@@ -804,7 +804,7 @@ const SOLO_AVAILABLE = new Set([
   "epocco-high-101gr", "epocco-high-107gr", "epocco-high-220r", "epocco-high-231r",
   "epocco-bold-107gr", "epocco-bold-220r", "epocco-bold-231r",
 ]);
-const SOLO_EXCLUDE = new Set<string>(["epocco-bold-220r", "epocco-mild-220r", "epocco-tall-231r", "epocco-high-231r"]);
+const SOLO_EXCLUDE = new Set<string>([]);
 function planterSolo(sku: string | null): string | null {
   const m = sku?.match(/^([A-Za-z]+\d+[A-Za-z]?)-(\d{3}(?:GR|R))$/i);
   if (!m) return null;
