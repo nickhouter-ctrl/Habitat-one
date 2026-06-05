@@ -24,7 +24,7 @@ export default async function DoorsPage({
     <CollectionLuxuryPage
       collectionId="doors"
       heroImageOverride="/scenery/doors-corridor.jpg"
-      extraSection={<DoorFeatures />}
+      belowProducts={<DoorFeatures />}
     />
   );
 }
