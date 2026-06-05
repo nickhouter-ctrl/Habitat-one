@@ -304,20 +304,27 @@ export function ProductDetailLayout({
               <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
                 {labels.availableSizes}
               </p>
-              <div className="mt-4 flex flex-wrap gap-2">
+              <div className="mt-4 flex flex-wrap gap-2.5">
                 {sizeKeys.map((sz) => {
                   const active = sz === activeSize;
+                  const sv = colorsInSize(sz).find((v) => v.name === activeVariant?.name) ?? colorsInSize(sz)[0];
+                  const thumb = sv?.images?.[0];
                   return (
                     <button
                       key={sz}
                       type="button"
                       onClick={() => selectSize(sz)}
                       className={cn(
-                        "min-w-[3.5rem] border px-4 py-2.5 text-sm font-medium transition-colors",
-                        active ? "border-ink bg-ink text-paper" : "border-ink/15 text-ink hover:border-ink/40",
+                        "flex flex-col items-center gap-1.5 border p-2 transition-colors",
+                        active ? "border-ink bg-ink/[0.04]" : "border-ink/15 hover:border-ink/40",
                       )}
                     >
-                      {PLANTER_SIZES[sz]?.label ?? sz}
+                      {thumb ? (
+                        <span className="relative h-16 w-14 overflow-hidden bg-sand-50">
+                          <Image src={thumb} alt="" fill sizes="56px" className="object-contain p-1" />
+                        </span>
+                      ) : null}
+                      <span className="text-sm font-medium text-ink">{PLANTER_SIZES[sz]?.label ?? sz}</span>
                     </button>
                   );
                 })}

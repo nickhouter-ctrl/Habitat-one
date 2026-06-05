@@ -258,7 +258,7 @@ export async function CollectionLuxuryPage({
                 <CurtainReveal
                   direction="up"
                   delay={0.18}
-                  className="col-span-7 -mt-8 aspect-square sm:col-span-5 sm:-mt-16 sm:ml-auto"
+                  className="col-span-12 mt-4 aspect-[3/2] sm:col-span-5 sm:-mt-16 sm:ml-auto sm:aspect-square"
                 >
                   <Image src={edImage2} alt="" fill sizes="(max-width:1024px) 60vw, 30vw" className="object-cover" />
                 </CurtainReveal>

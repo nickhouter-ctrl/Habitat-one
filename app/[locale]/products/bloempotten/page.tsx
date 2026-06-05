@@ -29,7 +29,7 @@ export default async function FlowerPotsPage({
       bareHero
       editorialImages={[
         "/products/magic/bloempotten-lifestyle-boge.jpg",
-        "/products/magic/bloempotten-lifestyle-epocco.jpg",
+        "/products/magic/bloempotten-lifestyle-epocco-canyon.jpg",
       ]}
       galleryOverride={[
         "/products/magic/bloempotten-pots.mp4",
