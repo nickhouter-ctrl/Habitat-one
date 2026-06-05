@@ -218,7 +218,7 @@ export async function CollectionLuxuryPage({
       {/* ---- Editorial intro — sticky identifier + big subhead ----
            Hidden on the Flexibel Stone page: there we go straight from the hero
            into the products. Other collection pages keep the intro. */}
-      {!isMagic && (
+      {!isMagic && !bareHero && (
       <section className="bg-paper py-20 md:py-28" data-chapter={t("aboutThisProduct")}>
         <div className="container-x">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.45fr] lg:gap-16">

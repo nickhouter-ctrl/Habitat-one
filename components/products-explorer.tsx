@@ -240,6 +240,29 @@ export function ProductsExplorer({
         </ul>
       </div>
 
+      {/* Colours */}
+      {usedColors.length > 0 && (
+        <FilterGroup
+          label={COLOUR_HEADER[locale]}
+          allLabel={{ nl: "Alle kleuren", de: "Alle Farben", en: "All colours", es: "Todos los colores" }[locale]}
+          active={color}
+          onAll={() => setColor("all")}
+        >
+          {usedColors.map((c) => {
+            const active = color === c.key;
+            const n = colorCount(c.key);
+            return (
+              <FilterRow key={c.key} active={active} disabled={n === 0 && !active} count={n} onClick={() => setColor(active ? "all" : c.key)}>
+                <span className="flex items-center gap-2">
+                  <span className="size-5 shrink-0 rounded-full border border-sand-200" style={{ backgroundColor: c.swatch }} aria-hidden />
+                  <span>{c.label[locale]}</span>
+                </span>
+              </FilterRow>
+            );
+          })}
+        </FilterGroup>
+      )}
+
       {/* Spaces */}
       <FilterGroup label={t("spaces")} allLabel={t("allSpaces")} active={space} onAll={() => setSpace("all")}>
         {usedSpaces.map((s) => {
@@ -273,29 +296,6 @@ export function ProductsExplorer({
         })}
       </FilterGroup>
 
-      {/* Colours */}
-      {usedColors.length > 0 && (
-        <FilterGroup
-          label={COLOUR_HEADER[locale]}
-          allLabel={{ nl: "Alle kleuren", de: "Alle Farben", en: "All colours", es: "Todos los colores" }[locale]}
-          active={color}
-          onAll={() => setColor("all")}
-        >
-          {usedColors.map((c) => {
-            const active = color === c.key;
-            const n = colorCount(c.key);
-            return (
-              <FilterRow key={c.key} active={active} disabled={n === 0 && !active} count={n} onClick={() => setColor(active ? "all" : c.key)}>
-                <span className="flex items-center gap-2">
-                  <span className="size-5 shrink-0 rounded-full border border-sand-200" style={{ backgroundColor: c.swatch }} aria-hidden />
-                  <span>{c.label[locale]}</span>
-                </span>
-              </FilterRow>
-            );
-          })}
-        </FilterGroup>
-      )}
-
       {hasFilters && (
         <button onClick={clearAll} className="inline-flex items-center gap-1.5 text-sm font-medium text-terracotta-700 hover:text-clay-700">
           <X className="h-3.5 w-3.5" />
@@ -309,7 +309,7 @@ export function ProductsExplorer({
     <div className="lg:flex lg:gap-10">
       {/* ---- Sidebar (desktop) ---- */}
       <aside className="hidden w-64 shrink-0 lg:block">
-        <div className="surface sticky top-24 rounded-2xl p-5">{Sidebar}</div>
+        <div className="surface sticky top-24 max-h-[calc(100vh-7rem)] overflow-y-auto rounded-2xl p-5">{Sidebar}</div>
       </aside>
 
       {/* ---- Main ---- */}
