@@ -60,6 +60,9 @@ export function ProductDetailLayout({
   const withImages = product.variants.filter((v) => v.images.length > 0);
   const swatches = withImages.filter((v) => v.colorHex || v.name);
   const showSwatches = swatches.length > 1;
+  // Staande potten: hele pot tonen (niet bijsnijden) op een lichte achtergrond.
+  const isPot = product.collection === "bloempotten";
+  const fitClass = isPot ? "object-contain" : "object-cover";
 
   const [variantIdx, setVariantIdx] = useState(0);
   const activeVariant = withImages[variantIdx] ?? null;
@@ -116,7 +119,7 @@ export function ProductDetailLayout({
             wide screens. */}
         <div>
           <div
-            className="relative w-full overflow-hidden bg-sand-100"
+            className={`relative w-full overflow-hidden ${isPot ? "bg-paper" : "bg-sand-100"}`}
             style={{ aspectRatio: String(aspect), maxHeight: "85svh" }}
           >
           <AnimatePresence mode="wait">
@@ -159,7 +162,7 @@ export function ProductDetailLayout({
                       if (img.naturalWidth && img.naturalHeight)
                         setAspect(img.naturalWidth / img.naturalHeight);
                     }}
-                    className="object-cover"
+                    className={fitClass}
                   />
                 )}
               </motion.div>

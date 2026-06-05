@@ -63,14 +63,18 @@ export function ProductCard({
       data-hover-label="View product"
       className={cn("group block", className)}
     >
-      <div className="relative aspect-[3/4] overflow-hidden bg-sand-100">
+      <div className={cn("relative aspect-[3/4] overflow-hidden", product.collection === "bloempotten" ? "bg-paper" : "bg-sand-100")}>
         {product.image ? (
           <Image
             src={product.image}
             alt={name}
             fill
             sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
-            className="object-cover transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]"
+            className={cn(
+              "transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]",
+              // Staande potten volledig tonen (niet bijsnijden); andere producten vullen de kaart.
+              product.collection === "bloempotten" ? "object-contain p-5" : "object-cover",
+            )}
             priority={priority}
           />
         ) : (
