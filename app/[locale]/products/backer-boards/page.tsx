@@ -24,7 +24,6 @@ export default async function BackerBoardsPage({
     <CollectionLuxuryPage
       collectionId="backer-boards"
       heroImageOverride="/products/backer/stack.jpg"
-      belowHero={<BackerApplications />}
       belowProducts={<BackerApplications />}
       extraSection={<BackerBoardFeatures />}
     />
