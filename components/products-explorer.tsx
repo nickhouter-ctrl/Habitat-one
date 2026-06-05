@@ -147,6 +147,13 @@ export function ProductsExplorer({
     return m;
   }, [products]);
   const famsOf = (p: CatalogProduct) => colorMap.get(p.id) ?? [];
+  // When a colour filter is active, show the card in that colour (the matching
+  // variant's image) instead of the default thumbnail.
+  const colorVariantImage = (p: CatalogProduct): string | undefined => {
+    if (color === "all") return undefined;
+    const v = p.variants.find((x) => x.images.length > 0 && classifyColor(x.colorHex, x.name ?? null) === color);
+    return v?.images[0];
+  };
 
   const q = query.trim().toLowerCase();
 
@@ -393,7 +400,7 @@ export function ProductsExplorer({
                   exit={{ opacity: 0, scale: 0.96 }}
                   transition={{ duration: 0.25 }}
                 >
-                  <ProductCard product={p} collectionLabel={t(collectionLabel(p.collection)!)} noImageLabel={t("noImage")} />
+                  <ProductCard product={p} collectionLabel={t(collectionLabel(p.collection)!)} noImageLabel={t("noImage")} imageOverride={colorVariantImage(p)} />
                 </motion.div>
               ))}
             </AnimatePresence>

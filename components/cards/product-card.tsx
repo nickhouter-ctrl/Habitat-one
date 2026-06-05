@@ -35,12 +35,15 @@ export function ProductCard({
   noImageLabel,
   className,
   priority = false,
+  imageOverride,
 }: {
   product: CatalogProduct;
   collectionLabel?: string;
   noImageLabel?: string;
   className?: string;
   priority?: boolean;
+  /** When a colour filter is active, show the matching variant's image. */
+  imageOverride?: string;
 }) {
   const t = useTranslations("products");
   const name =
@@ -56,6 +59,7 @@ export function ProductCard({
   }
   const colLabel = collectionLabel ?? (collectionKey[product.collection] ? t(collectionKey[product.collection]) : "");
   const noImg = noImageLabel ?? t("noImage");
+  const cardImage = imageOverride ?? product.image;
 
   return (
     <Link
@@ -64,9 +68,9 @@ export function ProductCard({
       className={cn("group block", className)}
     >
       <div className={cn("relative aspect-[3/4] overflow-hidden", product.collection === "bloempotten" ? "bg-paper" : "bg-sand-100")}>
-        {product.image ? (
+        {cardImage ? (
           <Image
-            src={product.image}
+            src={cardImage}
             alt={name}
             fill
             sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
