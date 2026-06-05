@@ -770,6 +770,51 @@ catalogProducts.push({
   ],
 });
 
+// ---------------------------------------------------------------------------
+// Planters: merge the 6 per-size products (Boge 40/48, Epocco Tall/Mild/High/
+// Bold) into 2 products — Boge and Epocco — each with a size + colour picker.
+// Every variant keeps its real SKU (e.g. TBO40-102GR) so the detail page can
+// derive the size from the prefix and the colour from the variant.
+// ---------------------------------------------------------------------------
+export const PLANTER_SIZES: Record<string, { label: string; dim: string }> = {
+  TBO40: { label: "40", dim: "380 × 400 mm" },
+  TBO48: { label: "48", dim: "460 × 470 mm" },
+  TEP30T: { label: "Tall", dim: "300 × 900 mm" },
+  TEP38M: { label: "Mild", dim: "380 × 700 mm" },
+  TEP46H: { label: "High", dim: "460 × 1000 mm" },
+  TEP48B: { label: "Bold", dim: "480 × 600 mm" },
+};
+const PLANTER_SERIES = [
+  { slug: "bloempot-boge", name: "Boge", card: `${MAGIC}/bloempotten-boge-hero.jpg`, parts: ["bloempot-boge-40", "bloempot-boge-48"] },
+  { slug: "bloempot-epocco", name: "Epocco", card: `${MAGIC}/bloempotten-epocco-hero.jpg`, parts: ["bloempot-epocco-tall", "bloempot-epocco-mild", "bloempot-epocco-high", "bloempot-epocco-bold"] },
+];
+{
+  const remove = new Set<string>();
+  const mergedPlanters: CatalogProduct[] = [];
+  for (const series of PLANTER_SERIES) {
+    const parts = series.parts
+      .map((s) => catalogProducts.find((p) => p.slug === s))
+      .filter(Boolean) as CatalogProduct[];
+    if (parts.length < 2) continue;
+    series.parts.forEach((s) => remove.add(s));
+    mergedPlanters.push({
+      ...parts[0],
+      name: series.name,
+      slug: series.slug,
+      sku: null,
+      short: null,
+      dimensions: null,
+      image: series.card,
+      variants: parts.flatMap((p) => p.variants),
+    });
+  }
+  if (mergedPlanters.length) {
+    const kept = catalogProducts.filter((p) => !remove.has(p.slug));
+    catalogProducts.length = 0;
+    catalogProducts.push(...kept, ...mergedPlanters);
+  }
+}
+
 export function getProductMedia(slug: string): ProductMedia | null {
   return productMedia[slug] ?? null;
 }

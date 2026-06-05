@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowUpRight, CalendarDays, ChevronLeft, ChevronRight, ImageOff, Play } from "lucide-react";
-import type { CatalogProduct } from "@/lib/data/catalog";
+import { PLANTER_SIZES, type CatalogProduct } from "@/lib/data/catalog";
 import { Link } from "@/i18n/navigation";
 import { ProductQuoteActions } from "@/components/product-quote-actions";
 import { cn } from "@/lib/utils";
@@ -97,6 +97,19 @@ export function ProductDetailLayout({
   function changeVariant(i: number) {
     setVariantIdx(i);
     setMediaIdx(0);
+  }
+
+  // Planters: a two-axis size + colour picker. Size is the SKU prefix
+  // (TBO40, TEP30T…), colour is the variant name.
+  const sizeOf = (sku: string | null | undefined) => sku?.match(/^[A-Z]+\d+[A-Z]?/)?.[0] ?? "";
+  const sizeKeys = isPot ? [...new Set(withImages.map((v) => sizeOf(v.sku)).filter(Boolean))] : [];
+  const activeSize = sizeOf(activeVariant?.sku);
+  const colorsInSize = (sz: string) => withImages.filter((v) => sizeOf(v.sku) === sz);
+  const planterDim = isPot ? PLANTER_SIZES[activeSize]?.dim ?? null : null;
+  function selectSize(sz: string) {
+    const inSize = colorsInSize(sz);
+    const match = inSize.find((v) => v.name === activeVariant?.name) ?? inSize[0];
+    if (match) changeVariant(withImages.indexOf(match));
   }
 
   function nextMedia() {
@@ -265,9 +278,9 @@ export function ProductDetailLayout({
           {(activeVariant?.sku ?? product.sku) && (
             <SpecRow label={labels.sku}>{activeVariant?.sku ?? product.sku}</SpecRow>
           )}
-          {product.dimensions && (
+          {(planterDim ?? product.dimensions) && (
             <SpecRow label={labels.dimensions}>
-              {product.dimensions}
+              {planterDim ?? product.dimensions}
               {product.additionalSizes && product.additionalSizes.length > 0 && (
                 <span className="mt-1 block text-sm text-ink-soft/65">
                   + {product.additionalSizes.join(" · ")}
@@ -283,8 +296,65 @@ export function ProductDetailLayout({
           )}
         </dl>
 
-        {/* Variant picker — visual swatches */}
-        {showSwatches && (
+        {/* Variant picker */}
+        {isPot && sizeKeys.length > 0 ? (
+          // Planters: two axes — size first, then the colours available in that size.
+          <div className="mt-10 space-y-8">
+            <div>
+              <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+                {labels.availableSizes}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {sizeKeys.map((sz) => {
+                  const active = sz === activeSize;
+                  return (
+                    <button
+                      key={sz}
+                      type="button"
+                      onClick={() => selectSize(sz)}
+                      className={cn(
+                        "min-w-[3.5rem] border px-4 py-2.5 text-sm font-medium transition-colors",
+                        active ? "border-ink bg-ink text-paper" : "border-ink/15 text-ink hover:border-ink/40",
+                      )}
+                    >
+                      {PLANTER_SIZES[sz]?.label ?? sz}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+            <div>
+              <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+                {labels.availableColours}
+              </p>
+              <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
+                {colorsInSize(activeSize).map((v) => {
+                  const realIdx = withImages.indexOf(v);
+                  const isActive = realIdx === variantIdx;
+                  return (
+                    <button
+                      key={v.id}
+                      type="button"
+                      onClick={() => changeVariant(realIdx)}
+                      className={cn(
+                        "group flex items-center gap-3 border p-2 text-left transition-colors",
+                        isActive ? "border-ink bg-ink/[0.04]" : "border-ink/15 hover:border-ink/40",
+                      )}
+                    >
+                      <span
+                        className="h-8 w-8 shrink-0 rounded-full border border-ink/10"
+                        style={{ backgroundColor: v.colorHex ?? "transparent" }}
+                      />
+                      <span className="min-w-0 text-[0.78rem] font-medium leading-snug text-ink">
+                        {v.name || "Variant"}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        ) : showSwatches ? (
           <div className="mt-10">
             <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
               {product.collection === "backer-boards" ? labels.availableSizes : labels.availableColours}
@@ -325,7 +395,7 @@ export function ProductDetailLayout({
               })}
             </div>
           </div>
-        )}
+        ) : null}
 
         {/* Actions */}
         <div className="mt-10 border-t border-ink/15 pt-8">
