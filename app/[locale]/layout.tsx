@@ -89,7 +89,7 @@ export default async function LocaleLayout({
     >
       <body className="min-h-full flex flex-col bg-background text-ink antialiased">
         <JsonLd data={localBusinessJsonLd} />
-        <CookieConsent />
+        <CookieConsent locale={locale} />
         <NextIntlClientProvider>
           <QuoteProvider>
             <PageVeil />
