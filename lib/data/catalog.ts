@@ -770,6 +770,41 @@ catalogProducts.push({
   ],
 });
 
+// Manually added product: Milan Travertine — White (MS-168, 600 × 1200 mm).
+// A pale cool cream-white vein-cut travertine; imagery generated from the real
+// proforma photo (close-up → flat panel → interior + exterior scene).
+catalogProducts.push({
+  id: 900170,
+  name: "Milan Travertine",
+  slug: "milan-travertine",
+  sku: "MS-168",
+  short: "600 × 1200 mm",
+  description: null,
+  descriptionI18n: null,
+  additionalSizes: null,
+  image: `${MAGIC}/milan-travertine-white-closeup.png`,
+  featured: false,
+  dimensions: "600 × 1200 mm",
+  materials: ["travertine"],
+  spaces: ["living-room", "bedroom", "kitchen"],
+  categories: [],
+  collection: "wall-panels",
+  variants: [
+    {
+      id: 900171,
+      name: "White",
+      colorHex: "#E6E5E0",
+      sku: "MS-168",
+      images: [
+        `${MAGIC}/milan-travertine-white-closeup.png`,
+        `${MAGIC}/milan-travertine-white-landscape.png`,
+        `${MAGIC}/milan-travertine-white-interior.jpg`,
+        `${MAGIC}/milan-travertine-white-exterior.jpg`,
+      ],
+    },
+  ],
+});
+
 // ---------------------------------------------------------------------------
 // Planters: merge the 6 per-size products (Boge 40/48, Epocco Tall/Mild/High/
 // Bold) into 2 products — Boge and Epocco — each with a size + colour picker.
