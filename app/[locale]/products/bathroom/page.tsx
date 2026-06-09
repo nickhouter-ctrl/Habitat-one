@@ -22,7 +22,7 @@ export default async function BathroomPage({
   return (
     <CollectionLuxuryPage
       collectionId="bathroom"
-      heroImageOverride="/products/h/KKR-T001-D-life.jpg"
+      heroImageOverride="/products/h/KKR-B051-A-life.jpg"
       galleryOverride={[
         "/products/h/KKR-WB3003B-life.jpg",
         "/products/h/KKR-T001-D-life.jpg",
