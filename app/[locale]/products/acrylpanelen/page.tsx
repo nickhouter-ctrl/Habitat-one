@@ -32,7 +32,6 @@ export default async function AcrylicPanelsPage({
         "/products/h/acryl/KKR-A027-badkamer.jpg",
         "/products/h/acryl/KKR-A026-keuken.jpg",
         "/products/h/acryl/KKR-A027-eetkamer.jpg",
-        "/products/h/acryl/KKR-A110-lobby.jpg",
       ]}
       galleryOverride={[
         "/products/h/acryl/KKR-A026-woonkamer.jpg",
