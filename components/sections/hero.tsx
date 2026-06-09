@@ -11,13 +11,16 @@ import { CountUp } from "@/components/ui/count-up";
 import { MaskReveal } from "@/components/ui/mask-reveal";
 import { Magnetic } from "@/components/ui/magnetic";
 
-// Flexibel Stone — calm Mediterranean interiors that auto-crossfade.
+// The Habitat One range — calm Mediterranean settings that auto-crossfade.
+// Signature Flexibel Stone first (so the headline lands), then a sweep across
+// the catalogue: bathroom, acrylic panels, lighting and planters.
 const HERO_IMAGES = [
   "/scenery/home-hero-villa.jpg",
+  "/products/h/KKR-B051-A-life.jpg",
+  "/products/h/acryl/KKR-A027-eetkamer.jpg",
   "/products/magic/ms-travertino-light-grey-interior.jpg",
-  "/products/magic/interior-ibiza-lounge.png",
-  "/products/magic/ms-travertino-medium-grey-interior.jpg",
-  "/products/magic/ms-travertino-beige-interior.jpg",
+  "/products/h/GL-001-life.jpg",
+  "/products/magic/bloempotten-lifestyle-boge.jpg",
 ];
 const SLIDE_MS = 6000;
 
@@ -64,7 +67,7 @@ export function Hero() {
             <div className="absolute inset-0 animate-ken-burns is-visible">
               <Image
                 src={HERO_IMAGES[slide]}
-                alt="Flexibel Stone — interieur"
+                alt="Habitat One — interieur"
                 fill
                 priority={slide === 0}
                 sizes="100vw"
