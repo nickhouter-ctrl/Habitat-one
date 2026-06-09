@@ -25,13 +25,13 @@ export default async function AcrylicPanelsPage({
   return (
     <CollectionLuxuryPage
       collectionId="acrylpanelen"
-      heroImageOverride="/products/h/acryl/KKR-A110-woonkamer.jpg"
+      heroImageOverride="/products/h/acryl/KKR-A027-eetkamer.jpg"
       heroSlidesOverride={[
-        "/products/h/acryl/KKR-A110-woonkamer.jpg",
+        "/products/h/acryl/KKR-A027-eetkamer.jpg",
         "/products/h/acryl/KKR-A027-keuken.jpg",
         "/products/h/acryl/KKR-A027-badkamer.jpg",
         "/products/h/acryl/KKR-A026-keuken.jpg",
-        "/products/h/acryl/KKR-A027-eetkamer.jpg",
+        "/products/h/acryl/KKR-A025-woonkamer.jpg",
       ]}
       galleryOverride={[
         "/products/h/acryl/KKR-A026-woonkamer.jpg",

@@ -1092,7 +1092,7 @@ const ACRYL_GALLERY: Record<string, string[]> = {
   "KKR-A025": ["/products/h/acryl/KKR-A025-badkamer.jpg", "/products/h/acryl/KKR-A025-woonkamer.jpg", "/products/h/acryl/KKR-A025-keuken.jpg", "/products/h/KKR-A025.jpg"],
   "KKR-A026": ["/products/h/acryl/KKR-A026-badkamer.jpg", "/products/h/acryl/KKR-A026-woonkamer.jpg", "/products/h/acryl/KKR-A026-keuken.jpg", "/products/h/KKR-A026.jpg"],
   "KKR-A027": ["/products/h/acryl/KKR-A027-badkamer.jpg", "/products/h/acryl/KKR-A027-eetkamer.jpg", "/products/h/acryl/KKR-A027-woonkamer.jpg", "/products/h/acryl/KKR-A027-keuken.jpg", "/products/h/KKR-A027.jpg"],
-  "KKR-A110": ["/products/h/acryl/KKR-A110-badkamer.jpg", "/products/h/acryl/KKR-A110-woonkamer.jpg", "/products/h/KKR-A110.jpg"],
+  "KKR-A110": ["/products/h/acryl/KKR-A110-badkamer.jpg", "/products/h/KKR-A110.jpg"],
 };
 for (const p of catalogProducts) {
   const key = (p.sku ?? p.variants[0]?.sku ?? "").toUpperCase();
