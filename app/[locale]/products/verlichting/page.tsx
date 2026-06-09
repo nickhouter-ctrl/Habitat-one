@@ -25,10 +25,12 @@ export default async function LightingPage({
   return (
     <CollectionLuxuryPage
       collectionId="verlichting"
-      heroImageOverride="/products/verlichting/hero.jpg"
+      heroImageOverride="/products/h/GL-001-life.jpg"
       galleryOverride={[
-        "/products/verlichting/gallery-1.jpg",
-        "/products/verlichting/gallery-2.jpg",
+        "/products/h/GL-021-life.jpg",
+        "/products/h/GL-022-life.jpg",
+        "/products/h/GL-023-life.jpg",
+        "/products/h/GL-024-life.jpg",
       ]}
     />
   );
