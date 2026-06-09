@@ -61,6 +61,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const t = await getTranslations("home");
   const tn = await getTranslations("nav");
   const tp = await getTranslations("projects");
+  const tprod = await getTranslations("products");
+
+  // The full range beyond Flexibel Stone — one card per other collection.
+  const rangeCollections = [
+    { id: "bathroom", key: "collectionBathroom", img: "/products/h/KKR-B051-A-life.jpg", href: "/products/bathroom" },
+    { id: "acrylpanelen", key: "collectionAcrylicPanels", img: "/products/h/acryl/KKR-A027-badkamer.jpg", href: "/products/acrylpanelen" },
+    { id: "verlichting", key: "collectionLighting", img: "/products/h/GL-001-life.jpg", href: "/products/verlichting" },
+    { id: "doors", key: "collectionDoors", img: "/scenery/doors-hero.jpg", href: "/products/doors" },
+    { id: "bloempotten", key: "collectionFlowerPots", img: "/products/magic/bloempotten-hero.jpg", href: "/products/bloempotten" },
+    { id: "backer-boards", key: "collectionBackerBoards", img: "/products/backer/xps-scene-bath.png", href: "/products/backer-boards" },
+  ];
 
   // Flexibel Stone (wall-panels) — prefer products with imagery and colour variants
   const magicAll = productsByCollection("wall-panels");
@@ -220,6 +231,52 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           </div>
           <div className="mt-14">
             <ProductsStrip products={magicFeatured} />
+          </div>
+        </Container>
+      </Section>
+
+      {/* ---- The full range — other collections beyond Flexibel Stone ---- */}
+      <Section chapter="Range" className="bg-paper py-20 md:py-28">
+        <Container>
+          <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+            <EditorialHeading
+              eyebrow={t("rangeEyebrow")}
+              title={t("rangeTitle")}
+              text={t("rangeText")}
+              className="max-w-2xl"
+            />
+            <Reveal direction="left">
+              <Link
+                href="/products/all"
+                className="inline-flex shrink-0 items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
+              >
+                {t("viewCatalog")}
+                <ArrowUpRight className="h-3.5 w-3.5" />
+              </Link>
+            </Reveal>
+          </div>
+          <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {rangeCollections.map((c, i) => (
+              <Reveal key={c.id} delay={i * 0.05}>
+                <Link
+                  href={c.href}
+                  className="group relative block aspect-[4/5] overflow-hidden bg-sand-100"
+                >
+                  <Image
+                    src={c.img}
+                    alt={tprod(c.key)}
+                    fill
+                    sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.045]"
+                  />
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/75 via-ink/10 to-transparent" />
+                  <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-6">
+                    <h3 className="text-xl font-medium leading-tight text-paper">{tprod(c.key)}</h3>
+                    <ArrowUpRight className="h-5 w-5 shrink-0 text-paper/90 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </div>
+                </Link>
+              </Reveal>
+            ))}
           </div>
         </Container>
       </Section>
