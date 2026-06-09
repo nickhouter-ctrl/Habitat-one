@@ -69,7 +69,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     { id: "acrylpanelen", key: "collectionAcrylicPanels", img: "/products/h/acryl/KKR-A027-badkamer.jpg", href: "/products/acrylpanelen" },
     { id: "verlichting", key: "collectionLighting", img: "/products/h/GL-001-life.jpg", href: "/products/verlichting" },
     { id: "doors", key: "collectionDoors", img: "/scenery/doors-hero.jpg", href: "/products/doors" },
-    { id: "bloempotten", key: "collectionFlowerPots", img: "/products/magic/bloempotten-hero.jpg", href: "/products/bloempotten" },
+    { id: "bloempotten", key: "collectionFlowerPots", img: "/products/magic/bloempotten-lifestyle-epocco-canyon.jpg", href: "/products/bloempotten" },
     { id: "backer-boards", key: "collectionBackerBoards", img: "/products/backer/xps-scene-bath.png", href: "/products/backer-boards" },
   ];
 
