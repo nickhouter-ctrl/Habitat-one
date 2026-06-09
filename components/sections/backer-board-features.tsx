@@ -12,22 +12,24 @@ const CERTIFICATIONS = ["ISO 9001", "CE", "ICC"];
 
 // What you can build from the XPS boards — supplier-style application set,
 // rendered from the real board (grey faces, teal XPS core) with no brand marks.
-const APPLICATIONS = [
-  { src: "/products/backer/xps-scene-vanity.png", label: "Floating bathroom vanity" },
-  { src: "/products/backer/xps-scene-bath.png", label: "Built-in bath surround" },
-  { src: "/products/backer/xps-scene-shower.png", label: "Fully tanked wet room" },
-  { src: "/products/backer/xps-app-shower-niche.png", label: "Shower niche" },
-  { src: "/products/backer/xps-app-vanity-niches.png", label: "Vanity with niches" },
-  { src: "/products/backer/xps-app-floor-heating.png", label: "Floor-heating system" },
-  { src: "/products/backer/xps-app-toilet-backboard.png", label: "Wall-hung toilet backboard" },
-  { src: "/products/backer/xps-app-shower-bench.png", label: "Shower bench" },
-  { src: "/products/backer/xps-app-waterproof-backing.png", label: "Waterproof backing" },
+// Captions come from products.backerFeatures.applicationLabels (localised).
+const APPLICATION_IMAGES = [
+  "/products/backer/xps-scene-vanity.png",
+  "/products/backer/xps-scene-bath.png",
+  "/products/backer/xps-scene-shower.png",
+  "/products/backer/xps-app-shower-niche.png",
+  "/products/backer/xps-app-vanity-niches.png",
+  "/products/backer/xps-app-floor-heating.png",
+  "/products/backer/xps-app-toilet-backboard.png",
+  "/products/backer/xps-app-shower-bench.png",
+  "/products/backer/xps-app-waterproof-backing.png",
 ];
 
 /** "What you can build" application gallery — reused below the hero AND below
  * the products slide on the XPS Backer Boards collection page. */
 export async function BackerApplications() {
   const t = await getTranslations("products.backerFeatures");
+  const labels = t.raw("applicationLabels") as string[];
   return (
     <section className="bg-paper py-20 md:py-28" data-chapter={t("applicationsTitle")}>
       <div className="container-x">
@@ -44,22 +46,25 @@ export async function BackerApplications() {
         </div>
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 md:mt-16 md:grid-cols-3 md:gap-8">
-          {APPLICATIONS.map(({ src, label }) => (
-            <figure key={src} className="group">
-              <div className="relative aspect-[4/3] overflow-hidden bg-sand-100">
-                <Image
-                  src={src}
-                  alt={label}
-                  fill
-                  sizes="(max-width:768px) 100vw, 33vw"
-                  className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
-                />
-              </div>
-              <figcaption className="mt-3 text-[0.8rem] font-medium uppercase tracking-[0.16em] text-ink-soft">
-                {label}
-              </figcaption>
-            </figure>
-          ))}
+          {APPLICATION_IMAGES.map((src, i) => {
+            const label = labels[i] ?? "";
+            return (
+              <figure key={src} className="group">
+                <div className="relative aspect-[4/3] overflow-hidden bg-sand-100">
+                  <Image
+                    src={src}
+                    alt={label}
+                    fill
+                    sizes="(max-width:768px) 100vw, 33vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                  />
+                </div>
+                <figcaption className="mt-3 text-[0.8rem] font-medium uppercase tracking-[0.16em] text-ink-soft">
+                  {label}
+                </figcaption>
+              </figure>
+            );
+          })}
         </div>
       </div>
     </section>

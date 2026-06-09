@@ -379,7 +379,128 @@
       "point4Title": "Mould & moisture resistant",
       "point4Text": "The mineral-coated surface resists mould and won't rot or swell — durable in steam and salt air.",
       "certLabel": "Certified",
-      "specNote": "Full technical datasheet — fire class, thermal value and density — available on request."
+      "specNote": "Full technical datasheet — fire class, thermal value and density — available on request.",
+      "applicationLabels": [
+        "Floating bathroom vanity",
+        "Built-in bath surround",
+        "Fully tanked wet room",
+        "Shower niche",
+        "Vanity with niches",
+        "Floor-heating system",
+        "Wall-hung toilet backboard",
+        "Shower bench",
+        "Waterproof backing"
+      ]
+    },
+    "doorFeatures": {
+      "introEyebrow": "Crafted for hospitality · Built to protect",
+      "introTitle": "Premium solid wood doors",
+      "introText": "Our doors combine timeless design with advanced engineering to deliver the highest levels of safety, acoustic performance and durability — made for hotels and premium projects.",
+      "collectionLabel": "Doors collection",
+      "buildEyebrow": "How it's built",
+      "buildTitle": "Engineered in ten layers",
+      "layers": [
+        {
+          "title": "Real wood veneer",
+          "text": "Natural oak veneer with a protective UV lacquer or oil finish."
+        },
+        {
+          "title": "HDF stabilisation layer",
+          "text": "High-density fibreboard for extra stability and flatness."
+        },
+        {
+          "title": "Fireproof mineral core",
+          "text": "Non-combustible core board for outstanding fire resistance."
+        },
+        {
+          "title": "Solid hardwood edge frame",
+          "text": "Engineered hardwood for maximum strength and screw holding."
+        },
+        {
+          "title": "Acoustic insulation layer",
+          "text": "High-density acoustic layer that improves sound reduction."
+        },
+        {
+          "title": "Intumescent fire seal",
+          "text": "Expandable strip that activates in case of fire to seal gaps."
+        },
+        {
+          "title": "Automatic drop seal",
+          "text": "Concealed drop-down seal for smoke and acoustic protection."
+        },
+        {
+          "title": "Multi-point locking system",
+          "text": "High-quality lock for safety and long-term durability."
+        },
+        {
+          "title": "Concealed 3D hinges",
+          "text": "Adjustable in three directions, 120 kg load capacity."
+        },
+        {
+          "title": "Smoke & acoustic gasket",
+          "text": "Perimeter seals that block smoke, sound and light."
+        }
+      ],
+      "perfEyebrow": "Performance & certification",
+      "perfTitle": "Safety you don't see",
+      "performance": [
+        {
+          "title": "Fire rated EI30 / EI60",
+          "text": "Tested according to EN 1634-1."
+        },
+        {
+          "title": "Excellent acoustic insulation",
+          "text": "Up to 42 dB Rw sound reduction."
+        },
+        {
+          "title": "Premium solid construction",
+          "text": "Stability, strength and long-term performance."
+        },
+        {
+          "title": "Luxurious natural finishes",
+          "text": "Real wood veneers and premium paints."
+        },
+        {
+          "title": "Built for intensive use",
+          "text": "Designed for demanding hospitality environments."
+        },
+        {
+          "title": "Compliant with the highest standards",
+          "text": "EN 1634-1, EN 13501-2, EN ISO 717-1."
+        }
+      ],
+      "certifiedTo": "Certified to",
+      "specsTitle": "Technical specifications",
+      "specs": [
+        {
+          "k": "Door thickness",
+          "v": "54 – 70 mm"
+        },
+        {
+          "k": "Max. door height",
+          "v": "up to 3000 mm"
+        },
+        {
+          "k": "Max. door width",
+          "v": "up to 1200 mm"
+        },
+        {
+          "k": "Weight",
+          "v": "approx. 45 – 65 kg/m²"
+        },
+        {
+          "k": "Finishes",
+          "v": "real wood veneer, lacquer, oil"
+        },
+        {
+          "k": "Applications",
+          "v": "hotel rooms, corridors, suites, lobbies, apartments"
+        },
+        {
+          "k": "Standards",
+          "v": "EN 1634-1 · EN 13501-2 · EN ISO 717-1"
+        }
+      ]
     }
   },
   "spaces": {

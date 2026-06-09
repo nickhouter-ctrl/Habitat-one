@@ -557,7 +557,128 @@
       "point4Title": "Resistentes a moho y humedad",
       "point4Text": "La superficie con recubrimiento mineral resiste el moho y no se pudre ni se hincha — duradera ante el vapor y el aire salino.",
       "certLabel": "Certificado",
-      "specNote": "Ficha técnica completa — clase de fuego, valor térmico y densidad — disponible bajo petición."
+      "specNote": "Ficha técnica completa — clase de fuego, valor térmico y densidad — disponible bajo petición.",
+      "applicationLabels": [
+        "Mueble de baño suspendido",
+        "Revestimiento de bañera empotrada",
+        "Cuarto húmedo totalmente impermeable",
+        "Hornacina de ducha",
+        "Mueble con hornacinas",
+        "Sistema de suelo radiante",
+        "Trasdós para inodoro suspendido",
+        "Banco de ducha",
+        "Soporte impermeable"
+      ]
+    },
+    "doorFeatures": {
+      "introEyebrow": "Hecho para la hostelería · Construido para proteger",
+      "introTitle": "Puertas premium de madera maciza",
+      "introText": "Nuestras puertas combinan un diseño atemporal con ingeniería avanzada para ofrecer el máximo nivel de seguridad, acústica y durabilidad — hechas para hoteles y proyectos premium.",
+      "collectionLabel": "Colección de puertas",
+      "buildEyebrow": "Cómo está construida",
+      "buildTitle": "Diseñada en diez capas",
+      "layers": [
+        {
+          "title": "Chapa de madera real",
+          "text": "Chapa de roble natural con laca UV protectora o acabado al aceite."
+        },
+        {
+          "title": "Capa estabilizadora HDF",
+          "text": "Tablero de fibra de alta densidad para mayor estabilidad y planitud."
+        },
+        {
+          "title": "Núcleo mineral ignífugo",
+          "text": "Tablero de núcleo no combustible para una resistencia al fuego excepcional."
+        },
+        {
+          "title": "Marco perimetral de madera maciza",
+          "text": "Madera dura de ingeniería para máxima resistencia y agarre de tornillos."
+        },
+        {
+          "title": "Capa de aislamiento acústico",
+          "text": "Capa acústica de alta densidad que mejora la reducción de ruido."
+        },
+        {
+          "title": "Sello cortafuego intumescente",
+          "text": "Tira expansible que se activa en caso de incendio para sellar huecos."
+        },
+        {
+          "title": "Burlete automático retráctil",
+          "text": "Burlete oculto retráctil para protección contra humo y ruido."
+        },
+        {
+          "title": "Cerradura multipunto",
+          "text": "Cerradura de alta calidad para seguridad y durabilidad."
+        },
+        {
+          "title": "Bisagras ocultas 3D",
+          "text": "Ajustables en tres direcciones, capacidad de carga de 120 kg."
+        },
+        {
+          "title": "Junta de humo y acústica",
+          "text": "Sellos perimetrales que bloquean humo, ruido y luz."
+        }
+      ],
+      "perfEyebrow": "Rendimiento y certificación",
+      "perfTitle": "Seguridad que no se ve",
+      "performance": [
+        {
+          "title": "Resistencia al fuego EI30 / EI60",
+          "text": "Ensayada según EN 1634-1."
+        },
+        {
+          "title": "Excelente aislamiento acústico",
+          "text": "Hasta 42 dB Rw de reducción de ruido."
+        },
+        {
+          "title": "Construcción maciza premium",
+          "text": "Estabilidad, resistencia y rendimiento duradero."
+        },
+        {
+          "title": "Acabados naturales de lujo",
+          "text": "Chapas de madera real y pinturas premium."
+        },
+        {
+          "title": "Hecha para uso intensivo",
+          "text": "Diseñada para entornos hosteleros exigentes."
+        },
+        {
+          "title": "Cumple las normas más exigentes",
+          "text": "EN 1634-1, EN 13501-2, EN ISO 717-1."
+        }
+      ],
+      "certifiedTo": "Certificado según",
+      "specsTitle": "Especificaciones técnicas",
+      "specs": [
+        {
+          "k": "Grosor de puerta",
+          "v": "54 – 70 mm"
+        },
+        {
+          "k": "Altura máx.",
+          "v": "hasta 3000 mm"
+        },
+        {
+          "k": "Anchura máx.",
+          "v": "hasta 1200 mm"
+        },
+        {
+          "k": "Peso",
+          "v": "aprox. 45 – 65 kg/m²"
+        },
+        {
+          "k": "Acabados",
+          "v": "chapa de madera real, laca, aceite"
+        },
+        {
+          "k": "Aplicaciones",
+          "v": "habitaciones de hotel, pasillos, suites, vestíbulos, apartamentos"
+        },
+        {
+          "k": "Normas",
+          "v": "EN 1634-1 · EN 13501-2 · EN ISO 717-1"
+        }
+      ]
     }
   },
   "spaces": {

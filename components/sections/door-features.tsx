@@ -7,72 +7,45 @@ import {
   Building2,
   BadgeCheck,
 } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import { Logo } from "@/components/logo";
 
 /**
  * Doors-only editorial section — a Habitat One re-style of the supplier's
  * "premium solid wood doors" datasheet: the ten-layer construction, the
- * performance highlights, the technical specs and the certifications, all in
- * our own type (Cormorant display + Montserrat) and palette, with our wordmark.
- * Rendered on the Doors collection page via the collection-luxury extraSection.
+ * performance highlights, the technical specs and the certifications. Copy is
+ * localised via the products.doorFeatures namespace. Rendered on the Doors
+ * collection page via the collection-luxury belowProducts slot.
  */
-const LAYERS = [
-  { n: 1, title: "Real wood veneer", text: "Natural oak veneer with a protective UV lacquer or oil finish." },
-  { n: 2, title: "HDF stabilisation layer", text: "High-density fibreboard for extra stability and flatness." },
-  { n: 3, title: "Fireproof mineral core", text: "Non-combustible core board for outstanding fire resistance." },
-  { n: 4, title: "Solid hardwood edge frame", text: "Engineered hardwood for maximum strength and screw holding." },
-  { n: 5, title: "Acoustic insulation layer", text: "High-density acoustic layer that improves sound reduction." },
-  { n: 6, title: "Intumescent fire seal", text: "Expandable strip that activates in case of fire to seal gaps." },
-  { n: 7, title: "Automatic drop seal", text: "Concealed drop-down seal for smoke and acoustic protection." },
-  { n: 8, title: "Multi-point locking system", text: "High-quality lock for safety and long-term durability." },
-  { n: 9, title: "Concealed 3D hinges", text: "Adjustable in three directions, 120 kg load capacity." },
-  { n: 10, title: "Smoke & acoustic gasket", text: "Perimeter seals that block smoke, sound and light." },
-];
-
-const PERFORMANCE = [
-  { Icon: Flame, title: "Fire rated EI30 / EI60", text: "Tested according to EN 1634-1." },
-  { Icon: Volume2, title: "Excellent acoustic insulation", text: "Up to 42 dB Rw sound reduction." },
-  { Icon: ShieldCheck, title: "Premium solid construction", text: "Stability, strength and long-term performance." },
-  { Icon: Sparkles, title: "Luxurious natural finishes", text: "Real wood veneers and premium paints." },
-  { Icon: Building2, title: "Built for intensive use", text: "Designed for demanding hospitality environments." },
-  { Icon: BadgeCheck, title: "Compliant with the highest standards", text: "EN 1634-1, EN 13501-2, EN ISO 717-1." },
-];
-
-const SPECS: [string, string][] = [
-  ["Door thickness", "54 – 70 mm"],
-  ["Max. door height", "up to 3000 mm"],
-  ["Max. door width", "up to 1200 mm"],
-  ["Weight", "approx. 45 – 65 kg/m²"],
-  ["Finishes", "real wood veneer, lacquer, oil"],
-  ["Applications", "hotel rooms, corridors, suites, lobbies, apartments"],
-  ["Standards", "EN 1634-1 · EN 13501-2 · EN ISO 717-1"],
-];
-
+const PERF_ICONS = [Flame, Volume2, ShieldCheck, Sparkles, Building2, BadgeCheck];
 const CERTIFICATIONS = ["EN 1634-1", "EN 13501-2", "EN ISO 717-1"];
 
-export function DoorFeatures() {
+export async function DoorFeatures() {
+  const t = await getTranslations("products.doorFeatures");
+  const layers = t.raw("layers") as { title: string; text: string }[];
+  const performance = t.raw("performance") as { title: string; text: string }[];
+  const specs = t.raw("specs") as { k: string; v: string }[];
+
   return (
     <>
       {/* ---- Intro ---- */}
-      <section className="bg-paper py-20 md:py-28" data-chapter="Premium solid wood doors">
+      <section className="bg-paper py-20 md:py-28" data-chapter={t("introTitle")}>
         <div className="container-x">
           <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
             <div>
               <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
-                Crafted for hospitality · Built to protect
+                {t("introEyebrow")}
               </p>
               <h2 className="mt-4 font-display text-4xl font-medium leading-[1.04] tracking-[-0.01em] text-ink md:text-5xl">
-                Premium solid wood doors
+                {t("introTitle")}
               </h2>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-soft">
-                Our doors combine timeless design with advanced engineering to deliver the
-                highest levels of safety, acoustic performance and durability — made for hotels
-                and premium projects.
+                {t("introText")}
               </p>
               <div className="mt-9 flex items-center gap-4 border-t border-ink/10 pt-7">
                 <Logo />
                 <span className="text-[0.66rem] font-medium uppercase tracking-[0.28em] text-ink-soft/80">
-                  Doors collection
+                  {t("collectionLabel")}
                 </span>
               </div>
             </div>
@@ -80,7 +53,7 @@ export function DoorFeatures() {
             <div className="relative aspect-[4/5] overflow-hidden bg-sand-100">
               <Image
                 src="/scenery/door-product.jpg"
-                alt="Premium solid wood door"
+                alt={t("introTitle")}
                 fill
                 sizes="(max-width:1024px) 100vw, 45vw"
                 className="object-cover"
@@ -91,37 +64,36 @@ export function DoorFeatures() {
       </section>
 
       {/* ---- Ten-layer construction ---- */}
-      <section className="border-t border-ink/10 bg-background py-20 md:py-28" data-chapter="Construction">
+      <section className="border-t border-ink/10 bg-background py-20 md:py-28" data-chapter={t("buildTitle")}>
         <div className="container-x">
           <div className="max-w-3xl">
             <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
-              How it&rsquo;s built
+              {t("buildEyebrow")}
             </p>
             <h2 className="mt-4 font-display text-3xl font-medium leading-[1.06] tracking-[-0.01em] text-ink md:text-4xl">
-              Engineered in ten layers
+              {t("buildTitle")}
             </h2>
           </div>
 
           <div className="mt-12 grid gap-10 md:mt-16 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
-            {/* Cutaway render — our own clean re-shoot of the supplier exploded view */}
             <div className="relative aspect-[4/3] overflow-hidden bg-sand-100 lg:sticky lg:top-28 lg:self-start">
               <Image
                 src="/scenery/door-cutaway.png"
-                alt="Exploded cutaway of the layered solid-wood door construction"
+                alt={t("buildTitle")}
                 fill
                 sizes="(max-width:1024px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>
             <div className="grid grid-cols-1 gap-y-6">
-              {LAYERS.map(({ n, title, text }) => (
-                <div key={n} className="flex gap-4 border-t border-ink/10 pt-5">
+              {layers.map((l, i) => (
+                <div key={i} className="flex gap-4 border-t border-ink/10 pt-5">
                   <span className="font-display text-2xl leading-none text-terracotta-600">
-                    {n.toString().padStart(2, "0")}
+                    {(i + 1).toString().padStart(2, "0")}
                   </span>
                   <div>
-                    <h3 className="text-[0.95rem] font-medium text-ink">{title}</h3>
-                    <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">{text}</p>
+                    <h3 className="text-[0.95rem] font-medium text-ink">{l.title}</h3>
+                    <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">{l.text}</p>
                   </div>
                 </div>
               ))}
@@ -131,32 +103,35 @@ export function DoorFeatures() {
       </section>
 
       {/* ---- Performance, specs & certification ---- */}
-      <section className="border-t border-ink/10 bg-paper py-20 md:py-28" data-chapter="Performance">
+      <section className="border-t border-ink/10 bg-paper py-20 md:py-28" data-chapter={t("perfTitle")}>
         <div className="container-x">
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1fr_1fr] lg:gap-20">
             <div>
               <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
-                Performance &amp; certification
+                {t("perfEyebrow")}
               </p>
               <h2 className="mt-4 font-display text-3xl font-medium leading-[1.06] tracking-[-0.01em] text-ink md:text-4xl">
-                Safety you don&rsquo;t see
+                {t("perfTitle")}
               </h2>
 
               <div className="mt-9 grid grid-cols-1 gap-x-8 gap-y-7 sm:grid-cols-2">
-                {PERFORMANCE.map(({ Icon, title, text }) => (
-                  <div key={title} className="flex gap-3.5">
-                    <Icon className="mt-0.5 h-5 w-5 shrink-0 text-terracotta-600" strokeWidth={1.5} />
-                    <div>
-                      <h3 className="text-[0.95rem] font-medium text-ink">{title}</h3>
-                      <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">{text}</p>
+                {performance.map((p, i) => {
+                  const Icon = PERF_ICONS[i] ?? ShieldCheck;
+                  return (
+                    <div key={i} className="flex gap-3.5">
+                      <Icon className="mt-0.5 h-5 w-5 shrink-0 text-terracotta-600" strokeWidth={1.5} />
+                      <div>
+                        <h3 className="text-[0.95rem] font-medium text-ink">{p.title}</h3>
+                        <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">{p.text}</p>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
 
               <div className="mt-10 flex flex-wrap items-center gap-3 border-t border-ink/15 pt-7">
                 <span className="text-[0.66rem] font-medium uppercase tracking-[0.28em] text-ink-soft/80">
-                  Certified to
+                  {t("certifiedTo")}
                 </span>
                 {CERTIFICATIONS.map((c) => (
                   <span
@@ -171,13 +146,13 @@ export function DoorFeatures() {
 
             <div>
               <h3 className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
-                Technical specifications
+                {t("specsTitle")}
               </h3>
               <dl className="mt-5 divide-y divide-ink/10 border-t border-ink/15">
-                {SPECS.map(([k, v]) => (
-                  <div key={k} className="grid grid-cols-[0.8fr_1.2fr] gap-4 py-4">
-                    <dt className="text-sm text-ink-soft">{k}</dt>
-                    <dd className="text-sm font-medium text-ink">{v}</dd>
+                {specs.map((s, i) => (
+                  <div key={i} className="grid grid-cols-[0.8fr_1.2fr] gap-4 py-4">
+                    <dt className="text-sm text-ink-soft">{s.k}</dt>
+                    <dd className="text-sm font-medium text-ink">{s.v}</dd>
                   </div>
                 ))}
               </dl>

@@ -557,7 +557,128 @@
       "point4Title": "Schimmel- & feuchtigkeitsbeständig",
       "point4Text": "Die mineralisch beschichtete Oberfläche widersteht Schimmel und verrottet oder quillt nicht — langlebig in Dampf und Salzluft.",
       "certLabel": "Zertifiziert",
-      "specNote": "Vollständiges technisches Datenblatt — Brandklasse, Dämmwert und Dichte — auf Anfrage erhältlich."
+      "specNote": "Vollständiges technisches Datenblatt — Brandklasse, Dämmwert und Dichte — auf Anfrage erhältlich.",
+      "applicationLabels": [
+        "Schwebender Waschtisch",
+        "Eingebaute Badewannenverkleidung",
+        "Komplett abgedichteter Nassraum",
+        "Duschnische",
+        "Waschtisch mit Nischen",
+        "Fußbodenheizung",
+        "Rückwand für Wand-WC",
+        "Duschbank",
+        "Wasserdichter Untergrund"
+      ]
+    },
+    "doorFeatures": {
+      "introEyebrow": "Für die Hotellerie gefertigt · Zum Schutz gebaut",
+      "introTitle": "Premium-Massivholztüren",
+      "introText": "Unsere Türen verbinden zeitloses Design mit fortschrittlicher Technik für höchste Sicherheit, Akustik und Langlebigkeit — gemacht für Hotels und Premium-Projekte.",
+      "collectionLabel": "Türen-Kollektion",
+      "buildEyebrow": "Wie sie aufgebaut ist",
+      "buildTitle": "In zehn Schichten konstruiert",
+      "layers": [
+        {
+          "title": "Echtholzfurnier",
+          "text": "Natürliches Eichenfurnier mit schützender UV-Lackierung oder Ölung."
+        },
+        {
+          "title": "HDF-Stabilisierungsschicht",
+          "text": "Hochdichte Faserplatte für mehr Stabilität und Ebenheit."
+        },
+        {
+          "title": "Feuerfester Mineralkern",
+          "text": "Nicht brennbare Kernplatte für hervorragenden Feuerwiderstand."
+        },
+        {
+          "title": "Massivholz-Randrahmen",
+          "text": "Konstruktionshartholz für maximale Festigkeit und Schraubenhalt."
+        },
+        {
+          "title": "Akustische Dämmschicht",
+          "text": "Hochdichte Akustikschicht für bessere Schalldämmung."
+        },
+        {
+          "title": "Intumeszierende Branddichtung",
+          "text": "Aufquellender Streifen, der im Brandfall Spalte abdichtet."
+        },
+        {
+          "title": "Automatische Absenkdichtung",
+          "text": "Verdeckte Absenkdichtung für Rauch- und Schallschutz."
+        },
+        {
+          "title": "Mehrpunktverriegelung",
+          "text": "Hochwertiges Schloss für Sicherheit und Langlebigkeit."
+        },
+        {
+          "title": "Verdeckte 3D-Bänder",
+          "text": "In drei Richtungen verstellbar, 120 kg Tragkraft."
+        },
+        {
+          "title": "Rauch- und Akustikdichtung",
+          "text": "Umlaufende Dichtungen gegen Rauch, Schall und Licht."
+        }
+      ],
+      "perfEyebrow": "Leistung & Zertifizierung",
+      "perfTitle": "Sicherheit, die man nicht sieht",
+      "performance": [
+        {
+          "title": "Feuerwiderstand EI30 / EI60",
+          "text": "Geprüft nach EN 1634-1."
+        },
+        {
+          "title": "Hervorragende Schalldämmung",
+          "text": "Bis zu 42 dB Rw Schallreduzierung."
+        },
+        {
+          "title": "Hochwertige Massivkonstruktion",
+          "text": "Stabilität, Festigkeit und dauerhafte Leistung."
+        },
+        {
+          "title": "Luxuriöse natürliche Oberflächen",
+          "text": "Echtholzfurniere und Premium-Lacke."
+        },
+        {
+          "title": "Für intensive Nutzung gebaut",
+          "text": "Für anspruchsvolle Hotelumgebungen entwickelt."
+        },
+        {
+          "title": "Erfüllt höchste Normen",
+          "text": "EN 1634-1, EN 13501-2, EN ISO 717-1."
+        }
+      ],
+      "certifiedTo": "Zertifiziert nach",
+      "specsTitle": "Technische Daten",
+      "specs": [
+        {
+          "k": "Türstärke",
+          "v": "54 – 70 mm"
+        },
+        {
+          "k": "Max. Türhöhe",
+          "v": "bis 3000 mm"
+        },
+        {
+          "k": "Max. Türbreite",
+          "v": "bis 1200 mm"
+        },
+        {
+          "k": "Gewicht",
+          "v": "ca. 45 – 65 kg/m²"
+        },
+        {
+          "k": "Oberflächen",
+          "v": "Echtholzfurnier, Lack, Öl"
+        },
+        {
+          "k": "Anwendungen",
+          "v": "Hotelzimmer, Flure, Suiten, Lobbys, Apartments"
+        },
+        {
+          "k": "Normen",
+          "v": "EN 1634-1 · EN 13501-2 · EN ISO 717-1"
+        }
+      ]
     }
   },
   "spaces": {

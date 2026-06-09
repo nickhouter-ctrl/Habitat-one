@@ -557,7 +557,128 @@
       "point4Title": "Schimmel- & vochtbestendig",
       "point4Text": "Het mineraal gecoate oppervlak weert schimmel en gaat niet rotten of uitzetten — duurzaam in stoom en zilte lucht.",
       "certLabel": "Gecertificeerd",
-      "specNote": "Volledige technische datasheet — brandklasse, isolatiewaarde en dichtheid — op aanvraag beschikbaar."
+      "specNote": "Volledige technische datasheet — brandklasse, isolatiewaarde en dichtheid — op aanvraag beschikbaar.",
+      "applicationLabels": [
+        "Zwevend badmeubel",
+        "Inbouw-badombouw",
+        "Volledig waterdichte natte ruimte",
+        "Douchenis",
+        "Badmeubel met nissen",
+        "Vloerverwarmingssysteem",
+        "Achterwand hangend toilet",
+        "Douchebank",
+        "Waterdichte ondergrond"
+      ]
+    },
+    "doorFeatures": {
+      "introEyebrow": "Gemaakt voor hospitality · Gebouwd om te beschermen",
+      "introTitle": "Premium massief houten deuren",
+      "introText": "Onze deuren combineren tijdloos ontwerp met geavanceerde techniek voor het hoogste niveau van veiligheid, akoestiek en duurzaamheid — gemaakt voor hotels en premium projecten.",
+      "collectionLabel": "Deuren-collectie",
+      "buildEyebrow": "Hoe het is opgebouwd",
+      "buildTitle": "Opgebouwd uit tien lagen",
+      "layers": [
+        {
+          "title": "Echt houtfineer",
+          "text": "Natuurlijk eikenfineer met een beschermende UV-lak of olie-afwerking."
+        },
+        {
+          "title": "HDF-stabilisatielaag",
+          "text": "Hogedichtheidsvezelplaat voor extra stabiliteit en vlakheid."
+        },
+        {
+          "title": "Brandwerende minerale kern",
+          "text": "Onbrandbare kernplaat voor uitstekende brandwerendheid."
+        },
+        {
+          "title": "Massief hardhouten randframe",
+          "text": "Engineered hardhout voor maximale sterkte en schroefhouvast."
+        },
+        {
+          "title": "Akoestische isolatielaag",
+          "text": "Hogedichtheids akoestische laag die geluidsreductie verbetert."
+        },
+        {
+          "title": "Opschuimende brandstrip",
+          "text": "Uitzettende strip die bij brand activeert om kieren af te dichten."
+        },
+        {
+          "title": "Automatische valdorpel",
+          "text": "Verdekte valdorpel voor rook- en geluidsbescherming."
+        },
+        {
+          "title": "Meerpuntssluiting",
+          "text": "Hoogwaardig slot voor veiligheid en lange levensduur."
+        },
+        {
+          "title": "Verdekte 3D-scharnieren",
+          "text": "In drie richtingen verstelbaar, draagvermogen 120 kg."
+        },
+        {
+          "title": "Rook- en akoestische afdichting",
+          "text": "Omtrekafdichtingen die rook, geluid en licht tegenhouden."
+        }
+      ],
+      "perfEyebrow": "Prestaties & certificering",
+      "perfTitle": "Veiligheid die je niet ziet",
+      "performance": [
+        {
+          "title": "Brandwerend EI30 / EI60",
+          "text": "Getest volgens EN 1634-1."
+        },
+        {
+          "title": "Uitstekende geluidsisolatie",
+          "text": "Tot 42 dB Rw geluidsreductie."
+        },
+        {
+          "title": "Premium massieve constructie",
+          "text": "Stabiliteit, sterkte en duurzame prestaties."
+        },
+        {
+          "title": "Luxe natuurlijke afwerkingen",
+          "text": "Echte houtfineren en premium lakken."
+        },
+        {
+          "title": "Gemaakt voor intensief gebruik",
+          "text": "Ontworpen voor veeleisende hospitality-omgevingen."
+        },
+        {
+          "title": "Voldoet aan de hoogste normen",
+          "text": "EN 1634-1, EN 13501-2, EN ISO 717-1."
+        }
+      ],
+      "certifiedTo": "Gecertificeerd volgens",
+      "specsTitle": "Technische specificaties",
+      "specs": [
+        {
+          "k": "Deurdikte",
+          "v": "54 – 70 mm"
+        },
+        {
+          "k": "Max. deurhoogte",
+          "v": "tot 3000 mm"
+        },
+        {
+          "k": "Max. deurbreedte",
+          "v": "tot 1200 mm"
+        },
+        {
+          "k": "Gewicht",
+          "v": "ca. 45 – 65 kg/m²"
+        },
+        {
+          "k": "Afwerkingen",
+          "v": "echt houtfineer, lak, olie"
+        },
+        {
+          "k": "Toepassingen",
+          "v": "hotelkamers, gangen, suites, lobby's, appartementen"
+        },
+        {
+          "k": "Normen",
+          "v": "EN 1634-1 · EN 13501-2 · EN ISO 717-1"
+        }
+      ]
     }
   },
   "spaces": {
