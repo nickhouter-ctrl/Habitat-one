@@ -60,9 +60,9 @@ export function ProductDetailLayout({
   const withImages = product.variants.filter((v) => v.images.length > 0);
   const swatches = withImages.filter((v) => v.colorHex || v.name);
   const showSwatches = swatches.length > 1;
-  // Staande potten én deuren: hele product tonen (niet bijsnijden) op een
-  // lichte achtergrond.
-  const isPot = product.collection === "bloempotten";
+  // Staande potten & verlichting (foto op wit) + deuren: hele product tonen
+  // (niet bijsnijden) op een lichte achtergrond.
+  const isPot = product.collection === "bloempotten" || product.collection === "verlichting";
   const fitWhole = isPot || product.collection === "doors";
   const fitClass = fitWhole ? "object-contain" : "object-cover";
 

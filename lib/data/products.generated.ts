@@ -21,7 +21,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting";
   variants: ProductVariant[];
 }
 
@@ -3767,6 +3767,678 @@ export const catalogProducts: CatalogProduct[] = [
         "sku": "TEP48B-107GR",
         "images": [
           "/products/v/519.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9001,
+    "name": "Rail-spot LED 7W",
+    "slug": "rail-spot-led-7w",
+    "sku": "GL-001",
+    "short": null,
+    "description": "Richtbare LED-railspot 7W, 3000K warm wit, CRI>80. Aluminium/acryl. Ø50×128 mm, 110–265V.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9201.jpg",
+    "featured": true,
+    "dimensions": "50 × 128 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9101,
+        "name": "Zwart",
+        "colorHex": "#1a1a1a",
+        "sku": "GL-001",
+        "images": [
+          "/products/v/9201.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9002,
+    "name": "Railprofiel 2 m",
+    "slug": "railprofiel-2m",
+    "sku": "GL-002",
+    "short": null,
+    "description": "Aluminium 3-fase railprofiel, 2 meter. Voor railspots.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9202.jpg",
+    "featured": false,
+    "dimensions": "2000 × 39 × 15 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9102,
+        "name": "Zwart",
+        "colorHex": "#1a1a1a",
+        "sku": "GL-002",
+        "images": [
+          "/products/v/9202.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9003,
+    "name": "Rail-connector 180°",
+    "slug": "rail-connector-180",
+    "sku": "GL-003",
+    "short": null,
+    "description": "Recht (180°) koppelstuk voor railprofiel.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9203.jpg",
+    "featured": false,
+    "dimensions": "78 × 42 × 17 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9103,
+        "name": "Zwart",
+        "colorHex": "#1a1a1a",
+        "sku": "GL-003",
+        "images": [
+          "/products/v/9203.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9004,
+    "name": "Pendelstang 1 m",
+    "slug": "pendelstang-1m",
+    "sku": "GL-004",
+    "short": null,
+    "description": "Ophang-/pendelstang 100 cm voor railspots, aluminium.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9204.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9104,
+        "name": "Zwart",
+        "colorHex": "#1a1a1a",
+        "sku": "GL-004",
+        "images": [
+          "/products/v/9204.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9005,
+    "name": "Tuimelschakelaar 1-voudig",
+    "slug": "tuimelschakelaar-1-voudig",
+    "sku": "GL-005",
+    "short": null,
+    "description": "Wisselschakelaar 1-voudig, RVS in geborsteld brons. 86×86 mm, 10A, 110–250V, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9205.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9105,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-005",
+        "images": [
+          "/products/v/9205.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9006,
+    "name": "Tuimelschakelaar 2-voudig",
+    "slug": "tuimelschakelaar-2-voudig",
+    "sku": "GL-006",
+    "short": null,
+    "description": "Wisselschakelaar 2-voudig, RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9206.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9106,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-006",
+        "images": [
+          "/products/v/9206.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9007,
+    "name": "Tuimelschakelaar 3-voudig",
+    "slug": "tuimelschakelaar-3-voudig",
+    "sku": "GL-007",
+    "short": null,
+    "description": "Wisselschakelaar 3-voudig, RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9207.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9107,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-007",
+        "images": [
+          "/products/v/9207.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9008,
+    "name": "Tuimelschakelaar 4-voudig",
+    "slug": "tuimelschakelaar-4-voudig",
+    "sku": "GL-008",
+    "short": null,
+    "description": "Wisselschakelaar 4-voudig, RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9208.jpg",
+    "featured": true,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9108,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-008",
+        "images": [
+          "/products/v/9208.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9009,
+    "name": "Deurbel-tuimelschakelaar",
+    "slug": "deurbel-tuimelschakelaar",
+    "sku": "GL-009",
+    "short": null,
+    "description": "Deurbelschakelaar (tuimelaar), RVS in geborsteld brons. 86×86 mm, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9209.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9109,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-009",
+        "images": [
+          "/products/v/9209.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9010,
+    "name": "Wipschakelaar 1-voudig",
+    "slug": "wipschakelaar-1-voudig",
+    "sku": "GL-010",
+    "short": null,
+    "description": "Wisselschakelaar 1-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9210.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9110,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-010",
+        "images": [
+          "/products/v/9210.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9011,
+    "name": "Wipschakelaar 2-voudig",
+    "slug": "wipschakelaar-2-voudig",
+    "sku": "GL-011",
+    "short": null,
+    "description": "Wisselschakelaar 2-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9211.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9111,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-011",
+        "images": [
+          "/products/v/9211.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9012,
+    "name": "Wipschakelaar 3-voudig",
+    "slug": "wipschakelaar-3-voudig",
+    "sku": "GL-012",
+    "short": null,
+    "description": "Wisselschakelaar 3-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9212.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9112,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-012",
+        "images": [
+          "/products/v/9212.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9013,
+    "name": "Wipschakelaar 4-voudig",
+    "slug": "wipschakelaar-4-voudig",
+    "sku": "GL-013",
+    "short": null,
+    "description": "Wisselschakelaar 4-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9213.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9113,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-013",
+        "images": [
+          "/products/v/9213.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9014,
+    "name": "Deurbel-wipschakelaar",
+    "slug": "deurbel-wipschakelaar",
+    "sku": "GL-014",
+    "short": null,
+    "description": "Deurbelschakelaar (wip), RVS in geborsteld brons. 86×86 mm, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9214.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9114,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-014",
+        "images": [
+          "/products/v/9214.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9015,
+    "name": "Ventilatorsnelheidsregelaar",
+    "slug": "ventilatorsnelheidsregelaar",
+    "sku": "GL-015",
+    "short": null,
+    "description": "Ventilatorsnelheidsregelaar, RVS in geborsteld brons. 86×86 mm, 110–250V, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9215.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9115,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-015",
+        "images": [
+          "/products/v/9215.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9016,
+    "name": "Dubbele dimmer",
+    "slug": "dubbele-dimmer",
+    "sku": "GL-016",
+    "short": null,
+    "description": "Dubbele lichtdimmer, RVS in geborsteld brons. 86×86 mm, 110–250V, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9216.jpg",
+    "featured": true,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9116,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-016",
+        "images": [
+          "/products/v/9216.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9017,
+    "name": "Stopcontact (randaarde)",
+    "slug": "stopcontact-randaarde",
+    "sku": "GL-017",
+    "short": null,
+    "description": "Europees stopcontact (randaarde) 16A, RVS in geborsteld brons. 86×86 mm, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9217.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9117,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-017",
+        "images": [
+          "/products/v/9217.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9018,
+    "name": "Tuimelschakelaar 4-voudig breed (146 mm)",
+    "slug": "tuimelschakelaar-4-voudig-breed-146",
+    "sku": "GL-018",
+    "short": null,
+    "description": "Brede 4-voudige tuimelschakelaar, RVS in geborsteld brons. 146×86 mm, 10A, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9218.jpg",
+    "featured": false,
+    "dimensions": "146 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9118,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-018",
+        "images": [
+          "/products/v/9218.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9019,
+    "name": "Wipschakelaar 4-voudig breed (146 mm)",
+    "slug": "wipschakelaar-4-voudig-breed-146",
+    "sku": "GL-019",
+    "short": null,
+    "description": "Brede 4-voudige wipschakelaar, RVS in geborsteld brons. 146×86 mm, 10A, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9219.jpg",
+    "featured": false,
+    "dimensions": "146 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9119,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-019",
+        "images": [
+          "/products/v/9219.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9020,
+    "name": "Hotelpaneel ‘Niet storen / Opmaken / Bel’",
+    "slug": "hotelpaneel-niet-storen",
+    "sku": "GL-020",
+    "short": null,
+    "description": "Touch-deurpaneel: Niet storen, kamer opmaken en deurbel. RVS in geborsteld brons, 86×86 mm, CE.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9220.jpg",
+    "featured": false,
+    "dimensions": "86 × 86 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9120,
+        "name": "Geborsteld brons",
+        "colorHex": "#9c8456",
+        "sku": "GL-020",
+        "images": [
+          "/products/v/9220.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9021,
+    "name": "Wandspot LED 8W IP65",
+    "slug": "wandspot-led-8w-ip65",
+    "sku": "GL-021",
+    "short": null,
+    "description": "Buiten-wandspot 8W, 3000K, 680lm, IP65. Aluminium. 60×210 mm, 110–220V.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9221.jpg",
+    "featured": true,
+    "dimensions": "60 × 210 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9121,
+        "name": "Wit",
+        "colorHex": "#f2f2f0",
+        "sku": "GL-021",
+        "images": [
+          "/products/v/9221.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9022,
+    "name": "Grondspot LED 3W IP65",
+    "slug": "grondspot-led-3w-ip65",
+    "sku": "GL-022",
+    "short": null,
+    "description": "Rechthoekige inbouw-grondspot 3W, 3000K, IP65. RVS + gehard glas. 200×80×55 mm.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9222.jpg",
+    "featured": false,
+    "dimensions": "200 × 80 × 55 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9122,
+        "name": "RVS / glas",
+        "colorHex": "#b8bcc0",
+        "sku": "GL-022",
+        "images": [
+          "/products/v/9222.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9023,
+    "name": "Grondspot LED 20W IP65",
+    "slug": "grondspot-led-20w-ip65",
+    "sku": "GL-023",
+    "short": null,
+    "description": "Inbouw-grondspot 20W, 3000K, 1700lm, IP65. RVS + gehard glas. Ø200×170 mm.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9223.jpg",
+    "featured": true,
+    "dimensions": "200 × 170 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9123,
+        "name": "RVS / glas",
+        "colorHex": "#b8bcc0",
+        "sku": "GL-023",
+        "images": [
+          "/products/v/9223.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9024,
+    "name": "Grondspot LED 12W IP65",
+    "slug": "grondspot-led-12w-ip65",
+    "sku": "GL-024",
+    "short": null,
+    "description": "Inbouw-grondspot 12W, 3000K, 1020lm, IP65. RVS + gehard glas. Ø175×125 mm.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9224.jpg",
+    "featured": true,
+    "dimensions": "175 × 125 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 9124,
+        "name": "RVS / glas",
+        "colorHex": "#b8bcc0",
+        "sku": "GL-024",
+        "images": [
+          "/products/v/9224.jpg"
         ]
       }
     ]

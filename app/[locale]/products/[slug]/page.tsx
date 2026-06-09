@@ -62,6 +62,7 @@ const collectionKey = {
   doors: "collectionDoors",
   "door-accessories": "collectionDoorAccessories",
   bloempotten: "collectionFlowerPots",
+  verlichting: "collectionLighting",
 } as const;
 
 const collectionIdentifierPrefix: Record<string, string> = {
@@ -72,6 +73,7 @@ const collectionIdentifierPrefix: Record<string, string> = {
   accessories: "Accessories",
   "door-accessories": "Door details",
   bloempotten: "Garden · Bloempotten",
+  verlichting: "George Lighting · Verlichting",
 };
 
 const collectionLandingHref: Record<string, string> = {
@@ -82,6 +84,7 @@ const collectionLandingHref: Record<string, string> = {
   accessories: "/products/accessories",
   "door-accessories": "/products",
   bloempotten: "/products/bloempotten",
+  verlichting: "/products/verlichting",
 };
 
 export default async function ProductDetailPage({
