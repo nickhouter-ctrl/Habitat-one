@@ -73,7 +73,7 @@ const collectionIdentifierPrefix: Record<string, string> = {
   accessories: "Accessories",
   "door-accessories": "Door details",
   bloempotten: "Garden · Bloempotten",
-  verlichting: "George Lighting · Verlichting",
+  verlichting: "George Lighting · Verlichting & schakelaars",
 };
 
 const collectionLandingHref: Record<string, string> = {

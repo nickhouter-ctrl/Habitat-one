@@ -35,7 +35,7 @@ const identifierPrefix: Record<string, string> = {
   accessories: "Accessories",
   "door-accessories": "Door details",
   bloempotten: "Garden · Bloempotten",
-  verlichting: "George Lighting · Verlichting",
+  verlichting: "George Lighting · Verlichting & schakelaars",
 };
 
 const descriptionKey: Record<string, string> = {
