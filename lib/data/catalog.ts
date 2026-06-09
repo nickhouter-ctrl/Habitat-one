@@ -1023,6 +1023,84 @@ for (const p of catalogProducts) {
   productMedia[p.slug] = { ...prev, context: [] };
 }
 
+// --------------------------------------------------------------------------
+// High-res product photography (Higgsfield, 2026-06-09), keyed by SKU.
+// White packshot = card/thumbnail; lifestyle = in-situ gallery still.
+// Covers the KKR bathroom range and the George Lighting (GL-) collection.
+// --------------------------------------------------------------------------
+const HIGGS_PHOTOS: Record<string, { pack?: string; life?: string }> = {
+  "GL-001": { pack: "/products/h/GL-001.jpg", life: "/products/h/GL-001-life.jpg" },
+  "GL-002": { pack: "/products/h/GL-002.jpg", life: "/products/h/GL-002-life.jpg" },
+  "GL-003": { pack: "/products/h/GL-003.jpg", life: "/products/h/GL-003-life.jpg" },
+  "GL-004": { pack: "/products/h/GL-004.jpg" },
+  "GL-005": { pack: "/products/h/GL-005.jpg", life: "/products/h/GL-005-life.jpg" },
+  "GL-006": { pack: "/products/h/GL-006.jpg", life: "/products/h/GL-006-life.jpg" },
+  "GL-007": { pack: "/products/h/GL-007.jpg", life: "/products/h/GL-007-life.jpg" },
+  "GL-008": { pack: "/products/h/GL-008.jpg", life: "/products/h/GL-008-life.jpg" },
+  "GL-009": { pack: "/products/h/GL-009.jpg", life: "/products/h/GL-009-life.jpg" },
+  "GL-010": { pack: "/products/h/GL-010.jpg", life: "/products/h/GL-010-life.jpg" },
+  "GL-011": { pack: "/products/h/GL-011.jpg", life: "/products/h/GL-011-life.jpg" },
+  "GL-012": { pack: "/products/h/GL-012.jpg", life: "/products/h/GL-012-life.jpg" },
+  "GL-013": { pack: "/products/h/GL-013.jpg", life: "/products/h/GL-013-life.jpg" },
+  "GL-014": { pack: "/products/h/GL-014.jpg", life: "/products/h/GL-014-life.jpg" },
+  "GL-015": { pack: "/products/h/GL-015.jpg", life: "/products/h/GL-015-life.jpg" },
+  "GL-016": { pack: "/products/h/GL-016.jpg", life: "/products/h/GL-016-life.jpg" },
+  "GL-017": { pack: "/products/h/GL-017.jpg", life: "/products/h/GL-017-life.jpg" },
+  "GL-018": { pack: "/products/h/GL-018.jpg", life: "/products/h/GL-018-life.jpg" },
+  "GL-019": { pack: "/products/h/GL-019.jpg", life: "/products/h/GL-019-life.jpg" },
+  "GL-020": { pack: "/products/h/GL-020.jpg", life: "/products/h/GL-020-life.jpg" },
+  "GL-021": { pack: "/products/h/GL-021.jpg", life: "/products/h/GL-021-life.jpg" },
+  "GL-022": { pack: "/products/h/GL-022.jpg", life: "/products/h/GL-022-life.jpg" },
+  "GL-023": { pack: "/products/h/GL-023.jpg", life: "/products/h/GL-023-life.jpg" },
+  "GL-024": { pack: "/products/h/GL-024.jpg", life: "/products/h/GL-024-life.jpg" },
+  "KKR-1080-1": { pack: "/products/h/KKR-1080-1.jpg" },
+  "KKR-1169": { pack: "/products/h/KKR-1169.jpg", life: "/products/h/KKR-1169-life.jpg" },
+  "KKR-1264-1": { life: "/products/h/KKR-1264-1-life.jpg" },
+  "KKR-1507": { pack: "/products/h/KKR-1507.jpg", life: "/products/h/KKR-1507-life.jpg" },
+  "KKR-1908": { pack: "/products/h/KKR-1908.jpg", life: "/products/h/KKR-1908-life.jpg" },
+  "KKR-2120": { pack: "/products/h/KKR-2120.jpg", life: "/products/h/KKR-2120-life.jpg" },
+  "KKR-2124": { pack: "/products/h/KKR-2124.jpg", life: "/products/h/KKR-2124-life.jpg" },
+  "KKR-3209A": { pack: "/products/h/KKR-3209A.jpg", life: "/products/h/KKR-3209A-life.jpg" },
+  "KKR-3502A": { pack: "/products/h/KKR-3502A.jpg", life: "/products/h/KKR-3502A-life.jpg" },
+  "KKR-3508": { pack: "/products/h/KKR-3508.jpg", life: "/products/h/KKR-3508-life.jpg" },
+  "KKR-3512": { pack: "/products/h/KKR-3512.jpg", life: "/products/h/KKR-3512-life.jpg" },
+  "KKR-3704": { pack: "/products/h/KKR-3704.jpg", life: "/products/h/KKR-3704-life.jpg" },
+  "KKR-8058": { pack: "/products/h/KKR-8058.jpg", life: "/products/h/KKR-8058-life.jpg" },
+  "KKR-8201": { pack: "/products/h/KKR-8201.jpg", life: "/products/h/KKR-8201-life.jpg" },
+  "KKR-A001": { pack: "/products/h/KKR-A001.jpg", life: "/products/h/KKR-A001-life.jpg" },
+  "KKR-A025": { pack: "/products/h/KKR-A025.jpg", life: "/products/h/KKR-A025-life.jpg" },
+  "KKR-A026": { pack: "/products/h/KKR-A026.jpg", life: "/products/h/KKR-A026-life.jpg" },
+  "KKR-A027": { pack: "/products/h/KKR-A027.jpg", life: "/products/h/KKR-A027-life.jpg" },
+  "KKR-A110": { pack: "/products/h/KKR-A110.jpg", life: "/products/h/KKR-A110-life.jpg" },
+  "KKR-B-RACK09": { pack: "/products/h/KKR-B-RACK09.jpg", life: "/products/h/KKR-B-RACK09-life.jpg" },
+  "KKR-B008-B": { pack: "/products/h/KKR-B008-B.jpg", life: "/products/h/KKR-B008-B-life.jpg" },
+  "KKR-B051": { pack: "/products/h/KKR-B051.jpg", life: "/products/h/KKR-B051-life.jpg" },
+  "KKR-B051-A": { pack: "/products/h/KKR-B051-A.jpg", life: "/products/h/KKR-B051-A-life.jpg" },
+  "KKR-H5060-D": { life: "/products/h/KKR-H5060-D-life.jpg" },
+  "KKR-H7036": { life: "/products/h/KKR-H7036-life.jpg" },
+  "KKR-M8807": { pack: "/products/h/KKR-M8807.jpg" },
+  "KKR-P15-2": { pack: "/products/h/KKR-P15-2.jpg", life: "/products/h/KKR-P15-2-life.jpg" },
+  "KKR-PD032": { pack: "/products/h/KKR-PD032.jpg", life: "/products/h/KKR-PD032-life.jpg" },
+  "KKR-PU004": { pack: "/products/h/KKR-PU004.jpg", life: "/products/h/KKR-PU004-life.jpg" },
+  "KKR-PU9": { pack: "/products/h/KKR-PU9.jpg", life: "/products/h/KKR-PU9-life.jpg" },
+  "KKR-PU9-RESIN": { pack: "/products/h/KKR-PU9-RESIN.jpg", life: "/products/h/KKR-PU9-RESIN-life.jpg" },
+  "KKR-T001-D": { pack: "/products/h/KKR-T001-D.jpg", life: "/products/h/KKR-T001-D-life.jpg" },
+  "KKR-WB3003B": { pack: "/products/h/KKR-WB3003B.jpg", life: "/products/h/KKR-WB3003B-life.jpg" },
+};
+for (const p of catalogProducts) {
+  const key = (p.sku ?? p.variants[0]?.sku ?? "").toUpperCase();
+  const h = HIGGS_PHOTOS[key];
+  if (!h) continue;
+  const gallery = [h.pack, h.life].filter(Boolean) as string[];
+  if (!gallery.length) continue;
+  p.image = h.pack ?? h.life ?? p.image;
+  if (p.variants.length) {
+    p.variants[0] = { ...p.variants[0], images: gallery };
+  } else {
+    p.variants.push({ id: p.id * 10 + 1, name: null, colorHex: null, sku: p.sku ?? null, images: gallery });
+  }
+}
+
 export { catalogProducts, catalogMaterials, catalogSpaces, catalogCategories };
 export type { CatalogProduct, CatalogMaterial, CatalogSpace, CatalogCategory, ProductVariant };
 
