@@ -81,6 +81,7 @@ export async function CollectionLuxuryPage({
   belowHero,
   belowProducts,
   galleryOverride,
+  heroSlidesOverride,
   editorialImages,
   bareHero = false,
 }: {
@@ -97,6 +98,9 @@ export async function CollectionLuxuryPage({
   /** Optional in-situ lifestyle shots for the stacked gallery, instead of the
    *  studio product cut-outs — gives a collection a Flexibel-Stone-style lookbook. */
   galleryOverride?: string[];
+  /** Optional set of hero scenes to cycle through as a slideshow (e.g. a
+   *  multi-purpose material shown in bathroom, kitchen, living, …). */
+  heroSlidesOverride?: string[];
   /** Optional [left, right] sharp in-situ shots for the editorial intro block. */
   editorialImages?: [string, string];
   /** Render the hero as a clean full-width banner (the image carries its own
@@ -130,11 +134,14 @@ export async function CollectionLuxuryPage({
   const isMagic = collectionId === "wall-panels";
   // All in-situ render scenes across the range — the Flexibel Stone lookbook grid.
   const sceneGallery = isMagic ? magicSceneGallery() : [];
-  // Hero slideshow — the override scene first, then a few big in-situ renders.
-  const heroSlides = [
-    heroImage,
-    ...sceneGallery.map((s) => s.src).filter((s) => s !== heroImage),
-  ].slice(0, 6);
+  // Hero slideshow — an explicit set of scenes when given (e.g. a multi-purpose
+  // material across rooms), otherwise the override scene + a few in-situ renders.
+  const heroSlides = (
+    heroSlidesOverride && heroSlidesOverride.length > 0
+      ? heroSlidesOverride
+      : [heroImage, ...sceneGallery.map((s) => s.src).filter((s) => s !== heroImage)]
+  ).slice(0, 6);
+  const slideHero = isMagic || (heroSlidesOverride?.length ?? 0) > 1;
 
   const title = t(collectionKey[collectionId]);
   const identifier = identifierPrefix[collectionId] ?? "Habitat One";
@@ -170,7 +177,7 @@ export async function CollectionLuxuryPage({
           </div>
         ) : (
         <div className="relative h-[92svh] min-h-[640px] w-full overflow-hidden">
-          {isMagic && heroSlides.length > 1 ? (
+          {slideHero && heroSlides.length > 1 ? (
             <HeroSlideshow images={heroSlides} />
           ) : (
             <div className="absolute inset-0 animate-ken-burns">

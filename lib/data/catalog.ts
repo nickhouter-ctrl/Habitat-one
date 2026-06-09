@@ -1087,14 +1087,22 @@ const HIGGS_PHOTOS: Record<string, { pack?: string; life?: string }> = {
   "KKR-T001-D": { pack: "/products/h/KKR-T001-D.jpg", life: "/products/h/KKR-T001-D-life.jpg" },
   "KKR-WB3003B": { pack: "/products/h/KKR-WB3003B.jpg", life: "/products/h/KKR-WB3003B-life.jpg" },
 };
+const ACRYL_GALLERY: Record<string, string[]> = {
+  "KKR-A001": ["/products/h/acryl/KKR-A001-badkamer.jpg", "/products/h/acryl/KKR-A001-woonkamer.jpg", "/products/h/acryl/KKR-A001-keuken.jpg", "/products/h/KKR-A001.jpg"],
+  "KKR-A025": ["/products/h/acryl/KKR-A025-badkamer.jpg", "/products/h/acryl/KKR-A025-woonkamer.jpg", "/products/h/acryl/KKR-A025-keuken.jpg", "/products/h/KKR-A025.jpg"],
+  "KKR-A026": ["/products/h/acryl/KKR-A026-woonkamer.jpg", "/products/h/acryl/KKR-A026-keuken.jpg", "/products/h/acryl/KKR-A026-badkamer.jpg", "/products/h/KKR-A026.jpg"],
+  "KKR-A027": ["/products/h/acryl/KKR-A027-eetkamer.jpg", "/products/h/acryl/KKR-A027-woonkamer.jpg", "/products/h/acryl/KKR-A027-keuken.jpg", "/products/h/acryl/KKR-A027-badkamer.jpg", "/products/h/KKR-A027.jpg"],
+  "KKR-A110": ["/products/h/acryl/KKR-A110-woonkamer.jpg", "/products/h/acryl/KKR-A110-lobby.jpg", "/products/h/acryl/KKR-A110-badkamer.jpg", "/products/h/KKR-A110.jpg"],
+};
 for (const p of catalogProducts) {
   const key = (p.sku ?? p.variants[0]?.sku ?? "").toUpperCase();
   const h = HIGGS_PHOTOS[key];
   if (!h) continue;
-  // Acryl panels lead with the backlit in-situ scene; everything else leads
-  // with the clean white packshot.
+  // Acryl panels show a multi-scene in-situ gallery (bathroom, kitchen, living,
+  // …) led by a room scene; everything else leads with the white packshot.
   const isAcryl = p.collection === "acrylpanelen";
-  const gallery = (isAcryl ? [h.life, h.pack] : [h.pack, h.life]).filter(Boolean) as string[];
+  const acrylGal = isAcryl ? ACRYL_GALLERY[key] : undefined;
+  const gallery = (acrylGal ?? (isAcryl ? [h.life, h.pack] : [h.pack, h.life]).filter(Boolean)) as string[];
   if (!gallery.length) continue;
   p.image = gallery[0] ?? p.image;
   if (p.variants.length) {
