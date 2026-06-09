@@ -17,6 +17,7 @@ const collectionKey: Record<string, string> = {
   bloempotten: "collectionFlowerPots",
   verlichting: "collectionLighting",
   schakelmateriaal: "collectionSwitches",
+  acrylpanelen: "collectionAcrylicPanels",
 };
 
 /** Collecties met productfoto's op witte achtergrond: volledig tonen (niet bijsnijden). */

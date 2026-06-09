@@ -26,6 +26,7 @@ const collectionKey: Record<string, string> = {
   bloempotten: "collectionFlowerPots",
   verlichting: "collectionLighting",
   schakelmateriaal: "collectionSwitches",
+  acrylpanelen: "collectionAcrylicPanels",
 };
 
 const identifierPrefix: Record<string, string> = {
@@ -38,6 +39,7 @@ const identifierPrefix: Record<string, string> = {
   bloempotten: "Garden · Bloempotten",
   verlichting: "George Lighting · Verlichting",
   schakelmateriaal: "George Lighting · Schakelmateriaal",
+  acrylpanelen: "Solid Surface · Acrylpanelen",
 };
 
 const descriptionKey: Record<string, string> = {
@@ -50,6 +52,7 @@ const descriptionKey: Record<string, string> = {
   bloempotten: "chapterDescriptionFlowerPots",
   verlichting: "chapterDescriptionLighting",
   schakelmateriaal: "chapterDescriptionSwitches",
+  acrylpanelen: "chapterDescriptionAcrylicPanels",
 };
 
 // Big, full-width render scenes that "fall down" the Flexibel Stone gallery —

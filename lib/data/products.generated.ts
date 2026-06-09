@@ -21,7 +21,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen";
   variants: ProductVariant[];
 }
 
@@ -2689,7 +2689,7 @@ export const catalogProducts: CatalogProduct[] = [
       "living-room"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "acrylpanelen",
     "variants": []
   },
   {
@@ -2713,7 +2713,7 @@ export const catalogProducts: CatalogProduct[] = [
       "living-room"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "acrylpanelen",
     "variants": []
   },
   {
@@ -2956,7 +2956,7 @@ export const catalogProducts: CatalogProduct[] = [
       "living-room"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "acrylpanelen",
     "variants": []
   },
   {
@@ -2980,7 +2980,7 @@ export const catalogProducts: CatalogProduct[] = [
       "living-room"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "acrylpanelen",
     "variants": []
   },
   {
@@ -3004,7 +3004,7 @@ export const catalogProducts: CatalogProduct[] = [
       "living-room"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "acrylpanelen",
     "variants": []
   },
   {
@@ -3028,7 +3028,7 @@ export const catalogProducts: CatalogProduct[] = [
       "living-room"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "acrylpanelen",
     "variants": []
   },
   {

@@ -54,6 +54,8 @@ function collectionFor(name) {
   if (/rail-?spot|railprofiel|rail-?connector|pendelstang|wandspot|grondspot|verlichting|lighting/.test(n)) return "verlichting";
   if (/hinge|scharnier|bisagra/.test(n)) return "door-accessories";
   if (/\bdoor\b|deur|tür|puerta/.test(n)) return "doors";
+  // Acryl solid-surface panelen -> eigen categorie (multifunctioneel: wanden, bad, bar, lichtobjecten)
+  if (/acryl/.test(n)) return "acrylpanelen";
   // Kleine badkamer-accessoires -> accessoires (vóór de grote-fixture regel)
   if (/mirror|spiegel|towel|handdoek|robe hook|jashaak|paper holder|brush holder|toiletborstel|drainage|\bdrain\b|afvoer|\bsifon\b|button cover|cistern|flush|bathroom tray|bathtub rack|shower set|shower head|\bfaucet\b|\btaps?\b|kraan/.test(n)) return "accessories";
   // Grote badkamer-fixtures -> badkamer
@@ -161,7 +163,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen";
   variants: ProductVariant[];
 }
 

@@ -64,6 +64,7 @@ const collectionKey = {
   bloempotten: "collectionFlowerPots",
   verlichting: "collectionLighting",
   schakelmateriaal: "collectionSwitches",
+  acrylpanelen: "collectionAcrylicPanels",
 } as const;
 
 const collectionIdentifierPrefix: Record<string, string> = {
@@ -76,6 +77,7 @@ const collectionIdentifierPrefix: Record<string, string> = {
   bloempotten: "Garden · Bloempotten",
   verlichting: "George Lighting · Verlichting",
   schakelmateriaal: "George Lighting · Schakelmateriaal",
+  acrylpanelen: "Solid Surface · Acrylpanelen",
 };
 
 const collectionLandingHref: Record<string, string> = {
@@ -88,6 +90,7 @@ const collectionLandingHref: Record<string, string> = {
   bloempotten: "/products/bloempotten",
   verlichting: "/products/verlichting",
   schakelmateriaal: "/products/schakelmateriaal",
+  acrylpanelen: "/products/acrylpanelen",
 };
 
 export default async function ProductDetailPage({
