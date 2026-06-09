@@ -49,11 +49,15 @@ function dims(p) {
 // ---- PRODUCTS with variants ----
 function collectionFor(name) {
   const n = name.toLowerCase();
-  // Verlichting eerst — "deurbel-schakelaar" bevat "deur" en zou anders bij doors belanden.
-  if (/rail-?spot|railprofiel|rail-?connector|pendelstang|schakelaar|stopcontact|\bdimmer\b|hotelpaneel|wandspot|grondspot|ventilator|verlichting|lighting/.test(n)) return "verlichting";
+  // Schakelmateriaal & verlichting eerst — "deurbel-schakelaar" bevat "deur" en zou anders bij doors belanden.
+  if (/schakelaar|stopcontact|\bdimmer\b|hotelpaneel|ventilator/.test(n)) return "schakelmateriaal";
+  if (/rail-?spot|railprofiel|rail-?connector|pendelstang|wandspot|grondspot|verlichting|lighting/.test(n)) return "verlichting";
   if (/hinge|scharnier|bisagra/.test(n)) return "door-accessories";
   if (/\bdoor\b|deur|tür|puerta/.test(n)) return "doors";
-  if (/bathtub|shower|wash basin|toilet|mirror|towel|robe hook|paper holder|cistern|brush holder|faucet|drainage|button cover|shower set|bathroom tray/.test(n)) return "bathroom";
+  // Kleine badkamer-accessoires -> accessoires (vóór de grote-fixture regel)
+  if (/mirror|spiegel|towel|handdoek|robe hook|jashaak|paper holder|brush holder|toiletborstel|drainage|\bdrain\b|afvoer|\bsifon\b|button cover|cistern|flush|bathroom tray|bathtub rack|shower set|shower head|\bfaucet\b|\btaps?\b|kraan/.test(n)) return "accessories";
+  // Grote badkamer-fixtures -> badkamer
+  if (/bathtub|\bbad\b|wash basin|basin|wastafel|wasbak|cabinet|meubel|vanity|shower tray|shower glass|douchebak|toilet|urinal/.test(n)) return "bathroom";
   if (/\bxps\b|backer board|backer-board/.test(n)) return "backer-boards";
   if (/\bboge\b|epocco|bloempot|flower ?pot|planter|plantenpot/.test(n)) return "bloempotten";
   if (/board|travertine|cement|stone|granite|terrazzo|rammed earth/.test(n)) return "wall-panels";
@@ -157,7 +161,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal";
   variants: ProductVariant[];
 }
 

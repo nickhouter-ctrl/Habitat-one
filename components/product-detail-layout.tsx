@@ -62,7 +62,7 @@ export function ProductDetailLayout({
   const showSwatches = swatches.length > 1;
   // Staande potten & verlichting (foto op wit) + deuren: hele product tonen
   // (niet bijsnijden) op een lichte achtergrond.
-  const isPot = product.collection === "bloempotten" || product.collection === "verlichting";
+  const isPot = product.collection === "bloempotten" || product.collection === "verlichting" || product.collection === "schakelmateriaal";
   const fitWhole = isPot || product.collection === "doors";
   const fitClass = fitWhole ? "object-contain" : "object-cover";
 

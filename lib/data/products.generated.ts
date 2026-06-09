@@ -21,7 +21,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal";
   variants: ProductVariant[];
 }
 
@@ -48,7 +48,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 444,
@@ -60,26 +60,6 @@ export const catalogProducts: CatalogProduct[] = [
         ]
       }
     ]
-  },
-  {
-    "id": 185,
-    "name": "Shower tray 1200*900*50",
-    "slug": "shower-tray-1200-900-50-1765881447585",
-    "sku": null,
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [
-      "bathroom"
-    ],
-    "collection": "bathroom",
-    "variants": []
   },
   {
     "id": 186,
@@ -283,7 +263,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 455,
@@ -319,7 +299,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 457,
@@ -353,7 +333,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 458,
@@ -388,7 +368,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 459,
@@ -423,7 +403,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 460,
@@ -459,7 +439,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 461,
@@ -494,7 +474,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 463,
@@ -529,7 +509,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 464,
@@ -566,7 +546,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 465,
@@ -601,7 +581,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 468,
@@ -633,7 +613,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 469,
@@ -668,7 +648,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 629,
@@ -705,7 +685,7 @@ export const catalogProducts: CatalogProduct[] = [
     "categories": [
       "bathroom"
     ],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": [
       {
         "id": 635,
@@ -2577,7 +2557,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · 702×452×80mm · solid surface · matt · 1 kraangat · 1 afvoer"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/370.jpg",
     "featured": false,
     "dimensions": "702 × 452 mm · t 80 mm",
     "materials": [
@@ -2587,7 +2567,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "bathroom",
     "variants": []
   },
   {
@@ -2601,7 +2581,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · 1750×832×550mm · solid surface · matt"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/371.jpg",
     "featured": false,
     "dimensions": "1750 × 832 mm · t 550 mm",
     "materials": [
@@ -2625,7 +2605,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · past op KKR-B051-A / B008-B · 75mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/372.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [
@@ -2636,7 +2616,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": []
   },
   {
@@ -2650,7 +2630,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Past op KKR-B051 · 75mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/373.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [
@@ -2661,7 +2641,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": []
   },
   {
@@ -2675,7 +2655,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · 1202×455×80mm · solid surface · matt · 2 kraangaten · 1 afvoer"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/374.jpg",
     "featured": false,
     "dimensions": "1202 × 455 mm · t 80 mm",
     "materials": [
@@ -2685,7 +2665,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "bathroom",
     "variants": []
   },
   {
@@ -2699,7 +2679,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Matt · 2440×1220×10mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/375.jpg",
     "featured": false,
     "dimensions": "2440 × 1220 mm · t 10 mm",
     "materials": [
@@ -2723,7 +2703,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Matt · 3660×760×12mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/376.jpg",
     "featured": false,
     "dimensions": "3660 × 760 mm · t 12 mm",
     "materials": [
@@ -2774,7 +2754,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · 1829×560×30mm · met overloop · 2 kraangaten"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/378.jpg",
     "featured": false,
     "dimensions": "1829 × 560 mm · t 30 mm",
     "materials": [
@@ -2784,7 +2764,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "bathroom",
     "variants": []
   },
   {
@@ -2798,7 +2778,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · 914×560×30mm · met overloop · 1 kraangat"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/379.jpg",
     "featured": false,
     "dimensions": "914 × 560 mm · t 30 mm",
     "materials": [
@@ -2808,7 +2788,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "bathroom",
     "variants": []
   },
   {
@@ -2822,7 +2802,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · 500×330×145mm · solid surface · matt"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/380.jpg",
     "featured": false,
     "dimensions": "500 × 330 mm · t 145 mm",
     "materials": [
@@ -2832,7 +2812,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "bathroom",
     "variants": []
   },
   {
@@ -2846,7 +2826,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Brushed Bronze · past op KKR-1908 · 800mm pijp"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/381.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [
@@ -2856,7 +2836,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": []
   },
   {
@@ -2870,7 +2850,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · 500×350×140mm · solid surface · matt"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/382.jpg",
     "featured": false,
     "dimensions": "500 × 350 mm · t 140 mm",
     "materials": [
@@ -2880,7 +2860,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "bathroom",
     "variants": []
   },
   {
@@ -2894,7 +2874,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · 400×400×320mm · solid surface · matt"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/383.jpg",
     "featured": false,
     "dimensions": "400 × 400 mm · t 320 mm",
     "materials": [
@@ -2904,7 +2884,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "bathroom",
     "variants": []
   },
   {
@@ -2918,7 +2898,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · 450×450×850mm · solid surface · matt"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/384.jpg",
     "featured": false,
     "dimensions": "450 × 450 mm · t 850 mm",
     "materials": [
@@ -2928,7 +2908,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "bathroom",
     "variants": []
   },
   {
@@ -2942,7 +2922,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Gold · 1865×840×595mm · resin · glossy"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/385.jpg",
     "featured": false,
     "dimensions": "1865 × 840 mm · t 595 mm",
     "materials": [
@@ -2966,7 +2946,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Glossy · 2440×1220×10mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/386.jpg",
     "featured": false,
     "dimensions": "2440 × 1220 mm · t 10 mm",
     "materials": [
@@ -2990,7 +2970,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Matt · 2440×1220×10mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/387.jpg",
     "featured": false,
     "dimensions": "2440 × 1220 mm · t 10 mm",
     "materials": [
@@ -3014,7 +2994,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Matt · 2440×1220×10mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/388.jpg",
     "featured": false,
     "dimensions": "2440 × 1220 mm · t 10 mm",
     "materials": [
@@ -3038,7 +3018,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Matt · 2440×1220×10mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/389.jpg",
     "featured": false,
     "dimensions": "2440 × 1220 mm · t 10 mm",
     "materials": [
@@ -3062,7 +3042,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "Design white · 850×220×40mm · solid surface · matt"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/390.jpg",
     "featured": false,
     "dimensions": "850 × 220 mm · t 40 mm",
     "materials": [
@@ -3072,7 +3052,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "bathroom",
+    "collection": "accessories",
     "variants": []
   },
   {
@@ -3138,7 +3118,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/393.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [
@@ -3317,7 +3297,7 @@ export const catalogProducts: CatalogProduct[] = [
       "nl": "1524x560x101.6 mm"
     },
     "additionalSizes": null,
-    "image": null,
+    "image": "/products/400.jpg",
     "featured": false,
     "dimensions": "1524 × 560 mm · t 101.6 mm",
     "materials": [
@@ -3327,7 +3307,7 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "categories": [],
-    "collection": "accessories",
+    "collection": "bathroom",
     "variants": []
   },
   {
@@ -3898,7 +3878,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9105,
@@ -3926,7 +3906,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9106,
@@ -3954,7 +3934,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9107,
@@ -3982,7 +3962,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9108,
@@ -4010,7 +3990,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9109,
@@ -4038,7 +4018,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9110,
@@ -4066,7 +4046,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9111,
@@ -4094,7 +4074,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9112,
@@ -4122,7 +4102,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9113,
@@ -4150,7 +4130,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9114,
@@ -4178,7 +4158,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9115,
@@ -4206,7 +4186,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9116,
@@ -4234,7 +4214,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9117,
@@ -4262,7 +4242,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9118,
@@ -4290,7 +4270,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9119,
@@ -4318,7 +4298,7 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [],
-    "collection": "verlichting",
+    "collection": "schakelmateriaal",
     "variants": [
       {
         "id": 9120,
