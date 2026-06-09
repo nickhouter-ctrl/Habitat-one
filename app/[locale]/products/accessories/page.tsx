@@ -19,5 +19,16 @@ export default async function AccessoriesPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <CollectionLuxuryPage collectionId="accessories" />;
+  return (
+    <CollectionLuxuryPage
+      collectionId="accessories"
+      heroImageOverride="/products/h/KKR-8058-life.jpg"
+      galleryOverride={[
+        "/products/h/KKR-8201-life.jpg",
+        "/products/h/KKR-B-RACK09-life.jpg",
+        "/products/h/KKR-PU004-life.jpg",
+        "/products/h/KKR-WB3003B-life.jpg",
+      ]}
+    />
+  );
 }

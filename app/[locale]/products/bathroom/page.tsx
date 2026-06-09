@@ -19,5 +19,17 @@ export default async function BathroomPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <CollectionLuxuryPage collectionId="bathroom" heroImageOverride="/scenery/bathroom-hero.jpg" />;
+  return (
+    <CollectionLuxuryPage
+      collectionId="bathroom"
+      heroImageOverride="/products/h/KKR-T001-D-life.jpg"
+      galleryOverride={[
+        "/products/h/KKR-WB3003B-life.jpg",
+        "/products/h/KKR-T001-D-life.jpg",
+        "/products/h/KKR-1264-1-life.jpg",
+        "/products/h/KKR-1908-life.jpg",
+        "/products/h/KKR-2120-life.jpg",
+      ]}
+    />
+  );
 }
