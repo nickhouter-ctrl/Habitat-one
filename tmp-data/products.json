@@ -19,24 +19,6 @@
 "additional_sizes": null
 },
 {
-"id": 185,
-"name": "Shower tray 1200*900*50",
-"slug": "shower-tray-1200-900-50-1765881447585",
-"description": null,
-"short_description": null,
-"sku": null,
-"thumbnail_path": null,
-"featured": false,
-"width": null,
-"height": null,
-"length": null,
-"thickness": null,
-"dimension_unit": "mm",
-"coverage_value": null,
-"coverage_unit": null,
-"stock_unit": "Pcs"
-},
-{
 "id": 186,
 "name": "Shower tray white - KKR",
 "slug": "shower-tray-1400-800-60-1765881447763",
