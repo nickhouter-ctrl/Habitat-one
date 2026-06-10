@@ -4425,25 +4425,15 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9501,
-    "name": "Water Vapour Fireplace — matt black",
-    "slug": "waterdamphaard",
+    "name": "Water Vapour Fireplace 700 mm — matt black",
+    "slug": "water-vapour-fireplace-700",
     "sku": "SS-FPW700",
-    "short": "Water vapour fireplace · 70–300 cm",
-    "description": "Waterdamp-sfeerhaard met realistische 3D-vlam (waterdamp + LED), 128 vlamkleuren en app-bediening. Geen rook, geen warmteafgifte — puur sfeer. RVS (SS304), mat zwart. 230V.",
+    "short": "Water vapour fireplace · 70 cm wide",
+    "description": "Water vapour fireplace with a lifelike 3D flame (water mist + LED), 128 flame colours and app control. No smoke, no heat — pure ambience. Stainless steel (SS304), matt black. 230V.",
     "descriptionI18n": null,
-    "additionalSizes": [
-      "700 × 240 × 160 mm",
-      "800 × 240 × 160 mm",
-      "1000 × 240 × 160 mm",
-      "1200 × 240 × 160 mm",
-      "1500 × 240 × 160 mm",
-      "1800 × 240 × 160 mm",
-      "2000 × 240 × 160 mm",
-      "2500 × 240 × 160 mm",
-      "3000 × 240 × 160 mm"
-    ],
+    "additionalSizes": null,
     "image": "/products/v/9701.jpg",
-    "featured": true,
+    "featured": false,
     "dimensions": "160 × 700 × 240 mm",
     "materials": [],
     "spaces": [],
@@ -4452,11 +4442,244 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": [
       {
         "id": 9601,
-        "name": "Mat zwart",
+        "name": "Matt black",
         "colorHex": "#1a1a1a",
         "sku": "SS-FPW700",
         "images": [
-          "/products/v/9701.jpg"
+          "/products/v/9701.jpg",
+          "/products/v/9711.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9502,
+    "name": "Water Vapour Fireplace 800 mm — matt black",
+    "slug": "water-vapour-fireplace-800",
+    "sku": "SS-FPW800",
+    "short": "Water vapour fireplace · 80 cm wide",
+    "description": "Water vapour fireplace with a lifelike 3D flame (water mist + LED), 128 flame colours and app control. No smoke, no heat — pure ambience. Stainless steel (SS304), matt black. 230V.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9702.jpg",
+    "featured": false,
+    "dimensions": "160 × 800 × 240 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "sfeerhaarden",
+    "variants": [
+      {
+        "id": 9602,
+        "name": "Matt black",
+        "colorHex": "#1a1a1a",
+        "sku": "SS-FPW800",
+        "images": [
+          "/products/v/9702.jpg",
+          "/products/v/9712.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9503,
+    "name": "Water Vapour Fireplace 1000 mm — matt black",
+    "slug": "water-vapour-fireplace-1000",
+    "sku": "SS-FPW1000",
+    "short": "Water vapour fireplace · 100 cm wide",
+    "description": "Water vapour fireplace with a lifelike 3D flame (water mist + LED), 128 flame colours and app control. No smoke, no heat — pure ambience. Stainless steel (SS304), matt black. 230V.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9703.jpg",
+    "featured": false,
+    "dimensions": "160 × 1000 × 240 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "sfeerhaarden",
+    "variants": [
+      {
+        "id": 9603,
+        "name": "Matt black",
+        "colorHex": "#1a1a1a",
+        "sku": "SS-FPW1000",
+        "images": [
+          "/products/v/9703.jpg",
+          "/products/v/9713.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9504,
+    "name": "Water Vapour Fireplace 1200 mm — matt black",
+    "slug": "water-vapour-fireplace-1200",
+    "sku": "SS-FPW1200",
+    "short": "Water vapour fireplace · 120 cm wide",
+    "description": "Water vapour fireplace with a lifelike 3D flame (water mist + LED), 128 flame colours and app control. No smoke, no heat — pure ambience. Stainless steel (SS304), matt black. 230V.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9704.jpg",
+    "featured": false,
+    "dimensions": "160 × 1200 × 240 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "sfeerhaarden",
+    "variants": [
+      {
+        "id": 9604,
+        "name": "Matt black",
+        "colorHex": "#1a1a1a",
+        "sku": "SS-FPW1200",
+        "images": [
+          "/products/v/9704.jpg",
+          "/products/v/9714.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9505,
+    "name": "Water Vapour Fireplace 1500 mm — matt black",
+    "slug": "water-vapour-fireplace-1500",
+    "sku": "SS-FPW1500",
+    "short": "Water vapour fireplace · 150 cm wide",
+    "description": "Water vapour fireplace with a lifelike 3D flame (water mist + LED), 128 flame colours and app control. No smoke, no heat — pure ambience. Stainless steel (SS304), matt black. 230V.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9705.jpg",
+    "featured": true,
+    "dimensions": "160 × 1500 × 240 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "sfeerhaarden",
+    "variants": [
+      {
+        "id": 9605,
+        "name": "Matt black",
+        "colorHex": "#1a1a1a",
+        "sku": "SS-FPW1500",
+        "images": [
+          "/products/v/9705.jpg",
+          "/products/v/9715.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9506,
+    "name": "Water Vapour Fireplace 1800 mm — matt black",
+    "slug": "water-vapour-fireplace-1800",
+    "sku": "SS-FPW1800",
+    "short": "Water vapour fireplace · 180 cm wide",
+    "description": "Water vapour fireplace with a lifelike 3D flame (water mist + LED), 128 flame colours and app control. No smoke, no heat — pure ambience. Stainless steel (SS304), matt black. 230V.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9706.jpg",
+    "featured": false,
+    "dimensions": "160 × 1800 × 240 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "sfeerhaarden",
+    "variants": [
+      {
+        "id": 9606,
+        "name": "Matt black",
+        "colorHex": "#1a1a1a",
+        "sku": "SS-FPW1800",
+        "images": [
+          "/products/v/9706.jpg",
+          "/products/v/9716.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9507,
+    "name": "Water Vapour Fireplace 2000 mm — matt black",
+    "slug": "water-vapour-fireplace-2000",
+    "sku": "SS-FPW2000",
+    "short": "Water vapour fireplace · 200 cm wide",
+    "description": "Water vapour fireplace with a lifelike 3D flame (water mist + LED), 128 flame colours and app control. No smoke, no heat — pure ambience. Stainless steel (SS304), matt black. 230V.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9707.jpg",
+    "featured": false,
+    "dimensions": "160 × 2000 × 240 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "sfeerhaarden",
+    "variants": [
+      {
+        "id": 9607,
+        "name": "Matt black",
+        "colorHex": "#1a1a1a",
+        "sku": "SS-FPW2000",
+        "images": [
+          "/products/v/9707.jpg",
+          "/products/v/9717.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9508,
+    "name": "Water Vapour Fireplace 2500 mm — matt black",
+    "slug": "water-vapour-fireplace-2500",
+    "sku": "SS-FPW2500",
+    "short": "Water vapour fireplace · 250 cm wide",
+    "description": "Water vapour fireplace with a lifelike 3D flame (water mist + LED), 128 flame colours and app control. No smoke, no heat — pure ambience. Stainless steel (SS304), matt black. 230V.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9708.jpg",
+    "featured": false,
+    "dimensions": "160 × 2500 × 240 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "sfeerhaarden",
+    "variants": [
+      {
+        "id": 9608,
+        "name": "Matt black",
+        "colorHex": "#1a1a1a",
+        "sku": "SS-FPW2500",
+        "images": [
+          "/products/v/9708.jpg",
+          "/products/v/9718.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9509,
+    "name": "Water Vapour Fireplace 3000 mm — matt black",
+    "slug": "water-vapour-fireplace-3000",
+    "sku": "SS-FPW3000",
+    "short": "Water vapour fireplace · 300 cm wide",
+    "description": "Water vapour fireplace with a lifelike 3D flame (water mist + LED), 128 flame colours and app control. No smoke, no heat — pure ambience. Stainless steel (SS304), matt black. 230V.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9709.jpg",
+    "featured": false,
+    "dimensions": "160 × 3000 × 240 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "sfeerhaarden",
+    "variants": [
+      {
+        "id": 9609,
+        "name": "Matt black",
+        "colorHex": "#1a1a1a",
+        "sku": "SS-FPW3000",
+        "images": [
+          "/products/v/9709.jpg",
+          "/products/v/9719.jpg"
         ]
       }
     ]

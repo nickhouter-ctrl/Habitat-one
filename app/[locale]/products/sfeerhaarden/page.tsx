@@ -28,13 +28,8 @@ export default async function FireplacesPage({
       heroImageOverride="/products/sfeerhaarden/hero.jpg"
       galleryOverride={[
         "/products/sfeerhaarden/showcase.mp4",
-        "/products/sfeerhaarden/g1.jpg",
-        "/products/sfeerhaarden/g2.jpg",
-        "/products/sfeerhaarden/g3.jpg",
-        "/products/sfeerhaarden/g4.jpg",
-        "/products/sfeerhaarden/g5.jpg",
-        "/products/sfeerhaarden/g6.jpg",
-        "/products/sfeerhaarden/g7.jpg",
+        "/products/sfeerhaarden/flame-wide.jpg",
+        "/products/sfeerhaarden/flame-macro.jpg",
       ]}
     />
   );
