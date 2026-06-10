@@ -1121,6 +1121,7 @@ export const collections: { id: Collection; key: string }[] = [
   { id: "verlichting", key: "collectionLighting" },
   { id: "schakelmateriaal", key: "collectionSwitches" },
   { id: "acrylpanelen", key: "collectionAcrylicPanels" },
+  { id: "sfeerhaarden", key: "collectionFireplaces" },
   { id: "backer-boards", key: "collectionBackerBoards" },
   { id: "bathroom", key: "collectionBathroom" },
   { id: "doors", key: "collectionDoors" },
@@ -1182,14 +1183,14 @@ export function hasColourOptions(p: CatalogProduct): boolean {
 
 export function featuredProducts(n = 8): CatalogProduct[] {
   const withImg = productsWithImages;
-  const byCol: Record<string, CatalogProduct[]> = { "wall-panels": [], "backer-boards": [], bathroom: [], accessories: [], doors: [], "door-accessories": [], bloempotten: [], verlichting: [], schakelmateriaal: [], acrylpanelen: [] };
+  const byCol: Record<string, CatalogProduct[]> = { "wall-panels": [], "backer-boards": [], bathroom: [], accessories: [], doors: [], "door-accessories": [], bloempotten: [], verlichting: [], schakelmateriaal: [], acrylpanelen: [], sfeerhaarden: [] };
   // prefer products that offer colour options
   const sorted = [...withImg].sort((a, b) => (b.variants.length > 1 ? 1 : 0) - (a.variants.length > 1 ? 1 : 0));
   for (const p of sorted) (byCol[p.collection] ??= []).push(p);
   const picked: CatalogProduct[] = [];
   let i = 0;
-  while (picked.length < n && (byCol["wall-panels"].length || byCol["backer-boards"].length || byCol.bathroom.length || byCol.accessories.length || byCol.doors.length || byCol["door-accessories"].length || byCol.bloempotten.length || byCol.verlichting.length)) {
-    const order = i % 2 === 0 ? ["wall-panels", "bloempotten", "verlichting", "schakelmateriaal", "acrylpanelen", "backer-boards", "bathroom", "doors", "door-accessories", "accessories"] : ["bathroom", "wall-panels", "doors", "verlichting", "schakelmateriaal", "acrylpanelen", "bloempotten", "backer-boards", "door-accessories", "accessories"];
+  while (picked.length < n && (byCol["wall-panels"].length || byCol["backer-boards"].length || byCol.bathroom.length || byCol.accessories.length || byCol.doors.length || byCol["door-accessories"].length || byCol.bloempotten.length || byCol.verlichting.length || byCol.schakelmateriaal.length || byCol.acrylpanelen.length || byCol.sfeerhaarden.length)) {
+    const order = i % 2 === 0 ? ["wall-panels", "bloempotten", "verlichting", "schakelmateriaal", "acrylpanelen", "sfeerhaarden", "backer-boards", "bathroom", "doors", "door-accessories", "accessories"] : ["bathroom", "wall-panels", "doors", "verlichting", "schakelmateriaal", "acrylpanelen", "sfeerhaarden", "bloempotten", "backer-boards", "door-accessories", "accessories"];
     for (const c of order) {
       const next = byCol[c].shift();
       if (next && picked.length < n) picked.push(next);

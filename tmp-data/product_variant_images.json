@@ -2507,5 +2507,6 @@
 {"id": 9221, "product_id": 9021, "variant_id": 9121, "image_path": "GL-021.jpg", "alt_text": "Wandspot LED 8W IP65", "is_primary": true, "sort_order": 0, "created_at": "2026-06-09T00:00:00", "image_type": "product"},
 {"id": 9222, "product_id": 9022, "variant_id": 9122, "image_path": "GL-022.jpg", "alt_text": "Grondspot LED 3W IP65", "is_primary": true, "sort_order": 0, "created_at": "2026-06-09T00:00:00", "image_type": "product"},
 {"id": 9223, "product_id": 9023, "variant_id": 9123, "image_path": "GL-023.jpg", "alt_text": "Grondspot LED 20W IP65", "is_primary": true, "sort_order": 0, "created_at": "2026-06-09T00:00:00", "image_type": "product"},
-{"id": 9224, "product_id": 9024, "variant_id": 9124, "image_path": "GL-024.jpg", "alt_text": "Grondspot LED 12W IP65", "is_primary": true, "sort_order": 0, "created_at": "2026-06-09T00:00:00", "image_type": "product"}
+{"id": 9224, "product_id": 9024, "variant_id": 9124, "image_path": "GL-024.jpg", "alt_text": "Grondspot LED 12W IP65", "is_primary": true, "sort_order": 0, "created_at": "2026-06-09T00:00:00", "image_type": "product"},
+{"id": 9701, "product_id": 9501, "variant_id": 9601, "image_path": "SS-FPW700.jpg", "alt_text": "Waterdamphaard mat zwart", "is_primary": true, "sort_order": 0, "created_at": "2026-06-10T00:00:00", "image_type": "product"}
 ]

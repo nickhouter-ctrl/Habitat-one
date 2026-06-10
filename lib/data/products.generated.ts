@@ -21,7 +21,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden";
   variants: ProductVariant[];
 }
 
@@ -4419,6 +4419,44 @@ export const catalogProducts: CatalogProduct[] = [
         "sku": "GL-024",
         "images": [
           "/products/v/9224.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9501,
+    "name": "Water Vapour Fireplace — matt black",
+    "slug": "waterdamphaard",
+    "sku": "SS-FPW700",
+    "short": "Water vapour fireplace · 70–300 cm",
+    "description": "Waterdamp-sfeerhaard met realistische 3D-vlam (waterdamp + LED), 128 vlamkleuren en app-bediening. Geen rook, geen warmteafgifte — puur sfeer. RVS (SS304), mat zwart. 230V.",
+    "descriptionI18n": null,
+    "additionalSizes": [
+      "700 × 240 × 160 mm",
+      "800 × 240 × 160 mm",
+      "1000 × 240 × 160 mm",
+      "1200 × 240 × 160 mm",
+      "1500 × 240 × 160 mm",
+      "1800 × 240 × 160 mm",
+      "2000 × 240 × 160 mm",
+      "2500 × 240 × 160 mm",
+      "3000 × 240 × 160 mm"
+    ],
+    "image": "/products/v/9701.jpg",
+    "featured": true,
+    "dimensions": "160 × 700 × 240 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "sfeerhaarden",
+    "variants": [
+      {
+        "id": 9601,
+        "name": "Mat zwart",
+        "colorHex": "#1a1a1a",
+        "sku": "SS-FPW700",
+        "images": [
+          "/products/v/9701.jpg"
         ]
       }
     ]

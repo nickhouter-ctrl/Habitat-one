@@ -65,6 +65,7 @@ const collectionKey = {
   verlichting: "collectionLighting",
   schakelmateriaal: "collectionSwitches",
   acrylpanelen: "collectionAcrylicPanels",
+  sfeerhaarden: "collectionFireplaces",
 } as const;
 
 const collectionIdentifierPrefix: Record<string, string> = {
@@ -78,6 +79,7 @@ const collectionIdentifierPrefix: Record<string, string> = {
   verlichting: "George Lighting · Verlichting",
   schakelmateriaal: "George Lighting · Schakelmateriaal",
   acrylpanelen: "Solid Surface · Acrylpanelen",
+  sfeerhaarden: "Ambience · Water Vapour",
 };
 
 const collectionLandingHref: Record<string, string> = {
@@ -91,6 +93,7 @@ const collectionLandingHref: Record<string, string> = {
   verlichting: "/products/verlichting",
   schakelmateriaal: "/products/schakelmateriaal",
   acrylpanelen: "/products/acrylpanelen",
+  sfeerhaarden: "/products/sfeerhaarden",
 };
 
 export default async function ProductDetailPage({
