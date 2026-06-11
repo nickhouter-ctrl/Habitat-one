@@ -3352,7 +3352,7 @@ export const catalogProducts: CatalogProduct[] = [
     "id": 408,
     "name": "Binnendeur Compleet 920×2600 (bronze)",
     "slug": "binnendeur-compleet-920-2600-bronze-1778854942833",
-    "sku": "DR-002-SET",
+    "sku": "DR-003-SET",
     "short": null,
     "description": "Massieve binnendeur 920×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur.",
     "descriptionI18n": {
@@ -3375,7 +3375,7 @@ export const catalogProducts: CatalogProduct[] = [
     "id": 409,
     "name": "Binnendeur Compleet 720×2600 (bronze)",
     "slug": "binnendeur-compleet-720-2600-bronze-1778854942833",
-    "sku": "DR-003-SET",
+    "sku": "DR-002-SET",
     "short": null,
     "description": "Massieve binnendeur 720×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur.",
     "descriptionI18n": {
