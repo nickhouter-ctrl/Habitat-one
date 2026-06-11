@@ -13,13 +13,14 @@ import { Magnetic } from "@/components/ui/magnetic";
 
 // The Habitat One range — calm Mediterranean settings that auto-crossfade
 // behind a fixed brand headline: villa, bathroom, acrylic panels, Magic Stone,
-// lighting and planters.
+// lighting, fireplace and planters.
 const SLIDES = [
   "/scenery/home-hero-villa.jpg",
   "/products/h/KKR-B051-A-life.jpg",
   "/products/h/acryl/KKR-A027-eetkamer.jpg",
   "/products/magic/ms-travertino-light-grey-interior.jpg",
   "/products/h/GL-001-life.jpg",
+  "/products/sfeerhaarden/hero.jpg",
   "/products/magic/bloempotten-lifestyle-boge.jpg",
 ];
 const SLIDE_MS = 6000;
