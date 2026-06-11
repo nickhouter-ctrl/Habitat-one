@@ -70,7 +70,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     { id: "verlichting", key: "collectionLighting", img: "/products/h/GL-001-life.jpg", href: "/products/verlichting" },
     { id: "doors", key: "collectionDoors", img: "/scenery/doors-hero.jpg", href: "/products/doors" },
     { id: "bloempotten", key: "collectionFlowerPots", img: "/products/magic/bloempotten-lifestyle-epocco-canyon.jpg", href: "/products/bloempotten" },
-    { id: "backer-boards", key: "collectionBackerBoards", img: "/products/backer/xps-scene-bath.png", href: "/products/backer-boards" },
+    { id: "sfeerhaarden", key: "collectionFireplaces", img: "/products/sfeerhaarden/hero.jpg", href: "/products/sfeerhaarden" },
   ];
 
   // Flexibel Stone (wall-panels) — prefer products with imagery and colour variants
