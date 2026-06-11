@@ -45,15 +45,48 @@
     "onRequest": "Op aanvraag"
   },
   "hero": {
-    "eyebrow": "Flexibel Stone · Xàbia",
-    "titleA": "Echte natuursteen",
-    "titleB": "die meebuigt",
-    "titleC": "met de wand.",
-    "subtitle": "Wij bouwen met Flexibel Stone — lichter dan tegels, in platen tot 1,2 × 3,06 m. Travertijn, verbrand hout en aarde, op elk vlak in huis.",
-    "ctaPrimary": "Bekijk de Flexibel Stone-collectie",
+    "eyebrow": "Habitat One · Xàbia",
     "ctaSecondary": "Onze projecten",
     "scroll": "Scroll",
-    "badge": "Gevestigd in Xàbia · Costa Blanca"
+    "badge": "Gevestigd in Xàbia · Costa Blanca",
+    "slides": [
+      {
+        "eyebrow": "Habitat One · Xàbia",
+        "title": "Alles waar je huis van gemaakt is.",
+        "subtitle": "Van Flexibel Stone-wanden tot baden, acrylpanelen, verlichting en sfeerhaarden — Habitat One levert de oppervlakken en afwerking voor het mediterrane huis.",
+        "ctaPrimary": "Bekijk alle producten"
+      },
+      {
+        "eyebrow": "Badkamer · Habitat One",
+        "title": "Baden en wastafels in warm solid surface.",
+        "subtitle": "Vrijstaande baden, meubels en accessoires — gemaakt uit naadloos, mat solid surface.",
+        "ctaPrimary": "Bekijk de badkamer"
+      },
+      {
+        "eyebrow": "Acrylpanelen · Habitat One",
+        "title": "Hoogglans panelen voor wand en keuken.",
+        "subtitle": "Naadloze acrylplaten in marmer- en steenlook — voor keukens, badkamers en wanden.",
+        "ctaPrimary": "Bekijk acrylpanelen"
+      },
+      {
+        "eyebrow": "Magic Stone · Habitat One",
+        "title": "Travertijn-warmte door de hele kamer.",
+        "subtitle": "Grootformaat steenlook-panelen die wand en vloer in één rustige toon hullen.",
+        "ctaPrimary": "Bekijk de steen"
+      },
+      {
+        "eyebrow": "Verlichting · Habitat One",
+        "title": "Architecturale verlichting in geborsteld brons.",
+        "subtitle": "Railspots, wand- en grondspots — George Lighting, afgewerkt op het interieur.",
+        "ctaPrimary": "Bekijk verlichting"
+      },
+      {
+        "eyebrow": "Bloempotten · Habitat One",
+        "title": "Plantenpotten met een natuurlijke steenlook.",
+        "subtitle": "Vorst- en UV-bestendige potten voor terras en tuin — beton- en steenstructuren.",
+        "ctaPrimary": "Bekijk bloempotten"
+      }
+    ]
   },
   "stats": {
     "years": "jaar aan de Costa Blanca",
