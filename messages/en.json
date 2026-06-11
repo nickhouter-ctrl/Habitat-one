@@ -360,6 +360,96 @@
       },
       "outside-door-2-1778676102509": {
         "name": "Outside Door 2"
+      },
+      "deurstopper-brons-1778854942833": {
+        "name": "Bronze Door Stop"
+      },
+      "deursluiter-concealed-1778854942833": {
+        "name": "Concealed Door Closer"
+      },
+      "binnendeur-compleet-920-2600-bronze-1778854942833": {
+        "name": "Interior Door Set 920×2600 (bronze)"
+      },
+      "binnendeur-compleet-720-2600-bronze-1778854942833": {
+        "name": "Interior Door Set 720×2600 (bronze)"
+      },
+      "buitendeur-compleet-920-2400-matzwart-1778854942834": {
+        "name": "Exterior Door Set 920×2400 (matt black)"
+      },
+      "buitendeur-compleet-1220-2400-matzwart-1778854942834": {
+        "name": "Exterior Door Set 1220×2400 (matt black)"
+      },
+      "rail-spot-led-7w": {
+        "name": "LED Track Spot 7W"
+      },
+      "railprofiel-2m": {
+        "name": "Track Profile 2 m"
+      },
+      "rail-connector-180": {
+        "name": "Track Connector 180°"
+      },
+      "pendelstang-1m": {
+        "name": "Pendant Rod 1 m"
+      },
+      "ventilatorsnelheidsregelaar": {
+        "name": "Fan Speed Controller"
+      },
+      "dubbele-dimmer": {
+        "name": "Double Dimmer"
+      },
+      "stopcontact-randaarde": {
+        "name": "Socket (earthed)"
+      },
+      "tuimelschakelaar-4-voudig-breed-146": {
+        "name": "Toggle Switch 4-gang wide (146 mm)"
+      },
+      "wipschakelaar-4-voudig-breed-146": {
+        "name": "Rocker Switch 4-gang wide (146 mm)"
+      },
+      "hotelpaneel-niet-storen": {
+        "name": "Hotel Panel ‘Do Not Disturb / Make Up / Bell’"
+      },
+      "tuimelschakelaar-1-voudig": {
+        "name": "Toggle Switch 1-gang"
+      },
+      "tuimelschakelaar-2-voudig": {
+        "name": "Toggle Switch 2-gang"
+      },
+      "tuimelschakelaar-3-voudig": {
+        "name": "Toggle Switch 3-gang"
+      },
+      "tuimelschakelaar-4-voudig": {
+        "name": "Toggle Switch 4-gang"
+      },
+      "deurbel-tuimelschakelaar": {
+        "name": "Doorbell Toggle Switch"
+      },
+      "wipschakelaar-1-voudig": {
+        "name": "Rocker Switch 1-gang"
+      },
+      "wipschakelaar-2-voudig": {
+        "name": "Rocker Switch 2-gang"
+      },
+      "wipschakelaar-3-voudig": {
+        "name": "Rocker Switch 3-gang"
+      },
+      "wipschakelaar-4-voudig": {
+        "name": "Rocker Switch 4-gang"
+      },
+      "deurbel-wipschakelaar": {
+        "name": "Doorbell Rocker Switch"
+      },
+      "wandspot-led-8w-ip65": {
+        "name": "LED Wall Spot 8W IP65"
+      },
+      "grondspot-led-3w-ip65": {
+        "name": "LED Ground Spot 3W IP65"
+      },
+      "grondspot-led-20w-ip65": {
+        "name": "LED Ground Spot 20W IP65"
+      },
+      "grondspot-led-12w-ip65": {
+        "name": "LED Ground Spot 12W IP65"
       }
     },
     "spaces": "Spaces",

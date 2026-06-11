@@ -538,6 +538,96 @@
       },
       "outside-door-2-1778676102509": {
         "name": "Puerta Exterior 2"
+      },
+      "deurstopper-brons-1778854942833": {
+        "name": "Tope de puerta bronce"
+      },
+      "deursluiter-concealed-1778854942833": {
+        "name": "Cierrapuertas oculto"
+      },
+      "binnendeur-compleet-920-2600-bronze-1778854942833": {
+        "name": "Conjunto puerta interior 920×2600 (bronce)"
+      },
+      "binnendeur-compleet-720-2600-bronze-1778854942833": {
+        "name": "Conjunto puerta interior 720×2600 (bronce)"
+      },
+      "buitendeur-compleet-920-2400-matzwart-1778854942834": {
+        "name": "Conjunto puerta exterior 920×2400 (negro mate)"
+      },
+      "buitendeur-compleet-1220-2400-matzwart-1778854942834": {
+        "name": "Conjunto puerta exterior 1220×2400 (negro mate)"
+      },
+      "rail-spot-led-7w": {
+        "name": "Foco de carril LED 7W"
+      },
+      "railprofiel-2m": {
+        "name": "Perfil de carril 2 m"
+      },
+      "rail-connector-180": {
+        "name": "Conector de carril 180°"
+      },
+      "pendelstang-1m": {
+        "name": "Varilla de suspensión 1 m"
+      },
+      "ventilatorsnelheidsregelaar": {
+        "name": "Regulador de velocidad de ventilador"
+      },
+      "dubbele-dimmer": {
+        "name": "Doble regulador"
+      },
+      "stopcontact-randaarde": {
+        "name": "Enchufe (con toma de tierra)"
+      },
+      "tuimelschakelaar-4-voudig-breed-146": {
+        "name": "Interruptor de palanca cuádruple ancho (146 mm)"
+      },
+      "wipschakelaar-4-voudig-breed-146": {
+        "name": "Interruptor basculante cuádruple ancho (146 mm)"
+      },
+      "hotelpaneel-niet-storen": {
+        "name": "Panel de hotel ‘No molestar / Arreglar / Timbre’"
+      },
+      "tuimelschakelaar-1-voudig": {
+        "name": "Interruptor de palanca 1 elemento"
+      },
+      "tuimelschakelaar-2-voudig": {
+        "name": "Interruptor de palanca 2 elementos"
+      },
+      "tuimelschakelaar-3-voudig": {
+        "name": "Interruptor de palanca 3 elementos"
+      },
+      "tuimelschakelaar-4-voudig": {
+        "name": "Interruptor de palanca 4 elementos"
+      },
+      "deurbel-tuimelschakelaar": {
+        "name": "Pulsador de timbre de palanca"
+      },
+      "wipschakelaar-1-voudig": {
+        "name": "Interruptor basculante 1 elemento"
+      },
+      "wipschakelaar-2-voudig": {
+        "name": "Interruptor basculante 2 elementos"
+      },
+      "wipschakelaar-3-voudig": {
+        "name": "Interruptor basculante 3 elementos"
+      },
+      "wipschakelaar-4-voudig": {
+        "name": "Interruptor basculante 4 elementos"
+      },
+      "deurbel-wipschakelaar": {
+        "name": "Pulsador de timbre basculante"
+      },
+      "wandspot-led-8w-ip65": {
+        "name": "Foco de pared LED 8W IP65"
+      },
+      "grondspot-led-3w-ip65": {
+        "name": "Foco de suelo LED 3W IP65"
+      },
+      "grondspot-led-20w-ip65": {
+        "name": "Foco de suelo LED 20W IP65"
+      },
+      "grondspot-led-12w-ip65": {
+        "name": "Foco de suelo LED 12W IP65"
       }
     },
     "spaces": "Espacios",

@@ -538,6 +538,96 @@
       },
       "outside-door-2-1778676102509": {
         "name": "Buitendeur 2"
+      },
+      "deurstopper-brons-1778854942833": {
+        "name": "Deurstopper brons"
+      },
+      "deursluiter-concealed-1778854942833": {
+        "name": "Deursluiter (verdekt)"
+      },
+      "binnendeur-compleet-920-2600-bronze-1778854942833": {
+        "name": "Binnendeur Compleet 920×2600 (bronze)"
+      },
+      "binnendeur-compleet-720-2600-bronze-1778854942833": {
+        "name": "Binnendeur Compleet 720×2600 (bronze)"
+      },
+      "buitendeur-compleet-920-2400-matzwart-1778854942834": {
+        "name": "Buitendeur Compleet 920×2400 (matzwart)"
+      },
+      "buitendeur-compleet-1220-2400-matzwart-1778854942834": {
+        "name": "Buitendeur Compleet 1220×2400 (matzwart)"
+      },
+      "rail-spot-led-7w": {
+        "name": "LED-railspot 7W"
+      },
+      "railprofiel-2m": {
+        "name": "Railprofiel 2 m"
+      },
+      "rail-connector-180": {
+        "name": "Rail-connector 180°"
+      },
+      "pendelstang-1m": {
+        "name": "Pendelstang 1 m"
+      },
+      "ventilatorsnelheidsregelaar": {
+        "name": "Ventilatorsnelheidsregelaar"
+      },
+      "dubbele-dimmer": {
+        "name": "Dubbele dimmer"
+      },
+      "stopcontact-randaarde": {
+        "name": "Stopcontact (randaarde)"
+      },
+      "tuimelschakelaar-4-voudig-breed-146": {
+        "name": "Tuimelschakelaar 4-voudig breed (146 mm)"
+      },
+      "wipschakelaar-4-voudig-breed-146": {
+        "name": "Wipschakelaar 4-voudig breed (146 mm)"
+      },
+      "hotelpaneel-niet-storen": {
+        "name": "Hotelpaneel ‘Niet storen / Opmaken / Bel’"
+      },
+      "tuimelschakelaar-1-voudig": {
+        "name": "Tuimelschakelaar 1-voudig"
+      },
+      "tuimelschakelaar-2-voudig": {
+        "name": "Tuimelschakelaar 2-voudig"
+      },
+      "tuimelschakelaar-3-voudig": {
+        "name": "Tuimelschakelaar 3-voudig"
+      },
+      "tuimelschakelaar-4-voudig": {
+        "name": "Tuimelschakelaar 4-voudig"
+      },
+      "deurbel-tuimelschakelaar": {
+        "name": "Deurbel-tuimelschakelaar"
+      },
+      "wipschakelaar-1-voudig": {
+        "name": "Wipschakelaar 1-voudig"
+      },
+      "wipschakelaar-2-voudig": {
+        "name": "Wipschakelaar 2-voudig"
+      },
+      "wipschakelaar-3-voudig": {
+        "name": "Wipschakelaar 3-voudig"
+      },
+      "wipschakelaar-4-voudig": {
+        "name": "Wipschakelaar 4-voudig"
+      },
+      "deurbel-wipschakelaar": {
+        "name": "Deurbel-wipschakelaar"
+      },
+      "wandspot-led-8w-ip65": {
+        "name": "Wandspot LED 8W IP65"
+      },
+      "grondspot-led-3w-ip65": {
+        "name": "Grondspot LED 3W IP65"
+      },
+      "grondspot-led-20w-ip65": {
+        "name": "Grondspot LED 20W IP65"
+      },
+      "grondspot-led-12w-ip65": {
+        "name": "Grondspot LED 12W IP65"
       }
     },
     "spaces": "Ruimtes",

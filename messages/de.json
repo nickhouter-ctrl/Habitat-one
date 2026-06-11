@@ -538,6 +538,96 @@
       },
       "outside-door-2-1778676102509": {
         "name": "Außentür 2"
+      },
+      "deurstopper-brons-1778854942833": {
+        "name": "Türstopper Bronze"
+      },
+      "deursluiter-concealed-1778854942833": {
+        "name": "Verdeckter Türschließer"
+      },
+      "binnendeur-compleet-920-2600-bronze-1778854942833": {
+        "name": "Innentür-Set 920×2600 (Bronze)"
+      },
+      "binnendeur-compleet-720-2600-bronze-1778854942833": {
+        "name": "Innentür-Set 720×2600 (Bronze)"
+      },
+      "buitendeur-compleet-920-2400-matzwart-1778854942834": {
+        "name": "Außentür-Set 920×2400 (mattschwarz)"
+      },
+      "buitendeur-compleet-1220-2400-matzwart-1778854942834": {
+        "name": "Außentür-Set 1220×2400 (mattschwarz)"
+      },
+      "rail-spot-led-7w": {
+        "name": "LED-Schienenstrahler 7W"
+      },
+      "railprofiel-2m": {
+        "name": "Schienenprofil 2 m"
+      },
+      "rail-connector-180": {
+        "name": "Schienenverbinder 180°"
+      },
+      "pendelstang-1m": {
+        "name": "Pendelstange 1 m"
+      },
+      "ventilatorsnelheidsregelaar": {
+        "name": "Ventilator-Drehzahlregler"
+      },
+      "dubbele-dimmer": {
+        "name": "Doppel-Dimmer"
+      },
+      "stopcontact-randaarde": {
+        "name": "Steckdose (Schutzkontakt)"
+      },
+      "tuimelschakelaar-4-voudig-breed-146": {
+        "name": "Kippschalter 4-fach breit (146 mm)"
+      },
+      "wipschakelaar-4-voudig-breed-146": {
+        "name": "Wippschalter 4-fach breit (146 mm)"
+      },
+      "hotelpaneel-niet-storen": {
+        "name": "Hotelpaneel ‚Bitte nicht stören / Aufräumen / Klingel‘"
+      },
+      "tuimelschakelaar-1-voudig": {
+        "name": "Kippschalter 1-fach"
+      },
+      "tuimelschakelaar-2-voudig": {
+        "name": "Kippschalter 2-fach"
+      },
+      "tuimelschakelaar-3-voudig": {
+        "name": "Kippschalter 3-fach"
+      },
+      "tuimelschakelaar-4-voudig": {
+        "name": "Kippschalter 4-fach"
+      },
+      "deurbel-tuimelschakelaar": {
+        "name": "Klingel-Kippschalter"
+      },
+      "wipschakelaar-1-voudig": {
+        "name": "Wippschalter 1-fach"
+      },
+      "wipschakelaar-2-voudig": {
+        "name": "Wippschalter 2-fach"
+      },
+      "wipschakelaar-3-voudig": {
+        "name": "Wippschalter 3-fach"
+      },
+      "wipschakelaar-4-voudig": {
+        "name": "Wippschalter 4-fach"
+      },
+      "deurbel-wipschakelaar": {
+        "name": "Klingel-Wippschalter"
+      },
+      "wandspot-led-8w-ip65": {
+        "name": "LED-Wandstrahler 8W IP65"
+      },
+      "grondspot-led-3w-ip65": {
+        "name": "LED-Bodenstrahler 3W IP65"
+      },
+      "grondspot-led-20w-ip65": {
+        "name": "LED-Bodenstrahler 20W IP65"
+      },
+      "grondspot-led-12w-ip65": {
+        "name": "LED-Bodenstrahler 12W IP65"
       }
     },
     "spaces": "Räume",

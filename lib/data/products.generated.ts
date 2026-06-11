@@ -2525,7 +2525,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Design white · 702×452×80mm · solid surface · matt · 1 kraangat · 1 afvoer",
     "descriptionI18n": {
-      "nl": "Design white · 702×452×80mm · solid surface · matt · 1 kraangat · 1 afvoer"
+      "nl": "Design white · 702×452×80mm · solid surface · mat · 1 kraangat · 1 afvoer",
+      "en": "Design white · 702×452×80mm · solid surface · matte · 1 tap hole · 1 drain",
+      "de": "Design-Weiß · 702×452×80mm · Solid Surface · matt · 1 Hahnloch · 1 Ablauf",
+      "es": "Blanco diseño · 702×452×80mm · solid surface · mate · 1 orificio de grifo · 1 desagüe"
     },
     "additionalSizes": null,
     "image": "/products/370.jpg",
@@ -2573,7 +2576,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Design white · past op KKR-B051-A / B008-B · 75mm",
     "descriptionI18n": {
-      "nl": "Design white · past op KKR-B051-A / B008-B · 75mm"
+      "nl": "Design white · past op KKR-B051-A / B008-B · 75mm",
+      "en": "Design white · fits KKR-B051-A / B008-B · 75mm",
+      "de": "Design-Weiß · passend für KKR-B051-A / B008-B · 75mm",
+      "es": "Blanco diseño · compatible con KKR-B051-A / B008-B · 75mm"
     },
     "additionalSizes": null,
     "image": "/products/372.jpg",
@@ -2598,7 +2604,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Past op KKR-B051 · 75mm",
     "descriptionI18n": {
-      "nl": "Past op KKR-B051 · 75mm"
+      "nl": "Past op KKR-B051 · 75mm",
+      "en": "Fits KKR-B051 · 75mm",
+      "de": "Passend für KKR-B051 · 75mm",
+      "es": "Compatible con KKR-B051 · 75mm"
     },
     "additionalSizes": null,
     "image": "/products/373.jpg",
@@ -2623,7 +2632,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Design white · 1202×455×80mm · solid surface · matt · 2 kraangaten · 1 afvoer",
     "descriptionI18n": {
-      "nl": "Design white · 1202×455×80mm · solid surface · matt · 2 kraangaten · 1 afvoer"
+      "nl": "Design white · 1202×455×80mm · solid surface · mat · 2 kraangaten · 1 afvoer",
+      "en": "Design white · 1202×455×80mm · solid surface · matte · 2 tap holes · 1 drain",
+      "de": "Design-Weiß · 1202×455×80mm · Solid Surface · matt · 2 Hahnlöcher · 1 Ablauf",
+      "es": "Blanco diseño · 1202×455×80mm · solid surface · mate · 2 orificios de grifo · 1 desagüe"
     },
     "additionalSizes": null,
     "image": "/products/374.jpg",
@@ -2722,7 +2734,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Design white · 1829×560×30mm · met overloop · 2 kraangaten",
     "descriptionI18n": {
-      "nl": "Design white · 1829×560×30mm · met overloop · 2 kraangaten"
+      "nl": "Design white · 1829×560×30mm · met overloop · 2 kraangaten",
+      "en": "Design white · 1829×560×30mm · with overflow · 2 tap holes",
+      "de": "Design-Weiß · 1829×560×30mm · mit Überlauf · 2 Hahnlöcher",
+      "es": "Blanco diseño · 1829×560×30mm · con rebosadero · 2 orificios de grifo"
     },
     "additionalSizes": null,
     "image": "/products/378.jpg",
@@ -2746,7 +2761,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Design white · 914×560×30mm · met overloop · 1 kraangat",
     "descriptionI18n": {
-      "nl": "Design white · 914×560×30mm · met overloop · 1 kraangat"
+      "nl": "Design white · 914×560×30mm · met overloop · 1 kraangat",
+      "en": "Design white · 914×560×30mm · with overflow · 1 tap hole",
+      "de": "Design-Weiß · 914×560×30mm · mit Überlauf · 1 Hahnloch",
+      "es": "Blanco diseño · 914×560×30mm · con rebosadero · 1 orificio de grifo"
     },
     "additionalSizes": null,
     "image": "/products/379.jpg",
@@ -2794,7 +2812,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Brushed Bronze · past op KKR-1908 · 800mm pijp",
     "descriptionI18n": {
-      "nl": "Brushed Bronze · past op KKR-1908 · 800mm pijp"
+      "nl": "Geborsteld brons · past op KKR-1908 · 800mm pijp",
+      "en": "Brushed bronze · fits KKR-1908 · 800mm pipe",
+      "de": "Gebürstete Bronze · passend für KKR-1908 · 800mm Rohr",
+      "es": "Bronce cepillado · compatible con KKR-1908 · tubo de 800mm"
     },
     "additionalSizes": null,
     "image": "/products/381.jpg",
@@ -3289,7 +3310,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "SS304 brushed bronze deurstopper.",
     "descriptionI18n": {
-      "nl": "SS304 brushed bronze deurstopper."
+      "nl": "SS304 deurstopper in geborsteld brons.",
+      "en": "SS304 brushed-bronze door stop.",
+      "de": "Türstopper aus SS304 in gebürsteter Bronze.",
+      "es": "Tope de puerta de acero inoxidable SS304 en bronce cepillado."
     },
     "additionalSizes": null,
     "image": null,
@@ -3309,7 +3333,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "CE-cert RVS #304 concealed deursluiter — voor brandwerende deur.",
     "descriptionI18n": {
-      "nl": "CE-cert RVS #304 concealed deursluiter — voor brandwerende deur."
+      "nl": "CE-gecertificeerde verborgen deurdranger, RVS #304 — voor brandwerende deur.",
+      "en": "CE-certified concealed door closer, stainless steel #304 — for fire-rated doors.",
+      "de": "CE-zertifizierter verdeckter Türschließer, Edelstahl #304 — für Brandschutztüren.",
+      "es": "Cierrapuertas oculto con certificación CE, acero inoxidable #304 — para puertas cortafuegos."
     },
     "additionalSizes": null,
     "image": null,
@@ -3329,7 +3356,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Massieve binnendeur 920×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur.",
     "descriptionI18n": {
-      "nl": "Massieve binnendeur 920×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur."
+      "nl": "Massieve binnendeur 920×2600×150mm + 4 scharnieren geborsteld brons + magneetslot brons. Alles inbegrepen voor 1 deur.",
+      "en": "Solid interior door 920×2600×150mm + 4 brushed-bronze hinges + bronze magnetic lock. Everything for 1 door included.",
+      "de": "Massive Innentür 920×2600×150mm + 4 Scharniere in gebürsteter Bronze + Magnetschloss in Bronze. Alles für 1 Tür enthalten.",
+      "es": "Puerta interior maciza 920×2600×150mm + 4 bisagras de bronce cepillado + cerradura magnética en bronce. Todo para 1 puerta incluido."
     },
     "additionalSizes": null,
     "image": null,
@@ -3349,7 +3379,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Massieve binnendeur 720×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur.",
     "descriptionI18n": {
-      "nl": "Massieve binnendeur 720×2600×150mm + 4 scharnieren brushed bronze + magneetslot brons. Alles inbegrepen voor 1 deur."
+      "nl": "Massieve binnendeur 720×2600×150mm + 4 scharnieren geborsteld brons + magneetslot brons. Alles inbegrepen voor 1 deur.",
+      "en": "Solid interior door 720×2600×150mm + 4 brushed-bronze hinges + bronze magnetic lock. Everything for 1 door included.",
+      "de": "Massive Innentür 720×2600×150mm + 4 Scharniere in gebürsteter Bronze + Magnetschloss in Bronze. Alles für 1 Tür enthalten.",
+      "es": "Puerta interior maciza 720×2600×150mm + 4 bisagras de bronce cepillado + cerradura magnética en bronce. Todo para 1 puerta incluido."
     },
     "additionalSizes": null,
     "image": null,
@@ -3369,7 +3402,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Massieve buitendeur 920×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur.",
     "descriptionI18n": {
-      "nl": "Massieve buitendeur 920×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur."
+      "nl": "Massieve buitendeur 920×2400×150mm + 4 scharnieren mat zwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur.",
+      "en": "Solid exterior door 920×2400×150mm + 4 matt-black hinges + 950mm weatherstrip + threshold seal. Everything for 1 door included.",
+      "de": "Massive Außentür 920×2400×150mm + 4 Scharniere mattschwarz + Dichtungsstreifen 950mm + Türschwelle. Alles für 1 Tür enthalten.",
+      "es": "Puerta exterior maciza 920×2400×150mm + 4 bisagras negro mate + burlete 950mm + umbral. Todo para 1 puerta incluido."
     },
     "additionalSizes": null,
     "image": null,
@@ -3389,7 +3425,10 @@ export const catalogProducts: CatalogProduct[] = [
     "short": null,
     "description": "Massieve buitendeur 1220×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur.",
     "descriptionI18n": {
-      "nl": "Massieve buitendeur 1220×2400×150mm + 4 scharnieren matzwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur."
+      "nl": "Massieve buitendeur 1220×2400×150mm + 4 scharnieren mat zwart + tochtstrip 950mm + tochtdrempel. Alles inbegrepen voor 1 deur.",
+      "en": "Solid exterior door 1220×2400×150mm + 4 matt-black hinges + 950mm weatherstrip + threshold seal. Everything for 1 door included.",
+      "de": "Massive Außentür 1220×2400×150mm + 4 Scharniere mattschwarz + Dichtungsstreifen 950mm + Türschwelle. Alles für 1 Tür enthalten.",
+      "es": "Puerta exterior maciza 1220×2400×150mm + 4 bisagras negro mate + burlete 950mm + umbral. Todo para 1 puerta incluido."
     },
     "additionalSizes": null,
     "image": null,
@@ -3408,7 +3447,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "TBO40",
     "short": "Sculpturale plantenpot",
     "description": "Boge — strakke ronde plantenpot met een fijne betonlook. Vorst- en UV-bestendig, geschikt voor binnen en buiten.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Boge — strakke ronde plantenpot met een fijne betonlook. Vorst- en UV-bestendig, geschikt voor binnen en buiten.",
+      "en": "Boge — sleek round planter with a fine concrete look. Frost- and UV-resistant, suitable for indoor and outdoor use.",
+      "de": "Boge — schlichter runder Pflanzkübel in feiner Betonoptik. Frost- und UV-beständig, für innen und außen geeignet.",
+      "es": "Boge — maceta redonda y depurada con un fino aspecto de hormigón. Resistente a heladas y rayos UV, apta para interior y exterior."
+    },
     "additionalSizes": null,
     "image": "/products/v/497.jpg",
     "featured": true,
@@ -3463,7 +3507,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "TBO48",
     "short": "Sculpturale plantenpot",
     "description": "Boge — ruime ronde plantenpot met een fijne betonlook. Vorst- en UV-bestendig, geschikt voor binnen en buiten.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Boge — ruime ronde plantenpot met een fijne betonlook. Vorst- en UV-bestendig, geschikt voor binnen en buiten.",
+      "en": "Boge — spacious round planter with a fine concrete look. Frost- and UV-resistant, suitable for indoor and outdoor use.",
+      "de": "Boge — geräumiger runder Pflanzkübel in feiner Betonoptik. Frost- und UV-beständig, für innen und außen geeignet.",
+      "es": "Boge — maceta redonda y amplia con un fino aspecto de hormigón. Resistente a heladas y rayos UV, apta para interior y exterior."
+    },
     "additionalSizes": null,
     "image": "/products/v/501.jpg",
     "featured": false,
@@ -3509,7 +3558,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "TEP30T",
     "short": "Sculpturale plantenpot",
     "description": "Epocco Tall — slanke, hoge plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Epocco Tall — slanke, hoge plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
+      "en": "Epocco Tall — slim, tall planter with a natural stone texture. Frost- and UV-resistant, indoor and outdoor.",
+      "de": "Epocco Tall — schlanker, hoher Pflanzkübel mit natürlicher Steinstruktur. Frost- und UV-beständig, innen und außen.",
+      "es": "Epocco Tall — maceta esbelta y alta con textura de piedra natural. Resistente a heladas y rayos UV, interior y exterior."
+    },
     "additionalSizes": null,
     "image": "/products/v/504.jpg",
     "featured": false,
@@ -3564,7 +3618,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "TEP38M",
     "short": "Sculpturale plantenpot",
     "description": "Epocco Mild — elegante plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Epocco Mild — elegante plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
+      "en": "Epocco Mild — elegant planter with a natural stone texture. Frost- and UV-resistant, indoor and outdoor.",
+      "de": "Epocco Mild — eleganter Pflanzkübel mit natürlicher Steinstruktur. Frost- und UV-beständig, innen und außen.",
+      "es": "Epocco Mild — maceta elegante con textura de piedra natural. Resistente a heladas y rayos UV, interior y exterior."
+    },
     "additionalSizes": null,
     "image": "/products/v/508.jpg",
     "featured": false,
@@ -3619,7 +3678,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "TEP46H",
     "short": "Sculpturale plantenpot",
     "description": "Epocco High — royale, hoge plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Epocco High — royale, hoge plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
+      "en": "Epocco High — generous, tall planter with a natural stone texture. Frost- and UV-resistant, indoor and outdoor.",
+      "de": "Epocco High — großzügiger, hoher Pflanzkübel mit natürlicher Steinstruktur. Frost- und UV-beständig, innen und außen.",
+      "es": "Epocco High — maceta amplia y alta con textura de piedra natural. Resistente a heladas y rayos UV, interior y exterior."
+    },
     "additionalSizes": null,
     "image": "/products/v/512.jpg",
     "featured": false,
@@ -3674,7 +3738,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "TEP48B",
     "short": "Sculpturale plantenpot",
     "description": "Epocco Bold — robuuste plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Epocco Bold — robuuste plantenpot met een natuurlijke steenstructuur. Vorst- en UV-bestendig, binnen en buiten.",
+      "en": "Epocco Bold — robust planter with a natural stone texture. Frost- and UV-resistant, indoor and outdoor.",
+      "de": "Epocco Bold — robuster Pflanzkübel mit natürlicher Steinstruktur. Frost- und UV-beständig, innen und außen.",
+      "es": "Epocco Bold — maceta robusta con textura de piedra natural. Resistente a heladas y rayos UV, interior y exterior."
+    },
     "additionalSizes": null,
     "image": "/products/v/516.jpg",
     "featured": true,
@@ -3729,7 +3798,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-001",
     "short": null,
     "description": "Richtbare LED-railspot 7W, 3000K warm wit, CRI>80. Aluminium/acryl. Ø50×128 mm, 110–265V.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Richtbare LED-railspot 7W, 3000K warm wit, CRI>80. Aluminium/acryl. Ø50×128 mm, 110–265V.",
+      "en": "Adjustable LED track spot 7W, 3000K warm white, CRI>80. Aluminium/acrylic. Ø50×128 mm, 110–265V.",
+      "de": "Schwenkbarer LED-Schienenstrahler 7W, 3000K warmweiß, CRI>80. Aluminium/Acryl. Ø50×128 mm, 110–265V.",
+      "es": "Foco de carril LED orientable 7W, 3000K blanco cálido, CRI>80. Aluminio/acrílico. Ø50×128 mm, 110–265V."
+    },
     "additionalSizes": null,
     "image": "/products/v/9201.jpg",
     "featured": true,
@@ -3757,7 +3831,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-002",
     "short": null,
     "description": "Aluminium 3-fase railprofiel, 2 meter. Voor railspots.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Aluminium 3-fase railprofiel, 2 meter. Voor railspots.",
+      "en": "Aluminium 3-phase track profile, 2 metres. For track spots.",
+      "de": "Aluminium-3-Phasen-Schienenprofil, 2 Meter. Für Schienenstrahler.",
+      "es": "Perfil de carril trifásico de aluminio, 2 metros. Para focos de carril."
+    },
     "additionalSizes": null,
     "image": "/products/v/9202.jpg",
     "featured": false,
@@ -3785,7 +3864,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-003",
     "short": null,
     "description": "Recht (180°) koppelstuk voor railprofiel.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Recht (180°) koppelstuk voor railprofiel.",
+      "en": "Straight (180°) connector for track profile.",
+      "de": "Gerader (180°) Verbinder für Schienenprofil.",
+      "es": "Conector recto (180°) para perfil de carril."
+    },
     "additionalSizes": null,
     "image": "/products/v/9203.jpg",
     "featured": false,
@@ -3813,7 +3897,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-004",
     "short": null,
     "description": "Ophang-/pendelstang 100 cm voor railspots, aluminium.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Ophang-/pendelstang 100 cm voor railspots, aluminium.",
+      "en": "Suspension/pendant rod 100 cm for track spots, aluminium.",
+      "de": "Abhäng-/Pendelstange 100 cm für Schienenstrahler, Aluminium.",
+      "es": "Varilla de suspensión 100 cm para focos de carril, aluminio."
+    },
     "additionalSizes": null,
     "image": "/products/v/9204.jpg",
     "featured": false,
@@ -3841,7 +3930,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-005",
     "short": null,
     "description": "Wisselschakelaar 1-voudig, RVS in geborsteld brons. 86×86 mm, 10A, 110–250V, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Wisselschakelaar 1-voudig, RVS in geborsteld brons. 86×86 mm, 10A, 110–250V, CE.",
+      "en": "Two-way switch, 1-gang, stainless steel in brushed bronze. 86×86 mm, 10A, 110–250V, CE.",
+      "de": "Wechselschalter, 1-fach, Edelstahl in gebürsteter Bronze. 86×86 mm, 10A, 110–250V, CE.",
+      "es": "Interruptor conmutador de 1 elemento, acero inoxidable en bronce cepillado. 86×86 mm, 10A, 110–250V, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9205.jpg",
     "featured": false,
@@ -3869,7 +3963,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-006",
     "short": null,
     "description": "Wisselschakelaar 2-voudig, RVS in geborsteld brons. 86×86 mm, 10A, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Wisselschakelaar 2-voudig, RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+      "en": "Two-way switch, 2-gang, stainless steel in brushed bronze. 86×86 mm, 10A, CE.",
+      "de": "Wechselschalter, 2-fach, Edelstahl in gebürsteter Bronze. 86×86 mm, 10A, CE.",
+      "es": "Interruptor conmutador de 2 elementos, acero inoxidable en bronce cepillado. 86×86 mm, 10A, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9206.jpg",
     "featured": false,
@@ -3897,7 +3996,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-007",
     "short": null,
     "description": "Wisselschakelaar 3-voudig, RVS in geborsteld brons. 86×86 mm, 10A, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Wisselschakelaar 3-voudig, RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+      "en": "Two-way switch, 3-gang, stainless steel in brushed bronze. 86×86 mm, 10A, CE.",
+      "de": "Wechselschalter, 3-fach, Edelstahl in gebürsteter Bronze. 86×86 mm, 10A, CE.",
+      "es": "Interruptor conmutador de 3 elementos, acero inoxidable en bronce cepillado. 86×86 mm, 10A, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9207.jpg",
     "featured": false,
@@ -3925,7 +4029,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-008",
     "short": null,
     "description": "Wisselschakelaar 4-voudig, RVS in geborsteld brons. 86×86 mm, 10A, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Wisselschakelaar 4-voudig, RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+      "en": "Two-way switch, 4-gang, stainless steel in brushed bronze. 86×86 mm, 10A, CE.",
+      "de": "Wechselschalter, 4-fach, Edelstahl in gebürsteter Bronze. 86×86 mm, 10A, CE.",
+      "es": "Interruptor conmutador de 4 elementos, acero inoxidable en bronce cepillado. 86×86 mm, 10A, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9208.jpg",
     "featured": true,
@@ -3953,7 +4062,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-009",
     "short": null,
     "description": "Deurbelschakelaar (tuimelaar), RVS in geborsteld brons. 86×86 mm, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Deurbelschakelaar (tuimelaar), RVS in geborsteld brons. 86×86 mm, CE.",
+      "en": "Doorbell switch (toggle), stainless steel in brushed bronze. 86×86 mm, CE.",
+      "de": "Klingelschalter (Kippschalter), Edelstahl in gebürsteter Bronze. 86×86 mm, CE.",
+      "es": "Pulsador de timbre (palanca), acero inoxidable en bronce cepillado. 86×86 mm, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9209.jpg",
     "featured": false,
@@ -3981,7 +4095,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-010",
     "short": null,
     "description": "Wisselschakelaar 1-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Wisselschakelaar 1-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+      "en": "Two-way switch, 1-gang (rocker), stainless steel in brushed bronze. 86×86 mm, 10A, CE.",
+      "de": "Wechselschalter, 1-fach (Wippe), Edelstahl in gebürsteter Bronze. 86×86 mm, 10A, CE.",
+      "es": "Interruptor conmutador de 1 elemento (basculante), acero inoxidable en bronce cepillado. 86×86 mm, 10A, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9210.jpg",
     "featured": false,
@@ -4009,7 +4128,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-011",
     "short": null,
     "description": "Wisselschakelaar 2-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Wisselschakelaar 2-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+      "en": "Two-way switch, 2-gang (rocker), stainless steel in brushed bronze. 86×86 mm, 10A, CE.",
+      "de": "Wechselschalter, 2-fach (Wippe), Edelstahl in gebürsteter Bronze. 86×86 mm, 10A, CE.",
+      "es": "Interruptor conmutador de 2 elementos (basculante), acero inoxidable en bronce cepillado. 86×86 mm, 10A, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9211.jpg",
     "featured": false,
@@ -4037,7 +4161,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-012",
     "short": null,
     "description": "Wisselschakelaar 3-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Wisselschakelaar 3-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+      "en": "Two-way switch, 3-gang (rocker), stainless steel in brushed bronze. 86×86 mm, 10A, CE.",
+      "de": "Wechselschalter, 3-fach (Wippe), Edelstahl in gebürsteter Bronze. 86×86 mm, 10A, CE.",
+      "es": "Interruptor conmutador de 3 elementos (basculante), acero inoxidable en bronce cepillado. 86×86 mm, 10A, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9212.jpg",
     "featured": false,
@@ -4065,7 +4194,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-013",
     "short": null,
     "description": "Wisselschakelaar 4-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Wisselschakelaar 4-voudig (wip), RVS in geborsteld brons. 86×86 mm, 10A, CE.",
+      "en": "Two-way switch, 4-gang (rocker), stainless steel in brushed bronze. 86×86 mm, 10A, CE.",
+      "de": "Wechselschalter, 4-fach (Wippe), Edelstahl in gebürsteter Bronze. 86×86 mm, 10A, CE.",
+      "es": "Interruptor conmutador de 4 elementos (basculante), acero inoxidable en bronce cepillado. 86×86 mm, 10A, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9213.jpg",
     "featured": false,
@@ -4093,7 +4227,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-014",
     "short": null,
     "description": "Deurbelschakelaar (wip), RVS in geborsteld brons. 86×86 mm, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Deurbelschakelaar (wip), RVS in geborsteld brons. 86×86 mm, CE.",
+      "en": "Doorbell switch (rocker), stainless steel in brushed bronze. 86×86 mm, CE.",
+      "de": "Klingelschalter (Wippe), Edelstahl in gebürsteter Bronze. 86×86 mm, CE.",
+      "es": "Pulsador de timbre (basculante), acero inoxidable en bronce cepillado. 86×86 mm, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9214.jpg",
     "featured": false,
@@ -4121,7 +4260,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-015",
     "short": null,
     "description": "Ventilatorsnelheidsregelaar, RVS in geborsteld brons. 86×86 mm, 110–250V, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Ventilatorsnelheidsregelaar, RVS in geborsteld brons. 86×86 mm, 110–250V, CE.",
+      "en": "Fan speed controller, stainless steel in brushed bronze. 86×86 mm, 110–250V, CE.",
+      "de": "Ventilator-Drehzahlregler, Edelstahl in gebürsteter Bronze. 86×86 mm, 110–250V, CE.",
+      "es": "Regulador de velocidad de ventilador, acero inoxidable en bronce cepillado. 86×86 mm, 110–250V, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9215.jpg",
     "featured": false,
@@ -4149,7 +4293,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-016",
     "short": null,
     "description": "Dubbele lichtdimmer, RVS in geborsteld brons. 86×86 mm, 110–250V, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Dubbele lichtdimmer, RVS in geborsteld brons. 86×86 mm, 110–250V, CE.",
+      "en": "Double light dimmer, stainless steel in brushed bronze. 86×86 mm, 110–250V, CE.",
+      "de": "Doppel-Lichtdimmer, Edelstahl in gebürsteter Bronze. 86×86 mm, 110–250V, CE.",
+      "es": "Doble regulador de luz, acero inoxidable en bronce cepillado. 86×86 mm, 110–250V, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9216.jpg",
     "featured": true,
@@ -4177,7 +4326,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-017",
     "short": null,
     "description": "Europees stopcontact (randaarde) 16A, RVS in geborsteld brons. 86×86 mm, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Europees stopcontact (randaarde) 16A, RVS in geborsteld brons. 86×86 mm, CE.",
+      "en": "European socket (earthed) 16A, stainless steel in brushed bronze. 86×86 mm, CE.",
+      "de": "Europäische Steckdose (Schutzkontakt) 16A, Edelstahl in gebürsteter Bronze. 86×86 mm, CE.",
+      "es": "Enchufe europeo (con toma de tierra) 16A, acero inoxidable en bronce cepillado. 86×86 mm, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9217.jpg",
     "featured": false,
@@ -4205,7 +4359,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-018",
     "short": null,
     "description": "Brede 4-voudige tuimelschakelaar, RVS in geborsteld brons. 146×86 mm, 10A, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Brede 4-voudige tuimelschakelaar, RVS in geborsteld brons. 146×86 mm, 10A, CE.",
+      "en": "Wide 4-gang toggle switch, stainless steel in brushed bronze. 146×86 mm, 10A, CE.",
+      "de": "Breiter 4-fach-Kippschalter, Edelstahl in gebürsteter Bronze. 146×86 mm, 10A, CE.",
+      "es": "Interruptor de palanca cuádruple ancho, acero inoxidable en bronce cepillado. 146×86 mm, 10A, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9218.jpg",
     "featured": false,
@@ -4233,7 +4392,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-019",
     "short": null,
     "description": "Brede 4-voudige wipschakelaar, RVS in geborsteld brons. 146×86 mm, 10A, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Brede 4-voudige wipschakelaar, RVS in geborsteld brons. 146×86 mm, 10A, CE.",
+      "en": "Wide 4-gang rocker switch, stainless steel in brushed bronze. 146×86 mm, 10A, CE.",
+      "de": "Breiter 4-fach-Wippschalter, Edelstahl in gebürsteter Bronze. 146×86 mm, 10A, CE.",
+      "es": "Interruptor basculante cuádruple ancho, acero inoxidable en bronce cepillado. 146×86 mm, 10A, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9219.jpg",
     "featured": false,
@@ -4261,7 +4425,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-020",
     "short": null,
     "description": "Touch-deurpaneel: Niet storen, kamer opmaken en deurbel. RVS in geborsteld brons, 86×86 mm, CE.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Touch-deurpaneel: Niet storen, kamer opmaken en deurbel. RVS in geborsteld brons, 86×86 mm, CE.",
+      "en": "Touch door panel: Do Not Disturb, Make Up Room and doorbell. Stainless steel in brushed bronze, 86×86 mm, CE.",
+      "de": "Touch-Türpaneel: Bitte nicht stören, Zimmer aufräumen und Türklingel. Edelstahl in gebürsteter Bronze, 86×86 mm, CE.",
+      "es": "Panel de puerta táctil: No molestar, arreglar habitación y timbre. Acero inoxidable en bronce cepillado, 86×86 mm, CE."
+    },
     "additionalSizes": null,
     "image": "/products/v/9220.jpg",
     "featured": false,
@@ -4289,7 +4458,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-021",
     "short": null,
     "description": "Buiten-wandspot 8W, 3000K, 680lm, IP65. Aluminium. 60×210 mm, 110–220V.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Buiten-wandspot 8W, 3000K, 680lm, IP65. Aluminium. 60×210 mm, 110–220V.",
+      "en": "Outdoor wall spot 8W, 3000K, 680lm, IP65. Aluminium. 60×210 mm, 110–220V.",
+      "de": "Außen-Wandstrahler 8W, 3000K, 680lm, IP65. Aluminium. 60×210 mm, 110–220V.",
+      "es": "Foco de pared exterior 8W, 3000K, 680lm, IP65. Aluminio. 60×210 mm, 110–220V."
+    },
     "additionalSizes": null,
     "image": "/products/v/9221.jpg",
     "featured": true,
@@ -4317,7 +4491,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-022",
     "short": null,
     "description": "Rechthoekige inbouw-grondspot 3W, 3000K, IP65. RVS + gehard glas. 200×80×55 mm.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Rechthoekige inbouw-grondspot 3W, 3000K, IP65. RVS + gehard glas. 200×80×55 mm.",
+      "en": "Rectangular recessed ground spot 3W, 3000K, IP65. Stainless steel + tempered glass. 200×80×55 mm.",
+      "de": "Rechteckiger Boden-Einbaustrahler 3W, 3000K, IP65. Edelstahl + Hartglas. 200×80×55 mm.",
+      "es": "Foco de suelo empotrable rectangular 3W, 3000K, IP65. Acero inoxidable + vidrio templado. 200×80×55 mm."
+    },
     "additionalSizes": null,
     "image": "/products/v/9222.jpg",
     "featured": false,
@@ -4345,7 +4524,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-023",
     "short": null,
     "description": "Inbouw-grondspot 20W, 3000K, 1700lm, IP65. RVS + gehard glas. Ø200×170 mm.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Inbouw-grondspot 20W, 3000K, 1700lm, IP65. RVS + gehard glas. Ø200×170 mm.",
+      "en": "Recessed ground spot 20W, 3000K, 1700lm, IP65. Stainless steel + tempered glass. Ø200×170 mm.",
+      "de": "Boden-Einbaustrahler 20W, 3000K, 1700lm, IP65. Edelstahl + Hartglas. Ø200×170 mm.",
+      "es": "Foco de suelo empotrable 20W, 3000K, 1700lm, IP65. Acero inoxidable + vidrio templado. Ø200×170 mm."
+    },
     "additionalSizes": null,
     "image": "/products/v/9223.jpg",
     "featured": true,
@@ -4373,7 +4557,12 @@ export const catalogProducts: CatalogProduct[] = [
     "sku": "GL-024",
     "short": null,
     "description": "Inbouw-grondspot 12W, 3000K, 1020lm, IP65. RVS + gehard glas. Ø175×125 mm.",
-    "descriptionI18n": null,
+    "descriptionI18n": {
+      "nl": "Inbouw-grondspot 12W, 3000K, 1020lm, IP65. RVS + gehard glas. Ø175×125 mm.",
+      "en": "Recessed ground spot 12W, 3000K, 1020lm, IP65. Stainless steel + tempered glass. Ø175×125 mm.",
+      "de": "Boden-Einbaustrahler 12W, 3000K, 1020lm, IP65. Edelstahl + Hartglas. Ø175×125 mm.",
+      "es": "Foco de suelo empotrable 12W, 3000K, 1020lm, IP65. Acero inoxidable + vidrio templado. Ø175×125 mm."
+    },
     "additionalSizes": null,
     "image": "/products/v/9224.jpg",
     "featured": true,
