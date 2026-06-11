@@ -65,6 +65,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   // The full range beyond Flexibel Stone — one card per other collection.
   const rangeCollections = [
+    { id: "pvc-vloeren", key: "collectionPVCFloors", img: "/products/pvc-vloeren/lifestyle-1.jpg", href: "/products/pvc-vloeren" },
     { id: "bathroom", key: "collectionBathroom", img: "/products/h/KKR-B051-A-life.jpg", href: "/products/bathroom" },
     { id: "acrylpanelen", key: "collectionAcrylicPanels", img: "/products/h/acryl/KKR-A027-badkamer.jpg", href: "/products/acrylpanelen" },
     { id: "verlichting", key: "collectionLighting", img: "/products/h/GL-001-life.jpg", href: "/products/verlichting" },

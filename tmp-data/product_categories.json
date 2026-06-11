@@ -27,7 +27,7 @@
     "is_primary": true,
     "created_at": "2026-02-26T13:08:58.069445"
   },
-    {
+  {
     "id": 598,
     "product_id": 186,
     "category_id": 6,
@@ -180,5 +180,68 @@
     "category_id": 12,
     "is_primary": false,
     "created_at": "2026-03-07T11:57:58.242019"
+  },
+  {
+    "id": 9000,
+    "product_id": 9510,
+    "category_id": 50,
+    "is_primary": true,
+    "created_at": "2026-06-11T10:00:00"
+  },
+  {
+    "id": 9001,
+    "product_id": 9511,
+    "category_id": 50,
+    "is_primary": true,
+    "created_at": "2026-06-11T10:00:00"
+  },
+  {
+    "id": 9002,
+    "product_id": 9512,
+    "category_id": 50,
+    "is_primary": true,
+    "created_at": "2026-06-11T10:00:00"
+  },
+  {
+    "id": 9003,
+    "product_id": 9513,
+    "category_id": 50,
+    "is_primary": true,
+    "created_at": "2026-06-11T10:00:00"
+  },
+  {
+    "id": 9004,
+    "product_id": 9514,
+    "category_id": 50,
+    "is_primary": true,
+    "created_at": "2026-06-11T10:00:00"
+  },
+  {
+    "id": 9005,
+    "product_id": 9515,
+    "category_id": 50,
+    "is_primary": true,
+    "created_at": "2026-06-11T10:00:00"
+  },
+  {
+    "id": 9006,
+    "product_id": 9516,
+    "category_id": 50,
+    "is_primary": true,
+    "created_at": "2026-06-11T10:00:00"
+  },
+  {
+    "id": 9007,
+    "product_id": 9517,
+    "category_id": 50,
+    "is_primary": true,
+    "created_at": "2026-06-11T10:00:00"
+  },
+  {
+    "id": 9008,
+    "product_id": 9518,
+    "category_id": 50,
+    "is_primary": true,
+    "created_at": "2026-06-11T10:00:00"
   }
 ]

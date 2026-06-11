@@ -49,6 +49,8 @@ function dims(p) {
 // ---- PRODUCTS with variants ----
 function collectionFor(name) {
   const n = name.toLowerCase();
+  // PVC/vinyl vloeren eerst — eigen collectie.
+  if (/pvc.?vloer|vinyl ?vloer|vinyl floor|pvc floor/.test(n)) return "pvc-vloeren";
   // Schakelmateriaal & verlichting eerst — "deurbel-schakelaar" bevat "deur" en zou anders bij doors belanden.
   if (/schakelaar|stopcontact|\bdimmer\b|hotelpaneel|ventilator/.test(n)) return "schakelmateriaal";
   if (/rail-?spot|railprofiel|rail-?connector|pendelstang|wandspot|grondspot|verlichting|lighting/.test(n)) return "verlichting";
@@ -164,7 +166,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren";
   variants: ProductVariant[];
 }
 

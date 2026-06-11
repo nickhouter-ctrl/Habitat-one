@@ -19,6 +19,7 @@ const collectionKey: Record<string, string> = {
   schakelmateriaal: "collectionSwitches",
   acrylpanelen: "collectionAcrylicPanels",
   sfeerhaarden: "collectionFireplaces",
+  "pvc-vloeren": "collectionPVCFloors",
 };
 
 /** Collecties met productfoto's op witte achtergrond: volledig tonen (niet bijsnijden). */

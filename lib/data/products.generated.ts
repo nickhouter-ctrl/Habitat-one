@@ -21,7 +21,7 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren";
   variants: ProductVariant[];
 }
 
@@ -4840,6 +4840,286 @@ export const catalogProducts: CatalogProduct[] = [
         "images": [
           "/products/v/9709.jpg",
           "/products/v/9719.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9510,
+    "name": "PVC Vloer Licht eiken visgraat",
+    "slug": "pvc-vloer-licht-eiken-visgraat",
+    "sku": "190L-1",
+    "short": null,
+    "description": "PVC vinylvloer met houtlook in licht eiken visgraat. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9720.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [
+      "pvc-vloeren"
+    ],
+    "collection": "pvc-vloeren",
+    "variants": [
+      {
+        "id": 9610,
+        "name": "Licht eiken visgraat",
+        "colorHex": null,
+        "sku": null,
+        "images": [
+          "/products/v/9720.jpg",
+          "/products/v/9721.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9511,
+    "name": "PVC Vloer Gerookt eiken",
+    "slug": "pvc-vloer-gerookt-eiken",
+    "sku": "2123-03",
+    "short": null,
+    "description": "PVC vinylvloer met houtlook in gerookt eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9722.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [
+      "pvc-vloeren"
+    ],
+    "collection": "pvc-vloeren",
+    "variants": [
+      {
+        "id": 9611,
+        "name": "Gerookt eiken",
+        "colorHex": null,
+        "sku": null,
+        "images": [
+          "/products/v/9722.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9512,
+    "name": "PVC Vloer Honing eiken",
+    "slug": "pvc-vloer-honing-eiken",
+    "sku": "2123-13",
+    "short": null,
+    "description": "PVC vinylvloer met houtlook in honing eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9723.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [
+      "pvc-vloeren"
+    ],
+    "collection": "pvc-vloeren",
+    "variants": [
+      {
+        "id": 9612,
+        "name": "Honing eiken",
+        "colorHex": null,
+        "sku": null,
+        "images": [
+          "/products/v/9723.jpg",
+          "/products/v/9724.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9513,
+    "name": "PVC Vloer Naturel eiken",
+    "slug": "pvc-vloer-naturel-eiken",
+    "sku": "2123-38",
+    "short": null,
+    "description": "PVC vinylvloer met houtlook in naturel eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9725.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [
+      "pvc-vloeren"
+    ],
+    "collection": "pvc-vloeren",
+    "variants": [
+      {
+        "id": 9613,
+        "name": "Naturel eiken",
+        "colorHex": null,
+        "sku": null,
+        "images": [
+          "/products/v/9725.jpg",
+          "/products/v/9726.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9514,
+    "name": "PVC Vloer Greige eiken",
+    "slug": "pvc-vloer-greige-eiken",
+    "sku": "2123-46",
+    "short": null,
+    "description": "PVC vinylvloer met houtlook in greige eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9727.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [
+      "pvc-vloeren"
+    ],
+    "collection": "pvc-vloeren",
+    "variants": [
+      {
+        "id": 9614,
+        "name": "Greige eiken",
+        "colorHex": null,
+        "sku": null,
+        "images": [
+          "/products/v/9727.jpg",
+          "/products/v/9728.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9515,
+    "name": "PVC Vloer Natuur eiken",
+    "slug": "pvc-vloer-natuur-eiken",
+    "sku": "6224-3",
+    "short": null,
+    "description": "PVC vinylvloer met houtlook in natuur eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9729.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [
+      "pvc-vloeren"
+    ],
+    "collection": "pvc-vloeren",
+    "variants": [
+      {
+        "id": 9615,
+        "name": "Natuur eiken",
+        "colorHex": null,
+        "sku": null,
+        "images": [
+          "/products/v/9729.jpg",
+          "/products/v/9730.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9516,
+    "name": "PVC Vloer Grijs eiken",
+    "slug": "pvc-vloer-grijs-eiken",
+    "sku": "88036-002",
+    "short": null,
+    "description": "PVC vinylvloer met houtlook in grijs eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9731.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [
+      "pvc-vloeren"
+    ],
+    "collection": "pvc-vloeren",
+    "variants": [
+      {
+        "id": 9616,
+        "name": "Grijs eiken",
+        "colorHex": null,
+        "sku": null,
+        "images": [
+          "/products/v/9731.jpg",
+          "/products/v/9732.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9517,
+    "name": "PVC Vloer Teak goudbruin",
+    "slug": "pvc-vloer-teak-goudbruin",
+    "sku": "89004-004",
+    "short": null,
+    "description": "PVC vinylvloer met houtlook in teak goudbruin. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9733.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [
+      "pvc-vloeren"
+    ],
+    "collection": "pvc-vloeren",
+    "variants": [
+      {
+        "id": 9617,
+        "name": "Teak goudbruin",
+        "colorHex": null,
+        "sku": null,
+        "images": [
+          "/products/v/9733.jpg",
+          "/products/v/9734.jpg",
+          "/products/v/9735.jpg",
+          "/products/v/9736.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9518,
+    "name": "PVC Vloer Greige eiken visgraat",
+    "slug": "pvc-vloer-greige-eiken-visgraat",
+    "sku": "9510-8",
+    "short": null,
+    "description": "PVC vinylvloer met houtlook in greige eiken visgraat. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "/products/v/9737.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [
+      "pvc-vloeren"
+    ],
+    "collection": "pvc-vloeren",
+    "variants": [
+      {
+        "id": 9618,
+        "name": "Greige eiken visgraat",
+        "colorHex": null,
+        "sku": null,
+        "images": [
+          "/products/v/9737.jpg",
+          "/products/v/9738.jpg"
         ]
       }
     ]
