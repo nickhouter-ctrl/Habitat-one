@@ -1,23 +1,20 @@
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 /**
- * Habitat One wordmark — recreated from the original site:
- * "HABITAT" with "ONE" set just below, indented to the right and tucked up a
- * touch. Montserrat (Avenir on the original) bold, tight tracking.
+ * Habitat One — Jávea wordmark (supplied brand artwork, vector).
+ * `dark` (default) renders the dark logo for light surfaces; `dark={false}`
+ * renders the cream/inverted logo for dark surfaces (footer).
  */
 export function Logo({ dark = true, className }: { dark?: boolean; className?: string }) {
   return (
-    <span
-      className={cn(
-        "flex flex-col items-start font-sans font-bold uppercase leading-none",
-        "text-[1.35rem] tracking-[-0.02em] sm:text-[1.6rem]",
-        dark ? "text-[#402419]" : "text-cream",
-        className,
-      )}
-      aria-label="Habitat One"
-    >
-      <span>Habitat</span>
-      <span className="-mt-[0.18em] ml-[0.85em]">One</span>
-    </span>
+    <Image
+      src={dark ? "/logo.svg" : "/logo-cream.svg"}
+      alt="Habitat One — Jávea"
+      width={2264}
+      height={1360}
+      priority
+      className={cn("h-11 w-auto sm:h-12", className)}
+    />
   );
 }
