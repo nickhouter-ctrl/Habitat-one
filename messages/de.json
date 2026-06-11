@@ -49,44 +49,9 @@
     "ctaSecondary": "Unsere Projekte",
     "scroll": "Scrollen",
     "badge": "Ansässig in Xàbia · Costa Blanca",
-    "slides": [
-      {
-        "eyebrow": "Habitat One · Xàbia",
-        "title": "Alles, woraus Ihr Zuhause besteht.",
-        "subtitle": "Von Flexibel-Stone-Wänden bis zu Badewannen, Acrylpaneelen, Beleuchtung und Wasserdampfkaminen — Habitat One liefert Oberflächen und Ausstattung für das mediterrane Zuhause.",
-        "ctaPrimary": "Alle Produkte ansehen"
-      },
-      {
-        "eyebrow": "Badezimmer · Habitat One",
-        "title": "Badewannen und Becken aus warmem Solid Surface.",
-        "subtitle": "Freistehende Wannen, Möbel und Armaturen — aus nahtlosem, mattem Solid Surface.",
-        "ctaPrimary": "Badezimmer entdecken"
-      },
-      {
-        "eyebrow": "Acrylpaneele · Habitat One",
-        "title": "Hochglanzpaneele für Wand und Küche.",
-        "subtitle": "Nahtlose Acryloberflächen in Marmor- und Steinoptik — für Küchen, Bäder und Wände.",
-        "ctaPrimary": "Acrylpaneele entdecken"
-      },
-      {
-        "eyebrow": "Magic Stone · Habitat One",
-        "title": "Travertin-Wärme im ganzen Raum.",
-        "subtitle": "Großformatige Steinoptik-Paneele, die Wand und Boden in einen ruhigen Ton hüllen.",
-        "ctaPrimary": "Den Stein entdecken"
-      },
-      {
-        "eyebrow": "Beleuchtung · Habitat One",
-        "title": "Architekturlicht in gebürsteter Bronze.",
-        "subtitle": "Schienenstrahler, Wand- und Bodenstrahler — George Lighting, passend zum Interieur.",
-        "ctaPrimary": "Beleuchtung entdecken"
-      },
-      {
-        "eyebrow": "Pflanzkübel · Habitat One",
-        "title": "Pflanzkübel mit natürlicher Steinoptik.",
-        "subtitle": "Frost- und UV-beständige Kübel für Terrasse und Garten — Beton- und Steinstrukturen.",
-        "ctaPrimary": "Pflanzkübel entdecken"
-      }
-    ]
+    "title": "Alles, woraus Ihr Zuhause besteht.",
+    "subtitle": "Von Flexibel-Stone-Wänden bis zu Badewannen, Acrylpaneelen, Beleuchtung und Wasserdampfkaminen — Habitat One liefert Oberflächen und Ausstattung für das mediterrane Zuhause.",
+    "ctaPrimary": "Alle Produkte ansehen"
   },
   "stats": {
     "years": "Jahre an der Costa Blanca",

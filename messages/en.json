@@ -49,44 +49,9 @@
     "ctaSecondary": "Our projects",
     "scroll": "Scroll",
     "badge": "Based in Xàbia · Costa Blanca",
-    "slides": [
-      {
-        "eyebrow": "Habitat One · Xàbia",
-        "title": "Everything your home is made of.",
-        "subtitle": "From Flexibel Stone walls to baths, acrylic panels, lighting and fireplaces — Habitat One delivers the surfaces and fittings for the Mediterranean home.",
-        "ctaPrimary": "Explore all products"
-      },
-      {
-        "eyebrow": "Bathroom · Habitat One",
-        "title": "Baths and basins in warm solid surface.",
-        "subtitle": "Freestanding baths, vanities and fittings — sculpted from seamless, matt solid surface.",
-        "ctaPrimary": "Explore the bathroom"
-      },
-      {
-        "eyebrow": "Acrylic panels · Habitat One",
-        "title": "High-gloss panels for walls and kitchens.",
-        "subtitle": "Seamless acrylic surfaces in marble and stone looks — for kitchens, bathrooms and feature walls.",
-        "ctaPrimary": "Explore acrylic panels"
-      },
-      {
-        "eyebrow": "Magic Stone · Habitat One",
-        "title": "Travertine warmth across the whole room.",
-        "subtitle": "Large-format stone-look panels that wrap walls and floors in a single, calm tone.",
-        "ctaPrimary": "Explore the stone"
-      },
-      {
-        "eyebrow": "Lighting · Habitat One",
-        "title": "Architectural light in brushed bronze.",
-        "subtitle": "Track spots, wall and ground lights — George Lighting, finished to match the interior.",
-        "ctaPrimary": "Explore lighting"
-      },
-      {
-        "eyebrow": "Flower pots · Habitat One",
-        "title": "Planters with a natural stone feel.",
-        "subtitle": "Frost- and UV-resistant pots for terrace and garden — concrete and stone textures.",
-        "ctaPrimary": "Explore flower pots"
-      }
-    ]
+    "title": "Everything your home is made of.",
+    "subtitle": "From Flexibel Stone walls to baths, acrylic panels, lighting and fireplaces — Habitat One delivers the surfaces and fittings for the Mediterranean home.",
+    "ctaPrimary": "Explore all products"
   },
   "stats": {
     "years": "years on the Costa Blanca",

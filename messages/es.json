@@ -49,44 +49,9 @@
     "ctaSecondary": "Nuestros proyectos",
     "scroll": "Desplaza",
     "badge": "Con sede en Xàbia · Costa Blanca",
-    "slides": [
-      {
-        "eyebrow": "Habitat One · Xàbia",
-        "title": "Todo aquello de lo que está hecho tu hogar.",
-        "subtitle": "De paredes de Flexibel Stone a bañeras, paneles acrílicos, iluminación y chimeneas — Habitat One ofrece las superficies y el equipamiento para el hogar mediterráneo.",
-        "ctaPrimary": "Ver todos los productos"
-      },
-      {
-        "eyebrow": "Baño · Habitat One",
-        "title": "Bañeras y lavabos en cálido solid surface.",
-        "subtitle": "Bañeras exentas, muebles y griferías — esculpidos en solid surface mate y sin juntas.",
-        "ctaPrimary": "Ver el baño"
-      },
-      {
-        "eyebrow": "Paneles acrílicos · Habitat One",
-        "title": "Paneles de alto brillo para pared y cocina.",
-        "subtitle": "Superficies acrílicas sin juntas en aspecto mármol y piedra — para cocinas, baños y paredes.",
-        "ctaPrimary": "Ver paneles acrílicos"
-      },
-      {
-        "eyebrow": "Magic Stone · Habitat One",
-        "title": "Calidez del travertino en toda la sala.",
-        "subtitle": "Paneles de gran formato con aspecto de piedra que visten pared y suelo en un tono sereno.",
-        "ctaPrimary": "Ver la piedra"
-      },
-      {
-        "eyebrow": "Iluminación · Habitat One",
-        "title": "Luz arquitectónica en bronce cepillado.",
-        "subtitle": "Focos de carril, de pared y de suelo — George Lighting, acabados a juego con el interior.",
-        "ctaPrimary": "Ver iluminación"
-      },
-      {
-        "eyebrow": "Macetas · Habitat One",
-        "title": "Macetas con aspecto de piedra natural.",
-        "subtitle": "Macetas resistentes a heladas y rayos UV para terraza y jardín — texturas de hormigón y piedra.",
-        "ctaPrimary": "Ver macetas"
-      }
-    ]
+    "title": "Todo aquello de lo que está hecho tu hogar.",
+    "subtitle": "De paredes de Flexibel Stone a bañeras, paneles acrílicos, iluminación y chimeneas — Habitat One ofrece las superficies y el equipamiento para el hogar mediterráneo.",
+    "ctaPrimary": "Ver todos los productos"
   },
   "stats": {
     "years": "años en la Costa Blanca",

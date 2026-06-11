@@ -11,17 +11,16 @@ import { CountUp } from "@/components/ui/count-up";
 import { MaskReveal } from "@/components/ui/mask-reveal";
 import { Magnetic } from "@/components/ui/magnetic";
 
-// The Habitat One range — calm Mediterranean settings that auto-crossfade.
-// Slide 0 opens with the brand statement (villa scene), then each slide moves
-// to a specific part of the catalogue with its own headline + CTA. The copy in
-// `hero.slides` must stay index-aligned with this array.
+// The Habitat One range — calm Mediterranean settings that auto-crossfade
+// behind a fixed brand headline: villa, bathroom, acrylic panels, Magic Stone,
+// lighting and planters.
 const SLIDES = [
-  { img: "/scenery/home-hero-villa.jpg", href: "/products" },
-  { img: "/products/h/KKR-B051-A-life.jpg", href: "/products/bathroom" },
-  { img: "/products/h/acryl/KKR-A027-eetkamer.jpg", href: "/products/acrylpanelen" },
-  { img: "/products/magic/ms-travertino-light-grey-interior.jpg", href: "/products?collection=wall-panels" },
-  { img: "/products/h/GL-001-life.jpg", href: "/products/verlichting" },
-  { img: "/products/magic/bloempotten-lifestyle-boge.jpg", href: "/products/bloempotten" },
+  "/scenery/home-hero-villa.jpg",
+  "/products/h/KKR-B051-A-life.jpg",
+  "/products/h/acryl/KKR-A027-eetkamer.jpg",
+  "/products/magic/ms-travertino-light-grey-interior.jpg",
+  "/products/h/GL-001-life.jpg",
+  "/products/magic/bloempotten-lifestyle-boge.jpg",
 ];
 const SLIDE_MS = 6000;
 
@@ -36,15 +35,8 @@ export function Hero() {
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-18%"]);
   const fade = useTransform(scrollYProgress, [0, 0.85], [1, 0]);
 
-  // Per-slide copy lives in messages (hero.slides), index-aligned with SLIDES.
-  const slides = t.raw("slides") as {
-    eyebrow: string;
-    title: string;
-    subtitle: string;
-    ctaPrimary: string;
-  }[];
-
-  // Auto-advancing slideshow (paused for reduced-motion visitors).
+  // Auto-advancing slideshow (paused for reduced-motion visitors). The imagery
+  // sweeps across the range while the brand headline stays put.
   const [slide, setSlide] = useState(0);
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -55,8 +47,6 @@ export function Hero() {
     );
     return () => window.clearInterval(id);
   }, []);
-
-  const current = slides[slide] ?? slides[0];
 
   return (
     <section
@@ -77,7 +67,7 @@ export function Hero() {
           >
             <div className="absolute inset-0 animate-ken-burns is-visible">
               <Image
-                src={SLIDES[slide].img}
+                src={SLIDES[slide]}
                 alt="Habitat One — interieur"
                 fill
                 priority={slide === 0}
@@ -96,45 +86,41 @@ export function Hero() {
           className="container-x relative z-10 flex h-full flex-col justify-end pb-14 md:pb-20"
         >
           <motion.span
-            key={`eyebrow-${slide}`}
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-paper/85"
           >
-            {current.eyebrow}
+            {t("eyebrow")}
           </motion.span>
 
           <MaskReveal
-            key={`title-${slide}`}
             as="h1"
             inView={false}
             splitBy="word"
             className="mt-5 max-w-4xl text-[2.4rem] font-medium leading-[1.04] tracking-[-0.02em] text-paper sm:text-5xl md:text-[4rem] lg:text-[4.6rem]"
           >
-            {current.title}
+            {t("title")}
           </MaskReveal>
 
           <motion.p
-            key={`subtitle-${slide}`}
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            transition={{ duration: 0.8, delay: 0.25 }}
             className="mt-6 max-w-xl text-base leading-relaxed text-paper/90 md:text-lg"
           >
-            {current.subtitle}
+            {t("subtitle")}
           </motion.p>
 
           <motion.div
-            key={`cta-${slide}`}
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.4 }}
+            transition={{ duration: 0.7, delay: 0.55 }}
             className="mt-8 flex flex-wrap items-center gap-3"
           >
             <Magnetic>
-              <Link href={SLIDES[slide].href} className="btn btn-outline-light">
-                {current.ctaPrimary}
+              <Link href="/products" className="btn btn-outline-light">
+                {t("ctaPrimary")}
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Magnetic>
