@@ -969,24 +969,6 @@
     "additional_sizes": null
   },
   {
-    "id": 367,
-    "name": "Bathtub white",
-    "slug": "bathtub-white",
-    "description": "The Solid Surface Bathtub, crafted from premium non-porous material, combines durability with a luxurious aesthetic. Its surface resists stains, scratches, and chemicals for easy maintenance, while the ergonomic design and heat-retaining properties provide comfortable, warm baths. Available in customizable shapes and sizes to suit any bathroom, it delivers lasting elegance and performance.",
-    "short_description": "1750x832x550mm\n▪ Material: Solid Surface Stone\n▪ Surface Finish: Matte\n▪ Color: Designer White",
-    "sku": "KKR-B008-BB",
-    "thumbnail_path": "367-variant-750-cinematic-1774533894202-0.png",
-    "featured": false,
-    "width": 550,
-    "height": 832,
-    "length": 1750,
-    "thickness": null,
-    "dimension_unit": "mm",
-    "coverage_value": null,
-    "coverage_unit": null,
-    "stock_unit": "pcs"
-  },
-  {
     "id": 368,
     "name": "Lime Dacite - Yellow Lime",
     "slug": "lime-dacite-yellow-lime-1778674932941",
