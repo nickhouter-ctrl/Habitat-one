@@ -68,6 +68,14 @@ export function Header() {
       href: `/spaces/${s.slug}`,
       label: tSpaces(`names.${s.slug}`),
     })),
+    inspiration: [
+      { href: "/inspiration/events", label: t("inspEvents") },
+      { href: "/inspiration", label: t("inspInspireren") },
+      { href: "/inspiration/news", label: t("inspNews") },
+      { href: "/inspiration/tips", label: t("inspTips") },
+      { href: "/inspiration/blog", label: t("inspBlog") },
+      { href: "/inspiration/partners", label: t("inspPartners") },
+    ],
     services: services.map((s) => ({
       href: `/services/${s.slug}`,
       label: s.title[locale],

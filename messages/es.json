@@ -1,13 +1,13 @@
 {
   "meta": {
     "siteName": "Habitat One",
-    "title": "Habitat One — Construye, reforma y vive con belleza en Xàbia",
-    "description": "La plataforma completa para construir, reformar y vivir en Xàbia. Materiales premium, propiedades seleccionadas, asesoría legal y diseño arquitectónico — todo bajo un mismo techo en la Costa Blanca."
+    "title": "Habitat One — Construcción y materiales con transparencia en Xàbia",
+    "description": "Habitat One es un experience center de materiales de construcción innovadores y de alta calidad en Xàbia. Transparencia total sobre productos, proveedores, precios y márgenes — además de una red de confianza de arquitectos, constructores, abogados y gestores."
   },
   "nav": {
     "home": "Inicio",
     "materials": "Materiales",
-    "products": "Productos",
+    "products": "Catálogo",
     "spaces": "Espacios",
     "projects": "Proyectos",
     "services": "Servicios",
@@ -20,7 +20,15 @@
     "quote": "Pedir presupuesto",
     "bookVisit": "Reservar visita",
     "openMenu": "Abrir menú",
-    "searchPlaceholder": "Buscar productos, materiales, espacios…"
+    "searchPlaceholder": "Buscar productos, materiales, espacios…",
+    "location": "Ubicación",
+    "inspiration": "Inspiración",
+    "inspEvents": "Eventos",
+    "inspInspireren": "Déjate inspirar",
+    "inspNews": "Noticias",
+    "inspTips": "Consejos",
+    "inspBlog": "Blog",
+    "inspPartners": "Colaboradores"
   },
   "common": {
     "brand": "Habitat One",
@@ -45,13 +53,13 @@
     "onRequest": "Bajo petición"
   },
   "hero": {
-    "eyebrow": "Habitat One · Xàbia",
+    "eyebrow": "The transparent way to build in Spain",
     "ctaSecondary": "Nuestros proyectos",
     "scroll": "Desplaza",
-    "badge": "Con sede en Xàbia · Costa Blanca",
-    "title": "Todo aquello de lo que está hecho tu hogar.",
-    "subtitle": "De paredes de Flexibel Stone a bañeras, paneles acrílicos, iluminación y chimeneas — Habitat One ofrece las superficies y el equipamiento para el hogar mediterráneo.",
-    "ctaPrimary": "Ver todos los productos"
+    "badge": "Experience center · Xàbia, Costa Blanca",
+    "title": "See, Feel & Experience.",
+    "subtitle": "Habitat One es un experience center de materiales de construcción innovadores y de alta calidad. Ver, tocar y comparar — con transparencia total sobre productos, proveedores, precios y márgenes, y una red de confianza que acompaña todo tu proyecto.",
+    "ctaPrimary": "Descubre los materiales"
   },
   "stats": {
     "years": "años en la Costa Blanca",
@@ -60,18 +68,18 @@
     "languages": "idiomas hablados"
   },
   "home": {
-    "onestopEyebrow": "Habitat One · Xàbia",
-    "onestopTitle": "Habitat One: tu experiencia integral de construcción en Xàbia.",
-    "onestopLead": "Desde el primer boceto hasta la entrega, reunimos diseño, materiales y ejecución bajo un mismo techo, para que construir, reformar o desarrollar en Xàbia sea sencillo y sin preocupaciones.",
+    "onestopEyebrow": "Una nueva forma de construir",
+    "onestopTitle": "Construir y reformar puede hacerse de otra manera.",
+    "onestopLead": "Ni constructora, ni arquitecto, ni inmobiliaria — sino una plataforma transparente de materiales y construcción con experience center, que te conecta con el conocimiento, los materiales, los precios y la red adecuada para realizar tu proyecto con éxito.",
     "onestopCta": "Reserva una consulta",
-    "onestopBlock1Title": "Nos encargamos de todo.",
-    "onestopBlock1Text": "Desde la inspiración y el diseño hasta los materiales y la ejecución, Habitat One reúne cada parte del proceso de construcción bajo un mismo techo.",
-    "onestopBlock2Title": "Cuidamos de ti.",
-    "onestopBlock2Text": "Una verdadera experiencia integral donde propietarios, inversores y promotores reciben asesoramiento experto, servicios coordinados y total tranquilidad.",
-    "onestopBlock3Title": "Inspiración para arquitectos.",
-    "onestopBlock3Text": "Descubre materiales innovadores, nuevas tecnologías y soluciones de diseño cuidadas que convierten las ideas en espacios excepcionales.",
-    "onestopBlock4Title": "Materiales inteligentes para constructores.",
-    "onestopBlock4Text": "Accede a materiales de construcción asequibles, innovadores y de alto rendimiento que mejoran la calidad, la eficiencia y la sostenibilidad.",
+    "onestopBlock1Title": "Ver, tocar, comparar.",
+    "onestopBlock1Text": "En nuestro experience center descubres materiales cuidadosamente seleccionados, aplicaciones innovadoras y acabados de alta calidad — no desde un catálogo, sino viéndolos, tocándolos y comparándolos de verdad.",
+    "onestopBlock2Title": "Transparencia total.",
+    "onestopBlock2Text": "Mostramos de dónde vienen los materiales, cuánto cuestan y cómo se compone nuestro precio. Sin márgenes ocultos, sin capas intermedias confusas — siempre sabes a qué atenerte.",
+    "onestopBlock3Title": "La red adecuada.",
+    "onestopBlock3Text": "Te conectamos directamente con arquitectos, constructores, abogados y gestores que conocemos y en quienes confiamos personalmente — para cada fase de tu proyecto.",
+    "onestopBlock4Title": "Control, también a distancia.",
+    "onestopBlock4Text": "Muchos clientes todavía están en su país de origen. Si compras tus materiales a través de Habitat One, nos encargamos de la dirección, el control y el acompañamiento hasta la entrega.",
     "magicEyebrow": "Nuestro sello",
     "magicTitle": "Flexibel Stone",
     "magicLead": "Piedra natural auténtica que se adapta a la pared — más ligera que la baldosa, en planchas de hasta 1,2 × 3,06 m. La elegimos porque la calidez del travertino, la madera y la tierra puede llegar a cualquier rincón de la casa: paredes, techos, mobiliario, fachadas.",
@@ -100,26 +108,26 @@
     "story2Line2": "Tonos beige cálidos — romano y atemporal",
     "story2Line3": "Piedra real, fina y ligera",
     "story2Cta": "Ver Travertino",
-    "pillarsEyebrow": "Una plataforma, cuatro mundos",
-    "pillarsTitle": "Todo lo que necesita una casa en Xàbia",
-    "pillarsText": "Comprar, construir y reformar en la Costa Blanca suele significar coordinar una docena de empresas. Nosotros las hemos reunido bajo un mismo techo.",
+    "pillarsEyebrow": "Una plataforma, la red adecuada",
+    "pillarsTitle": "Acceso a los productos, las personas y la información adecuados",
+    "pillarsText": "Habitat One te da acceso a los productos adecuados, las personas adecuadas y la información adecuada — sin capas intermedias ocultas.",
     "pillarMaterials": "Materiales premium",
-    "pillarMaterialsText": "Paneles de piedra y madera de gran formato, baño en solid surface, terrazo, microcemento y grifería — seleccionados para el clima mediterráneo.",
-    "pillarProperties": "Socios inmobiliarios",
-    "pillarPropertiesText": "Agentes inmobiliarios locales independientes trabajan junto a nosotros desde el showroom de Xàbia — y las casas que ofrecen las conviertes en un hogar terminado con un solo equipo.",
-    "pillarLegal": "Asesoría legal",
-    "pillarLegalText": "Compraventa, NIE, licencias y permisos de obra gestionados por abogados locales de confianza — en tu idioma.",
-    "pillarDesign": "Arquitectura y diseño",
-    "pillarDesignText": "Arquitectos e interioristas que moldean la luz, la piedra y la sombra en casas que se sienten Xàbia.",
+    "pillarMaterialsText": "Materiales innovadores y de alta calidad, seleccionados por calidad, diseño y precio — y para experimentar en persona en nuestro experience center.",
+    "pillarProperties": "Red de confianza",
+    "pillarPropertiesText": "Inmobiliarias, inversores y especialistas en proyectos que conocemos personalmente — te ponemos en contacto directo con la parte adecuada para cada fase.",
+    "pillarLegal": "Jurídico y administrativo",
+    "pillarLegalText": "Abogados y gestores de nuestra red gestionan la compra, el NIE, las licencias y el papeleo — en tu idioma.",
+    "pillarDesign": "Arquitectos y constructores",
+    "pillarDesignText": "Arquitectos y constructores independientes en quienes confiamos y que nos atrevemos a recomendar — para el diseño y la ejecución de tu proyecto.",
     "spacesEyebrow": "Estancia por estancia",
     "spacesTitle": "Pensado para cada espacio",
     "spacesText": "Dentro y fuera — descubre materiales e ideas seleccionados para cada parte de la casa mediterránea.",
     "indoor": "Interior",
     "outdoor": "Exterior",
     "exploreSpace": "Explorar",
-    "materialsEyebrow": "La biblioteca de materiales",
-    "materialsTitle": "Superficies con historia",
-    "materialsText": "Travertino, madera quemada, tapial, hormigón beige — acabados de aspecto natural diseñados para durar junto al mar.",
+    "materialsEyebrow": "El experience center",
+    "materialsTitle": "Descubre los materiales antes de decidir",
+    "materialsText": "Materiales innovadores y de alta calidad que destacan en calidad, durabilidad y diseño — no solo para mirar, sino para experimentar, comparar y entender.",
     "productsEyebrow": "De la colección",
     "productsTitle": "Productos destacados",
     "productsText": "Una muestra de las piezas que más prescribimos para cocinas, baños y fachadas en Xàbia.",
@@ -132,18 +140,18 @@
     "projectsText": "En cada proyecto el antes y el después están uno al lado del otro — mira cómo una casa anticuada de la Costa Blanca se convierte en un hogar mediterráneo sereno y luminoso.",
     "viewProjects": "Ver todos los proyectos",
     "processEyebrow": "Cómo trabajamos",
-    "processTitle": "De la idea a las llaves en cinco pasos",
-    "processText": "Un único interlocutor, desde la primera llamada hasta el día en que enciendes la vela en la terraza.",
-    "step1": "Escuchar y visitar",
-    "step1Text": "Nos vemos en la finca, entendemos tu parcela, presupuesto y sueños, y la recorremos juntos.",
-    "step2": "Diseño y plan de materiales",
-    "step2Text": "Los arquitectos y nuestro equipo de materiales dibujan los espacios y seleccionan acabados para el clima y la luz.",
-    "step3": "Legal y licencias",
-    "step3Text": "Nuestros abogados gestionan la compra, los permisos y el papeleo para que nada frene la obra.",
-    "step4": "Construir y reformar",
-    "step4Text": "Constructores locales seleccionados ejecutan las obras, supervisadas según el diseño y el pliego de materiales.",
-    "step5": "Entrega y cuidado",
-    "step5Text": "Entregamos una casa terminada — y seguimos disponibles para mantenimiento, mobiliario y la siguiente idea.",
+    "processTitle": "De la primera idea a la entrega",
+    "processText": "Un proceso claro en el que siempre sabes a qué atenerte — desde la primera idea hasta la entrega.",
+    "step1": "Conocernos y escuchar",
+    "step1Text": "Conocemos tu proyecto, presupuesto y deseos y pensamos contigo en las posibilidades.",
+    "step2": "Experimentar y elegir materiales",
+    "step2Text": "En el experience center ves, tocas y comparas materiales — con transparencia total sobre origen, precio y margen.",
+    "step3": "La red adecuada",
+    "step3Text": "Te ponemos en contacto con arquitectos, constructores, abogados y gestores en quienes confiamos personalmente.",
+    "step4": "Ejecución con dirección",
+    "step4Text": "Los colaboradores ejecutan el trabajo; nosotros mantenemos la dirección, el control y el acompañamiento por ti — también a distancia.",
+    "step5": "Entrega y posventa",
+    "step5Text": "Tu proyecto se entrega con visión completa y sin sorpresas — y seguimos disponibles para lo que venga después.",
     "testimonialsEyebrow": "Lo que dicen los propietarios",
     "testimonialsTitle": "Casas, y las personas que las habitan",
     "locationEyebrow": "Por qué Xàbia",
@@ -153,8 +161,8 @@
     "locationPoint2": "Un microclima protegido alrededor del parque natural del Montgó",
     "locationPoint3": "Playas con Bandera Azul y calas escondidas en el Cap de la Nau",
     "locationPoint4": "Piedra tosca, cal y encalado — el lenguaje constructivo local",
-    "ctaTitle": "Vive las posibilidades.",
-    "ctaText": "En días seleccionados de showroom, los propietarios particulares pueden descubrir nuestros materiales, diseños y conceptos de construcción. Inspírate y comenta tus ideas con nuestro equipo.",
+    "ctaTitle": "See, Feel & Experience.",
+    "ctaText": "Visita nuestro experience center en Xàbia y vive los materiales en persona. Coge inspiración y comenta tu proyecto con nuestro equipo.",
     "ctaButton": "Empieza tu proyecto",
     "ctaSecondary": "Visita el showroom"
   },
@@ -836,9 +844,9 @@
   "services": {
     "eyebrow": "Qué hacemos",
     "title": "Servicios",
-    "intro": "Cuatro equipos, un solo director de proyecto. Todo lo que necesitas para comprar, construir, reformar y amueblar una casa en Xàbia.",
+    "intro": "Habitat One te conecta con una red cuidadosamente seleccionada de especialistas propios y colaboradores externos — arquitectos, constructores, especialistas en construcción, abogados, gestores y asesores técnicos — y te acompaña desde la primera idea hasta la entrega.",
     "partnersTitle": "Socios locales de confianza",
-    "partnerNote": "Trabajamos codo con codo con profesionales consolidados de Xàbia. Uno de ellos:",
+    "partnerNote": "Trabajamos codo con codo con profesionales de Xàbia a quienes conocemos y en quienes confiamos personalmente. Uno de ellos:",
     "whatWeHandle": "De qué nos ocupamos",
     "talkAbout": "Habla con nosotros sobre",
     "viewService": "Leer más",
@@ -868,32 +876,32 @@
   "about": {
     "eyebrow": "Quiénes somos",
     "title": "Habitat One",
-    "lead": "Tu socio en materiales premium, asesoramiento de diseño y artesanía experta en la Costa Blanca.",
-    "storyEyebrow": "Nuestra historia",
-    "storyTitle": "Todo bajo un mismo techo para la casa de tus sueños",
-    "p1": "En Habitat One reunimos todo lo que necesitas para hacer realidad tu casa ideal. Nuestro centro de experiencia en Jávea está concebido como un concepto integral de one-stop-shopping, en el que liberamos por completo a nuestros clientes — desde la compra hasta la entrega y todo lo que hay en medio.",
-    "sub2": "De la compra a la casa soñada",
-    "p2": "Tanto si buscas una vivienda existente, un proyecto de reforma o una obra nueva: junto a nuestro socio Verhome Group te acompañamos en la compra de propiedades cuidadosamente seleccionadas. A menudo oportunidades únicas — incluidas, por ejemplo, propiedades de banco — que transformamos en viviendas de alta calidad totalmente a tu medida.",
-    "sub3": "Toda la experiencia bajo un mismo techo",
-    "p3": "Dentro de Habitat One encontrarás toda la experiencia bajo un mismo techo. Desde arquitectos y constructores hasta apoyo legal y administrativo, como la ayuda para obtener el número NIE. Además ofrecemos una amplia gama de materiales y acabados de alta calidad, importados directamente de Asia, Italia, España y otros países europeos. Cocinas, baños, suelos, chimeneas e instalaciones sostenibles como bombas de calor — todo cuidadosamente elegido por calidad, diseño y precio.",
-    "sub4": "Lo que nos distingue",
-    "p4": "Lo que nos distingue es la combinación de socios de confianza, artesanía y un enfoque totalmente integrado. Tú decides el estilo y el resultado final; nosotros nos encargamos de la ejecución — eficiente, transparente y con atención al detalle.",
-    "p5": "Habitat One es más que un showroom. Es el lugar donde las ideas se hacen realidad, y donde tu casa soñada en España se construye sin preocupaciones.",
+    "lead": "Ni constructora, ni arquitecto, ni inmobiliaria — sino una plataforma transparente de materiales y construcción con experience center, que te conecta con el conocimiento, los materiales, los precios y la red adecuada para realizar tu proyecto con éxito.",
+    "storyEyebrow": "Una nueva forma de construir",
+    "storyTitle": "Construir y reformar puede hacerse de otra manera",
+    "p1": "En Habitat One creemos que construir y reformar puede hacerse de otra manera: con más transparencia, más honestidad y mejores decisiones. En nuestro experience center descubres materiales cuidadosamente seleccionados, aplicaciones innovadoras y acabados de alta calidad para obra nueva y reformas — no desde un catálogo, sino viéndolos, tocándolos y comparándolos de verdad.",
+    "sub2": "La red adecuada",
+    "p2": "Trabajamos con inmobiliarias, inversores, arquitectos, constructores, proveedores, abogados y gestores que conocemos y en quienes confiamos personalmente — y que nos atrevemos a recomendar. Así te ponemos en contacto directo con el especialista adecuado para cada fase de tu proyecto. Muchos de nuestros clientes todavía están en su país de origen; si compran sus materiales a través de Habitat One, nos encargamos de la dirección, el control y el acompañamiento.",
+    "sub3": "La transparencia como base",
+    "p3": "El sector de la construcción es conocido por procesos complejos, estructuras de precios poco claras y márgenes ocultos. Elegimos conscientemente un enfoque diferente. Mostramos de dónde vienen los materiales, quién es el fabricante, cuál es el precio de compra, qué margen aplicamos y qué partes participan en tu proyecto. Sin márgenes ocultos, sin capas intermedias confusas — un proceso claro en el que siempre sabes a qué atenerte.",
+    "sub4": "Acceso a lo adecuado",
+    "p4": "Habitat One te da acceso a los productos adecuados, las personas adecuadas y la información adecuada. Así generamos confianza, evitamos sorpresas y hacemos posibles mejores decisiones durante todo el proceso de construcción.",
+    "p5": "Habitat One es más que un showroom. Es el lugar donde construyes con claridad — y donde tu casa soñada en España se hace realidad sin preocupaciones.",
     "valuesEyebrow": "Nuestros valores",
     "valuesTitle": "Lo que nos mueve",
-    "value1": "La calidad primero",
-    "value1Text": "Solo trabajamos con fabricantes europeos de confianza y seleccionamos personalmente cada producto de nuestra colección para garantizar los más altos estándares.",
-    "value2": "Trato personal",
-    "value2Text": "Cada proyecto es único. Nos tomamos el tiempo de entender tus necesidades y damos un asesoramiento a medida — del concepto a la entrega.",
-    "value3": "Pasión por el diseño",
-    "value3Text": "Vivimos y respiramos interiorismo y arquitectura. Nuestro equipo se adelanta a las tendencias para inspirar y guiar tus decisiones.",
-    "value4": "Arraigados localmente",
-    "value4Text": "Con base en Xàbia, entendemos el clima local, los estilos constructivos y la normativa. Somos tu vecino de confianza en cada proyecto.",
+    "value1": "La transparencia primero",
+    "value1Text": "Mostramos de dónde vienen los materiales, cuánto cuestan y qué margen aplicamos. Sin márgenes ocultos, sin capas intermedias confusas.",
+    "value2": "Ver, tocar, experimentar",
+    "value2Text": "Los materiales no se eligen desde un catálogo. En nuestro experience center ves, tocas y comparas cada producto antes de decidir.",
+    "value3": "La red adecuada",
+    "value3Text": "Solo trabajamos con colaboradores que conocemos y en quienes confiamos personalmente — arquitectos, constructores, abogados y gestores que nos atrevemos a recomendar.",
+    "value4": "Arraigados en lo local",
+    "value4Text": "Con sede en Xàbia, conocemos el clima local, los estilos constructivos y la normativa. Somos tu socio de confianza en la Costa Blanca.",
     "statsTitle": "Habitat One en cifras",
-    "ctaTitle": "¿Listo para empezar tu proyecto?",
-    "ctaText": "Visita nuestro showroom en Xàbia o ponte en contacto — nos encantará ayudarte a hacer realidad tu visión.",
+    "ctaTitle": "¿Listo para construir de otra manera?",
+    "ctaText": "Visita nuestro experience center en Xàbia o ponte en contacto — estaremos encantados de ayudarte a tomar las decisiones adecuadas.",
     "teamTitle": "Las personas con las que trabajarás",
-    "teamNote": "Un equipo unido de arquitectos, interioristas, especialistas en materiales y jefes de obra — junto a socios de confianza en la Costa Blanca, entre ellos Verhome Group y Antón Abogados."
+    "teamNote": "Un equipo muy unido y una red cuidadosamente seleccionada de colaboradores que conocemos y en quienes confiamos personalmente — arquitectos, constructores, abogados, gestores y asesores técnicos en la Costa Blanca."
   },
   "contact": {
     "eyebrow": "Saluda",
@@ -934,14 +942,14 @@
     "hoursShort": "Solo con cita previa"
   },
   "showroom": {
-    "eyebrow": "Visítanos",
-    "title": "El showroom de Xàbia",
-    "intro": "Vive en persona nuestra selección de materiales premium. Toca, compara y descubre la paleta perfecta para tu proyecto.",
+    "eyebrow": "El experience center",
+    "title": "El experience center en Xàbia",
+    "intro": "Un proyecto de construcción empieza con decisiones. En nuestro experience center presentamos materiales innovadores y de alta calidad que destacan en calidad, durabilidad y diseño — para ver, tocar, comparar y entender antes de decidir.",
     "experienceTitle": "Qué encontrarás",
     "exp1": "Biblioteca de materiales",
     "exp1Text": "Toca y compara cientos de materiales premium — piedra natural, cerámica, madera maciza, microcemento y más.",
-    "exp2": "Consulta de diseño",
-    "exp2Text": "Reserva una sesión gratuita con nuestros arquitectos y diseñadores para planificar tu reforma u obra nueva.",
+    "exp2": "Diseño y asesoramiento",
+    "exp2Text": "Reserva una sesión y te conectamos con arquitectos y especialistas de nuestra red para planificar tu reforma u obra nueva.",
     "exp3": "Instalaciones reales",
     "exp3Text": "Ve nuestros materiales instalados en ambientes a escala real para visualizar el resultado final.",
     "exp4": "Servicio de muestras",
@@ -1014,5 +1022,250 @@
     "receivedDesc": "Revisaremos tu solicitud y la confirmaremos por correo — o te propondremos otra hora.",
     "bookAnother": "Reservar otra",
     "chooseDate": "Elige una fecha"
+  },
+  "location": {
+    "eyebrow": "Dónde encontrarnos",
+    "title": "Nuestra ubicación en Jávea",
+    "intro": "El experience center de Habitat One se encuentra en el corazón de Jávea (Xàbia), en la Costa Blanca. Ven a ver, tocar y comparar materiales en persona — con aparcamiento gratuito en la puerta.",
+    "addressTitle": "Dirección",
+    "hoursTitle": "Visita con cita previa",
+    "gettingHereTitle": "Cómo llegar",
+    "gettingHereText": "En el centro de Jávea con aparcamiento gratuito — a unos 90 minutos de Valencia y 75 minutos del aeropuerto de Alicante.",
+    "ctaTitle": "¿Prefieres asegurar tu visita?",
+    "ctaText": "Reserva una cita personal y dedicaremos todo el tiempo que tu proyecto merece.",
+    "bookButton": "Planifica tu visita",
+    "directionsButton": "Cómo llegar",
+    "hoursText": "La visita a nuestro experience center es siempre con cita previa — así dedicamos todo el tiempo a ti y a tu proyecto. Reserva fácilmente el momento que mejor te venga."
+  },
+  "inspiration": {
+    "eyebrow": "Inspiración",
+    "title": "Déjate inspirar",
+    "intro": "Descubre nuestros materiales y productos en espacios reales — interior y exterior. Inspírate con cocinas, baños, salones, terrazas y piscinas de la Costa Blanca.",
+    "exploreTitle": "Descubre más",
+    "cards": [
+      {
+        "id": "events",
+        "title": "Eventos",
+        "text": "Días de venta particular y eventos de inspiración en nuestro experience center."
+      },
+      {
+        "id": "range",
+        "title": "Catálogo",
+        "text": "Desde Flexibel Stone hasta cocinas, baños, suelos y chimeneas."
+      },
+      {
+        "id": "projects",
+        "title": "Proyectos",
+        "text": "Transformaciones de antes y después de viviendas en la Costa Blanca."
+      },
+      {
+        "id": "tips",
+        "title": "Consejos",
+        "text": "Conocimiento práctico sobre construir y reformar en España."
+      },
+      {
+        "id": "news",
+        "title": "Noticias",
+        "text": "Las últimas colecciones, colaboradores y novedades."
+      },
+      {
+        "id": "blog",
+        "title": "Blog",
+        "text": "Historias sobre materiales, diseño y vida en la costa."
+      },
+      {
+        "id": "partners",
+        "title": "Colaboradores",
+        "text": "La red de confianza con la que trabajamos."
+      }
+    ],
+    "indoorTitle": "Interior",
+    "outdoorTitle": "Exterior",
+    "ctaTitle": "¿Has visto algo que te encanta?",
+    "ctaText": "Descubre todo el catálogo o planifica una visita a nuestro experience center.",
+    "ctaButton": "Ver todos los productos",
+    "fireplaceLabel": "Chimeneas"
+  },
+  "events": {
+    "eyebrow": "Eventos",
+    "title": "Inspiración, conocimiento y las conexiones adecuadas",
+    "intro": "En Habitat One creemos que los mejores proyectos empiezan con el conocimiento adecuado y las personas adecuadas. Por eso organizamos eventos exclusivos para nuestros members durante todo el año.",
+    "items": [
+      {
+        "tag": "Mensual",
+        "title": "Día de venta particular",
+        "when": "El primer sábado de cada mes · 10:00–14:00",
+        "text": "Un día de acceso exclusivo al showroom con precios especiales en nuestro stock — materiales seleccionados que puedes llevarte al momento."
+      },
+      {
+        "tag": "Demostración",
+        "title": "Flexibel Stone — aplicado en vivo",
+        "when": "Por anunciar",
+        "text": "Mira cómo nuestra piedra natural insignia se adapta a la pared y siente la diferencia con los azulejos tradicionales."
+      },
+      {
+        "tag": "Encuentro",
+        "title": "Velada para members: conoce la red",
+        "when": "Por anunciar",
+        "text": "Una velada exclusiva en la que, con una copa en la mano, conoces a los arquitectos, constructores, abogados y gestores de nuestra red. Plantea tus preguntas y establece las conexiones adecuadas."
+      },
+      {
+        "tag": "Conocimiento",
+        "title": "Consultorio: construir y comprar en España",
+        "when": "Por anunciar",
+        "text": "Un turno de preguntas abierto con nuestros abogados y gestores sobre NIE, licencias, contratos e impuestos — para que empieces tu proyecto con confianza."
+      }
+    ],
+    "ctaTitle": "No te pierdas ningún evento",
+    "ctaText": "Consulta nuestro calendario de eventos y reserva tu plaza.",
+    "ctaButton": "Reserva tu plaza",
+    "body": [
+      "En talleres, presentaciones y sesiones de conocimiento inspiradoras, arquitectos, especialistas en materiales, expertos en construcción, abogados, gestores y otros profesionales te adentran en el mundo de construir, reformar y vivir en España.",
+      "Descubre materiales innovadores, comprende los procesos, plantea tus preguntas directamente a los expertos y conoce a quienes pueden ayudarte en cada paso de tu proyecto.",
+      "Nuestros eventos no solo informan: sobre todo te dan más visión de conjunto, confianza y control sobre las decisiones que tomas."
+    ],
+    "tagline": "Construye con cabeza. Elige con criterio. Conoce a las personas adecuadas.",
+    "agendaTitle": "Calendario de eventos"
+  },
+  "news": {
+    "eyebrow": "Novedades",
+    "title": "Noticias",
+    "intro": "Lo último de Habitat One — nuevas colecciones, colaboradores y novedades en nuestro experience center.",
+    "items": [
+      {
+        "date": "Junio 2026",
+        "title": "Novedad: chimeneas",
+        "text": "Ha llegado nuestra colección de chimeneas — de pared, empotradas y de doble cara, que unen calidez y diseño."
+      },
+      {
+        "date": "Junio 2026",
+        "title": "Novedad: colección de iluminación",
+        "text": "De focos empotrados elegantes a luminarias de ambiente — nuestra nueva iluminación completa el interior."
+      },
+      {
+        "date": "Junio 2026",
+        "title": "Catálogo ampliado notablemente",
+        "text": "Hemos añadido muchas nuevas categorías de productos, como paneles acrílicos, maceteros y material eléctrico. Ven a vivirlo todo en persona en nuestro experience center."
+      },
+      {
+        "date": "Junio 2026",
+        "title": "Nueva colección: suelos de PVC",
+        "text": "Nueve nuevos suelos de PVC con su propia página de categoría — resistentes, impermeables e ideales para el clima costero."
+      },
+      {
+        "date": "Mayo 2026",
+        "title": "Colección de puertas ampliada",
+        "text": "Nuestra colección de puertas interiores y exteriores crece con nuevos modelos y acabados."
+      },
+      {
+        "date": "Abril 2026",
+        "title": "El experience center crece",
+        "text": "Hemos ampliado nuestro showroom de Jávea con nuevas composiciones de materiales para mostrar, tocar y comparar aún más."
+      }
+    ]
+  },
+  "tips": {
+    "eyebrow": "Conocimiento",
+    "title": "Consejos",
+    "intro": "Construir o reformar en España genera dudas. Aquí compartimos conocimiento práctico — honesto y transparente, como esperas de nosotros.",
+    "items": [
+      {
+        "tag": "Compra",
+        "title": "Construir en España: NIE, gestor y licencias",
+        "text": "Lo que necesitas antes de empezar, y cómo nuestra red de abogados y gestores te lo pone fácil."
+      },
+      {
+        "tag": "Materiales",
+        "title": "Elegir materiales para el clima mediterráneo",
+        "text": "El sol, la sal y la humedad exigen mucho a los acabados. Así eliges materiales que se mantienen bonitos junto al mar."
+      },
+      {
+        "tag": "Precio",
+        "title": "Nuestra estructura de precios abierta",
+        "text": "En Habitat One ves exactamente por qué pagas: el precio de compra del material, nuestro margen y la ejecución. De forma abierta y sin capas intermedias ocultas — para que nunca te lleves una sorpresa."
+      },
+      {
+        "tag": "Diseño",
+        "title": "Interior y exterior en una sola línea",
+        "text": "Al rematar interior y exterior con el mismo material, creas calma y amplitud. Te mostramos qué colecciones fluyen sin interrupción del salón a la terraza."
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Historias",
+    "title": "Blog",
+    "intro": "Historias sobre materiales, diseño, oficio y vida en la Costa Blanca.",
+    "items": [
+      {
+        "date": "Junio 2026",
+        "tag": "Productos",
+        "title": "Chimeneas de vapor de agua: ambiente sin calor",
+        "text": "Nuestras chimeneas de vapor de agua crean una llama realista sin fuego real — no se calientan y son totalmente seguras. Ideales para viviendas de alquiler, y aportan ambiente al instante a cualquier estancia."
+      },
+      {
+        "date": "Mayo 2026",
+        "tag": "Baño",
+        "title": "El baño como rincón de calma",
+        "text": "De bañeras exentas a lavabos en solid surface: nuestra colección de baño combina materiales cálidos con diseño depurado para una sensación de spa en casa."
+      },
+      {
+        "date": "Abril 2026",
+        "tag": "Detalles",
+        "title": "Pequeños detalles, gran diferencia",
+        "text": "A menudo está en los acabados. Con material eléctrico de diseño y maceteros con carácter rematas de verdad un espacio — por dentro y por fuera."
+      },
+      {
+        "date": "Junio 2026",
+        "tag": "Diseño",
+        "title": "Por qué Flexibel Stone lo cambia todo",
+        "text": "Piedra natural de verdad que se adapta a la pared — más ligera que los azulejos y de aplicación infinita. Una mirada a nuestro material insignia."
+      },
+      {
+        "date": "Mayo 2026",
+        "tag": "Entre bastidores",
+        "title": "Construir con transparencia: nuestra promesa",
+        "text": "Sin márgenes ocultos, sin capas intermedias confusas. Contamos cómo y por qué trabajamos así."
+      },
+      {
+        "date": "Abril 2026",
+        "tag": "Ubicación",
+        "title": "Construir en Xàbia: sol, piedra y mar",
+        "text": "Qué hace tan especial el microclima mediterráneo — y qué significa para tu elección de materiales."
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Nuestra red",
+    "title": "Colaboradores",
+    "intro": "Habitat One trabaja con una red cuidadosamente seleccionada de especialistas que conocemos y en quienes confiamos personalmente — y que nos atrevemos a recomendar. Así te ponemos en contacto directo con el experto adecuado para cada fase de tu proyecto.",
+    "items": [
+      {
+        "role": "Arquitectos",
+        "text": "Diseño y planos que unen luz, espacio y el clima mediterráneo."
+      },
+      {
+        "role": "Constructores",
+        "text": "Constructores locales de confianza que ejecutan obra nueva y reformas con oficio."
+      },
+      {
+        "role": "Abogados",
+        "text": "Asesoramiento jurídico en la compra, los contratos y las licencias — en tu idioma."
+      },
+      {
+        "role": "Gestores",
+        "text": "Apoyo administrativo, desde el número NIE hasta los asuntos fiscales."
+      },
+      {
+        "role": "Inmobiliarias e inversores",
+        "text": "Acceso a viviendas y proyectos cuidadosamente seleccionados, a menudo oportunidades únicas."
+      },
+      {
+        "role": "Asesores técnicos",
+        "text": "Asesoramiento sobre instalaciones, sostenibilidad y soluciones eficientes."
+      }
+    ],
+    "ctaTitle": "Hazte colaborador de Habitat One",
+    "ctaText": "¿Eres un especialista en la Costa Blanca que comparte nuestra visión de transparencia y calidad? Ponte en contacto.",
+    "ctaButton": "Ponte en contacto"
   }
 }

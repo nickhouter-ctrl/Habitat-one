@@ -1,13 +1,13 @@
 {
   "meta": {
     "siteName": "Habitat One",
-    "title": "Habitat One — Bouwen, renoveren & mooi wonen in Xàbia",
-    "description": "Het complete platform om te bouwen, renoveren en wonen in Xàbia. Premium materialen, geselecteerde woningen, juridische begeleiding en architectonisch ontwerp — alles onder één dak aan de Costa Blanca."
+    "title": "Habitat One — Transparant bouwen & materialen in Xàbia",
+    "description": "Habitat One is een experience center voor innovatieve, hoogwaardige bouwmaterialen in Xàbia. Volledige transparantie over producten, leveranciers, prijzen en marges — plus een vertrouwd netwerk van architecten, aannemers, advocaten en gestors."
   },
   "nav": {
     "home": "Home",
     "materials": "Materialen",
-    "products": "Producten",
+    "products": "Assortiment",
     "spaces": "Ruimtes",
     "projects": "Projecten",
     "services": "Diensten",
@@ -20,7 +20,15 @@
     "quote": "Offerte aanvragen",
     "bookVisit": "Showroombezoek",
     "openMenu": "Menu openen",
-    "searchPlaceholder": "Zoek producten, materialen, ruimtes…"
+    "searchPlaceholder": "Zoek producten, materialen, ruimtes…",
+    "location": "Locatie",
+    "inspiration": "Inspiratie",
+    "inspEvents": "Evenementen",
+    "inspInspireren": "Inspireren",
+    "inspNews": "Nieuws",
+    "inspTips": "Tips & advies",
+    "inspBlog": "Blogs",
+    "inspPartners": "Partners"
   },
   "common": {
     "brand": "Habitat One",
@@ -45,13 +53,13 @@
     "onRequest": "Op aanvraag"
   },
   "hero": {
-    "eyebrow": "Habitat One · Xàbia",
+    "eyebrow": "The transparent way to build in Spain",
     "ctaSecondary": "Onze projecten",
     "scroll": "Scroll",
-    "badge": "Gevestigd in Xàbia · Costa Blanca",
-    "title": "Alles waar je huis van gemaakt is.",
-    "subtitle": "Van Flexibel Stone-wanden tot baden, acrylpanelen, verlichting en sfeerhaarden — Habitat One levert de oppervlakken en afwerking voor het mediterrane huis.",
-    "ctaPrimary": "Bekijk alle producten"
+    "badge": "Experience center · Xàbia, Costa Blanca",
+    "title": "See, Feel & Experience.",
+    "subtitle": "Habitat One is een experience center voor innovatieve, hoogwaardige bouwmaterialen. Zien, voelen en vergelijken — met volledige transparantie over producten, leveranciers, prijzen en marges, en een vertrouwd netwerk dat je hele project ondersteunt.",
+    "ctaPrimary": "Ontdek de materialen"
   },
   "stats": {
     "years": "jaar aan de Costa Blanca",
@@ -60,18 +68,18 @@
     "languages": "talen gesproken"
   },
   "home": {
-    "onestopEyebrow": "Habitat One · Xàbia",
-    "onestopTitle": "Habitat One: jouw one-stop bouwervaring in Xàbia.",
-    "onestopLead": "Van eerste schets tot oplevering verenigen we ontwerp, materialen en uitvoering onder één dak — zodat bouwen, verbouwen of ontwikkelen in Xàbia eenvoudig en zorgeloos wordt.",
+    "onestopEyebrow": "Een nieuwe manier van bouwen",
+    "onestopTitle": "Bouwen en verbouwen kan anders.",
+    "onestopLead": "Geen aannemer, architect of makelaar — maar een transparant materialen- en bouwplatform met experience center, dat je verbindt met de kennis, materialen, prijzen en het juiste netwerk om je project succesvol te realiseren.",
     "onestopCta": "Plan een gesprek",
-    "onestopBlock1Title": "Wij regelen alles.",
-    "onestopBlock1Text": "Van inspiratie en ontwerp tot materialen en uitvoering — Habitat One brengt elk onderdeel van het bouwtraject samen onder één dak.",
-    "onestopBlock2Title": "Wij ontzorgen jou.",
-    "onestopBlock2Text": "Een echte one-stop-shopervaring waar huiseigenaren, investeerders en ontwikkelaars deskundige begeleiding, gecoördineerde diensten en volledige gemoedsrust krijgen.",
-    "onestopBlock3Title": "Inspiratie voor architecten.",
-    "onestopBlock3Text": "Ontdek innovatieve materialen, nieuwe technologieën en doordachte ontwerpoplossingen die ideeën omzetten in uitzonderlijke ruimtes.",
-    "onestopBlock4Title": "Slimme materialen voor bouwers.",
-    "onestopBlock4Text": "Toegang tot betaalbare, innovatieve en hoogwaardige bouwmaterialen die kwaliteit, efficiëntie en duurzaamheid verbeteren.",
+    "onestopBlock1Title": "Zien, voelen, vergelijken.",
+    "onestopBlock1Text": "In ons experience center ontdek je zorgvuldig geselecteerde materialen, innovatieve toepassingen en hoogwaardige afwerkingen — niet uit een catalogus, maar door ze echt te zien, voelen en vergelijken.",
+    "onestopBlock2Title": "Volledige transparantie.",
+    "onestopBlock2Text": "We laten zien waar materialen vandaan komen, wat ze kosten en hoe onze prijsopbouw eruitziet. Geen verborgen marges, geen onduidelijke tussenlagen — je weet altijd waar je aan toe bent.",
+    "onestopBlock3Title": "Het juiste netwerk.",
+    "onestopBlock3Text": "We verbinden je rechtstreeks met architecten, aannemers, advocaten en gestors die wij persoonlijk kennen en vertrouwen — voor elke fase van je project.",
+    "onestopBlock4Title": "Regie, ook op afstand.",
+    "onestopBlock4Text": "Veel klanten verblijven nog in hun thuisland. Koop je je materialen via Habitat One, dan verzorgen wij de regie, controle en begeleiding tot aan de oplevering.",
     "magicEyebrow": "Onze signatuur",
     "magicTitle": "Flexibel Stone",
     "magicLead": "Échte natuursteen die met de muur meebuigt — lichter dan tegels, in platen tot 1,2 × 3,06 meter. Wij kozen het omdat de warmte van travertijn, hout en aarde overal in huis terecht kan: van wanden tot plafonds, van meubel tot gevel.",
@@ -100,26 +108,26 @@
     "story2Line2": "Warme, beige tinten — Romeins en tijdloos",
     "story2Line3": "Echte steen, dun en licht",
     "story2Cta": "Bekijk Travertino",
-    "pillarsEyebrow": "Eén platform, vier werelden",
-    "pillarsTitle": "Alles wat een huis in Xàbia nodig heeft",
-    "pillarsText": "Kopen, bouwen en renoveren aan de Costa Blanca betekent meestal jongleren met een tiental bedrijven. Wij hebben ze onder één dak gebracht.",
+    "pillarsEyebrow": "Eén platform, het juiste netwerk",
+    "pillarsTitle": "Toegang tot de juiste producten, mensen en informatie",
+    "pillarsText": "Habitat One geeft je toegang tot de juiste producten, de juiste mensen en de juiste informatie — zonder verborgen tussenlagen.",
     "pillarMaterials": "Premium materialen",
-    "pillarMaterialsText": "Grootformaat steen- en houtpanelen, solid-surface badkamerproducten, terrazzo, microcement en kranen — geselecteerd voor het mediterrane klimaat.",
-    "pillarProperties": "Vastgoedpartners",
-    "pillarPropertiesText": "Onafhankelijke lokale makelaars werken samen met ons vanuit de showroom in Xàbia — en de woningen die zij aanbieden, maak je met één team tot een afgewerkt huis.",
-    "pillarLegal": "Juridische begeleiding",
-    "pillarLegalText": "Aankoop, NIE, vergunningen en projectlicenties geregeld door vertrouwde lokale juristen — in jouw taal.",
-    "pillarDesign": "Architectuur & ontwerp",
-    "pillarDesignText": "Architecten en interieurontwerpers die licht, steen en schaduw vormgeven tot huizen die aanvoelen als Xàbia.",
+    "pillarMaterialsText": "Innovatieve, hoogwaardige materialen, geselecteerd op kwaliteit, design en prijs — en in het echt te ervaren in ons experience center.",
+    "pillarProperties": "Vertrouwd netwerk",
+    "pillarPropertiesText": "Makelaars, investeerders en projectspecialisten die wij persoonlijk kennen — we brengen je rechtstreeks in contact met de juiste partij voor elke fase.",
+    "pillarLegal": "Juridisch & administratief",
+    "pillarLegalText": "Advocaten en gestors uit ons netwerk regelen aankoop, NIE, vergunningen en papieren — in jouw taal.",
+    "pillarDesign": "Architecten & aannemers",
+    "pillarDesignText": "Onafhankelijke architecten en aannemers die wij vertrouwen en durven aan te raden — voor ontwerp en uitvoering van je project.",
     "spacesEyebrow": "Ruimte voor ruimte",
     "spacesTitle": "Ontworpen voor elke ruimte",
     "spacesText": "Binnen en buiten — ontdek geselecteerde materialen en ideeën voor elk deel van het mediterrane huis.",
     "indoor": "Binnen",
     "outdoor": "Buiten",
     "exploreSpace": "Ontdek",
-    "materialsEyebrow": "De materiaalbibliotheek",
-    "materialsTitle": "Oppervlakken met een verhaal",
-    "materialsText": "Travertijn, verbrand hout, stampleem, beige beton — natuurlijk ogende afwerkingen, gemaakt om te blijven aan zee.",
+    "materialsEyebrow": "Het experience center",
+    "materialsTitle": "Ontdek materialen voordat je beslist",
+    "materialsText": "Innovatieve en hoogwaardige materialen die zich onderscheiden in kwaliteit, duurzaamheid en design — niet alleen te bekijken, maar te ervaren, vergelijken en begrijpen.",
     "productsEyebrow": "Uit de collectie",
     "productsTitle": "Uitgelichte producten",
     "productsText": "Een blik op de stukken die wij het meest voorschrijven voor keukens, badkamers en gevels in Xàbia.",
@@ -132,18 +140,18 @@
     "projectsText": "Bij elk project staan het 'voor' en het 'na' naast elkaar — zie hoe een gedateerd huis aan de Costa Blanca een rustig, licht mediterraan thuis wordt.",
     "viewProjects": "Bekijk alle projecten",
     "processEyebrow": "Hoe wij werken",
-    "processTitle": "Van idee tot sleutel in vijf stappen",
-    "processText": "Eén aanspreekpunt, van het eerste telefoontje tot de dag dat je de kaars op het terras aansteekt.",
-    "step1": "Luisteren & bezoeken",
-    "step1Text": "We komen ter plaatse, begrijpen je perceel, budget en dromen en lopen het samen na.",
-    "step2": "Ontwerp & materiaalplan",
-    "step2Text": "Architecten en ons materiaalteam tekenen de ruimtes en kiezen afwerkingen voor het klimaat en het licht.",
-    "step3": "Juridisch & vergunningen",
-    "step3Text": "Onze juristen regelen de aankoop, vergunningen en papieren zodat niets de bouw vertraagt.",
-    "step4": "Bouwen & renoveren",
-    "step4Text": "Geselecteerde lokale aannemers voeren de werken uit, gecontroleerd op ontwerp en materiaalbestek.",
+    "processTitle": "Van eerste idee tot oplevering",
+    "processText": "Eén helder proces waarin jij altijd weet waar je aan toe bent — van het eerste idee tot de oplevering.",
+    "step1": "Kennismaken & luisteren",
+    "step1Text": "We leren je project, budget en wensen kennen en denken mee over de mogelijkheden.",
+    "step2": "Materialen ervaren & kiezen",
+    "step2Text": "In het experience center zie, voel en vergelijk je materialen — met volledige transparantie over herkomst, prijs en marge.",
+    "step3": "Het juiste netwerk",
+    "step3Text": "We brengen je in contact met architecten, aannemers, advocaten en gestors die wij persoonlijk vertrouwen.",
+    "step4": "Uitvoering met regie",
+    "step4Text": "De partners voeren het werk uit; wij houden voor jou de regie, controle en begeleiding — ook op afstand.",
     "step5": "Oplevering & nazorg",
-    "step5Text": "We leveren een afgewerkt huis op — en blijven bereikbaar voor onderhoud, meubels en het volgende idee.",
+    "step5Text": "Je project wordt opgeleverd met volledig overzicht en zonder verrassingen — en we blijven bereikbaar voor het vervolg.",
     "testimonialsEyebrow": "Wat eigenaren zeggen",
     "testimonialsTitle": "Huizen, en de mensen erin",
     "locationEyebrow": "Waarom Xàbia",
@@ -153,8 +161,8 @@
     "locationPoint2": "Een beschermd microklimaat rond het natuurpark Montgó",
     "locationPoint3": "Blue-Flag-stranden en verborgen baaien op de Cap de la Nau",
     "locationPoint4": "Tosca-steen, witkalk en kalk — de lokale bouwtaal",
-    "ctaTitle": "Ervaar de mogelijkheden.",
-    "ctaText": "Op geselecteerde showroomdagen zijn particuliere huiseigenaren welkom om onze materialen, ontwerpen en bouwconcepten te ontdekken. Doe inspiratie op en bespreek je ideeën met ons team.",
+    "ctaTitle": "See, Feel & Experience.",
+    "ctaText": "Bezoek ons experience center in Xàbia en ervaar de materialen in het echt. Doe inspiratie op en bespreek je project met ons team.",
     "ctaButton": "Start je project",
     "ctaSecondary": "Bezoek de showroom"
   },
@@ -836,9 +844,9 @@
   "services": {
     "eyebrow": "Wat wij doen",
     "title": "Diensten",
-    "intro": "Vier teams, één projectleider. Alles wat je nodig hebt om een huis in Xàbia te kopen, bouwen, renoveren en inrichten.",
+    "intro": "Habitat One verbindt je met een zorgvuldig samengesteld netwerk van eigen specialisten en externe partners — architecten, aannemers, bouwspecialisten, advocaten, gestors en technische adviseurs — en begeleidt je van eerste idee tot oplevering.",
     "partnersTitle": "Vertrouwde lokale partners",
-    "partnerNote": "We werken hand in hand met gevestigde professionals in Xàbia. Een van hen:",
+    "partnerNote": "We werken hand in hand met professionals in Xàbia die we persoonlijk kennen en vertrouwen. Een van hen:",
     "whatWeHandle": "Wat wij regelen",
     "talkAbout": "Praat met ons over",
     "viewService": "Lees meer",
@@ -868,32 +876,32 @@
   "about": {
     "eyebrow": "Over ons",
     "title": "Habitat One",
-    "lead": "Jouw partner voor premium materialen, ontwerpadvies en vakmanschap aan de Costa Blanca.",
-    "storyEyebrow": "Ons verhaal",
-    "storyTitle": "Alles onder één dak voor jouw droomhuis",
-    "p1": "Bij Habitat One brengen we alles samen wat je nodig hebt om jouw ideale huis te realiseren. Ons experience center in Jávea is opgezet als een compleet one-stop-shopping-concept, waarbij we onze klanten volledig ontzorgen — van aankoop tot oplevering en alles daartussenin.",
-    "sub2": "Van aankoop tot droomhuis",
-    "p2": "Of je nu op zoek bent naar een bestaande woning, een renovatieproject of nieuwbouw: samen met onze partner Verhome Group begeleiden we je bij de aankoop van zorgvuldig geselecteerde woningen. Vaak unieke kansen — waaronder bijvoorbeeld bankwoningen — die we transformeren tot hoogwaardige woningen, volledig op maat van jouw wensen.",
-    "sub3": "Alle expertise onder één dak",
-    "p3": "Binnen Habitat One vind je alle expertise onder één dak. Van architecten en aannemers tot juridische en administratieve ondersteuning, zoals hulp bij het verkrijgen van een NIE-nummer. Daarnaast bieden we een uitgebreid assortiment hoogwaardige materialen en afwerkingen, rechtstreeks ingekocht uit Azië, Italië, Spanje en andere Europese landen. Denk aan keukens, badkamers, vloeren, haarden en duurzame installaties zoals warmtepompen — allemaal zorgvuldig geselecteerd op kwaliteit, design en prijs.",
-    "sub4": "Wat ons onderscheidt",
-    "p4": "Wat ons onderscheidt is de combinatie van betrouwbare partners, vakmanschap en een volledig geïntegreerde aanpak. Jij bepaalt de stijl en het eindresultaat; wij verzorgen de uitvoering — efficiënt, transparant en met oog voor detail.",
-    "p5": "Habitat One is meer dan een showroom. Het is de plek waar ideeën werkelijkheid worden, en waar jouw Spaanse droomhuis zorgeloos wordt gerealiseerd.",
+    "lead": "Geen aannemer, architect of makelaar — maar een transparant materialen- en bouwplatform met experience center, dat je verbindt met de kennis, materialen, prijzen en het juiste netwerk om je project succesvol te realiseren.",
+    "storyEyebrow": "Een nieuwe manier van bouwen",
+    "storyTitle": "Bouwen en verbouwen kan anders",
+    "p1": "Bij Habitat One geloven we dat bouwen en verbouwen anders kan: transparanter, eerlijker en met betere keuzes. In ons experience center ontdek je zorgvuldig geselecteerde materialen, innovatieve toepassingen en hoogwaardige afwerkingen voor nieuwbouw en renovatie — niet uit een catalogus, maar door ze echt te zien, voelen en vergelijken.",
+    "sub2": "Het juiste netwerk",
+    "p2": "We werken met makelaars, investeerders, architecten, aannemers, leveranciers, advocaten en gestors die wij persoonlijk kennen en vertrouwen — en die we durven aan te raden. Zo brengen we je rechtstreeks in contact met de juiste specialist voor elke fase van je project. Veel van onze klanten verblijven nog in hun thuisland; kopen zij hun materialen via Habitat One, dan verzorgen wij de regie, controle en begeleiding.",
+    "sub3": "Transparantie als fundament",
+    "p3": "De bouwsector staat bekend om complexe processen, onduidelijke prijsstructuren en verborgen marges. Wij kiezen bewust voor een andere aanpak. We laten zien waar materialen vandaan komen, wie de producent is, wat de inkoopprijs is, welke marge wij hanteren en welke partijen bij je project betrokken zijn. Geen verborgen marges, geen onduidelijke tussenlagen — een helder proces waarin je altijd weet waar je aan toe bent.",
+    "sub4": "Toegang tot het juiste",
+    "p4": "Habitat One geeft je toegang tot de juiste producten, de juiste mensen en de juiste informatie. Zo creëren we vertrouwen, voorkomen we verrassingen en maken we betere beslissingen mogelijk gedurende het hele bouwproces.",
+    "p5": "Habitat One is meer dan een showroom. Het is de plek waar je bouwt met helderheid — en waar je Spaanse droomhuis zorgeloos werkelijkheid wordt.",
     "valuesEyebrow": "Onze waarden",
     "valuesTitle": "Wat ons drijft",
-    "value1": "Kwaliteit voorop",
-    "value1Text": "We werken uitsluitend met vertrouwde Europese fabrikanten en selecteren elk product in onze collectie persoonlijk om de hoogste standaard te garanderen.",
-    "value2": "Persoonlijke aanpak",
-    "value2Text": "Elk project is uniek. We nemen de tijd om jouw wensen te begrijpen en geven advies op maat — van concept tot oplevering.",
-    "value3": "Passie voor design",
-    "value3Text": "We leven en ademen interieurontwerp en architectuur. Ons team blijft de trends voor om jouw keuzes te inspireren en te begeleiden.",
+    "value1": "Transparantie voorop",
+    "value1Text": "We laten zien waar materialen vandaan komen, wat ze kosten en welke marge we hanteren. Geen verborgen marges, geen onduidelijke tussenlagen.",
+    "value2": "Zien, voelen, ervaren",
+    "value2Text": "Materialen kies je niet uit een catalogus. In ons experience center zie, voel en vergelijk je elk product voordat je beslist.",
+    "value3": "Het juiste netwerk",
+    "value3Text": "We werken alleen met partners die we persoonlijk kennen en vertrouwen — architecten, aannemers, advocaten en gestors die we durven aan te raden.",
     "value4": "Lokaal geworteld",
-    "value4Text": "Gevestigd in Xàbia begrijpen we het lokale klimaat, de bouwstijlen en de regelgeving. We zijn je vertrouwde buur in elk project.",
+    "value4Text": "Gevestigd in Xàbia kennen we het lokale klimaat, de bouwstijlen en de regelgeving. We zijn je vertrouwde partner aan de Costa Blanca.",
     "statsTitle": "Habitat One in cijfers",
-    "ctaTitle": "Klaar om je project te starten?",
-    "ctaText": "Bezoek onze showroom in Xàbia of neem contact op — we helpen je graag jouw visie tot leven te brengen.",
+    "ctaTitle": "Klaar om anders te bouwen?",
+    "ctaText": "Bezoek ons experience center in Xàbia of neem contact op — we helpen je graag bij de juiste keuzes.",
     "teamTitle": "De mensen met wie je werkt",
-    "teamNote": "Een hecht team van architecten, interieurontwerpers, materiaalspecialisten en uitvoerders — plus vertrouwde partners aan de Costa Blanca, waaronder de Verhome Group en Antón Abogados."
+    "teamNote": "Een hecht team plus een zorgvuldig samengesteld netwerk van partners die we persoonlijk kennen en vertrouwen — architecten, aannemers, advocaten, gestors en technische adviseurs aan de Costa Blanca."
   },
   "contact": {
     "eyebrow": "Zeg hallo",
@@ -934,14 +942,14 @@
     "hoursShort": "Alleen op afspraak"
   },
   "showroom": {
-    "eyebrow": "Bezoek ons",
-    "title": "De showroom in Xàbia",
-    "intro": "Ervaar onze zorgvuldig samengestelde selectie premium materialen in het echt. Voel, vergelijk en ontdek het perfecte palet voor jouw project.",
+    "eyebrow": "Het experience center",
+    "title": "Het experience center in Xàbia",
+    "intro": "Een bouwproject begint met keuzes. In ons experience center presenteren we innovatieve en hoogwaardige materialen die zich onderscheiden in kwaliteit, duurzaamheid en design — om te zien, voelen, vergelijken en begrijpen voordat je beslist.",
     "experienceTitle": "Wat je hier vindt",
     "exp1": "Materiaalbibliotheek",
     "exp1Text": "Voel en vergelijk honderden premium materialen — natuursteen, keramiek, hardhout, microcement en meer.",
-    "exp2": "Ontwerpconsult",
-    "exp2Text": "Boek een gratis sessie met onze eigen architecten en ontwerpers om je renovatie of nieuwbouw te plannen.",
+    "exp2": "Ontwerp & advies",
+    "exp2Text": "Boek een sessie en we verbinden je met architecten en specialisten uit ons netwerk om je renovatie of nieuwbouw te plannen.",
     "exp3": "Live opstellingen",
     "exp3Text": "Zie onze materialen toegepast in volledige ruimte-opstellingen om het eindresultaat te visualiseren.",
     "exp4": "Stalenservice",
@@ -1014,5 +1022,250 @@
     "receivedDesc": "We bekijken je aanvraag en bevestigen per e-mail — of stellen een ander tijdstip voor.",
     "bookAnother": "Nog een afspraak",
     "chooseDate": "Kies een datum"
+  },
+  "location": {
+    "eyebrow": "Waar je ons vindt",
+    "title": "Onze locatie in Jávea",
+    "intro": "Het Habitat One experience center ligt in het hart van Jávea (Xàbia), aan de Costa Blanca. Kom langs om materialen in het echt te zien, voelen en vergelijken — met gratis parkeren voor de deur.",
+    "addressTitle": "Adres",
+    "hoursTitle": "Bezoek op afspraak",
+    "gettingHereTitle": "Hoe kom je hier",
+    "gettingHereText": "In het centrum van Jávea met gratis parkeergelegenheid — op zo'n 90 minuten van Valencia en 75 minuten van de luchthaven van Alicante.",
+    "ctaTitle": "Liever zeker van een plek?",
+    "ctaText": "Plan een persoonlijke afspraak, dan nemen we rustig de tijd voor jouw project.",
+    "bookButton": "Plan een bezoek",
+    "directionsButton": "Routebeschrijving",
+    "hoursText": "Een bezoek aan ons experience center is altijd op afspraak — zo nemen we rustig de tijd voor jou en je project. Plan eenvoudig een moment dat jou uitkomt."
+  },
+  "inspiration": {
+    "eyebrow": "Inspiratie",
+    "title": "Laat je inspireren",
+    "intro": "Zie onze materialen en producten in echte ruimtes — binnen en buiten. Laat je inspireren door keukens, badkamers, woonkamers, terrassen en zwembaden aan de Costa Blanca.",
+    "exploreTitle": "Ontdek meer",
+    "cards": [
+      {
+        "id": "events",
+        "title": "Evenementen",
+        "text": "Particuliere verkoopdagen en inspiratie-events in ons experience center."
+      },
+      {
+        "id": "range",
+        "title": "Assortiment",
+        "text": "Van Flexibel Stone tot keukens, badkamers, vloeren en haarden."
+      },
+      {
+        "id": "projects",
+        "title": "Projecten",
+        "text": "Voor-en-na transformaties van woningen aan de Costa Blanca."
+      },
+      {
+        "id": "tips",
+        "title": "Tips & advies",
+        "text": "Praktische kennis over bouwen en verbouwen in Spanje."
+      },
+      {
+        "id": "news",
+        "title": "Nieuws",
+        "text": "De nieuwste collecties, partners en ontwikkelingen."
+      },
+      {
+        "id": "blog",
+        "title": "Blogs",
+        "text": "Verhalen over materialen, design en het leven aan de kust."
+      },
+      {
+        "id": "partners",
+        "title": "Partners",
+        "text": "Het vertrouwde netwerk waarmee we samenwerken."
+      }
+    ],
+    "indoorTitle": "Binnen",
+    "outdoorTitle": "Buiten",
+    "ctaTitle": "Gezien wat je mooi vindt?",
+    "ctaText": "Ontdek het volledige assortiment of plan een bezoek aan ons experience center.",
+    "ctaButton": "Bekijk alle producten",
+    "fireplaceLabel": "Sfeerhaarden"
+  },
+  "events": {
+    "eyebrow": "Evenementen",
+    "title": "Inspiratie, kennis en de juiste connecties",
+    "intro": "Bij Habitat One geloven we dat betere bouwprojecten beginnen met de juiste kennis en de juiste mensen. Daarom organiseren we het hele jaar door exclusieve evenementen voor onze members.",
+    "items": [
+      {
+        "tag": "Maandelijks",
+        "title": "Particuliere verkoopdag",
+        "when": "Elke eerste zaterdag van de maand · 10:00–14:00",
+        "text": "Eén dag exclusieve toegang tot de showroom met scherpe dagprijzen op onze voorraad — geselecteerde materialen die je direct kunt meenemen."
+      },
+      {
+        "tag": "Demonstratie",
+        "title": "Flexibel Stone — live toegepast",
+        "when": "Op aankondiging",
+        "text": "Zie hoe onze signature natuursteen met de muur meebuigt en ervaar het verschil met traditionele tegels."
+      },
+      {
+        "tag": "Netwerk",
+        "title": "Members-avond: ontmoet het netwerk",
+        "when": "Op aankondiging",
+        "text": "Een exclusieve avond waarop je onder het genot van een drankje kennismaakt met de architecten, aannemers, advocaten en gestors uit ons netwerk. Stel je vragen en leg de juiste connecties."
+      },
+      {
+        "tag": "Kennis",
+        "title": "Spreekuur: bouwen & kopen in Spanje",
+        "when": "Op aankondiging",
+        "text": "Een open vragenuur met onze advocaten en gestors over NIE, vergunningen, contracten en belastingen — zodat je met vertrouwen aan je project begint."
+      }
+    ],
+    "ctaTitle": "Mis geen enkel evenement",
+    "ctaText": "Bekijk onze evenementenkalender en reserveer je plek.",
+    "ctaButton": "Reserveer je plek",
+    "body": [
+      "Tijdens inspirerende workshops, presentaties en kennissessies nemen architecten, materiaalspecialisten, bouwexperts, advocaten, gestors en andere professionals je mee in de wereld van bouwen, verbouwen en wonen in Spanje.",
+      "Ontdek innovatieve materialen, krijg inzicht in processen, stel rechtstreeks je vragen aan experts en ontmoet de partijen die je kunnen helpen bij iedere stap van jouw project.",
+      "Onze evenementen zijn niet alleen bedoeld om te informeren, maar vooral om je meer overzicht, vertrouwen en grip te geven op de keuzes die je maakt."
+    ],
+    "tagline": "Bouw slimmer. Kies bewuster. Ontmoet de juiste mensen.",
+    "agendaTitle": "Evenementenkalender"
+  },
+  "news": {
+    "eyebrow": "Actueel",
+    "title": "Nieuws",
+    "intro": "Het laatste nieuws van Habitat One — nieuwe collecties, partners en ontwikkelingen in ons experience center.",
+    "items": [
+      {
+        "date": "Juni 2026",
+        "title": "Nieuw: sfeerhaarden",
+        "text": "Onze collectie sfeerhaarden is toegevoegd — wand-, inbouw- en doorkijkhaarden die warmte en design verenigen."
+      },
+      {
+        "date": "Juni 2026",
+        "title": "Nieuw: verlichtingscollectie",
+        "text": "Van strakke inbouwspots tot sfeervolle armaturen — onze nieuwe verlichting maakt het interieur compleet."
+      },
+      {
+        "date": "Juni 2026",
+        "title": "Assortiment flink uitgebreid",
+        "text": "We hebben volop nieuwe productgroepen toegevoegd, waaronder acrylpanelen, bloempotten en schakelmateriaal. Kom alles in het echt ervaren in ons experience center."
+      },
+      {
+        "date": "Juni 2026",
+        "title": "Nieuwe collectie: PVC-vloeren",
+        "text": "Negen nieuwe PVC-vloeren met een eigen categoriepagina — slijtvast, waterbestendig en ideaal voor het kustklimaat."
+      },
+      {
+        "date": "Mei 2026",
+        "title": "Deurencollectie uitgebreid",
+        "text": "Onze collectie binnen- en buitendeuren is uitgebreid met nieuwe modellen en afwerkingen."
+      },
+      {
+        "date": "April 2026",
+        "title": "Experience center groeit",
+        "text": "We hebben onze showroom in Jávea uitgebreid met nieuwe materiaalopstellingen om nog meer te laten zien, voelen en vergelijken."
+      }
+    ]
+  },
+  "tips": {
+    "eyebrow": "Kennis",
+    "title": "Tips & advies",
+    "intro": "Bouwen of verbouwen in Spanje roept vragen op. Hier delen we praktische kennis — eerlijk en transparant, zoals je van ons gewend bent.",
+    "items": [
+      {
+        "tag": "Aankoop",
+        "title": "Bouwen in Spanje: NIE, gestor en vergunningen",
+        "text": "Wat je nodig hebt voordat je begint, en hoe ons netwerk van advocaten en gestors je hierbij ontzorgt."
+      },
+      {
+        "tag": "Materialen",
+        "title": "Materialen kiezen voor het mediterrane klimaat",
+        "text": "Zon, zout en vocht stellen eisen aan je afwerking. Zo kies je materialen die mooi blijven aan de kust."
+      },
+      {
+        "tag": "Prijs",
+        "title": "Onze open prijsopbouw",
+        "text": "Bij Habitat One zie je precies waar je voor betaalt: de inkoopprijs van het materiaal, onze marge en de uitvoering. Open en zonder verborgen tussenlagen — zodat je nooit voor verrassingen staat."
+      },
+      {
+        "tag": "Design",
+        "title": "Binnen en buiten in één lijn",
+        "text": "Door binnen en buiten met hetzelfde materiaal af te werken, creëer je rust en ruimte. We laten je zien welke collecties naadloos overlopen van woonkamer naar terras."
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Verhalen",
+    "title": "Blog",
+    "intro": "Verhalen over materialen, design, vakmanschap en het leven aan de Costa Blanca.",
+    "items": [
+      {
+        "date": "Juni 2026",
+        "tag": "Producten",
+        "title": "Waterdamphaarden: sfeer zonder hitte",
+        "text": "Onze waterdamphaarden geven een realistische vlam zonder echt vuur — ze worden niet heet en zijn volkomen veilig. Ideaal voor verhuurwoningen, en ze brengen meteen sfeer in elke ruimte."
+      },
+      {
+        "date": "Mei 2026",
+        "tag": "Badkamer",
+        "title": "De badkamer als rustpunt",
+        "text": "Van vrijstaande baden tot solid-surface wastafels: onze badkamercollectie combineert warme materialen met strak design voor een spa-gevoel thuis."
+      },
+      {
+        "date": "April 2026",
+        "tag": "Details",
+        "title": "Kleine details, groot verschil",
+        "text": "Het zit 'm vaak in de afwerking. Met design-schakelmateriaal en sfeervolle bloempotten maak je een ruimte echt af — binnen én buiten."
+      },
+      {
+        "date": "Juni 2026",
+        "tag": "Design",
+        "title": "Waarom Flexibel Stone alles verandert",
+        "text": "Échte natuursteen die meebuigt met de muur — lichter dan tegels en eindeloos toepasbaar. Een blik op ons signature-materiaal."
+      },
+      {
+        "date": "Mei 2026",
+        "tag": "Achter de schermen",
+        "title": "Transparant bouwen: onze belofte",
+        "text": "Geen verborgen marges, geen onduidelijke tussenlagen. We vertellen hoe en waarom we werken zoals we werken."
+      },
+      {
+        "date": "April 2026",
+        "tag": "Locatie",
+        "title": "Bouwen in Xàbia: zon, steen en zee",
+        "text": "Wat het mediterrane microklimaat zo bijzonder maakt — en wat dat betekent voor je materiaalkeuze."
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Ons netwerk",
+    "title": "Partners",
+    "intro": "Habitat One werkt samen met een zorgvuldig samengesteld netwerk van specialisten die we persoonlijk kennen en vertrouwen — en die we durven aan te raden. Zo brengen we je rechtstreeks in contact met de juiste expert voor elke fase van je project.",
+    "items": [
+      {
+        "role": "Architecten",
+        "text": "Ontwerp en bouwtekeningen die licht, ruimte en het mediterrane klimaat verenigen."
+      },
+      {
+        "role": "Aannemers",
+        "text": "Betrouwbare lokale bouwers die nieuwbouw en renovatie vakkundig uitvoeren."
+      },
+      {
+        "role": "Advocaten",
+        "text": "Juridische begeleiding bij aankoop, contracten en vergunningen — in jouw taal."
+      },
+      {
+        "role": "Gestors",
+        "text": "Administratieve ondersteuning, van NIE-nummer tot belastingzaken."
+      },
+      {
+        "role": "Makelaars & investeerders",
+        "text": "Toegang tot zorgvuldig geselecteerde woningen en projecten, vaak unieke kansen."
+      },
+      {
+        "role": "Technische adviseurs",
+        "text": "Advies over installaties, duurzaamheid en energiezuinige oplossingen."
+      }
+    ],
+    "ctaTitle": "Word partner van Habitat One",
+    "ctaText": "Werk je als specialist aan de Costa Blanca en deel je onze kijk op transparantie en kwaliteit? Neem contact op.",
+    "ctaButton": "Neem contact op"
   }
 }

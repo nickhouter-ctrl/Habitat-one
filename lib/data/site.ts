@@ -25,12 +25,12 @@ export interface NavItem {
 }
 
 export const primaryNav: NavItem[] = [
+  { href: "/location", labelKey: "location" },
   { href: "/products", labelKey: "products" },
-  { href: "/spaces", labelKey: "spaces" },
-  { href: "/projects", labelKey: "projects" },
-  { href: "/properties", labelKey: "sale" },
+  { href: "/inspiration", labelKey: "inspiration" },
   { href: "/services", labelKey: "services" },
   { href: "/about", labelKey: "about" },
+  { href: "/projects", labelKey: "projects" },
   { href: "/showroom", labelKey: "showroom" },
 ];
 
