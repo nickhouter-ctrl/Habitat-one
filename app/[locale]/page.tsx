@@ -4,7 +4,6 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Hero } from "@/components/sections/hero";
 import { CtaBanner } from "@/components/sections/cta-banner";
-import { TestimonialCarousel } from "@/components/sections/testimonials";
 import { ProductsStrip } from "@/components/sections/products-strip";
 import { PinnedStorySection } from "@/components/sections/pinned-story";
 import { Container, Section } from "@/components/ui/section";
@@ -439,15 +438,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
-      {/* ---- Testimonials ---- */}
-      <Section chapter="Owners" className="bg-paper py-20 md:py-28">
-        <Container>
-          <EditorialHeading align="center" eyebrow={t("testimonialsEyebrow")} title={t("testimonialsTitle")} />
-          <div className="mt-14">
-            <TestimonialCarousel locale={locale} />
-          </div>
-        </Container>
-      </Section>
+      {/* ---- Testimonials — tijdelijk verborgen tot er echte reviews zijn.
+           Sectie + TestimonialCarousel-import staan in git-historie; terugzetten
+           zodra eigen reviews beschikbaar zijn. ---- */}
 
       {/* ---- Closing clip — full-bleed video band near the bottom ---- */}
       <section className="relative w-full overflow-hidden bg-ink" data-chapter="Flexibel Stone">
