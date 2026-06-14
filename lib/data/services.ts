@@ -73,7 +73,7 @@ export const services: Service[] = [
     slug: "architecture-interior-design",
     icon: "Compass",
     accent: "sea",
-    image: "/categories/3.jpg",
+    image: "/projects/wip/86.jpg",
     title: {
       en: "Architecture & interior design",
       nl: "Architectuur & interieurontwerp",
@@ -121,7 +121,7 @@ export const services: Service[] = [
     slug: "construction-renovation",
     icon: "HardHat",
     accent: "olive",
-    image: "/projects/before/b5.jpg",
+    image: "/projects/wip/87.jpg",
     title: {
       en: "Construction & renovation",
       nl: "Bouw & renovatie",
@@ -169,7 +169,7 @@ export const services: Service[] = [
     slug: "property-search-acquisition",
     icon: "Home",
     accent: "gold",
-    image: "/property/p2.jpg",
+    image: "/projects/wip/93.jpg",
     title: {
       en: "Property search & acquisition",
       nl: "Woningzoektocht & aankoop",
@@ -217,7 +217,7 @@ export const services: Service[] = [
     slug: "anton-abogados-lawyer-javea",
     icon: "Scale",
     accent: "sea",
-    image: "/projects/wip/106.jpg",
+    image: "/projects/wip/92.jpg",
     isPartner: true,
     partner: {
       name: "Antón Abogados · Jávea/Xàbia",
