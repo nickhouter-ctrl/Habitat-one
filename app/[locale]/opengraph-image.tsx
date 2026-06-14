@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Habitat One — build, renovate & live beautifully in Xàbia";
+export const alt = "Habitat One — build, renovate & live beautifully in Jávea/Xàbia";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -28,12 +28,12 @@ export default function OgImage() {
             <path d="M8 31 V18 a12 12 0 0 1 24 0 V31" stroke="#faf4e8" strokeWidth="3" fill="none" />
             <circle cx="20" cy="11" r="3" fill="#e0a380" />
           </svg>
-          <div style={{ fontSize: 26, letterSpacing: 8, textTransform: "uppercase", opacity: 0.8 }}>Xàbia · Costa Blanca</div>
+          <div style={{ fontSize: 26, letterSpacing: 8, textTransform: "uppercase", opacity: 0.8 }}>Jávea/Xàbia · Costa Blanca</div>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <div style={{ fontSize: 88, fontWeight: 700, lineHeight: 1 }}>Habitat One</div>
           <div style={{ fontSize: 36, lineHeight: 1.3, maxWidth: 900, opacity: 0.85 }}>
-            Build, renovate &amp; live beautifully in Xàbia — premium materials, design, law &amp; property under one Mediterranean roof.
+            Build, renovate &amp; live beautifully in Jávea/Xàbia — premium materials, design, law &amp; property under one Mediterranean roof.
           </div>
         </div>
         <div style={{ display: "flex", gap: 36, fontSize: 22, letterSpacing: 4, textTransform: "uppercase", opacity: 0.7 }}>

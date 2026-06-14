@@ -86,7 +86,7 @@ export const testimonials: Testimonial[] = [
 
 export const heroStats: { value: string; key: string }[] = [
   { value: "25+", key: "years" },
-  { value: "500+", key: "projects" },
+  { value: "4000+", key: "projects" },
   { value: "20+", key: "materials" },
   { value: "4", key: "languages" },
 ];

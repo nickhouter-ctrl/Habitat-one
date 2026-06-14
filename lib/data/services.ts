@@ -183,10 +183,10 @@ export const services: Service[] = [
       de: "Eine kurze, ehrliche Auswahl — und ein klarer Blick darauf, was es kostet, sie zu Ihrer zu machen.",
     },
     intro: {
-      en: "We're not a high-street agency with a thousand listings. We work with a small, hand-picked set of villas, sea-view plots and renovation projects in Xàbia — and tell you the truth about each one, including the work it needs.",
-      nl: "We zijn geen kantoor met duizend aanbiedingen. We werken met een kleine, zorgvuldig gekozen set villa's, kavels met zeezicht en renovatieprojecten in Xàbia — en vertellen je de waarheid over elk ervan, inclusief het werk dat het nodig heeft.",
-      es: "No somos una agencia de calle con mil anuncios. Trabajamos con un conjunto pequeño y escogido de villas, parcelas con vistas al mar y proyectos de reforma en Xàbia — y te decimos la verdad de cada uno, incluida la obra que necesita.",
-      de: "Wir sind keine Maklerkette mit tausend Angeboten. Wir arbeiten mit einer kleinen, handverlesenen Auswahl an Villen, Grundstücken mit Meerblick und Renovierungsprojekten in Xàbia — und sagen Ihnen die Wahrheit über jedes, einschließlich der nötigen Arbeiten.",
+      en: "We're not a high-street agency with a thousand listings. We work with a small, hand-picked set of villas, sea-view plots and renovation projects in Jávea/Xàbia — and tell you the truth about each one, including the work it needs.",
+      nl: "We zijn geen kantoor met duizend aanbiedingen. We werken met een kleine, zorgvuldig gekozen set villa's, kavels met zeezicht en renovatieprojecten in Jávea/Xàbia — en vertellen je de waarheid over elk ervan, inclusief het werk dat het nodig heeft.",
+      es: "No somos una agencia de calle con mil anuncios. Trabajamos con un conjunto pequeño y escogido de villas, parcelas con vistas al mar y proyectos de reforma en Jávea/Xàbia — y te decimos la verdad de cada uno, incluida la obra que necesita.",
+      de: "Wir sind keine Maklerkette mit tausend Angeboten. Wir arbeiten mit einer kleinen, handverlesenen Auswahl an Villen, Grundstücken mit Meerblick und Renovierungsprojekten in Jávea/Xàbia — und sagen Ihnen die Wahrheit über jedes, einschließlich der nötigen Arbeiten.",
     },
     body: {
       en: [
@@ -207,10 +207,10 @@ export const services: Service[] = [
       ],
     },
     items: {
-      en: ["Brief & search across Xàbia", "Honest, survey-level assessments", "Renovation cost estimates that hold", "Accompanied viewings & negotiation", "Coordination with surveyors & lawyers", "Turn-key option: buy, design, build"],
-      nl: ["Briefing & zoektocht in heel Xàbia", "Eerlijke beoordelingen op inspectieniveau", "Renovatiekostenramingen die kloppen", "Begeleide bezichtigingen & onderhandeling", "Coördinatie met inspecteurs & juristen", "Kant-en-klaar: kopen, ontwerpen, bouwen"],
-      es: ["Briefing y búsqueda por toda Xàbia", "Valoraciones honestas a nivel de inspección", "Estimaciones de reforma que se sostienen", "Visitas acompañadas y negociación", "Coordinación con peritos y abogados", "Opción llave en mano: comprar, diseñar, construir"],
-      de: ["Briefing & Suche in ganz Xàbia", "Ehrliche Einschätzungen auf Gutachterniveau", "Renovierungskostenschätzungen, die halten", "Begleitete Besichtigungen & Verhandlung", "Koordination mit Gutachtern & Anwälten", "Schlüsselfertig-Option: kaufen, planen, bauen"],
+      en: ["Brief & search across Jávea/Xàbia", "Honest, survey-level assessments", "Renovation cost estimates that hold", "Accompanied viewings & negotiation", "Coordination with surveyors & lawyers", "Turn-key option: buy, design, build"],
+      nl: ["Briefing & zoektocht in heel Jávea/Xàbia", "Eerlijke beoordelingen op inspectieniveau", "Renovatiekostenramingen die kloppen", "Begeleide bezichtigingen & onderhandeling", "Coördinatie met inspecteurs & juristen", "Kant-en-klaar: kopen, ontwerpen, bouwen"],
+      es: ["Briefing y búsqueda por toda Jávea/Xàbia", "Valoraciones honestas a nivel de inspección", "Estimaciones de reforma que se sostienen", "Visitas acompañadas y negociación", "Coordinación con peritos y abogados", "Opción llave en mano: comprar, diseñar, construir"],
+      de: ["Briefing & Suche in ganz Jávea/Xàbia", "Ehrliche Einschätzungen auf Gutachterniveau", "Renovierungskostenschätzungen, die halten", "Begleitete Besichtigungen & Verhandlung", "Koordination mit Gutachtern & Anwälten", "Schlüsselfertig-Option: kaufen, planen, bauen"],
     },
   },
   {
@@ -220,7 +220,7 @@ export const services: Service[] = [
     image: "/projects/wip/106.jpg",
     isPartner: true,
     partner: {
-      name: "Antón Abogados · Xàbia",
+      name: "Antón Abogados · Jávea/Xàbia",
       role: {
         en: "Independent law firm — property, conveyancing & licences",
         nl: "Onafhankelijk advocatenkantoor — vastgoed, aankoop & vergunningen",
@@ -241,16 +241,16 @@ export const services: Service[] = [
       de: "Recht & Kaufabwicklung — mit Antón Abogados",
     },
     tagline: {
-      en: "Buying or building in Spain, explained in your language — by lawyers who live in Xàbia.",
-      nl: "Kopen of bouwen in Spanje, uitgelegd in jouw taal — door juristen die in Xàbia wonen.",
-      es: "Comprar o construir en España, explicado en tu idioma — por abogados que viven en Xàbia.",
-      de: "Kaufen oder bauen in Spanien, in Ihrer Sprache erklärt — von Anwälten, die in Xàbia leben.",
+      en: "Buying or building in Spain, explained in your language — by lawyers who live in Jávea/Xàbia.",
+      nl: "Kopen of bouwen in Spanje, uitgelegd in jouw taal — door juristen die in Jávea/Xàbia wonen.",
+      es: "Comprar o construir en España, explicado en tu idioma — por abogados que viven en Jávea/Xàbia.",
+      de: "Kaufen oder bauen in Spanien, in Ihrer Sprache erklärt — von Anwälten, die in Jávea/Xàbia leben.",
     },
     intro: {
-      en: "We don't pretend to be lawyers. For everything legal we work hand-in-hand with Antón Abogados, an established Xàbia firm, so the paperwork — the part that quietly sinks most foreign purchases — is handled properly from day one.",
-      nl: "We doen niet alsof we juristen zijn. Voor alles wat juridisch is werken we hand in hand met Antón Abogados, een gevestigd kantoor in Xàbia, zodat het papierwerk — het deel dat de meeste buitenlandse aankopen stilletjes laat stranden — vanaf dag één goed wordt geregeld.",
-      es: "No fingimos ser abogados. Para todo lo legal trabajamos codo con codo con Antón Abogados, un despacho consolidado en Xàbia, para que el papeleo — la parte que silenciosamente hunde la mayoría de las compras de extranjeros — se gestione bien desde el primer día.",
-      de: "Wir geben nicht vor, Anwälte zu sein. Für alles Rechtliche arbeiten wir Hand in Hand mit Antón Abogados, einer etablierten Kanzlei in Xàbia, sodass der Papierkram — der Teil, der die meisten Auslandskäufe leise versenkt — von Tag eins an richtig erledigt wird.",
+      en: "We don't pretend to be lawyers. For everything legal we work hand-in-hand with Antón Abogados, an established Jávea/Xàbia firm, so the paperwork — the part that quietly sinks most foreign purchases — is handled properly from day one.",
+      nl: "We doen niet alsof we juristen zijn. Voor alles wat juridisch is werken we hand in hand met Antón Abogados, een gevestigd kantoor in Jávea/Xàbia, zodat het papierwerk — het deel dat de meeste buitenlandse aankopen stilletjes laat stranden — vanaf dag één goed wordt geregeld.",
+      es: "No fingimos ser abogados. Para todo lo legal trabajamos codo con codo con Antón Abogados, un despacho consolidado en Jávea/Xàbia, para que el papeleo — la parte que silenciosamente hunde la mayoría de las compras de extranjeros — se gestione bien desde el primer día.",
+      de: "Wir geben nicht vor, Anwälte zu sein. Für alles Rechtliche arbeiten wir Hand in Hand mit Antón Abogados, einer etablierten Kanzlei in Jávea/Xàbia, sodass der Papierkram — der Teil, der die meisten Auslandskäufe leise versenkt — von Tag eins an richtig erledigt wird.",
     },
     body: {
       en: [

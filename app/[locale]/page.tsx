@@ -299,7 +299,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         }}
       />
 
-      {/* ---- Transformations in Xàbia — before/after drag slider ---- */}
+      {/* ---- Transformations in Jávea/Xàbia — before/after drag slider ---- */}
       <Section chapter="Projects" className="bg-paper py-20 md:py-28">
         <Container>
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.4fr] lg:items-center lg:gap-16">
@@ -356,7 +356,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       {/* ---- Trust strip (typographic only) ---- */}
       <div className="border-y border-ink/10 bg-paper">
         <div className="container-x flex flex-wrap items-center justify-center gap-x-10 gap-y-3 py-6 text-[0.7rem] uppercase tracking-[0.32em] text-ink-soft/75">
-          {["Xàbia · Jávea", "Flexibel Stone", "Travertino", "Microcemento", "Solid Surface", "Terrazzo"].map((s) => (
+          {["Jávea/Xàbia", "Flexibel Stone", "Travertino", "Microcemento", "Solid Surface", "Terrazzo"].map((s) => (
             <span key={s}>{s}</span>
           ))}
         </div>
@@ -397,13 +397,13 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
-      {/* ---- Why Xàbia ---- */}
-      <Section chapter="Xàbia" className="bg-background py-20 md:py-28">
+      {/* ---- Why Jávea/Xàbia ---- */}
+      <Section chapter="Jávea/Xàbia" className="bg-background py-20 md:py-28">
         <Container>
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:items-center lg:gap-20">
             <Reveal>
               <div className="relative aspect-[4/5] overflow-hidden">
-                <Image src="/scenery/xabia-arenal.jpg" alt="Xàbia bay" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
+                <Image src="/scenery/xabia-arenal.jpg" alt="Jávea/Xàbia bay" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
               </div>
             </Reveal>
             <div>
