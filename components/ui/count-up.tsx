@@ -19,7 +19,7 @@ export function CountUp({ value, className }: { value: string; className?: strin
       duration: 1.4,
       ease: [0.16, 1, 0.3, 1],
       onUpdate(v) {
-        node.firstChild!.textContent = String(Math.round(v));
+        node.firstChild!.textContent = Math.round(v).toLocaleString();
       },
     });
     return () => controls.stop();
