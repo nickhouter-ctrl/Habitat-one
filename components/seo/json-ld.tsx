@@ -36,4 +36,8 @@ export const localBusinessJsonLd: Record<string, unknown> = {
   },
   areaServed: { "@type": "Place", name: "Costa Blanca" },
   knowsLanguage: ["en", "nl", "es", "de"],
+  // Social/profielen die Google aan dit bedrijf koppelt (alleen echte URL's).
+  sameAs: ["https://www.instagram.com/habitatonejavea/"],
+  hasMap:
+    "https://www.google.com/maps/dir/?api=1&destination=Cam%C3%AD+de+la+Fontana+3%2C+03730+J%C3%A1vea%2C+Alicante%2C+Spain",
 };
