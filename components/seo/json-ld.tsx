@@ -14,10 +14,10 @@ export function JsonLd({ data }: { data: Record<string, unknown> }) {
 export const localBusinessJsonLd: Record<string, unknown> = {
   "@context": "https://schema.org",
   "@type": "HomeGoodsStore",
-  "@id": "https://habitat-one.com/#business",
+  "@id": "https://www.habitat-one.com/#business",
   name: "Habitat One",
-  url: "https://habitat-one.com",
-  image: "https://habitat-one.com/opengraph-image",
+  url: "https://www.habitat-one.com",
+  image: "https://www.habitat-one.com/opengraph-image",
   email: "hi@habitat-one.com",
   telephone: "+31651170545",
   priceRange: "€€€",

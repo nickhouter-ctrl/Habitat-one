@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/search", "/api/"],
     },
-    sitemap: "https://habitat-one.com/sitemap.xml",
-    host: "https://habitat-one.com",
+    sitemap: "https://www.habitat-one.com/sitemap.xml",
+    host: "https://www.habitat-one.com",
   };
 }

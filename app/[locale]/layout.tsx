@@ -53,7 +53,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
   return {
-    metadataBase: new URL("https://habitat-one.com"),
+    metadataBase: new URL("https://www.habitat-one.com"),
     title: { default: t("title"), template: `%s · ${t("siteName")}` },
     description: t("description"),
     openGraph: {

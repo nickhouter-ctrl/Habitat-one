@@ -4,7 +4,7 @@ import { catalogProducts, catalogSpaces, collections } from "@/lib/data/catalog"
 import { services } from "@/lib/data/services";
 import { getPublishedProperties } from "@/lib/data/properties";
 
-const BASE = "https://habitat-one.com";
+const BASE = "https://www.habitat-one.com";
 
 // localePrefix is "as-needed" with defaultLocale "en", so English has no
 // prefix and the other locales are prefixed (/nl, /es, /de).
