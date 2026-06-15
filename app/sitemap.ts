@@ -44,7 +44,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/showroom", priority: 0.6, freq: "monthly" },
     { path: "/about", priority: 0.6, freq: "yearly" },
     { path: "/contact", priority: 0.6, freq: "yearly" },
+    { path: "/location", priority: 0.6, freq: "monthly" },
     { path: "/kitchen-planner", priority: 0.6, freq: "monthly" },
+    { path: "/inspiration", priority: 0.7, freq: "weekly" },
+    { path: "/inspiration/events", priority: 0.6, freq: "weekly" },
+    { path: "/inspiration/news", priority: 0.6, freq: "weekly" },
+    { path: "/inspiration/tips", priority: 0.6, freq: "monthly" },
+    { path: "/inspiration/blog", priority: 0.6, freq: "weekly" },
+    { path: "/inspiration/partners", priority: 0.6, freq: "monthly" },
   ];
 
   const collectionPaths = collections

@@ -1267,5 +1267,35 @@
     "ctaTitle": "Hazte colaborador de Habitat One",
     "ctaText": "¿Eres un especialista en la Costa Blanca que comparte nuestra visión de transparencia y calidad? Ponte en contacto.",
     "ctaButton": "Ponte en contacto"
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Bueno saber",
+    "items": [
+      {
+        "q": "¿Qué es exactamente Habitat One?",
+        "a": "Habitat One no es una constructora, un arquitecto ni una inmobiliaria, sino una plataforma transparente de materiales y construcción con experience center en Jávea/Xàbia. Te damos acceso a materiales de alta calidad, información honesta y una red de confianza de especialistas para cada fase de tu proyecto."
+      },
+      {
+        "q": "¿Construís vosotros mismos mi casa?",
+        "a": "No. Te ponemos en contacto con arquitectos, constructores, abogados y gestores que conocemos y en quienes confiamos personalmente. Si compras tus materiales con nosotros, nos encargamos también de la dirección, el control y el acompañamiento, incluso mientras estás en tu país de origen."
+      },
+      {
+        "q": "¿Dónde está vuestro experience center?",
+        "a": "En el corazón de Jávea/Xàbia, en la Costa Blanca, con aparcamiento gratuito. Las visitas son siempre con cita previa, para dedicarte todo el tiempo."
+      },
+      {
+        "q": "¿En qué idiomas podéis ayudarme?",
+        "a": "En neerlandés, inglés, español y alemán — igual que esta web."
+      },
+      {
+        "q": "¿Y el NIE, las licencias y la parte legal?",
+        "a": "Construir o comprar en España requiere la documentación adecuada. A través de nuestra red de abogados y gestores gestionamos la compra, el NIE, las licencias y la administración — en tu idioma."
+      },
+      {
+        "q": "¿Puedo obtener precios?",
+        "a": "Por supuesto. Trabajamos con total transparencia: ves de dónde vienen los materiales, cuánto cuestan y cómo se compone nuestro precio. Solicita un presupuesto o visita el experience center para un resumen personalizado."
+      }
+    ]
   }
 }

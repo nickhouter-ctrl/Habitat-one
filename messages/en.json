@@ -1089,5 +1089,35 @@
     "ctaTitle": "Become a Habitat One partner",
     "ctaText": "Are you a specialist on the Costa Blanca who shares our view on transparency and quality? Get in touch.",
     "ctaButton": "Get in touch"
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Good to know",
+    "items": [
+      {
+        "q": "What exactly is Habitat One?",
+        "a": "Habitat One is not a contractor, architect or realtor, but a transparent materials and building platform with an experience center in Jávea/Xàbia. We give you access to high-quality materials, honest information and a trusted network of specialists for every phase of your project."
+      },
+      {
+        "q": "Do you build my house yourselves?",
+        "a": "No. We connect you with architects, contractors, lawyers and gestors we personally know and trust. If you buy your materials through us, we also handle the direction, oversight and guidance — even while you're still in your home country."
+      },
+      {
+        "q": "Where is your experience center?",
+        "a": "In the heart of Jávea/Xàbia on the Costa Blanca, with free parking. Visits are always by appointment, so we can take all the time for you."
+      },
+      {
+        "q": "Which languages can you help me in?",
+        "a": "Dutch, English, Spanish and German — just like this website."
+      },
+      {
+        "q": "What about NIE, permits and the legal side?",
+        "a": "Building or buying in Spain requires the right paperwork. Through our network of lawyers and gestors we arrange purchase, NIE, permits and admin — in your language."
+      },
+      {
+        "q": "Can I get prices?",
+        "a": "Absolutely. We work with full transparency: you see where materials come from, what they cost and how our pricing is built up. Request a quote or visit the experience center for a personal overview."
+      }
+    ]
   }
 }

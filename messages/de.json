@@ -1267,5 +1267,35 @@
     "ctaTitle": "Werde Partner von Habitat One",
     "ctaText": "Bist du Spezialist an der Costa Blanca und teilst unsere Sicht auf Transparenz und Qualität? Melde dich.",
     "ctaButton": "Kontakt aufnehmen"
+  },
+  "faq": {
+    "eyebrow": "Häufig gestellte Fragen",
+    "title": "Gut zu wissen",
+    "items": [
+      {
+        "q": "Was ist Habitat One genau?",
+        "a": "Habitat One ist kein Bauunternehmer, Architekt oder Makler, sondern eine transparente Material- und Bauplattform mit Experience Center in Jávea/Xàbia. Wir verschaffen dir Zugang zu hochwertigen Materialien, ehrlichen Informationen und einem vertrauten Netzwerk aus Spezialisten für jede Phase deines Projekts."
+      },
+      {
+        "q": "Baut ihr mein Haus selbst?",
+        "a": "Nein. Wir bringen dich mit Architekten, Bauunternehmern, Anwälten und Gestores zusammen, die wir persönlich kennen und denen wir vertrauen. Kaufst du deine Materialien über uns, übernehmen wir auch Steuerung, Kontrolle und Begleitung — auch während du noch in deinem Heimatland bist."
+      },
+      {
+        "q": "Wo ist euer Experience Center?",
+        "a": "Im Herzen von Jávea/Xàbia an der Costa Blanca, mit kostenlosen Parkplätzen. Besuche sind immer nach Vereinbarung, damit wir uns in aller Ruhe Zeit für dich nehmen."
+      },
+      {
+        "q": "In welchen Sprachen könnt ihr mir helfen?",
+        "a": "Auf Niederländisch, Englisch, Spanisch und Deutsch — genau wie diese Website."
+      },
+      {
+        "q": "Wie sieht es mit NIE, Genehmigungen und dem Rechtlichen aus?",
+        "a": "Bauen oder Kaufen in Spanien erfordert die richtigen Papiere. Über unser Netzwerk aus Anwälten und Gestores regeln wir Kauf, NIE, Genehmigungen und Verwaltung — in deiner Sprache."
+      },
+      {
+        "q": "Kann ich Preise bekommen?",
+        "a": "Selbstverständlich. Wir arbeiten völlig transparent: Du siehst, woher Materialien kommen, was sie kosten und wie sich unser Preis zusammensetzt. Fordere ein Angebot an oder besuche das Experience Center für einen persönlichen Überblick."
+      }
+    ]
   }
 }

@@ -7,6 +7,7 @@ import { Container, Section } from "@/components/ui/section";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/ui/reveal";
 import { TiltCard } from "@/components/ui/tilt-card";
 import { CountUp } from "@/components/ui/count-up";
+import { JsonLd } from "@/components/seo/json-ld";
 import { heroStats } from "@/lib/data/site";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -21,6 +22,17 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
   const t = await getTranslations("about");
   const tn = await getTranslations("nav");
   const tStats = await getTranslations("stats");
+  const tf = await getTranslations("faq");
+  const faqItems = tf.raw("items") as { q: string; a: string }[];
+  const faqJsonLd: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
 
   const values = [
     { icon: Award, n: 1 },
@@ -156,6 +168,28 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               );
             })}
           </StaggerGroup>
+        </Container>
+      </Section>
+
+      {/* FAQ — zichtbaar + FAQPage structured data */}
+      <Section className="bg-paper">
+        <JsonLd data={faqJsonLd} />
+        <Container className="max-w-3xl">
+          <Reveal>
+            <span className="eyebrow">{tf("eyebrow")}</span>
+            <h2 className="mt-4 text-3xl text-ink sm:text-4xl">{tf("title")}</h2>
+          </Reveal>
+          <div className="mt-8 divide-y divide-sand-200 border-y border-sand-200">
+            {faqItems.map((f) => (
+              <details key={f.q} className="group py-5">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-medium text-ink [&::-webkit-details-marker]:hidden">
+                  {f.q}
+                  <span className="shrink-0 text-2xl font-light text-terracotta-700 transition-transform duration-200 group-open:rotate-45">+</span>
+                </summary>
+                <p className="mt-3 leading-relaxed text-ink-soft">{f.a}</p>
+              </details>
+            ))}
+          </div>
         </Container>
       </Section>
 

@@ -13,7 +13,7 @@ export const site = {
     "https://www.google.com/maps?q=Cam%C3%AD%20de%20la%20Fontana%203%2C%2003730%20J%C3%A1vea%2C%20Alicante%2C%20Spain&output=embed",
   languages: ["English", "Nederlands", "Español", "Deutsch"],
   social: [
-    { label: "Instagram", href: "https://instagram.com" },
+    { label: "Instagram", href: "https://www.instagram.com/habitatonejavea/" },
     { label: "Pinterest", href: "https://pinterest.com" },
     { label: "LinkedIn", href: "https://linkedin.com" },
   ],
