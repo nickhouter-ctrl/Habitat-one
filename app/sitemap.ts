@@ -52,6 +52,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/inspiration/tips", priority: 0.6, freq: "monthly" },
     { path: "/inspiration/blog", priority: 0.6, freq: "weekly" },
     { path: "/inspiration/partners", priority: 0.6, freq: "monthly" },
+    { path: "/inspiration/tips/bouwen-in-spanje-nie-vergunningen", priority: 0.6, freq: "monthly" },
   ];
 
   const collectionPaths = collections

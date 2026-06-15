@@ -994,22 +994,26 @@
       {
         "tag": "Buying",
         "title": "Building in Spain: NIE, gestor and permits",
-        "text": "What you need before you start, and how our network of lawyers and gestors takes the hassle off your hands."
+        "text": "What you need before you start, and how our network of lawyers and gestors takes the hassle off your hands.",
+        "slug": "bouwen-in-spanje-nie-vergunningen"
       },
       {
         "tag": "Materials",
         "title": "Choosing materials for the Mediterranean climate",
-        "text": "Sun, salt and humidity make demands on your finishes. Here's how to pick materials that stay beautiful by the coast."
+        "text": "Sun, salt and humidity make demands on your finishes. Here's how to pick materials that stay beautiful by the coast.",
+        "slug": "materialen-mediterraan-klimaat"
       },
       {
         "tag": "Pricing",
         "title": "Our open pricing",
-        "text": "At Habitat One you see exactly what you pay for: the purchase price of the material, our margin and the execution. Open and without hidden middle layers — so you're never caught by surprise."
+        "text": "At Habitat One you see exactly what you pay for: the purchase price of the material, our margin and the execution. Open and without hidden middle layers — so you're never caught by surprise.",
+        "slug": "onze-open-prijsopbouw"
       },
       {
         "tag": "Design",
         "title": "Indoor and outdoor in one line",
-        "text": "By finishing indoor and outdoor with the same material, you create calm and space. We show you which collections flow seamlessly from living room to terrace."
+        "text": "By finishing indoor and outdoor with the same material, you create calm and space. We show you which collections flow seamlessly from living room to terrace.",
+        "slug": "binnen-buiten-een-materiaal"
       }
     ]
   },
@@ -1119,5 +1123,55 @@
         "a": "Absolutely. We work with full transparency: you see where materials come from, what they cost and how our pricing is built up. Request a quote or visit the experience center for a personal overview."
       }
     ]
+  },
+  "tipsArticles": {
+    "bouwen-in-spanje-nie-vergunningen": {
+      "eyebrow": "Tips & advice · Buying",
+      "title": "Building in Spain: NIE, permits and gestor — what to watch out for",
+      "readTime": "5 min read",
+      "intro": "Building or buying a home on the Costa Blanca doesn't start with bricks — it starts with paperwork. Knowing the Spanish rules, or having the right people around you, prevents delays and surprises. Here's what to watch out for.",
+      "sections": [
+        {
+          "heading": "Start with your NIE number",
+          "body": [
+            "The NIE (Número de Identidad de Extranjero) is your tax identification number as a foreigner in Spain. Without an NIE you can't buy a property, pay a contractor, set up utilities or pay tax. So it's literally step one.",
+            "You apply for it at a Spanish consulate in your home country, in person at the police, or through an authorised representative. Plan this early — it can take a few weeks."
+          ]
+        },
+        {
+          "heading": "The gestor and the lawyer: two different roles",
+          "body": [
+            "In Spain a gestor handles the administrative side: NIE, taxes, registrations and forms. A lawyer (abogado) guards the legal side: purchase contracts, title checks and permits.",
+            "For a safe purchase or build you need both. Never rely solely on the selling party — an independent lawyer who represents your interest is essential."
+          ]
+        },
+        {
+          "heading": "Permits: from building licence to occupancy",
+          "body": [
+            "For new builds or major renovations you need a building permit (licencia de obra) from the town hall. Small works often only require a licencia de obra menor.",
+            "After completion comes the occupancy certificate (cédula de habitabilidad). You need it to get water and electricity in your name. Build generous permit timelines into your planning."
+          ],
+          "points": [
+            "Building permit (licencia de obra) — before you start",
+            "Occupancy certificate (cédula de habitabilidad) — at completion",
+            "Energy certificate — when selling or renting"
+          ]
+        },
+        {
+          "heading": "Common mistakes",
+          "body": [
+            "Most problems don't arise during construction, but in the paperwork beforehand: buying without an independent legal check, starting without the right permit, or buying a home that has been (partly) extended illegally. Those mistakes cost the most money and time later."
+          ]
+        },
+        {
+          "heading": "How Habitat One takes the hassle off your hands",
+          "body": [
+            "We're not a lawyer or gestor — but we work with lawyers and gestors we personally know and trust, and who speak your language. That way the paperwork, permits and purchase are in good hands while you keep the overview. Even if you're still in your home country, we handle the direction."
+          ]
+        }
+      ],
+      "ctaTitle": "Questions about your project in Spain?",
+      "ctaText": "Visit our experience center in Jávea/Xàbia or get in touch — we'll connect you with the right specialists."
+    }
   }
 }

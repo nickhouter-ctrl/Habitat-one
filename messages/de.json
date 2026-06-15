@@ -1172,22 +1172,26 @@
       {
         "tag": "Kauf",
         "title": "Bauen in Spanien: NIE, Gestor und Genehmigungen",
-        "text": "Was du vor dem Start brauchst und wie dir unser Netzwerk aus Anwälten und Gestores die Arbeit abnimmt."
+        "text": "Was du vor dem Start brauchst und wie dir unser Netzwerk aus Anwälten und Gestores die Arbeit abnimmt.",
+        "slug": "bouwen-in-spanje-nie-vergunningen"
       },
       {
         "tag": "Materialien",
         "title": "Materialien für das mediterrane Klima wählen",
-        "text": "Sonne, Salz und Feuchtigkeit fordern die Oberflächen. So wählst du Materialien, die an der Küste schön bleiben."
+        "text": "Sonne, Salz und Feuchtigkeit fordern die Oberflächen. So wählst du Materialien, die an der Küste schön bleiben.",
+        "slug": "materialen-mediterraan-klimaat"
       },
       {
         "tag": "Preis",
         "title": "Unsere offene Preisgestaltung",
-        "text": "Bei Habitat One siehst du genau, wofür du bezahlst: den Einkaufspreis des Materials, unsere Marge und die Ausführung. Offen und ohne versteckte Zwischenschichten — damit es für dich nie Überraschungen gibt."
+        "text": "Bei Habitat One siehst du genau, wofür du bezahlst: den Einkaufspreis des Materials, unsere Marge und die Ausführung. Offen und ohne versteckte Zwischenschichten — damit es für dich nie Überraschungen gibt.",
+        "slug": "onze-open-prijsopbouw"
       },
       {
         "tag": "Design",
         "title": "Innen und außen in einer Linie",
-        "text": "Wenn du innen und außen mit demselben Material gestaltest, schaffst du Ruhe und Weite. Wir zeigen dir, welche Kollektionen nahtlos vom Wohnzimmer auf die Terrasse übergehen."
+        "text": "Wenn du innen und außen mit demselben Material gestaltest, schaffst du Ruhe und Weite. Wir zeigen dir, welche Kollektionen nahtlos vom Wohnzimmer auf die Terrasse übergehen.",
+        "slug": "binnen-buiten-een-materiaal"
       }
     ]
   },
@@ -1297,5 +1301,55 @@
         "a": "Selbstverständlich. Wir arbeiten völlig transparent: Du siehst, woher Materialien kommen, was sie kosten und wie sich unser Preis zusammensetzt. Fordere ein Angebot an oder besuche das Experience Center für einen persönlichen Überblick."
       }
     ]
+  },
+  "tipsArticles": {
+    "bouwen-in-spanje-nie-vergunningen": {
+      "eyebrow": "Tipps & Beratung · Kauf",
+      "title": "Bauen in Spanien: NIE, Genehmigungen und Gestor — worauf du achten musst",
+      "readTime": "5 Min. Lesezeit",
+      "intro": "Ein Haus an der Costa Blanca zu bauen oder zu kaufen beginnt nicht mit Steinen, sondern mit Papierkram. Wer die spanischen Regeln kennt — oder die richtigen Menschen um sich hat — vermeidet Verzögerungen und Überraschungen. Darauf solltest du achten.",
+      "sections": [
+        {
+          "heading": "Beginne mit deiner NIE-Nummer",
+          "body": [
+            "Die NIE (Número de Identidad de Extranjero) ist deine steuerliche Identifikationsnummer als Ausländer in Spanien. Ohne NIE kannst du keine Immobilie kaufen, keinen Bauunternehmer bezahlen, keine Versorgung anmelden und keine Steuern zahlen. Sie ist also buchstäblich Schritt eins.",
+            "Du beantragst sie bei einem spanischen Konsulat in deinem Heimatland, persönlich bei der Polizei oder über einen Bevollmächtigten. Plane das früh ein — es kann einige Wochen dauern."
+          ]
+        },
+        {
+          "heading": "Gestor und Anwalt: zwei verschiedene Rollen",
+          "body": [
+            "In Spanien übernimmt ein Gestor die administrative Seite: NIE, Steuern, Anmeldungen und Formulare. Ein Anwalt (Abogado) wacht über die rechtliche Seite: Kaufverträge, Eigentumsprüfung und Genehmigungen.",
+            "Für einen sicheren Kauf oder Bau brauchst du beide. Verlass dich nie allein auf die verkaufende Partei — ein unabhängiger Anwalt, der deine Interessen vertritt, ist unverzichtbar."
+          ]
+        },
+        {
+          "heading": "Genehmigungen: von der Baugenehmigung bis zur Bewohnbarkeit",
+          "body": [
+            "Für Neubau oder umfangreiche Renovierungen brauchst du eine Baugenehmigung (licencia de obra) der Gemeinde. Für kleine Arbeiten genügt oft eine licencia de obra menor.",
+            "Nach der Fertigstellung folgt die Bewohnbarkeitsbescheinigung (cédula de habitabilidad). Du brauchst sie, um Wasser und Strom auf deinen Namen zu bekommen. Plane großzügige Genehmigungsfristen ein."
+          ],
+          "points": [
+            "Baugenehmigung (licencia de obra) — vor dem Start",
+            "Bewohnbarkeitsbescheinigung (cédula de habitabilidad) — bei Fertigstellung",
+            "Energieausweis — bei Verkauf oder Vermietung"
+          ]
+        },
+        {
+          "heading": "Häufige Fehler",
+          "body": [
+            "Die meisten Probleme entstehen nicht beim Bauen, sondern im Papierkram davor: kaufen ohne unabhängige rechtliche Prüfung, starten ohne die richtige Genehmigung, oder eine Immobilie kaufen, die (teilweise) illegal erweitert wurde. Diese Fehler kosten später am meisten Geld und Zeit."
+          ]
+        },
+        {
+          "heading": "Wie Habitat One dir die Arbeit abnimmt",
+          "body": [
+            "Wir sind weder Anwalt noch Gestor — aber wir arbeiten mit Anwälten und Gestores, die wir persönlich kennen und denen wir vertrauen, und die deine Sprache sprechen. So sind Papierkram, Genehmigungen und Kauf in guten Händen, während du den Überblick behältst. Auch wenn du noch in deinem Heimatland bist, übernehmen wir die Steuerung."
+          ]
+        }
+      ],
+      "ctaTitle": "Fragen zu deinem Projekt in Spanien?",
+      "ctaText": "Besuche unser Experience Center in Jávea/Xàbia oder nimm Kontakt auf — wir verbinden dich mit den richtigen Spezialisten."
+    }
   }
 }

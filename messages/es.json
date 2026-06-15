@@ -1172,22 +1172,26 @@
       {
         "tag": "Compra",
         "title": "Construir en España: NIE, gestor y licencias",
-        "text": "Lo que necesitas antes de empezar, y cómo nuestra red de abogados y gestores te lo pone fácil."
+        "text": "Lo que necesitas antes de empezar, y cómo nuestra red de abogados y gestores te lo pone fácil.",
+        "slug": "bouwen-in-spanje-nie-vergunningen"
       },
       {
         "tag": "Materiales",
         "title": "Elegir materiales para el clima mediterráneo",
-        "text": "El sol, la sal y la humedad exigen mucho a los acabados. Así eliges materiales que se mantienen bonitos junto al mar."
+        "text": "El sol, la sal y la humedad exigen mucho a los acabados. Así eliges materiales que se mantienen bonitos junto al mar.",
+        "slug": "materialen-mediterraan-klimaat"
       },
       {
         "tag": "Precio",
         "title": "Nuestra estructura de precios abierta",
-        "text": "En Habitat One ves exactamente por qué pagas: el precio de compra del material, nuestro margen y la ejecución. De forma abierta y sin capas intermedias ocultas — para que nunca te lleves una sorpresa."
+        "text": "En Habitat One ves exactamente por qué pagas: el precio de compra del material, nuestro margen y la ejecución. De forma abierta y sin capas intermedias ocultas — para que nunca te lleves una sorpresa.",
+        "slug": "onze-open-prijsopbouw"
       },
       {
         "tag": "Diseño",
         "title": "Interior y exterior en una sola línea",
-        "text": "Al rematar interior y exterior con el mismo material, creas calma y amplitud. Te mostramos qué colecciones fluyen sin interrupción del salón a la terraza."
+        "text": "Al rematar interior y exterior con el mismo material, creas calma y amplitud. Te mostramos qué colecciones fluyen sin interrupción del salón a la terraza.",
+        "slug": "binnen-buiten-een-materiaal"
       }
     ]
   },
@@ -1297,5 +1301,55 @@
         "a": "Por supuesto. Trabajamos con total transparencia: ves de dónde vienen los materiales, cuánto cuestan y cómo se compone nuestro precio. Solicita un presupuesto o visita el experience center para un resumen personalizado."
       }
     ]
+  },
+  "tipsArticles": {
+    "bouwen-in-spanje-nie-vergunningen": {
+      "eyebrow": "Consejos · Compra",
+      "title": "Construir en España: NIE, licencias y gestor — a qué prestar atención",
+      "readTime": "5 min de lectura",
+      "intro": "Construir o comprar una vivienda en la Costa Blanca no empieza con ladrillos, sino con papeleo. Conocer las normas españolas —o rodearte de las personas adecuadas— evita retrasos y sorpresas. Esto es lo que debes tener en cuenta.",
+      "sections": [
+        {
+          "heading": "Empieza por tu número NIE",
+          "body": [
+            "El NIE (Número de Identidad de Extranjero) es tu número de identificación fiscal como extranjero en España. Sin NIE no puedes comprar una vivienda, pagar a un constructor, dar de alta los suministros ni pagar impuestos. Es, literalmente, el primer paso.",
+            "Se solicita en un consulado español en tu país, en persona ante la policía, o mediante un representante autorizado. Planifícalo con antelación — puede tardar varias semanas."
+          ]
+        },
+        {
+          "heading": "El gestor y el abogado: dos funciones distintas",
+          "body": [
+            "En España, un gestor se encarga de la parte administrativa: NIE, impuestos, altas y formularios. Un abogado vela por la parte jurídica: contratos de compraventa, comprobación de la titularidad y licencias.",
+            "Para una compra o construcción segura necesitas ambos. Nunca te guíes solo por la parte vendedora — un abogado independiente que defienda tus intereses es esencial."
+          ]
+        },
+        {
+          "heading": "Licencias: de la licencia de obra a la de ocupación",
+          "body": [
+            "Para obra nueva o reformas importantes necesitas una licencia de obra del ayuntamiento. Para trabajos pequeños suele bastar una licencia de obra menor.",
+            "Tras la finalización llega la cédula de habitabilidad. La necesitas para poner el agua y la luz a tu nombre. Calcula plazos amplios para las licencias en tu planificación."
+          ],
+          "points": [
+            "Licencia de obra — antes de empezar",
+            "Cédula de habitabilidad — al finalizar",
+            "Certificado energético — al vender o alquilar"
+          ]
+        },
+        {
+          "heading": "Errores frecuentes",
+          "body": [
+            "La mayoría de los problemas no surgen durante la construcción, sino en el papeleo previo: comprar sin una comprobación jurídica independiente, empezar sin la licencia adecuada, o comprar una vivienda ampliada (en parte) de forma ilegal. Esos errores son los que más dinero y tiempo cuestan después."
+          ]
+        },
+        {
+          "heading": "Cómo Habitat One te lo pone fácil",
+          "body": [
+            "No somos abogados ni gestores, pero trabajamos con abogados y gestores que conocemos y en quienes confiamos personalmente, y que hablan tu idioma. Así, el papeleo, las licencias y la compra quedan en buenas manos mientras tú mantienes la visión de conjunto. Incluso si todavía estás en tu país, nosotros llevamos la dirección."
+          ]
+        }
+      ],
+      "ctaTitle": "¿Dudas sobre tu proyecto en España?",
+      "ctaText": "Visita nuestro experience center en Jávea/Xàbia o ponte en contacto — te conectamos con los especialistas adecuados."
+    }
   }
 }

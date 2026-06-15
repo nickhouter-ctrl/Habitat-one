@@ -1172,22 +1172,26 @@
       {
         "tag": "Aankoop",
         "title": "Bouwen in Spanje: NIE, gestor en vergunningen",
-        "text": "Wat je nodig hebt voordat je begint, en hoe ons netwerk van advocaten en gestors je hierbij ontzorgt."
+        "text": "Wat je nodig hebt voordat je begint, en hoe ons netwerk van advocaten en gestors je hierbij ontzorgt.",
+        "slug": "bouwen-in-spanje-nie-vergunningen"
       },
       {
         "tag": "Materialen",
         "title": "Materialen kiezen voor het mediterrane klimaat",
-        "text": "Zon, zout en vocht stellen eisen aan je afwerking. Zo kies je materialen die mooi blijven aan de kust."
+        "text": "Zon, zout en vocht stellen eisen aan je afwerking. Zo kies je materialen die mooi blijven aan de kust.",
+        "slug": "materialen-mediterraan-klimaat"
       },
       {
         "tag": "Prijs",
         "title": "Onze open prijsopbouw",
-        "text": "Bij Habitat One zie je precies waar je voor betaalt: de inkoopprijs van het materiaal, onze marge en de uitvoering. Open en zonder verborgen tussenlagen — zodat je nooit voor verrassingen staat."
+        "text": "Bij Habitat One zie je precies waar je voor betaalt: de inkoopprijs van het materiaal, onze marge en de uitvoering. Open en zonder verborgen tussenlagen — zodat je nooit voor verrassingen staat.",
+        "slug": "onze-open-prijsopbouw"
       },
       {
         "tag": "Design",
         "title": "Binnen en buiten in één lijn",
-        "text": "Door binnen en buiten met hetzelfde materiaal af te werken, creëer je rust en ruimte. We laten je zien welke collecties naadloos overlopen van woonkamer naar terras."
+        "text": "Door binnen en buiten met hetzelfde materiaal af te werken, creëer je rust en ruimte. We laten je zien welke collecties naadloos overlopen van woonkamer naar terras.",
+        "slug": "binnen-buiten-een-materiaal"
       }
     ]
   },
@@ -1297,5 +1301,55 @@
         "a": "Jazeker. We werken volledig transparant: je ziet waar materialen vandaan komen, wat ze kosten en hoe onze prijsopbouw eruitziet. Vraag een offerte aan of bezoek het experience center voor een persoonlijk overzicht."
       }
     ]
+  },
+  "tipsArticles": {
+    "bouwen-in-spanje-nie-vergunningen": {
+      "eyebrow": "Tips & advies · Aankoop",
+      "title": "Bouwen in Spanje: NIE, vergunningen en gestor — waar moet je op letten?",
+      "readTime": "5 min leestijd",
+      "intro": "Een huis bouwen of kopen aan de Costa Blanca begint niet met stenen, maar met papierwerk. Wie de Spaanse regels kent — of de juiste mensen om zich heen heeft — voorkomt vertraging en verrassingen. Dit is waar je op moet letten.",
+      "sections": [
+        {
+          "heading": "Begin met je NIE-nummer",
+          "body": [
+            "Het NIE (Número de Identidad de Extranjero) is je fiscale identificatienummer als buitenlander in Spanje. Zonder NIE kun je geen woning kopen, geen aannemer betalen, geen nutsvoorzieningen aanvragen en geen belasting afdragen. Het is dus letterlijk stap één.",
+            "Je vraagt het aan bij een Spaans consulaat in je thuisland, ter plaatse bij de politie, of via een gemachtigde. Plan dit vroeg — het kan enkele weken duren."
+          ]
+        },
+        {
+          "heading": "De gestor en de advocaat: twee verschillende rollen",
+          "body": [
+            "In Spanje regelt een gestor de administratieve kant: NIE, belastingen, inschrijvingen en formulieren. Een advocaat (abogado) bewaakt de juridische kant: koopcontracten, eigendomscontrole en vergunningen.",
+            "Voor een veilige aankoop of bouw heb je beide nodig. Laat je nooit puur leiden door de verkopende partij — een onafhankelijke advocaat die jóuw belang behartigt is essentieel."
+          ]
+        },
+        {
+          "heading": "Vergunningen: van bouwvergunning tot bewoning",
+          "body": [
+            "Voor nieuwbouw of een ingrijpende verbouwing heb je een bouwvergunning (licencia de obra) nodig van de gemeente. Voor kleine werken volstaat vaak een licencia de obra menor.",
+            "Na oplevering volgt de bewoningsvergunning (cédula de habitabilidad). Die heb je nodig om water en elektra op je naam te krijgen. Reken vergunningstermijnen ruim in je planning."
+          ],
+          "points": [
+            "Bouwvergunning (licencia de obra) — vóór de start",
+            "Bewoningsvergunning (cédula de habitabilidad) — bij oplevering",
+            "Energiecertificaat — bij verkoop of verhuur"
+          ]
+        },
+        {
+          "heading": "Veelgemaakte fouten",
+          "body": [
+            "De meeste problemen ontstaan niet tijdens het bouwen, maar in de papieren ervóór: kopen zonder onafhankelijke juridische check, starten zonder de juiste vergunning, of een woning kopen die (deels) illegaal is uitgebreid. Juist die fouten kosten later het meeste geld en tijd."
+          ]
+        },
+        {
+          "heading": "Hoe Habitat One je ontzorgt",
+          "body": [
+            "Wij zijn geen advocaat of gestor — maar we werken samen met advocaten en gestors die we persoonlijk kennen en vertrouwen, en die jouw taal spreken. Zo komen het papierwerk, de vergunningen en de aankoop in goede handen, terwijl jij het overzicht houdt. Ook als je nog in je thuisland woont, verzorgen wij de regie."
+          ]
+        }
+      ],
+      "ctaTitle": "Vragen over jouw project in Spanje?",
+      "ctaText": "Bezoek ons experience center in Jávea/Xàbia of neem contact op — we verbinden je met de juiste specialisten."
+    }
   }
 }
