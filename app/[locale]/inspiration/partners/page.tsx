@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
@@ -13,7 +14,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "partners" });
-  return { title: t("title"), description: t("intro") };
+  return {
+    alternates: seoAlternates(locale, "/inspiration/partners"), title: t("title"), description: t("intro") };
 }
 
 export default async function PartnersPage({ params }: { params: Promise<{ locale: string }> }) {

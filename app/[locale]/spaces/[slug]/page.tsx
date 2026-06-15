@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const s = getSpaceBySlug(slug);
   if (!s) return { title: "Space" };
   const t = await getTranslations({ locale, namespace: "spaces" });
-  return { title: t(`names.${slug}`), description: t(`descriptions.${slug}`) };
+  return { alternates: seoAlternates(locale, `/spaces/${slug}`), title: t(`names.${slug}`), description: t(`descriptions.${slug}`) };
 }
 
 export default async function SpaceDetailPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {

@@ -64,6 +64,20 @@ export async function generateMetadata({
       locale,
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+    },
+    keywords: [
+      "bouwmaterialen Jávea",
+      "experience center Costa Blanca",
+      "Flexibel Stone",
+      "sfeerhaarden",
+      "bouwen in Spanje",
+      "renoveren Costa Blanca",
+      "transparant bouwen",
+    ],
     // Google Search Console: set GOOGLE_SITE_VERIFICATION in Vercel to the
     // "content" value of the HTML-tag verification method (or verify by DNS).
     verification: process.env.GOOGLE_SITE_VERIFICATION

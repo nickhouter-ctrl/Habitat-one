@@ -18,6 +18,7 @@ export const localBusinessJsonLd: Record<string, unknown> = {
   name: "Habitat One",
   url: "https://www.habitat-one.com",
   image: "https://www.habitat-one.com/opengraph-image",
+  logo: "https://www.habitat-one.com/logo-habitat.png",
   email: "hi@habitat-one.com",
   telephone: "+31651170545",
   priceRange: "€€€",
@@ -41,3 +42,36 @@ export const localBusinessJsonLd: Record<string, unknown> = {
   hasMap:
     "https://www.google.com/maps/dir/?api=1&destination=Cam%C3%AD+de+la+Fontana+3%2C+03730+J%C3%A1vea%2C+Alicante%2C+Spain",
 };
+
+// Homepage: WebSite-schema met zoekactie (kans op een sitelinks-zoekbox in Google).
+export const websiteJsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://www.habitat-one.com/#website",
+  url: "https://www.habitat-one.com",
+  name: "Habitat One",
+  inLanguage: ["en", "nl", "es", "de"],
+  publisher: { "@id": "https://www.habitat-one.com/#business" },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://www.habitat-one.com/search?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+// Breadcrumb-trail voor detailpagina's — helpt breadcrumb-rich-results in de SERP.
+export function breadcrumbJsonLd(items: { name: string; url: string }[]): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((it, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: it.name,
+      item: it.url,
+    })),
+  };
+}

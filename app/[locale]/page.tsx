@@ -15,6 +15,18 @@ import { BeforeAfter } from "@/components/ui/before-after";
 import { LazyVideo } from "@/components/ui/lazy-video";
 import { getProductBySlug, productsByCollection } from "@/lib/data/catalog";
 import { projects } from "@/lib/data/projects";
+import type { Metadata } from "next";
+import { JsonLd, websiteJsonLd } from "@/components/seo/json-ld";
+import { seoAlternates } from "@/lib/seo/alternates";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return { alternates: seoAlternates(locale, "/") };
+}
 
 function EditorialHeading({
   eyebrow,
@@ -111,6 +123,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
+      <JsonLd data={websiteJsonLd} />
       <Hero />
 
       {/* ---- What is Habitat One — the one-stop building experience ---- */}

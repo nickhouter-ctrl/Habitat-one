@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/ui/page-header";
 import { Container, Section } from "@/components/ui/section";
@@ -11,7 +12,8 @@ import { spaceCover } from "@/lib/data/space-media";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "spaces" });
-  return { title: t("title"), description: t("intro") };
+  return {
+    alternates: seoAlternates(locale, "/spaces"), title: t("title"), description: t("intro") };
 }
 
 export default async function SpacesPage({ params }: { params: Promise<{ locale: string }> }) {

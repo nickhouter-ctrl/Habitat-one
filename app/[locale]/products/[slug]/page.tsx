@@ -12,7 +12,8 @@ import { BackLink } from "@/components/ui/back-link";
 import { ProductCard } from "@/components/cards/product-card";
 import { ProductDetailLayout } from "@/components/product-detail-layout";
 import { CtaBanner } from "@/components/sections/cta-banner";
-import { JsonLd } from "@/components/seo/json-ld";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
+import { seoAlternates } from "@/lib/seo/alternates";
 import {
   catalogProducts,
   getProductBySlug,
@@ -51,6 +52,7 @@ export async function generateMetadata({
   return {
     title: enName,
     description: tr.short ?? p.short ?? p.description ?? undefined,
+    alternates: seoAlternates(locale, `/products/${slug}`),
   };
 }
 
@@ -155,9 +157,17 @@ export default async function ProductDetailPage({
     url: `https://www.habitat-one.com/products/${slug}`,
   };
 
+  const cprefix = locale === "en" ? "" : `/${locale}`;
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", url: `https://www.habitat-one.com${cprefix}` },
+    { name: collectionLabel, url: `https://www.habitat-one.com${cprefix}${backHref}` },
+    { name, url: `https://www.habitat-one.com${cprefix}/products/${slug}` },
+  ]);
+
   return (
     <>
       <JsonLd data={productJsonLd} />
+      <JsonLd data={breadcrumb} />
       {/* ---- Quiet header — back-link + breadcrumb ---- */}
       <section className="bg-paper pt-24 pb-4 md:pt-28">
         <div className="container-x">

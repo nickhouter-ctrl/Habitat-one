@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -19,11 +20,11 @@ export function generateStaticParams() {
   return projects.map((p) => ({ slug: p.slug }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
+  const { locale, slug } = await params;
   const p = getProject(slug);
   if (!p) return { title: "Project" };
-  return { title: p.title, description: p.summary };
+  return { alternates: seoAlternates(locale, `/projects/${slug}`), title: p.title, description: p.summary };
 }
 
 export default async function ProjectDetailPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {

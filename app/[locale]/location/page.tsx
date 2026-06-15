@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowUpRight, CalendarCheck, Clock, MapPin, Navigation } from "lucide-react";
 import { Link } from "@/i18n/navigation";
@@ -14,7 +15,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "location" });
-  return { title: t("title"), description: t("intro") };
+  return {
+    alternates: seoAlternates(locale, "/location"), title: t("title"), description: t("intro") };
 }
 
 export default async function LocationPage({ params }: { params: Promise<{ locale: string }> }) {

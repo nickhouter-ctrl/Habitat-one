@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, slug } = await params;
   const s = getService(slug);
   if (!s) return { title: "Service" };
-  return { title: loc(s.title, locale), description: loc(s.tagline, locale) };
+  return { alternates: seoAlternates(locale, `/services/${slug}`), title: loc(s.title, locale), description: loc(s.tagline, locale) };
 }
 
 const subjectFor: Record<string, string> = {

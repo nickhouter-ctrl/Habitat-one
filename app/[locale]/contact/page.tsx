@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Mail, Phone, MapPin, Clock, Languages } from "lucide-react";
 import { PageHeader } from "@/components/ui/page-header";
@@ -13,7 +14,8 @@ type SubjectKey = (typeof subjectKeys)[number];
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "contact" });
-  return { title: t("title"), description: t("intro") };
+  return {
+    alternates: seoAlternates(locale, "/contact"), title: t("title"), description: t("intro") };
 }
 
 export default async function ContactPage({

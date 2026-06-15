@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowUpRight, Check, Quote } from "lucide-react";
@@ -16,7 +17,8 @@ import { cn } from "@/lib/utils";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "services" });
-  return { title: t("title"), description: t("intro") };
+  return {
+    alternates: seoAlternates(locale, "/services"), title: t("title"), description: t("intro") };
 }
 
 const accentBg: Record<string, string> = {
