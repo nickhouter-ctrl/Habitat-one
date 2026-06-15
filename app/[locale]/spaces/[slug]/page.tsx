@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { seoAlternates } from "@/lib/seo/alternates";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -49,8 +50,16 @@ export default async function SpaceDetailPage({ params }: { params: Promise<{ lo
   const cover = spaceCover(slug) ?? space.image;
   const gallery = spaceGallery(slug);
 
+  const cprefix = locale === "en" ? "" : `/${locale}`;
+  const _bc = breadcrumbJsonLd([
+    { name: "Home", url: `https://www.habitat-one.com${cprefix}` },
+    { name: "Ruimtes", url: `https://www.habitat-one.com${cprefix}/spaces` },
+    { name, url: `https://www.habitat-one.com${cprefix}/spaces/${slug}` },
+  ]);
+
   return (
     <>
+      <JsonLd data={_bc} />
       <PageHeader eyebrow={`${t("eyebrow")} · ${envLabel}`} title={name} intro={`${t("ideasFor")} ${name.toLowerCase()}`} image={cover ?? "/categories/3.jpg"} size="compact">
         <div className="mt-7">
           <BackLink href="/spaces" label={t("title")} />

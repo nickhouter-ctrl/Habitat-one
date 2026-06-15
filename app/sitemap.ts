@@ -53,6 +53,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/inspiration/blog", priority: 0.6, freq: "weekly" },
     { path: "/inspiration/partners", priority: 0.6, freq: "monthly" },
     { path: "/inspiration/tips/bouwen-in-spanje-nie-vergunningen", priority: 0.6, freq: "monthly" },
+    { path: "/inspiration/tips/materialen-mediterraan-klimaat", priority: 0.6, freq: "monthly" },
+    { path: "/inspiration/tips/onze-open-prijsopbouw", priority: 0.6, freq: "monthly" },
+    { path: "/inspiration/tips/binnen-buiten-een-materiaal", priority: 0.6, freq: "monthly" },
   ];
 
   const collectionPaths = collections

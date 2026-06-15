@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { seoAlternates } from "@/lib/seo/alternates";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -43,8 +44,16 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
   const subject = subjectFor[slug] ?? "general";
   const others = services.filter((s) => s.slug !== slug);
 
+  const cprefix = locale === "en" ? "" : `/${locale}`;
+  const _bc = breadcrumbJsonLd([
+    { name: "Home", url: `https://www.habitat-one.com${cprefix}` },
+    { name: "Diensten", url: `https://www.habitat-one.com${cprefix}/services` },
+    { name: loc(service.title, locale), url: `https://www.habitat-one.com${cprefix}/services/${slug}` },
+  ]);
+
   return (
     <>
+      <JsonLd data={_bc} />
       <Section className="bg-sea-900 pt-28 pb-0 text-cream md:pt-32">
         <Container className="relative">
           <BackLink href="/services" label={t("title")} />

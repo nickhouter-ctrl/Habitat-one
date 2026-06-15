@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { seoAlternates } from "@/lib/seo/alternates";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -45,8 +46,16 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
   const hasComparison = !!before && !!after && before !== after;
   const heroImage = after ?? before ?? project.gallery[0] ?? "/site/hero_background.jpg";
 
+  const cprefix = locale === "en" ? "" : `/${locale}`;
+  const _bc = breadcrumbJsonLd([
+    { name: "Home", url: `https://www.habitat-one.com${cprefix}` },
+    { name: "Projecten", url: `https://www.habitat-one.com${cprefix}/projects` },
+    { name: project.title, url: `https://www.habitat-one.com${cprefix}/projects/${slug}` },
+  ]);
+
   return (
     <>
+      <JsonLd data={_bc} />
       {/* ---- Full-bleed hero (Cliff House style) ---- */}
       <section className="relative isolate overflow-hidden bg-paper">
         <div className="relative h-[78svh] min-h-[560px] w-full overflow-hidden">

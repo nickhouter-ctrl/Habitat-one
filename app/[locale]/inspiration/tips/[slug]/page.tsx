@@ -6,10 +6,11 @@ import { Link } from "@/i18n/navigation";
 import { PageHeader } from "@/components/ui/page-header";
 import { Container, Section } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
-import { JsonLd } from "@/components/seo/json-ld";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
+import { seoAlternates } from "@/lib/seo/alternates";
 
 // Gepubliceerde artikelen (slug). Voeg hier toe zodra een nieuw artikel klaar is.
-const PUBLISHED = ["bouwen-in-spanje-nie-vergunningen"];
+const PUBLISHED = ["bouwen-in-spanje-nie-vergunningen", "materialen-mediterraan-klimaat", "onze-open-prijsopbouw", "binnen-buiten-een-materiaal"];
 
 type Article = {
   eyebrow: string;
@@ -34,7 +35,11 @@ export async function generateMetadata({
   if (!PUBLISHED.includes(slug)) return { title: "Tips & advies" };
   const t = await getTranslations({ locale, namespace: "tipsArticles" });
   const a = t.raw(slug) as Article;
-  return { title: a.title, description: a.intro };
+  return {
+    title: a.title,
+    description: a.intro,
+    alternates: seoAlternates(locale, `/inspiration/tips/${slug}`),
+  };
 }
 
 export default async function TipArticlePage({
@@ -67,9 +72,16 @@ export default async function TipArticlePage({
     mainEntityOfPage: url,
   };
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", url: `https://www.habitat-one.com${prefix}` },
+    { name: "Tips & advies", url: `https://www.habitat-one.com${prefix}/inspiration/tips` },
+    { name: a.title, url },
+  ]);
+
   return (
     <>
       <JsonLd data={articleJsonLd} />
+      <JsonLd data={breadcrumb} />
       <PageHeader eyebrow={`${a.eyebrow} · ${a.readTime}`} title={a.title} intro={a.intro} image="/projects/wip/87.jpg" />
 
       <Section>

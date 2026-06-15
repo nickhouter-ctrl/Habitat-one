@@ -1350,6 +1350,126 @@
       ],
       "ctaTitle": "¿Dudas sobre tu proyecto en España?",
       "ctaText": "Visita nuestro experience center en Jávea/Xàbia o ponte en contacto — te conectamos con los especialistas adecuados."
+    },
+    "materialen-mediterraan-klimaat": {
+      "eyebrow": "Consejos · Materiales",
+      "title": "Elegir materiales para el clima mediterráneo",
+      "readTime": "4 min de lectura",
+      "intro": "En la Costa Blanca, el sol, la sal y la humedad actúan sin descanso sobre tu casa. Materiales que funcionan bien en el interior pueden decolorarse, agrietarse o corroerse rápido junto al mar. Así eliges acabados que se mantienen bonitos y resistentes.",
+      "sections": [
+        {
+          "heading": "Sol, sal y humedad: el verdadero reto",
+          "body": [
+            "La combinación de UV intenso, aire marino salino y alta humedad es implacable. Los recubrimientos baratos se decoloran, el metal sin tratar se oxida y la piedra porosa absorbe humedad y sal. Por eso, elige materiales específicamente resistentes."
+          ]
+        },
+        {
+          "heading": "Materiales que aguantan el clima costero",
+          "body": [
+            "Seleccionamos a conciencia acabados probados junto al mar:"
+          ],
+          "points": [
+            "Piedra natural y travertino con el sellado adecuado — cálidos y atemporales",
+            "Flexibel Stone: resistente a sal, sol y humedad, interior y exterior",
+            "Microcemento y terrazo para suelos continuos y resistentes",
+            "Herrajes lacados o de acero inoxidable contra la corrosión"
+          ]
+        },
+        {
+          "heading": "Interior vs. exterior",
+          "body": [
+            "En el exterior las exigencias son mayores: resistencia a las heladas, antideslizante en piscina y terraza, y solidez del color a pleno sol. En el interior pesa más la sensación, el mantenimiento y la acústica. Ajustamos la variante adecuada por estancia."
+          ]
+        },
+        {
+          "heading": "El mantenimiento decide la vida útil",
+          "body": [
+            "Incluso el mejor material requiere cuidado: sellar la piedra natural a tiempo, aclarar las fachadas tras las tormentas de arena y usar limpiadores suaves en vez de productos agresivos. Un buen consejo previo evita errores caros."
+          ]
+        }
+      ],
+      "ctaTitle": "¿Dudas con un material?",
+      "ctaText": "Ven a verlo, tocarlo y compararlo en nuestro experience center — te asesoramos para el clima costero."
+    },
+    "onze-open-prijsopbouw": {
+      "eyebrow": "Consejos · Precio",
+      "title": "Precios transparentes: así funciona con nosotros",
+      "readTime": "3 min de lectura",
+      "intro": "El sector de la construcción es conocido por presupuestos confusos y márgenes ocultos. En Habitat One lo hacemos distinto: ves exactamente por qué pagas. Así se compone nuestro precio.",
+      "sections": [
+        {
+          "heading": "Por qué los precios suelen ser opacos",
+          "body": [
+            "En una obra tradicional suele haber varias capas intermedias entre tú y el fabricante, cada una con su propio margen invisible. Por eso rara vez sabes cuánto pagas realmente por el material y cuánto por la intermediación."
+          ]
+        },
+        {
+          "heading": "Nuestra composición: compra + margen + ejecución",
+          "body": [
+            "Compramos directamente a fabricantes de Asia, Italia, España y otros países europeos. Nuestro precio tiene tres partes claras: el precio de compra del material, nuestro propio margen y (opcionalmente) la ejecución por colaboradores de nuestra red."
+          ]
+        },
+        {
+          "heading": "Lo que ves de nosotros",
+          "body": [
+            "Cuando pides un presupuesto, lo ponemos abiertamente sobre la mesa:"
+          ],
+          "points": [
+            "De dónde viene el material y quién es el fabricante",
+            "El precio de compra",
+            "El margen que aplicamos",
+            "Las partes implicadas en tu proyecto"
+          ]
+        },
+        {
+          "heading": "Por qué la transparencia compensa",
+          "body": [
+            "Los precios abiertos evitan sorpresas, facilitan la comparación y generan confianza. Mantienes el control y tomas mejores decisiones — justo por lo que acudes a Habitat One."
+          ]
+        }
+      ],
+      "ctaTitle": "¿Quieres un precio justo?",
+      "ctaText": "Solicita un presupuesto transparente o visita nuestro experience center."
+    },
+    "binnen-buiten-een-materiaal": {
+      "eyebrow": "Consejos · Diseño",
+      "title": "Interior y exterior en un material continuo",
+      "readTime": "3 min de lectura",
+      "intro": "Nada transmite tanta calma y amplitud como un acabado que fluye sin interrupción del salón a la terraza. Con la elección de material adecuada, fundes el interior y el exterior en uno.",
+      "sections": [
+        {
+          "heading": "Por qué funcionan los materiales continuos",
+          "body": [
+            "Un mismo material de dentro hacia fuera borra el límite entre los espacios. La mirada se dirige al exterior, tu casa se siente más grande y la luz mediterránea hace el resto. En la Costa Blanca, donde se vive mucho fuera, eso vale oro."
+          ]
+        },
+        {
+          "heading": "Materiales que sirven dentro y fuera",
+          "body": [
+            "No todo material sirve para ambos. Estos sí:"
+          ],
+          "points": [
+            "Flexibel Stone — el mismo aspecto pétreo en pared y fachada",
+            "Travertino y caliza de gran formato, dentro y en la terraza",
+            "Microcemento en un tono continuo y sin juntas",
+            "Terrazo para suelos y bordes exteriores"
+          ]
+        },
+        {
+          "heading": "Aspectos prácticos a tener en cuenta",
+          "body": [
+            "En la transición, ten en cuenta algunas cosas: elige una variante antideslizante en el exterior, asegura la resistencia a las heladas y prevé un acabado ligeramente distinto fuera para el agarre — manteniendo idénticos el color y el aspecto."
+          ]
+        },
+        {
+          "heading": "De la idea a la ejecución",
+          "body": [
+            "En nuestro experience center ves cómo las colecciones fluyen de dentro hacia fuera, y pensamos contigo en las transiciones, umbrales y detalles adecuados — para un resultado depurado y duradero."
+          ]
+        }
+      ],
+      "ctaTitle": "¿Quieres fundir interior y exterior?",
+      "ctaText": "Pásate por el experience center o ponte en contacto para asesoramiento a medida."
     }
   }
 }

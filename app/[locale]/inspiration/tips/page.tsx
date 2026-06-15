@@ -8,7 +8,7 @@ import { Link } from "@/i18n/navigation";
 import { ArrowUpRight } from "lucide-react";
 
 // Slugs met een volledig artikel (klikbaar). Rest blijft een statische kaart.
-const PUBLISHED = ["bouwen-in-spanje-nie-vergunningen"];
+const PUBLISHED = ["bouwen-in-spanje-nie-vergunningen", "materialen-mediterraan-klimaat", "onze-open-prijsopbouw", "binnen-buiten-een-materiaal"];
 
 export async function generateMetadata({
   params,
