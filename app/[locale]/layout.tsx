@@ -14,6 +14,7 @@ import { QuoteProvider } from "@/components/quote-context";
 import { QuoteRequestForm } from "@/components/quote-request-form";
 import { JsonLd, localBusinessJsonLd } from "@/components/seo/json-ld";
 import { CookieConsent } from "@/components/analytics/cookie-consent";
+import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import "../globals.css";
 
 const montserrat = Montserrat({
@@ -89,6 +90,7 @@ export default async function LocaleLayout({
     >
       <body className="min-h-full flex flex-col bg-background text-ink antialiased">
         <JsonLd data={localBusinessJsonLd} />
+        <GoogleAnalytics />
         <CookieConsent locale={locale} />
         <NextIntlClientProvider>
           <QuoteProvider>
