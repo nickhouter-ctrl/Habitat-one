@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { X, ArrowUpRight, CheckCircle2, Minus, Plus } from "lucide-react";
 import { useQuote } from "@/components/quote-context";
+import { trackEvent } from "@/lib/analytics/track";
 
 const CRM_API =
   process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
@@ -204,6 +205,7 @@ export function QuoteRequestForm() {
         setSubmitting(false);
         return;
       }
+      trackEvent("generate_lead", { form: "quote", method: "form", items: items.length });
       clearItems();
       setSuccess(true);
     } catch {

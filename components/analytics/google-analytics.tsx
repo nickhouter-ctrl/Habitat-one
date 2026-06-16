@@ -17,6 +17,15 @@ export function GoogleAnalytics() {
       <Script id="ga4-init" strategy="afterInteractive">
         {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
+window.gtag = gtag;
+// Consent Mode v2 — dit script laadt pas nadat de bezoeker de analyse-cookies
+// heeft geaccepteerd, dus toestemming staat hier op 'granted' (klaar voor Ads).
+gtag('consent', 'default', {
+  ad_storage: 'granted',
+  ad_user_data: 'granted',
+  ad_personalization: 'granted',
+  analytics_storage: 'granted',
+});
 gtag('js', new Date());
 gtag('config', '${id}');`}
       </Script>

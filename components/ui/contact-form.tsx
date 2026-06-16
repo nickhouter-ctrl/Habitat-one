@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "motion/react";
 import { Send, CheckCircle2, Loader2 } from "lucide-react";
+import { trackEvent } from "@/lib/analytics/track";
 
 const subjectKeys = ["general", "materials", "renovation", "property", "legal", "showroom"] as const;
 
@@ -48,6 +49,9 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
         }),
       });
       setState(res.ok ? "sent" : "error");
+      if (res.ok) {
+        trackEvent("generate_lead", { form: "contact", subject, method: "form" });
+      }
     } catch {
       setState("error");
     }
