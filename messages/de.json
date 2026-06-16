@@ -788,7 +788,11 @@
           "v": "EN 1634-1 · EN 13501-2 · EN ISO 717-1"
         }
       ]
-    }
+    },
+    "docsTitle": "Dokumente & Downloads",
+    "docsLead": "Laden Sie die technischen Zeichnungen und Montageanleitungen für dieses Produkt herunter.",
+    "docDrawing": "Technische Zeichnung",
+    "docInstallation": "Montageanleitung"
   },
   "spaces": {
     "eyebrow": "Raum für Raum",

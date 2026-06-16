@@ -610,7 +610,11 @@
           "v": "EN 1634-1 · EN 13501-2 · EN ISO 717-1"
         }
       ]
-    }
+    },
+    "docsTitle": "Documents & downloads",
+    "docsLead": "Download the technical drawings and installation guides for this product.",
+    "docDrawing": "Technical drawing",
+    "docInstallation": "Installation guide"
   },
   "spaces": {
     "eyebrow": "Room by room",

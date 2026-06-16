@@ -11,6 +11,8 @@ import { Link } from "@/i18n/navigation";
 import { BackLink } from "@/components/ui/back-link";
 import { ProductCard } from "@/components/cards/product-card";
 import { ProductDetailLayout } from "@/components/product-detail-layout";
+import { ProductDocuments } from "@/components/product-documents";
+import { getProductDocs } from "@/lib/data/product-docs";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import { seoAlternates } from "@/lib/seo/alternates";
@@ -145,6 +147,8 @@ export default async function ProductDetailPage({
   const collectionLabel = t(collectionKey[product.collection]);
   const backHref = collectionLandingHref[product.collection] ?? "/products/all";
 
+  const docs = getProductDocs(product.sku);
+
   const productJsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -209,6 +213,17 @@ export default async function ProductDetailPage({
           />
         </div>
       </section>
+
+      {/* ---- Documents & downloads (technical drawings + install guides) ---- */}
+      <ProductDocuments
+        docs={docs}
+        labels={{
+          title: t("docsTitle"),
+          lead: t("docsLead"),
+          drawing: t("docDrawing"),
+          installation: t("docInstallation"),
+        }}
+      />
 
       {/* ---- Context / in-situ stills (landscape) ---- */}
       {contextImages.length > 0 && (

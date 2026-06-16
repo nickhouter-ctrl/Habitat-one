@@ -788,7 +788,11 @@
           "v": "EN 1634-1 · EN 13501-2 · EN ISO 717-1"
         }
       ]
-    }
+    },
+    "docsTitle": "Documentos y descargas",
+    "docsLead": "Descarga los planos técnicos y las instrucciones de instalación de este producto.",
+    "docDrawing": "Plano técnico",
+    "docInstallation": "Instrucciones de instalación"
   },
   "spaces": {
     "eyebrow": "Estancia por estancia",

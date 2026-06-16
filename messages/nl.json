@@ -788,7 +788,11 @@
           "v": "EN 1634-1 · EN 13501-2 · EN ISO 717-1"
         }
       ]
-    }
+    },
+    "docsTitle": "Documenten & downloads",
+    "docsLead": "Download de technische tekeningen en installatie-instructies voor dit product.",
+    "docDrawing": "Technische tekening",
+    "docInstallation": "Installatie-instructies"
   },
   "spaces": {
     "eyebrow": "Ruimte voor ruimte",
