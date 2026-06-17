@@ -27,8 +27,9 @@ export default async function FireplacesPage({
       collectionId="sfeerhaarden"
       heroImageOverride="/products/sfeerhaarden/hero.jpg"
       galleryOverride={[
-        "/products/sfeerhaarden/showcase.mp4",
+        "/products/sfeerhaarden/ambience.mp4",
         "/products/sfeerhaarden/flame-wide.jpg",
+        "/products/sfeerhaarden/showcase.mp4",
         "/products/sfeerhaarden/flame-macro.jpg",
       ]}
     />
