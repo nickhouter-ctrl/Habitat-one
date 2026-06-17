@@ -182,7 +182,7 @@ export default async function ProductDetailPage({
       {/* ---- Main: gallery left, info-rail right ---- */}
       <section
         className="bg-paper pb-20 pt-6 md:pb-28"
-        data-chapter={name}
+        data-chapter={collectionLabel}
       >
         <div className="container-x">
           <ProductDetailLayout

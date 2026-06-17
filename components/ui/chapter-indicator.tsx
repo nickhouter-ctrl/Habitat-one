@@ -94,7 +94,7 @@ export function ChapterIndicator() {
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: 8 }}
                     transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-                    className="text-[0.62rem] font-medium uppercase tracking-[0.32em] text-ink-soft"
+                    className="inline-block max-w-[16ch] truncate text-right text-[0.62rem] font-medium uppercase tracking-[0.32em] text-ink-soft"
                   >
                     {c.label}
                   </motion.span>

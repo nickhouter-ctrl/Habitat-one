@@ -277,8 +277,8 @@ export function ProductDetailLayout({
 
         {/* Big, clear specifications */}
         <dl className="mt-10 border-t border-ink/15">
-          {(activeVariant?.sku ?? product.sku) && (
-            <SpecRow label={labels.sku}>{activeVariant?.sku ?? product.sku}</SpecRow>
+          {(activeVariant?.sku || product.sku) && (
+            <SpecRow label={labels.sku}>{activeVariant?.sku || product.sku}</SpecRow>
           )}
           {(planterDim ?? product.dimensions) && (
             <SpecRow label={labels.dimensions}>
@@ -412,7 +412,7 @@ export function ProductDetailLayout({
             slug={product.slug}
             name={name}
             variant={activeVariant?.name ?? null}
-            sku={activeVariant?.sku ?? product.sku ?? null}
+            sku={activeVariant?.sku || product.sku || null}
             image={images[0] ?? product.image ?? null}
             labels={{
               enquire: labels.enquire,
