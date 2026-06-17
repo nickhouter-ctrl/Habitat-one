@@ -409,6 +409,14 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
+      {/* ---- Cinematic mid-page video band ---- */}
+      <section className="relative w-full overflow-hidden bg-ink" data-chapter="Habitat One">
+        <LazyVideo
+          src="/site/home-feature.mp4"
+          className="h-[72svh] min-h-[460px] w-full object-cover"
+        />
+      </section>
+
       {/* ---- Why Jávea/Xàbia ---- */}
       <Section chapter="Jávea/Xàbia" className="bg-background py-20 md:py-28">
         <Container>
