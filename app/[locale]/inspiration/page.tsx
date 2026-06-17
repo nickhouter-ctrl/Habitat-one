@@ -7,6 +7,7 @@ import { Link } from "@/i18n/navigation";
 import { PageHeader } from "@/components/ui/page-header";
 import { Container, Section } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
+import { LazyVideo } from "@/components/ui/lazy-video";
 
 type Shot = { room?: string; src: string; fire?: boolean };
 
@@ -96,6 +97,14 @@ export default async function InspirationPage({ params }: { params: Promise<{ lo
       <Section>
         <Gallery title={t("indoorTitle")} shots={INDOOR} />
       </Section>
+
+      {/* ---- Cinematic full-bleed video band ---- */}
+      <section className="relative w-full overflow-hidden bg-ink">
+        <LazyVideo
+          src="/site/inspiration-feature.mp4"
+          className="h-[70svh] min-h-[440px] w-full object-cover"
+        />
+      </section>
 
       <Section className="bg-sand-50">
         <Gallery title={t("outdoorTitle")} shots={OUTDOOR} />
