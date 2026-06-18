@@ -46,20 +46,24 @@ export function Header() {
   // Elke collectie heeft een eigen luxe pagina: Flexibel Stone op /products
   // (primair), andere collecties op /products/{id}.
   // Accessories are bathroom accessories → list them nested right under Bathroom.
-  const productItems: DropItem[] = [
-    ...collections
-      .filter((c) => c.id !== "accessories")
-      .flatMap((c) => {
-        const row = {
-          href: c.id === "wall-panels" ? "/products" : `/products/${c.id}`,
-          label: tProducts(c.key),
-        };
-        if (c.id !== "bathroom") return [row];
+  const productGroups = collections
+    .filter((c) => c.id !== "accessories")
+    .map((c) => {
+      const row = {
+        href: c.id === "wall-panels" ? "/products" : `/products/${c.id}`,
+        label: tProducts(c.key),
+      };
+      const children: DropItem[] = [];
+      if (c.id === "bathroom") {
         const acc = collections.find((x) => x.id === "accessories");
-        return acc
-          ? [row, { href: "/products/accessories", label: `└ ${tProducts(acc.key)}` }]
-          : [row];
-      }),
+        if (acc) children.push({ href: "/products/accessories", label: `└ ${tProducts(acc.key)}` });
+      }
+      return { row, children };
+    })
+    // Alfabetisch op het getoonde label (taal-bewust); Accessories blijft onder Bathroom.
+    .sort((a, b) => a.row.label.localeCompare(b.row.label, locale));
+  const productItems: DropItem[] = [
+    ...productGroups.flatMap((g) => [g.row, ...g.children]),
     { href: "/products/all", label: tProducts("allProducts") },
   ];
   const dropdowns: Record<string, DropItem[]> = {
@@ -76,10 +80,9 @@ export function Header() {
       { href: "/inspiration/blog", label: t("inspBlog") },
       { href: "/inspiration/partners", label: t("inspPartners") },
     ],
-    services: services.map((s) => ({
-      href: `/services/${s.slug}`,
-      label: s.title[locale],
-    })),
+    services: services
+      .map((s) => ({ href: `/services/${s.slug}`, label: s.title[locale] }))
+      .sort((a, b) => a.label.localeCompare(b.label, locale)),
   };
 
   return (
