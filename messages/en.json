@@ -811,7 +811,8 @@
     "privacy": "Privacy",
     "terms": "Terms",
     "cookies": "Cookies",
-    "langLabel": "Language"
+    "langLabel": "Language",
+    "cookieSettings": "Cookie settings"
   },
   "notFound": {
     "title": "This room doesn't exist (yet)",

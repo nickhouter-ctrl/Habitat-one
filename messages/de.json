@@ -989,7 +989,8 @@
     "privacy": "Datenschutz",
     "terms": "AGB",
     "cookies": "Cookies",
-    "langLabel": "Sprache"
+    "langLabel": "Sprache",
+    "cookieSettings": "Cookie-Einstellungen"
   },
   "notFound": {
     "title": "Diesen Raum gibt es (noch) nicht",

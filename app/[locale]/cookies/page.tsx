@@ -13,7 +13,7 @@ const CONTENT: Record<string, Content> = {
     blocks: [
       { h: "Functionele cookies", p: "Nodig om de site te laten werken (bijv. uw taalkeuze en uw keuze in de cookiebanner). Hiervoor is geen toestemming vereist." },
       { h: "Analyse-cookies (Google Analytics)", p: "Alleen geplaatst nadat u op ‘Accepteren’ klikt. Hiermee meten we geanonimiseerd bezoek en gebruik om de site te verbeteren. Klikt u op ‘Weigeren’, dan wordt Google Analytics niet geladen." },
-      { h: "Uw keuze wijzigen", p: "U kunt uw keuze altijd aanpassen door de cookies van deze site in uw browser te wissen; de banner verschijnt dan opnieuw. Ook kunt u cookies via uw browserinstellingen beheren." },
+      { h: "Uw keuze wijzigen", p: "Onderaan elke pagina vindt u de link ‘Cookievoorkeuren’ waarmee u de banner opnieuw opent en uw keuze direct kunt wijzigen of intrekken. We vragen uw toestemming sowieso na 6 maanden opnieuw. U kunt cookies ook via uw browserinstellingen beheren." },
       { h: "Contact", p: "Vragen over privacy? Mail ons via de contactpagina." },
     ],
   },
@@ -25,7 +25,7 @@ const CONTENT: Record<string, Content> = {
     blocks: [
       { h: "Functional cookies", p: "Needed for the site to work (e.g. your language and your cookie-banner choice). No consent required." },
       { h: "Analytics cookies (Google Analytics)", p: "Only set after you click ‘Accept’. They let us measure visits and usage anonymously to improve the site. If you click ‘Decline’, Google Analytics is not loaded." },
-      { h: "Changing your choice", p: "You can change your choice anytime by clearing this site’s cookies in your browser; the banner will reappear. You can also manage cookies in your browser settings." },
+      { h: "Changing your choice", p: "Use the ‘Cookie settings’ link at the bottom of any page to reopen the banner and change or withdraw your choice anytime. We also ask for your consent again after 6 months. You can manage cookies in your browser settings too." },
       { h: "Contact", p: "Questions about privacy? Reach us via the contact page." },
     ],
   },
@@ -37,7 +37,7 @@ const CONTENT: Record<string, Content> = {
     blocks: [
       { h: "Funktionale Cookies", p: "Notwendig für den Betrieb der Website (z. B. Ihre Sprache und Ihre Auswahl im Cookie-Banner). Keine Einwilligung erforderlich." },
       { h: "Analyse-Cookies (Google Analytics)", p: "Werden nur gesetzt, nachdem Sie auf ‚Akzeptieren‘ klicken. Sie helfen uns, Besuche und Nutzung anonym zu messen, um die Website zu verbessern. Bei ‚Ablehnen‘ wird Google Analytics nicht geladen." },
-      { h: "Auswahl ändern", p: "Sie können Ihre Auswahl jederzeit ändern, indem Sie die Cookies dieser Website in Ihrem Browser löschen; das Banner erscheint dann erneut. Cookies lassen sich auch in den Browsereinstellungen verwalten." },
+      { h: "Auswahl ändern", p: "Über den Link ‚Cookie-Einstellungen‘ am Seitenende öffnen Sie das Banner erneut und können Ihre Auswahl jederzeit ändern oder widerrufen. Nach 6 Monaten fragen wir ohnehin erneut nach Ihrer Einwilligung. Cookies lassen sich auch in den Browsereinstellungen verwalten." },
       { h: "Kontakt", p: "Fragen zum Datenschutz? Kontaktieren Sie uns über die Kontaktseite." },
     ],
   },
@@ -49,7 +49,7 @@ const CONTENT: Record<string, Content> = {
     blocks: [
       { h: "Cookies funcionales", p: "Necesarias para que el sitio funcione (p. ej. su idioma y su elección en el banner de cookies). No requieren consentimiento." },
       { h: "Cookies de análisis (Google Analytics)", p: "Solo se activan después de hacer clic en ‘Aceptar’. Nos permiten medir las visitas y el uso de forma anónima para mejorar el sitio. Si hace clic en ‘Rechazar’, Google Analytics no se carga." },
-      { h: "Cambiar su elección", p: "Puede cambiar su elección en cualquier momento borrando las cookies de este sitio en su navegador; el banner volverá a aparecer. También puede gestionar las cookies en la configuración del navegador." },
+      { h: "Cambiar su elección", p: "Use el enlace ‘Preferencias de cookies’ al pie de cualquier página para volver a abrir el banner y cambiar o retirar su elección en cualquier momento. Además, le volvemos a pedir su consentimiento al cabo de 6 meses. También puede gestionar las cookies en la configuración del navegador." },
       { h: "Contacto", p: "¿Preguntas sobre privacidad? Escríbanos a través de la página de contacto." },
     ],
   },

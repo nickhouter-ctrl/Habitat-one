@@ -989,7 +989,8 @@
     "privacy": "Privacy",
     "terms": "Voorwaarden",
     "cookies": "Cookies",
-    "langLabel": "Taal"
+    "langLabel": "Taal",
+    "cookieSettings": "Cookievoorkeuren"
   },
   "notFound": {
     "title": "Deze ruimte bestaat (nog) niet",

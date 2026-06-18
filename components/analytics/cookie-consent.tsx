@@ -1,10 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 
 const KEY = "h1-cookie-consent";
+// Toestemming opnieuw vragen na ~6 maanden — AVG: consent is tijdelijk, niet eeuwig.
+const MAX_AGE_MS = 182 * 24 * 60 * 60 * 1000;
 type Consent = "granted" | "denied";
+type Stored = { v: Consent; t: number };
 
 const TXT: Record<string, { body: string; accept: string; decline: string; more: string }> = {
   nl: { body: "We gebruiken analyse-cookies om de website te verbeteren.", accept: "Accepteren", decline: "Weigeren", more: "Meer info" },
@@ -13,9 +16,33 @@ const TXT: Record<string, { body: string; accept: string; decline: string; more:
   es: { body: "Usamos cookies de análisis para mejorar este sitio web.", accept: "Aceptar", decline: "Rechazar", more: "Más información" },
 };
 
+/** Lees de opgeslagen keuze; migreert de oude opslag (alleen de waarde) naar het
+ * nieuwe formaat met tijdstempel, zodat bestaande bezoekers niet meteen opnieuw
+ * worden gevraagd maar wél onder de 6-maanden-vervaltermijn vallen. */
+function readStored(): Stored | null {
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (!raw) return null;
+    if (raw === "granted" || raw === "denied") {
+      const migrated: Stored = { v: raw, t: Date.now() };
+      localStorage.setItem(KEY, JSON.stringify(migrated));
+      return migrated;
+    }
+    const p = JSON.parse(raw) as Partial<Stored>;
+    if ((p?.v === "granted" || p?.v === "denied") && typeof p.t === "number") {
+      return { v: p.v, t: p.t };
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
 /**
- * GDPR cookie consent — Google Analytics only loads after the visitor accepts.
- * The choice is remembered in localStorage; nothing is loaded until then.
+ * GDPR cookie consent — Google Analytics laadt pas nadat de bezoeker accepteert.
+ * De keuze wordt 6 maanden onthouden; daarna (of bij een verlopen keuze) wordt
+ * de banner opnieuw getoond. Bezoekers kunnen 'm zelf heropenen via de
+ * "Cookievoorkeuren"-link in de footer (custom event).
  */
 export function CookieConsent({ locale }: { locale: string }) {
   const t = TXT[locale] ?? TXT.en;
@@ -23,20 +50,37 @@ export function CookieConsent({ locale }: { locale: string }) {
   const [decided, setDecided] = useState(true); // assume decided until we read storage (avoids flash)
 
   useEffect(() => {
-    const stored = localStorage.getItem(KEY);
-    if (stored === "granted" || stored === "denied") {
-      setConsent(stored);
+    const s = readStored();
+    if (s && Date.now() - s.t < MAX_AGE_MS) {
+      setConsent(s.v);
       setDecided(true);
     } else {
-      setDecided(false);
+      setDecided(false); // niets opgeslagen of verlopen → opnieuw vragen
     }
   }, []);
 
-  function choose(v: Consent) {
-    localStorage.setItem(KEY, v);
+  // Footer-link "Cookievoorkeuren" heropent de banner.
+  useEffect(() => {
+    const open = () => setDecided(false);
+    window.addEventListener("habitat:open-cookie-settings", open);
+    return () => window.removeEventListener("habitat:open-cookie-settings", open);
+  }, []);
+
+  const choose = useCallback((v: Consent) => {
+    localStorage.setItem(KEY, JSON.stringify({ v, t: Date.now() }));
     setConsent(v);
     setDecided(true);
-  }
+    // Trekt de bezoeker de toestemming in terwijl GA al draait, stop dan direct
+    // de gegevensverzameling via Consent Mode (geen reload nodig).
+    if (v === "denied") {
+      window.gtag?.("consent", "update", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+      });
+    }
+  }, []);
 
   return (
     <>

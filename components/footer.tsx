@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { site, primaryNav } from "@/lib/data/site";
 import { Logo } from "@/components/logo";
 import { NewsletterForm } from "@/components/ui/newsletter-form";
+import { CookieSettingsLink } from "@/components/analytics/cookie-settings-link";
 
 export async function Footer() {
   const t = await getTranslations();
@@ -130,6 +131,7 @@ export async function Footer() {
             <span>{t("footer.privacy")}</span>
             <span>{t("footer.terms")}</span>
             <span>{t("footer.cookies")}</span>
+            <CookieSettingsLink label={t("footer.cookieSettings")} />
             <span className="text-cream/40">{site.languages.join(" · ")}</span>
           </p>
         </div>

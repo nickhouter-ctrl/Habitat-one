@@ -989,7 +989,8 @@
     "privacy": "Privacidad",
     "terms": "Términos",
     "cookies": "Cookies",
-    "langLabel": "Idioma"
+    "langLabel": "Idioma",
+    "cookieSettings": "Preferencias de cookies"
   },
   "notFound": {
     "title": "Esta estancia no existe (todavía)",
