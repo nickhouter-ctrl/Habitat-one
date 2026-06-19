@@ -1136,6 +1136,9 @@ export const collections: { id: Collection; key: string }[] = [
 ];
 
 export const productsWithImages = catalogProducts.filter((p) => p.image);
+/** Range-producten (alles behalve meubels) — voor de algemene explorer & zoek;
+ * meubels leven uitsluitend onder de Furniture-tab. */
+export const rangeProducts = catalogProducts.filter((p) => p.collection !== "furniture");
 
 export function getProductBySlug(slug: string): CatalogProduct | null {
   return catalogProducts.find((p) => p.slug === slug) ?? null;

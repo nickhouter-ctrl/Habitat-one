@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Container, Section } from "@/components/ui/section";
 import { ProductsExplorer } from "@/components/products-explorer";
 import { CtaBanner } from "@/components/sections/cta-banner";
-import { catalogProducts } from "@/lib/data/catalog";
+import { rangeProducts } from "@/lib/data/catalog";
 
 export async function generateMetadata({
   params,
@@ -25,7 +25,7 @@ export default async function AllProductsPage({
   const t = await getTranslations("products");
 
   // Flexibel Stone (wall-panels) first, then by image presence, then alphabetically.
-  const sorted = [...catalogProducts].sort((a, b) => {
+  const sorted = [...rangeProducts].sort((a, b) => {
     if (a.collection !== b.collection) {
       if (a.collection === "wall-panels") return -1;
       if (b.collection === "wall-panels") return 1;
@@ -50,7 +50,7 @@ export default async function AllProductsPage({
             {t("intro")}
           </p>
           <p className="mt-6 text-[0.66rem] uppercase tracking-[0.22em] text-ink-soft/70">
-            {catalogProducts.length} {t("title").toLowerCase()} · {t("collection")} · {t("materials")} · {t("space")}
+            {rangeProducts.length} {t("title").toLowerCase()} · {t("collection")} · {t("materials")} · {t("space")}
           </p>
         </Container>
       </Section>

@@ -5,7 +5,7 @@ import { PageHeader } from "@/components/ui/page-header";
 import { Container, Section } from "@/components/ui/section";
 import { ProductsExplorer } from "@/components/products-explorer";
 import { CtaBanner } from "@/components/sections/cta-banner";
-import { catalogProducts } from "@/lib/data/catalog";
+import { rangeProducts } from "@/lib/data/catalog";
 
 export const metadata: Metadata = { title: "Search" };
 
@@ -21,7 +21,7 @@ export default async function SearchPage({
   setRequestLocale(locale);
   const t = await getTranslations("products");
 
-  const sorted = [...catalogProducts].sort((a, b) => {
+  const sorted = [...rangeProducts].sort((a, b) => {
     if (!!a.image !== !!b.image) return a.image ? -1 : 1;
     return a.name.localeCompare(b.name);
   });
