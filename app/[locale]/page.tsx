@@ -6,6 +6,7 @@ import { Hero } from "@/components/sections/hero";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { ProductsStrip } from "@/components/sections/products-strip";
 import { PinnedStorySection } from "@/components/sections/pinned-story";
+import { TestimonialCarousel } from "@/components/sections/testimonials";
 import { Container, Section } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
 import { MaskReveal } from "@/components/ui/mask-reveal";
@@ -519,9 +520,33 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
-      {/* ---- Testimonials — tijdelijk verborgen tot er echte reviews zijn.
-           Sectie + TestimonialCarousel-import staan in git-historie; terugzetten
-           zodra eigen reviews beschikbaar zijn. ---- */}
+      {/* ---- Testimonials — echte Google-reviews van klanten ---- */}
+      <Section chapter="Reviews" className="bg-paper py-20 md:py-28">
+        <Container>
+          <div className="text-center">
+            <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+              {t("testimonialsEyebrow")}
+            </p>
+            <h2 className="mx-auto mt-4 max-w-2xl text-3xl font-medium leading-[1.06] tracking-[-0.018em] text-ink md:text-4xl">
+              {t("testimonialsTitle")}
+            </h2>
+          </div>
+          <div className="mt-14">
+            <TestimonialCarousel locale={locale} />
+          </div>
+          <div className="mt-12 flex justify-center">
+            <Link
+              href="https://www.google.com/maps/place/?q=place_id:ChIJ_cLR8eYPnhIRl4CH0i5LahA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
+            >
+              Google reviews
+              <ArrowUpRight className="h-3.5 w-3.5" />
+            </Link>
+          </div>
+        </Container>
+      </Section>
 
       {/* ---- Closing clip — full-bleed video band near the bottom ---- */}
       <section className="relative w-full overflow-hidden bg-ink" data-chapter="Flexibel Stone">

@@ -40,47 +40,59 @@ export interface Testimonial {
   place: string;
   quote: Localized;
   image?: string;
+  /** Star rating 1–5 (real Google reviews). */
+  rating?: number;
+  /** Where the review came from, e.g. "Google". */
+  source?: string;
 }
 
 export const testimonials: Testimonial[] = [
   {
-    name: "Marieke & Joost",
-    place: "Villa Tossalet · from Utrecht, NL",
+    name: "Manon Smit",
+    place: "",
+    rating: 5,
+    source: "Google",
     quote: {
-      en: "We were dreading three years of phone calls in three languages. We got one person, one plan, and a house we didn't want to leave the day it was finished.",
-      nl: "We zagen op tegen drie jaar telefoneren in drie talen. We kregen één persoon, één plan en een huis dat we op de opleverdag niet meer wilden verlaten.",
-      es: "Temíamos tres años de llamadas en tres idiomas. Tuvimos una sola persona, un solo plan y una casa de la que el día de la entrega no queríamos irnos.",
-      de: "Wir fürchteten drei Jahre Telefonate in drei Sprachen. Wir bekamen eine Person, einen Plan und ein Haus, das wir am Tag der Fertigstellung nicht verlassen wollten.",
+      nl: "Na de aankoop van onze oude Spaanse woning zochten we een betrouwbare partner om de woning te verbouwen en te verduurzamen. Hans van Dalen en zijn team verzorgen alle facetten van het verbouwproces, van het creatieve out-of-the-box ontwerp, de technische bouwkundige tekeningen en vergunningen tot het begeleiden van het bouwproces. Daarnaast werkt het team met hoogwaardige, innovatieve materialen en is er veel ruimte voor persoonlijke wensen en inbreng. Habitat One is voor ons een fijne partner om mee te werken.",
+      en: "After buying our old Spanish home we were looking for a reliable partner to renovate and make it more sustainable. Hans van Dalen and his team handle every facet of the build — from the creative, out-of-the-box design and the technical drawings and permits, to guiding the whole construction process. They work with high-quality, innovative materials and leave plenty of room for personal wishes and input. Habitat One is a wonderful partner to work with.",
+      es: "Tras comprar nuestra antigua casa española buscábamos un socio fiable para reformarla y hacerla más sostenible. Hans van Dalen y su equipo se encargan de cada faceta de la obra: desde el diseño creativo y original, los planos técnicos y las licencias, hasta la dirección de todo el proceso constructivo. Trabajan con materiales innovadores de alta calidad y dejan mucho espacio para los deseos y aportaciones personales. Habitat One es un socio estupendo con el que trabajar.",
+      de: "Nach dem Kauf unseres alten spanischen Hauses suchten wir einen zuverlässigen Partner für die Renovierung und Verbesserung der Nachhaltigkeit. Hans van Dalen und sein Team kümmern sich um jeden Aspekt des Bauprozesses — vom kreativen, ungewöhnlichen Entwurf über die technischen Zeichnungen und Genehmigungen bis hin zur Begleitung des gesamten Bauablaufs. Sie arbeiten mit hochwertigen, innovativen Materialien und lassen viel Raum für persönliche Wünsche. Habitat One ist ein wunderbarer Partner.",
     },
   },
   {
-    name: "David L.",
-    place: "Apartamento Arenal · from Manchester, UK",
+    name: "Jochen Brouwers",
+    place: "",
+    rating: 5,
+    source: "Google",
     quote: {
-      en: "They renovated the flat, then sold it on for me two years later — same team, no drama. The materials still look new because they were chosen for the salt.",
-      nl: "Ze renoveerden het appartement en verkochten het twee jaar later voor me — zelfde team, geen gedoe. De materialen zien er nog nieuw uit omdat ze voor het zout zijn gekozen.",
-      es: "Reformaron el piso y luego me lo vendieron dos años después — el mismo equipo, sin dramas. Los materiales siguen como nuevos porque se eligieron pensando en la sal.",
-      de: "Sie renovierten die Wohnung und verkauften sie zwei Jahre später für mich — dasselbe Team, kein Drama. Die Materialien sehen noch neu aus, weil sie für das Salz ausgewählt wurden.",
+      en: "We spoke to several contractors before we came across Hans and Elles of Habitat One. We were looking for someone for a major renovation of an old villa. I'm very glad we chose Habitat One. They are kind people and always easy to reach. Hans is very creative and sometimes seems like an artist — he comes up with ideas I would never have thought of myself. It's also reassuring that they have a good working relationship with the town hall. The team consists of real craftsmen who work with high-quality materials. And all of that at a very reasonable price.",
+      nl: "We hebben met verschillende aannemers gesproken voordat we Hans en Elles van Habitat One tegenkwamen. We zochten iemand voor een grote renovatie van een oude villa. Ik ben erg blij dat we voor Habitat One hebben gekozen. Het zijn aardige mensen en ze zijn altijd makkelijk te bereiken. Hans is erg creatief en lijkt soms wel een kunstenaar — hij komt met ideeën waar ik zelf nooit aan zou hebben gedacht. Het is ook geruststellend dat ze een goede werkrelatie met de gemeente hebben. Het team bestaat uit echte vakmensen die met hoogwaardige materialen werken. En dat alles voor een zeer redelijke prijs.",
+      es: "Hablamos con varios contratistas antes de conocer a Hans y Elles de Habitat One. Buscábamos a alguien para una gran reforma de una villa antigua. Me alegro mucho de haber elegido a Habitat One. Son gente amable y siempre fáciles de localizar. Hans es muy creativo y a veces parece un artista: propone ideas que yo nunca habría imaginado. También tranquiliza que tengan una buena relación con el ayuntamiento. El equipo está formado por verdaderos profesionales que trabajan con materiales de alta calidad. Y todo ello a un precio muy razonable.",
+      de: "Wir sprachen mit mehreren Bauunternehmern, bevor wir Hans und Elles von Habitat One trafen. Wir suchten jemanden für die umfangreiche Renovierung einer alten Villa. Ich bin sehr froh, dass wir uns für Habitat One entschieden haben. Es sind nette Menschen und immer leicht erreichbar. Hans ist sehr kreativ und wirkt manchmal wie ein Künstler — er hat Ideen, auf die ich selbst nie gekommen wäre. Beruhigend ist auch ihr gutes Verhältnis zur Gemeinde. Das Team besteht aus echten Fachleuten, die mit hochwertigen Materialien arbeiten. Und das alles zu einem sehr fairen Preis.",
     },
   },
   {
-    name: "Familie Berger",
-    place: "Villa Balcón al Mar · from München, DE",
+    name: "Shanna Meijer",
+    place: "",
+    rating: 5,
+    source: "Google",
     quote: {
-      en: "Three architects had failed on this plot. Habitat One handed us a buildable design in six weeks and the keys fourteen months later. Honest from the first meeting.",
-      nl: "Drie architecten waren op deze kavel gestrand. Habitat One gaf ons in zes weken een bouwbaar ontwerp en veertien maanden later de sleutel. Eerlijk vanaf het eerste gesprek.",
-      es: "Tres arquitectos habían fracasado en esta parcela. Habitat One nos entregó un diseño construible en seis semanas y las llaves catorce meses después. Honestos desde la primera reunión.",
-      de: "Drei Architekten waren an diesem Grundstück gescheitert. Habitat One übergab uns in sechs Wochen einen baubaren Entwurf und vierzehn Monate später die Schlüssel. Ehrlich vom ersten Treffen an.",
+      nl: "Super service bij Habitat One. Voor een project waar ik aan werk wilde ik wat kennis opdoen over het Flexibel Stone. Er is super veel keus en kennis en ze denken zelfs mee over de mogelijkheden waar dit het mooiste zou passen.",
+      en: "Super service at Habitat One. For a project I'm working on I wanted to learn more about Flexibel Stone. There is so much choice and knowledge, and they even think along about where it would look best.",
+      es: "Un servicio estupendo en Habitat One. Para un proyecto en el que trabajo quería informarme sobre el Flexibel Stone. Hay muchísima variedad y conocimiento, e incluso te asesoran sobre dónde quedaría mejor.",
+      de: "Super Service bei Habitat One. Für ein Projekt, an dem ich arbeite, wollte ich mehr über Flexibel Stone erfahren. Es gibt enorm viel Auswahl und Fachwissen, und sie denken sogar mit, wo es am schönsten zur Geltung kommt.",
     },
   },
   {
-    name: "Sophie M.",
-    place: "Townhouse Pueblo · from Lyon, FR",
+    name: "Michiel Broker",
+    place: "",
+    rating: 5,
+    source: "Google",
     quote: {
-      en: "A four-metre-wide house in the old town that's now full of light. They understood the planning office, the stone and exactly how I wanted to live in it.",
-      nl: "Een huis van vier meter breed in de oude stad dat nu vol licht staat. Ze begrepen het bouwloket, de steen en precies hoe ik erin wilde wonen.",
-      es: "Una casa de cuatro metros de ancho en el casco antiguo que ahora está llena de luz. Entendieron urbanismo, la piedra y exactamente cómo quería vivir en ella.",
-      de: "Ein vier Meter breites Haus in der Altstadt, das jetzt voller Licht ist. Sie verstanden das Bauamt, den Stein und genau, wie ich darin leben wollte.",
+      nl: "Hans heeft mij enorm geholpen. Wat een eerlijke en fijne vent om mee te werken. Ik kan Habitat One enorm aanraden aan iedereen.",
+      en: "Hans helped me enormously. What an honest and pleasant person to work with. I can highly recommend Habitat One to everyone.",
+      es: "Hans me ayudó muchísimo. Qué persona tan honesta y agradable para trabajar. Recomiendo Habitat One a todo el mundo.",
+      de: "Hans hat mir enorm geholfen. Was für ein ehrlicher und angenehmer Mensch in der Zusammenarbeit. Ich kann Habitat One jedem wärmstens empfehlen.",
     },
   },
 ];

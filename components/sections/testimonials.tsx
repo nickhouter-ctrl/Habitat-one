@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Quote } from "lucide-react";
+import { Quote, Star } from "lucide-react";
 import { testimonials } from "@/lib/data/site";
 import { loc } from "@/lib/i18n-content";
 import { cn } from "@/lib/utils";
@@ -26,7 +26,7 @@ export function TestimonialCarousel({ locale }: { locale: string }) {
       onMouseLeave={() => setPaused(false)}
     >
       <Quote className="mx-auto h-9 w-9 text-terracotta-400" />
-      <div className="relative mt-6 min-h-[12rem] sm:min-h-[10rem]">
+      <div className="relative mt-6 min-h-[16rem] sm:min-h-[13rem]">
         <AnimatePresence mode="wait">
           <motion.blockquote
             key={i}
@@ -36,12 +36,23 @@ export function TestimonialCarousel({ locale }: { locale: string }) {
             transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
             className="text-center"
           >
-            <p className="font-display text-2xl leading-snug text-ink sm:text-[1.75rem]">
+            <p className="font-display text-lg leading-relaxed text-ink sm:text-xl">
               “{loc(item.quote, locale)}”
             </p>
             <footer className="mt-6 text-sm">
-              <span className="font-semibold text-terracotta-700">{item.name}</span>
-              <span className="block text-ink-soft/70">{item.place}</span>
+              {item.rating ? (
+                <div className="flex justify-center gap-0.5" aria-label={`${item.rating} / 5`}>
+                  {Array.from({ length: 5 }).map((_, s) => (
+                    <Star key={s} className={cn("h-4 w-4", s < item.rating! ? "fill-terracotta-500 text-terracotta-500" : "text-sand-300")} />
+                  ))}
+                </div>
+              ) : null}
+              <span className="mt-3 block font-semibold text-terracotta-700">{item.name}</span>
+              {item.source ? (
+                <span className="block text-ink-soft/70">via {item.source}</span>
+              ) : item.place ? (
+                <span className="block text-ink-soft/70">{item.place}</span>
+              ) : null}
             </footer>
           </motion.blockquote>
         </AnimatePresence>
