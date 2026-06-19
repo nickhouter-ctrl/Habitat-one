@@ -614,7 +614,13 @@
     "docsTitle": "Documents & downloads",
     "docsLead": "Download the technical drawings and installation guides for this product.",
     "docDrawing": "Technical drawing",
-    "docInstallation": "Installation guide"
+    "docInstallation": "Installation guide",
+    "groupSurfaces": "Surfaces & walls",
+    "groupFlooring": "Flooring",
+    "groupBathroom": "Bathroom",
+    "groupHeatLight": "Heating & lighting",
+    "groupGarden": "Garden",
+    "groupDoors": "Doors"
   },
   "spaces": {
     "eyebrow": "Room by room",

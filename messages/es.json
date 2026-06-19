@@ -792,7 +792,13 @@
     "docsTitle": "Documentos y descargas",
     "docsLead": "Descarga los planos técnicos y las instrucciones de instalación de este producto.",
     "docDrawing": "Plano técnico",
-    "docInstallation": "Instrucciones de instalación"
+    "docInstallation": "Instrucciones de instalación",
+    "groupSurfaces": "Superficies y paredes",
+    "groupFlooring": "Suelos",
+    "groupBathroom": "Baño",
+    "groupHeatLight": "Calefacción e iluminación",
+    "groupGarden": "Jardín",
+    "groupDoors": "Puertas"
   },
   "spaces": {
     "eyebrow": "Estancia por estancia",

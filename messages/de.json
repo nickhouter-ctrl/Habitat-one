@@ -792,7 +792,13 @@
     "docsTitle": "Dokumente & Downloads",
     "docsLead": "Laden Sie die technischen Zeichnungen und Montageanleitungen für dieses Produkt herunter.",
     "docDrawing": "Technische Zeichnung",
-    "docInstallation": "Montageanleitung"
+    "docInstallation": "Montageanleitung",
+    "groupSurfaces": "Wände & Oberflächen",
+    "groupFlooring": "Böden",
+    "groupBathroom": "Badezimmer",
+    "groupHeatLight": "Wärme & Licht",
+    "groupGarden": "Garten",
+    "groupDoors": "Türen"
   },
   "spaces": {
     "eyebrow": "Raum für Raum",

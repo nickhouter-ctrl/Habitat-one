@@ -14,6 +14,8 @@ import { useQuote } from "@/components/quote-context";
 import { cn } from "@/lib/utils";
 
 type DropItem = { href: string; label: string };
+type DropSection = { title?: string; items: DropItem[] };
+type MegaMenu = { sections: DropSection[]; footer?: DropItem };
 type Locale = "nl" | "en" | "es" | "de";
 
 export function Header() {
@@ -42,32 +44,29 @@ export function Header() {
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
-  // Uitklapmenu's met de bestaande site-inhoud.
-  // Elke collectie heeft een eigen luxe pagina: Flexibel Stone op /products
-  // (primair), andere collecties op /products/{id}.
-  // Accessories are bathroom accessories → list them nested right under Bathroom.
-  const productGroups = collections
-    .filter((c) => c.id !== "accessories")
-    .map((c) => {
-      const row = {
-        href: c.id === "wall-panels" ? "/products" : `/products/${c.id}`,
-        label: tProducts(c.key),
-      };
-      const children: DropItem[] = [];
-      if (c.id === "bathroom") {
-        const acc = collections.find((x) => x.id === "accessories");
-        if (acc) children.push({ href: "/products/accessories", label: `└ ${tProducts(acc.key)}` });
-      }
-      return { row, children };
-    })
-    // Alfabetisch op het getoonde label (taal-bewust); Accessories blijft onder Bathroom.
-    .sort((a, b) => a.row.label.localeCompare(b.row.label, locale));
-  const productItems: DropItem[] = [
-    ...productGroups.flatMap((g) => [g.row, ...g.children]),
-    { href: "/products/all", label: tProducts("allProducts") },
+  // ── Range (products) — bredere, gegroepeerde mega-menu (kolommen met kopjes).
+  // Elke collectie heeft een eigen pagina: Flexibel Stone op /products (primair),
+  // andere op /products/{id}.
+  const collKeyById = new Map(collections.map((c) => [c.id, c.key] as const));
+  const rangeHref = (id: string) => (id === "wall-panels" ? "/products" : `/products/${id}`);
+  const rangeLabel = (id: string) => {
+    const key = collKeyById.get(id as (typeof collections)[number]["id"]);
+    return key ? tProducts(key) : id;
+  };
+  const RANGE_GROUPS: { key: string; ids: string[] }[] = [
+    { key: "groupSurfaces", ids: ["wall-panels", "acrylpanelen", "backer-boards"] },
+    { key: "groupFlooring", ids: ["pvc-vloeren"] },
+    { key: "groupBathroom", ids: ["bathroom", "accessories"] },
+    { key: "groupHeatLight", ids: ["sfeerhaarden", "verlichting", "schakelmateriaal"] },
+    { key: "groupGarden", ids: ["bloempotten"] },
+    { key: "groupDoors", ids: ["doors"] },
   ];
+  const productSections: DropSection[] = RANGE_GROUPS.map((g) => ({
+    title: tProducts(g.key),
+    items: g.ids.map((id) => ({ href: rangeHref(id), label: rangeLabel(id) })),
+  }));
+
   const dropdowns: Record<string, DropItem[]> = {
-    products: productItems,
     spaces: catalogSpaces.map((s) => ({
       href: `/spaces/${s.slug}`,
       label: tSpaces(`names.${s.slug}`),
@@ -83,6 +82,9 @@ export function Header() {
     services: services
       .map((s) => ({ href: `/services/${s.slug}`, label: s.title[locale] }))
       .sort((a, b) => a.label.localeCompare(b.label, locale)),
+  };
+  const megaMenus: Record<string, MegaMenu> = {
+    products: { sections: productSections, footer: { href: "/products/all", label: tProducts("allProducts") } },
   };
 
   return (
@@ -141,6 +143,7 @@ export function Header() {
                 label={t(item.labelKey)}
                 active={isActive(item.href)}
                 items={dropdowns[item.labelKey]}
+                mega={megaMenus[item.labelKey]}
               />
             ))}
           </div>
@@ -154,6 +157,7 @@ export function Header() {
             isActive={isActive}
             t={t}
             dropdowns={dropdowns}
+            megaMenus={megaMenus}
           />
         )}
       </AnimatePresence>
@@ -192,13 +196,15 @@ function NavItem({
   label,
   active,
   items,
+  mega,
 }: {
   href: string;
   label: string;
   active: boolean;
   items?: DropItem[];
+  mega?: MegaMenu;
 }) {
-  const hasMenu = !!items && items.length > 0;
+  const hasMenu = !!mega || (!!items && items.length > 0);
   return (
     <div className="group relative">
       <Link
@@ -213,20 +219,60 @@ function NavItem({
           <ChevronDown className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180" />
         )}
       </Link>
-      {hasMenu && (
+      {mega ? (
         <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-2 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
-          <div className="grid min-w-[14rem] gap-0.5 rounded-2xl border border-sand-200 bg-cream p-2 shadow-[0_20px_50px_-25px_rgba(58,42,32,0.55)]">
-            {items.map((it) => (
-              <Link
-                key={it.href}
-                href={it.href}
-                className="rounded-lg px-3 py-2 text-sm text-ink-soft transition-colors hover:bg-sand-100 hover:text-ink"
-              >
-                {it.label}
-              </Link>
-            ))}
+          <div className="rounded-2xl border border-sand-200 bg-cream p-5 shadow-[0_20px_50px_-25px_rgba(58,42,32,0.55)]">
+            <div className="grid grid-cols-3 gap-x-10 gap-y-6">
+              {mega.sections.map((sec, i) => (
+                <div key={sec.title ?? i} className="min-w-[10rem]">
+                  {sec.title && (
+                    <p className="mb-2 text-[0.64rem] font-semibold uppercase tracking-[0.2em] text-ink-soft/70">
+                      {sec.title}
+                    </p>
+                  )}
+                  <div className="flex flex-col gap-0.5">
+                    {sec.items.map((it) => (
+                      <Link
+                        key={it.href}
+                        href={it.href}
+                        className="rounded-lg px-2.5 py-1.5 text-sm text-ink-soft transition-colors hover:bg-sand-100 hover:text-ink"
+                      >
+                        {it.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+            {mega.footer && (
+              <div className="mt-4 border-t border-sand-200 pt-3">
+                <Link
+                  href={mega.footer.href}
+                  className="inline-flex items-center gap-1.5 px-2.5 text-sm font-medium text-terracotta-700 transition-colors hover:text-terracotta-800"
+                >
+                  {mega.footer.label}
+                  <ArrowUpRight className="h-3.5 w-3.5" />
+                </Link>
+              </div>
+            )}
           </div>
         </div>
+      ) : (
+        hasMenu && (
+          <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-2 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
+            <div className="grid min-w-[14rem] gap-0.5 rounded-2xl border border-sand-200 bg-cream p-2 shadow-[0_20px_50px_-25px_rgba(58,42,32,0.55)]">
+              {items!.map((it) => (
+                <Link
+                  key={it.href}
+                  href={it.href}
+                  className="rounded-lg px-3 py-2 text-sm text-ink-soft transition-colors hover:bg-sand-100 hover:text-ink"
+                >
+                  {it.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )
       )}
     </div>
   );
@@ -237,11 +283,13 @@ function MobileMenu({
   isActive,
   t,
   dropdowns,
+  megaMenus,
 }: {
   onClose: () => void;
   isActive: (href: string) => boolean;
   t: ReturnType<typeof useTranslations>;
   dropdowns: Record<string, DropItem[]>;
+  megaMenus: Record<string, MegaMenu>;
 }) {
   const { items, openQuote } = useQuote();
   // Welke menukop staat uitgeklapt (één tegelijk). Standaard dicht.
@@ -267,7 +315,8 @@ function MobileMenu({
           <nav className="mt-5 flex flex-col">
             {primaryNav.map((item, i) => {
               const sub = dropdowns[item.labelKey];
-              const hasSub = !!sub && sub.length > 0;
+              const mega = megaMenus[item.labelKey];
+              const hasSub = !!mega || (!!sub && sub.length > 0);
               const isOpen = expanded === item.labelKey;
               return (
                 <motion.div
@@ -310,16 +359,45 @@ function MobileMenu({
                             className="overflow-hidden"
                           >
                             <div className="flex flex-col gap-0.5 pb-3 pl-1">
-                              {sub.map((it) => (
+                              {mega
+                                ? mega.sections.map((sec, si) => (
+                                    <div key={sec.title ?? si} className="mb-1">
+                                      {sec.title && (
+                                        <p className="px-3 pb-1 pt-2 text-[0.66rem] font-semibold uppercase tracking-[0.18em] text-ink-soft/70">
+                                          {sec.title}
+                                        </p>
+                                      )}
+                                      {sec.items.map((it) => (
+                                        <Link
+                                          key={it.href}
+                                          href={it.href}
+                                          onClick={onClose}
+                                          className="block rounded-lg px-3 py-2 text-base text-ink-soft transition-colors hover:bg-sand-100 hover:text-ink"
+                                        >
+                                          {it.label}
+                                        </Link>
+                                      ))}
+                                    </div>
+                                  ))
+                                : sub.map((it) => (
+                                    <Link
+                                      key={it.href}
+                                      href={it.href}
+                                      onClick={onClose}
+                                      className="rounded-lg px-3 py-2.5 text-base text-ink-soft transition-colors hover:bg-sand-100 hover:text-ink"
+                                    >
+                                      {it.label}
+                                    </Link>
+                                  ))}
+                              {mega?.footer && (
                                 <Link
-                                  key={it.href}
-                                  href={it.href}
+                                  href={mega.footer.href}
                                   onClick={onClose}
-                                  className="rounded-lg px-3 py-2.5 text-base text-ink-soft transition-colors hover:bg-sand-100 hover:text-ink"
+                                  className="mt-1 block rounded-lg px-3 py-2.5 text-base font-medium text-terracotta-700 transition-colors hover:bg-sand-100"
                                 >
-                                  {it.label}
+                                  {mega.footer.label} →
                                 </Link>
-                              ))}
+                              )}
                             </div>
                           </motion.div>
                         )}
