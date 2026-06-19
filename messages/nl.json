@@ -28,7 +28,8 @@
     "inspNews": "Nieuws",
     "inspTips": "Tips & advies",
     "inspBlog": "Blogs",
-    "inspPartners": "Partners"
+    "inspPartners": "Partners",
+    "furniture": "Meubels"
   },
   "common": {
     "brand": "Habitat One",
@@ -798,7 +799,9 @@
     "groupBathroom": "Badkamer",
     "groupHeatLight": "Sfeer & verlichting",
     "groupGarden": "Tuin",
-    "groupDoors": "Deuren"
+    "groupDoors": "Deuren",
+    "collectionFurniture": "Meubels",
+    "allFurniture": "Alle meubels"
   },
   "spaces": {
     "eyebrow": "Ruimte voor ruimte",
@@ -1482,5 +1485,12 @@
       "ctaTitle": "Binnen en buiten laten overvloeien?",
       "ctaText": "Kom langs in het experience center of neem contact op voor advies op maat."
     }
+  },
+  "furniture": {
+    "eyebrow": "Caracole · Cornelius Lifestyle",
+    "title": "Meubels",
+    "intro": "Designmeubels voor elke ruimte — banken, tafels, bedden, opbergen, verlichting en decoratie, samengesteld van Caracole en Cornelius Lifestyle.",
+    "viewAll": "Bekijk alle",
+    "items": "items"
   }
 }

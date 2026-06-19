@@ -1,4 +1,5 @@
 import { catalogProducts, type CatalogProduct, type ProductVariant } from "./products.generated";
+import { furnitureProducts } from "./furniture-products.generated";
 import { SCENE_STEMS } from "./scenes.generated";
 import { catalogMaterials, type CatalogMaterial } from "./materials.generated";
 import { catalogSpaces, type CatalogSpace } from "./spaces.generated";
@@ -1112,6 +1113,11 @@ for (const p of catalogProducts) {
   }
 }
 
+// Meubels (Caracole + Cornelius) — gegenereerd uit het CRM met leverancier-
+// galerijen. Toegevoegd ná de override-/beeld-loops hierboven, zodat die alleen
+// op de eigen catalogus draaien; meubels dragen hun eigen `images`-galerij.
+catalogProducts.push(...furnitureProducts);
+
 export { catalogProducts, catalogMaterials, catalogSpaces, catalogCategories };
 export type { CatalogProduct, CatalogMaterial, CatalogSpace, CatalogCategory, ProductVariant };
 
@@ -1152,6 +1158,10 @@ export function productsForSpace(slug: string) {
 }
 export function productsByCollection(c: Collection) {
   return catalogProducts.filter((p) => p.collection === c);
+}
+/** Meubels in een subcategorie (slug uit lib/data/furniture.ts), bv. "sofas". */
+export function productsBySubcategory(subSlug: string) {
+  return catalogProducts.filter((p) => p.collection === "furniture" && p.categories.includes(subSlug));
 }
 
 export function materialName(slug: string, locale?: string): string {

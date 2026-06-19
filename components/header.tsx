@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { ArrowUpRight, CalendarCheck, ChevronDown, Menu, Search, X } from "lucide-react";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { catalogSpaces, collections } from "@/lib/data/catalog";
+import { furnitureGroups } from "@/lib/data/furniture";
 import { services } from "@/lib/data/services";
 import { primaryNav } from "@/lib/data/site";
 import { LanguageSwitcher } from "@/components/language-switcher";
@@ -83,8 +84,13 @@ export function Header() {
       .map((s) => ({ href: `/services/${s.slug}`, label: s.title[locale] }))
       .sort((a, b) => a.label.localeCompare(b.label, locale)),
   };
+  const furnitureSections: DropSection[] = furnitureGroups.map((g) => ({
+    title: g.label[locale],
+    items: g.subs.map((s) => ({ href: `/furniture/${s.slug}`, label: s.label[locale] })),
+  }));
   const megaMenus: Record<string, MegaMenu> = {
     products: { sections: productSections, footer: { href: "/products/all", label: tProducts("allProducts") } },
+    furniture: { sections: furnitureSections, footer: { href: "/furniture", label: tProducts("allFurniture") } },
   };
 
   return (
@@ -221,10 +227,10 @@ function NavItem({
       </Link>
       {mega ? (
         <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-2 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
-          <div className="w-max max-w-[calc(100vw-2rem)] rounded-2xl border border-sand-200 bg-cream p-5 shadow-[0_20px_50px_-25px_rgba(58,42,32,0.55)]">
-            <div className="grid grid-cols-[repeat(3,minmax(10rem,1fr))] gap-x-8 gap-y-6">
+          <div className="max-w-[calc(100vw-2rem)] rounded-2xl border border-sand-200 bg-cream p-5 shadow-[0_20px_50px_-25px_rgba(58,42,32,0.55)]">
+            <div className="w-[40rem] max-w-[calc(100vw-3rem)] columns-3 gap-x-8 [column-fill:balance]">
               {mega.sections.map((sec, i) => (
-                <div key={sec.title ?? i}>
+                <div key={sec.title ?? i} className="mb-5 break-inside-avoid">
                   {sec.title && (
                     <p className="mb-2 text-[0.64rem] font-semibold uppercase tracking-[0.2em] text-ink-soft/70">
                       {sec.title}

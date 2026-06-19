@@ -28,7 +28,8 @@
     "inspNews": "Noticias",
     "inspTips": "Consejos",
     "inspBlog": "Blog",
-    "inspPartners": "Colaboradores"
+    "inspPartners": "Colaboradores",
+    "furniture": "Muebles"
   },
   "common": {
     "brand": "Habitat One",
@@ -798,7 +799,9 @@
     "groupBathroom": "Baño",
     "groupHeatLight": "Calefacción e iluminación",
     "groupGarden": "Jardín",
-    "groupDoors": "Puertas"
+    "groupDoors": "Puertas",
+    "collectionFurniture": "Muebles",
+    "allFurniture": "Todos los muebles"
   },
   "spaces": {
     "eyebrow": "Estancia por estancia",
@@ -1482,5 +1485,12 @@
       "ctaTitle": "¿Quieres fundir interior y exterior?",
       "ctaText": "Pásate por el experience center o ponte en contacto para asesoramiento a medida."
     }
+  },
+  "furniture": {
+    "eyebrow": "Caracole · Cornelius Lifestyle",
+    "title": "Muebles",
+    "intro": "Muebles de diseño para cada estancia — sofás, mesas, camas, almacenaje, iluminación y decoración, de Caracole y Cornelius Lifestyle.",
+    "viewAll": "Ver todo",
+    "items": "artículos"
   }
 }

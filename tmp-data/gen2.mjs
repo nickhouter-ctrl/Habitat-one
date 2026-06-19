@@ -161,12 +161,13 @@ export interface CatalogProduct {
   descriptionI18n: { nl?: string; de?: string; en?: string; es?: string } | null;
   additionalSizes: string[] | null;
   image: string | null;
+  images?: string[] | null;
   featured: boolean;
   dimensions: string | null;
   materials: string[];
   spaces: string[];
   categories: string[];
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren" | "furniture";
   variants: ProductVariant[];
 }
 

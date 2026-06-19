@@ -28,7 +28,8 @@
     "inspNews": "News",
     "inspTips": "Tips & advice",
     "inspBlog": "Blog",
-    "inspPartners": "Partners"
+    "inspPartners": "Partners",
+    "furniture": "Furniture"
   },
   "common": {
     "brand": "Habitat One",
@@ -620,7 +621,9 @@
     "groupBathroom": "Bathroom",
     "groupHeatLight": "Heating & lighting",
     "groupGarden": "Garden",
-    "groupDoors": "Doors"
+    "groupDoors": "Doors",
+    "collectionFurniture": "Furniture",
+    "allFurniture": "All furniture"
   },
   "spaces": {
     "eyebrow": "Room by room",
@@ -1304,5 +1307,12 @@
       "ctaTitle": "Want indoor and outdoor to blend?",
       "ctaText": "Visit the experience center or get in touch for tailored advice."
     }
+  },
+  "furniture": {
+    "eyebrow": "Caracole · Cornelius Lifestyle",
+    "title": "Furniture",
+    "intro": "Designer furniture for every room — sofas, tables, beds, storage, lighting and decoration, curated from Caracole and Cornelius Lifestyle.",
+    "viewAll": "View all",
+    "items": "items"
   }
 }

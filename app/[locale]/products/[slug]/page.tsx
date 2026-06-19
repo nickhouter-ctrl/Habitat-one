@@ -71,6 +71,7 @@ const collectionKey = {
   acrylpanelen: "collectionAcrylicPanels",
   sfeerhaarden: "collectionFireplaces",
   "pvc-vloeren": "collectionPVCFloors",
+  furniture: "collectionFurniture",
 } as const;
 
 const collectionIdentifierPrefix: Record<string, string> = {
@@ -86,6 +87,7 @@ const collectionIdentifierPrefix: Record<string, string> = {
   acrylpanelen: "Solid Surface · Acrylpanelen",
   sfeerhaarden: "Ambience · Water Vapour",
   "pvc-vloeren": "Flooring · PVC",
+  furniture: "Habitat One · Furniture",
 };
 
 const collectionLandingHref: Record<string, string> = {
@@ -101,6 +103,7 @@ const collectionLandingHref: Record<string, string> = {
   acrylpanelen: "/products/acrylpanelen",
   sfeerhaarden: "/products/sfeerhaarden",
   "pvc-vloeren": "/products/pvc-vloeren",
+  furniture: "/furniture",
 };
 
 export default async function ProductDetailPage({
