@@ -1214,6 +1214,32 @@ export function featuredProducts(n = 8): CatalogProduct[] {
   return picked;
 }
 
+// Collectie-lijn van een meubel ("… | Caracole Rhythm" → "caracole rhythm").
+function furnitureLine(name: string): string | null {
+  const m = name.match(/(caracole|cornelius)\s+([a-z'’]+)/i);
+  return m ? `${m[1]} ${m[2]}`.toLowerCase() : null;
+}
+const COMPLEMENT_SUBS = ["coffee-tables", "side-tables", "console-tables", "accent-tables", "ottomans", "poufs"];
+
 export function relatedProducts(product: CatalogProduct, n = 4): CatalogProduct[] {
+  // Meubels: eerst andere stukken uit dezelfde collectie-lijn, dan bijpassende
+  // tafels/poefs, dan dezelfde subcategorie — "maak de look compleet".
+  if (product.collection === "furniture") {
+    const pool = productsWithImages.filter((p) => p.collection === "furniture" && p.id !== product.id);
+    const line = furnitureLine(product.name);
+    const sub = product.categories[0];
+    const sameLine = line ? pool.filter((p) => furnitureLine(p.name) === line) : [];
+    const tables = pool.filter((p) => COMPLEMENT_SUBS.includes(p.categories[0] ?? "") && furnitureLine(p.name) !== line);
+    const sameSub = pool.filter((p) => p.categories[0] === sub);
+    const out: CatalogProduct[] = [];
+    const seen = new Set<number>([product.id]);
+    for (const list of [sameLine, tables, sameSub]) {
+      for (const p of list) {
+        if (out.length >= n) break;
+        if (!seen.has(p.id)) { seen.add(p.id); out.push(p); }
+      }
+    }
+    return out.slice(0, n);
+  }
   return productsWithImages.filter((p) => p.id !== product.id && p.collection === product.collection).slice(0, n);
 }
