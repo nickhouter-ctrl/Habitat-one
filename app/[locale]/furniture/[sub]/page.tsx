@@ -9,7 +9,7 @@ import { Container, Section } from "@/components/ui/section";
 import { FurnitureExplorer } from "@/components/furniture-explorer";
 import { seoAlternates } from "@/lib/seo/alternates";
 import { furnitureGroups, furnitureSubBySlug, type FurnitureLocale } from "@/lib/data/furniture";
-import { catalogProducts, productsBySubcategory } from "@/lib/data/catalog";
+import { productsBySubcategory } from "@/lib/data/catalog";
 
 export function generateStaticParams() {
   return furnitureGroups.flatMap((g) => g.subs.map((s) => ({ sub: s.slug })));
@@ -45,7 +45,9 @@ export default async function FurnitureSubPage({
   const t = await getTranslations("products");
   const tf = await getTranslations("furniture");
   const products = productsBySubcategory(sub);
-  const allFurniture = catalogProducts.filter((p) => p.collection === "furniture");
+  // Alleen de producten van déze groep meegeven (kleur/type/zoek-filter blijft
+  // werken) i.p.v. de volledige catalogus — houdt de pagina's licht & build snel.
+  const groupProducts = hit.group.subs.flatMap((s) => productsBySubcategory(s.slug));
   const heroImage = products[0]?.image ?? "/site/collection_bottom.jpg";
 
   return (
@@ -62,7 +64,7 @@ export default async function FurnitureSubPage({
           <BackLink href="/furniture" label={tf("title")} />
           <div className="mt-8">
             <FurnitureExplorer
-              products={allFurniture}
+              products={groupProducts}
               locale={locale}
               initialSub={sub}
               labels={{ all: t("allFurniture"), noImage: t("noImage"), items: tf("items"), search: tf("searchPlaceholder"), colours: t("availableColours") }}
