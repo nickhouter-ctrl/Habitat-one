@@ -151,6 +151,8 @@ export interface ProductVariant {
   sku: string | null;
   images: string[];
   dim?: string | null;
+  piece?: string | null;
+  colour?: string | null;
 }
 export interface CatalogProduct {
   id: number;

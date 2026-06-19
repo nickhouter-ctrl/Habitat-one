@@ -7,6 +7,10 @@ export interface ProductVariant {
   images: string[];
   /** Per-variant afmeting (meubels) — overschrijft product.dimensions als gezet. */
   dim?: string | null;
+  /** Modulair bankstel: het element/module ("Left Arm Facing Chaise"). */
+  piece?: string | null;
+  /** Modulair bankstel: de stof/kleur als losse keuze ("Ivory"). */
+  colour?: string | null;
 }
 export interface CatalogProduct {
   id: number;

@@ -27,6 +27,7 @@ export interface ProductDetailLayoutProps {
     specifications: string;
     availableColours: string;
     availableSizes: string;
+    elements: string;
     sku: string;
     dimensions: string;
     materials: string;
@@ -113,6 +114,30 @@ export function ProductDetailLayout({
     const match = inSize.find((v) => v.name === activeVariant?.name) ?? inSize[0];
     if (match) changeVariant(withImages.indexOf(match));
   }
+
+  // Modulair bankstel: twee onafhankelijke assen — elementen (de modules, elk met
+  // eigen afmeting) en kleuren (de stof, als losse keuze). Elke variant draagt
+  // `piece` + `colour`; we groeperen ze tot twee keuze-rijen.
+  const isFurnitureSet = product.collection === "furniture" && withImages.some((v) => v.piece);
+  const pieces = isFurnitureSet ? [...new Set(withImages.map((v) => v.piece).filter(Boolean) as string[])] : [];
+  const setColours = isFurnitureSet ? [...new Set(withImages.map((v) => v.colour).filter(Boolean) as string[])] : [];
+  const activePiece = activeVariant?.piece ?? pieces[0] ?? null;
+  const activeColour = activeVariant?.colour ?? setColours[0] ?? null;
+  const variantFor = (piece: string | null, colour: string | null) =>
+    withImages.find((v) => v.piece === piece && v.colour === colour) ??
+    withImages.find((v) => v.piece === piece) ??
+    null;
+  function selectPiece(piece: string) {
+    const v = variantFor(piece, activeColour) ?? withImages.find((x) => x.piece === piece);
+    if (v) changeVariant(withImages.indexOf(v));
+  }
+  function selectColour(colour: string) {
+    const v = withImages.find((x) => x.piece === activePiece && x.colour === colour) ?? withImages.find((x) => x.colour === colour);
+    if (v) changeVariant(withImages.indexOf(v));
+  }
+  // Afmeting van een element (voor de actieve kleur, anders eerste beschikbare).
+  const pieceDim = (piece: string) => (variantFor(piece, activeColour) ?? withImages.find((v) => v.piece === piece))?.dim ?? null;
+  const pieceThumb = (piece: string) => (variantFor(piece, activeColour) ?? withImages.find((v) => v.piece === piece))?.images[0] ?? null;
 
   function nextMedia() {
     if (media.length === 0) return;
@@ -299,7 +324,73 @@ export function ProductDetailLayout({
         </dl>
 
         {/* Variant picker */}
-        {isPot && sizeKeys.length > 0 ? (
+        {isFurnitureSet ? (
+          // Modulair bankstel: elementen (met eigen afmeting) + losse kleurkeuze.
+          <div className="mt-10 space-y-8">
+            <div>
+              <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+                {labels.elements}
+                <span className="ml-3 text-ink/40">({pieces.length})</span>
+              </p>
+              <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
+                {pieces.map((pc) => {
+                  const active = pc === activePiece;
+                  const thumb = pieceThumb(pc);
+                  const dim = pieceDim(pc);
+                  return (
+                    <button
+                      key={pc}
+                      type="button"
+                      onClick={() => selectPiece(pc)}
+                      className={cn(
+                        "group flex items-center gap-3 border p-2 text-left transition-colors",
+                        active ? "border-ink bg-ink/[0.04]" : "border-ink/15 hover:border-ink/40",
+                      )}
+                    >
+                      {thumb ? (
+                        <span className="relative h-12 w-12 shrink-0 overflow-hidden bg-sand-50">
+                          <Image src={thumb} alt="" fill sizes="48px" className="object-contain p-0.5" />
+                        </span>
+                      ) : null}
+                      <span className="min-w-0">
+                        <span className="block text-[0.78rem] font-medium leading-snug text-ink">{pc}</span>
+                        {dim ? <span className="mt-0.5 block text-[0.66rem] text-ink-soft">{dim}</span> : null}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+            {setColours.length > 1 && (
+              <div>
+                <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+                  {labels.availableColours}
+                  <span className="ml-3 text-ink/40">({setColours.length})</span>
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2.5">
+                  {setColours.map((c) => {
+                    const active = c === activeColour;
+                    const hex = withImages.find((v) => v.colour === c)?.colorHex;
+                    return (
+                      <button
+                        key={c}
+                        type="button"
+                        onClick={() => selectColour(c)}
+                        className={cn(
+                          "flex items-center gap-2 border px-3 py-2 transition-colors",
+                          active ? "border-ink bg-ink/[0.04]" : "border-ink/15 hover:border-ink/40",
+                        )}
+                      >
+                        <span className="h-5 w-5 shrink-0 rounded-full border border-ink/10" style={{ backgroundColor: hex ?? "transparent" }} />
+                        <span className="text-[0.78rem] font-medium text-ink">{c}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+          </div>
+        ) : isPot && sizeKeys.length > 0 ? (
           // Planters: two axes — size first, then the colours available in that size.
           <div className="mt-10 space-y-8">
             <div>
