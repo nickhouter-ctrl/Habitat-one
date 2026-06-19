@@ -3,7 +3,7 @@ import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { PageHeader } from "@/components/ui/page-header";
+import { FurnitureHero } from "@/components/sections/furniture-hero";
 import { Container, Section } from "@/components/ui/section";
 import { StaggerGroup, StaggerItem } from "@/components/ui/reveal";
 import { seoAlternates } from "@/lib/seo/alternates";
@@ -39,11 +39,14 @@ export default async function FurniturePage({ params }: { params: Promise<{ loca
     }))
     .filter((g) => g.subs.length > 0);
 
-  const hero = groups.flatMap((g) => g.subs).find((s) => s.image)?.image ?? "/site/collection_bottom.jpg";
-
   return (
     <>
-      <PageHeader eyebrow={t("eyebrow")} title={t("title")} intro={t("intro")} image={hero} />
+      <FurnitureHero
+        slides={[
+          { image: "/furniture/hero-elegance.webp", title: "Elegance & Comfort", ctaLabel: "Discover Caracole", ctaHref: "/furniture/sofas" },
+          { image: "/furniture/hero-curves.jpg", title: "Bold Curves. Rich Textures.", ctaLabel: "Discover Sofas", ctaHref: "/furniture/sofas" },
+        ]}
+      />
 
       {groups.map((g) => (
         <Section key={g.slug}>
