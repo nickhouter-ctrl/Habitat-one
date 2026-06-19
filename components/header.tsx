@@ -221,10 +221,10 @@ function NavItem({
       </Link>
       {mega ? (
         <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-2 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
-          <div className="rounded-2xl border border-sand-200 bg-cream p-5 shadow-[0_20px_50px_-25px_rgba(58,42,32,0.55)]">
-            <div className="grid grid-cols-3 gap-x-10 gap-y-6">
+          <div className="w-max max-w-[calc(100vw-2rem)] rounded-2xl border border-sand-200 bg-cream p-5 shadow-[0_20px_50px_-25px_rgba(58,42,32,0.55)]">
+            <div className="grid grid-cols-[repeat(3,minmax(10rem,1fr))] gap-x-8 gap-y-6">
               {mega.sections.map((sec, i) => (
-                <div key={sec.title ?? i} className="min-w-[10rem]">
+                <div key={sec.title ?? i}>
                   {sec.title && (
                     <p className="mb-2 text-[0.64rem] font-semibold uppercase tracking-[0.2em] text-ink-soft/70">
                       {sec.title}
