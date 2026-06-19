@@ -6,10 +6,10 @@ import { Link } from "@/i18n/navigation";
 import { BackLink } from "@/components/ui/back-link";
 import { PageHeader } from "@/components/ui/page-header";
 import { Container, Section } from "@/components/ui/section";
-import { ProductCard } from "@/components/cards/product-card";
+import { FurnitureExplorer } from "@/components/furniture-explorer";
 import { seoAlternates } from "@/lib/seo/alternates";
 import { furnitureGroups, furnitureSubBySlug, type FurnitureLocale } from "@/lib/data/furniture";
-import { productsBySubcategory } from "@/lib/data/catalog";
+import { catalogProducts, productsBySubcategory } from "@/lib/data/catalog";
 
 export function generateStaticParams() {
   return furnitureGroups.flatMap((g) => g.subs.map((s) => ({ sub: s.slug })));
@@ -45,6 +45,7 @@ export default async function FurnitureSubPage({
   const t = await getTranslations("products");
   const tf = await getTranslations("furniture");
   const products = productsBySubcategory(sub);
+  const allFurniture = catalogProducts.filter((p) => p.collection === "furniture");
   const heroImage = products[0]?.image ?? "/site/collection_bottom.jpg";
 
   return (
@@ -59,15 +60,14 @@ export default async function FurnitureSubPage({
       <Section>
         <Container>
           <BackLink href="/furniture" label={tf("title")} />
-          {products.length === 0 ? (
-            <p className="mt-8 text-ink-soft">—</p>
-          ) : (
-            <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-10 md:grid-cols-3 lg:grid-cols-4">
-              {products.map((p) => (
-                <ProductCard key={p.id} product={p} noImageLabel={t("noImage")} />
-              ))}
-            </div>
-          )}
+          <div className="mt-8">
+            <FurnitureExplorer
+              products={allFurniture}
+              locale={locale}
+              initialSub={sub}
+              labels={{ all: t("allFurniture"), noImage: t("noImage"), items: tf("items"), search: tf("searchPlaceholder"), colours: t("availableColours") }}
+            />
+          </div>
         </Container>
       </Section>
 
