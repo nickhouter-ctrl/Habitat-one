@@ -51,10 +51,16 @@ export async function generateMetadata({
   const tr = await productI18n(locale, slug);
   // Flexibel Stone (wall-panels) names stay English in every locale.
   const enName = p.collection === "wall-panels" ? p.name : tr.name ?? p.name;
+  const desc = tr.short ?? p.short ?? p.description ?? undefined;
+  // Per-product social image (relative paths resolve against metadataBase;
+  // furniture photos are absolute supplier-CDN URLs and pass through as-is).
+  const ogImages = p.image ? [{ url: p.image, alt: enName }] : undefined;
   return {
     title: enName,
-    description: tr.short ?? p.short ?? p.description ?? undefined,
+    description: desc,
     alternates: seoAlternates(locale, `/products/${slug}`),
+    openGraph: { title: enName, description: desc, type: "website", url: `/products/${slug}`, images: ogImages },
+    twitter: { card: "summary_large_image", title: enName, description: desc, images: p.image ? [p.image] : undefined },
   };
 }
 
@@ -160,7 +166,17 @@ export default async function ProductDetailPage({
     image: /^https?:\/\//.test(heroImage) ? heroImage : `https://www.habitat-one.com${heroImage}`,
     sku: product.sku ?? undefined,
     category: collectionLabel,
-    brand: { "@type": "Brand", name: "Habitat One" },
+    brand: {
+      "@type": "Brand",
+      name:
+        product.collection === "furniture"
+          ? /cornelius/i.test(product.name)
+            ? "Cornelius Lifestyle"
+            : /caracole/i.test(product.name)
+              ? "Caracole"
+              : "Habitat One"
+          : "Habitat One",
+    },
     url: `https://www.habitat-one.com/products/${slug}`,
   };
 

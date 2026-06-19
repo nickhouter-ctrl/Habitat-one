@@ -14,7 +14,13 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "products" });
   const tf = await getTranslations({ locale, namespace: "furniture" });
-  return { alternates: seoAlternates(locale, "/furniture/all"), title: t("allFurniture"), description: tf("intro") };
+  const cover = catalogProducts.find((p) => p.collection === "furniture" && p.image)?.image;
+  return {
+    alternates: seoAlternates(locale, "/furniture/all"),
+    title: t("allFurniture"),
+    description: tf("intro"),
+    openGraph: { title: t("allFurniture"), description: tf("intro"), url: "/furniture/all", type: "website", images: cover ? [{ url: cover, alt: t("allFurniture") }] : undefined },
+  };
 }
 
 export default async function FurnitureAllPage({

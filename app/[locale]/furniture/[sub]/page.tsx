@@ -7,6 +7,7 @@ import { BackLink } from "@/components/ui/back-link";
 import { PageHeader } from "@/components/ui/page-header";
 import { Container, Section } from "@/components/ui/section";
 import { FurnitureExplorer } from "@/components/furniture-explorer";
+import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import { seoAlternates } from "@/lib/seo/alternates";
 import { furnitureGroups, furnitureSubBySlug, type FurnitureLocale } from "@/lib/data/furniture";
 import { productsBySubcategory } from "@/lib/data/catalog";
@@ -24,10 +25,13 @@ export async function generateMetadata({
   const hit = furnitureSubBySlug(sub);
   if (!hit) return { title: "Furniture" };
   const tf = await getTranslations({ locale, namespace: "furniture" });
+  const title = `${hit.sub.label[locale as FurnitureLocale]} · ${tf("title")}`;
+  const cover = productsBySubcategory(sub).find((p) => p.image)?.image;
   return {
     alternates: seoAlternates(locale, `/furniture/${sub}`),
-    title: `${hit.sub.label[locale as FurnitureLocale]} · ${tf("title")}`,
+    title,
     description: tf("intro"),
+    openGraph: { title, description: tf("intro"), url: `/furniture/${sub}`, type: "website", images: cover ? [{ url: cover, alt: title }] : undefined },
   };
 }
 
@@ -50,8 +54,16 @@ export default async function FurnitureSubPage({
   const groupProducts = hit.group.subs.flatMap((s) => productsBySubcategory(s.slug));
   const heroImage = products[0]?.image ?? "/site/collection_bottom.jpg";
 
+  const cprefix = locale === "en" ? "" : `/${locale}`;
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Home", url: `https://www.habitat-one.com${cprefix}` },
+    { name: tf("title"), url: `https://www.habitat-one.com${cprefix}/furniture` },
+    { name: hit.sub.label[loc], url: `https://www.habitat-one.com${cprefix}/furniture/${sub}` },
+  ]);
+
   return (
     <>
+      <JsonLd data={breadcrumb} />
       <PageHeader
         eyebrow={`${tf("title")} · ${hit.group.label[loc]}`}
         title={hit.sub.label[loc]}

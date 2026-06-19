@@ -17,7 +17,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "furniture" });
-  return { alternates: seoAlternates(locale, "/furniture"), title: t("title"), description: t("intro") };
+  return {
+    alternates: seoAlternates(locale, "/furniture"),
+    title: t("title"),
+    description: t("intro"),
+    openGraph: { title: t("title"), description: t("intro"), url: "/furniture", type: "website", images: [{ url: "/furniture/hero-elegance.webp", alt: t("title") }] },
+  };
 }
 
 export default async function FurniturePage({ params }: { params: Promise<{ locale: string }> }) {
