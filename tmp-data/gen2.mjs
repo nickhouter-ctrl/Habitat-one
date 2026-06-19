@@ -150,6 +150,7 @@ export interface ProductVariant {
   colorHex: string | null;
   sku: string | null;
   images: string[];
+  dim?: string | null;
 }
 export interface CatalogProduct {
   id: number;

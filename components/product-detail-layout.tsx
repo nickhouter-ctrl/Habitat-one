@@ -280,9 +280,9 @@ export function ProductDetailLayout({
           {(activeVariant?.sku || product.sku) && (
             <SpecRow label={labels.sku}>{activeVariant?.sku || product.sku}</SpecRow>
           )}
-          {(planterDim ?? product.dimensions) && (
+          {(planterDim ?? activeVariant?.dim ?? product.dimensions) && (
             <SpecRow label={labels.dimensions}>
-              {planterDim ?? product.dimensions}
+              {planterDim ?? activeVariant?.dim ?? product.dimensions}
               {product.additionalSizes && product.additionalSizes.length > 0 && (
                 <span className="mt-1 block text-sm text-ink-soft/65">
                   + {product.additionalSizes.join(" · ")}

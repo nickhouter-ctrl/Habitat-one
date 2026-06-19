@@ -15,7 +15,7 @@ import { useQuote } from "@/components/quote-context";
 import { cn } from "@/lib/utils";
 
 type DropItem = { href: string; label: string };
-type DropSection = { title?: string; items: DropItem[] };
+type DropSection = { title?: string; titleHref?: string; items: DropItem[] };
 type MegaMenu = { sections: DropSection[]; footer?: DropItem };
 type Locale = "nl" | "en" | "es" | "de";
 
@@ -86,11 +86,12 @@ export function Header() {
   };
   const furnitureSections: DropSection[] = furnitureGroups.map((g) => ({
     title: g.label[locale],
+    titleHref: `/furniture/all?group=${g.slug}`,
     items: g.subs.map((s) => ({ href: `/furniture/${s.slug}`, label: s.label[locale] })),
   }));
   const megaMenus: Record<string, MegaMenu> = {
     products: { sections: productSections, footer: { href: "/products/all", label: tProducts("allProducts") } },
-    furniture: { sections: furnitureSections, footer: { href: "/furniture", label: tProducts("allFurniture") } },
+    furniture: { sections: furnitureSections, footer: { href: "/furniture/all", label: tProducts("allFurniture") } },
   };
 
   return (
@@ -231,11 +232,17 @@ function NavItem({
             <div className="w-[40rem] max-w-[calc(100vw-3rem)] columns-3 gap-x-8 [column-fill:balance]">
               {mega.sections.map((sec, i) => (
                 <div key={sec.title ?? i} className="mb-5 break-inside-avoid">
-                  {sec.title && (
-                    <p className="mb-2 text-[0.64rem] font-semibold uppercase tracking-[0.2em] text-ink-soft/70">
-                      {sec.title}
-                    </p>
-                  )}
+                  {sec.title &&
+                    (sec.titleHref ? (
+                      <Link
+                        href={sec.titleHref}
+                        className="mb-2 block text-[0.64rem] font-semibold uppercase tracking-[0.2em] text-ink-soft/70 transition-colors hover:text-terracotta-700"
+                      >
+                        {sec.title}
+                      </Link>
+                    ) : (
+                      <p className="mb-2 text-[0.64rem] font-semibold uppercase tracking-[0.2em] text-ink-soft/70">{sec.title}</p>
+                    ))}
                   <div className="flex flex-col gap-0.5">
                     {sec.items.map((it) => (
                       <Link
@@ -368,11 +375,20 @@ function MobileMenu({
                               {mega
                                 ? mega.sections.map((sec, si) => (
                                     <div key={sec.title ?? si} className="mb-1">
-                                      {sec.title && (
-                                        <p className="px-3 pb-1 pt-2 text-[0.66rem] font-semibold uppercase tracking-[0.18em] text-ink-soft/70">
-                                          {sec.title}
-                                        </p>
-                                      )}
+                                      {sec.title &&
+                                        (sec.titleHref ? (
+                                          <Link
+                                            href={sec.titleHref}
+                                            onClick={onClose}
+                                            className="block px-3 pb-1 pt-2 text-[0.66rem] font-semibold uppercase tracking-[0.18em] text-terracotta-700"
+                                          >
+                                            {sec.title}
+                                          </Link>
+                                        ) : (
+                                          <p className="px-3 pb-1 pt-2 text-[0.66rem] font-semibold uppercase tracking-[0.18em] text-ink-soft/70">
+                                            {sec.title}
+                                          </p>
+                                        ))}
                                       {sec.items.map((it) => (
                                         <Link
                                           key={it.href}

@@ -5,6 +5,8 @@ export interface ProductVariant {
   colorHex: string | null;
   sku: string | null;
   images: string[];
+  /** Per-variant afmeting (meubels) — overschrijft product.dimensions als gezet. */
+  dim?: string | null;
 }
 export interface CatalogProduct {
   id: number;

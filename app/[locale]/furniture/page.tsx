@@ -43,7 +43,7 @@ export default async function FurniturePage({ params }: { params: Promise<{ loca
     <>
       <FurnitureHero
         slides={[
-          { image: "/furniture/hero-elegance.webp", title: "Elegance & Comfort", ctaLabel: "Discover Caracole", ctaHref: "/furniture/sofas" },
+          { image: "/furniture/hero-elegance.webp", title: "Elegance & Comfort", ctaLabel: "Discover Furniture", ctaHref: "/furniture/all" },
           { image: "/furniture/hero-curves.jpg", title: "Bold Curves. Rich Textures.", ctaLabel: "Discover Sofas", ctaHref: "/furniture/sofas" },
         ]}
       />
@@ -51,7 +51,10 @@ export default async function FurniturePage({ params }: { params: Promise<{ loca
       {groups.map((g) => (
         <Section key={g.slug}>
           <Container>
-            <h2 className="text-3xl text-ink sm:text-4xl">{g.label[loc]}</h2>
+            <Link href={`/furniture/all?group=${g.slug}`} className="group inline-flex items-center gap-2 text-3xl text-ink transition-colors hover:text-terracotta-700 sm:text-4xl">
+              {g.label[loc]}
+              <ArrowUpRight className="h-5 w-5 text-ink-soft transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+            </Link>
             <StaggerGroup className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
               {g.subs.map((s) => (
                 <StaggerItem key={s.slug}>
@@ -85,7 +88,7 @@ export default async function FurniturePage({ params }: { params: Promise<{ loca
         <Container className="max-w-3xl text-center">
           <h2 className="font-display text-3xl text-ink md:text-4xl">{t("title")}</h2>
           <p className="mt-4 text-lg leading-relaxed text-ink-soft">{t("intro")}</p>
-          <Link href="/showroom" className="btn btn-primary mt-7 inline-flex">
+          <Link href="/furniture/all" className="btn btn-primary mt-7 inline-flex">
             {t("viewAll")}
             <ArrowUpRight className="h-4 w-4" />
           </Link>
