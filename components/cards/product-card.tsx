@@ -23,7 +23,7 @@ const collectionKey: Record<string, string> = {
 };
 
 /** Collecties met productfoto's op witte achtergrond: volledig tonen (niet bijsnijden). */
-const CONTAIN_COLLECTIONS = ["bloempotten", "verlichting", "schakelmateriaal"];
+const CONTAIN_COLLECTIONS = ["bloempotten", "verlichting", "schakelmateriaal", "furniture"];
 
 /**
  * Localised product name (falls back to the catalogue's English name).
@@ -86,7 +86,7 @@ export function ProductCard({
               "transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]",
               // Bloempotten-kleurfilter toont de staande pot-foto → heel tonen; verlichting
               // (productfoto op wit) altijd heel; anders vult de 3:4 lifestyle-crop de kaart.
-              product.collection === "verlichting" || product.collection === "schakelmateriaal" || (product.collection === "bloempotten" && imageOverride)
+              product.collection === "verlichting" || product.collection === "schakelmateriaal" || product.collection === "furniture" || (product.collection === "bloempotten" && imageOverride)
                 ? "object-contain p-4"
                 : "object-cover",
             )}
