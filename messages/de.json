@@ -1492,6 +1492,7 @@
     "title": "Möbel",
     "intro": "Designmöbel für jeden Raum — Sofas, Tische, Betten, Aufbewahrung, Beleuchtung und Dekoration, von Caracole und Cornelius Lifestyle.",
     "viewAll": "Alle ansehen",
-    "items": "Artikel"
+    "items": "Artikel",
+    "searchPlaceholder": "Möbel suchen…"
   }
 }

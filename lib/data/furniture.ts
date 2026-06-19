@@ -75,6 +75,7 @@ export const furnitureGroups: FurnitureGroup[] = [
     aliases: ["Beds"],
     subs: [
       { slug: "beds", label: { en: "Beds", nl: "Bedden", es: "Camas", de: "Betten" }, aliases: ["Bed", "Beds"] },
+      { slug: "bed-pillows", label: { en: "Bed pillows & bolsters", nl: "Bedkussens & bolsters", es: "Almohadas y bolsters", de: "Bettkissen & Nackenrollen" }, aliases: [] },
     ],
   },
   {

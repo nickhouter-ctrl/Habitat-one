@@ -33,6 +33,7 @@ export default async function FurnitureAllPage({
   const all = catalogProducts.filter((p) => p.collection === "furniture");
   const group = typeof sp.group === "string" ? sp.group : undefined;
   const sub = typeof sp.sub === "string" ? sp.sub : undefined;
+  const q = typeof sp.q === "string" ? sp.q : undefined;
 
   return (
     <>
@@ -49,7 +50,8 @@ export default async function FurnitureAllPage({
             locale={locale}
             initialGroup={group}
             initialSub={sub}
-            labels={{ all: t("allFurniture"), noImage: t("noImage"), items: tf("items") }}
+            initialQuery={q}
+            labels={{ all: t("allFurniture"), noImage: t("noImage"), items: tf("items"), search: tf("searchPlaceholder"), colours: t("availableColours") }}
           />
         </Container>
       </Section>

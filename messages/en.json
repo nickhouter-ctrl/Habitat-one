@@ -1314,6 +1314,7 @@
     "title": "Furniture",
     "intro": "Designer furniture for every room — sofas, tables, beds, storage, lighting and decoration, curated from Caracole and Cornelius Lifestyle.",
     "viewAll": "View all",
-    "items": "items"
+    "items": "items",
+    "searchPlaceholder": "Search furniture…"
   }
 }

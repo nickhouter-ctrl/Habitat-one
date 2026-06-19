@@ -1492,6 +1492,7 @@
     "title": "Muebles",
     "intro": "Muebles de diseño para cada estancia — sofás, mesas, camas, almacenaje, iluminación y decoración, de Caracole y Cornelius Lifestyle.",
     "viewAll": "Ver todo",
-    "items": "artículos"
+    "items": "artículos",
+    "searchPlaceholder": "Buscar muebles…"
   }
 }

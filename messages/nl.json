@@ -1492,6 +1492,7 @@
     "title": "Meubels",
     "intro": "Designmeubels voor elke ruimte — banken, tafels, bedden, opbergen, verlichting en decoratie, samengesteld van Caracole en Cornelius Lifestyle.",
     "viewAll": "Bekijk alle",
-    "items": "items"
+    "items": "items",
+    "searchPlaceholder": "Zoek meubels…"
   }
 }
