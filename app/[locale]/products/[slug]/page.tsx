@@ -157,7 +157,7 @@ export default async function ProductDetailPage({
     "@type": "Product",
     name,
     description: lead ?? description ?? undefined,
-    image: `https://www.habitat-one.com${heroImage}`,
+    image: /^https?:\/\//.test(heroImage) ? heroImage : `https://www.habitat-one.com${heroImage}`,
     sku: product.sku ?? undefined,
     category: collectionLabel,
     brand: { "@type": "Brand", name: "Habitat One" },

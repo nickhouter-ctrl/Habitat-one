@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/routing";
-import { catalogProducts, catalogSpaces, collections } from "@/lib/data/catalog";
+import { catalogProducts, catalogSpaces, collections, productsBySubcategory } from "@/lib/data/catalog";
+import { furnitureGroups } from "@/lib/data/furniture";
 import { services } from "@/lib/data/services";
 import { getPublishedProperties } from "@/lib/data/properties";
 
@@ -36,6 +37,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/", priority: 1.0, freq: "weekly" },
     { path: "/products", priority: 0.9, freq: "weekly" },
     { path: "/products/all", priority: 0.8, freq: "weekly" },
+    { path: "/furniture", priority: 0.9, freq: "weekly" },
+    { path: "/furniture/all", priority: 0.8, freq: "weekly" },
     { path: "/spaces", priority: 0.8, freq: "monthly" },
     { path: "/services", priority: 0.7, freq: "monthly" },
     { path: "/projects", priority: 0.7, freq: "monthly" },
@@ -62,9 +65,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .map((c) => (c.id === "wall-panels" ? "/products" : `/products/${c.id}`))
     .filter((p) => p !== "/products");
 
+  // Furniture sub-categories that actually have products.
+  const furnitureSubPaths = furnitureGroups
+    .flatMap((g) => g.subs)
+    .filter((s) => productsBySubcategory(s.slug).length > 0)
+    .map((s) => `/furniture/${s.slug}`);
+
   const items: MetadataRoute.Sitemap = [
     ...staticPaths.map((s) => entry(s.path, { priority: s.priority, changeFrequency: s.freq })),
     ...collectionPaths.map((p) => entry(p, { priority: 0.8, changeFrequency: "weekly" })),
+    ...furnitureSubPaths.map((p) => entry(p, { priority: 0.7, changeFrequency: "weekly" })),
     ...catalogProducts.map((p) => entry(`/products/${p.slug}`, { priority: 0.7 })),
     ...catalogSpaces.map((s) => entry(`/spaces/${s.slug}`, { priority: 0.6 })),
     ...services.map((s) => entry(`/services/${s.slug}`, { priority: 0.6 })),
