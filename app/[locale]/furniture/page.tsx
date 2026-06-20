@@ -89,6 +89,21 @@ export default async function FurniturePage({ params }: { params: Promise<{ loca
         </Section>
       ))}
 
+      <Section>
+        <Container className="text-center">
+          <h2 className="font-display text-2xl text-ink md:text-3xl">{t("partnersTitle")}</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-ink-soft">{t("partnersIntro")}</p>
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-x-16 gap-y-10 sm:gap-x-24">
+            <a href="https://caracole.eu.com/" target="_blank" rel="noopener noreferrer" aria-label="Caracole" className="block opacity-80 transition-opacity hover:opacity-100">
+              <Image src="/brands/caracole.svg" alt="Caracole" width={220} height={40} className="h-9 w-auto sm:h-10" />
+            </a>
+            <a href="https://www.corneliuslifestyle.com/" target="_blank" rel="noopener noreferrer" aria-label="Cornelius Lifestyle" className="block opacity-80 transition-opacity hover:opacity-100">
+              <Image src="/brands/cornelius.webp" alt="Cornelius Lifestyle" width={73} height={80} className="h-16 w-auto sm:h-20" />
+            </a>
+          </div>
+        </Container>
+      </Section>
+
       <Section className="bg-sand-50">
         <Container className="max-w-3xl text-center">
           <h2 className="font-display text-3xl text-ink md:text-4xl">{t("title")}</h2>
