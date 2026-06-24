@@ -98,6 +98,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     { id: "doors", key: "collectionDoors", img: "/scenery/doors-hero.jpg", href: "/products/doors" },
     { id: "bloempotten", key: "collectionFlowerPots", img: "/products/magic/bloempotten-lifestyle-epocco-canyon.jpg", href: "/products/bloempotten" },
     { id: "sfeerhaarden", key: "collectionFireplaces", img: "/products/sfeerhaarden/hero.jpg", href: "/products/sfeerhaarden" },
+    { id: "meubels", key: "collectionFurniture", img: "/furniture/hero-elegance.webp", href: "/furniture" },
   ];
 
   // Flexibel Stone (wall-panels) — prefer products with imagery and colour variants
