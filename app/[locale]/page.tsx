@@ -14,8 +14,7 @@ import { CurtainReveal } from "@/components/ui/curtain-reveal";
 import { Magnetic } from "@/components/ui/magnetic";
 import { BeforeAfter } from "@/components/ui/before-after";
 import { LazyVideo } from "@/components/ui/lazy-video";
-import { getProductBySlug, productsByCollection, productsBySubcategory } from "@/lib/data/catalog";
-import { furnitureGroups, type FurnitureLocale } from "@/lib/data/furniture";
+import { getProductBySlug, productsByCollection } from "@/lib/data/catalog";
 import { projects } from "@/lib/data/projects";
 import type { Metadata } from "next";
 import { JsonLd, websiteJsonLd } from "@/components/seo/json-ld";
@@ -75,19 +74,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const tn = await getTranslations("nav");
   const tp = await getTranslations("projects");
   const tprod = await getTranslations("products");
-  const tf = await getTranslations("furniture");
-  const loc = locale as FurnitureLocale;
-
-  // Furniture — one card per group, with a representative product photo.
-  const furnitureCards = furnitureGroups
-    .map((g) => ({
-      slug: g.slug,
-      label: g.label[loc],
-      href: `/furniture/all?group=${g.slug}`,
-      img: g.subs.flatMap((s) => productsBySubcategory(s.slug)).find((p) => p.image)?.image ?? null,
-    }))
-    .filter((c): c is typeof c & { img: string } => Boolean(c.img))
-    .slice(0, 6);
 
   // The full range beyond Flexibel Stone — one card per other collection.
   const rangeCollections = [
@@ -310,59 +296,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
-      {/* ---- Furniture — designer furniture from Caracole & Cornelius ---- */}
-      <Section chapter="Furniture" className="bg-background py-20 md:py-28">
-        <Container>
-          <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-            <EditorialHeading
-              eyebrow={tf("eyebrow")}
-              title={tf("title")}
-              text={tf("intro")}
-              className="max-w-2xl"
-            />
-            <Reveal direction="left">
-              <Link
-                href="/furniture/all"
-                className="inline-flex shrink-0 items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
-              >
-                {tf("viewAll")}
-                <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </Reveal>
-          </div>
-          <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {furnitureCards.map((c, i) => (
-              <Reveal key={c.slug} delay={i * 0.05}>
-                <Link
-                  href={c.href}
-                  className="group relative block aspect-[4/5] overflow-hidden bg-sand-100"
-                >
-                  <Image
-                    src={c.img}
-                    alt={c.label}
-                    fill
-                    sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
-                    className="object-contain p-6 transition-transform duration-[900ms] ease-out group-hover:scale-[1.045]"
-                  />
-                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/70 via-ink/5 to-transparent" />
-                  <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-6">
-                    <h3 className="text-xl font-medium leading-tight text-paper">{c.label}</h3>
-                    <ArrowUpRight className="h-5 w-5 shrink-0 text-paper/90 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                  </div>
-                </Link>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal>
-            <div className="mt-12 flex justify-center">
-              <Link href="/furniture" className="btn btn-primary">
-                {tf("title")}
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </div>
-          </Reveal>
-        </Container>
-      </Section>
 
       {/* ---- Story 1 — Concrete Board (cinematic, real video) ---- */}
       <PinnedStorySection
