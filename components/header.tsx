@@ -6,7 +6,6 @@ import { AnimatePresence, motion } from "motion/react";
 import { ArrowUpRight, CalendarCheck, ChevronDown, Menu, Search, X } from "lucide-react";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { catalogSpaces, collections } from "@/lib/data/catalog";
-import { furnitureGroups } from "@/lib/data/furniture";
 import { services } from "@/lib/data/services";
 import { primaryNav } from "@/lib/data/site";
 import { LanguageSwitcher } from "@/components/language-switcher";
@@ -62,10 +61,18 @@ export function Header() {
     { key: "groupGarden", ids: ["bloempotten"] },
     { key: "groupDoors", ids: ["doors"] },
   ];
-  const productSections: DropSection[] = RANGE_GROUPS.map((g) => ({
-    title: tProducts(g.key),
-    items: g.ids.map((id) => ({ href: rangeHref(id), label: rangeLabel(id) })),
-  }));
+  const productSections: DropSection[] = [
+    ...RANGE_GROUPS.map((g) => ({
+      title: tProducts(g.key),
+      items: g.ids.map((id) => ({ href: rangeHref(id), label: rangeLabel(id) })),
+    })),
+    // Meubels — één enkele ingang onder Range (geen eigen tab meer).
+    {
+      title: tProducts("collectionFurniture"),
+      titleHref: "/furniture",
+      items: [{ href: "/furniture", label: tProducts("allFurniture") }],
+    },
+  ];
 
   const dropdowns: Record<string, DropItem[]> = {
     spaces: catalogSpaces.map((s) => ({
@@ -84,14 +91,8 @@ export function Header() {
       .map((s) => ({ href: `/services/${s.slug}`, label: s.title[locale] }))
       .sort((a, b) => a.label.localeCompare(b.label, locale)),
   };
-  const furnitureSections: DropSection[] = furnitureGroups.map((g) => ({
-    title: g.label[locale],
-    titleHref: `/furniture/all?group=${g.slug}`,
-    items: g.subs.map((s) => ({ href: `/furniture/${s.slug}`, label: s.label[locale] })),
-  }));
   const megaMenus: Record<string, MegaMenu> = {
     products: { sections: productSections, footer: { href: "/products/all", label: tProducts("allProducts") } },
-    furniture: { sections: furnitureSections, footer: { href: "/furniture/all", label: tProducts("allFurniture") } },
   };
 
   return (
