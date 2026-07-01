@@ -28,7 +28,7 @@ export function PriceTag({
   asLink?: boolean;
 }) {
   const locale = useLocale();
-  const { loggedIn, prices, loading } = usePrices();
+  const { loggedIn, tier, prices, loading } = usePrices();
 
   if (loading) return <span className={`inline-block h-4 w-16 animate-pulse rounded bg-black/5 ${className}`} aria-hidden />;
 
@@ -50,9 +50,13 @@ export function PriceTag({
   const p = sku ? prices[sku] : undefined;
   if (!p) return <span className={`text-xs text-neutral-400 ${className}`}>Prijs op aanvraag</span>;
 
+  // Particulier ziet incl. btw, zakelijk (aannemer) ziet excl. btw.
+  const incl = tier === "particulier";
+  const shown = incl ? p.price * (1 + p.vat / 100) : p.price;
+
   return (
     <span className={`font-semibold text-neutral-900 ${className}`}>
-      {fmt(p.price, locale)} <span className="text-xs font-normal text-neutral-500">excl. btw</span>
+      {fmt(shown, locale)} <span className="text-xs font-normal text-neutral-500">{incl ? "incl. btw" : "excl. btw"}</span>
     </span>
   );
 }
