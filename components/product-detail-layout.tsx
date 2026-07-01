@@ -110,6 +110,11 @@ export function ProductDetailLayout({
   const activeSize = sizeOf(activeVariant?.sku);
   const colorsInSize = (sz: string) => withImages.filter((v) => sizeOf(v.sku) === sz);
   const planterDim = isPot ? PLANTER_SIZES[activeSize]?.dim ?? null : null;
+  // Als de gekozen variant een maat is (bv. backer-boards: "2440 × 1220 mm"),
+  // laat de afmeting-regel daarmee meebewegen.
+  const dimLike = (s?: string | null) => !!s && /\d\s*[×xX]\s*\d/.test(s);
+  const activeDim =
+    planterDim ?? activeVariant?.dim ?? (dimLike(activeVariant?.name) ? activeVariant?.name : null) ?? product.dimensions;
   function selectSize(sz: string) {
     const inSize = colorsInSize(sz);
     const match = inSize.find((v) => v.name === activeVariant?.name) ?? inSize[0];
@@ -311,9 +316,9 @@ export function ProductDetailLayout({
           {(activeVariant?.sku || product.sku) && (
             <SpecRow label={labels.sku}>{activeVariant?.sku || product.sku}</SpecRow>
           )}
-          {(planterDim ?? activeVariant?.dim ?? product.dimensions) && (
+          {activeDim && (
             <SpecRow label={labels.dimensions}>
-              {planterDim ?? activeVariant?.dim ?? product.dimensions}
+              {activeDim}
               {product.additionalSizes && product.additionalSizes.length > 0 && (
                 <span className="mt-1 block text-sm text-ink-soft/65">
                   + {product.additionalSizes.join(" · ")}

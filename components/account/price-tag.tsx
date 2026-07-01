@@ -25,11 +25,14 @@ function charm(n: number): number {
  */
 export function PriceTag({
   sku,
+  skus,
   name,
   className = "",
   asLink = true,
 }: {
   sku?: string | null;
+  /** Alle maat-/versie-SKU's — voor een "vanaf"-prijs op de kaart. */
+  skus?: (string | null | undefined)[];
   /** Productnaam voor de op-naam-fallback (bv. Flexibel Stone zonder SKU-match). */
   name?: string | null;
   className?: string;
@@ -57,15 +60,29 @@ export function PriceTag({
     );
   }
 
-  const p = resolvePrice(state, sku, name);
-  if (!p || !(p.price > 0)) return <span className={`text-xs text-neutral-400 ${className}`}>Prijs op aanvraag</span>;
+  // Alle kandidaat-prijzen verzamelen (hoofd-SKU + maat-SKU's), anders op naam.
+  const seen = [sku, ...(skus ?? [])].filter((s): s is string => !!s);
+  const found: { price: number; vat: number }[] = [];
+  for (const s of seen) {
+    const hit = state.prices[s];
+    if (hit && hit.price > 0) found.push(hit);
+  }
+  if (found.length === 0) {
+    const byN = resolvePrice(state, null, name);
+    if (byN && byN.price > 0) found.push(byN);
+  }
+  if (found.length === 0) return <span className={`text-xs text-neutral-400 ${className}`}>Prijs op aanvraag</span>;
+
+  const min = found.reduce((a, b) => (b.price < a.price ? b : a));
+  const multiple = new Set(found.map((f) => f.price)).size > 1;
 
   // Particulier ziet incl. btw (charm-prijs op ,95), zakelijk (aannemer) ziet excl. btw (exact).
   const incl = tier === "particulier";
-  const shown = incl ? charm(p.price * (1 + p.vat / 100)) : p.price;
+  const shown = incl ? charm(min.price * (1 + min.vat / 100)) : min.price;
 
   return (
     <span className={`font-semibold text-neutral-900 ${className}`}>
+      {multiple ? "vanaf " : ""}
       {fmt(shown, locale)} <span className="text-xs font-normal text-neutral-500">{incl ? "incl. btw" : "excl. btw"}</span>
     </span>
   );
