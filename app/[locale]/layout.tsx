@@ -11,6 +11,7 @@ import { HoverLabel } from "@/components/ui/hover-label";
 import { PageVeil } from "@/components/ui/page-veil";
 import { ChapterIndicator } from "@/components/ui/chapter-indicator";
 import { QuoteProvider } from "@/components/quote-context";
+import { PriceProvider } from "@/components/account/price-provider";
 import { QuoteRequestForm } from "@/components/quote-request-form";
 import { JsonLd, localBusinessJsonLd } from "@/components/seo/json-ld";
 import { CookieConsent } from "@/components/analytics/cookie-consent";
@@ -107,6 +108,7 @@ export default async function LocaleLayout({
         <CookieConsent locale={locale} />
         <TrackContacts />
         <NextIntlClientProvider>
+          <PriceProvider>
           <QuoteProvider>
             <PageVeil />
             <HoverLabel />
@@ -119,6 +121,7 @@ export default async function LocaleLayout({
             <Footer />
             <QuoteRequestForm />
           </QuoteProvider>
+          </PriceProvider>
         </NextIntlClientProvider>
       </body>
     </html>

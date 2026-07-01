@@ -1,0 +1,17 @@
+"use client";
+
+import { useRouter } from "@/i18n/navigation";
+
+export function LogoutButton() {
+  const router = useRouter();
+  async function logout() {
+    await fetch("/api/account/logout", { method: "POST" });
+    router.push("/account");
+    router.refresh();
+  }
+  return (
+    <button onClick={logout} className="text-sm font-medium text-ink-soft underline hover:text-ink">
+      Uitloggen
+    </button>
+  );
+}

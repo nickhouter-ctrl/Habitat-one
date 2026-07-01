@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { ArrowUpRight, ImageOff } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { hasColourOptions, type CatalogProduct } from "@/lib/data/catalog";
+import { PriceTag } from "@/components/account/price-tag";
 import { cn } from "@/lib/utils";
 
 const collectionKey: Record<string, string> = {
@@ -122,6 +123,7 @@ export function ProductCard({
             {name}
           </h3>
           {detail && <p className="mt-1 line-clamp-2 text-[0.8rem] leading-relaxed text-ink-soft">{detail}</p>}
+          <div className="mt-2"><PriceTag sku={product.sku} asLink={false} /></div>
         </div>
         <ArrowUpRight className="mt-1 h-4 w-4 shrink-0 text-ink-soft transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
       </div>
