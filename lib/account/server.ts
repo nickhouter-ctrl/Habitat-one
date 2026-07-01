@@ -31,8 +31,10 @@ export async function fetchAccountMe(): Promise<
   }
 }
 
-/** Tier-prijzen (sku → {price, vat}) voor de ingelogde klant, of null als uitgelogd. */
-export async function fetchPrices(): Promise<{ tier: "particulier" | "aannemer"; prices: Record<string, { price: number; vat: number }> } | null> {
+type PriceMap = Record<string, { price: number; vat: number }>;
+
+/** Tier-prijzen (sku → {price, vat} + byName) voor de ingelogde klant, of null als uitgelogd. */
+export async function fetchPrices(): Promise<{ tier: "particulier" | "aannemer"; prices: PriceMap; byName: PriceMap } | null> {
   const token = await getPortalToken();
   if (!token) return null;
   try {
@@ -43,7 +45,7 @@ export async function fetchPrices(): Promise<{ tier: "particulier" | "aannemer";
     if (!res.ok) return null;
     const data = await res.json();
     if (!data?.ok) return null;
-    return { tier: data.tier, prices: data.prices ?? {} };
+    return { tier: data.tier, prices: data.prices ?? {}, byName: data.byName ?? {} };
   } catch {
     return null;
   }

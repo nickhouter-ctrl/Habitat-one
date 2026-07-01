@@ -3,7 +3,7 @@
 import { useLocale } from "next-intl";
 import { Lock } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { usePrices } from "./price-provider";
+import { usePrices, resolvePrice } from "./price-provider";
 
 function fmt(n: number, locale: string) {
   return new Intl.NumberFormat(locale === "en" ? "en-IE" : `${locale}-ES`, {
@@ -13,22 +13,32 @@ function fmt(n: number, locale: string) {
   }).format(n);
 }
 
+/** Nette psychologische prijs: rond naar het dichtstbijzijnde hele bedrag en eindig op ,95. */
+function charm(n: number): number {
+  if (n < 1) return Math.round(n * 100) / 100;
+  return Math.round(n) - 0.05;
+}
+
 /**
  * Toont de prijs (ex. btw) voor de ingelogde klant, of — uitgelogd — een subtiele
  * "prijs met account"-melding die naar de accountaanvraag linkt.
  */
 export function PriceTag({
   sku,
+  name,
   className = "",
   asLink = true,
 }: {
   sku?: string | null;
+  /** Productnaam voor de op-naam-fallback (bv. Flexibel Stone zonder SKU-match). */
+  name?: string | null;
   className?: string;
   /** false binnen een product-<Link> (voorkomt geneste anchors). */
   asLink?: boolean;
 }) {
   const locale = useLocale();
-  const { loggedIn, tier, prices, loading } = usePrices();
+  const state = usePrices();
+  const { loggedIn, tier, loading } = state;
 
   if (loading) return <span className={`inline-block h-4 w-16 animate-pulse rounded bg-black/5 ${className}`} aria-hidden />;
 
@@ -47,12 +57,12 @@ export function PriceTag({
     );
   }
 
-  const p = sku ? prices[sku] : undefined;
-  if (!p) return <span className={`text-xs text-neutral-400 ${className}`}>Prijs op aanvraag</span>;
+  const p = resolvePrice(state, sku, name);
+  if (!p || !(p.price > 0)) return <span className={`text-xs text-neutral-400 ${className}`}>Prijs op aanvraag</span>;
 
-  // Particulier ziet incl. btw, zakelijk (aannemer) ziet excl. btw.
+  // Particulier ziet incl. btw (charm-prijs op ,95), zakelijk (aannemer) ziet excl. btw (exact).
   const incl = tier === "particulier";
-  const shown = incl ? p.price * (1 + p.vat / 100) : p.price;
+  const shown = incl ? charm(p.price * (1 + p.vat / 100)) : p.price;
 
   return (
     <span className={`font-semibold text-neutral-900 ${className}`}>

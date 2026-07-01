@@ -7,6 +7,7 @@ import { ArrowUpRight, CalendarDays, ChevronLeft, ChevronRight, ImageOff, Play }
 import { PLANTER_SIZES, type CatalogProduct } from "@/lib/data/catalog";
 import { Link } from "@/i18n/navigation";
 import { ProductQuoteActions } from "@/components/product-quote-actions";
+import { PriceTag } from "@/components/account/price-tag";
 import { cn } from "@/lib/utils";
 
 type Media = { type: "image" | "video"; src: string; poster?: string };
@@ -290,6 +291,11 @@ export function ProductDetailLayout({
         <p className="mt-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] text-ink-soft/80">
           {identifier}
         </p>
+
+        {/* Prijs (verandert mee met de gekozen maat/variant). */}
+        <div className="mt-5 text-2xl">
+          <PriceTag sku={activeVariant?.sku || product.sku} name={name} className="text-2xl" />
+        </div>
 
         {lead && (
           <p className="mt-7 text-base leading-relaxed text-ink-soft md:text-[1.05rem]">
