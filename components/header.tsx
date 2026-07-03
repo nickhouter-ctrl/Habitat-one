@@ -3,12 +3,13 @@
 import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowUpRight, CalendarCheck, ChevronDown, Menu, Search, User, X } from "lucide-react";
+import { ArrowUpRight, CalendarCheck, ChevronDown, Menu, Search, X } from "lucide-react";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { catalogSpaces, collections } from "@/lib/data/catalog";
 import { services } from "@/lib/data/services";
 import { primaryNav } from "@/lib/data/site";
 import { LanguageSwitcher } from "@/components/language-switcher";
+import { AccountNavButton } from "@/components/account/account-nav-button";
 import { Logo } from "@/components/logo";
 import { useQuote } from "@/components/quote-context";
 import { cn } from "@/lib/utils";
@@ -108,14 +109,7 @@ export function Header() {
 
           <div className="ml-auto flex items-center gap-2 sm:ml-0 md:gap-3">
             <LanguageSwitcher dark />
-            <Link
-              href="/account"
-              aria-label="Account"
-              title="Account — bekijk prijzen"
-              className="grid h-10 w-10 place-items-center rounded-full border border-sand-300 text-ink transition-colors hover:bg-sand-100"
-            >
-              <User className="h-4 w-4" />
-            </Link>
+            <AccountNavButton />
             <Link
               href="/showroom"
               className="hidden items-center gap-2 border border-ink px-4 py-2.5 text-[0.72rem] font-medium uppercase tracking-[0.16em] text-ink transition-colors hover:bg-ink hover:text-paper md:inline-flex"
