@@ -10,10 +10,26 @@ export async function getPortalToken(): Promise<string | null> {
   return c.get(PORTAL_COOKIE)?.value ?? null;
 }
 
-/** Haal het profiel + commissies van de ingelogde klant op (via CRM /me). */
+export type ReferredCustomer = {
+  name: string;
+  scope: "business" | "particulier";
+  pct: number;
+  since: string;
+  ordersTotal: number;
+  commissionTotal: number;
+  orderCount: number;
+};
+
+/** Haal het profiel + commissies + aangebrachte klanten van de ingelogde klant op (via CRM /me). */
 export async function fetchAccountMe(): Promise<
   | { loggedIn: false }
-  | { loggedIn: true; account: { email: string; tier: "particulier" | "aannemer"; businessName: string | null }; commissionTotal: number; commissions: unknown[] }
+  | {
+      loggedIn: true;
+      account: { email: string; tier: "particulier" | "aannemer"; businessName: string | null };
+      commissionTotal: number;
+      commissions: unknown[];
+      referredCustomers: ReferredCustomer[];
+    }
 > {
   const token = await getPortalToken();
   if (!token) return { loggedIn: false };
@@ -25,7 +41,13 @@ export async function fetchAccountMe(): Promise<
     if (!res.ok) return { loggedIn: false };
     const data = await res.json();
     if (!data?.ok) return { loggedIn: false };
-    return { loggedIn: true, account: data.account, commissionTotal: data.commissionTotal, commissions: data.commissions ?? [] };
+    return {
+      loggedIn: true,
+      account: data.account,
+      commissionTotal: data.commissionTotal,
+      commissions: data.commissions ?? [],
+      referredCustomers: data.referredCustomers ?? [],
+    };
   } catch {
     return { loggedIn: false };
   }
