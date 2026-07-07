@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { Tag, User } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { usePrices } from "./price-provider";
@@ -10,8 +11,9 @@ import { usePrices } from "./price-provider";
  */
 export function AccountNavButton() {
   const { loggedIn } = usePrices();
+  const t = useTranslations("account");
   const href = loggedIn ? "/account" : "/account/aanvragen";
-  const label = loggedIn ? "Mijn account" : "Bekijk prijzen";
+  const label = loggedIn ? t("myAccount") : t("viewPrices");
   const Icon = loggedIn ? User : Tag;
 
   return (

@@ -12,6 +12,7 @@ import { PageVeil } from "@/components/ui/page-veil";
 import { ChapterIndicator } from "@/components/ui/chapter-indicator";
 import { QuoteProvider } from "@/components/quote-context";
 import { PriceProvider } from "@/components/account/price-provider";
+import { PricePopup } from "@/components/account/price-popup";
 import { QuoteRequestForm } from "@/components/quote-request-form";
 import { JsonLd, localBusinessJsonLd } from "@/components/seo/json-ld";
 import { CookieConsent } from "@/components/analytics/cookie-consent";
@@ -120,6 +121,7 @@ export default async function LocaleLayout({
             <main className="flex-1">{children}</main>
             <Footer />
             <QuoteRequestForm />
+            <PricePopup />
           </QuoteProvider>
           </PriceProvider>
         </NextIntlClientProvider>

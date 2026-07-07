@@ -1,4 +1,4 @@
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
 import { fetchAccountMe } from "@/lib/account/server";
@@ -15,16 +15,17 @@ function fmt(n: number) {
 export default async function AccountPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("account");
   const me = await fetchAccountMe();
 
   if (!me.loggedIn) {
     return (
       <section className="mx-auto max-w-md px-6 pb-24 pt-36 text-center">
-        <h1 className="mb-2 text-2xl font-medium">Mijn account</h1>
-        <p className="mb-6 text-sm text-ink-soft">Log in om je account en de prijzen te bekijken.</p>
+        <h1 className="mb-2 text-2xl font-medium">{t("myAccount")}</h1>
+        <p className="mb-6 text-sm text-ink-soft">{t("loginToView")}</p>
         <div className="flex justify-center gap-3">
-          <Link href="/account/login" className="rounded-lg bg-ink px-5 py-2.5 text-sm font-medium text-white">Inloggen</Link>
-          <Link href="/account/aanvragen" className="rounded-lg border border-black/15 px-5 py-2.5 text-sm font-medium">Account aanvragen</Link>
+          <Link href="/account/login" className="rounded-lg bg-ink px-5 py-2.5 text-sm font-medium text-white">{t("login")}</Link>
+          <Link href="/account/aanvragen" className="rounded-lg border border-black/15 px-5 py-2.5 text-sm font-medium">{t("submitRequest")}</Link>
         </div>
       </section>
     );
@@ -35,20 +36,20 @@ export default async function AccountPage({ params }: { params: Promise<{ locale
   return (
     <section className="mx-auto max-w-2xl px-6 pb-24 pt-36">
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-medium">Mijn account</h1>
+        <h1 className="text-2xl font-medium">{t("myAccount")}</h1>
         <LogoutButton />
       </div>
 
       <div className="mt-6 grid gap-3 sm:grid-cols-2">
         <div className="rounded-xl border border-black/10 bg-white p-4">
-          <p className="text-xs uppercase tracking-wide text-ink-soft">E-mail</p>
+          <p className="text-xs uppercase tracking-wide text-ink-soft">{t("email")}</p>
           <p className="mt-1 font-medium">{me.account.email}</p>
           {me.account.businessName && <p className="text-sm text-ink-soft">{me.account.businessName}</p>}
         </div>
         <div className="rounded-xl border border-black/10 bg-white p-4">
-          <p className="text-xs uppercase tracking-wide text-ink-soft">Prijsniveau</p>
-          <p className="mt-1 font-medium">{me.account.tier === "aannemer" ? "Zakelijk" : "Particulier"}</p>
-          <p className="text-sm text-ink-soft">Prijzen zijn nu zichtbaar op de producten.</p>
+          <p className="text-xs uppercase tracking-wide text-ink-soft">{t("priceLevel")}</p>
+          <p className="mt-1 font-medium">{me.account.tier === "aannemer" ? t("business") : t("private")}</p>
+          <p className="text-sm text-ink-soft">{t("pricesVisibleNote")}</p>
         </div>
       </div>
 
