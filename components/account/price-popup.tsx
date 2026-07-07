@@ -111,7 +111,7 @@ export function PricePopup() {
       aria-modal="true"
     >
       <div
-        className="relative w-full max-w-md overflow-hidden rounded-3xl border border-sand-200 bg-cream p-7 text-center shadow-[0_20px_80px_-30px_rgba(58,42,32,0.45)]"
+        className="relative w-full max-w-md overflow-hidden rounded-3xl border border-sand-200 bg-cream p-7 text-center font-sans shadow-[0_20px_80px_-30px_rgba(58,42,32,0.45)]"
         onClick={(e) => e.stopPropagation()}
       >
         <button
