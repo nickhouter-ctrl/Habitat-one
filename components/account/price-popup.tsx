@@ -130,7 +130,7 @@ export function PricePopup() {
         <p className="mt-5 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-terracotta-600">
           {t.eyebrow}
         </p>
-        <h3 className="mt-2 font-display text-2xl leading-snug text-ink">{t.title}</h3>
+        <h3 className="mt-2 font-sans text-xl font-semibold leading-snug tracking-tight text-ink">{t.title}</h3>
         <p className="mt-3 text-sm leading-relaxed text-clay-700">{t.body}</p>
 
         <div className="mt-6 flex flex-col gap-2">
