@@ -52,6 +52,9 @@ const DOCS: DocDef[] = [
   { file: "/docs/instalacion-inodoro.pdf", type: "installation", skus: ["KKR-CT11010", "KKR-CT11023"] },
   // Countertop / vessel basins
   { file: "/docs/instalacion-lavabo-encimera.pdf", type: "installation", skus: ["KKR-2124", "KKR-1169", "KKR-1507", "KKR-2120", "KKR-2123", "KKR-1141-2"] },
+  // Double basins — model-specific guides
+  { file: "/docs/instalacion-lavabo-doble-h5060-d.pdf", type: "installation", skus: ["KKR-H5060-D"] },
+  { file: "/docs/instalacion-lavabo-doble-h7072-d.pdf", type: "installation", skus: ["KKR-H7072-D"] },
   // LED mirrors — model size matches product dimensions
   { file: "/docs/instalacion-espejo-led-mfa4080u.pdf", type: "installation", skus: ["KKR-8058"] },   // 40×80
   { file: "/docs/instalacion-espejo-led-mlr6080o.pdf", type: "installation", skus: ["KKR-8051-2"] }, // 60×80
@@ -64,7 +67,19 @@ for (const d of DOCS) {
   }
 }
 
-export function getProductDocs(sku: string | null | undefined): ProductDoc[] {
+export type DocLocale = "nl" | "de" | "en" | "es";
+
+/**
+ * Installatiegidsen bestaan in drie talen: het basisbestand is Spaans, met
+ * `-en`/`-nl`-varianten ernaast (bv. instalacion-inodoro-nl.pdf). Duits valt
+ * terug op Engels. Technische tekeningen zijn taal-neutraal (maatvoering).
+ */
+export function getProductDocs(sku: string | null | undefined, locale: DocLocale = "es"): ProductDoc[] {
   if (!sku) return [];
-  return productDocs[sku] ?? [];
+  const docs = productDocs[sku] ?? [];
+  const suffix = locale === "es" ? "" : locale === "nl" ? "-nl" : "-en";
+  if (!suffix) return docs;
+  return docs.map((d) =>
+    d.type === "installation" ? { ...d, file: d.file.replace(/\.pdf$/, `${suffix}.pdf`) } : d,
+  );
 }

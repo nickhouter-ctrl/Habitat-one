@@ -12,7 +12,7 @@ import { BackLink } from "@/components/ui/back-link";
 import { ProductCard } from "@/components/cards/product-card";
 import { ProductDetailLayout } from "@/components/product-detail-layout";
 import { ProductDocuments } from "@/components/product-documents";
-import { getProductDocs } from "@/lib/data/product-docs";
+import { getProductDocs, type DocLocale } from "@/lib/data/product-docs";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import { seoAlternates } from "@/lib/seo/alternates";
@@ -156,7 +156,7 @@ export default async function ProductDetailPage({
   const collectionLabel = t(collectionKey[product.collection]);
   const backHref = collectionLandingHref[product.collection] ?? "/products/all";
 
-  const docs = getProductDocs(product.sku);
+  const docs = getProductDocs(product.sku, locale as DocLocale);
 
   const productJsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
