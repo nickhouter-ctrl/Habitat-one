@@ -4,7 +4,6 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Hero } from "@/components/sections/hero";
 import { CtaBanner } from "@/components/sections/cta-banner";
-import { ProductsStrip } from "@/components/sections/products-strip";
 import { PinnedStorySection } from "@/components/sections/pinned-story";
 import { TestimonialCarousel } from "@/components/sections/testimonials";
 import { Container, Section } from "@/components/ui/section";
@@ -14,7 +13,7 @@ import { CurtainReveal } from "@/components/ui/curtain-reveal";
 import { Magnetic } from "@/components/ui/magnetic";
 import { BeforeAfter } from "@/components/ui/before-after";
 import { LazyVideo } from "@/components/ui/lazy-video";
-import { getProductBySlug, productsByCollection } from "@/lib/data/catalog";
+import { getProductBySlug } from "@/lib/data/catalog";
 import { projects } from "@/lib/data/projects";
 import type { Metadata } from "next";
 import { JsonLd, websiteJsonLd } from "@/components/seo/json-ld";
@@ -89,12 +88,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     { id: "meubels", key: "collectionFurniture", img: "/furniture/hero-elegance.webp", href: "/furniture" },
   ].sort((a, b) => tprod(a.key).localeCompare(tprod(b.key), locale));
 
-  // Flexibel Stone (wall-panels) — prefer products with imagery and colour variants
-  const magicAll = productsByCollection("wall-panels");
-  const magicWithImg = magicAll.filter((p) => p.image);
-  const magicFeatured = [...magicWithImg]
-    .sort((a, b) => (b.variants.length > 1 ? 1 : 0) - (a.variants.length > 1 ? 1 : 0))
-    .slice(0, 10);
   // Flexibel Stone signature block — a real in-situ travertine render
   // (travertine-clad villa façade by the pool), shown uncropped (16:9).
   const magicHero = "/products/magic/travertine-beige-exterior.jpg";
@@ -226,33 +219,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
-      {/* ---- Flexibel Stone product strip — horizontal scroll, hover-grow ---- */}
-      <Section chapter="Collection" className="bg-background py-20 md:py-28">
-        <Container>
-          <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-            <EditorialHeading
-              eyebrow={t("productsEyebrow")}
-              title={t("productsTitle")}
-              text={t("productsText")}
-              className="max-w-2xl"
-            />
-            <Reveal direction="left">
-              <Link
-                href="/products?collection=wall-panels"
-                className="inline-flex shrink-0 items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
-              >
-                {t("viewCatalog")}
-                <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </Reveal>
-          </div>
-          <div className="mt-14">
-            <ProductsStrip products={magicFeatured} />
-          </div>
-        </Container>
-      </Section>
-
-      {/* ---- The full range — other collections beyond Flexibel Stone ---- */}
+      {/* ---- The full range — one card per collection ---- */}
       <Section chapter="Range" className="bg-paper py-20 md:py-28">
         <Container>
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
