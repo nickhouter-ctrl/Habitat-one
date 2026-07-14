@@ -75,8 +75,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const tp = await getTranslations("projects");
   const tprod = await getTranslations("products");
 
-  // The full range beyond Flexibel Stone — one card per other collection.
+  // The full range — one card per collection (incl. Flexibel Stone),
+  // alphabetical on the localized name.
   const rangeCollections = [
+    { id: "wall-panels", key: "collectionWallPanels", img: "/products/magic/ms-travertino-beige-interior.jpg", href: "/products" },
     { id: "pvc-vloeren", key: "collectionPVCFloors", img: "/products/pvc-vloeren/lifestyle-1.jpg", href: "/products/pvc-vloeren" },
     { id: "bathroom", key: "collectionBathroom", img: "/products/h/KKR-B051-A-life.jpg", href: "/products/bathroom" },
     { id: "acrylpanelen", key: "collectionAcrylicPanels", img: "/products/h/acryl/KKR-A027-badkamer.jpg", href: "/products/acrylpanelen" },
@@ -85,7 +87,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     { id: "bloempotten", key: "collectionFlowerPots", img: "/products/magic/bloempotten-lifestyle-epocco-canyon.jpg", href: "/products/bloempotten" },
     { id: "sfeerhaarden", key: "collectionFireplaces", img: "/products/sfeerhaarden/hero.jpg", href: "/products/sfeerhaarden" },
     { id: "meubels", key: "collectionFurniture", img: "/furniture/hero-elegance.webp", href: "/furniture" },
-  ];
+  ].sort((a, b) => tprod(a.key).localeCompare(tprod(b.key), locale));
 
   // Flexibel Stone (wall-panels) — prefer products with imagery and colour variants
   const magicAll = productsByCollection("wall-panels");
