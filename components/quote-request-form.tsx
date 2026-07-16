@@ -9,7 +9,7 @@ import { trackEvent } from "@/lib/analytics/track";
 const CRM_API =
   process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
 
-type Locale = "nl" | "de" | "en" | "es";
+type Locale = "nl" | "de" | "en" | "es" | "fr" | "zh";
 
 interface Labels {
   title: string;
@@ -143,6 +143,58 @@ const L: Record<Locale, Labels> = {
     closeLabel: "Cerrar",
     errorGeneric: "Error al enviar. Vuelve a intentarlo o escríbenos directamente.",
   },
+  fr: {
+    title: "Demander un devis",
+    subtitle: "Nous vous recontactons sous 24 h.",
+    yourProducts: "Produits dans votre devis",
+    noProducts: "Aucun produit ajouté pour l'instant — renseignez vos coordonnées pour une demande générale.",
+    removeAria: "Supprimer",
+    name: "Nom",
+    email: "E-mail",
+    phone: "Téléphone (facultatif)",
+    company: "Société",
+    type: "Je suis",
+    typeArchitect: "Architecte",
+    typeContractor: "Entrepreneur",
+    typeRealtor: "Agent immobilier",
+    typeConsumer: "Particulier",
+    typeOther: "Autre",
+    message: "Message",
+    messagePlaceholder: "Projet, quantités, coloris, date de livraison souhaitée…",
+    submit: "Envoyer la demande",
+    submitting: "Envoi…",
+    cancel: "Annuler",
+    successTitle: "Merci — nous avons bien reçu votre demande.",
+    successText: "Nous vous répondrons sous un jour ouvré, par e-mail ou par téléphone.",
+    closeLabel: "Fermer",
+    errorGeneric: "L'envoi a échoué. Veuillez réessayer ou nous écrire directement.",
+  },
+  zh: {
+    title: "申请报价",
+    subtitle: "我们将在 24 小时内与您联系。",
+    yourProducts: "您报价单中的产品",
+    noProducts: "尚未添加产品——填写您的信息即可提交一般咨询。",
+    removeAria: "移除",
+    name: "姓名",
+    email: "电子邮箱",
+    phone: "电话（选填）",
+    company: "公司",
+    type: "我是",
+    typeArchitect: "建筑师",
+    typeContractor: "承包商",
+    typeRealtor: "房产中介",
+    typeConsumer: "私人客户",
+    typeOther: "其他",
+    message: "留言",
+    messagePlaceholder: "项目、数量、颜色、期望交付日期……",
+    submit: "发送申请",
+    submitting: "发送中……",
+    cancel: "取消",
+    successTitle: "感谢您——我们已收到您的申请。",
+    successText: "我们将在一个工作日内通过邮件或电话回复您。",
+    closeLabel: "关闭",
+    errorGeneric: "发送失败。请重试，或直接给我们发送邮件。",
+  },
 };
 
 export function QuoteRequestForm() {
@@ -169,6 +221,9 @@ export function QuoteRequestForm() {
     const type = String(f.get("type") ?? "");
     const company = String(f.get("company") ?? "");
     const sourceTag = type ? `website:${type}` : "website";
+    // De CRM (en z'n bevestigingsmails) ondersteunt alleen nl/de/en/es — val terug op en voor fr/zh.
+    const crmLocale: "nl" | "de" | "en" | "es" =
+      locale === "fr" || locale === "zh" ? "en" : locale;
     const messageParts: string[] = [];
     if (type) messageParts.push(`Type: ${type}`);
     const userMsg = String(f.get("message") ?? "").trim();
@@ -196,7 +251,7 @@ export function QuoteRequestForm() {
           productImages: items.map((i) =>
             i.image && typeof window !== "undefined" ? `${window.location.origin}${i.image}` : "",
           ),
-          locale,
+          locale: crmLocale,
           source: sourceTag,
         }),
       });

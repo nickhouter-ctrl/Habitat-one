@@ -67,12 +67,12 @@ for (const d of DOCS) {
   }
 }
 
-export type DocLocale = "nl" | "de" | "en" | "es";
+export type DocLocale = "nl" | "de" | "en" | "es" | "fr" | "zh";
 
 /**
  * Installatiegidsen bestaan in drie talen: het basisbestand is Spaans, met
- * `-en`/`-nl`-varianten ernaast (bv. instalacion-inodoro-nl.pdf). Duits valt
- * terug op Engels. Technische tekeningen zijn taal-neutraal (maatvoering).
+ * `-en`/`-nl`-varianten ernaast (bv. instalacion-inodoro-nl.pdf). Duits, Frans
+ * en Chinees vallen terug op Engels. Technische tekeningen zijn taal-neutraal.
  */
 export function getProductDocs(sku: string | null | undefined, locale: DocLocale = "es"): ProductDoc[] {
   if (!sku) return [];

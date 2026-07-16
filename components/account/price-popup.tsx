@@ -53,6 +53,24 @@ const TXT: Record<string, Copy> = {
     close: "Cerrar",
     note: "Gratis · resuelto en 1 día laborable",
   },
+  fr: {
+    eyebrow: "Réservé aux clients",
+    title: "Créez un compte pour voir les prix",
+    body: "Nos prix sont visibles pour les clients disposant d'un compte (gratuit). Demandez le vôtre — particulier ou professionnel — et consultez immédiatement tous les prix.",
+    cta: "Demander un compte",
+    login: "J'ai déjà un compte",
+    close: "Fermer",
+    note: "Gratuit · réglé sous 1 jour ouvré",
+  },
+  zh: {
+    eyebrow: "仅限客户",
+    title: "创建账户即可查看价格",
+    body: "我们的价格仅对拥有（免费）账户的客户可见。申请一个账户——个人或企业均可——即刻查看所有价格。",
+    cta: "申请账户",
+    login: "我已有账户",
+    close: "关闭",
+    note: "免费 · 1 个工作日内开通",
+  },
 };
 
 function dismissedRecently(): boolean {

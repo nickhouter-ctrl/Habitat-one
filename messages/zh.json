@@ -1,0 +1,1368 @@
+{
+  "meta": {
+    "siteName": "Habitat One",
+    "title": "Habitat One — Jávea/Xàbia 的透明建筑与建材平台",
+    "description": "Habitat One 是位于 Jávea/Xàbia 的创新优质建材体验中心。产品、供应商、价格与利润全程透明，更有由建筑师、承包商、律师与行政代办（gestor）组成的可信赖网络。"
+  },
+  "nav": {
+    "home": "首页",
+    "materials": "材料",
+    "products": "产品系列",
+    "spaces": "空间",
+    "projects": "项目案例",
+    "services": "服务",
+    "sale": "房产",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "showroom": "展厅",
+    "menu": "菜单",
+    "close": "关闭",
+    "quote": "索取报价",
+    "bookVisit": "预约参观",
+    "openMenu": "打开菜单",
+    "searchPlaceholder": "搜索产品、材料、空间…",
+    "location": "位置",
+    "inspiration": "灵感",
+    "inspEvents": "活动",
+    "inspInspireren": "寻找灵感",
+    "inspNews": "新闻动态",
+    "inspTips": "建议与贴士",
+    "inspBlog": "博客",
+    "inspPartners": "合作伙伴",
+    "furniture": "家具"
+  },
+  "common": {
+    "brand": "Habitat One",
+    "place": "Jávea/Xàbia · Costa Blanca",
+    "exploreAll": "探索全部",
+    "viewAll": "查看全部",
+    "discover": "探索",
+    "learnMore": "了解更多",
+    "readMore": "阅读更多",
+    "getInTouch": "联系我们",
+    "requestQuote": "索取报价",
+    "talkToUs": "与我们的团队交流",
+    "back": "返回",
+    "backToList": "返回总览",
+    "previous": "上一个",
+    "next": "下一个",
+    "loading": "加载中…",
+    "items": "件",
+    "from": "起价",
+    "scrollToExplore": "向下滚动探索",
+    "comingSoon": "详情请垂询",
+    "onRequest": "应询提供"
+  },
+  "hero": {
+    "eyebrow": "在西班牙，以透明的方式建造",
+    "ctaSecondary": "我们的项目",
+    "scroll": "滚动",
+    "badge": "体验中心 · Jávea/Xàbia, Costa Blanca",
+    "title": "See, Feel & Experience.",
+    "subtitle": "Habitat One 是一家汇集创新优质建材的体验中心。在这里亲眼看、亲手摸、细细比较——产品、供应商、价格与利润全程透明，更有值得信赖的专业网络支持您项目的每个阶段。",
+    "ctaPrimary": "探索材料"
+  },
+  "stats": {
+    "years": "年深耕 Costa Blanca",
+    "projects": "款现货产品",
+    "materials": "位专业合作伙伴",
+    "languages": "种服务语言"
+  },
+  "home": {
+    "onestopEyebrow": "建造的新方式",
+    "onestopTitle": "建造与翻新，可以有不同的做法。",
+    "onestopLead": "我们不是承包商、建筑师，也不是房产中介——而是一个透明的建材与建筑平台，配有实体体验中心，为您连接知识、材料、价格与合适的专业网络，助您顺利实现项目。",
+    "onestopCta": "预约咨询",
+    "onestopBlock1Title": "亲眼看，亲手摸，细细比较。",
+    "onestopBlock1Text": "在我们的体验中心，您将发现精心甄选的材料、创新的应用方式与高品质的饰面——不是翻看目录，而是真正地看到、触到、比较。",
+    "onestopBlock2Title": "全程透明。",
+    "onestopBlock2Text": "我们公开材料的来源、成本，以及价格的构成方式。没有隐性加价，没有不透明的中间环节——您始终心中有数。",
+    "onestopBlock3Title": "合适的专业网络。",
+    "onestopBlock3Text": "我们直接为您对接我们亲自认识并信任的建筑师、承包商、律师与行政代办（gestor）——覆盖项目的每个阶段。",
+    "onestopBlock4Title": "身在远方，也尽在掌控。",
+    "onestopBlock4Text": "许多客户仍身在自己的国家。若您通过 Habitat One 采购材料，我们将负责统筹、监督与陪同指导，直至项目交付。",
+    "magicEyebrow": "我们的招牌",
+    "magicTitle": "Flexible Stone",
+    "magicLead": "能够贴合墙面弯曲的真正天然石材——比瓷砖更轻，单张幅面可达 1.2 × 3.06 m。我们选择它，是因为洞石、木与大地的温润质感可以落在家中任何角落：墙面、天花、家具、立面。",
+    "magicPoint1Title": "一种材料，多种质感",
+    "magicPoint1Text": "洞石、烧杉木、混凝土、石灰岩——一个系列涵盖三十余种饰面。",
+    "magicPoint2Title": "无缝拼接，量身定制",
+    "magicPoint2Text": "大幅面板材，连续拼接。没有瓷砖格栅——只有真实石材的表面。",
+    "magicPoint3Title": "为海岸而生",
+    "magicPoint3Text": "耐盐、耐晒、耐潮。室内户外皆宜，平面曲面均可。",
+    "magicCta": "探索 Flexible Stone 系列",
+    "magicCtaSecondary": "索取样品",
+    "featuredEyebrow": "精选产品",
+    "featuredIdentifier": "Italian Travertine",
+    "featuredTitle": "Italian Travertine",
+    "featuredLead": "大幅面洞石，纹理细腻，透着罗马式的暖意。可贴合弧形墙面，无需填缝——并如 Jávea/Xàbia 的老石头一般，天然存留阳光与手心的温度。",
+    "featuredCaption": "实景 · Jávea/Xàbia 别墅中的 Flexible Stone",
+    "featuredCta": "查看该产品",
+    "featuredCtaSecondary": "所有项目",
+    "story1Identifier": "Concrete Board · Mid Gray",
+    "story1Line1": "随墙而行的混凝土",
+    "story1Line2": "没有接缝——一个连续的表面",
+    "story1Line3": "混凝土的宁静，却没有它的重量",
+    "story1Cta": "查看 Concrete Board",
+    "story2Identifier": "Travertino · Beige",
+    "story2Line1": "捕捉光线的洞石",
+    "story2Line2": "温暖的米色调——罗马式而永恒",
+    "story2Line3": "真正的石材，纤薄而轻盈",
+    "story2Cta": "查看 Travertino",
+    "pillarsEyebrow": "一个平台，合适的网络",
+    "pillarsTitle": "对接合适的产品、人脉与信息",
+    "pillarsText": "Habitat One 让您获得合适的产品、合适的人与合适的信息——没有隐藏的中间环节。",
+    "pillarMaterials": "优质材料",
+    "pillarMaterialsText": "以品质、设计与价格为标准甄选的创新高端材料——皆可在我们的体验中心亲身感受。",
+    "pillarProperties": "可信赖的网络",
+    "pillarPropertiesText": "我们亲自认识的房产中介、投资人与项目专家——在每个阶段为您直接对接合适的一方。",
+    "pillarLegal": "法律与行政",
+    "pillarLegalText": "我们网络中的律师与行政代办（gestor）为您办理购房、NIE、许可与各类文书——并使用您的语言。",
+    "pillarDesign": "建筑师与承包商",
+    "pillarDesignText": "我们信任并敢于推荐的独立建筑师与承包商——负责您项目的设计与施工。",
+    "spacesEyebrow": "逐个空间",
+    "spacesTitle": "为每个空间而设计",
+    "spacesText": "室内与户外——按空间探索精选材料与灵感，打造地中海之家的每一处。",
+    "indoor": "室内",
+    "outdoor": "户外",
+    "exploreSpace": "探索",
+    "materialsEyebrow": "体验中心",
+    "materialsTitle": "决定之前，先体验材料",
+    "materialsText": "在品质、耐久与设计上出众的创新材料——不只是看看，更要体验、比较与理解。",
+    "productsEyebrow": "来自产品系列",
+    "productsTitle": "精选产品",
+    "productsText": "一瞥我们在 Jávea/Xàbia 的厨房、浴室与立面项目中最常指定的单品。",
+    "viewCatalog": "查看完整目录",
+    "rangeEyebrow": "一站式",
+    "rangeTitle": "不止于墙板",
+    "rangeText": "从浴室到照明——Habitat One 供应完整的室内方案。探索更多产品系列。",
+    "projectsEyebrow": "改造前后",
+    "projectsTitle": "Jávea/Xàbia 的焕新蜕变",
+    "projectsText": "每个项目都将改造前后并置呈现——看 Costa Blanca 一栋疲惫的老宅，如何蜕变为宁静明亮的地中海之家。",
+    "viewProjects": "浏览所有项目",
+    "processEyebrow": "我们的工作方式",
+    "processTitle": "从最初构想到交付",
+    "processText": "一个清晰的流程，让您始终心中有数——从最初构想直到交付。",
+    "step1": "了解与倾听",
+    "step1Text": "我们了解您的项目、预算与心愿，并与您一起思考各种可能。",
+    "step2": "体验与选材",
+    "step2Text": "在体验中心，您亲眼看、亲手摸、细细比较——来源、价格与利润全程透明。",
+    "step3": "合适的网络",
+    "step3Text": "我们为您对接我们亲自信任的建筑师、承包商、律师与行政代办（gestor）。",
+    "step4": "有监督的施工",
+    "step4Text": "合作伙伴负责施工；我们为您把控方向、监督进度并全程陪同——即使您身在远方。",
+    "step5": "交付与售后",
+    "step5Text": "项目交付时一切清晰明了、没有意外——之后我们依然随时为您服务。",
+    "testimonialsEyebrow": "业主心声",
+    "testimonialsTitle": "房子，和住在里面的人",
+    "locationEyebrow": "为什么选择 Jávea/Xàbia",
+    "locationTitle": "Montgó 山上的阳光，空气中的海盐",
+    "locationText": "Jávea/Xàbia 坐落于 Montgó 山与 Cap de la Nau 悬崖之间，是地中海最受庇护的微气候区之一——320 天的阳光、松林覆盖的山丘、三个各具风情的海湾和一座石砌老城。这正是我们只在这里深耕的原因。",
+    "locationPoint1": "老城、港口与 Arenal——三个 Jávea/Xàbia，一座小城",
+    "locationPoint2": "Montgó 自然公园环抱下受庇护的微气候",
+    "locationPoint3": "蓝旗海滩与 Cap de la Nau 的隐秘海湾",
+    "locationPoint4": "Tosca 石、白灰墙与石灰——当地的建筑语言",
+    "ctaTitle": "See, Feel & Experience.",
+    "ctaText": "欢迎造访我们位于 Jávea/Xàbia 的体验中心，亲身感受材料的质感。汲取灵感，并与我们的团队探讨您的项目。",
+    "ctaButton": "开启您的项目",
+    "ctaSecondary": "参观展厅"
+  },
+  "materials": {
+    "eyebrow": "材料库",
+    "title": "材料",
+    "intro": "自然质感、适应气候的表面材料，适用于地面、墙面与立面。库中的每一种饰面，都是依据它在地中海的阳光、海盐与阴影中的表现而甄选。",
+    "count": "材料库共 {count} 种材料",
+    "usedIn": "适用于",
+    "relatedProducts": "该材质的产品",
+    "noProducts": "欢迎咨询该材质的相关产品。",
+    "applications": "典型应用",
+    "swatch": "材料样板",
+    "descriptions": {
+      "travertine": "洞石质感板材——温暖的大地色调与永恒经典的气质，适用于地面、墙面与立面。",
+      "concrete": "混凝土与水泥质感，利落而富有工业气质的宁静——用途广泛且耐久，室内户外皆宜。",
+      "wood-look": "自然木纹质感的板材——木材的温暖，石材的易于打理。",
+      "natural-stone": "以花岗岩、石灰岩与砂岩为灵感的轻质石材板——真实天然石材的观感与触感。",
+      "rammed-earth": "夯土质感，层叠而有机的肌理——粗犷、温暖、个性十足。",
+      "terrazzo": "水磨石与肌理表面——活泼、斑驳、富有个性。",
+      "solid-surface": "无缝实体面材元素——浴缸、洗手盆与淋浴盆，触感温润且可修复。",
+      "acrylic": "半透明亚克力板——现代、轻盈、富有雕塑感。",
+      "glass-mirror": "让浴室明亮开阔的玻璃与镜面元素。",
+      "brushed-metal": "哑光拉丝金属的毛巾杆、龙头、挂钩与合页——点睛的细节。",
+      "xps-backer": "轻质背衬板，为墙板与瓷砖铺贴提供稳定基层。"
+    }
+  },
+  "products": {
+    "eyebrow": "产品系列",
+    "title": "产品",
+    "intro": "我们在 Costa Blanca 住宅中最常指定的单品——大幅面墙板、实体面材卫浴、镜子、五金等。",
+    "count": "{count} 件产品",
+    "filterAll": "全部",
+    "collectionBathroom": "浴室",
+    "collectionWallPanels": "Flexible Stone",
+    "leadCollectionEyebrow": "我们的招牌",
+    "leadCollectionLead": "Flexible Stone 是我们产品系列的核心——柔性天然石材板，适用于墙面、天花、家具与立面。其余系列（浴室、门、配件）则补全整体方案。",
+    "viewMagicCollection": "浏览所有 Flexible Stone 产品",
+    "otherCollectionsTitle": "其他系列",
+    "otherCollectionsLead": "为呼应招牌系列而精心甄选——与之同属一种地中海气质。",
+    "lookbookEyebrow": "灵感",
+    "lookbookTitle": "实景效果",
+    "lookbookLead": "不同的 Flexible Stone 系列在真实空间中的呈现——点击即可查看产品。",
+    "catalogueEyebrow": "产品目录",
+    "catalogueTitle": "四个篇章，\\n一次策展",
+    "catalogueLead": "Flexible Stone 领衔——浴室、门与配件系列随后登场，皆调和于同一种地中海气质。滚动浏览每个篇章。",
+    "browseAllProducts": "浏览全部",
+    "chapterDescriptionWallPanels": "柔性天然石材板——洞石、烧杉木、混凝土、石灰岩——单张幅面可达 1.2 × 3.06 m。可包覆弧形墙面与天花，安装无需填缝。",
+    "chapterDescriptionBathroom": "实体面材浴缸、洗手盆与淋浴盆——触感温润且可修复。无缝的单品，为浴室带来宁静。",
+    "chapterDescriptionDoors": "实木室内门，与墙板同属一种木色体系——实现从地面到天花的连续表面。",
+    "chapterDescriptionDoorAccessories": "哑光拉丝金属合页——点睛的细节。",
+    "chapterDescriptionAccessories": "镜子、毛巾杆、挂钩与小型卫浴件——为搭配主系列而甄选。",
+    "chapterAll": "查看该篇章",
+    "openFilters": "筛选",
+    "closeFilters": "关闭",
+    "browseAllEyebrow": "完整目录",
+    "browseAllTitle": "一屏尽览",
+    "browseAllLead": "按空间、材质或系列筛选，浏览全部 {count} 件产品。",
+    "allProducts": "所有产品",
+    "viewAllProducts": "查看所有产品",
+    "aboutThisProduct": "关于该产品",
+    "specifications": "规格参数",
+    "availableColours": "可选颜色",
+    "elements": "组件",
+    "availableSizes": "可选尺寸",
+    "gallery": "图库",
+    "productHeroEyebrow": "Flexible Stone",
+    "scroll": "滚动",
+    "collectionAccessories": "配件",
+    "collectionDoors": "门",
+    "collectionDoorAccessories": "门配件",
+    "collectionFlowerPots": "花盆",
+    "chapterDescriptionFlowerPots": "混凝土质感的雕塑感花器——Boge 与 Epocco 系列。抗冻、抗紫外线，适用于露台、花园与室内，提供砂色、盐白、混凝土灰、石墨、赭红与玛奇朵色。",
+    "collectionLighting": "照明",
+    "collectionSwitches": "开关与插座",
+    "collectionAcrylicPanels": "亚克力板",
+    "chapterDescriptionLighting": "George Lighting 建筑照明——拉丝青铜饰面的轨道射灯，以及墙面与地埋射灯（IP65）。营造精致考究的光影层次，室内户外皆宜。",
+    "chapterDescriptionSwitches": "George Lighting 开关面板——不锈钢翘板与拨杆开关、插座、调光器，以及拉丝青铜酒店面板。与室内格调相称的精致操控。",
+    "chapterDescriptionAcrylicPanels": "半透明亚克力实体面材板——天然缟玛瑙的温暖背光替代之选。适用于特色墙、浴室、吧台与灯光装置，室内户外皆宜。",
+    "collectionFireplaces": "壁炉",
+    "chapterDescriptionFireplaces": "水雾壁炉，以水雾与 LED 呈现逼真的 3D 火焰——无烟、无热。128 种可调火焰颜色，支持 App 控制，配以利落的哑光黑饰面。提供 70 至 300 cm 规格，可选双面通透或嵌入式炉体。",
+    "collectionPVCFloors": "PVC 地板",
+    "chapterDescriptionPVCFloors": "逼真木纹的 PVC 地板——耐磨、防水、脚感安静。锁扣系统安装便捷，适用于住宅与商业空间。提供暖调与烟熏橡木色，有长条与人字拼两种铺法。",
+    "searchPlaceholder": "搜索产品…",
+    "noResults": "没有符合搜索条件的产品。",
+    "clearFilters": "清除筛选",
+    "sku": "货号",
+    "dimensions": "尺寸",
+    "material": "材质",
+    "materials": "材质",
+    "space": "空间",
+    "collection": "系列",
+    "enquire": "索取报价",
+    "related": "您可能还喜欢",
+    "specsTitle": "规格参数",
+    "noImage": "图片请垂询",
+    "featured": "精选",
+    "colour": "颜色",
+    "i18n": {
+      "lime-dacite-yellow-lime-1778674932941": {
+        "name": "石灰板 — Yellow Lime"
+      },
+      "xps-backer-board-20mm-1778674932941": {
+        "name": "XPS 背衬板 20mm"
+      },
+      "wall-hung-basin-kkr-1261-1-1778674932941": {
+        "name": "壁挂式洗手盆"
+      },
+      "bathtub-kkr-b008-b-1778674932941": {
+        "name": "浴缸"
+      },
+      "bathtub-drainage-solid-surface-drain-cover-kkr-pu9-1778674932941": {
+        "name": "浴缸排水组件 + 排水盖"
+      },
+      "bathtub-drainage-resin-drain-cover-kkr-pu9-resin-1778674932941": {
+        "name": "浴缸排水组件 + 排水盖 KKR-PU9（树脂）"
+      },
+      "wall-hung-basin-kkr-1264-1-1778674932941": {
+        "name": "壁挂式洗手盆"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a026-1778674932941": {
+        "name": "半透明亚克力板"
+      },
+      "modified-acrylic-solid-surface-sheet-kkr-m8807-1778674932941": {
+        "name": "改性亚克力板"
+      },
+      "xps-backer-board-10mm-1778674932941": {
+        "name": "XPS 背衬板 10mm"
+      },
+      "cabinet-basin-kkr-h7072-d-1778674932941": {
+        "name": "浴室柜洗手盆"
+      },
+      "cabinet-basin-kkr-h7036-1778674932941": {
+        "name": "浴室柜洗手盆"
+      },
+      "countertop-basin-kkr-2124-1778674932941": {
+        "name": "台上盆"
+      },
+      "freestanding-basin-drainage-set-kkr-pd032-1778674932941": {
+        "name": "独立式洗手盆排水套件"
+      },
+      "countertop-basin-kkr-1169-1778674932941": {
+        "name": "台上盆"
+      },
+      "countertop-basin-kkr-1507-1778674932942": {
+        "name": "台上盆"
+      },
+      "freestanding-basin-kkr-1908-1778674932942": {
+        "name": "独立式洗手盆"
+      },
+      "bathtub-kkr-b051-1778674932942": {
+        "name": "浴缸"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a110-1778674932942": {
+        "name": "半透明亚克力板"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a025-1778674932942": {
+        "name": "半透明亚克力板"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a001-1778674932942": {
+        "name": "半透明亚克力板"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a027-1778674932942": {
+        "name": "半透明亚克力板"
+      },
+      "bathtub-rack-kkr-b-rack09-1778674932942": {
+        "name": "浴缸置物架"
+      },
+      "xps-backer-board-12mm-1778674932942": {
+        "name": "XPS 背衬板 12mm"
+      },
+      "xps-backer-board-6mm-1778674932942": {
+        "name": "XPS 背衬板 6mm"
+      },
+      "basin-taps-1778674932942": {
+        "name": "面盆龙头"
+      },
+      "xps-backer-board-30mm-1778674932942": {
+        "name": "XPS 背衬板 30mm"
+      },
+      "xps-backer-board-10mm-1778674932942": {
+        "name": "XPS 背衬板 10mm"
+      },
+      "lime-dacite-white-lime-1778674932942": {
+        "name": "石灰板 — White Lime"
+      },
+      "wood-concrete-board-light-grey-1778674932942": {
+        "name": "Wood Concrete Board"
+      },
+      "wall-hung-basin-kkr-h5060-d-1778674932942": {
+        "name": "壁挂式洗手盆"
+      },
+      "inside-door-1778676102509": {
+        "name": "室内门"
+      },
+      "hinges-binnen-1778676102509": {
+        "name": "合页（室内）"
+      },
+      "inside-door-2-1778676102509": {
+        "name": "室内门 2"
+      },
+      "outside-door-1778676102509": {
+        "name": "室外门"
+      },
+      "outside-door-2-1778676102509": {
+        "name": "室外门 2"
+      },
+      "deurstopper-brons-1778854942833": {
+        "name": "门吸（青铜色）"
+      },
+      "deursluiter-concealed-1778854942833": {
+        "name": "隐藏式闭门器"
+      },
+      "binnendeur-compleet-920-2600-bronze-1778854942833": {
+        "name": "室内门套装 920×2600（青铜色）"
+      },
+      "binnendeur-compleet-720-2600-bronze-1778854942833": {
+        "name": "室内门套装 720×2600（青铜色）"
+      },
+      "buitendeur-compleet-920-2400-matzwart-1778854942834": {
+        "name": "室外门套装 920×2400（哑光黑）"
+      },
+      "buitendeur-compleet-1220-2400-matzwart-1778854942834": {
+        "name": "室外门套装 1220×2400（哑光黑）"
+      },
+      "rail-spot-led-7w": {
+        "name": "LED 轨道射灯 7W"
+      },
+      "railprofiel-2m": {
+        "name": "轨道型材 2 m"
+      },
+      "rail-connector-180": {
+        "name": "轨道连接件 180°"
+      },
+      "pendelstang-1m": {
+        "name": "吊杆 1 m"
+      },
+      "ventilatorsnelheidsregelaar": {
+        "name": "风扇调速器"
+      },
+      "dubbele-dimmer": {
+        "name": "双联调光器"
+      },
+      "stopcontact-randaarde": {
+        "name": "插座（带接地）"
+      },
+      "tuimelschakelaar-4-voudig-breed-146": {
+        "name": "拨杆开关 四联加宽（146 mm）"
+      },
+      "wipschakelaar-4-voudig-breed-146": {
+        "name": "翘板开关 四联加宽（146 mm）"
+      },
+      "hotelpaneel-niet-storen": {
+        "name": "酒店面板“请勿打扰 / 请即清理 / 门铃”"
+      },
+      "tuimelschakelaar-1-voudig": {
+        "name": "拨杆开关 单联"
+      },
+      "tuimelschakelaar-2-voudig": {
+        "name": "拨杆开关 双联"
+      },
+      "tuimelschakelaar-3-voudig": {
+        "name": "拨杆开关 三联"
+      },
+      "tuimelschakelaar-4-voudig": {
+        "name": "拨杆开关 四联"
+      },
+      "deurbel-tuimelschakelaar": {
+        "name": "门铃拨杆开关"
+      },
+      "wipschakelaar-1-voudig": {
+        "name": "翘板开关 单联"
+      },
+      "wipschakelaar-2-voudig": {
+        "name": "翘板开关 双联"
+      },
+      "wipschakelaar-3-voudig": {
+        "name": "翘板开关 三联"
+      },
+      "wipschakelaar-4-voudig": {
+        "name": "翘板开关 四联"
+      },
+      "deurbel-wipschakelaar": {
+        "name": "门铃翘板开关"
+      },
+      "wandspot-led-8w-ip65": {
+        "name": "LED 墙面射灯 8W IP65"
+      },
+      "grondspot-led-3w-ip65": {
+        "name": "LED 地埋射灯 3W IP65"
+      },
+      "grondspot-led-20w-ip65": {
+        "name": "LED 地埋射灯 20W IP65"
+      },
+      "grondspot-led-12w-ip65": {
+        "name": "LED 地埋射灯 12W IP65"
+      }
+    },
+    "spaces": "空间",
+    "allSpaces": "所有空间",
+    "allMaterials": "所有材质",
+    "filters": "筛选",
+    "clearAll": "清除所有筛选",
+    "showResults": "显示 {count} 件产品",
+    "activeFilters": "已选筛选",
+    "addToQuote": "加入报价单",
+    "inQuote": "已加入报价单",
+    "bookAppointment": "预约到店",
+    "collectionBackerBoards": "XPS 背衬板",
+    "chapterDescriptionBackerBoards": "轻质 XPS 背衬板——为墙板与瓷砖铺贴提供稳定、防水的基层。厚度 6 至 30 mm。",
+    "backerFeatures": {
+      "applicationsEyebrow": "应用可能",
+      "applicationsTitle": "美墙背后的防水基层",
+      "applicationsLead": "XPS 背衬板是让湿区经久耐用的隐形功臣——为淋浴墙、壁龛、坐凳、壁挂框架与大幅面瓷砖铺贴提供稳定且完全防水的基层。厚度 6 至 30 mm，室内户外皆宜。",
+      "techEyebrow": "技术与防火安全",
+      "techTitle": "为水、承重与高温而设计",
+      "techLead": "刚性挤塑聚苯乙烯（XPS）芯材，外覆玻纤增强水泥面层——搬运轻便，铺贴承重坚固，遇热遇潮依然稳定。",
+      "point1Title": "防水 XPS 芯材",
+      "point1Text": "闭孔芯材不吸水——是淋浴背墙、浴缸四周及一切湿区的理想之选。",
+      "point2Title": "轻质且刚性",
+      "point2Text": "重量仅为水泥板的几分之一，却足以承托大幅面瓷砖与石材板。",
+      "point3Title": "阻燃",
+      "point3Text": "采用阻燃配方制造。完整防火等级详见技术数据表。",
+      "point4Title": "防霉防潮",
+      "point4Text": "矿物涂层表面抗霉变，不腐烂、不膨胀——在蒸汽与含盐空气中经久耐用。",
+      "certLabel": "已认证",
+      "specNote": "完整技术数据表——防火等级、导热值与密度——可应要求提供。",
+      "applicationLabels": [
+        "悬浮式浴室柜",
+        "嵌入式浴缸围挡",
+        "整体防水湿区",
+        "淋浴壁龛",
+        "带壁龛的洗手台",
+        "地暖系统",
+        "壁挂马桶背板",
+        "淋浴坐凳",
+        "防水背衬"
+      ]
+    },
+    "doorFeatures": {
+      "introEyebrow": "为酒店业匠造 · 为安全而生",
+      "introTitle": "高端实木门",
+      "introText": "我们的门将永恒的设计与先进的工艺相结合，实现顶级的安全性、隔音性能与耐久性——专为酒店与高端项目打造。",
+      "collectionLabel": "门系列",
+      "buildEyebrow": "构造工艺",
+      "buildTitle": "十层精工构造",
+      "layers": [
+        {
+          "title": "真木皮饰面",
+          "text": "天然橡木木皮，覆以 UV 保护漆或木蜡油。"
+        },
+        {
+          "title": "HDF 稳定层",
+          "text": "高密度纤维板，带来更高的稳定性与平整度。"
+        },
+        {
+          "title": "防火矿物芯材",
+          "text": "不燃芯板，防火性能出众。"
+        },
+        {
+          "title": "实心硬木边框",
+          "text": "工程硬木，强度与握钉力俱佳。"
+        },
+        {
+          "title": "隔音层",
+          "text": "高密度隔音层，提升降噪表现。"
+        },
+        {
+          "title": "膨胀防火密封条",
+          "text": "遇火自动膨胀，封闭缝隙。"
+        },
+        {
+          "title": "自动下降门底密封",
+          "text": "隐藏式下降密封条，防烟兼隔音。"
+        },
+        {
+          "title": "多点锁闭系统",
+          "text": "高品质门锁，安全且经久耐用。"
+        },
+        {
+          "title": "隐藏式 3D 合页",
+          "text": "三向可调，承重 120 kg。"
+        },
+        {
+          "title": "防烟隔音密封条",
+          "text": "四周密封，隔绝烟、声与光。"
+        }
+      ],
+      "perfEyebrow": "性能与认证",
+      "perfTitle": "看不见的安全",
+      "performance": [
+        {
+          "title": "防火等级 EI30 / EI60",
+          "text": "依据 EN 1634-1 测试。"
+        },
+        {
+          "title": "出色的隔音性能",
+          "text": "降噪量高达 42 dB Rw。"
+        },
+        {
+          "title": "高端实心构造",
+          "text": "稳定、坚固、经久耐用。"
+        },
+        {
+          "title": "奢华的天然饰面",
+          "text": "真木皮与高级漆面。"
+        },
+        {
+          "title": "为高强度使用而造",
+          "text": "专为高要求的酒店环境设计。"
+        },
+        {
+          "title": "符合最高标准",
+          "text": "EN 1634-1、EN 13501-2、EN ISO 717-1。"
+        }
+      ],
+      "certifiedTo": "认证标准",
+      "specsTitle": "技术规格",
+      "specs": [
+        {
+          "k": "门扇厚度",
+          "v": "54 – 70 mm"
+        },
+        {
+          "k": "最大门高",
+          "v": "最高 3000 mm"
+        },
+        {
+          "k": "最大门宽",
+          "v": "最宽 1200 mm"
+        },
+        {
+          "k": "重量",
+          "v": "约 45 – 65 kg/m²"
+        },
+        {
+          "k": "饰面",
+          "v": "真木皮、漆面、木蜡油"
+        },
+        {
+          "k": "应用场景",
+          "v": "酒店客房、走廊、套房、大堂、公寓"
+        },
+        {
+          "k": "标准",
+          "v": "EN 1634-1 · EN 13501-2 · EN ISO 717-1"
+        }
+      ]
+    },
+    "docsTitle": "文档与下载",
+    "docsLead": "下载该产品的技术图纸与安装指南。",
+    "docDrawing": "技术图纸",
+    "docInstallation": "安装指南",
+    "groupSurfaces": "表面与墙面",
+    "groupFlooring": "地板",
+    "groupBathroom": "浴室",
+    "groupHeatLight": "采暖与照明",
+    "groupGarden": "花园",
+    "groupDoors": "门",
+    "collectionFurniture": "家具",
+    "allFurniture": "所有家具"
+  },
+  "spaces": {
+    "eyebrow": "逐个空间",
+    "title": "空间",
+    "intro": "地中海之家的每个部分，都需要不同的材料、光线与呵护。逐个空间探索灵感与饰面。",
+    "indoor": "室内空间",
+    "outdoor": "户外空间",
+    "exploreMaterials": "适合该空间的材料",
+    "exploreProducts": "适合该空间的产品",
+    "ideasFor": "灵感之选：",
+    "gallery": "灵感",
+    "noItems": "欢迎咨询，为该空间量身定制灵感方案。",
+    "names": {
+      "bathroom": "浴室",
+      "kitchen": "厨房",
+      "living-room": "客厅",
+      "bedroom": "卧室",
+      "terrace": "露台",
+      "garden": "花园",
+      "pool-area": "泳池区",
+      "outdoor-kitchen": "户外厨房"
+    },
+    "descriptions": {
+      "bathroom": "浴室需要经得起蒸汽与水的表面。我们将实体面材洗手盆、浴缸与淋浴盆、大幅面石纹板材、拉丝铜质五金与温暖的灯光汇于一处——一个宁静如水疗馆的空间，在海边也能经久如初。",
+      "kitchen": "厨房是全家相聚的地方。耐用的台面、灶台后的大幅面墙板、微水泥与温润的木质柜门——每种饰面都为日常使用、易于清洁，以及地中海光线在一天中的流转而甄选。",
+      "living-room": "客厅是房子的心脏。流畅的石材或温润的木地板、以 Flexible Stone 板材打造的特色墙、微水泥与石灰抹面——这些材料框住风景，承接午后的阳光，脚下的触感也恰到好处。",
+      "bedroom": "卧室应当是安静的。柔和的木地板、温暖的石灰或微水泥墙面、软包床头墙与轻柔的间接照明——一组沉静的色调，材料在 Costa Blanca 的气候中自在呼吸。",
+      "terrace": "露台是一间户外的房间。防滑石材铺地、遮阴的凉棚、户外厨房与嵌入式座椅——每处表面与细节都为阳光、海盐与 Levante 海风而设计，历经四季反而愈发耐看。",
+      "garden": "花园把房子与土地连在一起。翻滚石铺就的小径、干砌石挡土墙、原生植物——橄榄、扁桃、薰衣草、迷迭香——以及考究的照明，所有材料都能在户外优雅地老去。",
+      "pool-area": "泳池区承受着所有空间中最严酷的考验：氯、盐与烈日。我们为池畔、压顶石、防滑铺装与户外淋浴指定经过验证的饰面——经得住岁月，也守得住宁静。",
+      "outdoor-kitchen": "户外厨房让夏天成为一年的主场。石材或实体面材台面、大幅面饰面板、嵌入式烧烤炉与储物、耐候的细木工——每个细节都为在 Costa Blanca 常年户外生活而打磨。"
+    }
+  },
+  "projects": {
+    "eyebrow": "改造前后",
+    "title": "项目案例",
+    "intro": "看看我们在 Jávea/Xàbia 及周边建造与翻新的家——从荒废的乡间庄园到崭新的别墅。每个项目都将改造前后并置呈现，让您亲眼见证蜕变。",
+    "count": "{count} 个项目",
+    "before": "改造前",
+    "after": "改造后",
+    "dragHint": "拖动对比",
+    "location": "地点",
+    "year": "年份",
+    "scope": "工程范围",
+    "materialsUsed": "使用的材料与产品",
+    "moreProjects": "更多蜕变",
+    "viewProject": "查看项目",
+    "galleryTitle": "项目影像",
+    "style": "风格",
+    "duration": "工期",
+    "days": "天"
+  },
+  "services": {
+    "eyebrow": "我们的服务",
+    "title": "服务",
+    "intro": "Habitat One 为您对接一个精心甄选的网络，汇聚内部专家与外部合作伙伴——建筑师、承包商、建筑专家、律师、行政代办（gestor）与技术顾问——并从最初构想到交付全程陪伴。",
+    "partnersTitle": "可信赖的本地伙伴",
+    "partnerNote": "我们与 Jávea/Xàbia 当地我们亲自认识并信任的专业人士携手合作。其中之一：",
+    "whatWeHandle": "我们负责的事项",
+    "talkAbout": "欢迎咨询",
+    "viewService": "阅读更多",
+    "requestThis": "申请该服务"
+  },
+  "sale": {
+    "eyebrow": "房产 · Jávea/Xàbia",
+    "title": "在 Jávea/Xàbia 找到您的家",
+    "intro": "独立房产中介与我们并肩工作于 Habitat One 的 Jávea/Xàbia 展厅。一份精挑细选的别墅、地块与翻新项目清单即将在此发布——而其中任何一处，都可由同一个团队为您打造成理想之家。",
+    "soon": "房源即将上线",
+    "soonText": "我们正在甄选一份值得您细看的房源清单。在此期间，欢迎告诉我们您的需求，我们将为您对接合适的中介。",
+    "howTitle": "运作方式",
+    "s1": "本地中介，驻场服务",
+    "s1Text": "值得信赖的独立房产中介在我们的 Jávea/Xàbia 展厅设有办公位，在这里接待客户，并带他们了解材料与设计灵感。",
+    "s2": "精选房源，即将发布",
+    "s2Text": "我们正在汇集 Jávea/Xàbia 各处的别墅、海景地块与翻新项目的精选清单。它们将在此陆续呈现。",
+    "s3": "先购入，再与我们共建",
+    "s3Text": "购入了翻新项目或一块空地？接下来交给我们的建筑师、律师与施工团队——一位项目经理、一份计划、一个成品之家。",
+    "s4": "告诉我们您的需求",
+    "s4Text": "正在找房？把您的需求发给我们——区域、预算、新建或翻新——我们为您匹配合适的中介和一份切实可行的计划。",
+    "buyerCta": "告诉我们您在找什么",
+    "agentTitle": "您是 Jávea/Xàbia 的房产中介吗？",
+    "agentText": "我们在展厅接待独立中介。如果您希望拥有一个办公位、一个展厅，以及设计与施工端的合作伙伴，欢迎联系我们。",
+    "agentCta": "洽谈合作",
+    "visitCta": "参观展厅"
+  },
+  "about": {
+    "eyebrow": "关于我们",
+    "title": "Habitat One",
+    "lead": "我们不是承包商、建筑师，也不是房产中介——而是一个透明的建材与建筑平台，配有实体体验中心，为您连接知识、材料、价格与合适的专业网络，助您顺利实现项目。",
+    "storyEyebrow": "建造的新方式",
+    "storyTitle": "建造与翻新，可以有不同的做法",
+    "p1": "在 Habitat One，我们相信建造与翻新可以有不同的做法：更透明、更诚实、选择更好。在我们的体验中心，您将发现为新建与翻新精心甄选的材料、创新的应用方式与高品质饰面——不是翻看目录，而是真正地看到、触到、比较。",
+    "sub2": "合适的网络",
+    "p2": "我们只与亲自认识、信任并敢于推荐的房产中介、投资人、建筑师、承包商、供应商、律师与行政代办（gestor）合作。这样，我们能在项目的每个阶段为您直接对接合适的专家。许多客户仍身在自己的国家；若他们通过 Habitat One 采购材料，我们将负责统筹、监督与陪同指导。",
+    "sub3": "以透明为基石",
+    "p3": "建筑行业素以流程复杂、价格结构不清与隐性加价著称。我们刻意选择了另一条路。我们公开材料来自哪里、生产商是谁、采购价是多少、我们收取多少利润，以及哪些各方参与您的项目。没有隐性加价，没有不透明的中间环节——一个清晰的流程，让您始终心中有数。",
+    "sub4": "对接对的资源",
+    "p4": "Habitat One 让您获得合适的产品、合适的人与合适的信息。以此建立信任、避免意外，让您在整个建造过程中做出更好的决策。",
+    "p5": "Habitat One 不只是一间展厅。这里是让您明明白白建造的地方——让您的西班牙梦想之家安心成真。",
+    "valuesEyebrow": "我们的价值观",
+    "valuesTitle": "驱动我们的信念",
+    "value1": "透明至上",
+    "value1Text": "我们公开材料的来源、成本，以及我们收取的利润。没有隐性加价，没有不透明的中间环节。",
+    "value2": "看见、触摸、体验",
+    "value2Text": "选材不该只靠翻目录。在我们的体验中心，您在决定之前先看到、摸到并比较每一件产品。",
+    "value3": "合适的网络",
+    "value3Text": "我们只与亲自认识并信任的伙伴合作——敢于推荐的建筑师、承包商、律师与行政代办（gestor）。",
+    "value4": "扎根本地",
+    "value4Text": "立足 Jávea/Xàbia，我们熟悉当地的气候、建筑风格与法规。我们是您在 Costa Blanca 值得信赖的伙伴。",
+    "statsTitle": "数字中的 Habitat One",
+    "ctaTitle": "准备好换一种方式建造了吗？",
+    "ctaText": "欢迎造访我们位于 Jávea/Xàbia 的体验中心，或与我们联系——我们乐于帮您做出正确的选择。",
+    "teamTitle": "与您并肩同行的人",
+    "teamNote": "一支紧密协作的团队，加上我们亲自认识并信任、精心甄选的合作网络——Costa Blanca 的建筑师、承包商、律师、行政代办（gestor）与技术顾问。"
+  },
+  "contact": {
+    "eyebrow": "打个招呼",
+    "title": "聊聊您的家",
+    "intro": "告诉我们您的地块、房产或想法。我们通常在一个工作日内回复——可用英语、荷兰语、西班牙语或德语。",
+    "formTitle": "给我们留言",
+    "name": "您的姓名",
+    "email": "电子邮箱",
+    "phone": "电话（选填）",
+    "subject": "主题",
+    "subjectOptions": {
+      "general": "一般咨询",
+      "materials": "材料与产品",
+      "renovation": "翻新或新建",
+      "property": "购置房产",
+      "legal": "法律与文书",
+      "showroom": "参观展厅"
+    },
+    "message": "您的留言",
+    "messagePlaceholder": "告诉我们您的项目、地块或房产…",
+    "consent": "我同意 Habitat One 就我的咨询与我联系。",
+    "send": "发送留言",
+    "sending": "发送中…",
+    "sent": "谢谢——您的留言已发出，我们会尽快与您联系。",
+    "errorRequired": "请填写此项。",
+    "errorEmail": "请输入有效的电子邮箱地址。",
+    "infoTitle": "Habitat One",
+    "addressLabel": "展厅与工作室",
+    "address": "Camí de la Fontana 3, Locales 2, 3 en 5, 03730 Jávea/Xàbia (Alicante), 西班牙",
+    "phoneLabel": "电话",
+    "emailLabel": "邮箱",
+    "hoursLabel": "开放时间",
+    "hoursWeek": "参观仅限预约——周一至周六恭候您的光临。",
+    "languagesLabel": "服务语言",
+    "mapTitle": "在 Jávea/Xàbia 找到我们",
+    "mapNote": "展厅提供免费停车。参观项目现场与石材场地请提前预约。",
+    "hoursByAppointment": "参观仅限预约——周一至周六恭候您的光临。",
+    "hoursShort": "仅限预约"
+  },
+  "showroom": {
+    "eyebrow": "体验中心",
+    "title": "Jávea/Xàbia 的体验中心",
+    "intro": "建造项目始于选择。在我们的体验中心，我们呈现在品质、耐久与设计上出众的创新材料——供您在决定之前观看、触摸、比较与理解。",
+    "experienceTitle": "您将看到什么",
+    "exp1": "材料库",
+    "exp1Text": "亲手触摸并比较数百种优质材料——天然石材、瓷质材料、硬木、微水泥等。",
+    "exp2": "设计与咨询",
+    "exp2Text": "预约一次咨询，我们将为您对接网络中的建筑师与专家，共同规划您的翻新或新建项目。",
+    "exp3": "实景安装",
+    "exp3Text": "在足尺的空间场景中观看安装完成的材料，在下决定之前预见最终效果。",
+    "exp4": "样品服务",
+    "exp4Text": "把材料样品带回家，在您自己的光线与空间中试验。",
+    "visitTitle": "规划您的到访",
+    "bookTitle": "预约咨询",
+    "bookText": "咨询免费，约一小时。告诉我们您方便的时间。",
+    "bookButton": "申请预约",
+    "addressTitle": "地址",
+    "hoursTitle": "开放时间",
+    "directions": "获取路线",
+    "tourTitle": "虚拟导览",
+    "tourText": "Jávea/Xàbia 展厅的 360° 全景导览即将上线。眼下，欢迎亲临现场。",
+    "tourSoon": "即将推出",
+    "subtitle": "看见 · 触摸 · 体验",
+    "howToGetHere": "如何到达",
+    "directionsText": "位于 Jávea/Xàbia 市中心，提供免费停车——距瓦伦西亚仅 90 分钟车程，距阿利坎特机场 75 分钟。"
+  },
+  "footer": {
+    "ctaTitle": "Jávea/Xàbia 一站式的建造与生活体验。",
+    "ctaText": "探索精心甄选的材料、创新产品与令人心动的家居方案。无论您在建造、翻新，或只是寻找灵感，我们的展厅都会助您发现更多可能。通过网站预约来访，亲身体验 Habitat One。",
+    "tagline": "在 Jávea/Xàbia 建造、翻新、优雅生活——材料、设计、法律与房产，齐聚一个地中海屋檐下。",
+    "exploreTitle": "探索",
+    "companyTitle": "公司",
+    "contactTitle": "联系",
+    "newsletterTitle": "来自 Jávea/Xàbia 的札记",
+    "newsletterText": "新材料发布、项目故事，偶尔还有一栋待售的房子。绝无打扰。",
+    "newsletterPlaceholder": "您的邮箱",
+    "newsletterButton": "订阅",
+    "newsletterThanks": "谢谢——您已在名单上。",
+    "rights": "版权所有。",
+    "builtIn": "设计并构建于 Costa Blanca。",
+    "privacy": "隐私",
+    "terms": "条款",
+    "cookies": "Cookie",
+    "langLabel": "语言",
+    "cookieSettings": "Cookie 设置"
+  },
+  "notFound": {
+    "title": "这个房间（还）不存在",
+    "text": "您要找的页面已被移动，或从未存在。让我们带您回到坚实的地面。",
+    "button": "返回首页",
+    "browse": "浏览产品目录"
+  },
+  "appointment": {
+    "title": "预约到店",
+    "subtitle": "与我们的团队安排一次专属的展厅参观。",
+    "rolePrompt": "预约展厅参观前，请告知您的专业身份。",
+    "roleArchitect": "建筑师",
+    "roleSales": "销售",
+    "roleHomeowner": "业主",
+    "roleOther": "其他",
+    "proOnly": "预约目前仅面向专业人士",
+    "proOnlyDesc": "展厅预约目前面向建筑师与销售专业人士开放。也非常欢迎您给我们留言——我们乐于提供帮助，并在开放时间恭候您的光临。",
+    "contactInstead": "给我们留言",
+    "continueBooking": "继续预约",
+    "changeRole": "更改身份",
+    "pickSlot": "选择适合您的日期和时间。我们将确认您的预约，或建议其他时间。",
+    "availableTimes": "可选时间",
+    "selected": "已选择",
+    "name": "姓名",
+    "email": "邮箱",
+    "phone": "电话",
+    "notes": "备注（选填）",
+    "namePh": "您的姓名",
+    "emailPh": "your@email.com",
+    "notesPh": "有什么需要我们了解的吗？",
+    "submit": "提交预约申请",
+    "sending": "发送中…",
+    "received": "已收到申请！",
+    "receivedDesc": "我们将审核您的申请并通过邮件确认——或建议其他时间。",
+    "bookAnother": "再约一次",
+    "chooseDate": "选择日期"
+  },
+  "location": {
+    "eyebrow": "如何找到我们",
+    "title": "我们在 Jávea/Xàbia 的位置",
+    "intro": "Habitat One 体验中心坐落于 Costa Blanca 的 Jávea/Xàbia 市中心。欢迎前来亲眼观看、亲手触摸并比较材料——门外即有免费停车。",
+    "addressTitle": "地址",
+    "hoursTitle": "参观需预约",
+    "gettingHereTitle": "如何到达",
+    "gettingHereText": "位于 Jávea/Xàbia 中心，提供免费停车——距瓦伦西亚约 90 分钟车程，距阿利坎特机场 75 分钟。",
+    "ctaTitle": "想要有保障的专属时段？",
+    "ctaText": "预约一次专属会面，我们将为您的项目留足时间。",
+    "bookButton": "规划到访",
+    "directionsButton": "获取路线",
+    "hoursText": "体验中心的参观均需预约——这样我们才能把时间完整地留给您和您的项目。选一个适合您的时间即可。"
+  },
+  "inspiration": {
+    "eyebrow": "灵感",
+    "title": "寻找灵感",
+    "intro": "在真实空间中欣赏我们的材料与产品——室内与户外。从 Costa Blanca 沿岸的厨房、浴室、客厅、露台与泳池中汲取灵感。",
+    "exploreTitle": "探索更多",
+    "cards": [
+      {
+        "id": "events",
+        "title": "活动",
+        "text": "体验中心内的私享特卖日与灵感活动。"
+      },
+      {
+        "id": "range",
+        "title": "产品系列",
+        "text": "从 Flexible Stone 到厨房、浴室、地板与壁炉。"
+      },
+      {
+        "id": "projects",
+        "title": "项目案例",
+        "text": "Costa Blanca 沿岸住宅的改造前后蜕变。"
+      },
+      {
+        "id": "tips",
+        "title": "建议与贴士",
+        "text": "关于在西班牙建造与翻新的实用知识。"
+      },
+      {
+        "id": "news",
+        "title": "新闻动态",
+        "text": "最新的系列、伙伴与动态。"
+      },
+      {
+        "id": "blog",
+        "title": "博客",
+        "text": "关于材料、设计与海岸生活的故事。"
+      },
+      {
+        "id": "partners",
+        "title": "合作伙伴",
+        "text": "与我们携手的可信赖网络。"
+      }
+    ],
+    "indoorTitle": "室内",
+    "outdoorTitle": "户外",
+    "ctaTitle": "看到心动之处？",
+    "ctaText": "探索完整产品系列，或规划一次体验中心之行。",
+    "ctaButton": "查看所有产品",
+    "fireplaceLabel": "壁炉"
+  },
+  "events": {
+    "eyebrow": "活动",
+    "title": "灵感、知识与对的人脉",
+    "intro": "在 Habitat One，我们相信更好的建造项目始于对的知识与对的人。因此，我们全年为会员举办专属活动。",
+    "items": [
+      {
+        "tag": "每月",
+        "title": "私享特卖日",
+        "when": "每月第一个周六 · 10:00–14:00",
+        "text": "展厅专属开放一日，现货材料享当日特惠价——精选单品可即刻带回家。"
+      },
+      {
+        "tag": "现场演示",
+        "title": "Flexible Stone——现场施工演示",
+        "when": "时间另行公布",
+        "text": "亲眼见证我们的招牌天然石材如何随墙弯曲，感受它与传统瓷砖的不同。"
+      },
+      {
+        "tag": "人脉交流",
+        "title": "会员之夜：结识网络中的专家",
+        "when": "时间另行公布",
+        "text": "一个专属的夜晚：举杯之间，结识我们网络中的建筑师、承包商、律师与行政代办（gestor）。提出您的问题，建立对的联系。"
+      },
+      {
+        "tag": "知识",
+        "title": "开放时段：在西班牙建房与置业",
+        "when": "时间另行公布",
+        "text": "与我们的律师和行政代办（gestor）开放问答——NIE、许可、合同与税务，让您安心开启项目。"
+      }
+    ],
+    "ctaTitle": "不错过任何活动",
+    "ctaText": "浏览我们的活动日历，预留您的席位。",
+    "ctaButton": "预留席位",
+    "body": [
+      "在充满启发的工作坊、讲座与知识分享中，建筑师、材料专家、建筑行家、律师、行政代办（gestor）等专业人士将带您走进在西班牙建造、翻新与生活的世界。",
+      "发现创新材料，洞悉流程，向专家当面提问，并结识能在项目每一步帮到您的人。",
+      "我们的活动不止于传递信息——更让您对自己的每个选择拥有更多的全局视野、信心与掌控。"
+    ],
+    "tagline": "更聪明地建造。更笃定地选择。结识对的人。",
+    "agendaTitle": "活动日历"
+  },
+  "news": {
+    "eyebrow": "最新动态",
+    "title": "新闻",
+    "intro": "Habitat One 的最新消息——新系列、新伙伴与体验中心的新进展。",
+    "items": [
+      {
+        "date": "2026年6月",
+        "title": "新品：壁炉",
+        "text": "壁炉系列已经到店——壁挂式、嵌入式与双面通透壁炉，融温暖与设计于一体。"
+      },
+      {
+        "date": "2026年6月",
+        "title": "新品：照明系列",
+        "text": "从利落的嵌入式射灯到氛围灯具——全新照明系列为室内画上点睛之笔。"
+      },
+      {
+        "date": "2026年6月",
+        "title": "产品系列大幅扩充",
+        "text": "我们新增了多个产品类别，包括亚克力板、花器与开关面板。欢迎来体验中心亲身感受这一切。"
+      },
+      {
+        "date": "2026年6月",
+        "title": "新系列：PVC 地板",
+        "text": "九款全新 PVC 地板，并设有专属类别页面——耐磨、防水，非常适合海岸气候。"
+      },
+      {
+        "date": "2026年5月",
+        "title": "门系列扩充",
+        "text": "室内门与室外门系列迎来新款式与新饰面。"
+      },
+      {
+        "date": "2026年4月",
+        "title": "体验中心扩容",
+        "text": "我们扩建了 Jávea/Xàbia 展厅，增设了新的材料展示区，让您能看到、摸到、比较的更多。"
+      }
+    ]
+  },
+  "tips": {
+    "eyebrow": "知识",
+    "title": "建议与贴士",
+    "intro": "在西班牙建造或翻新，难免带来许多疑问。我们在这里分享实用知识——诚实而透明，一如您对我们的期待。",
+    "items": [
+      {
+        "tag": "置业",
+        "title": "在西班牙建房：NIE、行政代办（gestor）与许可",
+        "text": "开工之前您需要准备什么，以及我们的律师与行政代办（gestor）网络如何为您省去繁琐。",
+        "slug": "bouwen-in-spanje-nie-vergunningen"
+      },
+      {
+        "tag": "材料",
+        "title": "为地中海气候选材",
+        "text": "阳光、海盐与湿气对饰面提出了更高的要求。教您如何挑选在海岸边历久弥新的材料。",
+        "slug": "materialen-mediterraan-klimaat"
+      },
+      {
+        "tag": "价格",
+        "title": "我们的公开价格构成",
+        "text": "在 Habitat One，您清楚地看到每一分钱花在哪里：材料采购价、我们的利润与施工费用。公开透明、没有隐藏的中间环节——绝不让您措手不及。",
+        "slug": "onze-open-prijsopbouw"
+      },
+      {
+        "tag": "设计",
+        "title": "室内户外一脉相承",
+        "text": "用同一种材料贯通室内与户外，营造宁静与开阔。我们为您展示哪些系列能从客厅无缝延伸到露台。",
+        "slug": "binnen-buiten-een-materiaal"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "故事",
+    "title": "博客",
+    "intro": "关于材料、设计、匠艺与 Costa Blanca 生活的故事。",
+    "items": [
+      {
+        "date": "2026年6月",
+        "tag": "产品",
+        "title": "水雾壁炉：无热的氛围",
+        "text": "我们的水雾壁炉无需真火即可呈现逼真火焰——不发热，绝对安全。特别适合出租物业，为任何空间即刻注入氛围。"
+      },
+      {
+        "date": "2026年5月",
+        "tag": "浴室",
+        "title": "浴室，一处放松身心的所在",
+        "text": "从独立浴缸到实体面材洗手盆：我们的浴室系列将温润的材料与利落的设计相结合，把水疗般的感受带回家。"
+      },
+      {
+        "date": "2026年4月",
+        "tag": "细节",
+        "title": "小细节，大不同",
+        "text": "格调往往藏在收尾之处。用设计感的开关插座与个性花器，为空间画上真正的句点——室内户外皆然。"
+      },
+      {
+        "date": "2026年6月",
+        "tag": "设计",
+        "title": "为什么 Flexible Stone 改变了一切",
+        "text": "能随墙弯曲的真正天然石材——比瓷砖更轻，应用无限。走近我们的招牌材料。"
+      },
+      {
+        "date": "2026年5月",
+        "tag": "幕后",
+        "title": "透明建造：我们的承诺",
+        "text": "没有隐性加价，没有不透明的中间环节。我们解释我们为何、以及如何这样工作。"
+      },
+      {
+        "date": "2026年4月",
+        "tag": "地点",
+        "title": "在 Jávea/Xàbia 建造：阳光、石头与海",
+        "text": "是什么让这里的地中海微气候如此特别——以及它对您的选材意味着什么。"
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "我们的网络",
+    "title": "合作伙伴",
+    "intro": "Habitat One 与一个精心甄选的专家网络合作——我们亲自认识、信任并敢于推荐。这样，我们能在项目的每个阶段为您直接对接合适的专家。",
+    "items": [
+      {
+        "role": "建筑师",
+        "text": "统合光线、空间与地中海气候的设计与施工图纸。"
+      },
+      {
+        "role": "承包商",
+        "text": "可靠的本地施工方，以匠心完成新建与翻新。"
+      },
+      {
+        "role": "律师",
+        "text": "为购房、合同与许可提供法律护航——使用您的语言。"
+      },
+      {
+        "role": "行政代办（gestor）",
+        "text": "行政事务支持，从 NIE 号码到税务事项。"
+      },
+      {
+        "role": "房产中介与投资人",
+        "text": "接触精心甄选的房源与项目，常有独特机会。"
+      },
+      {
+        "role": "技术顾问",
+        "text": "在设备安装、可持续性与节能方案上提供建议。"
+      }
+    ],
+    "ctaTitle": "成为 Habitat One 的合作伙伴",
+    "ctaText": "您是 Costa Blanca 的专业人士，并认同我们对透明与品质的坚持？欢迎联系我们。",
+    "ctaButton": "联系我们"
+  },
+  "faq": {
+    "eyebrow": "常见问题",
+    "title": "值得了解",
+    "items": [
+      {
+        "q": "Habitat One 到底是什么？",
+        "a": "Habitat One 不是承包商、建筑师或房产中介，而是一个透明的建材与建筑平台，在 Jávea/Xàbia 设有体验中心。我们让您获得优质材料、诚实的信息，以及一个覆盖项目每个阶段、值得信赖的专家网络。"
+      },
+      {
+        "q": "你们亲自为我建房吗？",
+        "a": "不。我们为您对接我们亲自认识并信任的建筑师、承包商、律师与行政代办（gestor）。若您通过我们采购材料，我们还将负责统筹、监督与陪同指导——即使您还身在自己的国家。"
+      },
+      {
+        "q": "你们的体验中心在哪里？",
+        "a": "位于 Costa Blanca 的 Jávea/Xàbia 市中心，提供免费停车。参观均需预约，以便我们把时间完整地留给您。"
+      },
+      {
+        "q": "你们可以用哪些语言为我服务？",
+        "a": "荷兰语、英语、西班牙语和德语——正如这个网站。"
+      },
+      {
+        "q": "NIE、许可与法律事务怎么办？",
+        "a": "在西班牙建房或置业需要办妥各类文书。通过我们的律师与行政代办（gestor）网络，我们为您办理购房、NIE、许可与行政事务——并使用您的语言。"
+      },
+      {
+        "q": "我能拿到价格吗？",
+        "a": "当然可以。我们以完全透明的方式工作：您能看到材料来自哪里、成本几何，以及价格如何构成。欢迎索取报价，或造访体验中心获取专属方案。"
+      }
+    ]
+  },
+  "tipsArticles": {
+    "bouwen-in-spanje-nie-vergunningen": {
+      "eyebrow": "建议与贴士 · 置业",
+      "title": "在西班牙建房：NIE、许可与行政代办（gestor）——需要注意什么",
+      "readTime": "阅读约 5 分钟",
+      "intro": "在 Costa Blanca 建房或置业，并不是从砖瓦开始，而是从文书开始。了解西班牙的规则，或身边有对的人，能避免延误与意外。以下是需要注意的要点。",
+      "sections": [
+        {
+          "heading": "从您的 NIE 号码开始",
+          "body": [
+            "NIE（Número de Identidad de Extranjero）是您作为外国人在西班牙的税务识别号码。没有 NIE，您无法购置房产、向承包商付款、开通水电或缴税。所以它名副其实是第一步。",
+            "您可以在本国的西班牙领事馆申请，亲自前往西班牙警察局办理，或委托授权代表代办。请尽早规划——这可能需要几周时间。"
+          ]
+        },
+        {
+          "heading": "行政代办（gestor）与律师：两种不同的角色",
+          "body": [
+            "在西班牙，行政代办（gestor）负责行政事务：NIE、税务、登记与各类表格。律师（abogado）则把守法律层面：购房合同、产权核查与许可。",
+            "想要安全地购房或建房，两者都不可或缺。切勿只依赖卖方——一位代表您利益的独立律师至关重要。"
+          ]
+        },
+        {
+          "heading": "许可：从建筑许可到入住证明",
+          "body": [
+            "新建或大型翻新需要向市政厅申请建筑许可（licencia de obra）。小型工程通常只需简易施工许可（licencia de obra menor）。",
+            "完工之后是入住证明（cédula de habitabilidad）。有了它，您才能以自己的名义开通水电。请在计划中为许可审批留出充裕的时间。"
+          ],
+          "points": [
+            "建筑许可（licencia de obra）——开工之前",
+            "入住证明（cédula de habitabilidad）——交付之时",
+            "能源证书——出售或出租时"
+          ]
+        },
+        {
+          "heading": "常见的错误",
+          "body": [
+            "大多数问题并非出在施工期间，而是出在事前的文书上：未经独立法律核查就购房、没有相应许可就开工，或买下了（部分）违建扩建的房子。这些错误日后耗费的金钱与时间最多。"
+          ]
+        },
+        {
+          "heading": "Habitat One 如何为您省去繁琐",
+          "body": [
+            "我们不是律师，也不是行政代办（gestor）——但我们与亲自认识并信任、且会讲您语言的律师和行政代办合作。这样，文书、许可与购房都有人妥善打理，而您始终掌握全局。即使您还身在自己的国家，也由我们负责统筹。"
+          ]
+        }
+      ],
+      "ctaTitle": "对您在西班牙的项目有疑问？",
+      "ctaText": "欢迎造访我们位于 Jávea/Xàbia 的体验中心，或与我们联系——我们将为您对接合适的专家。"
+    },
+    "materialen-mediterraan-klimaat": {
+      "eyebrow": "建议与贴士 · 材料",
+      "title": "为地中海气候选材",
+      "readTime": "阅读约 4 分钟",
+      "intro": "在 Costa Blanca，阳光、海盐与湿气无时无刻不在侵蚀您的家。在内陆表现良好的材料，到了海边可能很快褪色、开裂或锈蚀。教您如何挑选历久弥新、坚固耐用的饰面。",
+      "sections": [
+        {
+          "heading": "阳光、海盐与湿气：真正的考验",
+          "body": [
+            "强烈的紫外线、含盐的海风与高湿度叠加在一起，侵蚀从不停歇。廉价涂层会褪色，未经处理的金属会生锈，多孔的石材会吸入水分与盐分。所以，请选择专为抵御这些考验而生的材料。"
+          ]
+        },
+        {
+          "heading": "经得起海岸气候的材料",
+          "body": [
+            "我们特意甄选经过海边验证的饰面："
+          ],
+          "points": [
+            "施以正确密封处理的天然石材与洞石——温暖而永恒",
+            "Flexible Stone：耐盐、耐晒、耐潮，室内户外皆宜",
+            "微水泥与水磨石，打造无缝耐磨的地面",
+            "粉末喷涂或不锈钢五金，抵御锈蚀"
+          ]
+        },
+        {
+          "heading": "室内与户外",
+          "body": [
+            "户外的要求更为严苛：抗冻性、泳池与露台边的防滑性，以及烈日下的色牢度。室内则更关乎触感、保养与声学。我们为每个空间匹配合适的型号。"
+          ]
+        },
+        {
+          "heading": "保养决定寿命",
+          "body": [
+            "再好的材料也需要正确的呵护：及时为天然石材做密封处理，沙尘暴过后冲洗立面，并使用温和而非刺激性的清洁剂。事前的好建议，能避免日后代价高昂的错误。"
+          ]
+        }
+      ],
+      "ctaTitle": "对某种材料拿不定主意？",
+      "ctaText": "来我们的体验中心亲眼看、亲手摸、细细比较——我们将针对海岸气候为您提供建议。"
+    },
+    "onze-open-prijsopbouw": {
+      "eyebrow": "建议与贴士 · 价格",
+      "title": "透明的价格：我们是怎么做的",
+      "readTime": "阅读约 3 分钟",
+      "intro": "建筑行业素以含糊的报价与隐性加价著称。在 Habitat One，我们不这么做：您清楚地看到每一分钱花在哪里。以下是我们价格的构成方式。",
+      "sections": [
+        {
+          "heading": "为什么价格常常不透明",
+          "body": [
+            "在传统的建造流程中，您与制造商之间往往隔着数个中间环节——每一层都有自己看不见的加价。因此，您很少知道自己真正为材料付了多少，又为中间商付了多少。"
+          ]
+        },
+        {
+          "heading": "我们的构成：采购价 + 利润 + 施工",
+          "body": [
+            "我们直接向亚洲、意大利、西班牙及其他欧洲国家的制造商采购。我们的价格由三个清晰的部分组成：材料采购价、我们自己的利润，以及（可选的）由我们网络中的伙伴负责的施工。"
+          ]
+        },
+        {
+          "heading": "您在我们这里看到什么",
+          "body": [
+            "当您索取报价时，我们把这些开诚布公地摆在桌面上："
+          ],
+          "points": [
+            "材料来自哪里，生产商是谁",
+            "采购价格",
+            "我们收取的利润",
+            "参与您项目的各方"
+          ]
+        },
+        {
+          "heading": "为什么透明是值得的",
+          "body": [
+            "公开的价格避免意外、便于比较、建立信任。您始终掌握主动，做出更好的决策——这正是您选择 Habitat One 的原因。"
+          ]
+        }
+      ],
+      "ctaTitle": "想知道一个公道的价格？",
+      "ctaText": "索取一份透明的报价，或造访我们的体验中心。"
+    },
+    "binnen-buiten-een-materiaal": {
+      "eyebrow": "建议与贴士 · 设计",
+      "title": "室内户外，一种材料一气呵成",
+      "readTime": "阅读约 3 分钟",
+      "intro": "没有什么比从客厅无缝延伸到露台的饰面更显宁静与开阔。选对材料，就能让室内与户外融为一体。",
+      "sections": [
+        {
+          "heading": "为什么连续的材料行之有效",
+          "body": [
+            "同一种材料由内而外，抹去了空间之间的界线。视线被引向户外，家显得更大，剩下的交给地中海的光线。在户外生活占据大量时光的 Costa Blanca，这一点弥足珍贵。"
+          ]
+        },
+        {
+          "heading": "室内户外皆宜的材料",
+          "body": [
+            "并非每种材料都能兼顾两者。这些可以："
+          ],
+          "points": [
+            "Flexible Stone——墙面与立面同一种石材质感",
+            "大幅面洞石与石灰岩，室内与露台通用",
+            "微水泥，一种色调连续无缝",
+            "水磨石，适用于地面与户外收边"
+          ]
+        },
+        {
+          "heading": "需要留意的实际问题",
+          "body": [
+            "在室内外交界处要注意几点：户外选用防滑型号，确保抗冻性，并为了防滑允许户外表面处理略有不同——而颜色与观感保持一致。"
+          ]
+        },
+        {
+          "heading": "从想法到落地",
+          "body": [
+            "在我们的体验中心，您可以看到各个系列如何由内而外延伸，我们也会与您一起推敲合适的过渡、门槛与细节——让成果既利落又耐用。"
+          ]
+        }
+      ],
+      "ctaTitle": "想让室内与户外融为一体？",
+      "ctaText": "欢迎造访体验中心，或联系我们获取量身定制的建议。"
+    }
+  },
+  "furniture": {
+    "eyebrow": "Caracole · Cornelius Lifestyle",
+    "title": "家具",
+    "intro": "适配每个房间的设计师家具——沙发、桌子、床、储物、灯具与饰品，甄选自 Caracole 与 Cornelius Lifestyle。",
+    "viewAll": "查看全部",
+    "items": "件",
+    "searchPlaceholder": "搜索家具…",
+    "partnersTitle": "我们的家具伙伴",
+    "partnersIntro": "我们的家具由这些知名品牌合作供应。"
+  },
+  "account": {
+    "viewPrices": "查看价格",
+    "myAccount": "我的账户",
+    "logout": "退出登录",
+    "requestTitle": "申请账户",
+    "requestIntro": "申请账户即可查看价格。审核通过后，您将收到一封用于设置密码的邮件。",
+    "private": "个人",
+    "business": "企业",
+    "name": "姓名",
+    "email": "邮箱",
+    "phoneOptional": "电话（选填）",
+    "businessName": "公司名称",
+    "vatNumber": "增值税号（IVA）",
+    "addressOptional": "地址（选填）",
+    "businessRequiredNote": "企业账户需要提供公司名称与增值税（IVA）号码。",
+    "messageOptional": "留言（选填）",
+    "submitRequest": "申请账户",
+    "submitting": "发送中…",
+    "haveAccount": "已有账户？",
+    "login": "登录",
+    "receivedTitle": "申请已收到",
+    "receivedText": "谢谢！我们将审核您的申请，账户就绪后会立即发邮件通知您设置密码。",
+    "backToSite": "返回网站",
+    "genericError": "出了点问题。请检查您填写的信息。",
+    "sendError": "申请发送失败。请稍后重试。",
+    "loginIntro": "登录以查看价格。",
+    "password": "密码",
+    "loginError": "邮箱或密码不正确，或您的账户尚未激活。",
+    "loginFailed": "登录失败。请稍后重试。",
+    "noAccount": "还没有账户？",
+    "activateTitle": "设置您的密码",
+    "activateIntro": "设置密码以激活您的账户。",
+    "choosePassword": "设置一个密码",
+    "repeatPassword": "重复密码",
+    "activateSubmit": "设置密码并登录",
+    "activating": "设置中…",
+    "pwTooShort": "请设置至少 8 个字符的密码。",
+    "pwMismatch": "两次输入的密码不一致。",
+    "activateInvalid": "该激活链接已过期或无效。请重新申请一个。",
+    "activateFailed": "密码设置失败。请稍后重试。",
+    "noValidLink": "没有有效的激活链接。请打开邮件中的链接，或",
+    "logInWord": "登录",
+    "loginToView": "登录以查看您的账户与价格。",
+    "priceLevel": "价格等级",
+    "pricesVisibleNote": "价格现已在产品上显示。"
+  }
+}

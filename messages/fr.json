@@ -1,0 +1,1368 @@
+{
+  "meta": {
+    "siteName": "Habitat One",
+    "title": "Habitat One — Construction & matériaux en toute transparence à Jávea/Xàbia",
+    "description": "Habitat One est un experience center dédié aux matériaux de construction innovants et haut de gamme à Jávea/Xàbia. Une transparence totale sur les produits, les fournisseurs, les prix et les marges — et un réseau de confiance d’architectes, d’entrepreneurs, d’avocats et de gestores."
+  },
+  "nav": {
+    "home": "Accueil",
+    "materials": "Matériaux",
+    "products": "Gamme",
+    "spaces": "Espaces",
+    "projects": "Projets",
+    "services": "Services",
+    "sale": "Immobilier",
+    "about": "À propos",
+    "contact": "Contact",
+    "showroom": "Showroom",
+    "menu": "Menu",
+    "close": "Fermer",
+    "quote": "Demander un devis",
+    "bookVisit": "Réserver une visite",
+    "openMenu": "Ouvrir le menu",
+    "searchPlaceholder": "Rechercher des produits, matériaux, espaces…",
+    "location": "Localisation",
+    "inspiration": "Inspiration",
+    "inspEvents": "Événements",
+    "inspInspireren": "Laissez-vous inspirer",
+    "inspNews": "Actualités",
+    "inspTips": "Conseils & astuces",
+    "inspBlog": "Blog",
+    "inspPartners": "Partenaires",
+    "furniture": "Mobilier"
+  },
+  "common": {
+    "brand": "Habitat One",
+    "place": "Jávea/Xàbia · Costa Blanca",
+    "exploreAll": "Tout explorer",
+    "viewAll": "Tout voir",
+    "discover": "Découvrir",
+    "learnMore": "En savoir plus",
+    "readMore": "Lire la suite",
+    "getInTouch": "Contactez-nous",
+    "requestQuote": "Demander un devis",
+    "talkToUs": "Parlez à notre équipe",
+    "back": "Retour",
+    "backToList": "Retour à l’aperçu",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "loading": "Chargement…",
+    "items": "articles",
+    "from": "à partir de",
+    "scrollToExplore": "Faites défiler pour explorer",
+    "comingSoon": "Détails sur demande",
+    "onRequest": "Sur demande"
+  },
+  "hero": {
+    "eyebrow": "The transparent way to build in Spain",
+    "ctaSecondary": "Nos projets",
+    "scroll": "Défiler",
+    "badge": "Experience center · Jávea/Xàbia, Costa Blanca",
+    "title": "See, Feel & Experience.",
+    "subtitle": "Habitat One est un experience center dédié aux matériaux de construction innovants et haut de gamme. Voir, toucher et comparer — avec une transparence totale sur les produits, les fournisseurs, les prix et les marges, et un réseau de confiance qui accompagne l’ensemble de votre projet.",
+    "ctaPrimary": "Découvrir les matériaux"
+  },
+  "stats": {
+    "years": "années sur la Costa Blanca",
+    "projects": "produits en stock",
+    "materials": "partenaires professionnels",
+    "languages": "langues parlées"
+  },
+  "home": {
+    "onestopEyebrow": "Une nouvelle façon de construire",
+    "onestopTitle": "Construire et rénover peut se faire autrement.",
+    "onestopLead": "Ni entrepreneur, ni architecte, ni agent immobilier — mais une plateforme transparente de matériaux et de construction avec experience center, qui vous relie au savoir, aux matériaux, aux prix et au bon réseau pour mener votre projet à bien.",
+    "onestopCta": "Réserver une consultation",
+    "onestopBlock1Title": "Voir, toucher, comparer.",
+    "onestopBlock1Text": "Dans notre experience center, vous découvrez des matériaux soigneusement sélectionnés, des applications innovantes et des finitions haut de gamme — non pas sur catalogue, mais en les voyant, les touchant et les comparant réellement.",
+    "onestopBlock2Title": "Une transparence totale.",
+    "onestopBlock2Text": "Nous montrons d’où viennent les matériaux, ce qu’ils coûtent et comment notre prix est construit. Pas de marges cachées, pas d’intermédiaires opaques — vous savez toujours où vous en êtes.",
+    "onestopBlock3Title": "Le bon réseau.",
+    "onestopBlock3Text": "Nous vous mettons directement en relation avec des architectes, entrepreneurs, avocats et gestores que nous connaissons personnellement et en qui nous avons confiance — pour chaque phase de votre projet.",
+    "onestopBlock4Title": "Le contrôle, même à distance.",
+    "onestopBlock4Text": "Beaucoup de nos clients vivent encore dans leur pays d’origine. Si vous achetez vos matériaux via Habitat One, nous assurons la direction, la supervision et l’accompagnement jusqu’à la livraison.",
+    "magicEyebrow": "Notre signature",
+    "magicTitle": "Flexible Stone",
+    "magicLead": "De la vraie pierre naturelle qui épouse le mur — plus légère que le carrelage, en feuilles jusqu’à 1,2 × 3,06 m. Nous l’avons choisie parce que la chaleur du travertin, du bois et de la terre peut trouver sa place partout dans la maison : murs, plafonds, mobilier, façades.",
+    "magicPoint1Title": "Un matériau, de nombreuses textures",
+    "magicPoint1Text": "Travertin, bois brûlé, béton, pierre calcaire — plus de trente finitions réunies dans une seule collection.",
+    "magicPoint2Title": "Sans joints, sur mesure",
+    "magicPoint2Text": "De grandes feuilles, posées en continu. Pas de trame de carrelage — la surface de la vraie pierre.",
+    "magicPoint3Title": "Conçue pour la côte",
+    "magicPoint3Text": "Résiste au sel, au soleil et à l’humidité. À l’intérieur comme à l’extérieur, sur surfaces planes ou courbes.",
+    "magicCta": "Explorer la collection Flexible Stone",
+    "magicCtaSecondary": "Demander un échantillon",
+    "featuredEyebrow": "Produit à la une",
+    "featuredIdentifier": "Italian Travertine",
+    "featuredTitle": "Italian Travertine",
+    "featuredLead": "Travertin grand format aux veines délicates et aux reflets chauds et romains. Il épouse les murs courbes, se passe de joints — et retient la chaleur du soleil et de la main, comme la vieille pierre de Jávea/Xàbia le fait par nature.",
+    "featuredCaption": "Sur chantier · Flexible Stone dans une villa de Jávea/Xàbia",
+    "featuredCta": "Voir ce produit",
+    "featuredCtaSecondary": "Tous les projets",
+    "story1Identifier": "Concrete Board · Mid Gray",
+    "story1Line1": "Le béton qui épouse le mur",
+    "story1Line2": "Aucun joint — une seule surface continue",
+    "story1Line3": "Le calme du béton, sans le poids",
+    "story1Cta": "Voir Concrete Board",
+    "story2Identifier": "Travertino · Beige",
+    "story2Line1": "Le travertin qui capte la lumière",
+    "story2Line2": "Des tons beiges chauds — romains et intemporels",
+    "story2Line3": "De la vraie pierre, fine et légère",
+    "story2Cta": "Voir Travertino",
+    "pillarsEyebrow": "Une plateforme, le bon réseau",
+    "pillarsTitle": "Accédez aux bons produits, aux bonnes personnes et aux bonnes informations",
+    "pillarsText": "Habitat One vous donne accès aux bons produits, aux bonnes personnes et aux bonnes informations — sans intermédiaires cachés.",
+    "pillarMaterials": "Matériaux premium",
+    "pillarMaterialsText": "Des matériaux innovants et haut de gamme, sélectionnés pour leur qualité, leur design et leur prix — à découvrir en vrai dans notre experience center.",
+    "pillarProperties": "Réseau de confiance",
+    "pillarPropertiesText": "Des agents immobiliers, investisseurs et spécialistes de projets que nous connaissons personnellement — nous vous mettons directement en relation avec le bon interlocuteur pour chaque phase.",
+    "pillarLegal": "Juridique & administratif",
+    "pillarLegalText": "Les avocats et gestores de notre réseau s’occupent de l’achat, du NIE, des permis et des formalités — dans votre langue.",
+    "pillarDesign": "Architectes & entrepreneurs",
+    "pillarDesignText": "Des architectes et entrepreneurs indépendants en qui nous avons confiance et que nous osons recommander — pour la conception et la réalisation de votre projet.",
+    "spacesEyebrow": "Pièce par pièce",
+    "spacesTitle": "Pensé pour chaque espace",
+    "spacesText": "À l’intérieur comme à l’extérieur — explorez des matériaux choisis et des idées pour chaque partie de la maison méditerranéenne.",
+    "indoor": "Intérieur",
+    "outdoor": "Extérieur",
+    "exploreSpace": "Explorer",
+    "materialsEyebrow": "L’experience center",
+    "materialsTitle": "Découvrez les matériaux avant de décider",
+    "materialsText": "Des matériaux innovants et haut de gamme qui se distinguent par leur qualité, leur durabilité et leur design — non seulement à regarder, mais à vivre, comparer et comprendre.",
+    "productsEyebrow": "De la collection",
+    "productsTitle": "Produits à la une",
+    "productsText": "Un aperçu des pièces que nous prescrivons le plus pour les cuisines, salles de bains et façades de Jávea/Xàbia.",
+    "viewCatalog": "Voir le catalogue complet",
+    "rangeEyebrow": "Une seule adresse",
+    "rangeTitle": "Bien plus que des panneaux muraux",
+    "rangeText": "De la salle de bains à l’éclairage — Habitat One fournit tout l’intérieur. Explorez le reste de la gamme.",
+    "projectsEyebrow": "Avant & après",
+    "projectsTitle": "Transformations à Jávea/Xàbia",
+    "projectsText": "Sur chaque projet, l’avant et l’après se côtoient — voyez comment une maison fatiguée de la Costa Blanca devient une demeure méditerranéenne calme et baignée de lumière.",
+    "viewProjects": "Parcourir tous les projets",
+    "processEyebrow": "Notre façon de travailler",
+    "processTitle": "De la première idée à la livraison",
+    "processText": "Un processus clair dans lequel vous savez toujours où vous en êtes — de la première idée à la livraison.",
+    "step1": "Se rencontrer & écouter",
+    "step1Text": "Nous prenons connaissance de votre projet, de votre budget et de vos souhaits, et nous réfléchissons avec vous aux possibilités.",
+    "step2": "Découvrir & choisir les matériaux",
+    "step2Text": "Dans l’experience center, vous voyez, touchez et comparez les matériaux — en toute transparence sur l’origine, le prix et la marge.",
+    "step3": "Le bon réseau",
+    "step3Text": "Nous vous mettons en relation avec des architectes, entrepreneurs, avocats et gestores en qui nous avons personnellement confiance.",
+    "step4": "Réalisation sous supervision",
+    "step4Text": "Les partenaires réalisent les travaux ; nous gardons pour vous la direction, la supervision et l’accompagnement — même à distance.",
+    "step5": "Livraison & suivi",
+    "step5Text": "Votre projet est livré en toute clarté, sans surprises — et nous restons joignables pour la suite.",
+    "testimonialsEyebrow": "Ce que disent les propriétaires",
+    "testimonialsTitle": "Des maisons, et ceux qui les habitent",
+    "locationEyebrow": "Pourquoi Jávea/Xàbia",
+    "locationTitle": "Le soleil sur le Montgó, le sel dans l’air",
+    "locationText": "Entre le massif du Montgó et les falaises du Cap de la Nau, Jávea/Xàbia bénéficie de l’un des microclimats les plus protégés de la Méditerranée — 320 jours de soleil, des collines couvertes de pins, trois baies distinctes et une vieille ville bâtie en pierre. C’est la raison pour laquelle nous ne travaillons qu’ici.",
+    "locationPoint1": "La vieille ville, le port et l’Arenal — trois Jávea/Xàbia, une seule ville",
+    "locationPoint2": "Un microclimat protégé autour du parc naturel du Montgó",
+    "locationPoint3": "Des plages Pavillon Bleu et des criques cachées sur le Cap de la Nau",
+    "locationPoint4": "Pierre de tosca, badigeon et chaux — le langage constructif local",
+    "ctaTitle": "See, Feel & Experience.",
+    "ctaText": "Visitez notre experience center à Jávea/Xàbia et découvrez les matériaux en vrai. Faites le plein d’inspiration et parlez de votre projet avec notre équipe.",
+    "ctaButton": "Lancez votre projet",
+    "ctaSecondary": "Visiter le showroom"
+  },
+  "materials": {
+    "eyebrow": "La matériauthèque",
+    "title": "Matériaux",
+    "intro": "Des surfaces d’aspect naturel, prêtes pour le climat, pour les sols, les murs et les façades. Chaque finition de notre bibliothèque est choisie pour sa manière de vivre sous le soleil, le sel et l’ombre de la Méditerranée.",
+    "count": "{count} matériaux dans la bibliothèque",
+    "usedIn": "Utilisé dans",
+    "relatedProducts": "Produits dans ce matériau",
+    "noProducts": "Parlez-nous des produits disponibles dans ce matériau.",
+    "applications": "Applications typiques",
+    "swatch": "Échantillon de matériau",
+    "descriptions": {
+      "travertine": "Panneaux aspect travertin — des tons terre chauds et un caractère intemporel et classique pour les sols, les murs et les façades.",
+      "concrete": "Aspects béton et ciment au calme épuré et industriel — polyvalents et durables, à l’intérieur comme à l’extérieur.",
+      "wood-look": "Panneaux à la texture de bois naturel — la chaleur du bois avec l’entretien facile de la pierre.",
+      "natural-stone": "Panneaux de pierre légers inspirés du granit, du calcaire et du grès — l’aspect et le toucher de la vraie pierre naturelle.",
+      "rammed-earth": "Aspects pisé aux textures stratifiées et organiques — bruts, chauds et pleins de caractère.",
+      "terrazzo": "Terrazzo et surfaces texturées — ludiques, mouchetées et pleines de caractère.",
+      "solid-surface": "Éléments en solid surface sans joints — baignoires, vasques et receveurs de douche, chauds au toucher et réparables.",
+      "acrylic": "Feuilles acryliques translucides — modernes, légères et sculpturales.",
+      "glass-mirror": "Éléments en verre et miroir qui rendent une salle de bains lumineuse et spacieuse.",
+      "brushed-metal": "Porte-serviettes, robinetterie, crochets et charnières en métal brossé mat — les détails de finition.",
+      "xps-backer": "Panneaux supports légers, une base stable pour les panneaux muraux et le carrelage."
+    }
+  },
+  "products": {
+    "eyebrow": "La collection",
+    "title": "Produits",
+    "intro": "Les pièces que nous prescrivons le plus pour les maisons de la Costa Blanca — panneaux muraux grand format, sanitaires en solid surface, miroirs, quincaillerie et plus encore.",
+    "count": "{count} produits",
+    "filterAll": "Tout",
+    "collectionBathroom": "Salle de bains",
+    "collectionWallPanels": "Flexible Stone",
+    "leadCollectionEyebrow": "Notre signature",
+    "leadCollectionLead": "Flexible Stone est le cœur de notre collection — des panneaux flexibles en pierre naturelle pour les murs, plafonds, mobilier et façades. Les autres collections (salle de bains, portes, accessoires) complètent l’ensemble.",
+    "viewMagicCollection": "Parcourir tous les produits Flexible Stone",
+    "otherCollectionsTitle": "Autres collections",
+    "otherCollectionsLead": "Une curation pensée pour accompagner la collection signature — choisie pour s’inscrire dans le même registre méditerranéen.",
+    "lookbookEyebrow": "Inspiration",
+    "lookbookTitle": "Le rendu en situation",
+    "lookbookLead": "Différentes collections Flexible Stone dans des espaces réels — touchez pour accéder au produit.",
+    "catalogueEyebrow": "Le catalogue",
+    "catalogueTitle": "Quatre chapitres,\nune seule curation",
+    "catalogueLead": "Flexible Stone ouvre la voie — suivie de la salle de bains, des portes et des accessoires accordés au même registre méditerranéen. Faites défiler pour découvrir chaque chapitre.",
+    "browseAllProducts": "Tout parcourir",
+    "chapterDescriptionWallPanels": "Panneaux flexibles en pierre naturelle — travertin, bois brûlé, béton, calcaire — en feuilles jusqu’à 1,2 × 3,06 m. Ils habillent murs courbes et plafonds, posés sans joints.",
+    "chapterDescriptionBathroom": "Baignoires, vasques et receveurs de douche en solid surface — chauds au toucher et réparables. Des pièces sans joints qui apportent le calme à la salle de bains.",
+    "chapterDescriptionDoors": "Portes intérieures massives accordées à la même palette de bois que les panneaux muraux — pour des surfaces continues du sol au plafond.",
+    "chapterDescriptionDoorAccessories": "Charnières en métal mat brossé — le détail qui achève l’ensemble.",
+    "chapterDescriptionAccessories": "Miroirs, porte-serviettes, crochets et petites pièces sanitaires — choisis pour accompagner la collection phare.",
+    "chapterAll": "Voir ce chapitre",
+    "openFilters": "Filtres",
+    "closeFilters": "Fermer",
+    "browseAllEyebrow": "Catalogue complet",
+    "browseAllTitle": "Tout sur un seul écran",
+    "browseAllLead": "Filtrez par pièce, matériau ou collection et parcourez les {count} produits.",
+    "allProducts": "Tous les produits",
+    "viewAllProducts": "Voir tous les produits",
+    "aboutThisProduct": "À propos de ce produit",
+    "specifications": "Caractéristiques",
+    "availableColours": "Coloris disponibles",
+    "elements": "Éléments",
+    "availableSizes": "Dimensions disponibles",
+    "gallery": "Galerie",
+    "productHeroEyebrow": "Flexible Stone",
+    "scroll": "Défiler",
+    "collectionAccessories": "Accessoires",
+    "collectionDoors": "Portes",
+    "collectionDoorAccessories": "Accessoires de porte",
+    "collectionFlowerPots": "Jardinières",
+    "chapterDescriptionFlowerPots": "Jardinières sculpturales à l’aspect béton — les séries Boge et Epocco. Résistantes au gel et aux UV, pour la terrasse, le jardin et l’intérieur, en sable, sel, gris béton, graphite, ocre rouge et macchiato.",
+    "collectionLighting": "Éclairage",
+    "collectionSwitches": "Interrupteurs & prises",
+    "collectionAcrylicPanels": "Panneaux acryliques",
+    "chapterDescriptionLighting": "Éclairage architectural de George Lighting — spots sur rail, appliques et spots de sol encastrés (IP65) en bronze brossé. Pour un jeu de lumière raffiné et maîtrisé, à l’intérieur comme à l’extérieur.",
+    "chapterDescriptionSwitches": "Appareillage de George Lighting — interrupteurs à levier et à bascule en acier inoxydable, prises, variateurs et panneau d’hôtel en bronze brossé. Une commande raffinée, à la hauteur de l’intérieur.",
+    "chapterDescriptionAcrylicPanels": "Panneaux translucides en solid surface acrylique — une alternative chaleureuse et rétroéclairée à l’onyx naturel. Pour murs d’accent, salles de bains, bars et objets lumineux, à l’intérieur comme à l’extérieur.",
+    "collectionFireplaces": "Cheminées",
+    "chapterDescriptionFireplaces": "Cheminées à vapeur d’eau avec une flamme 3D d’un réalisme saisissant, faite de brume d’eau et de LED — sans fumée, sans chaleur. 128 couleurs de flamme réglables, pilotage par application et une finition noir mat épurée. Disponibles de 70 à 300 cm, en version traversante ou encastrée.",
+    "collectionPVCFloors": "Sols PVC",
+    "chapterDescriptionPVCFloors": "Sols PVC à l’aspect bois réaliste — résistants, imperméables et silencieux sous le pied. Pose facile par système à clic, adaptés aux habitations comme aux espaces commerciaux. Disponibles en tons chêne chaud et fumé, en lames et en chevrons.",
+    "searchPlaceholder": "Rechercher des produits…",
+    "noResults": "Aucun produit ne correspond à votre recherche.",
+    "clearFilters": "Effacer les filtres",
+    "sku": "Référence",
+    "dimensions": "Dimensions",
+    "material": "Matériau",
+    "materials": "Matériaux",
+    "space": "Espaces",
+    "collection": "Collection",
+    "enquire": "Demander un devis",
+    "related": "Vous aimerez aussi",
+    "specsTitle": "Caractéristiques",
+    "noImage": "Image sur demande",
+    "featured": "À la une",
+    "colour": "Coloris",
+    "i18n": {
+      "lime-dacite-yellow-lime-1778674932941": {
+        "name": "Panneau Dacite — Yellow Lime"
+      },
+      "xps-backer-board-20mm-1778674932941": {
+        "name": "Panneau support XPS 20mm"
+      },
+      "wall-hung-basin-kkr-1261-1-1778674932941": {
+        "name": "Lavabo suspendu"
+      },
+      "bathtub-kkr-b008-b-1778674932941": {
+        "name": "Baignoire"
+      },
+      "bathtub-drainage-solid-surface-drain-cover-kkr-pu9-1778674932941": {
+        "name": "Vidage de baignoire + cache-bonde"
+      },
+      "bathtub-drainage-resin-drain-cover-kkr-pu9-resin-1778674932941": {
+        "name": "Vidage de baignoire + cache-bonde KKR-PU9 (résine)"
+      },
+      "wall-hung-basin-kkr-1264-1-1778674932941": {
+        "name": "Lavabo suspendu"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a026-1778674932941": {
+        "name": "Feuille acrylique translucide"
+      },
+      "modified-acrylic-solid-surface-sheet-kkr-m8807-1778674932941": {
+        "name": "Feuille acrylique modifiée"
+      },
+      "xps-backer-board-10mm-1778674932941": {
+        "name": "Panneau support XPS 10mm"
+      },
+      "cabinet-basin-kkr-h7072-d-1778674932941": {
+        "name": "Meuble-vasque"
+      },
+      "cabinet-basin-kkr-h7036-1778674932941": {
+        "name": "Meuble-vasque"
+      },
+      "countertop-basin-kkr-2124-1778674932941": {
+        "name": "Vasque à poser"
+      },
+      "freestanding-basin-drainage-set-kkr-pd032-1778674932941": {
+        "name": "Kit de vidage pour vasque sur pied"
+      },
+      "countertop-basin-kkr-1169-1778674932941": {
+        "name": "Vasque à poser"
+      },
+      "countertop-basin-kkr-1507-1778674932942": {
+        "name": "Vasque à poser"
+      },
+      "freestanding-basin-kkr-1908-1778674932942": {
+        "name": "Vasque sur pied"
+      },
+      "bathtub-kkr-b051-1778674932942": {
+        "name": "Baignoire"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a110-1778674932942": {
+        "name": "Feuille acrylique translucide"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a025-1778674932942": {
+        "name": "Feuille acrylique translucide"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a001-1778674932942": {
+        "name": "Feuille acrylique translucide"
+      },
+      "translucent-acrylic-solid-surface-sheet-kkr-a027-1778674932942": {
+        "name": "Feuille acrylique translucide"
+      },
+      "bathtub-rack-kkr-b-rack09-1778674932942": {
+        "name": "Pont de baignoire"
+      },
+      "xps-backer-board-12mm-1778674932942": {
+        "name": "Panneau support XPS 12mm"
+      },
+      "xps-backer-board-6mm-1778674932942": {
+        "name": "Panneau support XPS 6mm"
+      },
+      "basin-taps-1778674932942": {
+        "name": "Robinetterie de lavabo"
+      },
+      "xps-backer-board-30mm-1778674932942": {
+        "name": "Panneau support XPS 30mm"
+      },
+      "xps-backer-board-10mm-1778674932942": {
+        "name": "Panneau support XPS 10mm"
+      },
+      "lime-dacite-white-lime-1778674932942": {
+        "name": "Panneau Dacite — White Lime"
+      },
+      "wood-concrete-board-light-grey-1778674932942": {
+        "name": "Wood Concrete Board"
+      },
+      "wall-hung-basin-kkr-h5060-d-1778674932942": {
+        "name": "Lavabo suspendu"
+      },
+      "inside-door-1778676102509": {
+        "name": "Porte intérieure"
+      },
+      "hinges-binnen-1778676102509": {
+        "name": "Charnières (intérieur)"
+      },
+      "inside-door-2-1778676102509": {
+        "name": "Porte intérieure 2"
+      },
+      "outside-door-1778676102509": {
+        "name": "Porte extérieure"
+      },
+      "outside-door-2-1778676102509": {
+        "name": "Porte extérieure 2"
+      },
+      "deurstopper-brons-1778854942833": {
+        "name": "Butée de porte bronze"
+      },
+      "deursluiter-concealed-1778854942833": {
+        "name": "Ferme-porte invisible"
+      },
+      "binnendeur-compleet-920-2600-bronze-1778854942833": {
+        "name": "Ensemble porte intérieure 920×2600 (bronze)"
+      },
+      "binnendeur-compleet-720-2600-bronze-1778854942833": {
+        "name": "Ensemble porte intérieure 720×2600 (bronze)"
+      },
+      "buitendeur-compleet-920-2400-matzwart-1778854942834": {
+        "name": "Ensemble porte extérieure 920×2400 (noir mat)"
+      },
+      "buitendeur-compleet-1220-2400-matzwart-1778854942834": {
+        "name": "Ensemble porte extérieure 1220×2400 (noir mat)"
+      },
+      "rail-spot-led-7w": {
+        "name": "Spot sur rail LED 7W"
+      },
+      "railprofiel-2m": {
+        "name": "Profil de rail 2 m"
+      },
+      "rail-connector-180": {
+        "name": "Connecteur de rail 180°"
+      },
+      "pendelstang-1m": {
+        "name": "Tige de suspension 1 m"
+      },
+      "ventilatorsnelheidsregelaar": {
+        "name": "Variateur de vitesse pour ventilateur"
+      },
+      "dubbele-dimmer": {
+        "name": "Double variateur"
+      },
+      "stopcontact-randaarde": {
+        "name": "Prise (avec terre)"
+      },
+      "tuimelschakelaar-4-voudig-breed-146": {
+        "name": "Interrupteur à levier 4 postes large (146 mm)"
+      },
+      "wipschakelaar-4-voudig-breed-146": {
+        "name": "Interrupteur à bascule 4 postes large (146 mm)"
+      },
+      "hotelpaneel-niet-storen": {
+        "name": "Panneau d’hôtel ‘Ne pas déranger / Faire la chambre / Sonnette’"
+      },
+      "tuimelschakelaar-1-voudig": {
+        "name": "Interrupteur à levier 1 poste"
+      },
+      "tuimelschakelaar-2-voudig": {
+        "name": "Interrupteur à levier 2 postes"
+      },
+      "tuimelschakelaar-3-voudig": {
+        "name": "Interrupteur à levier 3 postes"
+      },
+      "tuimelschakelaar-4-voudig": {
+        "name": "Interrupteur à levier 4 postes"
+      },
+      "deurbel-tuimelschakelaar": {
+        "name": "Interrupteur de sonnette à levier"
+      },
+      "wipschakelaar-1-voudig": {
+        "name": "Interrupteur à bascule 1 poste"
+      },
+      "wipschakelaar-2-voudig": {
+        "name": "Interrupteur à bascule 2 postes"
+      },
+      "wipschakelaar-3-voudig": {
+        "name": "Interrupteur à bascule 3 postes"
+      },
+      "wipschakelaar-4-voudig": {
+        "name": "Interrupteur à bascule 4 postes"
+      },
+      "deurbel-wipschakelaar": {
+        "name": "Interrupteur de sonnette à bascule"
+      },
+      "wandspot-led-8w-ip65": {
+        "name": "Spot mural LED 8W IP65"
+      },
+      "grondspot-led-3w-ip65": {
+        "name": "Spot de sol LED 3W IP65"
+      },
+      "grondspot-led-20w-ip65": {
+        "name": "Spot de sol LED 20W IP65"
+      },
+      "grondspot-led-12w-ip65": {
+        "name": "Spot de sol LED 12W IP65"
+      }
+    },
+    "spaces": "Espaces",
+    "allSpaces": "Tous les espaces",
+    "allMaterials": "Tous les matériaux",
+    "filters": "Filtres",
+    "clearAll": "Effacer tous les filtres",
+    "showResults": "Afficher {count} produits",
+    "activeFilters": "Filtres actifs",
+    "addToQuote": "Ajouter au devis",
+    "inQuote": "Ajouté au devis",
+    "bookAppointment": "Prendre rendez-vous",
+    "collectionBackerBoards": "Panneaux supports XPS",
+    "chapterDescriptionBackerBoards": "Panneaux supports XPS légers — une base stable et étanche pour les panneaux muraux et le carrelage. Disponibles de 6 à 30 mm.",
+    "backerFeatures": {
+      "applicationsEyebrow": "Les possibilités",
+      "applicationsTitle": "La base étanche derrière les beaux murs",
+      "applicationsLead": "Les panneaux supports XPS sont la couche invisible qui fait fonctionner les pièces d’eau — un support stable et parfaitement étanche pour les parois de douche, niches, banquettes, bâtis-supports et le carrelage grand format. De 6 à 30 mm, à l’intérieur comme à l’extérieur.",
+      "techEyebrow": "Technique & sécurité incendie",
+      "techTitle": "Conçu pour l’eau, le poids et la chaleur",
+      "techLead": "Une âme rigide en polystyrène extrudé (XPS) sous un parement ciment renforcé de fibre de verre — léger à porter, solide sous le carrelage et stable face à la chaleur et à l’humidité.",
+      "point1Title": "Âme XPS étanche",
+      "point1Text": "L’âme à cellules fermées n’absorbe pas l’eau — idéale derrière les douches, autour des baignoires et dans toute zone humide.",
+      "point2Title": "Léger & rigide",
+      "point2Text": "Une fraction du poids d’une plaque de ciment, mais assez stable pour porter carrelages grand format et panneaux de pierre.",
+      "point3Title": "Ignifugé",
+      "point3Text": "Fabriqué selon une formulation ignifuge. La classification au feu complète figure sur la fiche technique.",
+      "point4Title": "Résistant aux moisissures & à l’humidité",
+      "point4Text": "La surface à revêtement minéral résiste aux moisissures et ne pourrit ni ne gonfle — durable dans la vapeur et l’air salin.",
+      "certLabel": "Certifié",
+      "specNote": "Fiche technique complète — classe au feu, valeur thermique et densité — disponible sur demande.",
+      "applicationLabels": [
+        "Meuble de salle de bains suspendu",
+        "Habillage de baignoire encastrée",
+        "Salle d’eau entièrement étanchée",
+        "Niche de douche",
+        "Meuble-vasque avec niches",
+        "Système de chauffage au sol",
+        "Panneau support pour WC suspendu",
+        "Banquette de douche",
+        "Support étanche"
+      ]
+    },
+    "doorFeatures": {
+      "introEyebrow": "Conçu pour l’hôtellerie · Fait pour protéger",
+      "introTitle": "Portes premium en bois massif",
+      "introText": "Nos portes allient un design intemporel à une ingénierie avancée pour offrir les plus hauts niveaux de sécurité, de performance acoustique et de durabilité — conçues pour les hôtels et les projets haut de gamme.",
+      "collectionLabel": "Collection portes",
+      "buildEyebrow": "Sa construction",
+      "buildTitle": "Conçue en dix couches",
+      "layers": [
+        {
+          "title": "Placage bois véritable",
+          "text": "Placage chêne naturel avec finition laquée UV ou huilée de protection."
+        },
+        {
+          "title": "Couche de stabilisation HDF",
+          "text": "Panneau de fibres haute densité pour plus de stabilité et de planéité."
+        },
+        {
+          "title": "Âme minérale coupe-feu",
+          "text": "Panneau d’âme incombustible pour une résistance au feu exceptionnelle."
+        },
+        {
+          "title": "Cadre périphérique en bois dur massif",
+          "text": "Bois dur reconstitué pour une résistance maximale et une excellente tenue des vis."
+        },
+        {
+          "title": "Couche d’isolation acoustique",
+          "text": "Couche acoustique haute densité qui améliore l’affaiblissement sonore."
+        },
+        {
+          "title": "Joint intumescent coupe-feu",
+          "text": "Bande expansive qui s’active en cas d’incendie pour colmater les interstices."
+        },
+        {
+          "title": "Joint de seuil automatique",
+          "text": "Joint escamotable dissimulé pour la protection contre la fumée et le bruit."
+        },
+        {
+          "title": "Serrure multipoints",
+          "text": "Serrure de haute qualité pour la sécurité et la durabilité."
+        },
+        {
+          "title": "Charnières 3D invisibles",
+          "text": "Réglables dans trois directions, capacité de charge de 120 kg."
+        },
+        {
+          "title": "Joint anti-fumée & acoustique",
+          "text": "Joints périphériques qui bloquent la fumée, le son et la lumière."
+        }
+      ],
+      "perfEyebrow": "Performance & certification",
+      "perfTitle": "Une sécurité qui ne se voit pas",
+      "performance": [
+        {
+          "title": "Résistance au feu EI30 / EI60",
+          "text": "Testée selon la norme EN 1634-1."
+        },
+        {
+          "title": "Excellente isolation acoustique",
+          "text": "Jusqu’à 42 dB Rw d’affaiblissement sonore."
+        },
+        {
+          "title": "Construction massive premium",
+          "text": "Stabilité, solidité et performance dans la durée."
+        },
+        {
+          "title": "Finitions naturelles luxueuses",
+          "text": "Placages bois véritable et peintures premium."
+        },
+        {
+          "title": "Conçue pour un usage intensif",
+          "text": "Pensée pour les environnements hôteliers exigeants."
+        },
+        {
+          "title": "Conforme aux normes les plus strictes",
+          "text": "EN 1634-1, EN 13501-2, EN ISO 717-1."
+        }
+      ],
+      "certifiedTo": "Certifiée selon",
+      "specsTitle": "Caractéristiques techniques",
+      "specs": [
+        {
+          "k": "Épaisseur de porte",
+          "v": "54 – 70 mm"
+        },
+        {
+          "k": "Hauteur de porte max.",
+          "v": "jusqu’à 3000 mm"
+        },
+        {
+          "k": "Largeur de porte max.",
+          "v": "jusqu’à 1200 mm"
+        },
+        {
+          "k": "Poids",
+          "v": "env. 45 – 65 kg/m²"
+        },
+        {
+          "k": "Finitions",
+          "v": "placage bois véritable, laque, huile"
+        },
+        {
+          "k": "Applications",
+          "v": "chambres d’hôtel, couloirs, suites, lobbys, appartements"
+        },
+        {
+          "k": "Normes",
+          "v": "EN 1634-1 · EN 13501-2 · EN ISO 717-1"
+        }
+      ]
+    },
+    "docsTitle": "Documents & téléchargements",
+    "docsLead": "Téléchargez les plans techniques et les guides de pose de ce produit.",
+    "docDrawing": "Plan technique",
+    "docInstallation": "Guide de pose",
+    "groupSurfaces": "Surfaces & murs",
+    "groupFlooring": "Sols",
+    "groupBathroom": "Salle de bains",
+    "groupHeatLight": "Chauffage & éclairage",
+    "groupGarden": "Jardin",
+    "groupDoors": "Portes",
+    "collectionFurniture": "Mobilier",
+    "allFurniture": "Tout le mobilier"
+  },
+  "spaces": {
+    "eyebrow": "Pièce par pièce",
+    "title": "Espaces",
+    "intro": "Chaque partie de la maison méditerranéenne demande des matériaux, une lumière et un soin différents. Explorez idées et finitions, espace par espace.",
+    "indoor": "Espaces intérieurs",
+    "outdoor": "Espaces extérieurs",
+    "exploreMaterials": "Matériaux pour cet espace",
+    "exploreProducts": "Produits pour cet espace",
+    "ideasFor": "Des idées pour votre",
+    "gallery": "Inspiration",
+    "noItems": "Contactez-nous pour des idées sur mesure pour cet espace.",
+    "names": {
+      "bathroom": "Salle de bains",
+      "kitchen": "Cuisine",
+      "living-room": "Salon",
+      "bedroom": "Chambre",
+      "terrace": "Terrasse",
+      "garden": "Jardin",
+      "pool-area": "Espace piscine",
+      "outdoor-kitchen": "Cuisine d’extérieur"
+    },
+    "descriptions": {
+      "bathroom": "La salle de bains demande des surfaces qui ignorent la vapeur et l’eau. Nous y réunissons vasques, baignoires et receveurs de douche en solid surface, panneaux grand format aspect pierre, robinetterie brossée et lumière chaude — une pièce calme, d’esprit spa, faite pour durer au bord de la mer.",
+      "kitchen": "La cuisine est le lieu où la maison se rassemble. Plans de travail résistants, panneaux muraux grand format derrière la plaque de cuisson, micro-ciment et façades en bois chaleureux — des finitions choisies pour l’usage quotidien, un entretien facile et la manière dont la lumière méditerranéenne évolue au fil de la journée.",
+      "living-room": "Le salon est le cœur de la maison. Sols fluides en pierre ou en bois chaleureux, murs d’accent en panneaux Flexible Stone, micro-ciment et enduit à la chaux — des matériaux qui encadrent la vue, accueillent le soleil de l’après-midi et sont doux sous le pied.",
+      "bedroom": "La chambre doit respirer le calme. Sols en bois doux, murs chauds à la chaux ou en micro-ciment, un mur de tête de lit tapissé et une lumière indirecte tamisée — une palette reposante, avec des matériaux qui respirent dans le climat de la Costa Blanca.",
+      "terrace": "La terrasse est une pièce à ciel ouvert. Dallage en pierre antidérapante, pergolas ombragées, cuisine d’extérieur et banquettes maçonnées — des surfaces et des détails conçus pour le soleil, le sel et le vent du Levant, qui embellissent saison après saison.",
+      "garden": "Le jardin relie la maison à la terre. Allées en pierre vieillie, murets de soutènement en pierre sèche, plantations locales — olivier, amandier, lavande, romarin — et un éclairage réfléchi, le tout dans des matériaux qui vieillissent avec grâce en extérieur.",
+      "pool-area": "L’espace piscine subit les épreuves les plus rudes : chlore, sel et plein soleil. Nous prescrivons plages de piscine, margelles, platelages antidérapants et douches extérieures dans des finitions qui ont fait leurs preuves — et qui gardent leur sérénité.",
+      "outdoor-kitchen": "La cuisine d’extérieur fait de l’été la saison principale. Plans de travail en pierre ou en solid surface, habillages grand format, barbecue encastré et rangements, menuiseries résistantes aux intempéries — chaque détail pensé pour vivre dehors toute l’année sur la Costa Blanca."
+    }
+  },
+  "projects": {
+    "eyebrow": "Avant & après",
+    "title": "Projets",
+    "intro": "Un regard sur les maisons que nous construisons et rénovons à Jávea/Xàbia et alentour — de la finca à l’abandon à la villa neuve. Sur chaque projet, l’avant et l’après se côtoient, pour que vous puissiez voir la transformation par vous-même.",
+    "count": "{count} projets",
+    "before": "Avant",
+    "after": "Après",
+    "dragHint": "Faites glisser pour comparer",
+    "location": "Lieu",
+    "year": "Année",
+    "scope": "Périmètre",
+    "materialsUsed": "Matériaux & produits",
+    "moreProjects": "Plus de transformations",
+    "viewProject": "Voir le projet",
+    "galleryTitle": "Le projet en images",
+    "style": "Style",
+    "duration": "Durée",
+    "days": "jours"
+  },
+  "services": {
+    "eyebrow": "Ce que nous faisons",
+    "title": "Services",
+    "intro": "Habitat One vous met en relation avec un réseau soigneusement composé de spécialistes internes et de partenaires externes — architectes, entrepreneurs, spécialistes du bâtiment, avocats, gestores et conseillers techniques — et vous accompagne de la première idée à la livraison.",
+    "partnersTitle": "Des partenaires locaux de confiance",
+    "partnerNote": "Nous travaillons main dans la main avec des professionnels de Jávea/Xàbia que nous connaissons personnellement et en qui nous avons confiance. L’un d’entre eux :",
+    "whatWeHandle": "Ce que nous prenons en charge",
+    "talkAbout": "Parlez-nous de",
+    "viewService": "Lire la suite",
+    "requestThis": "Demander ce service"
+  },
+  "sale": {
+    "eyebrow": "Immobilier · Jávea/Xàbia",
+    "title": "Trouver votre maison à Jávea/Xàbia",
+    "intro": "Des agents immobiliers indépendants travaillent à nos côtés depuis le showroom Habitat One à Jávea/Xàbia. Une petite sélection triée sur le volet de villas, de terrains et de projets de rénovation sera bientôt publiée ici — et vous pouvez transformer chacun d’eux en maison achevée avec une seule équipe.",
+    "soon": "Annonces bientôt disponibles",
+    "soonText": "Nous composons une courte liste de biens qui méritent votre attention. En attendant, dites-nous ce que vous cherchez et nous vous mettrons en relation avec le bon agent.",
+    "howTitle": "Comment ça marche",
+    "s1": "Des agents locaux, sur place",
+    "s1Text": "Des agents immobiliers indépendants de confiance disposent d’un bureau dans notre showroom de Jávea/Xàbia et y reçoivent leurs clients pour leur faire découvrir matériaux et idées.",
+    "s2": "Des annonces triées sur le volet, bientôt",
+    "s2Text": "Nous préparons une petite sélection de villas, de terrains avec vue mer et de projets de rénovation à travers Jávea/Xàbia. Ils apparaîtront ici.",
+    "s3": "Achetez, puis construisez avec nous",
+    "s3Text": "Vous avez acheté un projet de rénovation ou un terrain nu ? Nos architectes, avocats et constructeurs prennent le relais — un seul chef de projet, un seul plan, une maison achevée.",
+    "s4": "Dites-nous ce que vous recherchez",
+    "s4Text": "Vous cherchez dès maintenant ? Envoyez-nous votre brief — secteur, budget, construction neuve ou rénovation — et nous vous mettrons en relation avec le bon agent et un plan réaliste.",
+    "buyerCta": "Dites-nous ce que vous cherchez",
+    "agentTitle": "Vous êtes agent immobilier à Jávea/Xàbia ?",
+    "agentText": "Nous accueillons des agents indépendants au showroom. Si vous souhaitez un bureau, le showroom et un partenaire pour la conception et la construction, contactez-nous.",
+    "agentCta": "Parlons partenariat",
+    "visitCta": "Visiter le showroom"
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Habitat One",
+    "lead": "Ni entrepreneur, ni architecte, ni agent immobilier — mais une plateforme transparente de matériaux et de construction avec experience center, qui vous relie au savoir, aux matériaux, aux prix et au bon réseau pour mener votre projet à bien.",
+    "storyEyebrow": "Une nouvelle façon de construire",
+    "storyTitle": "Construire et rénover peut se faire autrement",
+    "p1": "Chez Habitat One, nous sommes convaincus que construire et rénover peut se faire autrement : avec plus de transparence, plus d’honnêteté et de meilleurs choix. Dans notre experience center, vous découvrez des matériaux soigneusement sélectionnés, des applications innovantes et des finitions haut de gamme pour la construction neuve et la rénovation — non pas sur catalogue, mais en les voyant, les touchant et les comparant réellement.",
+    "sub2": "Le bon réseau",
+    "p2": "Nous travaillons avec des agents immobiliers, investisseurs, architectes, entrepreneurs, fournisseurs, avocats et gestores que nous connaissons personnellement, en qui nous avons confiance — et que nous osons recommander. Nous vous mettons ainsi directement en relation avec le bon spécialiste pour chaque phase de votre projet. Beaucoup de nos clients vivent encore dans leur pays d’origine ; s’ils achètent leurs matériaux via Habitat One, nous assurons la direction, la supervision et l’accompagnement.",
+    "sub3": "La transparence comme fondation",
+    "p3": "Le secteur de la construction est connu pour ses processus complexes, ses structures de prix opaques et ses marges cachées. Nous choisissons délibérément une autre approche. Nous montrons d’où viennent les matériaux, qui est le producteur, quel est le prix d’achat, quelle marge nous appliquons et quelles parties interviennent dans votre projet. Pas de marges cachées, pas d’intermédiaires opaques — un processus clair dans lequel vous savez toujours où vous en êtes.",
+    "sub4": "L’accès à ce qui est juste",
+    "p4": "Habitat One vous donne accès aux bons produits, aux bonnes personnes et aux bonnes informations. Nous bâtissons ainsi la confiance, évitons les surprises et rendons possibles de meilleures décisions tout au long du processus de construction.",
+    "p5": "Habitat One est plus qu’un showroom. C’est l’endroit où l’on construit en toute clarté — et où votre maison de rêve espagnole devient réalité, sans souci.",
+    "valuesEyebrow": "Nos valeurs",
+    "valuesTitle": "Ce qui nous anime",
+    "value1": "La transparence d’abord",
+    "value1Text": "Nous montrons d’où viennent les matériaux, ce qu’ils coûtent et quelle marge nous appliquons. Pas de marges cachées, pas d’intermédiaires opaques.",
+    "value2": "Voir, toucher, vivre",
+    "value2Text": "Vous ne choisissez pas vos matériaux sur catalogue. Dans notre experience center, vous voyez, touchez et comparez chaque produit avant de décider.",
+    "value3": "Le bon réseau",
+    "value3Text": "Nous ne travaillons qu’avec des partenaires que nous connaissons personnellement et en qui nous avons confiance — des architectes, entrepreneurs, avocats et gestores que nous osons recommander.",
+    "value4": "Un ancrage local",
+    "value4Text": "Installés à Jávea/Xàbia, nous connaissons le climat local, les styles de construction et la réglementation. Nous sommes votre partenaire de confiance sur la Costa Blanca.",
+    "statsTitle": "Habitat One en chiffres",
+    "ctaTitle": "Prêt à construire autrement ?",
+    "ctaText": "Visitez notre experience center à Jávea/Xàbia ou contactez-nous — nous vous aidons volontiers à faire les bons choix.",
+    "teamTitle": "Les personnes avec qui vous travaillerez",
+    "teamNote": "Une équipe soudée et un réseau soigneusement composé de partenaires que nous connaissons personnellement et en qui nous avons confiance — architectes, entrepreneurs, avocats, gestores et conseillers techniques sur la Costa Blanca."
+  },
+  "contact": {
+    "eyebrow": "Faisons connaissance",
+    "title": "Parlons de votre maison",
+    "intro": "Parlez-nous de votre terrain, de votre bien ou de votre idée. Nous répondons généralement sous un jour ouvré — en anglais, néerlandais, espagnol ou allemand.",
+    "formTitle": "Envoyez-nous un message",
+    "name": "Votre nom",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone (facultatif)",
+    "subject": "Objet",
+    "subjectOptions": {
+      "general": "Demande générale",
+      "materials": "Matériaux & produits",
+      "renovation": "Rénovation ou construction neuve",
+      "property": "Achat d’un bien immobilier",
+      "legal": "Juridique & formalités",
+      "showroom": "Visite du showroom"
+    },
+    "message": "Votre message",
+    "messagePlaceholder": "Parlez-nous de votre projet, terrain ou bien…",
+    "consent": "J’accepte que Habitat One me contacte au sujet de ma demande.",
+    "send": "Envoyer le message",
+    "sending": "Envoi…",
+    "sent": "Merci — votre message est en route. Nous vous répondrons très vite.",
+    "errorRequired": "Veuillez remplir ce champ.",
+    "errorEmail": "Veuillez saisir une adresse e-mail valide.",
+    "infoTitle": "Habitat One",
+    "addressLabel": "Showroom & studio",
+    "address": "Camí de la Fontana 3, Locales 2, 3 et 5, 03730 Jávea/Xàbia (Alicante), Espagne",
+    "phoneLabel": "Téléphone",
+    "emailLabel": "E-mail",
+    "hoursLabel": "Horaires d’ouverture",
+    "hoursWeek": "Visites uniquement sur rendez-vous — nous sommes là pour vous du lundi au samedi.",
+    "languagesLabel": "Langues",
+    "mapTitle": "Nous trouver à Jávea/Xàbia",
+    "mapNote": "Parking gratuit au showroom. Visites des projets et du dépôt de pierre sur rendez-vous.",
+    "hoursByAppointment": "Visites uniquement sur rendez-vous — nous sommes là pour vous du lundi au samedi.",
+    "hoursShort": "Uniquement sur rendez-vous"
+  },
+  "showroom": {
+    "eyebrow": "L’experience center",
+    "title": "L’experience center à Jávea/Xàbia",
+    "intro": "Un projet de construction commence par des choix. Dans notre experience center, nous présentons des matériaux innovants et haut de gamme qui se distinguent par leur qualité, leur durabilité et leur design — à voir, toucher, comparer et comprendre avant de décider.",
+    "experienceTitle": "Ce que vous y trouverez",
+    "exp1": "Matériauthèque",
+    "exp1Text": "Touchez et comparez des centaines de matériaux premium — pierre naturelle, céramique, bois massif, micro-ciment et plus encore.",
+    "exp2": "Design & conseil",
+    "exp2Text": "Réservez une session et nous vous mettrons en relation avec des architectes et spécialistes de notre réseau pour planifier votre rénovation ou construction neuve.",
+    "exp3": "Installations grandeur nature",
+    "exp3Text": "Découvrez nos matériaux mis en œuvre dans des espaces reconstitués à taille réelle, pour visualiser le résultat final avant de vous engager.",
+    "exp4": "Service d’échantillons",
+    "exp4Text": "Emportez des échantillons de matériaux pour les tester dans votre propre lumière et votre propre espace.",
+    "visitTitle": "Préparez votre visite",
+    "bookTitle": "Réserver une consultation",
+    "bookText": "Les consultations sont gratuites et durent environ une heure. Dites-nous quand cela vous convient.",
+    "bookButton": "Demander un rendez-vous",
+    "addressTitle": "Adresse",
+    "hoursTitle": "Horaires d’ouverture",
+    "directions": "Itinéraire",
+    "tourTitle": "Visite virtuelle",
+    "tourText": "Une visite à 360° du showroom de Jávea/Xàbia arrive bientôt. En attendant, venez le découvrir en personne.",
+    "tourSoon": "Bientôt disponible",
+    "subtitle": "Voir · Toucher · Vivre",
+    "howToGetHere": "Comment venir",
+    "directionsText": "Au cœur de Jávea/Xàbia avec parking gratuit — à seulement 90 minutes de Valence et 75 minutes de l’aéroport d’Alicante."
+  },
+  "footer": {
+    "ctaTitle": "L’expérience construction et habitat tout-en-un à Jávea/Xàbia.",
+    "ctaText": "Explorez des matériaux soigneusement sélectionnés, des produits innovants et des solutions inspirantes pour votre maison. Que vous construisiez, rénoviez ou cherchiez simplement des idées, notre showroom est conçu pour vous faire découvrir le champ des possibles. Réservez votre visite sur notre site et vivez Habitat One en personne.",
+    "tagline": "Construire, rénover et vivre en beauté à Jávea/Xàbia — matériaux, design, droit et immobilier sous un même toit méditerranéen.",
+    "exploreTitle": "Explorer",
+    "companyTitle": "Entreprise",
+    "contactTitle": "Contact",
+    "newsletterTitle": "Notes de Jávea/Xàbia",
+    "newsletterText": "Nouveautés matériaux, récits de projets et, de temps à autre, une maison à vendre. Sans bruit.",
+    "newsletterPlaceholder": "Votre e-mail",
+    "newsletterButton": "S’abonner",
+    "newsletterThanks": "Merci — vous êtes sur la liste.",
+    "rights": "Tous droits réservés.",
+    "builtIn": "Conçu & réalisé sur la Costa Blanca.",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "cookies": "Cookies",
+    "langLabel": "Langue",
+    "cookieSettings": "Paramètres des cookies"
+  },
+  "notFound": {
+    "title": "Cette pièce n’existe pas (encore)",
+    "text": "La page que vous cherchez a été déplacée ou n’a jamais existé. Revenons à quelque chose de solide.",
+    "button": "Retour à l’accueil",
+    "browse": "Parcourir le catalogue"
+  },
+  "appointment": {
+    "title": "Prendre rendez-vous",
+    "subtitle": "Planifiez une visite personnalisée du showroom avec notre équipe.",
+    "rolePrompt": "Pour réserver une visite du showroom, merci de nous indiquer votre rôle professionnel.",
+    "roleArchitect": "Architecte",
+    "roleSales": "Commercial",
+    "roleHomeowner": "Propriétaire",
+    "roleOther": "Autre",
+    "proOnly": "Les rendez-vous sont réservés aux professionnels",
+    "proOnlyDesc": "Les rendez-vous au showroom sont actuellement réservés aux architectes et aux professionnels de la vente. N’hésitez pas à nous envoyer un message — nous serons ravis de vous aider et de vous accueillir pendant les heures d’ouverture.",
+    "contactInstead": "Envoyez-nous un message",
+    "continueBooking": "Continuer la réservation",
+    "changeRole": "Changer de rôle",
+    "pickSlot": "Sélectionnez une date et une heure qui vous conviennent. Nous confirmerons votre rendez-vous ou proposerons une alternative.",
+    "availableTimes": "Horaires disponibles",
+    "selected": "Sélectionné",
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "notes": "Remarques (facultatif)",
+    "namePh": "Votre nom",
+    "emailPh": "votre@email.com",
+    "notesPh": "Quelque chose à nous signaler ?",
+    "submit": "Demander un rendez-vous",
+    "sending": "Envoi…",
+    "received": "Demande reçue !",
+    "receivedDesc": "Nous examinerons votre demande et confirmerons par e-mail — ou proposerons un autre créneau.",
+    "bookAnother": "Réserver un autre créneau",
+    "chooseDate": "Choisissez une date"
+  },
+  "location": {
+    "eyebrow": "Où nous trouver",
+    "title": "Notre adresse à Jávea/Xàbia",
+    "intro": "L’experience center Habitat One se trouve au cœur de Jávea/Xàbia, sur la Costa Blanca. Passez nous voir pour regarder, toucher et comparer les matériaux en vrai — avec un parking gratuit juste devant.",
+    "addressTitle": "Adresse",
+    "hoursTitle": "Visite sur rendez-vous",
+    "gettingHereTitle": "Comment venir",
+    "gettingHereText": "Au centre de Jávea/Xàbia avec parking gratuit — à environ 90 minutes de Valence et 75 minutes de l’aéroport d’Alicante.",
+    "ctaTitle": "Vous préférez un créneau garanti ?",
+    "ctaText": "Réservez un rendez-vous personnel et nous prendrons tout le temps que votre projet mérite.",
+    "bookButton": "Planifier une visite",
+    "directionsButton": "Itinéraire",
+    "hoursText": "La visite de notre experience center se fait toujours sur rendez-vous — nous prenons ainsi tout le temps nécessaire pour vous et votre projet. Planifiez simplement le moment qui vous convient."
+  },
+  "inspiration": {
+    "eyebrow": "Inspiration",
+    "title": "Laissez-vous inspirer",
+    "intro": "Découvrez nos matériaux et produits dans des espaces réels — à l’intérieur comme à l’extérieur. Laissez-vous inspirer par des cuisines, salles de bains, salons, terrasses et piscines le long de la Costa Blanca.",
+    "exploreTitle": "Explorer davantage",
+    "cards": [
+      {
+        "id": "events",
+        "title": "Événements",
+        "text": "Journées de vente privées et événements d’inspiration dans notre experience center."
+      },
+      {
+        "id": "range",
+        "title": "Gamme",
+        "text": "De Flexible Stone aux cuisines, salles de bains, sols et cheminées."
+      },
+      {
+        "id": "projects",
+        "title": "Projets",
+        "text": "Transformations avant-après de maisons le long de la Costa Blanca."
+      },
+      {
+        "id": "tips",
+        "title": "Conseils & astuces",
+        "text": "Des connaissances pratiques sur la construction et la rénovation en Espagne."
+      },
+      {
+        "id": "news",
+        "title": "Actualités",
+        "text": "Les dernières collections, les nouveaux partenaires et les développements récents."
+      },
+      {
+        "id": "blog",
+        "title": "Blog",
+        "text": "Des histoires de matériaux, de design et de vie sur la côte."
+      },
+      {
+        "id": "partners",
+        "title": "Partenaires",
+        "text": "Le réseau de confiance avec lequel nous travaillons."
+      }
+    ],
+    "indoorTitle": "Intérieur",
+    "outdoorTitle": "Extérieur",
+    "ctaTitle": "Un coup de cœur ?",
+    "ctaText": "Découvrez toute la gamme ou planifiez une visite de notre experience center.",
+    "ctaButton": "Voir tous les produits",
+    "fireplaceLabel": "Cheminées"
+  },
+  "events": {
+    "eyebrow": "Événements",
+    "title": "Inspiration, savoir et les bonnes rencontres",
+    "intro": "Chez Habitat One, nous croyons que les meilleurs projets de construction commencent par le bon savoir et les bonnes personnes. C’est pourquoi nous organisons toute l’année des événements exclusifs pour nos membres.",
+    "items": [
+      {
+        "tag": "Mensuel",
+        "title": "Journée de vente privée",
+        "when": "Premier samedi du mois · 10h00–14h00",
+        "text": "Une journée d’accès exclusif au showroom avec des prix du jour avantageux sur nos matériaux en stock — des articles sélectionnés à emporter directement."
+      },
+      {
+        "tag": "Démonstration",
+        "title": "Flexible Stone — appliqué en direct",
+        "when": "À annoncer",
+        "text": "Découvrez comment notre pierre naturelle signature épouse le mur et sentez la différence avec le carrelage traditionnel."
+      },
+      {
+        "tag": "Networking",
+        "title": "Soirée membres : rencontrez le réseau",
+        "when": "À annoncer",
+        "text": "Une soirée exclusive où, autour d’un verre, vous rencontrez les architectes, entrepreneurs, avocats et gestores de notre réseau. Posez vos questions et nouez les bonnes relations."
+      },
+      {
+        "tag": "Savoir",
+        "title": "Permanence ouverte : construire & acheter en Espagne",
+        "when": "À annoncer",
+        "text": "Une session de questions-réponses ouverte avec nos avocats et gestores sur le NIE, les permis, les contrats et les impôts — pour lancer votre projet en toute confiance."
+      }
+    ],
+    "ctaTitle": "Ne manquez aucun événement",
+    "ctaText": "Parcourez notre calendrier d’événements et réservez votre place.",
+    "ctaButton": "Réserver votre place",
+    "body": [
+      "Au fil d’ateliers inspirants, de présentations et de sessions de partage, architectes, spécialistes des matériaux, experts du bâtiment, avocats, gestores et autres professionnels vous emmènent dans l’univers de la construction, de la rénovation et de la vie en Espagne.",
+      "Découvrez des matériaux innovants, comprenez les processus, posez directement vos questions aux experts et rencontrez les personnes qui peuvent vous aider à chaque étape de votre projet.",
+      "Nos événements ne sont pas seulement faits pour informer — ils vous donnent avant tout plus de recul, de confiance et de maîtrise sur les choix que vous faites."
+    ],
+    "tagline": "Construisez plus intelligemment. Choisissez en confiance. Rencontrez les bonnes personnes.",
+    "agendaTitle": "Calendrier des événements"
+  },
+  "news": {
+    "eyebrow": "Dernières nouvelles",
+    "title": "Actualités",
+    "intro": "Les dernières nouvelles de Habitat One — nouvelles collections, partenaires et développements dans notre experience center.",
+    "items": [
+      {
+        "date": "Juin 2026",
+        "title": "Nouveau : les cheminées",
+        "text": "Notre collection de cheminées est arrivée — cheminées murales, encastrées et traversantes qui unissent chaleur et design."
+      },
+      {
+        "date": "Juin 2026",
+        "title": "Nouveau : la collection éclairage",
+        "text": "Des spots encastrés épurés aux luminaires d’ambiance — notre nouvel éclairage vient parfaire l’intérieur."
+      },
+      {
+        "date": "Juin 2026",
+        "title": "La gamme s’agrandit considérablement",
+        "text": "Nous avons ajouté de nombreux nouveaux groupes de produits, dont des panneaux acryliques, des jardinières et de l’appareillage électrique. Venez tout découvrir en vrai dans notre experience center."
+      },
+      {
+        "date": "Juin 2026",
+        "title": "Nouvelle collection : sols PVC",
+        "text": "Neuf nouveaux sols PVC avec leur propre page de catégorie — résistants, imperméables et parfaits pour le climat côtier."
+      },
+      {
+        "date": "Mai 2026",
+        "title": "La collection de portes s’étoffe",
+        "text": "Notre gamme de portes intérieures et extérieures s’est enrichie de nouveaux modèles et de nouvelles finitions."
+      },
+      {
+        "date": "Avril 2026",
+        "title": "L’experience center s’agrandit",
+        "text": "Nous avons agrandi notre showroom de Jávea/Xàbia avec de nouvelles mises en scène de matériaux, pour montrer, toucher et comparer encore davantage."
+      }
+    ]
+  },
+  "tips": {
+    "eyebrow": "Savoir",
+    "title": "Conseils & astuces",
+    "intro": "Construire ou rénover en Espagne soulève des questions. Nous partageons ici des connaissances pratiques — honnêtes et transparentes, comme vous l’attendez de nous.",
+    "items": [
+      {
+        "tag": "Achat",
+        "title": "Construire en Espagne : NIE, gestor et permis",
+        "text": "Ce dont vous avez besoin avant de commencer, et comment notre réseau d’avocats et de gestores vous décharge des tracas.",
+        "slug": "bouwen-in-spanje-nie-vergunningen"
+      },
+      {
+        "tag": "Matériaux",
+        "title": "Choisir des matériaux pour le climat méditerranéen",
+        "text": "Le soleil, le sel et l’humidité mettent vos finitions à l’épreuve. Voici comment choisir des matériaux qui restent beaux au bord de la mer.",
+        "slug": "materialen-mediterraan-klimaat"
+      },
+      {
+        "tag": "Prix",
+        "title": "Notre prix en toute transparence",
+        "text": "Chez Habitat One, vous voyez exactement ce que vous payez : le prix d’achat du matériau, notre marge et la mise en œuvre. Ouvert et sans intermédiaires cachés — pour ne jamais être pris au dépourvu.",
+        "slug": "onze-open-prijsopbouw"
+      },
+      {
+        "tag": "Design",
+        "title": "Intérieur et extérieur dans une même ligne",
+        "text": "En finissant l’intérieur et l’extérieur avec le même matériau, vous créez calme et espace. Nous vous montrons quelles collections se prolongent sans rupture du salon à la terrasse.",
+        "slug": "binnen-buiten-een-materiaal"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Histoires",
+    "title": "Blog",
+    "intro": "Des histoires de matériaux, de design, d’artisanat et de vie sur la Costa Blanca.",
+    "items": [
+      {
+        "date": "Juin 2026",
+        "tag": "Produits",
+        "title": "Cheminées à vapeur d’eau : l’ambiance sans la chaleur",
+        "text": "Nos cheminées à vapeur d’eau créent une flamme réaliste sans vrai feu — elles ne chauffent pas et sont parfaitement sûres. Idéales pour les biens en location, elles apportent instantanément une atmosphère à chaque pièce."
+      },
+      {
+        "date": "Mai 2026",
+        "tag": "Salle de bains",
+        "title": "La salle de bains, lieu de détente",
+        "text": "Des baignoires îlot aux vasques en solid surface : notre collection salle de bains allie matériaux chaleureux et design épuré pour une sensation de spa à la maison."
+      },
+      {
+        "date": "Avril 2026",
+        "tag": "Détails",
+        "title": "Petits détails, grande différence",
+        "text": "Tout se joue souvent dans les finitions. Avec des interrupteurs et des prises design et des jardinières de caractère, vous achevez véritablement un espace — à l’intérieur comme à l’extérieur."
+      },
+      {
+        "date": "Juin 2026",
+        "tag": "Design",
+        "title": "Pourquoi Flexible Stone change tout",
+        "text": "De la vraie pierre naturelle qui épouse le mur — plus légère que le carrelage et infiniment applicable. Regard sur notre matériau signature."
+      },
+      {
+        "date": "Mai 2026",
+        "tag": "Coulisses",
+        "title": "Construire en toute transparence : notre promesse",
+        "text": "Pas de marges cachées, pas d’intermédiaires opaques. Nous expliquons comment et pourquoi nous travaillons ainsi."
+      },
+      {
+        "date": "Avril 2026",
+        "tag": "Lieu",
+        "title": "Construire à Jávea/Xàbia : soleil, pierre et mer",
+        "text": "Ce qui rend le microclimat méditerranéen si particulier — et ce que cela signifie pour vos choix de matériaux."
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Notre réseau",
+    "title": "Partenaires",
+    "intro": "Habitat One travaille avec un réseau soigneusement composé de spécialistes que nous connaissons personnellement, en qui nous avons confiance — et que nous osons recommander. Nous vous mettons ainsi directement en relation avec le bon expert pour chaque phase de votre projet.",
+    "items": [
+      {
+        "role": "Architectes",
+        "text": "Des conceptions et plans d’exécution qui unissent la lumière, l’espace et le climat méditerranéen."
+      },
+      {
+        "role": "Entrepreneurs",
+        "text": "Des constructeurs locaux fiables qui réalisent constructions neuves et rénovations dans les règles de l’art."
+      },
+      {
+        "role": "Avocats",
+        "text": "Un accompagnement juridique pour l’achat, les contrats et les permis — dans votre langue."
+      },
+      {
+        "role": "Gestores",
+        "text": "Un soutien administratif, du numéro NIE aux questions fiscales."
+      },
+      {
+        "role": "Agents immobiliers & investisseurs",
+        "text": "L’accès à des biens et projets soigneusement sélectionnés, souvent des opportunités uniques."
+      },
+      {
+        "role": "Conseillers techniques",
+        "text": "Des conseils sur les installations, la durabilité et les solutions économes en énergie."
+      }
+    ],
+    "ctaTitle": "Devenez partenaire de Habitat One",
+    "ctaText": "Vous êtes un spécialiste de la Costa Blanca qui partage notre vision de la transparence et de la qualité ? Contactez-nous.",
+    "ctaButton": "Contactez-nous"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Bon à savoir",
+    "items": [
+      {
+        "q": "Qu’est-ce que Habitat One exactement ?",
+        "a": "Habitat One n’est ni un entrepreneur, ni un architecte, ni une agence immobilière, mais une plateforme transparente de matériaux et de construction avec un experience center à Jávea/Xàbia. Nous vous donnons accès à des matériaux haut de gamme, à une information honnête et à un réseau de confiance de spécialistes pour chaque phase de votre projet."
+      },
+      {
+        "q": "Construisez-vous ma maison vous-mêmes ?",
+        "a": "Non. Nous vous mettons en relation avec des architectes, entrepreneurs, avocats et gestores que nous connaissons personnellement et en qui nous avons confiance. Si vous achetez vos matériaux chez nous, nous assurons aussi la direction, la supervision et l’accompagnement — même pendant que vous êtes encore dans votre pays d’origine."
+      },
+      {
+        "q": "Où se trouve votre experience center ?",
+        "a": "Au cœur de Jávea/Xàbia, sur la Costa Blanca, avec parking gratuit. Les visites se font toujours sur rendez-vous, pour que nous puissions prendre tout le temps nécessaire pour vous."
+      },
+      {
+        "q": "Dans quelles langues pouvez-vous m’aider ?",
+        "a": "En néerlandais, anglais, espagnol et allemand — tout comme ce site."
+      },
+      {
+        "q": "Et le NIE, les permis et le volet juridique ?",
+        "a": "Construire ou acheter en Espagne exige les bons documents. Grâce à notre réseau d’avocats et de gestores, nous organisons l’achat, le NIE, les permis et l’administratif — dans votre langue."
+      },
+      {
+        "q": "Puis-je obtenir des prix ?",
+        "a": "Absolument. Nous travaillons en toute transparence : vous voyez d’où viennent les matériaux, ce qu’ils coûtent et comment notre prix est construit. Demandez un devis ou visitez l’experience center pour un aperçu personnalisé."
+      }
+    ]
+  },
+  "tipsArticles": {
+    "bouwen-in-spanje-nie-vergunningen": {
+      "eyebrow": "Conseils & astuces · Achat",
+      "title": "Construire en Espagne : NIE, permis et gestor — les points de vigilance",
+      "readTime": "5 min de lecture",
+      "intro": "Construire ou acheter une maison sur la Costa Blanca ne commence pas par les briques — mais par les formalités. Connaître les règles espagnoles, ou s’entourer des bonnes personnes, évite retards et surprises. Voici les points de vigilance.",
+      "sections": [
+        {
+          "heading": "Commencez par votre numéro NIE",
+          "body": [
+            "Le NIE (Número de Identidad de Extranjero) est votre numéro d’identification fiscale en tant qu’étranger en Espagne. Sans NIE, impossible d’acheter un bien, de payer un entrepreneur, d’ouvrir les compteurs ou de payer des impôts. C’est donc littéralement la première étape.",
+            "Vous en faites la demande auprès d’un consulat espagnol dans votre pays d’origine, en personne auprès de la police, ou via un représentant habilité. Anticipez — cela peut prendre quelques semaines."
+          ]
+        },
+        {
+          "heading": "Le gestor et l’avocat : deux rôles différents",
+          "body": [
+            "En Espagne, un gestor s’occupe du volet administratif : NIE, impôts, enregistrements et formulaires. Un avocat (abogado) veille sur le volet juridique : contrats d’achat, vérification des titres et permis.",
+            "Pour un achat ou une construction en toute sécurité, il vous faut les deux. Ne vous fiez jamais uniquement à la partie vendeuse — un avocat indépendant qui défend vos intérêts est essentiel."
+          ]
+        },
+        {
+          "heading": "Les permis : du permis de construire à l’habitabilité",
+          "body": [
+            "Pour une construction neuve ou une rénovation majeure, il vous faut un permis de construire (licencia de obra) délivré par la mairie. Les petits travaux ne nécessitent souvent qu’une licencia de obra menor.",
+            "Après l’achèvement vient le certificat d’habitabilité (cédula de habitabilidad). Il est indispensable pour mettre l’eau et l’électricité à votre nom. Prévoyez des délais de permis généreux dans votre planning."
+          ],
+          "points": [
+            "Permis de construire (licencia de obra) — avant de commencer",
+            "Certificat d’habitabilité (cédula de habitabilidad) — à l’achèvement",
+            "Certificat énergétique — en cas de vente ou de location"
+          ]
+        },
+        {
+          "heading": "Les erreurs fréquentes",
+          "body": [
+            "La plupart des problèmes ne surviennent pas pendant le chantier, mais dans les formalités en amont : acheter sans vérification juridique indépendante, commencer sans le bon permis, ou acheter une maison (partiellement) agrandie de façon illégale. Ce sont ces erreurs qui coûtent ensuite le plus d’argent et de temps."
+          ]
+        },
+        {
+          "heading": "Comment Habitat One vous décharge des tracas",
+          "body": [
+            "Nous ne sommes ni avocat ni gestor — mais nous travaillons avec des avocats et gestores que nous connaissons personnellement, en qui nous avons confiance, et qui parlent votre langue. Ainsi, les formalités, les permis et l’achat sont entre de bonnes mains pendant que vous gardez la vue d’ensemble. Même si vous êtes encore dans votre pays d’origine, nous assurons la direction."
+          ]
+        }
+      ],
+      "ctaTitle": "Des questions sur votre projet en Espagne ?",
+      "ctaText": "Visitez notre experience center à Jávea/Xàbia ou contactez-nous — nous vous mettrons en relation avec les bons spécialistes."
+    },
+    "materialen-mediterraan-klimaat": {
+      "eyebrow": "Conseils & astuces · Matériaux",
+      "title": "Choisir des matériaux pour le climat méditerranéen",
+      "readTime": "4 min de lecture",
+      "intro": "Sur la Costa Blanca, le soleil, le sel et l’humidité travaillent votre maison sans relâche. Des matériaux parfaits à l’intérieur des terres peuvent vite se décolorer, se fissurer ou se corroder au bord de la mer. Voici comment choisir des finitions qui restent belles et solides.",
+      "sections": [
+        {
+          "heading": "Soleil, sel et humidité : le vrai défi",
+          "body": [
+            "Le mélange d’UV intenses, d’air marin salé et d’humidité élevée est implacable. Les revêtements bon marché se décolorent, le métal non traité rouille et la pierre poreuse absorbe humidité et sel. Choisissez donc des matériaux spécifiquement conçus pour y résister."
+          ]
+        },
+        {
+          "heading": "Des matériaux qui supportent le climat côtier",
+          "body": [
+            "Nous sélectionnons délibérément des finitions qui ont fait leurs preuves au bord de la mer :"
+          ],
+          "points": [
+            "La pierre naturelle et le travertin avec le bon traitement hydrofuge — chaleureux et intemporels",
+            "Flexible Stone : résistant au sel, au soleil et à l’humidité, à l’intérieur comme à l’extérieur",
+            "Le microciment et le terrazzo pour des sols continus et résistants",
+            "La quincaillerie thermolaquée ou en inox contre la corrosion"
+          ]
+        },
+        {
+          "heading": "Intérieur vs extérieur",
+          "body": [
+            "À l’extérieur, les exigences sont plus strictes : résistance au gel, antidérapance au bord de la piscine et sur la terrasse, et tenue des couleurs en plein soleil. À l’intérieur, il s’agit davantage de toucher, d’entretien et d’acoustique. Nous choisissons la bonne variante pour chaque espace."
+          ]
+        },
+        {
+          "heading": "L’entretien décide de la durée de vie",
+          "body": [
+            "Même le meilleur matériau demande un soin approprié : hydrofuger la pierre naturelle à temps, rincer les façades après les tempêtes de sable, et préférer les nettoyants doux aux produits agressifs. Un bon conseil en amont évite des erreurs coûteuses plus tard."
+          ]
+        }
+      ],
+      "ctaTitle": "Un doute sur un matériau ?",
+      "ctaText": "Venez le voir, le toucher et le comparer dans notre experience center — nous vous conseillons pour le climat côtier."
+    },
+    "onze-open-prijsopbouw": {
+      "eyebrow": "Conseils & astuces · Prix",
+      "title": "Des prix transparents : comment cela fonctionne chez nous",
+      "readTime": "3 min de lecture",
+      "intro": "Le secteur de la construction est connu pour ses devis vagues et ses marges cachées. Chez Habitat One, nous faisons autrement : vous voyez exactement ce que vous payez. Voici comment notre prix est construit.",
+      "sections": [
+        {
+          "heading": "Pourquoi les prix sont souvent opaques",
+          "body": [
+            "Dans un processus de construction traditionnel, plusieurs intermédiaires s’intercalent souvent entre vous et le fabricant — chacun avec sa propre marge invisible. Vous savez donc rarement ce que vous payez réellement pour le matériau et ce qui revient aux intermédiaires."
+          ]
+        },
+        {
+          "heading": "Notre construction : achat + marge + mise en œuvre",
+          "body": [
+            "Nous achetons directement auprès de fabricants en Asie, en Italie, en Espagne et dans d’autres pays européens. Notre prix comporte trois parties claires : le prix d’achat du matériau, notre propre marge et (en option) la mise en œuvre par les partenaires de notre réseau."
+          ]
+        },
+        {
+          "heading": "Ce que vous voyez chez nous",
+          "body": [
+            "Lorsque vous demandez un devis, nous mettons tout ouvertement sur la table :"
+          ],
+          "points": [
+            "D’où vient le matériau et qui est le producteur",
+            "Le prix d’achat",
+            "La marge que nous appliquons",
+            "Les parties impliquées dans votre projet"
+          ]
+        },
+        {
+          "heading": "Pourquoi la transparence est payante",
+          "body": [
+            "Des prix ouverts évitent les surprises, facilitent la comparaison et créent la confiance. Vous gardez le contrôle et prenez de meilleures décisions — exactement ce pour quoi vous venez chez Habitat One."
+          ]
+        }
+      ],
+      "ctaTitle": "Curieux de connaître un prix juste ?",
+      "ctaText": "Demandez un devis transparent ou visitez notre experience center."
+    },
+    "binnen-buiten-een-materiaal": {
+      "eyebrow": "Conseils & astuces · Design",
+      "title": "Intérieur et extérieur dans un seul matériau continu",
+      "readTime": "3 min de lecture",
+      "intro": "Rien n’apporte autant de calme et d’espace qu’une finition qui se prolonge sans rupture du salon à la terrasse. Avec le bon choix de matériau, intérieur et extérieur se fondent en un seul.",
+      "sections": [
+        {
+          "heading": "Pourquoi les matériaux continus fonctionnent",
+          "body": [
+            "Un même matériau de l’intérieur vers l’extérieur efface la frontière entre les espaces. Le regard est attiré vers le dehors, votre maison paraît plus grande, et la lumière méditerranéenne fait le reste. Sur la Costa Blanca, où l’on vit beaucoup dehors, cela vaut de l’or."
+          ]
+        },
+        {
+          "heading": "Des matériaux qui fonctionnent dedans et dehors",
+          "body": [
+            "Tous les matériaux ne savent pas faire les deux. Ceux-ci, oui :"
+          ],
+          "points": [
+            "Flexible Stone — le même aspect pierre sur le mur et la façade",
+            "Le travertin et le calcaire grand format, à l’intérieur et sur la terrasse",
+            "Le microciment dans un seul ton continu et sans joints",
+            "Le terrazzo pour les sols et les bordures extérieures"
+          ]
+        },
+        {
+          "heading": "Les points pratiques à surveiller",
+          "body": [
+            "À la transition, quelques points d’attention : choisissez une variante antidérapante à l’extérieur, assurez la résistance au gel et prévoyez dehors une finition légèrement différente pour l’adhérence — tandis que la couleur et l’aspect restent identiques."
+          ]
+        },
+        {
+          "heading": "De l’idée à la réalisation",
+          "body": [
+            "Dans notre experience center, vous voyez comment les collections se prolongent de l’intérieur vers l’extérieur, et nous réfléchissons avec vous aux bonnes transitions, seuils et détails — pour un résultat net et durable."
+          ]
+        }
+      ],
+      "ctaTitle": "Envie de fondre intérieur et extérieur ?",
+      "ctaText": "Visitez l’experience center ou contactez-nous pour un conseil sur mesure."
+    }
+  },
+  "furniture": {
+    "eyebrow": "Caracole · Cornelius Lifestyle",
+    "title": "Mobilier",
+    "intro": "Du mobilier design pour chaque pièce — canapés, tables, lits, rangements, éclairage et décoration, sélectionnés chez Caracole et Cornelius Lifestyle.",
+    "viewAll": "Tout voir",
+    "items": "articles",
+    "searchPlaceholder": "Rechercher du mobilier…",
+    "partnersTitle": "Nos partenaires mobilier",
+    "partnersIntro": "Notre mobilier est fourni en partenariat avec ces marques renommées."
+  },
+  "account": {
+    "viewPrices": "Voir les prix",
+    "myAccount": "Mon compte",
+    "logout": "Se déconnecter",
+    "requestTitle": "Demander un compte",
+    "requestIntro": "Demandez un compte pour consulter les prix. Une fois votre demande approuvée, vous recevrez un e-mail pour définir votre mot de passe.",
+    "private": "Particulier",
+    "business": "Professionnel",
+    "name": "Nom",
+    "email": "E-mail",
+    "phoneOptional": "Téléphone (facultatif)",
+    "businessName": "Nom de l’entreprise",
+    "vatNumber": "Numéro de TVA (IVA)",
+    "addressOptional": "Adresse (facultatif)",
+    "businessRequiredNote": "Un compte professionnel nécessite un nom d’entreprise et un numéro de TVA/IVA.",
+    "messageOptional": "Message (facultatif)",
+    "submitRequest": "Demander un compte",
+    "submitting": "Envoi…",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "login": "Se connecter",
+    "receivedTitle": "Demande reçue",
+    "receivedText": "Merci ! Nous examinerons votre demande et vous enverrons un e-mail dès que votre compte sera prêt, pour définir votre mot de passe.",
+    "backToSite": "Retour au site",
+    "genericError": "Un problème est survenu. Veuillez vérifier vos informations.",
+    "sendError": "Impossible d’envoyer la demande. Veuillez réessayer plus tard.",
+    "loginIntro": "Connectez-vous pour consulter les prix.",
+    "password": "Mot de passe",
+    "loginError": "E-mail ou mot de passe incorrect, ou votre compte n’est pas encore activé.",
+    "loginFailed": "Connexion impossible. Veuillez réessayer plus tard.",
+    "noAccount": "Pas encore de compte ?",
+    "activateTitle": "Définissez votre mot de passe",
+    "activateIntro": "Définissez votre mot de passe pour activer votre compte.",
+    "choosePassword": "Choisissez un mot de passe",
+    "repeatPassword": "Répétez le mot de passe",
+    "activateSubmit": "Définir le mot de passe & se connecter",
+    "activating": "Enregistrement…",
+    "pwTooShort": "Choisissez un mot de passe d’au moins 8 caractères.",
+    "pwMismatch": "Les mots de passe ne correspondent pas.",
+    "activateInvalid": "Ce lien d’activation a expiré ou n’est pas valide. Veuillez en demander un nouveau.",
+    "activateFailed": "Impossible de définir le mot de passe. Veuillez réessayer plus tard.",
+    "noValidLink": "Aucun lien d’activation valide. Ouvrez le lien de votre e-mail, ou ",
+    "logInWord": "connectez-vous",
+    "loginToView": "Connectez-vous pour consulter votre compte et les prix.",
+    "priceLevel": "Niveau de prix",
+    "pricesVisibleNote": "Les prix sont désormais visibles sur les produits."
+  }
+}

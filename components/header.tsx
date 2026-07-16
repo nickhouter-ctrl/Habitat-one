@@ -17,7 +17,7 @@ import { cn } from "@/lib/utils";
 type DropItem = { href: string; label: string };
 type DropSection = { title?: string; titleHref?: string; items: DropItem[] };
 type MegaMenu = { sections: DropSection[]; footer?: DropItem };
-type Locale = "nl" | "en" | "es" | "de";
+type Locale = "nl" | "en" | "es" | "de" | "fr" | "zh";
 
 export function Header() {
   const t = useTranslations("nav");

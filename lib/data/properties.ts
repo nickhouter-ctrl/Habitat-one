@@ -112,6 +112,24 @@ export const PROPERTY_TYPE_LABELS: Record<Locale, Record<string, string>> = {
     commercial: "Gewerbeobjekt",
     other: "Immobilie",
   },
+  fr: {
+    villa: "Villa",
+    apartment: "Appartement",
+    townhouse: "Maison de ville",
+    plot: "Terrain constructible",
+    renovation_project: "Projet de rénovation",
+    commercial: "Local commercial",
+    other: "Bien immobilier",
+  },
+  zh: {
+    villa: "别墅",
+    apartment: "公寓",
+    townhouse: "联排别墅",
+    plot: "建筑用地",
+    renovation_project: "翻新项目",
+    commercial: "商业物业",
+    other: "房产",
+  },
 };
 
 export const PROPERTY_STATUS_LABELS: Record<Locale, Record<string, string>> = {
@@ -142,6 +160,20 @@ export const PROPERTY_STATUS_LABELS: Record<Locale, Record<string, string>> = {
     under_offer: "Reserviert",
     sold: "Verkauft",
     withdrawn: "Nicht mehr verfügbar",
+  },
+  fr: {
+    available: "Disponible",
+    reserved: "Réservé",
+    under_offer: "Sous offre",
+    sold: "Vendu",
+    withdrawn: "N'est plus disponible",
+  },
+  zh: {
+    available: "在售",
+    reserved: "已预订",
+    under_offer: "洽谈中",
+    sold: "已售出",
+    withdrawn: "已下架",
   },
 };
 
@@ -242,6 +274,44 @@ export const PROPERTIES_UI: Record<
     soldIntro: "Kürzlich verkaufte Objekte und Angebote, die nicht mehr am Markt sind.",
     soldBadgeCard: "Verkauft",
   },
+  fr: {
+    eyebrow: "À vendre",
+    title: "Biens immobiliers",
+    intro:
+      "Une sélection de villas, maisons, terrains et projets de rénovation à Xàbia et ses environs — pris en charge de bout en bout par Habitat One.",
+    none: "Aucun bien n'est publié pour le moment. Contactez-nous et nous trouverons quelque chose pour vous.",
+    from: "à partir de",
+    bedrooms: "chambres",
+    bathrooms: "salles de bains",
+    built: "construits",
+    plot: "terrain",
+    back: "Biens immobiliers",
+    enquire: "Se renseigner sur ce bien",
+    details: "Voir les détails",
+    priceOnRequest: "Prix sur demande",
+    soldHeading: "Vendus & retirés du marché",
+    soldIntro: "Ventes récentes et biens qui ne sont plus sur le marché.",
+    soldBadgeCard: "Vendu",
+  },
+  zh: {
+    eyebrow: "出售",
+    title: "房产",
+    intro:
+      "精选 Xàbia 及周边的别墅、住宅、地块与翻新项目——由 Habitat One 全程负责。",
+    none: "目前暂无在售房产。欢迎联系我们，我们会为您寻找合适的选择。",
+    from: "起价",
+    bedrooms: "卧室",
+    bathrooms: "浴室",
+    built: "建筑面积",
+    plot: "地块",
+    back: "房产",
+    enquire: "咨询此房产",
+    details: "查看详情",
+    priceOnRequest: "价格面议",
+    soldHeading: "已售出与已下架",
+    soldIntro: "近期成交及已退出市场的房源。",
+    soldBadgeCard: "已售出",
+  },
 };
 
 export function formatPriceEUR(value: string | null, locale: Locale): string | null {
@@ -249,7 +319,17 @@ export function formatPriceEUR(value: string | null, locale: Locale): string | n
   const n = Number(value);
   if (!Number.isFinite(n) || n <= 0) return null;
   return new Intl.NumberFormat(
-    locale === "en" ? "en-IE" : locale === "nl" ? "nl-NL" : locale === "es" ? "es-ES" : "de-DE",
+    locale === "en"
+      ? "en-IE"
+      : locale === "nl"
+        ? "nl-NL"
+        : locale === "es"
+          ? "es-ES"
+          : locale === "fr"
+            ? "fr-FR"
+            : locale === "zh"
+              ? "zh-CN"
+              : "de-DE",
     { style: "currency", currency: "EUR", maximumFractionDigits: 0 },
   ).format(n);
 }

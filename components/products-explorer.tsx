@@ -11,19 +11,19 @@ import { catalogMaterials, catalogSpaces, collections, type CatalogProduct } fro
 import { cn } from "@/lib/utils";
 
 // --- Colour families for the sidebar colour filter ---
-type Loc = "nl" | "de" | "en" | "es";
+type Loc = "nl" | "de" | "en" | "es" | "fr" | "zh";
 const COLOR_FAMILIES: { key: string; swatch: string; label: Record<Loc, string> }[] = [
-  { key: "white", swatch: "#F1ECE3", label: { nl: "Wit", de: "Weiß", en: "White", es: "Blanco" } },
-  { key: "beige", swatch: "#D8CBB2", label: { nl: "Beige", de: "Beige", en: "Beige", es: "Beige" } },
-  { key: "grey", swatch: "#9B9F9E", label: { nl: "Grijs", de: "Grau", en: "Grey", es: "Gris" } },
-  { key: "charcoal", swatch: "#3C4042", label: { nl: "Antraciet", de: "Anthrazit", en: "Charcoal", es: "Antracita" } },
-  { key: "brown", swatch: "#6C6257", label: { nl: "Bruin", de: "Braun", en: "Brown", es: "Marrón" } },
-  { key: "terracotta", swatch: "#9E4A33", label: { nl: "Terracotta", de: "Terrakotta", en: "Terracotta", es: "Terracota" } },
-  { key: "green", swatch: "#5F6B4F", label: { nl: "Groen", de: "Grün", en: "Green", es: "Verde" } },
-  { key: "blue", swatch: "#46606E", label: { nl: "Blauw", de: "Blau", en: "Blue", es: "Azul" } },
-  { key: "yellow", swatch: "#C7A64A", label: { nl: "Geel", de: "Gelb", en: "Yellow", es: "Amarillo" } },
+  { key: "white", swatch: "#F1ECE3", label: { nl: "Wit", de: "Weiß", en: "White", es: "Blanco", fr: "Blanc", zh: "白色" } },
+  { key: "beige", swatch: "#D8CBB2", label: { nl: "Beige", de: "Beige", en: "Beige", es: "Beige", fr: "Beige", zh: "米色" } },
+  { key: "grey", swatch: "#9B9F9E", label: { nl: "Grijs", de: "Grau", en: "Grey", es: "Gris", fr: "Gris", zh: "灰色" } },
+  { key: "charcoal", swatch: "#3C4042", label: { nl: "Antraciet", de: "Anthrazit", en: "Charcoal", es: "Antracita", fr: "Anthracite", zh: "炭灰色" } },
+  { key: "brown", swatch: "#6C6257", label: { nl: "Bruin", de: "Braun", en: "Brown", es: "Marrón", fr: "Brun", zh: "棕色" } },
+  { key: "terracotta", swatch: "#9E4A33", label: { nl: "Terracotta", de: "Terrakotta", en: "Terracotta", es: "Terracota", fr: "Terracotta", zh: "陶土色" } },
+  { key: "green", swatch: "#5F6B4F", label: { nl: "Groen", de: "Grün", en: "Green", es: "Verde", fr: "Vert", zh: "绿色" } },
+  { key: "blue", swatch: "#46606E", label: { nl: "Blauw", de: "Blau", en: "Blue", es: "Azul", fr: "Bleu", zh: "蓝色" } },
+  { key: "yellow", swatch: "#C7A64A", label: { nl: "Geel", de: "Gelb", en: "Yellow", es: "Amarillo", fr: "Jaune", zh: "黄色" } },
 ];
-const COLOUR_HEADER: Record<Loc, string> = { nl: "Kleur", de: "Farbe", en: "Colour", es: "Color" };
+const COLOUR_HEADER: Record<Loc, string> = { nl: "Kleur", de: "Farbe", en: "Colour", es: "Color", fr: "Couleur", zh: "颜色" };
 
 function hexToHsl(hex: string): [number, number, number] | null {
   const m = /^#?([0-9a-f]{6})$/i.exec(hex.trim());
@@ -87,8 +87,9 @@ export function ProductsExplorer({
 }) {
   const t = useTranslations("products");
   const ts = useTranslations("spaces");
-  const locale = useLocale() as "nl" | "de" | "en" | "es";
-  const matLabel = (m: { name: string; nameI18n: { nl: string; de: string; en: string; es: string } | null }) =>
+  const locale = useLocale() as Loc;
+  // nameI18n only exists in nl/de/en/es — for fr/zh the lookup misses and we fall back to the base name.
+  const matLabel = (m: { name: string; nameI18n: Partial<Record<Loc, string>> | null }) =>
     m.nameI18n?.[locale] ?? m.name;
   const searchParams = useSearchParams();
   const initialMaterial = searchParams?.get("material") ?? "all";
@@ -251,7 +252,7 @@ export function ProductsExplorer({
       {usedColors.length > 0 && (
         <FilterGroup
           label={COLOUR_HEADER[locale]}
-          allLabel={{ nl: "Alle kleuren", de: "Alle Farben", en: "All colours", es: "Todos los colores" }[locale]}
+          allLabel={{ nl: "Alle kleuren", de: "Alle Farben", en: "All colours", es: "Todos los colores", fr: "Toutes les couleurs", zh: "所有颜色" }[locale]}
           active={color}
           onAll={() => setColor("all")}
         >

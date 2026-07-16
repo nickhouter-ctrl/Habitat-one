@@ -14,6 +14,8 @@ const TXT: Record<string, { body: string; accept: string; decline: string; more:
   en: { body: "We use analytics cookies to improve this website.", accept: "Accept", decline: "Decline", more: "Learn more" },
   de: { body: "Wir verwenden Analyse-Cookies, um diese Website zu verbessern.", accept: "Akzeptieren", decline: "Ablehnen", more: "Mehr erfahren" },
   es: { body: "Usamos cookies de análisis para mejorar este sitio web.", accept: "Aceptar", decline: "Rechazar", more: "Más información" },
+  fr: { body: "Nous utilisons des cookies d'analyse pour améliorer ce site.", accept: "Accepter", decline: "Refuser", more: "En savoir plus" },
+  zh: { body: "我们使用分析 Cookie 来改进本网站。", accept: "接受", decline: "拒绝", more: "了解更多" },
 };
 
 /** Lees de opgeslagen keuze; migreert de oude opslag (alleen de waarde) naar het

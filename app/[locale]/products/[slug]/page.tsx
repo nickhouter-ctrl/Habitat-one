@@ -129,8 +129,11 @@ export default async function ProductDetailPage({
   const name =
     product.collection === "wall-panels" ? product.name : tr.name ?? product.name;
   const lead = tr.short ?? product.short ?? null;
+  // Product-omschrijvingen bestaan in nl/de/en/es; talen zonder eigen vertaling
+  // (fr/zh) vallen terug op Engels vóór de onvertaalde brontekst.
   const localized =
-    product.descriptionI18n?.[locale as "nl" | "de" | "en" | "es"];
+    product.descriptionI18n?.[locale as "nl" | "de" | "en" | "es"] ??
+    product.descriptionI18n?.en;
   const description = localized ?? product.description ?? null;
 
   const related = relatedProducts(product, 8);

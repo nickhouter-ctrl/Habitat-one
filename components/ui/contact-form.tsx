@@ -16,6 +16,8 @@ const ERR_TEXT: Record<string, string> = {
   de: "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren.",
   en: "Sending failed. Please try again or email us directly.",
   es: "Error al enviar. Vuelve a intentarlo o escríbenos directamente.",
+  fr: "L'envoi a échoué. Veuillez réessayer ou nous écrire directement.",
+  zh: "发送失败。请重试，或直接给我们发送邮件。",
 };
 
 export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subjectKeys)[number] }) {
@@ -34,6 +36,8 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
       /* val terug op de sleutel */
     }
     setState("sending");
+    // De CRM (en z'n bevestigingsmails) ondersteunt alleen nl/de/en/es — val terug op en voor fr/zh.
+    const crmLocale = ["nl", "de", "en", "es"].includes(locale) ? locale : "en";
     try {
       const res = await fetch(`${CRM_API}/api/quote-requests`, {
         method: "POST",
@@ -43,7 +47,7 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
           email: String(f.get("email") ?? ""),
           phone: String(f.get("phone") ?? "") || undefined,
           message: `[${subjectLabel}]\n\n${String(f.get("message") ?? "").trim()}`,
-          locale,
+          locale: crmLocale,
           source: `website:contact:${subject}`,
           kind: "contact",
         }),

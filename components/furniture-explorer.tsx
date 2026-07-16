@@ -10,16 +10,16 @@ import { cn } from "@/lib/utils";
 // Kleur-families voor het filter — elke variant-hex wordt naar de dichtstbijzijnde
 // familie gemapt, zodat tientallen stofkleuren tot een handvol keuzes worden.
 const FAMILIES: { key: string; hex: [number, number, number]; label: Record<FurnitureLocale, string> }[] = [
-  { key: "white", hex: [240, 233, 218], label: { en: "White & cream", nl: "Wit & crème", es: "Blanco y crema", de: "Weiß & creme" } },
-  { key: "beige", hex: [215, 196, 166], label: { en: "Beige & sand", nl: "Beige & zand", es: "Beige y arena", de: "Beige & sand" } },
-  { key: "grey", hex: [155, 155, 155], label: { en: "Grey", nl: "Grijs", es: "Gris", de: "Grau" } },
-  { key: "taupe", hex: [182, 168, 144], label: { en: "Taupe", nl: "Taupe", es: "Topo", de: "Taupe" } },
-  { key: "brown", hex: [107, 79, 58], label: { en: "Brown", nl: "Bruin", es: "Marrón", de: "Braun" } },
-  { key: "black", hex: [34, 34, 36], label: { en: "Black", nl: "Zwart", es: "Negro", de: "Schwarz" } },
-  { key: "blue", hex: [91, 124, 152], label: { en: "Blue", nl: "Blauw", es: "Azul", de: "Blau" } },
-  { key: "green", hex: [110, 125, 91], label: { en: "Green", nl: "Groen", es: "Verde", de: "Grün" } },
-  { key: "red", hex: [138, 58, 58], label: { en: "Red & pink", nl: "Rood & roze", es: "Rojo y rosa", de: "Rot & rosa" } },
-  { key: "gold", hex: [184, 152, 90], label: { en: "Gold & brass", nl: "Goud & messing", es: "Oro y latón", de: "Gold & messing" } },
+  { key: "white", hex: [240, 233, 218], label: { en: "White & cream", nl: "Wit & crème", es: "Blanco y crema", de: "Weiß & creme", fr: "Blanc & crème", zh: "白色与奶油色" } },
+  { key: "beige", hex: [215, 196, 166], label: { en: "Beige & sand", nl: "Beige & zand", es: "Beige y arena", de: "Beige & sand", fr: "Beige & sable", zh: "米色与沙色" } },
+  { key: "grey", hex: [155, 155, 155], label: { en: "Grey", nl: "Grijs", es: "Gris", de: "Grau", fr: "Gris", zh: "灰色" } },
+  { key: "taupe", hex: [182, 168, 144], label: { en: "Taupe", nl: "Taupe", es: "Topo", de: "Taupe", fr: "Taupe", zh: "灰褐色" } },
+  { key: "brown", hex: [107, 79, 58], label: { en: "Brown", nl: "Bruin", es: "Marrón", de: "Braun", fr: "Brun", zh: "棕色" } },
+  { key: "black", hex: [34, 34, 36], label: { en: "Black", nl: "Zwart", es: "Negro", de: "Schwarz", fr: "Noir", zh: "黑色" } },
+  { key: "blue", hex: [91, 124, 152], label: { en: "Blue", nl: "Blauw", es: "Azul", de: "Blau", fr: "Bleu", zh: "蓝色" } },
+  { key: "green", hex: [110, 125, 91], label: { en: "Green", nl: "Groen", es: "Verde", de: "Grün", fr: "Vert", zh: "绿色" } },
+  { key: "red", hex: [138, 58, 58], label: { en: "Red & pink", nl: "Rood & roze", es: "Rojo y rosa", de: "Rot & rosa", fr: "Rouge & rose", zh: "红色与粉色" } },
+  { key: "gold", hex: [184, 152, 90], label: { en: "Gold & brass", nl: "Goud & messing", es: "Oro y latón", de: "Gold & messing", fr: "Or & laiton", zh: "金色与黄铜色" } },
 ];
 
 function hexToRgb(hex: string): [number, number, number] | null {
