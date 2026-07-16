@@ -5,11 +5,8 @@ export interface ProductVariant {
   colorHex: string | null;
   sku: string | null;
   images: string[];
-  /** Per-variant afmeting (meubels) — overschrijft product.dimensions als gezet. */
   dim?: string | null;
-  /** Modulair bankstel: het element/module ("Left Arm Facing Chaise"). */
   piece?: string | null;
-  /** Modulair bankstel: de stof/kleur als losse keuze ("Ivory"). */
   colour?: string | null;
 }
 export interface CatalogProduct {
@@ -22,7 +19,6 @@ export interface CatalogProduct {
   descriptionI18n: { nl?: string; de?: string; en?: string; es?: string } | null;
   additionalSizes: string[] | null;
   image: string | null;
-  /** Optionele foto-galerij (meerdere afbeeldingen) — gebruikt voor meubels. */
   images?: string[] | null;
   featured: boolean;
   dimensions: string | null;

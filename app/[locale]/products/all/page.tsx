@@ -24,7 +24,7 @@ export default async function AllProductsPage({
   setRequestLocale(locale);
   const t = await getTranslations("products");
 
-  // Flexibel Stone (wall-panels) first, then by image presence, then alphabetically.
+  // Flexible Stone (wall-panels) first, then by image presence, then alphabetically.
   const sorted = [...rangeProducts].sort((a, b) => {
     if (a.collection !== b.collection) {
       if (a.collection === "wall-panels") return -1;

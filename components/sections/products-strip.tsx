@@ -15,9 +15,9 @@ export function ProductsStrip({
   ctaLabel,
 }: {
   products: CatalogProduct[];
-  /** Trailing "browse all" tile link (defaults to the Flexibel Stone collection). */
+  /** Trailing "browse all" tile link (defaults to the Flexible Stone collection). */
   ctaHref?: string;
-  /** Trailing tile label (defaults to "Browse all Flexibel Stone products"). */
+  /** Trailing tile label (defaults to "Browse all Flexible Stone products"). */
   ctaLabel?: string;
 }) {
   const t = useTranslations("products");
@@ -46,7 +46,7 @@ export function ProductsStrip({
           const isHovered = hovered === id;
           const anyHovered = hovered !== null;
           const dimmed = anyHovered && !isHovered;
-          // Flexibel Stone (wall-panels) names stay English in every locale.
+          // Flexible Stone (wall-panels) names stay English in every locale.
           const name =
             p.collection === "wall-panels"
               ? p.name
@@ -110,7 +110,7 @@ export function ProductsStrip({
                 className="mt-4"
               >
                 <p className="text-[0.66rem] uppercase tracking-[0.22em] text-ink-soft/70">
-                  {p.sku ?? (p.collection === "bloempotten" ? t("collectionFlowerPots") : "Flexibel Stone")}
+                  {p.sku ?? (p.collection === "bloempotten" ? t("collectionFlowerPots") : "Flexible Stone")}
                 </p>
                 <h3 className="mt-1.5 text-[0.95rem] font-medium leading-snug text-ink md:text-base">
                   {name}

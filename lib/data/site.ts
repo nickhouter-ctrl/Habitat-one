@@ -76,10 +76,10 @@ export const testimonials: Testimonial[] = [
     rating: 5,
     source: "Google",
     quote: {
-      nl: "Super service bij Habitat One. Voor een project waar ik aan werk wilde ik wat kennis opdoen over het Flexibel Stone. Er is super veel keus en kennis en ze denken zelfs mee over de mogelijkheden waar dit het mooiste zou passen.",
-      en: "Super service at Habitat One. For a project I'm working on I wanted to learn more about Flexibel Stone. There is so much choice and knowledge, and they even think along about where it would look best.",
-      es: "Un servicio estupendo en Habitat One. Para un proyecto en el que trabajo quería informarme sobre el Flexibel Stone. Hay muchísima variedad y conocimiento, e incluso te asesoran sobre dónde quedaría mejor.",
-      de: "Super Service bei Habitat One. Für ein Projekt, an dem ich arbeite, wollte ich mehr über Flexibel Stone erfahren. Es gibt enorm viel Auswahl und Fachwissen, und sie denken sogar mit, wo es am schönsten zur Geltung kommt.",
+      nl: "Super service bij Habitat One. Voor een project waar ik aan werk wilde ik wat kennis opdoen over het Flexible Stone. Er is super veel keus en kennis en ze denken zelfs mee over de mogelijkheden waar dit het mooiste zou passen.",
+      en: "Super service at Habitat One. For a project I'm working on I wanted to learn more about Flexible Stone. There is so much choice and knowledge, and they even think along about where it would look best.",
+      es: "Un servicio estupendo en Habitat One. Para un proyecto en el que trabajo quería informarme sobre el Flexible Stone. Hay muchísima variedad y conocimiento, e incluso te asesoran sobre dónde quedaría mejor.",
+      de: "Super Service bei Habitat One. Für ein Projekt, an dem ich arbeite, wollte ich mehr über Flexible Stone erfahren. Es gibt enorm viel Auswahl und Fachwissen, und sie denken sogar mit, wo es am schönsten zur Geltung kommt.",
     },
   },
   {

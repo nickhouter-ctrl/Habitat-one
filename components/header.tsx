@@ -46,7 +46,7 @@ export function Header() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   // ── Range (products) — bredere, gegroepeerde mega-menu (kolommen met kopjes).
-  // Elke collectie heeft een eigen pagina: Flexibel Stone op /products (primair),
+  // Elke collectie heeft een eigen pagina: Flexible Stone op /products (primair),
   // andere op /products/{id}.
   const collKeyById = new Map(collections.map((c) => [c.id, c.key] as const));
   const rangeHref = (id: string) => (id === "wall-panels" ? "/products" : `/products/${id}`);

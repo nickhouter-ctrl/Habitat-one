@@ -11,7 +11,7 @@ export type Collection = CatalogProduct["collection"];
 // (The catalog's own categories don't cleanly map to our three storefront
 //  collections, so a handful of products need to be re-bucketed by hand.)
 const COLLECTION_OVERRIDES: Record<string, Collection> = {
-  // Flexibel Stone wall panels miscategorised by the auto-classifier
+  // Flexible Stone wall panels miscategorised by the auto-classifier
   "ms-travertino": "wall-panels",
   "lime-dacite-white-lime-1778674932942": "wall-panels",
   "lime-dacite-yellow-lime-1778674932941": "wall-panels",
@@ -678,7 +678,7 @@ for (const b of BATCHES) {
   };
 }
 // ---------------------------------------------------------------------------
-// Per-colour in-situ scenes (interior + exterior). Every Flexibel Stone colour
+// Per-colour in-situ scenes (interior + exterior). Every Flexible Stone colour
 // has a matching `${stem}-interior.jpg` + `${stem}-exterior.jpg` generated from
 // that colour's own sharp close-up, with panels rendered at their real on-wall
 // dimensions. We attach them uniformly here so each variant gallery ends in
@@ -886,9 +886,9 @@ export function getProductMedia(slug: string): ProductMedia | null {
 
 /**
  * Every in-situ render scene (living rooms, façades, bathrooms…) across the
- * Flexibel Stone (wall-panels) range — pulled from each product's curated context
+ * Flexible Stone (wall-panels) range — pulled from each product's curated context
  * imagery, labelled with the product name and linked to the product. Used for
- * the big lookbook on the Flexibel Stone page.
+ * the big lookbook on the Flexible Stone page.
  */
 export function magicSceneGallery(): { src: string; label: string; href: string }[] {
   const seen = new Set<string>();

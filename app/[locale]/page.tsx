@@ -74,7 +74,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const tp = await getTranslations("projects");
   const tprod = await getTranslations("products");
 
-  // The full range — one card per collection (incl. Flexibel Stone),
+  // The full range — one card per collection (incl. Flexible Stone),
   // alphabetical on the localized name.
   const rangeCollections = [
     { id: "wall-panels", key: "collectionWallPanels", img: "/products/magic/ms-travertino-beige-interior.jpg", href: "/products" },
@@ -88,11 +88,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     { id: "meubels", key: "collectionFurniture", img: "/furniture/hero-elegance.webp", href: "/furniture" },
   ].sort((a, b) => tprod(a.key).localeCompare(tprod(b.key), locale));
 
-  // Flexibel Stone signature block — a real in-situ travertine render
+  // Flexible Stone signature block — a real in-situ travertine render
   // (travertine-clad villa façade by the pool), shown uncropped (16:9).
   const magicHero = "/products/magic/travertine-beige-exterior.jpg";
 
-  // Featured Flexibel Stone products — cinematic scroll-pinned stories (real video).
+  // Featured Flexible Stone products — cinematic scroll-pinned stories (real video).
   // Story 1 = Concrete Board · Mid Gray. Story 2 = Travertino · Beige.
   const story1Product = getProductBySlug("concrete-board-");
   const story2Product = getProductBySlug("ms-travertino");
@@ -160,8 +160,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
-      {/* ---- Flexibel Stone — the signature collection ---- */}
-      <Section chapter="Flexibel Stone" className="bg-paper py-20 md:py-32">
+      {/* ---- Flexible Stone — the signature collection ---- */}
+      <Section chapter="Flexible Stone" className="bg-paper py-20 md:py-32">
         <Container>
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1fr_1.1fr] lg:items-center lg:gap-20">
             <div>
@@ -208,7 +208,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               <CurtainReveal className="aspect-[16/9] w-full">
                 <Image
                   src={magicHero}
-                  alt="Flexibel Stone — buigzaam paneel"
+                  alt="Flexible Stone — buigzaam paneel"
                   fill
                   sizes="(max-width:1024px) 90vw, 50vw"
                   className="object-cover"
@@ -340,7 +340,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       {/* ---- Trust strip (typographic only) ---- */}
       <div className="border-y border-ink/10 bg-paper">
         <div className="container-x flex flex-wrap items-center justify-center gap-x-10 gap-y-3 py-6 text-[0.7rem] uppercase tracking-[0.32em] text-ink-soft/75">
-          {["Jávea/Xàbia", "Flexibel Stone", "Travertino", "Microcemento", "Solid Surface", "Terrazzo"].map((s) => (
+          {["Jávea/Xàbia", "Flexible Stone", "Travertino", "Microcemento", "Solid Surface", "Terrazzo"].map((s) => (
             <span key={s}>{s}</span>
           ))}
         </div>
@@ -452,7 +452,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </Section>
 
       {/* ---- Closing clip — full-bleed video band near the bottom ---- */}
-      <section className="relative w-full overflow-hidden bg-ink" data-chapter="Flexibel Stone">
+      <section className="relative w-full overflow-hidden bg-ink" data-chapter="Flexible Stone">
         <LazyVideo
           src="/products/magic/home-story-3.mp4"
           poster="/products/magic/concrete-board-pure-white-hero.png"

@@ -74,7 +74,7 @@ export async function generateMetadata({
     keywords: [
       "bouwmaterialen Jávea",
       "experience center Costa Blanca",
-      "Flexibel Stone",
+      "Flexible Stone",
       "sfeerhaarden",
       "bouwen in Spanje",
       "renoveren Costa Blanca",

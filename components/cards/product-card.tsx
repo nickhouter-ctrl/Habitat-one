@@ -28,7 +28,7 @@ const CONTAIN_COLLECTIONS = ["bloempotten", "verlichting", "schakelmateriaal", "
 
 /**
  * Localised product name (falls back to the catalogue's English name).
- * Flexibel Stone (wall-panels) names are always shown in English — the range
+ * Flexible Stone (wall-panels) names are always shown in English — the range
  * is marketed under its English finish names in every locale.
  */
 export function useProductName(product: CatalogProduct): string {

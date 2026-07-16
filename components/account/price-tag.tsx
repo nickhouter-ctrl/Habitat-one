@@ -33,7 +33,7 @@ export function PriceTag({
   sku?: string | null;
   /** Alle maat-/versie-SKU's — voor een "vanaf"-prijs op de kaart. */
   skus?: (string | null | undefined)[];
-  /** Productnaam voor de op-naam-fallback (bv. Flexibel Stone zonder SKU-match). */
+  /** Productnaam voor de op-naam-fallback (bv. Flexible Stone zonder SKU-match). */
   name?: string | null;
   className?: string;
   /** false binnen een product-<Link> (voorkomt geneste anchors). */
