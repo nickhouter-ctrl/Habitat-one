@@ -8,8 +8,11 @@ export const metadata = { title: "Mijn account — Habitat One" };
 
 type Commission = { referee: string; base: number; pct: number; amount: number; status: string; date: string };
 
-function fmt(n: number) {
-  return new Intl.NumberFormat("nl-NL", { style: "currency", currency: "EUR" }).format(n);
+const INTL: Record<string, string> = { nl: "nl-NL", de: "de-DE", en: "en-GB", es: "es-ES", fr: "fr-FR", zh: "zh-CN" };
+
+function fmtFor(locale: string) {
+  return (n: number) =>
+    new Intl.NumberFormat(INTL[locale] ?? "en-GB", { style: "currency", currency: "EUR" }).format(n);
 }
 
 export default async function AccountPage({ params }: { params: Promise<{ locale: string }> }) {
@@ -32,6 +35,8 @@ export default async function AccountPage({ params }: { params: Promise<{ locale
   }
 
   const commissions = (me.commissions as Commission[]) ?? [];
+  const fmt = fmtFor(locale);
+  const intl = INTL[locale] ?? "en-GB";
 
   return (
     <section className="mx-auto max-w-2xl px-6 pb-24 pt-36">
@@ -56,17 +61,17 @@ export default async function AccountPage({ params }: { params: Promise<{ locale
       {me.referredCustomers.length > 0 && (
         <div className="mt-6 rounded-xl border border-black/10 bg-white p-4">
           <div className="flex items-center justify-between">
-            <h2 className="font-medium">Klanten die jij hebt aangebracht</h2>
+            <h2 className="font-medium">{t("referredTitle")}</h2>
             <span className="text-sm text-ink-soft">
-              Jouw commissie: <span className="font-semibold text-ink">{fmt(me.commissionTotal)}</span>
+              {t("yourCommission")} <span className="font-semibold text-ink">{fmt(me.commissionTotal)}</span>
             </span>
           </div>
           <table className="mt-3 w-full text-sm">
             <thead className="text-left text-ink-soft">
               <tr>
-                <th className="py-1 font-normal">Klant</th>
-                <th className="py-1 text-right font-normal">Bestellingen</th>
-                <th className="py-1 text-right font-normal">Jouw commissie</th>
+                <th className="py-1 font-normal">{t("colClient")}</th>
+                <th className="py-1 text-right font-normal">{t("colOrders")}</th>
+                <th className="py-1 text-right font-normal">{t("colYourCommission")}</th>
               </tr>
             </thead>
             <tbody>
@@ -75,18 +80,18 @@ export default async function AccountPage({ params }: { params: Promise<{ locale
                   <td className="py-2">
                     <span className="font-medium text-ink">{c.name}</span>
                     <span className="block text-xs text-ink-soft">
-                      {c.scope === "particulier" ? "Particulier" : "Zakelijk"} · {c.pct}% ·{" "}
-                      sinds {new Date(c.since).toLocaleDateString("nl-NL", { month: "short", year: "numeric" })}
+                      {c.scope === "particulier" ? t("scopePrivate") : t("scopeBusiness")} · {c.pct}% ·{" "}
+                      {t("since")} {new Date(c.since).toLocaleDateString(intl, { month: "short", year: "numeric" })}
                     </span>
                   </td>
                   <td className="py-2 text-right tabular-nums">
                     {c.orderCount > 0 ? (
                       <>
                         {fmt(c.ordersTotal)}
-                        <span className="block text-xs text-ink-soft">{c.orderCount} order{c.orderCount === 1 ? "" : "s"}</span>
+                        <span className="block text-xs text-ink-soft">{c.orderCount} {c.orderCount === 1 ? t("orderSingular") : t("orderPlural")}</span>
                       </>
                     ) : (
-                      <span className="text-ink-soft">nog geen</span>
+                      <span className="text-ink-soft">{t("noneYet")}</span>
                     )}
                   </td>
                   <td className="py-2 text-right font-medium tabular-nums">{fmt(c.commissionTotal)}</td>
@@ -95,21 +100,21 @@ export default async function AccountPage({ params }: { params: Promise<{ locale
             </tbody>
           </table>
           <p className="mt-2 text-xs text-ink-soft">
-            Je verdient commissie op de bestellingen van klanten die jij bij ons aanbrengt.
+            {t("referredNote")}
           </p>
         </div>
       )}
 
       {commissions.length > 0 && (
         <div className="mt-4 rounded-xl border border-black/10 bg-white p-4">
-          <h2 className="font-medium">Bestellingen per order</h2>
+          <h2 className="font-medium">{t("ordersPerOrder")}</h2>
           <table className="mt-3 w-full text-sm">
             <thead className="text-left text-ink-soft">
               <tr>
-                <th className="py-1 font-normal">Klant</th>
-                <th className="py-1 text-right font-normal">Order</th>
+                <th className="py-1 font-normal">{t("colClient")}</th>
+                <th className="py-1 text-right font-normal">{t("colOrder")}</th>
                 <th className="py-1 text-right font-normal">%</th>
-                <th className="py-1 text-right font-normal">Commissie</th>
+                <th className="py-1 text-right font-normal">{t("colCommission")}</th>
               </tr>
             </thead>
             <tbody>

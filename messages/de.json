@@ -1544,6 +1544,21 @@
     "logInWord": "anmelden",
     "loginToView": "Melden Sie sich an, um Ihr Konto und die Preise zu sehen.",
     "priceLevel": "Preisniveau",
-    "pricesVisibleNote": "Die Preise sind jetzt bei den Produkten sichtbar."
+    "pricesVisibleNote": "Die Preise sind jetzt bei den Produkten sichtbar.",
+    "referredTitle": "Von Ihnen vermittelte Kunden",
+    "yourCommission": "Ihre Provision:",
+    "colClient": "Kunde",
+    "colOrders": "Bestellungen",
+    "colYourCommission": "Ihre Provision",
+    "scopePrivate": "Privat",
+    "scopeBusiness": "Geschäftlich",
+    "since": "seit",
+    "noneYet": "noch keine",
+    "referredNote": "Sie verdienen Provision auf die Bestellungen der Kunden, die Sie uns vermitteln.",
+    "ordersPerOrder": "Bestellungen im Detail",
+    "colOrder": "Bestellung",
+    "colCommission": "Provision",
+    "orderSingular": "Bestellung",
+    "orderPlural": "Bestellungen"
   }
 }

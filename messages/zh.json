@@ -1366,6 +1366,21 @@
     "logInWord": "登录",
     "loginToView": "登录以查看您的账户与价格。",
     "priceLevel": "价格等级",
-    "pricesVisibleNote": "价格现已在产品上显示。"
+    "pricesVisibleNote": "价格现已在产品上显示。",
+    "referredTitle": "您介绍的客户",
+    "yourCommission": "您的佣金：",
+    "colClient": "客户",
+    "colOrders": "订单",
+    "colYourCommission": "您的佣金",
+    "scopePrivate": "个人",
+    "scopeBusiness": "企业",
+    "since": "自",
+    "noneYet": "暂无",
+    "referredNote": "您介绍给我们的客户下单，您即可获得佣金。",
+    "ordersPerOrder": "订单明细",
+    "colOrder": "订单",
+    "colCommission": "佣金",
+    "orderSingular": "笔订单",
+    "orderPlural": "笔订单"
   }
 }

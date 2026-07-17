@@ -1544,6 +1544,21 @@
     "logInWord": "log in",
     "loginToView": "Log in om je account en de prijzen te bekijken.",
     "priceLevel": "Prijsniveau",
-    "pricesVisibleNote": "Prijzen zijn nu zichtbaar op de producten."
+    "pricesVisibleNote": "Prijzen zijn nu zichtbaar op de producten.",
+    "referredTitle": "Klanten die jij hebt aangebracht",
+    "yourCommission": "Jouw commissie:",
+    "colClient": "Klant",
+    "colOrders": "Bestellingen",
+    "colYourCommission": "Jouw commissie",
+    "scopePrivate": "Particulier",
+    "scopeBusiness": "Zakelijk",
+    "since": "sinds",
+    "noneYet": "nog geen",
+    "referredNote": "Je verdient commissie op de bestellingen van klanten die jij bij ons aanbrengt.",
+    "ordersPerOrder": "Bestellingen per order",
+    "colOrder": "Order",
+    "colCommission": "Commissie",
+    "orderSingular": "order",
+    "orderPlural": "orders"
   }
 }

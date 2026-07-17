@@ -1366,6 +1366,21 @@
     "logInWord": "log in",
     "loginToView": "Log in to view your account and prices.",
     "priceLevel": "Price level",
-    "pricesVisibleNote": "Prices are now visible on the products."
+    "pricesVisibleNote": "Prices are now visible on the products.",
+    "referredTitle": "Clients you introduced",
+    "yourCommission": "Your commission:",
+    "colClient": "Client",
+    "colOrders": "Orders",
+    "colYourCommission": "Your commission",
+    "scopePrivate": "Private",
+    "scopeBusiness": "Business",
+    "since": "since",
+    "noneYet": "none yet",
+    "referredNote": "You earn commission on the orders of clients you introduce to us.",
+    "ordersPerOrder": "Orders in detail",
+    "colOrder": "Order",
+    "colCommission": "Commission",
+    "orderSingular": "order",
+    "orderPlural": "orders"
   }
 }

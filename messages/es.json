@@ -1544,6 +1544,21 @@
     "logInWord": "inicia sesión",
     "loginToView": "Inicia sesión para ver tu cuenta y los precios.",
     "priceLevel": "Nivel de precios",
-    "pricesVisibleNote": "Los precios ya están visibles en los productos."
+    "pricesVisibleNote": "Los precios ya están visibles en los productos.",
+    "referredTitle": "Clientes que has presentado",
+    "yourCommission": "Tu comisión:",
+    "colClient": "Cliente",
+    "colOrders": "Pedidos",
+    "colYourCommission": "Tu comisión",
+    "scopePrivate": "Particular",
+    "scopeBusiness": "Empresa",
+    "since": "desde",
+    "noneYet": "aún ninguno",
+    "referredNote": "Ganas comisión sobre los pedidos de los clientes que nos presentas.",
+    "ordersPerOrder": "Pedidos en detalle",
+    "colOrder": "Pedido",
+    "colCommission": "Comisión",
+    "orderSingular": "pedido",
+    "orderPlural": "pedidos"
   }
 }
