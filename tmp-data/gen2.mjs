@@ -142,6 +142,114 @@ const outProducts = products
     };
   });
 
+
+// ---- Verlichting-families: kleur-/vermogen-versies samengevoegd tot één product ----
+// Golden Ocean magnetic-track (GO-MG-*) + de GL-grondspots worden gebundeld zoals de
+// meubel-families: elke variant draagt `piece` (vermogen/lengte/type) en/of `colour`,
+// zodat de productpagina een maat- + kleurkeuze toont i.p.v. 62 losse kaarten.
+// Leveranciersinfo (naam + inkoopprijs) wordt uit alle omschrijvingen gestript.
+const stripSupplier = (t) => (t ? t.replace(/\s*Leverancier:.*$/i, "").trim() : t);
+const specTokenDrop = (t) => /^\d+(?:×\d+)?\s*W$/.test(t) || /mm/.test(t) || /^\d+\s*m$/.test(t);
+const familyText = (t) => {
+  const c = stripSupplier(t);
+  if (!c) return c;
+  return c
+    .split(" — ")
+    .map((seg, i) => (i === 0 ? seg : seg.split(" · ").filter((tok) => !specTokenDrop(tok.trim())).join(" · ")))
+    .filter((seg) => seg.trim().length)
+    .join(" — ")
+    .replace(/\s*—\s*$/, "");
+};
+const specDim = (t) => stripSupplier(t)?.match(/\d+(?:[.,]\d+)?\s*×\s*\d+[^·.]*mm/)?.[0]?.trim() ?? null;
+const VAR_HEX = { White: "#f4f4f2", Black: "#1c1c1c" };
+const W = (n) => `${n} W`;
+const FAM_RULES = [
+  { re: /^GO-MG-F(\d+)W-(White|Black)$/, fam: "Magnetic track floodlight", piece: (m) => W(m[1]), col: (m) => m[2] },
+  { re: /^GO-MG-GF(\d+)W-(White|Black)$/, fam: "Magnetic track honeycomb grille light", piece: (m) => W(m[1]), col: (m) => m[2] },
+  { re: /^GO-MG-G(\d+)W-(White|Black)$/, fam: "Magnetic track grille light", piece: (m) => W(m[1]), col: (m) => m[2] },
+  { re: /^GO-MG-ZF(\d+)W-(White|Black)$/, fam: "Magnetic track folding floodlight", piece: (m) => W(m[1]), col: (m) => m[2] },
+  { re: /^GO-MG-ZGF(\d+)W-(White|Black)$/, fam: "Magnetic track folding honeycomb grille", piece: (m) => W(m[1]), col: (m) => m[2] },
+  { re: /^GO-MG-ZG(\d+)W-(White|Black)$/, fam: "Magnetic track folding grille light", piece: (m) => W(m[1]), col: (m) => m[2] },
+  { re: /^GO-MG-S10W2$/, fam: "Magnetic track double spotlight", piece: () => "2×10 W", col: () => "White/Black" },
+  { re: /^GO-MG-S(\d+)W-(White|Black)$/, fam: "Magnetic track spotlight", piece: (m) => W(m[1]), col: (m) => m[2] },
+  { re: /^GO-MG-RG10W-(White|Black)$/, fam: "Magnetic track flexible light", piece: () => "10 W · 1 m", col: (m) => m[1] },
+  { re: /^GO-MG-RG20W-(White|Black)$/, fam: "Magnetic track flexible light", piece: () => "20 W · 2 m", col: (m) => m[1] },
+  { re: /^GO-MG-D(\d+)W-(White|Black)$/, fam: "Magnetic track pendant light", piece: (m) => W(m[1]), col: (m) => m[2] },
+  { re: /^GO-MG-P(\d+)W-220V$/, fam: "Power supply 220V \u2192 DC48V", piece: (m) => W(m[1]), col: () => "White/Black" },
+  { re: /^GO-MG-T4327-(\d)m-(White|Black)$/, fam: "Ultra thin surface-mounted track", piece: (m) => `${m[1]} m`, col: (m) => m[2] },
+  { re: /^GO-MG-MZ-I-(White|Black)$/, fam: "Track connector", piece: () => "I", col: (m) => m[1] },
+  { re: /^GO-MG-MZ-L-(White|Black)$/, fam: "Track connector", piece: () => "L", col: (m) => m[1] },
+  { re: /^GO-MG-MZ-L2-(White|Black)$/, fam: "Track connector", piece: () => "Corner L2", col: (m) => m[1] },
+  { re: /^GO-MG-MZ-T-(White|Black)$/, fam: "Track connector", piece: () => "T", col: (m) => m[1] },
+  { re: /^GO-MG-MZ-CL-(White|Black)$/, fam: "Track connector", piece: () => "Vertical L", col: (m) => m[1] },
+  { re: /^GO-MG-ZXH-(White|Black)$/, fam: "Wire cover box", piece: null, col: (m) => m[1] },
+  { re: /^GO-MG-DDH-(White|Black)$/, fam: "Track feed box 5A", piece: null, col: (m) => m[1] },
+  { re: /^GL-022$/, fam: "Grondspot LED IP65", piece: () => "3 W", col: null },
+  { re: /^GL-024$/, fam: "Grondspot LED IP65", piece: () => "12 W", col: null },
+  { re: /^GL-023$/, fam: "Grondspot LED IP65", piece: () => "20 W", col: null },
+];
+const famSlug = (name) => name.toLowerCase().replace(/[×\u2192]/g, " ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+const famMembers = new Map();
+for (const p of outProducts) {
+  const rule = p.sku ? FAM_RULES.find((r) => r.re.test(p.sku)) : null;
+  if (!rule) continue;
+  const m = p.sku.match(rule.re);
+  (famMembers.get(rule.fam) ?? famMembers.set(rule.fam, []).get(rule.fam)).push({
+    p,
+    piece: rule.piece ? rule.piece(m) : null,
+    colour: rule.col ? rule.col(m) : null,
+  });
+}
+function buildFamily(fam) {
+  const members = [...famMembers.get(fam)].sort(
+    (a, b) =>
+      (parseFloat(a.piece ?? "") || 0) - (parseFloat(b.piece ?? "") || 0) ||
+      String(a.piece).localeCompare(String(b.piece)) ||
+      String(a.colour).localeCompare(String(b.colour)),
+  );
+  const first = members[0].p;
+  const i18nSrc = first.descriptionI18n;
+  const uniq = (xs) => [...new Set(xs)];
+  return {
+    id: first.id,
+    name: fam,
+    slug: famSlug(fam),
+    sku: null,
+    short: null,
+    description: familyText(first.description),
+    descriptionI18n: i18nSrc
+      ? Object.fromEntries(Object.entries(i18nSrc).map(([k, v]) => [k, familyText(v)]))
+      : null,
+    additionalSizes: null,
+    image: (members.find((x) => x.colour === "Black") ?? members[0]).p.image ?? first.image,
+    featured: members.some((x) => x.p.featured),
+    dimensions: null,
+    materials: uniq(members.flatMap((x) => x.p.materials)),
+    spaces: uniq(members.flatMap((x) => x.p.spaces)),
+    categories: uniq(members.flatMap((x) => x.p.categories)),
+    collection: first.collection,
+    variants: members.map(({ p: sp, piece, colour }) => ({
+      id: sp.id * 10 + 1,
+      name: [piece, colour].filter(Boolean).join(" \u2013 ") || null,
+      colorHex: colour ? (VAR_HEX[colour] ?? null) : null,
+      sku: sp.sku,
+      images: sp.variants[0]?.images?.length ? sp.variants[0].images : sp.image ? [sp.image] : [],
+      dim: specDim(sp.description) ?? sp.dimensions ?? null,
+      ...(piece ? { piece } : {}),
+      ...(colour ? { colour } : {}),
+    })).filter((v) => v.images.length),
+  };
+}
+const familyEmitted = new Set();
+const finalProducts = [];
+for (const p of outProducts) {
+  const rule = p.sku ? FAM_RULES.find((r) => r.re.test(p.sku)) : null;
+  if (!rule) { finalProducts.push(p); continue; }
+  if (familyEmitted.has(rule.fam)) continue;
+  familyEmitted.add(rule.fam);
+  finalProducts.push(buildFamily(rule.fam));
+}
+
 fs.mkdirSync("lib/data", { recursive: true });
 fs.writeFileSync(
   "lib/data/products.generated.ts",
@@ -176,7 +284,7 @@ export interface CatalogProduct {
   variants: ProductVariant[];
 }
 
-export const catalogProducts: CatalogProduct[] = ${JSON.stringify(outProducts, null, 2)};
+export const catalogProducts: CatalogProduct[] = ${JSON.stringify(finalProducts, null, 2)};
 `,
 );
 
@@ -307,5 +415,5 @@ export const catalogProjects: CatalogProject[] = ${JSON.stringify(outProjects, n
 `,
 );
 
-console.log("products:", outProducts.length, "| with image:", outProducts.filter((p) => p.image).length, "| with >1 colour variant:", outProducts.filter((p) => p.variants.length > 1).length);
+console.log("products:", finalProducts.length, "| with image:", finalProducts.filter((p) => p.image).length, "| with >1 colour variant:", finalProducts.filter((p) => p.variants.length > 1).length);
 console.log("projects:", outProjects.length, outProjects.map((p) => `${p.slug}(b:${!!p.beforeImage} a:${!!p.afterImage} g:${p.gallery.length})`).join(", "));

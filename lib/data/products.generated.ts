@@ -4490,9 +4490,9 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9022,
-    "name": "Grondspot LED 3W IP65",
-    "slug": "grondspot-led-3w-ip65",
-    "sku": "GL-022",
+    "name": "Grondspot LED IP65",
+    "slug": "grondspot-led-ip65",
+    "sku": null,
     "short": null,
     "description": "Rechthoekige inbouw-grondspot 3W, 3000K, IP65. RVS + gehard glas. 200×80×55 mm.",
     "descriptionI18n": {
@@ -4503,87 +4503,45 @@ export const catalogProducts: CatalogProduct[] = [
     },
     "additionalSizes": null,
     "image": "/products/v/9222.jpg",
-    "featured": false,
-    "dimensions": "200 × 80 × 55 mm",
+    "featured": true,
+    "dimensions": null,
     "materials": [],
     "spaces": [],
     "categories": [],
     "collection": "verlichting",
     "variants": [
       {
-        "id": 9122,
-        "name": "RVS / glas",
-        "colorHex": "#b8bcc0",
+        "id": 90221,
+        "name": "3 W",
+        "colorHex": null,
         "sku": "GL-022",
         "images": [
           "/products/v/9222.jpg"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 9023,
-    "name": "Grondspot LED 20W IP65",
-    "slug": "grondspot-led-20w-ip65",
-    "sku": "GL-023",
-    "short": null,
-    "description": "Inbouw-grondspot 20W, 3000K, 1700lm, IP65. RVS + gehard glas. Ø200×170 mm.",
-    "descriptionI18n": {
-      "nl": "Inbouw-grondspot 20W, 3000K, 1700lm, IP65. RVS + gehard glas. Ø200×170 mm.",
-      "en": "Recessed ground spot 20W, 3000K, 1700lm, IP65. Stainless steel + tempered glass. Ø200×170 mm.",
-      "de": "Boden-Einbaustrahler 20W, 3000K, 1700lm, IP65. Edelstahl + Hartglas. Ø200×170 mm.",
-      "es": "Foco de suelo empotrable 20W, 3000K, 1700lm, IP65. Acero inoxidable + vidrio templado. Ø200×170 mm."
-    },
-    "additionalSizes": null,
-    "image": "/products/v/9223.jpg",
-    "featured": true,
-    "dimensions": "200 × 170 mm",
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "verlichting",
-    "variants": [
+        ],
+        "dim": "200×80×55 mm",
+        "piece": "3 W"
+      },
       {
-        "id": 9123,
-        "name": "RVS / glas",
-        "colorHex": "#b8bcc0",
-        "sku": "GL-023",
-        "images": [
-          "/products/v/9223.jpg"
-        ]
-      }
-    ]
-  },
-  {
-    "id": 9024,
-    "name": "Grondspot LED 12W IP65",
-    "slug": "grondspot-led-12w-ip65",
-    "sku": "GL-024",
-    "short": null,
-    "description": "Inbouw-grondspot 12W, 3000K, 1020lm, IP65. RVS + gehard glas. Ø175×125 mm.",
-    "descriptionI18n": {
-      "nl": "Inbouw-grondspot 12W, 3000K, 1020lm, IP65. RVS + gehard glas. Ø175×125 mm.",
-      "en": "Recessed ground spot 12W, 3000K, 1020lm, IP65. Stainless steel + tempered glass. Ø175×125 mm.",
-      "de": "Boden-Einbaustrahler 12W, 3000K, 1020lm, IP65. Edelstahl + Hartglas. Ø175×125 mm.",
-      "es": "Foco de suelo empotrable 12W, 3000K, 1020lm, IP65. Acero inoxidable + vidrio templado. Ø175×125 mm."
-    },
-    "additionalSizes": null,
-    "image": "/products/v/9224.jpg",
-    "featured": true,
-    "dimensions": "175 × 125 mm",
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "verlichting",
-    "variants": [
-      {
-        "id": 9124,
-        "name": "RVS / glas",
-        "colorHex": "#b8bcc0",
+        "id": 90241,
+        "name": "12 W",
+        "colorHex": null,
         "sku": "GL-024",
         "images": [
           "/products/v/9224.jpg"
-        ]
+        ],
+        "dim": "175×125 mm",
+        "piece": "12 W"
+      },
+      {
+        "id": 90231,
+        "name": "20 W",
+        "colorHex": null,
+        "sku": "GL-023",
+        "images": [
+          "/products/v/9223.jpg"
+        ],
+        "dim": "200×170 mm",
+        "piece": "20 W"
       }
     ]
   },
@@ -5125,6 +5083,1025 @@ export const catalogProducts: CatalogProduct[] = [
           "/products/v/9737.jpg",
           "/products/v/9738.jpg"
         ]
+      }
+    ]
+  },
+  {
+    "id": 9523,
+    "name": "Magnetic track floodlight",
+    "slug": "magnetic-track-floodlight",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 120°.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 120°."
+    },
+    "additionalSizes": null,
+    "image": "/products/9523.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95231,
+        "name": "6 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-F6W-Black",
+        "images": [
+          "/products/9523.jpg"
+        ],
+        "dim": "26×26×120 mm",
+        "piece": "6 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95611,
+        "name": "6 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-F6W-White",
+        "images": [
+          "/products/9561.jpg"
+        ],
+        "dim": "26×26×120 mm",
+        "piece": "6 W",
+        "colour": "White"
+      },
+      {
+        "id": 95651,
+        "name": "12 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-F12W-Black",
+        "images": [
+          "/products/9565.jpg"
+        ],
+        "dim": "26×26×235 mm",
+        "piece": "12 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95241,
+        "name": "12 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-F12W-White",
+        "images": [
+          "/products/9524.jpg"
+        ],
+        "dim": "26×26×235 mm",
+        "piece": "12 W",
+        "colour": "White"
+      },
+      {
+        "id": 95201,
+        "name": "18 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-F18W-Black",
+        "images": [
+          "/products/9520.jpg"
+        ],
+        "dim": "26×26×450 mm",
+        "piece": "18 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95191,
+        "name": "18 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-F18W-White",
+        "images": [
+          "/products/9519.jpg"
+        ],
+        "dim": "26×26×450 mm",
+        "piece": "18 W",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9521,
+    "name": "Magnetic track grille light",
+    "slug": "magnetic-track-grille-light",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°."
+    },
+    "additionalSizes": null,
+    "image": "/products/9521.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95211,
+        "name": "6 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-G6W-Black",
+        "images": [
+          "/products/9521.jpg"
+        ],
+        "dim": "26×26×120 mm",
+        "piece": "6 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95661,
+        "name": "6 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-G6W-White",
+        "images": [
+          "/products/9566.jpg"
+        ],
+        "dim": "26×26×120 mm",
+        "piece": "6 W",
+        "colour": "White"
+      },
+      {
+        "id": 95621,
+        "name": "12 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-G12W-Black",
+        "images": [
+          "/products/9562.jpg"
+        ],
+        "dim": "26×26×235 mm",
+        "piece": "12 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95221,
+        "name": "12 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-G12W-White",
+        "images": [
+          "/products/9522.jpg"
+        ],
+        "dim": "26×26×235 mm",
+        "piece": "12 W",
+        "colour": "White"
+      },
+      {
+        "id": 95311,
+        "name": "18 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-G18W-Black",
+        "images": [
+          "/products/9531.jpg"
+        ],
+        "dim": "26×26×450 mm",
+        "piece": "18 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95301,
+        "name": "18 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-G18W-White",
+        "images": [
+          "/products/9530.jpg"
+        ],
+        "dim": "26×26×450 mm",
+        "piece": "18 W",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9563,
+    "name": "Magnetic track honeycomb grille light",
+    "slug": "magnetic-track-honeycomb-grille-light",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°."
+    },
+    "additionalSizes": null,
+    "image": "/products/9563.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95631,
+        "name": "6 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-GF6W-Black",
+        "images": [
+          "/products/9563.jpg"
+        ],
+        "dim": "26×26×120 mm",
+        "piece": "6 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95251,
+        "name": "6 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-GF6W-White",
+        "images": [
+          "/products/9525.jpg"
+        ],
+        "dim": "26×26×120 mm",
+        "piece": "6 W",
+        "colour": "White"
+      },
+      {
+        "id": 95261,
+        "name": "12 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-GF12W-Black",
+        "images": [
+          "/products/9526.jpg"
+        ],
+        "dim": "26×26×235 mm",
+        "piece": "12 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95671,
+        "name": "12 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-GF12W-White",
+        "images": [
+          "/products/9567.jpg"
+        ],
+        "dim": "26×26×235 mm",
+        "piece": "12 W",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9568,
+    "name": "Magnetic track folding floodlight",
+    "slug": "magnetic-track-folding-floodlight",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 120°.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 120°."
+    },
+    "additionalSizes": null,
+    "image": "/products/9568.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95681,
+        "name": "6 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-ZF6W-Black",
+        "images": [
+          "/products/9568.jpg"
+        ],
+        "dim": "26×90×120 mm",
+        "piece": "6 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95271,
+        "name": "6 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-ZF6W-White",
+        "images": [
+          "/products/9527.jpg"
+        ],
+        "dim": "26×90×120 mm",
+        "piece": "6 W",
+        "colour": "White"
+      },
+      {
+        "id": 95291,
+        "name": "12 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-ZF12W-Black",
+        "images": [
+          "/products/9529.jpg"
+        ],
+        "dim": "26×90×235 mm",
+        "piece": "12 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95281,
+        "name": "12 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-ZF12W-White",
+        "images": [
+          "/products/9528.jpg"
+        ],
+        "dim": "26×90×235 mm",
+        "piece": "12 W",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9538,
+    "name": "Magnetic track folding grille light",
+    "slug": "magnetic-track-folding-grille-light",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°."
+    },
+    "additionalSizes": null,
+    "image": "/products/9538.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95381,
+        "name": "6 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-ZG6W-Black",
+        "images": [
+          "/products/9538.jpg"
+        ],
+        "dim": "26×90×120 mm",
+        "piece": "6 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95641,
+        "name": "6 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-ZG6W-White",
+        "images": [
+          "/products/9564.jpg"
+        ],
+        "dim": "26×90×120 mm",
+        "piece": "6 W",
+        "colour": "White"
+      },
+      {
+        "id": 95321,
+        "name": "12 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-ZG12W-Black",
+        "images": [
+          "/products/9532.jpg"
+        ],
+        "dim": "26×90×235 mm",
+        "piece": "12 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95691,
+        "name": "12 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-ZG12W-White",
+        "images": [
+          "/products/9569.jpg"
+        ],
+        "dim": "26×90×235 mm",
+        "piece": "12 W",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9534,
+    "name": "Magnetic track folding honeycomb grille",
+    "slug": "magnetic-track-folding-honeycomb-grille",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°."
+    },
+    "additionalSizes": null,
+    "image": "/products/9534.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95341,
+        "name": "6 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-ZGF6W-Black",
+        "images": [
+          "/products/9534.jpg"
+        ],
+        "dim": "26×90×120 mm",
+        "piece": "6 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95331,
+        "name": "6 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-ZGF6W-White",
+        "images": [
+          "/products/9533.jpg"
+        ],
+        "dim": "26×90×120 mm",
+        "piece": "6 W",
+        "colour": "White"
+      },
+      {
+        "id": 95351,
+        "name": "12 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-ZGF12W-Black",
+        "images": [
+          "/products/9535.jpg"
+        ],
+        "dim": "26×90×235 mm",
+        "piece": "12 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95701,
+        "name": "12 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-ZGF12W-White",
+        "images": [
+          "/products/9570.jpg"
+        ],
+        "dim": "26×90×235 mm",
+        "piece": "12 W",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9571,
+    "name": "Magnetic track spotlight",
+    "slug": "magnetic-track-spotlight",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°."
+    },
+    "additionalSizes": null,
+    "image": "/products/9571.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95711,
+        "name": "10 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-S10W-Black",
+        "images": [
+          "/products/9571.jpg"
+        ],
+        "dim": "45×100 mm",
+        "piece": "10 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95361,
+        "name": "10 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-S10W-White",
+        "images": [
+          "/products/9536.jpg"
+        ],
+        "dim": "45×100 mm",
+        "piece": "10 W",
+        "colour": "White"
+      },
+      {
+        "id": 95391,
+        "name": "20 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-S20W-Black",
+        "images": [
+          "/products/9539.jpg"
+        ],
+        "dim": "55×120 mm",
+        "piece": "20 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95371,
+        "name": "20 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-S20W-White",
+        "images": [
+          "/products/9537.jpg"
+        ],
+        "dim": "55×120 mm",
+        "piece": "20 W",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9540,
+    "name": "Magnetic track double spotlight",
+    "slug": "magnetic-track-double-spotlight",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24° · leverbaar in wit en zwart.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24° · leverbaar in wit en zwart."
+    },
+    "additionalSizes": null,
+    "image": "/products/9540.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95401,
+        "name": "2×10 W – White/Black",
+        "colorHex": null,
+        "sku": "GO-MG-S10W2",
+        "images": [
+          "/products/9540.jpg"
+        ],
+        "dim": "45×100 mm",
+        "piece": "2×10 W",
+        "colour": "White/Black"
+      }
+    ]
+  },
+  {
+    "id": 9542,
+    "name": "Magnetic track flexible light",
+    "slug": "magnetic-track-flexible-light",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 360°.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 360°."
+    },
+    "additionalSizes": null,
+    "image": "/products/9542.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95421,
+        "name": "10 W · 1 m – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-RG10W-Black",
+        "images": [
+          "/products/9542.jpg"
+        ],
+        "dim": "26×1000 mm",
+        "piece": "10 W · 1 m",
+        "colour": "Black"
+      },
+      {
+        "id": 95411,
+        "name": "10 W · 1 m – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-RG10W-White",
+        "images": [
+          "/products/9541.jpg"
+        ],
+        "dim": "26×1000 mm",
+        "piece": "10 W · 1 m",
+        "colour": "White"
+      },
+      {
+        "id": 95601,
+        "name": "20 W · 2 m – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-RG20W-Black",
+        "images": [
+          "/products/9560.jpg"
+        ],
+        "dim": "26×2000 mm",
+        "piece": "20 W · 2 m",
+        "colour": "Black"
+      },
+      {
+        "id": 95431,
+        "name": "20 W · 2 m – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-RG20W-White",
+        "images": [
+          "/products/9543.jpg"
+        ],
+        "dim": "26×2000 mm",
+        "piece": "20 W · 2 m",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9572,
+    "name": "Power supply 220V → DC48V",
+    "slug": "power-supply-220v-dc48v",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — in 180-245V · uit DC48V · leverbaar in wit en zwart.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — in 180-245V · uit DC48V · leverbaar in wit en zwart."
+    },
+    "additionalSizes": null,
+    "image": "/products/9572.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95721,
+        "name": "100 W – White/Black",
+        "colorHex": null,
+        "sku": "GO-MG-P100W-220V",
+        "images": [
+          "/products/9572.jpg"
+        ],
+        "dim": null,
+        "piece": "100 W",
+        "colour": "White/Black"
+      },
+      {
+        "id": 95441,
+        "name": "200 W – White/Black",
+        "colorHex": null,
+        "sku": "GO-MG-P200W-220V",
+        "images": [
+          "/products/9544.jpg"
+        ],
+        "dim": null,
+        "piece": "200 W",
+        "colour": "White/Black"
+      }
+    ]
+  },
+  {
+    "id": 9546,
+    "name": "Ultra thin surface-mounted track",
+    "slug": "ultra-thin-surface-mounted-track",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem"
+    },
+    "additionalSizes": null,
+    "image": "/products/9546.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95461,
+        "name": "1 m – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-T4327-1m-Black",
+        "images": [
+          "/products/9546.jpg"
+        ],
+        "dim": "26×6 mm",
+        "piece": "1 m",
+        "colour": "Black"
+      },
+      {
+        "id": 95451,
+        "name": "1 m – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-T4327-1m-White",
+        "images": [
+          "/products/9545.jpg"
+        ],
+        "dim": "26×6 mm",
+        "piece": "1 m",
+        "colour": "White"
+      },
+      {
+        "id": 95471,
+        "name": "2 m – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-T4327-2m-Black",
+        "images": [
+          "/products/9547.jpg"
+        ],
+        "dim": "26×6 mm",
+        "piece": "2 m",
+        "colour": "Black"
+      },
+      {
+        "id": 95731,
+        "name": "2 m – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-T4327-2m-White",
+        "images": [
+          "/products/9573.jpg"
+        ],
+        "dim": "26×6 mm",
+        "piece": "2 m",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9551,
+    "name": "Track connector",
+    "slug": "track-connector",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — opbouw.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — opbouw."
+    },
+    "additionalSizes": null,
+    "image": "/products/9551.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95511,
+        "name": "Corner L2 – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-MZ-L2-Black",
+        "images": [
+          "/products/9551.jpg"
+        ],
+        "dim": "55×55×6,1 mm",
+        "piece": "Corner L2",
+        "colour": "Black"
+      },
+      {
+        "id": 95591,
+        "name": "Corner L2 – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-MZ-L2-White",
+        "images": [
+          "/products/9559.jpg"
+        ],
+        "dim": "55×55×6,1 mm",
+        "piece": "Corner L2",
+        "colour": "White"
+      },
+      {
+        "id": 95741,
+        "name": "I – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-MZ-I-Black",
+        "images": [
+          "/products/9574.jpg"
+        ],
+        "dim": "30×26×6,1 mm",
+        "piece": "I",
+        "colour": "Black"
+      },
+      {
+        "id": 95481,
+        "name": "I – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-MZ-I-White",
+        "images": [
+          "/products/9548.jpg"
+        ],
+        "dim": "30×26×6,1 mm",
+        "piece": "I",
+        "colour": "White"
+      },
+      {
+        "id": 95581,
+        "name": "L – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-MZ-L-Black",
+        "images": [
+          "/products/9558.jpg"
+        ],
+        "dim": "55×55×6,1 mm",
+        "piece": "L",
+        "colour": "Black"
+      },
+      {
+        "id": 95491,
+        "name": "L – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-MZ-L-White",
+        "images": [
+          "/products/9549.jpg"
+        ],
+        "dim": "55×55×6,1 mm",
+        "piece": "L",
+        "colour": "White"
+      },
+      {
+        "id": 95531,
+        "name": "T – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-MZ-T-Black",
+        "images": [
+          "/products/9553.jpg"
+        ],
+        "dim": "60×94×6,1 mm",
+        "piece": "T",
+        "colour": "Black"
+      },
+      {
+        "id": 95521,
+        "name": "T – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-MZ-T-White",
+        "images": [
+          "/products/9552.jpg"
+        ],
+        "dim": "60×94×6,1 mm",
+        "piece": "T",
+        "colour": "White"
+      },
+      {
+        "id": 95541,
+        "name": "Vertical L – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-MZ-CL-Black",
+        "images": [
+          "/products/9554.jpg"
+        ],
+        "dim": "35×35×6,1 mm",
+        "piece": "Vertical L",
+        "colour": "Black"
+      },
+      {
+        "id": 95761,
+        "name": "Vertical L – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-MZ-CL-White",
+        "images": [
+          "/products/9576.jpg"
+        ],
+        "dim": "35×35×6,1 mm",
+        "piece": "Vertical L",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9550,
+    "name": "Magnetic track pendant light",
+    "slug": "magnetic-track-pendant-light",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°.",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 3000K · DC48V · Sanan LED · CRI>90 · 24°."
+    },
+    "additionalSizes": null,
+    "image": "/products/9550.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95501,
+        "name": "8 W – Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-D8W-Black",
+        "images": [
+          "/products/9550.jpg"
+        ],
+        "dim": "30×300 mm",
+        "piece": "8 W",
+        "colour": "Black"
+      },
+      {
+        "id": 95751,
+        "name": "8 W – White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-D8W-White",
+        "images": [
+          "/products/9575.jpg"
+        ],
+        "dim": "30×300 mm",
+        "piece": "8 W",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9577,
+    "name": "Wire cover box",
+    "slug": "wire-cover-box",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem"
+    },
+    "additionalSizes": null,
+    "image": "/products/9577.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95771,
+        "name": "Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-ZXH-Black",
+        "images": [
+          "/products/9577.jpg"
+        ],
+        "dim": "26×26×103 mm",
+        "colour": "Black"
+      },
+      {
+        "id": 95551,
+        "name": "White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-ZXH-White",
+        "images": [
+          "/products/9555.jpg"
+        ],
+        "dim": "26×26×103 mm",
+        "colour": "White"
+      }
+    ]
+  },
+  {
+    "id": 9557,
+    "name": "Track feed box 5A",
+    "slug": "track-feed-box-5a",
+    "sku": null,
+    "short": null,
+    "description": "Ultra Thin Magnetic Track systeem — 5A",
+    "descriptionI18n": {
+      "nl": "Ultra Thin Magnetic Track systeem — 5A"
+    },
+    "additionalSizes": null,
+    "image": "/products/9557.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 95571,
+        "name": "Black",
+        "colorHex": "#1c1c1c",
+        "sku": "GO-MG-DDH-Black",
+        "images": [
+          "/products/9557.jpg"
+        ],
+        "dim": "26×26×120 mm",
+        "colour": "Black"
+      },
+      {
+        "id": 95561,
+        "name": "White",
+        "colorHex": "#f4f4f2",
+        "sku": "GO-MG-DDH-White",
+        "images": [
+          "/products/9556.jpg"
+        ],
+        "dim": "26×26×120 mm",
+        "colour": "White"
       }
     ]
   }

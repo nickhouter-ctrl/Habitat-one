@@ -124,9 +124,12 @@ export function ProductDetailLayout({
   // Modulair bankstel: twee onafhankelijke assen — elementen (de modules, elk met
   // eigen afmeting) en kleuren (de stof, als losse keuze). Elke variant draagt
   // `piece` + `colour`; we groeperen ze tot twee keuze-rijen.
-  const isFurnitureSet = product.collection === "furniture" && withImages.some((v) => v.piece);
-  const pieces = isFurnitureSet ? [...new Set(withImages.map((v) => v.piece).filter(Boolean) as string[])] : [];
-  const setColours = isFurnitureSet ? [...new Set(withImages.map((v) => v.colour).filter(Boolean) as string[])] : [];
+  // Twee-assige keuze (maat/element + kleur) voor elk product waarvan de
+  // varianten een `piece` dragen — meubel-sets én bv. de verlichting-families.
+  const hasPieceAxis = withImages.some((v) => v.piece);
+  const isFurnitureSet = product.collection === "furniture" && hasPieceAxis;
+  const pieces = hasPieceAxis ? [...new Set(withImages.map((v) => v.piece).filter(Boolean) as string[])] : [];
+  const setColours = hasPieceAxis ? [...new Set(withImages.map((v) => v.colour).filter(Boolean) as string[])] : [];
   const activePiece = activeVariant?.piece ?? pieces[0] ?? null;
   const activeColour = activeVariant?.colour ?? setColours[0] ?? null;
   const variantFor = (piece: string | null, colour: string | null) =>
@@ -335,12 +338,12 @@ export function ProductDetailLayout({
         </dl>
 
         {/* Variant picker */}
-        {isFurnitureSet ? (
-          // Modulair bankstel: elementen (met eigen afmeting) + losse kleurkeuze.
+        {hasPieceAxis ? (
+          // Elementen/maten (met eigen afmeting) + losse kleurkeuze.
           <div className="mt-10 space-y-8">
             <div>
               <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
-                {labels.elements}
+                {isFurnitureSet ? labels.elements : labels.availableSizes}
                 <span className="ml-3 text-ink/40">({pieces.length})</span>
               </p>
               <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">

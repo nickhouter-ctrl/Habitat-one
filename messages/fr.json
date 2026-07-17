@@ -460,6 +460,9 @@
       },
       "grondspot-led-12w-ip65": {
         "name": "Spot de sol LED 12W IP65"
+      },
+      "grondspot-led-ip65": {
+        "name": "Spot de sol LED IP65"
       }
     },
     "spaces": "Espaces",

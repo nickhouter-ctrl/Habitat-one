@@ -638,6 +638,9 @@
       },
       "grondspot-led-12w-ip65": {
         "name": "Foco de suelo LED 12W IP65"
+      },
+      "grondspot-led-ip65": {
+        "name": "Foco de suelo LED IP65"
       }
     },
     "spaces": "Espacios",

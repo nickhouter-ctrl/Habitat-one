@@ -460,6 +460,9 @@
       },
       "grondspot-led-12w-ip65": {
         "name": "LED 地埋射灯 12W IP65"
+      },
+      "grondspot-led-ip65": {
+        "name": "LED 地埋射灯 IP65"
       }
     },
     "spaces": "空间",

@@ -638,6 +638,9 @@
       },
       "grondspot-led-12w-ip65": {
         "name": "LED-Bodenstrahler 12W IP65"
+      },
+      "grondspot-led-ip65": {
+        "name": "LED-Bodenstrahler IP65"
       }
     },
     "spaces": "Räume",
