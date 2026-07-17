@@ -54,6 +54,8 @@ function collectionFor(name) {
   // Schakelmateriaal & verlichting eerst — "deurbel-schakelaar" bevat "deur" en zou anders bij doors belanden.
   if (/schakelaar|stopcontact|\bdimmer\b|hotelpaneel|ventilator/.test(n)) return "schakelmateriaal";
   if (/rail-?spot|railprofiel|rail-?connector|pendelstang|wandspot|grondspot|verlichting|lighting/.test(n)) return "verlichting";
+  // Golden Ocean magnetic-track-systeem (namen bevatten geen "verlichting"/"lighting").
+  if (/magnetic track|track light|floodlight|spotlight|grille light|flexible light|pendant light|power supply|surface-mounted track|track connector|track feed box|wire cover box/.test(n)) return "verlichting";
   if (/fireplace|waterdamp|sfeerhaard|water ?vapou?r/.test(n)) return "sfeerhaarden";
   if (/hinge|scharnier|bisagra/.test(n)) return "door-accessories";
   if (/\bdoor\b|deur|tür|puerta/.test(n)) return "doors";
