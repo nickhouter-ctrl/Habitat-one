@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { ArrowUpRight, CalendarCheck, ChevronDown, Menu, Search, X } from "lucide-react";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
-import { catalogSpaces, collections } from "@/lib/data/catalog";
+import { catalogSpaces, collectionHref, collections } from "@/lib/data/catalog";
 import { services } from "@/lib/data/services";
 import { primaryNav } from "@/lib/data/site";
 import { LanguageSwitcher } from "@/components/language-switcher";
@@ -46,10 +46,9 @@ export function Header() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   // ── Range (products) — bredere, gegroepeerde mega-menu (kolommen met kopjes).
-  // Elke collectie heeft een eigen pagina: Flexible Stone op /products (primair),
-  // andere op /products/{id}.
+  // Elke collectie heeft een eigen pagina onder /products; de hub zelf hangt
+  // aan de "Range"-tab in primaryNav.
   const collKeyById = new Map(collections.map((c) => [c.id, c.key] as const));
-  const rangeHref = (id: string) => (id === "wall-panels" ? "/products" : `/products/${id}`);
   const rangeLabel = (id: string) => {
     const key = collKeyById.get(id as (typeof collections)[number]["id"]);
     return key ? tProducts(key) : id;
@@ -65,7 +64,7 @@ export function Header() {
   const productSections: DropSection[] = [
     ...RANGE_GROUPS.map((g) => ({
       title: tProducts(g.key),
-      items: g.ids.map((id) => ({ href: rangeHref(id), label: rangeLabel(id) })),
+      items: g.ids.map((id) => ({ href: collectionHref(id), label: rangeLabel(id) })),
     })),
     // Meubels — één enkele ingang onder Range (geen eigen tab meer).
     {

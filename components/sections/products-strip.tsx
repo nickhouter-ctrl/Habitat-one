@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 
 export function ProductsStrip({
   products,
-  ctaHref = "/products?collection=wall-panels",
+  ctaHref = "/products/flexible-stone",
   ctaLabel,
 }: {
   products: CatalogProduct[];

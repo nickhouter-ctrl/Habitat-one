@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { seoAlternates } from "@/lib/seo/alternates";
 import { CollectionLuxuryPage } from "@/components/sections/collection-luxury";
 
 export async function generateMetadata({
@@ -10,6 +11,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "products" });
   return {
+    alternates: seoAlternates(locale, "/products/schakelmateriaal"),
     title: t("collectionSwitches"),
     description: t("chapterDescriptionSwitches"),
   };

@@ -10,6 +10,7 @@ import { HeroSlideshow } from "@/components/ui/hero-slideshow";
 import { ProductsStrip } from "@/components/sections/products-strip";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import {
+  collectionHref,
   collections,
   productsByCollection,
   magicSceneGallery,
@@ -78,7 +79,7 @@ const MAGIC_GALLERY: { src: string; label: string; video?: boolean }[] = [
 
 /**
  * Renders a full editorial luxury page for a single product collection.
- * Used at /products (Flexible Stone) and at /products/{bathroom,doors,…}.
+ * Used at /products/{flexible-stone,bathroom,doors,…}; /products zelf is de hub.
  */
 export async function CollectionLuxuryPage({
   collectionId,
@@ -163,7 +164,7 @@ export async function CollectionLuxuryPage({
         {bareHero ? (
           <div className="bg-paper">
             <div className="container-x flex items-center justify-between pt-24 md:pt-28">
-              <BackLink href="/products/all" label={t("allProducts")} />
+              <BackLink href="/products" label={t("title")} />
               <p className="hidden text-right text-[0.66rem] uppercase tracking-[0.32em] text-ink-soft md:block">
                 {identifier}
               </p>
@@ -194,7 +195,7 @@ export async function CollectionLuxuryPage({
 
           <div className="container-x relative z-10 flex h-full flex-col justify-between pt-28 pb-14 md:pb-20">
             <div className="flex items-start justify-between">
-              <BackLink href="/products/all" label={t("allProducts")} light />
+              <BackLink href="/products" label={t("title")} light />
               <p className="hidden text-right text-[0.66rem] uppercase tracking-[0.32em] text-paper/75 md:block">
                 {identifier}
               </p>
@@ -444,7 +445,7 @@ export async function CollectionLuxuryPage({
               {otherCollections.map((c) => {
                 const cover = productsByCollection(c.id).find((p) => p.image)?.image ?? "/site/material_card.jpg";
                 const total = productsByCollection(c.id).length;
-                const href = c.id === "wall-panels" ? "/products" : `/products/${c.id}`;
+                const href = collectionHref(c.id);
                 return (
                   <Link key={c.id} href={href} className="group block">
                     <div className="relative aspect-[3/4] overflow-hidden bg-sand-100">

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/routing";
-import { catalogProducts, catalogSpaces, collections, productsBySubcategory } from "@/lib/data/catalog";
+import { catalogProducts, catalogSpaces, collectionHref, collections, productsBySubcategory } from "@/lib/data/catalog";
 import { furnitureGroups } from "@/lib/data/furniture";
 import { services } from "@/lib/data/services";
 import { getPublishedProperties } from "@/lib/data/properties";
@@ -61,9 +61,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/inspiration/tips/binnen-buiten-een-materiaal", priority: 0.6, freq: "monthly" },
   ];
 
-  const collectionPaths = collections
-    .map((c) => (c.id === "wall-panels" ? "/products" : `/products/${c.id}`))
-    .filter((p) => p !== "/products");
+  const collectionPaths = collections.map((c) => collectionHref(c.id));
 
   // Furniture sub-categories that actually have products.
   const furnitureSubPaths = furnitureGroups
@@ -73,7 +71,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const items: MetadataRoute.Sitemap = [
     ...staticPaths.map((s) => entry(s.path, { priority: s.priority, changeFrequency: s.freq })),
-    ...collectionPaths.map((p) => entry(p, { priority: 0.8, changeFrequency: "weekly" })),
+    // Flexible Stone is de signatuurcollectie — zelfde gewicht als de hub.
+    ...collectionPaths.map((p) =>
+      entry(p, {
+        priority: p === "/products/flexible-stone" ? 0.9 : 0.8,
+        changeFrequency: "weekly",
+      }),
+    ),
     ...furnitureSubPaths.map((p) => entry(p, { priority: 0.7, changeFrequency: "weekly" })),
     ...catalogProducts.map((p) => entry(`/products/${p.slug}`, { priority: 0.7 })),
     ...catalogSpaces.map((s) => entry(`/spaces/${s.slug}`, { priority: 0.6 })),

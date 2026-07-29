@@ -18,6 +18,7 @@ import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import { seoAlternates } from "@/lib/seo/alternates";
 import {
   catalogProducts,
+  collectionHref,
   getProductBySlug,
   getProductMedia,
   materialName,
@@ -96,21 +97,6 @@ const collectionIdentifierPrefix: Record<string, string> = {
   furniture: "Habitat One · Furniture",
 };
 
-const collectionLandingHref: Record<string, string> = {
-  "wall-panels": "/products",
-  "backer-boards": "/products/backer-boards",
-  bathroom: "/products/bathroom",
-  doors: "/products/doors",
-  accessories: "/products/accessories",
-  "door-accessories": "/products",
-  bloempotten: "/products/bloempotten",
-  verlichting: "/products/verlichting",
-  schakelmateriaal: "/products/schakelmateriaal",
-  acrylpanelen: "/products/acrylpanelen",
-  sfeerhaarden: "/products/sfeerhaarden",
-  "pvc-vloeren": "/products/pvc-vloeren",
-  furniture: "/furniture",
-};
 
 export default async function ProductDetailPage({
   params,
@@ -157,9 +143,11 @@ export default async function ProductDetailPage({
 
   const identifier = `${collectionIdentifierPrefix[product.collection] ?? "Habitat One"} · ${product.sku ?? name}`;
   const collectionLabel = t(collectionKey[product.collection]);
-  const backHref = collectionLandingHref[product.collection] ?? "/products/all";
+  const backHref = collectionHref(product.collection);
 
   const docs = getProductDocs(product.sku, locale as DocLocale);
+
+  const cprefix = locale === "en" ? "" : `/${locale}`;
 
   const productJsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -180,12 +168,15 @@ export default async function ProductDetailPage({
               : "Habitat One"
           : "Habitat One",
     },
-    url: `https://www.habitat-one.com/products/${slug}`,
+    // Moet de URL van *deze* taalversie zijn — anders wijst elke vertaling naar EN.
+    url: `https://www.habitat-one.com${cprefix}/products/${slug}`,
   };
 
-  const cprefix = locale === "en" ? "" : `/${locale}`;
+  // Home › Range › Collectie › Product — /products is de echte hub, dus die
+  // hoort als tussenniveau in het kruimelpad.
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", url: `https://www.habitat-one.com${cprefix}` },
+    { name: t("title"), url: `https://www.habitat-one.com${cprefix}/products` },
     { name: collectionLabel, url: `https://www.habitat-one.com${cprefix}${backHref}` },
     { name, url: `https://www.habitat-one.com${cprefix}/products/${slug}` },
   ]);

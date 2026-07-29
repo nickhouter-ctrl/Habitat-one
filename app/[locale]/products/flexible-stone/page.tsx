@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { getTranslations, setRequestLocale } from "next-intl/server";
 import { seoAlternates } from "@/lib/seo/alternates";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CollectionLuxuryPage } from "@/components/sections/collection-luxury";
-import { BackerApplications, BackerBoardFeatures } from "@/components/sections/backer-board-features";
 
 export async function generateMetadata({
   params,
@@ -11,10 +10,14 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "products" });
-  return { alternates: seoAlternates(locale, "/products/backer-boards"), title: t("collectionBackerBoards"), description: t("chapterDescriptionBackerBoards") };
+  return {
+    alternates: seoAlternates(locale, "/products/flexible-stone"),
+    title: t("collectionWallPanels"),
+    description: t("chapterDescriptionWallPanels"),
+  };
 }
 
-export default async function BackerBoardsPage({
+export default async function FlexibleStonePage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -23,10 +26,8 @@ export default async function BackerBoardsPage({
   setRequestLocale(locale);
   return (
     <CollectionLuxuryPage
-      collectionId="backer-boards"
-      heroImageOverride="/products/backer/stack.jpg"
-      belowProducts={<BackerApplications />}
-      extraSection={<BackerBoardFeatures />}
+      collectionId="wall-panels"
+      heroImageOverride="/scenery/flexibel-stone-hero.jpg"
     />
   );
 }

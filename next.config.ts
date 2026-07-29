@@ -18,6 +18,23 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "www.corneliuslifestyle.com" },
     ],
   },
+  // Flexible Stone verhuisde van /products (de range-hub) naar een eigen pad.
+  // `wall-panels` is de collection-id in de code en dus een logische gok voor
+  // crawlers en oude links — vang 'm af i.p.v. een 404 uit [slug].
+  async redirects() {
+    return [
+      {
+        source: "/products/wall-panels",
+        destination: "/products/flexible-stone",
+        permanent: true,
+      },
+      {
+        source: "/:locale(nl|es|de|fr|zh)/products/wall-panels",
+        destination: "/:locale/products/flexible-stone",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default withNextIntl(nextConfig);

@@ -897,7 +897,7 @@ export function magicSceneGallery(): { src: string; label: string; href: string 
     if (p.collection !== "wall-panels") continue;
     const m = productMedia[p.slug];
     if (!m?.context) continue;
-    const href = p.slug === "wall-panels" ? "/products" : `/products/${p.slug}`;
+    const href = `/products/${p.slug}`;
     for (const src of m.context) {
       if (seen.has(src)) continue;
       seen.add(src);
@@ -1134,6 +1134,19 @@ export const collections: { id: Collection; key: string }[] = [
   { id: "doors", key: "collectionDoors" },
   { id: "accessories", key: "collectionAccessories" },
 ];
+
+/**
+ * Landingspagina van een collectie. `/products` is de hub bóven alle collecties;
+ * elke collectie heeft een eigen pad daaronder. Flexible Stone draagt de
+ * merknaam in de URL i.p.v. de interne id `wall-panels`.
+ */
+export function collectionHref(id: string): string {
+  if (id === "wall-panels") return "/products/flexible-stone";
+  if (id === "furniture") return "/furniture";
+  // Deurbeslag heeft (nog) geen eigen pagina — hoort bij Doors.
+  if (id === "door-accessories") return "/products/doors";
+  return `/products/${id}`;
+}
 
 export const productsWithImages = catalogProducts.filter((p) => p.image);
 /** Range-producten (alles behalve meubels) — voor de algemene explorer & zoek;

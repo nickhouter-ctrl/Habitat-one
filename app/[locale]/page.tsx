@@ -77,7 +77,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   // The full range — one card per collection (incl. Flexible Stone),
   // alphabetical on the localized name.
   const rangeCollections = [
-    { id: "wall-panels", key: "collectionWallPanels", img: "/products/magic/ms-travertino-beige-interior.jpg", href: "/products" },
+    { id: "wall-panels", key: "collectionWallPanels", img: "/products/magic/ms-travertino-beige-interior.jpg", href: "/products/flexible-stone" },
     { id: "pvc-vloeren", key: "collectionPVCFloors", img: "/products/pvc-vloeren/lifestyle-1.jpg", href: "/products/pvc-vloeren" },
     { id: "bathroom", key: "collectionBathroom", img: "/products/h/KKR-B051-A-life.jpg", href: "/products/bathroom" },
     { id: "acrylpanelen", key: "collectionAcrylicPanels", img: "/products/h/acryl/KKR-A027-badkamer.jpg", href: "/products/acrylpanelen" },
@@ -189,7 +189,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               <Reveal className="mt-10">
                 <div className="flex flex-wrap gap-3">
                   <Magnetic>
-                    <Link href="/products?collection=wall-panels" className="btn btn-primary">
+                    <Link href="/products/flexible-stone" className="btn btn-primary">
                       {t("magicCta")}
                       <ArrowRight className="h-4 w-4" />
                     </Link>
@@ -279,7 +279,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         ]}
         cta={{
           label: t("story1Cta"),
-          href: story1Product ? `/products/${story1Product.slug}` : "/products?collection=wall-panels",
+          href: story1Product ? `/products/${story1Product.slug}` : "/products/flexible-stone",
         }}
       />
 
@@ -359,7 +359,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         ]}
         cta={{
           label: t("story2Cta"),
-          href: story2Product ? `/products/${story2Product.slug}` : "/products?collection=wall-panels",
+          href: story2Product ? `/products/${story2Product.slug}` : "/products/flexible-stone",
         }}
       />
 
