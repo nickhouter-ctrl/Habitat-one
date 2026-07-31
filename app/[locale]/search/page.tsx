@@ -7,7 +7,12 @@ import { ProductsExplorer } from "@/components/products-explorer";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { rangeProducts } from "@/lib/data/catalog";
 
-export const metadata: Metadata = { title: "Search" };
+// Zoekresultaten horen niet in de index — robots.txt blokkeert crawlen,
+// maar alleen een noindex houdt de URL zelf uit de zoekresultaten.
+export const metadata: Metadata = {
+  title: "Search",
+  robots: { index: false, follow: false },
+};
 
 export default async function SearchPage({
   params,

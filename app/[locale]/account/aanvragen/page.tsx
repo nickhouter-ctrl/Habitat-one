@@ -2,7 +2,10 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { RegisterForm } from "@/components/account/register-form";
 
-export const metadata = { title: "Account aanvragen — Habitat One" };
+export const metadata = {
+  title: "Account aanvragen — Habitat One",
+  robots: { index: false, follow: false },
+};
 
 export default async function RegisterPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

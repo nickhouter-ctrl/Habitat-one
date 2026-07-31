@@ -36,7 +36,8 @@ export const localBusinessJsonLd: Record<string, unknown> = {
     longitude: 0.1655,
   },
   areaServed: { "@type": "Place", name: "Costa Blanca" },
-  knowsLanguage: ["en", "nl", "es", "de"],
+  // De site draait op zes talen sinds juli 2026.
+  knowsLanguage: ["en", "nl", "es", "de", "fr", "zh"],
   // Social/profielen die Google aan dit bedrijf koppelt (alleen echte URL's).
   sameAs: ["https://www.instagram.com/habitatonejavea/"],
   hasMap:
@@ -50,7 +51,7 @@ export const websiteJsonLd: Record<string, unknown> = {
   "@id": "https://www.habitat-one.com/#website",
   url: "https://www.habitat-one.com",
   name: "Habitat One",
-  inLanguage: ["en", "nl", "es", "de"],
+  inLanguage: ["en", "nl", "es", "de", "fr", "zh"],
   publisher: { "@id": "https://www.habitat-one.com/#business" },
   potentialAction: {
     "@type": "SearchAction",

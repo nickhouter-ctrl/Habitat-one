@@ -18,7 +18,13 @@ function urlFor(locale: string, path: string): string {
 // One sitemap entry per path, with hreflang alternates for every locale.
 function entry(
   path: string,
-  opts: { changeFrequency?: MetadataRoute.Sitemap[number]["changeFrequency"]; priority?: number } = {},
+  opts: {
+    changeFrequency?: MetadataRoute.Sitemap[number]["changeFrequency"];
+    priority?: number;
+    /** Eigen afbeeldingen op deze pagina — levert een image-sitemap-entry op,
+     *  zodat de productfoto's in Google Afbeeldingen terecht kunnen komen. */
+    images?: string[];
+  } = {},
 ): MetadataRoute.Sitemap[number] {
   const languages: Record<string, string> = {};
   for (const l of locales) languages[l] = urlFor(l, path);
@@ -29,7 +35,14 @@ function entry(
     changeFrequency: opts.changeFrequency ?? "monthly",
     priority: opts.priority ?? 0.6,
     alternates: { languages },
+    ...(opts.images?.length ? { images: opts.images } : {}),
   };
+}
+
+/** Alleen eigen, absolute afbeeldings-URL's horen in de image-sitemap; de
+ *  meubelfoto's zijn hotlinks naar de CDN's van de leveranciers. */
+function ownImage(src: string | null | undefined): string[] {
+  return src && src.startsWith("/") ? [`${BASE}${src}`] : [];
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -48,7 +61,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/about", priority: 0.6, freq: "yearly" },
     { path: "/contact", priority: 0.6, freq: "yearly" },
     { path: "/location", priority: 0.6, freq: "monthly" },
-    { path: "/kitchen-planner", priority: 0.6, freq: "monthly" },
     { path: "/inspiration", priority: 0.7, freq: "weekly" },
     { path: "/inspiration/events", priority: 0.6, freq: "weekly" },
     { path: "/inspiration/news", priority: 0.6, freq: "weekly" },
@@ -61,6 +73,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/inspiration/tips/binnen-buiten-een-materiaal", priority: 0.6, freq: "monthly" },
   ];
 
+  // De keukenplanner bestaat alleen in het Nederlands — één URL, geen
+  // hreflang-set. Zie de canonical in app/[locale]/kitchen-planner/page.tsx.
+  const kitchenPlanner: MetadataRoute.Sitemap[number] = {
+    url: `${BASE}/nl/kitchen-planner`,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: 0.6,
+  };
+
   const collectionPaths = collections.map((c) => collectionHref(c.id));
 
   // Furniture sub-categories that actually have products.
@@ -71,6 +92,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const items: MetadataRoute.Sitemap = [
     ...staticPaths.map((s) => entry(s.path, { priority: s.priority, changeFrequency: s.freq })),
+    kitchenPlanner,
     // Flexible Stone is de signatuurcollectie — zelfde gewicht als de hub.
     ...collectionPaths.map((p) =>
       entry(p, {
@@ -79,7 +101,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       }),
     ),
     ...furnitureSubPaths.map((p) => entry(p, { priority: 0.7, changeFrequency: "weekly" })),
-    ...catalogProducts.map((p) => entry(`/products/${p.slug}`, { priority: 0.7 })),
+    ...catalogProducts.map((p) =>
+      entry(`/products/${p.slug}`, { priority: 0.7, images: ownImage(p.image) }),
+    ),
     ...catalogSpaces.map((s) => entry(`/spaces/${s.slug}`, { priority: 0.6 })),
     ...services.map((s) => entry(`/services/${s.slug}`, { priority: 0.6 })),
   ];

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import Image from "next/image";
 import { ArrowUpRight, Bath, BedDouble, Maximize, MapPin } from "lucide-react";
 import { setRequestLocale } from "next-intl/server";
@@ -26,7 +27,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const ui = PROPERTIES_UI[(locale as Locale) ?? "en"] ?? PROPERTIES_UI.en;
-  return { title: `${ui.title} — Habitat One`, description: ui.intro };
+  return {
+    alternates: seoAlternates(locale, "/properties"),
+    title: `${ui.title} — Habitat One`,
+    description: ui.intro,
+  };
 }
 
 const FALLBACK_IMAGE = "/site/hero_background.jpg";

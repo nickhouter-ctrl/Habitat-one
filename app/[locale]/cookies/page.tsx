@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import { setRequestLocale } from "next-intl/server";
 
 type Block = { h: string; p: string };
@@ -62,7 +63,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const c = CONTENT[locale] ?? CONTENT.en;
-  return { title: c.title, description: c.intro };
+  return { alternates: seoAlternates(locale, "/cookies"), title: c.title, description: c.intro };
 }
 
 export default async function CookiesPage({

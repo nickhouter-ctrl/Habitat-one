@@ -4,7 +4,10 @@ import { Link } from "@/i18n/navigation";
 import { fetchAccountMe } from "@/lib/account/server";
 import { LogoutButton } from "@/components/account/logout-button";
 
-export const metadata = { title: "Mijn account — Habitat One" };
+export const metadata = {
+  title: "Mijn account — Habitat One",
+  robots: { index: false, follow: false },
+};
 
 type Commission = { referee: string; base: number; pct: number; amount: number; status: string; date: string };
 

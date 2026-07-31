@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowUpRight, Users, ClipboardList, HardHat, Send, MapPin } from "lucide-react";
@@ -13,7 +14,7 @@ import { site } from "@/lib/data/site";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "sale" });
-  return { title: t("title"), description: t("intro") };
+  return { alternates: seoAlternates(locale, "/sale"), title: t("title"), description: t("intro") };
 }
 
 export default async function SalePage({ params }: { params: Promise<{ locale: string }> }) {

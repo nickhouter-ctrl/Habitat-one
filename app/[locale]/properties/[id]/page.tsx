@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { seoAlternates } from "@/lib/seo/alternates";
+import { JsonLd } from "@/components/seo/json-ld";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, Bath, BedDouble, LandPlot, MapPin, Maximize } from "lucide-react";
@@ -16,6 +18,7 @@ import {
   PROPERTIES_UI,
   PROPERTY_STATUS_LABELS,
   PROPERTY_TYPE_LABELS,
+  SOLD_STATUSES,
 } from "@/lib/data/properties";
 
 export async function generateMetadata({
@@ -23,11 +26,15 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string; id: string }>;
 }): Promise<Metadata> {
-  const { id } = await params;
+  const { locale, id } = await params;
   const p = await getPublishedProperty(id);
+  const photo = p?.images?.[0];
   return {
+    alternates: seoAlternates(locale, `/properties/${id}`),
     title: p ? `${p.title} — Habitat One` : "Property — Habitat One",
     description: p?.description?.slice(0, 160) ?? undefined,
+    // Zonder dit valt de deelafbeelding terug op de generieke site-OG-image.
+    openGraph: photo ? { images: [{ url: photo, alt: p?.title }] } : undefined,
   };
 }
 
@@ -53,6 +60,45 @@ export default async function PropertyDetailPage({
   const typeLabel = PROPERTY_TYPE_LABELS[locale][property.type] ?? property.type;
   const statusLabel = PROPERTY_STATUS_LABELS[locale][property.status];
 
+  // RealEstateListing — geeft Google prijs, ligging, slaapkamers en oppervlakte
+  // als gestructureerde velden i.p.v. losse tekst in de pagina.
+  const prefix = locale === "en" ? "" : `/${locale}`;
+  const listingJsonLd: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "RealEstateListing",
+    name: property.title,
+    description: property.description ?? undefined,
+    url: `https://www.habitat-one.com${prefix}/properties/${property.id}`,
+    image: property.images?.length ? property.images : undefined,
+    datePosted: property.updatedAt,
+    provider: { "@id": "https://www.habitat-one.com/#business" },
+    ...(property.priceEur
+      ? {
+          offers: {
+            "@type": "Offer",
+            price: property.priceEur,
+            priceCurrency: "EUR",
+            availability: SOLD_STATUSES.has(property.status)
+              ? "https://schema.org/SoldOut"
+              : "https://schema.org/InStock",
+          },
+        }
+      : {}),
+    about: {
+      "@type": "Accommodation",
+      name: property.title,
+      accommodationCategory: typeLabel,
+      ...(property.bedrooms != null ? { numberOfBedroomsTotal: property.bedrooms } : {}),
+      ...(property.bathrooms != null ? { numberOfBathroomsTotal: property.bathrooms } : {}),
+      ...(property.builtSqm != null
+        ? { floorSize: { "@type": "QuantitativeValue", value: property.builtSqm, unitCode: "MTK" } }
+        : {}),
+      ...(property.location
+        ? { address: { "@type": "PostalAddress", addressLocality: property.location, addressCountry: "ES" } }
+        : {}),
+    },
+  };
+
   const specs = [
     property.bedrooms != null && { icon: BedDouble, label: `${property.bedrooms} ${ui.bedrooms}` },
     property.bathrooms != null && { icon: Bath, label: `${property.bathrooms} ${ui.bathrooms}` },
@@ -62,6 +108,7 @@ export default async function PropertyDetailPage({
 
   return (
     <>
+      <JsonLd data={listingJsonLd} />
       <Section className="bg-sand-50 pt-28 md:pt-32">
         <Container>
           <BackLink href="/properties" label={ui.back} />

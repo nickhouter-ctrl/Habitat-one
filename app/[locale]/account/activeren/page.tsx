@@ -3,7 +3,10 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { ActivateForm } from "@/components/account/activate-form";
 
-export const metadata = { title: "Wachtwoord instellen — Habitat One" };
+export const metadata = {
+  title: "Wachtwoord instellen — Habitat One",
+  robots: { index: false, follow: false },
+};
 
 export default async function ActivatePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

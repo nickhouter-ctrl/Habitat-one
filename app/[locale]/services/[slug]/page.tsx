@@ -47,12 +47,26 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
   const cprefix = locale === "en" ? "" : `/${locale}`;
   const _bc = breadcrumbJsonLd([
     { name: "Home", url: `https://www.habitat-one.com${cprefix}` },
-    { name: "Diensten", url: `https://www.habitat-one.com${cprefix}/services` },
+    // Was hardcoded "Diensten" — dat stond zo ook in de Engelse en Spaanse SERP.
+    { name: t("title"), url: `https://www.habitat-one.com${cprefix}/services` },
     { name: loc(service.title, locale), url: `https://www.habitat-one.com${cprefix}/services/${slug}` },
   ]);
 
+  // Service-schema koppelt de dienst aan het bedrijf en aan het werkgebied.
+  const serviceJsonLd: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: loc(service.title, locale),
+    description: loc(service.tagline, locale),
+    url: `https://www.habitat-one.com${cprefix}/services/${slug}`,
+    provider: { "@id": "https://www.habitat-one.com/#business" },
+    areaServed: { "@type": "Place", name: "Costa Blanca" },
+    availableLanguage: ["nl", "en", "es", "de", "fr", "zh"],
+  };
+
   return (
     <>
+      <JsonLd data={serviceJsonLd} />
       <JsonLd data={_bc} />
       <Section className="bg-sea-900 pt-28 pb-0 text-cream md:pt-32">
         <Container className="relative">

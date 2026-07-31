@@ -2,7 +2,10 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { LoginForm } from "@/components/account/login-form";
 
-export const metadata = { title: "Inloggen — Habitat One" };
+export const metadata = {
+  title: "Inloggen — Habitat One",
+  robots: { index: false, follow: false },
+};
 
 export default async function LoginPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

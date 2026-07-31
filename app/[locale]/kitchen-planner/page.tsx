@@ -4,10 +4,17 @@ import { PageHeader } from "@/components/ui/page-header";
 import { Container, Section } from "@/components/ui/section";
 import { KitchenPlanner } from "@/components/planner/kitchen-planner";
 
+// De planner is (nog) alleen in het Nederlands: alle teksten in
+// components/planner/* zijn hardcoded NL. Zolang dat zo is, wijst elke
+// taalvariant naar de Nederlandse URL als canonical — anders concurreren zes
+// identieke Nederlandse pagina's met elkaar. Zodra de planner vertaald is:
+// vervangen door seoAlternates(locale, "/kitchen-planner") en de sitemap-entry
+// terugzetten naar een normale entry().
 export const metadata: Metadata = {
   title: "Keukenplanner",
   description:
     "Ontwerp je keuken stap voor stap — ruimte, apparatuur, kasten, fronten en werkblad — en ontvang een bestellijst.",
+  alternates: { canonical: "https://www.habitat-one.com/nl/kitchen-planner" },
 };
 
 export default async function KitchenPlannerPage({
