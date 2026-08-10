@@ -90,15 +90,6 @@ export async function POST(req: Request) {
     return fail("too-large", 413);
   }
 
-  const apiKey =
-    process.env.GOOGLE_GENERATIVE_AI_API_KEY ||
-    process.env.GEMINI_API_KEY ||
-    process.env.GOOGLE_API_KEY ||
-    process.env.GOOGLE_AI_API_KEY;
-  if (!apiKey) {
-    return fail("not-configured", 500);
-  }
-
   // Body als tekst inlezen zodat een ontbrekende/gelogen content-length alsnog
   // op de echte grootte wordt afgerekend.
   let raw: string;
@@ -129,6 +120,17 @@ export async function POST(req: Request) {
   const descriptor = parseRenderDescriptor(design);
   if (!descriptor) {
     return fail("missing-input", 400);
+  }
+
+  // Pas ná de payload-validatie: een fout in het verzoek hoort een 400 te geven,
+  // ook wanneer de sleutel ontbreekt.
+  const apiKey =
+    process.env.GOOGLE_GENERATIVE_AI_API_KEY ||
+    process.env.GEMINI_API_KEY ||
+    process.env.GOOGLE_API_KEY ||
+    process.env.GOOGLE_AI_API_KEY;
+  if (!apiKey) {
+    return fail("not-configured", 500);
   }
 
   // Pas limiet aftikken nadat de payload geldig blijkt — een kapot verzoek
