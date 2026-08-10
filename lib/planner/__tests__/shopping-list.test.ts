@@ -1,7 +1,12 @@
 // Tests voor de bestellijst-afleiding: ontwerp → IKEA-artikellijst.
 
 import { describe, expect, it } from "vitest";
-import { deriveShoppingList, formatShoppingList } from "../shopping-list";
+import {
+  deriveShoppingList,
+  dutchShoppingListLabels,
+  formatShoppingList,
+  type ShoppingListLabels,
+} from "../shopping-list";
 import { initialDesign, plannerReducer } from "../store";
 import type { KitchenDesign } from "../types";
 
@@ -113,5 +118,79 @@ describe("formatShoppingList", () => {
     const text = formatShoppingList(deriveShoppingList(initialDesign()));
     expect(text).toContain("- nog geen kasten -");
     expect(text).toContain("- nog geen apparatuur -");
+  });
+});
+
+describe("formatShoppingList met een eigen labelset", () => {
+  /** Engelse labelset — staat model voor elke niet-NL locale. */
+  const en: ShoppingListLabels = {
+    title: "KITCHEN ORDER LIST",
+    roomTitle: "ROOM",
+    roomLine: ({ widthCm, depthCm, ceilingHeightCm }) =>
+      `${widthCm} × ${depthCm} cm · ceiling height ${ceilingHeightCm} cm`,
+    carcassesTitle: (color) => `STANDARD CABINETS (frame — ${color})`,
+    carcassColor: { wit: "white", "houtpatroon-zwart": "black wood effect" },
+    carcassType: (type) => `Cabinet (${type})`,
+    applianceLabel: (appliance) => `Appliance ${appliance.id}`,
+    articleNumberLabel: "Art. no.",
+    carcassNote: "Article numbers via IKEA NL — verified with your quote.",
+    emptyCarcasses: "- no cabinets yet -",
+    appliancesTitle: "APPLIANCES (standard sizes — brand of your choice)",
+    emptyAppliances: "- no appliances yet -",
+    frontsTitle: "FRONTS & SIDE PANELS (bespoke)",
+    frontsLabel: "Fronts:",
+    sidePanelsLabel: "Side panels:",
+    sidePanelSameAsFronts: "same finish as the fronts",
+    notChosen: "to be chosen",
+    carcassCount: (count) => `${count} frames`,
+    worktopTitle: "WORKTOP",
+    worktopChosen: (label) => `Chosen look: ${label}`,
+    worktopNote: "Supplied by an external partner — outside this order list.",
+  };
+
+  it("gebruikt uitsluitend de meegegeven labels — geen Nederlands meer", () => {
+    const text = formatShoppingList(deriveShoppingList(sampleDesign()), { labels: en });
+    expect(text).toContain("KITCHEN ORDER LIST");
+    expect(text).toContain("ceiling height");
+    expect(text).toContain("STANDARD CABINETS (frame — white)");
+    expect(text).toContain("APPLIANCES");
+    expect(text).toContain("Side panels: same finish as the fronts");
+    expect(text).toContain("Supplied by an external partner");
+    // Geen Nederlandse resten uit de standaardlabels of de catalogus.
+    for (const dutch of [
+      "RUIMTE",
+      "plafondhoogte",
+      "STANDAARD KASTEN",
+      "Onderkast",
+      "Zijpanelen",
+      "externe partij",
+      "nog te kiezen",
+    ]) {
+      expect(text, `bevat nog NL: ${dutch}`).not.toContain(dutch);
+    }
+  });
+
+  it("vertaalt ook de cascokleur en het aantal casco's", () => {
+    const design = plannerReducer(sampleDesign(), {
+      type: "SET_CARCASS_COLOR",
+      color: "houtpatroon-zwart",
+    });
+    const text = formatShoppingList(deriveShoppingList(design), { labels: en });
+    expect(text).toContain("black wood effect");
+    expect(text).toContain("4 frames");
+  });
+
+  it("valt terug op de Nederlandse labels zonder labels-optie", () => {
+    const list = deriveShoppingList(sampleDesign());
+    expect(formatShoppingList(list)).toBe(
+      formatShoppingList(list, { labels: dutchShoppingListLabels }),
+    );
+  });
+
+  it("toont de vertaalde placeholders bij een leeg ontwerp", () => {
+    const text = formatShoppingList(deriveShoppingList(initialDesign()), { labels: en });
+    expect(text).toContain("- no cabinets yet -");
+    expect(text).toContain("- no appliances yet -");
+    expect(text).toContain("to be chosen");
   });
 });

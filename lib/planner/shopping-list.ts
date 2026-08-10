@@ -11,6 +11,7 @@ import {
   getCarcass,
   type Carcass,
   type CarcassColor,
+  type CarcassType,
 } from "@/lib/data/metod";
 import { getAppliance, type Appliance } from "./appliances";
 import {
@@ -100,53 +101,138 @@ export function deriveShoppingList(design: KitchenDesign): ShoppingList {
   };
 }
 
+/**
+ * Alle teksten die de platte-tekst-bestellijst nodig heeft. De planner draait
+ * in zes talen; deze lijst gaat mee in de offerte én naar het CRM, dus de
+ * formatter bevat zélf geen vaste taal. De UI geeft vertaalde labels mee
+ * (next-intl); zonder labels valt de formatter terug op het Nederlands.
+ *
+ * Koppen staan bewust vóluit in de labelset (inclusief hoofdletters): welke
+ * hoofdletter bij een woord hoort is taalafhankelijk, dus de formatter past
+ * zelf géén toUpperCase() toe.
+ */
+export interface ShoppingListLabels {
+  /** Kop boven de hele lijst. */
+  title: string;
+  roomTitle: string;
+  /** Regel met de ruimtematen. */
+  roomLine(room: { widthCm: number; depthCm: number; ceilingHeightCm: number }): string;
+  /** Kop boven de kasten, met de cascokleur erin verwerkt. */
+  carcassesTitle(colorLabel: string): string;
+  /** Naam van elke cascokleur. */
+  carcassColor: Record<CarcassColor, string>;
+  /** Naam van een casco-type ("Onderkast", "Bovenkast", …). */
+  carcassType(type: CarcassType): string;
+  /** Naam van een apparaat. */
+  applianceLabel(appliance: Appliance): string;
+  /** Voorvoegsel bij het artikelnummer, bv. "Artikelnr. (IKEA NL)". */
+  articleNumberLabel: string;
+  /** Toelichting onder de kastenlijst. */
+  carcassNote: string;
+  emptyCarcasses: string;
+  appliancesTitle: string;
+  emptyAppliances: string;
+  frontsTitle: string;
+  frontsLabel: string;
+  sidePanelsLabel: string;
+  /** Tekst als er geen aparte zijpaneel-afwerking gekozen is. */
+  sidePanelSameAsFronts: string;
+  /** Tekst voor een nog niet gemaakte keuze. */
+  notChosen: string;
+  /** Aantal casco's — bepaalt het aantal maatwerk-fronten. */
+  carcassCount(count: number): string;
+  worktopTitle: string;
+  worktopChosen(label: string): string;
+  /** Vaste noot: het werkblad wordt extern besteld. */
+  worktopNote: string;
+}
+
+/** Nederlandse standaardlabels — de terugval als de UI niets meegeeft. */
+export const dutchShoppingListLabels: ShoppingListLabels = {
+  title: "BESTELLIJST KEUKENONTWERP",
+  roomTitle: "RUIMTE",
+  roomLine: ({ widthCm, depthCm, ceilingHeightCm }) =>
+    `${widthCm} × ${depthCm} cm · plafondhoogte ${ceilingHeightCm} cm`,
+  carcassesTitle: (color) => `STANDAARD KASTEN (casco — ${color})`,
+  carcassColor: { wit: "wit", "houtpatroon-zwart": "houtpatroon zwart" },
+  carcassType: (type) => carcassTypeMeta[type].label,
+  applianceLabel: (appliance) => appliance.label,
+  articleNumberLabel: "Artikelnr. (IKEA NL)",
+  carcassNote:
+    "Artikelnummers via IKEA NL — Habitat One controleert nummers en beschikbaarheid bij je offerte.",
+  emptyCarcasses: "- nog geen kasten -",
+  appliancesTitle: "APPARATUUR (standaardmaten — merk/model naar keuze)",
+  emptyAppliances: "- nog geen apparatuur -",
+  frontsTitle: "FRONTEN & ZIJPANELEN (maatwerk)",
+  frontsLabel: "Fronten:",
+  sidePanelsLabel: "Zijpanelen:",
+  sidePanelSameAsFronts: "zelfde afwerking als de fronten",
+  notChosen: "nog te kiezen",
+  carcassCount: (count) => `${count} casco's`,
+  worktopTitle: "WERKBLAD",
+  worktopChosen: (label) => `Gekozen uitstraling: ${label}`,
+  worktopNote:
+    "Het werkblad valt buiten deze bestellijst — dit wordt door een externe partij verzorgd.",
+};
+
 /** Opties voor de platte-tekst-weergave van de bestellijst. */
 export interface FormatShoppingListOptions {
   /** IKEA-artikelnummers tonen op de kastregels (standaard aan). */
   includeArticleNumbers?: boolean;
+  /** Vertaalde teksten; standaard Nederlands. */
+  labels?: ShoppingListLabels;
 }
 
 /**
  * Platte-tekst-versie van de bestellijst — voor de offerteaanvraag, print en
- * kopiëren. Zelfde secties als de samenvattingsstap in de planner.
+ * kopiëren. Zelfde secties als de samenvattingsstap in de planner. Alle
+ * teksten komen uit `labels`, zodat de lijst in de taal van de klant staat.
  */
 export function formatShoppingList(
   list: ShoppingList,
-  { includeArticleNumbers = true }: FormatShoppingListOptions = {},
+  { includeArticleNumbers = true, labels = dutchShoppingListLabels }: FormatShoppingListOptions = {},
 ): string {
-  const colorLabel = list.carcassColor === "wit" ? "wit" : "houtpatroon zwart";
   const lines: string[] = [
-    "RUIMTE",
-    `${list.roomWidthCm} × ${list.roomDepthCm} cm · plafondhoogte ${list.ceilingHeightCm} cm`,
+    labels.title,
     "",
-    `STANDAARD KASTEN (casco — ${colorLabel})`,
+    labels.roomTitle,
+    labels.roomLine({
+      widthCm: list.roomWidthCm,
+      depthCm: list.roomDepthCm,
+      ceilingHeightCm: list.ceilingHeightCm,
+    }),
+    "",
+    labels.carcassesTitle(labels.carcassColor[list.carcassColor]),
   ];
 
-  if (list.carcasses.length === 0) lines.push("- nog geen kasten -");
+  if (list.carcasses.length === 0) lines.push(labels.emptyCarcasses);
   for (const { carcass, count, articleNumber } of list.carcasses) {
-    const art = includeArticleNumbers ? ` · IKEA ${articleNumber}` : "";
+    const art = includeArticleNumbers ? ` — ${labels.articleNumberLabel}: ${articleNumber}` : "";
     lines.push(
-      `${count}× ${carcassTypeMeta[carcass.type].label} — ${carcass.b}×${carcass.d}×${carcass.h} cm${art}`,
+      `${count}× ${labels.carcassType(carcass.type)} — ${carcass.b}×${carcass.d}×${carcass.h} cm${art}`,
     );
   }
+  if (includeArticleNumbers && list.carcasses.length > 0) lines.push(labels.carcassNote);
 
-  lines.push("", "APPARATUUR (standaardmaten — merk/model naar keuze)");
-  if (list.appliances.length === 0) lines.push("- nog geen apparatuur -");
+  lines.push("", labels.appliancesTitle);
+  if (list.appliances.length === 0) lines.push(labels.emptyAppliances);
   for (const { appliance, count } of list.appliances) {
     lines.push(
-      `${count}× ${appliance.label} — ${appliance.widthCm}×${appliance.heightCm}×${appliance.depthCm} cm`,
+      `${count}× ${labels.applianceLabel(appliance)} — ${appliance.widthCm}×${appliance.heightCm}×${appliance.depthCm} cm`,
     );
   }
 
-  const sidePanelLabel = list.sidePanelFinish?.label ?? "zelfde afwerking als de fronten";
   lines.push(
     "",
-    "FRONTEN & ZIJPANELEN (maatwerk)",
-    `Fronten: ${list.frontStyle?.label ?? "nog te kiezen"} · ${list.frontFinish?.label ?? "nog te kiezen"} — ${list.totalCarcassCount} casco's`,
-    `Zijpanelen: ${sidePanelLabel}`,
+    labels.frontsTitle,
+    `${labels.frontsLabel} ${list.frontStyle?.label ?? labels.notChosen} · ${list.frontFinish?.label ?? labels.notChosen} — ${labels.carcassCount(list.totalCarcassCount)}`,
+    `${labels.sidePanelsLabel} ${list.sidePanelFinish?.label ?? labels.sidePanelSameAsFronts}`,
     "",
-    "WERKBLAD",
-    `${list.worktop?.label ?? "Nog te kiezen"} — wordt door een externe partij verzorgd (buiten deze bestellijst).`,
+    labels.worktopTitle,
   );
+  if (list.worktop) lines.push(labels.worktopChosen(list.worktop.label));
+  else lines.push(labels.notChosen);
+  lines.push(labels.worktopNote);
+
   return lines.join("\n");
 }
