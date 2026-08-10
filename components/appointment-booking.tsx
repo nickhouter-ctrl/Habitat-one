@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { Compass, Briefcase, HomeIcon, Sparkles, ArrowRight, ArrowLeft, CheckCircle2, Loader2, CalendarDays } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { CRM_API } from "@/lib/account/crm";
+import { CRM_API, toCrmLocale } from "@/lib/account/crm";
 import { cn } from "@/lib/utils";
 
 type Role = "architect" | "sales" | "homeowner" | "other";
@@ -56,8 +56,7 @@ export function AppointmentBooking() {
       .join("\n\n");
     setSending(true);
     setError(false);
-    // De CRM (en z'n bevestigingsmails) ondersteunt alleen nl/de/en/es — val terug op en voor fr/zh.
-    const crmLocale = ["nl", "de", "en", "es"].includes(locale) ? locale : "en";
+    const crmLocale = toCrmLocale(locale);
     try {
       const res = await fetch(`${CRM_API}/api/quote-requests`, {
         method: "POST",
