@@ -2,13 +2,16 @@
 
 // Offerteaanvraag vanuit de keukenplanner. Stuurt de bestellijst + contactgegevens
 // naar het Habitat One CRM (zelfde endpoint als het B2B-offerteformulier).
+//
+// De vaste kopregels in het CRM-bericht blijven bewust Nederlands: die zijn
+// voor het Habitat One-team, niet voor de klant. De bestellijst zelf staat in
+// de taal van de klant (het `locale`-veld vertelt het CRM welke dat is).
 
 import { useState, type FormEvent, type ReactNode } from "react";
 import { useLocale } from "next-intl";
 import { CheckCircle2, Send, X } from "lucide-react";
-
-const CRM_API =
-  process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
+import { CRM_API } from "@/lib/account/crm";
+import { usePlannerT } from "./i18n";
 
 const inputCls =
   "w-full rounded-lg border border-sand-300 bg-cream px-3 py-2 text-sm focus:border-terracotta-400 focus:outline-none focus:ring-2 focus:ring-terracotta-300/40";
@@ -21,9 +24,15 @@ export function KitchenQuoteForm({
   onClose: () => void;
 }) {
   const locale = useLocale();
+  const { tf } = usePlannerT();
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  const errorMsg = tf(
+    "quote.error",
+    "Versturen mislukt. Probeer het opnieuw of mail ons direct.",
+  );
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -40,9 +49,9 @@ export function KitchenQuoteForm({
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
-          name: String(f.get("name") ?? ""),
-          email: String(f.get("email") ?? ""),
-          phone: String(f.get("phone") ?? "") || undefined,
+          name: String(f.get("name") ?? "").trim(),
+          email: String(f.get("email") ?? "").trim(),
+          phone: String(f.get("phone") ?? "").trim() || undefined,
           message,
           productSkus: [],
           productNames: ["Keukenontwerp (planner)"],
@@ -52,13 +61,13 @@ export function KitchenQuoteForm({
         }),
       });
       if (!res.ok) {
-        setError("Versturen mislukt. Probeer het opnieuw of mail ons direct.");
+        setError(errorMsg);
         setSubmitting(false);
         return;
       }
       setSuccess(true);
     } catch {
-      setError("Versturen mislukt. Probeer het opnieuw of mail ons direct.");
+      setError(errorMsg);
     } finally {
       setSubmitting(false);
     }
@@ -70,12 +79,15 @@ export function KitchenQuoteForm({
       onClick={onClose}
     >
       <div
+        role="dialog"
+        aria-modal="true"
+        aria-label={tf("quote.title", "Vraag een offerte aan")}
         className="relative max-h-[92vh] w-full max-w-lg overflow-auto rounded-3xl border border-sand-200 bg-cream p-7 shadow-[0_20px_80px_-30px_rgba(58,42,32,0.45)]"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           type="button"
-          aria-label="Sluiten"
+          aria-label={tf("quote.closeAria", "Sluiten")}
           onClick={onClose}
           className="absolute right-4 top-4 grid h-9 w-9 place-items-center rounded-full text-ink-soft transition-colors hover:bg-sand-200"
         >
@@ -88,60 +100,72 @@ export function KitchenQuoteForm({
               <CheckCircle2 className="h-7 w-7" />
             </div>
             <h3 className="mt-4 font-display text-2xl text-ink">
-              Bedankt — we hebben je keukenontwerp ontvangen.
+              {tf("quote.successTitle", "Bedankt — we hebben je keukenontwerp ontvangen.")}
             </h3>
             <p className="mt-2 text-sm text-ink-soft">
-              Habitat One neemt binnen één werkdag contact met je op voor een offerte.
+              {tf(
+                "quote.successBody",
+                "Habitat One neemt binnen één werkdag contact met je op voor een offerte.",
+              )}
             </p>
             <button onClick={onClose} className="btn btn-primary mt-6">
-              Sluiten
+              {tf("quote.close", "Sluiten")}
             </button>
           </div>
         ) : (
           <>
             <p className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-terracotta-600">
-              Keukenplanner
+              {tf("quote.eyebrow", "Keukenplanner")}
             </p>
-            <h3 className="mt-2 font-display text-2xl text-ink">Vraag een offerte aan</h3>
+            <h3 className="mt-2 font-display text-2xl text-ink">
+              {tf("quote.title", "Vraag een offerte aan")}
+            </h3>
             <p className="mt-1 text-sm text-ink-soft">
-              Je ontwerp en bestellijst sturen we mee — we nemen binnen 24 uur contact
-              met je op.
+              {tf(
+                "quote.intro",
+                "Je ontwerp en bestellijst sturen we mee — we nemen binnen 24 uur contact met je op.",
+              )}
             </p>
 
             <form className="mt-5 space-y-3.5" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2">
-                <Field label="Naam" htmlFor="kp-name">
+                <Field label={tf("quote.name", "Naam")} htmlFor="kp-name">
                   <input id="kp-name" name="name" type="text" required autoComplete="name" className={inputCls} />
                 </Field>
-                <Field label="Telefoon (optioneel)" htmlFor="kp-phone">
+                <Field label={tf("quote.phone", "Telefoon (optioneel)")} htmlFor="kp-phone">
                   <input id="kp-phone" name="phone" type="tel" autoComplete="tel" className={inputCls} />
                 </Field>
               </div>
-              <Field label="E-mail" htmlFor="kp-email">
+              <Field label={tf("quote.email", "E-mail")} htmlFor="kp-email">
                 <input id="kp-email" name="email" type="email" required autoComplete="email" className={inputCls} />
               </Field>
-              <Field label="Bericht (optioneel)" htmlFor="kp-message">
+              <Field label={tf("quote.message", "Bericht (optioneel)")} htmlFor="kp-message">
                 <textarea
                   id="kp-message"
                   name="message"
                   rows={3}
-                  placeholder="Vragen, wensen, gewenste opleverdatum…"
+                  placeholder={tf("quote.messagePlaceholder", "Vragen, wensen, gewenste opleverdatum…")}
                   className={`${inputCls} resize-none leading-relaxed`}
                 />
               </Field>
 
               {error && (
-                <p className="rounded-lg border border-terracotta-400/50 bg-terracotta-400/10 px-3 py-2 text-sm text-terracotta-700">
+                <p
+                  role="alert"
+                  className="rounded-lg border border-terracotta-400/50 bg-terracotta-400/10 px-3 py-2 text-sm text-terracotta-700"
+                >
                   {error}
                 </p>
               )}
 
               <div className="flex flex-wrap items-center justify-end gap-2 pt-2">
                 <button type="button" onClick={onClose} className="btn btn-ghost">
-                  Annuleren
+                  {tf("quote.cancel", "Annuleren")}
                 </button>
                 <button type="submit" disabled={submitting} className="btn btn-primary disabled:opacity-60">
-                  {submitting ? "Versturen…" : "Verstuur aanvraag"}
+                  {submitting
+                    ? tf("quote.submitting", "Versturen…")
+                    : tf("quote.submit", "Verstuur aanvraag")}
                   {!submitting && <Send className="h-4 w-4" />}
                 </button>
               </div>
