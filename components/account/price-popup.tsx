@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { Lock, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { usePrices } from "./price-provider";
@@ -14,64 +14,13 @@ const MAX_AGE_MS = 30 * 24 * 60 * 60 * 1000;
 // Korte vertraging zodat de popup niet bovenop het laden van de pagina springt.
 const SHOW_DELAY_MS = 1400;
 
-type Copy = { eyebrow: string; title: string; body: string; cta: string; login: string; close: string; note: string };
-
-const TXT: Record<string, Copy> = {
-  nl: {
-    eyebrow: "Alleen voor klanten",
-    title: "Maak een account aan om de prijzen te zien",
-    body: "Onze prijzen zijn zichtbaar voor klanten met een (gratis) account. Vraag er één aan — particulier of zakelijk — en bekijk direct alle prijzen.",
-    cta: "Account aanvragen",
-    login: "Ik heb al een account",
-    close: "Sluiten",
-    note: "Gratis · binnen 1 werkdag geregeld",
-  },
-  en: {
-    eyebrow: "Customers only",
-    title: "Create an account to see prices",
-    body: "Our prices are visible to customers with a (free) account. Request one — private or business — and see all prices right away.",
-    cta: "Request an account",
-    login: "I already have an account",
-    close: "Close",
-    note: "Free · sorted within 1 business day",
-  },
-  de: {
-    eyebrow: "Nur für Kunden",
-    title: "Konto erstellen, um Preise zu sehen",
-    body: "Unsere Preise sind für Kunden mit einem (kostenlosen) Konto sichtbar. Beantragen Sie eins — privat oder geschäftlich — und sehen Sie sofort alle Preise.",
-    cta: "Konto anfragen",
-    login: "Ich habe bereits ein Konto",
-    close: "Schließen",
-    note: "Kostenlos · innerhalb von 1 Werktag",
-  },
-  es: {
-    eyebrow: "Solo clientes",
-    title: "Crea una cuenta para ver los precios",
-    body: "Nuestros precios son visibles para clientes con una cuenta (gratuita). Solicita una — particular o empresa — y consulta todos los precios al instante.",
-    cta: "Solicitar cuenta",
-    login: "Ya tengo una cuenta",
-    close: "Cerrar",
-    note: "Gratis · resuelto en 1 día laborable",
-  },
-  fr: {
-    eyebrow: "Réservé aux clients",
-    title: "Créez un compte pour voir les prix",
-    body: "Nos prix sont visibles pour les clients disposant d'un compte (gratuit). Demandez le vôtre — particulier ou professionnel — et consultez immédiatement tous les prix.",
-    cta: "Demander un compte",
-    login: "J'ai déjà un compte",
-    close: "Fermer",
-    note: "Gratuit · réglé sous 1 jour ouvré",
-  },
-  zh: {
-    eyebrow: "仅限客户",
-    title: "创建账户即可查看价格",
-    body: "我们的价格仅对拥有（免费）账户的客户可见。申请一个账户——个人或企业均可——即刻查看所有价格。",
-    cta: "申请账户",
-    login: "我已有账户",
-    close: "关闭",
-    note: "免费 · 1 个工作日内开通",
-  },
-};
+function remember() {
+  try {
+    localStorage.setItem(KEY, JSON.stringify({ t: Date.now() }));
+  } catch {
+    /* private mode e.d. — negeren */
+  }
+}
 
 function dismissedRecently(): boolean {
   try {
@@ -92,10 +41,9 @@ function dismissedRecently(): boolean {
  */
 export function PricePopup() {
   const { loggedIn, loading } = usePrices();
-  const locale = useLocale();
+  const t = useTranslations("account");
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const t = TXT[locale] ?? TXT.en;
 
   const onAccountPage = pathname?.includes("/account");
 
@@ -106,13 +54,17 @@ export function PricePopup() {
     return () => clearTimeout(id);
   }, [loading, loggedIn, onAccountPage]);
 
-  function remember() {
-    try {
-      localStorage.setItem(KEY, JSON.stringify({ t: Date.now() }));
-    } catch {
-      /* private mode e.d. — negeren */
+  useEffect(() => {
+    if (!open) return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        remember();
+        setOpen(false);
+      }
     }
-  }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
 
   function close() {
     remember();
@@ -127,6 +79,7 @@ export function PricePopup() {
       onClick={close}
       role="dialog"
       aria-modal="true"
+      aria-labelledby="price-popup-title"
     >
       <div
         className="relative w-full max-w-md overflow-hidden rounded-3xl border border-sand-200 bg-cream p-7 text-center font-sans shadow-[0_20px_80px_-30px_rgba(58,42,32,0.45)]"
@@ -134,7 +87,7 @@ export function PricePopup() {
       >
         <button
           type="button"
-          aria-label={t.close}
+          aria-label={t("popupClose")}
           onClick={close}
           className="absolute right-4 top-4 grid h-9 w-9 place-items-center rounded-full text-clay-700 transition-colors hover:bg-sand-200"
         >
@@ -146,25 +99,27 @@ export function PricePopup() {
         </div>
 
         <p className="mt-5 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-terracotta-600">
-          {t.eyebrow}
+          {t("popupEyebrow")}
         </p>
-        <h3 className="mt-2 font-sans text-xl font-semibold leading-snug tracking-tight text-ink">{t.title}</h3>
-        <p className="mt-3 text-sm leading-relaxed text-clay-700">{t.body}</p>
+        <h3 id="price-popup-title" className="mt-2 font-sans text-xl font-semibold leading-snug tracking-tight text-ink">
+          {t("popupTitle")}
+        </h3>
+        <p className="mt-3 text-sm leading-relaxed text-clay-700">{t("popupBody")}</p>
 
         <div className="mt-6 flex flex-col gap-2">
           <Link href="/account/aanvragen" onClick={close} className="btn btn-primary w-full justify-center">
-            {t.cta}
+            {t("popupCta")}
           </Link>
           <Link
             href="/account/login"
             onClick={close}
             className="text-sm font-medium text-clay-700 underline underline-offset-2 transition-colors hover:text-ink"
           >
-            {t.login}
+            {t("popupLogin")}
           </Link>
         </div>
 
-        <p className="mt-5 text-xs text-clay-500">{t.note}</p>
+        <p className="mt-5 text-xs text-clay-500">{t("popupNote")}</p>
       </div>
     </div>
   );

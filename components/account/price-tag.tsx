@@ -1,17 +1,10 @@
 "use client";
 
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Lock } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { formatEur } from "@/lib/account/intl";
 import { usePrices, resolvePrice } from "./price-provider";
-
-function fmt(n: number, locale: string) {
-  return new Intl.NumberFormat(locale === "en" ? "en-IE" : `${locale}-ES`, {
-    style: "currency",
-    currency: "EUR",
-    minimumFractionDigits: 2,
-  }).format(n);
-}
 
 /** Nette psychologische prijs: rond naar het dichtstbijzijnde hele bedrag en eindig op ,95. */
 function charm(n: number): number {
@@ -40,6 +33,7 @@ export function PriceTag({
   asLink?: boolean;
 }) {
   const locale = useLocale();
+  const t = useTranslations("account");
   const state = usePrices();
   const { loggedIn, tier, loading } = state;
 
@@ -48,7 +42,7 @@ export function PriceTag({
   if (!loggedIn) {
     const inner = (
       <span className="inline-flex items-center gap-1 text-xs font-medium text-neutral-500">
-        <Lock className="h-3 w-3" /> Prijs met account
+        <Lock className="h-3 w-3" /> {t("priceWithAccount")}
       </span>
     );
     return asLink ? (
@@ -71,7 +65,7 @@ export function PriceTag({
     const byN = resolvePrice(state, null, name);
     if (byN && byN.price > 0) found.push(byN);
   }
-  if (found.length === 0) return <span className={`text-xs text-neutral-400 ${className}`}>Prijs op aanvraag</span>;
+  if (found.length === 0) return <span className={`text-xs text-neutral-400 ${className}`}>{t("priceOnRequest")}</span>;
 
   const min = found.reduce((a, b) => (b.price < a.price ? b : a));
   const multiple = new Set(found.map((f) => f.price)).size > 1;
@@ -82,8 +76,9 @@ export function PriceTag({
 
   return (
     <span className={`font-semibold text-neutral-900 ${className}`}>
-      {multiple ? "vanaf " : ""}
-      {fmt(shown, locale)} <span className="text-xs font-normal text-neutral-500">{incl ? "incl. btw" : "excl. btw"}</span>
+      {multiple ? `${t("priceFrom")} ` : ""}
+      {formatEur(shown, locale)}{" "}
+      <span className="text-xs font-normal text-neutral-500">{incl ? t("inclVat") : t("exclVat")}</span>
     </span>
   );
 }
