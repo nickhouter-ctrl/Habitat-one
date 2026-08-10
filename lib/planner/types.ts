@@ -79,4 +79,6 @@ export interface KitchenDesign {
   frontFinishId: string | null;
   /** Afwerking van de zijpanelen — een front-afwerking-id, of null = zelfde als de fronten. */
   sidePanelFinishId: string | null;
+  /** Gekozen werkblad-afwerking (id uit lib/planner/catalog.ts) — extern besteld; null = nog te kiezen. */
+  worktopId: string | null;
 }

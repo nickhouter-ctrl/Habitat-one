@@ -7,6 +7,26 @@
 
 import type { PlannerStepId } from "./types";
 
+// De casco-catalogus zelf leeft in lib/data/metod.ts — hier her-geëxporteerd
+// zodat de volledige planner-catalogus (casco's + maatwerk) via lib/planner
+// beschikbaar is voor de UI-componenten.
+export {
+  carcassArtNumber,
+  carcassColors,
+  carcasses,
+  carcassesByPlacement,
+  carcassesByType,
+  carcassTypeMeta,
+  getCarcass,
+  metodGrid,
+} from "@/lib/data/metod";
+export type {
+  Carcass,
+  CarcassColor,
+  CarcassPlacement,
+  CarcassType,
+} from "@/lib/data/metod";
+
 /** Een front-stijl (vorm/profiel van de deur- of ladevoorkant). */
 export interface FrontStyle {
   id: string;
@@ -73,6 +93,66 @@ export const frontFinishes: FrontFinish[] = [
   { id: "bamboe", label: "Bamboe", hex: "#c3a878", isWood: true },
 ];
 
+/**
+ * Een werkblad-afwerking. Het werkblad wordt door een externe partij besteld
+ * en geleverd — deze keuze stuurt alleen de 2D/3D-weergave en de bestellijst.
+ */
+export interface WorktopFinish {
+  id: string;
+  label: string;
+  /** Indicatieve kleur voor de 2D/3D-weergave. */
+  hex: string;
+  /** Ruwheid-hint voor de 3D-materialen (0 = glanzend, 1 = mat). */
+  roughness: number;
+  description: string;
+}
+
+/** Werkblad-afwerkingen — extern besteld, hier alleen als visuele keuze. */
+export const worktopFinishes: WorktopFinish[] = [
+  {
+    id: "eiken-massief",
+    label: "Massief eiken",
+    hex: "#c9a87a",
+    roughness: 0.8,
+    description: "Warm massief eikenhout, geolied.",
+  },
+  {
+    id: "beton",
+    label: "Beton",
+    hex: "#9b9891",
+    roughness: 0.9,
+    description: "Robuust betonlook — industrieel en stoer.",
+  },
+  {
+    id: "composiet-wit",
+    label: "Composiet wit",
+    hex: "#e9e6df",
+    roughness: 0.35,
+    description: "Strak wit composiet met een fijne spikkel.",
+  },
+  {
+    id: "terrazzo",
+    label: "Terrazzo",
+    hex: "#d8d0c4",
+    roughness: 0.4,
+    description: "Speels terrazzo met natuursteen-korrels.",
+  },
+  {
+    id: "graniet-zwart",
+    label: "Graniet zwart",
+    hex: "#2b2b2e",
+    roughness: 0.25,
+    description: "Diep zwart graniet, licht gepolijst.",
+  },
+  {
+    id: "rvs",
+    label: "RVS",
+    hex: "#b7bcc0",
+    roughness: 0.3,
+    description: "Professioneel roestvrij staal.",
+  },
+];
+
 /** Samengestelde keukenstijlen — één klik zet stijl + afwerking. */
 export const kitchenStyles: KitchenStyle[] = [
   {
@@ -137,4 +217,7 @@ export function getFrontFinish(id: string | null): FrontFinish | null {
 }
 export function getKitchenStyle(id: string | null): KitchenStyle | null {
   return id ? kitchenStyles.find((k) => k.id === id) ?? null : null;
+}
+export function getWorktopFinish(id: string | null): WorktopFinish | null {
+  return id ? worktopFinishes.find((w) => w.id === id) ?? null : null;
 }
