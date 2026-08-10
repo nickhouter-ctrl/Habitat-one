@@ -9,10 +9,18 @@ import { rangeProducts } from "@/lib/data/catalog";
 
 // Zoekresultaten horen niet in de index — robots.txt blokkeert crawlen,
 // maar alleen een noindex houdt de URL zelf uit de zoekresultaten.
-export const metadata: Metadata = {
-  title: "Search",
-  robots: { index: false, follow: false },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "products" });
+  return {
+    title: t("searchPlaceholder"),
+    robots: { index: false, follow: false },
+  };
+}
 
 export default async function SearchPage({
   params,

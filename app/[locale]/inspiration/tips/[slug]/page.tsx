@@ -32,7 +32,10 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
-  if (!PUBLISHED.includes(slug)) return { title: "Tips & advies" };
+  if (!PUBLISHED.includes(slug)) {
+    const nav = await getTranslations({ locale, namespace: "nav" });
+    return { title: nav("inspTips") };
+  }
   const t = await getTranslations({ locale, namespace: "tipsArticles" });
   const a = t.raw(slug) as Article;
   return {
@@ -51,6 +54,7 @@ export default async function TipArticlePage({
   if (!PUBLISHED.includes(slug)) notFound();
   setRequestLocale(locale);
   const t = await getTranslations("tipsArticles");
+  const nav = await getTranslations("nav");
   const a = t.raw(slug) as Article;
 
   const prefix = locale === "en" ? "" : `/${locale}`;
@@ -73,8 +77,8 @@ export default async function TipArticlePage({
   };
 
   const breadcrumb = breadcrumbJsonLd([
-    { name: "Home", url: `https://www.habitat-one.com${prefix}` },
-    { name: "Tips & advies", url: `https://www.habitat-one.com${prefix}/inspiration/tips` },
+    { name: nav("home"), url: `https://www.habitat-one.com${prefix}` },
+    { name: nav("inspTips"), url: `https://www.habitat-one.com${prefix}/inspiration/tips` },
     { name: a.title, url },
   ]);
 
@@ -115,10 +119,10 @@ export default async function TipArticlePage({
             <p className="mt-4 text-lg leading-relaxed text-ink-soft">{a.ctaText}</p>
             <div className="mt-7 flex flex-wrap justify-center gap-3">
               <Link href="/contact" className="btn btn-primary">
-                Contact
+                {nav("contact")}
                 <ArrowUpRight className="h-4 w-4" />
               </Link>
-              <Link href="/inspiration/tips" className="btn btn-ghost">Tips &amp; advies</Link>
+              <Link href="/inspiration/tips" className="btn btn-ghost">{nav("inspTips")}</Link>
             </div>
           </Reveal>
         </Container>
