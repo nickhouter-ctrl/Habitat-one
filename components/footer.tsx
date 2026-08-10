@@ -1,4 +1,4 @@
-import { getTranslations, getLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { site, primaryNav } from "@/lib/data/site";
@@ -10,7 +10,6 @@ export async function Footer() {
   const t = await getTranslations();
   const nav = await getTranslations("nav");
   const year = new Date().getFullYear();
-  await getLocale();
 
   const explore = primaryNav.slice(0, 4);
   const company = [
@@ -130,7 +129,9 @@ export async function Footer() {
           <p className="flex flex-wrap gap-x-5 gap-y-1">
             <span>{t("footer.privacy")}</span>
             <span>{t("footer.terms")}</span>
-            <span>{t("footer.cookies")}</span>
+            <Link href="/cookies" className="transition-colors hover:text-cream">
+              {t("footer.cookies")}
+            </Link>
             <CookieSettingsLink label={t("footer.cookieSettings")} />
             <span className="text-cream/40">{site.languages.join(" · ")}</span>
           </p>
