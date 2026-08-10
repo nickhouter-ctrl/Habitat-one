@@ -3,7 +3,6 @@ import { seoAlternates } from "@/lib/seo/alternates";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowUpRight, MapPin, Clock, LayoutGrid, MessageSquare, Box, FlaskConical, Navigation, Play } from "lucide-react";
-import { Link } from "@/i18n/navigation";
 import { PageHeader } from "@/components/ui/page-header";
 import { Container, Section } from "@/components/ui/section";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/ui/reveal";

@@ -48,54 +48,62 @@ export async function generateMetadata({
     alternates: seoAlternates(locale, "/inspiration"), title: t("title"), description: t("intro") };
 }
 
+/** Een galerij-item met vooraf opgeloste (gelokaliseerde) label + link. */
+type GalleryItem = { src: string; label: string; href: string };
+
+// Op moduleniveau — een component definiëren tijdens render remount hem bij
+// elke render (en de lint-regel react/no-nested-components verbiedt het).
+function Gallery({ title, items }: { title: string; items: GalleryItem[] }) {
+  return (
+    <Container>
+      <Reveal>
+        <h2 className="text-3xl text-ink sm:text-4xl">{title}</h2>
+      </Reveal>
+      <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
+        {items.map((item) => (
+          <Link
+            key={item.src}
+            href={item.href}
+            className="group relative block aspect-[4/5] overflow-hidden rounded-2xl border border-sand-200"
+          >
+            <Image
+              src={item.src}
+              alt={item.label}
+              fill
+              sizes="(max-width:640px) 50vw, (max-width:1024px) 50vw, 33vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-sea-900/55 via-transparent to-transparent opacity-80" />
+            <span className="absolute bottom-3 left-3 inline-flex items-center gap-1 rounded-full bg-paper/90 px-3 py-1 text-xs font-medium text-ink backdrop-blur">
+              {item.label}
+              <ArrowUpRight className="h-3.5 w-3.5 text-terracotta-700" />
+            </span>
+          </Link>
+        ))}
+      </div>
+    </Container>
+  );
+}
+
 export default async function InspirationPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("inspiration");
   const ts = await getTranslations("spaces");
 
-  function Gallery({ title, shots }: { title: string; shots: Shot[] }) {
-    return (
-      <Container>
-        <Reveal>
-          <h2 className="text-3xl text-ink sm:text-4xl">{title}</h2>
-        </Reveal>
-        <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
-          {shots.map((shot) => {
-            const label = shot.fire ? t("fireplaceLabel") : ts(`names.${shot.room}`);
-            const href = shot.fire ? "/products/sfeerhaarden" : `/spaces/${shot.room}`;
-            return (
-              <Link
-                key={shot.src}
-                href={href}
-                className="group relative block aspect-[4/5] overflow-hidden rounded-2xl border border-sand-200"
-              >
-                <Image
-                  src={shot.src}
-                  alt={label}
-                  fill
-                  sizes="(max-width:640px) 50vw, (max-width:1024px) 50vw, 33vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
-                />
-                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-sea-900/55 via-transparent to-transparent opacity-80" />
-                <span className="absolute bottom-3 left-3 inline-flex items-center gap-1 rounded-full bg-paper/90 px-3 py-1 text-xs font-medium text-ink backdrop-blur">
-                  {label}
-                  <ArrowUpRight className="h-3.5 w-3.5 text-terracotta-700" />
-                </span>
-              </Link>
-            );
-          })}
-        </div>
-      </Container>
-    );
-  }
+  const toItems = (shots: Shot[]): GalleryItem[] =>
+    shots.map((shot) => ({
+      src: shot.src,
+      label: shot.fire ? t("fireplaceLabel") : ts(`names.${shot.room}`),
+      href: shot.fire ? "/products/sfeerhaarden" : `/spaces/${shot.room}`,
+    }));
 
   return (
     <>
       <PageHeader eyebrow={t("eyebrow")} title={t("title")} intro={t("intro")} image="/spaces/living-room/travertine-white-golden-dining-room.jpg" />
 
       <Section>
-        <Gallery title={t("indoorTitle")} shots={INDOOR} />
+        <Gallery title={t("indoorTitle")} items={toItems(INDOOR)} />
       </Section>
 
       {/* ---- Cinematic full-bleed video band ---- */}
@@ -107,7 +115,7 @@ export default async function InspirationPage({ params }: { params: Promise<{ lo
       </section>
 
       <Section className="bg-sand-50">
-        <Gallery title={t("outdoorTitle")} shots={OUTDOOR} />
+        <Gallery title={t("outdoorTitle")} items={toItems(OUTDOOR)} />
       </Section>
 
       <Section>
