@@ -12,7 +12,7 @@
 import { useMemo, useRef, useState, type ReactNode } from "react";
 import { Check, Copy, Download, Printer, Send } from "lucide-react";
 import { carcassTypeMeta, type Carcass } from "@/lib/data/metod";
-import { deriveShoppingList } from "@/lib/planner/shopping-list";
+import { deriveShoppingList, formatShoppingList } from "@/lib/planner/shopping-list";
 import { usePlanner } from "@/lib/planner/store";
 import { usePlannerT } from "../i18n";
 import { KitchenQuoteForm } from "../kitchen-quote-form";
@@ -85,52 +85,61 @@ export function StepSummary() {
   );
 
   // Platte-tekst-versie van de bestellijst — voor kopiëren, downloaden en de
-  // offerteaanvraag richting het CRM. Bewust niet gememoized: een handvol
-  // regels string-werk per render is goedkoper dan de dependency-lijst.
-  const summaryText = (() => {
-    const lines: string[] = [
-      tf("summary.printTitle", "Bestellijst keukenontwerp").toUpperCase(),
-      "",
-      tf("summary.roomTitle", "Ruimte").toUpperCase(),
-      roomLine,
-      "",
-      carcassesTitle.toUpperCase(),
-    ];
-    if (carcassRows.length === 0) {
-      lines.push(`- ${tf("summary.emptyCarcasses", "Nog geen kasten getekend.")}`);
-    }
-    for (const { carcass, count, articleNumber } of carcassRows) {
-      lines.push(
-        `${count}× ${carcassLabel(carcass)} — ${carcass.b}×${carcass.d}×${carcass.h} cm — ${tf("summary.colArticle", "Artikelnr. (IKEA NL)")}: ${articleNumber}`,
-      );
-    }
-    lines.push(carcassNote, "", appliancesTitle.toUpperCase());
-    if (applianceRows.length === 0) {
-      lines.push(`- ${tf("summary.emptyAppliances", "Nog geen apparatuur gekozen.")}`);
-    }
-    for (const { appliance, count } of applianceRows) {
-      lines.push(
-        `${count}× ${applianceLabel(appliance.id, appliance.label)} — ${appliance.widthCm}×${appliance.heightCm}×${appliance.depthCm} cm`,
-      );
-    }
-    lines.push(
-      "",
-      frontsTitle.toUpperCase(),
-      `${tf("summary.frontsLabel", "Fronten:")} ${frontStyleLabel} · ${frontFinishLabel} — ${tf("summary.carcassCount", `${carcassCount} casco's`, { count: carcassCount })}`,
-      `${tf("summary.sidePanelsLabel", "Zijpanelen:")} ${sidePanelLabel}`,
-      "",
-      worktopTitle.toUpperCase(),
-    );
-    if (worktopLabel !== null) {
-      lines.push(
-        tf("summary.worktopChosen", `Gekozen uitstraling: ${worktopLabel}`, {
-          label: worktopLabel,
-        }),
-      );
-    }
-    lines.push(worktopNote);
-    return lines.join("\n");
-  })();
+  // offerteaanvraag richting het CRM. Eén gedeelde formatter (lib/planner),
+  // hier gevoed met vertaalde labels.
+  //
+  // formatShoppingList leest de front-/werkbladnamen rechtstreeks van de
+  // catalogusobjecten (die zijn Nederlands), dus die vervangen we vooraf door
+  // hun vertaling. Zo staat de hele lijst in de taal van de klant zonder de
+  // gedeelde formatter te hoeven forken.
+  const summaryText = formatShoppingList(
+    {
+      ...list,
+      // frontStyleLabel/frontFinishLabel dekken de "nog te kiezen"-tekst al —
+      // en die is per veld anders. Daarom altijd een object doorgeven, zodat de
+      // formatter niet terugvalt op het generieke `notChosen`.
+      frontStyle: { id: "", description: "", ...frontStyle, label: frontStyleLabel },
+      frontFinish: {
+        id: "",
+        hex: "transparent",
+        isWood: false,
+        ...frontFinish,
+        label: frontFinishLabel,
+      },
+      sidePanelFinish: sidePanelFinish && { ...sidePanelFinish, label: sidePanelLabel },
+      worktop: worktop && worktopLabel ? { ...worktop, label: worktopLabel } : worktop,
+    },
+    {
+      labels: {
+        title: tf("summary.printTitle", "Bestellijst keukenontwerp").toUpperCase(),
+        roomTitle: tf("summary.roomTitle", "Ruimte").toUpperCase(),
+        roomLine: () => roomLine,
+        carcassesTitle: () => carcassesTitle.toUpperCase(),
+        // De kleurnaam zit al in carcassesTitle verwerkt; deze map dient alleen
+        // als invoer daarvoor.
+        carcassColor: { wit: colorLabel, "houtpatroon-zwart": colorLabel },
+        carcassType: (type) =>
+          tf(`catalog.carcassTypes.${type}`, carcassTypeMeta[type].label),
+        applianceLabel: (appliance) => applianceLabel(appliance.id, appliance.label),
+        articleNumberLabel: tf("summary.colArticle", "Artikelnr. (IKEA NL)"),
+        carcassNote,
+        emptyCarcasses: `- ${tf("summary.emptyCarcasses", "Nog geen kasten getekend.")}`,
+        appliancesTitle: appliancesTitle.toUpperCase(),
+        emptyAppliances: `- ${tf("summary.emptyAppliances", "Nog geen apparatuur gekozen.")}`,
+        frontsTitle: frontsTitle.toUpperCase(),
+        frontsLabel: tf("summary.frontsLabel", "Fronten:"),
+        sidePanelsLabel: tf("summary.sidePanelsLabel", "Zijpanelen:"),
+        sidePanelSameAsFronts: sidePanelLabel,
+        notChosen: tf("summary.finishTbd", "afwerking nog te kiezen"),
+        carcassCount: (count) =>
+          tf("summary.carcassCount", `${count} casco's`, { count }),
+        worktopTitle: worktopTitle.toUpperCase(),
+        worktopChosen: (label) =>
+          tf("summary.worktopChosen", `Gekozen uitstraling: ${label}`, { label }),
+        worktopNote,
+      },
+    },
+  );
 
   /** Kopieert de bestellijst; valt terug op een tijdelijk textarea zonder Clipboard API. */
   async function copyList() {
