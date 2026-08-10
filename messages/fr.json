@@ -1595,6 +1595,119 @@
       "item": "Élément",
       "dragHint3d": "Faites glisser un meuble pour le déplacer. Faites glisser le sol pour pivoter, faites défiler pour zoomer.",
       "collision": "Les meubles se chevauchent — déplacez-en un"
+    },
+    "stepper": {
+      "aria": "Étapes du planificateur de cuisine",
+      "stepOf": "Étape {current} sur {total}"
+    },
+    "steps": {
+      "room": {
+        "short": "Pièce"
+      },
+      "fronts": {
+        "short": "Façades"
+      },
+      "design": {
+        "short": "Conception"
+      },
+      "summary": {
+        "short": "Récapitulatif"
+      }
+    },
+    "nav": {
+      "prev": "Précédent",
+      "next": "Suivant"
+    },
+    "room": {
+      "title": "Commencez par votre pièce",
+      "intro": "Choisissez une implantation, saisissez les dimensions et indiquez où se trouvent la fenêtre et la porte. À l'étape suivante, vous dessinerez votre cuisine.",
+      "layout": {
+        "title": "Implantation",
+        "intro": "Choisissez la forme de votre cuisine — nous plaçons aussitôt une rangée de meubles bas pour commencer. Tout reste ensuite librement modifiable.",
+        "recht": {
+          "label": "Linéaire",
+          "description": "Un seul mur — compact et lisible."
+        },
+        "l": {
+          "label": "En L",
+          "description": "Deux murs en angle — beaucoup de plan de travail."
+        },
+        "u": {
+          "label": "En U",
+          "description": "Trois murs — rangement et espace de travail maximaux."
+        },
+        "replaceNote": "Attention : choisir une implantation remplace les meubles actuellement placés."
+      },
+      "width": "Largeur de la pièce",
+      "depth": "Profondeur de la pièce",
+      "ceiling": "Hauteur sous plafond",
+      "estimateHint": "Un doute sur les mesures ? Saisissez une estimation — vous pourrez toujours les ajuster plus tard.",
+      "openings": {
+        "title": "Fenêtre & porte",
+        "intro": "Indiquez approximativement où se trouvent une fenêtre et la porte. Cela aide à l'aménagement et rend la vue 3D plus réaliste.",
+        "addWindow": "Ajouter une fenêtre",
+        "addDoor": "Ajouter une porte",
+        "remove": "Supprimer",
+        "wall": "Mur",
+        "width": "Largeur",
+        "position": "Position sur le mur"
+      },
+      "walls": {
+        "top": "Haut",
+        "bottom": "Bas",
+        "left": "Gauche",
+        "right": "Droite"
+      },
+      "preview": {
+        "topDown": "Vue de dessus",
+        "window": "Fenêtre",
+        "door": "Porte"
+      },
+      "carcass": {
+        "title": "Couleur du caisson",
+        "intro": "La couleur des caissons nus. Vous choisirez les façades plus tard — elles recouvrent la majeure partie des caissons."
+      }
+    },
+    "design": {
+      "title": "Dessinez votre cuisine",
+      "intro": "Choisissez un meuble ou un appareil à droite — il apparaît dans la pièce. Faites-le glisser sur le plan ; il s'aimante à un mur ou à un autre meuble, et au centre il devient un îlot de cuisine.",
+      "view2d": "Plan",
+      "view3d": "Vue 3D",
+      "layerBase": "Meubles bas",
+      "layerWall": "Meubles hauts",
+      "undo": "Annuler",
+      "redo": "Rétablir",
+      "advice": {
+        "title": "Conseil — une cuisine jusqu'au plafond",
+        "bodyWall": "Un meuble haut de {h} cm laisse {gap} cm libres jusqu'au plafond ({ceiling} cm). Avec une rehausse de {topH} cm, vous fermez la cuisine jusqu'au plafond.",
+        "bodyTall": "Une armoire de {h} cm laisse {gap} cm libres jusqu'au plafond ({ceiling} cm). Avec une rehausse de {topH} cm, vous fermez la cuisine jusqu'au plafond.",
+        "add": "Ajouter une rehausse"
+      },
+      "clickHint": "Cliquez sur un élément placé pour le faire pivoter, le supprimer ou y accrocher d'autres meubles.",
+      "loading3d": "Chargement de la vue 3D…",
+      "hint3d": "Faites glisser pour pivoter, faites défiler pour zoomer. Cliquez sur un élément pour le sélectionner.",
+      "addBase": "Ajouter — niveau bas",
+      "addWall": "Ajouter — niveau haut",
+      "tabAppliances": "Électroménager",
+      "tabCabinets": "Meubles",
+      "noAppliances": "Aucun appareil pour ce niveau.",
+      "cabType": "Type de meuble",
+      "depth": "Profondeur",
+      "all": "Tous",
+      "dims": "largeur {b} · profondeur {d} · hauteur {h} cm",
+      "addAria": "Ajouter {name}",
+      "selected": "Sélectionné : {name}",
+      "rotate": "Pivoter",
+      "remove": "Supprimer",
+      "fallbackAppliance": "Appareil",
+      "fallbackCabinet": "Meuble",
+      "fallbackItem": "Élément"
+    },
+    "catalog": {
+      "carcassColors": {
+        "wit": "Blanc",
+        "houtpatroon-zwart": "Effet bois noir"
+      }
     }
   },
   "quoteForm": {

@@ -1595,6 +1595,119 @@
       "item": "Item",
       "dragHint3d": "Sleep een kast om hem te verplaatsen. Sleep de vloer om te draaien, scroll om te zoomen.",
       "collision": "Kasten overlappen — schuif er één opzij"
+    },
+    "stepper": {
+      "aria": "Stappen van de keukenplanner",
+      "stepOf": "Stap {current} van {total}"
+    },
+    "steps": {
+      "room": {
+        "short": "Ruimte"
+      },
+      "fronts": {
+        "short": "Fronten"
+      },
+      "design": {
+        "short": "Ontwerpen"
+      },
+      "summary": {
+        "short": "Overzicht"
+      }
+    },
+    "nav": {
+      "prev": "Vorige",
+      "next": "Volgende"
+    },
+    "room": {
+      "title": "Maak eerst je ruimte",
+      "intro": "Kies een opstelling, geef de afmetingen op en geef aan waar het raam en de deur zitten. Daarna teken je in de volgende stap de keuken.",
+      "layout": {
+        "title": "Opstelling",
+        "intro": "Kies de vorm van je keuken — we zetten meteen een startopstelling van onderkasten neer. Alles is daarna vrij te verschuiven en aan te passen.",
+        "recht": {
+          "label": "Recht",
+          "description": "Eén rechte wand — compact en overzichtelijk."
+        },
+        "l": {
+          "label": "L-vorm",
+          "description": "Twee wanden in een hoek — veel werkblad."
+        },
+        "u": {
+          "label": "U-vorm",
+          "description": "Drie wanden — maximale kast- en werkruimte."
+        },
+        "replaceNote": "Let op: een opstelling kiezen vervangt de kasten die er nu staan."
+      },
+      "width": "Breedte van de ruimte",
+      "depth": "Diepte van de ruimte",
+      "ceiling": "Plafondhoogte",
+      "estimateHint": "Twijfel je over de maten? Vul een schatting in — je kunt ze later altijd aanpassen.",
+      "openings": {
+        "title": "Raam & deur",
+        "intro": "Geef ongeveer aan waar een raam en de deur zitten. Dit helpt bij de indeling en maakt het 3D-aanzicht realistischer.",
+        "addWindow": "Raam toevoegen",
+        "addDoor": "Deur toevoegen",
+        "remove": "Verwijderen",
+        "wall": "Wand",
+        "width": "Breedte",
+        "position": "Positie op de wand"
+      },
+      "walls": {
+        "top": "Boven",
+        "bottom": "Onder",
+        "left": "Links",
+        "right": "Rechts"
+      },
+      "preview": {
+        "topDown": "Van bovenaf gezien",
+        "window": "Raam",
+        "door": "Deur"
+      },
+      "carcass": {
+        "title": "Cascokleur",
+        "intro": "De kleur van de kale basiskasten. De fronten kies je later — die dekken de casco's grotendeels af."
+      }
+    },
+    "design": {
+      "title": "Teken je keuken",
+      "intro": "Kies rechts een kast of apparaat — het verschijnt in de ruimte. In de plattegrond sleep je het op zijn plek; tegen een wand of een andere kast klikt het vast, in het midden maak je er een keukeneiland van.",
+      "view2d": "Plattegrond",
+      "view3d": "3D-aanzicht",
+      "layerBase": "Onderkasten",
+      "layerWall": "Bovenkasten",
+      "undo": "Ongedaan maken",
+      "redo": "Opnieuw",
+      "advice": {
+        "title": "Advies — keuken tot het plafond",
+        "bodyWall": "Een bovenkast van {h} cm laat {gap} cm vrij tot het plafond ({ceiling} cm). Met een opzetkast van {topH} cm maak je het helemaal tot het plafond af.",
+        "bodyTall": "Een hoge kast van {h} cm laat {gap} cm vrij tot het plafond ({ceiling} cm). Met een opzetkast van {topH} cm maak je het helemaal tot het plafond af.",
+        "add": "Opzetkast toevoegen"
+      },
+      "clickHint": "Klik op een geplaatst item om het te draaien, te verwijderen of er kasten aan vast te klikken.",
+      "loading3d": "3D-weergave laden…",
+      "hint3d": "Sleep om te draaien, scroll om te zoomen. Klik een element om het te selecteren.",
+      "addBase": "Toevoegen — onderlaag",
+      "addWall": "Toevoegen — bovenlaag",
+      "tabAppliances": "Apparatuur",
+      "tabCabinets": "Kasten",
+      "noAppliances": "Geen apparatuur voor deze laag.",
+      "cabType": "Soort kast",
+      "depth": "Diepte",
+      "all": "Alle",
+      "dims": "breedte {b} · diepte {d} · hoogte {h} cm",
+      "addAria": "{name} toevoegen",
+      "selected": "Geselecteerd: {name}",
+      "rotate": "Draaien",
+      "remove": "Verwijderen",
+      "fallbackAppliance": "Apparaat",
+      "fallbackCabinet": "Kast",
+      "fallbackItem": "Item"
+    },
+    "catalog": {
+      "carcassColors": {
+        "wit": "Wit",
+        "houtpatroon-zwart": "Houtpatroon zwart"
+      }
     }
   },
   "quoteForm": {

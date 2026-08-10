@@ -1595,6 +1595,119 @@
       "item": "Item",
       "dragHint3d": "Drag a cabinet to move it. Drag the floor to orbit, scroll to zoom.",
       "collision": "Cabinets overlap — move one aside"
+    },
+    "stepper": {
+      "aria": "Kitchen planner steps",
+      "stepOf": "Step {current} of {total}"
+    },
+    "steps": {
+      "room": {
+        "short": "Room"
+      },
+      "fronts": {
+        "short": "Fronts"
+      },
+      "design": {
+        "short": "Design"
+      },
+      "summary": {
+        "short": "Overview"
+      }
+    },
+    "nav": {
+      "prev": "Back",
+      "next": "Next"
+    },
+    "room": {
+      "title": "Start with your room",
+      "intro": "Choose a layout, enter the dimensions and mark where the window and door are. In the next step you'll draw your kitchen.",
+      "layout": {
+        "title": "Layout",
+        "intro": "Choose the shape of your kitchen — we'll place a starter row of base cabinets right away. Everything can be moved and changed afterwards.",
+        "recht": {
+          "label": "Straight",
+          "description": "One straight wall — compact and clear."
+        },
+        "l": {
+          "label": "L-shape",
+          "description": "Two walls meeting in a corner — plenty of worktop."
+        },
+        "u": {
+          "label": "U-shape",
+          "description": "Three walls — maximum storage and workspace."
+        },
+        "replaceNote": "Note: choosing a layout replaces the cabinets currently placed."
+      },
+      "width": "Room width",
+      "depth": "Room depth",
+      "ceiling": "Ceiling height",
+      "estimateHint": "Not sure about the measurements? Enter an estimate — you can always adjust them later.",
+      "openings": {
+        "title": "Window & door",
+        "intro": "Roughly mark where a window and the door are. This helps with the layout and makes the 3D view more realistic.",
+        "addWindow": "Add window",
+        "addDoor": "Add door",
+        "remove": "Remove",
+        "wall": "Wall",
+        "width": "Width",
+        "position": "Position on the wall"
+      },
+      "walls": {
+        "top": "Top",
+        "bottom": "Bottom",
+        "left": "Left",
+        "right": "Right"
+      },
+      "preview": {
+        "topDown": "Seen from above",
+        "window": "Window",
+        "door": "Door"
+      },
+      "carcass": {
+        "title": "Cabinet frame colour",
+        "intro": "The colour of the bare base cabinets. You'll choose the fronts later — they cover most of the frames."
+      }
+    },
+    "design": {
+      "title": "Draw your kitchen",
+      "intro": "Pick a cabinet or appliance on the right — it appears in the room. Drag it into place on the floor plan; it snaps to a wall or another cabinet, and in the middle it becomes a kitchen island.",
+      "view2d": "Floor plan",
+      "view3d": "3D view",
+      "layerBase": "Base cabinets",
+      "layerWall": "Wall cabinets",
+      "undo": "Undo",
+      "redo": "Redo",
+      "advice": {
+        "title": "Tip — take the kitchen up to the ceiling",
+        "bodyWall": "A wall cabinet of {h} cm leaves {gap} cm free up to the ceiling ({ceiling} cm). Add a top cabinet of {topH} cm to finish it all the way up.",
+        "bodyTall": "A tall cabinet of {h} cm leaves {gap} cm free up to the ceiling ({ceiling} cm). Add a top cabinet of {topH} cm to finish it all the way up.",
+        "add": "Add top cabinet"
+      },
+      "clickHint": "Click a placed item to rotate it, remove it or snap more cabinets onto it.",
+      "loading3d": "Loading 3D view…",
+      "hint3d": "Drag to rotate, scroll to zoom. Click an element to select it.",
+      "addBase": "Add — base level",
+      "addWall": "Add — wall level",
+      "tabAppliances": "Appliances",
+      "tabCabinets": "Cabinets",
+      "noAppliances": "No appliances for this level.",
+      "cabType": "Cabinet type",
+      "depth": "Depth",
+      "all": "All",
+      "dims": "width {b} · depth {d} · height {h} cm",
+      "addAria": "Add {name}",
+      "selected": "Selected: {name}",
+      "rotate": "Rotate",
+      "remove": "Remove",
+      "fallbackAppliance": "Appliance",
+      "fallbackCabinet": "Cabinet",
+      "fallbackItem": "Item"
+    },
+    "catalog": {
+      "carcassColors": {
+        "wit": "White",
+        "houtpatroon-zwart": "Black wood effect"
+      }
     }
   },
   "quoteForm": {

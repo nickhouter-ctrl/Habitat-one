@@ -1595,6 +1595,119 @@
       "item": "Element",
       "dragHint3d": "Ziehen Sie einen Schrank, um ihn zu verschieben. Ziehen Sie den Boden zum Drehen, scrollen Sie zum Zoomen.",
       "collision": "Schränke überlappen — bitte einen verschieben"
+    },
+    "stepper": {
+      "aria": "Schritte des Küchenplaners",
+      "stepOf": "Schritt {current} von {total}"
+    },
+    "steps": {
+      "room": {
+        "short": "Raum"
+      },
+      "fronts": {
+        "short": "Fronten"
+      },
+      "design": {
+        "short": "Entwurf"
+      },
+      "summary": {
+        "short": "Übersicht"
+      }
+    },
+    "nav": {
+      "prev": "Zurück",
+      "next": "Weiter"
+    },
+    "room": {
+      "title": "Beginnen Sie mit Ihrem Raum",
+      "intro": "Wählen Sie eine Küchenform, geben Sie die Maße ein und markieren Sie, wo Fenster und Tür sitzen. Im nächsten Schritt zeichnen Sie Ihre Küche.",
+      "layout": {
+        "title": "Küchenform",
+        "intro": "Wählen Sie die Form Ihrer Küche — wir stellen sofort eine Startreihe Unterschränke auf. Alles lässt sich danach frei verschieben und anpassen.",
+        "recht": {
+          "label": "Gerade",
+          "description": "Eine gerade Wand — kompakt und übersichtlich."
+        },
+        "l": {
+          "label": "L-Form",
+          "description": "Zwei Wände über Eck — viel Arbeitsfläche."
+        },
+        "u": {
+          "label": "U-Form",
+          "description": "Drei Wände — maximaler Stauraum und Arbeitsfläche."
+        },
+        "replaceNote": "Hinweis: Die Wahl einer Küchenform ersetzt die aktuell platzierten Schränke."
+      },
+      "width": "Raumbreite",
+      "depth": "Raumtiefe",
+      "ceiling": "Deckenhöhe",
+      "estimateHint": "Unsicher bei den Maßen? Geben Sie eine Schätzung ein — Sie können sie später jederzeit anpassen.",
+      "openings": {
+        "title": "Fenster & Tür",
+        "intro": "Markieren Sie ungefähr, wo ein Fenster und die Tür sitzen. Das hilft bei der Aufteilung und macht die 3D-Ansicht realistischer.",
+        "addWindow": "Fenster hinzufügen",
+        "addDoor": "Tür hinzufügen",
+        "remove": "Entfernen",
+        "wall": "Wand",
+        "width": "Breite",
+        "position": "Position an der Wand"
+      },
+      "walls": {
+        "top": "Oben",
+        "bottom": "Unten",
+        "left": "Links",
+        "right": "Rechts"
+      },
+      "preview": {
+        "topDown": "Von oben gesehen",
+        "window": "Fenster",
+        "door": "Tür"
+      },
+      "carcass": {
+        "title": "Korpusfarbe",
+        "intro": "Die Farbe der blanken Basisschränke. Die Fronten wählen Sie später — sie verdecken die Korpusse größtenteils."
+      }
+    },
+    "design": {
+      "title": "Zeichnen Sie Ihre Küche",
+      "intro": "Wählen Sie rechts einen Schrank oder ein Gerät — es erscheint im Raum. Ziehen Sie es im Grundriss an seinen Platz; an einer Wand oder einem anderen Schrank rastet es ein, in der Mitte wird daraus eine Kücheninsel.",
+      "view2d": "Grundriss",
+      "view3d": "3D-Ansicht",
+      "layerBase": "Unterschränke",
+      "layerWall": "Oberschränke",
+      "undo": "Rückgängig",
+      "redo": "Wiederholen",
+      "advice": {
+        "title": "Tipp — Küche bis zur Decke",
+        "bodyWall": "Ein Oberschrank von {h} cm lässt {gap} cm bis zur Decke frei ({ceiling} cm). Mit einem Aufsatzschrank von {topH} cm schließen Sie die Küche bis zur Decke ab.",
+        "bodyTall": "Ein Hochschrank von {h} cm lässt {gap} cm bis zur Decke frei ({ceiling} cm). Mit einem Aufsatzschrank von {topH} cm schließen Sie die Küche bis zur Decke ab.",
+        "add": "Aufsatzschrank hinzufügen"
+      },
+      "clickHint": "Klicken Sie ein platziertes Element an, um es zu drehen, zu entfernen oder weitere Schränke daran anzudocken.",
+      "loading3d": "3D-Ansicht wird geladen…",
+      "hint3d": "Ziehen zum Drehen, scrollen zum Zoomen. Klicken Sie ein Element an, um es auszuwählen.",
+      "addBase": "Hinzufügen — untere Ebene",
+      "addWall": "Hinzufügen — obere Ebene",
+      "tabAppliances": "Geräte",
+      "tabCabinets": "Schränke",
+      "noAppliances": "Keine Geräte für diese Ebene.",
+      "cabType": "Schranktyp",
+      "depth": "Tiefe",
+      "all": "Alle",
+      "dims": "Breite {b} · Tiefe {d} · Höhe {h} cm",
+      "addAria": "{name} hinzufügen",
+      "selected": "Ausgewählt: {name}",
+      "rotate": "Drehen",
+      "remove": "Entfernen",
+      "fallbackAppliance": "Gerät",
+      "fallbackCabinet": "Schrank",
+      "fallbackItem": "Element"
+    },
+    "catalog": {
+      "carcassColors": {
+        "wit": "Weiß",
+        "houtpatroon-zwart": "Holzdekor schwarz"
+      }
     }
   },
   "quoteForm": {

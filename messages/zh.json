@@ -1595,6 +1595,119 @@
       "item": "部件",
       "dragHint3d": "拖动橱柜可移动位置。拖动地面可旋转视角，滚动可缩放。",
       "collision": "橱柜重叠——请移开一个"
+    },
+    "stepper": {
+      "aria": "厨房规划器步骤",
+      "stepOf": "第 {current} 步，共 {total} 步"
+    },
+    "steps": {
+      "room": {
+        "short": "空间"
+      },
+      "fronts": {
+        "short": "门板"
+      },
+      "design": {
+        "short": "设计"
+      },
+      "summary": {
+        "short": "清单"
+      }
+    },
+    "nav": {
+      "prev": "上一步",
+      "next": "下一步"
+    },
+    "room": {
+      "title": "先设置您的空间",
+      "intro": "选择布局，输入尺寸，并标记窗户和门的位置。下一步您就可以绘制厨房了。",
+      "layout": {
+        "title": "布局",
+        "intro": "选择厨房的形状——我们会立即摆放一排入门地柜。之后一切都可以自由移动和调整。",
+        "recht": {
+          "label": "一字形",
+          "description": "一面直墙——紧凑清晰。"
+        },
+        "l": {
+          "label": "L 形",
+          "description": "两面墙成直角——台面充足。"
+        },
+        "u": {
+          "label": "U 形",
+          "description": "三面墙——储物和操作空间最大化。"
+        },
+        "replaceNote": "注意：选择布局会替换当前已摆放的柜子。"
+      },
+      "width": "空间宽度",
+      "depth": "空间进深",
+      "ceiling": "天花板高度",
+      "estimateHint": "不确定尺寸？先填一个估计值——之后随时可以调整。",
+      "openings": {
+        "title": "窗户和门",
+        "intro": "大致标记窗户和门的位置。这有助于布局，也让 3D 视图更真实。",
+        "addWindow": "添加窗户",
+        "addDoor": "添加门",
+        "remove": "删除",
+        "wall": "墙面",
+        "width": "宽度",
+        "position": "在墙上的位置"
+      },
+      "walls": {
+        "top": "上",
+        "bottom": "下",
+        "left": "左",
+        "right": "右"
+      },
+      "preview": {
+        "topDown": "俯视图",
+        "window": "窗户",
+        "door": "门"
+      },
+      "carcass": {
+        "title": "柜体颜色",
+        "intro": "基础柜体的颜色。门板稍后再选——它们会遮住大部分柜体。"
+      }
+    },
+    "design": {
+      "title": "绘制您的厨房",
+      "intro": "在右侧选择柜子或电器——它会出现在空间中。在平面图中将它拖到位；靠近墙面或其他柜子会自动吸附，放在中间则形成厨房岛台。",
+      "view2d": "平面图",
+      "view3d": "3D 视图",
+      "layerBase": "地柜",
+      "layerWall": "吊柜",
+      "undo": "撤销",
+      "redo": "重做",
+      "advice": {
+        "title": "建议——让厨房直达天花板",
+        "bodyWall": "{h} 厘米的吊柜距天花板（{ceiling} 厘米）还留有 {gap} 厘米空隙。加装 {topH} 厘米的顶柜即可一直做到天花板。",
+        "bodyTall": "{h} 厘米的高柜距天花板（{ceiling} 厘米）还留有 {gap} 厘米空隙。加装 {topH} 厘米的顶柜即可一直做到天花板。",
+        "add": "添加顶柜"
+      },
+      "clickHint": "点击已摆放的元素即可旋转、删除，或在其旁边继续拼接柜子。",
+      "loading3d": "正在加载 3D 视图…",
+      "hint3d": "拖动旋转，滚动缩放。点击元素即可选中。",
+      "addBase": "添加——下层",
+      "addWall": "添加——上层",
+      "tabAppliances": "电器",
+      "tabCabinets": "柜子",
+      "noAppliances": "该层没有可用电器。",
+      "cabType": "柜子类型",
+      "depth": "进深",
+      "all": "全部",
+      "dims": "宽 {b} · 深 {d} · 高 {h} 厘米",
+      "addAria": "添加 {name}",
+      "selected": "已选中：{name}",
+      "rotate": "旋转",
+      "remove": "删除",
+      "fallbackAppliance": "电器",
+      "fallbackCabinet": "柜子",
+      "fallbackItem": "元素"
+    },
+    "catalog": {
+      "carcassColors": {
+        "wit": "白色",
+        "houtpatroon-zwart": "黑色木纹"
+      }
     }
   },
   "quoteForm": {

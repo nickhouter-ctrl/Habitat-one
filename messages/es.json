@@ -1595,6 +1595,119 @@
       "item": "Elemento",
       "dragHint3d": "Arrastra un armario para moverlo. Arrastra el suelo para girar, desplázate para hacer zoom.",
       "collision": "Los armarios se superponen — mueve uno"
+    },
+    "stepper": {
+      "aria": "Pasos del planificador de cocinas",
+      "stepOf": "Paso {current} de {total}"
+    },
+    "steps": {
+      "room": {
+        "short": "Espacio"
+      },
+      "fronts": {
+        "short": "Frentes"
+      },
+      "design": {
+        "short": "Diseño"
+      },
+      "summary": {
+        "short": "Resumen"
+      }
+    },
+    "nav": {
+      "prev": "Anterior",
+      "next": "Siguiente"
+    },
+    "room": {
+      "title": "Empieza por tu espacio",
+      "intro": "Elige una distribución, introduce las medidas e indica dónde están la ventana y la puerta. En el siguiente paso dibujarás tu cocina.",
+      "layout": {
+        "title": "Distribución",
+        "intro": "Elige la forma de tu cocina — colocamos al momento una fila inicial de muebles bajos. Después podrás mover y cambiar todo libremente.",
+        "recht": {
+          "label": "Lineal",
+          "description": "Una sola pared — compacta y clara."
+        },
+        "l": {
+          "label": "En L",
+          "description": "Dos paredes en esquina — mucha encimera."
+        },
+        "u": {
+          "label": "En U",
+          "description": "Tres paredes — máximo almacenaje y espacio de trabajo."
+        },
+        "replaceNote": "Atención: elegir una distribución sustituye los muebles colocados ahora."
+      },
+      "width": "Ancho del espacio",
+      "depth": "Fondo del espacio",
+      "ceiling": "Altura del techo",
+      "estimateHint": "¿Dudas con las medidas? Introduce una estimación — siempre podrás ajustarlas más tarde.",
+      "openings": {
+        "title": "Ventana y puerta",
+        "intro": "Indica aproximadamente dónde están una ventana y la puerta. Ayuda con la distribución y hace la vista 3D más realista.",
+        "addWindow": "Añadir ventana",
+        "addDoor": "Añadir puerta",
+        "remove": "Eliminar",
+        "wall": "Pared",
+        "width": "Ancho",
+        "position": "Posición en la pared"
+      },
+      "walls": {
+        "top": "Arriba",
+        "bottom": "Abajo",
+        "left": "Izquierda",
+        "right": "Derecha"
+      },
+      "preview": {
+        "topDown": "Visto desde arriba",
+        "window": "Ventana",
+        "door": "Puerta"
+      },
+      "carcass": {
+        "title": "Color del armazón",
+        "intro": "El color de los muebles base desnudos. Los frentes los eliges después — cubren la mayor parte de los armazones."
+      }
+    },
+    "design": {
+      "title": "Dibuja tu cocina",
+      "intro": "Elige a la derecha un mueble o un electrodoméstico — aparecerá en el espacio. Arrástralo a su sitio en el plano; se ajusta a una pared o a otro mueble, y en el centro se convierte en una isla de cocina.",
+      "view2d": "Plano",
+      "view3d": "Vista 3D",
+      "layerBase": "Muebles bajos",
+      "layerWall": "Muebles altos",
+      "undo": "Deshacer",
+      "redo": "Rehacer",
+      "advice": {
+        "title": "Consejo — cocina hasta el techo",
+        "bodyWall": "Un mueble alto de {h} cm deja {gap} cm libres hasta el techo ({ceiling} cm). Con un módulo superior de {topH} cm la rematas hasta el techo.",
+        "bodyTall": "Una columna de {h} cm deja {gap} cm libres hasta el techo ({ceiling} cm). Con un módulo superior de {topH} cm la rematas hasta el techo.",
+        "add": "Añadir módulo superior"
+      },
+      "clickHint": "Haz clic en un elemento colocado para girarlo, eliminarlo o encajarle más muebles.",
+      "loading3d": "Cargando vista 3D…",
+      "hint3d": "Arrastra para girar, haz scroll para hacer zoom. Haz clic en un elemento para seleccionarlo.",
+      "addBase": "Añadir — nivel bajo",
+      "addWall": "Añadir — nivel alto",
+      "tabAppliances": "Electrodomésticos",
+      "tabCabinets": "Muebles",
+      "noAppliances": "No hay electrodomésticos para este nivel.",
+      "cabType": "Tipo de mueble",
+      "depth": "Fondo",
+      "all": "Todos",
+      "dims": "ancho {b} · fondo {d} · alto {h} cm",
+      "addAria": "Añadir {name}",
+      "selected": "Seleccionado: {name}",
+      "rotate": "Girar",
+      "remove": "Eliminar",
+      "fallbackAppliance": "Electrodoméstico",
+      "fallbackCabinet": "Mueble",
+      "fallbackItem": "Elemento"
+    },
+    "catalog": {
+      "carcassColors": {
+        "wit": "Blanco",
+        "houtpatroon-zwart": "Efecto madera negro"
+      }
     }
   },
   "quoteForm": {
