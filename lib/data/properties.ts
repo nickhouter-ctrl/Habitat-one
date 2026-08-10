@@ -5,6 +5,8 @@
  * the `crm-properties` cache tag.
  */
 import type { Locale } from "@/i18n/routing";
+import { CRM_API } from "@/lib/account/crm";
+import { LOCALE_TAGS } from "@/lib/account/intl";
 
 export type CrmProperty = {
   id: string;
@@ -31,7 +33,9 @@ export type CrmProperty = {
   updatedAt: string;
 };
 
-const BASE = process.env.CRM_API_URL?.replace(/\/$/, "");
+// CRM_API_URL kan de gedeelde basis-URL overschrijven; zonder die variabele
+// vielen de panden stilletjes weg — nu is er altijd een werkende basis.
+const BASE = (process.env.CRM_API_URL ?? CRM_API).replace(/\/$/, "");
 
 export const CRM_PROPERTIES_TAG = "crm-properties";
 
@@ -318,18 +322,9 @@ export function formatPriceEUR(value: string | null, locale: Locale): string | n
   if (!value) return null;
   const n = Number(value);
   if (!Number.isFinite(n) || n <= 0) return null;
-  return new Intl.NumberFormat(
-    locale === "en"
-      ? "en-IE"
-      : locale === "nl"
-        ? "nl-NL"
-        : locale === "es"
-          ? "es-ES"
-          : locale === "fr"
-            ? "fr-FR"
-            : locale === "zh"
-              ? "zh-CN"
-              : "de-DE",
-    { style: "currency", currency: "EUR", maximumFractionDigits: 0 },
-  ).format(n);
+  return new Intl.NumberFormat(LOCALE_TAGS[locale] ?? "en-GB", {
+    style: "currency",
+    currency: "EUR",
+    maximumFractionDigits: 0,
+  }).format(n);
 }
