@@ -5,11 +5,9 @@ import { useLocale, useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "motion/react";
 import { Send, CheckCircle2, Loader2 } from "lucide-react";
 import { trackEvent } from "@/lib/analytics/track";
+import { CRM_API } from "@/lib/account/crm";
 
 const subjectKeys = ["general", "materials", "renovation", "property", "legal", "showroom"] as const;
-
-const CRM_API =
-  process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
 
 const ERR_TEXT: Record<string, string> = {
   nl: "Versturen mislukt. Probeer het opnieuw of mail ons direct.",

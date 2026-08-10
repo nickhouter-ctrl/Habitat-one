@@ -3,9 +3,7 @@
 import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight, Check } from "lucide-react";
-
-const CRM_API =
-  process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
+import { CRM_API } from "@/lib/account/crm";
 
 export function NewsletterForm() {
   const t = useTranslations("footer");
