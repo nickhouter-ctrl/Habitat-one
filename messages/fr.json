@@ -1920,7 +1920,9 @@
       "errNoCapture": "Ouvrez d'abord la vue 3D, puis réessayez.",
       "errGeneric": "La génération a échoué. Réessayez dans un instant.",
       "errNotConfigured": "La génération d'images n'est pas encore configurée.",
-      "errDetail": "La génération a échoué — {detail}",
+      "errRateLimited": "Vous venez de générer plusieurs images. Réessayez dans un quart d'heure.",
+      "errBusy": "La génération d'images est très sollicitée en ce moment. Réessayez dans quelques minutes.",
+      "errImage": "La capture de la vue 3D n'a pas pu être envoyée. Réessayez.",
       "errNetwork": "Une erreur s'est produite lors de la génération."
     }
   },

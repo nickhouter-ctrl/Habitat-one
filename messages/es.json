@@ -1920,7 +1920,9 @@
       "errNoCapture": "Abre primero la vista 3D y vuelve a intentarlo.",
       "errGeneric": "La generación ha fallado. Inténtalo de nuevo en un momento.",
       "errNotConfigured": "La generación de imágenes aún no está configurada.",
-      "errDetail": "La generación ha fallado — {detail}",
+      "errRateLimited": "Acabas de generar varias imágenes. Vuelve a intentarlo dentro de un cuarto de hora.",
+      "errBusy": "La generación de imágenes está muy solicitada ahora mismo. Inténtalo de nuevo en unos minutos.",
+      "errImage": "No se ha podido enviar la captura de la vista 3D. Inténtalo de nuevo.",
       "errNetwork": "Algo salió mal durante la generación."
     }
   },

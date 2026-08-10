@@ -1920,7 +1920,9 @@
       "errNoCapture": "Öffnen Sie zuerst die 3D-Ansicht und versuchen Sie es erneut.",
       "errGeneric": "Die Erzeugung ist fehlgeschlagen. Bitte versuchen Sie es gleich noch einmal.",
       "errNotConfigured": "Die Bilderzeugung ist noch nicht konfiguriert.",
-      "errDetail": "Die Erzeugung ist fehlgeschlagen — {detail}",
+      "errRateLimited": "Sie haben gerade schon einige Bilder erzeugt. Bitte versuchen Sie es in einer Viertelstunde noch einmal.",
+      "errBusy": "Die Bilderzeugung ist derzeit stark ausgelastet. Bitte versuchen Sie es in einigen Minuten noch einmal.",
+      "errImage": "Die Momentaufnahme der 3D-Ansicht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
       "errNetwork": "Beim Erzeugen ist etwas schiefgelaufen."
     }
   },

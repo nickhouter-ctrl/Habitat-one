@@ -1920,7 +1920,9 @@
       "errNoCapture": "Open the 3D view first, then try again.",
       "errGeneric": "Generation failed. Please try again in a moment.",
       "errNotConfigured": "Image generation is not configured yet.",
-      "errDetail": "Generation failed — {detail}",
+      "errRateLimited": "You have just generated a few images. Please try again in about fifteen minutes.",
+      "errBusy": "Image generation is very busy right now. Please try again in a few minutes.",
+      "errImage": "The snapshot of the 3D view could not be sent. Please try again.",
       "errNetwork": "Something went wrong while generating."
     }
   },

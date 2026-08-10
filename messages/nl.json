@@ -1920,7 +1920,9 @@
       "errNoCapture": "Open eerst het 3D-aanzicht en probeer dan opnieuw.",
       "errGeneric": "Het genereren is niet gelukt. Probeer het zo nog eens.",
       "errNotConfigured": "De beeldgeneratie is nog niet geconfigureerd.",
-      "errDetail": "Het genereren is niet gelukt — {detail}",
+      "errRateLimited": "Je hebt net al een paar beelden gemaakt. Probeer het over een kwartier nog eens.",
+      "errBusy": "Het is nu erg druk bij de beeldgeneratie. Probeer het over een paar minuten nog eens.",
+      "errImage": "De momentopname van het 3D-aanzicht kon niet verstuurd worden. Probeer het opnieuw.",
       "errNetwork": "Er ging iets mis bij het genereren."
     }
   },

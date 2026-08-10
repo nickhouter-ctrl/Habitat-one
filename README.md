@@ -25,6 +25,24 @@ npm run build    # production build (also runs lint + type-check)
 npm start        # serve the production build
 ```
 
+## Environment variables
+
+| Variable | Used by | Notes |
+| --- | --- | --- |
+| `NEXT_PUBLIC_CRM_API_URL` | account portal, properties | Habitat CRM base URL. Defaults to the production CRM. |
+| `CRM_API_URL` | `lib/data/properties.ts` | Server-side override of the CRM base URL. |
+| `REVALIDATE_SECRET` | `/api/revalidate` | Shared secret the CRM sends as `x-revalidate-secret`. |
+| `GOOGLE_GENERATIVE_AI_API_KEY` | `/api/kitchen-render` | Gemini key for the planner's AI impression. Also read from `GEMINI_API_KEY` / `GOOGLE_API_KEY` / `GOOGLE_AI_API_KEY`. Without it the endpoint returns `not-configured`. |
+| `KITCHEN_RENDER_PER_IP_LIMIT` | `/api/kitchen-render` | Renders allowed per IP per 15 minutes (default `5`). |
+| `KITCHEN_RENDER_HOURLY_LIMIT` | `/api/kitchen-render` | Hard ceiling on renders per hour per server instance (default `60`). |
+| `NEXT_PUBLIC_GA_MEASUREMENT_ID` | analytics | Google Analytics 4 measurement id. Analytics is skipped when unset. |
+| `GOOGLE_SITE_VERIFICATION` | `app/[locale]/layout.tsx` | Search Console verification token. |
+
+`/api/kitchen-render` costs money per call, so it is additionally locked down with a same-origin
+check, a 6 MB body cap and a 4 MB image cap, and it never forwards upstream error text to the
+browser. The rate limits live in the instance's memory — move them to a shared store if the site
+ever scales beyond a handful of instances.
+
 ## Pages
 
 | Route | What |

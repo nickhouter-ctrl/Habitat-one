@@ -3,66 +3,15 @@
 // "Genereer realistisch beeld" — legt het 3D-ontwerp vast en laat de AI er
 // een fotorealistische impressie van maken.
 //
-// De prompt voor het beeldmodel blijft bewust Nederlands: die is voor de AI,
-// niet voor de bezoeker. Alle zichtbare teksten lopen via usePlannerT.
+// De client stuurt bewust GEEN prompt mee, alleen een descriptor met
+// catalogus-ids; de server bouwt de prompt daaruit op (zie
+// lib/planner/render-request.ts). Alle zichtbare teksten lopen via usePlannerT.
 
 import { useState, type RefObject } from "react";
 import { Download, Loader2, Sparkles, X } from "lucide-react";
-import { getAppliance } from "@/lib/planner/appliances";
-import { getFrontFinish, getFrontStyle } from "@/lib/planner/catalog";
+import { describeDesign } from "@/lib/planner/render-request";
 import { usePlanner } from "@/lib/planner/store";
-import type { KitchenDesign, WallSide } from "@/lib/planner/types";
 import { usePlannerT } from "./i18n";
-
-function wallLabel(w: WallSide): string {
-  return w === "top"
-    ? "achterwand"
-    : w === "bottom"
-      ? "voorzijde"
-      : w === "left"
-        ? "linkerwand"
-        : "rechterwand";
-}
-
-/** Bouwt de beschrijving voor de beeld-AI uit het ontwerp. */
-function buildPrompt(design: KitchenDesign): string {
-  const style = getFrontStyle(design.frontStyleId)?.label ?? "vlakke";
-  const finishObj = getFrontFinish(design.frontFinishId);
-  const finish = finishObj?.label;
-  const isWood = !!finishObj?.isWood;
-  const hasIsland = design.items.some((i) => i.wall === null);
-  const openings = design.openings.map(
-    (o) => `${o.kind === "window" ? "een raam" : "een deur"} aan de ${wallLabel(o.wall)}`,
-  );
-  const appliances = [
-    ...new Set(
-      design.items
-        .map((i) => (i.applianceId ? getAppliance(i.applianceId)?.label : null))
-        .filter((l): l is string => !!l),
-    ),
-  ];
-  return [
-    "Maak van deze ruwe 3D-keukenweergave een strakke, fotorealistische keukenvisualisatie",
-    "in de stijl van een professionele architectuur-render.",
-    "Behoud exact dezelfde indeling, kast- en apparaatposities, kleuren, raam- en",
-    "deurposities en camerahoek.",
-    `De kastfronten zijn greeploos in ${style} stijl${finish ? ` met een ${finish} afwerking` : ""}.`,
-    isWood
-      ? "Doorlopende, natuurlijke verticale houtnerf over de fronten; aangrenzende kasten lopen mooi in de nerf door."
-      : "Egale, matte gespoten fronten met een fluweelzachte afwerking.",
-    hasIsland
-      ? "Het keukeneiland heeft een strak werkblad met waterval-zijkanten die tot de vloer doorlopen."
-      : "",
-    "Een slank, strak werkblad en een rustige, ingetogen spatwand in een zachte tint.",
-    appliances.length ? `Apparatuur, naadloos geïntegreerd: ${appliances.join(", ")}.` : "",
-    openings.length ? `De ruimte heeft ${openings.join(" en ")}.` : "",
-    "Zacht natuurlijk daglicht, zachte realistische schaduwen, een neutrale lichte",
-    "achtergrond, rustige moderne mediterrane sfeer, fotorealistisch, scherp en veel detail.",
-    "Geen tekst, geen maatlijnen, geen watermerk.",
-  ]
-    .filter(Boolean)
-    .join(" ");
-}
 
 export function AiRenderPanel({
   captureRef,
@@ -76,19 +25,33 @@ export function AiRenderPanel({
   const [result, setResult] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  /** Vertaalt een foutcode van /api/kitchen-render naar een bezoekerstekst. */
+  /**
+   * Vertaalt een foutcode van /api/kitchen-render naar een bezoekerstekst.
+   * De route stuurt uitsluitend deze vaste codes — nooit een upstream-melding.
+   */
   function errorMessage(code: string | undefined): string {
-    if (code === "not-configured") {
-      return tf("aiRender.errNotConfigured", "De beeldgeneratie is nog niet geconfigureerd.");
+    switch (code) {
+      case "not-configured":
+        return tf("aiRender.errNotConfigured", "De beeldgeneratie is nog niet geconfigureerd.");
+      case "rate-limited":
+        return tf(
+          "aiRender.errRateLimited",
+          "Je hebt net al een paar beelden gemaakt. Probeer het over een kwartier nog eens.",
+        );
+      case "busy":
+        return tf(
+          "aiRender.errBusy",
+          "Het is nu erg druk bij de beeldgeneratie. Probeer het over een paar minuten nog eens.",
+        );
+      case "too-large":
+      case "invalid-image":
+        return tf(
+          "aiRender.errImage",
+          "De momentopname van het 3D-aanzicht kon niet verstuurd worden. Probeer het opnieuw.",
+        );
+      default:
+        return tf("aiRender.errGeneric", "Het genereren is niet gelukt. Probeer het zo nog eens.");
     }
-    // Google-foutteksten (Engels, vrije tekst) tonen we als detail; interne
-    // codes (invalid-json/missing-input/no-image/render-failed) niet.
-    if (code && !/^[a-z-]+$/.test(code)) {
-      return tf("aiRender.errDetail", `Het genereren is niet gelukt — ${code}`, {
-        detail: code,
-      });
-    }
-    return tf("aiRender.errGeneric", "Het genereren is niet gelukt. Probeer het zo nog eens.");
   }
 
   async function generate() {
@@ -106,7 +69,7 @@ export function AiRenderPanel({
       const res = await fetch("/api/kitchen-render", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ image, prompt: buildPrompt(design) }),
+        body: JSON.stringify({ image, design: describeDesign(design) }),
       });
       const data = (await res.json()) as { ok?: boolean; image?: string; error?: string };
       if (!res.ok || !data.ok || !data.image) {

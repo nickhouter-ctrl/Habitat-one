@@ -1920,7 +1920,9 @@
       "errNoCapture": "请先打开 3D 视图，然后重试。",
       "errGeneric": "生成失败。请稍后再试。",
       "errNotConfigured": "图像生成尚未配置。",
-      "errDetail": "生成失败——{detail}",
+      "errRateLimited": "您刚刚已生成了几张图像。请在十五分钟后重试。",
+      "errBusy": "图像生成当前非常繁忙。请几分钟后重试。",
+      "errImage": "无法发送 3D 视图的快照。请重试。",
       "errNetwork": "生成过程中出现问题。"
     }
   },
