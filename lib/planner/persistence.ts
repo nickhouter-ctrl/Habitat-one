@@ -9,7 +9,13 @@
 import { carcassColors, getCarcass } from "@/lib/data/metod";
 import { getAppliance } from "./appliances";
 import { getFrontFinish, getFrontStyle, getWorktopFinish } from "./catalog";
-import { clampOpening, clampToRoom, ROOM_LIMITS } from "./layout";
+import {
+  applianceLayer,
+  carcassLayer,
+  clampOpening,
+  clampToRoom,
+  ROOM_LIMITS,
+} from "./layout";
 import type {
   KitchenDesign,
   Opening,
@@ -43,6 +49,17 @@ export function initialDesign(): KitchenDesign {
 const ROTATIONS: readonly Rotation[] = [0, 90, 180, 270];
 const WALL_SIDES: readonly WallSide[] = ["top", "bottom", "left", "right"];
 
+/** Bovengrenzen tegen opgeblazen/kwaadaardige opslag-JSON. */
+const MAX_ITEMS = 200;
+const MAX_OPENINGS = 24;
+
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
+/** Een bestaand uuid, of anders een vers exemplaar. */
+function safeId(v: unknown): string {
+  return typeof v === "string" && UUID_RE.test(v) ? v : crypto.randomUUID();
+}
+
 function isRecord(v: unknown): v is Record<string, unknown> {
   return typeof v === "object" && v !== null && !Array.isArray(v);
 }
@@ -61,29 +78,46 @@ function knownId(v: unknown, resolve: (id: string) => unknown): string | null {
   return typeof v === "string" && resolve(v) ? v : null;
 }
 
-/** Saneer één element; null als het onherstelbaar is. */
+/**
+ * Saneer één element; null als het onherstelbaar is. De laag en (bij een
+ * apparaat) het host-casco worden áltijd uit de catalogus afgeleid — de
+ * opgeslagen waarden zijn niet te vertrouwen: een vrij gekozen carcassId zou
+ * de bestellijst opblazen en een verkeerde laag omzeilt de botsingscontrole.
+ */
 function sanitizeItem(
   v: unknown,
   roomWidthCm: number,
   roomDepthCm: number,
 ): PlacedItem | null {
   if (!isRecord(v)) return null;
-  const kind = v.kind === "carcass" || v.kind === "appliance" ? v.kind : null;
-  if (!kind) return null;
 
-  const carcassId = knownId(v.carcassId, getCarcass);
-  const applianceId = knownId(v.applianceId, getAppliance);
-  // Zonder oplosbaar casco/apparaat is er geen maatvoering — element vervalt.
-  if (kind === "carcass" && !carcassId) return null;
-  if (kind === "appliance" && !applianceId) return null;
+  let kindFields: Pick<PlacedItem, "kind" | "carcassId" | "applianceId" | "layer">;
+  if (v.kind === "carcass") {
+    const carcass = typeof v.carcassId === "string" ? getCarcass(v.carcassId) : null;
+    // Zonder oplosbaar casco is er geen maatvoering — element vervalt.
+    if (!carcass) return null;
+    kindFields = {
+      kind: "carcass",
+      carcassId: carcass.id,
+      applianceId: null, // alleen een apparaat-element draagt een apparaat-id
+      layer: carcassLayer(carcass),
+    };
+  } else if (v.kind === "appliance") {
+    const appliance = typeof v.applianceId === "string" ? getAppliance(v.applianceId) : null;
+    if (!appliance) return null;
+    kindFields = {
+      kind: "appliance",
+      carcassId: appliance.hostCarcassId,
+      applianceId: appliance.id,
+      layer: applianceLayer(appliance),
+    };
+  } else {
+    return null;
+  }
 
   const item: PlacedItem = {
-    instanceId:
-      typeof v.instanceId === "string" && v.instanceId ? v.instanceId : crypto.randomUUID(),
-    kind,
-    carcassId,
-    applianceId,
-    layer: v.layer === "wall" ? "wall" : "base",
+    instanceId: safeId(v.instanceId),
+    ...kindFields,
     cx: num(v.cx, 0),
     cy: num(v.cy, 0),
     rotation: ROTATIONS.includes(v.rotation as Rotation) ? (v.rotation as Rotation) : 0,
@@ -104,7 +138,7 @@ function sanitizeOpening(
   if (typeof v.offsetCm !== "number" || !Number.isFinite(v.offsetCm)) return null;
   if (typeof v.widthCm !== "number" || !Number.isFinite(v.widthCm)) return null;
   const opening: Opening = {
-    id: typeof v.id === "string" && v.id ? v.id : crypto.randomUUID(),
+    id: safeId(v.id),
     kind: v.kind,
     wall: v.wall as WallSide,
     offsetCm: v.offsetCm,
@@ -142,6 +176,7 @@ export function sanitizeDesign(input: unknown): KitchenDesign | null {
   const items: PlacedItem[] = [];
   const seenIds = new Set<string>();
   for (const raw of Array.isArray(input.items) ? input.items : []) {
+    if (items.length >= MAX_ITEMS) break;
     const item = sanitizeItem(raw, roomWidthCm, roomDepthCm);
     if (!item || seenIds.has(item.instanceId)) continue;
     seenIds.add(item.instanceId);
@@ -150,6 +185,7 @@ export function sanitizeDesign(input: unknown): KitchenDesign | null {
 
   const openings: Opening[] = [];
   for (const raw of Array.isArray(input.openings) ? input.openings : []) {
+    if (openings.length >= MAX_OPENINGS) break;
     const opening = sanitizeOpening(raw, roomWidthCm, roomDepthCm);
     if (opening) openings.push(opening);
   }

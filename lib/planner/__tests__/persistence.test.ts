@@ -83,6 +83,82 @@ describe("sanitizeDesign", () => {
     expect(o.offsetCm).toBeLessThanOrEqual(360 - o.widthCm / 2);
   });
 
+  it("leidt de laag af uit het casco en negeert de opgeslagen waarde", () => {
+    const valid = plannerReducer(initialDesign(), {
+      type: "ADD_CARCASS",
+      carcassId: "onderkast-60x60x80",
+    });
+    const d = sanitizeDesign({
+      ...valid,
+      items: [{ ...valid.items[0], layer: "wall" }], // gemanipuleerd: onderkast "hangend"
+    });
+    expect(d?.items[0].layer).toBe("base");
+  });
+
+  it("dwingt bij een inbouwapparaat het juiste host-casco af", () => {
+    const valid = plannerReducer(initialDesign(), {
+      type: "ADD_APPLIANCE",
+      applianceId: "oven",
+    });
+    const d = sanitizeDesign({
+      ...valid,
+      // Gemanipuleerd: extra kast aan de oven gehangen → zou de bestellijst opblazen.
+      items: [{ ...valid.items[0], carcassId: "onderkast-80x60x80" }],
+    });
+    expect(d?.items[0].carcassId).toBe("hoge-kast-inbouw-60x60x200");
+  });
+
+  it("laat een unit-apparaat geen casco meesmokkelen", () => {
+    const valid = plannerReducer(initialDesign(), {
+      type: "ADD_APPLIANCE",
+      applianceId: "dishwasher-60",
+    });
+    const d = sanitizeDesign({
+      ...valid,
+      items: [{ ...valid.items[0], carcassId: "onderkast-60x60x80" }],
+    });
+    expect(d?.items[0].carcassId).toBeNull();
+  });
+
+  it("wist het apparaat-id van een kale kast", () => {
+    const valid = plannerReducer(initialDesign(), {
+      type: "ADD_CARCASS",
+      carcassId: "onderkast-60x60x80",
+    });
+    const d = sanitizeDesign({
+      ...valid,
+      items: [{ ...valid.items[0], applianceId: "oven" }],
+    });
+    expect(d?.items[0].applianceId).toBeNull();
+  });
+
+  it("begrenst het aantal elementen en openingen", () => {
+    const valid = plannerReducer(initialDesign(), {
+      type: "ADD_CARCASS",
+      carcassId: "onderkast-60x60x80",
+    });
+    const many = Array.from({ length: 500 }, (_, i) => ({
+      ...valid.items[0],
+      instanceId: crypto.randomUUID(),
+      cx: (i % 30) * 10,
+    }));
+    const d = sanitizeDesign({ ...valid, items: many });
+    expect(d?.items.length).toBeLessThanOrEqual(200);
+  });
+
+  it("vervangt ids zonder uuid-vorm door een vers uuid", () => {
+    const valid = plannerReducer(initialDesign(), {
+      type: "ADD_CARCASS",
+      carcassId: "onderkast-60x60x80",
+    });
+    const d = sanitizeDesign({
+      ...valid,
+      items: [{ ...valid.items[0], instanceId: "<script>alert(1)</script>" }],
+    });
+    const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+    expect(d?.items[0].instanceId).toMatch(UUID);
+  });
+
   it("herstelt onbekende maatwerk-ids naar null", () => {
     const d = sanitizeDesign({
       ...initialDesign(),
