@@ -134,9 +134,10 @@ export function Room3D({
   return (
     <Canvas
       shadows
-      // Alleen renderen wanneer er iets verandert (state, camera, textures) —
-      // een stilstaande planner kost zo geen GPU-tijd.
-      frameloop="demand"
+      // Bewust "always" en niet "demand": met demand bleef het 3D-aanzicht leeg
+      // omdat async geladen textures/modellen geen invalidate() triggeren en er
+      // dus nooit een frame volgde. De scène is klein genoeg voor een vaste loop.
+      frameloop="always"
       dpr={[1, 2]}
       camera={{ position: [rw * 0.85, ch * 1.3, rd * 1.5], fov: 46 }}
       onPointerMissed={() => onSelect(null)}
