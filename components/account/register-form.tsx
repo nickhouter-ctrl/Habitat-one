@@ -5,8 +5,7 @@ import { useTranslations } from "next-intl";
 import { CheckCircle2 } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { CRM_API } from "@/lib/account/crm";
-
-const field = "w-full rounded-lg border border-black/15 bg-white px-3 py-2.5 text-sm outline-none focus:border-ink";
+import { Field, fieldCls as field } from "./form-field";
 
 export function RegisterForm({ locale }: { locale: string }) {
   const t = useTranslations("account");
@@ -62,11 +61,13 @@ export function RegisterForm({ locale }: { locale: string }) {
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
-      <div className="flex gap-2">
+      {/* Keuzeknoppen i.p.v. radio's — aria-pressed maakt de actieve keuze hoorbaar. */}
+      <div className="flex gap-2" role="group" aria-label={t("requestTitle")}>
         {(["particulier", "zakelijk"] as const).map((k) => (
           <button
             key={k}
             type="button"
+            aria-pressed={kind === k}
             onClick={() => setKind(k)}
             className={`flex-1 rounded-lg border px-3 py-2 text-sm font-medium transition ${
               kind === k ? "border-ink bg-ink text-white" : "border-black/15 bg-white text-ink-soft hover:border-ink"
@@ -78,21 +79,35 @@ export function RegisterForm({ locale }: { locale: string }) {
       </div>
 
       <div className="grid gap-3 sm:grid-cols-2">
-        <input name="name" required autoComplete="name" aria-label={t("name")} placeholder={t("name")} className={field} />
-        <input name="email" type="email" required autoComplete="email" aria-label={t("email")} placeholder={t("email")} className={field} />
-        <input name="phone" autoComplete="tel" aria-label={t("phoneOptional")} placeholder={t("phoneOptional")} className={`${field} sm:col-span-2`} />
+        <Field label={t("name")} htmlFor="reg-name">
+          <input id="reg-name" name="name" required autoComplete="name" className={field} />
+        </Field>
+        <Field label={t("email")} htmlFor="reg-email">
+          <input id="reg-email" name="email" type="email" required autoComplete="email" className={field} />
+        </Field>
+        <Field label={t("phoneOptional")} htmlFor="reg-phone" className="sm:col-span-2">
+          <input id="reg-phone" name="phone" type="tel" autoComplete="tel" className={field} />
+        </Field>
       </div>
 
       {kind === "zakelijk" && (
         <div className="grid gap-3 rounded-lg bg-black/[0.03] p-3 sm:grid-cols-2">
-          <input name="businessName" required autoComplete="organization" aria-label={t("businessName")} placeholder={t("businessName")} className={field} />
-          <input name="vatNumber" required aria-label={t("vatNumber")} placeholder={t("vatNumber")} className={field} />
-          <input name="address" autoComplete="street-address" aria-label={t("addressOptional")} placeholder={t("addressOptional")} className={`${field} sm:col-span-2`} />
+          <Field label={t("businessName")} htmlFor="reg-business">
+            <input id="reg-business" name="businessName" required autoComplete="organization" className={field} />
+          </Field>
+          <Field label={t("vatNumber")} htmlFor="reg-vat">
+            <input id="reg-vat" name="vatNumber" required className={field} />
+          </Field>
+          <Field label={t("addressOptional")} htmlFor="reg-address" className="sm:col-span-2">
+            <input id="reg-address" name="address" autoComplete="street-address" className={field} />
+          </Field>
           <p className="text-xs text-ink-soft sm:col-span-2">{t("businessRequiredNote")}</p>
         </div>
       )}
 
-      <textarea name="message" rows={3} aria-label={t("messageOptional")} placeholder={t("messageOptional")} className={field} />
+      <Field label={t("messageOptional")} htmlFor="reg-message">
+        <textarea id="reg-message" name="message" rows={3} className={field} />
+      </Field>
 
       {error && <p role="alert" className="text-sm text-red-600">{error}</p>}
 

@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { X, ArrowUpRight, CheckCircle2, Minus, Plus } from "lucide-react";
 import { useQuote } from "@/components/quote-context";
 import { trackEvent } from "@/lib/analytics/track";
-import { CRM_API } from "@/lib/account/crm";
+import { CRM_API, toCrmLocale } from "@/lib/account/crm";
 
 type Locale = "nl" | "de" | "en" | "es" | "fr" | "zh";
 
@@ -42,9 +42,7 @@ export function QuoteRequestForm() {
     const type = String(f.get("type") ?? "");
     const company = String(f.get("company") ?? "");
     const sourceTag = type ? `website:${type}` : "website";
-    // De CRM (en z'n bevestigingsmails) ondersteunt alleen nl/de/en/es — val terug op en voor fr/zh.
-    const crmLocale: "nl" | "de" | "en" | "es" =
-      locale === "fr" || locale === "zh" ? "en" : locale;
+    const crmLocale = toCrmLocale(locale);
     const messageParts: string[] = [];
     if (type) messageParts.push(`Type: ${type}`);
     const userMsg = String(f.get("message") ?? "").trim();

@@ -7,3 +7,11 @@ export const CRM_API = process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-c
 
 /** Naam van de httpOnly-sessiecookie met de CRM-portaltoken. */
 export const PORTAL_COOKIE = "hb_portal";
+
+/** Talen die het CRM (incl. bevestigingsmails) ondersteunt. */
+export type CrmLocale = "nl" | "de" | "en" | "es";
+
+/** Map een site-locale naar een CRM-taal — fr/zh (en onbekend) vallen terug op en. */
+export function toCrmLocale(locale: string): CrmLocale {
+  return locale === "nl" || locale === "de" || locale === "es" ? locale : "en";
+}

@@ -4,8 +4,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { useRouter, Link } from "@/i18n/navigation";
-
-const field = "w-full rounded-lg border border-black/15 bg-white px-3 py-2.5 text-sm outline-none focus:border-ink";
+import { Field, fieldCls as field } from "./form-field";
 
 export function ActivateForm() {
   const t = useTranslations("account");
@@ -61,8 +60,12 @@ export function ActivateForm() {
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
-      <input name="password" type="password" required autoComplete="new-password" aria-label={t("choosePassword")} placeholder={t("choosePassword")} className={field} />
-      <input name="confirm" type="password" required autoComplete="new-password" aria-label={t("repeatPassword")} placeholder={t("repeatPassword")} className={field} />
+      <Field label={t("choosePassword")} htmlFor="activate-password">
+        <input id="activate-password" name="password" type="password" required autoComplete="new-password" className={field} />
+      </Field>
+      <Field label={t("repeatPassword")} htmlFor="activate-confirm">
+        <input id="activate-confirm" name="confirm" type="password" required autoComplete="new-password" className={field} />
+      </Field>
       {error && <p role="alert" className="text-sm text-red-600">{error}</p>}
       <button
         type="submit"

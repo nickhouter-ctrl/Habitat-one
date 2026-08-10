@@ -3,8 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter, Link } from "@/i18n/navigation";
-
-const field = "w-full rounded-lg border border-black/15 bg-white px-3 py-2.5 text-sm outline-none focus:border-ink";
+import { Field, fieldCls as field } from "./form-field";
 
 export function LoginForm() {
   const t = useTranslations("account");
@@ -39,8 +38,12 @@ export function LoginForm() {
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
-      <input name="email" type="email" required autoComplete="email" aria-label={t("email")} placeholder={t("email")} className={field} />
-      <input name="password" type="password" required autoComplete="current-password" aria-label={t("password")} placeholder={t("password")} className={field} />
+      <Field label={t("email")} htmlFor="login-email">
+        <input id="login-email" name="email" type="email" required autoComplete="email" className={field} />
+      </Field>
+      <Field label={t("password")} htmlFor="login-password">
+        <input id="login-password" name="password" type="password" required autoComplete="current-password" className={field} />
+      </Field>
       {error && <p role="alert" className="text-sm text-red-600">{error}</p>}
       <button
         type="submit"
