@@ -806,7 +806,12 @@
     "groupGarden": "Tuin",
     "groupDoors": "Deuren",
     "collectionFurniture": "Meubels",
-    "allFurniture": "Alle meubels"
+    "allFurniture": "Alle meubels",
+    "viewProduct": "Bekijk product",
+    "playVideo": "Video afspelen",
+    "galleryImage": "Afbeelding {n}",
+    "galleryPrev": "Vorige afbeelding",
+    "galleryNext": "Volgende afbeelding"
   },
   "spaces": {
     "eyebrow": "Ruimte voor ruimte",

@@ -806,7 +806,12 @@
     "groupGarden": "花园",
     "groupDoors": "门",
     "collectionFurniture": "家具",
-    "allFurniture": "所有家具"
+    "allFurniture": "所有家具",
+    "viewProduct": "查看产品",
+    "playVideo": "播放视频",
+    "galleryImage": "图片 {n}",
+    "galleryPrev": "上一张图片",
+    "galleryNext": "下一张图片"
   },
   "spaces": {
     "eyebrow": "逐个空间",

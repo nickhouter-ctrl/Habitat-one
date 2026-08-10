@@ -806,7 +806,12 @@
     "groupGarden": "Jardín",
     "groupDoors": "Puertas",
     "collectionFurniture": "Muebles",
-    "allFurniture": "Todos los muebles"
+    "allFurniture": "Todos los muebles",
+    "viewProduct": "Ver producto",
+    "playVideo": "Reproducir vídeo",
+    "galleryImage": "Imagen {n}",
+    "galleryPrev": "Imagen anterior",
+    "galleryNext": "Imagen siguiente"
   },
   "spaces": {
     "eyebrow": "Estancia por estancia",

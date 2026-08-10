@@ -806,7 +806,12 @@
     "groupGarden": "Garden",
     "groupDoors": "Doors",
     "collectionFurniture": "Furniture",
-    "allFurniture": "All furniture"
+    "allFurniture": "All furniture",
+    "viewProduct": "View product",
+    "playVideo": "Play video",
+    "galleryImage": "Image {n}",
+    "galleryPrev": "Previous image",
+    "galleryNext": "Next image"
   },
   "spaces": {
     "eyebrow": "Room by room",
