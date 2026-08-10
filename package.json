@@ -7,7 +7,8 @@
     "prebuild": "node tmp-data/gen2.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run --config lib/planner/vitest.config.mts"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
@@ -32,6 +33,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.10"
   }
 }
