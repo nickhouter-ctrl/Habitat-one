@@ -444,8 +444,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
             >
-              Google reviews
-              <ArrowUpRight className="h-3.5 w-3.5" />
+              {t("testimonialsGoogleCta")}
+              <ArrowUpRight className="h-3.5 w-3.5" aria-hidden />
             </Link>
           </div>
         </Container>
