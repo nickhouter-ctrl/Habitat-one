@@ -1602,16 +1602,20 @@
     },
     "steps": {
       "room": {
-        "short": "Raum"
+        "short": "Raum",
+        "label": "Raum"
       },
       "fronts": {
-        "short": "Fronten"
+        "short": "Fronten",
+        "label": "Farbe & Fronten"
       },
       "design": {
-        "short": "Entwurf"
+        "short": "Entwurf",
+        "label": "Entwerfen"
       },
       "summary": {
-        "short": "Übersicht"
+        "short": "Übersicht",
+        "label": "Bestellliste"
       }
     },
     "nav": {
@@ -1707,235 +1711,205 @@
       "carcassColors": {
         "wit": "Weiß",
         "houtpatroon-zwart": "Holzdekor schwarz"
+      },
+      "frontStyles": {
+        "flat": {
+          "label": "Flächenbündig (grifflos)",
+          "description": "Glatte, rahmenlose Front — modern und grifflos."
+        },
+        "shaker": {
+          "label": "Shaker",
+          "description": "Klassische Rahmenfront mit vertieftem Paneel."
+        },
+        "shaker-small": {
+          "label": "Shaker schmal",
+          "description": "Shaker mit feinem, schmalem Rahmenprofil."
+        },
+        "grooved": {
+          "label": "Lamellen",
+          "description": "Vertikale Rillen für eine warme, haptische Struktur."
+        }
+      },
+      "finishes": {
+        "mat-wit": "Mattweiß",
+        "zandbeige": "Sandbeige",
+        "saliegroen": "Salbeigrün",
+        "diepblauw": "Tiefblau",
+        "klei": "Terrakotta",
+        "antraciet": "Anthrazit",
+        "mat-zwart": "Mattschwarz",
+        "eiken-naturel": "Eiche natur",
+        "eiken-whitewash": "Eiche gekalkt",
+        "eiken-gerookt": "Eiche geräuchert",
+        "eiken-zwart": "Eiche schwarz",
+        "bamboe": "Bambus"
+      },
+      "kitchenStyles": {
+        "japandi": {
+          "label": "Japandi",
+          "description": "Ruhig und natürlich — japanische Schlichtheit mit skandinavischer Wärme."
+        },
+        "scandinavisch": {
+          "label": "Skandinavisch",
+          "description": "Hell, minimalistisch und funktional."
+        },
+        "modern-landelijk": {
+          "label": "Modernes Landhaus",
+          "description": "Ländlicher Charme mit klarer, zeitgemäßer Linie."
+        },
+        "industrieel": {
+          "label": "Industriell",
+          "description": "Markant und roh — dunkle Töne und klare Flächen."
+        },
+        "bohemian": {
+          "label": "Bohemian",
+          "description": "Warm und reich — natürliche Materialien und Erdtöne."
+        },
+        "urban-chic": {
+          "label": "Urban Chic",
+          "description": "Verfeinertes Stadtwohnen — tiefes Schwarz und klare Linien."
+        }
+      },
+      "carcassTypes": {
+        "onderkast-inbouw": "Unterschrank für Einbaugeräte",
+        "onderkast": "Unterschrank",
+        "onderhoekkast": "Eckunterschrank",
+        "opzetkast": "Aufsatzschrank",
+        "bovenkast": "Wandschrank",
+        "bovenhoekkast": "Eckwandschrank",
+        "hoge-kast-inbouw": "Hochschrank für Einbaugeräte",
+        "hoge-kast": "Hochschrank"
+      },
+      "appliances": {
+        "oven": "Einbaubackofen",
+        "combi-oven": "Einbau-Kombi-Mikrowelle",
+        "coffee-machine": "Einbau-Kaffeevollautomat",
+        "wine-cooler": "Einbau-Weinklimaschrank",
+        "fridge-tall": "Einbau-Kühl-Gefrierkombination",
+        "cooktop-60": "Induktionskochfeld 60 cm",
+        "cooktop-80": "Induktionskochfeld 80 cm",
+        "venting-hob": "Induktionskochfeld mit integriertem Abzug",
+        "sink-single": "Spüle (1 Becken)",
+        "sink-onehalf": "Spüle (1,5 Becken)",
+        "dishwasher-60": "Geschirrspüler (vollintegriert)",
+        "dishwasher-45": "Geschirrspüler Slimline (45 cm)",
+        "hood": "Dunstabzugshaube"
+      },
+      "worktops": {
+        "eiken-massief": {
+          "label": "Massive Eiche",
+          "description": "Warmes massives Eichenholz, geölt."
+        },
+        "beton": {
+          "label": "Beton",
+          "description": "Robuste Betonoptik — industriell und markant."
+        },
+        "composiet-wit": {
+          "label": "Komposit weiß",
+          "description": "Glattes weißes Komposit mit feiner Sprenkelung."
+        },
+        "terrazzo": {
+          "label": "Terrazzo",
+          "description": "Verspielter Terrazzo mit Natursteinkörnung."
+        },
+        "graniet-zwart": {
+          "label": "Granit schwarz",
+          "description": "Tiefschwarzer Granit, leicht poliert."
+        },
+        "rvs": {
+          "label": "Edelstahl",
+          "description": "Professioneller Edelstahl."
+        }
       }
     },
-    "planner": {
-      "page": {
-        "metaTitle": "Küchenplaner",
-        "metaDescription": "Planen Sie Ihre Küche Schritt für Schritt — Raum, Geräte, Schränke, Fronten und Arbeitsplatte — und erhalten Sie eine Bestellliste mit IKEA-METOD-Artikelnummern.",
-        "eyebrow": "Küchenplaner",
-        "title": "Gestalten Sie Ihre Küche",
-        "intro": "Stellen Sie Ihre Küche Schritt für Schritt zusammen: Wählen Sie den Raum, Farbe und Fronten, und platzieren Sie Schränke und Geräte. Am Ende erhalten Sie eine komplette Bestellliste."
-      },
-      "steps": {
-        "room": {
-          "label": "Raum",
-          "short": "Raum"
-        },
-        "fronts": {
-          "label": "Farbe & Fronten",
-          "short": "Fronten"
-        },
-        "design": {
-          "label": "Entwerfen",
-          "short": "Entwerfen"
-        },
-        "summary": {
-          "label": "Bestellliste",
-          "short": "Übersicht"
-        }
-      },
-      "nav": {
-        "prev": "Zurück",
-        "next": "Weiter"
-      },
-      "catalog": {
-        "frontStyles": {
-          "flat": {
-            "label": "Flächenbündig (grifflos)",
-            "description": "Glatte, rahmenlose Front — modern und grifflos."
-          },
-          "shaker": {
-            "label": "Shaker",
-            "description": "Klassische Rahmenfront mit vertieftem Paneel."
-          },
-          "shaker-small": {
-            "label": "Shaker schmal",
-            "description": "Shaker mit feinem, schmalem Rahmenprofil."
-          },
-          "grooved": {
-            "label": "Lamellen",
-            "description": "Vertikale Rillen für eine warme, haptische Struktur."
-          }
-        },
-        "finishes": {
-          "mat-wit": "Mattweiß",
-          "zandbeige": "Sandbeige",
-          "saliegroen": "Salbeigrün",
-          "diepblauw": "Tiefblau",
-          "klei": "Terrakotta",
-          "antraciet": "Anthrazit",
-          "mat-zwart": "Mattschwarz",
-          "eiken-naturel": "Eiche natur",
-          "eiken-whitewash": "Eiche gekalkt",
-          "eiken-gerookt": "Eiche geräuchert",
-          "eiken-zwart": "Eiche schwarz",
-          "bamboe": "Bambus"
-        },
-        "kitchenStyles": {
-          "japandi": {
-            "label": "Japandi",
-            "description": "Ruhig und natürlich — japanische Schlichtheit mit skandinavischer Wärme."
-          },
-          "scandinavisch": {
-            "label": "Skandinavisch",
-            "description": "Hell, minimalistisch und funktional."
-          },
-          "modern-landelijk": {
-            "label": "Modernes Landhaus",
-            "description": "Ländlicher Charme mit klarer, zeitgemäßer Linie."
-          },
-          "industrieel": {
-            "label": "Industriell",
-            "description": "Markant und roh — dunkle Töne und klare Flächen."
-          },
-          "bohemian": {
-            "label": "Bohemian",
-            "description": "Warm und reich — natürliche Materialien und Erdtöne."
-          },
-          "urban-chic": {
-            "label": "Urban Chic",
-            "description": "Verfeinertes Stadtwohnen — tiefes Schwarz und klare Linien."
-          }
-        },
-        "carcassTypes": {
-          "onderkast-inbouw": "Unterschrank für Einbaugeräte",
-          "onderkast": "Unterschrank",
-          "onderhoekkast": "Eckunterschrank",
-          "opzetkast": "Aufsatzschrank",
-          "bovenkast": "Wandschrank",
-          "bovenhoekkast": "Eckwandschrank",
-          "hoge-kast-inbouw": "Hochschrank für Einbaugeräte",
-          "hoge-kast": "Hochschrank"
-        },
-        "carcassColors": {
-          "wit": "weiß",
-          "houtpatroon-zwart": "Holzeffekt schwarz"
-        },
-        "appliances": {
-          "oven": "Einbaubackofen",
-          "combi-oven": "Einbau-Kombi-Mikrowelle",
-          "coffee-machine": "Einbau-Kaffeevollautomat",
-          "wine-cooler": "Einbau-Weinklimaschrank",
-          "fridge-tall": "Einbau-Kühl-Gefrierkombination",
-          "cooktop-60": "Induktionskochfeld 60 cm",
-          "cooktop-80": "Induktionskochfeld 80 cm",
-          "venting-hob": "Induktionskochfeld mit integriertem Abzug",
-          "sink-single": "Spüle (1 Becken)",
-          "sink-onehalf": "Spüle (1,5 Becken)",
-          "dishwasher-60": "Geschirrspüler (vollintegriert)",
-          "dishwasher-45": "Geschirrspüler Slimline (45 cm)",
-          "hood": "Dunstabzugshaube"
-        },
-        "worktops": {
-          "eiken-massief": {
-            "label": "Massive Eiche",
-            "description": "Warmes massives Eichenholz, geölt."
-          },
-          "beton": {
-            "label": "Beton",
-            "description": "Robuste Betonoptik — industriell und markant."
-          },
-          "composiet-wit": {
-            "label": "Komposit weiß",
-            "description": "Glattes weißes Komposit mit feiner Sprenkelung."
-          },
-          "terrazzo": {
-            "label": "Terrazzo",
-            "description": "Verspielter Terrazzo mit Natursteinkörnung."
-          },
-          "graniet-zwart": {
-            "label": "Granit schwarz",
-            "description": "Tiefschwarzer Granit, leicht poliert."
-          },
-          "rvs": {
-            "label": "Edelstahl",
-            "description": "Professioneller Edelstahl."
-          }
-        }
-      },
-      "fronts": {
-        "title": "Farbe & Fronten",
-        "intro": "Wählen Sie einen Küchenstil als Ausgangspunkt, oder stellen Sie Frontstil und Ausführung selbst zusammen. Auch die Seitenpaneele fertigen wir komplett nach Maß.",
-        "quickTitle": "Küchenstil",
-        "quickHint": "— Schnellwahl",
-        "styleTitle": "Frontstil",
-        "finishTitle": "Ausführung",
-        "sidePanelsTitle": "Seitenpaneele",
-        "sidePanelsIntro": "Die sichtbaren Seiten von Schränken und Inseln werden mit maßgefertigten Seitenpaneelen abgeschlossen — standardmäßig in derselben Ausführung wie die Fronten, oder bewusst in einer Kontrastfarbe.",
-        "sameAsFronts": "Wie die Fronten",
-        "worktopTitle": "Arbeitsplatte",
-        "worktopIntro": "Die Arbeitsplatte wird von einem externen Partner nach Maß gefertigt — wählen Sie hier schon die gewünschte Optik."
-      },
-      "summary": {
-        "title": "Ihre Bestellliste",
-        "intro": "Dies ist die Übersicht Ihres Entwurfs: Standard-IKEA-Schränke mit Artikelnummer, die gewählten Geräte und die Maßarbeit. Noch keine Preise — die folgen im Angebot.",
-        "printEyebrow": "Habitat One · Küchenplaner",
-        "printTitle": "Bestellliste Küchenentwurf",
-        "roomTitle": "Raum",
-        "roomLine": "{w} × {d} cm · Deckenhöhe {h} cm",
-        "carcassesTitle": "Standardschränke (IKEA-METOD-Korpus — {color})",
-        "emptyCarcasses": "Noch keine Schränke gezeichnet.",
-        "colQty": "Anzahl",
-        "colCabinet": "Schrank",
-        "colSize": "Maß (B×T×H)",
-        "colArticle": "Artikelnr. (IKEA NL)",
-        "carcassNote": "Artikelnummern von IKEA NL — Habitat One prüft Nummern und Verfügbarkeit mit Ihrem Angebot.",
-        "appliancesTitle": "Geräte (Standardmaße — Marke/Modell nach Wahl)",
-        "emptyAppliances": "Noch keine Geräte gewählt.",
-        "applianceSize": "Standardmaß {w} × {h} × {d} cm",
-        "frontsTitle": "Fronten & Seitenpaneele — Maßarbeit",
-        "frontsLabel": "Fronten:",
-        "sidePanelsLabel": "Seitenpaneele:",
-        "styleTbd": "Stil noch zu wählen",
-        "finishTbd": "Ausführung noch zu wählen",
-        "carcassCount": "{count} Korpusse",
-        "noFront": "Noch keine Front gewählt.",
-        "sameFinishAsFronts": "gleiche Ausführung wie die Fronten",
-        "worktopTitle": "Arbeitsplatte",
-        "worktopNote": "Die Arbeitsplatte ist nicht Teil dieser Bestellliste — sie wird von einem externen Partner geliefert.",
-        "print": "Drucken / als PDF speichern",
-        "copy": "Bestellliste kopieren",
-        "copied": "Kopiert!",
-        "download": "Als Text herunterladen",
-        "fileName": "kuechen-bestellliste",
-        "requestQuote": "Angebot anfragen",
-        "worktopChosen": "Gewählte Optik: {label}"
-      },
-      "quote": {
-        "eyebrow": "Küchenplaner",
-        "title": "Angebot anfragen",
-        "intro": "Ihren Entwurf und die Bestellliste senden wir mit — wir melden uns innerhalb von 24 Stunden.",
-        "name": "Name",
-        "phone": "Telefon (optional)",
-        "email": "E-Mail",
-        "message": "Nachricht (optional)",
-        "messagePlaceholder": "Fragen, Wünsche, gewünschter Liefertermin…",
-        "cancel": "Abbrechen",
-        "submit": "Anfrage senden",
-        "submitting": "Wird gesendet…",
-        "error": "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt eine E-Mail senden.",
-        "successTitle": "Danke — wir haben Ihren Küchenentwurf erhalten.",
-        "successBody": "Habitat One meldet sich innerhalb eines Werktags mit einem Angebot.",
-        "close": "Schließen",
-        "closeAria": "Schließen"
-      },
-      "aiRender": {
-        "button": "Realistisches Bild erzeugen",
-        "title": "Realistisches Bild",
-        "intro": "Die KI erstellt eine fotorealistische Impression Ihres Entwurfs.",
-        "loading": "Wird erzeugt… das dauert etwa 15 Sekunden.",
-        "retry": "Erneut versuchen",
-        "download": "Herunterladen",
-        "newVariant": "Neue Variante",
-        "disclaimer": "Dies ist eine KI-Impression — ein Stimmungsbild, keine technische Zeichnung. Die Bestellliste bleibt maßgeblich.",
-        "alt": "Realistische Impression der Küche",
-        "errNoCapture": "Öffnen Sie zuerst die 3D-Ansicht und versuchen Sie es erneut.",
-        "errGeneric": "Die Erzeugung ist fehlgeschlagen. Bitte versuchen Sie es gleich noch einmal.",
-        "errNotConfigured": "Die Bilderzeugung ist noch nicht konfiguriert.",
-        "errDetail": "Die Erzeugung ist fehlgeschlagen — {detail}",
-        "errNetwork": "Beim Erzeugen ist etwas schiefgelaufen."
-      }
+    "page": {
+      "metaTitle": "Küchenplaner",
+      "metaDescription": "Planen Sie Ihre Küche Schritt für Schritt — Raum, Geräte, Schränke, Fronten und Arbeitsplatte — und erhalten Sie eine Bestellliste mit IKEA-METOD-Artikelnummern.",
+      "eyebrow": "Küchenplaner",
+      "title": "Gestalten Sie Ihre Küche",
+      "intro": "Stellen Sie Ihre Küche Schritt für Schritt zusammen: Wählen Sie den Raum, Farbe und Fronten, und platzieren Sie Schränke und Geräte. Am Ende erhalten Sie eine komplette Bestellliste."
+    },
+    "fronts": {
+      "title": "Farbe & Fronten",
+      "intro": "Wählen Sie einen Küchenstil als Ausgangspunkt, oder stellen Sie Frontstil und Ausführung selbst zusammen. Auch die Seitenpaneele fertigen wir komplett nach Maß.",
+      "quickTitle": "Küchenstil",
+      "quickHint": "— Schnellwahl",
+      "styleTitle": "Frontstil",
+      "finishTitle": "Ausführung",
+      "sidePanelsTitle": "Seitenpaneele",
+      "sidePanelsIntro": "Die sichtbaren Seiten von Schränken und Inseln werden mit maßgefertigten Seitenpaneelen abgeschlossen — standardmäßig in derselben Ausführung wie die Fronten, oder bewusst in einer Kontrastfarbe.",
+      "sameAsFronts": "Wie die Fronten",
+      "worktopTitle": "Arbeitsplatte",
+      "worktopIntro": "Die Arbeitsplatte wird von einem externen Partner nach Maß gefertigt — wählen Sie hier schon die gewünschte Optik."
+    },
+    "summary": {
+      "title": "Ihre Bestellliste",
+      "intro": "Dies ist die Übersicht Ihres Entwurfs: Standard-IKEA-Schränke mit Artikelnummer, die gewählten Geräte und die Maßarbeit. Noch keine Preise — die folgen im Angebot.",
+      "printEyebrow": "Habitat One · Küchenplaner",
+      "printTitle": "Bestellliste Küchenentwurf",
+      "roomTitle": "Raum",
+      "roomLine": "{w} × {d} cm · Deckenhöhe {h} cm",
+      "carcassesTitle": "Standardschränke (IKEA-METOD-Korpus — {color})",
+      "emptyCarcasses": "Noch keine Schränke gezeichnet.",
+      "colQty": "Anzahl",
+      "colCabinet": "Schrank",
+      "colSize": "Maß (B×T×H)",
+      "colArticle": "Artikelnr. (IKEA NL)",
+      "carcassNote": "Artikelnummern von IKEA NL — Habitat One prüft Nummern und Verfügbarkeit mit Ihrem Angebot.",
+      "appliancesTitle": "Geräte (Standardmaße — Marke/Modell nach Wahl)",
+      "emptyAppliances": "Noch keine Geräte gewählt.",
+      "applianceSize": "Standardmaß {w} × {h} × {d} cm",
+      "frontsTitle": "Fronten & Seitenpaneele — Maßarbeit",
+      "frontsLabel": "Fronten:",
+      "sidePanelsLabel": "Seitenpaneele:",
+      "styleTbd": "Stil noch zu wählen",
+      "finishTbd": "Ausführung noch zu wählen",
+      "carcassCount": "{count} Korpusse",
+      "noFront": "Noch keine Front gewählt.",
+      "sameFinishAsFronts": "gleiche Ausführung wie die Fronten",
+      "worktopTitle": "Arbeitsplatte",
+      "worktopNote": "Die Arbeitsplatte ist nicht Teil dieser Bestellliste — sie wird von einem externen Partner geliefert.",
+      "print": "Drucken / als PDF speichern",
+      "copy": "Bestellliste kopieren",
+      "copied": "Kopiert!",
+      "download": "Als Text herunterladen",
+      "fileName": "kuechen-bestellliste",
+      "requestQuote": "Angebot anfragen",
+      "worktopChosen": "Gewählte Optik: {label}"
+    },
+    "quote": {
+      "eyebrow": "Küchenplaner",
+      "title": "Angebot anfragen",
+      "intro": "Ihren Entwurf und die Bestellliste senden wir mit — wir melden uns innerhalb von 24 Stunden.",
+      "name": "Name",
+      "phone": "Telefon (optional)",
+      "email": "E-Mail",
+      "message": "Nachricht (optional)",
+      "messagePlaceholder": "Fragen, Wünsche, gewünschter Liefertermin…",
+      "cancel": "Abbrechen",
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet…",
+      "error": "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt eine E-Mail senden.",
+      "successTitle": "Danke — wir haben Ihren Küchenentwurf erhalten.",
+      "successBody": "Habitat One meldet sich innerhalb eines Werktags mit einem Angebot.",
+      "close": "Schließen",
+      "closeAria": "Schließen"
+    },
+    "aiRender": {
+      "button": "Realistisches Bild erzeugen",
+      "title": "Realistisches Bild",
+      "intro": "Die KI erstellt eine fotorealistische Impression Ihres Entwurfs.",
+      "loading": "Wird erzeugt… das dauert etwa 15 Sekunden.",
+      "retry": "Erneut versuchen",
+      "download": "Herunterladen",
+      "newVariant": "Neue Variante",
+      "disclaimer": "Dies ist eine KI-Impression — ein Stimmungsbild, keine technische Zeichnung. Die Bestellliste bleibt maßgeblich.",
+      "alt": "Realistische Impression der Küche",
+      "errNoCapture": "Öffnen Sie zuerst die 3D-Ansicht und versuchen Sie es erneut.",
+      "errGeneric": "Die Erzeugung ist fehlgeschlagen. Bitte versuchen Sie es gleich noch einmal.",
+      "errNotConfigured": "Die Bilderzeugung ist noch nicht konfiguriert.",
+      "errDetail": "Die Erzeugung ist fehlgeschlagen — {detail}",
+      "errNetwork": "Beim Erzeugen ist etwas schiefgelaufen."
     }
   },
   "quoteForm": {
