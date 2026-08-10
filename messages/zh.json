@@ -1617,5 +1617,11 @@
     "successText": "我们将在一个工作日内通过邮件或电话回复您。",
     "closeLabel": "关闭",
     "errorGeneric": "发送失败。请重试，或直接给我们发送邮件。"
+  },
+  "cookieConsent": {
+    "body": "我们使用分析 Cookie 来改进本网站。",
+    "accept": "接受",
+    "decline": "拒绝",
+    "more": "了解更多"
   }
 }

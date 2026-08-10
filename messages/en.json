@@ -1617,5 +1617,11 @@
     "successText": "We'll be in touch within one business day by email or phone.",
     "closeLabel": "Close",
     "errorGeneric": "Sending failed. Please try again or email us directly."
+  },
+  "cookieConsent": {
+    "body": "We use analytics cookies to improve this website.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "more": "Learn more"
   }
 }

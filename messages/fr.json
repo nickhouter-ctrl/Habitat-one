@@ -1617,5 +1617,11 @@
     "successText": "Nous vous répondrons sous un jour ouvré, par e-mail ou par téléphone.",
     "closeLabel": "Fermer",
     "errorGeneric": "L'envoi a échoué. Veuillez réessayer ou nous écrire directement."
+  },
+  "cookieConsent": {
+    "body": "Nous utilisons des cookies d'analyse pour améliorer ce site.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "more": "En savoir plus"
   }
 }

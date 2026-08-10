@@ -1617,5 +1617,11 @@
     "successText": "Sie hören innerhalb eines Werktags von uns per E-Mail oder Telefon.",
     "closeLabel": "Schließen",
     "errorGeneric": "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren."
+  },
+  "cookieConsent": {
+    "body": "Wir verwenden Analyse-Cookies, um diese Website zu verbessern.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "more": "Mehr erfahren"
   }
 }

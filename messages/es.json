@@ -1617,5 +1617,11 @@
     "successText": "Te responderemos en un día laborable por correo o teléfono.",
     "closeLabel": "Cerrar",
     "errorGeneric": "Error al enviar. Vuelve a intentarlo o escríbenos directamente."
+  },
+  "cookieConsent": {
+    "body": "Usamos cookies de análisis para mejorar este sitio web.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "more": "Más información"
   }
 }

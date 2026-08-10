@@ -1617,5 +1617,11 @@
     "successText": "Je hoort binnen één werkdag van ons via e-mail of telefoon.",
     "closeLabel": "Sluiten",
     "errorGeneric": "Versturen mislukt. Probeer 't opnieuw of mail ons direct."
+  },
+  "cookieConsent": {
+    "body": "We gebruiken analyse-cookies om de website te verbeteren.",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "more": "Meer info"
   }
 }
