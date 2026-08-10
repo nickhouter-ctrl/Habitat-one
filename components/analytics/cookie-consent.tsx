@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useSyncExternalStore } from "react";
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 
 const KEY = "h1-cookie-consent";
@@ -9,6 +9,8 @@ const MAX_AGE_MS = 182 * 24 * 60 * 60 * 1000;
 type Consent = "granted" | "denied";
 type Stored = { v: Consent; t: number };
 
+// NB: dit component staat (nog) buiten de NextIntlClientProvider in de layout,
+// dus useTranslations is hier niet beschikbaar — vandaar de eigen dict.
 const TXT: Record<string, { body: string; accept: string; decline: string; more: string }> = {
   nl: { body: "We gebruiken analyse-cookies om de website te verbeteren.", accept: "Accepteren", decline: "Weigeren", more: "Meer info" },
   en: { body: "We use analytics cookies to improve this website.", accept: "Accept", decline: "Decline", more: "Learn more" },
@@ -40,6 +42,45 @@ function readStored(): Stored | null {
   }
 }
 
+// De consent-keuze leeft in localStorage (extern t.o.v. React) en kan ook door
+// de footer-link worden heropend — daarom gemodelleerd als externe store voor
+// useSyncExternalStore, in plaats van setState in een mount-effect.
+type Snapshot = { consent: Consent | null; decided: boolean };
+
+/** Server + hydration: doe alsof er al gekozen is, zodat de banner niet flitst. */
+const SERVER_SNAPSHOT: Snapshot = { consent: null, decided: true };
+
+let snapshot: Snapshot | null = null; // lazy: pas op de client uit storage gelezen
+const listeners = new Set<() => void>();
+
+function getSnapshot(): Snapshot {
+  if (snapshot === null) {
+    const s = readStored();
+    snapshot =
+      s && Date.now() - s.t < MAX_AGE_MS
+        ? { consent: s.v, decided: true }
+        : { consent: null, decided: false }; // niets opgeslagen of verlopen → opnieuw vragen
+  }
+  return snapshot;
+}
+
+function setSnapshot(next: Snapshot) {
+  snapshot = next;
+  for (const l of listeners) l();
+}
+
+function subscribe(onChange: () => void): () => void {
+  // Footer-link "Cookievoorkeuren" heropent de banner (keuze blijft bewaard
+  // tot er opnieuw gekozen wordt).
+  const reopen = () => setSnapshot({ ...getSnapshot(), decided: false });
+  listeners.add(onChange);
+  window.addEventListener("habitat:open-cookie-settings", reopen);
+  return () => {
+    listeners.delete(onChange);
+    window.removeEventListener("habitat:open-cookie-settings", reopen);
+  };
+}
+
 /**
  * GDPR cookie consent — Google Analytics laadt pas nadat de bezoeker accepteert.
  * De keuze wordt 6 maanden onthouden; daarna (of bij een verlopen keuze) wordt
@@ -48,30 +89,11 @@ function readStored(): Stored | null {
  */
 export function CookieConsent({ locale }: { locale: string }) {
   const t = TXT[locale] ?? TXT.en;
-  const [consent, setConsent] = useState<Consent | null>(null);
-  const [decided, setDecided] = useState(true); // assume decided until we read storage (avoids flash)
-
-  useEffect(() => {
-    const s = readStored();
-    if (s && Date.now() - s.t < MAX_AGE_MS) {
-      setConsent(s.v);
-      setDecided(true);
-    } else {
-      setDecided(false); // niets opgeslagen of verlopen → opnieuw vragen
-    }
-  }, []);
-
-  // Footer-link "Cookievoorkeuren" heropent de banner.
-  useEffect(() => {
-    const open = () => setDecided(false);
-    window.addEventListener("habitat:open-cookie-settings", open);
-    return () => window.removeEventListener("habitat:open-cookie-settings", open);
-  }, []);
+  const { consent, decided } = useSyncExternalStore(subscribe, getSnapshot, () => SERVER_SNAPSHOT);
 
   const choose = useCallback((v: Consent) => {
     localStorage.setItem(KEY, JSON.stringify({ v, t: Date.now() }));
-    setConsent(v);
-    setDecided(true);
+    setSnapshot({ consent: v, decided: true });
     // Trekt de bezoeker de toestemming in terwijl GA al draait, stop dan direct
     // de gegevensverzameling via Consent Mode (geen reload nodig).
     if (v === "denied") {
