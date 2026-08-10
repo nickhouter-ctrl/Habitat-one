@@ -1560,5 +1560,18 @@
     "colCommission": "Comisión",
     "orderSingular": "pedido",
     "orderPlural": "pedidos"
+  },
+  "planner": {
+    "canvas": {
+      "emptyHint": "Elige un armario o electrodoméstico a la derecha — aparecerá aquí. Luego arrástralo a su sitio; en el centro de la habitación se convierte en una isla.",
+      "fits": "Cabe un armario de {size} cm",
+      "window": "Ventana",
+      "door": "Puerta",
+      "appliance": "Electrodoméstico",
+      "cabinet": "Armario",
+      "item": "Elemento",
+      "dragHint3d": "Arrastra un armario para moverlo. Arrastra el suelo para girar, desplázate para hacer zoom.",
+      "collision": "Los armarios se superponen — mueve uno"
+    }
   }
 }

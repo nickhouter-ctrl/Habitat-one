@@ -1560,5 +1560,18 @@
     "colCommission": "Provision",
     "orderSingular": "Bestellung",
     "orderPlural": "Bestellungen"
+  },
+  "planner": {
+    "canvas": {
+      "emptyHint": "Wählen Sie rechts einen Schrank oder ein Gerät — es erscheint hier. Ziehen Sie es dann an seinen Platz; in der Raummitte wird es zur Kücheninsel.",
+      "fits": "{size}-cm-Schrank passt",
+      "window": "Fenster",
+      "door": "Tür",
+      "appliance": "Gerät",
+      "cabinet": "Schrank",
+      "item": "Element",
+      "dragHint3d": "Ziehen Sie einen Schrank, um ihn zu verschieben. Ziehen Sie den Boden zum Drehen, scrollen Sie zum Zoomen.",
+      "collision": "Schränke überlappen — bitte einen verschieben"
+    }
   }
 }

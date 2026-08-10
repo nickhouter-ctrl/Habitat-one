@@ -1560,5 +1560,18 @@
     "colCommission": "Commissie",
     "orderSingular": "order",
     "orderPlural": "orders"
+  },
+  "planner": {
+    "canvas": {
+      "emptyHint": "Kies rechts een kast of apparaat — het verschijnt hier. Sleep het daarna naar zijn plek; midden in de ruimte wordt het een eiland.",
+      "fits": "{size}-cm kast past",
+      "window": "Raam",
+      "door": "Deur",
+      "appliance": "Apparaat",
+      "cabinet": "Kast",
+      "item": "Item",
+      "dragHint3d": "Sleep een kast om hem te verplaatsen. Sleep de vloer om te draaien, scroll om te zoomen.",
+      "collision": "Kasten overlappen — schuif er één opzij"
+    }
   }
 }

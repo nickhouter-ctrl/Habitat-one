@@ -1560,5 +1560,18 @@
     "colCommission": "Commission",
     "orderSingular": "commande",
     "orderPlural": "commandes"
+  },
+  "planner": {
+    "canvas": {
+      "emptyHint": "Choisissez un meuble ou un appareil à droite — il apparaît ici. Faites-le ensuite glisser à sa place ; au milieu de la pièce, il devient un îlot.",
+      "fits": "Meuble de {size} cm possible",
+      "window": "Fenêtre",
+      "door": "Porte",
+      "appliance": "Appareil",
+      "cabinet": "Meuble",
+      "item": "Élément",
+      "dragHint3d": "Faites glisser un meuble pour le déplacer. Faites glisser le sol pour pivoter, faites défiler pour zoomer.",
+      "collision": "Les meubles se chevauchent — déplacez-en un"
+    }
   }
 }

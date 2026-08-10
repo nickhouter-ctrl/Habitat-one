@@ -1560,5 +1560,18 @@
     "colCommission": "Commission",
     "orderSingular": "order",
     "orderPlural": "orders"
+  },
+  "planner": {
+    "canvas": {
+      "emptyHint": "Pick a cabinet or appliance on the right — it appears here. Then drag it into place; in the middle of the room it becomes an island.",
+      "fits": "{size} cm cabinet fits",
+      "window": "Window",
+      "door": "Door",
+      "appliance": "Appliance",
+      "cabinet": "Cabinet",
+      "item": "Item",
+      "dragHint3d": "Drag a cabinet to move it. Drag the floor to orbit, scroll to zoom.",
+      "collision": "Cabinets overlap — move one aside"
+    }
   }
 }

@@ -1560,5 +1560,18 @@
     "colCommission": "佣金",
     "orderSingular": "笔订单",
     "orderPlural": "笔订单"
+  },
+  "planner": {
+    "canvas": {
+      "emptyHint": "在右侧选择橱柜或电器——它会出现在这里。然后将其拖到合适的位置；放在房间中央即成为岛台。",
+      "fits": "可放 {size} 厘米橱柜",
+      "window": "窗户",
+      "door": "门",
+      "appliance": "电器",
+      "cabinet": "橱柜",
+      "item": "部件",
+      "dragHint3d": "拖动橱柜可移动位置。拖动地面可旋转视角，滚动可缩放。",
+      "collision": "橱柜重叠——请移开一个"
+    }
   }
 }
