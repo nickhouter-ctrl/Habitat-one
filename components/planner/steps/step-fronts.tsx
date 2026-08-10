@@ -3,6 +3,10 @@
 // Stap 2 — Kleur & fronten: de zichtbare deuren/lades zijn bij Habitat One
 // volledig maatwerk. De klant kiest een keukenstijl als startpunt of stelt
 // zelf stijl + afwerking samen, en kiest de afwerking van de zijpanelen.
+//
+// Vertalingen: catalogus-items (stijlen/afwerkingen) worden vertaald op
+// stabiel id via planner.catalog.*; de Nederlandse catalogus-labels zijn de
+// fallback zolang messages/*.json de keys nog niet heeft.
 
 import { Check } from "lucide-react";
 import {
@@ -10,26 +14,35 @@ import {
   frontStyles,
   getFrontFinish,
   kitchenStyles,
+  worktopFinishes,
 } from "@/lib/planner/catalog";
 import { usePlanner } from "@/lib/planner/store";
 import { cn } from "@/lib/utils";
+import { usePlannerT } from "../i18n";
 import { ChoiceCard, StepHeading } from "../ui";
 
 export function StepFronts() {
   const { design, dispatch } = usePlanner();
+  const { tf } = usePlannerT();
   const frontHex = getFrontFinish(design.frontFinishId)?.hex ?? "#e9e2d2";
 
   return (
     <div className="space-y-8">
       <StepHeading
-        title="Kleur & fronten"
-        intro="Kies een keukenstijl als startpunt, of stel zelf je front-stijl en afwerking samen. Ook de zijpanelen werken we volledig op maat af."
+        title={tf("fronts.title", "Kleur & fronten")}
+        intro={tf(
+          "fronts.intro",
+          "Kies een keukenstijl als startpunt, of stel zelf je front-stijl en afwerking samen. Ook de zijpanelen werken we volledig op maat af.",
+        )}
       />
 
       {/* Keukenstijl — snelkeuze */}
       <section>
         <SectionTitle>
-          Keukenstijl <span className="font-normal normal-case">— snelkeuze</span>
+          {tf("fronts.quickTitle", "Keukenstijl")}{" "}
+          <span className="font-normal normal-case">
+            {tf("fronts.quickHint", "— snelkeuze")}
+          </span>
         </SectionTitle>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {kitchenStyles.map((style) => {
@@ -50,9 +63,13 @@ export function StepFronts() {
                     className="h-8 w-8 shrink-0 rounded-md border border-sand-300"
                     style={{ backgroundColor: getFrontFinish(style.frontFinishId)?.hex }}
                   />
-                  <div className="font-medium text-ink">{style.label}</div>
+                  <div className="font-medium text-ink">
+                    {tf(`catalog.kitchenStyles.${style.id}.label`, style.label)}
+                  </div>
                 </div>
-                <div className="mt-2 text-sm text-ink-soft">{style.description}</div>
+                <div className="mt-2 text-sm text-ink-soft">
+                  {tf(`catalog.kitchenStyles.${style.id}.description`, style.description)}
+                </div>
               </ChoiceCard>
             );
           })}
@@ -61,7 +78,7 @@ export function StepFronts() {
 
       {/* Front-stijl */}
       <section>
-        <SectionTitle>Front-stijl</SectionTitle>
+        <SectionTitle>{tf("fronts.styleTitle", "Front-stijl")}</SectionTitle>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {frontStyles.map((style) => (
             <ChoiceCard
@@ -69,8 +86,12 @@ export function StepFronts() {
               selected={design.frontStyleId === style.id}
               onClick={() => dispatch({ type: "SET_FRONT_STYLE", id: style.id })}
             >
-              <div className="font-medium text-ink">{style.label}</div>
-              <div className="mt-1 text-sm text-ink-soft">{style.description}</div>
+              <div className="font-medium text-ink">
+                {tf(`catalog.frontStyles.${style.id}.label`, style.label)}
+              </div>
+              <div className="mt-1 text-sm text-ink-soft">
+                {tf(`catalog.frontStyles.${style.id}.description`, style.description)}
+              </div>
             </ChoiceCard>
           ))}
         </div>
@@ -78,12 +99,12 @@ export function StepFronts() {
 
       {/* Afwerking */}
       <section>
-        <SectionTitle>Afwerking</SectionTitle>
+        <SectionTitle>{tf("fronts.finishTitle", "Afwerking")}</SectionTitle>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-6">
           {frontFinishes.map((finish) => (
             <FinishSwatch
               key={finish.id}
-              label={finish.label}
+              label={tf(`catalog.finishes.${finish.id}`, finish.label)}
               hex={finish.hex}
               selected={design.frontFinishId === finish.id}
               onClick={() => dispatch({ type: "SET_FRONT_FINISH", id: finish.id })}
@@ -94,15 +115,16 @@ export function StepFronts() {
 
       {/* Zijpanelen */}
       <section>
-        <SectionTitle>Zijpanelen</SectionTitle>
+        <SectionTitle>{tf("fronts.sidePanelsTitle", "Zijpanelen")}</SectionTitle>
         <p className="mb-3 max-w-2xl text-sm text-ink-soft">
-          De zichtbare zijkanten van kasten en eilanden werken we af met maatwerk-
-          zijpanelen — standaard in dezelfde afwerking als de fronten, of bewust in
-          een contrasterende kleur.
+          {tf(
+            "fronts.sidePanelsIntro",
+            "De zichtbare zijkanten van kasten en eilanden werken we af met maatwerk-zijpanelen — standaard in dezelfde afwerking als de fronten, of bewust in een contrasterende kleur.",
+          )}
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-6">
           <FinishSwatch
-            label="Zelfde als fronten"
+            label={tf("fronts.sameAsFronts", "Zelfde als fronten")}
             hex={frontHex}
             selected={design.sidePanelFinishId === null}
             onClick={() => dispatch({ type: "SET_SIDE_PANEL", id: null })}
@@ -110,11 +132,49 @@ export function StepFronts() {
           {frontFinishes.map((finish) => (
             <FinishSwatch
               key={finish.id}
-              label={finish.label}
+              label={tf(`catalog.finishes.${finish.id}`, finish.label)}
               hex={finish.hex}
               selected={design.sidePanelFinishId === finish.id}
               onClick={() => dispatch({ type: "SET_SIDE_PANEL", id: finish.id })}
             />
+          ))}
+        </div>
+      </section>
+
+      {/* Werkblad — extern besteld, keuze stuurt alleen weergave + bestellijst */}
+      <section>
+        <SectionTitle>{tf("fronts.worktopTitle", "Werkblad")}</SectionTitle>
+        <p className="mb-3 max-w-2xl text-sm text-ink-soft">
+          {tf(
+            "fronts.worktopIntro",
+            "Het werkblad wordt door een externe partij op maat gemaakt — kies hier alvast de gewenste uitstraling.",
+          )}
+        </p>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {worktopFinishes.map((worktop) => (
+            <ChoiceCard
+              key={worktop.id}
+              selected={design.worktopId === worktop.id}
+              onClick={() =>
+                dispatch({
+                  type: "SET_WORKTOP",
+                  id: design.worktopId === worktop.id ? null : worktop.id,
+                })
+              }
+            >
+              <div className="flex items-center gap-2.5">
+                <span
+                  className="h-8 w-8 shrink-0 rounded-md border border-sand-300"
+                  style={{ backgroundColor: worktop.hex }}
+                />
+                <div className="font-medium text-ink">
+                  {tf(`catalog.worktops.${worktop.id}.label`, worktop.label)}
+                </div>
+              </div>
+              <div className="mt-2 text-sm text-ink-soft">
+                {tf(`catalog.worktops.${worktop.id}.description`, worktop.description)}
+              </div>
+            </ChoiceCard>
           ))}
         </div>
       </section>
