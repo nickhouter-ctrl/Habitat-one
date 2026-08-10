@@ -1,8 +1,9 @@
 import "server-only";
 import { cookies } from "next/headers";
 
-export const CRM_API = process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
-export const PORTAL_COOKIE = "hb_portal";
+import { CRM_API, PORTAL_COOKIE } from "./crm";
+
+export { CRM_API, PORTAL_COOKIE };
 
 /** De portal-sessietoken (CRM-JWT) uit de httpOnly-cookie, of null. */
 export async function getPortalToken(): Promise<string | null> {

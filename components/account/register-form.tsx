@@ -4,8 +4,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { CheckCircle2 } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-
-const CRM_API = process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
+import { CRM_API } from "@/lib/account/crm";
 
 const field = "w-full rounded-lg border border-black/15 bg-white px-3 py-2.5 text-sm outline-none focus:border-ink";
 
