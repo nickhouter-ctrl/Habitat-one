@@ -1,99 +1,31 @@
 "use client";
 
 // Gedeelde UI-bouwstenen voor de planner-stappen, plus de shell-context met
-// ontwerp-historie (ongedaan maken) en de gekozen keukenopstelling.
+// de gekozen keukenopstelling. Ontwerp-historie (undo/redo) zit in de store.
 
-import {
-  createContext,
-  useCallback,
-  useContext,
-  useMemo,
-  useState,
-  type Dispatch,
-  type ReactNode,
-} from "react";
+import { createContext, useContext, useMemo, useState, type ReactNode } from "react";
 import { Check } from "lucide-react";
-import { usePlanner, type PlannerAction } from "@/lib/planner/store";
-import type { KitchenDesign } from "@/lib/planner/types";
 import { cn } from "@/lib/utils";
 
-// --- Shell-context: historie + opstelling ---------------------------------
+// --- Shell-context: gekozen opstelling -------------------------------------
 
 /** Keukenopstelling gekozen in de Ruimte-stap: recht, L-vorm of U-vorm. */
 export type LayoutPreset = "recht" | "l" | "u";
 
-/**
- * RESTORE zet het complete ontwerp in één keer terug (historie, opstelling
- * toepassen). De actie wordt afgehandeld in lib/planner/store; zolang die
- * daar nog niet bestaat negeert de reducer hem en is dit een veilige no-op.
- */
-type RestoreAction = { type: "RESTORE"; design: KitchenDesign };
-
-/** Maximaal aantal ongedaan-te-maken stappen. */
-const HISTORY_LIMIT = 50;
-
 interface PlannerShellValue {
-  /** Dispatch die eerst een snapshot voor de historie vastlegt. */
-  dispatch: (action: PlannerAction) => void;
-  /** Vervang het hele ontwerp (opstelling toepassen) — ook ongedaan te maken. */
-  replaceDesign: (design: KitchenDesign) => void;
-  undo: () => void;
-  canUndo: boolean;
   layoutPreset: LayoutPreset | null;
   setLayoutPreset: (preset: LayoutPreset | null) => void;
 }
 
 const PlannerShellContext = createContext<PlannerShellValue | null>(null);
 
-/**
- * Houdt de ontwerp-historie en de gekozen opstelling bij, bovenop de store.
- * Moet binnen `PlannerProvider` staan.
- */
+/** Houdt de gekozen opstelling bij, over de stappen heen. */
 export function PlannerShellProvider({ children }: { children: ReactNode }) {
-  const { design, dispatch } = usePlanner();
-  const [past, setPast] = useState<KitchenDesign[]>([]);
   const [layoutPreset, setLayoutPreset] = useState<LayoutPreset | null>(null);
 
-  const record = useCallback(() => {
-    setPast((p) => [...p.slice(-(HISTORY_LIMIT - 1)), design]);
-  }, [design]);
-
-  const trackedDispatch = useCallback(
-    (action: PlannerAction) => {
-      record();
-      dispatch(action);
-    },
-    [record, dispatch],
-  );
-
-  const replaceDesign = useCallback(
-    (next: KitchenDesign) => {
-      record();
-      (dispatch as Dispatch<PlannerAction | RestoreAction>)({ type: "RESTORE", design: next });
-    },
-    [record, dispatch],
-  );
-
-  const undo = useCallback(() => {
-    setPast((p) => {
-      const prev = p[p.length - 1];
-      if (prev) {
-        (dispatch as Dispatch<PlannerAction | RestoreAction>)({ type: "RESTORE", design: prev });
-      }
-      return p.slice(0, -1);
-    });
-  }, [dispatch]);
-
   const value = useMemo<PlannerShellValue>(
-    () => ({
-      dispatch: trackedDispatch,
-      replaceDesign,
-      undo,
-      canUndo: past.length > 0,
-      layoutPreset,
-      setLayoutPreset,
-    }),
-    [trackedDispatch, replaceDesign, undo, past.length, layoutPreset],
+    () => ({ layoutPreset, setLayoutPreset }),
+    [layoutPreset],
   );
 
   return <PlannerShellContext.Provider value={value}>{children}</PlannerShellContext.Provider>;

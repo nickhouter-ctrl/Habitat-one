@@ -6,7 +6,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
-import { Box, Lightbulb, Map, Plus, RotateCw, Trash2, Undo2 } from "lucide-react";
+import { Box, Lightbulb, Map, Plus, Redo2, RotateCw, Trash2, Undo2 } from "lucide-react";
 import {
   carcassTypeMeta,
   carcassesByType,
@@ -25,7 +25,7 @@ import type { CabinetLayer, KitchenDesign, PlacedItem } from "@/lib/planner/type
 import { AiRenderPanel } from "../ai-render";
 import { RoomCanvas } from "../room-canvas";
 import { usePlannerT } from "../i18n";
-import { Chip, PillToggle, StepHeading, TabButton, usePlannerShell } from "../ui";
+import { Chip, PillToggle, StepHeading, TabButton } from "../ui";
 
 // Het 3D-aanzicht laadt three.js — alleen client-side, los van de hoofdbundel.
 const Room3D = dynamic(() => import("../room-3d").then((m) => m.Room3D), {
@@ -95,8 +95,7 @@ function stackAdvice(design: KitchenDesign): StackAdvice[] {
 }
 
 export function StepDesign() {
-  const { design, stepIndex } = usePlanner();
-  const { dispatch, undo, canUndo } = usePlannerShell();
+  const { design, stepIndex, dispatch, undo, redo, canUndo, canRedo } = usePlanner();
   const { t, tf } = usePlannerT();
   const [view, setView] = useState<"2d" | "3d">("2d");
   const [layer, setLayer] = useState<CabinetLayer>("base");
@@ -194,19 +193,14 @@ export function StepDesign() {
           </PillToggle>
         </div>
         <div className="hidden h-6 w-px bg-sand-300 sm:block" aria-hidden />
-        <button
-          type="button"
-          onClick={undo}
-          disabled={!canUndo}
-          className={
-            canUndo
-              ? "flex items-center gap-1.5 rounded-full border border-sand-300 bg-white px-4 py-1.5 text-sm text-ink transition-colors hover:border-ink"
-              : "flex cursor-not-allowed items-center gap-1.5 rounded-full border border-sand-200 bg-white px-4 py-1.5 text-sm text-sand-400"
-          }
-        >
-          <Undo2 className="h-4 w-4" aria-hidden />
-          {tf("design.undo", "Ongedaan maken")}
-        </button>
+        <div className="flex gap-1.5">
+          <HistoryButton onClick={undo} enabled={canUndo} label={tf("design.undo", "Ongedaan maken")}>
+            <Undo2 className="h-4 w-4" aria-hidden />
+          </HistoryButton>
+          <HistoryButton onClick={redo} enabled={canRedo} label={tf("design.redo", "Opnieuw")}>
+            <Redo2 className="h-4 w-4" aria-hidden />
+          </HistoryButton>
+        </div>
       </div>
 
       {advice.length > 0 && (
@@ -439,6 +433,35 @@ export function StepDesign() {
         </aside>
       </div>
     </div>
+  );
+}
+
+/** Undo/redo-knop in de werkbalk. */
+function HistoryButton({
+  onClick,
+  enabled,
+  label,
+  children,
+}: {
+  onClick: () => void;
+  enabled: boolean;
+  label: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={!enabled}
+      className={
+        enabled
+          ? "flex items-center gap-1.5 rounded-full border border-sand-300 bg-white px-4 py-1.5 text-sm text-ink transition-colors hover:border-ink"
+          : "flex cursor-not-allowed items-center gap-1.5 rounded-full border border-sand-200 bg-white px-4 py-1.5 text-sm text-sand-400"
+      }
+    >
+      {children}
+      {label}
+    </button>
   );
 }
 

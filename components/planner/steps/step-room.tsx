@@ -66,14 +66,15 @@ const DOOR_CLEARANCE_CM = 10;
 const SEED_MIN_WIDTH_CM = 40;
 
 export function StepRoom() {
-  const { design, stepIndex } = usePlanner();
-  const { dispatch, layoutPreset, setLayoutPreset, replaceDesign } = usePlannerShell();
+  const { design, stepIndex, dispatch } = usePlanner();
+  const { layoutPreset, setLayoutPreset } = usePlannerShell();
   const { t, tf } = usePlannerT();
   const { roomWidthCm: rw, roomDepthCm: rd } = design;
 
   const applyPreset = (preset: LayoutPreset) => {
     setLayoutPreset(preset);
-    replaceDesign({ ...design, items: seedItems(design, preset) });
+    // RESTORE vervangt het hele ontwerp in één keer — en is dus één undo-stap.
+    dispatch({ type: "RESTORE", design: { ...design, items: seedItems(design, preset) } });
   };
 
   return (
@@ -437,7 +438,7 @@ function OpeningMark({ o, rw, rd }: { o: Opening; rw: number; rd: number }) {
 
 /** Bewerkrij voor één raam of deur. */
 function OpeningRow({ o, design }: { o: Opening; design: KitchenDesign }) {
-  const { dispatch } = usePlannerShell();
+  const { dispatch } = usePlanner();
   const { tf } = usePlannerT();
   const wallLen =
     o.wall === "left" || o.wall === "right" ? design.roomDepthCm : design.roomWidthCm;
