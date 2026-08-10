@@ -53,6 +53,35 @@ describe("historyReducer", () => {
     expect(s.present.items[0].cy).toBe(before.cy);
   });
 
+  it("voegt sleep-gebaren op verschillende elementen niet samen", () => {
+    let s = addCabinet(addCabinet(initialHistory()));
+    const [a, b] = s.present.items.map((i) => i.instanceId);
+    const bBefore = s.present.items.find((i) => i.instanceId === b)!;
+
+    s = historyReducer(s, { type: "MOVE_ITEM", instanceId: a, cx: 200, cy: 200 });
+    s = historyReducer(s, { type: "MOVE_ITEM", instanceId: b, cx: 250, cy: 250 });
+    // 2 stappen voor het toevoegen + 2 lósse sleep-stappen (per element één).
+    expect(s.past).toHaveLength(4);
+
+    s = historyReducer(s, { type: "UNDO" });
+    // Alleen de verplaatsing van b is teruggedraaid; a blijft verplaatst.
+    expect(s.present.items.find((i) => i.instanceId === b)).toMatchObject({
+      cx: bBefore.cx,
+      cy: bBefore.cy,
+    });
+    expect(s.present.items.find((i) => i.instanceId === a)).toMatchObject({ cx: 200, cy: 200 });
+  });
+
+  it("start na een SNAP een nieuw sleep-gebaar op hetzelfde element", () => {
+    let s = addCabinet(initialHistory());
+    const id = s.present.items[0].instanceId;
+    s = historyReducer(s, { type: "MOVE_ITEM", instanceId: id, cx: 150, cy: 150 });
+    s = historyReducer(s, { type: "SNAP_ITEM", instanceId: id });
+    s = historyReducer(s, { type: "MOVE_ITEM", instanceId: id, cx: 250, cy: 150 });
+    // toevoegen + gebaar 1 (MOVE+SNAP) + gebaar 2 = 3 undo-stappen.
+    expect(s.past).toHaveLength(3);
+  });
+
   it("begrenst de geschiedenis tot 50 stappen", () => {
     let s = initialHistory();
     for (let i = 0; i < 60; i++) {

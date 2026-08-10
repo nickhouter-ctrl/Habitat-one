@@ -319,6 +319,8 @@ export interface HistoryState {
   future: KitchenDesign[];
   /** Laatste ontwerp-actie — om sleep-gebaren tot één undo-stap samen te voegen. */
   lastActionType: PlannerAction["type"] | null;
+  /** Element van die laatste actie — samenvoegen gebeurt alleen per element. */
+  lastInstanceId: string | null;
 }
 
 /**
@@ -333,19 +335,24 @@ export type HistoryAction =
 
 /** De lege geschiedenis rond het beginontwerp. */
 export function initialHistory(): HistoryState {
-  return { past: [], present: initialDesign(), future: [], lastActionType: null };
+  return {
+    past: [],
+    present: initialDesign(),
+    future: [],
+    lastActionType: null,
+    lastInstanceId: null,
+  };
 }
 
 /**
- * True als `next` bij de vorige actie hoort en géén eigen undo-stap verdient:
- * een sleep-gebaar is een reeks MOVE_ITEM's met eventueel een SNAP_ITEM als
- * afronding — undo hoort dan het hele gebaar terug te draaien.
+ * True als `action` bij de vorige actie hoort en géén eigen undo-stap
+ * verdient: een sleep-gebaar is een reeks MOVE_ITEM's op hetzélfde element,
+ * met eventueel een SNAP_ITEM als afronding — undo hoort dan het hele gebaar
+ * terug te draaien. Acties op een ander element starten altijd een nieuwe stap.
  */
-function coalescesWithPrevious(
-  previous: PlannerAction["type"] | null,
-  next: PlannerAction["type"],
-): boolean {
-  return (next === "MOVE_ITEM" || next === "SNAP_ITEM") && previous === "MOVE_ITEM";
+function coalescesWithPrevious(state: HistoryState, action: PlannerAction): boolean {
+  if (action.type !== "MOVE_ITEM" && action.type !== "SNAP_ITEM") return false;
+  return state.lastActionType === "MOVE_ITEM" && state.lastInstanceId === action.instanceId;
 }
 
 /**
@@ -361,6 +368,7 @@ export function historyReducer(state: HistoryState, action: HistoryAction): Hist
         present: state.past[state.past.length - 1],
         future: [state.present, ...state.future],
         lastActionType: null,
+        lastInstanceId: null,
       };
     }
 
@@ -371,21 +379,30 @@ export function historyReducer(state: HistoryState, action: HistoryAction): Hist
         present: state.future[0],
         future: state.future.slice(1),
         lastActionType: null,
+        lastInstanceId: null,
       };
     }
 
     case "HYDRATE": {
       const design = sanitizeDesign(action.design);
-      return design ? { ...state, present: design, lastActionType: null } : state;
+      return design
+        ? { ...state, present: design, lastActionType: null, lastInstanceId: null }
+        : state;
     }
 
     default: {
       const present = plannerReducer(state.present, action);
       if (present === state.present) return state;
-      const past = coalescesWithPrevious(state.lastActionType, action.type)
+      const past = coalescesWithPrevious(state, action)
         ? state.past
         : [...state.past, state.present].slice(-HISTORY_LIMIT);
-      return { past, present, future: [], lastActionType: action.type };
+      return {
+        past,
+        present,
+        future: [],
+        lastActionType: action.type,
+        lastInstanceId: "instanceId" in action ? action.instanceId : null,
+      };
     }
   }
 }
