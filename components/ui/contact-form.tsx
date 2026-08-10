@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "motion/react";
 import { Send, CheckCircle2, Loader2 } from "lucide-react";
 import { trackEvent } from "@/lib/analytics/track";
-import { CRM_API } from "@/lib/account/crm";
+import { CRM_API, toCrmLocale } from "@/lib/account/crm";
 
 const subjectKeys = ["general", "materials", "renovation", "property", "legal", "showroom"] as const;
 
@@ -35,7 +35,7 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
     }
     setState("sending");
     // De CRM (en z'n bevestigingsmails) ondersteunt alleen nl/de/en/es — val terug op en voor fr/zh.
-    const crmLocale = ["nl", "de", "en", "es"].includes(locale) ? locale : "en";
+    const crmLocale = toCrmLocale(locale);
     try {
       const res = await fetch(`${CRM_API}/api/quote-requests`, {
         method: "POST",
