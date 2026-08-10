@@ -10,10 +10,12 @@ import {
   type PointerEvent as ReactPointerEvent,
   type RefObject,
 } from "react";
+import { useTranslations } from "next-intl";
 import { carcassTypeMeta, getCarcass, type CarcassColor } from "@/lib/data/metod";
 import { getAppliance } from "@/lib/planner/appliances";
 import { getFrontFinish } from "@/lib/planner/catalog";
 import {
+  designHasCollision,
   isFlushToWall,
   islandClearances,
   itemBounds,
@@ -48,16 +50,19 @@ function shade(hex: string, factor: number): string {
   return `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`;
 }
 
-/** Korte, leesbare naam van een item. */
-function itemLabel(item: PlacedItem): string {
+/** Vertaalfunctie voor het `planner.canvas`-namespace. */
+type CanvasT = ReturnType<typeof useTranslations<"planner.canvas">>;
+
+/** Korte, leesbare naam van een item — catalogusnaam, of een vertaalde fallback. */
+function itemLabel(item: PlacedItem, t: CanvasT): string {
   if (item.kind === "appliance" && item.applianceId) {
-    return getAppliance(item.applianceId)?.label ?? "Apparaat";
+    return getAppliance(item.applianceId)?.label ?? t("appliance");
   }
   if (item.carcassId) {
     const c = getCarcass(item.carcassId);
-    return c ? carcassTypeMeta[c.type].label : "Kast";
+    return c ? carcassTypeMeta[c.type].label : t("cabinet");
   }
-  return "Item";
+  return t("item");
 }
 
 export function RoomCanvas({
@@ -70,6 +75,7 @@ export function RoomCanvas({
   onSelect: (id: string | null) => void;
 }) {
   const { design, dispatch } = usePlanner();
+  const t = useTranslations("planner.canvas");
   const canvasRef = useRef<HTMLDivElement>(null);
   const { roomWidthCm: rw, roomDepthCm: rd } = design;
   const cabinetColor =
@@ -101,11 +107,10 @@ export function RoomCanvas({
         >
           {design.items.length === 0 && (
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center p-6 text-center text-sm text-ink-soft">
-              Kies rechts een kast of apparaat — het verschijnt hier. Sleep het
-              daarna naar zijn plek; midden in de ruimte wordt het een eiland.
+              {t("emptyHint")}
             </div>
           )}
-          <GapMarkers design={design} layer={activeLayer} />
+          <GapMarkers design={design} layer={activeLayer} t={t} />
           {ghostItems.map((item) => (
             <ElementBox
               key={item.instanceId}
@@ -113,6 +118,7 @@ export function RoomCanvas({
               rw={rw}
               rd={rd}
               cabinetColor={cabinetColor}
+              t={t}
               ghost
             />
           ))}
@@ -123,8 +129,10 @@ export function RoomCanvas({
               rw={rw}
               rd={rd}
               cabinetColor={cabinetColor}
+              t={t}
               canvasRef={canvasRef}
               selected={item.instanceId === selectedId}
+              colliding={designHasCollision(design, item)}
               onSelect={onSelect}
               onMove={(cx, cy) =>
                 dispatch({ type: "MOVE_ITEM", instanceId: item.instanceId, cx, cy })
@@ -133,7 +141,7 @@ export function RoomCanvas({
             />
           ))}
           {activeLayer === "base" && <IslandDimensions design={design} />}
-          <OpeningMarks design={design} />
+          <OpeningMarks design={design} t={t} />
         </div>
       </div>
     </div>
@@ -155,9 +163,11 @@ function ElementBox({
   rw,
   rd,
   cabinetColor,
+  t,
   ghost,
   canvasRef,
   selected,
+  colliding,
   onSelect,
   onMove,
   onSnap,
@@ -166,9 +176,12 @@ function ElementBox({
   rw: number;
   rd: number;
   cabinetColor: string;
+  t: CanvasT;
   ghost?: boolean;
   canvasRef?: RefObject<HTMLDivElement | null>;
   selected?: boolean;
+  /** True als dit item een ander item in dezelfde laag overlapt. */
+  colliding?: boolean;
   onSelect?: (id: string) => void;
   onMove?: (cx: number, cy: number) => void;
   onSnap?: () => void;
@@ -220,6 +233,7 @@ function ElementBox({
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
       onPointerUp={onPointerUp}
+      title={colliding ? t("collision") : undefined}
       style={{
         left: `${(item.cx / rw) * 100}%`,
         top: `${(item.cy / rd) * 100}%`,
@@ -234,6 +248,8 @@ function ElementBox({
           ? "pointer-events-none border-dashed border-ink/20 bg-white/40"
           : "cursor-grab shadow-sm active:cursor-grabbing",
         selected && "z-10 ring-2 ring-terracotta-500 ring-offset-1",
+        // Botsing wint van selectie: rode ring zolang het item iets overlapt.
+        colliding && "z-10 ring-2 ring-red-600 ring-offset-1",
       )}
     >
       {/* Richting-indicatie: streep aan de voorzijde van de kast. */}
@@ -247,7 +263,7 @@ function ElementBox({
         style={{ transform: `rotate(${-item.rotation}deg)`, color: ghost ? undefined : textColor }}
         className="pointer-events-none max-w-full px-0.5 text-center text-[10px] font-medium leading-tight text-ink-soft"
       >
-        {itemLabel(item)}
+        {itemLabel(item, t)}
       </span>
     </div>
   );
@@ -256,7 +272,15 @@ function ElementBox({
 const WALL_SIDES: WallSide[] = ["top", "bottom", "left", "right"];
 
 /** Toont de open ruimtes langs de wanden, met maat en wat er nog past. */
-function GapMarkers({ design, layer }: { design: KitchenDesign; layer: CabinetLayer }) {
+function GapMarkers({
+  design,
+  layer,
+  t,
+}: {
+  design: KitchenDesign;
+  layer: CabinetLayer;
+  t: CanvasT;
+}) {
   const rw = design.roomWidthCm;
   const rd = design.roomDepthCm;
   const depthCm = layer === "base" ? 60 : 37;
@@ -313,7 +337,7 @@ function GapMarkers({ design, layer }: { design: KitchenDesign; layer: CabinetLa
                 </span>
                 {fit && (
                   <span className="text-[9px] leading-tight text-terracotta-600">
-                    {fit}-cm kast past
+                    {t("fits", { size: fit })}
                   </span>
                 )}
               </div>
@@ -325,7 +349,7 @@ function GapMarkers({ design, layer }: { design: KitchenDesign; layer: CabinetLa
 }
 
 /** Ramen en deuren als gekleurde balken op de wanden van de plattegrond. */
-function OpeningMarks({ design }: { design: KitchenDesign }) {
+function OpeningMarks({ design, t }: { design: KitchenDesign; t: CanvasT }) {
   const { roomWidthCm: rw, roomDepthCm: rd } = design;
   return (
     <>
@@ -345,7 +369,7 @@ function OpeningMarks({ design }: { design: KitchenDesign }) {
         return (
           <div
             key={o.id}
-            title={o.kind === "window" ? "Raam" : "Deur"}
+            title={o.kind === "window" ? t("window") : t("door")}
             style={style}
             className={cn(
               "pointer-events-none absolute rounded-sm",
