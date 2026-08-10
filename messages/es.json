@@ -1559,7 +1559,23 @@
     "colOrder": "Pedido",
     "colCommission": "Comisión",
     "orderSingular": "pedido",
-    "orderPlural": "pedidos"
+    "orderPlural": "pedidos",
+    "metaMyAccount": "Mi cuenta — Habitat One",
+    "metaLogin": "Iniciar sesión — Habitat One",
+    "metaActivate": "Establecer contraseña — Habitat One",
+    "metaRequest": "Solicitar cuenta — Habitat One",
+    "priceWithAccount": "Precio con cuenta",
+    "priceOnRequest": "Precio bajo pedido",
+    "priceFrom": "desde",
+    "inclVat": "IVA incl.",
+    "exclVat": "IVA excl.",
+    "popupEyebrow": "Solo clientes",
+    "popupTitle": "Crea una cuenta para ver los precios",
+    "popupBody": "Nuestros precios son visibles para clientes con una cuenta (gratuita). Solicita una — particular o empresa — y consulta todos los precios al instante.",
+    "popupCta": "Solicitar cuenta",
+    "popupLogin": "Ya tengo una cuenta",
+    "popupClose": "Cerrar",
+    "popupNote": "Gratis · resuelto en 1 día laborable"
   },
   "planner": {
     "canvas": {

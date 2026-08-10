@@ -1559,7 +1559,23 @@
     "colOrder": "Order",
     "colCommission": "Commission",
     "orderSingular": "order",
-    "orderPlural": "orders"
+    "orderPlural": "orders",
+    "metaMyAccount": "My account — Habitat One",
+    "metaLogin": "Log in — Habitat One",
+    "metaActivate": "Set your password — Habitat One",
+    "metaRequest": "Request an account — Habitat One",
+    "priceWithAccount": "Price with an account",
+    "priceOnRequest": "Price on request",
+    "priceFrom": "from",
+    "inclVat": "incl. VAT",
+    "exclVat": "excl. VAT",
+    "popupEyebrow": "Customers only",
+    "popupTitle": "Create an account to see prices",
+    "popupBody": "Our prices are visible to customers with a (free) account. Request one — private or business — and see all prices right away.",
+    "popupCta": "Request an account",
+    "popupLogin": "I already have an account",
+    "popupClose": "Close",
+    "popupNote": "Free · sorted within 1 business day"
   },
   "planner": {
     "canvas": {

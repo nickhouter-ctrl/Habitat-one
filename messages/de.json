@@ -1559,7 +1559,23 @@
     "colOrder": "Bestellung",
     "colCommission": "Provision",
     "orderSingular": "Bestellung",
-    "orderPlural": "Bestellungen"
+    "orderPlural": "Bestellungen",
+    "metaMyAccount": "Mein Konto — Habitat One",
+    "metaLogin": "Anmelden — Habitat One",
+    "metaActivate": "Passwort festlegen — Habitat One",
+    "metaRequest": "Konto anfragen — Habitat One",
+    "priceWithAccount": "Preis mit Konto",
+    "priceOnRequest": "Preis auf Anfrage",
+    "priceFrom": "ab",
+    "inclVat": "inkl. MwSt.",
+    "exclVat": "zzgl. MwSt.",
+    "popupEyebrow": "Nur für Kunden",
+    "popupTitle": "Konto erstellen, um Preise zu sehen",
+    "popupBody": "Unsere Preise sind für Kunden mit einem (kostenlosen) Konto sichtbar. Beantragen Sie eins — privat oder geschäftlich — und sehen Sie sofort alle Preise.",
+    "popupCta": "Konto anfragen",
+    "popupLogin": "Ich habe bereits ein Konto",
+    "popupClose": "Schließen",
+    "popupNote": "Kostenlos · innerhalb von 1 Werktag"
   },
   "planner": {
     "canvas": {

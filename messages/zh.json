@@ -1559,7 +1559,23 @@
     "colOrder": "订单",
     "colCommission": "佣金",
     "orderSingular": "笔订单",
-    "orderPlural": "笔订单"
+    "orderPlural": "笔订单",
+    "metaMyAccount": "我的账户 — Habitat One",
+    "metaLogin": "登录 — Habitat One",
+    "metaActivate": "设置密码 — Habitat One",
+    "metaRequest": "申请账户 — Habitat One",
+    "priceWithAccount": "登录查看价格",
+    "priceOnRequest": "价格面议",
+    "priceFrom": "低至",
+    "inclVat": "含增值税",
+    "exclVat": "不含增值税",
+    "popupEyebrow": "仅限客户",
+    "popupTitle": "创建账户即可查看价格",
+    "popupBody": "我们的价格仅对拥有（免费）账户的客户可见。申请一个账户——个人或企业均可——即刻查看所有价格。",
+    "popupCta": "申请账户",
+    "popupLogin": "我已有账户",
+    "popupClose": "关闭",
+    "popupNote": "免费 · 1 个工作日内开通"
   },
   "planner": {
     "canvas": {

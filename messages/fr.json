@@ -1559,7 +1559,23 @@
     "colOrder": "Commande",
     "colCommission": "Commission",
     "orderSingular": "commande",
-    "orderPlural": "commandes"
+    "orderPlural": "commandes",
+    "metaMyAccount": "Mon compte — Habitat One",
+    "metaLogin": "Connexion — Habitat One",
+    "metaActivate": "Définir le mot de passe — Habitat One",
+    "metaRequest": "Demander un compte — Habitat One",
+    "priceWithAccount": "Prix avec compte",
+    "priceOnRequest": "Prix sur demande",
+    "priceFrom": "à partir de",
+    "inclVat": "TTC",
+    "exclVat": "HT",
+    "popupEyebrow": "Réservé aux clients",
+    "popupTitle": "Créez un compte pour voir les prix",
+    "popupBody": "Nos prix sont visibles pour les clients disposant d'un compte (gratuit). Demandez le vôtre — particulier ou professionnel — et consultez immédiatement tous les prix.",
+    "popupCta": "Demander un compte",
+    "popupLogin": "J'ai déjà un compte",
+    "popupClose": "Fermer",
+    "popupNote": "Gratuit · réglé sous 1 jour ouvré"
   },
   "planner": {
     "canvas": {

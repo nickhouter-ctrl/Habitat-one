@@ -1559,7 +1559,23 @@
     "colOrder": "Order",
     "colCommission": "Commissie",
     "orderSingular": "order",
-    "orderPlural": "orders"
+    "orderPlural": "orders",
+    "metaMyAccount": "Mijn account — Habitat One",
+    "metaLogin": "Inloggen — Habitat One",
+    "metaActivate": "Wachtwoord instellen — Habitat One",
+    "metaRequest": "Account aanvragen — Habitat One",
+    "priceWithAccount": "Prijs met account",
+    "priceOnRequest": "Prijs op aanvraag",
+    "priceFrom": "vanaf",
+    "inclVat": "incl. btw",
+    "exclVat": "excl. btw",
+    "popupEyebrow": "Alleen voor klanten",
+    "popupTitle": "Maak een account aan om de prijzen te zien",
+    "popupBody": "Onze prijzen zijn zichtbaar voor klanten met een (gratis) account. Vraag er één aan — particulier of zakelijk — en bekijk direct alle prijzen.",
+    "popupCta": "Account aanvragen",
+    "popupLogin": "Ik heb al een account",
+    "popupClose": "Sluiten",
+    "popupNote": "Gratis · binnen 1 werkdag geregeld"
   },
   "planner": {
     "canvas": {
