@@ -20,15 +20,24 @@ export function LanguageSwitcher({ dark = true }: { dark?: boolean }) {
     function onDoc(e: MouseEvent) {
       if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
     }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setOpen(false);
+    }
     document.addEventListener("mousedown", onDoc);
-    return () => document.removeEventListener("mousedown", onDoc);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onDoc);
+      document.removeEventListener("keydown", onKey);
+    };
   }, []);
 
   function choose(next: Locale) {
     setOpen(false);
     if (next === locale) return;
+    // Neem query en hash mee (bv. /search?q=…) — usePathname geeft alleen het pad.
+    const { search, hash } = window.location;
     startTransition(() => {
-      router.replace(pathname, { locale: next });
+      router.replace(pathname + search + hash, { locale: next });
     });
   }
 
