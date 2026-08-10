@@ -1591,5 +1591,31 @@
       "dragHint3d": "Ziehen Sie einen Schrank, um ihn zu verschieben. Ziehen Sie den Boden zum Drehen, scrollen Sie zum Zoomen.",
       "collision": "Schränke überlappen — bitte einen verschieben"
     }
+  },
+  "quoteForm": {
+    "title": "Angebot anfragen",
+    "subtitle": "Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+    "yourProducts": "Produkte in Ihrem Angebot",
+    "noProducts": "Noch keine Produkte hinzugefügt — füllen Sie Ihre Daten für eine allgemeine Anfrage aus.",
+    "removeAria": "Entfernen",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon (optional)",
+    "company": "Unternehmen",
+    "type": "Ich bin",
+    "typeArchitect": "Architekt",
+    "typeContractor": "Bauunternehmer",
+    "typeRealtor": "Makler",
+    "typeConsumer": "Privat",
+    "typeOther": "Andere",
+    "message": "Nachricht",
+    "messagePlaceholder": "Projekt, Stückzahlen, Farbwahl, gewünschter Liefertermin…",
+    "submit": "Anfrage senden",
+    "submitting": "Senden…",
+    "cancel": "Abbrechen",
+    "successTitle": "Danke — wir haben Ihre Anfrage erhalten.",
+    "successText": "Sie hören innerhalb eines Werktags von uns per E-Mail oder Telefon.",
+    "closeLabel": "Schließen",
+    "errorGeneric": "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren."
   }
 }

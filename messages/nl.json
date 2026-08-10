@@ -1591,5 +1591,31 @@
       "dragHint3d": "Sleep een kast om hem te verplaatsen. Sleep de vloer om te draaien, scroll om te zoomen.",
       "collision": "Kasten overlappen — schuif er één opzij"
     }
+  },
+  "quoteForm": {
+    "title": "Vraag offerte aan",
+    "subtitle": "We nemen binnen 24u contact met je op.",
+    "yourProducts": "Producten in je offerte",
+    "noProducts": "Nog geen producten toegevoegd — vul je gegevens in voor een algemene aanvraag.",
+    "removeAria": "Verwijderen",
+    "name": "Naam",
+    "email": "E-mail",
+    "phone": "Telefoon (optioneel)",
+    "company": "Bedrijf",
+    "type": "Ik ben",
+    "typeArchitect": "Architect",
+    "typeContractor": "Aannemer",
+    "typeRealtor": "Makelaar",
+    "typeConsumer": "Particulier",
+    "typeOther": "Anders",
+    "message": "Bericht",
+    "messagePlaceholder": "Project, aantallen, kleurkeuze, gewenste leverdatum…",
+    "submit": "Verstuur aanvraag",
+    "submitting": "Versturen…",
+    "cancel": "Annuleren",
+    "successTitle": "Bedankt — we hebben je aanvraag ontvangen.",
+    "successText": "Je hoort binnen één werkdag van ons via e-mail of telefoon.",
+    "closeLabel": "Sluiten",
+    "errorGeneric": "Versturen mislukt. Probeer 't opnieuw of mail ons direct."
   }
 }

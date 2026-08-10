@@ -1591,5 +1591,31 @@
       "dragHint3d": "Arrastra un armario para moverlo. Arrastra el suelo para girar, desplázate para hacer zoom.",
       "collision": "Los armarios se superponen — mueve uno"
     }
+  },
+  "quoteForm": {
+    "title": "Solicitar presupuesto",
+    "subtitle": "Te contactaremos en menos de 24 horas.",
+    "yourProducts": "Productos en tu presupuesto",
+    "noProducts": "Aún no hay productos — rellena tus datos para una consulta general.",
+    "removeAria": "Eliminar",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono (opcional)",
+    "company": "Empresa",
+    "type": "Soy",
+    "typeArchitect": "Arquitecto",
+    "typeContractor": "Constructor",
+    "typeRealtor": "Inmobiliaria",
+    "typeConsumer": "Particular",
+    "typeOther": "Otro",
+    "message": "Mensaje",
+    "messagePlaceholder": "Proyecto, cantidades, color, fecha deseada de entrega…",
+    "submit": "Enviar solicitud",
+    "submitting": "Enviando…",
+    "cancel": "Cancelar",
+    "successTitle": "Gracias — hemos recibido tu solicitud.",
+    "successText": "Te responderemos en un día laborable por correo o teléfono.",
+    "closeLabel": "Cerrar",
+    "errorGeneric": "Error al enviar. Vuelve a intentarlo o escríbenos directamente."
   }
 }

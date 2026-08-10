@@ -1591,5 +1591,31 @@
       "dragHint3d": "Faites glisser un meuble pour le déplacer. Faites glisser le sol pour pivoter, faites défiler pour zoomer.",
       "collision": "Les meubles se chevauchent — déplacez-en un"
     }
+  },
+  "quoteForm": {
+    "title": "Demander un devis",
+    "subtitle": "Nous vous recontactons sous 24 h.",
+    "yourProducts": "Produits dans votre devis",
+    "noProducts": "Aucun produit ajouté pour l'instant — renseignez vos coordonnées pour une demande générale.",
+    "removeAria": "Supprimer",
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone (facultatif)",
+    "company": "Société",
+    "type": "Je suis",
+    "typeArchitect": "Architecte",
+    "typeContractor": "Entrepreneur",
+    "typeRealtor": "Agent immobilier",
+    "typeConsumer": "Particulier",
+    "typeOther": "Autre",
+    "message": "Message",
+    "messagePlaceholder": "Projet, quantités, coloris, date de livraison souhaitée…",
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi…",
+    "cancel": "Annuler",
+    "successTitle": "Merci — nous avons bien reçu votre demande.",
+    "successText": "Nous vous répondrons sous un jour ouvré, par e-mail ou par téléphone.",
+    "closeLabel": "Fermer",
+    "errorGeneric": "L'envoi a échoué. Veuillez réessayer ou nous écrire directement."
   }
 }

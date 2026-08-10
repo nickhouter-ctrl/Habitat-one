@@ -1591,5 +1591,31 @@
       "dragHint3d": "Drag a cabinet to move it. Drag the floor to orbit, scroll to zoom.",
       "collision": "Cabinets overlap — move one aside"
     }
+  },
+  "quoteForm": {
+    "title": "Request a quote",
+    "subtitle": "We'll get back to you within 24h.",
+    "yourProducts": "Products in your quote",
+    "noProducts": "No products added yet — fill in your details for a general enquiry.",
+    "removeAria": "Remove",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "company": "Company",
+    "type": "I am a",
+    "typeArchitect": "Architect",
+    "typeContractor": "Contractor",
+    "typeRealtor": "Realtor",
+    "typeConsumer": "Private client",
+    "typeOther": "Other",
+    "message": "Message",
+    "messagePlaceholder": "Project, quantities, colour, desired delivery date…",
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "cancel": "Cancel",
+    "successTitle": "Thanks — we've received your request.",
+    "successText": "We'll be in touch within one business day by email or phone.",
+    "closeLabel": "Close",
+    "errorGeneric": "Sending failed. Please try again or email us directly."
   }
 }
