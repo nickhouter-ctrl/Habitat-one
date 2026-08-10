@@ -78,10 +78,7 @@ function subscribe(onChange: () => void): () => void {
  * de banner opnieuw getoond. Bezoekers kunnen 'm zelf heropenen via de
  * "Cookievoorkeuren"-link in de footer (custom event).
  */
-// De locale-prop is niet meer nodig (useTranslations/Link regelen de taal) maar
-// blijft geaccepteerd zodat de bestaande aanroep in de layout niet breekt.
-export function CookieConsent(props: { locale?: string }) {
-  void props;
+export function CookieConsent() {
   const t = useTranslations("cookieConsent");
   const { consent, decided } = useSyncExternalStore(subscribe, getSnapshot, () => SERVER_SNAPSHOT);
 
