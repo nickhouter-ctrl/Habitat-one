@@ -45,14 +45,19 @@ export function PricePopup() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
-  const onAccountPage = pathname?.includes("/account");
+  // Routes waar de popup nooit mag verschijnen: de account-pagina's (daar staat
+  // de uitnodiging al in de pagina zelf) en de keukenplanner — dat is een
+  // schermvullende configurator zónder prijzen, waar een modal midden in het
+  // tekenen alleen maar in de weg zit.
+  const onSuppressedPage =
+    pathname?.includes("/account") || pathname?.includes("/kitchen-planner");
 
   useEffect(() => {
-    if (loading || loggedIn || onAccountPage) return;
+    if (loading || loggedIn || onSuppressedPage) return;
     if (dismissedRecently()) return;
     const id = setTimeout(() => setOpen(true), SHOW_DELAY_MS);
     return () => clearTimeout(id);
-  }, [loading, loggedIn, onAccountPage]);
+  }, [loading, loggedIn, onSuppressedPage]);
 
   useEffect(() => {
     if (!open) return;
