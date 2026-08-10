@@ -1,206 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { X, ArrowUpRight, CheckCircle2, Minus, Plus } from "lucide-react";
 import { useQuote } from "@/components/quote-context";
 import { trackEvent } from "@/lib/analytics/track";
-
-const CRM_API =
-  process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
+import { CRM_API } from "@/lib/account/crm";
 
 type Locale = "nl" | "de" | "en" | "es" | "fr" | "zh";
-
-interface Labels {
-  title: string;
-  subtitle: string;
-  yourProducts: string;
-  noProducts: string;
-  removeAria: string;
-  name: string;
-  email: string;
-  phone: string;
-  company: string;
-  type: string;
-  typeArchitect: string;
-  typeContractor: string;
-  typeRealtor: string;
-  typeConsumer: string;
-  typeOther: string;
-  message: string;
-  messagePlaceholder: string;
-  submit: string;
-  submitting: string;
-  cancel: string;
-  successTitle: string;
-  successText: string;
-  closeLabel: string;
-  errorGeneric: string;
-}
-
-const L: Record<Locale, Labels> = {
-  nl: {
-    title: "Vraag offerte aan",
-    subtitle: "We nemen binnen 24u contact met je op.",
-    yourProducts: "Producten in je offerte",
-    noProducts: "Nog geen producten toegevoegd — vul je gegevens in voor een algemene aanvraag.",
-    removeAria: "Verwijderen",
-    name: "Naam",
-    email: "E-mail",
-    phone: "Telefoon (optioneel)",
-    company: "Bedrijf",
-    type: "Ik ben",
-    typeArchitect: "Architect",
-    typeContractor: "Aannemer",
-    typeRealtor: "Makelaar",
-    typeConsumer: "Particulier",
-    typeOther: "Anders",
-    message: "Bericht",
-    messagePlaceholder: "Project, aantallen, kleurkeuze, gewenste leverdatum…",
-    submit: "Verstuur aanvraag",
-    submitting: "Versturen…",
-    cancel: "Annuleren",
-    successTitle: "Bedankt — we hebben je aanvraag ontvangen.",
-    successText: "Je hoort binnen één werkdag van ons via e-mail of telefoon.",
-    closeLabel: "Sluiten",
-    errorGeneric: "Versturen mislukt. Probeer 't opnieuw of mail ons direct.",
-  },
-  de: {
-    title: "Angebot anfragen",
-    subtitle: "Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
-    yourProducts: "Produkte in Ihrem Angebot",
-    noProducts: "Noch keine Produkte hinzugefügt — füllen Sie Ihre Daten für eine allgemeine Anfrage aus.",
-    removeAria: "Entfernen",
-    name: "Name",
-    email: "E-Mail",
-    phone: "Telefon (optional)",
-    company: "Unternehmen",
-    type: "Ich bin",
-    typeArchitect: "Architekt",
-    typeContractor: "Bauunternehmer",
-    typeRealtor: "Makler",
-    typeConsumer: "Privat",
-    typeOther: "Andere",
-    message: "Nachricht",
-    messagePlaceholder: "Projekt, Stückzahlen, Farbwahl, gewünschter Liefertermin…",
-    submit: "Anfrage senden",
-    submitting: "Senden…",
-    cancel: "Abbrechen",
-    successTitle: "Danke — wir haben Ihre Anfrage erhalten.",
-    successText: "Sie hören innerhalb eines Werktags von uns per E-Mail oder Telefon.",
-    closeLabel: "Schließen",
-    errorGeneric: "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren.",
-  },
-  en: {
-    title: "Request a quote",
-    subtitle: "We'll get back to you within 24h.",
-    yourProducts: "Products in your quote",
-    noProducts: "No products added yet — fill in your details for a general enquiry.",
-    removeAria: "Remove",
-    name: "Name",
-    email: "Email",
-    phone: "Phone (optional)",
-    company: "Company",
-    type: "I am a",
-    typeArchitect: "Architect",
-    typeContractor: "Contractor",
-    typeRealtor: "Realtor",
-    typeConsumer: "Private client",
-    typeOther: "Other",
-    message: "Message",
-    messagePlaceholder: "Project, quantities, colour, desired delivery date…",
-    submit: "Send request",
-    submitting: "Sending…",
-    cancel: "Cancel",
-    successTitle: "Thanks — we've received your request.",
-    successText: "We'll be in touch within one business day by email or phone.",
-    closeLabel: "Close",
-    errorGeneric: "Sending failed. Please try again or email us directly.",
-  },
-  es: {
-    title: "Solicitar presupuesto",
-    subtitle: "Te contactaremos en menos de 24 horas.",
-    yourProducts: "Productos en tu presupuesto",
-    noProducts: "Aún no hay productos — rellena tus datos para una consulta general.",
-    removeAria: "Eliminar",
-    name: "Nombre",
-    email: "Correo electrónico",
-    phone: "Teléfono (opcional)",
-    company: "Empresa",
-    type: "Soy",
-    typeArchitect: "Arquitecto",
-    typeContractor: "Constructor",
-    typeRealtor: "Inmobiliaria",
-    typeConsumer: "Particular",
-    typeOther: "Otro",
-    message: "Mensaje",
-    messagePlaceholder: "Proyecto, cantidades, color, fecha deseada de entrega…",
-    submit: "Enviar solicitud",
-    submitting: "Enviando…",
-    cancel: "Cancelar",
-    successTitle: "Gracias — hemos recibido tu solicitud.",
-    successText: "Te responderemos en un día laborable por correo o teléfono.",
-    closeLabel: "Cerrar",
-    errorGeneric: "Error al enviar. Vuelve a intentarlo o escríbenos directamente.",
-  },
-  fr: {
-    title: "Demander un devis",
-    subtitle: "Nous vous recontactons sous 24 h.",
-    yourProducts: "Produits dans votre devis",
-    noProducts: "Aucun produit ajouté pour l'instant — renseignez vos coordonnées pour une demande générale.",
-    removeAria: "Supprimer",
-    name: "Nom",
-    email: "E-mail",
-    phone: "Téléphone (facultatif)",
-    company: "Société",
-    type: "Je suis",
-    typeArchitect: "Architecte",
-    typeContractor: "Entrepreneur",
-    typeRealtor: "Agent immobilier",
-    typeConsumer: "Particulier",
-    typeOther: "Autre",
-    message: "Message",
-    messagePlaceholder: "Projet, quantités, coloris, date de livraison souhaitée…",
-    submit: "Envoyer la demande",
-    submitting: "Envoi…",
-    cancel: "Annuler",
-    successTitle: "Merci — nous avons bien reçu votre demande.",
-    successText: "Nous vous répondrons sous un jour ouvré, par e-mail ou par téléphone.",
-    closeLabel: "Fermer",
-    errorGeneric: "L'envoi a échoué. Veuillez réessayer ou nous écrire directement.",
-  },
-  zh: {
-    title: "申请报价",
-    subtitle: "我们将在 24 小时内与您联系。",
-    yourProducts: "您报价单中的产品",
-    noProducts: "尚未添加产品——填写您的信息即可提交一般咨询。",
-    removeAria: "移除",
-    name: "姓名",
-    email: "电子邮箱",
-    phone: "电话（选填）",
-    company: "公司",
-    type: "我是",
-    typeArchitect: "建筑师",
-    typeContractor: "承包商",
-    typeRealtor: "房产中介",
-    typeConsumer: "私人客户",
-    typeOther: "其他",
-    message: "留言",
-    messagePlaceholder: "项目、数量、颜色、期望交付日期……",
-    submit: "发送申请",
-    submitting: "发送中……",
-    cancel: "取消",
-    successTitle: "感谢您——我们已收到您的申请。",
-    successText: "我们将在一个工作日内通过邮件或电话回复您。",
-    closeLabel: "关闭",
-    errorGeneric: "发送失败。请重试，或直接给我们发送邮件。",
-  },
-};
 
 export function QuoteRequestForm() {
   const { items, isOpen, closeQuote, removeItem, setQty, clearItems } = useQuote();
   const locale = useLocale() as Locale;
-  const t = L[locale] ?? L.nl;
+  const t = useTranslations("quoteForm");
   const tNav = useTranslations("nav");
 
   const [submitting, setSubmitting] = useState(false);
@@ -212,6 +24,15 @@ export function QuoteRequestForm() {
     setSuccess(false);
     setError(null);
   }
+
+  useEffect(() => {
+    if (!isOpen) return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") closeQuote();
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [isOpen, closeQuote]);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -256,7 +77,7 @@ export function QuoteRequestForm() {
         }),
       });
       if (!res.ok) {
-        setError(t.errorGeneric);
+        setError(t("errorGeneric"));
         setSubmitting(false);
         return;
       }
@@ -264,7 +85,7 @@ export function QuoteRequestForm() {
       clearItems();
       setSuccess(true);
     } catch {
-      setError(t.errorGeneric);
+      setError(t("errorGeneric"));
     } finally {
       setSubmitting(false);
     }
@@ -276,6 +97,9 @@ export function QuoteRequestForm() {
     <div
       className="fixed inset-0 z-[60] flex items-center justify-center bg-clay-900/60 p-4 backdrop-blur-sm"
       onClick={handleClose}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="quote-form-title"
     >
       <div
         className="relative max-h-[92vh] w-full max-w-lg overflow-auto rounded-3xl border border-sand-200 bg-cream p-7 shadow-[0_20px_80px_-30px_rgba(58,42,32,0.45)]"
@@ -283,7 +107,7 @@ export function QuoteRequestForm() {
       >
         <button
           type="button"
-          aria-label={t.closeLabel}
+          aria-label={t("closeLabel")}
           onClick={handleClose}
           className="absolute right-4 top-4 grid h-9 w-9 place-items-center rounded-full text-clay-700 transition-colors hover:bg-sand-200"
         >
@@ -295,10 +119,10 @@ export function QuoteRequestForm() {
             <div className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-sea-500/15 text-sea-700">
               <CheckCircle2 className="h-7 w-7" />
             </div>
-            <h3 className="mt-4 font-display text-2xl text-ink">{t.successTitle}</h3>
-            <p className="mt-2 text-sm text-clay-700">{t.successText}</p>
+            <h3 id="quote-form-title" className="mt-4 font-display text-2xl text-ink">{t("successTitle")}</h3>
+            <p className="mt-2 text-sm text-clay-700">{t("successText")}</p>
             <button onClick={handleClose} className="btn btn-primary mt-6">
-              {t.closeLabel}
+              {t("closeLabel")}
             </button>
           </div>
         ) : (
@@ -306,17 +130,17 @@ export function QuoteRequestForm() {
             <p className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-terracotta-600">
               {tNav("quote")}
             </p>
-            <h3 className="mt-2 font-display text-2xl text-ink">{t.title}</h3>
-            <p className="mt-1 text-sm text-clay-700/80">{t.subtitle}</p>
+            <h3 id="quote-form-title" className="mt-2 font-display text-2xl text-ink">{t("title")}</h3>
+            <p className="mt-1 text-sm text-clay-700/80">{t("subtitle")}</p>
 
             {/* Producten in de offerte */}
             <div className="mt-4 rounded-xl border border-sand-200 bg-sand-50 p-3">
               <p className="text-xs font-semibold uppercase tracking-[0.14em] text-clay-700">
-                {t.yourProducts}
+                {t("yourProducts")}
                 {items.length > 0 && <span className="text-clay-700/60"> · {items.length}</span>}
               </p>
               {items.length === 0 ? (
-                <p className="mt-2 text-sm text-clay-700/70">{t.noProducts}</p>
+                <p className="mt-2 text-sm text-clay-700/70">{t("noProducts")}</p>
               ) : (
                 <ul className="mt-2 divide-y divide-sand-200">
                   {items.map((it) => (
@@ -354,7 +178,7 @@ export function QuoteRequestForm() {
                         </div>
                         <button
                           type="button"
-                          aria-label={t.removeAria}
+                          aria-label={t("removeAria")}
                           onClick={() => removeItem(it.key)}
                           className="rounded-full p-1 text-clay-700/60 transition-colors hover:bg-sand-200 hover:text-terracotta-600"
                         >
@@ -368,7 +192,7 @@ export function QuoteRequestForm() {
             </div>
 
             <form className="mt-5 space-y-3.5" onSubmit={handleSubmit}>
-              <Field label={t.type} htmlFor="type">
+              <Field label={t("type")} htmlFor="type">
                 <select
                   id="type"
                   name="type"
@@ -377,35 +201,35 @@ export function QuoteRequestForm() {
                   className="w-full rounded-lg border border-sand-300 bg-cream px-3 py-2 text-sm focus:border-terracotta-400 focus:outline-none focus:ring-2 focus:ring-terracotta-300/40"
                 >
                   <option value="" disabled>—</option>
-                  <option value="architect">{t.typeArchitect}</option>
-                  <option value="aannemer">{t.typeContractor}</option>
-                  <option value="makelaar">{t.typeRealtor}</option>
-                  <option value="particulier">{t.typeConsumer}</option>
-                  <option value="anders">{t.typeOther}</option>
+                  <option value="architect">{t("typeArchitect")}</option>
+                  <option value="aannemer">{t("typeContractor")}</option>
+                  <option value="makelaar">{t("typeRealtor")}</option>
+                  <option value="particulier">{t("typeConsumer")}</option>
+                  <option value="anders">{t("typeOther")}</option>
                 </select>
               </Field>
 
               <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2">
-                <Field label={t.name} htmlFor="name">
+                <Field label={t("name")} htmlFor="name">
                   <input id="name" name="name" type="text" required autoComplete="name" className={inputCls} />
                 </Field>
-                <Field label={t.company} htmlFor="company">
+                <Field label={t("company")} htmlFor="company">
                   <input id="company" name="company" type="text" autoComplete="organization" className={inputCls} />
                 </Field>
-                <Field label={t.email} htmlFor="email">
+                <Field label={t("email")} htmlFor="email">
                   <input id="email" name="email" type="email" required autoComplete="email" className={inputCls} />
                 </Field>
-                <Field label={t.phone} htmlFor="phone">
+                <Field label={t("phone")} htmlFor="phone">
                   <input id="phone" name="phone" type="tel" autoComplete="tel" className={inputCls} />
                 </Field>
               </div>
 
-              <Field label={t.message} htmlFor="message">
+              <Field label={t("message")} htmlFor="message">
                 <textarea
                   id="message"
                   name="message"
                   rows={4}
-                  placeholder={t.messagePlaceholder}
+                  placeholder={t("messagePlaceholder")}
                   className={`${inputCls} resize-none leading-relaxed`}
                 />
               </Field>
@@ -418,10 +242,10 @@ export function QuoteRequestForm() {
 
               <div className="flex flex-wrap items-center justify-end gap-2 pt-2">
                 <button type="button" onClick={handleClose} className="btn btn-ghost">
-                  {t.cancel}
+                  {t("cancel")}
                 </button>
                 <button type="submit" disabled={submitting} className="btn btn-primary disabled:opacity-60">
-                  {submitting ? t.submitting : t.submit}
+                  {submitting ? t("submitting") : t("submit")}
                   {!submitting && <ArrowUpRight className="h-4 w-4" />}
                 </button>
               </div>
