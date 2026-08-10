@@ -109,7 +109,7 @@ export default async function LocaleLayout({
         <TrackContacts />
         <NextIntlClientProvider>
           {/* Binnen de intl-provider zodat cookie-consent messages + i18n-Link kan gebruiken. */}
-          <CookieConsent locale={locale} />
+          <CookieConsent />
           <PriceProvider>
           <QuoteProvider>
             <PageVeil />
