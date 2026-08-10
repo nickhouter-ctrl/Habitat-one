@@ -39,9 +39,9 @@ export function LoginForm() {
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
-      <input name="email" type="email" required placeholder={t("email")} className={field} />
-      <input name="password" type="password" required placeholder={t("password")} className={field} />
-      {error && <p className="text-sm text-red-600">{error}</p>}
+      <input name="email" type="email" required autoComplete="email" aria-label={t("email")} placeholder={t("email")} className={field} />
+      <input name="password" type="password" required autoComplete="current-password" aria-label={t("password")} placeholder={t("password")} className={field} />
+      {error && <p role="alert" className="text-sm text-red-600">{error}</p>}
       <button
         type="submit"
         disabled={status === "sending"}

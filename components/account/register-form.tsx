@@ -78,23 +78,23 @@ export function RegisterForm({ locale }: { locale: string }) {
       </div>
 
       <div className="grid gap-3 sm:grid-cols-2">
-        <input name="name" required placeholder={t("name")} className={field} />
-        <input name="email" type="email" required placeholder={t("email")} className={field} />
-        <input name="phone" placeholder={t("phoneOptional")} className={`${field} sm:col-span-2`} />
+        <input name="name" required autoComplete="name" aria-label={t("name")} placeholder={t("name")} className={field} />
+        <input name="email" type="email" required autoComplete="email" aria-label={t("email")} placeholder={t("email")} className={field} />
+        <input name="phone" autoComplete="tel" aria-label={t("phoneOptional")} placeholder={t("phoneOptional")} className={`${field} sm:col-span-2`} />
       </div>
 
       {kind === "zakelijk" && (
         <div className="grid gap-3 rounded-lg bg-black/[0.03] p-3 sm:grid-cols-2">
-          <input name="businessName" required placeholder={t("businessName")} className={field} />
-          <input name="vatNumber" required placeholder={t("vatNumber")} className={field} />
-          <input name="address" placeholder={t("addressOptional")} className={`${field} sm:col-span-2`} />
+          <input name="businessName" required autoComplete="organization" aria-label={t("businessName")} placeholder={t("businessName")} className={field} />
+          <input name="vatNumber" required aria-label={t("vatNumber")} placeholder={t("vatNumber")} className={field} />
+          <input name="address" autoComplete="street-address" aria-label={t("addressOptional")} placeholder={t("addressOptional")} className={`${field} sm:col-span-2`} />
           <p className="text-xs text-ink-soft sm:col-span-2">{t("businessRequiredNote")}</p>
         </div>
       )}
 
-      <textarea name="message" rows={3} placeholder={t("messageOptional")} className={field} />
+      <textarea name="message" rows={3} aria-label={t("messageOptional")} placeholder={t("messageOptional")} className={field} />
 
-      {error && <p className="text-sm text-red-600">{error}</p>}
+      {error && <p role="alert" className="text-sm text-red-600">{error}</p>}
 
       <button
         type="submit"

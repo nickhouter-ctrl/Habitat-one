@@ -61,9 +61,9 @@ export function ActivateForm() {
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
-      <input name="password" type="password" required placeholder={t("choosePassword")} className={field} />
-      <input name="confirm" type="password" required placeholder={t("repeatPassword")} className={field} />
-      {error && <p className="text-sm text-red-600">{error}</p>}
+      <input name="password" type="password" required autoComplete="new-password" aria-label={t("choosePassword")} placeholder={t("choosePassword")} className={field} />
+      <input name="confirm" type="password" required autoComplete="new-password" aria-label={t("repeatPassword")} placeholder={t("repeatPassword")} className={field} />
+      {error && <p role="alert" className="text-sm text-red-600">{error}</p>}
       <button
         type="submit"
         disabled={status === "sending"}
