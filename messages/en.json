@@ -1708,6 +1708,234 @@
         "wit": "White",
         "houtpatroon-zwart": "Black wood effect"
       }
+    },
+    "planner": {
+      "page": {
+        "metaTitle": "Kitchen planner",
+        "metaDescription": "Design your kitchen step by step — room, appliances, cabinets, fronts and worktop — and receive an order list with IKEA METOD article numbers.",
+        "eyebrow": "Kitchen planner",
+        "title": "Design your kitchen",
+        "intro": "Put your kitchen together step by step: choose the room, the colour and fronts, and place the cabinets and appliances. At the end you'll receive a complete order list."
+      },
+      "steps": {
+        "room": {
+          "label": "Room",
+          "short": "Room"
+        },
+        "fronts": {
+          "label": "Colour & fronts",
+          "short": "Fronts"
+        },
+        "design": {
+          "label": "Design",
+          "short": "Design"
+        },
+        "summary": {
+          "label": "Order list",
+          "short": "Overview"
+        }
+      },
+      "nav": {
+        "prev": "Previous",
+        "next": "Next"
+      },
+      "catalog": {
+        "frontStyles": {
+          "flat": {
+            "label": "Flat (handleless)",
+            "description": "Sleek, flat front without a frame — modern and handleless."
+          },
+          "shaker": {
+            "label": "Shaker",
+            "description": "Classic framed front with a recessed panel."
+          },
+          "shaker-small": {
+            "label": "Slim shaker",
+            "description": "Shaker with a fine, narrow frame profile."
+          },
+          "grooved": {
+            "label": "Fluted",
+            "description": "Vertical grooves for a warm, tactile texture."
+          }
+        },
+        "finishes": {
+          "mat-wit": "Matt white",
+          "zandbeige": "Sand beige",
+          "saliegroen": "Sage green",
+          "diepblauw": "Deep blue",
+          "klei": "Clay terracotta",
+          "antraciet": "Anthracite",
+          "mat-zwart": "Matt black",
+          "eiken-naturel": "Natural oak",
+          "eiken-whitewash": "Whitewashed oak",
+          "eiken-gerookt": "Smoked oak",
+          "eiken-zwart": "Black oak",
+          "bamboe": "Bamboo"
+        },
+        "kitchenStyles": {
+          "japandi": {
+            "label": "Japandi",
+            "description": "Calm and natural — Japanese simplicity with Scandinavian warmth."
+          },
+          "scandinavisch": {
+            "label": "Scandinavian",
+            "description": "Light, minimalist and functional."
+          },
+          "modern-landelijk": {
+            "label": "Modern country",
+            "description": "Country charm with a contemporary, clean line."
+          },
+          "industrieel": {
+            "label": "Industrial",
+            "description": "Bold and raw — dark tones and clean surfaces."
+          },
+          "bohemian": {
+            "label": "Bohemian",
+            "description": "Warm and rich — natural materials and earth tones."
+          },
+          "urban-chic": {
+            "label": "Urban chic",
+            "description": "Refined city living — deep black and sleek."
+          }
+        },
+        "carcassTypes": {
+          "onderkast-inbouw": "Base cabinet for built-in appliances",
+          "onderkast": "Base cabinet",
+          "onderhoekkast": "Corner base cabinet",
+          "opzetkast": "Add-on cabinet",
+          "bovenkast": "Wall cabinet",
+          "bovenhoekkast": "Corner wall cabinet",
+          "hoge-kast-inbouw": "Tall cabinet for built-in appliances",
+          "hoge-kast": "Tall cabinet"
+        },
+        "carcassColors": {
+          "wit": "white",
+          "houtpatroon-zwart": "black wood effect"
+        },
+        "appliances": {
+          "oven": "Built-in oven",
+          "combi-oven": "Built-in combi microwave",
+          "coffee-machine": "Built-in coffee machine",
+          "wine-cooler": "Built-in wine cooler",
+          "fridge-tall": "Built-in fridge/freezer",
+          "cooktop-60": "Induction hob 60 cm",
+          "cooktop-80": "Induction hob 80 cm",
+          "venting-hob": "Induction hob with integrated extraction",
+          "sink-single": "Sink (single bowl)",
+          "sink-onehalf": "Sink (1.5 bowl)",
+          "dishwasher-60": "Dishwasher (fully integrated)",
+          "dishwasher-45": "Slimline dishwasher (45 cm)",
+          "hood": "Extractor hood"
+        },
+        "worktops": {
+          "eiken-massief": {
+            "label": "Solid oak",
+            "description": "Warm solid oak, oiled."
+          },
+          "beton": {
+            "label": "Concrete",
+            "description": "Robust concrete look — industrial and bold."
+          },
+          "composiet-wit": {
+            "label": "White composite",
+            "description": "Sleek white composite with a fine speckle."
+          },
+          "terrazzo": {
+            "label": "Terrazzo",
+            "description": "Playful terrazzo with natural stone chips."
+          },
+          "graniet-zwart": {
+            "label": "Black granite",
+            "description": "Deep black granite, lightly polished."
+          },
+          "rvs": {
+            "label": "Stainless steel",
+            "description": "Professional stainless steel."
+          }
+        }
+      },
+      "fronts": {
+        "title": "Colour & fronts",
+        "intro": "Choose a kitchen style as a starting point, or compose your own front style and finish. The side panels are also fully made to measure.",
+        "quickTitle": "Kitchen style",
+        "quickHint": "— quick pick",
+        "styleTitle": "Front style",
+        "finishTitle": "Finish",
+        "sidePanelsTitle": "Side panels",
+        "sidePanelsIntro": "The visible sides of cabinets and islands are finished with made-to-measure side panels — in the same finish as the fronts by default, or deliberately in a contrasting colour.",
+        "sameAsFronts": "Same as fronts",
+        "worktopTitle": "Worktop",
+        "worktopIntro": "The worktop is made to measure by an external partner — pick your preferred look here."
+      },
+      "summary": {
+        "title": "Your order list",
+        "intro": "This is the overview of your design: standard IKEA cabinets with article numbers, the chosen appliances and the custom work. No prices yet — those come with the quote.",
+        "printEyebrow": "Habitat One · Kitchen planner",
+        "printTitle": "Kitchen design order list",
+        "roomTitle": "Room",
+        "roomLine": "{w} × {d} cm · ceiling height {h} cm",
+        "carcassesTitle": "Standard cabinets (IKEA METOD carcass — {color})",
+        "emptyCarcasses": "No cabinets drawn yet.",
+        "colQty": "Qty",
+        "colCabinet": "Cabinet",
+        "colSize": "Size (w×d×h)",
+        "colArticle": "Article no. (IKEA NL)",
+        "carcassNote": "Article numbers from IKEA NL — Habitat One verifies numbers and availability with your quote.",
+        "appliancesTitle": "Appliances (standard sizes — brand/model of your choice)",
+        "emptyAppliances": "No appliances chosen yet.",
+        "applianceSize": "standard size {w} × {h} × {d} cm",
+        "frontsTitle": "Fronts & side panels — made to measure",
+        "frontsLabel": "Fronts:",
+        "sidePanelsLabel": "Side panels:",
+        "styleTbd": "style to be chosen",
+        "finishTbd": "finish to be chosen",
+        "carcassCount": "{count} carcasses",
+        "noFront": "No front chosen yet.",
+        "sameFinishAsFronts": "same finish as the fronts",
+        "worktopTitle": "Worktop",
+        "worktopNote": "The worktop is outside this order list — it is supplied by an external partner.",
+        "print": "Print / save as PDF",
+        "copy": "Copy order list",
+        "copied": "Copied!",
+        "download": "Download as text",
+        "fileName": "kitchen-order-list",
+        "requestQuote": "Request a quote",
+        "worktopChosen": "Chosen look: {label}"
+      },
+      "quote": {
+        "eyebrow": "Kitchen planner",
+        "title": "Request a quote",
+        "intro": "We'll include your design and order list — we'll contact you within 24 hours.",
+        "name": "Name",
+        "phone": "Phone (optional)",
+        "email": "Email",
+        "message": "Message (optional)",
+        "messagePlaceholder": "Questions, wishes, preferred delivery date…",
+        "cancel": "Cancel",
+        "submit": "Send request",
+        "submitting": "Sending…",
+        "error": "Sending failed. Please try again or email us directly.",
+        "successTitle": "Thank you — we've received your kitchen design.",
+        "successBody": "Habitat One will contact you within one working day with a quote.",
+        "close": "Close",
+        "closeAria": "Close"
+      },
+      "aiRender": {
+        "button": "Generate realistic image",
+        "title": "Realistic image",
+        "intro": "The AI creates a photorealistic impression of your design.",
+        "loading": "Generating… this takes about 15 seconds.",
+        "retry": "Try again",
+        "download": "Download",
+        "newVariant": "New variant",
+        "disclaimer": "This is an AI impression — a mood image, not a technical drawing. The order list remains leading.",
+        "alt": "Realistic impression of the kitchen",
+        "errNoCapture": "Open the 3D view first, then try again.",
+        "errGeneric": "Generation failed. Please try again in a moment.",
+        "errNotConfigured": "Image generation is not configured yet.",
+        "errDetail": "Generation failed — {detail}",
+        "errNetwork": "Something went wrong while generating."
+      }
     }
   },
   "quoteForm": {

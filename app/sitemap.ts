@@ -73,14 +73,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/inspiration/tips/binnen-buiten-een-materiaal", priority: 0.6, freq: "monthly" },
   ];
 
-  // De keukenplanner bestaat alleen in het Nederlands — één URL, geen
-  // hreflang-set. Zie de canonical in app/[locale]/kitchen-planner/page.tsx.
-  const kitchenPlanner: MetadataRoute.Sitemap[number] = {
-    url: `${BASE}/nl/kitchen-planner`,
-    lastModified: new Date(),
+  // De keukenplanner is sinds de i18n-slag beschikbaar in alle zes talen en
+  // gebruikt seoAlternates in app/[locale]/kitchen-planner/page.tsx.
+  const kitchenPlanner = entry("/kitchen-planner", {
+    priority: 0.7,
     changeFrequency: "monthly",
-    priority: 0.6,
-  };
+  });
 
   const collectionPaths = collections.map((c) => collectionHref(c.id));
 

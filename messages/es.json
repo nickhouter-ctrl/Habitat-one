@@ -1708,6 +1708,234 @@
         "wit": "Blanco",
         "houtpatroon-zwart": "Efecto madera negro"
       }
+    },
+    "planner": {
+      "page": {
+        "metaTitle": "Planificador de cocinas",
+        "metaDescription": "Diseña tu cocina paso a paso — espacio, electrodomésticos, muebles, frentes y encimera — y recibe una lista de pedido con los números de artículo IKEA METOD.",
+        "eyebrow": "Planificador de cocinas",
+        "title": "Diseña tu cocina",
+        "intro": "Configura tu cocina paso a paso: elige el espacio, el color y los frentes, y coloca los muebles y electrodomésticos. Al final recibirás una lista de pedido completa."
+      },
+      "steps": {
+        "room": {
+          "label": "Espacio",
+          "short": "Espacio"
+        },
+        "fronts": {
+          "label": "Color y frentes",
+          "short": "Frentes"
+        },
+        "design": {
+          "label": "Diseñar",
+          "short": "Diseñar"
+        },
+        "summary": {
+          "label": "Lista de pedido",
+          "short": "Resumen"
+        }
+      },
+      "nav": {
+        "prev": "Anterior",
+        "next": "Siguiente"
+      },
+      "catalog": {
+        "frontStyles": {
+          "flat": {
+            "label": "Liso (sin tirador)",
+            "description": "Frente liso sin marco: moderno y sin tiradores."
+          },
+          "shaker": {
+            "label": "Shaker",
+            "description": "Frente clásico con marco y panel rehundido."
+          },
+          "shaker-small": {
+            "label": "Shaker fino",
+            "description": "Shaker con un perfil de marco fino y estrecho."
+          },
+          "grooved": {
+            "label": "Acanalado",
+            "description": "Ranuras verticales para una textura cálida y táctil."
+          }
+        },
+        "finishes": {
+          "mat-wit": "Blanco mate",
+          "zandbeige": "Beige arena",
+          "saliegroen": "Verde salvia",
+          "diepblauw": "Azul profundo",
+          "klei": "Terracota",
+          "antraciet": "Antracita",
+          "mat-zwart": "Negro mate",
+          "eiken-naturel": "Roble natural",
+          "eiken-whitewash": "Roble blanqueado",
+          "eiken-gerookt": "Roble ahumado",
+          "eiken-zwart": "Roble negro",
+          "bamboe": "Bambú"
+        },
+        "kitchenStyles": {
+          "japandi": {
+            "label": "Japandi",
+            "description": "Tranquilo y natural: sobriedad japonesa con calidez escandinava."
+          },
+          "scandinavisch": {
+            "label": "Escandinavo",
+            "description": "Luminoso, minimalista y funcional."
+          },
+          "modern-landelijk": {
+            "label": "Rústico moderno",
+            "description": "Encanto rústico con líneas contemporáneas y limpias."
+          },
+          "industrieel": {
+            "label": "Industrial",
+            "description": "Robusto y crudo: tonos oscuros y superficies limpias."
+          },
+          "bohemian": {
+            "label": "Bohemio",
+            "description": "Cálido y rico: materiales naturales y tonos tierra."
+          },
+          "urban-chic": {
+            "label": "Chic urbano",
+            "description": "Vida urbana refinada: negro profundo y líneas puras."
+          }
+        },
+        "carcassTypes": {
+          "onderkast-inbouw": "Mueble bajo para electrodomésticos integrados",
+          "onderkast": "Mueble bajo",
+          "onderhoekkast": "Mueble bajo de esquina",
+          "opzetkast": "Módulo superior",
+          "bovenkast": "Mueble de pared",
+          "bovenhoekkast": "Mueble de pared de esquina",
+          "hoge-kast-inbouw": "Columna para electrodomésticos integrados",
+          "hoge-kast": "Columna"
+        },
+        "carcassColors": {
+          "wit": "blanco",
+          "houtpatroon-zwart": "efecto madera negro"
+        },
+        "appliances": {
+          "oven": "Horno integrado",
+          "combi-oven": "Microondas combinado integrado",
+          "coffee-machine": "Cafetera integrada",
+          "wine-cooler": "Vinoteca integrada",
+          "fridge-tall": "Frigorífico/congelador integrado",
+          "cooktop-60": "Placa de inducción 60 cm",
+          "cooktop-80": "Placa de inducción 80 cm",
+          "venting-hob": "Placa de inducción con extracción integrada",
+          "sink-single": "Fregadero (1 seno)",
+          "sink-onehalf": "Fregadero (1,5 senos)",
+          "dishwasher-60": "Lavavajillas (totalmente integrado)",
+          "dishwasher-45": "Lavavajillas slim (45 cm)",
+          "hood": "Campana extractora"
+        },
+        "worktops": {
+          "eiken-massief": {
+            "label": "Roble macizo",
+            "description": "Cálido roble macizo, aceitado."
+          },
+          "beton": {
+            "label": "Hormigón",
+            "description": "Aspecto de hormigón robusto: industrial y audaz."
+          },
+          "composiet-wit": {
+            "label": "Compuesto blanco",
+            "description": "Compuesto blanco liso con un fino moteado."
+          },
+          "terrazzo": {
+            "label": "Terrazo",
+            "description": "Terrazo divertido con granos de piedra natural."
+          },
+          "graniet-zwart": {
+            "label": "Granito negro",
+            "description": "Granito negro profundo, ligeramente pulido."
+          },
+          "rvs": {
+            "label": "Acero inoxidable",
+            "description": "Acero inoxidable profesional."
+          }
+        }
+      },
+      "fronts": {
+        "title": "Color y frentes",
+        "intro": "Elige un estilo de cocina como punto de partida, o configura tú mismo el estilo y el acabado de los frentes. Los paneles laterales también se hacen totalmente a medida.",
+        "quickTitle": "Estilo de cocina",
+        "quickHint": "— selección rápida",
+        "styleTitle": "Estilo de frente",
+        "finishTitle": "Acabado",
+        "sidePanelsTitle": "Paneles laterales",
+        "sidePanelsIntro": "Los laterales visibles de muebles e islas se rematan con paneles laterales a medida: por defecto en el mismo acabado que los frentes, o deliberadamente en un color de contraste.",
+        "sameAsFronts": "Igual que los frentes",
+        "worktopTitle": "Encimera",
+        "worktopIntro": "La encimera la fabrica a medida un proveedor externo — elige aquí el aspecto que prefieres."
+      },
+      "summary": {
+        "title": "Tu lista de pedido",
+        "intro": "Este es el resumen de tu diseño: muebles IKEA estándar con número de artículo, los electrodomésticos elegidos y el trabajo a medida. Sin precios todavía — esos van en el presupuesto.",
+        "printEyebrow": "Habitat One · Planificador de cocinas",
+        "printTitle": "Lista de pedido del diseño de cocina",
+        "roomTitle": "Espacio",
+        "roomLine": "{w} × {d} cm · altura de techo {h} cm",
+        "carcassesTitle": "Muebles estándar (estructura IKEA METOD — {color})",
+        "emptyCarcasses": "Aún no hay muebles dibujados.",
+        "colQty": "Cant.",
+        "colCabinet": "Mueble",
+        "colSize": "Medidas (an×f×al)",
+        "colArticle": "N.º de artículo (IKEA NL)",
+        "carcassNote": "Números de artículo de IKEA NL — Habitat One verifica números y disponibilidad con tu presupuesto.",
+        "appliancesTitle": "Electrodomésticos (medidas estándar — marca/modelo a elegir)",
+        "emptyAppliances": "Aún no hay electrodomésticos elegidos.",
+        "applianceSize": "medida estándar {w} × {h} × {d} cm",
+        "frontsTitle": "Frentes y paneles laterales — a medida",
+        "frontsLabel": "Frentes:",
+        "sidePanelsLabel": "Paneles laterales:",
+        "styleTbd": "estilo por elegir",
+        "finishTbd": "acabado por elegir",
+        "carcassCount": "{count} estructuras",
+        "noFront": "Aún no se ha elegido un frente.",
+        "sameFinishAsFronts": "mismo acabado que los frentes",
+        "worktopTitle": "Encimera",
+        "worktopNote": "La encimera queda fuera de esta lista de pedido — la suministra un proveedor externo.",
+        "print": "Imprimir / guardar como PDF",
+        "copy": "Copiar lista de pedido",
+        "copied": "¡Copiado!",
+        "download": "Descargar como texto",
+        "fileName": "lista-pedido-cocina",
+        "requestQuote": "Solicitar presupuesto",
+        "worktopChosen": "Aspecto elegido: {label}"
+      },
+      "quote": {
+        "eyebrow": "Planificador de cocinas",
+        "title": "Solicitar presupuesto",
+        "intro": "Adjuntamos tu diseño y la lista de pedido — te contactamos en un plazo de 24 horas.",
+        "name": "Nombre",
+        "phone": "Teléfono (opcional)",
+        "email": "Correo electrónico",
+        "message": "Mensaje (opcional)",
+        "messagePlaceholder": "Preguntas, deseos, fecha de entrega preferida…",
+        "cancel": "Cancelar",
+        "submit": "Enviar solicitud",
+        "submitting": "Enviando…",
+        "error": "El envío ha fallado. Inténtalo de nuevo o escríbenos directamente.",
+        "successTitle": "Gracias — hemos recibido tu diseño de cocina.",
+        "successBody": "Habitat One te contactará en un día laborable con un presupuesto.",
+        "close": "Cerrar",
+        "closeAria": "Cerrar"
+      },
+      "aiRender": {
+        "button": "Generar imagen realista",
+        "title": "Imagen realista",
+        "intro": "La IA crea una impresión fotorrealista de tu diseño.",
+        "loading": "Generando… tarda unos 15 segundos.",
+        "retry": "Volver a intentar",
+        "download": "Descargar",
+        "newVariant": "Nueva variante",
+        "disclaimer": "Esto es una impresión de IA — una imagen de ambiente, no un plano técnico. La lista de pedido sigue siendo la referencia.",
+        "alt": "Impresión realista de la cocina",
+        "errNoCapture": "Abre primero la vista 3D y vuelve a intentarlo.",
+        "errGeneric": "La generación ha fallado. Inténtalo de nuevo en un momento.",
+        "errNotConfigured": "La generación de imágenes aún no está configurada.",
+        "errDetail": "La generación ha fallado — {detail}",
+        "errNetwork": "Algo salió mal durante la generación."
+      }
     }
   },
   "quoteForm": {

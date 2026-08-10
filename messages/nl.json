@@ -1708,6 +1708,234 @@
         "wit": "Wit",
         "houtpatroon-zwart": "Houtpatroon zwart"
       }
+    },
+    "planner": {
+      "page": {
+        "metaTitle": "Keukenplanner",
+        "metaDescription": "Ontwerp je keuken stap voor stap — ruimte, apparatuur, kasten, fronten en werkblad — en ontvang een bestellijst met IKEA METOD-artikelnummers.",
+        "eyebrow": "Keukenplanner",
+        "title": "Ontwerp je keuken",
+        "intro": "Stel stap voor stap je keuken samen: kies de ruimte, de kleur en fronten, en plaats de kasten en apparatuur. Aan het eind krijg je een complete bestellijst."
+      },
+      "steps": {
+        "room": {
+          "label": "Ruimte",
+          "short": "Ruimte"
+        },
+        "fronts": {
+          "label": "Kleur & fronten",
+          "short": "Fronten"
+        },
+        "design": {
+          "label": "Ontwerpen",
+          "short": "Ontwerpen"
+        },
+        "summary": {
+          "label": "Bestellijst",
+          "short": "Overzicht"
+        }
+      },
+      "nav": {
+        "prev": "Vorige",
+        "next": "Volgende"
+      },
+      "catalog": {
+        "frontStyles": {
+          "flat": {
+            "label": "Vlak (greeploos)",
+            "description": "Strak, vlak front zonder kader — modern en greeploos."
+          },
+          "shaker": {
+            "label": "Shaker",
+            "description": "Klassiek kaderfront met een verdiept paneel."
+          },
+          "shaker-small": {
+            "label": "Shaker smal",
+            "description": "Shaker met een fijn, smal kaderprofiel."
+          },
+          "grooved": {
+            "label": "Lamellen",
+            "description": "Verticale groeven voor een warme, tactiele structuur."
+          }
+        },
+        "finishes": {
+          "mat-wit": "Mat wit",
+          "zandbeige": "Zandbeige",
+          "saliegroen": "Saliegroen",
+          "diepblauw": "Diepblauw",
+          "klei": "Klei terracotta",
+          "antraciet": "Antraciet",
+          "mat-zwart": "Mat zwart",
+          "eiken-naturel": "Eiken naturel",
+          "eiken-whitewash": "Eiken whitewash",
+          "eiken-gerookt": "Eiken gerookt",
+          "eiken-zwart": "Eiken zwart",
+          "bamboe": "Bamboe"
+        },
+        "kitchenStyles": {
+          "japandi": {
+            "label": "Japandi",
+            "description": "Rustig en natuurlijk — Japanse soberheid met Scandinavische warmte."
+          },
+          "scandinavisch": {
+            "label": "Scandinavisch",
+            "description": "Licht, minimalistisch en functioneel."
+          },
+          "modern-landelijk": {
+            "label": "Modern landelijk",
+            "description": "Landelijke charme met een eigentijdse, strakke lijn."
+          },
+          "industrieel": {
+            "label": "Industrieel",
+            "description": "Stoer en rauw — donkere tinten en strakke vlakken."
+          },
+          "bohemian": {
+            "label": "Bohemian",
+            "description": "Warm en rijk — natuurlijke materialen en aardetinten."
+          },
+          "urban-chic": {
+            "label": "Urban chic",
+            "description": "Verfijnd stadswonen — diep zwart en strak."
+          }
+        },
+        "carcassTypes": {
+          "onderkast-inbouw": "Onderkast inbouwapparatuur",
+          "onderkast": "Onderkast",
+          "onderhoekkast": "Onderhoekkast",
+          "opzetkast": "Opzetkast",
+          "bovenkast": "Bovenkast",
+          "bovenhoekkast": "Bovenhoekkast",
+          "hoge-kast-inbouw": "Hoge kast inbouwapparatuur",
+          "hoge-kast": "Hoge kast"
+        },
+        "carcassColors": {
+          "wit": "wit",
+          "houtpatroon-zwart": "houtpatroon zwart"
+        },
+        "appliances": {
+          "oven": "Inbouwoven",
+          "combi-oven": "Combi-magnetron (inbouw)",
+          "coffee-machine": "Inbouw-koffiemachine",
+          "wine-cooler": "Wijnklimaatkast (inbouw)",
+          "fridge-tall": "Inbouwkoelkast (koel/vries)",
+          "cooktop-60": "Inductiekookplaat 60 cm",
+          "cooktop-80": "Inductiekookplaat 80 cm",
+          "venting-hob": "Inductieplaat met geïntegreerde afzuiging",
+          "sink-single": "Spoelbak (1 bak)",
+          "sink-onehalf": "Spoelbak (1,5 bak)",
+          "dishwasher-60": "Vaatwasser (volledig geïntegreerd)",
+          "dishwasher-45": "Vaatwasser slimline (45 cm)",
+          "hood": "Afzuigkap"
+        },
+        "worktops": {
+          "eiken-massief": {
+            "label": "Massief eiken",
+            "description": "Warm massief eikenhout, geolied."
+          },
+          "beton": {
+            "label": "Beton",
+            "description": "Robuust betonlook — industrieel en stoer."
+          },
+          "composiet-wit": {
+            "label": "Composiet wit",
+            "description": "Strak wit composiet met een fijne spikkel."
+          },
+          "terrazzo": {
+            "label": "Terrazzo",
+            "description": "Speels terrazzo met natuursteen-korrels."
+          },
+          "graniet-zwart": {
+            "label": "Graniet zwart",
+            "description": "Diep zwart graniet, licht gepolijst."
+          },
+          "rvs": {
+            "label": "RVS",
+            "description": "Professioneel roestvrij staal."
+          }
+        }
+      },
+      "fronts": {
+        "title": "Kleur & fronten",
+        "intro": "Kies een keukenstijl als startpunt, of stel zelf je front-stijl en afwerking samen. Ook de zijpanelen werken we volledig op maat af.",
+        "quickTitle": "Keukenstijl",
+        "quickHint": "— snelkeuze",
+        "styleTitle": "Front-stijl",
+        "finishTitle": "Afwerking",
+        "sidePanelsTitle": "Zijpanelen",
+        "sidePanelsIntro": "De zichtbare zijkanten van kasten en eilanden werken we af met maatwerk-zijpanelen — standaard in dezelfde afwerking als de fronten, of bewust in een contrasterende kleur.",
+        "sameAsFronts": "Zelfde als fronten",
+        "worktopTitle": "Werkblad",
+        "worktopIntro": "Het werkblad wordt door een externe partij op maat gemaakt — kies hier alvast de gewenste uitstraling."
+      },
+      "summary": {
+        "title": "Je bestellijst",
+        "intro": "Dit is het overzicht van je ontwerp: standaard IKEA-kasten met artikelnummer, de gekozen apparatuur en het maatwerk. Nog geen prijzen — die maken we in de offerte.",
+        "printEyebrow": "Habitat One · Keukenplanner",
+        "printTitle": "Bestellijst keukenontwerp",
+        "roomTitle": "Ruimte",
+        "roomLine": "{w} × {d} cm · plafondhoogte {h} cm",
+        "carcassesTitle": "Standaard kasten (IKEA METOD casco — {color})",
+        "emptyCarcasses": "Nog geen kasten getekend.",
+        "colQty": "Aantal",
+        "colCabinet": "Kast",
+        "colSize": "Maat (b×d×h)",
+        "colArticle": "Artikelnr. (IKEA NL)",
+        "carcassNote": "Artikelnummers via IKEA NL — Habitat One controleert nummers en beschikbaarheid bij je offerte.",
+        "appliancesTitle": "Apparatuur (standaardmaten — merk/model naar keuze)",
+        "emptyAppliances": "Nog geen apparatuur gekozen.",
+        "applianceSize": "standaardmaat {w} × {h} × {d} cm",
+        "frontsTitle": "Fronten & zijpanelen — maatwerk",
+        "frontsLabel": "Fronten:",
+        "sidePanelsLabel": "Zijpanelen:",
+        "styleTbd": "stijl nog te kiezen",
+        "finishTbd": "afwerking nog te kiezen",
+        "carcassCount": "{count} casco's",
+        "noFront": "Nog geen front gekozen.",
+        "sameFinishAsFronts": "zelfde afwerking als de fronten",
+        "worktopTitle": "Werkblad",
+        "worktopNote": "Het werkblad valt buiten deze bestellijst — dit wordt door een externe partij verzorgd.",
+        "print": "Printen / opslaan als PDF",
+        "copy": "Kopieer bestellijst",
+        "copied": "Gekopieerd!",
+        "download": "Download als tekst",
+        "fileName": "keuken-bestellijst",
+        "requestQuote": "Vraag offerte aan",
+        "worktopChosen": "Gekozen uitstraling: {label}"
+      },
+      "quote": {
+        "eyebrow": "Keukenplanner",
+        "title": "Vraag een offerte aan",
+        "intro": "Je ontwerp en bestellijst sturen we mee — we nemen binnen 24 uur contact met je op.",
+        "name": "Naam",
+        "phone": "Telefoon (optioneel)",
+        "email": "E-mail",
+        "message": "Bericht (optioneel)",
+        "messagePlaceholder": "Vragen, wensen, gewenste opleverdatum…",
+        "cancel": "Annuleren",
+        "submit": "Verstuur aanvraag",
+        "submitting": "Versturen…",
+        "error": "Versturen mislukt. Probeer het opnieuw of mail ons direct.",
+        "successTitle": "Bedankt — we hebben je keukenontwerp ontvangen.",
+        "successBody": "Habitat One neemt binnen één werkdag contact met je op voor een offerte.",
+        "close": "Sluiten",
+        "closeAria": "Sluiten"
+      },
+      "aiRender": {
+        "button": "Genereer realistisch beeld",
+        "title": "Realistisch beeld",
+        "intro": "De AI maakt een fotorealistische impressie van jouw ontwerp.",
+        "loading": "Bezig met genereren… dit duurt ongeveer 15 seconden.",
+        "retry": "Opnieuw proberen",
+        "download": "Downloaden",
+        "newVariant": "Nieuwe variant",
+        "disclaimer": "Dit is een AI-impressie — een sfeerbeeld, geen technische tekening. De bestellijst blijft leidend.",
+        "alt": "Realistische impressie van de keuken",
+        "errNoCapture": "Open eerst het 3D-aanzicht en probeer dan opnieuw.",
+        "errGeneric": "Het genereren is niet gelukt. Probeer het zo nog eens.",
+        "errNotConfigured": "De beeldgeneratie is nog niet geconfigureerd.",
+        "errDetail": "Het genereren is niet gelukt — {detail}",
+        "errNetwork": "Er ging iets mis bij het genereren."
+      }
     }
   },
   "quoteForm": {

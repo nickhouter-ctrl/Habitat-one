@@ -1708,6 +1708,234 @@
         "wit": "Blanc",
         "houtpatroon-zwart": "Effet bois noir"
       }
+    },
+    "planner": {
+      "page": {
+        "metaTitle": "Planificateur de cuisine",
+        "metaDescription": "Concevez votre cuisine étape par étape — pièce, électroménager, meubles, façades et plan de travail — et recevez une liste de commande avec les numéros d'article IKEA METOD.",
+        "eyebrow": "Planificateur de cuisine",
+        "title": "Concevez votre cuisine",
+        "intro": "Composez votre cuisine étape par étape : choisissez la pièce, la couleur et les façades, puis placez les meubles et l'électroménager. À la fin, vous recevez une liste de commande complète."
+      },
+      "steps": {
+        "room": {
+          "label": "Pièce",
+          "short": "Pièce"
+        },
+        "fronts": {
+          "label": "Couleur & façades",
+          "short": "Façades"
+        },
+        "design": {
+          "label": "Concevoir",
+          "short": "Concevoir"
+        },
+        "summary": {
+          "label": "Liste de commande",
+          "short": "Aperçu"
+        }
+      },
+      "nav": {
+        "prev": "Précédent",
+        "next": "Suivant"
+      },
+      "catalog": {
+        "frontStyles": {
+          "flat": {
+            "label": "Lisse (sans poignée)",
+            "description": "Façade plane sans cadre — moderne et sans poignée."
+          },
+          "shaker": {
+            "label": "Shaker",
+            "description": "Façade à cadre classique avec panneau en retrait."
+          },
+          "shaker-small": {
+            "label": "Shaker fin",
+            "description": "Shaker au cadre fin et étroit."
+          },
+          "grooved": {
+            "label": "Cannelé",
+            "description": "Rainures verticales pour une texture chaleureuse et tactile."
+          }
+        },
+        "finishes": {
+          "mat-wit": "Blanc mat",
+          "zandbeige": "Beige sable",
+          "saliegroen": "Vert sauge",
+          "diepblauw": "Bleu profond",
+          "klei": "Terracotta argile",
+          "antraciet": "Anthracite",
+          "mat-zwart": "Noir mat",
+          "eiken-naturel": "Chêne naturel",
+          "eiken-whitewash": "Chêne blanchi",
+          "eiken-gerookt": "Chêne fumé",
+          "eiken-zwart": "Chêne noir",
+          "bamboe": "Bambou"
+        },
+        "kitchenStyles": {
+          "japandi": {
+            "label": "Japandi",
+            "description": "Calme et naturel — la sobriété japonaise alliée à la chaleur scandinave."
+          },
+          "scandinavisch": {
+            "label": "Scandinave",
+            "description": "Lumineux, minimaliste et fonctionnel."
+          },
+          "modern-landelijk": {
+            "label": "Campagne moderne",
+            "description": "Le charme champêtre avec une ligne contemporaine et épurée."
+          },
+          "industrieel": {
+            "label": "Industriel",
+            "description": "Brut et affirmé — tons sombres et surfaces nettes."
+          },
+          "bohemian": {
+            "label": "Bohème",
+            "description": "Chaleureux et riche — matériaux naturels et tons terreux."
+          },
+          "urban-chic": {
+            "label": "Chic urbain",
+            "description": "Un art de vivre urbain raffiné — noir profond et lignes épurées."
+          }
+        },
+        "carcassTypes": {
+          "onderkast-inbouw": "Meuble bas pour électroménager encastrable",
+          "onderkast": "Meuble bas",
+          "onderhoekkast": "Meuble bas d'angle",
+          "opzetkast": "Meuble rehausse",
+          "bovenkast": "Meuble haut",
+          "bovenhoekkast": "Meuble haut d'angle",
+          "hoge-kast-inbouw": "Colonne pour électroménager encastrable",
+          "hoge-kast": "Colonne"
+        },
+        "carcassColors": {
+          "wit": "blanc",
+          "houtpatroon-zwart": "effet bois noir"
+        },
+        "appliances": {
+          "oven": "Four encastrable",
+          "combi-oven": "Micro-ondes combiné encastrable",
+          "coffee-machine": "Machine à café encastrable",
+          "wine-cooler": "Cave à vin encastrable",
+          "fridge-tall": "Réfrigérateur/congélateur encastrable",
+          "cooktop-60": "Plaque à induction 60 cm",
+          "cooktop-80": "Plaque à induction 80 cm",
+          "venting-hob": "Plaque à induction avec hotte intégrée",
+          "sink-single": "Évier (1 bac)",
+          "sink-onehalf": "Évier (1,5 bac)",
+          "dishwasher-60": "Lave-vaisselle (tout intégrable)",
+          "dishwasher-45": "Lave-vaisselle slim (45 cm)",
+          "hood": "Hotte aspirante"
+        },
+        "worktops": {
+          "eiken-massief": {
+            "label": "Chêne massif",
+            "description": "Chêne massif chaleureux, huilé."
+          },
+          "beton": {
+            "label": "Béton",
+            "description": "Aspect béton robuste — industriel et affirmé."
+          },
+          "composiet-wit": {
+            "label": "Composite blanc",
+            "description": "Composite blanc épuré au fin moucheté."
+          },
+          "terrazzo": {
+            "label": "Terrazzo",
+            "description": "Terrazzo ludique aux éclats de pierre naturelle."
+          },
+          "graniet-zwart": {
+            "label": "Granit noir",
+            "description": "Granit noir profond, légèrement poli."
+          },
+          "rvs": {
+            "label": "Inox",
+            "description": "Acier inoxydable professionnel."
+          }
+        }
+      },
+      "fronts": {
+        "title": "Couleur & façades",
+        "intro": "Choisissez un style de cuisine comme point de départ, ou composez vous-même le style et la finition des façades. Les panneaux latéraux sont eux aussi entièrement réalisés sur mesure.",
+        "quickTitle": "Style de cuisine",
+        "quickHint": "— choix rapide",
+        "styleTitle": "Style de façade",
+        "finishTitle": "Finition",
+        "sidePanelsTitle": "Panneaux latéraux",
+        "sidePanelsIntro": "Les côtés visibles des meubles et des îlots sont habillés de panneaux latéraux sur mesure — par défaut dans la même finition que les façades, ou volontairement dans une couleur contrastante.",
+        "sameAsFronts": "Identique aux façades",
+        "worktopTitle": "Plan de travail",
+        "worktopIntro": "Le plan de travail est réalisé sur mesure par un partenaire externe — choisissez déjà ici l'aspect souhaité."
+      },
+      "summary": {
+        "title": "Votre liste de commande",
+        "intro": "Voici l'aperçu de votre projet : meubles IKEA standard avec numéro d'article, l'électroménager choisi et le sur-mesure. Pas encore de prix — ils figureront dans le devis.",
+        "printEyebrow": "Habitat One · Planificateur de cuisine",
+        "printTitle": "Liste de commande du projet de cuisine",
+        "roomTitle": "Pièce",
+        "roomLine": "{w} × {d} cm · hauteur sous plafond {h} cm",
+        "carcassesTitle": "Meubles standard (caisson IKEA METOD — {color})",
+        "emptyCarcasses": "Aucun meuble dessiné pour l'instant.",
+        "colQty": "Qté",
+        "colCabinet": "Meuble",
+        "colSize": "Dimensions (l×p×h)",
+        "colArticle": "N° d'article (IKEA NL)",
+        "carcassNote": "Numéros d'article IKEA NL — Habitat One vérifie les numéros et la disponibilité avec votre devis.",
+        "appliancesTitle": "Électroménager (dimensions standard — marque/modèle au choix)",
+        "emptyAppliances": "Aucun appareil choisi pour l'instant.",
+        "applianceSize": "dimension standard {w} × {h} × {d} cm",
+        "frontsTitle": "Façades & panneaux latéraux — sur mesure",
+        "frontsLabel": "Façades :",
+        "sidePanelsLabel": "Panneaux latéraux :",
+        "styleTbd": "style à choisir",
+        "finishTbd": "finition à choisir",
+        "carcassCount": "{count} caissons",
+        "noFront": "Aucune façade choisie pour l'instant.",
+        "sameFinishAsFronts": "même finition que les façades",
+        "worktopTitle": "Plan de travail",
+        "worktopNote": "Le plan de travail ne fait pas partie de cette liste de commande — il est fourni par un partenaire externe.",
+        "print": "Imprimer / enregistrer en PDF",
+        "copy": "Copier la liste",
+        "copied": "Copié !",
+        "download": "Télécharger en texte",
+        "fileName": "liste-commande-cuisine",
+        "requestQuote": "Demander un devis",
+        "worktopChosen": "Aspect choisi : {label}"
+      },
+      "quote": {
+        "eyebrow": "Planificateur de cuisine",
+        "title": "Demander un devis",
+        "intro": "Nous joignons votre projet et la liste de commande — nous vous contactons sous 24 heures.",
+        "name": "Nom",
+        "phone": "Téléphone (facultatif)",
+        "email": "E-mail",
+        "message": "Message (facultatif)",
+        "messagePlaceholder": "Questions, souhaits, date de livraison souhaitée…",
+        "cancel": "Annuler",
+        "submit": "Envoyer la demande",
+        "submitting": "Envoi…",
+        "error": "L'envoi a échoué. Réessayez ou écrivez-nous directement.",
+        "successTitle": "Merci — nous avons bien reçu votre projet de cuisine.",
+        "successBody": "Habitat One vous contactera sous un jour ouvré avec un devis.",
+        "close": "Fermer",
+        "closeAria": "Fermer"
+      },
+      "aiRender": {
+        "button": "Générer une image réaliste",
+        "title": "Image réaliste",
+        "intro": "L'IA crée une impression photoréaliste de votre projet.",
+        "loading": "Génération en cours… cela prend environ 15 secondes.",
+        "retry": "Réessayer",
+        "download": "Télécharger",
+        "newVariant": "Nouvelle variante",
+        "disclaimer": "Ceci est une impression générée par IA — une image d'ambiance, pas un dessin technique. La liste de commande reste la référence.",
+        "alt": "Impression réaliste de la cuisine",
+        "errNoCapture": "Ouvrez d'abord la vue 3D, puis réessayez.",
+        "errGeneric": "La génération a échoué. Réessayez dans un instant.",
+        "errNotConfigured": "La génération d'images n'est pas encore configurée.",
+        "errDetail": "La génération a échoué — {detail}",
+        "errNetwork": "Une erreur s'est produite lors de la génération."
+      }
     }
   },
   "quoteForm": {
