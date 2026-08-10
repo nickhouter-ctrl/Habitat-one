@@ -5,7 +5,14 @@
 
 import { getCarcass, type Carcass } from "@/lib/data/metod";
 import { getAppliance, type Appliance } from "./appliances";
-import type { CabinetLayer, KitchenDesign, PlacedItem, Rotation, WallSide } from "./types";
+import type {
+  CabinetLayer,
+  KitchenDesign,
+  Opening,
+  PlacedItem,
+  Rotation,
+  WallSide,
+} from "./types";
 
 /** Afstand (cm) waarbinnen een element tegen een buur klikt. */
 export const SNAP_THRESHOLD_CM = 35;
@@ -22,6 +29,16 @@ const ISLAND_WALL_SNAP_CM = 8;
 
 /** Standaard kastbreedtes (cm), aflopend — voor "wat past hier nog". */
 export const STANDARD_WIDTHS_CM = [80, 60, 40, 20];
+
+/** Toegestane ruimtematen (cm) — gedeeld door de reducer en de persistentie. */
+export const ROOM_LIMITS = {
+  widthCm: { min: 120, max: 1200 },
+  depthCm: { min: 120, max: 1200 },
+  ceilingCm: { min: 200, max: 360 },
+} as const;
+
+/** Overlap-tolerantie (cm): vlak tegen elkaar staande kasten botsen niet. */
+const OVERLAP_EPS_CM = 0.5;
 
 /** In welke laag hoort een casco: op de vloer of hangend. */
 export function carcassLayer(carcass: Carcass): CabinetLayer {
@@ -97,6 +114,38 @@ export function isFlushToWall(
     default:
       return b.x2 >= design.roomWidthCm - m;
   }
+}
+
+/**
+ * True als twee elementen in dezelfde laag elkaar overlappen (AABB, ná
+ * rotatie). Onder- en bovenlaag botsen nooit met elkaar; randen die exact
+ * tegen elkaar liggen (buurkasten) tellen niet als botsing.
+ */
+export function itemsOverlap(a: PlacedItem, b: PlacedItem): boolean {
+  if (a.layer !== b.layer) return false;
+  const A = itemBounds(a);
+  const B = itemBounds(b);
+  return (
+    A.x1 < B.x2 - OVERLAP_EPS_CM &&
+    A.x2 > B.x1 + OVERLAP_EPS_CM &&
+    A.y1 < B.y2 - OVERLAP_EPS_CM &&
+    A.y2 > B.y1 + OVERLAP_EPS_CM
+  );
+}
+
+/** True als `item` botst met een ánder element in het ontwerp. */
+export function designHasCollision(design: KitchenDesign, item: PlacedItem): boolean {
+  return design.items.some(
+    (other) => other.instanceId !== item.instanceId && itemsOverlap(other, item),
+  );
+}
+
+/** Houd een opening binnen de grenzen van zijn wand. */
+export function clampOpening(o: Opening, roomWidthCm: number, roomDepthCm: number): Opening {
+  const len = o.wall === "left" || o.wall === "right" ? roomDepthCm : roomWidthCm;
+  const widthCm = clamp(o.widthCm, 30, Math.max(30, len));
+  const offsetCm = clamp(o.offsetCm, widthCm / 2, Math.max(widthCm / 2, len - widthCm / 2));
+  return { ...o, widthCm, offsetCm };
 }
 
 /** Houd een middelpunt binnen de ruimte, rekening houdend met de AABB. */
