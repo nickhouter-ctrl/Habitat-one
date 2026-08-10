@@ -2,18 +2,24 @@
 
 // 3D-aanzicht van de keuken. Realistisch gerenderd: echte slagschaduwen,
 // omgevingsbelichting, material-textures (hout, marmer, geborsteld metaal),
-// kasten met sokkel en front-stijl. Klik een element aan om het te kiezen.
+// kasten met sokkel en front-stijl.
+//
+// Interactie: klik een element om het te selecteren, sleep het om het te
+// verplaatsen (het klikt vast tegen wanden en buren, net als in 2D). Tijdens
+// het slepen staat de camera vast; een botsend element kleurt rood en springt
+// bij loslaten terug. De ruimte heeft vier wanden; wanden tussen de camera en
+// de keuken worden automatisch verborgen (dollhouse-weergave).
 
-import { Suspense, useEffect, type RefObject } from "react";
-import { Canvas, useThree } from "@react-three/fiber";
+import { Suspense, useEffect, useMemo, useRef, useState, type RefObject } from "react";
+import { Canvas, useFrame, useThree, type ThreeEvent } from "@react-three/fiber";
 import { Environment, Lightformer, OrbitControls, RoundedBox, useTexture } from "@react-three/drei";
-import type { Texture } from "three";
+import { RepeatWrapping, type Group, type Ray, type Texture } from "three";
 import { getCarcass, type Carcass, type CarcassColor } from "@/lib/data/metod";
 import { getAppliance, type ApplianceCategory } from "@/lib/planner/appliances";
-import { getFrontFinish } from "@/lib/planner/catalog";
-import { itemFootprint } from "@/lib/planner/layout";
+import { getFrontFinish, getWorktopFinish } from "@/lib/planner/catalog";
+import { designHasCollision, itemFootprint, snapItem } from "@/lib/planner/layout";
 import { usePlanner } from "@/lib/planner/store";
-import type { KitchenDesign, PlacedItem } from "@/lib/planner/types";
+import type { KitchenDesign, PlacedItem, WallSide } from "@/lib/planner/types";
 
 const HANG_HEIGHT_CM = 145;
 const WORKTOP_THICKNESS_CM = 4;
@@ -22,10 +28,15 @@ const PLINTH_H = 12;
 const PLINTH_INSET = 4;
 // Smalle voegnaad tussen fronten — strak, greeploos zoals een maatwerkkeuken.
 const GAP = 0.5;
+const WALL_THICKNESS = 8;
 const RECESS = "#272320";
 const STEEL_LIGHT = "#cdd2d8";
 const GLASS = "#191b1f";
 const HIGHLIGHT = "#c2703f";
+// Botsingskleur — wint van de selectiekleur zodat een conflict altijd opvalt.
+const COLLISION = "#dc2626";
+// Verplaatsing (cm) vanaf het startpunt waarna een sleep geen klik meer is.
+const DRAG_THRESHOLD_CM = 2;
 
 const CARCASS_HEX: Record<CarcassColor, string> = {
   wit: "#ece6da",
@@ -94,6 +105,15 @@ function frontGrid(carcass: Carcass, layer: "base" | "wall"): { cols: number; ro
   return { cols: carcass.b >= 75 ? 2 : 1, rows: 1 };
 }
 
+/** Werkblad-materiaal, afgeleid van de gekozen werkblad-afwerking. */
+interface WorktopMaterial {
+  color: string;
+  roughness: number;
+  metalness: number;
+  map?: Texture;
+  normalMap?: Texture;
+}
+
 export function Room3D({
   selectedId,
   onSelect,
@@ -107,16 +127,23 @@ export function Room3D({
   const { design } = usePlanner();
   const { roomWidthCm: rw, roomDepthCm: rd, ceilingHeightCm: ch } = design;
   const span = Math.max(rw, rd);
+  // Tijdens het slepen van een kast staat de orbit-camera uit, anders draait
+  // de hele scène mee met de sleepbeweging.
+  const [dragging, setDragging] = useState(false);
 
   return (
     <Canvas
       shadows
+      // Alleen renderen wanneer er iets verandert (state, camera, textures) —
+      // een stilstaande planner kost zo geen GPU-tijd.
+      frameloop="demand"
       dpr={[1, 2]}
       camera={{ position: [rw * 0.85, ch * 1.3, rd * 1.5], fov: 46 }}
       onPointerMissed={() => onSelect(null)}
+      style={{ touchAction: "none" }}
     >
       <color attach="background" args={["#efe8d8"]} />
-      <ambientLight intensity={0.22} />
+      <ambientLight intensity={0.28} />
       <directionalLight
         position={[rw * 0.55, ch * 2.3, rd * 1.1]}
         intensity={0.95}
@@ -143,7 +170,7 @@ export function Room3D({
       </Environment>
 
       <Suspense fallback={null}>
-        <Scene selectedId={selectedId} onSelect={onSelect} />
+        <Scene selectedId={selectedId} onSelect={onSelect} onDraggingChange={setDragging} />
       </Suspense>
 
       <CaptureBridge captureRef={captureRef} />
@@ -153,6 +180,7 @@ export function Room3D({
         maxPolarAngle={Math.PI / 2.08}
         minDistance={140}
         maxDistance={span * 3}
+        enabled={!dragging}
         makeDefault
       />
     </Canvas>
@@ -181,9 +209,11 @@ function CaptureBridge({ captureRef }: { captureRef?: RefObject<(() => string) |
 function Scene({
   selectedId,
   onSelect,
+  onDraggingChange,
 }: {
   selectedId: string | null;
   onSelect: (id: string | null) => void;
+  onDraggingChange: (dragging: boolean) => void;
 }) {
   const { design } = usePlanner();
   const wood = useTexture({ map: "/textures/wood/color.jpg", normalMap: "/textures/wood/normal.jpg" });
@@ -200,9 +230,26 @@ function Scene({
   const panelMap = isWood ? wood.map : undefined;
   const panelNormal = isWood ? wood.normalMap : undefined;
 
+  // Werkblad-materiaal uit de gekozen afwerking. Zonder keuze: wit marmer.
+  // De texture volgt de materiaalfamilie: hout voor massief eiken, metaal
+  // voor RVS, steen (marmer-normalmap) voor de rest.
+  const worktop = useMemo<WorktopMaterial>(() => {
+    const w = getWorktopFinish(design.worktopId ?? null);
+    if (!w) {
+      return { color: "#ffffff", roughness: 0.25, metalness: 0.04, map: marble.map, normalMap: marble.normalMap };
+    }
+    if (w.id === "eiken-massief") {
+      return { color: w.hex, roughness: w.roughness, metalness: 0, map: wood.map, normalMap: wood.normalMap };
+    }
+    if (w.id === "rvs") {
+      return { color: w.hex, roughness: w.roughness, metalness: 0.7, map: metal.map, normalMap: metal.normalMap };
+    }
+    return { color: w.hex, roughness: w.roughness, metalness: 0.04, normalMap: marble.normalMap };
+  }, [design.worktopId, wood, marble, metal]);
+
   return (
     <>
-      <Room design={design} />
+      <Room design={design} wood={wood} />
       {design.items.map((item) => (
         <Item
           key={item.instanceId}
@@ -211,73 +258,181 @@ function Scene({
           panelColor={panelColor}
           panelMap={panelMap}
           panelNormal={panelNormal}
-          marble={marble}
+          worktop={worktop}
           metal={metal}
           selected={item.instanceId === selectedId}
+          colliding={designHasCollision(design, item)}
           onSelect={onSelect}
+          onDraggingChange={onDraggingChange}
         />
       ))}
     </>
   );
 }
 
-function Room({ design }: { design: KitchenDesign }) {
+/**
+ * De ruimte: houten vloer plus vier wanden met plint. Elke wand (inclusief
+ * zijn ramen/deuren) verdwijnt automatisch zodra de camera erbuiten staat,
+ * zodat de keuken vanuit elke hoek zichtbaar blijft (dollhouse-weergave).
+ */
+function Room({
+  design,
+  wood,
+}: {
+  design: KitchenDesign;
+  wood: { map: Texture; normalMap: Texture };
+}) {
   const { roomWidthCm: rw, roomDepthCm: rd, ceilingHeightCm: ch } = design;
+
+  // Eigen kopie van de houttextuur voor de vloer: de herhaling schaalt met de
+  // ruimte en mag de gedeelde (gecachte) kast-textuur niet aanpassen.
+  const floorMap = useMemo(() => {
+    const m = wood.map.clone();
+    m.wrapS = m.wrapT = RepeatWrapping;
+    m.repeat.set(rw / 120, rd / 120);
+    m.needsUpdate = true;
+    return m;
+  }, [wood.map, rw, rd]);
+
+  const topWall = useRef<Group>(null);
+  const bottomWall = useRef<Group>(null);
+  const leftWall = useRef<Group>(null);
+  const rightWall = useRef<Group>(null);
+
+  // Dollhouse: verberg een wand wanneer de camera aan de buitenkant ervan
+  // staat (de wand zou dan tussen de camera en de keuken in zitten).
+  useFrame(({ camera }) => {
+    if (topWall.current) topWall.current.visible = camera.position.z > -rd / 2;
+    if (bottomWall.current) bottomWall.current.visible = camera.position.z < rd / 2;
+    if (leftWall.current) leftWall.current.visible = camera.position.x > -rw / 2;
+    if (rightWall.current) rightWall.current.visible = camera.position.x < rw / 2;
+  });
+
+  const wallRefs: Record<WallSide, RefObject<Group | null>> = {
+    top: topWall,
+    bottom: bottomWall,
+    left: leftWall,
+    right: rightWall,
+  };
+
+  const walls: {
+    side: WallSide;
+    position: [number, number, number];
+    size: [number, number, number];
+    rotationY: number;
+    /** Lengte van de wand in cm — voor plint en openingen. */
+    lengthCm: number;
+  }[] = [
+    { side: "top", position: [0, ch / 2, -rd / 2 - WALL_THICKNESS / 2], size: [rw + WALL_THICKNESS * 2, ch, WALL_THICKNESS], rotationY: 0, lengthCm: rw },
+    { side: "bottom", position: [0, ch / 2, rd / 2 + WALL_THICKNESS / 2], size: [rw + WALL_THICKNESS * 2, ch, WALL_THICKNESS], rotationY: Math.PI, lengthCm: rw },
+    { side: "left", position: [-rw / 2 - WALL_THICKNESS / 2, ch / 2, 0], size: [WALL_THICKNESS, ch, rd], rotationY: Math.PI / 2, lengthCm: rd },
+    { side: "right", position: [rw / 2 + WALL_THICKNESS / 2, ch / 2, 0], size: [WALL_THICKNESS, ch, rd], rotationY: -Math.PI / 2, lengthCm: rd },
+  ];
+
   return (
     <group>
+      {/* Vloer — warme eikenplanken. */}
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]} receiveShadow>
         <planeGeometry args={[rw, rd]} />
-        <meshStandardMaterial color="#e3d7bc" roughness={0.92} />
+        <meshStandardMaterial
+          color="#d9c3a3"
+          map={floorMap}
+          normalMap={wood.normalMap}
+          roughness={0.75}
+        />
       </mesh>
-      <mesh position={[0, ch / 2, -rd / 2 - 2.5]} receiveShadow>
-        <boxGeometry args={[rw, ch, 5]} />
-        <meshStandardMaterial color="#f4efe3" roughness={0.95} />
-      </mesh>
-      <mesh position={[-rw / 2 - 2.5, ch / 2, 0]} receiveShadow>
-        <boxGeometry args={[5, ch, rd]} />
-        <meshStandardMaterial color="#ebe3d1" roughness={0.95} />
-      </mesh>
-      <WallOpenings design={design} />
+      {walls.map((w) => (
+        <group key={w.side} ref={wallRefs[w.side]}>
+          <mesh position={w.position} receiveShadow>
+            <boxGeometry args={w.size} />
+            <meshStandardMaterial color="#f4efe3" roughness={0.95} />
+          </mesh>
+          {/* Plint langs de voet van de wand. */}
+          <Skirting side={w.side} rw={rw} rd={rd} lengthCm={w.lengthCm} />
+          <WallOpenings design={design} side={w.side} rotationY={w.rotationY} />
+        </group>
+      ))}
     </group>
   );
 }
 
-/** Ramen en deuren op de zichtbare wanden (achter- en linkerwand). */
-function WallOpenings({ design }: { design: KitchenDesign }) {
+/** Witte plint langs de voet van één wand — subtiel maar maakt het af. */
+function Skirting({
+  side,
+  rw,
+  rd,
+  lengthCm,
+}: {
+  side: WallSide;
+  rw: number;
+  rd: number;
+  lengthCm: number;
+}) {
+  const h = 9;
+  const t = 1.4;
+  const position: [number, number, number] =
+    side === "top"
+      ? [0, h / 2, -rd / 2 + t / 2]
+      : side === "bottom"
+        ? [0, h / 2, rd / 2 - t / 2]
+        : side === "left"
+          ? [-rw / 2 + t / 2, h / 2, 0]
+          : [rw / 2 - t / 2, h / 2, 0];
+  const horizontal = side === "top" || side === "bottom";
+  return (
+    <mesh position={position} receiveShadow>
+      <boxGeometry args={horizontal ? [lengthCm, h, t] : [t, h, lengthCm]} />
+      <meshStandardMaterial color="#faf6ec" roughness={0.6} />
+    </mesh>
+  );
+}
+
+/** Ramen en deuren van één wand, gepositioneerd langs die wand. */
+function WallOpenings({
+  design,
+  side,
+  rotationY,
+}: {
+  design: KitchenDesign;
+  side: WallSide;
+  rotationY: number;
+}) {
   const { roomWidthCm: rw, roomDepthCm: rd } = design;
   return (
     <>
-      {design.openings.map((o) => {
-        const isWindow = o.kind === "window";
-        const h = isWindow ? 125 : 211;
-        const cy = isWindow ? 150 : h / 2;
-        if (o.wall === "top") {
+      {design.openings
+        .filter((o) => o.wall === side)
+        .map((o) => {
+          const isWindow = o.kind === "window";
+          const h = isWindow ? 125 : 211;
+          const cy = isWindow ? 150 : h / 2;
+          // offsetCm is gemeten vanaf de starthoek: top/bottom vanaf links,
+          // left/right vanaf boven (zie lib/planner/types.ts).
+          let position: [number, number, number];
+          switch (side) {
+            case "top":
+              position = [o.offsetCm - rw / 2, cy, -rd / 2 + 1];
+              break;
+            case "bottom":
+              position = [o.offsetCm - rw / 2, cy, rd / 2 - 1];
+              break;
+            case "left":
+              position = [-rw / 2 + 1, cy, o.offsetCm - rd / 2];
+              break;
+            default:
+              position = [rw / 2 - 1, cy, o.offsetCm - rd / 2];
+          }
           return (
             <OpeningPanel
               key={o.id}
               kind={o.kind}
-              position={[o.offsetCm - rw / 2, cy, -rd / 2 + 1]}
-              rotationY={0}
+              position={position}
+              rotationY={rotationY}
               w={o.widthCm}
               h={h}
             />
           );
-        }
-        if (o.wall === "left") {
-          return (
-            <OpeningPanel
-              key={o.id}
-              kind={o.kind}
-              position={[-rw / 2 + 1, cy, o.offsetCm - rd / 2]}
-              rotationY={Math.PI / 2}
-              w={o.widthCm}
-              h={h}
-            />
-          );
-        }
-        // Onder-/rechterwand worden niet getekend (camera-zijde).
-        return null;
-      })}
+        })}
     </>
   );
 }
@@ -316,6 +471,13 @@ function OpeningPanel({
           <meshStandardMaterial color="#9a8f79" roughness={0.62} />
         )}
       </mesh>
+      {/* Deurkruk — alleen op deuren. */}
+      {!isWindow && (
+        <mesh position={[w / 2 - 9, -6, 3]} castShadow>
+          <cylinderGeometry args={[1.1, 1.1, 12, 12]} />
+          <meshStandardMaterial color="#8d949c" metalness={0.8} roughness={0.25} />
+        </mesh>
+      )}
     </group>
   );
 }
@@ -465,56 +627,169 @@ function PanelGrid({
   return <>{panels}</>;
 }
 
+/** Sleepstatus van één element — leeft in een ref, want per pointer-event. */
+interface DragState {
+  origCx: number;
+  origCy: number;
+  /** Verschil tussen het item-middelpunt en het raakpunt bij het oppakken. */
+  offX: number;
+  offZ: number;
+  moved: boolean;
+}
+
+/**
+ * Interactieve wrapper om een 3D-element: positioneert/roteert de groep en
+ * regelt selecteren (klik) en verplaatsen (slepen). Het slepen projecteert de
+ * muisstraal op het draagvlak van de laag (vloer of ophanghoogte), stuurt
+ * MOVE_ITEM tijdens de beweging en SNAP_ITEM bij loslaten. Zou de snap-positie
+ * botsen met een ander element, dan springt het item terug naar zijn
+ * beginpositie.
+ */
+function DraggableItem({
+  item,
+  design,
+  onSelect,
+  onDraggingChange,
+  children,
+}: {
+  item: PlacedItem;
+  design: KitchenDesign;
+  onSelect: (id: string) => void;
+  onDraggingChange: (dragging: boolean) => void;
+  children: React.ReactNode;
+}) {
+  const { dispatch } = usePlanner();
+  const drag = useRef<DragState | null>(null);
+  const { roomWidthCm: rw, roomDepthCm: rd } = design;
+  const x = item.cx - rw / 2;
+  const z = item.cy - rd / 2;
+  const rotY = (-item.rotation * Math.PI) / 180;
+  // Draagvlak: onderkasten slepen over de vloer, bovenkasten op ophanghoogte.
+  const planeY = item.layer === "base" ? 0 : HANG_HEIGHT_CM;
+
+  /** Snijpunt van de muisstraal met het horizontale draagvlak (wereld-cm). */
+  const hitPoint = (ray: Ray): { x: number; z: number } | null => {
+    if (Math.abs(ray.direction.y) < 1e-6) return null;
+    const t = (planeY - ray.origin.y) / ray.direction.y;
+    if (t <= 0) return null;
+    return {
+      x: ray.origin.x + ray.direction.x * t,
+      z: ray.origin.z + ray.direction.z * t,
+    };
+  };
+
+  const onPointerDown = (e: ThreeEvent<PointerEvent>) => {
+    e.stopPropagation();
+    (e.target as Element).setPointerCapture(e.pointerId);
+    onSelect(item.instanceId);
+    const hit = hitPoint(e.ray);
+    if (!hit) return;
+    drag.current = {
+      origCx: item.cx,
+      origCy: item.cy,
+      offX: x - hit.x,
+      offZ: z - hit.z,
+      moved: false,
+    };
+    onDraggingChange(true);
+  };
+
+  const onPointerMove = (e: ThreeEvent<PointerEvent>) => {
+    const d = drag.current;
+    if (!d) return;
+    const hit = hitPoint(e.ray);
+    if (!hit) return;
+    const cx = hit.x + d.offX + rw / 2;
+    const cy = hit.z + d.offZ + rd / 2;
+    if (Math.hypot(cx - d.origCx, cy - d.origCy) > DRAG_THRESHOLD_CM) d.moved = true;
+    if (d.moved) dispatch({ type: "MOVE_ITEM", instanceId: item.instanceId, cx, cy });
+  };
+
+  const onPointerUp = (e: ThreeEvent<PointerEvent>) => {
+    const d = drag.current;
+    drag.current = null;
+    onDraggingChange(false);
+    if (!d) return;
+    (e.target as Element).releasePointerCapture(e.pointerId);
+    if (!d.moved) return; // klik zonder sleep — selectie is al gebeurd
+    const snapped = { ...item, ...snapItem(item, design) };
+    if (designHasCollision(design, snapped)) {
+      // Botsing op de eindpositie: terug naar waar het element vandaan kwam.
+      dispatch({ type: "MOVE_ITEM", instanceId: item.instanceId, cx: d.origCx, cy: d.origCy });
+    }
+    dispatch({ type: "SNAP_ITEM", instanceId: item.instanceId });
+  };
+
+  return (
+    <group
+      position={[x, 0, z]}
+      rotation={[0, rotY, 0]}
+      onPointerDown={onPointerDown}
+      onPointerMove={onPointerMove}
+      onPointerUp={onPointerUp}
+    >
+      {children}
+    </group>
+  );
+}
+
 function Item({
   item,
   design,
   panelColor,
   panelMap,
   panelNormal,
-  marble,
+  worktop,
   metal,
   selected,
+  colliding,
   onSelect,
+  onDraggingChange,
 }: {
   item: PlacedItem;
   design: KitchenDesign;
   panelColor: string;
   panelMap?: Texture;
   panelNormal?: Texture;
-  marble: { map: Texture; normalMap: Texture };
+  worktop: WorktopMaterial;
   metal: { map: Texture; normalMap: Texture };
   selected: boolean;
+  colliding: boolean;
   onSelect: (id: string) => void;
+  onDraggingChange: (dragging: boolean) => void;
 }) {
   const cat = applianceCategoryOf(item);
   const { w, d } = itemFootprint(item);
-  const x = item.cx - design.roomWidthCm / 2;
-  const z = item.cy - design.roomDepthCm / 2;
-  const rotY = (-item.rotation * Math.PI) / 180;
-  const emissive = selected ? HIGHLIGHT : "#000000";
-  const emis = selected ? 0.4 : 0;
-  const select = (e: { stopPropagation: () => void }) => {
-    e.stopPropagation();
-    onSelect(item.instanceId);
-  };
+  // Botsing wint van selectie — een conflict moet altijd zichtbaar zijn.
+  const emissive = colliding ? COLLISION : selected ? HIGHLIGHT : "#000000";
+  const emis = colliding ? 0.45 : selected ? 0.4 : 0;
   const frontStyle = design.frontStyleId ?? "flat";
+
+  const wrap = (children: React.ReactNode) => (
+    <DraggableItem
+      item={item}
+      design={design}
+      onSelect={onSelect}
+      onDraggingChange={onDraggingChange}
+    >
+      {children}
+    </DraggableItem>
+  );
 
   // Afzuigkap — platte kap, hoog aan de wand.
   if (cat === "hood") {
-    return (
-      <group position={[x, 0, z]} rotation={[0, rotY, 0]} onClick={select}>
-        <RoundedBox args={[w, 15, d]} radius={2} smoothness={4} position={[0, 150, 0]} castShadow>
-          <meshStandardMaterial
-            color="#c9ccd0"
-            map={metal.map}
-            normalMap={metal.normalMap}
-            metalness={0.6}
-            roughness={0.4}
-            emissive={emissive}
-            emissiveIntensity={emis}
-          />
-        </RoundedBox>
-      </group>
+    return wrap(
+      <RoundedBox args={[w, 15, d]} radius={2} smoothness={4} position={[0, 150, 0]} castShadow>
+        <meshStandardMaterial
+          color="#c9ccd0"
+          map={metal.map}
+          normalMap={metal.normalMap}
+          metalness={0.6}
+          roughness={0.4}
+          emissive={emissive}
+          emissiveIntensity={emis}
+        />
+      </RoundedBox>,
     );
   }
 
@@ -548,7 +823,7 @@ function Item({
       </mesh>
     ) : null;
 
-  const worktop = isCounter ? (
+  const worktopMesh = isCounter ? (
     <RoundedBox
       args={[w + 2, WORKTOP_THICKNESS_CM, d + 2]}
       radius={1}
@@ -558,11 +833,11 @@ function Item({
       receiveShadow
     >
       <meshStandardMaterial
-        color="#ffffff"
-        map={marble.map}
-        normalMap={marble.normalMap}
-        roughness={0.25}
-        metalness={0.04}
+        color={worktop.color}
+        map={worktop.map}
+        normalMap={worktop.normalMap}
+        roughness={worktop.roughness}
+        metalness={worktop.metalness}
       />
     </RoundedBox>
   ) : null;
@@ -570,8 +845,8 @@ function Item({
   // Gewone kast — front met deur-/ladepanelen.
   if (!cat && carcass) {
     const grid = frontGrid(carcass, item.layer);
-    return (
-      <group position={[x, 0, z]} rotation={[0, rotY, 0]} onClick={select}>
+    return wrap(
+      <>
         {body}
         {plinth}
         <PanelGrid
@@ -588,15 +863,15 @@ function Item({
           emissive={emissive}
           emissiveIntensity={emis}
         />
-        {worktop}
-      </group>
+        {worktopMesh}
+      </>,
     );
   }
 
   // Kookplaat / spoelbak — onderkast met lades + plaat op het werkblad.
   if ((cat === "cooktop" || cat === "sink") && carcass) {
-    return (
-      <group position={[x, 0, z]} rotation={[0, rotY, 0]} onClick={select}>
+    return wrap(
+      <>
         {body}
         {plinth}
         <PanelGrid
@@ -613,7 +888,7 @@ function Item({
           emissive={emissive}
           emissiveIntensity={emis}
         />
-        {worktop}
+        {worktopMesh}
         {cat === "cooktop" ? (
           <RoundedBox
             args={[Math.min(w, 78), 3, d * 0.62]}
@@ -648,7 +923,7 @@ function Item({
             </mesh>
           </group>
         )}
-      </group>
+      </>,
     );
   }
 
@@ -663,8 +938,8 @@ function Item({
   const hasWindow =
     cat === "oven" || cat === "microwave" || cat === "coffee" || cat === "winecooler";
 
-  return (
-    <group position={[x, 0, z]} rotation={[0, rotY, 0]} onClick={select}>
+  return wrap(
+    <>
       {body}
       {plinth}
       {faceTop + GAP < bottom + h - GAP && (
@@ -738,6 +1013,6 @@ function Item({
           </mesh>
         </>
       )}
-    </group>
+    </>,
   );
 }
