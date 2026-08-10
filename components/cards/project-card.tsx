@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { Project } from "@/lib/data/projects";
@@ -17,6 +18,7 @@ export function ProjectCard({
   className?: string;
   feature?: boolean;
 }) {
+  const t = useTranslations("projects");
   const after = project.afterImage ?? project.gallery[0] ?? project.beforeImage ?? "/site/material_card.jpg";
   const before = project.beforeImage ?? after;
   const hasBefore = !!project.beforeImage && project.beforeImage !== after;
@@ -27,7 +29,7 @@ export function ProjectCard({
   return (
     <Link
       href={`/projects/${project.slug}`}
-      data-hover-label="View project"
+      data-hover-label={t("viewProject")}
       className={cn("group block", className)}
     >
       <div className={cn("relative overflow-hidden bg-sand-100", feature ? "aspect-[16/9]" : "aspect-[4/5]")}>

@@ -73,7 +73,7 @@ export function ProductCard({
   return (
     <Link
       href={`/products/${product.slug}`}
-      data-hover-label="View product"
+      data-hover-label={t("viewProduct")}
       className={cn("group block", className)}
     >
       <div className={cn("relative aspect-[3/4] overflow-hidden", CONTAIN_COLLECTIONS.includes(product.collection) ? "bg-paper" : "bg-sand-100")}>

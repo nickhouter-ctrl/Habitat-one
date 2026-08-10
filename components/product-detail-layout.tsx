@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
+import { useTranslations } from "next-intl";
 import { ArrowUpRight, CalendarDays, ChevronLeft, ChevronRight, ImageOff, Play } from "lucide-react";
 import { PLANTER_SIZES, type CatalogProduct } from "@/lib/data/catalog";
 import { Link } from "@/i18n/navigation";
@@ -58,6 +59,7 @@ export function ProductDetailLayout({
   variantVideos,
   labels,
 }: ProductDetailLayoutProps) {
+  const t = useTranslations("products");
   // Build the variant list (only those that actually have imagery)
   const withImages = product.variants.filter((v) => v.images.length > 0);
   const swatches = withImages.filter((v) => v.colorHex || v.name);
@@ -236,7 +238,7 @@ export function ProductDetailLayout({
               <button
                 type="button"
                 onClick={prevMedia}
-                aria-label="Previous"
+                aria-label={t("galleryPrev")}
                 className="absolute left-4 top-1/2 z-10 grid h-11 w-11 -translate-y-1/2 place-items-center bg-paper/85 text-ink transition-colors hover:bg-paper"
               >
                 <ChevronLeft className="h-4 w-4" />
@@ -244,7 +246,7 @@ export function ProductDetailLayout({
               <button
                 type="button"
                 onClick={nextMedia}
-                aria-label="Next"
+                aria-label={t("galleryNext")}
                 className="absolute right-4 top-1/2 z-10 grid h-11 w-11 -translate-y-1/2 place-items-center bg-paper/85 text-ink transition-colors hover:bg-paper"
               >
                 <ChevronRight className="h-4 w-4" />
@@ -266,7 +268,7 @@ export function ProductDetailLayout({
                   "relative aspect-square overflow-hidden bg-sand-100 transition-opacity",
                   i === mediaIdx ? "opacity-100 ring-1 ring-ink" : "opacity-60 hover:opacity-100",
                 )}
-                aria-label={m.type === "video" ? "Play video" : `Image ${i + 1}`}
+                aria-label={m.type === "video" ? t("playVideo") : t("galleryImage", { n: i + 1 })}
               >
                 <Image
                   src={m.type === "video" ? m.poster ?? "" : m.src}
