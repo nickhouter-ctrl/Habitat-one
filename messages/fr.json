@@ -263,6 +263,184 @@
     "featured": "À la une",
     "colour": "Coloris",
     "i18n": {
+      "shower-tray-drainage-match-with-the-shower-trays-1765881447305": {
+        "name": "Bonde de receveur",
+        "short": "Bonde de receveur, assortie aux receveurs de douche."
+      },
+      "shower-tray-1200-900-50-1765881447585": {
+        "name": "Receveur de douche 1200×900×50"
+      },
+      "shower-tray-1400-800-60-1765881447763": {
+        "name": "Receveur de douche"
+      },
+      "shower-glass-1200-900-2000-1765881447927": {
+        "name": "Paroi de douche (verre)"
+      },
+      "wash-basin-870-415-160-1765881448101": {
+        "name": "Lavabo"
+      },
+      "wash-basin-600-400-145-1765881448593": {
+        "name": "Lavabo"
+      },
+      "wash-basin-290-290-145-1765881448777": {
+        "name": "Lavabo"
+      },
+      "solid-surface-bathroom-tray-250-250-25-1765881448962": {
+        "name": "Plateau de salle de bains solid surface",
+        "short": "Plateau de salle de bains 250×250×25 mm"
+      },
+      "mirror-600-800-30-1765881449334": {
+        "name": "Miroir"
+      },
+      "paper-holder-173-89-55-1765881449490": {
+        "name": "Porte-rouleau"
+      },
+      "towel-bar-627-71-25-1765881449656": {
+        "name": "Barre porte-serviettes"
+      },
+      "makeup-mirrors-200mm-1765881449818": {
+        "name": "Miroir de maquillage",
+        "short": "Miroir de maquillage ø 200 mm"
+      },
+      "shower-set-1765881449999": {
+        "name": "Ensemble de douche",
+        "short": "Taille unique"
+      },
+      "robe-hook-80-72-36-1765881450340": {
+        "name": "Patère"
+      },
+      "toilet-brush-holder-389-195-140-1765881450523": {
+        "name": "Porte-balai WC",
+        "short": "Porte-balai WC 389×195×140 mm"
+      },
+      "double-towel-rack-625-219-151-1765881450705": {
+        "name": "Porte-serviettes double"
+      },
+      "concealed-cistern-flush-1070-90-500-1765881451194": {
+        "name": "Réservoir encastré"
+      },
+      "brushed-stainless-steel-button-cover-240-160-12-1765881451362": {
+        "name": "Plaque de commande en inox brossé"
+      },
+      "basin-drainage-match-with-basins-kkr-2121-kkr-1169-kkr-1507": {
+        "name": "Bonde de lavabo",
+        "short": "Bonde de lavabo, kit complet — C + solid surface"
+      },
+      "mirror-400x800x20mm": {
+        "name": "Miroir de salle de bains",
+        "short": "Miroir doré 400×800×20 mm"
+      },
+      "shower-tray-black": {
+        "name": "Receveur de douche noir",
+        "short": "Dimensions 1200×900×35 mm"
+      },
+      "shower-tray-white": {
+        "name": "Receveur de douche blanc",
+        "short": "1225×900×68 mm — receveur blanc, luxueux et élégant"
+      },
+      "wall-hung-toilet": {
+        "name": "WC suspendu",
+        "short": "WC suspendu 500×360×360 mm"
+      },
+      "wall-hung-toilet-white": {
+        "name": "WC suspendu (blanc)",
+        "short": "WC suspendu 500×360×350 mm"
+      },
+      "concrete-board-": {
+        "name": "Panneau béton",
+        "short": "Panneau béton 3060×1200 mm"
+      },
+      "ripple-board-": {
+        "name": "Panneau ondulé"
+      },
+      "ms-travertino": {
+        "name": "MS Travertino"
+      },
+      "line-stone-board": {
+        "name": "Panneau pierre à lignes",
+        "short": "Panneau pierre à lignes 3000×600 mm"
+      },
+      "fine-line-stone-board-": {
+        "name": "Panneau pierre à lignes fines",
+        "short": "Panneau pierre à lignes fines 3000×600 mm"
+      },
+      "rust-board-": {
+        "name": "Panneau rouille",
+        "short": "Panneau central : 2940×970 — bouchardé : 3060×1180"
+      },
+      "square-line-stone-": {
+        "name": "Pierre à lignes carrées",
+        "short": "Pierre à lignes carrées 2800×580 mm"
+      },
+      "huge-travertine-": {
+        "name": "Travertin (grand format)"
+      },
+      "roman-huge-travertine": {
+        "name": "Travertin romain (grand format)",
+        "short": "Catégorie : pierre tendre pure 3–5 mm · épaisseur 3–5 mm · usage : mur / mur d'accent"
+      },
+      "wood-cement-board-": {
+        "name": "Panneau bois-ciment"
+      },
+      "charcoal-burnt-wood-board": {
+        "name": "Panneau bois brûlé (charbon)"
+      },
+      "coarse-charcoal-burnt-wood-board": {
+        "name": "Panneau bois brûlé grossier (charbon)"
+      },
+      "linear-travertine": {
+        "name": "Travertin linéaire"
+      },
+      "ando-cement-": {
+        "name": "Ciment Ando"
+      },
+      "zen-ando-cement-board": {
+        "name": "Panneau ciment Zen Ando"
+      },
+      "ancient-wood-board-": {
+        "name": "Panneau bois ancien"
+      },
+      "poly-wood-board": {
+        "name": "Panneau Poly-Wood"
+      },
+      "italian-travertine-": {
+        "name": "Travertin italien"
+      },
+      "terrazzo-rough-stone": {
+        "name": "Terrazzo pierre brute"
+      },
+      "travertine": {
+        "name": "Travertin"
+      },
+      "rough-granite-": {
+        "name": "Granit brut"
+      },
+      "rockface-stone": {
+        "name": "Pierre à face rocheuse"
+      },
+      "cut-stone-": {
+        "name": "Pierre taillée"
+      },
+      "age-stone-": {
+        "name": "Pierre vieillie"
+      },
+      "danxia-rammed-earth-board-": {
+        "name": "Panneau terre battue Danxia"
+      },
+      "rampart-rammed-earth-board-": {
+        "name": "Panneau terre battue Rempart"
+      },
+      "cave-rammed-earth-board-": {
+        "name": "Panneau terre battue Grotte"
+      },
+      "bathtub": {
+        "name": "Baignoire",
+        "short": "Baignoire 1780×785×590 mm"
+      },
+      "bathtub-white": {
+        "name": "Baignoire blanche",
+        "short": "1750×832×550 mm ▪ Matériau : pierre solid surface ▪ Finition : mate ▪ Couleur : Designer White"
+      },
       "lime-dacite-yellow-lime-1778674932941": {
         "name": "Panneau Dacite — Yellow Lime"
       },

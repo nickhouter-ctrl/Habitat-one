@@ -263,6 +263,184 @@
     "featured": "Featured",
     "colour": "Colours",
     "i18n": {
+      "shower-tray-drainage-match-with-the-shower-trays-1765881447305": {
+        "name": "Shower tray drain",
+        "short": "Shower tray drain, matching the shower trays."
+      },
+      "shower-tray-1200-900-50-1765881447585": {
+        "name": "Shower tray 1200×900×50"
+      },
+      "shower-tray-1400-800-60-1765881447763": {
+        "name": "Shower tray"
+      },
+      "shower-glass-1200-900-2000-1765881447927": {
+        "name": "Shower glass screen"
+      },
+      "wash-basin-870-415-160-1765881448101": {
+        "name": "Wash basin"
+      },
+      "wash-basin-600-400-145-1765881448593": {
+        "name": "Wash basin"
+      },
+      "wash-basin-290-290-145-1765881448777": {
+        "name": "Wash basin"
+      },
+      "solid-surface-bathroom-tray-250-250-25-1765881448962": {
+        "name": "Solid-surface bathroom tray",
+        "short": "Bathroom tray 250×250×25 mm"
+      },
+      "mirror-600-800-30-1765881449334": {
+        "name": "Mirror"
+      },
+      "paper-holder-173-89-55-1765881449490": {
+        "name": "Toilet roll holder"
+      },
+      "towel-bar-627-71-25-1765881449656": {
+        "name": "Towel bar"
+      },
+      "makeup-mirrors-200mm-1765881449818": {
+        "name": "Make-up mirror",
+        "short": "Make-up mirror ø 200 mm"
+      },
+      "shower-set-1765881449999": {
+        "name": "Shower set",
+        "short": "One size"
+      },
+      "robe-hook-80-72-36-1765881450340": {
+        "name": "Robe hook"
+      },
+      "toilet-brush-holder-389-195-140-1765881450523": {
+        "name": "Toilet brush holder",
+        "short": "Toilet brush holder 389×195×140 mm"
+      },
+      "double-towel-rack-625-219-151-1765881450705": {
+        "name": "Double towel rack"
+      },
+      "concealed-cistern-flush-1070-90-500-1765881451194": {
+        "name": "Concealed cistern"
+      },
+      "brushed-stainless-steel-button-cover-240-160-12-1765881451362": {
+        "name": "Brushed stainless steel flush plate"
+      },
+      "basin-drainage-match-with-basins-kkr-2121-kkr-1169-kkr-1507": {
+        "name": "Basin drain",
+        "short": "Basin drain, complete set — C + solid surface"
+      },
+      "mirror-400x800x20mm": {
+        "name": "Bathroom mirror",
+        "short": "Mirror gold 400×800×20 mm"
+      },
+      "shower-tray-black": {
+        "name": "Shower tray black",
+        "short": "Dimensions 1200×900×35 mm"
+      },
+      "shower-tray-white": {
+        "name": "Shower tray white",
+        "short": "1225×900×68 mm — shower tray white, luxurious and stylish"
+      },
+      "wall-hung-toilet": {
+        "name": "Wall-hung toilet",
+        "short": "Wall-hung toilet 500×360×360 mm"
+      },
+      "wall-hung-toilet-white": {
+        "name": "Wall-hung toilet (white)",
+        "short": "Wall-hung toilet 500×360×350 mm"
+      },
+      "concrete-board-": {
+        "name": "Concrete board",
+        "short": "Concrete board 3060×1200 mm"
+      },
+      "ripple-board-": {
+        "name": "Ripple board"
+      },
+      "ms-travertino": {
+        "name": "MS Travertino"
+      },
+      "line-stone-board": {
+        "name": "Line stone board",
+        "short": "Line stone board 3000×600 mm"
+      },
+      "fine-line-stone-board-": {
+        "name": "Fine line stone board",
+        "short": "Fine line stone board 3000×600 mm"
+      },
+      "rust-board-": {
+        "name": "Rust board",
+        "short": "Middle board: 2940×970 — bush-hammered: 3060×1180"
+      },
+      "square-line-stone-": {
+        "name": "Square line stone",
+        "short": "Square line stone 2800×580 mm"
+      },
+      "huge-travertine-": {
+        "name": "Travertine (large format)"
+      },
+      "roman-huge-travertine": {
+        "name": "Roman travertine (large format)",
+        "short": "Category: pure soft stone 3–5 mm · thickness 3–5 mm · use: wall/accent wall"
+      },
+      "wood-cement-board-": {
+        "name": "Wood cement board"
+      },
+      "charcoal-burnt-wood-board": {
+        "name": "Charred wood board (charcoal)"
+      },
+      "coarse-charcoal-burnt-wood-board": {
+        "name": "Coarse charred wood board (charcoal)"
+      },
+      "linear-travertine": {
+        "name": "Linear travertine"
+      },
+      "ando-cement-": {
+        "name": "Ando cement"
+      },
+      "zen-ando-cement-board": {
+        "name": "Zen Ando cement board"
+      },
+      "ancient-wood-board-": {
+        "name": "Aged wood board"
+      },
+      "poly-wood-board": {
+        "name": "Poly-Wood board"
+      },
+      "italian-travertine-": {
+        "name": "Italian travertine"
+      },
+      "terrazzo-rough-stone": {
+        "name": "Terrazzo rough stone"
+      },
+      "travertine": {
+        "name": "Travertine"
+      },
+      "rough-granite-": {
+        "name": "Rough granite"
+      },
+      "rockface-stone": {
+        "name": "Rockface stone"
+      },
+      "cut-stone-": {
+        "name": "Cut stone"
+      },
+      "age-stone-": {
+        "name": "Aged stone"
+      },
+      "danxia-rammed-earth-board-": {
+        "name": "Danxia rammed-earth board"
+      },
+      "rampart-rammed-earth-board-": {
+        "name": "Rampart rammed-earth board"
+      },
+      "cave-rammed-earth-board-": {
+        "name": "Cave rammed-earth board"
+      },
+      "bathtub": {
+        "name": "Bathtub",
+        "short": "Bathtub 1780×785×590 mm"
+      },
+      "bathtub-white": {
+        "name": "Bathtub white",
+        "short": "1750×832×550 mm ▪ Material: solid-surface stone ▪ Finish: matte ▪ Colour: Designer White"
+      },
       "lime-dacite-yellow-lime-1778674932941": {
         "name": "Lime Dacite — Yellow Lime"
       },

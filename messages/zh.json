@@ -263,6 +263,184 @@
     "featured": "精选",
     "colour": "颜色",
     "i18n": {
+      "shower-tray-drainage-match-with-the-shower-trays-1765881447305": {
+        "name": "淋浴底盘下水器",
+        "short": "淋浴底盘下水器，与淋浴底盘配套。"
+      },
+      "shower-tray-1200-900-50-1765881447585": {
+        "name": "淋浴底盘 1200×900×50"
+      },
+      "shower-tray-1400-800-60-1765881447763": {
+        "name": "淋浴底盘"
+      },
+      "shower-glass-1200-900-2000-1765881447927": {
+        "name": "淋浴玻璃隔断"
+      },
+      "wash-basin-870-415-160-1765881448101": {
+        "name": "洗手盆"
+      },
+      "wash-basin-600-400-145-1765881448593": {
+        "name": "洗手盆"
+      },
+      "wash-basin-290-290-145-1765881448777": {
+        "name": "洗手盆"
+      },
+      "solid-surface-bathroom-tray-250-250-25-1765881448962": {
+        "name": "实体面材浴室托盘",
+        "short": "浴室托盘 250×250×25 mm"
+      },
+      "mirror-600-800-30-1765881449334": {
+        "name": "镜子"
+      },
+      "paper-holder-173-89-55-1765881449490": {
+        "name": "纸巾架"
+      },
+      "towel-bar-627-71-25-1765881449656": {
+        "name": "毛巾杆"
+      },
+      "makeup-mirrors-200mm-1765881449818": {
+        "name": "化妆镜",
+        "short": "化妆镜 ø 200 mm"
+      },
+      "shower-set-1765881449999": {
+        "name": "淋浴套装",
+        "short": "均码"
+      },
+      "robe-hook-80-72-36-1765881450340": {
+        "name": "衣钩"
+      },
+      "toilet-brush-holder-389-195-140-1765881450523": {
+        "name": "马桶刷架",
+        "short": "马桶刷架 389×195×140 mm"
+      },
+      "double-towel-rack-625-219-151-1765881450705": {
+        "name": "双层毛巾架"
+      },
+      "concealed-cistern-flush-1070-90-500-1765881451194": {
+        "name": "隐藏式水箱"
+      },
+      "brushed-stainless-steel-button-cover-240-160-12-1765881451362": {
+        "name": "拉丝不锈钢按压面板"
+      },
+      "basin-drainage-match-with-basins-kkr-2121-kkr-1169-kkr-1507": {
+        "name": "面盆下水器",
+        "short": "面盆下水器，全套 — C + 实体面材"
+      },
+      "mirror-400x800x20mm": {
+        "name": "浴室镜",
+        "short": "金色镜子 400×800×20 mm"
+      },
+      "shower-tray-black": {
+        "name": "黑色淋浴底盘",
+        "short": "尺寸 1200×900×35 mm"
+      },
+      "shower-tray-white": {
+        "name": "白色淋浴底盘",
+        "short": "1225×900×68 mm — 白色淋浴底盘，奢华有型"
+      },
+      "wall-hung-toilet": {
+        "name": "壁挂式马桶",
+        "short": "壁挂式马桶 500×360×360 mm"
+      },
+      "wall-hung-toilet-white": {
+        "name": "壁挂式马桶（白色）",
+        "short": "壁挂式马桶 500×360×350 mm"
+      },
+      "concrete-board-": {
+        "name": "水泥板",
+        "short": "水泥板 3060×1200 mm"
+      },
+      "ripple-board-": {
+        "name": "波纹板"
+      },
+      "ms-travertino": {
+        "name": "MS Travertino"
+      },
+      "line-stone-board": {
+        "name": "线条石板",
+        "short": "线条石板 3000×600 mm"
+      },
+      "fine-line-stone-board-": {
+        "name": "细线条石板",
+        "short": "细线条石板 3000×600 mm"
+      },
+      "rust-board-": {
+        "name": "锈板",
+        "short": "中板：2940×970 — 荔枝面：3060×1180"
+      },
+      "square-line-stone-": {
+        "name": "方形线条石",
+        "short": "方形线条石 2800×580 mm"
+      },
+      "huge-travertine-": {
+        "name": "大板洞石"
+      },
+      "roman-huge-travertine": {
+        "name": "罗马大板洞石",
+        "short": "类别：纯软石 3–5 mm · 厚度 3–5 mm · 用途：墙面/背景墙"
+      },
+      "wood-cement-board-": {
+        "name": "木纹水泥板"
+      },
+      "charcoal-burnt-wood-board": {
+        "name": "炭化木板（细纹）"
+      },
+      "coarse-charcoal-burnt-wood-board": {
+        "name": "炭化木板（粗纹）"
+      },
+      "linear-travertine": {
+        "name": "线纹洞石"
+      },
+      "ando-cement-": {
+        "name": "安藤水泥"
+      },
+      "zen-ando-cement-board": {
+        "name": "禅意安藤水泥板"
+      },
+      "ancient-wood-board-": {
+        "name": "老木饰面板"
+      },
+      "poly-wood-board": {
+        "name": "Poly-Wood 板"
+      },
+      "italian-travertine-": {
+        "name": "意大利洞石"
+      },
+      "terrazzo-rough-stone": {
+        "name": "水磨石（粗面）"
+      },
+      "travertine": {
+        "name": "洞石"
+      },
+      "rough-granite-": {
+        "name": "粗面花岗岩"
+      },
+      "rockface-stone": {
+        "name": "岩面石"
+      },
+      "cut-stone-": {
+        "name": "切割石材"
+      },
+      "age-stone-": {
+        "name": "做旧石材"
+      },
+      "danxia-rammed-earth-board-": {
+        "name": "丹霞夯土板"
+      },
+      "rampart-rammed-earth-board-": {
+        "name": "城墙夯土板"
+      },
+      "cave-rammed-earth-board-": {
+        "name": "洞穴夯土板"
+      },
+      "bathtub": {
+        "name": "浴缸",
+        "short": "浴缸 1780×785×590 mm"
+      },
+      "bathtub-white": {
+        "name": "白色浴缸",
+        "short": "1750×832×550 mm ▪ 材质：实体面材石 ▪ 表面：哑光 ▪ 颜色：Designer White"
+      },
       "lime-dacite-yellow-lime-1778674932941": {
         "name": "石灰板 — Yellow Lime"
       },
