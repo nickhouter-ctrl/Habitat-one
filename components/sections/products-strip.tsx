@@ -57,7 +57,7 @@ export function ProductsStrip({
             <Link
               key={p.id}
               data-card
-              data-hover-label="View product"
+              data-hover-label={t("viewProduct")}
               href={`/products/${p.slug}`}
               onMouseEnter={() => setHovered(id)}
               onMouseLeave={() => setHovered(null)}
