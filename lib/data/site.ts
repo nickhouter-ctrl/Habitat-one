@@ -12,11 +12,8 @@ export const site = {
   mapEmbed:
     "https://www.google.com/maps?q=Cam%C3%AD%20de%20la%20Fontana%203%2C%2003730%20J%C3%A1vea%2C%20Alicante%2C%20Spain&output=embed",
   languages: ["English", "Nederlands", "Español", "Deutsch"],
-  social: [
-    { label: "Instagram", href: "https://www.instagram.com/habitatonejavea/" },
-    { label: "Pinterest", href: "https://pinterest.com" },
-    { label: "LinkedIn", href: "https://linkedin.com" },
-  ],
+  // Alleen echte profielen — geen placeholder-homepages toevoegen.
+  social: [{ label: "Instagram", href: "https://www.instagram.com/habitatonejavea/" }],
 };
 
 export interface NavItem {
@@ -27,6 +24,7 @@ export interface NavItem {
 export const primaryNav: NavItem[] = [
   { href: "/location", labelKey: "location" },
   { href: "/products", labelKey: "products" },
+  { href: "/kitchen-planner", labelKey: "kitchenPlanner" },
   { href: "/inspiration", labelKey: "inspiration" },
   { href: "/services", labelKey: "services" },
   { href: "/about", labelKey: "about" },
