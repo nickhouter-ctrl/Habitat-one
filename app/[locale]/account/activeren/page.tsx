@@ -1,12 +1,14 @@
 import { Suspense } from "react";
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { ActivateForm } from "@/components/account/activate-form";
 
-export const metadata = {
-  title: "Wachtwoord instellen — Habitat One",
-  robots: { index: false, follow: false },
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "account" });
+  return { title: t("metaActivate"), robots: { index: false, follow: false } };
+}
 
 export default async function ActivatePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

@@ -1,22 +1,18 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
 import { fetchAccountMe } from "@/lib/account/server";
+import { LOCALE_TAGS, formatEur } from "@/lib/account/intl";
 import { LogoutButton } from "@/components/account/logout-button";
 
-export const metadata = {
-  title: "Mijn account — Habitat One",
-  robots: { index: false, follow: false },
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "account" });
+  return { title: t("metaMyAccount"), robots: { index: false, follow: false } };
+}
 
 type Commission = { referee: string; base: number; pct: number; amount: number; status: string; date: string };
-
-const INTL: Record<string, string> = { nl: "nl-NL", de: "de-DE", en: "en-GB", es: "es-ES", fr: "fr-FR", zh: "zh-CN" };
-
-function fmtFor(locale: string) {
-  return (n: number) =>
-    new Intl.NumberFormat(INTL[locale] ?? "en-GB", { style: "currency", currency: "EUR" }).format(n);
-}
 
 export default async function AccountPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -38,8 +34,8 @@ export default async function AccountPage({ params }: { params: Promise<{ locale
   }
 
   const commissions = (me.commissions as Commission[]) ?? [];
-  const fmt = fmtFor(locale);
-  const intl = INTL[locale] ?? "en-GB";
+  const fmt = (n: number) => formatEur(n, locale);
+  const intl = LOCALE_TAGS[locale] ?? "en-GB";
 
   return (
     <section className="mx-auto max-w-2xl px-6 pb-24 pt-36">

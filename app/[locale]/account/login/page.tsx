@@ -1,11 +1,13 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { LoginForm } from "@/components/account/login-form";
 
-export const metadata = {
-  title: "Inloggen — Habitat One",
-  robots: { index: false, follow: false },
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "account" });
+  return { title: t("metaLogin"), robots: { index: false, follow: false } };
+}
 
 export default async function LoginPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
