@@ -1,12 +1,12 @@
 "use client";
 
-// Stap 2 — Ontwerpen: teken de keuken. Kies een kast of apparaat rechts; het
+// Stap — Ontwerpen: teken de keuken. Kies een kast of apparaat rechts; het
 // verschijnt in de ruimte. In de plattegrond sleep je het op zijn plek; in het
 // 3D-aanzicht bekijk je het en klik je elementen aan om verder te bouwen.
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
-import { Box, Lightbulb, Map, Plus, RotateCw, Trash2 } from "lucide-react";
+import { Box, Lightbulb, Map, Plus, RotateCw, Trash2, Undo2 } from "lucide-react";
 import {
   carcassTypeMeta,
   carcassesByType,
@@ -22,20 +22,25 @@ import {
 import { applianceLayer } from "@/lib/planner/layout";
 import { usePlanner } from "@/lib/planner/store";
 import type { CabinetLayer, KitchenDesign, PlacedItem } from "@/lib/planner/types";
-import { cn } from "@/lib/utils";
 import { AiRenderPanel } from "../ai-render";
 import { RoomCanvas } from "../room-canvas";
-import { StepHeading } from "../ui";
+import { usePlannerT } from "../i18n";
+import { Chip, PillToggle, StepHeading, TabButton, usePlannerShell } from "../ui";
 
 // Het 3D-aanzicht laadt three.js — alleen client-side, los van de hoofdbundel.
 const Room3D = dynamic(() => import("../room-3d").then((m) => m.Room3D), {
   ssr: false,
-  loading: () => (
-    <div className="flex h-full items-center justify-center text-sm text-ink-soft">
-      3D-weergave laden…
-    </div>
-  ),
+  loading: () => <Loading3D />,
 });
+
+function Loading3D() {
+  const { tf } = usePlannerT();
+  return (
+    <div className="flex h-full items-center justify-center text-sm text-ink-soft">
+      {tf("design.loading3d", "3D-weergave laden…")}
+    </div>
+  );
+}
 
 const TYPES_BY_LAYER: Record<CabinetLayer, CarcassType[]> = {
   base: ["onderkast", "onderhoekkast", "hoge-kast"],
@@ -90,7 +95,9 @@ function stackAdvice(design: KitchenDesign): StackAdvice[] {
 }
 
 export function StepDesign() {
-  const { design, dispatch } = usePlanner();
+  const { design, stepIndex } = usePlanner();
+  const { dispatch, undo, canUndo } = usePlannerShell();
+  const { t, tf } = usePlannerT();
   const [view, setView] = useState<"2d" | "3d">("2d");
   const [layer, setLayer] = useState<CabinetLayer>("base");
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -133,69 +140,123 @@ export function StepDesign() {
 
   const addAfter = selectedId ?? undefined;
 
+  const typeLabel = (type: CarcassType) =>
+    tf(`catalog.carcassTypes.${type}`, carcassTypeMeta[type].label);
+  const cabName = (c: Carcass) => `${typeLabel(c.type)} ${c.b} cm`;
+  const itemName = (item: PlacedItem): string => {
+    if (item.applianceId) {
+      const a = getAppliance(item.applianceId);
+      return a
+        ? tf(`catalog.appliances.${a.id}`, a.label)
+        : tf("design.fallbackAppliance", "Apparaat");
+    }
+    if (item.carcassId) {
+      const c = getCarcass(item.carcassId);
+      return c ? cabName(c) : tf("design.fallbackCabinet", "Kast");
+    }
+    return tf("design.fallbackItem", "Item");
+  };
+
   return (
     <div className="space-y-4">
       <StepHeading
-        title="Teken je keuken"
-        intro="Kies rechts een kast of apparaat — het verschijnt in de ruimte. In de plattegrond sleep je het op zijn plek; tegen een wand of een andere kast klikt het vast, in het midden maak je er een keukeneiland van."
+        eyebrow={
+          t.has("stepper.stepOf")
+            ? t("stepper.stepOf", { current: stepIndex + 1, total: 4 })
+            : `Stap ${stepIndex + 1} van 4`
+        }
+        title={tf("design.title", "Teken je keuken")}
+        intro={tf(
+          "design.intro",
+          "Kies rechts een kast of apparaat — het verschijnt in de ruimte. In de plattegrond sleep je het op zijn plek; tegen een wand of een andere kast klikt het vast, in het midden maak je er een keukeneiland van.",
+        )}
       />
 
-      {/* Werkbalk: weergave + laag */}
+      {/* Werkbalk: weergave + laag + ongedaan maken */}
       <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
         <div className="flex gap-1.5">
-          <ToggleButton active={view === "2d"} onClick={() => setView("2d")}>
-            <Map className="h-4 w-4" />
-            Plattegrond
-          </ToggleButton>
-          <ToggleButton active={view === "3d"} onClick={() => setView("3d")}>
-            <Box className="h-4 w-4" />
-            3D-aanzicht
-          </ToggleButton>
+          <PillToggle active={view === "2d"} onClick={() => setView("2d")}>
+            <Map className="h-4 w-4" aria-hidden />
+            {tf("design.view2d", "Plattegrond")}
+          </PillToggle>
+          <PillToggle active={view === "3d"} onClick={() => setView("3d")}>
+            <Box className="h-4 w-4" aria-hidden />
+            {tf("design.view3d", "3D-aanzicht")}
+          </PillToggle>
         </div>
-        <div className="hidden h-6 w-px bg-sand-300 sm:block" />
+        <div className="hidden h-6 w-px bg-sand-300 sm:block" aria-hidden />
         <div className="flex gap-1.5">
-          <ToggleButton active={layer === "base"} onClick={() => switchLayer("base")}>
-            Onderkasten
-          </ToggleButton>
-          <ToggleButton active={layer === "wall"} onClick={() => switchLayer("wall")}>
-            Bovenkasten
-          </ToggleButton>
+          <PillToggle active={layer === "base"} onClick={() => switchLayer("base")}>
+            {tf("design.layerBase", "Onderkasten")}
+          </PillToggle>
+          <PillToggle active={layer === "wall"} onClick={() => switchLayer("wall")}>
+            {tf("design.layerWall", "Bovenkasten")}
+          </PillToggle>
         </div>
+        <div className="hidden h-6 w-px bg-sand-300 sm:block" aria-hidden />
+        <button
+          type="button"
+          onClick={undo}
+          disabled={!canUndo}
+          className={
+            canUndo
+              ? "flex items-center gap-1.5 rounded-full border border-sand-300 bg-white px-4 py-1.5 text-sm text-ink transition-colors hover:border-ink"
+              : "flex cursor-not-allowed items-center gap-1.5 rounded-full border border-sand-200 bg-white px-4 py-1.5 text-sm text-sand-400"
+          }
+        >
+          <Undo2 className="h-4 w-4" aria-hidden />
+          {tf("design.undo", "Ongedaan maken")}
+        </button>
       </div>
 
       {advice.length > 0 && (
         <div className="rounded-xl border border-gold-400 bg-gold-400/10 p-3">
           <div className="flex items-center gap-1.5 text-sm font-semibold text-ink">
-            <Lightbulb className="h-4 w-4 text-gold-600" />
-            Advies — keuken tot het plafond
+            <Lightbulb className="h-4 w-4 text-gold-600" aria-hidden />
+            {tf("design.advice.title", "Advies — keuken tot het plafond")}
           </div>
           <ul className="mt-2 space-y-2">
-            {advice.map((a) => (
-              <li
-                key={a.tall.instanceId}
-                className="flex flex-wrap items-center justify-between gap-2 text-sm"
-              >
-                <span className="text-ink-soft">
-                  {a.tallCarcass.placement === "boven" ? "Een bovenkast" : "Een hoge kast"} van{" "}
-                  {a.tallCarcass.h} cm laat {a.gapCm} cm vrij tot het plafond (
-                  {design.ceilingHeightCm} cm). Met een opzetkast van {a.top.h} cm
-                  maak je het helemaal tot het plafond af.
-                </span>
-                <button
-                  type="button"
-                  onClick={() =>
-                    dispatch({
-                      type: "ADD_STACKED",
-                      carcassId: a.top.id,
-                      onInstanceId: a.tall.instanceId,
-                    })
-                  }
-                  className="shrink-0 rounded-full bg-gold-500 px-4 py-1.5 text-sm font-medium text-whitewash hover:bg-gold-600"
+            {advice.map((a) => {
+              const values = {
+                h: a.tallCarcass.h,
+                gap: a.gapCm,
+                ceiling: design.ceilingHeightCm,
+                topH: a.top.h,
+              };
+              const body =
+                a.tallCarcass.placement === "boven"
+                  ? tf(
+                      "design.advice.bodyWall",
+                      `Een bovenkast van ${values.h} cm laat ${values.gap} cm vrij tot het plafond (${values.ceiling} cm). Met een opzetkast van ${values.topH} cm maak je het helemaal tot het plafond af.`,
+                      values,
+                    )
+                  : tf(
+                      "design.advice.bodyTall",
+                      `Een hoge kast van ${values.h} cm laat ${values.gap} cm vrij tot het plafond (${values.ceiling} cm). Met een opzetkast van ${values.topH} cm maak je het helemaal tot het plafond af.`,
+                      values,
+                    );
+              return (
+                <li
+                  key={a.tall.instanceId}
+                  className="flex flex-wrap items-center justify-between gap-2 text-sm"
                 >
-                  Opzetkast toevoegen
-                </button>
-              </li>
-            ))}
+                  <span className="text-ink-soft">{body}</span>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      dispatch({
+                        type: "ADD_STACKED",
+                        carcassId: a.top.id,
+                        onInstanceId: a.tall.instanceId,
+                      })
+                    }
+                    className="shrink-0 rounded-full bg-gold-500 px-4 py-1.5 text-sm font-medium text-whitewash hover:bg-gold-600"
+                  >
+                    {tf("design.advice.add", "Opzetkast toevoegen")}
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         </div>
       )}
@@ -205,7 +266,7 @@ export function StepDesign() {
         <div className="space-y-3">
           {selected ? (
             <SelectedBar
-              name={itemName(selected.carcassId, selected.applianceId)}
+              name={itemName(selected)}
               onRotate={() => dispatch({ type: "ROTATE_ITEM", instanceId: selected.instanceId })}
               onRemove={() => {
                 dispatch({ type: "REMOVE_ITEM", instanceId: selected.instanceId });
@@ -214,8 +275,10 @@ export function StepDesign() {
             />
           ) : (
             <p className="text-sm text-ink-soft">
-              Klik op een geplaatst item om het te draaien, te verwijderen of er
-              kasten aan vast te klikken.
+              {tf(
+                "design.clickHint",
+                "Klik op een geplaatst item om het te draaien, te verwijderen of er kasten aan vast te klikken.",
+              )}
             </p>
           )}
 
@@ -232,8 +295,10 @@ export function StepDesign() {
               </div>
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <p className="text-sm text-ink-soft">
-                  Sleep om te draaien, scroll om te zoomen. Klik een element om
-                  het te selecteren.
+                  {tf(
+                    "design.hint3d",
+                    "Sleep om te draaien, scroll om te zoomen. Klik een element om het te selecteren.",
+                  )}
                 </p>
                 <AiRenderPanel captureRef={captureRef} />
               </div>
@@ -246,14 +311,16 @@ export function StepDesign() {
           <div className="rounded-xl border border-sand-300 bg-white">
             <div className="border-b border-sand-200 p-3">
               <h3 className="text-sm font-semibold text-ink">
-                Toevoegen — {layer === "base" ? "onderlaag" : "bovenlaag"}
+                {layer === "base"
+                  ? tf("design.addBase", "Toevoegen — onderlaag")
+                  : tf("design.addWall", "Toevoegen — bovenlaag")}
               </h3>
               <div className="mt-2 flex gap-1.5">
                 <TabButton active={tab === "appliances"} onClick={() => setTab("appliances")}>
-                  Apparatuur
+                  {tf("design.tabAppliances", "Apparatuur")}
                 </TabButton>
                 <TabButton active={tab === "cabinets"} onClick={() => setTab("cabinets")}>
-                  Kasten
+                  {tf("design.tabCabinets", "Kasten")}
                 </TabButton>
               </div>
             </div>
@@ -262,28 +329,37 @@ export function StepDesign() {
               {tab === "appliances" ? (
                 <div className="space-y-4">
                   {applianceGroups.length === 0 && (
-                    <p className="text-sm text-ink-soft">Geen apparatuur voor deze laag.</p>
+                    <p className="text-sm text-ink-soft">
+                      {tf("design.noAppliances", "Geen apparatuur voor deze laag.")}
+                    </p>
                   )}
                   {applianceGroups.map((group) => (
                     <div key={group.category}>
                       <div className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-ink-soft">
-                        {applianceCategoryLabels[group.category]}
+                        {tf(
+                          `catalog.applianceCategories.${group.category}`,
+                          applianceCategoryLabels[group.category],
+                        )}
                       </div>
                       <div className="space-y-1.5">
-                        {group.items.map((a) => (
-                          <AddRow
-                            key={a.id}
-                            title={a.label}
-                            detail={`${a.widthCm} × ${a.heightCm} × ${a.depthCm} cm`}
-                            onAdd={() =>
-                              dispatch({
-                                type: "ADD_APPLIANCE",
-                                applianceId: a.id,
-                                afterInstanceId: addAfter,
-                              })
-                            }
-                          />
-                        ))}
+                        {group.items.map((a) => {
+                          const name = tf(`catalog.appliances.${a.id}`, a.label);
+                          return (
+                            <AddRow
+                              key={a.id}
+                              title={name}
+                              detail={`${a.widthCm} × ${a.heightCm} × ${a.depthCm} cm`}
+                              addLabel={tf("design.addAria", `${name} toevoegen`, { name })}
+                              onAdd={() =>
+                                dispatch({
+                                  type: "ADD_APPLIANCE",
+                                  applianceId: a.id,
+                                  afterInstanceId: addAfter,
+                                })
+                              }
+                            />
+                          );
+                        })}
                       </div>
                     </div>
                   ))}
@@ -292,7 +368,7 @@ export function StepDesign() {
                 <div className="space-y-3">
                   <label className="block">
                     <span className="text-xs font-semibold uppercase tracking-wide text-ink-soft">
-                      Soort kast
+                      {tf("design.cabType", "Soort kast")}
                     </span>
                     <select
                       value={cabType}
@@ -302,9 +378,9 @@ export function StepDesign() {
                       }}
                       className="mt-1 w-full rounded-lg border border-sand-300 bg-white px-2.5 py-2 text-sm text-ink"
                     >
-                      {TYPES_BY_LAYER[layer].map((t) => (
-                        <option key={t} value={t}>
-                          {carcassTypeMeta[t].label}
+                      {TYPES_BY_LAYER[layer].map((tp) => (
+                        <option key={tp} value={tp}>
+                          {typeLabel(tp)}
                         </option>
                       ))}
                     </select>
@@ -313,40 +389,48 @@ export function StepDesign() {
                   {depths.length > 1 && (
                     <div>
                       <div className="mb-1 text-xs font-semibold uppercase tracking-wide text-ink-soft">
-                        Diepte
+                        {tf("design.depth", "Diepte")}
                       </div>
                       <div className="flex flex-wrap gap-1.5">
-                        <DepthChip active={depthFilter == null} onClick={() => setDepthFilter(null)}>
-                          Alle
-                        </DepthChip>
+                        <Chip active={depthFilter == null} onClick={() => setDepthFilter(null)}>
+                          {tf("design.all", "Alle")}
+                        </Chip>
                         {depths.map((d) => (
-                          <DepthChip
+                          <Chip
                             key={d}
                             active={depthFilter === d}
                             onClick={() => setDepthFilter(d)}
                           >
                             {d} cm
-                          </DepthChip>
+                          </Chip>
                         ))}
                       </div>
                     </div>
                   )}
 
                   <div className="space-y-1.5">
-                    {cabs.map((c) => (
-                      <AddRow
-                        key={c.id}
-                        title={`${carcassTypeMeta[c.type].label} ${c.b} cm`}
-                        detail={`breedte ${c.b} · diepte ${c.d} · hoogte ${c.h} cm`}
-                        onAdd={() =>
-                          dispatch({
-                            type: "ADD_CARCASS",
-                            carcassId: c.id,
-                            afterInstanceId: addAfter,
-                          })
-                        }
-                      />
-                    ))}
+                    {cabs.map((c) => {
+                      const name = cabName(c);
+                      return (
+                        <AddRow
+                          key={c.id}
+                          title={name}
+                          detail={tf(
+                            "design.dims",
+                            `breedte ${c.b} · diepte ${c.d} · hoogte ${c.h} cm`,
+                            { b: c.b, d: c.d, h: c.h },
+                          )}
+                          addLabel={tf("design.addAria", `${name} toevoegen`, { name })}
+                          onAdd={() =>
+                            dispatch({
+                              type: "ADD_CARCASS",
+                              carcassId: c.id,
+                              afterInstanceId: addAfter,
+                            })
+                          }
+                        />
+                      );
+                    })}
                   </div>
                 </div>
               )}
@@ -358,16 +442,6 @@ export function StepDesign() {
   );
 }
 
-/** Leesbare naam van een item op basis van casco/apparaat. */
-function itemName(carcassId: string | null, applianceId: string | null): string {
-  if (applianceId) return getAppliance(applianceId)?.label ?? "Apparaat";
-  if (carcassId) {
-    const c = getCarcass(carcassId);
-    return c ? `${carcassTypeMeta[c.type].label} ${c.b} cm` : "Kast";
-  }
-  return "Item";
-}
-
 function SelectedBar({
   name,
   onRotate,
@@ -377,128 +451,58 @@ function SelectedBar({
   onRotate: () => void;
   onRemove: () => void;
 }) {
+  const { tf } = usePlannerT();
   return (
     <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-terracotta-500 bg-terracotta-500/5 px-3 py-2">
-      <span className="text-sm font-medium text-ink">Geselecteerd: {name}</span>
+      <span className="text-sm font-medium text-ink">
+        {tf("design.selected", `Geselecteerd: ${name}`, { name })}
+      </span>
       <div className="flex gap-1.5">
         <button
           type="button"
           onClick={onRotate}
           className="flex items-center gap-1.5 rounded-full border border-sand-300 bg-white px-3 py-1 text-sm text-ink hover:border-ink"
         >
-          <RotateCw className="h-3.5 w-3.5" />
-          Draaien
+          <RotateCw className="h-3.5 w-3.5" aria-hidden />
+          {tf("design.rotate", "Draaien")}
         </button>
         <button
           type="button"
           onClick={onRemove}
           className="flex items-center gap-1.5 rounded-full border border-sand-300 bg-white px-3 py-1 text-sm text-terracotta-600 hover:border-terracotta-500"
         >
-          <Trash2 className="h-3.5 w-3.5" />
-          Verwijderen
+          <Trash2 className="h-3.5 w-3.5" aria-hidden />
+          {tf("design.remove", "Verwijderen")}
         </button>
       </div>
     </div>
   );
 }
 
-function ToggleButton({
-  active,
-  onClick,
-  children,
-}: {
-  active: boolean;
-  onClick: () => void;
-  children: ReactNode;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={cn(
-        "flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-sm transition-colors",
-        active
-          ? "border-terracotta-500 bg-terracotta-500 text-whitewash"
-          : "border-sand-300 bg-white text-ink hover:border-sand-400",
-      )}
-    >
-      {children}
-    </button>
-  );
-}
-
-function TabButton({
-  active,
-  onClick,
-  children,
-}: {
-  active: boolean;
-  onClick: () => void;
-  children: ReactNode;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={cn(
-        "flex-1 rounded-lg border px-3 py-1.5 text-sm font-medium transition-colors",
-        active
-          ? "border-terracotta-500 bg-terracotta-500 text-whitewash"
-          : "border-sand-300 bg-white text-ink hover:border-sand-400",
-      )}
-    >
-      {children}
-    </button>
-  );
-}
-
-function DepthChip({
-  active,
-  onClick,
-  children,
-}: {
-  active: boolean;
-  onClick: () => void;
-  children: ReactNode;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={cn(
-        "rounded-full border px-2.5 py-1 text-xs transition-colors",
-        active
-          ? "border-terracotta-500 bg-terracotta-500 text-whitewash"
-          : "border-sand-300 bg-white text-ink hover:border-sand-400",
-      )}
-    >
-      {children}
-    </button>
-  );
-}
-
 function AddRow({
   title,
   detail,
+  addLabel,
   onAdd,
 }: {
   title: string;
   detail: string;
+  addLabel: string;
   onAdd: () => void;
 }) {
   return (
-    <div className="flex items-center justify-between gap-2 rounded-lg border border-sand-200 bg-sand-50 px-2.5 py-1.5">
+    <div className="flex items-center justify-between gap-2 rounded-lg border border-sand-200 bg-sand-50 px-2.5 py-1.5 transition-colors hover:border-sand-300">
       <div className="min-w-0">
         <div className="truncate text-sm text-ink">{title}</div>
         <div className="truncate text-[11px] text-ink-soft">{detail}</div>
       </div>
       <button
         type="button"
-        aria-label={`${title} toevoegen`}
+        aria-label={addLabel}
         onClick={onAdd}
-        className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-terracotta-500 text-whitewash hover:bg-terracotta-600"
+        className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-terracotta-500 text-whitewash transition-colors hover:bg-terracotta-600"
       >
-        <Plus className="h-4 w-4" />
+        <Plus className="h-4 w-4" aria-hidden />
       </button>
     </div>
   );
