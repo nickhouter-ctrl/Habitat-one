@@ -99,7 +99,7 @@ export function ProductsStrip({
                   className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 bg-gradient-to-t from-ink/55 to-transparent p-4"
                 >
                   <span className="text-[0.62rem] font-medium uppercase tracking-[0.24em] text-paper/85">
-                    View product
+                    {t("viewProduct")}
                   </span>
                   <ArrowUpRight className="h-4 w-4 text-paper" />
                 </motion.div>
