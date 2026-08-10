@@ -1009,7 +1009,8 @@
     "terms": "Conditions",
     "cookies": "Cookies",
     "langLabel": "Langue",
-    "cookieSettings": "Paramètres des cookies"
+    "cookieSettings": "Paramètres des cookies",
+    "newsletterError": "L'inscription a échoué. Veuillez réessayer plus tard."
   },
   "notFound": {
     "title": "Cette pièce n’existe pas (encore)",
@@ -1820,6 +1821,17 @@
           "label": "Inox",
           "description": "Acier inoxydable professionnel."
         }
+      },
+      "applianceCategories": {
+        "oven": "Fours",
+        "cooktop": "Tables de cuisson",
+        "hood": "Hottes aspirantes",
+        "sink": "Éviers",
+        "dishwasher": "Lave-vaisselle",
+        "fridge": "Réfrigération",
+        "coffee": "Café",
+        "microwave": "Micro-ondes",
+        "winecooler": "Caves à vin"
       }
     },
     "page": {

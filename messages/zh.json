@@ -1009,7 +1009,8 @@
     "terms": "条款",
     "cookies": "Cookie",
     "langLabel": "语言",
-    "cookieSettings": "Cookie 设置"
+    "cookieSettings": "Cookie 设置",
+    "newsletterError": "订阅失败，请稍后重试。"
   },
   "notFound": {
     "title": "这个房间（还）不存在",
@@ -1820,6 +1821,17 @@
           "label": "不锈钢",
           "description": "专业级不锈钢。"
         }
+      },
+      "applianceCategories": {
+        "oven": "烤箱",
+        "cooktop": "灶具",
+        "hood": "抽油烟机",
+        "sink": "水槽",
+        "dishwasher": "洗碗机",
+        "fridge": "冷藏",
+        "coffee": "咖啡机",
+        "microwave": "微波炉",
+        "winecooler": "红酒柜"
       }
     },
     "page": {

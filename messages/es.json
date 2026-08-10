@@ -1009,7 +1009,8 @@
     "terms": "Términos",
     "cookies": "Cookies",
     "langLabel": "Idioma",
-    "cookieSettings": "Preferencias de cookies"
+    "cookieSettings": "Preferencias de cookies",
+    "newsletterError": "Error al suscribirse. Inténtalo de nuevo más tarde."
   },
   "notFound": {
     "title": "Esta estancia no existe (todavía)",
@@ -1820,6 +1821,17 @@
           "label": "Acero inoxidable",
           "description": "Acero inoxidable profesional."
         }
+      },
+      "applianceCategories": {
+        "oven": "Hornos",
+        "cooktop": "Placas de cocción",
+        "hood": "Campanas extractoras",
+        "sink": "Fregaderos",
+        "dishwasher": "Lavavajillas",
+        "fridge": "Refrigeración",
+        "coffee": "Café",
+        "microwave": "Microondas",
+        "winecooler": "Vinotecas"
       }
     },
     "page": {

@@ -1009,7 +1009,8 @@
     "terms": "Terms",
     "cookies": "Cookies",
     "langLabel": "Language",
-    "cookieSettings": "Cookie settings"
+    "cookieSettings": "Cookie settings",
+    "newsletterError": "Subscribing failed. Please try again later."
   },
   "notFound": {
     "title": "This room doesn't exist (yet)",
@@ -1820,6 +1821,17 @@
           "label": "Stainless steel",
           "description": "Professional stainless steel."
         }
+      },
+      "applianceCategories": {
+        "oven": "Ovens",
+        "cooktop": "Hobs",
+        "hood": "Extractor hoods",
+        "sink": "Sinks",
+        "dishwasher": "Dishwashers",
+        "fridge": "Refrigeration",
+        "coffee": "Coffee",
+        "microwave": "Microwaves",
+        "winecooler": "Wine coolers"
       }
     },
     "page": {

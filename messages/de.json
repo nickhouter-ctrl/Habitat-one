@@ -1009,7 +1009,8 @@
     "terms": "AGB",
     "cookies": "Cookies",
     "langLabel": "Sprache",
-    "cookieSettings": "Cookie-Einstellungen"
+    "cookieSettings": "Cookie-Einstellungen",
+    "newsletterError": "Anmeldung fehlgeschlagen. Bitte später erneut versuchen."
   },
   "notFound": {
     "title": "Diesen Raum gibt es (noch) nicht",
@@ -1820,6 +1821,17 @@
           "label": "Edelstahl",
           "description": "Professioneller Edelstahl."
         }
+      },
+      "applianceCategories": {
+        "oven": "Backöfen",
+        "cooktop": "Kochfelder",
+        "hood": "Dunstabzug",
+        "sink": "Spülen",
+        "dishwasher": "Geschirrspüler",
+        "fridge": "Kühlung",
+        "coffee": "Kaffee",
+        "microwave": "Mikrowellen",
+        "winecooler": "Weinkühlschränke"
       }
     },
     "page": {

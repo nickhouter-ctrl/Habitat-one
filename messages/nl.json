@@ -1009,7 +1009,8 @@
     "terms": "Voorwaarden",
     "cookies": "Cookies",
     "langLabel": "Taal",
-    "cookieSettings": "Cookievoorkeuren"
+    "cookieSettings": "Cookievoorkeuren",
+    "newsletterError": "Inschrijven mislukt. Probeer het later opnieuw."
   },
   "notFound": {
     "title": "Deze ruimte bestaat (nog) niet",
@@ -1820,6 +1821,17 @@
           "label": "RVS",
           "description": "Professioneel roestvrij staal."
         }
+      },
+      "applianceCategories": {
+        "oven": "Ovens",
+        "cooktop": "Kookplaten",
+        "hood": "Afzuiging",
+        "sink": "Spoelbakken",
+        "dishwasher": "Vaatwassers",
+        "fridge": "Koeling",
+        "coffee": "Koffie",
+        "microwave": "Magnetrons",
+        "winecooler": "Wijnkasten"
       }
     },
     "page": {
