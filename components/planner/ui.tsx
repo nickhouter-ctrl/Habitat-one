@@ -1,21 +1,138 @@
 "use client";
 
-// Kleine gedeelde UI-bouwstenen voor de planner-stappen.
+// Gedeelde UI-bouwstenen voor de planner-stappen, plus de shell-context met
+// ontwerp-historie (ongedaan maken) en de gekozen keukenopstelling.
 
-import { useState, type ReactNode } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useMemo,
+  useState,
+  type Dispatch,
+  type ReactNode,
+} from "react";
+import { Check } from "lucide-react";
+import { usePlanner, type PlannerAction } from "@/lib/planner/store";
+import type { KitchenDesign } from "@/lib/planner/types";
 import { cn } from "@/lib/utils";
 
-/** Titel + introtekst boven een stap. */
-export function StepHeading({ title, intro }: { title: string; intro: string }) {
+// --- Shell-context: historie + opstelling ---------------------------------
+
+/** Keukenopstelling gekozen in de Ruimte-stap: recht, L-vorm of U-vorm. */
+export type LayoutPreset = "recht" | "l" | "u";
+
+/**
+ * RESTORE zet het complete ontwerp in één keer terug (historie, opstelling
+ * toepassen). De actie wordt afgehandeld in lib/planner/store; zolang die
+ * daar nog niet bestaat negeert de reducer hem en is dit een veilige no-op.
+ */
+type RestoreAction = { type: "RESTORE"; design: KitchenDesign };
+
+/** Maximaal aantal ongedaan-te-maken stappen. */
+const HISTORY_LIMIT = 50;
+
+interface PlannerShellValue {
+  /** Dispatch die eerst een snapshot voor de historie vastlegt. */
+  dispatch: (action: PlannerAction) => void;
+  /** Vervang het hele ontwerp (opstelling toepassen) — ook ongedaan te maken. */
+  replaceDesign: (design: KitchenDesign) => void;
+  undo: () => void;
+  canUndo: boolean;
+  layoutPreset: LayoutPreset | null;
+  setLayoutPreset: (preset: LayoutPreset | null) => void;
+}
+
+const PlannerShellContext = createContext<PlannerShellValue | null>(null);
+
+/**
+ * Houdt de ontwerp-historie en de gekozen opstelling bij, bovenop de store.
+ * Moet binnen `PlannerProvider` staan.
+ */
+export function PlannerShellProvider({ children }: { children: ReactNode }) {
+  const { design, dispatch } = usePlanner();
+  const [past, setPast] = useState<KitchenDesign[]>([]);
+  const [layoutPreset, setLayoutPreset] = useState<LayoutPreset | null>(null);
+
+  const record = useCallback(() => {
+    setPast((p) => [...p.slice(-(HISTORY_LIMIT - 1)), design]);
+  }, [design]);
+
+  const trackedDispatch = useCallback(
+    (action: PlannerAction) => {
+      record();
+      dispatch(action);
+    },
+    [record, dispatch],
+  );
+
+  const replaceDesign = useCallback(
+    (next: KitchenDesign) => {
+      record();
+      (dispatch as Dispatch<PlannerAction | RestoreAction>)({ type: "RESTORE", design: next });
+    },
+    [record, dispatch],
+  );
+
+  const undo = useCallback(() => {
+    setPast((p) => {
+      const prev = p[p.length - 1];
+      if (prev) {
+        (dispatch as Dispatch<PlannerAction | RestoreAction>)({ type: "RESTORE", design: prev });
+      }
+      return p.slice(0, -1);
+    });
+  }, [dispatch]);
+
+  const value = useMemo<PlannerShellValue>(
+    () => ({
+      dispatch: trackedDispatch,
+      replaceDesign,
+      undo,
+      canUndo: past.length > 0,
+      layoutPreset,
+      setLayoutPreset,
+    }),
+    [trackedDispatch, replaceDesign, undo, past.length, layoutPreset],
+  );
+
+  return <PlannerShellContext.Provider value={value}>{children}</PlannerShellContext.Provider>;
+}
+
+export function usePlannerShell(): PlannerShellValue {
+  const ctx = useContext(PlannerShellContext);
+  if (!ctx) {
+    throw new Error("usePlannerShell moet binnen <PlannerShellProvider> gebruikt worden");
+  }
+  return ctx;
+}
+
+// --- Bouwstenen ------------------------------------------------------------
+
+/** Titel + introtekst boven een stap, met optionele overline erboven. */
+export function StepHeading({
+  eyebrow,
+  title,
+  intro,
+}: {
+  eyebrow?: string;
+  title: string;
+  intro: string;
+}) {
   return (
     <div className="max-w-2xl">
-      <h2 className="text-2xl leading-tight text-ink sm:text-3xl">{title}</h2>
-      <p className="mt-2 text-ink-soft">{intro}</p>
+      {eyebrow && (
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-terracotta-600">
+          {eyebrow}
+        </p>
+      )}
+      <h2 className="mt-1.5 font-display text-3xl leading-tight text-ink sm:text-4xl">{title}</h2>
+      <p className="mt-2.5 text-ink-soft">{intro}</p>
     </div>
   );
 }
 
-/** Selecteerbare keuzekaart (vorm, front, werkblad, …). */
+/** Selecteerbare keuzekaart (opstelling, front, werkblad, …). */
 export function ChoiceCard({
   selected,
   onClick,
@@ -33,13 +150,22 @@ export function ChoiceCard({
       onClick={onClick}
       aria-pressed={selected}
       className={cn(
-        "rounded-xl border p-4 text-left transition-all",
+        "relative rounded-xl border p-4 text-left transition-all",
         selected
           ? "border-terracotta-500 bg-terracotta-500/5 ring-1 ring-terracotta-500"
           : "border-sand-300 bg-white hover:border-sand-400",
         className,
       )}
     >
+      {/* Vinkje als tweede signaal naast de kleur, voor kleurenblinde gebruikers. */}
+      {selected && (
+        <span
+          aria-hidden
+          className="absolute right-3 top-3 flex h-5 w-5 items-center justify-center rounded-full bg-terracotta-500 text-whitewash"
+        >
+          <Check className="h-3 w-3" />
+        </span>
+      )}
       {children}
     </button>
   );
@@ -91,6 +217,7 @@ export function NumberField({
       <span className="mt-1 flex items-center overflow-hidden rounded-lg border border-sand-300 bg-white focus-within:border-terracotta-500">
         <input
           type="number"
+          inputMode="numeric"
           value={text}
           min={min}
           max={max}
@@ -104,5 +231,89 @@ export function NumberField({
         <span className="px-3 text-sm text-ink-soft">{unit}</span>
       </span>
     </label>
+  );
+}
+
+/** Ronde aan/uit-knop (weergave, laag, …). */
+export function PillToggle({
+  active,
+  onClick,
+  children,
+  className,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={cn(
+        "flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-sm transition-colors",
+        active
+          ? "border-terracotta-500 bg-terracotta-500 text-whitewash"
+          : "border-sand-300 bg-white text-ink hover:border-sand-400",
+        className,
+      )}
+    >
+      {children}
+    </button>
+  );
+}
+
+/** Tabknop binnen een paneel (vult de beschikbare breedte). */
+export function TabButton({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={cn(
+        "flex-1 rounded-lg border px-3 py-1.5 text-sm font-medium transition-colors",
+        active
+          ? "border-terracotta-500 bg-terracotta-500 text-whitewash"
+          : "border-sand-300 bg-white text-ink hover:border-sand-400",
+      )}
+    >
+      {children}
+    </button>
+  );
+}
+
+/** Klein filterknopje (diepte, breedte, …). */
+export function Chip({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={cn(
+        "rounded-full border px-2.5 py-1 text-xs transition-colors",
+        active
+          ? "border-terracotta-500 bg-terracotta-500 text-whitewash"
+          : "border-sand-300 bg-white text-ink hover:border-sand-400",
+      )}
+    >
+      {children}
+    </button>
   );
 }
