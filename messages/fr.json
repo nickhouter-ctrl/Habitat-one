@@ -29,7 +29,8 @@
     "inspTips": "Conseils & astuces",
     "inspBlog": "Blog",
     "inspPartners": "Partenaires",
-    "furniture": "Mobilier"
+    "furniture": "Mobilier",
+    "kitchenPlanner": "Planificateur de cuisine"
   },
   "common": {
     "brand": "Habitat One",
@@ -1039,7 +1040,8 @@
     "received": "Demande reçue !",
     "receivedDesc": "Nous examinerons votre demande et confirmerons par e-mail — ou proposerons un autre créneau.",
     "bookAnother": "Réserver un autre créneau",
-    "chooseDate": "Choisissez une date"
+    "chooseDate": "Choisissez une date",
+    "sendError": "L'envoi a échoué. Veuillez réessayer ou nous écrire directement."
   },
   "location": {
     "eyebrow": "Où nous trouver",

@@ -29,7 +29,8 @@
     "inspTips": "建议与贴士",
     "inspBlog": "博客",
     "inspPartners": "合作伙伴",
-    "furniture": "家具"
+    "furniture": "家具",
+    "kitchenPlanner": "厨房规划器"
   },
   "common": {
     "brand": "Habitat One",
@@ -1039,7 +1040,8 @@
     "received": "已收到申请！",
     "receivedDesc": "我们将审核您的申请并通过邮件确认——或建议其他时间。",
     "bookAnother": "再约一次",
-    "chooseDate": "选择日期"
+    "chooseDate": "选择日期",
+    "sendError": "发送失败。请重试，或直接给我们发送邮件。"
   },
   "location": {
     "eyebrow": "如何找到我们",

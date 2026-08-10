@@ -5,22 +5,11 @@ import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { Compass, Briefcase, HomeIcon, Sparkles, ArrowRight, ArrowLeft, CheckCircle2, Loader2, CalendarDays } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { CRM_API } from "@/lib/account/crm";
 import { cn } from "@/lib/utils";
 
 type Role = "architect" | "sales" | "homeowner" | "other";
 const TIMES = ["10:00", "11:00", "12:00", "16:00", "17:00"];
-
-const CRM_API =
-  process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
-
-const ERR_TEXT: Record<string, string> = {
-  nl: "Versturen mislukt. Probeer het opnieuw of mail ons direct.",
-  de: "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren.",
-  en: "Sending failed. Please try again or email us directly.",
-  es: "Error al enviar. Vuelve a intentarlo o escríbenos directamente.",
-  fr: "L'envoi a échoué. Veuillez réessayer ou nous écrire directement.",
-  zh: "发送失败。请重试，或直接给我们发送邮件。",
-};
 
 function nextWeekdays(count: number): Date[] {
   const out: Date[] = [];
@@ -36,6 +25,7 @@ function nextWeekdays(count: number): Date[] {
 
 export function AppointmentBooking() {
   const t = useTranslations("appointment");
+  const tCommon = useTranslations("common");
   const locale = useLocale();
   const [role, setRole] = useState<Role | null>(null);
   const [step, setStep] = useState<"role" | "blocked" | "slot" | "details" | "done">("role");
@@ -230,14 +220,14 @@ export function AppointmentBooking() {
             </div>
             {error && (
               <p className="rounded-xl border border-terracotta-300/40 bg-terracotta-500/15 px-4 py-3 text-sm text-cream/90">
-                {ERR_TEXT[locale] ?? ERR_TEXT.en}
+                {t("sendError")}
               </p>
             )}
             <div className="flex flex-wrap gap-3 pt-1">
               <button type="submit" disabled={sending} className="btn btn-primary disabled:opacity-60">
                 {sending ? <><Loader2 className="h-4 w-4 animate-spin" />{t("sending")}</> : <>{t("submit")}<ArrowRight className="h-4 w-4" /></>}
               </button>
-              <button type="button" onClick={() => setStep("slot")} className="btn btn-outline-light">
+              <button type="button" onClick={() => setStep("slot")} aria-label={tCommon("back")} className="btn btn-outline-light">
                 <ArrowLeft className="h-4 w-4" />
               </button>
             </div>

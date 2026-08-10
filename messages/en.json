@@ -29,7 +29,8 @@
     "inspTips": "Tips & advice",
     "inspBlog": "Blog",
     "inspPartners": "Partners",
-    "furniture": "Furniture"
+    "furniture": "Furniture",
+    "kitchenPlanner": "Kitchen planner"
   },
   "common": {
     "brand": "Habitat One",
@@ -1039,7 +1040,8 @@
     "received": "Request received!",
     "receivedDesc": "We will review your request and confirm by email — or suggest an alternative time.",
     "bookAnother": "Book another",
-    "chooseDate": "Choose a date"
+    "chooseDate": "Choose a date",
+    "sendError": "Sending failed. Please try again or email us directly."
   },
   "location": {
     "eyebrow": "Where to find us",

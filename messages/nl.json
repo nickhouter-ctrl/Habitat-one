@@ -29,7 +29,8 @@
     "inspTips": "Tips & advies",
     "inspBlog": "Blogs",
     "inspPartners": "Partners",
-    "furniture": "Meubels"
+    "furniture": "Meubels",
+    "kitchenPlanner": "Keukenplanner"
   },
   "common": {
     "brand": "Habitat One",
@@ -1039,7 +1040,8 @@
     "received": "Aanvraag ontvangen!",
     "receivedDesc": "We bekijken je aanvraag en bevestigen per e-mail — of stellen een ander tijdstip voor.",
     "bookAnother": "Nog een afspraak",
-    "chooseDate": "Kies een datum"
+    "chooseDate": "Kies een datum",
+    "sendError": "Versturen mislukt. Probeer het opnieuw of mail ons direct."
   },
   "location": {
     "eyebrow": "Waar je ons vindt",
