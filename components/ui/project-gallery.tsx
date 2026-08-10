@@ -1,17 +1,29 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
 import Image from "next/image";
 import { createPortal } from "react-dom";
+import { useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export function ProjectGallery({ images, alt }: { images: string[]; alt: string }) {
-  const [open, setOpen] = useState<number | null>(null);
-  const [mounted, setMounted] = useState(false);
+// Hydration-detectie zonder setState-in-effect: de server-snapshot geeft
+// false, na hydration altijd true — de portal rendert dus alleen client-side.
+const emptySubscribe = () => () => {};
+function useHydrated() {
+  return useSyncExternalStore(
+    emptySubscribe,
+    () => true,
+    () => false,
+  );
+}
 
-  useEffect(() => setMounted(true), []);
+export function ProjectGallery({ images, alt }: { images: string[]; alt: string }) {
+  const tCommon = useTranslations("common");
+  const tNav = useTranslations("nav");
+  const [open, setOpen] = useState<number | null>(null);
+  const mounted = useHydrated();
 
   const close = useCallback(() => setOpen(null), []);
   const go = useCallback(
@@ -79,7 +91,7 @@ export function ProjectGallery({ images, alt }: { images: string[]; alt: string 
                 <button
                   type="button"
                   onClick={close}
-                  aria-label="Close"
+                  aria-label={tNav("close")}
                   className="absolute right-4 top-4 z-10 grid grid-cols-1 h-11 w-11 place-items-center rounded-full border border-cream/25 bg-cream/10 text-cream transition-colors hover:bg-cream/20"
                 >
                   <X className="h-5 w-5" />
@@ -89,7 +101,7 @@ export function ProjectGallery({ images, alt }: { images: string[]; alt: string 
                     <button
                       type="button"
                       onClick={(e) => { e.stopPropagation(); go(-1); }}
-                      aria-label="Previous"
+                      aria-label={tCommon("previous")}
                       className="absolute left-3 top-1/2 z-10 grid grid-cols-1 h-12 w-12 -translate-y-1/2 place-items-center rounded-full border border-cream/25 bg-cream/10 text-cream transition-colors hover:bg-cream/20 md:left-6"
                     >
                       <ChevronLeft className="h-6 w-6" />
@@ -97,7 +109,7 @@ export function ProjectGallery({ images, alt }: { images: string[]; alt: string 
                     <button
                       type="button"
                       onClick={(e) => { e.stopPropagation(); go(1); }}
-                      aria-label="Next"
+                      aria-label={tCommon("next")}
                       className="absolute right-3 top-1/2 z-10 grid grid-cols-1 h-12 w-12 -translate-y-1/2 place-items-center rounded-full border border-cream/25 bg-cream/10 text-cream transition-colors hover:bg-cream/20 md:right-6"
                     >
                       <ChevronRight className="h-6 w-6" />
