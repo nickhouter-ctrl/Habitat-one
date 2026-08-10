@@ -2,6 +2,9 @@
 
 // "Genereer realistisch beeld" — legt het 3D-ontwerp vast en laat de AI er
 // een fotorealistische impressie van maken.
+//
+// De prompt voor het beeldmodel blijft bewust Nederlands: die is voor de AI,
+// niet voor de bezoeker. Alle zichtbare teksten lopen via usePlannerT.
 
 import { useState, type RefObject } from "react";
 import { Download, Loader2, Sparkles, X } from "lucide-react";
@@ -9,6 +12,7 @@ import { getAppliance } from "@/lib/planner/appliances";
 import { getFrontFinish, getFrontStyle } from "@/lib/planner/catalog";
 import { usePlanner } from "@/lib/planner/store";
 import type { KitchenDesign, WallSide } from "@/lib/planner/types";
+import { usePlannerT } from "./i18n";
 
 function wallLabel(w: WallSide): string {
   return w === "top"
@@ -66,17 +70,33 @@ export function AiRenderPanel({
   captureRef: RefObject<(() => string) | null>;
 }) {
   const { design } = usePlanner();
+  const { tf } = usePlannerT();
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+
+  /** Vertaalt een foutcode van /api/kitchen-render naar een bezoekerstekst. */
+  function errorMessage(code: string | undefined): string {
+    if (code === "not-configured") {
+      return tf("aiRender.errNotConfigured", "De beeldgeneratie is nog niet geconfigureerd.");
+    }
+    // Google-foutteksten (Engels, vrije tekst) tonen we als detail; interne
+    // codes (invalid-json/missing-input/no-image/render-failed) niet.
+    if (code && !/^[a-z-]+$/.test(code)) {
+      return tf("aiRender.errDetail", `Het genereren is niet gelukt — ${code}`, {
+        detail: code,
+      });
+    }
+    return tf("aiRender.errGeneric", "Het genereren is niet gelukt. Probeer het zo nog eens.");
+  }
 
   async function generate() {
     const capture = captureRef.current;
     setOpen(true);
     setResult(null);
     if (!capture) {
-      setError("Open eerst het 3D-aanzicht en probeer dan opnieuw.");
+      setError(tf("aiRender.errNoCapture", "Open eerst het 3D-aanzicht en probeer dan opnieuw."));
       return;
     }
     setError(null);
@@ -91,17 +111,13 @@ export function AiRenderPanel({
       const data = (await res.json()) as { ok?: boolean; image?: string; error?: string };
       if (!res.ok || !data.ok || !data.image) {
         console.error("[kitchen-render] mislukt:", res.status, data.error);
-        setError(
-          data.error
-            ? `Het genereren is niet gelukt — ${data.error}`
-            : "Het genereren is niet gelukt. Probeer het zo nog eens.",
-        );
+        setError(errorMessage(data.error));
       } else {
         setResult(data.image);
       }
     } catch (err) {
       console.error("[kitchen-render] netwerkfout:", err);
-      setError(`Er ging iets mis bij het genereren${err instanceof Error ? ` — ${err.message}` : ""}.`);
+      setError(tf("aiRender.errNetwork", "Er ging iets mis bij het genereren."));
     } finally {
       setLoading(false);
     }
@@ -115,7 +131,7 @@ export function AiRenderPanel({
         className="inline-flex items-center gap-2 rounded-full bg-clay-700 px-4 py-2 text-sm font-semibold text-cream transition-colors hover:bg-clay-800"
       >
         <Sparkles className="h-4 w-4" />
-        Genereer realistisch beeld
+        {tf("aiRender.button", "Genereer realistisch beeld")}
       </button>
 
       {open && (
@@ -124,34 +140,44 @@ export function AiRenderPanel({
           onClick={() => !loading && setOpen(false)}
         >
           <div
+            role="dialog"
+            aria-modal="true"
+            aria-label={tf("aiRender.title", "Realistisch beeld")}
             className="relative max-h-[92vh] w-full max-w-2xl overflow-auto rounded-3xl border border-sand-200 bg-cream p-6 shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             <button
               type="button"
-              aria-label="Sluiten"
+              aria-label={tf("quote.closeAria", "Sluiten")}
               onClick={() => setOpen(false)}
               className="absolute right-4 top-4 grid h-9 w-9 place-items-center rounded-full text-clay-700 transition-colors hover:bg-sand-200"
             >
               <X className="h-5 w-5" />
             </button>
-            <h3 className="font-display text-2xl text-ink">Realistisch beeld</h3>
+            <h3 className="font-display text-2xl text-ink">
+              {tf("aiRender.title", "Realistisch beeld")}
+            </h3>
             <p className="mt-1 text-sm text-ink-soft">
-              De AI maakt een fotorealistische impressie van jouw ontwerp.
+              {tf("aiRender.intro", "De AI maakt een fotorealistische impressie van jouw ontwerp.")}
             </p>
 
             <div className="mt-4 flex min-h-[280px] items-center justify-center rounded-2xl border border-sand-200 bg-sand-50 p-3">
               {loading && (
-                <div className="flex flex-col items-center gap-2 text-center text-sm text-ink-soft">
+                <div
+                  role="status"
+                  className="flex flex-col items-center gap-2 text-center text-sm text-ink-soft"
+                >
                   <Loader2 className="h-7 w-7 animate-spin text-terracotta-500" />
-                  Bezig met genereren… dit duurt ongeveer 15 seconden.
+                  {tf("aiRender.loading", "Bezig met genereren… dit duurt ongeveer 15 seconden.")}
                 </div>
               )}
               {!loading && error && (
                 <div className="flex flex-col items-center gap-3 text-center">
-                  <p className="text-sm text-terracotta-700">{error}</p>
+                  <p role="alert" className="text-sm text-terracotta-700">
+                    {error}
+                  </p>
                   <button type="button" onClick={generate} className="btn btn-primary">
-                    Opnieuw proberen
+                    {tf("aiRender.retry", "Opnieuw proberen")}
                   </button>
                 </div>
               )}
@@ -159,7 +185,7 @@ export function AiRenderPanel({
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={result}
-                  alt="Realistische impressie van de keuken"
+                  alt={tf("aiRender.alt", "Realistische impressie van de keuken")}
                   className="max-h-[60vh] w-full rounded-xl object-contain"
                 />
               )}
@@ -169,18 +195,20 @@ export function AiRenderPanel({
               <div className="mt-4 flex flex-wrap justify-end gap-2">
                 <a href={result} download="keuken-impressie.png" className="btn btn-ghost">
                   <Download className="h-4 w-4" />
-                  Downloaden
+                  {tf("aiRender.download", "Downloaden")}
                 </a>
                 <button type="button" onClick={generate} className="btn btn-primary">
                   <Sparkles className="h-4 w-4" />
-                  Nieuwe variant
+                  {tf("aiRender.newVariant", "Nieuwe variant")}
                 </button>
               </div>
             )}
 
             <p className="mt-3 text-xs text-ink-soft">
-              Dit is een AI-impressie — een sfeerbeeld, geen technische tekening.
-              De bestellijst blijft leidend.
+              {tf(
+                "aiRender.disclaimer",
+                "Dit is een AI-impressie — een sfeerbeeld, geen technische tekening. De bestellijst blijft leidend.",
+              )}
             </p>
           </div>
         </div>

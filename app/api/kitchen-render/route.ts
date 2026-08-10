@@ -34,8 +34,10 @@ export async function POST(req: Request) {
     process.env.GEMINI_API_KEY ||
     process.env.GOOGLE_API_KEY ||
     process.env.GOOGLE_AI_API_KEY;
+  // Stabiele foutcode i.p.v. een Nederlandse zin: de client vertaalt bekende
+  // codes naar de taal van de bezoeker.
   if (!apiKey) {
-    return Response.json({ ok: false, error: "AI niet geconfigureerd (geen API-sleutel)." }, { status: 500 });
+    return Response.json({ ok: false, error: "not-configured" }, { status: 500 });
   }
 
   // De client stuurt een data-URL (data:image/png;base64,XXXX). Splits mime + data
