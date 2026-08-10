@@ -284,15 +284,19 @@ function Room({
 }) {
   const { roomWidthCm: rw, roomDepthCm: rd, ceilingHeightCm: ch } = design;
 
-  // Eigen kopie van de houttextuur voor de vloer: de herhaling schaalt met de
-  // ruimte en mag de gedeelde (gecachte) kast-textuur niet aanpassen.
+  // Eigen kopie van de houttextuur voor de vloer — de gedeelde (gecachte)
+  // kast-textuur mag niet aangepast worden. Eén keer klonen; de herhaling
+  // schaalt mee met de ruimtemaat zónder nieuwe GPU-textures aan te maken.
   const floorMap = useMemo(() => {
     const m = wood.map.clone();
     m.wrapS = m.wrapT = RepeatWrapping;
-    m.repeat.set(rw / 120, rd / 120);
     m.needsUpdate = true;
     return m;
-  }, [wood.map, rw, rd]);
+  }, [wood.map]);
+  useEffect(() => {
+    floorMap.repeat.set(rw / 120, rd / 120);
+  }, [floorMap, rw, rd]);
+  useEffect(() => () => floorMap.dispose(), [floorMap]);
 
   const topWall = useRef<Group>(null);
   const bottomWall = useRef<Group>(null);
