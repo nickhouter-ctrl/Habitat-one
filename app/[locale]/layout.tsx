@@ -106,9 +106,10 @@ export default async function LocaleLayout({
     >
       <body className="min-h-full flex flex-col bg-background text-ink antialiased">
         <JsonLd data={localBusinessJsonLd} />
-        <CookieConsent locale={locale} />
         <TrackContacts />
         <NextIntlClientProvider>
+          {/* Binnen de intl-provider zodat cookie-consent messages + i18n-Link kan gebruiken. */}
+          <CookieConsent locale={locale} />
           <PriceProvider>
           <QuoteProvider>
             <PageVeil />
