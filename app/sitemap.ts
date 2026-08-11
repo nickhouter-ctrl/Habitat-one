@@ -73,12 +73,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/inspiration/tips/binnen-buiten-een-materiaal", priority: 0.6, freq: "monthly" },
   ];
 
-  // De keukenplanner is sinds de i18n-slag beschikbaar in alle zes talen en
-  // gebruikt seoAlternates in app/[locale]/kitchen-planner/page.tsx.
-  const kitchenPlanner = entry("/kitchen-planner", {
-    priority: 0.7,
-    changeFrequency: "monthly",
-  });
+  // De keukenplanner hoort hier bewust NIET in: de pagina is nog niet publiek
+  // en staat op noindex (app/[locale]/kitchen-planner/page.tsx). Voeg hem pas
+  // toe bij de lancering, samen met de nav-regel in lib/data/site.ts.
 
   const collectionPaths = collections.map((c) => collectionHref(c.id));
 
@@ -90,7 +87,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const items: MetadataRoute.Sitemap = [
     ...staticPaths.map((s) => entry(s.path, { priority: s.priority, changeFrequency: s.freq })),
-    kitchenPlanner,
     // Flexible Stone is de signatuurcollectie — zelfde gewicht als de hub.
     ...collectionPaths.map((p) =>
       entry(p, {

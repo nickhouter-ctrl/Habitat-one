@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { seoAlternates } from "@/lib/seo/alternates";
 import { PageHeader } from "@/components/ui/page-header";
 import { Container, Section } from "@/components/ui/section";
 import { KitchenPlanner } from "@/components/planner/kitchen-planner";
 
-// De planner-UI is vertaald (planner-namespace in messages/*.json), dus elke
-// taalvariant is een eigen pagina met hreflang-alternates. Valt een key nog
-// terug op Nederlands (t.has-fallback in de componenten), dan is dat een
-// vertaalgat voor Builder 5 — geen reden om de canonical weer op /nl te pinnen.
+// De keukenplanner is nog niet gelanceerd: hij staat niet in de navigatie en
+// niet in de sitemap, en krijgt hier noindex/nofollow mee zodat Google hem niet
+// oppikt. De pagina blijft wel bereikbaar voor wie de URL heeft, zodat we hem
+// intern kunnen doorlopen. Bij lancering: robots eruit, seoAlternates weer
+// erin (hreflang hoort niet op een noindex-pagina), plus de nav-regel in
+// lib/data/site.ts en de sitemap-entry in app/sitemap.ts.
 export async function generateMetadata({
   params,
 }: {
@@ -17,7 +18,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "planner.page" });
   return {
-    alternates: seoAlternates(locale, "/kitchen-planner"),
+    robots: { index: false, follow: false },
     title: t.has("metaTitle") ? t("metaTitle") : "Keukenplanner",
     description: t.has("metaDescription")
       ? t("metaDescription")
