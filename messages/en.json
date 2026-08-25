@@ -20,7 +20,7 @@
     "quote": "Request a quote",
     "bookVisit": "Book a visit",
     "openMenu": "Open menu",
-    "searchPlaceholder": "Search products, materials, spaces…",
+    "searchPlaceholder": "Search products, furniture, spaces…",
     "location": "Location",
     "inspiration": "Inspiration",
     "inspEvents": "Events",
@@ -1958,5 +1958,25 @@
     "accept": "Accept",
     "decline": "Decline",
     "more": "Learn more"
+  },
+  "search": {
+    "eyebrow": "Search",
+    "title": "Search",
+    "intro": "Search the full range — products, furniture, collections and spaces.",
+    "resultsFor": "Results for “{query}”",
+    "count": "{count} results",
+    "categories": "Categories",
+    "products": "Products",
+    "furniture": "Furniture",
+    "noResults": "No results for “{query}”.",
+    "allResults": "View all {count} results",
+    "searching": "Searching…",
+    "clear": "Clear",
+    "emptyHint": "Start typing above to search products, furniture and collections.",
+    "showMore": "Show more results",
+    "kindCategory": "Category",
+    "kindSpace": "Space",
+    "kindService": "Service",
+    "refine": "More results than this? Refine your search or pick a category above."
   }
 }

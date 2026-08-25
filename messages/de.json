@@ -20,7 +20,7 @@
     "quote": "Angebot anfragen",
     "bookVisit": "Termin buchen",
     "openMenu": "Menü öffnen",
-    "searchPlaceholder": "Produkte, Materialien, Räume suchen…",
+    "searchPlaceholder": "Produkte, Möbel, Räume suchen…",
     "location": "Standort",
     "inspiration": "Inspiration",
     "inspEvents": "Veranstaltungen",
@@ -1958,5 +1958,25 @@
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
     "more": "Mehr erfahren"
+  },
+  "search": {
+    "eyebrow": "Suche",
+    "title": "Suche",
+    "intro": "Durchsuchen Sie das gesamte Sortiment — Produkte, Möbel, Kollektionen und Räume.",
+    "resultsFor": "Ergebnisse für „{query}“",
+    "count": "{count} Ergebnisse",
+    "categories": "Kategorien",
+    "products": "Produkte",
+    "furniture": "Möbel",
+    "noResults": "Keine Ergebnisse für „{query}“.",
+    "allResults": "Alle {count} Ergebnisse ansehen",
+    "searching": "Suche läuft…",
+    "clear": "Löschen",
+    "emptyHint": "Tippen Sie oben, um Produkte, Möbel und Kollektionen zu durchsuchen.",
+    "showMore": "Mehr Ergebnisse anzeigen",
+    "kindCategory": "Kategorie",
+    "kindSpace": "Raum",
+    "kindService": "Leistung",
+    "refine": "Noch mehr Ergebnisse? Verfeinern Sie die Suche oder wählen Sie oben eine Kategorie."
   }
 }

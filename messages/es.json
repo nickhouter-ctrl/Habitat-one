@@ -20,7 +20,7 @@
     "quote": "Pedir presupuesto",
     "bookVisit": "Reservar visita",
     "openMenu": "Abrir menú",
-    "searchPlaceholder": "Buscar productos, materiales, espacios…",
+    "searchPlaceholder": "Buscar productos, muebles, espacios…",
     "location": "Ubicación",
     "inspiration": "Inspiración",
     "inspEvents": "Eventos",
@@ -1958,5 +1958,25 @@
     "accept": "Aceptar",
     "decline": "Rechazar",
     "more": "Más información"
+  },
+  "search": {
+    "eyebrow": "Buscar",
+    "title": "Buscar",
+    "intro": "Busca en toda la gama — productos, muebles, colecciones y espacios.",
+    "resultsFor": "Resultados para «{query}»",
+    "count": "{count} resultados",
+    "categories": "Categorías",
+    "products": "Productos",
+    "furniture": "Muebles",
+    "noResults": "Sin resultados para «{query}».",
+    "allResults": "Ver los {count} resultados",
+    "searching": "Buscando…",
+    "clear": "Borrar",
+    "emptyHint": "Escribe arriba para buscar productos, muebles y colecciones.",
+    "showMore": "Mostrar más resultados",
+    "kindCategory": "Categoría",
+    "kindSpace": "Espacio",
+    "kindService": "Servicio",
+    "refine": "¿Más resultados? Afina tu búsqueda o elige una categoría arriba."
   }
 }

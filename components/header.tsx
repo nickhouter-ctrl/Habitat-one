@@ -3,14 +3,15 @@
 import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowUpRight, CalendarCheck, ChevronDown, Menu, Search, X } from "lucide-react";
-import { Link, usePathname, useRouter } from "@/i18n/navigation";
+import { ArrowUpRight, CalendarCheck, ChevronDown, Menu, X } from "lucide-react";
+import { Link, usePathname } from "@/i18n/navigation";
 import { catalogSpaces, collectionHref, collections } from "@/lib/data/catalog";
 import { services } from "@/lib/data/services";
 import { primaryNav } from "@/lib/data/site";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { AccountNavButton } from "@/components/account/account-nav-button";
 import { Logo } from "@/components/logo";
+import { SearchBox } from "@/components/search/search-box";
 import { useQuote } from "@/components/quote-context";
 import { cn } from "@/lib/utils";
 
@@ -104,7 +105,7 @@ export function Header() {
             <Logo dark />
           </Link>
 
-          <SearchBar placeholder={t("searchPlaceholder")} className="hidden flex-1 sm:flex" />
+          <SearchBox placeholder={t("searchPlaceholder")} className="hidden flex-1 sm:block" />
 
           <div className="ml-auto flex items-center gap-2 sm:ml-0 md:gap-3">
             <LanguageSwitcher dark />
@@ -171,32 +172,6 @@ export function Header() {
         )}
       </AnimatePresence>
     </>
-  );
-}
-
-function SearchBar({ placeholder, className }: { placeholder: string; className?: string }) {
-  const router = useRouter();
-  return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        const q = new FormData(e.currentTarget).get("q")?.toString().trim();
-        if (q) router.push(`/search?q=${encodeURIComponent(q)}`);
-      }}
-      className={cn(
-        "items-center gap-2.5 rounded-full border border-sand-300 bg-white px-4 py-2.5 transition-colors focus-within:border-terracotta-400",
-        className,
-      )}
-    >
-      <Search className="h-4 w-4 shrink-0 text-ink-soft" />
-      <input
-        name="q"
-        type="search"
-        placeholder={placeholder}
-        aria-label={placeholder}
-        className="w-full min-w-0 bg-transparent text-sm text-ink outline-none placeholder:text-ink-soft/70"
-      />
-    </form>
   );
 }
 
@@ -326,7 +301,7 @@ function MobileMenu({
         className="absolute inset-x-0 top-0 max-h-[92vh] overflow-y-auto rounded-b-[2rem] border-b border-sand-200 bg-cream pb-10 pt-20 shadow-2xl"
       >
         <div className="container-x">
-          <SearchBar placeholder={t("searchPlaceholder")} className="flex" />
+          <SearchBox placeholder={t("searchPlaceholder")} onNavigate={onClose} />
           <nav className="mt-5 flex flex-col">
             {primaryNav.map((item, i) => {
               const sub = dropdowns[item.labelKey];

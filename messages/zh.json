@@ -20,7 +20,7 @@
     "quote": "索取报价",
     "bookVisit": "预约参观",
     "openMenu": "打开菜单",
-    "searchPlaceholder": "搜索产品、材料、空间…",
+    "searchPlaceholder": "搜索产品、家具、空间…",
     "location": "位置",
     "inspiration": "灵感",
     "inspEvents": "活动",
@@ -1958,5 +1958,25 @@
     "accept": "接受",
     "decline": "拒绝",
     "more": "了解更多"
+  },
+  "search": {
+    "eyebrow": "搜索",
+    "title": "搜索",
+    "intro": "搜索全部系列 — 产品、家具、系列与空间。",
+    "resultsFor": "“{query}” 的搜索结果",
+    "count": "{count} 条结果",
+    "categories": "分类",
+    "products": "产品",
+    "furniture": "家具",
+    "noResults": "没有找到“{query}”的结果。",
+    "allResults": "查看全部 {count} 条结果",
+    "searching": "搜索中…",
+    "clear": "清除",
+    "emptyHint": "在上方输入即可搜索产品、家具和系列。",
+    "showMore": "显示更多结果",
+    "kindCategory": "分类",
+    "kindSpace": "空间",
+    "kindService": "服务",
+    "refine": "还有更多结果？请细化搜索词，或在上方选择一个分类。"
   }
 }

@@ -20,7 +20,7 @@
     "quote": "Offerte aanvragen",
     "bookVisit": "Showroombezoek",
     "openMenu": "Menu openen",
-    "searchPlaceholder": "Zoek producten, materialen, ruimtes…",
+    "searchPlaceholder": "Zoek producten, meubels, ruimtes…",
     "location": "Locatie",
     "inspiration": "Inspiratie",
     "inspEvents": "Evenementen",
@@ -1958,5 +1958,25 @@
     "accept": "Accepteren",
     "decline": "Weigeren",
     "more": "Meer info"
+  },
+  "search": {
+    "eyebrow": "Zoeken",
+    "title": "Zoeken",
+    "intro": "Zoek in het hele assortiment — producten, meubels, collecties en ruimtes.",
+    "resultsFor": "Resultaten voor “{query}”",
+    "count": "{count} resultaten",
+    "categories": "Categorieën",
+    "products": "Producten",
+    "furniture": "Meubels",
+    "noResults": "Geen resultaten voor “{query}”.",
+    "allResults": "Alle {count} resultaten bekijken",
+    "searching": "Zoeken…",
+    "clear": "Wissen",
+    "emptyHint": "Typ hierboven om te zoeken in producten, meubels en collecties.",
+    "showMore": "Meer resultaten tonen",
+    "kindCategory": "Categorie",
+    "kindSpace": "Ruimte",
+    "kindService": "Dienst",
+    "refine": "Nog meer resultaten? Verfijn je zoekterm of kies hierboven een categorie."
   }
 }

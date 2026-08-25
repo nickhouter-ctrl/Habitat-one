@@ -20,7 +20,7 @@
     "quote": "Demander un devis",
     "bookVisit": "Réserver une visite",
     "openMenu": "Ouvrir le menu",
-    "searchPlaceholder": "Rechercher des produits, matériaux, espaces…",
+    "searchPlaceholder": "Rechercher produits, mobilier, espaces…",
     "location": "Localisation",
     "inspiration": "Inspiration",
     "inspEvents": "Événements",
@@ -1958,5 +1958,25 @@
     "accept": "Accepter",
     "decline": "Refuser",
     "more": "En savoir plus"
+  },
+  "search": {
+    "eyebrow": "Recherche",
+    "title": "Recherche",
+    "intro": "Recherchez dans toute la gamme — produits, mobilier, collections et espaces.",
+    "resultsFor": "Résultats pour «{query}»",
+    "count": "{count} résultats",
+    "categories": "Catégories",
+    "products": "Produits",
+    "furniture": "Mobilier",
+    "noResults": "Aucun résultat pour «{query}».",
+    "allResults": "Voir les {count} résultats",
+    "searching": "Recherche…",
+    "clear": "Effacer",
+    "emptyHint": "Tapez ci-dessus pour rechercher produits, mobilier et collections.",
+    "showMore": "Afficher plus de résultats",
+    "kindCategory": "Catégorie",
+    "kindSpace": "Espace",
+    "kindService": "Service",
+    "refine": "Encore plus de résultats ? Affinez votre recherche ou choisissez une catégorie ci-dessus."
   }
 }
