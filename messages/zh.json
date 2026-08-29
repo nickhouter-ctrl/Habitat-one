@@ -1584,7 +1584,9 @@
     "popupCta": "申请账户",
     "popupLogin": "我已有账户",
     "popupClose": "关闭",
-    "popupNote": "免费 · 1 个工作日内开通"
+    "popupNote": "免费 · 1 个工作日内开通",
+    "myProjects": "我的项目",
+    "myProjectsNote": "查看装修项目的进度、发票和付款。"
   },
   "planner": {
     "canvas": {

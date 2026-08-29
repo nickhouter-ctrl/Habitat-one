@@ -44,7 +44,19 @@ export default async function AccountPage({ params }: { params: Promise<{ locale
         <LogoutButton />
       </div>
 
-      <div className="mt-6 grid gap-3 sm:grid-cols-2">
+      {/* Doorklik naar het projectportaal (CRM) — server-route wisselt de sessie om. */}
+      <a
+        href={`/${locale}/account/projecten`}
+        className="mt-6 flex items-center justify-between rounded-xl border border-black/10 bg-white p-4 transition-shadow hover:shadow-md"
+      >
+        <span>
+          <span className="block font-medium">{t("myProjects")}</span>
+          <span className="block text-sm text-ink-soft">{t("myProjectsNote")}</span>
+        </span>
+        <span aria-hidden className="text-lg">→</span>
+      </a>
+
+      <div className="mt-4 grid gap-3 sm:grid-cols-2">
         <div className="rounded-xl border border-black/10 bg-white p-4">
           <p className="text-xs uppercase tracking-wide text-ink-soft">{t("email")}</p>
           <p className="mt-1 font-medium">{me.account.email}</p>

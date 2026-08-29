@@ -1584,7 +1584,9 @@
     "popupCta": "Solicitar cuenta",
     "popupLogin": "Ya tengo una cuenta",
     "popupClose": "Cerrar",
-    "popupNote": "Gratis · resuelto en 1 día laborable"
+    "popupNote": "Gratis · resuelto en 1 día laborable",
+    "myProjects": "Mis proyectos",
+    "myProjectsNote": "Siga el progreso, las facturas y los pagos de su reforma."
   },
   "planner": {
     "canvas": {

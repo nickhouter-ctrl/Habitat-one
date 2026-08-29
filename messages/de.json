@@ -1584,7 +1584,9 @@
     "popupCta": "Konto anfragen",
     "popupLogin": "Ich habe bereits ein Konto",
     "popupClose": "Schließen",
-    "popupNote": "Kostenlos · innerhalb von 1 Werktag"
+    "popupNote": "Kostenlos · innerhalb von 1 Werktag",
+    "myProjects": "Meine Projekte",
+    "myProjectsNote": "Verfolgen Sie Fortschritt, Rechnungen und Zahlungen Ihres Umbaus."
   },
   "planner": {
     "canvas": {

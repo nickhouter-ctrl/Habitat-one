@@ -5,6 +5,9 @@
 /** Basis-URL van het Habitat One CRM (publiek). */
 export const CRM_API = process.env.NEXT_PUBLIC_CRM_API_URL ?? "https://habitat-crm-delta.vercel.app";
 
+/** Publieke URL van het klant-projectportaal (nette domeinnaam voor klanten). */
+export const PORTAL_URL = process.env.NEXT_PUBLIC_PORTAL_URL ?? "https://crm.habitat-one.com";
+
 /** Naam van de httpOnly-sessiecookie met de CRM-portaltoken. */
 export const PORTAL_COOKIE = "hb_portal";
 

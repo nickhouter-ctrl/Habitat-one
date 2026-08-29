@@ -1584,7 +1584,9 @@
     "popupCta": "Request an account",
     "popupLogin": "I already have an account",
     "popupClose": "Close",
-    "popupNote": "Free · sorted within 1 business day"
+    "popupNote": "Free · sorted within 1 business day",
+    "myProjects": "My projects",
+    "myProjectsNote": "Follow the progress, invoices and payments of your renovation."
   },
   "planner": {
     "canvas": {

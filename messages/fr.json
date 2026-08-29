@@ -1584,7 +1584,9 @@
     "popupCta": "Demander un compte",
     "popupLogin": "J'ai déjà un compte",
     "popupClose": "Fermer",
-    "popupNote": "Gratuit · réglé sous 1 jour ouvré"
+    "popupNote": "Gratuit · réglé sous 1 jour ouvré",
+    "myProjects": "Mes projets",
+    "myProjectsNote": "Suivez l'avancement, les factures et les paiements de vos travaux."
   },
   "planner": {
     "canvas": {

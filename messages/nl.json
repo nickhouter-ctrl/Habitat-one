@@ -1584,7 +1584,9 @@
     "popupCta": "Account aanvragen",
     "popupLogin": "Ik heb al een account",
     "popupClose": "Sluiten",
-    "popupNote": "Gratis · binnen 1 werkdag geregeld"
+    "popupNote": "Gratis · binnen 1 werkdag geregeld",
+    "myProjects": "Mijn projecten",
+    "myProjectsNote": "Volg de voortgang, facturen en betalingen van je verbouwing."
   },
   "planner": {
     "canvas": {
