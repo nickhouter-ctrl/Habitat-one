@@ -9,7 +9,7 @@ import { catalogSpaces, collectionHref, collections } from "@/lib/data/catalog";
 import { services } from "@/lib/data/services";
 import { primaryNav } from "@/lib/data/site";
 import { LanguageSwitcher } from "@/components/language-switcher";
-import { AccountNavButton } from "@/components/account/account-nav-button";
+import { AccountMenuLink, AccountNavButton } from "@/components/account/account-nav-button";
 import { Logo } from "@/components/logo";
 import { SearchBox } from "@/components/search/search-box";
 import { useQuote } from "@/components/quote-context";
@@ -444,6 +444,7 @@ function MobileMenu({
             <CalendarCheck className="h-4 w-4" />
             {t("bookVisit")}
           </Link>
+          <AccountMenuLink onClose={onClose} />
         </div>
       </motion.div>
     </motion.div>

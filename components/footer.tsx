@@ -5,6 +5,7 @@ import { site, primaryNav } from "@/lib/data/site";
 import { Logo } from "@/components/logo";
 import { NewsletterForm } from "@/components/ui/newsletter-form";
 import { CookieSettingsLink } from "@/components/analytics/cookie-settings-link";
+import { AccountLink } from "@/components/account/account-nav-button";
 
 export async function Footer() {
   const t = await getTranslations();
@@ -81,6 +82,11 @@ export async function Footer() {
                 {nav(i.labelKey)}
               </FooterLink>
             ))}
+            {/* Inloggen / Mijn account — na de header de tweede plek waar
+                bezoekers hiernaar zoeken. */}
+            <li>
+              <AccountLink className="link-underline text-cream/75 transition-colors hover:text-cream" />
+            </li>
           </FooterCol>
 
           <div>
