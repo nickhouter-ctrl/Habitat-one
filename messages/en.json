@@ -1980,5 +1980,16 @@
     "kindSpace": "Space",
     "kindService": "Service",
     "refine": "More results than this? Refine your search or pick a category above."
+  },
+  "fair": {
+    "eyebrow": "Trade fair · 28 Sept – 1 Oct 2026",
+    "title": "See you at Feria Hábitat València",
+    "text": "For four days we are showing Flexible Stone in real life: natural stone only a few millimetres thick that follows any wall. Come and feel it, bend it and compare it at our stand in Feria Valencia.",
+    "place": "Feria Valencia · València, Spain",
+    "dates": "28 September – 1 October 2026",
+    "stand": "Hall and stand number to follow",
+    "ctaPrimary": "Book a meeting at the fair",
+    "ctaSecondary": "Discover Flexible Stone",
+    "videoLabel": "Flexible Stone fair video"
   }
 }

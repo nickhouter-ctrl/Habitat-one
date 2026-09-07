@@ -1980,5 +1980,16 @@
     "kindSpace": "Espace",
     "kindService": "Service",
     "refine": "Encore plus de résultats ? Affinez votre recherche ou choisissez une catégorie ci-dessus."
+  },
+  "fair": {
+    "eyebrow": "Salon · 28 sept. – 1er oct. 2026",
+    "title": "Rendez-vous à Feria Hábitat València",
+    "text": "Pendant quatre jours, nous présentons Flexible Stone en vrai : une pierre naturelle de quelques millimètres d'épaisseur qui épouse n'importe quel mur. Venez la toucher, la plier et la comparer sur notre stand à Feria Valencia.",
+    "place": "Feria Valencia · València, Espagne",
+    "dates": "28 septembre – 1er octobre 2026",
+    "stand": "Hall et numéro de stand à venir",
+    "ctaPrimary": "Prendre rendez-vous au salon",
+    "ctaSecondary": "Découvrir Flexible Stone",
+    "videoLabel": "Vidéo du salon Flexible Stone"
   }
 }

@@ -1980,5 +1980,16 @@
     "kindSpace": "Raum",
     "kindService": "Leistung",
     "refine": "Noch mehr Ergebnisse? Verfeinern Sie die Suche oder wählen Sie oben eine Kategorie."
+  },
+  "fair": {
+    "eyebrow": "Messe · 28. Sept. – 1. Okt. 2026",
+    "title": "Bis bald auf der Feria Hábitat València",
+    "text": "Vier Tage lang zeigen wir Flexible Stone live: Naturstein von nur wenigen Millimetern Stärke, der jeder Wand folgt. Kommen Sie an unseren Stand in der Feria Valencia und fühlen, biegen und vergleichen Sie selbst.",
+    "place": "Feria Valencia · València, Spanien",
+    "dates": "28. September – 1. Oktober 2026",
+    "stand": "Halle und Standnummer folgen",
+    "ctaPrimary": "Termin auf der Messe vereinbaren",
+    "ctaSecondary": "Flexible Stone entdecken",
+    "videoLabel": "Messevideo Flexible Stone"
   }
 }

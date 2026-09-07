@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Beurscontent (video's, ±1 GB) — bewust niet in git
+/beurs-valencia-2026/

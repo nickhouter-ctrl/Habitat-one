@@ -1980,5 +1980,16 @@
     "kindSpace": "空间",
     "kindService": "服务",
     "refine": "还有更多结果？请细化搜索词，或在上方选择一个分类。"
+  },
+  "fair": {
+    "eyebrow": "展会 · 2026年9月28日 – 10月1日",
+    "title": "瓦伦西亚 Feria Hábitat 展会见",
+    "text": "四天时间，我们现场展示 Flexible Stone：仅几毫米厚、可贴合任何墙面的天然石材。欢迎莅临我们在 Feria Valencia 的展位，亲手触摸、弯曲、比较。",
+    "place": "Feria Valencia · 西班牙瓦伦西亚",
+    "dates": "2026年9月28日 – 10月1日",
+    "stand": "展馆与展位号即将公布",
+    "ctaPrimary": "预约展会会面",
+    "ctaSecondary": "了解 Flexible Stone",
+    "videoLabel": "Flexible Stone 展会视频"
   }
 }

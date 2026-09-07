@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Hero } from "@/components/sections/hero";
+import { FairAnnouncement } from "@/components/sections/fair-announcement";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { PinnedStorySection } from "@/components/sections/pinned-story";
 import { TestimonialCarousel } from "@/components/sections/testimonials";
@@ -122,6 +123,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <>
       <JsonLd data={websiteJsonLd} />
       <Hero />
+      <FairAnnouncement />
 
       {/* ---- What is Habitat One — the one-stop building experience ---- */}
       <Section chapter="Habitat One" className="bg-background py-20 md:py-28">

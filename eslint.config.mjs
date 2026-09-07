@@ -14,6 +14,8 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // Swarm-coördinatiebestanden — geen projectcode.
     ".bridgespace/**",
+    // Beursvideo's + montagescripts — geen sitecode.
+    "beurs-valencia-2026/**",
   ]),
 ]);
 
