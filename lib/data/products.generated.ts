@@ -38,6 +38,7 @@ export interface CatalogProduct {
   /** Merk-slug (zie lib/data/brands.ts); null = eigen assortiment. */
   brand?: string | null;
   series?: string | null;
+  productType?: string | null;
   /** Keuze-assen; alleen gevuld voor producten met uitvoeringen. */
   optionAxes?: OptionAxis[] | null;
   collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren" | "furniture";
@@ -70,6 +71,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -108,6 +110,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -147,6 +150,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -186,6 +190,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -225,6 +230,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -264,6 +270,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -303,6 +310,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -342,6 +350,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -379,6 +388,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -417,6 +427,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -455,6 +466,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -494,6 +506,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -532,6 +545,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -570,6 +584,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -610,6 +625,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -648,6 +664,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -683,6 +700,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -721,6 +739,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -761,6 +780,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -800,6 +820,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -840,6 +861,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -878,6 +900,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -914,6 +937,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -952,6 +976,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1018,6 +1043,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1074,6 +1100,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1153,6 +1180,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1204,6 +1232,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1250,6 +1279,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1300,6 +1330,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1357,6 +1388,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1425,6 +1457,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1480,6 +1513,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1526,6 +1560,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1563,6 +1598,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1601,6 +1637,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1652,6 +1689,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1689,6 +1727,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1726,6 +1765,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1781,6 +1821,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1828,6 +1869,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1926,6 +1968,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -1994,6 +2037,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -2081,6 +2125,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -2141,6 +2186,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -2192,6 +2238,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -2261,6 +2308,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -2343,6 +2391,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -2446,6 +2495,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -2552,6 +2602,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -2623,6 +2674,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -2662,6 +2714,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2692,6 +2745,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "backer-boards",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2722,6 +2776,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2749,6 +2804,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2780,6 +2836,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2811,6 +2868,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2841,6 +2899,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2868,6 +2927,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "acrylpanelen",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2895,6 +2955,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "acrylpanelen",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2925,6 +2986,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "backer-boards",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2955,6 +3017,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -2985,6 +3048,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3012,6 +3076,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3042,6 +3107,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3069,6 +3135,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3096,6 +3163,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3123,6 +3191,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3150,6 +3219,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3177,6 +3247,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "acrylpanelen",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3204,6 +3275,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "acrylpanelen",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3231,6 +3303,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "acrylpanelen",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3258,6 +3331,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "acrylpanelen",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3285,6 +3359,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3315,6 +3390,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "backer-boards",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3345,6 +3421,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "backer-boards",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3370,6 +3447,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3400,6 +3478,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "backer-boards",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3430,6 +3509,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "backer-boards",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3460,6 +3540,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "backer-boards",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3488,6 +3569,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "accessories",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3517,6 +3599,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "wall-panels",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -3567,6 +3650,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3593,6 +3677,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "doors",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3619,6 +3704,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "doors",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3645,6 +3731,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "doors",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3671,6 +3758,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "doors",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3697,6 +3785,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "doors",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3723,6 +3812,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "doors",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": []
   },
@@ -3749,6 +3839,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bloempotten",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -3812,6 +3903,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bloempotten",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -3866,6 +3958,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bloempotten",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -3929,6 +4022,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bloempotten",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -3992,6 +4086,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bloempotten",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4055,6 +4150,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bloempotten",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4118,6 +4214,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "verlichting",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4154,6 +4251,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "verlichting",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4190,6 +4288,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "verlichting",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4226,6 +4325,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "verlichting",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4262,6 +4362,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4298,6 +4399,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4334,6 +4436,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4370,6 +4473,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4406,6 +4510,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4442,6 +4547,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4478,6 +4584,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4514,6 +4621,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4550,6 +4658,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4586,6 +4695,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4622,6 +4732,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4658,6 +4769,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4694,6 +4806,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4730,6 +4843,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4766,6 +4880,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4802,6 +4917,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "schakelmateriaal",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4838,6 +4954,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "verlichting",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4926,6 +5043,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "sfeerhaarden",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4958,6 +5076,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "sfeerhaarden",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -4990,6 +5109,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "sfeerhaarden",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5022,6 +5142,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "sfeerhaarden",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5054,6 +5175,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "sfeerhaarden",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5086,6 +5208,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "sfeerhaarden",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5118,6 +5241,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "sfeerhaarden",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5150,6 +5274,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "sfeerhaarden",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5182,6 +5307,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "sfeerhaarden",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5216,6 +5342,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "pvc-vloeren",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5250,6 +5377,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "pvc-vloeren",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5283,6 +5411,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "pvc-vloeren",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5317,6 +5446,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "pvc-vloeren",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5351,6 +5481,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "pvc-vloeren",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5385,6 +5516,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "pvc-vloeren",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5419,6 +5551,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "pvc-vloeren",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5453,6 +5586,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "pvc-vloeren",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -5489,6 +5623,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "pvc-vloeren",
     "brand": null,
     "series": null,
+    "productType": null,
     "optionAxes": null,
     "variants": [
       {
@@ -6521,5 +6656,12868 @@ export const catalogProducts: CatalogProduct[] = [
         "colour": "White"
       }
     ]
+  },
+  {
+    "id": 9578,
+    "name": "Adore",
+    "slug": "adore-9578",
+    "sku": "BRA-ADORE-3JZ8",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9579,
+    "name": "Adore Wavy",
+    "slug": "adore-wavy-9579",
+    "sku": "BRA-ADORE-WAVY-RGWR",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9580,
+    "name": "Amaze",
+    "slug": "amaze-9580",
+    "sku": "BRA-AMAZE-3K5U",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9581,
+    "name": "Asteroid douchebak",
+    "slug": "asteroid-douchebak-9581",
+    "sku": "BRA-ASTEROID-DOUCHEBAK-JB88",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "080 cm",
+            "label": "080 cm",
+            "image": null
+          },
+          {
+            "value": "090 cm",
+            "label": "090 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "180 cm",
+            "label": "180 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9582,
+    "name": "Aurora",
+    "slug": "aurora-9582",
+    "sku": "BRA-AURORA-1AM9",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "12 cm",
+            "label": "12 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9583,
+    "name": "Badwand B1 met eenzijdige uitsparingen",
+    "slug": "badwand-b1-met-eenzijdige-uitsparingen-9583",
+    "sku": "BRA-BADWAND-B1-MET-EENZIJDIGE-UITSPARINGEN-777O",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9584,
+    "name": "Badwand B2 zonder uitsparingen",
+    "slug": "badwand-b2-zonder-uitsparingen-9584",
+    "sku": "BRA-BADWAND-B2-ZONDER-UITSPARINGEN-W14W",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9585,
+    "name": "Believe",
+    "slug": "believe-9585",
+    "sku": "BRA-BELIEVE-1LMX",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9586,
+    "name": "Bijkast: Flourish",
+    "slug": "bijkast-flourish-9586",
+    "sku": "BRA-BIJKAST-FLOURISH-1KL0",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9587,
+    "name": "Bowl",
+    "slug": "bowl-9587",
+    "sku": "BRA-BOWL-YJPV",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9588,
+    "name": "Carving Hoekstopkraan met flexibele slang",
+    "slug": "carving-hoekstopkraan-met-flexibele-slang-9588",
+    "sku": "BRA-CARVING-HOEKSTOPKRAAN-MET-FLEXIBELE-SLAN-1OVC",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Hoekstopkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9589,
+    "name": "Carving Hoge opbouw wastafelmengkraan",
+    "slug": "carving-hoge-opbouw-wastafelmengkraan-9589",
+    "sku": "BRA-CARVING-HOGE-OPBOUW-WASTAFELMENGKRAAN-1JF2",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9590,
+    "name": "Carving Inbouw fonteinkraan met inkortbare uitloop",
+    "slug": "carving-inbouw-fonteinkraan-met-inkortbare-uitloop-9590",
+    "sku": "BRA-CARVING-INBOUW-FONTEINKRAAN-MET-INKORTBA-1TIY",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Fonteinkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9591,
+    "name": "Carving Inbouw wastafelmengkraan met gebogen uitloop",
+    "slug": "carving-inbouw-wastafelmengkraan-met-gebogen-uitloop-9591",
+    "sku": "BRA-CARVING-INBOUW-WASTAFELMENGKRAAN-MET-GEB-1BOQ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9592,
+    "name": "Carving Inbouw wastafelmengkraan met rechte uitloop",
+    "slug": "carving-inbouw-wastafelmengkraan-met-rechte-uitloop-9592",
+    "sku": "BRA-CARVING-INBOUW-WASTAFELMENGKRAAN-MET-REC-1JOW",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9593,
+    "name": "Carving Lage opbouw wastafelmengkraan",
+    "slug": "carving-lage-opbouw-wastafelmengkraan-9593",
+    "sku": "BRA-CARVING-LAGE-OPBOUW-WASTAFELMENGKRAAN-1XTJ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9594,
+    "name": "Carving Opbouw fonteinkraan met gebogen uitloop",
+    "slug": "carving-opbouw-fonteinkraan-met-gebogen-uitloop-9594",
+    "sku": "BRA-CARVING-OPBOUW-FONTEINKRAAN-MET-GEBOGEN-SYLO",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Fonteinkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9595,
+    "name": "Carving Opbouw thermostaten",
+    "slug": "carving-opbouw-thermostaten-9595",
+    "sku": "BRA-CARVING-OPBOUW-THERMOSTATEN-3CG8",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Thermostaten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9596,
+    "name": "Carving Thermostatische inbouw badkraan met badvulcombinatie",
+    "slug": "carving-thermostatische-inbouw-badkraan-met-badvulcombinatie-9596",
+    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-BADKRAAN-R3XM",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9597,
+    "name": "Carving Thermostatische inbouw badkraan met uitloop",
+    "slug": "carving-thermostatische-inbouw-badkraan-met-uitloop-9597",
+    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-BADKRAAN-1TJR",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9598,
+    "name": "Carving Thermostatische inbouw regendouche met 3-weg omstel",
+    "slug": "carving-thermostatische-inbouw-regendouche-met-3-weg-omstel-9598",
+    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1DJ2",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "hoofddouche",
+        "label": "Hoofddouche",
+        "values": [
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9599,
+    "name": "Carving Thermostatische inbouw regendouche met drukknoppen",
+    "slug": "carving-thermostatische-inbouw-regendouche-met-drukknoppen-9599",
+    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-CLUI",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "hoofddouche",
+        "label": "Hoofddouche",
+        "values": [
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9600,
+    "name": "Carving Thermostatische inbouw regendouche met stopkranen",
+    "slug": "carving-thermostatische-inbouw-regendouche-met-stopkranen-9600",
+    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1LZJ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "hoofddouche",
+        "label": "Hoofddouche",
+        "values": [
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9601,
+    "name": "Carving Thermostatische inbouw regendouche rond met 3-weg omstel",
+    "slug": "carving-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9601",
+    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-4BG5",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "hoofddouche",
+        "label": "Hoofddouche",
+        "values": [
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9602,
+    "name": "Carving Thermostatische opbouw badkraan",
+    "slug": "carving-thermostatische-opbouw-badkraan-9602",
+    "sku": "BRA-CARVING-THERMOSTATISCHE-OPBOUW-BADKRAAN-12VX",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9603,
+    "name": "Carving Thermostatische opbouw douchekraan",
+    "slug": "carving-thermostatische-opbouw-douchekraan-9603",
+    "sku": "BRA-CARVING-THERMOSTATISCHE-OPBOUW-DOUCHEKRA-1NTM",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9604,
+    "name": "Carving Thermostatische opbouw regendouche",
+    "slug": "carving-thermostatische-opbouw-regendouche-9604",
+    "sku": "BRA-CARVING-THERMOSTATISCHE-OPBOUW-REGENDOUC-HP7W",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "hoofddouche",
+        "label": "Hoofddouche",
+        "values": [
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9605,
+    "name": "Carving Verhoogde opbouw wastafelmengkraan",
+    "slug": "carving-verhoogde-opbouw-wastafelmengkraan-9605",
+    "sku": "BRA-CARVING-VERHOOGDE-OPBOUW-WASTAFELMENGKRA-QDSD",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9606,
+    "name": "Carving Vrijstaande badmengkraan",
+    "slug": "carving-vrijstaande-badmengkraan-9606",
+    "sku": "BRA-CARVING-VRIJSTAANDE-BADMENGKRAAN-111M",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9607,
+    "name": "Circle",
+    "slug": "circle-9607",
+    "sku": "BRA-CIRCLE-1BOD",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9608,
+    "name": "Collision",
+    "slug": "collision-9608",
+    "sku": "BRA-COLLISION-PMWN",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9609,
+    "name": "Coral",
+    "slug": "coral-9609",
+    "sku": "BRA-CORAL-3LML",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Basalt Nero Marquina",
+            "label": "Basalt Nero Marquina",
+            "image": null
+          },
+          {
+            "value": "Calacatta Gold",
+            "label": "Calacatta Gold",
+            "image": null
+          },
+          {
+            "value": "Copper Brown",
+            "label": "Copper Brown",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "12 cm",
+            "label": "12 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "400 cm",
+            "label": "400 cm",
+            "image": null
+          },
+          {
+            "value": "402 cm",
+            "label": "402 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "602 cm",
+            "label": "602 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9610,
+    "name": "Cosmic met draaideur",
+    "slug": "cosmic-met-draaideur-9610",
+    "sku": "BRA-COSMIC-MET-DRAAIDEUR-18RY",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9611,
+    "name": "Creek",
+    "slug": "creek-9611",
+    "sku": "BRA-CREEK-3LOM",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          },
+          {
+            "value": "220 cm",
+            "label": "220 cm",
+            "image": null
+          },
+          {
+            "value": "240 cm",
+            "label": "240 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9612,
+    "name": "Delight",
+    "slug": "delight-9612",
+    "sku": "BRA-DELIGHT-TBMF",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9613,
+    "name": "Delight Edge",
+    "slug": "delight-edge-9613",
+    "sku": "BRA-DELIGHT-EDGE-1NSL",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9614,
+    "name": "Delight Wavy",
+    "slug": "delight-wavy-9614",
+    "sku": "BRA-DELIGHT-WAVY-1NSZ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9615,
+    "name": "Deur D1/D2 voor tweepunts handgreep",
+    "slug": "deur-d1-d2-voor-tweepunts-handgreep-9615",
+    "sku": "BRA-DEUR-D1-D2-VOOR-TWEEPUNTS-HANDGREEP-1TEQ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9616,
+    "name": "Deur D3/D4 voor enkelpunts handgreep",
+    "slug": "deur-d3-d4-voor-enkelpunts-handgreep-9616",
+    "sku": "BRA-DEUR-D3-D4-VOOR-ENKELPUNTS-HANDGREEP-1XI3",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9617,
+    "name": "Douchegoten",
+    "slug": "douchegoten-9617",
+    "sku": "BRA-DOUCHEGOTEN-1TEO",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchegoten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "50 cm",
+            "label": "50 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "90 cm",
+            "label": "90 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "110 cm",
+            "label": "110 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "180 cm",
+            "label": "180 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9618,
+    "name": "Draaibare zijwand Z1 greeploos",
+    "slug": "draaibare-zijwand-z1-greeploos-9618",
+    "sku": "BRA-DRAAIBARE-ZIJWAND-Z1-GREEPLOOS-WVQ6",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9619,
+    "name": "Edition Douchepaneel",
+    "slug": "edition-douchepaneel-9619",
+    "sku": "BRA-EDITION-DOUCHEPANEEL-I4R5",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Douchepanelen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9620,
+    "name": "Edition Hoekstopkraan met flexibele slang",
+    "slug": "edition-hoekstopkraan-met-flexibele-slang-9620",
+    "sku": "BRA-EDITION-HOEKSTOPKRAAN-MET-FLEXIBELE-SLAN-1ATS",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Hoekstopkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9621,
+    "name": "Edition Hoge opbouw wastafelmengkraan",
+    "slug": "edition-hoge-opbouw-wastafelmengkraan-9621",
+    "sku": "BRA-EDITION-HOGE-OPBOUW-WASTAFELMENGKRAAN-15DY",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9622,
+    "name": "Edition Inbouw fonteinkraan met inkortbare uitloop",
+    "slug": "edition-inbouw-fonteinkraan-met-inkortbare-uitloop-9622",
+    "sku": "BRA-EDITION-INBOUW-FONTEINKRAAN-MET-INKORTBA-1IX5",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Fonteinkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9623,
+    "name": "Edition Inbouw thermostaten met stopkranen",
+    "slug": "edition-inbouw-thermostaten-met-stopkranen-9623",
+    "sku": "BRA-EDITION-INBOUW-THERMOSTATEN-MET-STOPKRAN-HTP4",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Thermostaten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9624,
+    "name": "Edition Inbouw wastafelmengkraan met gebogen uitloop",
+    "slug": "edition-inbouw-wastafelmengkraan-met-gebogen-uitloop-9624",
+    "sku": "BRA-EDITION-INBOUW-WASTAFELMENGKRAAN-MET-GEB-578Y",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9625,
+    "name": "Edition Inbouw wastafelmengkraan met rechte uitloop",
+    "slug": "edition-inbouw-wastafelmengkraan-met-rechte-uitloop-9625",
+    "sku": "BRA-EDITION-INBOUW-WASTAFELMENGKRAAN-MET-REC-1OV0",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9626,
+    "name": "Edition lage opbouw wastafelmengkraan",
+    "slug": "edition-lage-opbouw-wastafelmengkraan-9626",
+    "sku": "BRA-EDI-001",
+    "short": null,
+    "description": "Tijdloze lage opbouw wastafelmengkraan uit de Edition-serie. Massief messing met PVD-coating, binnenwerk van Kerox® en perlator van Neoperl®. Leverbaar in zes kleuren en vijf hendelmodellen.",
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Wastafelkranen",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9627,
+    "name": "Edition Lage opbouw wastafelmengkraan",
+    "slug": "edition-lage-opbouw-wastafelmengkraan-9627",
+    "sku": "BRA-EDITION-LAGE-OPBOUW-WASTAFELMENGKRAAN-1JSF",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "typehendel",
+        "label": "Type hendel",
+        "values": [
+          {
+            "value": "Model A",
+            "label": "Model A",
+            "image": null
+          },
+          {
+            "value": "Model B",
+            "label": "Model B",
+            "image": null
+          },
+          {
+            "value": "Model C",
+            "label": "Model C",
+            "image": null
+          },
+          {
+            "value": "Model D",
+            "label": "Model D",
+            "image": null
+          },
+          {
+            "value": "Model E",
+            "label": "Model E",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9628,
+    "name": "Edition Opbouw fonteinkraan",
+    "slug": "edition-opbouw-fonteinkraan-9628",
+    "sku": "BRA-EDITION-OPBOUW-FONTEINKRAAN-121V",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Fonteinkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9629,
+    "name": "Edition Opbouw fonteinkraan met gebogen uitloop",
+    "slug": "edition-opbouw-fonteinkraan-met-gebogen-uitloop-9629",
+    "sku": "BRA-EDITION-OPBOUW-FONTEINKRAAN-MET-GEBOGEN-7ZCI",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Fonteinkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9630,
+    "name": "Edition Thermostatische inbouw badkraan met badvulcombinatie",
+    "slug": "edition-thermostatische-inbouw-badkraan-met-badvulcombinatie-9630",
+    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-KWKN",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9631,
+    "name": "Edition Thermostatische inbouw badkraan met uitloop",
+    "slug": "edition-thermostatische-inbouw-badkraan-met-uitloop-9631",
+    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-1YPV",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9632,
+    "name": "Edition Thermostatische inbouw regendouche met 3-weg omstel",
+    "slug": "edition-thermostatische-inbouw-regendouche-met-3-weg-omstel-9632",
+    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1SEP",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "hoofddouche",
+        "label": "Hoofddouche",
+        "values": [
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9633,
+    "name": "Edition Thermostatische inbouw regendouche met drukknoppen",
+    "slug": "edition-thermostatische-inbouw-regendouche-met-drukknoppen-9633",
+    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1M9B",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "hoofddouche",
+        "label": "Hoofddouche",
+        "values": [
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9634,
+    "name": "Edition Thermostatische inbouw regendouche met stopkranen",
+    "slug": "edition-thermostatische-inbouw-regendouche-met-stopkranen-9634",
+    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1NDC",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "hoofddouche",
+        "label": "Hoofddouche",
+        "values": [
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9635,
+    "name": "Edition Thermostatische inbouw regendouche rond met 3-weg omstel",
+    "slug": "edition-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9635",
+    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-Q77J",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "hoofddouche",
+        "label": "Hoofddouche",
+        "values": [
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9636,
+    "name": "Edition Thermostatische opbouw badkraan",
+    "slug": "edition-thermostatische-opbouw-badkraan-9636",
+    "sku": "BRA-EDITION-THERMOSTATISCHE-OPBOUW-BADKRAAN-UBUU",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9637,
+    "name": "Edition Thermostatische opbouw douchekraan",
+    "slug": "edition-thermostatische-opbouw-douchekraan-9637",
+    "sku": "BRA-EDITION-THERMOSTATISCHE-OPBOUW-DOUCHEKRA-MKWZ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9638,
+    "name": "Edition Thermostatische opbouw regendouche",
+    "slug": "edition-thermostatische-opbouw-regendouche-9638",
+    "sku": "BRA-EDITION-THERMOSTATISCHE-OPBOUW-REGENDOUC-1FHM",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "hoofddouche",
+        "label": "Hoofddouche",
+        "values": [
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9639,
+    "name": "Edition Verhoogde opbouw wastafelmengkraan",
+    "slug": "edition-verhoogde-opbouw-wastafelmengkraan-9639",
+    "sku": "BRA-EDITION-VERHOOGDE-OPBOUW-WASTAFELMENGKRA-1O66",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "typehendel",
+        "label": "Type hendel",
+        "values": [
+          {
+            "value": "Model A",
+            "label": "Model A",
+            "image": null
+          },
+          {
+            "value": "Model B",
+            "label": "Model B",
+            "image": null
+          },
+          {
+            "value": "Model C",
+            "label": "Model C",
+            "image": null
+          },
+          {
+            "value": "Model D",
+            "label": "Model D",
+            "image": null
+          },
+          {
+            "value": "Model E",
+            "label": "Model E",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9640,
+    "name": "Edition Vrijstaande badmengkraan",
+    "slug": "edition-vrijstaande-badmengkraan-9640",
+    "sku": "BRA-EDITION-VRIJSTAANDE-BADMENGKRAAN-DPEP",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Edition",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9641,
+    "name": "Elevate",
+    "slug": "elevate-9641",
+    "sku": "BRA-ELEVATE-1J2Y",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "30 cm",
+            "label": "30 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9642,
+    "name": "Embrace",
+    "slug": "embrace-9642",
+    "sku": "BRA-EMBRACE-1JO2",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          },
+          {
+            "value": "220 cm",
+            "label": "220 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9643,
+    "name": "Embrace Wavy",
+    "slug": "embrace-wavy-9643",
+    "sku": "BRA-EMBRACE-WAVY-1W8J",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          },
+          {
+            "value": "220 cm",
+            "label": "220 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9644,
+    "name": "Frost",
+    "slug": "frost-9644",
+    "sku": "BRA-FROST-3NT4",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9645,
+    "name": "Galactic 2-delig met schuifdeur",
+    "slug": "galactic-2-delig-met-schuifdeur-9645",
+    "sku": "BRA-GALACTIC-2-DELIG-MET-SCHUIFDEUR-19Q7",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9646,
+    "name": "Galactic 3-delig met schuifdeur",
+    "slug": "galactic-3-delig-met-schuifdeur-9646",
+    "sku": "BRA-GALACTIC-3-DELIG-MET-SCHUIFDEUR-6IIY",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9647,
+    "name": "Glacier",
+    "slug": "glacier-9647",
+    "sku": "BRA-GLACIER-QOFR",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "400 cm",
+            "label": "400 cm",
+            "image": null
+          },
+          {
+            "value": "402 cm",
+            "label": "402 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "602 cm",
+            "label": "602 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9648,
+    "name": "Gravity",
+    "slug": "gravity-9648",
+    "sku": "BRA-GRAVITY-UKN9",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "12 cm",
+            "label": "12 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "400 cm",
+            "label": "400 cm",
+            "image": null
+          },
+          {
+            "value": "402 cm",
+            "label": "402 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "602 cm",
+            "label": "602 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9649,
+    "name": "Halo",
+    "slug": "halo-9649",
+    "sku": "BRA-HALO-YJU6",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9650,
+    "name": "Handgrepen beslag",
+    "slug": "handgrepen-beslag-9650",
+    "sku": "BRA-HANDGREPEN-BESLAG-1N2J",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9651,
+    "name": "Hope",
+    "slug": "hope-9651",
+    "sku": "BRA-HOPE-YJUI",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9652,
+    "name": "Hope Wavy",
+    "slug": "hope-wavy-9652",
+    "sku": "BRA-HOPE-WAVY-1HLO",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9653,
+    "name": "Inspire",
+    "slug": "inspire-9653",
+    "sku": "BRA-INSPIRE-Q5RZ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9654,
+    "name": "Joy Edge",
+    "slug": "joy-edge-9654",
+    "sku": "BRA-JOY-EDGE-IU7U",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9655,
+    "name": "Joy Wavy",
+    "slug": "joy-wavy-9655",
+    "sku": "BRA-JOY-WAVY-IULN",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9656,
+    "name": "Lava",
+    "slug": "lava-9656",
+    "sku": "BRA-LAVA-YJX9",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "12 cm",
+            "label": "12 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9657,
+    "name": "Luminis 1-delig en 2-delig met draai-schuifdeur",
+    "slug": "luminis-1-delig-en-2-delig-met-draai-schuifdeur-9657",
+    "sku": "BRA-LUMINIS-1-DELIG-EN-2-DELIG-MET-DRAAI-SCH-1KTX",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9658,
+    "name": "Luminis 2-delig en 3-delig met draai-schuifdeur",
+    "slug": "luminis-2-delig-en-3-delig-met-draai-schuifdeur-9658",
+    "sku": "BRA-LUMINIS-2-DELIG-EN-3-DELIG-MET-DRAAI-SCH-4TPJ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9659,
+    "name": "Lunar",
+    "slug": "lunar-9659",
+    "sku": "BRA-LUNAR-3S3W",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "12 cm",
+            "label": "12 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9660,
+    "name": "Magma",
+    "slug": "magma-9660",
+    "sku": "BRA-MAGMA-3SDR",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "12 cm",
+            "label": "12 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "400 cm",
+            "label": "400 cm",
+            "image": null
+          },
+          {
+            "value": "402 cm",
+            "label": "402 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "602 cm",
+            "label": "602 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9661,
+    "name": "Mirage",
+    "slug": "mirage-9661",
+    "sku": "BRA-MIRAGE-1I5D",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Basalt Nero Marquina",
+            "label": "Basalt Nero Marquina",
+            "image": null
+          },
+          {
+            "value": "Calacatta Gold",
+            "label": "Calacatta Gold",
+            "image": null
+          },
+          {
+            "value": "Copper Brown",
+            "label": "Copper Brown",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9662,
+    "name": "Molten",
+    "slug": "molten-9662",
+    "sku": "BRA-MOLTEN-1I9H",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9663,
+    "name": "Moon",
+    "slug": "moon-9663",
+    "sku": "BRA-MOON-YJYC",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "12 cm",
+            "label": "12 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "400 cm",
+            "label": "400 cm",
+            "image": null
+          },
+          {
+            "value": "402 cm",
+            "label": "402 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9664,
+    "name": "Nova",
+    "slug": "nova-9664",
+    "sku": "BRA-NOVA-YJZ4",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Basalt Nero Marquina",
+            "label": "Basalt Nero Marquina",
+            "image": null
+          },
+          {
+            "value": "Calacatta Gold",
+            "label": "Calacatta Gold",
+            "image": null
+          },
+          {
+            "value": "Copper Brown",
+            "label": "Copper Brown",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9665,
+    "name": "Oblivion",
+    "slug": "oblivion-9665",
+    "sku": "BRA-OBLIVION-1PZN",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9666,
+    "name": "Oblivion Flow",
+    "slug": "oblivion-flow-9666",
+    "sku": "BRA-OBLIVION-FLOW-13WA",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9667,
+    "name": "Oblivion Flow met zijwand",
+    "slug": "oblivion-flow-met-zijwand-9667",
+    "sku": "BRA-OBLIVION-FLOW-MET-ZIJWAND-LQIZ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9668,
+    "name": "Oblivion met zijwand",
+    "slug": "oblivion-met-zijwand-9668",
+    "sku": "BRA-OBLIVION-MET-ZIJWAND-1RWD",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9669,
+    "name": "Ocean Edge",
+    "slug": "ocean-edge-9669",
+    "sku": "BRA-OCEAN-EDGE-1RI1",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          },
+          {
+            "value": "220 cm",
+            "label": "220 cm",
+            "image": null
+          },
+          {
+            "value": "240 cm",
+            "label": "240 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9670,
+    "name": "Ocean Medium",
+    "slug": "ocean-medium-9670",
+    "sku": "BRA-OCEAN-MEDIUM-18IP",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          },
+          {
+            "value": "220 cm",
+            "label": "220 cm",
+            "image": null
+          },
+          {
+            "value": "240 cm",
+            "label": "240 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9671,
+    "name": "Ocean Slim",
+    "slug": "ocean-slim-9671",
+    "sku": "BRA-OCEAN-SLIM-1RIC",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          },
+          {
+            "value": "220 cm",
+            "label": "220 cm",
+            "image": null
+          },
+          {
+            "value": "240 cm",
+            "label": "240 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9672,
+    "name": "Orion",
+    "slug": "orion-9672",
+    "sku": "BRA-ORION-3U5Q",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9673,
+    "name": "Overig",
+    "slug": "overig-9673",
+    "sku": "BRA-OVERIG-1JOW",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9674,
+    "name": "Overige waskommen",
+    "slug": "overige-waskommen-9674",
+    "sku": "BRA-OVERIGE-WASKOMMEN-1NHT",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "41 cm",
+            "label": "41 cm",
+            "image": null
+          },
+          {
+            "value": "71 cm",
+            "label": "71 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9675,
+    "name": "Solar Medium",
+    "slug": "solar-medium-9675",
+    "sku": "BRA-SOLAR-MEDIUM-VLVN",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "12 cm",
+            "label": "12 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "400 cm",
+            "label": "400 cm",
+            "image": null
+          },
+          {
+            "value": "402 cm",
+            "label": "402 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "602 cm",
+            "label": "602 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9676,
+    "name": "Solar Slim",
+    "slug": "solar-slim-9676",
+    "sku": "BRA-SOLAR-SLIM-1SXK",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "12 cm",
+            "label": "12 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "602 cm",
+            "label": "602 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9677,
+    "name": "Solar Thick",
+    "slug": "solar-thick-9677",
+    "sku": "BRA-SOLAR-THICK-BUXK",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "10 cm",
+            "label": "10 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "12 cm",
+            "label": "12 cm",
+            "image": null
+          },
+          {
+            "value": "20 cm",
+            "label": "20 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "400 cm",
+            "label": "400 cm",
+            "image": null
+          },
+          {
+            "value": "402 cm",
+            "label": "402 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "602 cm",
+            "label": "602 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9678,
+    "name": "Spring",
+    "slug": "spring-9678",
+    "sku": "BRA-SPRING-1M64",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "000 cm",
+            "label": "000 cm",
+            "image": null
+          },
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "002 cm",
+            "label": "002 cm",
+            "image": null
+          },
+          {
+            "value": "600 cm",
+            "label": "600 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "800 cm",
+            "label": "800 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9679,
+    "name": "Stabilisatiestang beslag",
+    "slug": "stabilisatiestang-beslag-9679",
+    "sku": "BRA-STABILISATIESTANG-BESLAG-UYP5",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9680,
+    "name": "Starfall",
+    "slug": "starfall-9680",
+    "sku": "BRA-STARFALL-1QFA",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "001 cm",
+            "label": "001 cm",
+            "image": null
+          },
+          {
+            "value": "11 cm",
+            "label": "11 cm",
+            "image": null
+          },
+          {
+            "value": "22 cm",
+            "label": "22 cm",
+            "image": null
+          },
+          {
+            "value": "601 cm",
+            "label": "601 cm",
+            "image": null
+          },
+          {
+            "value": "801 cm",
+            "label": "801 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9681,
+    "name": "Stellar 2-delig met draaideur",
+    "slug": "stellar-2-delig-met-draaideur-9681",
+    "sku": "BRA-STELLAR-2-DELIG-MET-DRAAIDEUR-1PNM",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9682,
+    "name": "Stellar 3-delig met draaideur",
+    "slug": "stellar-3-delig-met-draaideur-9682",
+    "sku": "BRA-STELLAR-3-DELIG-MET-DRAAIDEUR-D442",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9683,
+    "name": "Stripe Badvullers",
+    "slug": "stripe-badvullers-9683",
+    "sku": "BRA-STRIPE-BADVULLERS-QN2Z",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Badvullers",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9684,
+    "name": "Stripe Douchegoten met multifunctioneel rooster",
+    "slug": "stripe-douchegoten-met-multifunctioneel-rooster-9684",
+    "sku": "BRA-STRIPE-DOUCHEGOTEN-MET-MULTIFUNCTIONEEL-1KDX",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchegoten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "lengte",
+        "label": "Lengte",
+        "values": [
+          {
+            "value": "50 cm",
+            "label": "50 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "90 cm",
+            "label": "90 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "110 cm",
+            "label": "110 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "180 cm",
+            "label": "180 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9685,
+    "name": "Stripe Douchegoten met standaard rooster",
+    "slug": "stripe-douchegoten-met-standaard-rooster-9685",
+    "sku": "BRA-STRIPE-DOUCHEGOTEN-MET-STANDAARD-ROOSTER-1W9I",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchegoten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "lengte",
+        "label": "Lengte",
+        "values": [
+          {
+            "value": "50 cm",
+            "label": "50 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "90 cm",
+            "label": "90 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "110 cm",
+            "label": "110 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "180 cm",
+            "label": "180 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9686,
+    "name": "Stripe Douchegoten Small",
+    "slug": "stripe-douchegoten-small-9686",
+    "sku": "BRA-STRIPE-DOUCHEGOTEN-SMALL-10BW",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchegoten",
+    "optionAxes": [
+      {
+        "key": "lengte",
+        "label": "Lengte",
+        "values": [
+          {
+            "value": "50 cm",
+            "label": "50 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "90 cm",
+            "label": "90 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9687,
+    "name": "Stripe Douchegoten XS",
+    "slug": "stripe-douchegoten-xs-9687",
+    "sku": "BRA-STRIPE-DOUCHEGOTEN-XS-I85S",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchegoten",
+    "optionAxes": [
+      {
+        "key": "lengte",
+        "label": "Lengte",
+        "values": [
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "90 cm",
+            "label": "90 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9688,
+    "name": "Stripe Doucherek hangend",
+    "slug": "stripe-doucherek-hangend-9688",
+    "sku": "BRA-STRIPE-DOUCHEREK-HANGEND-7I4W",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "accessories",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Accessoires",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9689,
+    "name": "Stripe Fonteinkranen",
+    "slug": "stripe-fonteinkranen-9689",
+    "sku": "BRA-STRIPE-FONTEINKRANEN-SIK0",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Fonteinkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9690,
+    "name": "Stripe Handdoekhaak",
+    "slug": "stripe-handdoekhaak-9690",
+    "sku": "BRA-STRIPE-HANDDOEKHAAK-1EIA",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "accessories",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Accessoires",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9691,
+    "name": "Stripe Handdoekrekken en -beugels",
+    "slug": "stripe-handdoekrekken-en-beugels-9691",
+    "sku": "BRA-STRIPE-HANDDOEKREKKEN-EN-BEUGELS-AETP",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "accessories",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Accessoires",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9692,
+    "name": "Stripe Handdouchehouders en glijstangen",
+    "slug": "stripe-handdouchehouders-en-glijstangen-9692",
+    "sku": "BRA-STRIPE-HANDDOUCHEHOUDERS-EN-GLIJSTANGEN-1RMS",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Handdouches",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9693,
+    "name": "Stripe Hoge opbouw wastafelmengkranen",
+    "slug": "stripe-hoge-opbouw-wastafelmengkranen-9693",
+    "sku": "BRA-STRIPE-HOGE-OPBOUW-WASTAFELMENGKRANEN-K1WF",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9694,
+    "name": "Stripe Inbouw 3-weg thermostaten rechthoekig",
+    "slug": "stripe-inbouw-3-weg-thermostaten-rechthoekig-9694",
+    "sku": "BRA-STRIPE-INBOUW-3-WEG-THERMOSTATEN-RECHTHO-1GGH",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Thermostaten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9695,
+    "name": "Stripe Inbouw 3-weg thermostaten rond",
+    "slug": "stripe-inbouw-3-weg-thermostaten-rond-9695",
+    "sku": "BRA-STRIPE-INBOUW-3-WEG-THERMOSTATEN-ROND-TVKX",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Thermostaten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9696,
+    "name": "Stripe Inbouw thermostaten met drukknoppen",
+    "slug": "stripe-inbouw-thermostaten-met-drukknoppen-9696",
+    "sku": "BRA-STRIPE-INBOUW-THERMOSTATEN-MET-DRUKKNOPP-D0BO",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Thermostaten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9697,
+    "name": "Stripe Inbouw thermostaten met stopkranen",
+    "slug": "stripe-inbouw-thermostaten-met-stopkranen-9697",
+    "sku": "BRA-STRIPE-INBOUW-THERMOSTATEN-MET-STOPKRANE-1DE0",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Thermostaten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9698,
+    "name": "Stripe Inbouw wastafelmengkranen",
+    "slug": "stripe-inbouw-wastafelmengkranen-9698",
+    "sku": "BRA-STRIPE-INBOUW-WASTAFELMENGKRANEN-ZI44",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9699,
+    "name": "Stripe Losse multifunctionele roosters",
+    "slug": "stripe-losse-multifunctionele-roosters-9699",
+    "sku": "BRA-STRIPE-LOSSE-MULTIFUNCTIONELE-ROOSTERS-1MCE",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchegoten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "lengte",
+        "label": "Lengte",
+        "values": [
+          {
+            "value": "50 cm",
+            "label": "50 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "90 cm",
+            "label": "90 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "110 cm",
+            "label": "110 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "180 cm",
+            "label": "180 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9700,
+    "name": "Stripe Losse standaard roosters",
+    "slug": "stripe-losse-standaard-roosters-9700",
+    "sku": "BRA-STRIPE-LOSSE-STANDAARD-ROOSTERS-LEBW",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchegoten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "lengte",
+        "label": "Lengte",
+        "values": [
+          {
+            "value": "50 cm",
+            "label": "50 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "90 cm",
+            "label": "90 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "110 cm",
+            "label": "110 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "180 cm",
+            "label": "180 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9701,
+    "name": "Stripe Muur- en plafondarmen",
+    "slug": "stripe-muur-en-plafondarmen-9701",
+    "sku": "BRA-STRIPE-MUUR-EN-PLAFONDARMEN-1LSA",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchearmen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9702,
+    "name": "Stripe Opbouw thermostaten",
+    "slug": "stripe-opbouw-thermostaten-9702",
+    "sku": "BRA-STRIPE-OPBOUW-THERMOSTATEN-1EN9",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Thermostaten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9703,
+    "name": "Stripe Overloopring",
+    "slug": "stripe-overloopring-9703",
+    "sku": "BRA-STRIPE-OVERLOOPRING-1D8U",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "accessories",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Accessoires",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9704,
+    "name": "Stripe Regendouches",
+    "slug": "stripe-regendouches-9704",
+    "sku": "BRA-STRIPE-REGENDOUCHES-4Q31",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Glijstangen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9705,
+    "name": "Stripe Thermostatische inbouw badkraan met badvulcombinatie",
+    "slug": "stripe-thermostatische-inbouw-badkraan-met-badvulcombinatie-9705",
+    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-BADKRAAN-M-ZC8G",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9706,
+    "name": "Stripe Thermostatische inbouw badkraan met uitloop",
+    "slug": "stripe-thermostatische-inbouw-badkraan-met-uitloop-9706",
+    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-BADKRAAN-M-1DZJ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9707,
+    "name": "Stripe Thermostatische inbouw regendouche met 3-weg omstel",
+    "slug": "stripe-thermostatische-inbouw-regendouche-met-3-weg-omstel-9707",
+    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-6Q9W",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9708,
+    "name": "Stripe Thermostatische inbouw regendouche met drukknoppen",
+    "slug": "stripe-thermostatische-inbouw-regendouche-met-drukknoppen-9708",
+    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-706I",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9709,
+    "name": "Stripe Thermostatische inbouw regendouche met stopkranen",
+    "slug": "stripe-thermostatische-inbouw-regendouche-met-stopkranen-9709",
+    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-14LI",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9710,
+    "name": "Stripe Thermostatische inbouw regendouche rond met 3-weg omstel",
+    "slug": "stripe-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9710",
+    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-126Q",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "bevestiginghoofddouche",
+        "label": "Bevestiging hoofddouche",
+        "values": [
+          {
+            "value": "Gebogen wandarm",
+            "label": "Gebogen wandarm",
+            "image": null
+          },
+          {
+            "value": "Plafondbuis",
+            "label": "Plafondbuis",
+            "image": null
+          },
+          {
+            "value": "Rechte wandarm",
+            "label": "Rechte wandarm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9711,
+    "name": "Stripe Thermostatische opbouw badkraan",
+    "slug": "stripe-thermostatische-opbouw-badkraan-9711",
+    "sku": "BRA-STRIPE-THERMOSTATISCHE-OPBOUW-BADKRAAN-FC3P",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9712,
+    "name": "Stripe Thermostatische opbouw doucheset",
+    "slug": "stripe-thermostatische-opbouw-doucheset-9712",
+    "sku": "BRA-STRIPE-THERMOSTATISCHE-OPBOUW-DOUCHESET-1YFF",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douchekranen",
+    "optionAxes": [
+      {
+        "key": "glijstang",
+        "label": "Glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9713,
+    "name": "Stripe Toilet",
+    "slug": "stripe-toilet-9713",
+    "sku": "BRA-STRIPE-TOILET-1XH7",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Toilet",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9714,
+    "name": "Stripe Verhoogde opbouw wastafelmengkraan",
+    "slug": "stripe-verhoogde-opbouw-wastafelmengkraan-9714",
+    "sku": "BRA-STRIPE-VERHOOGDE-OPBOUW-WASTAFELMENGKRAA-KPEF",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9715,
+    "name": "Stripe Vrijstaande badmengkraan",
+    "slug": "stripe-vrijstaande-badmengkraan-9715",
+    "sku": "BRA-STRIPE-VRIJSTAANDE-BADMENGKRAAN-JJT8",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Badkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud",
+            "label": "Goud",
+            "image": null
+          },
+          {
+            "value": "Gunmetal",
+            "label": "Gunmetal",
+            "image": null
+          },
+          {
+            "value": "Koper",
+            "label": "Koper",
+            "image": null
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig geborsteld",
+            "label": "RVS-kleurig geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9716,
+    "name": "Tide",
+    "slug": "tide-9716",
+    "sku": "BRA-TIDE-YK3L",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          },
+          {
+            "value": "220 cm",
+            "label": "220 cm",
+            "image": null
+          },
+          {
+            "value": "240 cm",
+            "label": "240 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9717,
+    "name": "Trust",
+    "slug": "trust-9717",
+    "sku": "BRA-TRUST-3XP4",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "128 cm",
+            "label": "128 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "320 cm",
+            "label": "320 cm",
+            "image": null
+          },
+          {
+            "value": "480 cm",
+            "label": "480 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9718,
+    "name": "Void",
+    "slug": "void-9718",
+    "sku": "BRA-VOID-YK5A",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9719,
+    "name": "Void 2-delig met draaideur",
+    "slug": "void-2-delig-met-draaideur-9719",
+    "sku": "BRA-VOID-2-DELIG-MET-DRAAIDEUR-1KWZ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9720,
+    "name": "Void 2-delig met draaideur op glas",
+    "slug": "void-2-delig-met-draaideur-op-glas-9720",
+    "sku": "BRA-VOID-2-DELIG-MET-DRAAIDEUR-OP-GLAS-NVUQ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9721,
+    "name": "Void 2-delig met draaideur op muur",
+    "slug": "void-2-delig-met-draaideur-op-muur-9721",
+    "sku": "BRA-VOID-2-DELIG-MET-DRAAIDEUR-OP-MUUR-NVZK",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9722,
+    "name": "Void Carving 2-delig met draaideur",
+    "slug": "void-carving-2-delig-met-draaideur-9722",
+    "sku": "BRA-VOID-CARVING-2-DELIG-MET-DRAAIDEUR-1SNF",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9723,
+    "name": "Void Carving 2-delig met draaideur op glas",
+    "slug": "void-carving-2-delig-met-draaideur-op-glas-9723",
+    "sku": "BRA-VOID-CARVING-2-DELIG-MET-DRAAIDEUR-OP-GL-12KP",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9724,
+    "name": "Void Carving 2-delig met draaideur op muur",
+    "slug": "void-carving-2-delig-met-draaideur-op-muur-9724",
+    "sku": "BRA-VOID-CARVING-2-DELIG-MET-DRAAIDEUR-OP-MU-12KU",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9725,
+    "name": "Void Carving met draaideur",
+    "slug": "void-carving-met-draaideur-9725",
+    "sku": "BRA-VOID-CARVING-MET-DRAAIDEUR-1AAL",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9726,
+    "name": "Void Carving met pendeldeuren",
+    "slug": "void-carving-met-pendeldeuren-9726",
+    "sku": "BRA-VOID-CARVING-MET-PENDELDEUREN-19TS",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9727,
+    "name": "Void met draaideur",
+    "slug": "void-met-draaideur-9727",
+    "sku": "BRA-VOID-MET-DRAAIDEUR-3TD6",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9728,
+    "name": "Void met pendeldeuren",
+    "slug": "void-met-pendeldeuren-9728",
+    "sku": "BRA-VOID-MET-PENDELDEUREN-L815",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9729,
+    "name": "Void met zijwand",
+    "slug": "void-met-zijwand-9729",
+    "sku": "BRA-VOID-MET-ZIJWAND-UFS9",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": null
+          },
+          {
+            "value": "Goud Geborsteld",
+            "label": "Goud Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Gunmetal Geborsteld",
+            "label": "Gunmetal Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Koper Geborsteld",
+            "label": "Koper Geborsteld",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "RVS-kleurig Geborsteld",
+            "label": "RVS-kleurig Geborsteld",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9730,
+    "name": "Voor handdoeken",
+    "slug": "voor-handdoeken-9730",
+    "sku": "BRA-VOOR-HANDDOEKEN-NKRS",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9731,
+    "name": "Voor je toiletruimte",
+    "slug": "voor-je-toiletruimte-9731",
+    "sku": "BRA-VOOR-JE-TOILETRUIMTE-1UTF",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9732,
+    "name": "Voor wastafels",
+    "slug": "voor-wastafels-9732",
+    "sku": "BRA-VOOR-WASTAFELS-1M1F",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9733,
+    "name": "Vortex",
+    "slug": "vortex-9733",
+    "sku": "BRA-VORTEX-1O3B",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9734,
+    "name": "Vulcanic",
+    "slug": "vulcanic-9734",
+    "sku": "BRA-VULCANIC-3532",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9735,
+    "name": "Wand W1 met eenzijdige uitsparingen",
+    "slug": "wand-w1-met-eenzijdige-uitsparingen-9735",
+    "sku": "BRA-WAND-W1-MET-EENZIJDIGE-UITSPARINGEN-1GTY",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9736,
+    "name": "Wand W2 met tweezijdige uitsparingen",
+    "slug": "wand-w2-met-tweezijdige-uitsparingen-9736",
+    "sku": "BRA-WAND-W2-MET-TWEEZIJDIGE-UITSPARINGEN-1Y7G",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9737,
+    "name": "Wand W3 zonder uitsparingen",
+    "slug": "wand-w3-zonder-uitsparingen-9737",
+    "sku": "BRA-WAND-W3-ZONDER-UITSPARINGEN-E0WP",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9738,
+    "name": "Wand W4 zonder uitsparingen",
+    "slug": "wand-w4-zonder-uitsparingen-9738",
+    "sku": "BRA-WAND-W4-ZONDER-UITSPARINGEN-10II",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9739,
+    "name": "Waskommen",
+    "slug": "waskommen-9739",
+    "sku": "BRA-WASKOMMEN-19CJ",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": null,
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "furniture",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Badkamermeubels",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": null
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": null
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": null
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": null
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": null
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Forest Wheat",
+            "label": "KLEURSAMPLES Forest Wheat",
+            "image": null
+          },
+          {
+            "value": "KLEURSAMPLES Mat Beige",
+            "label": "KLEURSAMPLES Mat Beige",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": null
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": null
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": null
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": null
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": null
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": null
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": null
+          },
+          {
+            "value": "Mat Zwart",
+            "label": "Mat Zwart",
+            "image": null
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": null
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": null
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": null
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": null
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
   }
 ];

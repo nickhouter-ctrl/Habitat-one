@@ -157,6 +157,9 @@ const outProducts = products
       collection: COLLECTIONS.has(clean(p.collection)) ? clean(p.collection) : collectionFor(clean(p.name)),
       brand: clean(p.brand) ? clean(p.brand).toLowerCase() : null,
       series: clean(p.series) || null,
+      // Het producttype zoals de leverancier het noemt (wastafelkranen,
+      // douchegoten, badkamermeubels) — het filter op de merkpagina.
+      productType: clean(p.product_type) || null,
       optionAxes: optionsByProduct[id]?.axes ?? null,
       variants: vs,
     };
@@ -313,6 +316,7 @@ export interface CatalogProduct {
   /** Merk-slug (zie lib/data/brands.ts); null = eigen assortiment. */
   brand?: string | null;
   series?: string | null;
+  productType?: string | null;
   /** Keuze-assen; alleen gevuld voor producten met uitvoeringen. */
   optionAxes?: OptionAxis[] | null;
   collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren" | "furniture";
