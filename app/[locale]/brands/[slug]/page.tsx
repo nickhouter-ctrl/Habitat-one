@@ -8,6 +8,8 @@ import { CtaBanner } from "@/components/sections/cta-banner";
 import { Container, Section } from "@/components/ui/section";
 import { catalogProducts } from "@/lib/data/catalog";
 import { BRANDS } from "@/lib/data/brands";
+import { term } from "@/lib/data/catalog-i18n";
+import { Link } from "@/i18n/navigation";
 import { seoAlternates } from "@/lib/seo/alternates";
 
 export function generateStaticParams() {
@@ -48,6 +50,17 @@ export default async function BrandPage({
   if (!merk) notFound();
   const t = await getTranslations("brands");
 
+  const topTypes = Object.entries(
+    catalogProducts
+      .filter((p) => p.brand === slug)
+      .reduce<Record<string, number>>((acc, p) => {
+        if (p.productType) acc[p.productType] = (acc[p.productType] ?? 0) + 1;
+        return acc;
+      }, {}),
+  )
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8);
+
   const producten = catalogProducts
     .filter((p) => p.brand === slug)
     .sort(
@@ -78,19 +91,50 @@ export default async function BrandPage({
             <p className="mt-5 text-base leading-relaxed text-ink-soft md:text-[1.05rem]">
               {t("brauerLead")}
             </p>
-            {merk.url && (
-              <a
-                href={merk.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-block text-sm text-ink-soft underline underline-offset-4 hover:text-ink"
-              >
-                {merk.name.toLowerCase()} — {t("moreInfo")}
-              </a>
-            )}
           </div>
         </Container>
       </Section>
+
+      {/* Waarom dit merk — drie punten die op de catalogus zelf zijn gebaseerd. */}
+      <Section className="bg-sand-50">
+        <Container>
+          <div className="grid gap-10 md:grid-cols-3 md:gap-12">
+            {(
+              [
+                ["uspColoursTitle", "uspColoursBody"],
+                ["uspDesignTitle", "uspDesignBody"],
+                ["uspQualityTitle", "uspQualityBody"],
+              ] as const
+            ).map(([titel, tekst]) => (
+              <div key={titel}>
+                <h2 className="font-display text-xl text-ink md:text-2xl">{t(titel)}</h2>
+                <p className="mt-3 text-[0.95rem] leading-relaxed text-ink-soft">{t(tekst)}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      {/* Waar zoek je naar: de grootste productsoorten als ingang. */}
+      {topTypes.length > 0 && (
+        <Section>
+          <Container>
+            <h2 className="font-display text-2xl text-ink md:text-3xl">{t("categoriesTitle")}</h2>
+            <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
+              {topTypes.map(([type, n]) => (
+                <Link
+                  key={type}
+                  href={`/brands/${slug}?type=${encodeURIComponent(type)}`}
+                  className="flex items-baseline justify-between gap-3 rounded-sm border border-ink/15 px-4 py-4 transition-colors hover:border-ink/40"
+                >
+                  <span className="text-sm text-ink">{term(type, locale)}</span>
+                  <span className="text-xs text-ink/40">{n}</span>
+                </Link>
+              ))}
+            </div>
+          </Container>
+        </Section>
+      )}
 
       <Section>
         <Container>
@@ -123,6 +167,15 @@ export default async function BrandPage({
               <h2 className="font-display text-2xl text-ink md:text-3xl">{t("brauerSeriesTitle")}</h2>
               <p className="mt-4 text-[0.95rem] leading-relaxed text-ink-soft">{t("brauerSeriesLead")}</p>
             </div>
+          </div>
+        </Container>
+      </Section>
+
+      <Section className="bg-sand-50">
+        <Container>
+          <div className="max-w-2xl">
+            <h2 className="font-display text-2xl text-ink md:text-3xl">{t("interestTitle")}</h2>
+            <p className="mt-3 text-[0.95rem] leading-relaxed text-ink-soft">{t("interestBody")}</p>
           </div>
         </Container>
       </Section>
