@@ -11,6 +11,7 @@ import { Link } from "@/i18n/navigation";
 import { BackLink } from "@/components/ui/back-link";
 import { ProductCard } from "@/components/cards/product-card";
 import { ProductDetailLayout } from "@/components/product-detail-layout";
+import { productCombinations } from "@/lib/data/product-options.generated";
 import { ProductDocuments } from "@/components/product-documents";
 import { getProductDocs, type DocLocale } from "@/lib/data/product-docs";
 import { CtaBanner } from "@/components/sections/cta-banner";
@@ -208,6 +209,7 @@ export default async function ProductDetailPage({
             materialList={materialList}
             spaceList={spaceList}
             variantVideos={media?.videos}
+            combinations={productCombinations[product.id]}
             labels={{
               aboutThisProduct: t("aboutThisProduct"),
               specifications: t("specifications"),

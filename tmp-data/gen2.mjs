@@ -13,6 +13,12 @@ const spaces = J("spaces.json");
 const variants = J("product_variants.json");
 const variantImages = J("product_variant_images.json");
 const wipProjects = J("wip_projects.json");
+// Keuzes per product (kleur, maat, hoofddouche, …) voor merkassortimenten.
+// Bewust een apart bestand naast product_variants.json: dat kent één as, geen
+// foto's, en wordt door de CRM-push in zijn geheel herschreven. Ontbreekt het,
+// dan verandert er niets aan de bestaande producten.
+const productOptions = fs.existsSync(`${D}/product_options.json`) ? J("product_options.json") : [];
+const optionsByProduct = Object.fromEntries(productOptions.map((o) => [o.product_id, o]));
 const wipImages = J("wip_images.json");
 
 const clean = (s) => (s == null ? "" : String(s).replace(/\s+/g, " ").trim());
@@ -47,6 +53,14 @@ function dims(p) {
 }
 
 // ---- PRODUCTS with variants ----
+// De collecties die een pagina én een vertaalsleutel hebben. Alleen deze mogen
+// van buitenaf (uit het CRM) worden meegegeven.
+const COLLECTIONS = new Set([
+  "bathroom", "wall-panels", "backer-boards", "accessories", "doors", "door-accessories",
+  "bloempotten", "verlichting", "schakelmateriaal", "acrylpanelen", "sfeerhaarden",
+  "pvc-vloeren", "furniture",
+]);
+
 function collectionFor(name) {
   const n = name.toLowerCase();
   // PVC/vinyl vloeren eerst — eigen collectie.
@@ -137,7 +151,13 @@ const outProducts = products
       materials: matSlugs,
       spaces: spaceSlugs,
       categories: catSlugs,
-      collection: collectionFor(clean(p.name)),
+      // Een expliciet meegegeven collectie wint van de naam-regex. De
+      // whitelist is niet optioneel: een typefout zou een collectie opleveren
+      // zonder pagina en zonder vertaalsleutel, en dan klapt de render.
+      collection: COLLECTIONS.has(clean(p.collection)) ? clean(p.collection) : collectionFor(clean(p.name)),
+      brand: clean(p.brand) ? clean(p.brand).toLowerCase() : null,
+      series: clean(p.series) || null,
+      optionAxes: optionsByProduct[id]?.axes ?? null,
       variants: vs,
     };
   });
@@ -264,6 +284,16 @@ export interface ProductVariant {
   piece?: string | null;
   colour?: string | null;
 }
+export interface OptionAxisValue {
+  value: string;
+  label: string;
+  image?: string | null;
+}
+export interface OptionAxis {
+  key: string;
+  label: string;
+  values: OptionAxisValue[];
+}
 export interface CatalogProduct {
   id: number;
   name: string;
@@ -280,11 +310,37 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
+  /** Merk-slug (zie lib/data/brands.ts); null = eigen assortiment. */
+  brand?: string | null;
+  series?: string | null;
+  /** Keuze-assen; alleen gevuld voor producten met uitvoeringen. */
+  optionAxes?: OptionAxis[] | null;
   collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren" | "furniture";
   variants: ProductVariant[];
 }
 
 export const catalogProducts: CatalogProduct[] = ${JSON.stringify(finalProducts, null, 2)};
+`,
+);
+
+// De combinaties (welke keuze hoort bij welke artikelcode) gaan in een EIGEN
+// bestand. Met een merkassortiment zijn dat er duizenden; in
+// products.generated.ts zou elke pagina die meedragen, terwijl alleen de
+// productpagina ze nodig heeft — en die geeft er maar één product van door.
+fs.writeFileSync(
+  "lib/data/product-options.generated.ts",
+  `// AUTO-GENERATED. Do not edit by hand. (tmp-data/gen2.mjs)
+export interface ProductCombination {
+  sku: string;
+  options: Record<string, string>;
+  image?: string | null;
+  dim?: string | null;
+}
+export const productCombinations: Record<number, ProductCombination[]> = ${JSON.stringify(
+    Object.fromEntries(productOptions.map((o) => [o.product_id, o.combinations ?? []])),
+    null,
+    2,
+  )};
 `,
 );
 

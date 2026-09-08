@@ -6,6 +6,7 @@ import { ArrowUpRight, ImageOff } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { hasColourOptions, type CatalogProduct } from "@/lib/data/catalog";
 import { PriceTag } from "@/components/account/price-tag";
+import { brandOf } from "@/lib/data/brands";
 import { cn } from "@/lib/utils";
 
 const collectionKey: Record<string, string> = {
@@ -66,6 +67,7 @@ export function ProductCard({
   if (detail && name && detail.toLowerCase().startsWith(name.toLowerCase()) && detail.length > name.length) {
     detail = detail.slice(name.length).replace(/^[\s—·-]+/, "").trim() || null;
   }
+  const merk = brandOf(product);
   const colLabel = collectionLabel ?? (collectionKey[product.collection] ? t(collectionKey[product.collection]) : "");
   const noImg = noImageLabel ?? t("noImage");
   const cardImage = imageOverride ?? product.image;
@@ -116,8 +118,20 @@ export function ProductCard({
       </div>
       <div className="mt-4 flex items-start justify-between gap-3">
         <div className="min-w-0">
-          {colLabel && (
-            <p className="text-[0.66rem] uppercase tracking-[0.22em] text-ink-soft/65">{colLabel}</p>
+          {merk ? (
+            // Het merklogo neemt de plek van het collectie-label in: bij een
+            // merkproduct is dát wat de klant herkent.
+            <Image
+              src={merk.logo}
+              alt={merk.name}
+              width={merk.logoWidth}
+              height={merk.logoHeight}
+              className="h-3 w-auto max-w-[5.5rem] object-contain opacity-70"
+            />
+          ) : (
+            colLabel && (
+              <p className="text-[0.66rem] uppercase tracking-[0.22em] text-ink-soft/65">{colLabel}</p>
+            )
           )}
           <h3 className="mt-1 text-[0.95rem] font-medium leading-snug text-ink transition-colors group-hover:text-ink-soft md:text-base">
             {name}

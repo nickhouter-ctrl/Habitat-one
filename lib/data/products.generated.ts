@@ -9,6 +9,16 @@ export interface ProductVariant {
   piece?: string | null;
   colour?: string | null;
 }
+export interface OptionAxisValue {
+  value: string;
+  label: string;
+  image?: string | null;
+}
+export interface OptionAxis {
+  key: string;
+  label: string;
+  values: OptionAxisValue[];
+}
 export interface CatalogProduct {
   id: number;
   name: string;
@@ -25,6 +35,11 @@ export interface CatalogProduct {
   materials: string[];
   spaces: string[];
   categories: string[];
+  /** Merk-slug (zie lib/data/brands.ts); null = eigen assortiment. */
+  brand?: string | null;
+  series?: string | null;
+  /** Keuze-assen; alleen gevuld voor producten met uitvoeringen. */
+  optionAxes?: OptionAxis[] | null;
   collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren" | "furniture";
   variants: ProductVariant[];
 }
@@ -53,6 +68,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 444,
@@ -88,6 +106,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 447,
@@ -124,6 +145,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 448,
@@ -160,6 +184,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 449,
@@ -196,6 +223,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 453,
@@ -232,6 +262,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 454,
@@ -268,6 +301,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 455,
@@ -304,6 +340,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 457,
@@ -338,6 +377,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 458,
@@ -373,6 +415,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 459,
@@ -408,6 +453,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 460,
@@ -444,6 +492,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 461,
@@ -479,6 +530,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 463,
@@ -514,6 +568,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 464,
@@ -551,6 +608,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 465,
@@ -586,6 +646,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 468,
@@ -618,6 +681,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 469,
@@ -653,6 +719,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 629,
@@ -690,6 +759,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 635,
@@ -726,6 +798,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 647,
@@ -763,6 +838,9 @@ export const catalogProducts: CatalogProduct[] = [
       "bathroom"
     ],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 648,
@@ -798,6 +876,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 649,
@@ -831,6 +912,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 650,
@@ -866,6 +950,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 653,
@@ -929,6 +1016,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 655,
@@ -982,6 +1072,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 659,
@@ -1058,6 +1151,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 663,
@@ -1106,6 +1202,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 666,
@@ -1149,6 +1248,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 668,
@@ -1196,6 +1298,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 669,
@@ -1250,6 +1355,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 672,
@@ -1315,6 +1423,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 676,
@@ -1367,6 +1478,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 679,
@@ -1410,6 +1524,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 681,
@@ -1444,6 +1561,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 682,
@@ -1479,6 +1599,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 683,
@@ -1527,6 +1650,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 685,
@@ -1561,6 +1687,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 686,
@@ -1595,6 +1724,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 689,
@@ -1647,6 +1779,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 690,
@@ -1691,6 +1826,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 694,
@@ -1786,6 +1924,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 699,
@@ -1851,6 +1992,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 703,
@@ -1935,6 +2079,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 709,
@@ -1992,6 +2139,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 712,
@@ -2040,6 +2190,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 715,
@@ -2106,6 +2259,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 720,
@@ -2185,6 +2341,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 724,
@@ -2285,6 +2444,9 @@ export const catalogProducts: CatalogProduct[] = [
       "living-room-walls"
     ],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 737,
@@ -2388,6 +2550,9 @@ export const catalogProducts: CatalogProduct[] = [
       "living-room-walls"
     ],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 741,
@@ -2456,6 +2621,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 749,
@@ -2492,6 +2660,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2519,6 +2690,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "backer-boards",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2546,6 +2720,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2570,6 +2747,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2598,6 +2778,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2626,6 +2809,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2653,6 +2839,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2677,6 +2866,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "acrylpanelen",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2701,6 +2893,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "acrylpanelen",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2728,6 +2923,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "backer-boards",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2755,6 +2953,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2782,6 +2983,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2806,6 +3010,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2833,6 +3040,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2857,6 +3067,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2881,6 +3094,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2905,6 +3121,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2929,6 +3148,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2953,6 +3175,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "acrylpanelen",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -2977,6 +3202,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "acrylpanelen",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3001,6 +3229,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "acrylpanelen",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3025,6 +3256,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "acrylpanelen",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3049,6 +3283,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3076,6 +3313,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "backer-boards",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3103,6 +3343,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "backer-boards",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3125,6 +3368,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3152,6 +3398,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "backer-boards",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3179,6 +3428,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "backer-boards",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3206,6 +3458,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "backer-boards",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3231,6 +3486,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "accessories",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3257,6 +3515,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "wall-panels",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 796,
@@ -3304,6 +3565,9 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "categories": [],
     "collection": "bathroom",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3327,6 +3591,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "doors",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3350,6 +3617,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "doors",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3373,6 +3643,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "doors",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3396,6 +3669,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "doors",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3419,6 +3695,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "doors",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3442,6 +3721,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "doors",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": []
   },
   {
@@ -3465,6 +3747,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "bloempotten",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 798,
@@ -3525,6 +3810,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "bloempotten",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 802,
@@ -3576,6 +3864,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "bloempotten",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 805,
@@ -3636,6 +3927,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "bloempotten",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 809,
@@ -3696,6 +3990,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "bloempotten",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 813,
@@ -3756,6 +4053,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "bloempotten",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 817,
@@ -3816,6 +4116,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "verlichting",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9101,
@@ -3849,6 +4152,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "verlichting",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9102,
@@ -3882,6 +4188,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "verlichting",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9103,
@@ -3915,6 +4224,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "verlichting",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9104,
@@ -3948,6 +4260,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9105,
@@ -3981,6 +4296,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9106,
@@ -4014,6 +4332,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9107,
@@ -4047,6 +4368,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9108,
@@ -4080,6 +4404,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9109,
@@ -4113,6 +4440,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9110,
@@ -4146,6 +4476,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9111,
@@ -4179,6 +4512,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9112,
@@ -4212,6 +4548,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9113,
@@ -4245,6 +4584,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9114,
@@ -4278,6 +4620,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9115,
@@ -4311,6 +4656,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9116,
@@ -4344,6 +4692,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9117,
@@ -4377,6 +4728,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9118,
@@ -4410,6 +4764,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9119,
@@ -4443,6 +4800,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "schakelmateriaal",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9120,
@@ -4476,6 +4836,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "verlichting",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9121,
@@ -4561,6 +4924,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "sfeerhaarden",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9601,
@@ -4590,6 +4956,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "sfeerhaarden",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9602,
@@ -4619,6 +4988,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "sfeerhaarden",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9603,
@@ -4648,6 +5020,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "sfeerhaarden",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9604,
@@ -4677,6 +5052,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "sfeerhaarden",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9605,
@@ -4706,6 +5084,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "sfeerhaarden",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9606,
@@ -4735,6 +5116,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "sfeerhaarden",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9607,
@@ -4764,6 +5148,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "sfeerhaarden",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9608,
@@ -4793,6 +5180,9 @@ export const catalogProducts: CatalogProduct[] = [
     "spaces": [],
     "categories": [],
     "collection": "sfeerhaarden",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9609,
@@ -4824,6 +5214,9 @@ export const catalogProducts: CatalogProduct[] = [
       "pvc-vloeren"
     ],
     "collection": "pvc-vloeren",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9610,
@@ -4855,6 +5248,9 @@ export const catalogProducts: CatalogProduct[] = [
       "pvc-vloeren"
     ],
     "collection": "pvc-vloeren",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9611,
@@ -4885,6 +5281,9 @@ export const catalogProducts: CatalogProduct[] = [
       "pvc-vloeren"
     ],
     "collection": "pvc-vloeren",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9612,
@@ -4916,6 +5315,9 @@ export const catalogProducts: CatalogProduct[] = [
       "pvc-vloeren"
     ],
     "collection": "pvc-vloeren",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9613,
@@ -4947,6 +5349,9 @@ export const catalogProducts: CatalogProduct[] = [
       "pvc-vloeren"
     ],
     "collection": "pvc-vloeren",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9614,
@@ -4978,6 +5383,9 @@ export const catalogProducts: CatalogProduct[] = [
       "pvc-vloeren"
     ],
     "collection": "pvc-vloeren",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9615,
@@ -5009,6 +5417,9 @@ export const catalogProducts: CatalogProduct[] = [
       "pvc-vloeren"
     ],
     "collection": "pvc-vloeren",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9616,
@@ -5040,6 +5451,9 @@ export const catalogProducts: CatalogProduct[] = [
       "pvc-vloeren"
     ],
     "collection": "pvc-vloeren",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9617,
@@ -5073,6 +5487,9 @@ export const catalogProducts: CatalogProduct[] = [
       "pvc-vloeren"
     ],
     "collection": "pvc-vloeren",
+    "brand": null,
+    "series": null,
+    "optionAxes": null,
     "variants": [
       {
         "id": 9618,

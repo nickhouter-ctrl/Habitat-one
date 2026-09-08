@@ -9,6 +9,7 @@ import { PLANTER_SIZES, type CatalogProduct } from "@/lib/data/catalog";
 import { Link } from "@/i18n/navigation";
 import { ProductQuoteActions } from "@/components/product-quote-actions";
 import { PriceTag } from "@/components/account/price-tag";
+import { brandOf } from "@/lib/data/brands";
 import { cn } from "@/lib/utils";
 
 type Media = { type: "image" | "video"; src: string; poster?: string };
@@ -24,6 +25,8 @@ export interface ProductDetailLayoutProps {
   spaceList: string[];
   /** lowercased variant name → one or more video srcs */
   variantVideos?: Record<string, string | string[]>;
+  /** Keuzes van een merkproduct: welke combinatie hoort bij welke artikelcode. */
+  combinations?: Array<{ sku: string; options: Record<string, string>; image?: string | null; dim?: string | null }>;
   labels: {
     aboutThisProduct: string;
     specifications: string;
@@ -57,6 +60,7 @@ export function ProductDetailLayout({
   materialList,
   spaceList,
   variantVideos,
+  combinations,
   labels,
 }: ProductDetailLayoutProps) {
   const t = useTranslations("products");
@@ -71,6 +75,53 @@ export function ProductDetailLayout({
   const fitClass = fitWhole ? "object-contain" : "object-cover";
 
   const [variantIdx, setVariantIdx] = useState(0);
+
+  /* ---------------------------------------------------------------- keuzes
+   * Merkproducten (Brauer) dragen hun eigen keuze-assen: kleur, maat,
+   * hoofddouche, bevestiging. Elke combinatie is een eigen artikel met een
+   * eigen code en prijs. Deze tak staat strikt achter `optionAxes`, zodat de
+   * potten-, familie- en swatch-keuzes van de bestaande producten er niet door
+   * geraakt worden.
+   */
+  const merk = brandOf(product);
+  const optionAxes = product.optionAxes ?? null;
+  const hasOptions = !!optionAxes?.length && !!combinations?.length;
+  const [keuze, setKeuze] = useState<Record<string, string>>(() => {
+    if (!optionAxes?.length || !combinations?.length) return {};
+    // Begin bij de eerste combinatie die er is, niet bij een verzonnen
+    // samenstelling die misschien niet bestaat.
+    return { ...combinations[0].options };
+  });
+  const gekozenCombinatie = useMemo(() => {
+    if (!hasOptions) return null;
+    return (
+      combinations!.find((c) => optionAxes!.every((a) => c.options[a.key] === keuze[a.key])) ?? null
+    );
+  }, [hasOptions, combinations, optionAxes, keuze]);
+
+  /** Bestaat er een combinatie als je op deze as die waarde kiest? */
+  const bestaat = (asKey: string, waarde: string) =>
+    !!combinations?.some((c) =>
+      optionAxes!.every((a) => (a.key === asKey ? c.options[a.key] === waarde : c.options[a.key] === keuze[a.key])),
+    );
+
+  /** Kiezen, en de overige assen meebewegen als de combinatie niet bestaat. */
+  function kies(asKey: string, waarde: string) {
+    const wens = { ...keuze, [asKey]: waarde };
+    const exact = combinations!.find((c) => optionAxes!.every((a) => c.options[a.key] === wens[a.key]));
+    if (exact) {
+      setKeuze(wens);
+      return;
+    }
+    // Geen exacte treffer: pak de combinatie die deze keuze wél heeft en
+    // verder zo veel mogelijk overeenkomt, zodat je nooit vastloopt.
+    const dichtstbij = combinations!
+      .filter((c) => c.options[asKey] === waarde)
+      .map((c) => ({ c, score: optionAxes!.filter((a) => c.options[a.key] === wens[a.key]).length }))
+      .sort((a, b) => b.score - a.score)[0];
+    if (dichtstbij) setKeuze({ ...dichtstbij.c.options });
+  }
+
   const activeVariant = withImages[variantIdx] ?? null;
   const fallbackImage = product.image;
   const images = activeVariant?.images.length
@@ -82,6 +133,12 @@ export function ProductDetailLayout({
   // Media = product still first (instant), then the colour's video (lazy),
   // then the remaining stills (in-room scene, texture close-up).
   const media = useMemo<Media[]>(() => {
+    // Bij een merkproduct bepaalt de gekozen combinatie het beeld; heeft die
+    // (nog) geen eigen foto, dan blijft de productfoto staan.
+    if (hasOptions) {
+      const src = gekozenCombinatie?.image || product.image;
+      return src ? [{ type: "image", src }] : [];
+    }
     const variantName = (activeVariant?.name ?? "").toLowerCase().trim();
     const v = variantVideos?.[variantName];
     const videos = Array.isArray(v) ? v : v ? [v] : [];
@@ -91,7 +148,7 @@ export function ProductDetailLayout({
     for (const src of images.slice(1)) list.push({ type: "image", src });
     return list;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [variantIdx]);
+  }, [variantIdx, gekozenCombinatie]);
 
   const [mediaIdx, setMediaIdx] = useState(0);
   const current = media[mediaIdx] ?? null;
@@ -104,6 +161,7 @@ export function ProductDetailLayout({
     setVariantIdx(i);
     setMediaIdx(0);
   }
+
 
   // Planters: a two-axis size + colour picker. Size is the SKU prefix
   // (TBO40, TEP30T…), colour is the variant name.
@@ -292,9 +350,19 @@ export function ProductDetailLayout({
 
       {/* ---- RIGHT: sticky info ---- */}
       <aside className="col-span-12 lg:col-span-5 lg:sticky lg:top-28 lg:self-start">
-        <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
-          {collectionLabel}
-        </p>
+        {merk ? (
+          <Image
+            src={merk.logo}
+            alt={merk.name}
+            width={merk.logoWidth}
+            height={merk.logoHeight}
+            className="h-5 w-auto max-w-[9rem] object-contain"
+          />
+        ) : (
+          <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+            {collectionLabel}
+          </p>
+        )}
         <h1 className="mt-4 text-3xl font-medium leading-[1.05] tracking-[-0.018em] text-ink sm:text-4xl md:text-[2.6rem]">
           {name}
         </h1>
@@ -304,7 +372,7 @@ export function ProductDetailLayout({
 
         {/* Prijs (verandert mee met de gekozen maat/variant). */}
         <div className="mt-5 text-2xl">
-          <PriceTag sku={activeVariant?.sku || product.sku} name={name} className="text-2xl" />
+          <PriceTag sku={gekozenCombinatie?.sku || activeVariant?.sku || product.sku} name={name} className="text-2xl" />
         </div>
 
         {lead && (
@@ -318,8 +386,10 @@ export function ProductDetailLayout({
 
         {/* Big, clear specifications */}
         <dl className="mt-10 border-t border-ink/15">
-          {(activeVariant?.sku || product.sku) && (
-            <SpecRow label={labels.sku}>{activeVariant?.sku || product.sku}</SpecRow>
+          {(gekozenCombinatie?.sku || activeVariant?.sku || product.sku) && (
+            <SpecRow label={labels.sku}>
+              {gekozenCombinatie?.sku || activeVariant?.sku || product.sku}
+            </SpecRow>
           )}
           {activeDim && (
             <SpecRow label={labels.dimensions}>
@@ -340,7 +410,52 @@ export function ProductDetailLayout({
         </dl>
 
         {/* Variant picker */}
-        {hasPieceAxis ? (
+        {hasOptions ? (
+          // Merkproduct: één rij per keuze, met een klein plaatje als dat er is.
+          // Combinaties die niet bestaan blijven zichtbaar maar uitgegrijsd —
+          // rustiger dan opties die verspringen terwijl je kiest.
+          <div className="mt-10 space-y-8">
+            {optionAxes!.map((as) => (
+              <div key={as.key}>
+                <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+                  {as.label}
+                  <span className="ml-3 text-ink/40">({as.values.length})</span>
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {as.values.map((waarde) => {
+                    const actief = keuze[as.key] === waarde.value;
+                    const kan = bestaat(as.key, waarde.value);
+                    return (
+                      <button
+                        key={waarde.value}
+                        type="button"
+                        onClick={() => kies(as.key, waarde.value)}
+                        aria-pressed={actief}
+                        title={waarde.label}
+                        className={cn(
+                          "flex items-center gap-2 rounded-sm border px-3 py-2 text-sm transition-colors",
+                          actief ? "border-ink bg-ink/[0.04] text-ink" : "border-ink/15 text-ink-soft hover:border-ink/40",
+                          !kan && !actief && "opacity-35",
+                        )}
+                      >
+                        {waarde.image && (
+                          <Image
+                            src={waarde.image}
+                            alt=""
+                            width={28}
+                            height={28}
+                            className="size-7 rounded-sm object-cover"
+                          />
+                        )}
+                        {waarde.label}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : hasPieceAxis ? (
           // Elementen/maten (met eigen afmeting) + losse kleurkeuze.
           <div className="mt-10 space-y-8">
             <div>
