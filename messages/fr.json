@@ -1991,5 +1991,26 @@
     "ctaPrimary": "Prendre rendez-vous au salon",
     "ctaSecondary": "Découvrir Flexible Stone",
     "videoLabel": "Vidéo du salon Flexible Stone"
+  },
+  "brands": {
+    "all": "Tous",
+    "series": "Série",
+    "type": "Type",
+    "colour": "Couleur",
+    "product": "produit",
+    "products": "produits",
+    "empty": "Aucun produit dans cette combinaison.",
+    "moreInfo": "informations sur la marque",
+    "brauerTitle": "BRAUER chez Habitat One",
+    "brauerLead": "Robinetterie, caniveaux de douche, meubles de salle de bains et verre en six finitions — du chrome et noir mat au cuivre, or, gunmetal et inox brossés. Choisissez une série et une couleur, et déclinez-les dans toute la salle de bains.",
+    "brauerStoryTitle": "À propos de BRAUER",
+    "brauerStory": "BRAUER est une marque d'origine allemande de la Ruhr, aux mains néerlandaises depuis 2020 et installée à Tiel. La robinetterie est en laiton massif avec une couche de nickel supplémentaire et un revêtement PVD haut de gamme qui approfondit la couleur et renforce la surface. Cartouches et aérateurs viennent de Kerox, Neoperl et Vernet.",
+    "brauerSeriesTitle": "Trois séries",
+    "brauerSeriesLead": "Edition a des manettes lisses, Carving un relief affirmé et Stripe un jeu de lignes discret. Mêmes couleurs, même mécanique — seule la commande change.",
+    "inBathroom": "Découvrir la gamme BRAUER",
+    "choose": "Choisir une option",
+    "close": "Fermer",
+    "more": "Voir plus",
+    "less": "Voir moins"
   }
 }

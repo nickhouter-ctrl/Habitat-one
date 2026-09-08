@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { BrandExplorer } from "@/components/brand-explorer";
 import { CtaBanner } from "@/components/sections/cta-banner";
@@ -46,6 +46,7 @@ export default async function BrandPage({
   setRequestLocale(locale);
   const merk = BRANDS[slug];
   if (!merk) notFound();
+  const t = await getTranslations("brands");
 
   const producten = catalogProducts
     .filter((p) => p.brand === slug)
@@ -72,12 +73,10 @@ export default async function BrandPage({
               priority
             />
             <h1 className="mt-8 font-display text-3xl leading-[1.05] tracking-[-0.018em] text-ink md:text-4xl">
-              {merk.name} bij Habitat One
+              {t("brauerTitle")}
             </h1>
             <p className="mt-5 text-base leading-relaxed text-ink-soft md:text-[1.05rem]">
-              Kranen, douchegoten, badkamermeubels en glas in zes afwerkingen — van chroom en mat zwart tot
-              geborsteld koper, goud, gunmetal en RVS. Kies een serie en een kleur, en trek die door over de hele
-              badkamer.
+              {t("brauerLead")}
             </p>
             {merk.url && (
               <a
@@ -86,7 +85,7 @@ export default async function BrandPage({
                 rel="noopener noreferrer"
                 className="mt-6 inline-block text-sm text-ink-soft underline underline-offset-4 hover:text-ink"
               >
-                {merk.name.toLowerCase()} — merkinformatie
+                {merk.name.toLowerCase()} — {t("moreInfo")}
               </a>
             )}
           </div>
@@ -98,14 +97,33 @@ export default async function BrandPage({
           <BrandExplorer
             products={producten}
             labels={{
-              all: "Alle",
-              series: "Serie",
-              type: "Type",
-              colour: "Kleur",
-              results: producten.length === 1 ? "product" : "producten",
-              empty: "Geen producten in deze combinatie.",
+              all: t("all"),
+              series: t("series"),
+              type: t("type"),
+              colour: t("colour"),
+              one: t("product"),
+              many: t("products"),
+              empty: t("empty"),
+              more: t("more"),
+              less: t("less"),
             }}
           />
+        </Container>
+      </Section>
+
+      {/* Het merkverhaal: waarom dit merk, en wat de series onderscheidt. */}
+      <Section className="bg-sand-50">
+        <Container>
+          <div className="grid gap-10 md:grid-cols-2 md:gap-16">
+            <div>
+              <h2 className="font-display text-2xl text-ink md:text-3xl">{t("brauerStoryTitle")}</h2>
+              <p className="mt-4 text-[0.95rem] leading-relaxed text-ink-soft">{t("brauerStory")}</p>
+            </div>
+            <div>
+              <h2 className="font-display text-2xl text-ink md:text-3xl">{t("brauerSeriesTitle")}</h2>
+              <p className="mt-4 text-[0.95rem] leading-relaxed text-ink-soft">{t("brauerSeriesLead")}</p>
+            </div>
+          </div>
         </Container>
       </Section>
 

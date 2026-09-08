@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { seoAlternates } from "@/lib/seo/alternates";
 import { CollectionLuxuryPage } from "@/components/sections/collection-luxury";
+import { BrandStrip } from "@/components/sections/brand-strip";
 
 export async function generateMetadata({
   params,
@@ -23,6 +24,9 @@ export default async function BathroomPage({
   return (
     <CollectionLuxuryPage
       collectionId="bathroom"
+      // De collectiepagina toont alleen producten mét foto; deze strook is de
+      // ingang naar het Brauer-assortiment zolang die beelden er nog niet zijn.
+      belowHero={<BrandStrip slug="brauer" locale={locale} />}
       heroImageOverride="/products/h/KKR-B051-A-life.jpg"
       galleryOverride={[
         "/products/h/KKR-WB3003B-life.jpg",

@@ -7,6 +7,8 @@ import { Link } from "@/i18n/navigation";
 import { hasColourOptions, type CatalogProduct } from "@/lib/data/catalog";
 import { PriceTag } from "@/components/account/price-tag";
 import { brandOf } from "@/lib/data/brands";
+import { productName } from "@/lib/data/catalog-i18n";
+import { useLocale } from "next-intl";
 import { cn } from "@/lib/utils";
 
 const collectionKey: Record<string, string> = {
@@ -56,8 +58,13 @@ export function ProductCard({
   imageOverride?: string;
 }) {
   const t = useTranslations("products");
-  const name =
-    product.collection === "wall-panels"
+  const merk = brandOf(product);
+  const locale = useLocale();
+  const name = merk
+    ? // Merkproducten dragen Nederlandse catalogusnamen; die gaan door het
+      // woordenboek in plaats van door de per-slug vertaalsleutels.
+      productName(product.name, locale)
+    : product.collection === "wall-panels"
       ? product.name
       : t.has(`i18n.${product.slug}.name`)
         ? t(`i18n.${product.slug}.name`)
@@ -67,7 +74,6 @@ export function ProductCard({
   if (detail && name && detail.toLowerCase().startsWith(name.toLowerCase()) && detail.length > name.length) {
     detail = detail.slice(name.length).replace(/^[\s—·-]+/, "").trim() || null;
   }
-  const merk = brandOf(product);
   const colLabel = collectionLabel ?? (collectionKey[product.collection] ? t(collectionKey[product.collection]) : "");
   const noImg = noImageLabel ?? t("noImage");
   const cardImage = imageOverride ?? product.image;

@@ -1991,5 +1991,26 @@
     "ctaPrimary": "Plan een afspraak op de beurs",
     "ctaSecondary": "Bekijk Flexible Stone",
     "videoLabel": "Beursvideo Flexible Stone"
+  },
+  "brands": {
+    "all": "Alle",
+    "series": "Serie",
+    "type": "Type",
+    "colour": "Kleur",
+    "product": "product",
+    "products": "producten",
+    "empty": "Geen producten in deze combinatie.",
+    "moreInfo": "merkinformatie",
+    "brauerTitle": "BRAUER bij Habitat One",
+    "brauerLead": "Kranen, douchegoten, badkamermeubels en glas in zes afwerkingen — van chroom en mat zwart tot geborsteld koper, goud, gunmetal en RVS. Kies een serie en een kleur, en trek die door over de hele badkamer.",
+    "brauerStoryTitle": "Over BRAUER",
+    "brauerStory": "BRAUER is een van oorsprong Duits merk uit het Ruhrgebied dat sinds 2020 in Nederlandse handen is, met een vestiging in Tiel. De kranen worden gemaakt van massief messing met een extra nikkellaag, afgewerkt met een hoogwaardige PVD-coating die de kleur dieper maakt en de kraan sterker. Binnenwerk en perlators komen van Kerox, Neoperl en Vernet.",
+    "brauerSeriesTitle": "Drie series",
+    "brauerSeriesLead": "Edition heeft gladde bedieningsknoppen, Carving een stoer reliëf en Stripe een subtiel lijnenspel. Dezelfde kleuren, hetzelfde binnenwerk — alleen de bediening verschilt.",
+    "inBathroom": "Bekijk het BRAUER-assortiment",
+    "choose": "Kies een optie",
+    "close": "Sluiten",
+    "more": "Meer tonen",
+    "less": "Minder tonen"
   }
 }

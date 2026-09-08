@@ -4,12 +4,14 @@ import { useMemo, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
 import { useTranslations } from "next-intl";
-import { ArrowUpRight, CalendarDays, ChevronLeft, ChevronRight, ImageOff, Play } from "lucide-react";
+import { ArrowUpRight, CalendarDays, ChevronDown, ChevronLeft, ChevronRight, ImageOff, Play, X } from "lucide-react";
 import { PLANTER_SIZES, type CatalogProduct } from "@/lib/data/catalog";
 import { Link } from "@/i18n/navigation";
 import { ProductQuoteActions } from "@/components/product-quote-actions";
 import { PriceTag } from "@/components/account/price-tag";
 import { brandOf } from "@/lib/data/brands";
+import { term, productName } from "@/lib/data/catalog-i18n";
+import { useLocale } from "next-intl";
 import { cn } from "@/lib/utils";
 
 type Media = { type: "image" | "video"; src: string; poster?: string };
@@ -64,6 +66,7 @@ export function ProductDetailLayout({
   labels,
 }: ProductDetailLayoutProps) {
   const t = useTranslations("products");
+  const tb = useTranslations("brands");
   // Build the variant list (only those that actually have imagery)
   const withImages = product.variants.filter((v) => v.images.length > 0);
   const swatches = withImages.filter((v) => v.colorHex || v.name);
@@ -84,6 +87,9 @@ export function ProductDetailLayout({
    * geraakt worden.
    */
   const merk = brandOf(product);
+  const locale = useLocale();
+  // Merkproducten dragen Nederlandse catalogusnamen en -keuzes.
+  const naam = merk ? productName(product.name, locale) : name;
   const optionAxes = product.optionAxes ?? null;
   const hasOptions = !!optionAxes?.length && !!combinations?.length;
   const [keuze, setKeuze] = useState<Record<string, string>>(() => {
@@ -150,6 +156,8 @@ export function ProductDetailLayout({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [variantIdx, gekozenCombinatie]);
 
+  // Welke keuze staat als venster open? null = geen.
+  const [openAs, setOpenAs] = useState<string | null>(null);
   const [mediaIdx, setMediaIdx] = useState(0);
   const current = media[mediaIdx] ?? null;
 
@@ -364,7 +372,7 @@ export function ProductDetailLayout({
           </p>
         )}
         <h1 className="mt-4 text-3xl font-medium leading-[1.05] tracking-[-0.018em] text-ink sm:text-4xl md:text-[2.6rem]">
-          {name}
+          {naam}
         </h1>
         <p className="mt-3 text-[0.72rem] font-medium uppercase tracking-[0.22em] text-ink-soft/80">
           {identifier}
@@ -411,49 +419,52 @@ export function ProductDetailLayout({
 
         {/* Variant picker */}
         {hasOptions ? (
-          // Merkproduct: één rij per keuze, met een klein plaatje als dat er is.
-          // Combinaties die niet bestaan blijven zichtbaar maar uitgegrijsd —
-          // rustiger dan opties die verspringen terwijl je kiest.
+          // Merkproduct: één rij per keuze. Combinaties die niet bestaan blijven
+          // zichtbaar maar uitgegrijsd — rustiger dan opties die verspringen
+          // terwijl je kiest. Bij veel waarden (meubelkleuren lopen tot 27) zou
+          // die rij de halve pagina vullen; dan tonen we de gekozen waarde en
+          // gaat de rest in een venster.
           <div className="mt-10 space-y-8">
-            {optionAxes!.map((as) => (
-              <div key={as.key}>
-                <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
-                  {as.label}
-                  <span className="ml-3 text-ink/40">({as.values.length})</span>
-                </p>
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {as.values.map((waarde) => {
-                    const actief = keuze[as.key] === waarde.value;
-                    const kan = bestaat(as.key, waarde.value);
-                    return (
-                      <button
-                        key={waarde.value}
-                        type="button"
-                        onClick={() => kies(as.key, waarde.value)}
-                        aria-pressed={actief}
-                        title={waarde.label}
-                        className={cn(
-                          "flex items-center gap-2 rounded-sm border px-3 py-2 text-sm transition-colors",
-                          actief ? "border-ink bg-ink/[0.04] text-ink" : "border-ink/15 text-ink-soft hover:border-ink/40",
-                          !kan && !actief && "opacity-35",
+            {optionAxes!.map((as) => {
+              const gekozen = as.values.find((w) => w.value === keuze[as.key]);
+              const veel = as.values.length > 8;
+              return (
+                <div key={as.key}>
+                  <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+                    {term(as.label, locale)}
+                    <span className="ml-3 text-ink/40">({as.values.length})</span>
+                  </p>
+                  {veel ? (
+                    <button
+                      type="button"
+                      onClick={() => setOpenAs(as.key)}
+                      className="mt-3 flex w-full items-center justify-between gap-3 rounded-sm border border-ink/15 px-3 py-2.5 text-left text-sm text-ink transition-colors hover:border-ink/40"
+                    >
+                      <span className="flex items-center gap-2">
+                        {gekozen?.image && (
+                          <Image src={gekozen.image} alt="" width={28} height={28} className="size-7 rounded-sm object-cover" />
                         )}
-                      >
-                        {waarde.image && (
-                          <Image
-                            src={waarde.image}
-                            alt=""
-                            width={28}
-                            height={28}
-                            className="size-7 rounded-sm object-cover"
-                          />
-                        )}
-                        {waarde.label}
-                      </button>
-                    );
-                  })}
+                        {gekozen ? term(gekozen.label, locale) : tb("choose")}
+                      </span>
+                      <ChevronDown className="size-4 shrink-0 text-ink-soft" />
+                    </button>
+                  ) : (
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {as.values.map((waarde) => (
+                        <OptieKnop
+                          key={waarde.value}
+                          label={term(waarde.label, locale)}
+                          image={waarde.image}
+                          actief={keuze[as.key] === waarde.value}
+                          kan={bestaat(as.key, waarde.value)}
+                          onClick={() => kies(as.key, waarde.value)}
+                        />
+                      ))}
+                    </div>
+                  )}
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         ) : hasPieceAxis ? (
           // Elementen/maten (met eigen afmeting) + losse kleurkeuze.
@@ -653,6 +664,47 @@ export function ProductDetailLayout({
             <ArrowUpRight className="h-3.5 w-3.5" />
           </Link>
         </div>
+
+        {/* Alle waarden van één keuze, als de rij te lang wordt voor de pagina. */}
+        {openAs && (
+          <div
+            className="fixed inset-0 z-50 flex items-end justify-center bg-ink/40 p-0 sm:items-center sm:p-6"
+            role="dialog"
+            aria-modal="true"
+            onClick={() => setOpenAs(null)}
+          >
+            <div
+              className="max-h-[80vh] w-full max-w-2xl overflow-y-auto rounded-t-lg bg-white p-6 shadow-xl sm:rounded-lg"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="flex items-center justify-between gap-4">
+                <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
+                  {term(optionAxes!.find((a) => a.key === openAs)?.label ?? "", locale)}
+                </p>
+                <button type="button" onClick={() => setOpenAs(null)} aria-label={tb("close")}>
+                  <X className="size-5 text-ink-soft hover:text-ink" />
+                </button>
+              </div>
+              <div className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3">
+                {optionAxes!
+                  .find((a) => a.key === openAs)!
+                  .values.map((waarde) => (
+                    <OptieKnop
+                      key={waarde.value}
+                      label={term(waarde.label, locale)}
+                      image={waarde.image}
+                      actief={keuze[openAs] === waarde.value}
+                      kan={bestaat(openAs, waarde.value)}
+                      onClick={() => {
+                        kies(openAs, waarde.value);
+                        setOpenAs(null);
+                      }}
+                    />
+                  ))}
+              </div>
+            </div>
+          </div>
+        )}
       </aside>
     </div>
   );
@@ -668,5 +720,43 @@ function SpecRow({ label, children }: { label: string; children: React.ReactNode
         {children}
       </dd>
     </div>
+  );
+}
+
+/**
+ * Eén keuzeknop: het kleine voorbeeldplaatje als dat er is, anders alleen de
+ * naam. Gedeeld door de rij op de pagina en het venster, zodat een keuze er
+ * op beide plekken hetzelfde uitziet.
+ */
+function OptieKnop({
+  label,
+  image,
+  actief,
+  kan,
+  onClick,
+}: {
+  label: string;
+  image?: string | null;
+  actief: boolean;
+  kan: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={actief}
+      title={label}
+      className={cn(
+        "flex items-center gap-2 rounded-sm border px-3 py-2 text-left text-sm transition-colors",
+        actief ? "border-ink bg-ink/[0.04] text-ink" : "border-ink/15 text-ink-soft hover:border-ink/40",
+        !kan && !actief && "opacity-35",
+      )}
+    >
+      {image && (
+        <Image src={image} alt="" width={28} height={28} className="size-7 shrink-0 rounded-sm object-cover" />
+      )}
+      <span className="truncate">{label}</span>
+    </button>
   );
 }

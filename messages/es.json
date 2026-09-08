@@ -1991,5 +1991,26 @@
     "ctaPrimary": "Reserva una cita en la feria",
     "ctaSecondary": "Descubre Flexible Stone",
     "videoLabel": "Vídeo de feria Flexible Stone"
+  },
+  "brands": {
+    "all": "Todos",
+    "series": "Serie",
+    "type": "Tipo",
+    "colour": "Color",
+    "product": "producto",
+    "products": "productos",
+    "empty": "No hay productos en esta combinación.",
+    "moreInfo": "información de la marca",
+    "brauerTitle": "BRAUER en Habitat One",
+    "brauerLead": "Grifería, sumideros de ducha, muebles de baño y vidrio en seis acabados: cromo, negro mate, cobre, oro, gunmetal y acero inoxidable cepillado. Elige una serie y un color y llévalo a todo el baño.",
+    "brauerStoryTitle": "Sobre BRAUER",
+    "brauerStory": "BRAUER es una marca de origen alemán de la cuenca del Ruhr, en manos neerlandesas desde 2020 y con sede en Tiel. La grifería se fabrica en latón macizo con una capa adicional de níquel y un recubrimiento PVD de alta calidad que da más profundidad al color y más resistencia. Los cartuchos y aireadores son de Kerox, Neoperl y Vernet.",
+    "brauerSeriesTitle": "Tres series",
+    "brauerSeriesLead": "Edition tiene mandos lisos, Carving un relieve marcado y Stripe un juego de líneas sutil. Los mismos colores y el mismo interior; solo cambia el mando.",
+    "inBathroom": "Ver la colección BRAUER",
+    "choose": "Elige una opción",
+    "close": "Cerrar",
+    "more": "Ver más",
+    "less": "Ver menos"
   }
 }

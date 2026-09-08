@@ -1991,5 +1991,26 @@
     "ctaPrimary": "Book a meeting at the fair",
     "ctaSecondary": "Discover Flexible Stone",
     "videoLabel": "Flexible Stone fair video"
+  },
+  "brands": {
+    "all": "All",
+    "series": "Series",
+    "type": "Type",
+    "colour": "Colour",
+    "product": "product",
+    "products": "products",
+    "empty": "No products in this combination.",
+    "moreInfo": "brand information",
+    "brauerTitle": "BRAUER at Habitat One",
+    "brauerLead": "Taps, shower drains, bathroom furniture and glass in six finishes — from chrome and matt black to brushed copper, gold, gunmetal and stainless steel. Pick a series and a colour, and carry it through the whole bathroom.",
+    "brauerStoryTitle": "About BRAUER",
+    "brauerStory": "BRAUER is a German brand from the Ruhr region, in Dutch hands since 2020 and based in Tiel. The taps are made of solid brass with an extra nickel layer, finished with a high-grade PVD coating that deepens the colour and hardens the surface. Cartridges and aerators come from Kerox, Neoperl and Vernet.",
+    "brauerSeriesTitle": "Three series",
+    "brauerSeriesLead": "Edition has smooth handles, Carving a bold relief and Stripe a subtle line pattern. Same colours, same internals — only the controls differ.",
+    "inBathroom": "View the BRAUER range",
+    "choose": "Choose an option",
+    "close": "Close",
+    "more": "Show more",
+    "less": "Show less"
   }
 }

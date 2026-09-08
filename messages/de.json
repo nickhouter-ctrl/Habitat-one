@@ -1991,5 +1991,26 @@
     "ctaPrimary": "Termin auf der Messe vereinbaren",
     "ctaSecondary": "Flexible Stone entdecken",
     "videoLabel": "Messevideo Flexible Stone"
+  },
+  "brands": {
+    "all": "Alle",
+    "series": "Serie",
+    "type": "Typ",
+    "colour": "Farbe",
+    "product": "Produkt",
+    "products": "Produkte",
+    "empty": "Keine Produkte in dieser Kombination.",
+    "moreInfo": "Markeninformationen",
+    "brauerTitle": "BRAUER bei Habitat One",
+    "brauerLead": "Armaturen, Duschrinnen, Badmöbel und Glas in sechs Ausführungen — von Chrom und Mattschwarz bis gebürstetem Kupfer, Gold, Gunmetal und Edelstahl. Wählen Sie eine Serie und eine Farbe und ziehen Sie sie durch das ganze Bad.",
+    "brauerStoryTitle": "Über BRAUER",
+    "brauerStory": "BRAUER ist eine ursprünglich deutsche Marke aus dem Ruhrgebiet, seit 2020 in niederländischer Hand mit Sitz in Tiel. Die Armaturen bestehen aus massivem Messing mit zusätzlicher Nickelschicht und einer hochwertigen PVD-Beschichtung, die die Farbe tiefer und die Oberfläche härter macht. Kartuschen und Perlatoren stammen von Kerox, Neoperl und Vernet.",
+    "brauerSeriesTitle": "Drei Serien",
+    "brauerSeriesLead": "Edition hat glatte Griffe, Carving ein kräftiges Relief und Stripe ein feines Linienspiel. Gleiche Farben, gleiche Technik — nur die Bedienung unterscheidet sich.",
+    "inBathroom": "Das BRAUER-Sortiment ansehen",
+    "choose": "Option wählen",
+    "close": "Schließen",
+    "more": "Mehr anzeigen",
+    "less": "Weniger anzeigen"
   }
 }

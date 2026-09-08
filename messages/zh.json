@@ -1991,5 +1991,26 @@
     "ctaPrimary": "预约展会会面",
     "ctaSecondary": "了解 Flexible Stone",
     "videoLabel": "Flexible Stone 展会视频"
+  },
+  "brands": {
+    "all": "全部",
+    "series": "系列",
+    "type": "类型",
+    "colour": "颜色",
+    "product": "件产品",
+    "products": "件产品",
+    "empty": "该组合下暂无产品。",
+    "moreInfo": "品牌信息",
+    "brauerTitle": "Habitat One 的 BRAUER",
+    "brauerLead": "龙头、淋浴地漏、浴室家具与玻璃，共六种表面处理：铬、哑光黑，以及拉丝铜、金、枪色与不锈钢。选定系列与颜色，贯穿整间浴室。",
+    "brauerStoryTitle": "关于 BRAUER",
+    "brauerStory": "BRAUER 源自德国鲁尔区，2020 年起由荷兰公司持有，总部位于蒂尔。龙头采用实心黄铜，加镀镍层，并以高品质 PVD 涂层收尾，使颜色更深、表面更耐用。阀芯与起泡器来自 Kerox、Neoperl 与 Vernet。",
+    "brauerSeriesTitle": "三个系列",
+    "brauerSeriesLead": "Edition 手柄光滑，Carving 带有立体浮雕，Stripe 则是细腻的线条。颜色与内部结构相同，只有操作方式不同。",
+    "inBathroom": "查看 BRAUER 系列",
+    "choose": "请选择",
+    "close": "关闭",
+    "more": "显示更多",
+    "less": "收起"
   }
 }

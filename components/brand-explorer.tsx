@@ -1,14 +1,17 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useLocale } from "next-intl";
+import { useSearchParams } from "next/navigation";
 
 import { ProductCard } from "@/components/cards/product-card";
 import type { CatalogProduct } from "@/lib/data/catalog";
+import { term } from "@/lib/data/catalog-i18n";
 import { cn } from "@/lib/utils";
 
 /**
  * De producten van één merk, met de filters die bij een merkassortiment horen:
- * serie, type en kleur.
+ * serie, type en kleur — in een vaste zijbalk, zoals een webshop dat doet.
  *
  * Bewust een eigen component en niet de gedeelde ProductsExplorer. Die filtert
  * op collectie, ruimte en materiaal — nuttig voor het eigen assortiment, maar
@@ -16,109 +19,174 @@ import { cn } from "@/lib/utils";
  * metaalkleuren: goud zou onder "geel" belanden en koper onder "terracotta".
  * Hier komen de kleuren rechtstreeks uit de keuze-assen van de producten zelf,
  * dus ze kloppen per definitie.
+ *
+ * De catalogus is Nederlandstalig; alle waarden gaan door het woordenboek in
+ * lib/data/catalog-i18n.ts, zodat de filters in elke taal leesbaar zijn.
  */
 export function BrandExplorer({
   products,
   labels,
 }: {
   products: CatalogProduct[];
-  labels: { all: string; series: string; type: string; colour: string; results: string; empty: string };
+  labels: {
+    all: string;
+    series: string;
+    type: string;
+    colour: string;
+    one: string;
+    many: string;
+    empty: string;
+    more: string;
+    less: string;
+  };
 }) {
-  const [serie, setSerie] = useState("all");
-  const [type, setType] = useState("all");
-  const [kleur, setKleur] = useState("all");
+  const locale = useLocale();
+  // Beginstand uit de URL, zodat een verwijzing vanaf de badkamerpagina
+  // ("Wastafelkranen 14") meteen op dat filter uitkomt en de weergave deelbaar is.
+  const params = useSearchParams();
+  const [serie, setSerie] = useState(params?.get("serie") ?? "all");
+  const [type, setType] = useState(params?.get("type") ?? "all");
+  const [kleur, setKleur] = useState(params?.get("kleur") ?? "all");
+  // Welke filtergroepen zijn helemaal uitgeklapt? Lange lijsten (meubelkleuren
+  // lopen tot 27) vullen anders de hele kolom.
+  const [uitgeklapt, setUitgeklapt] = useState<Record<string, boolean>>({});
 
   /** De kleuren van een product, uit zijn keuze-assen. */
   const kleurenVan = (p: CatalogProduct): string[] => {
     const as = p.optionAxes?.find((a) => a.key === "kleur" || a.label.toLowerCase() === "kleur");
     return as ? as.values.map((v) => v.label) : [];
   };
-
-  const series = useMemo(
-    () => [...new Set(products.map((p) => p.series).filter((s): s is string => !!s))].sort(),
-    [products],
-  );
-  // "Type" is de categorie zoals die uit de catalogus komt: wastafelkranen,
-  // douchekranen, douchegoten, badkamermeubels.
   const typeVan = (p: CatalogProduct) => p.productType ?? null;
+
+  /**
+   * Elk filter telt tegen de set die de ÁNDERE filters overhouden. Klik je op
+   * Badkamermeubels, dan blijven alleen de meubelkleuren over — anders sta je
+   * naar 31 kleuren te kijken waarvan er dertig niets opleveren. Waarden zonder
+   * resultaat verdwijnen; grijs laten staan maakt de lijst alleen maar langer.
+   */
+  const pas = (p: CatalogProduct, negeer?: "serie" | "type" | "kleur") =>
+    (negeer === "serie" || serie === "all" || p.series === serie) &&
+    (negeer === "type" || type === "all" || typeVan(p) === type) &&
+    (negeer === "kleur" || kleur === "all" || kleurenVan(p).includes(kleur));
+
+  const telSerie = (v: string) => products.filter((p) => pas(p, "serie") && p.series === v).length;
+  const telType = (v: string) => products.filter((p) => pas(p, "type") && typeVan(p) === v).length;
+  const telKleur = (v: string) =>
+    products.filter((p) => pas(p, "kleur") && kleurenVan(p).includes(v)).length;
+
+  const opAlfabet = (a: string, b: string) => term(a, locale).localeCompare(term(b, locale), locale);
+  const series = useMemo(
+    () =>
+      [...new Set(products.map((p) => p.series).filter((s): s is string => !!s))]
+        .filter((v) => telSerie(v) > 0)
+        .sort(),
+    [products, type, kleur, locale],
+  );
   const types = useMemo(
-    () => [...new Set(products.map(typeVan).filter((t): t is string => !!t))].sort(),
-    [products],
+    () =>
+      [...new Set(products.map(typeVan).filter((t): t is string => !!t))]
+        .filter((v) => telType(v) > 0)
+        .sort(opAlfabet),
+    [products, serie, kleur, locale],
   );
   const kleuren = useMemo(
-    () => [...new Set(products.flatMap(kleurenVan))].sort((a, b) => a.localeCompare(b, "nl")),
-    [products],
+    () =>
+      [...new Set(products.flatMap(kleurenVan))].filter((v) => telKleur(v) > 0).sort(opAlfabet),
+    [products, serie, type, locale],
   );
 
   const zichtbaar = useMemo(
-    () =>
-      products.filter(
-        (p) =>
-          (serie === "all" || p.series === serie) &&
-          (type === "all" || typeVan(p) === type) &&
-          (kleur === "all" || kleurenVan(p).includes(kleur)),
-      ),
+    () => products.filter((p) => pas(p)),
     [products, serie, type, kleur],
   );
 
-  const rij = (
+  const MAX = 8;
+
+  const groep = (
     titel: string,
     waarden: string[],
     gekozen: string,
     zet: (v: string) => void,
     telling: (v: string) => number,
-  ) =>
-    waarden.length > 1 && (
+    /** Hoeveel producten "alles" oplevert — mét de ándere filters erop. */
+    totaal: number,
+  ) => {
+    const alles = uitgeklapt[titel] || waarden.length <= MAX;
+    // De gekozen waarde hoort altijd zichtbaar te zijn, ook als hij verderop
+    // in de lijst staat — anders lijkt het filter leeg.
+    const getoond = alles
+      ? waarden
+      : [...new Set([...waarden.slice(0, MAX), ...(gekozen !== "all" ? [gekozen] : [])])];
+    return (
+      waarden.length > 1 && (
       <div>
         <p className="text-[0.66rem] font-medium uppercase tracking-[0.32em] text-ink-soft">{titel}</p>
-        <div className="mt-3 flex flex-wrap gap-2">
-          {["all", ...waarden].map((w) => {
-            const n = w === "all" ? products.length : telling(w);
+        <ul className="mt-3 space-y-0.5">
+          {["all", ...getoond].map((w) => {
+            const n = w === "all" ? totaal : telling(w);
+            const actief = gekozen === w;
             return (
-              <button
-                key={w}
-                type="button"
-                onClick={() => zet(w)}
-                aria-pressed={gekozen === w}
-                disabled={n === 0}
-                className={cn(
-                  "rounded-sm border px-3 py-1.5 text-sm transition-colors",
-                  gekozen === w
-                    ? "border-ink bg-ink/[0.04] text-ink"
-                    : "border-ink/15 text-ink-soft hover:border-ink/40",
-                  n === 0 && "opacity-35",
-                )}
-              >
-                {w === "all" ? labels.all : w}
-                <span className="ml-2 text-ink/40">{n}</span>
-              </button>
+              <li key={w}>
+                <button
+                  type="button"
+                  onClick={() => zet(w)}
+                  aria-pressed={actief}
+                  disabled={n === 0}
+                  className={cn(
+                    "flex w-full items-baseline justify-between gap-3 py-1 text-left text-sm transition-colors",
+                    actief ? "font-medium text-ink" : "text-ink-soft hover:text-ink",
+                    n === 0 && "opacity-35",
+                  )}
+                >
+                  <span className={cn(actief && "underline underline-offset-4")}>
+                    {w === "all" ? labels.all : term(w, locale)}
+                  </span>
+                  <span className="shrink-0 text-xs text-ink/40">{n}</span>
+                </button>
+              </li>
             );
           })}
-        </div>
+        </ul>
+        {waarden.length > MAX && (
+          <button
+            type="button"
+            onClick={() => setUitgeklapt((u) => ({ ...u, [titel]: !alles }))}
+            className="mt-2 text-xs text-ink-soft underline underline-offset-4 hover:text-ink"
+          >
+            {alles ? labels.less : `${labels.more} (${waarden.length - getoond.length})`}
+          </button>
+        )}
       </div>
+      )
     );
+  };
 
   return (
-    <div className="space-y-10">
-      <div className="space-y-7">
-        {rij(labels.series, series, serie, setSerie, (v) => products.filter((p) => p.series === v).length)}
-        {rij(labels.type, types, type, setType, (v) => products.filter((p) => typeVan(p) === v).length)}
-        {rij(labels.colour, kleuren, kleur, setKleur, (v) => products.filter((p) => kleurenVan(p).includes(v)).length)}
+    <div className="grid gap-10 lg:grid-cols-[15rem_1fr] lg:gap-14">
+      {/* De filters blijven in beeld terwijl je door het raster scrolt, en
+          scrollen zélf als de lijst langer is dan het scherm — anders moet je
+          eerst de hele pagina omlaag om bij de laatste kleur te komen.
+          `overscroll-contain` houdt dat scrollen binnen de zijbalk. */}
+      <aside className="space-y-8 lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] lg:self-start lg:overflow-y-auto lg:overscroll-contain lg:pr-3">
+        {groep(labels.series, series, serie, setSerie, telSerie, products.filter((p) => pas(p, "serie")).length)}
+        {groep(labels.type, types, type, setType, telType, products.filter((p) => pas(p, "type")).length)}
+        {groep(labels.colour, kleuren, kleur, setKleur, telKleur, products.filter((p) => pas(p, "kleur")).length)}
+      </aside>
+
+      <div>
+        <p className="text-sm text-ink-soft">
+          {zichtbaar.length} {zichtbaar.length === 1 ? labels.one : labels.many}
+        </p>
+        {zichtbaar.length === 0 ? (
+          <p className="py-16 text-center text-ink-soft">{labels.empty}</p>
+        ) : (
+          <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-12 md:grid-cols-3">
+            {zichtbaar.map((p, i) => (
+              <ProductCard key={p.id} product={p} priority={i < 4} />
+            ))}
+          </div>
+        )}
       </div>
-
-      <p className="text-sm text-ink-soft">
-        {zichtbaar.length} {labels.results}
-      </p>
-
-      {zichtbaar.length === 0 ? (
-        <p className="py-16 text-center text-ink-soft">{labels.empty}</p>
-      ) : (
-        <div className="grid grid-cols-2 gap-x-6 gap-y-12 md:grid-cols-3 lg:grid-cols-4">
-          {zichtbaar.map((p, i) => (
-            <ProductCard key={p.id} product={p} priority={i < 4} />
-          ))}
-        </div>
-      )}
     </div>
   );
 }
