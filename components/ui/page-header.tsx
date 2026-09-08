@@ -24,15 +24,13 @@ export function PageHeader({
   return (
     <section className="relative isolate overflow-hidden bg-sea-900 text-cream">
       {image ? (
-        <Image src={image} alt="" fill priority className="object-cover opacity-[0.22]" sizes="100vw" />
+        <Image src={image} alt="" fill priority className="object-cover opacity-90" sizes="100vw" />
       ) : (
         <div className="absolute inset-0 bg-gradient-to-br from-sea-900 via-clay-800/80 to-terracotta-700/60" />
       )}
-      {/* dark scrim — guarantees the cream text stays legible over any photo */}
-      <div className="absolute inset-0 bg-sea-900/60" />
-      <div className="absolute inset-0 bg-gradient-to-b from-sea-900/40 via-sea-900/20 to-sea-900/55" />
-      <div className="absolute inset-0 bg-gradient-to-r from-sea-900/55 via-sea-900/15 to-transparent" />
-      <div className="pointer-events-none absolute -left-24 top-0 h-72 w-72 rounded-full bg-terracotta-600/25 blur-3xl" />
+      {/* Eén gradiënt van onderaf: donker waar de tekst staat, vrij daarboven —
+          de foto blijft helder in plaats van weggedrukt onder lagen. */}
+      <div className="absolute inset-0 bg-gradient-to-t from-sea-900/80 via-sea-900/35 to-transparent" />
 
       <Container className={cn("relative", size === "compact" ? "pb-10 pt-12 md:pb-14 md:pt-16" : "pb-12 pt-14 md:pb-20 md:pt-24")}>
         <div className={cn("max-w-3xl", align === "center" && "mx-auto text-center")}>

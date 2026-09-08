@@ -25,22 +25,26 @@
 
   --color-clay-600: #4a3a30;
   --color-clay-700: #34291f;
-  --color-clay-800: #1f1815;
+  --color-clay-800: #1c1714; /* espresso — zelfde toon als sea-900 */
 
   --color-olive-400: #9ba067;
   --color-olive-500: #7d8252;
   --color-olive-600: #62683f;
   --color-olive-700: #4c5132;
 
-  --color-sea-400: #4f93a0;
-  --color-sea-500: #2f7585;
-  --color-sea-600: #235e6c;
-  --color-sea-700: #1b4954;
-  --color-sea-900: #0f2e36;
+  /* "sea" was petrolgroen; sinds de stijlronde van sept. 2026 is het één
+     warme espresso-toon met bijpassende lichtere tinten. De tokennaam blijft,
+     zodat geen component herschreven hoefde te worden. */
+  --color-sea-400: #8a7060;
+  --color-sea-500: #6b5546;
+  --color-sea-600: #4a3a30;
+  --color-sea-700: #2a221d;
+  --color-sea-900: #1c1714;
 
-  --color-gold-400: #d8b25e;
-  --color-gold-500: #c79a45;
-  --color-gold-600: #a87f33;
+  /* messing — het enige accent op donker (kranen, beslag) */
+  --color-gold-400: #b08a5e;
+  --color-gold-500: #9d7a4f;
+  --color-gold-600: #7f6240;
 
   /* Editorial neutrals — the core of the new aesthetic */
   --color-ink: #161513;
@@ -156,14 +160,20 @@
   .text-cream :focus-visible {
     outline-color: var(--color-gold-400);
   }
+  /* Koppen in het serif (Cormorant); broodtekst, knoppen en kapitaaltjes
+     blijven Montserrat. Zie ook de regel buiten de lagen verderop, die de
+     tracking- en gewicht-utilities op koppen overstemt. */
   h1,
   h2,
   h3,
   h4 {
-    font-family: var(--font-sans);
-    font-weight: 500;
-    letter-spacing: -0.018em;
-    line-height: 1.06;
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.1;
+    /* Cormorant heeft een kleine x-hoogte; hiermee oogt hij even groot als
+       Montserrat op dezelfde maat. */
+    font-size-adjust: 0.5;
   }
   /* Decorative scrollbar */
   ::-webkit-scrollbar {
@@ -283,23 +293,34 @@
   .btn-ghost {
     background: transparent;
     color: var(--color-ink);
-    border: 1px solid var(--color-ink);
+    border: 1px solid color-mix(in oklab, var(--color-ink) 45%, transparent);
   }
   .btn-ghost:hover {
     background: var(--color-ink);
     color: var(--color-paper);
   }
   .btn-sea {
-    background: var(--color-sea-700);
-    color: var(--color-paper);
-    border: 1px solid var(--color-sea-700);
+    background: var(--color-cream);
+    color: var(--color-ink);
+    border: 1px solid var(--color-cream);
   }
   .btn-sea:hover {
     background: transparent;
-    color: var(--color-sea-700);
+    color: var(--color-cream);
+  }
+  /* Op donkere vlakken keert de primaire knop om: crème op espresso. Ink-op-
+     espresso zou onzichtbaar zijn nu beide bijna dezelfde toon hebben. */
+  :is(.bg-sea-900, .bg-clay-800, .bg-ink) .btn-primary {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    border-color: var(--color-cream);
+  }
+  :is(.bg-sea-900, .bg-clay-800, .bg-ink) .btn-primary:hover {
+    background: transparent;
+    color: var(--color-cream);
   }
   .btn-outline-light {
-    border: 1px solid color-mix(in oklab, white 65%, transparent);
+    border: 1px solid color-mix(in oklab, white 42%, transparent);
     color: var(--color-paper);
     background: transparent;
   }
@@ -459,4 +480,29 @@
   body {
     background: #fff;
   }
+}
+
+/* Ken Burns en voortgangslijn van de homepage-slider */
+@keyframes kenBurnsZacht {
+  0% {
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: scale(1.05) translate3d(-1%, -0.6%, 0);
+  }
+}
+@keyframes heroVoortgang {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Buiten de lagen, zodat dit wint van tracking-/font-utilities op koppen:
+   een serif wil geen negatieve letterspatiëring en geen halfvet. */
+:is(h1, h2, h3, h4):not(.font-sans) {
+  letter-spacing: 0;
+  font-weight: 400;
 }

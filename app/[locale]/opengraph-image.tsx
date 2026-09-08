@@ -15,7 +15,7 @@ export default function OgImage() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: 72,
-          backgroundColor: "#0f2e36",
+          backgroundColor: "#1c1714",
           backgroundImage:
             "radial-gradient(900px 600px at 85% 0%, rgba(194,112,63,0.55), transparent 60%), radial-gradient(700px 500px at 0% 100%, rgba(35,94,108,0.6), transparent 60%)",
           color: "#faf4e8",

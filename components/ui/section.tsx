@@ -30,7 +30,7 @@ export function Section({
     <section
       id={id}
       data-chapter={chapter}
-      className={cn("relative overflow-x-clip py-14 sm:py-20 md:py-28", className)}
+      className={cn("relative overflow-x-clip py-16 sm:py-24 md:py-32", className)}
     >
       {children}
     </section>

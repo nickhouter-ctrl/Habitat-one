@@ -17,7 +17,7 @@ export default function GlobalNotFound() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#0f2e36",
+          background: "#1c1714",
           color: "#faf4e8",
           textAlign: "center",
           padding: "2rem",

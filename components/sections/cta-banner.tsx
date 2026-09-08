@@ -20,12 +20,12 @@ export async function CtaBanner({
         <LazyVideo
           src={videoSrc}
           poster={image}
-          className="absolute inset-0 h-full w-full object-cover opacity-35"
+          className="absolute inset-0 h-full w-full object-cover opacity-55"
         />
       ) : (
-        <Image src={image} alt="" fill className="object-cover opacity-30" sizes="100vw" />
+        <Image src={image} alt="" fill className="object-cover opacity-55" sizes="100vw" />
       )}
-      <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/45" />
+      <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/70 to-ink/15" />
       <div className="container-x relative py-24 md:py-32">
         <Reveal>
           <div className="max-w-2xl">
