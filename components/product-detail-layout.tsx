@@ -75,7 +75,9 @@ export function ProductDetailLayout({
   // Staande potten & verlichting (foto op wit) + deuren: hele product tonen
   // (niet bijsnijden) op een lichte achtergrond.
   const isPot = product.collection === "bloempotten" || product.collection === "verlichting" || product.collection === "schakelmateriaal";
-  const fitWhole = isPot || product.collection === "doors";
+  // Merkproducten (Brauer): packshots, sfeerbeelden en tekeningen in vaste
+  // verhoudingen — nooit bijsnijden, altijd heel in beeld op wit.
+  const fitWhole = isPot || product.collection === "doors" || !!product.brand;
   const fitClass = fitWhole ? "object-contain" : "object-cover";
 
   const [variantIdx, setVariantIdx] = useState(0);
@@ -334,7 +336,8 @@ export function ProductDetailLayout({
                 type="button"
                 onClick={() => setMediaIdx(i)}
                 className={cn(
-                  "relative aspect-square overflow-hidden bg-sand-100 transition-opacity",
+                  "relative aspect-square overflow-hidden transition-opacity",
+                  fitWhole ? "bg-paper" : "bg-sand-100",
                   i === mediaIdx ? "opacity-100 ring-1 ring-ink" : "opacity-60 hover:opacity-100",
                 )}
                 aria-label={m.type === "video" ? t("playVideo") : t("galleryImage", { n: i + 1 })}
@@ -344,7 +347,7 @@ export function ProductDetailLayout({
                   alt=""
                   fill
                   sizes="120px"
-                  className="object-cover"
+                  className={fitWhole ? "object-contain p-1" : "object-cover"}
                 />
                 {m.type === "video" && (
                   <span className="absolute inset-0 grid place-items-center bg-ink/25">

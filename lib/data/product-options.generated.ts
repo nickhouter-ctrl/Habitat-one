@@ -73028,7 +73028,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI80RHLEN",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Naturel"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEN.jpg",
       "images": null,
@@ -73038,7 +73040,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI80RHLEZ",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEZ.jpg",
       "images": null,
@@ -73048,7 +73052,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI80RHVEG",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Vingerlas Eiken Grijs"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHVEG.jpg",
       "images": null,
@@ -73058,7 +73064,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI80RHLEW",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Wit"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEW.jpg",
       "images": null,
@@ -73068,7 +73076,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI80RHLEB",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Bruin"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEB.jpg",
       "images": null,
@@ -73078,7 +73088,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI120RHLEN",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Naturel"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEN.jpg",
       "images": null,
@@ -73088,7 +73100,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI120RHLEZ",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEZ.jpg",
       "images": null,
@@ -73098,7 +73112,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI120RHVEG",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Vingerlas Eiken Grijs"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHVEG.jpg",
       "images": null,
@@ -73108,7 +73124,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI120RHLEW",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Wit"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEW.jpg",
       "images": null,
@@ -73118,7 +73136,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI120RHLEB",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Bruin"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEB.jpg",
       "images": null,
@@ -73128,7 +73148,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI160RHLEB",
       "options": {
-        "maat": "160 cm"
+        "maat": "160 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Bruin"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEB.jpg",
       "images": null,
@@ -73138,7 +73160,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI160RHVEG",
       "options": {
-        "maat": "160 cm"
+        "maat": "160 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Vingerlas Eiken Grijs"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHVEG.jpg",
       "images": null,
@@ -73148,7 +73172,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI160RHLEZ",
       "options": {
-        "maat": "160 cm"
+        "maat": "160 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEZ.jpg",
       "images": null,
@@ -73158,7 +73184,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI160RHLEW",
       "options": {
-        "maat": "160 cm"
+        "maat": "160 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Wit"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEW.jpg",
       "images": null,
@@ -73168,7 +73196,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI160RHLEN",
       "options": {
-        "maat": "160 cm"
+        "maat": "160 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Naturel"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEN.jpg",
       "images": null,
@@ -73178,7 +73208,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI60RHLEB",
       "options": {
-        "maat": "60 cm"
+        "maat": "60 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Bruin"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEB.jpg",
       "images": null,
@@ -73188,7 +73220,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI60RHLEW",
       "options": {
-        "maat": "60 cm"
+        "maat": "60 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Wit"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEW.jpg",
       "images": null,
@@ -73198,7 +73232,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI60RHLEZ",
       "options": {
-        "maat": "60 cm"
+        "maat": "60 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEZ.jpg",
       "images": null,
@@ -73208,7 +73244,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI60RHVEG",
       "options": {
-        "maat": "60 cm"
+        "maat": "60 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Vingerlas Eiken Grijs"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHVEG.jpg",
       "images": null,
@@ -73218,7 +73256,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI60RHLEN",
       "options": {
-        "maat": "60 cm"
+        "maat": "60 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Naturel"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEN.jpg",
       "images": null,
@@ -73228,7 +73268,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI200RHLEN",
       "options": {
-        "maat": "200 cm"
+        "maat": "200 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Naturel"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEN.jpg",
       "images": null,
@@ -73238,7 +73280,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI200RHLEZ",
       "options": {
-        "maat": "200 cm"
+        "maat": "200 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEZ.jpg",
       "images": null,
@@ -73248,7 +73292,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI200RHVEG",
       "options": {
-        "maat": "200 cm"
+        "maat": "200 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Vingerlas Eiken Grijs"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHVEG.jpg",
       "images": null,
@@ -73258,7 +73304,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI200RHLEW",
       "options": {
-        "maat": "200 cm"
+        "maat": "200 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Wit"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEW.jpg",
       "images": null,
@@ -73268,7 +73316,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI200RHLEB",
       "options": {
-        "maat": "200 cm"
+        "maat": "200 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Bruin"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEB.jpg",
       "images": null,
@@ -73278,7 +73328,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI40RHLEN",
       "options": {
-        "maat": "40 cm"
+        "maat": "40 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Naturel"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEN.jpg",
       "images": null,
@@ -73288,7 +73340,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI40RHLEW",
       "options": {
-        "maat": "40 cm"
+        "maat": "40 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Wit"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEW.jpg",
       "images": null,
@@ -73298,7 +73352,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI40RHVEG",
       "options": {
-        "maat": "40 cm"
+        "maat": "40 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Vingerlas Eiken Grijs"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHVEG.jpg",
       "images": null,
@@ -73308,7 +73364,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI40RHLEZ",
       "options": {
-        "maat": "40 cm"
+        "maat": "40 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEZ.jpg",
       "images": null,
@@ -73318,7 +73376,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI40RHLEB",
       "options": {
-        "maat": "40 cm"
+        "maat": "40 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Bruin"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEB.jpg",
       "images": null,
@@ -73328,7 +73388,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI140RHLEN",
       "options": {
-        "maat": "140 cm"
+        "maat": "140 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Naturel"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEN.jpg",
       "images": null,
@@ -73338,7 +73400,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI140RHVEG",
       "options": {
-        "maat": "140 cm"
+        "maat": "140 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Vingerlas Eiken Grijs"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHVEG.jpg",
       "images": null,
@@ -73348,7 +73412,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI140RHLEZ",
       "options": {
-        "maat": "140 cm"
+        "maat": "140 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEZ.jpg",
       "images": null,
@@ -73358,7 +73424,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI140RHLEW",
       "options": {
-        "maat": "140 cm"
+        "maat": "140 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Wit"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEW.jpg",
       "images": null,
@@ -73368,7 +73436,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI140RHLEB",
       "options": {
-        "maat": "140 cm"
+        "maat": "140 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Bruin"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEB.jpg",
       "images": null,
@@ -73378,7 +73448,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI100RHLEZ",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEZ.jpg",
       "images": null,
@@ -73388,7 +73460,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI100RHVEG",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Vingerlas Eiken Grijs"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHVEG.jpg",
       "images": null,
@@ -73398,7 +73472,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI100RHLEW",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Wit"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEW.jpg",
       "images": null,
@@ -73408,7 +73484,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI100RHLEB",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Bruin"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEB.jpg",
       "images": null,
@@ -73418,7 +73496,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-CI100RHLEN",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Lamellen Eiken Naturel"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEN.jpg",
       "images": null,
@@ -73430,7 +73510,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM120RH",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM120RH.jpg",
       "images": null,
@@ -73440,7 +73521,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM40RH",
       "options": {
-        "maat": "40 cm"
+        "maat": "40 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM40RH.jpg",
       "images": null,
@@ -73450,7 +73532,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM100RH",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM100RH.jpg",
       "images": null,
@@ -73460,7 +73543,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM160RH",
       "options": {
-        "maat": "160 cm"
+        "maat": "160 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM160RH.jpg",
       "images": null,
@@ -73470,7 +73554,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM75RH",
       "options": {
-        "maat": "75 cm"
+        "maat": "75 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM75RH.jpg",
       "images": null,
@@ -73480,7 +73565,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM80RH",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM80RH.jpg",
       "images": null,
@@ -73490,7 +73576,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM140RH",
       "options": {
-        "maat": "140 cm"
+        "maat": "140 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM140RH.jpg",
       "images": null,
@@ -73500,7 +73587,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM200RH",
       "options": {
-        "maat": "200 cm"
+        "maat": "200 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM200RH.jpg",
       "images": null,
@@ -73510,7 +73598,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM90RH",
       "options": {
-        "maat": "90 cm"
+        "maat": "90 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM90RH.jpg",
       "images": null,
@@ -73520,7 +73609,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM60RH",
       "options": {
-        "maat": "60 cm"
+        "maat": "60 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM60RH.jpg",
       "images": null,
@@ -73530,7 +73620,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM25RH",
       "options": {
-        "maat": "25 cm"
+        "maat": "25 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM25RH.jpg",
       "images": null,
@@ -73540,7 +73631,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-EM70RH",
       "options": {
-        "maat": "70 cm"
+        "maat": "70 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM70RH.jpg",
       "images": null,
@@ -73552,7 +73644,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-GA80RH",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA80RH.jpg",
       "images": null,
@@ -73562,7 +73655,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-GA160RH",
       "options": {
-        "maat": "160 cm"
+        "maat": "160 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA160RH.jpg",
       "images": null,
@@ -73572,7 +73666,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-GA60RH",
       "options": {
-        "maat": "60 cm"
+        "maat": "60 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA60RH.jpg",
       "images": null,
@@ -73582,7 +73677,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-GA100RH",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA100RH.jpg",
       "images": null,
@@ -73592,7 +73688,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-GA75RH",
       "options": {
-        "maat": "75 cm"
+        "maat": "75 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA75RH.jpg",
       "images": null,
@@ -73602,7 +73699,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-GA90RH",
       "options": {
-        "maat": "90 cm"
+        "maat": "90 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA90RH.jpg",
       "images": null,
@@ -73612,7 +73710,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-GA200RH",
       "options": {
-        "maat": "200 cm"
+        "maat": "200 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA200RH.jpg",
       "images": null,
@@ -73622,7 +73721,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-GA140RH",
       "options": {
-        "maat": "140 cm"
+        "maat": "140 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA140RH.jpg",
       "images": null,
@@ -73632,7 +73732,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-GA120RH",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA120RH.jpg",
       "images": null,
@@ -73645,7 +73746,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD70RO",
       "options": {
         "maat": "70 cm",
-        "uitvoering": "RO"
+        "vorm": "Rond"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD70RO.jpg",
       "images": null,
@@ -73656,7 +73757,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD100RO",
       "options": {
         "maat": "100 cm",
-        "uitvoering": "RO"
+        "vorm": "Rond"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD100RO.jpg",
       "images": null,
@@ -73667,7 +73768,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD80RO",
       "options": {
         "maat": "80 cm",
-        "uitvoering": "RO"
+        "vorm": "Rond"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD80RO.jpg",
       "images": null,
@@ -73678,7 +73779,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD100RH",
       "options": {
         "maat": "100 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD100RH.jpg",
       "images": null,
@@ -73689,7 +73790,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD200RH",
       "options": {
         "maat": "200 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD200RH.jpg",
       "images": null,
@@ -73700,7 +73801,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD240RH",
       "options": {
         "maat": "240 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD240RH.jpg",
       "images": null,
@@ -73711,7 +73812,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD120RH",
       "options": {
         "maat": "120 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD120RH.jpg",
       "images": null,
@@ -73722,7 +73823,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD140RH",
       "options": {
         "maat": "140 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD140RH.jpg",
       "images": null,
@@ -73733,7 +73834,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD60RH",
       "options": {
         "maat": "60 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD60RH.jpg",
       "images": null,
@@ -73744,7 +73845,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD180RH",
       "options": {
         "maat": "180 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD180RH.jpg",
       "images": null,
@@ -73755,7 +73856,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD160RH",
       "options": {
         "maat": "160 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD160RH.jpg",
       "images": null,
@@ -73766,7 +73867,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD80RH",
       "options": {
         "maat": "80 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD80RH.jpg",
       "images": null,
@@ -73777,7 +73878,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD40RH",
       "options": {
         "maat": "40 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD40RH.jpg",
       "images": null,
@@ -73788,7 +73889,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-JD120OV",
       "options": {
         "maat": "120 cm",
-        "uitvoering": "OV"
+        "vorm": "Ovaal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD120OV.jpg",
       "images": null,
@@ -73800,7 +73901,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-JDD80OV",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Ovaal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD80OV.jpg",
       "images": [
@@ -73812,7 +73914,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-JDD100OV",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Ovaal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD100OV.jpg",
       "images": [
@@ -73824,7 +73927,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-JDD120OV",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Ovaal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD120OV.jpg",
       "images": [
@@ -73834,35 +73938,12 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawingImage": null
     }
   ],
-  "9739": [
-    {
-      "sku": "BRA-SP-JDE70RO",
-      "options": {
-        "maat": "70 cm",
-        "uitvoering": "RO"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70RO.jpg",
-      "images": null,
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70RO_T.pdf",
-      "drawingImage": null
-    },
-    {
-      "sku": "BRA-SP-JDE70ROO",
-      "options": {
-        "maat": "70 cm",
-        "uitvoering": "ROO"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70ROO.jpg",
-      "images": null,
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70ROO_T.pdf",
-      "drawingImage": null
-    }
-  ],
   "9740": [
     {
       "sku": "BRA-SP-JS160RH",
       "options": {
-        "maat": "160 cm"
+        "maat": "160 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS160RH.jpg",
       "images": null,
@@ -73872,7 +73953,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-JS80RH",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS80RH.jpg",
       "images": null,
@@ -73882,7 +73964,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-JS100RH",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS100RH.jpg",
       "images": null,
@@ -73892,7 +73975,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-JS120RH",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS120RH.jpg",
       "images": null,
@@ -73902,7 +73986,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-JS200RH",
       "options": {
-        "maat": "200 cm"
+        "maat": "200 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS200RH.jpg",
       "images": null,
@@ -73912,7 +73997,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-JS140RH",
       "options": {
-        "maat": "140 cm"
+        "maat": "140 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS140RH.jpg",
       "images": null,
@@ -73922,7 +74008,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-JS180RH",
       "options": {
-        "maat": "180 cm"
+        "maat": "180 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS180RH.jpg",
       "images": null,
@@ -73932,7 +74019,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-JS60RH",
       "options": {
-        "maat": "60 cm"
+        "maat": "60 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS60RH.jpg",
       "images": null,
@@ -73945,7 +74033,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON40RHA",
       "options": {
         "maat": "40 cm",
-        "uitvoering": "RHA"
+        "vorm": "Rechthoekig",
+        "kleur": "Aluminium"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON40RHA.jpg",
       "images": null,
@@ -73956,7 +74045,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON120RHA",
       "options": {
         "maat": "120 cm",
-        "uitvoering": "RHA"
+        "vorm": "Rechthoekig",
+        "kleur": "Aluminium"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON120RHA.jpg",
       "images": null,
@@ -73967,7 +74057,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON80RHA",
       "options": {
         "maat": "80 cm",
-        "uitvoering": "RHA"
+        "vorm": "Rechthoekig",
+        "kleur": "Aluminium"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON80RHA.jpg",
       "images": null,
@@ -73978,7 +74069,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON100RHA",
       "options": {
         "maat": "100 cm",
-        "uitvoering": "RHA"
+        "vorm": "Rechthoekig",
+        "kleur": "Aluminium"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON100RHA.jpg",
       "images": null,
@@ -73989,7 +74081,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON25RHA",
       "options": {
         "maat": "25 cm",
-        "uitvoering": "RHA"
+        "vorm": "Rechthoekig",
+        "kleur": "Aluminium"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON25RHA.jpg",
       "images": null,
@@ -74000,7 +74093,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON60RHA",
       "options": {
         "maat": "60 cm",
-        "uitvoering": "RHA"
+        "vorm": "Rechthoekig",
+        "kleur": "Aluminium"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON60RHA.jpg",
       "images": null,
@@ -74011,7 +74105,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON160RHA",
       "options": {
         "maat": "160 cm",
-        "uitvoering": "RHA"
+        "vorm": "Rechthoekig",
+        "kleur": "Aluminium"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON160RHA.jpg",
       "images": null,
@@ -74022,7 +74117,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON140RHA",
       "options": {
         "maat": "140 cm",
-        "uitvoering": "RHA"
+        "vorm": "Rechthoekig",
+        "kleur": "Aluminium"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON140RHA.jpg",
       "images": null,
@@ -74033,7 +74129,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON200RHA",
       "options": {
         "maat": "200 cm",
-        "uitvoering": "RHA"
+        "vorm": "Rechthoekig",
+        "kleur": "Aluminium"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON200RHA.jpg",
       "images": null,
@@ -74044,7 +74141,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON80RHZ",
       "options": {
         "maat": "80 cm",
-        "uitvoering": "RHZ"
+        "vorm": "Rechthoekig",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON80RHZ.jpg",
       "images": null,
@@ -74055,7 +74153,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON200RHZ",
       "options": {
         "maat": "200 cm",
-        "uitvoering": "RHZ"
+        "vorm": "Rechthoekig",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON200RHZ.jpg",
       "images": null,
@@ -74066,7 +74165,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON160RHZ",
       "options": {
         "maat": "160 cm",
-        "uitvoering": "RHZ"
+        "vorm": "Rechthoekig",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON160RHZ.jpg",
       "images": null,
@@ -74077,7 +74177,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON100RHZ",
       "options": {
         "maat": "100 cm",
-        "uitvoering": "RHZ"
+        "vorm": "Rechthoekig",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON100RHZ.jpg",
       "images": null,
@@ -74088,7 +74189,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON140RHZ",
       "options": {
         "maat": "140 cm",
-        "uitvoering": "RHZ"
+        "vorm": "Rechthoekig",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON140RHZ.jpg",
       "images": null,
@@ -74099,7 +74201,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON40RHZ",
       "options": {
         "maat": "40 cm",
-        "uitvoering": "RHZ"
+        "vorm": "Rechthoekig",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON40RHZ.jpg",
       "images": null,
@@ -74110,7 +74213,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON25RHZ",
       "options": {
         "maat": "25 cm",
-        "uitvoering": "RHZ"
+        "vorm": "Rechthoekig",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON25RHZ.jpg",
       "images": null,
@@ -74121,7 +74225,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON60RHZ",
       "options": {
         "maat": "60 cm",
-        "uitvoering": "RHZ"
+        "vorm": "Rechthoekig",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON60RHZ.jpg",
       "images": null,
@@ -74132,7 +74237,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON120RHZ",
       "options": {
         "maat": "120 cm",
-        "uitvoering": "RHZ"
+        "vorm": "Rechthoekig",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON120RHZ.jpg",
       "images": null,
@@ -74143,7 +74249,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-ON70ROZ",
       "options": {
         "maat": "70 cm",
-        "uitvoering": "ROZ"
+        "vorm": "Rond",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON70ROZ.jpg",
       "images": null,
@@ -74153,7 +74260,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-ON70ROOZ",
       "options": {
-        "maat": "70 cm"
+        "maat": "70 cm",
+        "vorm": "Rond",
+        "kleur": "Zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON70ROOZ.jpg",
       "images": null,
@@ -74165,7 +74274,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-PY100RH",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY100RH.jpg",
       "images": null,
@@ -74175,7 +74285,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-PY60RH",
       "options": {
-        "maat": "60 cm"
+        "maat": "60 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY60RH.jpg",
       "images": null,
@@ -74185,7 +74296,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-PY120RH",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY120RH.jpg",
       "images": null,
@@ -74195,7 +74307,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-PY80RH",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY80RH.jpg",
       "images": null,
@@ -74205,7 +74318,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-PY200RH",
       "options": {
-        "maat": "200 cm"
+        "maat": "200 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY200RH.jpg",
       "images": null,
@@ -74215,7 +74329,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-PY160RH",
       "options": {
-        "maat": "160 cm"
+        "maat": "160 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY160RH.jpg",
       "images": null,
@@ -74225,7 +74340,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-PY140RH",
       "options": {
-        "maat": "140 cm"
+        "maat": "140 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY140RH.jpg",
       "images": null,
@@ -74237,7 +74353,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-QU70RH",
       "options": {
-        "maat": "70 cm"
+        "maat": "70 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU70RH.jpg",
       "images": null,
@@ -74247,7 +74364,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-QU120RH",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU120RH.jpg",
       "images": null,
@@ -74257,7 +74375,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-QU80RH",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU80RH.jpg",
       "images": null,
@@ -74267,7 +74386,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-QU90RH",
       "options": {
-        "maat": "90 cm"
+        "maat": "90 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU90RH.jpg",
       "images": null,
@@ -74277,7 +74397,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-QU100RH",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU100RH.jpg",
       "images": null,
@@ -74287,7 +74408,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-QU50RH",
       "options": {
-        "maat": "50 cm"
+        "maat": "50 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU50RH.jpg",
       "images": null,
@@ -74297,7 +74419,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-QU140RH",
       "options": {
-        "maat": "140 cm"
+        "maat": "140 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU140RH.jpg",
       "images": null,
@@ -74307,7 +74430,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-QU160RH",
       "options": {
-        "maat": "160 cm"
+        "maat": "160 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU160RH.jpg",
       "images": null,
@@ -74317,7 +74441,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-QU60RH",
       "options": {
-        "maat": "60 cm"
+        "maat": "60 cm",
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU60RH.jpg",
       "images": null,
@@ -74330,7 +74455,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RU40RH",
       "options": {
         "maat": "40 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU40RH.jpg",
       "images": null,
@@ -74341,7 +74466,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RU80RH",
       "options": {
         "maat": "80 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU80RH.jpg",
       "images": null,
@@ -74352,7 +74477,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RU160RH",
       "options": {
         "maat": "160 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU160RH.jpg",
       "images": null,
@@ -74363,7 +74488,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RU60RH",
       "options": {
         "maat": "60 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU60RH.jpg",
       "images": null,
@@ -74374,7 +74499,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RU100RH",
       "options": {
         "maat": "100 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU100RH.jpg",
       "images": null,
@@ -74385,7 +74510,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RU140RH",
       "options": {
         "maat": "140 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU140RH.jpg",
       "images": null,
@@ -74396,7 +74521,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RU200RH",
       "options": {
         "maat": "200 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU200RH.jpg",
       "images": null,
@@ -74407,7 +74532,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RU120RH",
       "options": {
         "maat": "120 cm",
-        "uitvoering": "RH"
+        "vorm": "Rechthoekig"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU120RH.jpg",
       "images": null,
@@ -74418,7 +74543,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RU60OV",
       "options": {
         "maat": "60 cm",
-        "uitvoering": "OV"
+        "vorm": "Ovaal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU60OV.jpg",
       "images": null,
@@ -74431,7 +74556,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RUD60RB",
       "options": {
         "maat": "60 cm",
-        "uitvoering": "RB"
+        "vorm": "Rechthoekig, afgerond"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD60RB.jpg",
       "images": [
@@ -74444,7 +74569,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RUD100RB",
       "options": {
         "maat": "100 cm",
-        "uitvoering": "RB"
+        "vorm": "Rechthoekig, afgerond"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100RB.jpg",
       "images": [
@@ -74457,7 +74582,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RUD80RB",
       "options": {
         "maat": "80 cm",
-        "uitvoering": "RB"
+        "vorm": "Rechthoekig, afgerond"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RB.jpg",
       "images": [
@@ -74470,7 +74595,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RUD120RB",
       "options": {
         "maat": "120 cm",
-        "uitvoering": "RB"
+        "vorm": "Rechthoekig, afgerond"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120RB.jpg",
       "images": [
@@ -74483,7 +74608,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RUD100OG",
       "options": {
         "maat": "100 cm",
-        "uitvoering": "OG"
+        "vorm": "Organisch"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100OG.jpg",
       "images": [
@@ -74496,7 +74621,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RUD60OG",
       "options": {
         "maat": "60 cm",
-        "uitvoering": "OG"
+        "vorm": "Organisch"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD60OG.jpg",
       "images": [
@@ -74509,7 +74634,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RUD120OG",
       "options": {
         "maat": "120 cm",
-        "uitvoering": "OG"
+        "vorm": "Organisch"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120OG.jpg",
       "images": [
@@ -74522,7 +74647,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RUD80RO",
       "options": {
         "maat": "80 cm",
-        "uitvoering": "RO"
+        "vorm": "Rond"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RO.jpg",
       "images": [
@@ -74535,7 +74660,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RUD120RO",
       "options": {
         "maat": "120 cm",
-        "uitvoering": "RO"
+        "vorm": "Rond"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120RO.jpg",
       "images": [
@@ -74548,7 +74673,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-RUD100RO",
       "options": {
         "maat": "100 cm",
-        "uitvoering": "RO"
+        "vorm": "Rond"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100RO.jpg",
       "images": [
@@ -74562,7 +74687,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA120RAGG",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld goud"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGG.jpg",
       "images": [
@@ -74575,7 +74702,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA80RAGG",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld goud"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGG.jpg",
       "images": [
@@ -74588,7 +74717,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA100RAGG",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld goud"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGG.jpg",
       "images": [
@@ -74601,7 +74732,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA120RAGM",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld gunmetal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGM.jpg",
       "images": [
@@ -74614,7 +74747,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA80RAGM",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld gunmetal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGM.jpg",
       "images": [
@@ -74627,7 +74762,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA100RAGM",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld gunmetal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGM.jpg",
       "images": [
@@ -74641,7 +74778,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-SA120RAS",
       "options": {
         "maat": "120 cm",
-        "uitvoering": "RAS"
+        "vorm": "Rechthoekig",
+        "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAS.jpg",
       "images": [
@@ -74655,7 +74793,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-SA80RAS",
       "options": {
         "maat": "80 cm",
-        "uitvoering": "RAS"
+        "vorm": "Rechthoekig",
+        "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAS.jpg",
       "images": [
@@ -74669,7 +74808,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "sku": "BRA-SP-SA100RAS",
       "options": {
         "maat": "100 cm",
-        "uitvoering": "RAS"
+        "vorm": "Rechthoekig",
+        "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAS.jpg",
       "images": [
@@ -74682,7 +74822,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA80RANG",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld RVS"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RANG.jpg",
       "images": [
@@ -74695,7 +74837,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA120RANG",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld RVS"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RANG.jpg",
       "images": [
@@ -74708,7 +74852,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA100RANG",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld RVS"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RANG.jpg",
       "images": [
@@ -74721,7 +74867,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA120RAGK",
       "options": {
-        "maat": "120 cm"
+        "maat": "120 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld koper"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGK.jpg",
       "images": [
@@ -74734,7 +74882,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA80RAGK",
       "options": {
-        "maat": "80 cm"
+        "maat": "80 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld koper"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGK.jpg",
       "images": [
@@ -74747,7 +74897,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-SP-SA100RAGK",
       "options": {
-        "maat": "100 cm"
+        "maat": "100 cm",
+        "vorm": "Rechthoekig",
+        "kleur": "Geborsteld koper"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGK.jpg",
       "images": [

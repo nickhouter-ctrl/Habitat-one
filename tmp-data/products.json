@@ -4446,7 +4446,7 @@
     "stock_unit": "Pcs",
     "brand": "brauer",
     "series": "Carving",
-    "product_type": "Douches",
+    "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-185.jpg",
     "collection": "bathroom"
   },
@@ -4480,7 +4480,7 @@
     "stock_unit": "Pcs",
     "brand": "brauer",
     "series": "Carving",
-    "product_type": "Douches",
+    "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-249.jpg",
     "collection": "bathroom"
   },
@@ -4497,7 +4497,7 @@
     "stock_unit": "Pcs",
     "brand": "brauer",
     "series": "Carving",
-    "product_type": "Douches",
+    "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-255.jpg",
     "collection": "bathroom"
   },
@@ -4786,7 +4786,7 @@
     "stock_unit": "Pcs",
     "brand": "brauer",
     "series": "Edition",
-    "product_type": "Douches",
+    "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-154_1.jpg",
     "collection": "bathroom"
   },
@@ -4956,7 +4956,7 @@
     "stock_unit": "Pcs",
     "brand": "brauer",
     "series": "Edition",
-    "product_type": "Douches",
+    "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-171.jpg",
     "collection": "bathroom"
   },
@@ -4990,7 +4990,7 @@
     "stock_unit": "Pcs",
     "brand": "brauer",
     "series": "Edition",
-    "product_type": "Douches",
+    "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-235.jpg",
     "collection": "bathroom"
   },
@@ -5007,7 +5007,7 @@
     "stock_unit": "Pcs",
     "brand": "brauer",
     "series": "Edition",
-    "product_type": "Douches",
+    "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-241.jpg",
     "collection": "bathroom"
   },
@@ -5552,7 +5552,7 @@
     "brand": "brauer",
     "series": "Citrine",
     "product_type": "Spiegels",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEB.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHVEG.jpg",
     "collection": "bathroom"
   },
   {
@@ -5569,7 +5569,7 @@
     "brand": "brauer",
     "series": "Emerald",
     "product_type": "Spiegels",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM160RH.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM140RH.jpg",
     "collection": "bathroom"
   },
   {
@@ -5603,7 +5603,7 @@
     "brand": "brauer",
     "series": "Jade",
     "product_type": "Spiegels",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD100RO.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD80RO.jpg",
     "collection": "bathroom"
   },
   {
@@ -5637,7 +5637,7 @@
     "brand": "brauer",
     "series": "Jade Edge",
     "product_type": "Spiegels",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70ROO.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70RO.jpg",
     "collection": "bathroom"
   },
   {
@@ -5654,7 +5654,7 @@
     "brand": "brauer",
     "series": "Jasper",
     "product_type": "Spiegels",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS160RH.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS140RH.jpg",
     "collection": "bathroom"
   },
   {
@@ -5688,7 +5688,7 @@
     "brand": "brauer",
     "series": "Pyrite",
     "product_type": "Spiegels",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY120RH.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY140RH.jpg",
     "collection": "bathroom"
   },
   {
@@ -5705,7 +5705,7 @@
     "brand": "brauer",
     "series": "Quartz",
     "product_type": "Spiegels",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU120RH.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU100RH.jpg",
     "collection": "bathroom"
   },
   {
@@ -5722,7 +5722,7 @@
     "brand": "brauer",
     "series": "Ruby",
     "product_type": "Spiegels",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU160RH.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU60RH.jpg",
     "collection": "bathroom"
   },
   {
@@ -5739,7 +5739,7 @@
     "brand": "brauer",
     "series": "Ruby Deluxe",
     "product_type": "Spiegels",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RB.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RO.jpg",
     "collection": "bathroom"
   },
   {
@@ -6027,7 +6027,7 @@
     "stock_unit": "Pcs",
     "brand": "brauer",
     "series": "Stripe",
-    "product_type": "Douches",
+    "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-345.jpg",
     "collection": "bathroom"
   },
@@ -6095,7 +6095,7 @@
     "stock_unit": "Pcs",
     "brand": "brauer",
     "series": "Stripe",
-    "product_type": "Douches",
+    "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-348.jpg",
     "collection": "bathroom"
   },
@@ -6146,7 +6146,7 @@
     "stock_unit": "Pcs",
     "brand": "brauer",
     "series": "Stripe",
-    "product_type": "Douches",
+    "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-377.jpg",
     "collection": "bathroom"
   },

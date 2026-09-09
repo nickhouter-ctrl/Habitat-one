@@ -7920,7 +7920,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Carving",
-    "productType": "Douches",
+    "productType": "Douchesets",
     "optionAxes": [
       {
         "key": "kleur",
@@ -8769,7 +8769,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Carving",
-    "productType": "Douches",
+    "productType": "Douchesets",
     "optionAxes": [
       {
         "key": "kleur",
@@ -8858,7 +8858,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Carving",
-    "productType": "Douches",
+    "productType": "Douchesets",
     "optionAxes": [
       {
         "key": "kleur",
@@ -10664,7 +10664,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douches",
+    "productType": "Douchesets",
     "optionAxes": [
       {
         "key": "kleur",
@@ -11919,7 +11919,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douches",
+    "productType": "Douchesets",
     "optionAxes": [
       {
         "key": "kleur",
@@ -12804,7 +12804,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douches",
+    "productType": "Douchesets",
     "optionAxes": [
       {
         "key": "kleur",
@@ -12899,7 +12899,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douches",
+    "productType": "Douchesets",
     "optionAxes": [
       {
         "key": "kleur",
@@ -15961,7 +15961,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEB.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHVEG.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -15972,6 +15972,37 @@ export const catalogProducts: CatalogProduct[] = [
     "series": "Citrine",
     "productType": "Spiegels",
     "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEB.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEN.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEW.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEZ.jpg"
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHVEG.jpg"
+          }
+        ]
+      },
       {
         "key": "maat",
         "label": "Maat",
@@ -16072,7 +16103,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM160RH.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM140RH.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -16260,7 +16291,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD100RO.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD80RO.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -16333,22 +16364,22 @@ export const catalogProducts: CatalogProduct[] = [
         ]
       },
       {
-        "key": "uitvoering",
-        "label": "Uitvoering",
+        "key": "vorm",
+        "label": "Vorm",
         "values": [
           {
-            "value": "OV",
-            "label": "OV",
+            "value": "Ovaal",
+            "label": "Ovaal",
             "image": null
           },
           {
-            "value": "RH",
-            "label": "RH",
+            "value": "Rechthoekig",
+            "label": "Rechthoekig",
             "image": null
           },
           {
-            "value": "RO",
-            "label": "RO",
+            "value": "Rond",
+            "label": "Rond",
             "image": null
           }
         ]
@@ -16430,7 +16461,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70ROO.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70RO.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -16440,28 +16471,8 @@ export const catalogProducts: CatalogProduct[] = [
     "brand": "brauer",
     "series": "Jade Edge",
     "productType": "Spiegels",
-    "optionAxes": [
-      {
-        "key": "uitvoering",
-        "label": "Uitvoering",
-        "values": [
-          {
-            "value": "RO",
-            "label": "RO",
-            "image": null
-          },
-          {
-            "value": "ROO",
-            "label": "ROO",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
-      "BRA-SP-JDE70RO",
-      "BRA-SP-JDE70ROO"
-    ],
+    "optionAxes": null,
+    "variantSkus": null,
     "variants": []
   },
   {
@@ -16473,7 +16484,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS160RH.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS140RH.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -16564,6 +16575,22 @@ export const catalogProducts: CatalogProduct[] = [
     "productType": "Spiegels",
     "optionAxes": [
       {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Aluminium",
+            "label": "Aluminium",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON80RHA.jpg"
+          },
+          {
+            "value": "Zwart",
+            "label": "Zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON80RHZ.jpg"
+          }
+        ]
+      },
+      {
         "key": "maat",
         "label": "Maat",
         "values": [
@@ -16620,22 +16647,17 @@ export const catalogProducts: CatalogProduct[] = [
         ]
       },
       {
-        "key": "uitvoering",
-        "label": "Uitvoering",
+        "key": "vorm",
+        "label": "Vorm",
         "values": [
           {
-            "value": "RHA",
-            "label": "RHA",
+            "value": "Rechthoekig",
+            "label": "Rechthoekig",
             "image": null
           },
           {
-            "value": "RHZ",
-            "label": "RHZ",
-            "image": null
-          },
-          {
-            "value": "ROZ",
-            "label": "ROZ",
+            "value": "Rond",
+            "label": "Rond",
             "image": null
           }
         ]
@@ -16674,7 +16696,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY120RH.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY140RH.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -16747,7 +16769,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU120RH.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU100RH.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -16832,7 +16854,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU160RH.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU60RH.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -16890,17 +16912,17 @@ export const catalogProducts: CatalogProduct[] = [
         ]
       },
       {
-        "key": "uitvoering",
-        "label": "Uitvoering",
+        "key": "vorm",
+        "label": "Vorm",
         "values": [
           {
-            "value": "OV",
-            "label": "OV",
+            "value": "Ovaal",
+            "label": "Ovaal",
             "image": null
           },
           {
-            "value": "RH",
-            "label": "RH",
+            "value": "Rechthoekig",
+            "label": "Rechthoekig",
             "image": null
           }
         ]
@@ -16928,7 +16950,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RB.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RO.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -16966,22 +16988,22 @@ export const catalogProducts: CatalogProduct[] = [
         ]
       },
       {
-        "key": "uitvoering",
-        "label": "Uitvoering",
+        "key": "vorm",
+        "label": "Vorm",
         "values": [
           {
-            "value": "OG",
-            "label": "OG",
+            "value": "Organisch",
+            "label": "Organisch",
             "image": null
           },
           {
-            "value": "RB",
-            "label": "RB",
+            "value": "Rechthoekig, afgerond",
+            "label": "Rechthoekig, afgerond",
             "image": null
           },
           {
-            "value": "RO",
-            "label": "RO",
+            "value": "Rond",
+            "label": "Rond",
             "image": null
           }
         ]
@@ -17021,6 +17043,37 @@ export const catalogProducts: CatalogProduct[] = [
     "series": "Sapphire",
     "productType": "Spiegels",
     "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGG.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGM.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGK.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RANG.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAS.jpg"
+          }
+        ]
+      },
       {
         "key": "maat",
         "label": "Maat",
@@ -19410,7 +19463,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Stripe",
-    "productType": "Douches",
+    "productType": "Douchesets",
     "optionAxes": [
       {
         "key": "kleur",
@@ -19716,7 +19769,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Stripe",
-    "productType": "Douches",
+    "productType": "Douchesets",
     "optionAxes": [
       {
         "key": "kleur",
@@ -20045,7 +20098,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Stripe",
-    "productType": "Douches",
+    "productType": "Douchesets",
     "optionAxes": [
       {
         "key": "kleur",

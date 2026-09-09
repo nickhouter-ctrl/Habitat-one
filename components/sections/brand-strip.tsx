@@ -72,6 +72,14 @@ export async function BrandStrip({
             >
               {t("inBathroom")}
             </Link>
+            {slug === "brauer" && (
+              <Link
+                href="/brands/brauer/samenstellen"
+                className="mt-2 block text-sm text-ink underline underline-offset-4 hover:text-ink-soft"
+              >
+                {t("composeLink")}
+              </Link>
+            )}
           </div>
           <div>
             <p className="max-w-2xl text-[0.95rem] leading-relaxed text-ink-soft">{t("brauerLead")}</p>

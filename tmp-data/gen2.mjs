@@ -361,6 +361,35 @@ export const productCombinations: Record<number, ProductCombination[]> = ${JSON.
 `,
 );
 
+// ---- Brauer-meubelonderdelen voor de samenstel-pagina ----
+{
+  const meubels = fs.existsSync(`${D}/brauer_meubels.json`) ? J("brauer_meubels.json") : { onderdelen: [], kleuren: {} };
+  fs.writeFileSync(
+    "lib/data/brauer-meubels.generated.ts",
+    `// AUTO-GENERATED. Do not edit by hand. (tmp-data/gen2.mjs)
+export type MeubelType = "Onderkast" | "Bijkast" | "Hoge kast" | "Fonteinkast" | "Fonteinbak" | "Wastafel" | "Topblad" | "Waskom" | "Meubelgreep" | "Front" | "Spiegel" | "Spiegelkast";
+export interface MeubelOnderdeel {
+  type: MeubelType;
+  serie: string;
+  product: string;
+  code: string;
+  sku: string;
+  kleur: string | null;
+  breedte: string | null;
+  uitvoering: string | null;
+  positie: string | null;
+  vorm: string | null;
+  image: string | null;
+  images: string[] | null;
+  drawing: string | null;
+}
+export const meubelOnderdelen: MeubelOnderdeel[] = ${JSON.stringify(meubels.onderdelen)};
+/** Kleurstaal per meubelkleur (packshot van een onderkast in die kleur). */
+export const meubelKleuren: Record<string, string> = ${JSON.stringify(meubels.kleuren)};
+`,
+  );
+}
+
 // ---- materials / spaces / categories (unchanged structure) ----
 const matsOut = materials
   .filter((m) => m.is_active !== false)

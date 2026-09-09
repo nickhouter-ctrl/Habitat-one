@@ -9,6 +9,7 @@ import { Container, Section } from "@/components/ui/section";
 import { catalogProducts } from "@/lib/data/catalog";
 import { BRANDS } from "@/lib/data/brands";
 import { term } from "@/lib/data/catalog-i18n";
+import { meubelOnderdelen } from "@/lib/data/brauer-meubels.generated";
 import { Link } from "@/i18n/navigation";
 import { seoAlternates } from "@/lib/seo/alternates";
 
@@ -58,8 +59,7 @@ export default async function BrandPage({
         return acc;
       }, {}),
   )
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 8);
+    .sort((a, b) => b[1] - a[1]);
 
   /**
    * Beeld voor een productsoort: het eerste product mét foto, liefst in de
@@ -72,9 +72,10 @@ export default async function BrandPage({
     const staal = kleur ? p.optionAxes?.find((a) => a.key === "kleur")?.values.find((w) => w.value === kleur && w.image)?.image : null;
     return { src: staal ?? p.image!, alt: p.name };
   };
-  const heroBeeld = beeldVoor("Douchewanden") ?? beeldVoor("Douches");
+  const heroBeeld = beeldVoor("Douchewanden") ?? beeldVoor("Douchesets");
+  const meubelBeeld = meubelOnderdelen.find((o) => o.type === "Onderkast" && o.image)?.image ?? null;
   const mozaiek = [
-    beeldVoor("Douches", "Geborsteld goud", [heroBeeld?.src ?? ""]),
+    beeldVoor("Douchesets", "Geborsteld goud", [heroBeeld?.src ?? ""]),
     beeldVoor("Badkranen", "Mat zwart"),
     beeldVoor("Wastafelkranen", "Geborsteld koper"),
   ].filter((b): b is { src: string; alt: string } => !!b);
@@ -110,6 +111,11 @@ export default async function BrandPage({
               <p className="mt-5 text-base leading-relaxed text-ink-soft md:text-[1.05rem]">
                 {t("brauerLead")}
               </p>
+              {slug === "brauer" && (
+                <Link href="/brands/brauer/samenstellen" className="btn btn-ghost mt-7">
+                  {t("composeLink")}
+                </Link>
+              )}
             </div>
             {heroBeeld && (
               <div className="relative aspect-[4/5] overflow-hidden bg-sand-100">
@@ -179,6 +185,17 @@ export default async function BrandPage({
                   </Link>
                 );
               })}
+              {slug === "brauer" && (
+                <Link
+                  href="/brands/brauer/samenstellen"
+                  className="group flex items-center gap-4 rounded-sm border border-ink bg-ink p-3 text-cream transition-colors hover:bg-clay-700"
+                >
+                  <span className="relative block size-16 shrink-0 overflow-hidden bg-paper">
+                    {meubelBeeld && <Image src={meubelBeeld} alt="" fill sizes="64px" className="object-contain p-1" />}
+                  </span>
+                  <span className="text-sm">{t("composeLink")}</span>
+                </Link>
+              )}
             </div>
           </Container>
         </Section>
