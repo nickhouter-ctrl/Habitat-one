@@ -59,19 +59,22 @@ export interface ProductDetailLayoutProps {
  * (kwaliteit, waterverbruik, montage) leesbaar onder het product.
  */
 function Uitleg({ tekst }: { tekst: string }) {
-  const blokken = tekst.split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
+  // regel voor regel: kop, opsommingsregel of gewone tekst; opeenvolgende gewone regels vormen een alinea
+  const blokken: Array<{ soort: "kop" | "lijst" | "alinea"; regels: string[] }> = [];
+  for (const raw of tekst.split("\n")) {
+    const r = raw.trim();
+    if (!r) { if (blokken.at(-1)?.soort !== "kop") blokken.push({ soort: "alinea", regels: [] }); continue; }
+    if (r.startsWith("## ")) { blokken.push({ soort: "kop", regels: [r.slice(3)] }); continue; }
+    if (/^[-•]\s/.test(r)) { const l = blokken.at(-1); if (l?.soort === "lijst") l.regels.push(r.replace(/^[-•]\s+/, "")); else blokken.push({ soort: "lijst", regels: [r.replace(/^[-•]\s+/, "")] }); continue; }
+    const l = blokken.at(-1); if (l?.soort === "alinea") l.regels.push(r); else blokken.push({ soort: "alinea", regels: [r] });
+  }
   return (
     <div className="mt-5 space-y-3 text-[0.95rem] leading-relaxed text-ink-soft">
-      {blokken.map((b, i) => {
-        if (b.startsWith("## ")) return <h3 key={i} className="pt-2 font-display text-lg text-ink">{b.slice(3)}</h3>;
-        const regels = b.split("\n");
-        if (regels.every((r) => /^[-•]\s/.test(r))) return (
-          <ul key={i} className="space-y-1 pl-4">
-            {regels.map((r, j) => <li key={j} className="list-disc">{r.replace(/^[-•]\s+/, "")}</li>)}
-          </ul>
-        );
-        return <p key={i}>{b}</p>;
-      })}
+      {blokken.filter((b) => b.regels.length).map((b, i) =>
+        b.soort === "kop" ? <h3 key={i} className="pt-2 font-display text-lg text-ink">{b.regels[0]}</h3>
+        : b.soort === "lijst" ? <ul key={i} className="space-y-1 pl-4">{b.regels.map((r, j) => <li key={j} className="list-disc">{r}</li>)}</ul>
+        : <p key={i}>{b.regels.join(" ")}</p>,
+      )}
     </div>
   );
 }

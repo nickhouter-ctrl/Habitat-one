@@ -203,7 +203,7 @@ export default async function ProductDetailPage({
             name={name}
             lead={lead}
             description={description}
-            collectionLabel={collectionLabel}
+            collectionLabel={product.brand === "brauer" ? "BRAUER" : collectionLabel}
             identifier={identifier}
             materialList={materialList}
             spaceList={spaceList}

@@ -151,7 +151,7 @@ const outProducts = products
         const stripped = sd.replace(/mm|cm/gi, "").replace(/\s+/g, " ").trim();
         return /^[\d\s*x×.,()·/-]+$/.test(stripped) ? clean(sd) : null;
       })(),
-      materials: matSlugs,
+      materials: p.brand ? [] : matSlugs, // merkproducten: geen materiaallabel ("solid surface") uit oude koppelingen
       spaces: spaceSlugs,
       categories: catSlugs,
       // Een expliciet meegegeven collectie wint van de naam-regex. De
