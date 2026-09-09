@@ -379,6 +379,8 @@ export interface MeubelOnderdeel {
   uitvoering: string | null;
   positie: string | null;
   vorm: string | null;
+  wasbakken: string | null;
+  kraangat: string | null;
   image: string | null;
   images: string[] | null;
   drawing: string | null;

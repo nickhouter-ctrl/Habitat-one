@@ -2009,7 +2009,7 @@
     "brauerSeriesTitle": "Tres series",
     "brauerSeriesLead": "Edition tiene mandos lisos, Carving un relieve marcado y Stripe un juego de líneas sutil. Los mismos colores y el mismo interior; solo cambia el mando.",
     "inBathroom": "Ver la colección BRAUER",
-    "choose": "Elige una opción",
+    "choose": "Elegir",
     "close": "Cerrar",
     "more": "Ver más",
     "less": "Ver menos",
@@ -2045,6 +2045,14 @@
     "addSet": "Añadir conjunto al presupuesto",
     "addedSet": "Añadido al presupuesto",
     "parts": "piezas",
-    "noMatch": "No hay pieza que encaje en este ancho"
+    "noMatch": "No hay pieza que encaje en este ancho",
+    "change": "Cambiar",
+    "remove": "Quitar",
+    "nothingChosen": "Nada elegido todavía",
+    "standard": "Normal",
+    "coloursN": "{n} colores",
+    "topHint": "Un lavabo ya lleva el seno integrado. Si eliges una encimera, después eliges un lavabo sobre encimera aparte.",
+    "groupWashbasin": "Lavabo · seno integrado",
+    "groupWorktop": "Encimera · con lavabo aparte"
   }
 }

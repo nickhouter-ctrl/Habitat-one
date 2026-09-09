@@ -2009,7 +2009,7 @@
     "brauerSeriesTitle": "三个系列",
     "brauerSeriesLead": "Edition 手柄光滑，Carving 带有立体浮雕，Stripe 则是细腻的线条。颜色与内部结构相同，只有操作方式不同。",
     "inBathroom": "查看 BRAUER 系列",
-    "choose": "请选择",
+    "choose": "选择",
     "close": "关闭",
     "more": "显示更多",
     "less": "收起",
@@ -2045,6 +2045,14 @@
     "addSet": "将整套加入报价",
     "addedSet": "已加入报价",
     "parts": "件",
-    "noMatch": "该宽度没有匹配的部件"
+    "noMatch": "该宽度没有匹配的部件",
+    "change": "更改",
+    "remove": "移除",
+    "nothingChosen": "尚未选择",
+    "standard": "标准",
+    "coloursN": "{n} 种颜色",
+    "topHint": "一体盆已内置洗手盆。若选择台面，接下来再单独选择台上盆。",
+    "groupWashbasin": "一体盆 · 内置洗手盆",
+    "groupWorktop": "台面 · 搭配台上盆"
   }
 }

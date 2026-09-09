@@ -2009,7 +2009,7 @@
     "brauerSeriesTitle": "Trois séries",
     "brauerSeriesLead": "Edition a des manettes lisses, Carving un relief affirmé et Stripe un jeu de lignes discret. Mêmes couleurs, même mécanique — seule la commande change.",
     "inBathroom": "Découvrir la gamme BRAUER",
-    "choose": "Choisir une option",
+    "choose": "Choisir",
     "close": "Fermer",
     "more": "Voir plus",
     "less": "Voir moins",
@@ -2045,6 +2045,14 @@
     "addSet": "Ajouter l'ensemble au devis",
     "addedSet": "Ajouté au devis",
     "parts": "éléments",
-    "noMatch": "Aucun élément adapté à cette largeur"
+    "noMatch": "Aucun élément adapté à cette largeur",
+    "change": "Modifier",
+    "remove": "Retirer",
+    "nothingChosen": "Rien de choisi pour l’instant",
+    "standard": "Normal",
+    "coloursN": "{n} couleurs",
+    "topHint": "Un plan-vasque a la vasque intégrée. Si vous choisissez un plan de toilette, vous choisissez ensuite une vasque à poser séparée.",
+    "groupWashbasin": "Plan-vasque · vasque intégrée",
+    "groupWorktop": "Plan de toilette · avec vasque à poser"
   }
 }

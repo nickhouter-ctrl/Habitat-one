@@ -2009,7 +2009,7 @@
     "brauerSeriesTitle": "Drei Serien",
     "brauerSeriesLead": "Edition hat glatte Griffe, Carving ein kräftiges Relief und Stripe ein feines Linienspiel. Gleiche Farben, gleiche Technik — nur die Bedienung unterscheidet sich.",
     "inBathroom": "Das BRAUER-Sortiment ansehen",
-    "choose": "Option wählen",
+    "choose": "Wählen",
     "close": "Schließen",
     "more": "Mehr anzeigen",
     "less": "Weniger anzeigen",
@@ -2045,6 +2045,14 @@
     "addSet": "Set zum Angebot hinzufügen",
     "addedSet": "Zum Angebot hinzugefügt",
     "parts": "Teile",
-    "noMatch": "Kein passendes Teil in dieser Breite"
+    "noMatch": "Kein passendes Teil in dieser Breite",
+    "change": "Ändern",
+    "remove": "Entfernen",
+    "nothingChosen": "Noch nichts gewählt",
+    "standard": "Normal",
+    "coloursN": "{n} Farben",
+    "topHint": "Ein Waschtisch hat das Becken bereits integriert. Wählen Sie eine Abdeckplatte, dann wählen Sie danach ein separates Aufsatzbecken.",
+    "groupWashbasin": "Waschtisch · Becken integriert",
+    "groupWorktop": "Abdeckplatte · mit Aufsatzbecken"
   }
 }

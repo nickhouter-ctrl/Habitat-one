@@ -2009,7 +2009,7 @@
     "brauerSeriesTitle": "Drie series",
     "brauerSeriesLead": "Edition heeft gladde bedieningsknoppen, Carving een stoer reliëf en Stripe een subtiel lijnenspel. Dezelfde kleuren, hetzelfde binnenwerk — alleen de bediening verschilt.",
     "inBathroom": "Bekijk het BRAUER-assortiment",
-    "choose": "Kies een optie",
+    "choose": "Kiezen",
     "close": "Sluiten",
     "more": "Meer tonen",
     "less": "Minder tonen",
@@ -2045,6 +2045,14 @@
     "addSet": "Voeg set toe aan offerte",
     "addedSet": "Toegevoegd aan offerte",
     "parts": "onderdelen",
-    "noMatch": "Geen passend onderdeel in deze breedte"
+    "noMatch": "Geen passend onderdeel in deze breedte",
+    "change": "Wijzigen",
+    "remove": "Verwijderen",
+    "nothingChosen": "Nog niets gekozen",
+    "standard": "Normaal",
+    "coloursN": "{n} kleuren",
+    "topHint": "Een wastafel heeft de wasbak al ingebouwd. Kies je een topblad, dan kies je daarna een losse waskom.",
+    "groupWashbasin": "Wastafel · wasbak ingebouwd",
+    "groupWorktop": "Topblad · met losse waskom"
   }
 }

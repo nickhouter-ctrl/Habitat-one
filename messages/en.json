@@ -2009,7 +2009,7 @@
     "brauerSeriesTitle": "Three series",
     "brauerSeriesLead": "Edition has smooth handles, Carving a bold relief and Stripe a subtle line pattern. Same colours, same internals — only the controls differ.",
     "inBathroom": "View the BRAUER range",
-    "choose": "Choose an option",
+    "choose": "Choose",
     "close": "Close",
     "more": "Show more",
     "less": "Show less",
@@ -2045,6 +2045,14 @@
     "addSet": "Add set to quote",
     "addedSet": "Added to quote",
     "parts": "parts",
-    "noMatch": "No matching part in this width"
+    "noMatch": "No matching part in this width",
+    "change": "Change",
+    "remove": "Remove",
+    "nothingChosen": "Nothing chosen yet",
+    "standard": "Standard",
+    "coloursN": "{n} colours",
+    "topHint": "A washbasin has the bowl built in. If you choose a worktop, you pick a separate bowl next.",
+    "groupWashbasin": "Washbasin · bowl built in",
+    "groupWorktop": "Worktop · with separate bowl"
   }
 }
