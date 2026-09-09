@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
-import { Check, Plus, X } from "lucide-react";
+import { Check, ChevronRight, Plus, X } from "lucide-react";
 
 import { usePrices } from "@/components/account/price-provider";
 import { useQuote } from "@/components/quote-context";
@@ -64,7 +64,7 @@ function Stap({ nr, titel, hint, children }: { nr: number; titel: string; hint?:
   );
 }
 
-type KiesItem = { key: string; label: string; sub?: string; image?: string | null; groep?: string; badge?: string };
+type KiesItem = { key: string; label: string; sub?: string; image?: string | null; groep?: string; badge?: string; staal?: boolean };
 
 /**
  * Popup met een raster van grote voorbeelden. Items met een `groep` staan onder
@@ -85,13 +85,13 @@ function Kiezer({ open, titel, items, actief, onKies, onClose, labels }: {
   const groepen = [...new Set(items.map((i) => i.groep ?? ""))];
   return (
     <div className="fixed inset-0 z-[80] flex items-end justify-center bg-ink/60 p-0 backdrop-blur-sm sm:items-center sm:p-6" onClick={onClose} role="dialog" aria-modal="true" aria-label={titel}>
-      <div className="max-h-[92vh] w-full max-w-5xl overflow-y-auto bg-cream p-5 shadow-2xl sm:rounded-sm sm:p-8" onClick={(e) => e.stopPropagation()}>
-        <div className="flex items-start justify-between gap-4">
-          <h3 className="font-display text-2xl text-ink">{titel}</h3>
-          <button type="button" onClick={onClose} className="rounded-sm border border-ink/15 p-2 text-ink-soft hover:border-ink/40 hover:text-ink" aria-label={labels.close}><X className="h-4 w-4" /></button>
+      <div className="max-h-[92vh] w-full max-w-5xl overflow-y-auto rounded-t-2xl bg-cream px-4 pb-6 shadow-2xl sm:rounded-sm sm:px-8 sm:pb-8" onClick={(e) => e.stopPropagation()}>
+        <div className="sticky top-0 z-10 -mx-4 flex items-center justify-between gap-4 bg-cream/95 px-4 pb-3 pt-4 backdrop-blur sm:-mx-8 sm:px-8 sm:pt-6">
+          <h3 className="font-display text-xl text-ink sm:text-2xl">{titel}</h3>
+          <button type="button" onClick={onClose} className="rounded-full border border-ink/15 p-2 text-ink-soft hover:border-ink/40 hover:text-ink" aria-label={labels.close}><X className="h-4 w-4" /></button>
         </div>
         {groepen.map((g) => (
-          <div key={g} className="mt-6">
+          <div key={g} className="mt-4 sm:mt-6">
             {g && <h4 className="mb-3 text-[0.7rem] font-semibold uppercase tracking-[0.25em] text-ink-soft">{g}</h4>}
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
               {items.filter((i) => (i.groep ?? "") === g).map((i) => (
@@ -103,11 +103,11 @@ function Kiezer({ open, titel, items, actief, onKies, onClose, labels }: {
                   className={cn("group flex flex-col rounded-sm border text-left transition-colors", actief === i.key ? "border-ink" : "border-ink/10 hover:border-ink/40")}
                 >
                   <span className="relative block aspect-square w-full overflow-hidden bg-paper">
-                    {i.image ? <Image src={i.image} alt="" fill sizes="(max-width:640px) 50vw, 240px" className="object-contain p-3 transition-transform duration-500 group-hover:scale-[1.04]" /> : null}
+                    {i.image ? <Image src={i.image} alt="" fill sizes="(max-width:640px) 50vw, 240px" className={cn("transition-transform duration-500 group-hover:scale-[1.04]", i.staal ? "scale-[1.6] object-cover" : "object-contain p-3")} /> : null}
                     {i.badge && <span className="absolute left-2 top-2 rounded-sm bg-ink px-2 py-0.5 text-[0.62rem] uppercase tracking-[0.15em] text-cream">{i.badge}</span>}
                   </span>
-                  <span className="px-3 py-2.5">
-                    <span className="block text-sm text-ink">{i.label}</span>
+                  <span className="px-2.5 py-2 sm:px-3 sm:py-2.5">
+                    <span className="block text-[0.85rem] leading-snug text-ink sm:text-sm">{i.label}</span>
                     {i.sub && <span className="mt-0.5 block text-xs text-ink-soft">{i.sub}</span>}
                   </span>
                 </button>
@@ -124,20 +124,21 @@ function Kiezer({ open, titel, items, actief, onKies, onClose, labels }: {
 }
 
 /** De gemaakte keuze in een stap, met de knop om de popup te openen. */
-function Gekozen({ image, titel, sub, onWijzig, onWeg, labels }: { image?: string | null; titel: string | null; sub?: string | null; onWijzig: () => void; onWeg?: () => void; labels: { choose: string; change: string; remove: string; nothing: string } }) {
+function Gekozen({ image, staal, titel, sub, onWijzig, onWeg, labels }: { image?: string | null; staal?: boolean; titel: string | null; sub?: string | null; onWijzig: () => void; onWeg?: () => void; labels: { choose: string; change: string; remove: string; nothing: string } }) {
   return (
-    <div className="flex flex-wrap items-center gap-4">
-      <div className={cn("relative size-24 shrink-0 overflow-hidden bg-paper", !titel && "border border-dashed border-ink/20 bg-transparent")}>
-        {image && <Image src={image} alt="" fill sizes="96px" className="object-contain p-1" />}
-      </div>
-      <div className="min-w-0 flex-1">
-        <p className={cn("text-sm", titel ? "text-ink" : "text-ink-soft")}>{titel ?? labels.nothing}</p>
-        {sub && <p className="mt-0.5 text-xs text-ink-soft">{sub}</p>}
-      </div>
-      <div className="flex gap-2">
-        <button type="button" onClick={onWijzig} className="btn btn-ghost">{titel ? labels.change : labels.choose}</button>
-        {titel && onWeg && <button type="button" onClick={onWeg} className="rounded-sm border border-ink/15 px-3 py-2 text-sm text-ink-soft hover:border-ink/40 hover:text-ink">{labels.remove}</button>}
-      </div>
+    <div className="flex items-stretch gap-2">
+      <button type="button" onClick={onWijzig} className={cn("group flex min-w-0 flex-1 items-center gap-3 rounded-sm border text-left transition-colors sm:gap-4", titel ? "border-ink/15 hover:border-ink/40" : "border-dashed border-ink/25 hover:border-ink/50")}>
+        <span className={cn("relative block size-20 shrink-0 overflow-hidden sm:size-24", titel ? "bg-paper" : "")}>
+          {image && <Image src={image} alt="" fill sizes="96px" className={staal ? "scale-[1.6] object-cover" : "object-contain p-1"} />}
+        </span>
+        <span className="min-w-0 flex-1 py-2">
+          <span className={cn("block text-sm", titel ? "text-ink" : "text-ink-soft")}>{titel ?? labels.nothing}</span>
+          {sub && <span className="mt-0.5 block text-xs text-ink-soft">{sub}</span>}
+          <span className="mt-1 block text-[0.66rem] uppercase tracking-[0.2em] text-ink-soft/80 group-hover:text-ink">{titel ? labels.change : labels.choose}</span>
+        </span>
+        <ChevronRight className="mr-3 h-4 w-4 shrink-0 text-ink-soft/60 group-hover:text-ink" />
+      </button>
+      {titel && onWeg && <button type="button" onClick={onWeg} className="shrink-0 rounded-sm border border-ink/15 px-3 text-xs text-ink-soft hover:border-ink/40 hover:text-ink" aria-label={labels.remove}><X className="h-4 w-4" /></button>}
     </div>
   );
 }
@@ -148,7 +149,7 @@ export function MeubelConfigurator() {
   const prijzen = usePrices();
   const { addItem } = useQuote();
   const labels = { none: t("none"), close: t("close"), choose: t("choose"), change: t("change"), remove: t("remove"), nothing: t("nothingChosen") };
-  const [popup, setPopup] = useState<null | "serie" | "blad" | "waskom" | "spiegel" | "hoog" | "greep">(null);
+  const [popup, setPopup] = useState<null | "serie" | "kleur" | "blad" | "waskom" | "spiegel" | "hoog" | "greep">(null);
   const sluit = () => setPopup(null);
   /** "Ondiep · Links" → vertaald; de lege standaarduitvoering heet "Normaal". */
   const uitvLabel = (u: string) => (u ? u.split(" · ").map((x) => term(x, locale)).join(" · ") : t("standard"));
@@ -168,7 +169,7 @@ export function MeubelConfigurator() {
   const kleuren = useMemo(() => [...new Set(kastenMaat.map((o) => o.kleur).filter(Boolean))].sort(nl) as string[], [kastenMaat]);
   const [kleur, setKleur] = useState("");
   useEffect(() => { if (!kleuren.includes(kleur)) setKleur(kleuren[0] ?? ""); }, [kleuren, kleur]);
-  const uitvVan = (o: MeubelOnderdeel) => [o.uitvoering, o.positie].filter(Boolean).join(" · ");
+  const uitvVan = (o: MeubelOnderdeel) => [o.wasbakken, o.uitvoering, o.positie].filter(Boolean).join(" · ");
   const uitvoeringen = useMemo(() => [...new Set(kastenMaat.filter((o) => o.kleur === kleur).map(uitvVan))].sort(nl), [kastenMaat, kleur]);
   const [uitvoering, setUitvoering] = useState("");
   useEffect(() => { if (!uitvoeringen.includes(uitvoering)) setUitvoering(uitvoeringen[0] ?? ""); }, [uitvoeringen, uitvoering]);
@@ -192,7 +193,10 @@ export function MeubelConfigurator() {
   const bladInKleur = bladOpties.filter((o) => !bladKleuren.length || o.kleur === bladKleur);
   const bladUitvoeringen = [...new Set(bladInKleur.map(bladUitv))].sort(nl);
   const [bladUitvoering, setBladUitvoering] = useState("");
-  useEffect(() => { if (!bladUitvoeringen.includes(bladUitvoering)) setBladUitvoering(bladUitvoeringen[0] ?? ""); }, [bladUitvoeringen.join("|"), bladUitvoering]); // eslint-disable-line react-hooks/exhaustive-deps
+  // standaard het blad dat bij het aantal wasbakken van de kast past (120-1 → 1 wasbak, 120-2/-4 → 2 wasbakken)
+  const bladVoorKast = bladUitvoeringen.find((u) => kast?.wasbakken && u.includes(kast.wasbakken)) ?? bladUitvoeringen[0] ?? "";
+  useEffect(() => { if (!bladUitvoeringen.includes(bladUitvoering)) setBladUitvoering(bladVoorKast); }, [bladUitvoeringen.join("|"), bladUitvoering]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { if (kast?.wasbakken && bladUitvoeringen.includes(bladVoorKast)) setBladUitvoering(bladVoorKast); }, [kast?.wasbakken]); // eslint-disable-line react-hooks/exhaustive-deps
   const blad = bladInKleur.find((o) => bladUitv(o) === bladUitvoering) ?? bladInKleur[0] ?? null;
   // Verandert de kastkleur, dan gaat het blad mee als het in die kleur bestaat.
   useEffect(() => { if (bladKleuren.includes(kleur)) setBladKleur(kleur); }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -234,8 +238,9 @@ export function MeubelConfigurator() {
     if (zelfde) setHogeKastSku(zelfde.sku);
   }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // 8. Greep
-  const grepen = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Meubelgreep").sort((a, b) => nl(a.serie, b.serie) || cm(a.breedte) - cm(b.breedte) || nl(a.kleur ?? "", b.kleur ?? "")), []);
+  // 8. Greep — niet bij series zonder lades (Believe en Amaze zijn open frames)
+  const ZONDER_GREEP = ["Believe", "Amaze"];
+  const grepen = useMemo(() => (ZONDER_GREEP.includes(serie) ? [] : meubelOnderdelen.filter((o) => o.type === "Meubelgreep")).sort((a, b) => nl(a.serie, b.serie) || cm(a.breedte) - cm(b.breedte) || nl(a.kleur ?? "", b.kleur ?? "")), [serie]); // eslint-disable-line react-hooks/exhaustive-deps
   const [greepSku, setGreepSku] = useState<string | null>(null);
   const greep = grepen.find((o) => o.sku === greepSku) ?? null;
 
@@ -268,6 +273,7 @@ export function MeubelConfigurator() {
     setToegevoegd(true); window.setTimeout(() => setToegevoegd(false), 2500);
   };
 
+  const kleurStaal = (k: string) => kastenMaat.find((o) => o.kleur === k && o.image)?.image ?? meubelKleuren[k] ?? null;
   /** Voorbeeld voor een groep: liefst in de gekozen kastkleur, anders het eerste beeld. */
   const voorbeeld = (os: MeubelOnderdeel[]) => (os.find((o) => o.kleur === kleur && o.image) ?? os.find((o) => o.image))?.image ?? null;
   const kleurenTekst = (os: MeubelOnderdeel[]) => { const n = new Set(os.map((o) => o.kleur).filter(Boolean)).size; return n > 1 ? t("coloursN", { n }) : (os[0]?.kleur ? term(os[0].kleur, locale) : ""); };
@@ -276,7 +282,7 @@ export function MeubelConfigurator() {
   const volgende = () => ++nr;
 
   return (
-    <div className="grid gap-12 lg:grid-cols-[1fr_22rem] lg:gap-16">
+    <div className="grid gap-12 pb-24 lg:grid-cols-[1fr_22rem] lg:gap-16 lg:pb-0">
       <div>
         <Stap nr={1} titel={t("stepSeries")}>
           <Gekozen image={voorbeeld(kastenSerie)} titel={serie} sub={kleurenTekst(kastenSerie)} onWijzig={() => setPopup("serie")} labels={labels} />
@@ -285,11 +291,7 @@ export function MeubelConfigurator() {
           <div className="flex flex-wrap gap-2">{breedtes.map((b) => <Keuze key={b} actief={breedte === b} onClick={() => setBreedte(b)}>{b}</Keuze>)}</div>
         </Stap>
         <Stap nr={3} titel={t("stepColour")}>
-          <div className="flex flex-wrap gap-2">
-            {kleuren.map((k) => { const vb = kastenMaat.find((o) => o.kleur === k && o.image)?.image ?? meubelKleuren[k]; return (
-              <Keuze key={k} actief={kleur === k} onClick={() => setKleur(k)} thumb={vb}>{term(k, locale)}</Keuze>
-            ); })}
-          </div>
+          <Gekozen image={kleurStaal(kleur)} staal titel={kleur ? term(kleur, locale) : null} sub={t("coloursN", { n: kleuren.length })} onWijzig={() => setPopup("kleur")} labels={labels} />
           {uitvoeringen.length > 1 && (
             <div className="mt-3 flex flex-wrap gap-2">
               {uitvoeringen.map((u) => <Keuze key={u} actief={uitvoering === u} onClick={() => setUitvoering(u)}>{uitvLabel(u)}</Keuze>)}
@@ -411,10 +413,27 @@ export function MeubelConfigurator() {
         <p className="mt-2 text-center text-xs text-ink-soft">{delen.reduce((a, d) => a + d.n, 0)} {t("parts")}</p>
       </aside>
 
+      {/* Mobiel: vaste balk onderin met totaal en de knop, zodat je tijdens het kiezen ziet wat het wordt. */}
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-ink/10 bg-cream/95 px-4 py-3 backdrop-blur lg:hidden" style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}>
+        <div className="flex items-center justify-between gap-3 pl-14">
+          <div className="min-w-0">
+            <p className="text-xs text-ink-soft">{delen.reduce((a, d) => a + d.n, 0)} {t("parts")}</p>
+            {prijzen.loggedIn && <p className="text-base font-semibold tabular-nums text-ink">{bekend.length ? formatEur(totaal, locale) : t("priceOnRequest")}</p>}
+          </div>
+          <button type="button" onClick={voegToe} disabled={delen.length === 0} className="btn btn-primary shrink-0 disabled:opacity-40">
+            {toegevoegd ? <Check className="h-4 w-4" /> : <Plus className="h-4 w-4" />}
+            {toegevoegd ? t("addedSet") : t("addSet")}
+          </button>
+        </div>
+      </div>
+
       {/* Popups */}
       <Kiezer open={popup === "serie"} titel={t("stepSeries")} onClose={sluit} labels={labels} actief={serie}
         items={series.map((s) => { const os = kasten.filter((o) => o.serie === s); return { key: s, label: s, sub: kleurenTekst(os), image: voorbeeld(os) }; })}
         onKies={(k) => { if (k) setSerie(k); }} />
+      <Kiezer open={popup === "kleur"} titel={t("stepColour")} onClose={sluit} labels={labels} actief={kleur}
+        items={kleuren.map((k) => ({ key: k, label: term(k, locale), image: kleurStaal(k), staal: true }))}
+        onKies={(k) => { if (k) setKleur(k); }} />
       <Kiezer open={popup === "blad"} titel={t("stepTop")} onClose={sluit} labels={labels} actief={bladKey}
         items={bladSeries.map(([key, os]) => { const [type, s] = key.split("|"); return { key, label: `${term(type, locale)} ${s}`, sub: kleurenTekst(os), image: voorbeeld(os), groep: type === "Wastafel" ? t("groupWashbasin") : t("groupWorktop"), badge: os.some((o) => o.kleur === kleur) ? t("matchesCabinet") : undefined }; })}
         onKies={setBladKey} />

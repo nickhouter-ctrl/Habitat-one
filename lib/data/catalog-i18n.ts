@@ -105,6 +105,7 @@ const TERMEN: Record<string, Vertaling> = {
   "Zonder kraangat": { en: "Without tap hole", de: "Ohne Hahnloch", es: "Sin orificio para grifo", fr: "Sans trou de robinet", zh: "无龙头孔" },
   "1 kraangat": { en: "1 tap hole", de: "1 Hahnloch", es: "1 orificio para grifo", fr: "1 trou de robinet", zh: "1 个龙头孔" },
   "2 kraangaten": { en: "2 tap holes", de: "2 Hahnlöcher", es: "2 orificios para grifo", fr: "2 trous de robinet", zh: "2 个龙头孔" },
+  "4 lades": { en: "4 drawers", de: "4 Schubladen", es: "4 cajones", fr: "4 tiroirs", zh: "4 个抽屉" },
   "1 wasbak": { en: "1 basin", de: "1 Becken", es: "1 seno", fr: "1 vasque", zh: "单盆" },
   "2 wasbakken": { en: "2 basins", de: "2 Becken", es: "2 senos", fr: "2 vasques", zh: "双盆" },
   "Kraangat": { en: "Tap hole", de: "Hahnloch", es: "Orificio para grifo", fr: "Trou de robinet", zh: "龙头孔" },
