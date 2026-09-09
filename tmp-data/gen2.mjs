@@ -383,7 +383,9 @@ export interface MeubelOnderdeel {
   images: string[] | null;
   drawing: string | null;
 }
-export const meubelOnderdelen: MeubelOnderdeel[] = ${JSON.stringify(meubels.onderdelen)};
+// Als JSON-string geparsed: een letterlijke array van duizenden objecten laat TypeScript
+// een te complex uniontype afleiden.
+export const meubelOnderdelen: MeubelOnderdeel[] = JSON.parse(${JSON.stringify(JSON.stringify(meubels.onderdelen))});
 /** Kleurstaal per meubelkleur (packshot van een onderkast in die kleur). */
 export const meubelKleuren: Record<string, string> = ${JSON.stringify(meubels.kleuren)};
 `,
