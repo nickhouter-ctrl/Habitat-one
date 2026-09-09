@@ -210,7 +210,7 @@ export function MeubelConfigurator() {
   useEffect(() => { if (!bladUitvoeringen.includes(bladUitvoering)) setBladUitvoering(bladUitvoeringen[0] ?? ""); }, [bladUitvoeringen.join("|"), bladUitvoering]); // eslint-disable-line react-hooks/exhaustive-deps
   const blad = bladInKleur.find((o) => bladUitv(o) === bladUitvoering) ?? bladInKleur[0] ?? null;
   // Verandert de kastkleur, dan gaat het blad mee als het in die kleur bestaat.
-  useEffect(() => { if (bladKleuren.includes(kleur)) setBladKleur(kleur); }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { if (bladKleuren.includes(kleur)) setBladKleur(kleur); }, [kleur, bladKey]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // 5. Waskom, alleen bij een topblad
   const waskommen = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Waskom").sort((a, b) => nl(a.serie, b.serie) || cm(a.breedte) - cm(b.breedte) || nl(a.kleur ?? "", b.kleur ?? "")), []);
@@ -318,7 +318,8 @@ export function MeubelConfigurator() {
           {bladSeries.length === 0 ? <p className="text-sm text-ink-soft">{t("noMatch")}</p> : (
             <Gekozen image={blad?.image} titel={blad ? naamVan(blad) : null} sub={blad ? omschrijving(blad) : null} onWijzig={() => setPopup("blad")} onWeg={() => setBladKey(null)} labels={labels} />
           )}
-          {blad && bladKleuren.length > 1 && (
+          {/* Een topblad krijgt de kastkleur; alleen als die kleur er niet is (of bij een wastafel, ander materiaal) kies je zelf. */}
+          {blad && bladKleuren.length > 1 && (blad.type === "Wastafel" || !bladKleuren.includes(kleur)) && (
             <div className="mt-4 flex flex-wrap gap-2">
               {bladKleuren.map((k) => { const vb = bladOpties.find((o) => o.kleur === k && o.image)?.image; return <Keuze key={k} actief={bladKleur === k} onClick={() => setBladKleur(k)} thumb={vb}>{term(k, locale)}</Keuze>; })}
             </div>
