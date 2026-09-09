@@ -4277,7 +4277,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchebakken",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80160MZ.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100120MZ.jpg",
     "collection": "bathroom"
   },
   {
@@ -4328,7 +4328,7 @@
     "brand": "brauer",
     "series": "Carving",
     "product_type": "Wastafelkranen",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S6.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S6-65.jpg",
     "collection": "bathroom"
   },
   {
@@ -4413,47 +4413,13 @@
     "brand": "brauer",
     "series": "Carving",
     "product_type": "Badkranen",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-095.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9600,
-    "name": "Carving Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-3-weg-omstel-9600",
-    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1DJ2",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Carving",
-    "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-121.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9601,
-    "name": "Carving Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-drukknoppen-9601",
-    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-CLUI",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Carving",
-    "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-189.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-213.jpg",
     "collection": "bathroom"
   },
   {
     "id": 9602,
-    "name": "Carving Thermostatische inbouw regendouche met stopkranen",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-stopkranen-9602",
+    "name": "Carving Thermostatische inbouw regendouche",
+    "slug": "carving-thermostatische-inbouw-regendouche-9602",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1LZJ",
     "description": null,
     "description_i18n": null,
@@ -4464,24 +4430,7 @@
     "brand": "brauer",
     "series": "Carving",
     "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-106.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9603,
-    "name": "Carving Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "carving-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9603",
-    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-4BG5",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Carving",
-    "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-298.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-195.jpg",
     "collection": "bathroom"
   },
   {
@@ -4498,7 +4447,7 @@
     "brand": "brauer",
     "series": "Carving",
     "product_type": "Badkranen",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-244.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-247.jpg",
     "collection": "bathroom"
   },
   {
@@ -4515,7 +4464,7 @@
     "brand": "brauer",
     "series": "Carving",
     "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-250.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-249.jpg",
     "collection": "bathroom"
   },
   {
@@ -4532,7 +4481,7 @@
     "brand": "brauer",
     "series": "Carving",
     "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-254.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-256.jpg",
     "collection": "bathroom"
   },
   {
@@ -4600,7 +4549,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -4651,7 +4600,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchegoten",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF80S.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF90S.jpg",
     "collection": "bathroom"
   },
   {
@@ -4668,7 +4617,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchegoten",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW90S.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80GM.jpg",
     "collection": "bathroom"
   },
   {
@@ -4685,7 +4634,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchegoten",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRF120NG.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRF200NG.jpg",
     "collection": "bathroom"
   },
   {
@@ -4702,7 +4651,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchegoten",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRFW50NG.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRFW100NG.jpg",
     "collection": "bathroom"
   },
   {
@@ -4719,7 +4668,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchegoten",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF180NG.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF50NG.jpg",
     "collection": "bathroom"
   },
   {
@@ -4753,7 +4702,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchegoten",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF90NG.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF50NG.jpg",
     "collection": "bathroom"
   },
   {
@@ -4770,7 +4719,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchegoten",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-XS90NG.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-XS80NG.jpg",
     "collection": "bathroom"
   },
   {
@@ -4978,43 +4927,9 @@
     "collection": "bathroom"
   },
   {
-    "id": 9641,
-    "name": "Edition Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-3-weg-omstel-9641",
-    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1SEP",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Edition",
-    "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-051.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9642,
-    "name": "Edition Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-drukknoppen-9642",
-    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1M9B",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Edition",
-    "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-165.jpg",
-    "collection": "bathroom"
-  },
-  {
     "id": 9643,
-    "name": "Edition Thermostatische inbouw regendouche met stopkranen",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-stopkranen-9643",
+    "name": "Edition Thermostatische inbouw regendouche",
+    "slug": "edition-thermostatische-inbouw-regendouche-9643",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1NDC",
     "description": null,
     "description_i18n": null,
@@ -5025,24 +4940,7 @@
     "brand": "brauer",
     "series": "Edition",
     "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-074.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9644,
-    "name": "Edition Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "edition-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9644",
-    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-Q77J",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Edition",
-    "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-272.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-284.jpg",
     "collection": "bathroom"
   },
   {
@@ -5059,7 +4957,7 @@
     "brand": "brauer",
     "series": "Edition",
     "product_type": "Badkranen",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-232.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-233.jpg",
     "collection": "bathroom"
   },
   {
@@ -5093,7 +4991,7 @@
     "brand": "brauer",
     "series": "Edition",
     "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-239.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-240.jpg",
     "collection": "bathroom"
   },
   {
@@ -5161,7 +5059,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -5212,7 +5110,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Accessoires",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GG.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GM.jpg",
     "collection": "accessories"
   },
   {
@@ -5263,7 +5161,7 @@
     "brand": "brauer",
     "series": "Stripe",
     "product_type": "Handdouches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011.jpg",
     "collection": "bathroom"
   },
   {
@@ -5297,7 +5195,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Accessoires",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-145.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-145.jpg",
     "collection": "accessories"
   },
   {
@@ -5501,7 +5399,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -5637,7 +5535,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -5654,7 +5552,7 @@
     "brand": "brauer",
     "series": "Stripe",
     "product_type": "Wastafelkranen",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003-S5.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003-R5.jpg",
     "collection": "bathroom"
   },
   {
@@ -5824,7 +5722,7 @@
     "brand": "brauer",
     "series": "Stripe",
     "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-349.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-348.jpg",
     "collection": "bathroom"
   },
   {
@@ -5858,47 +5756,13 @@
     "brand": "brauer",
     "series": "Stripe",
     "product_type": "Badkranen",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-363.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9706,
-    "name": "Stripe Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-3-weg-omstel-9706",
-    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-6Q9W",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Stripe",
-    "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-409.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9707,
-    "name": "Stripe Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-drukknoppen-9707",
-    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-706I",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Stripe",
-    "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-435.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-358.jpg",
     "collection": "bathroom"
   },
   {
     "id": 9708,
-    "name": "Stripe Thermostatische inbouw regendouche met stopkranen",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-stopkranen-9708",
+    "name": "Stripe Thermostatische inbouw regendouche",
+    "slug": "stripe-thermostatische-inbouw-regendouche-9708",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-14LI",
     "description": null,
     "description_i18n": null,
@@ -5909,24 +5773,7 @@
     "brand": "brauer",
     "series": "Stripe",
     "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-377.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9709,
-    "name": "Stripe Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "stripe-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9709",
-    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-126Q",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Stripe",
-    "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-443.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-453.jpg",
     "collection": "bathroom"
   },
   {
@@ -6028,7 +5875,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H90200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H130200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -6045,7 +5892,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90140200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -6062,7 +5909,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6050200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -6079,7 +5926,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6060200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -6096,7 +5943,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H9090200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -6130,7 +5977,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70100200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -6181,7 +6028,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H60200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200CE.jpg",
     "collection": "bathroom"
   },
   {
@@ -6215,7 +6062,7 @@
     "brand": "brauer",
     "series": null,
     "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200CE.jpg",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200CE.jpg",
     "collection": "bathroom"
   },
   {

@@ -6948,7 +6948,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": "Bijpassend afvoerrooster (in alle kleuren) en de extra ondiepe Wirquin-douchebaksifon leveren we bij de bak mee.",
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80160MZ.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100120MZ.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -6971,7 +6971,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80160MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100120MZ.jpg"
           }
         ]
       },
@@ -7123,7 +7123,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-003-S4.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-003-R4.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -7133,7 +7133,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-003-S4.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-003-R4.jpg"
           },
           {
             "value": "Geborsteld RVS",
@@ -7144,6 +7144,22 @@ export const catalogProducts: CatalogProduct[] = [
             "value": "Mat zwart",
             "label": "Mat zwart",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-003-R4.jpg"
+          }
+        ]
+      },
+      {
+        "key": "uitloop",
+        "label": "Uitloop",
+        "values": [
+          {
+            "value": "Plat",
+            "label": "Plat",
+            "image": null
+          },
+          {
+            "value": "Rond",
+            "label": "Rond",
+            "image": null
           }
         ]
       }
@@ -7240,7 +7256,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S6.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S6-65.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -7258,32 +7274,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S6.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S6-65.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6-65.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S6.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S6-65.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S6-65.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6-65.jpg"
           }
         ]
       },
@@ -7337,32 +7353,32 @@ export const catalogProducts: CatalogProduct[] = [
       }
     ],
     "variantSkus": [
-      "BRA-5-CE-004-B6-65",
       "BRA-5-CE-004-S6",
-      "BRA-5-GK-004-S6-65",
+      "BRA-5-CE-004-B6-65",
       "BRA-5-CE-004-B6",
-      "BRA-5-S-004-S6-65",
+      "BRA-5-GK-004-S6-65",
       "BRA-5-GK-004-S6",
-      "BRA-5-CE-004-S6-65",
+      "BRA-5-S-004-S6-65",
       "BRA-5-S-004-B6-65",
-      "BRA-5-NG-004-S6-65",
+      "BRA-5-CE-004-S6-65",
       "BRA-5-S-004-B6",
-      "BRA-5-GK-004-B6-65",
+      "BRA-5-NG-004-S6-65",
       "BRA-5-NG-004-S6",
+      "BRA-5-GK-004-B6-65",
       "BRA-5-GM-004-S6-65",
       "BRA-5-GK-004-B6",
-      "BRA-5-NG-004-B6-65",
       "BRA-5-GM-004-S6",
-      "BRA-5-NG-004-B6",
+      "BRA-5-NG-004-B6-65",
       "BRA-5-GG-004-S6-65",
-      "BRA-5-GM-004-B6-65",
+      "BRA-5-NG-004-B6",
       "BRA-5-GG-004-S6",
+      "BRA-5-GM-004-B6-65",
       "BRA-5-S-004-S6",
       "BRA-5-GM-004-B6",
       "BRA-5-CE-083-S6-65",
       "BRA-5-GG-004-B6-65",
-      "BRA-5-CE-083-S6",
       "BRA-5-GG-004-B6",
+      "BRA-5-CE-083-S6",
       "BRA-5-S-083-S6-65",
       "BRA-5-CE-083-B6-65",
       "BRA-5-CE-083-B6",
@@ -7371,18 +7387,18 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-5-S-083-B6-65",
       "BRA-5-S-083-B6",
       "BRA-5-GK-083-S6",
-      "BRA-5-GK-083-B6-65",
       "BRA-5-NG-083-S6-65",
+      "BRA-5-GK-083-B6-65",
       "BRA-5-NG-083-S6",
       "BRA-5-GK-083-B6",
-      "BRA-5-NG-083-B6-65",
       "BRA-5-GM-083-S6-65",
+      "BRA-5-NG-083-B6-65",
       "BRA-5-NG-083-B6",
       "BRA-5-GM-083-S6",
       "BRA-5-GG-083-S6-65",
       "BRA-5-GM-083-B6-65",
-      "BRA-5-GM-083-B6",
       "BRA-5-GG-083-S6",
+      "BRA-5-GM-083-B6",
       "BRA-5-GG-083-B6-65",
       "BRA-5-GG-083-B6"
     ],
@@ -7665,7 +7681,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-095.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-213.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -7683,22 +7699,22 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-095.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-213.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-215.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-095.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-213.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-213.jpg"
           },
           {
             "value": "Geborsteld RVS",
@@ -7708,7 +7724,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-215.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-213.jpg"
           }
         ]
       },
@@ -7764,65 +7780,65 @@ export const catalogProducts: CatalogProduct[] = [
     "variantSkus": [
       "BRA-5-CE-093",
       "BRA-5-CE-095",
-      "BRA-5-CE-214",
       "BRA-5-CE-212",
-      "BRA-5-CE-094",
+      "BRA-5-CE-214",
       "BRA-5-CE-096",
+      "BRA-5-CE-094",
       "BRA-5-CE-215",
       "BRA-5-CE-213",
-      "BRA-5-S-095",
       "BRA-5-S-093",
-      "BRA-5-S-212",
+      "BRA-5-S-095",
       "BRA-5-S-214",
-      "BRA-5-S-096",
+      "BRA-5-S-212",
       "BRA-5-S-094",
+      "BRA-5-S-096",
       "BRA-5-S-213",
       "BRA-5-S-215",
-      "BRA-5-GK-093",
       "BRA-5-GK-095",
-      "BRA-5-GK-212",
+      "BRA-5-GK-093",
       "BRA-5-GK-214",
+      "BRA-5-GK-212",
       "BRA-5-GK-096",
       "BRA-5-GK-094",
       "BRA-5-GK-213",
       "BRA-5-GK-215",
-      "BRA-5-NG-095",
       "BRA-5-NG-093",
+      "BRA-5-NG-095",
       "BRA-5-NG-212",
       "BRA-5-NG-214",
       "BRA-5-NG-094",
       "BRA-5-NG-096",
       "BRA-5-NG-213",
       "BRA-5-NG-215",
-      "BRA-5-GM-093",
       "BRA-5-GM-095",
+      "BRA-5-GM-093",
       "BRA-5-GM-212",
       "BRA-5-GM-214",
       "BRA-5-GM-094",
       "BRA-5-GM-096",
-      "BRA-5-GM-213",
       "BRA-5-GM-215",
+      "BRA-5-GM-213",
       "BRA-5-GG-093",
       "BRA-5-GG-095",
       "BRA-5-GG-214",
       "BRA-5-GG-212",
-      "BRA-5-GG-094",
       "BRA-5-GG-096",
-      "BRA-5-GG-215",
-      "BRA-5-GG-213"
+      "BRA-5-GG-094",
+      "BRA-5-GG-213",
+      "BRA-5-GG-215"
     ],
     "variants": []
   },
   {
-    "id": 9600,
-    "name": "Carving Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-3-weg-omstel-9600",
-    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1DJ2",
+    "id": 9602,
+    "name": "Carving Thermostatische inbouw regendouche",
+    "slug": "carving-thermostatische-inbouw-regendouche-9602",
+    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1LZJ",
     "short": null,
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-121.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-195.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -7840,32 +7856,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-121.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-195.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-122.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-195.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-131.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-195.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-133.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-195.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-132.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-195.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-133.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-195.jpg"
           }
         ]
       },
@@ -7934,6 +7950,27 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "30 cm",
             "label": "30 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "bediening",
+        "label": "Bediening",
+        "values": [
+          {
+            "value": "3-weg omstel",
+            "label": "3-weg omstel",
+            "image": null
+          },
+          {
+            "value": "Drukknoppen",
+            "label": "Drukknoppen",
+            "image": null
+          },
+          {
+            "value": "Stopkranen",
+            "label": "Stopkranen",
             "image": null
           }
         ]
@@ -7941,971 +7978,581 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "variantSkus": [
       "BRA-5-CE-121",
+      "BRA-5-CE-291",
+      "BRA-5-CE-184",
+      "BRA-5-CE-097",
+      "BRA-5-CE-292",
+      "BRA-5-CE-098",
       "BRA-5-CE-122",
+      "BRA-5-CE-185",
+      "BRA-5-S-097",
       "BRA-5-S-121",
+      "BRA-5-S-291",
+      "BRA-5-S-184",
+      "BRA-5-S-292",
       "BRA-5-S-122",
+      "BRA-5-S-098",
+      "BRA-5-S-185",
       "BRA-5-GK-121",
+      "BRA-5-GK-291",
+      "BRA-5-GK-097",
+      "BRA-5-GK-184",
+      "BRA-5-GK-292",
+      "BRA-5-GK-098",
+      "BRA-5-GK-185",
       "BRA-5-GK-122",
       "BRA-5-NG-121",
+      "BRA-5-NG-184",
+      "BRA-5-NG-097",
+      "BRA-5-NG-291",
       "BRA-5-NG-122",
+      "BRA-5-NG-292",
+      "BRA-5-NG-098",
+      "BRA-5-NG-185",
+      "BRA-5-GM-291",
       "BRA-5-GM-121",
+      "BRA-5-GM-097",
+      "BRA-5-GM-184",
+      "BRA-5-GM-098",
+      "BRA-5-GM-292",
+      "BRA-5-GM-185",
       "BRA-5-GM-122",
+      "BRA-5-GG-291",
       "BRA-5-GG-121",
+      "BRA-5-GG-184",
+      "BRA-5-GG-097",
+      "BRA-5-GG-292",
       "BRA-5-GG-122",
+      "BRA-5-GG-185",
+      "BRA-5-GG-098",
+      "BRA-5-CE-293",
+      "BRA-5-CE-099",
+      "BRA-5-CE-186",
       "BRA-5-CE-123",
+      "BRA-5-CE-295",
       "BRA-5-CE-125",
+      "BRA-5-CE-101",
+      "BRA-5-CE-188",
+      "BRA-5-CE-100",
+      "BRA-5-CE-294",
+      "BRA-5-CE-187",
       "BRA-5-CE-124",
       "BRA-5-CE-126",
-      "BRA-5-S-123",
-      "BRA-5-S-125",
-      "BRA-5-S-124",
-      "BRA-5-S-126",
-      "BRA-5-GK-123",
-      "BRA-5-GK-125",
-      "BRA-5-GK-124",
-      "BRA-5-GK-126",
-      "BRA-5-NG-123",
-      "BRA-5-NG-125",
-      "BRA-5-NG-124",
-      "BRA-5-NG-126",
-      "BRA-5-GM-123",
-      "BRA-5-GM-125",
-      "BRA-5-GM-124",
-      "BRA-5-GM-126",
-      "BRA-5-GG-123",
-      "BRA-5-GG-125",
-      "BRA-5-GG-124",
-      "BRA-5-GG-126",
-      "BRA-5-CE-129",
-      "BRA-5-CE-127",
-      "BRA-5-CE-128",
-      "BRA-5-CE-130",
-      "BRA-5-S-129",
-      "BRA-5-S-127",
-      "BRA-5-S-128",
-      "BRA-5-S-130",
-      "BRA-5-GK-129",
-      "BRA-5-GK-127",
-      "BRA-5-GK-128",
-      "BRA-5-GK-130",
-      "BRA-5-NG-129",
-      "BRA-5-NG-127",
-      "BRA-5-NG-128",
-      "BRA-5-NG-130",
-      "BRA-5-GM-129",
-      "BRA-5-GM-127",
-      "BRA-5-GM-128",
-      "BRA-5-GM-130",
-      "BRA-5-GG-129",
-      "BRA-5-GG-127",
-      "BRA-5-GG-128",
-      "BRA-5-GG-130",
-      "BRA-5-CE-131",
-      "BRA-5-CE-132",
-      "BRA-5-S-131",
-      "BRA-5-S-132",
-      "BRA-5-GK-131",
-      "BRA-5-GK-132",
-      "BRA-5-NG-131",
-      "BRA-5-NG-132",
-      "BRA-5-GM-131",
-      "BRA-5-GM-132",
-      "BRA-5-GG-131",
-      "BRA-5-GG-132",
-      "BRA-5-CE-133",
-      "BRA-5-CE-134",
-      "BRA-5-S-133",
-      "BRA-5-S-134",
-      "BRA-5-GK-133",
-      "BRA-5-GK-134",
-      "BRA-5-NG-133",
-      "BRA-5-NG-134",
-      "BRA-5-GM-133",
-      "BRA-5-GM-134",
-      "BRA-5-GG-133",
-      "BRA-5-GG-134",
-      "BRA-5-CE-135",
-      "BRA-5-CE-137",
-      "BRA-5-CE-136",
-      "BRA-5-CE-138",
-      "BRA-5-S-135",
-      "BRA-5-S-137",
-      "BRA-5-S-136",
-      "BRA-5-S-138",
-      "BRA-5-GK-135",
-      "BRA-5-GK-137",
-      "BRA-5-GK-136",
-      "BRA-5-GK-138",
-      "BRA-5-NG-135",
-      "BRA-5-NG-137",
-      "BRA-5-NG-136",
-      "BRA-5-NG-138",
-      "BRA-5-GM-135",
-      "BRA-5-GM-137",
-      "BRA-5-GM-136",
-      "BRA-5-GM-138",
-      "BRA-5-GG-135",
-      "BRA-5-GG-137",
-      "BRA-5-GG-136",
-      "BRA-5-GG-138",
-      "BRA-5-CE-141",
-      "BRA-5-CE-139",
-      "BRA-5-CE-140",
-      "BRA-5-CE-142",
-      "BRA-5-S-141",
-      "BRA-5-S-139",
-      "BRA-5-S-140",
-      "BRA-5-S-142",
-      "BRA-5-GK-141",
-      "BRA-5-GK-139",
-      "BRA-5-GK-140",
-      "BRA-5-GK-142",
-      "BRA-5-NG-141",
-      "BRA-5-NG-139",
-      "BRA-5-NG-140",
-      "BRA-5-NG-142",
-      "BRA-5-GM-141",
-      "BRA-5-GM-139",
-      "BRA-5-GM-140",
-      "BRA-5-GM-142",
-      "BRA-5-GG-141",
-      "BRA-5-GG-139",
-      "BRA-5-GG-140",
-      "BRA-5-GG-142",
-      "BRA-5-CE-143",
-      "BRA-5-CE-144",
-      "BRA-5-S-143",
-      "BRA-5-S-144",
-      "BRA-5-GK-143",
-      "BRA-5-GK-144",
-      "BRA-5-NG-143",
-      "BRA-5-NG-144",
-      "BRA-5-GM-143",
-      "BRA-5-GM-144",
-      "BRA-5-GG-143",
-      "BRA-5-GG-144"
-    ],
-    "variants": []
-  },
-  {
-    "id": 9601,
-    "name": "Carving Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-drukknoppen-9601",
-    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-CLUI",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-189.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-189.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-184.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-185.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-185.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-188.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-198.jpg"
-          }
-        ]
-      },
-      {
-        "key": "bevestiginghoofddouche",
-        "label": "Bevestiging hoofddouche",
-        "values": [
-          {
-            "value": "Gebogen wandarm",
-            "label": "Gebogen wandarm",
-            "image": null
-          },
-          {
-            "value": "Plafondbuis",
-            "label": "Plafondbuis",
-            "image": null
-          },
-          {
-            "value": "Rechte wandarm",
-            "label": "Rechte wandarm",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "glijstang",
-        "label": "Glijstang",
-        "values": [
-          {
-            "value": "Ja",
-            "label": "Ja",
-            "image": null
-          },
-          {
-            "value": "Nee",
-            "label": "Nee",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "handdouche",
-        "label": "Handdouche",
-        "values": [
-          {
-            "value": "3-standen",
-            "label": "3-standen",
-            "image": null
-          },
-          {
-            "value": "Staafmodel",
-            "label": "Staafmodel",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "hoofddouche",
-        "label": "Hoofddouche",
-        "values": [
-          {
-            "value": "20 cm",
-            "label": "20 cm",
-            "image": null
-          },
-          {
-            "value": "30 cm",
-            "label": "30 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
-      "BRA-5-CE-184",
-      "BRA-5-CE-185",
-      "BRA-5-S-184",
-      "BRA-5-S-185",
-      "BRA-5-GK-184",
-      "BRA-5-GK-185",
-      "BRA-5-NG-184",
-      "BRA-5-NG-185",
-      "BRA-5-GM-184",
-      "BRA-5-GM-185",
-      "BRA-5-GG-184",
-      "BRA-5-GG-185",
-      "BRA-5-CE-186",
-      "BRA-5-CE-188",
-      "BRA-5-CE-187",
       "BRA-5-CE-189",
-      "BRA-5-S-186",
-      "BRA-5-S-188",
-      "BRA-5-S-187",
-      "BRA-5-S-189",
-      "BRA-5-GK-186",
-      "BRA-5-GK-188",
-      "BRA-5-GK-187",
-      "BRA-5-GK-189",
-      "BRA-5-NG-186",
-      "BRA-5-NG-188",
-      "BRA-5-NG-187",
-      "BRA-5-NG-189",
-      "BRA-5-GM-186",
-      "BRA-5-GM-188",
-      "BRA-5-GM-187",
-      "BRA-5-GM-189",
-      "BRA-5-GG-186",
-      "BRA-5-GG-188",
-      "BRA-5-GG-187",
-      "BRA-5-GG-189",
-      "BRA-5-CE-192",
-      "BRA-5-CE-190",
-      "BRA-5-CE-191",
-      "BRA-5-CE-193",
-      "BRA-5-S-192",
-      "BRA-5-S-190",
-      "BRA-5-S-191",
-      "BRA-5-S-193",
-      "BRA-5-GK-192",
-      "BRA-5-GK-190",
-      "BRA-5-GK-191",
-      "BRA-5-GK-193",
-      "BRA-5-NG-192",
-      "BRA-5-NG-190",
-      "BRA-5-NG-191",
-      "BRA-5-NG-193",
-      "BRA-5-GM-192",
-      "BRA-5-GM-190",
-      "BRA-5-GM-191",
-      "BRA-5-GM-193",
-      "BRA-5-GG-192",
-      "BRA-5-GG-190",
-      "BRA-5-GG-191",
-      "BRA-5-GG-193",
-      "BRA-5-CE-194",
-      "BRA-5-CE-195",
-      "BRA-5-S-194",
-      "BRA-5-S-195",
-      "BRA-5-GK-194",
-      "BRA-5-GK-195",
-      "BRA-5-NG-194",
-      "BRA-5-NG-195",
-      "BRA-5-GM-194",
-      "BRA-5-GM-195",
-      "BRA-5-GG-194",
-      "BRA-5-GG-195",
-      "BRA-5-CE-196",
-      "BRA-5-CE-197",
-      "BRA-5-S-196",
-      "BRA-5-S-197",
-      "BRA-5-GK-196",
-      "BRA-5-GK-197",
-      "BRA-5-NG-196",
-      "BRA-5-NG-197",
-      "BRA-5-GM-196",
-      "BRA-5-GM-197",
-      "BRA-5-GG-196",
-      "BRA-5-GG-197",
-      "BRA-5-CE-198",
-      "BRA-5-CE-200",
-      "BRA-5-CE-199",
-      "BRA-5-CE-201",
-      "BRA-5-S-198",
-      "BRA-5-S-200",
-      "BRA-5-S-199",
-      "BRA-5-S-201",
-      "BRA-5-GK-198",
-      "BRA-5-GK-200",
-      "BRA-5-GK-199",
-      "BRA-5-GK-201",
-      "BRA-5-NG-198",
-      "BRA-5-NG-200",
-      "BRA-5-NG-199",
-      "BRA-5-NG-201",
-      "BRA-5-GM-198",
-      "BRA-5-GM-200",
-      "BRA-5-GM-199",
-      "BRA-5-GM-201",
-      "BRA-5-GG-198",
-      "BRA-5-GG-200",
-      "BRA-5-GG-199",
-      "BRA-5-GG-201",
-      "BRA-5-CE-204",
-      "BRA-5-CE-202",
-      "BRA-5-CE-203",
-      "BRA-5-CE-205",
-      "BRA-5-S-204",
-      "BRA-5-S-202",
-      "BRA-5-S-203",
-      "BRA-5-S-205",
-      "BRA-5-GK-204",
-      "BRA-5-GK-202",
-      "BRA-5-GK-203",
-      "BRA-5-GK-205",
-      "BRA-5-NG-204",
-      "BRA-5-NG-202",
-      "BRA-5-NG-203",
-      "BRA-5-NG-205",
-      "BRA-5-GM-204",
-      "BRA-5-GM-202",
-      "BRA-5-GM-203",
-      "BRA-5-GM-205",
-      "BRA-5-GG-204",
-      "BRA-5-GG-202",
-      "BRA-5-GG-203",
-      "BRA-5-GG-205",
-      "BRA-5-CE-206",
-      "BRA-5-CE-207",
-      "BRA-5-S-206",
-      "BRA-5-S-207",
-      "BRA-5-GK-206",
-      "BRA-5-GK-207",
-      "BRA-5-NG-206",
-      "BRA-5-NG-207",
-      "BRA-5-GM-206",
-      "BRA-5-GM-207",
-      "BRA-5-GG-206",
-      "BRA-5-GG-207"
-    ],
-    "variants": []
-  },
-  {
-    "id": 9602,
-    "name": "Carving Thermostatische inbouw regendouche met stopkranen",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-stopkranen-9602",
-    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1LZJ",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-106.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-106.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-103.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-101.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-100.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-105.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-101.jpg"
-          }
-        ]
-      },
-      {
-        "key": "bevestiginghoofddouche",
-        "label": "Bevestiging hoofddouche",
-        "values": [
-          {
-            "value": "Gebogen wandarm",
-            "label": "Gebogen wandarm",
-            "image": null
-          },
-          {
-            "value": "Plafondbuis",
-            "label": "Plafondbuis",
-            "image": null
-          },
-          {
-            "value": "Rechte wandarm",
-            "label": "Rechte wandarm",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "glijstang",
-        "label": "Glijstang",
-        "values": [
-          {
-            "value": "Ja",
-            "label": "Ja",
-            "image": null
-          },
-          {
-            "value": "Nee",
-            "label": "Nee",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "handdouche",
-        "label": "Handdouche",
-        "values": [
-          {
-            "value": "3-standen",
-            "label": "3-standen",
-            "image": null
-          },
-          {
-            "value": "Staafmodel",
-            "label": "Staafmodel",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "hoofddouche",
-        "label": "Hoofddouche",
-        "values": [
-          {
-            "value": "20 cm",
-            "label": "20 cm",
-            "image": null
-          },
-          {
-            "value": "30 cm",
-            "label": "30 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
-      "BRA-5-CE-097",
-      "BRA-5-CE-098",
-      "BRA-5-S-097",
-      "BRA-5-S-098",
-      "BRA-5-GK-097",
-      "BRA-5-GK-098",
-      "BRA-5-NG-097",
-      "BRA-5-NG-098",
-      "BRA-5-GM-097",
-      "BRA-5-GM-098",
-      "BRA-5-GG-097",
-      "BRA-5-GG-098",
-      "BRA-5-CE-099",
-      "BRA-5-CE-101",
-      "BRA-5-CE-100",
       "BRA-5-CE-102",
+      "BRA-5-CE-296",
+      "BRA-5-S-123",
       "BRA-5-S-099",
+      "BRA-5-S-293",
+      "BRA-5-S-186",
       "BRA-5-S-101",
+      "BRA-5-S-125",
+      "BRA-5-S-188",
+      "BRA-5-S-295",
+      "BRA-5-S-187",
+      "BRA-5-S-294",
+      "BRA-5-S-124",
       "BRA-5-S-100",
       "BRA-5-S-102",
-      "BRA-5-GK-099",
-      "BRA-5-GK-101",
-      "BRA-5-GK-100",
-      "BRA-5-GK-102",
-      "BRA-5-NG-099",
-      "BRA-5-NG-101",
-      "BRA-5-NG-100",
-      "BRA-5-NG-102",
-      "BRA-5-GM-099",
-      "BRA-5-GM-101",
-      "BRA-5-GM-100",
-      "BRA-5-GM-102",
-      "BRA-5-GG-099",
-      "BRA-5-GG-101",
-      "BRA-5-GG-100",
-      "BRA-5-GG-102",
-      "BRA-5-CE-105",
-      "BRA-5-CE-103",
-      "BRA-5-CE-104",
-      "BRA-5-CE-106",
-      "BRA-5-S-105",
-      "BRA-5-S-103",
-      "BRA-5-S-104",
-      "BRA-5-S-106",
-      "BRA-5-GK-105",
-      "BRA-5-GM-106",
-      "BRA-5-GK-103",
-      "BRA-5-GK-104",
-      "BRA-5-GK-106",
-      "BRA-5-NG-105",
-      "BRA-5-NG-103",
-      "BRA-5-NG-104",
-      "BRA-5-NG-106",
-      "BRA-5-GM-105",
-      "BRA-5-GM-103",
-      "BRA-5-GM-104",
-      "BRA-5-GG-105",
-      "BRA-5-GG-103",
-      "BRA-5-GG-104",
-      "BRA-5-GG-106",
-      "BRA-5-CE-107",
-      "BRA-5-CE-108",
-      "BRA-5-S-107",
-      "BRA-5-S-108",
-      "BRA-5-GK-107",
-      "BRA-5-GK-108",
-      "BRA-5-NG-107",
-      "BRA-5-NG-108",
-      "BRA-5-GM-107",
-      "BRA-5-GM-108",
-      "BRA-5-GG-107",
-      "BRA-5-GG-108",
-      "BRA-5-CE-109",
-      "BRA-5-CE-110",
-      "BRA-5-S-109",
-      "BRA-5-S-110",
-      "BRA-5-GK-109",
-      "BRA-5-GK-110",
-      "BRA-5-NG-109",
-      "BRA-5-NG-110",
-      "BRA-5-GM-109",
-      "BRA-5-GM-110",
-      "BRA-5-GG-109",
-      "BRA-5-GG-110",
-      "BRA-5-CE-111",
-      "BRA-5-CE-113",
-      "BRA-5-CE-112",
-      "BRA-5-CE-114",
-      "BRA-5-S-111",
-      "BRA-5-S-113",
-      "BRA-5-S-112",
-      "BRA-5-S-114",
-      "BRA-5-GK-111",
-      "BRA-5-GK-113",
-      "BRA-5-GK-112",
-      "BRA-5-GK-114",
-      "BRA-5-NG-111",
-      "BRA-5-NG-113",
-      "BRA-5-NG-112",
-      "BRA-5-NG-114",
-      "BRA-5-GM-111",
-      "BRA-5-GM-113",
-      "BRA-5-GM-112",
-      "BRA-5-GM-114",
-      "BRA-5-GG-111",
-      "BRA-5-GG-113",
-      "BRA-5-GG-112",
-      "BRA-5-GG-114",
-      "BRA-5-CE-117",
-      "BRA-5-CE-115",
-      "BRA-5-CE-118",
-      "BRA-5-CE-116",
-      "BRA-5-S-117",
-      "BRA-5-S-115",
-      "BRA-5-S-118",
-      "BRA-5-S-116",
-      "BRA-5-GK-117",
-      "BRA-5-GK-115",
-      "BRA-5-GK-118",
-      "BRA-5-GK-116",
-      "BRA-5-NG-117",
-      "BRA-5-NG-115",
-      "BRA-5-NG-118",
-      "BRA-5-NG-116",
-      "BRA-5-GM-117",
-      "BRA-5-GM-115",
-      "BRA-5-GM-118",
-      "BRA-5-GM-116",
-      "BRA-5-GG-117",
-      "BRA-5-GG-115",
-      "BRA-5-GG-118",
-      "BRA-5-GG-116",
-      "BRA-5-CE-119",
-      "BRA-5-CE-120",
-      "BRA-5-S-119",
-      "BRA-5-S-120",
-      "BRA-5-GK-119",
-      "BRA-5-GK-120",
-      "BRA-5-NG-119",
-      "BRA-5-NG-120",
-      "BRA-5-GM-119",
-      "BRA-5-GM-120",
-      "BRA-5-GG-119",
-      "BRA-5-GG-120"
-    ],
-    "variants": []
-  },
-  {
-    "id": 9603,
-    "name": "Carving Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "carving-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9603",
-    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-4BG5",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-298.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-298.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-296.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-292.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-292.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-299.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-292.jpg"
-          }
-        ]
-      },
-      {
-        "key": "bevestiginghoofddouche",
-        "label": "Bevestiging hoofddouche",
-        "values": [
-          {
-            "value": "Gebogen wandarm",
-            "label": "Gebogen wandarm",
-            "image": null
-          },
-          {
-            "value": "Plafondbuis",
-            "label": "Plafondbuis",
-            "image": null
-          },
-          {
-            "value": "Rechte wandarm",
-            "label": "Rechte wandarm",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "glijstang",
-        "label": "Glijstang",
-        "values": [
-          {
-            "value": "Ja",
-            "label": "Ja",
-            "image": null
-          },
-          {
-            "value": "Nee",
-            "label": "Nee",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "handdouche",
-        "label": "Handdouche",
-        "values": [
-          {
-            "value": "3-standen",
-            "label": "3-standen",
-            "image": null
-          },
-          {
-            "value": "Staafmodel",
-            "label": "Staafmodel",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "hoofddouche",
-        "label": "Hoofddouche",
-        "values": [
-          {
-            "value": "20 cm",
-            "label": "20 cm",
-            "image": null
-          },
-          {
-            "value": "30 cm",
-            "label": "30 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
-      "BRA-5-CE-291",
-      "BRA-5-CE-292",
-      "BRA-5-S-291",
-      "BRA-5-S-292",
-      "BRA-5-GK-291",
-      "BRA-5-GK-292",
-      "BRA-5-NG-291",
-      "BRA-5-NG-292",
-      "BRA-5-GM-291",
-      "BRA-5-GM-292",
-      "BRA-5-GG-291",
-      "BRA-5-GG-292",
-      "BRA-5-CE-293",
-      "BRA-5-CE-295",
-      "BRA-5-CE-294",
-      "BRA-5-CE-296",
-      "BRA-5-S-293",
-      "BRA-5-S-295",
-      "BRA-5-S-294",
+      "BRA-5-S-126",
       "BRA-5-S-296",
+      "BRA-5-S-189",
+      "BRA-5-GK-186",
+      "BRA-5-GK-123",
+      "BRA-5-GK-099",
       "BRA-5-GK-293",
+      "BRA-5-GK-188",
+      "BRA-5-GK-101",
       "BRA-5-GK-295",
+      "BRA-5-GK-125",
+      "BRA-5-GK-124",
+      "BRA-5-GK-187",
+      "BRA-5-GK-100",
       "BRA-5-GK-294",
       "BRA-5-GK-296",
+      "BRA-5-GK-189",
+      "BRA-5-GK-102",
+      "BRA-5-GK-126",
+      "BRA-5-NG-099",
+      "BRA-5-NG-123",
       "BRA-5-NG-293",
+      "BRA-5-NG-186",
+      "BRA-5-NG-101",
+      "BRA-5-NG-125",
+      "BRA-5-NG-188",
       "BRA-5-NG-295",
+      "BRA-5-NG-187",
+      "BRA-5-NG-100",
       "BRA-5-NG-294",
+      "BRA-5-NG-124",
+      "BRA-5-NG-102",
+      "BRA-5-NG-126",
       "BRA-5-NG-296",
+      "BRA-5-NG-189",
+      "BRA-5-GM-186",
+      "BRA-5-GM-099",
       "BRA-5-GM-293",
+      "BRA-5-GM-123",
+      "BRA-5-GM-188",
+      "BRA-5-GM-101",
+      "BRA-5-GM-125",
       "BRA-5-GM-295",
+      "BRA-5-GM-100",
+      "BRA-5-GM-124",
       "BRA-5-GM-294",
+      "BRA-5-GM-187",
+      "BRA-5-GM-102",
+      "BRA-5-GM-189",
+      "BRA-5-GM-126",
       "BRA-5-GM-296",
+      "BRA-5-GG-099",
+      "BRA-5-GG-123",
       "BRA-5-GG-293",
+      "BRA-5-GG-186",
+      "BRA-5-GG-125",
+      "BRA-5-GG-101",
+      "BRA-5-GG-188",
       "BRA-5-GG-295",
+      "BRA-5-GG-100",
+      "BRA-5-GG-187",
+      "BRA-5-GG-124",
       "BRA-5-GG-294",
+      "BRA-5-GG-126",
       "BRA-5-GG-296",
+      "BRA-5-GG-102",
+      "BRA-5-GG-189",
+      "BRA-5-CE-129",
+      "BRA-5-CE-192",
       "BRA-5-CE-299",
+      "BRA-5-CE-105",
+      "BRA-5-CE-127",
+      "BRA-5-CE-190",
       "BRA-5-CE-297",
+      "BRA-5-CE-103",
+      "BRA-5-CE-191",
+      "BRA-5-CE-104",
+      "BRA-5-CE-128",
       "BRA-5-CE-298",
+      "BRA-5-CE-193",
       "BRA-5-CE-300",
+      "BRA-5-CE-130",
+      "BRA-5-CE-106",
       "BRA-5-S-299",
+      "BRA-5-S-129",
+      "BRA-5-S-192",
+      "BRA-5-S-105",
+      "BRA-5-S-103",
+      "BRA-5-S-127",
+      "BRA-5-S-190",
       "BRA-5-S-297",
+      "BRA-5-S-191",
+      "BRA-5-S-104",
+      "BRA-5-S-128",
       "BRA-5-S-298",
+      "BRA-5-S-106",
+      "BRA-5-S-130",
       "BRA-5-S-300",
+      "BRA-5-S-193",
+      "BRA-5-GK-105",
+      "BRA-5-GM-106",
+      "BRA-5-GK-129",
       "BRA-5-GK-299",
+      "BRA-5-GK-192",
+      "BRA-5-GK-190",
       "BRA-5-GK-297",
+      "BRA-5-GK-127",
+      "BRA-5-GK-103",
+      "BRA-5-GK-128",
       "BRA-5-GK-298",
+      "BRA-5-GK-104",
+      "BRA-5-GK-191",
+      "BRA-5-GK-193",
+      "BRA-5-GK-106",
       "BRA-5-GK-300",
+      "BRA-5-GK-130",
+      "BRA-5-NG-129",
+      "BRA-5-NG-192",
       "BRA-5-NG-299",
+      "BRA-5-NG-105",
+      "BRA-5-NG-127",
+      "BRA-5-NG-190",
+      "BRA-5-NG-103",
       "BRA-5-NG-297",
+      "BRA-5-NG-104",
       "BRA-5-NG-298",
+      "BRA-5-NG-128",
+      "BRA-5-NG-191",
+      "BRA-5-NG-106",
       "BRA-5-NG-300",
+      "BRA-5-NG-130",
+      "BRA-5-NG-193",
+      "BRA-5-GM-105",
+      "BRA-5-GM-192",
       "BRA-5-GM-299",
+      "BRA-5-GM-129",
+      "BRA-5-GM-103",
+      "BRA-5-GM-127",
+      "BRA-5-GM-190",
       "BRA-5-GM-297",
+      "BRA-5-GM-128",
       "BRA-5-GM-298",
+      "BRA-5-GM-104",
+      "BRA-5-GM-191",
+      "BRA-5-GM-193",
+      "BRA-5-GM-130",
+      "BRA-5-GG-105",
       "BRA-5-GM-300",
       "BRA-5-GG-299",
+      "BRA-5-GG-129",
+      "BRA-5-GG-192",
+      "BRA-5-GG-103",
+      "BRA-5-GG-104",
+      "BRA-5-GG-190",
+      "BRA-5-GG-127",
       "BRA-5-GG-297",
+      "BRA-5-GG-128",
+      "BRA-5-GG-191",
       "BRA-5-GG-298",
+      "BRA-5-GG-106",
+      "BRA-5-GG-193",
       "BRA-5-GG-300",
+      "BRA-5-CE-107",
+      "BRA-5-GG-130",
+      "BRA-5-CE-108",
+      "BRA-5-CE-131",
       "BRA-5-CE-301",
+      "BRA-5-CE-194",
+      "BRA-5-S-107",
+      "BRA-5-CE-132",
       "BRA-5-CE-302",
+      "BRA-5-CE-195",
+      "BRA-5-S-131",
+      "BRA-5-S-194",
+      "BRA-5-S-108",
       "BRA-5-S-301",
+      "BRA-5-S-195",
+      "BRA-5-S-132",
+      "BRA-5-GK-107",
       "BRA-5-S-302",
+      "BRA-5-GK-131",
       "BRA-5-GK-301",
+      "BRA-5-GK-194",
+      "BRA-5-GK-108",
+      "BRA-5-GK-132",
+      "BRA-5-NG-107",
+      "BRA-5-GK-195",
       "BRA-5-GK-302",
+      "BRA-5-NG-108",
+      "BRA-5-NG-131",
+      "BRA-5-NG-194",
       "BRA-5-NG-301",
+      "BRA-5-NG-195",
+      "BRA-5-GM-107",
+      "BRA-5-NG-132",
       "BRA-5-NG-302",
+      "BRA-5-GM-108",
+      "BRA-5-GM-131",
+      "BRA-5-GM-194",
       "BRA-5-GM-301",
+      "BRA-5-GG-107",
+      "BRA-5-GM-132",
       "BRA-5-GM-302",
+      "BRA-5-GM-195",
+      "BRA-5-GG-194",
+      "BRA-5-GG-131",
+      "BRA-5-GG-108",
       "BRA-5-GG-301",
+      "BRA-5-GG-132",
       "BRA-5-GG-302",
+      "BRA-5-CE-109",
+      "BRA-5-GG-195",
       "BRA-5-CE-303",
+      "BRA-5-CE-110",
+      "BRA-5-CE-133",
+      "BRA-5-CE-196",
       "BRA-5-CE-304",
+      "BRA-5-S-109",
+      "BRA-5-CE-134",
+      "BRA-5-CE-197",
+      "BRA-5-S-196",
+      "BRA-5-S-133",
+      "BRA-5-S-110",
       "BRA-5-S-303",
+      "BRA-5-GK-109",
       "BRA-5-S-304",
+      "BRA-5-S-134",
+      "BRA-5-S-197",
       "BRA-5-GK-303",
+      "BRA-5-GK-196",
+      "BRA-5-GK-133",
+      "BRA-5-GK-110",
+      "BRA-5-NG-109",
       "BRA-5-GK-304",
+      "BRA-5-GK-134",
+      "BRA-5-GK-197",
+      "BRA-5-NG-196",
+      "BRA-5-NG-133",
+      "BRA-5-NG-110",
       "BRA-5-NG-303",
+      "BRA-5-NG-134",
       "BRA-5-NG-304",
+      "BRA-5-GM-109",
+      "BRA-5-NG-197",
+      "BRA-5-GM-110",
+      "BRA-5-GM-196",
       "BRA-5-GM-303",
+      "BRA-5-GM-133",
+      "BRA-5-GG-109",
       "BRA-5-GM-304",
+      "BRA-5-GM-134",
+      "BRA-5-GM-197",
+      "BRA-5-GG-110",
+      "BRA-5-GG-196",
       "BRA-5-GG-303",
+      "BRA-5-GG-133",
       "BRA-5-GG-304",
+      "BRA-5-GG-197",
+      "BRA-5-CE-111",
+      "BRA-5-GG-134",
+      "BRA-5-CE-113",
+      "BRA-5-CE-198",
       "BRA-5-CE-305",
+      "BRA-5-CE-135",
+      "BRA-5-CE-112",
       "BRA-5-CE-307",
+      "BRA-5-CE-200",
+      "BRA-5-CE-137",
       "BRA-5-CE-306",
+      "BRA-5-CE-136",
+      "BRA-5-CE-114",
+      "BRA-5-CE-199",
+      "BRA-5-CE-138",
+      "BRA-5-S-111",
+      "BRA-5-CE-201",
       "BRA-5-CE-308",
+      "BRA-5-S-198",
+      "BRA-5-S-135",
       "BRA-5-S-307",
+      "BRA-5-S-113",
+      "BRA-5-S-137",
+      "BRA-5-S-112",
       "BRA-5-S-306",
+      "BRA-5-S-200",
       "BRA-5-S-308",
+      "BRA-5-S-199",
+      "BRA-5-S-136",
+      "BRA-5-S-114",
+      "BRA-5-S-201",
       "BRA-5-GK-305",
+      "BRA-5-S-138",
+      "BRA-5-GK-111",
       "BRA-5-GK-307",
       "BRA-5-S-305",
+      "BRA-5-GK-135",
+      "BRA-5-GK-198",
+      "BRA-5-GK-113",
+      "BRA-5-GK-200",
       "BRA-5-GK-306",
+      "BRA-5-GK-137",
+      "BRA-5-GK-112",
+      "BRA-5-GK-136",
       "BRA-5-GK-308",
+      "BRA-5-GK-114",
+      "BRA-5-GK-199",
+      "BRA-5-GK-138",
       "BRA-5-NG-305",
+      "BRA-5-NG-111",
+      "BRA-5-GK-201",
+      "BRA-5-NG-113",
+      "BRA-5-NG-135",
+      "BRA-5-NG-198",
       "BRA-5-NG-307",
       "BRA-5-NG-306",
+      "BRA-5-NG-200",
+      "BRA-5-NG-112",
+      "BRA-5-NG-137",
+      "BRA-5-NG-136",
+      "BRA-5-NG-114",
+      "BRA-5-NG-199",
       "BRA-5-NG-308",
       "BRA-5-GM-305",
+      "BRA-5-NG-138",
+      "BRA-5-NG-201",
+      "BRA-5-GM-111",
+      "BRA-5-GM-113",
+      "BRA-5-GM-135",
       "BRA-5-GM-307",
+      "BRA-5-GM-198",
       "BRA-5-GM-306",
+      "BRA-5-GM-112",
+      "BRA-5-GM-137",
+      "BRA-5-GM-200",
+      "BRA-5-GM-114",
+      "BRA-5-GM-136",
       "BRA-5-GM-308",
+      "BRA-5-GM-199",
+      "BRA-5-GM-138",
+      "BRA-5-GG-111",
       "BRA-5-GG-305",
+      "BRA-5-GM-201",
+      "BRA-5-GG-113",
+      "BRA-5-GG-198",
+      "BRA-5-GG-135",
       "BRA-5-GG-307",
+      "BRA-5-GG-112",
+      "BRA-5-GG-200",
+      "BRA-5-GG-137",
       "BRA-5-GG-306",
+      "BRA-5-GG-114",
       "BRA-5-GG-308",
+      "BRA-5-GG-136",
+      "BRA-5-GG-199",
+      "BRA-5-GG-138",
+      "BRA-5-CE-117",
+      "BRA-5-GG-201",
       "BRA-5-CE-311",
+      "BRA-5-CE-141",
+      "BRA-5-CE-115",
+      "BRA-5-CE-204",
       "BRA-5-CE-309",
+      "BRA-5-CE-118",
       "BRA-5-CE-310",
+      "BRA-5-CE-202",
+      "BRA-5-CE-139",
+      "BRA-5-CE-116",
+      "BRA-5-CE-140",
+      "BRA-5-CE-203",
       "BRA-5-CE-312",
+      "BRA-5-CE-205",
       "BRA-5-S-311",
+      "BRA-5-CE-142",
+      "BRA-5-S-117",
+      "BRA-5-S-141",
       "BRA-5-S-309",
+      "BRA-5-S-115",
+      "BRA-5-S-204",
+      "BRA-5-S-202",
       "BRA-5-S-310",
+      "BRA-5-S-118",
+      "BRA-5-S-139",
+      "BRA-5-S-203",
+      "BRA-5-S-116",
+      "BRA-5-S-140",
       "BRA-5-S-312",
+      "BRA-5-S-142",
+      "BRA-5-GK-117",
       "BRA-5-GK-311",
+      "BRA-5-S-205",
+      "BRA-5-GK-141",
       "BRA-5-GK-309",
+      "BRA-5-GK-115",
+      "BRA-5-GK-204",
+      "BRA-5-GK-118",
+      "BRA-5-GK-139",
       "BRA-5-GK-310",
+      "BRA-5-GK-202",
       "BRA-5-GK-312",
+      "BRA-5-GK-116",
+      "BRA-5-GK-140",
+      "BRA-5-GK-203",
+      "BRA-5-GK-205",
+      "BRA-5-GK-142",
       "BRA-5-NG-311",
+      "BRA-5-NG-117",
+      "BRA-5-NG-141",
+      "BRA-5-NG-204",
+      "BRA-5-NG-115",
       "BRA-5-NG-309",
       "BRA-5-NG-310",
+      "BRA-5-NG-139",
+      "BRA-5-NG-118",
+      "BRA-5-NG-202",
       "BRA-5-NG-312",
+      "BRA-5-NG-116",
+      "BRA-5-NG-140",
+      "BRA-5-NG-203",
       "BRA-5-GM-311",
+      "BRA-5-GM-117",
+      "BRA-5-NG-205",
+      "BRA-5-NG-142",
+      "BRA-5-GM-141",
+      "BRA-5-GM-115",
+      "BRA-5-GM-204",
       "BRA-5-GM-309",
+      "BRA-5-GM-202",
       "BRA-5-GM-310",
+      "BRA-5-GM-118",
+      "BRA-5-GM-139",
+      "BRA-5-GM-140",
+      "BRA-5-GM-116",
+      "BRA-5-GM-203",
       "BRA-5-GM-312",
+      "BRA-5-GM-142",
+      "BRA-5-GM-205",
+      "BRA-5-GG-117",
       "BRA-5-GG-311",
+      "BRA-5-GG-115",
+      "BRA-5-GG-204",
       "BRA-5-GG-309",
+      "BRA-5-GG-141",
+      "BRA-5-GG-202",
+      "BRA-5-GG-139",
       "BRA-5-GG-310",
+      "BRA-5-GG-118",
+      "BRA-5-GG-116",
       "BRA-5-GG-312",
+      "BRA-5-GG-140",
+      "BRA-5-GG-203",
+      "BRA-5-GG-205",
       "BRA-5-CE-313",
+      "BRA-5-CE-119",
+      "BRA-5-GG-142",
+      "BRA-5-CE-120",
+      "BRA-5-CE-143",
+      "BRA-5-CE-206",
       "BRA-5-CE-314",
+      "BRA-5-CE-144",
+      "BRA-5-S-119",
+      "BRA-5-CE-207",
       "BRA-5-S-313",
+      "BRA-5-S-206",
+      "BRA-5-S-120",
       "BRA-5-S-314",
+      "BRA-5-S-143",
+      "BRA-5-S-144",
       "BRA-5-GK-313",
+      "BRA-5-GK-119",
+      "BRA-5-S-207",
+      "BRA-5-GK-143",
+      "BRA-5-GK-120",
       "BRA-5-GK-314",
+      "BRA-5-GK-206",
+      "BRA-5-GK-144",
+      "BRA-5-NG-119",
       "BRA-5-NG-313",
+      "BRA-5-GK-207",
+      "BRA-5-NG-206",
+      "BRA-5-NG-120",
+      "BRA-5-NG-143",
       "BRA-5-NG-314",
+      "BRA-5-GM-119",
       "BRA-5-GM-313",
+      "BRA-5-NG-207",
+      "BRA-5-NG-144",
+      "BRA-5-GM-143",
       "BRA-5-GM-314",
+      "BRA-5-GM-120",
+      "BRA-5-GM-206",
+      "BRA-5-GM-144",
+      "BRA-5-GG-119",
+      "BRA-5-GM-207",
       "BRA-5-GG-313",
-      "BRA-5-GG-314"
+      "BRA-5-GG-143",
+      "BRA-5-GG-314",
+      "BRA-5-GG-206",
+      "BRA-5-GG-120",
+      "BRA-5-GG-207",
+      "BRA-5-GG-144"
     ],
     "variants": []
   },
@@ -8918,7 +8565,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-244.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-247.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -8936,27 +8583,27 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-244.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-247.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-245.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-247.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-244.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-247.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-244.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-247.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-244.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-247.jpg"
           },
           {
             "value": "Mat zwart",
@@ -9035,7 +8682,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-250.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-249.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -9053,7 +8700,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-250.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-249.jpg"
           },
           {
             "value": "Geborsteld goud",
@@ -9063,12 +8710,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-250.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-249.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-250.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-249.jpg"
           },
           {
             "value": "Geborsteld RVS",
@@ -9078,7 +8725,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-250.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249.jpg"
           }
         ]
       },
@@ -9124,7 +8771,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-254.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-256.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -9142,12 +8789,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-254.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-256.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-255.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-256.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -9157,17 +8804,17 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-253.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-256.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-255.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-256.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-255.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-256.jpg"
           }
         ]
       },
@@ -9331,7 +8978,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-263.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-262.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -9346,7 +8993,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-263.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-262.jpg"
           },
           {
             "value": "Mat zwart",
@@ -9420,12 +9067,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H100200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H120200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H90200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H120200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
@@ -9435,7 +9082,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H90200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H120200NG.jpg"
           },
           {
             "value": "Mat zwart",
@@ -9497,7 +9144,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -9515,27 +9162,27 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H70200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H70200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200NG.jpg"
           },
           {
             "value": "Mat zwart",
@@ -9743,7 +9390,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF80S.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF90S.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -9766,22 +9413,22 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF80GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF90GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF70GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF90GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF80GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF90GK.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF80S.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF90S.jpg"
           }
         ]
       },
@@ -9843,8 +9490,8 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-DR-MRF70S",
       "BRA-DR-MRF80S",
       "BRA-DR-MRF70CF",
-      "BRA-DR-MRF90S",
       "BRA-DR-MRF80CF",
+      "BRA-DR-MRF90S",
       "BRA-DR-MRF90CF",
       "BRA-DR-MRF100S",
       "BRA-DR-MRF70GK",
@@ -9871,7 +9518,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW90S.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80GM.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -9894,7 +9541,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW100GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -9904,12 +9551,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW100GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80GK.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW90S.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80S.jpg"
           }
         ]
       },
@@ -9968,8 +9615,8 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "variantSkus": [
       "BRA-DR-MRFW100CF",
-      "BRA-DR-MRFW70CF",
       "BRA-DR-MRFW70S",
+      "BRA-DR-MRFW70CF",
       "BRA-DR-MRFW80CF",
       "BRA-DR-MRFW80S",
       "BRA-DR-MRFW90S",
@@ -9998,7 +9645,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRF120NG.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRF200NG.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -10016,12 +9663,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRF120NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRF200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRF70S.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRF200S.jpg"
           }
         ]
       },
@@ -10195,7 +9842,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRFW50NG.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRFW100NG.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -10213,12 +9860,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRFW50NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRFW100NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRFW90S.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRFW100S.jpg"
           }
         ]
       },
@@ -10320,7 +9967,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF180NG.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF50NG.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -10516,14 +10163,14 @@ export const catalogProducts: CatalogProduct[] = [
         "label": "Kleur",
         "values": [
           {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80NG.jpg"
-          },
-          {
             "value": "Coffee",
             "label": "Coffee",
             "image": null
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80NG.jpg"
           }
         ]
       },
@@ -10584,7 +10231,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF90NG.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF50NG.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -10698,7 +10345,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-XS90NG.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-XS80NG.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -11020,27 +10667,27 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-003-S1.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-003-S2.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-003-S1.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-003-S2.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-003-R2.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-003-S2.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-003-R1.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-003-S2.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-003-R1.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-003-S2.jpg"
           }
         ]
       },
@@ -11061,6 +10708,22 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Model C",
             "label": "Model C",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "uitloop",
+        "label": "Uitloop",
+        "values": [
+          {
+            "value": "Plat",
+            "label": "Plat",
+            "image": null
+          },
+          {
+            "value": "Rond",
+            "label": "Rond",
             "image": null
           }
         ]
@@ -11213,22 +10876,22 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B5-65.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B1-65.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5-65.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B5-65.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B1-65.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B5-65.jpg"
           },
           {
             "value": "Mat zwart",
@@ -11327,10 +10990,10 @@ export const catalogProducts: CatalogProduct[] = [
       }
     ],
     "variantSkus": [
-      "BRA-5-CE-004",
       "BRA-5-CE-004-S2-65",
-      "BRA-5-CE-004-B5-65",
+      "BRA-5-CE-004",
       "BRA-5-CE-004-S5-65",
+      "BRA-5-CE-004-B5-65",
       "BRA-5-CE-004-S4-65",
       "BRA-5-CE-004-B4-65",
       "BRA-5-CE-004-S1-65",
@@ -11339,12 +11002,12 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-5-CE-004-S3-65",
       "BRA-5-S-004-S2-65",
       "BRA-5-S-004",
-      "BRA-5-S-004-S5-65",
       "BRA-5-S-004-B5-65",
+      "BRA-5-S-004-S5-65",
       "BRA-5-S-004-S4-65",
       "BRA-5-S-004-B4-65",
-      "BRA-5-S-004-B1-65",
       "BRA-5-S-004-S1-65",
+      "BRA-5-S-004-B1-65",
       "BRA-5-S-004-S3-65",
       "BRA-5-S-004-B3-65",
       "BRA-5-GK-004-S2-65",
@@ -11359,36 +11022,36 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-5-GK-004-B3-65",
       "BRA-5-NG-004",
       "BRA-5-NG-004-S2-65",
-      "BRA-5-NG-004-S5-65",
       "BRA-5-NG-004-B5-65",
-      "BRA-5-NG-004-B4-65",
+      "BRA-5-NG-004-S5-65",
       "BRA-5-NG-004-S4-65",
+      "BRA-5-NG-004-B4-65",
       "BRA-5-NG-004-S1-65",
       "BRA-5-NG-004-B1-65",
-      "BRA-5-NG-004-B3-65",
       "BRA-5-NG-004-S3-65",
-      "BRA-5-GM-004-S2-65",
+      "BRA-5-NG-004-B3-65",
       "BRA-5-GM-004",
+      "BRA-5-GM-004-S2-65",
       "BRA-5-GM-004-S5-65",
       "BRA-5-GM-004-B5-65",
       "BRA-5-GM-004-S4-65",
       "BRA-5-GM-004-B4-65",
       "BRA-5-GM-004-B1-65",
       "BRA-5-GM-004-S1-65",
-      "BRA-5-GM-004-S3-65",
       "BRA-5-GM-004-B3-65",
-      "BRA-5-GG-004-S2-65",
+      "BRA-5-GM-004-S3-65",
       "BRA-5-GG-004",
-      "BRA-5-GG-004-S5-65",
+      "BRA-5-GG-004-S2-65",
       "BRA-5-GG-004-B5-65",
+      "BRA-5-GG-004-S5-65",
       "BRA-5-GG-004-S4-65",
       "BRA-5-GG-004-B4-65",
       "BRA-5-GG-004-B1-65",
       "BRA-5-GG-004-S1-65",
-      "BRA-5-GG-004-B3-65",
       "BRA-5-GG-004-S3-65",
-      "BRA-5-CE-083-S2-65",
+      "BRA-5-GG-004-B3-65",
       "BRA-5-CE-083",
+      "BRA-5-CE-083-S2-65",
       "BRA-5-CE-083-S5-65",
       "BRA-5-CE-083-B5-65",
       "BRA-5-CE-083-B4-65",
@@ -11397,58 +11060,58 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-5-CE-083-S1-65",
       "BRA-5-CE-083-S3-65",
       "BRA-5-CE-083-B3-65",
-      "BRA-5-S-083-S2-65",
       "BRA-5-S-083",
-      "BRA-5-S-083-S5-65",
+      "BRA-5-S-083-S2-65",
       "BRA-5-S-083-B5-65",
-      "BRA-5-S-083-B4-65",
+      "BRA-5-S-083-S5-65",
       "BRA-5-S-083-S4-65",
-      "BRA-5-S-083-S1-65",
+      "BRA-5-S-083-B4-65",
       "BRA-5-S-083-B1-65",
+      "BRA-5-S-083-S1-65",
       "BRA-5-S-083-B3-65",
       "BRA-5-S-083-S3-65",
-      "BRA-5-GK-083-S2-65",
       "BRA-5-GK-083",
-      "BRA-5-GK-083-B5-65",
+      "BRA-5-GK-083-S2-65",
       "BRA-5-GK-083-S5-65",
-      "BRA-5-GK-083-S4-65",
+      "BRA-5-GK-083-B5-65",
       "BRA-5-GK-083-B4-65",
-      "BRA-5-GK-083-B1-65",
+      "BRA-5-GK-083-S4-65",
       "BRA-5-GK-083-S1-65",
-      "BRA-5-GK-083-B3-65",
+      "BRA-5-GK-083-B1-65",
       "BRA-5-GK-083-S3-65",
-      "BRA-5-NG-083",
+      "BRA-5-GK-083-B3-65",
       "BRA-5-NG-083-S2-65",
+      "BRA-5-NG-083",
       "BRA-5-NG-083-B5-65",
       "BRA-5-NG-083-S5-65",
       "BRA-5-NG-083-B4-65",
       "BRA-5-NG-083-S4-65",
       "BRA-5-NG-083-S1-65",
       "BRA-5-NG-083-B1-65",
-      "BRA-5-NG-083-S3-65",
       "BRA-5-NG-083-B3-65",
-      "BRA-5-GM-083",
+      "BRA-5-NG-083-S3-65",
       "BRA-5-GM-083-S2-65",
-      "BRA-5-GM-083-B5-65",
+      "BRA-5-GM-083",
       "BRA-5-GM-083-S5-65",
+      "BRA-5-GM-083-B5-65",
       "BRA-5-GM-083-B4-65",
       "BRA-5-GM-083-S4-65",
-      "BRA-5-GM-083-S1-65",
       "BRA-5-GM-083-B1-65",
-      "BRA-5-GM-083-B3-65",
+      "BRA-5-GM-083-S1-65",
       "BRA-5-GM-083-S3-65",
+      "BRA-5-GM-083-B3-65",
       "BRA-5-GG-083",
       "BRA-5-GG-083-S2-65",
-      "BRA-5-GG-083-S5-65",
       "BRA-5-GG-083-B5-65",
-      "BRA-5-GG-083-S4-65",
+      "BRA-5-GG-083-S5-65",
       "BRA-5-GG-083-B4-65",
+      "BRA-5-GG-083-S4-65",
       "BRA-5-GG-083-S1-65",
       "BRA-5-GG-083-B1-65",
-      "BRA-5-GG-083-S3-65",
       "BRA-5-GG-083-B3-65",
-      "BRA-5-CE-004-S2",
+      "BRA-5-GG-083-S3-65",
       "BRA-5-CE-004-B2",
+      "BRA-5-CE-004-S2",
       "BRA-5-CE-004-B5",
       "BRA-5-CE-004-S5",
       "BRA-5-CE-004-S4",
@@ -11461,112 +11124,112 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-5-S-004-S2",
       "BRA-5-S-004-B5",
       "BRA-5-S-004-S5",
-      "BRA-5-S-004-S4",
       "BRA-5-S-004-B4",
+      "BRA-5-S-004-S4",
       "BRA-5-S-004-S1",
       "BRA-5-S-004-B1",
       "BRA-5-S-004-S3",
       "BRA-5-S-004-B3",
-      "BRA-5-GK-004-B2",
       "BRA-5-GK-004-S2",
+      "BRA-5-GK-004-B2",
       "BRA-5-GK-004-S5",
       "BRA-5-GK-004-B5",
       "BRA-5-GK-004-B4",
       "BRA-5-GK-004-S4",
       "BRA-5-GK-004-B1",
       "BRA-5-GK-004-S1",
-      "BRA-5-GK-004-B3",
       "BRA-5-GK-004-S3",
-      "BRA-5-NG-004-S2",
+      "BRA-5-GK-004-B3",
       "BRA-5-NG-004-B2",
-      "BRA-5-NG-004-B5",
+      "BRA-5-NG-004-S2",
       "BRA-5-NG-004-S5",
-      "BRA-5-NG-004-B4",
+      "BRA-5-NG-004-B5",
       "BRA-5-NG-004-S4",
-      "BRA-5-NG-004-S1",
+      "BRA-5-NG-004-B4",
       "BRA-5-NG-004-B1",
-      "BRA-5-NG-004-S3",
+      "BRA-5-NG-004-S1",
       "BRA-5-NG-004-B3",
+      "BRA-5-NG-004-S3",
       "BRA-5-GM-004-B2",
       "BRA-5-GM-004-S2",
-      "BRA-5-GM-004-S5",
       "BRA-5-GM-004-B5",
-      "BRA-5-GM-004-B4",
+      "BRA-5-GM-004-S5",
       "BRA-5-GM-004-S4",
-      "BRA-5-GM-004-S1",
+      "BRA-5-GM-004-B4",
       "BRA-5-GM-004-B1",
+      "BRA-5-GM-004-S1",
       "BRA-5-GM-004-B3",
       "BRA-5-GM-004-S3",
-      "BRA-5-GG-004-B2",
       "BRA-5-GG-004-S2",
-      "BRA-5-GG-004-S5",
+      "BRA-5-GG-004-B2",
       "BRA-5-GG-004-B5",
+      "BRA-5-GG-004-S5",
       "BRA-5-GG-004-S4",
       "BRA-5-GG-004-B4",
-      "BRA-5-GG-004-B1",
       "BRA-5-GG-004-S1",
+      "BRA-5-GG-004-B1",
       "BRA-5-GG-004-S3",
       "BRA-5-GG-004-B3",
-      "BRA-5-CE-083-B2",
       "BRA-5-CE-083-S2",
-      "BRA-5-CE-083-B5",
+      "BRA-5-CE-083-B2",
       "BRA-5-CE-083-S5",
-      "BRA-5-CE-083-B4",
+      "BRA-5-CE-083-B5",
       "BRA-5-CE-083-S4",
-      "BRA-5-CE-083-B1",
+      "BRA-5-CE-083-B4",
       "BRA-5-CE-083-S1",
-      "BRA-5-CE-083-S3",
+      "BRA-5-CE-083-B1",
       "BRA-5-CE-083-B3",
-      "BRA-5-S-083-S2",
+      "BRA-5-CE-083-S3",
       "BRA-5-S-083-B2",
-      "BRA-5-S-083-S5",
+      "BRA-5-S-083-S2",
       "BRA-5-S-083-B5",
+      "BRA-5-S-083-S5",
       "BRA-5-S-083-B4",
       "BRA-5-S-083-S4",
       "BRA-5-S-083-S1",
       "BRA-5-S-083-B1",
-      "BRA-5-S-083-B3",
       "BRA-5-S-083-S3",
+      "BRA-5-S-083-B3",
       "BRA-5-GK-083-B2",
       "BRA-5-GK-083-S2",
-      "BRA-5-GK-083-B5",
       "BRA-5-GK-083-S5",
+      "BRA-5-GK-083-B5",
       "BRA-5-GK-083-S4",
       "BRA-5-GK-083-B4",
       "BRA-5-GK-083-B1",
       "BRA-5-GK-083-S1",
-      "BRA-5-GK-083-B3",
       "BRA-5-GK-083-S3",
-      "BRA-5-NG-083-B2",
+      "BRA-5-GK-083-B3",
       "BRA-5-NG-083-S2",
-      "BRA-5-NG-083-B5",
+      "BRA-5-NG-083-B2",
       "BRA-5-NG-083-S5",
-      "BRA-5-NG-083-B4",
+      "BRA-5-NG-083-B5",
       "BRA-5-NG-083-S4",
+      "BRA-5-NG-083-B4",
       "BRA-5-NG-083-B1",
       "BRA-5-NG-083-S1",
-      "BRA-5-NG-083-S3",
       "BRA-5-NG-083-B3",
+      "BRA-5-NG-083-S3",
       "BRA-5-GM-083-S2",
       "BRA-5-GM-083-B2",
       "BRA-5-GM-083-S5",
       "BRA-5-GM-083-B5",
-      "BRA-5-GM-083-S4",
       "BRA-5-GM-083-B4",
+      "BRA-5-GM-083-S4",
       "BRA-5-GM-083-B1",
       "BRA-5-GM-083-S1",
       "BRA-5-GM-083-S3",
       "BRA-5-GM-083-B3",
-      "BRA-5-GG-083-B2",
       "BRA-5-GG-083-S2",
+      "BRA-5-GG-083-B2",
       "BRA-5-GG-083-S5",
       "BRA-5-GG-083-B5",
-      "BRA-5-GG-083-B4",
       "BRA-5-GG-083-S4",
+      "BRA-5-GG-083-B4",
       "BRA-5-GG-083-B1",
       "BRA-5-GG-083-S1",
-      "BRA-5-GG-083-B3",
-      "BRA-5-GG-083-S3"
+      "BRA-5-GG-083-S3",
+      "BRA-5-GG-083-B3"
     ],
     "variants": []
   },
@@ -12028,12 +11691,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-208.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-022.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-210.jpg"
           },
           {
             "value": "Geborsteld koper",
@@ -12104,615 +11767,67 @@ export const catalogProducts: CatalogProduct[] = [
     "variantSkus": [
       "BRA-5-CE-022",
       "BRA-5-CE-046",
-      "BRA-5-CE-210",
       "BRA-5-CE-208",
+      "BRA-5-CE-210",
       "BRA-5-CE-023",
       "BRA-5-CE-047",
-      "BRA-5-CE-211",
-      "BRA-5-CE-209",
       "BRA-5-CF-047",
+      "BRA-5-CE-209",
+      "BRA-5-CE-211",
       "BRA-5-S-022",
       "BRA-5-S-046",
-      "BRA-5-S-210",
       "BRA-5-CF-046",
+      "BRA-5-S-210",
       "BRA-5-S-208",
       "BRA-5-S-047",
       "BRA-5-S-023",
-      "BRA-5-S-209",
       "BRA-5-S-211",
-      "BRA-5-GK-022",
+      "BRA-5-S-209",
       "BRA-5-GK-046",
+      "BRA-5-GK-022",
       "BRA-5-GK-208",
       "BRA-5-GK-210",
       "BRA-5-GK-047",
       "BRA-5-GK-023",
       "BRA-5-GK-209",
       "BRA-5-GK-211",
-      "BRA-5-NG-022",
       "BRA-5-NG-046",
+      "BRA-5-NG-022",
       "BRA-5-NG-210",
       "BRA-5-NG-208",
-      "BRA-5-NG-023",
       "BRA-5-NG-047",
+      "BRA-5-NG-023",
       "BRA-5-NG-211",
       "BRA-5-NG-209",
       "BRA-5-GM-022",
       "BRA-5-GM-046",
       "BRA-5-GM-208",
       "BRA-5-GM-210",
-      "BRA-5-GM-047",
       "BRA-5-GM-023",
-      "BRA-5-GM-211",
+      "BRA-5-GM-047",
       "BRA-5-GM-209",
-      "BRA-5-GG-046",
+      "BRA-5-GM-211",
       "BRA-5-GG-022",
+      "BRA-5-GG-046",
       "BRA-5-GG-208",
       "BRA-5-GG-210",
-      "BRA-5-GG-023",
       "BRA-5-GG-047",
+      "BRA-5-GG-023",
       "BRA-5-GG-211",
       "BRA-5-GG-209"
     ],
     "variants": []
   },
   {
-    "id": 9641,
-    "name": "Edition Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-3-weg-omstel-9641",
-    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1SEP",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-051.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-051.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-050.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-051.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-058.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-054.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-053.jpg"
-          }
-        ]
-      },
-      {
-        "key": "bevestiginghoofddouche",
-        "label": "Bevestiging hoofddouche",
-        "values": [
-          {
-            "value": "Gebogen wandarm",
-            "label": "Gebogen wandarm",
-            "image": null
-          },
-          {
-            "value": "Plafondbuis",
-            "label": "Plafondbuis",
-            "image": null
-          },
-          {
-            "value": "Rechte wandarm",
-            "label": "Rechte wandarm",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "glijstang",
-        "label": "Glijstang",
-        "values": [
-          {
-            "value": "Ja",
-            "label": "Ja",
-            "image": null
-          },
-          {
-            "value": "Nee",
-            "label": "Nee",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "handdouche",
-        "label": "Handdouche",
-        "values": [
-          {
-            "value": "3-standen",
-            "label": "3-standen",
-            "image": null
-          },
-          {
-            "value": "Staafmodel",
-            "label": "Staafmodel",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "hoofddouche",
-        "label": "Hoofddouche",
-        "values": [
-          {
-            "value": "20 cm",
-            "label": "20 cm",
-            "image": null
-          },
-          {
-            "value": "30 cm",
-            "label": "30 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
-      "BRA-5-CE-052",
-      "BRA-5-CE-053",
-      "BRA-5-S-052",
-      "BRA-5-S-053",
-      "BRA-5-GK-052",
-      "BRA-5-GK-053",
-      "BRA-5-NG-052",
-      "BRA-5-NG-053",
-      "BRA-5-GM-052",
-      "BRA-5-GM-053",
-      "BRA-5-GG-052",
-      "BRA-5-GG-053",
-      "BRA-5-CE-050",
-      "BRA-5-CE-054",
-      "BRA-5-CE-051",
-      "BRA-5-CE-055",
-      "BRA-5-S-050",
-      "BRA-5-S-054",
-      "BRA-5-S-051",
-      "BRA-5-S-055",
-      "BRA-5-GK-050",
-      "BRA-5-GK-054",
-      "BRA-5-GK-051",
-      "BRA-5-GK-055",
-      "BRA-5-NG-050",
-      "BRA-5-NG-054",
-      "BRA-5-NG-051",
-      "BRA-5-NG-055",
-      "BRA-5-GM-050",
-      "BRA-5-GM-054",
-      "BRA-5-GM-051",
-      "BRA-5-GM-055",
-      "BRA-5-GG-050",
-      "BRA-5-GG-054",
-      "BRA-5-GG-051",
-      "BRA-5-GG-055",
-      "BRA-5-CE-056",
-      "BRA-5-CE-058",
-      "BRA-5-CE-059",
-      "BRA-5-CE-057",
-      "BRA-5-S-056",
-      "BRA-5-S-058",
-      "BRA-5-S-059",
-      "BRA-5-S-057",
-      "BRA-5-GK-056",
-      "BRA-5-GK-058",
-      "BRA-5-GK-059",
-      "BRA-5-GK-057",
-      "BRA-5-NG-056",
-      "BRA-5-NG-058",
-      "BRA-5-NG-059",
-      "BRA-5-NG-057",
-      "BRA-5-GM-056",
-      "BRA-5-GM-058",
-      "BRA-5-GM-059",
-      "BRA-5-GM-057",
-      "BRA-5-GG-056",
-      "BRA-5-GG-058",
-      "BRA-5-GG-059",
-      "BRA-5-GG-057",
-      "BRA-5-CE-060",
-      "BRA-5-CE-061",
-      "BRA-5-S-060",
-      "BRA-5-S-061",
-      "BRA-5-GK-060",
-      "BRA-5-GK-061",
-      "BRA-5-NG-060",
-      "BRA-5-NG-061",
-      "BRA-5-GM-060",
-      "BRA-5-GM-061",
-      "BRA-5-GG-060",
-      "BRA-5-GG-061",
-      "BRA-5-CE-064",
-      "BRA-5-CE-065",
-      "BRA-5-S-064",
-      "BRA-5-S-065",
-      "BRA-5-GK-064",
-      "BRA-5-GK-065",
-      "BRA-5-NG-064",
-      "BRA-5-NG-065",
-      "BRA-5-GM-064",
-      "BRA-5-GM-065",
-      "BRA-5-GG-064",
-      "BRA-5-GG-065",
-      "BRA-5-CE-062",
-      "BRA-5-CE-066",
-      "BRA-5-CE-063",
-      "BRA-5-CE-067",
-      "BRA-5-S-062",
-      "BRA-5-S-066",
-      "BRA-5-S-063",
-      "BRA-5-S-067",
-      "BRA-5-GK-062",
-      "BRA-5-GK-066",
-      "BRA-5-GK-063",
-      "BRA-5-GK-067",
-      "BRA-5-NG-062",
-      "BRA-5-NG-066",
-      "BRA-5-NG-063",
-      "BRA-5-NG-067",
-      "BRA-5-GM-062",
-      "BRA-5-GM-066",
-      "BRA-5-GM-063",
-      "BRA-5-GM-067",
-      "BRA-5-GG-062",
-      "BRA-5-GG-066",
-      "BRA-5-GG-063",
-      "BRA-5-GG-067",
-      "BRA-5-CE-068",
-      "BRA-5-CE-070",
-      "BRA-5-CE-071",
-      "BRA-5-CE-069",
-      "BRA-5-S-068",
-      "BRA-5-S-070",
-      "BRA-5-S-071",
-      "BRA-5-S-069",
-      "BRA-5-GK-068",
-      "BRA-5-GK-070",
-      "BRA-5-GK-071",
-      "BRA-5-GK-069",
-      "BRA-5-NG-068",
-      "BRA-5-NG-070",
-      "BRA-5-NG-071",
-      "BRA-5-NG-069",
-      "BRA-5-GM-068",
-      "BRA-5-GM-070",
-      "BRA-5-GM-071",
-      "BRA-5-GM-069",
-      "BRA-5-GG-068",
-      "BRA-5-GG-070",
-      "BRA-5-GG-071",
-      "BRA-5-GG-069",
-      "BRA-5-CE-072",
-      "BRA-5-CE-073",
-      "BRA-5-S-072",
-      "BRA-5-S-073",
-      "BRA-5-GK-072",
-      "BRA-5-GK-073",
-      "BRA-5-NG-072",
-      "BRA-5-NG-073",
-      "BRA-5-GM-072",
-      "BRA-5-GM-073",
-      "BRA-5-GG-072",
-      "BRA-5-GG-073"
-    ],
-    "variants": []
-  },
-  {
-    "id": 9642,
-    "name": "Edition Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-drukknoppen-9642",
-    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1M9B",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-165.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-165.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-164.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-162.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-165.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-163.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-170.jpg"
-          }
-        ]
-      },
-      {
-        "key": "bevestiginghoofddouche",
-        "label": "Bevestiging hoofddouche",
-        "values": [
-          {
-            "value": "Gebogen wandarm",
-            "label": "Gebogen wandarm",
-            "image": null
-          },
-          {
-            "value": "Plafondbuis",
-            "label": "Plafondbuis",
-            "image": null
-          },
-          {
-            "value": "Rechte wandarm",
-            "label": "Rechte wandarm",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "glijstang",
-        "label": "Glijstang",
-        "values": [
-          {
-            "value": "Ja",
-            "label": "Ja",
-            "image": null
-          },
-          {
-            "value": "Nee",
-            "label": "Nee",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "handdouche",
-        "label": "Handdouche",
-        "values": [
-          {
-            "value": "3-standen",
-            "label": "3-standen",
-            "image": null
-          },
-          {
-            "value": "Staafmodel",
-            "label": "Staafmodel",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "hoofddouche",
-        "label": "Hoofddouche",
-        "values": [
-          {
-            "value": "20 cm",
-            "label": "20 cm",
-            "image": null
-          },
-          {
-            "value": "30 cm",
-            "label": "30 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
-      "BRA-5-CE-160",
-      "BRA-5-CE-161",
-      "BRA-5-S-160",
-      "BRA-5-S-161",
-      "BRA-5-GK-160",
-      "BRA-5-GK-161",
-      "BRA-5-NG-160",
-      "BRA-5-NG-161",
-      "BRA-5-GM-160",
-      "BRA-5-GM-161",
-      "BRA-5-GG-160",
-      "BRA-5-GG-161",
-      "BRA-5-CE-162",
-      "BRA-5-CE-164",
-      "BRA-5-CE-163",
-      "BRA-5-CE-165",
-      "BRA-5-S-162",
-      "BRA-5-S-164",
-      "BRA-5-S-163",
-      "BRA-5-S-165",
-      "BRA-5-GK-162",
-      "BRA-5-GK-164",
-      "BRA-5-GK-163",
-      "BRA-5-GK-165",
-      "BRA-5-NG-162",
-      "BRA-5-NG-164",
-      "BRA-5-NG-163",
-      "BRA-5-NG-165",
-      "BRA-5-GM-162",
-      "BRA-5-GM-164",
-      "BRA-5-GM-163",
-      "BRA-5-GM-165",
-      "BRA-5-GG-162",
-      "BRA-5-GG-164",
-      "BRA-5-GG-163",
-      "BRA-5-GG-165",
-      "BRA-5-CE-168",
-      "BRA-5-CE-166",
-      "BRA-5-CE-167",
-      "BRA-5-CE-169",
-      "BRA-5-S-168",
-      "BRA-5-S-166",
-      "BRA-5-S-167",
-      "BRA-5-S-169",
-      "BRA-5-GK-168",
-      "BRA-5-GK-166",
-      "BRA-5-GK-167",
-      "BRA-5-GK-169",
-      "BRA-5-NG-168",
-      "BRA-5-NG-166",
-      "BRA-5-NG-167",
-      "BRA-5-NG-169",
-      "BRA-5-GM-168",
-      "BRA-5-GM-166",
-      "BRA-5-GM-167",
-      "BRA-5-GM-169",
-      "BRA-5-GG-168",
-      "BRA-5-GG-166",
-      "BRA-5-GG-167",
-      "BRA-5-GG-169",
-      "BRA-5-CE-170",
-      "BRA-5-CE-171",
-      "BRA-5-S-170",
-      "BRA-5-S-171",
-      "BRA-5-GK-170",
-      "BRA-5-GK-171",
-      "BRA-5-NG-170",
-      "BRA-5-NG-171",
-      "BRA-5-GM-170",
-      "BRA-5-GM-171",
-      "BRA-5-GG-170",
-      "BRA-5-GG-171",
-      "BRA-5-CE-172",
-      "BRA-5-CE-173",
-      "BRA-5-S-172",
-      "BRA-5-S-173",
-      "BRA-5-GK-172",
-      "BRA-5-GK-173",
-      "BRA-5-NG-172",
-      "BRA-5-NG-173",
-      "BRA-5-GM-172",
-      "BRA-5-GM-173",
-      "BRA-5-GG-172",
-      "BRA-5-GG-173",
-      "BRA-5-CE-174",
-      "BRA-5-CE-176",
-      "BRA-5-CE-175",
-      "BRA-5-CE-177",
-      "BRA-5-S-174",
-      "BRA-5-S-176",
-      "BRA-5-S-175",
-      "BRA-5-S-177",
-      "BRA-5-GK-174",
-      "BRA-5-GK-176",
-      "BRA-5-GK-175",
-      "BRA-5-GK-177",
-      "BRA-5-NG-174",
-      "BRA-5-NG-176",
-      "BRA-5-NG-175",
-      "BRA-5-NG-177",
-      "BRA-5-GM-174",
-      "BRA-5-GM-176",
-      "BRA-5-GM-175",
-      "BRA-5-GM-177",
-      "BRA-5-GG-174",
-      "BRA-5-GG-176",
-      "BRA-5-GG-175",
-      "BRA-5-GG-177",
-      "BRA-5-CE-180",
-      "BRA-5-CE-178",
-      "BRA-5-CE-179",
-      "BRA-5-CE-181",
-      "BRA-5-S-180",
-      "BRA-5-S-178",
-      "BRA-5-S-179",
-      "BRA-5-S-181",
-      "BRA-5-GK-180",
-      "BRA-5-GK-178",
-      "BRA-5-GK-179",
-      "BRA-5-GK-181",
-      "BRA-5-NG-180",
-      "BRA-5-NG-178",
-      "BRA-5-NG-179",
-      "BRA-5-NG-181",
-      "BRA-5-GM-180",
-      "BRA-5-GM-178",
-      "BRA-5-GM-179",
-      "BRA-5-GM-181",
-      "BRA-5-GG-180",
-      "BRA-5-GG-178",
-      "BRA-5-GG-179",
-      "BRA-5-GG-181",
-      "BRA-5-CE-182",
-      "BRA-5-CE-183",
-      "BRA-5-GG-183",
-      "BRA-5-S-182",
-      "BRA-5-S-183",
-      "BRA-5-GK-182",
-      "BRA-5-GK-183",
-      "BRA-5-NG-182",
-      "BRA-5-NG-183",
-      "BRA-5-GM-182",
-      "BRA-5-GM-183",
-      "BRA-5-GG-182"
-    ],
-    "variants": []
-  },
-  {
     "id": 9643,
-    "name": "Edition Thermostatische inbouw regendouche met stopkranen",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-stopkranen-9643",
+    "name": "Edition Thermostatische inbouw regendouche",
+    "slug": "edition-thermostatische-inbouw-regendouche-9643",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1NDC",
     "short": null,
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-074.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-284.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -12730,7 +11845,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-074.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-284.jpg"
           },
           {
             "value": "Coffee",
@@ -12740,320 +11855,22 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-077.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-035.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-075.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-284.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-075.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-035.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-026.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-026.jpg"
-          }
-        ]
-      },
-      {
-        "key": "bevestiginghoofddouche",
-        "label": "Bevestiging hoofddouche",
-        "values": [
-          {
-            "value": "Gebogen wandarm",
-            "label": "Gebogen wandarm",
-            "image": null
-          },
-          {
-            "value": "Plafondbuis",
-            "label": "Plafondbuis",
-            "image": null
-          },
-          {
-            "value": "Rechte wandarm",
-            "label": "Rechte wandarm",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "glijstang",
-        "label": "Glijstang",
-        "values": [
-          {
-            "value": "Ja",
-            "label": "Ja",
-            "image": null
-          },
-          {
-            "value": "Nee",
-            "label": "Nee",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "handdouche",
-        "label": "Handdouche",
-        "values": [
-          {
-            "value": "3-standen",
-            "label": "3-standen",
-            "image": null
-          },
-          {
-            "value": "Staafmodel",
-            "label": "Staafmodel",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "hoofddouche",
-        "label": "Hoofddouche",
-        "values": [
-          {
-            "value": "20 cm",
-            "label": "20 cm",
-            "image": null
-          },
-          {
-            "value": "30 cm",
-            "label": "30 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
-      "BRA-5-CE-024",
-      "BRA-5-CE-026",
-      "BRA-5-CF-026",
-      "BRA-5-S-024",
-      "BRA-5-S-026",
-      "BRA-5-GK-024",
-      "BRA-5-GK-026",
-      "BRA-5-NG-024",
-      "BRA-5-NG-026",
-      "BRA-5-GM-024",
-      "BRA-5-CF-024",
-      "BRA-5-GM-026",
-      "BRA-5-GG-024",
-      "BRA-5-GG-026",
-      "BRA-5-CE-074",
-      "BRA-5-CE-025",
-      "BRA-5-CF-074",
-      "BRA-5-CE-075",
-      "BRA-5-CF-025",
-      "BRA-5-CF-075",
-      "BRA-5-CE-027",
-      "BRA-5-S-074",
-      "BRA-5-CF-027",
-      "BRA-5-S-025",
-      "BRA-5-S-075",
-      "BRA-5-S-027",
-      "BRA-5-GK-074",
-      "BRA-5-GK-025",
-      "BRA-5-GK-075",
-      "BRA-5-GK-027",
-      "BRA-5-NG-074",
-      "BRA-5-NG-025",
-      "BRA-5-NG-075",
-      "BRA-5-NG-027",
-      "BRA-5-GM-074",
-      "BRA-5-GM-025",
-      "BRA-5-GM-075",
-      "BRA-5-GM-027",
-      "BRA-5-GG-074",
-      "BRA-5-GG-025",
-      "BRA-5-GG-075",
-      "BRA-5-GG-027",
-      "BRA-5-CE-076",
-      "BRA-5-CE-028",
-      "BRA-5-CF-076",
-      "BRA-5-CE-030",
-      "BRA-5-CF-028",
-      "BRA-5-CE-077",
-      "BRA-5-CF-030",
-      "BRA-5-S-076",
-      "BRA-5-CF-077",
-      "BRA-5-S-028",
-      "BRA-5-S-030",
-      "BRA-5-S-077",
-      "BRA-5-GK-076",
-      "BRA-5-GK-028",
-      "BRA-5-GK-030",
-      "BRA-5-GK-077",
-      "BRA-5-NG-076",
-      "BRA-5-NG-028",
-      "BRA-5-NG-030",
-      "BRA-5-NG-077",
-      "BRA-5-GM-076",
-      "BRA-5-GM-028",
-      "BRA-5-GM-030",
-      "BRA-5-GM-077",
-      "BRA-5-GG-076",
-      "BRA-5-GG-028",
-      "BRA-5-GG-030",
-      "BRA-5-GG-077",
-      "BRA-5-CE-029",
-      "BRA-5-CE-031",
-      "BRA-5-CF-029",
-      "BRA-5-CF-031",
-      "BRA-5-S-029",
-      "BRA-5-S-031",
-      "BRA-5-GK-029",
-      "BRA-5-GK-031",
-      "BRA-5-NG-029",
-      "BRA-5-NG-031",
-      "BRA-5-GM-029",
-      "BRA-5-GM-031",
-      "BRA-5-GG-029",
-      "BRA-5-GG-031",
-      "BRA-5-CE-032",
-      "BRA-5-CE-034",
-      "BRA-5-CF-032",
-      "BRA-5-CF-034",
-      "BRA-5-S-032",
-      "BRA-5-S-034",
-      "BRA-5-GK-032",
-      "BRA-5-GK-034",
-      "BRA-5-NG-032",
-      "BRA-5-NG-034",
-      "BRA-5-GM-032",
-      "BRA-5-GM-034",
-      "BRA-5-GG-032",
-      "BRA-5-GG-034",
-      "BRA-5-CE-078",
-      "BRA-5-CE-033",
-      "BRA-5-CF-078",
-      "BRA-5-CF-033",
-      "BRA-5-CE-079",
-      "BRA-5-CE-035",
-      "BRA-5-CF-079",
-      "BRA-5-S-078",
-      "BRA-5-CF-035",
-      "BRA-5-S-033",
-      "BRA-5-S-079",
-      "BRA-5-S-035",
-      "BRA-5-GK-078",
-      "BRA-5-GK-033",
-      "BRA-5-GK-079",
-      "BRA-5-GK-035",
-      "BRA-5-NG-078",
-      "BRA-5-NG-033",
-      "BRA-5-NG-079",
-      "BRA-5-NG-035",
-      "BRA-5-GM-078",
-      "BRA-5-GM-033",
-      "BRA-5-GM-079",
-      "BRA-5-GM-035",
-      "BRA-5-GG-078",
-      "BRA-5-GG-033",
-      "BRA-5-GG-079",
-      "BRA-5-GG-035",
-      "BRA-5-CE-080",
-      "BRA-5-CF-080",
-      "BRA-5-CE-036",
-      "BRA-5-CE-081",
-      "BRA-5-CF-036",
-      "BRA-5-CE-038",
-      "BRA-5-S-080",
-      "BRA-5-S-036",
-      "BRA-5-S-081",
-      "BRA-5-CF-081",
-      "BRA-5-S-038",
-      "BRA-5-GK-080",
-      "BRA-5-CF-038",
-      "BRA-5-GK-036",
-      "BRA-5-GK-081",
-      "BRA-5-GK-038",
-      "BRA-5-NG-080",
-      "BRA-5-NG-036",
-      "BRA-5-NG-081",
-      "BRA-5-NG-038",
-      "BRA-5-GM-080",
-      "BRA-5-GM-036",
-      "BRA-5-GM-081",
-      "BRA-5-GM-038",
-      "BRA-5-GG-080",
-      "BRA-5-GG-036",
-      "BRA-5-GG-081",
-      "BRA-5-GG-038",
-      "BRA-5-CE-037",
-      "BRA-5-CE-039",
-      "BRA-5-S-037",
-      "BRA-5-S-039",
-      "BRA-5-GK-037",
-      "BRA-5-GK-039",
-      "BRA-5-NG-037",
-      "BRA-5-NG-039",
-      "BRA-5-GM-037",
-      "BRA-5-GM-039",
-      "BRA-5-GG-037",
-      "BRA-5-CF-039",
-      "BRA-5-CF-037",
-      "BRA-5-GG-039"
-    ],
-    "variants": []
-  },
-  {
-    "id": 9644,
-    "name": "Edition Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "edition-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9644",
-    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-Q77J",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-272.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-272.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-280.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-279.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-271.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-271.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-035.jpg"
           },
           {
             "value": "Mat zwart",
@@ -13130,153 +11947,625 @@ export const catalogProducts: CatalogProduct[] = [
             "image": null
           }
         ]
+      },
+      {
+        "key": "bediening",
+        "label": "Bediening",
+        "values": [
+          {
+            "value": "3-weg omstel",
+            "label": "3-weg omstel",
+            "image": null
+          },
+          {
+            "value": "Stopkranen",
+            "label": "Stopkranen",
+            "image": null
+          }
+        ]
       }
     ],
     "variantSkus": [
       "BRA-5-CE-267",
+      "BRA-5-CE-024",
+      "BRA-5-CE-160",
+      "BRA-5-CE-052",
       "BRA-5-CE-268",
+      "BRA-5-CE-161",
+      "BRA-5-CE-026",
+      "BRA-5-CE-053",
+      "BRA-5-S-024",
+      "BRA-5-S-160",
+      "BRA-5-CF-026",
       "BRA-5-S-267",
+      "BRA-5-S-052",
       "BRA-5-S-268",
+      "BRA-5-S-053",
+      "BRA-5-S-161",
+      "BRA-5-S-026",
+      "BRA-5-GK-024",
+      "BRA-5-GK-160",
       "BRA-5-GK-267",
+      "BRA-5-GK-052",
+      "BRA-5-GK-053",
+      "BRA-5-GK-161",
       "BRA-5-GK-268",
+      "BRA-5-GK-026",
       "BRA-5-NG-267",
+      "BRA-5-NG-160",
+      "BRA-5-NG-024",
+      "BRA-5-NG-052",
+      "BRA-5-NG-161",
+      "BRA-5-NG-026",
       "BRA-5-NG-268",
+      "BRA-5-NG-053",
+      "BRA-5-GM-160",
+      "BRA-5-GM-052",
       "BRA-5-GM-267",
+      "BRA-5-GM-024",
+      "BRA-5-CF-024",
+      "BRA-5-GM-161",
+      "BRA-5-GM-026",
       "BRA-5-GM-268",
+      "BRA-5-GM-053",
+      "BRA-5-GG-052",
+      "BRA-5-GG-160",
       "BRA-5-GG-267",
+      "BRA-5-GG-024",
+      "BRA-5-GG-026",
+      "BRA-5-GG-161",
+      "BRA-5-GG-053",
       "BRA-5-GG-268",
+      "BRA-5-CE-074",
+      "BRA-5-CE-162",
       "BRA-5-CE-269",
+      "BRA-5-CE-050",
+      "BRA-5-CE-164",
+      "BRA-5-CE-054",
       "BRA-5-CE-271",
+      "BRA-5-CE-025",
+      "BRA-5-CF-074",
+      "BRA-5-CE-075",
+      "BRA-5-CE-051",
+      "BRA-5-CF-025",
+      "BRA-5-CE-163",
       "BRA-5-CE-270",
+      "BRA-5-CE-027",
+      "BRA-5-CE-055",
+      "BRA-5-CE-165",
+      "BRA-5-CF-075",
       "BRA-5-CE-272",
+      "BRA-5-S-074",
+      "BRA-5-S-162",
       "BRA-5-S-269",
+      "BRA-5-S-050",
+      "BRA-5-CF-027",
+      "BRA-5-S-164",
       "BRA-5-S-271",
+      "BRA-5-S-054",
+      "BRA-5-S-025",
+      "BRA-5-S-075",
+      "BRA-5-S-163",
+      "BRA-5-S-051",
       "BRA-5-S-270",
       "BRA-5-S-272",
+      "BRA-5-S-027",
+      "BRA-5-S-165",
+      "BRA-5-S-055",
       "BRA-5-GK-269",
+      "BRA-5-GK-162",
+      "BRA-5-GK-050",
+      "BRA-5-GK-074",
+      "BRA-5-GK-054",
+      "BRA-5-GK-164",
       "BRA-5-GK-271",
+      "BRA-5-GK-025",
       "BRA-5-GK-270",
+      "BRA-5-GK-075",
+      "BRA-5-GK-051",
+      "BRA-5-GK-163",
+      "BRA-5-GK-055",
       "BRA-5-GK-272",
+      "BRA-5-GK-165",
+      "BRA-5-GK-027",
+      "BRA-5-NG-050",
+      "BRA-5-NG-074",
+      "BRA-5-NG-162",
       "BRA-5-NG-269",
+      "BRA-5-NG-054",
+      "BRA-5-NG-025",
+      "BRA-5-NG-164",
       "BRA-5-NG-271",
+      "BRA-5-NG-051",
+      "BRA-5-NG-163",
       "BRA-5-NG-270",
+      "BRA-5-NG-075",
+      "BRA-5-NG-055",
+      "BRA-5-NG-027",
+      "BRA-5-NG-165",
       "BRA-5-NG-272",
+      "BRA-5-GM-074",
+      "BRA-5-GM-050",
       "BRA-5-GM-269",
+      "BRA-5-GM-162",
+      "BRA-5-GM-164",
+      "BRA-5-GM-025",
+      "BRA-5-GM-054",
       "BRA-5-GM-271",
+      "BRA-5-GM-051",
+      "BRA-5-GM-163",
       "BRA-5-GM-270",
+      "BRA-5-GM-075",
+      "BRA-5-GM-027",
+      "BRA-5-GM-055",
       "BRA-5-GM-272",
+      "BRA-5-GM-165",
+      "BRA-5-GG-074",
+      "BRA-5-GG-050",
       "BRA-5-GG-269",
+      "BRA-5-GG-162",
       "BRA-5-GG-271",
+      "BRA-5-GG-054",
+      "BRA-5-GG-025",
+      "BRA-5-GG-164",
+      "BRA-5-GG-051",
+      "BRA-5-GG-163",
       "BRA-5-GG-270",
+      "BRA-5-GG-075",
       "BRA-5-GG-272",
+      "BRA-5-GG-055",
+      "BRA-5-GG-165",
+      "BRA-5-GG-027",
+      "BRA-5-CE-056",
+      "BRA-5-CE-076",
       "BRA-5-CE-275",
+      "BRA-5-CE-168",
+      "BRA-5-CE-166",
+      "BRA-5-CE-058",
+      "BRA-5-CF-076",
+      "BRA-5-CE-028",
       "BRA-5-CE-273",
+      "BRA-5-CE-059",
+      "BRA-5-CF-028",
+      "BRA-5-CE-167",
+      "BRA-5-CE-030",
       "BRA-5-CE-274",
+      "BRA-5-CE-169",
+      "BRA-5-CF-030",
       "BRA-5-CE-276",
+      "BRA-5-CE-057",
+      "BRA-5-CE-077",
+      "BRA-5-S-168",
+      "BRA-5-CF-077",
+      "BRA-5-S-056",
       "BRA-5-S-275",
+      "BRA-5-S-076",
+      "BRA-5-S-166",
+      "BRA-5-S-058",
       "BRA-5-S-273",
+      "BRA-5-S-028",
+      "BRA-5-S-059",
+      "BRA-5-S-030",
+      "BRA-5-S-167",
       "BRA-5-S-274",
+      "BRA-5-S-077",
       "BRA-5-S-276",
+      "BRA-5-S-057",
+      "BRA-5-S-169",
       "BRA-5-GK-275",
+      "BRA-5-GK-168",
+      "BRA-5-GK-056",
+      "BRA-5-GK-076",
+      "BRA-5-GK-028",
       "BRA-5-GK-273",
+      "BRA-5-GK-058",
+      "BRA-5-GK-166",
+      "BRA-5-GK-059",
       "BRA-5-GK-274",
+      "BRA-5-GK-167",
+      "BRA-5-GK-030",
+      "BRA-5-GK-169",
+      "BRA-5-GK-077",
+      "BRA-5-GK-057",
       "BRA-5-GK-276",
+      "BRA-5-NG-168",
+      "BRA-5-NG-056",
       "BRA-5-NG-275",
+      "BRA-5-NG-076",
+      "BRA-5-NG-028",
       "BRA-5-NG-273",
+      "BRA-5-NG-166",
+      "BRA-5-NG-058",
+      "BRA-5-NG-059",
+      "BRA-5-NG-167",
       "BRA-5-NG-274",
+      "BRA-5-NG-030",
+      "BRA-5-NG-077",
+      "BRA-5-NG-057",
       "BRA-5-NG-276",
+      "BRA-5-NG-169",
+      "BRA-5-GM-168",
+      "BRA-5-GM-056",
+      "BRA-5-GM-076",
       "BRA-5-GM-275",
       "BRA-5-GM-273",
+      "BRA-5-GM-028",
+      "BRA-5-GM-166",
+      "BRA-5-GM-058",
+      "BRA-5-GM-059",
       "BRA-5-GM-274",
+      "BRA-5-GM-167",
+      "BRA-5-GM-030",
       "BRA-5-GM-276",
+      "BRA-5-GM-057",
+      "BRA-5-GM-077",
+      "BRA-5-GM-169",
+      "BRA-5-GG-076",
+      "BRA-5-GG-168",
+      "BRA-5-GG-056",
       "BRA-5-GG-275",
       "BRA-5-GG-273",
+      "BRA-5-GG-058",
+      "BRA-5-GG-166",
+      "BRA-5-GG-028",
+      "BRA-5-GG-030",
+      "BRA-5-GG-059",
+      "BRA-5-GG-167",
       "BRA-5-GG-274",
+      "BRA-5-GG-057",
       "BRA-5-GG-276",
+      "BRA-5-GG-077",
+      "BRA-5-GG-169",
+      "BRA-5-CE-060",
+      "BRA-5-CE-029",
+      "BRA-5-CE-170",
       "BRA-5-CE-277",
+      "BRA-5-CE-171",
       "BRA-5-CE-278",
+      "BRA-5-CF-029",
+      "BRA-5-CE-061",
+      "BRA-5-CE-031",
       "BRA-5-S-277",
+      "BRA-5-CF-031",
+      "BRA-5-S-060",
+      "BRA-5-S-170",
+      "BRA-5-S-029",
+      "BRA-5-S-031",
+      "BRA-5-S-061",
+      "BRA-5-S-171",
       "BRA-5-S-278",
       "BRA-5-GK-277",
+      "BRA-5-GK-060",
+      "BRA-5-GK-029",
+      "BRA-5-GK-170",
+      "BRA-5-GK-031",
+      "BRA-5-GK-061",
+      "BRA-5-GK-171",
       "BRA-5-GK-278",
+      "BRA-5-NG-170",
+      "BRA-5-NG-029",
       "BRA-5-NG-277",
+      "BRA-5-NG-060",
+      "BRA-5-NG-171",
+      "BRA-5-NG-031",
       "BRA-5-NG-278",
+      "BRA-5-NG-061",
+      "BRA-5-GM-029",
+      "BRA-5-GM-060",
       "BRA-5-GM-277",
+      "BRA-5-GM-170",
+      "BRA-5-GM-061",
       "BRA-5-GM-278",
+      "BRA-5-GM-171",
+      "BRA-5-GM-031",
       "BRA-5-GG-277",
+      "BRA-5-GG-170",
+      "BRA-5-GG-060",
+      "BRA-5-GG-029",
+      "BRA-5-GG-031",
       "BRA-5-GG-278",
+      "BRA-5-GG-171",
+      "BRA-5-GG-061",
+      "BRA-5-CE-032",
       "BRA-5-CE-279",
+      "BRA-5-CE-172",
+      "BRA-5-CE-064",
+      "BRA-5-CE-173",
       "BRA-5-CE-280",
+      "BRA-5-CE-034",
+      "BRA-5-CF-032",
+      "BRA-5-CE-065",
+      "BRA-5-S-064",
+      "BRA-5-CF-034",
       "BRA-5-S-279",
+      "BRA-5-S-032",
+      "BRA-5-S-172",
+      "BRA-5-S-065",
+      "BRA-5-S-173",
       "BRA-5-S-280",
+      "BRA-5-S-034",
+      "BRA-5-GK-032",
+      "BRA-5-GK-064",
       "BRA-5-GK-279",
+      "BRA-5-GK-172",
+      "BRA-5-GK-034",
       "BRA-5-GK-280",
+      "BRA-5-GK-065",
+      "BRA-5-GK-173",
+      "BRA-5-NG-064",
+      "BRA-5-NG-032",
+      "BRA-5-NG-172",
       "BRA-5-NG-279",
+      "BRA-5-NG-034",
+      "BRA-5-NG-065",
+      "BRA-5-NG-173",
       "BRA-5-NG-280",
       "BRA-5-GM-279",
+      "BRA-5-GM-064",
+      "BRA-5-GM-032",
+      "BRA-5-GM-172",
       "BRA-5-GM-280",
+      "BRA-5-GM-173",
+      "BRA-5-GM-034",
+      "BRA-5-GM-065",
+      "BRA-5-GG-172",
+      "BRA-5-GG-032",
       "BRA-5-GG-279",
+      "BRA-5-GG-064",
+      "BRA-5-GG-173",
       "BRA-5-GG-280",
+      "BRA-5-GG-065",
+      "BRA-5-GG-034",
+      "BRA-5-CE-078",
       "BRA-5-CE-281",
+      "BRA-5-CE-062",
+      "BRA-5-CE-174",
+      "BRA-5-CF-078",
       "BRA-5-CE-283",
+      "BRA-5-CE-033",
+      "BRA-5-CE-176",
+      "BRA-5-CE-066",
       "BRA-5-CE-282",
+      "BRA-5-CE-063",
+      "BRA-5-CE-079",
+      "BRA-5-CF-033",
+      "BRA-5-CE-175",
       "BRA-5-CE-284",
+      "BRA-5-CE-177",
+      "BRA-5-CF-079",
+      "BRA-5-CE-035",
+      "BRA-5-CE-067",
+      "BRA-5-S-062",
+      "BRA-5-S-078",
+      "BRA-5-CF-035",
+      "BRA-5-S-174",
       "BRA-5-S-281",
+      "BRA-5-S-176",
+      "BRA-5-S-066",
       "BRA-5-S-283",
+      "BRA-5-S-033",
       "BRA-5-S-282",
+      "BRA-5-S-079",
+      "BRA-5-S-175",
+      "BRA-5-S-063",
       "BRA-5-S-284",
+      "BRA-5-S-035",
+      "BRA-5-S-067",
+      "BRA-5-S-177",
       "BRA-5-GK-281",
+      "BRA-5-GK-062",
+      "BRA-5-GK-078",
+      "BRA-5-GK-174",
+      "BRA-5-GK-066",
+      "BRA-5-GK-033",
       "BRA-5-GK-283",
+      "BRA-5-GK-176",
+      "BRA-5-GK-063",
+      "BRA-5-GK-175",
+      "BRA-5-GK-079",
       "BRA-5-GK-282",
       "BRA-5-GK-284",
+      "BRA-5-GK-177",
+      "BRA-5-GK-035",
+      "BRA-5-GK-067",
+      "BRA-5-NG-078",
       "BRA-5-NG-281",
+      "BRA-5-NG-062",
+      "BRA-5-NG-174",
       "BRA-5-NG-283",
+      "BRA-5-NG-066",
+      "BRA-5-NG-176",
+      "BRA-5-NG-033",
+      "BRA-5-NG-175",
       "BRA-5-NG-282",
+      "BRA-5-NG-063",
+      "BRA-5-NG-079",
+      "BRA-5-NG-177",
       "BRA-5-NG-284",
+      "BRA-5-NG-067",
+      "BRA-5-NG-035",
+      "BRA-5-GM-174",
+      "BRA-5-GM-062",
       "BRA-5-GM-281",
+      "BRA-5-GM-078",
+      "BRA-5-GM-066",
+      "BRA-5-GM-176",
+      "BRA-5-GM-033",
       "BRA-5-GM-283",
+      "BRA-5-GM-063",
+      "BRA-5-GM-175",
+      "BRA-5-GM-079",
       "BRA-5-GM-282",
+      "BRA-5-GM-177",
+      "BRA-5-GM-035",
       "BRA-5-GM-284",
+      "BRA-5-GM-067",
+      "BRA-5-GG-062",
+      "BRA-5-GG-078",
       "BRA-5-GG-281",
+      "BRA-5-GG-174",
       "BRA-5-GG-283",
+      "BRA-5-GG-176",
+      "BRA-5-GG-066",
+      "BRA-5-GG-033",
+      "BRA-5-GG-175",
       "BRA-5-GG-282",
+      "BRA-5-GG-063",
+      "BRA-5-GG-079",
+      "BRA-5-GG-067",
+      "BRA-5-GG-177",
+      "BRA-5-GG-035",
       "BRA-5-GG-284",
       "BRA-5-CE-287",
+      "BRA-5-CE-068",
+      "BRA-5-CE-180",
+      "BRA-5-CE-080",
+      "BRA-5-CE-036",
       "BRA-5-CE-285",
+      "BRA-5-CF-080",
+      "BRA-5-CE-178",
+      "BRA-5-CE-070",
+      "BRA-5-CF-036",
+      "BRA-5-CE-081",
+      "BRA-5-CE-071",
+      "BRA-5-CE-179",
       "BRA-5-CE-286",
       "BRA-5-CE-288",
+      "BRA-5-CE-069",
+      "BRA-5-CE-038",
+      "BRA-5-CE-181",
+      "BRA-5-S-180",
+      "BRA-5-S-080",
       "BRA-5-S-287",
+      "BRA-5-S-068",
       "BRA-5-S-285",
+      "BRA-5-S-178",
+      "BRA-5-S-036",
+      "BRA-5-S-070",
+      "BRA-5-S-179",
       "BRA-5-S-286",
+      "BRA-5-S-071",
+      "BRA-5-S-081",
+      "BRA-5-S-069",
+      "BRA-5-S-038",
+      "BRA-5-CF-081",
+      "BRA-5-S-181",
       "BRA-5-S-288",
       "BRA-5-GK-287",
+      "BRA-5-GK-068",
+      "BRA-5-CF-038",
+      "BRA-5-GK-180",
+      "BRA-5-GK-080",
+      "BRA-5-GK-070",
+      "BRA-5-GK-036",
+      "BRA-5-GK-178",
       "BRA-5-GK-285",
+      "BRA-5-GK-081",
+      "BRA-5-GK-071",
       "BRA-5-GK-286",
+      "BRA-5-GK-179",
       "BRA-5-GK-288",
+      "BRA-5-GK-181",
+      "BRA-5-GK-069",
+      "BRA-5-GK-038",
+      "BRA-5-NG-068",
+      "BRA-5-NG-080",
       "BRA-5-NG-287",
+      "BRA-5-NG-180",
       "BRA-5-NG-285",
+      "BRA-5-NG-178",
+      "BRA-5-NG-036",
+      "BRA-5-NG-070",
+      "BRA-5-NG-071",
+      "BRA-5-NG-179",
       "BRA-5-NG-286",
+      "BRA-5-NG-081",
+      "BRA-5-NG-069",
+      "BRA-5-NG-038",
       "BRA-5-NG-288",
+      "BRA-5-NG-181",
+      "BRA-5-GM-080",
+      "BRA-5-GM-180",
       "BRA-5-GM-287",
+      "BRA-5-GM-068",
       "BRA-5-GM-285",
+      "BRA-5-GM-178",
+      "BRA-5-GM-070",
+      "BRA-5-GM-036",
+      "BRA-5-GM-179",
+      "BRA-5-GM-071",
+      "BRA-5-GM-081",
       "BRA-5-GM-286",
+      "BRA-5-GM-069",
       "BRA-5-GM-288",
+      "BRA-5-GM-181",
+      "BRA-5-GM-038",
       "BRA-5-GG-287",
+      "BRA-5-GG-180",
+      "BRA-5-GG-080",
+      "BRA-5-GG-068",
+      "BRA-5-GG-178",
       "BRA-5-GG-285",
+      "BRA-5-GG-070",
+      "BRA-5-GG-036",
+      "BRA-5-GG-081",
       "BRA-5-GG-286",
+      "BRA-5-GG-179",
+      "BRA-5-GG-071",
       "BRA-5-GG-288",
+      "BRA-5-GG-181",
+      "BRA-5-GG-038",
+      "BRA-5-GG-069",
+      "BRA-5-CE-037",
       "BRA-5-CE-289",
+      "BRA-5-CE-182",
+      "BRA-5-CE-072",
+      "BRA-5-CE-039",
+      "BRA-5-CE-073",
+      "BRA-5-CE-183",
       "BRA-5-CE-290",
+      "BRA-5-S-072",
+      "BRA-5-S-037",
       "BRA-5-S-289",
+      "BRA-5-S-182",
+      "BRA-5-GG-183",
       "BRA-5-S-290",
+      "BRA-5-S-073",
+      "BRA-5-S-183",
+      "BRA-5-S-039",
+      "BRA-5-GK-037",
+      "BRA-5-GK-182",
       "BRA-5-GK-289",
+      "BRA-5-GK-072",
+      "BRA-5-GK-183",
+      "BRA-5-GK-039",
       "BRA-5-GK-290",
+      "BRA-5-GK-073",
+      "BRA-5-NG-072",
       "BRA-5-NG-289",
+      "BRA-5-NG-037",
+      "BRA-5-NG-182",
       "BRA-5-NG-290",
+      "BRA-5-NG-183",
+      "BRA-5-NG-039",
+      "BRA-5-NG-073",
+      "BRA-5-GM-182",
+      "BRA-5-GM-037",
       "BRA-5-GM-289",
+      "BRA-5-GM-072",
+      "BRA-5-GM-073",
+      "BRA-5-GM-183",
       "BRA-5-GM-290",
+      "BRA-5-GM-039",
+      "BRA-5-GG-182",
+      "BRA-5-GG-072",
+      "BRA-5-GG-037",
+      "BRA-5-CF-039",
       "BRA-5-GG-289",
-      "BRA-5-GG-290"
+      "BRA-5-GG-290",
+      "BRA-5-GG-073",
+      "BRA-5-CF-037",
+      "BRA-5-GG-039"
     ],
     "variants": []
   },
@@ -13289,7 +12578,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-232.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-233.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -13307,7 +12596,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-232.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-233.jpg"
           },
           {
             "value": "Coffee",
@@ -13317,17 +12606,17 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-231.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-233.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-231.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-233.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-230.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-233.jpg"
           },
           {
             "value": "Geborsteld RVS",
@@ -13337,7 +12626,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-231.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-233.jpg"
           }
         ]
       },
@@ -13379,8 +12668,8 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-5-CE-232",
       "BRA-5-CE-233",
       "BRA-5-CF-232",
-      "BRA-5-CF-233",
       "BRA-5-CE-231",
+      "BRA-5-CF-233",
       "BRA-5-S-230",
       "BRA-5-S-232",
       "BRA-5-S-233",
@@ -13441,12 +12730,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-236.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-235.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-236.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-235.jpg"
           },
           {
             "value": "Geborsteld koper",
@@ -13456,7 +12745,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-236.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-235.jpg"
           },
           {
             "value": "Mat zwart",
@@ -13508,7 +12797,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-239.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-240.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -13526,7 +12815,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-239.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-240.jpg"
           },
           {
             "value": "Coffee",
@@ -13536,7 +12825,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-239.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-240.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -13551,12 +12840,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-241.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-240.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-239.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-240.jpg"
           }
         ]
       },
@@ -13597,8 +12886,8 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-5-CE-239",
       "BRA-5-CE-240",
       "BRA-5-CE-241",
-      "BRA-5-CF-241",
       "BRA-5-CE-242",
+      "BRA-5-CF-241",
       "BRA-5-S-239",
       "BRA-5-CF-242",
       "BRA-5-CF-239",
@@ -13801,12 +13090,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-260.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-259.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-260.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-259.jpg"
           },
           {
             "value": "Mat zwart",
@@ -13892,7 +13181,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H160200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H120200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
@@ -13948,7 +13237,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -13966,7 +13255,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
@@ -13981,17 +13270,17 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200MZ.jpg"
           }
         ]
       },
@@ -14178,7 +13467,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GG.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GM.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -14201,27 +13490,27 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-221.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-221.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-221.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-221.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-221.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35MZ.jpg"
           }
         ]
       },
@@ -14424,7 +13713,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -14442,7 +13731,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011.jpg"
           },
           {
             "value": "Coffee",
@@ -14457,12 +13746,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-010.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-011.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-010.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-011.jpg"
           },
           {
             "value": "Geborsteld RVS",
@@ -14472,7 +13761,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-010.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-011.jpg"
           }
         ]
       },
@@ -14603,7 +13892,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-145.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-145.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -14865,12 +14154,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H12090200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H9090200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H12090200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H9090200NG.jpg"
           },
           {
             "value": "Mat zwart",
@@ -15223,7 +14512,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1H80140GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1B80140GM.jpg"
           },
           {
             "value": "Geborsteld koper",
@@ -15233,7 +14522,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1H80140NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1B80140NG.jpg"
           },
           {
             "value": "Mat zwart",
@@ -15307,12 +14596,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR90200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR120200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR90200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR120200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
@@ -15407,7 +14696,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR12030200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR10030200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -15422,12 +14711,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR12030200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR10030200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR12030200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR10030200MZ.jpg"
           }
         ]
       },
@@ -15512,17 +14801,17 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H80200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H60200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H120200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H60200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H110200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H60200NG.jpg"
           },
           {
             "value": "Mat zwart",
@@ -15695,7 +14984,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -15713,32 +15002,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B12030200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11040200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10030200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200MZ.jpg"
           }
         ]
       },
@@ -15994,7 +15283,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H90200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B90200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -16004,17 +15293,17 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H100200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B90200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H120200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B90200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B120200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B90200MZ.jpg"
           }
         ]
       },
@@ -16427,12 +15716,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H120200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H120200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
@@ -16442,12 +15731,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H120200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H100200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200MZ.jpg"
           }
         ]
       },
@@ -16515,7 +15804,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -16533,32 +15822,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16080200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10090200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14090200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200MZ.jpg"
           }
         ]
       },
@@ -16714,7 +16003,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003-S5.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003-R5.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -16732,17 +16021,17 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003-S5.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003-R5.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-003-S5.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-003-R5.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-003-S5.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-003-R5.jpg"
           },
           {
             "value": "Geborsteld koper",
@@ -16757,7 +16046,23 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-003-S5.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-003-R5.jpg"
+          }
+        ]
+      },
+      {
+        "key": "uitloop",
+        "label": "Uitloop",
+        "values": [
+          {
+            "value": "Plat",
+            "label": "Plat",
+            "image": null
+          },
+          {
+            "value": "Rond",
+            "label": "Rond",
+            "image": null
           }
         ]
       }
@@ -16954,17 +16259,17 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-332.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-329.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-331.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-329.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-334.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329.jpg"
           }
         ]
       },
@@ -17240,22 +16545,22 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-345.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-346.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-345.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-346.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-345.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-346.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-345.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-346.jpg"
           }
         ]
       },
@@ -17518,7 +16823,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-349.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-348.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -17536,32 +16841,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-349.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-348.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-349.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-348.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-349.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-348.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-349.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-348.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-349.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-348.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-348.jpg"
           }
         ]
       },
@@ -17690,7 +16995,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-363.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-358.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -17708,32 +17013,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-363.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-358.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-357.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-358.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-363.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-358.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-358.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-364.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-358.jpg"
           }
         ]
       },
@@ -17789,8 +17094,8 @@ export const catalogProducts: CatalogProduct[] = [
     "variantSkus": [
       "BRA-5-CE-357",
       "BRA-5-CE-359",
-      "BRA-5-CE-363",
       "BRA-5-CE-361",
+      "BRA-5-CE-363",
       "BRA-5-CE-358",
       "BRA-5-CE-360",
       "BRA-5-CE-364",
@@ -17803,34 +17108,34 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-5-S-360",
       "BRA-5-S-364",
       "BRA-5-S-362",
-      "BRA-5-GK-359",
       "BRA-5-GK-357",
-      "BRA-5-GK-361",
+      "BRA-5-GK-359",
       "BRA-5-GK-363",
-      "BRA-5-GK-358",
+      "BRA-5-GK-361",
       "BRA-5-GK-360",
-      "BRA-5-GK-362",
+      "BRA-5-GK-358",
       "BRA-5-GK-364",
+      "BRA-5-GK-362",
       "BRA-5-NG-357",
       "BRA-5-NG-359",
-      "BRA-5-NG-361",
       "BRA-5-NG-363",
+      "BRA-5-NG-361",
       "BRA-5-NG-360",
       "BRA-5-NG-358",
-      "BRA-5-NG-362",
       "BRA-5-NG-364",
+      "BRA-5-NG-362",
       "BRA-5-GM-357",
       "BRA-5-GM-359",
-      "BRA-5-GM-363",
       "BRA-5-GM-361",
-      "BRA-5-GM-360",
+      "BRA-5-GM-363",
       "BRA-5-GM-358",
+      "BRA-5-GM-360",
       "BRA-5-GM-364",
       "BRA-5-GM-362",
-      "BRA-5-GG-357",
       "BRA-5-GG-359",
-      "BRA-5-GG-361",
+      "BRA-5-GG-357",
       "BRA-5-GG-363",
+      "BRA-5-GG-361",
       "BRA-5-GG-358",
       "BRA-5-GG-360",
       "BRA-5-GG-362",
@@ -17839,15 +17144,15 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9706,
-    "name": "Stripe Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-3-weg-omstel-9706",
-    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-6Q9W",
+    "id": 9708,
+    "name": "Stripe Thermostatische inbouw regendouche",
+    "slug": "stripe-thermostatische-inbouw-regendouche-9708",
+    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-14LI",
     "short": null,
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-409.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-453.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -17865,22 +17170,22 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-409.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-453.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-407.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-405.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-407.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-405.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-391.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-453.jpg"
           },
           {
             "value": "Geborsteld RVS",
@@ -17890,7 +17195,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-395.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-381.jpg"
           }
         ]
       },
@@ -17950,635 +17255,293 @@ export const catalogProducts: CatalogProduct[] = [
     ],
     "variantSkus": [
       "BRA-5-CE-389",
-      "BRA-5-CE-391",
-      "BRA-5-CE-393",
-      "BRA-5-CE-395",
-      "BRA-5-S-389",
-      "BRA-5-S-391",
-      "BRA-5-S-393",
-      "BRA-5-S-395",
-      "BRA-5-GK-389",
-      "BRA-5-GK-391",
-      "BRA-5-GK-393",
-      "BRA-5-GK-395",
-      "BRA-5-NG-389",
-      "BRA-5-NG-391",
-      "BRA-5-NG-393",
-      "BRA-5-NG-395",
-      "BRA-5-GM-389",
-      "BRA-5-GM-391",
-      "BRA-5-GM-393",
-      "BRA-5-GM-395",
-      "BRA-5-GG-389",
-      "BRA-5-GG-391",
-      "BRA-5-GG-393",
-      "BRA-5-GG-395",
-      "BRA-5-CE-397",
-      "BRA-5-CE-399",
-      "BRA-5-CE-401",
-      "BRA-5-CE-403",
-      "BRA-5-S-397",
-      "BRA-5-S-399",
-      "BRA-5-S-401",
-      "BRA-5-S-403",
-      "BRA-5-GK-397",
-      "BRA-5-GK-399",
-      "BRA-5-GK-401",
-      "BRA-5-GK-403",
-      "BRA-5-NG-397",
-      "BRA-5-NG-399",
-      "BRA-5-NG-401",
-      "BRA-5-NG-403",
-      "BRA-5-GM-397",
-      "BRA-5-GM-399",
-      "BRA-5-GM-401",
-      "BRA-5-GM-403",
-      "BRA-5-GG-397",
-      "BRA-5-GG-399",
-      "BRA-5-GG-401",
-      "BRA-5-GG-403",
-      "BRA-5-CE-405",
-      "BRA-5-CE-407",
-      "BRA-5-CE-409",
-      "BRA-5-CE-411",
-      "BRA-5-S-405",
-      "BRA-5-S-407",
-      "BRA-5-S-409",
-      "BRA-5-S-411",
-      "BRA-5-GK-405",
-      "BRA-5-GK-407",
-      "BRA-5-GK-409",
-      "BRA-5-GK-411",
-      "BRA-5-NG-405",
-      "BRA-5-NG-407",
-      "BRA-5-NG-409",
-      "BRA-5-NG-411",
-      "BRA-5-GM-405",
-      "BRA-5-GM-407",
-      "BRA-5-GM-409",
-      "BRA-5-GM-411",
-      "BRA-5-GG-405",
-      "BRA-5-GG-407",
-      "BRA-5-GG-409",
-      "BRA-5-GG-411"
-    ],
-    "variants": []
-  },
-  {
-    "id": 9707,
-    "name": "Stripe Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-drukknoppen-9707",
-    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-706I",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-435.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-435.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-417.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-419.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-415.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-427.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-421.jpg"
-          }
-        ]
-      },
-      {
-        "key": "bevestiginghoofddouche",
-        "label": "Bevestiging hoofddouche",
-        "values": [
-          {
-            "value": "Gebogen wandarm",
-            "label": "Gebogen wandarm",
-            "image": null
-          },
-          {
-            "value": "Plafondbuis",
-            "label": "Plafondbuis",
-            "image": null
-          },
-          {
-            "value": "Rechte wandarm",
-            "label": "Rechte wandarm",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "glijstang",
-        "label": "Glijstang",
-        "values": [
-          {
-            "value": "Ja",
-            "label": "Ja",
-            "image": null
-          },
-          {
-            "value": "Nee",
-            "label": "Nee",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "handdouche",
-        "label": "Handdouche",
-        "values": [
-          {
-            "value": "3-standen",
-            "label": "3-standen",
-            "image": null
-          },
-          {
-            "value": "Staafmodel",
-            "label": "Staafmodel",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
-      "BRA-5-CE-413",
-      "BRA-5-CE-415",
-      "BRA-5-CE-417",
-      "BRA-5-CE-419",
-      "BRA-5-S-413",
-      "BRA-5-S-415",
-      "BRA-5-S-417",
-      "BRA-5-S-419",
-      "BRA-5-GK-413",
-      "BRA-5-GK-415",
-      "BRA-5-GK-417",
-      "BRA-5-GK-419",
-      "BRA-5-NG-413",
-      "BRA-5-NG-415",
-      "BRA-5-NG-417",
-      "BRA-5-NG-419",
-      "BRA-5-GM-413",
-      "BRA-5-GM-415",
-      "BRA-5-GM-417",
-      "BRA-5-GM-419",
-      "BRA-5-GG-413",
-      "BRA-5-GG-415",
-      "BRA-5-GG-417",
-      "BRA-5-GG-419",
-      "BRA-5-CE-421",
-      "BRA-5-CE-423",
-      "BRA-5-CE-425",
-      "BRA-5-CE-427",
-      "BRA-5-S-421",
-      "BRA-5-S-423",
-      "BRA-5-S-425",
-      "BRA-5-S-427",
-      "BRA-5-GK-421",
-      "BRA-5-GK-423",
-      "BRA-5-GK-425",
-      "BRA-5-GK-427",
-      "BRA-5-NG-421",
-      "BRA-5-NG-423",
-      "BRA-5-NG-425",
-      "BRA-5-NG-427",
-      "BRA-5-GM-421",
-      "BRA-5-GM-423",
-      "BRA-5-GM-425",
-      "BRA-5-GM-427",
-      "BRA-5-GG-421",
-      "BRA-5-GG-423",
-      "BRA-5-GG-425",
-      "BRA-5-GG-427",
-      "BRA-5-CE-429",
-      "BRA-5-CE-431",
-      "BRA-5-CE-433",
-      "BRA-5-CE-435",
-      "BRA-5-S-429",
-      "BRA-5-S-431",
-      "BRA-5-S-433",
-      "BRA-5-S-435",
-      "BRA-5-GK-429",
-      "BRA-5-GK-431",
-      "BRA-5-GK-433",
-      "BRA-5-GK-435",
-      "BRA-5-NG-429",
-      "BRA-5-NG-431",
-      "BRA-5-NG-433",
-      "BRA-5-NG-435",
-      "BRA-5-GM-429",
-      "BRA-5-GM-431",
-      "BRA-5-GM-433",
-      "BRA-5-GM-435",
-      "BRA-5-GG-429",
-      "BRA-5-GG-431",
-      "BRA-5-GG-433",
-      "BRA-5-GG-435"
-    ],
-    "variants": []
-  },
-  {
-    "id": 9708,
-    "name": "Stripe Thermostatische inbouw regendouche met stopkranen",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-stopkranen-9708",
-    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-14LI",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-377.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-377.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-371.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-367.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-369.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-377.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-377.jpg"
-          }
-        ]
-      },
-      {
-        "key": "bevestiginghoofddouche",
-        "label": "Bevestiging hoofddouche",
-        "values": [
-          {
-            "value": "Gebogen wandarm",
-            "label": "Gebogen wandarm",
-            "image": null
-          },
-          {
-            "value": "Plafondbuis",
-            "label": "Plafondbuis",
-            "image": null
-          },
-          {
-            "value": "Rechte wandarm",
-            "label": "Rechte wandarm",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "glijstang",
-        "label": "Glijstang",
-        "values": [
-          {
-            "value": "Ja",
-            "label": "Ja",
-            "image": null
-          },
-          {
-            "value": "Nee",
-            "label": "Nee",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "handdouche",
-        "label": "Handdouche",
-        "values": [
-          {
-            "value": "3-standen",
-            "label": "3-standen",
-            "image": null
-          },
-          {
-            "value": "Staafmodel",
-            "label": "Staafmodel",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
       "BRA-5-CE-365",
-      "BRA-5-CE-367",
-      "BRA-5-CE-369",
-      "BRA-5-CE-371",
-      "BRA-5-S-365",
-      "BRA-5-S-367",
-      "BRA-5-S-369",
-      "BRA-5-S-371",
-      "BRA-5-GK-365",
-      "BRA-5-GK-367",
-      "BRA-5-GK-369",
-      "BRA-5-GK-371",
-      "BRA-5-NG-365",
-      "BRA-5-NG-367",
-      "BRA-5-NG-369",
-      "BRA-5-NG-371",
-      "BRA-5-GM-365",
-      "BRA-5-GM-367",
-      "BRA-5-GM-369",
-      "BRA-5-GM-371",
-      "BRA-5-GG-365",
-      "BRA-5-GG-367",
-      "BRA-5-GG-369",
-      "BRA-5-GG-371",
-      "BRA-5-CE-373",
-      "BRA-5-CE-375",
-      "BRA-5-CE-377",
-      "BRA-5-CE-379",
-      "BRA-5-S-373",
-      "BRA-5-S-375",
-      "BRA-5-S-377",
-      "BRA-5-S-379",
-      "BRA-5-GK-373",
-      "BRA-5-GK-375",
-      "BRA-5-GK-377",
-      "BRA-5-GK-379",
-      "BRA-5-NG-373",
-      "BRA-5-NG-375",
-      "BRA-5-NG-377",
-      "BRA-5-NG-379",
-      "BRA-5-GM-373",
-      "BRA-5-GM-375",
-      "BRA-5-GM-377",
-      "BRA-5-GM-379",
-      "BRA-5-GG-373",
-      "BRA-5-GG-375",
-      "BRA-5-GG-377",
-      "BRA-5-GG-379",
-      "BRA-5-CE-381",
-      "BRA-5-CE-383",
-      "BRA-5-CE-385",
-      "BRA-5-CE-387",
-      "BRA-5-S-381",
-      "BRA-5-S-383",
-      "BRA-5-S-385",
-      "BRA-5-S-387",
-      "BRA-5-GK-381",
-      "BRA-5-GK-383",
-      "BRA-5-GK-385",
-      "BRA-5-GK-387",
-      "BRA-5-NG-381",
-      "BRA-5-NG-383",
-      "BRA-5-NG-385",
-      "BRA-5-NG-387",
-      "BRA-5-GM-381",
-      "BRA-5-GM-383",
-      "BRA-5-GM-385",
-      "BRA-5-GM-387",
-      "BRA-5-GG-381",
-      "BRA-5-GG-383",
-      "BRA-5-GG-385",
-      "BRA-5-GG-387"
-    ],
-    "variants": []
-  },
-  {
-    "id": 9709,
-    "name": "Stripe Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "stripe-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9709",
-    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-126Q",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-443.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-443.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-443.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-445.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-437.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-439.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-443.jpg"
-          }
-        ]
-      },
-      {
-        "key": "bevestiginghoofddouche",
-        "label": "Bevestiging hoofddouche",
-        "values": [
-          {
-            "value": "Gebogen wandarm",
-            "label": "Gebogen wandarm",
-            "image": null
-          },
-          {
-            "value": "Plafondbuis",
-            "label": "Plafondbuis",
-            "image": null
-          },
-          {
-            "value": "Rechte wandarm",
-            "label": "Rechte wandarm",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "glijstang",
-        "label": "Glijstang",
-        "values": [
-          {
-            "value": "Ja",
-            "label": "Ja",
-            "image": null
-          },
-          {
-            "value": "Nee",
-            "label": "Nee",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "handdouche",
-        "label": "Handdouche",
-        "values": [
-          {
-            "value": "3-standen",
-            "label": "3-standen",
-            "image": null
-          },
-          {
-            "value": "Staafmodel",
-            "label": "Staafmodel",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
+      "BRA-5-CE-413",
       "BRA-5-CE-437",
       "BRA-5-CE-439",
+      "BRA-5-CE-415",
+      "BRA-5-CE-391",
+      "BRA-5-CE-367",
       "BRA-5-CE-441",
+      "BRA-5-CE-393",
+      "BRA-5-CE-417",
+      "BRA-5-CE-369",
+      "BRA-5-CE-419",
+      "BRA-5-CE-395",
       "BRA-5-CE-443",
+      "BRA-5-CE-371",
+      "BRA-5-S-365",
+      "BRA-5-S-413",
       "BRA-5-S-437",
+      "BRA-5-S-389",
       "BRA-5-S-439",
+      "BRA-5-S-415",
+      "BRA-5-S-391",
+      "BRA-5-S-367",
+      "BRA-5-S-393",
+      "BRA-5-S-417",
       "BRA-5-S-441",
+      "BRA-5-S-369",
+      "BRA-5-S-395",
+      "BRA-5-S-371",
+      "BRA-5-S-419",
       "BRA-5-S-443",
+      "BRA-5-GK-413",
+      "BRA-5-GK-389",
       "BRA-5-GK-437",
+      "BRA-5-GK-365",
       "BRA-5-GK-439",
+      "BRA-5-GK-415",
+      "BRA-5-GK-391",
+      "BRA-5-GK-367",
+      "BRA-5-GK-369",
       "BRA-5-GK-441",
+      "BRA-5-GK-417",
+      "BRA-5-GK-393",
+      "BRA-5-GK-395",
+      "BRA-5-GK-371",
+      "BRA-5-GK-419",
       "BRA-5-GK-443",
+      "BRA-5-NG-365",
+      "BRA-5-NG-413",
+      "BRA-5-NG-389",
       "BRA-5-NG-437",
       "BRA-5-NG-439",
+      "BRA-5-NG-391",
+      "BRA-5-NG-415",
+      "BRA-5-NG-367",
+      "BRA-5-NG-393",
+      "BRA-5-NG-417",
+      "BRA-5-NG-369",
       "BRA-5-NG-441",
       "BRA-5-NG-443",
+      "BRA-5-NG-371",
+      "BRA-5-NG-395",
+      "BRA-5-NG-419",
+      "BRA-5-GM-365",
       "BRA-5-GM-437",
+      "BRA-5-GM-413",
+      "BRA-5-GM-389",
+      "BRA-5-GM-367",
       "BRA-5-GM-439",
+      "BRA-5-GM-415",
+      "BRA-5-GM-391",
+      "BRA-5-GM-417",
       "BRA-5-GM-441",
+      "BRA-5-GM-369",
+      "BRA-5-GM-393",
       "BRA-5-GM-443",
+      "BRA-5-GM-419",
+      "BRA-5-GM-371",
+      "BRA-5-GM-395",
+      "BRA-5-GG-365",
+      "BRA-5-GG-389",
       "BRA-5-GG-437",
+      "BRA-5-GG-413",
+      "BRA-5-GG-367",
       "BRA-5-GG-439",
+      "BRA-5-GG-415",
+      "BRA-5-GG-391",
+      "BRA-5-GG-417",
+      "BRA-5-GG-369",
       "BRA-5-GG-441",
+      "BRA-5-GG-393",
+      "BRA-5-GG-371",
+      "BRA-5-GG-419",
       "BRA-5-GG-443",
+      "BRA-5-GG-395",
       "BRA-5-CE-445",
+      "BRA-5-CE-397",
+      "BRA-5-CE-421",
+      "BRA-5-CE-373",
+      "BRA-5-CE-423",
+      "BRA-5-CE-399",
+      "BRA-5-CE-375",
       "BRA-5-CE-447",
       "BRA-5-CE-449",
+      "BRA-5-CE-401",
+      "BRA-5-CE-377",
+      "BRA-5-CE-425",
+      "BRA-5-CE-427",
+      "BRA-5-CE-379",
+      "BRA-5-CE-403",
       "BRA-5-CE-451",
+      "BRA-5-S-397",
       "BRA-5-S-445",
+      "BRA-5-S-373",
+      "BRA-5-S-421",
       "BRA-5-GG-451",
+      "BRA-5-S-399",
+      "BRA-5-S-423",
       "BRA-5-S-447",
+      "BRA-5-S-375",
       "BRA-5-S-449",
+      "BRA-5-S-425",
+      "BRA-5-S-401",
+      "BRA-5-S-377",
+      "BRA-5-S-403",
+      "BRA-5-S-427",
+      "BRA-5-S-379",
       "BRA-5-S-451",
+      "BRA-5-GK-373",
+      "BRA-5-GK-421",
+      "BRA-5-GK-397",
       "BRA-5-GK-445",
+      "BRA-5-GK-375",
       "BRA-5-GK-447",
+      "BRA-5-GK-423",
+      "BRA-5-GK-399",
       "BRA-5-GK-449",
+      "BRA-5-GK-377",
+      "BRA-5-GK-425",
+      "BRA-5-GK-401",
+      "BRA-5-GK-403",
+      "BRA-5-GK-427",
+      "BRA-5-GK-379",
       "BRA-5-GK-451",
+      "BRA-5-NG-397",
+      "BRA-5-NG-373",
       "BRA-5-NG-445",
+      "BRA-5-NG-421",
+      "BRA-5-NG-399",
+      "BRA-5-NG-375",
+      "BRA-5-NG-423",
       "BRA-5-NG-447",
+      "BRA-5-NG-377",
+      "BRA-5-NG-425",
       "BRA-5-NG-449",
+      "BRA-5-NG-401",
       "BRA-5-NG-451",
+      "BRA-5-NG-427",
+      "BRA-5-NG-379",
+      "BRA-5-NG-403",
+      "BRA-5-GM-421",
       "BRA-5-GM-445",
+      "BRA-5-GM-373",
+      "BRA-5-GM-397",
+      "BRA-5-GM-399",
       "BRA-5-GM-447",
+      "BRA-5-GM-423",
+      "BRA-5-GM-375",
       "BRA-5-GM-449",
+      "BRA-5-GM-401",
+      "BRA-5-GM-377",
+      "BRA-5-GM-425",
+      "BRA-5-GM-427",
+      "BRA-5-GM-403",
+      "BRA-5-GM-379",
       "BRA-5-GM-451",
       "BRA-5-GG-445",
+      "BRA-5-GG-421",
+      "BRA-5-GG-397",
+      "BRA-5-GG-373",
+      "BRA-5-GG-423",
+      "BRA-5-GG-375",
+      "BRA-5-GG-399",
       "BRA-5-GG-447",
       "BRA-5-GG-449",
+      "BRA-5-GG-401",
+      "BRA-5-GG-377",
+      "BRA-5-GG-425",
       "BRA-5-CE-453",
+      "BRA-5-GG-379",
+      "BRA-5-GG-427",
+      "BRA-5-GG-403",
+      "BRA-5-CE-381",
+      "BRA-5-CE-405",
       "BRA-5-CE-455",
+      "BRA-5-CE-429",
+      "BRA-5-CE-431",
       "BRA-5-CE-457",
+      "BRA-5-CE-383",
+      "BRA-5-CE-407",
+      "BRA-5-CE-409",
+      "BRA-5-CE-433",
+      "BRA-5-CE-385",
       "BRA-5-CE-459",
+      "BRA-5-CE-387",
       "BRA-5-S-453",
+      "BRA-5-CE-435",
+      "BRA-5-CE-411",
+      "BRA-5-S-381",
+      "BRA-5-S-405",
       "BRA-5-S-455",
+      "BRA-5-S-429",
       "BRA-5-S-457",
+      "BRA-5-S-431",
+      "BRA-5-S-383",
+      "BRA-5-S-407",
+      "BRA-5-S-433",
+      "BRA-5-S-409",
       "BRA-5-S-459",
+      "BRA-5-S-385",
       "BRA-5-GK-453",
+      "BRA-5-S-435",
+      "BRA-5-S-411",
+      "BRA-5-S-387",
+      "BRA-5-GK-429",
+      "BRA-5-GK-405",
+      "BRA-5-GK-381",
       "BRA-5-GK-455",
+      "BRA-5-GK-407",
       "BRA-5-GK-457",
+      "BRA-5-GK-431",
+      "BRA-5-GK-383",
+      "BRA-5-GK-385",
+      "BRA-5-GK-433",
+      "BRA-5-GK-409",
       "BRA-5-GK-459",
       "BRA-5-NG-453",
+      "BRA-5-GK-387",
+      "BRA-5-GK-435",
+      "BRA-5-GK-411",
+      "BRA-5-NG-429",
+      "BRA-5-NG-381",
       "BRA-5-NG-455",
+      "BRA-5-NG-405",
+      "BRA-5-NG-431",
+      "BRA-5-NG-383",
+      "BRA-5-NG-407",
       "BRA-5-NG-457",
+      "BRA-5-NG-433",
+      "BRA-5-NG-385",
+      "BRA-5-NG-409",
       "BRA-5-NG-459",
+      "BRA-5-NG-387",
+      "BRA-5-NG-411",
+      "BRA-5-NG-435",
       "BRA-5-GM-453",
+      "BRA-5-GM-381",
+      "BRA-5-GM-405",
+      "BRA-5-GM-429",
       "BRA-5-GM-455",
       "BRA-5-GM-457",
+      "BRA-5-GM-431",
+      "BRA-5-GM-407",
+      "BRA-5-GM-383",
+      "BRA-5-GM-385",
       "BRA-5-GM-459",
+      "BRA-5-GM-409",
+      "BRA-5-GM-433",
       "BRA-5-GG-453",
+      "BRA-5-GM-435",
+      "BRA-5-GM-387",
+      "BRA-5-GM-411",
+      "BRA-5-GG-381",
       "BRA-5-GG-455",
+      "BRA-5-GG-405",
+      "BRA-5-GG-429",
+      "BRA-5-GG-431",
+      "BRA-5-GG-383",
       "BRA-5-GG-457",
-      "BRA-5-GG-459"
+      "BRA-5-GG-407",
+      "BRA-5-GG-459",
+      "BRA-5-GG-409",
+      "BRA-5-GG-433",
+      "BRA-5-GG-385",
+      "BRA-5-GG-411",
+      "BRA-5-GG-387",
+      "BRA-5-GG-435"
     ],
     "variants": []
   },
@@ -18614,27 +17577,27 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-342.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-340.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-341.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-340.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-342.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-340.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-341.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-340.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-342.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-340.jpg"
           }
         ]
       },
@@ -18798,27 +17761,27 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-337.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-338.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-337.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-338.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-337.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-338.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-337.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-338.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-337.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-338.jpg"
           }
         ]
       },
@@ -19010,7 +17973,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H90200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H130200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -19028,32 +17991,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H90200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H130200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H70200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H130200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H120200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H130200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H60200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H130200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H50200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H130200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H80200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H130200MZ.jpg"
           }
         ]
       },
@@ -19220,7 +18183,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90140200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -19238,32 +18201,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90140200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80100200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90100200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80120200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90140200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90100200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200MZ.jpg"
           }
         ]
       },
@@ -19397,7 +18360,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6050200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -19415,32 +18378,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6050200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70130200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6060200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70120200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7090200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6060200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200MZ.jpg"
           }
         ]
       },
@@ -19574,7 +18537,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6060200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -19592,32 +18555,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6060200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70130200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7080200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7080200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70120200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6040200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200MZ.jpg"
           }
         ]
       },
@@ -19773,7 +18736,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H9090200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -19791,12 +18754,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H9090200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H8080200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -19811,12 +18774,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H9090200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H8080200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200MZ.jpg"
           }
         ]
       },
@@ -19973,12 +18936,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6060200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7080200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70100200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7080200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
@@ -19988,12 +18951,12 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6050200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7080200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6050200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7080200MZ.jpg"
           }
         ]
       },
@@ -20127,7 +19090,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70100200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -20145,32 +19108,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70100200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6070200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70130200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70100200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6040200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70120200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200MZ.jpg"
           }
         ]
       },
@@ -20349,27 +19312,27 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H80200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H70200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H70200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H100200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H100200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200MZ.jpg"
           }
         ]
       },
@@ -20515,7 +19478,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H60200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -20533,7 +19496,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H60200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
@@ -20543,22 +19506,22 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H80200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H90200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H90200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H100200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200MZ.jpg"
           }
         ]
       },
@@ -20660,7 +19623,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H60200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H80200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -20670,17 +19633,17 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H70200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H80200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H90200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H80200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H90200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H80200MZ.jpg"
           }
         ]
       },
@@ -20759,7 +19722,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200CE.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200CE.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -20777,32 +19740,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200CE.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200CE.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13040200GG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200GG.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GM.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12040200GM.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200GK.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12040200GK.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200NG.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200NG.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200MZ.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12040200MZ.jpg"
           }
         ]
       },
@@ -20844,15 +19807,15 @@ export const catalogProducts: CatalogProduct[] = [
       }
     ],
     "variantSkus": [
-      "BRA-GS-VOI2H10030200GG",
       "BRA-GS-VOI2H9030200CE",
       "BRA-GS-VOI2H10040200GG",
+      "BRA-GS-VOI2H10030200GG",
       "BRA-GS-VOI2H10040200GK",
-      "BRA-GS-VOI2H10030200GK",
       "BRA-GS-VOI2H10030200CE",
+      "BRA-GS-VOI2H10030200GK",
+      "BRA-GS-VOI2H9040200GG",
       "BRA-GS-VOI2H9030200GG",
       "BRA-GS-VOI2H11030200CE",
-      "BRA-GS-VOI2H9040200GG",
       "BRA-GS-VOI2H12030200CE",
       "BRA-GS-VOI2H13030200CE",
       "BRA-GS-VOI2H14030200CE",

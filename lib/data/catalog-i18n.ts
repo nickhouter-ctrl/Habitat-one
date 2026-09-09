@@ -178,6 +178,101 @@ export function term(tekst: string | null | undefined, locale: string): string {
 export function productName(naam: string, locale: string): string {
   if (locale === "nl") return naam;
   const m = naam.match(/^(Edition|Carving|Stripe|Frame)\s+(.*)$/);
-  if (!m) return term(naam, locale);
-  return `${m[1]} ${term(m[2], locale)}`;
+  if (!m) return TERMEN[naam]?.[locale as Loc] ?? vertaalZin(naam, locale as Loc);
+  return `${m[1]} ${TERMEN[m[2]]?.[locale as Loc] ?? vertaalZin(m[2], locale as Loc)}`;
+}
+
+/*
+ * Terugval voor namen die niet letterlijk in het woordenboek staan: de naam
+ * wordt zinsdeel voor zinsdeel vertaald (langste zinsdeel eerst). Eigennamen
+ * van series (Void, Orion, Edition …) en getallen blijven staan. Zo krijgt ook
+ * een product dat later uit een prijslijst komt meteen een leesbare naam.
+ */
+type Zin = Partial<Record<Loc, string>>;
+const WOORDEN: Array<[string, Zin]> = [
+  ["thermostatische inbouw regendouche", { en: "thermostatic concealed rain shower", de: "Thermostat-Unterputz-Regendusche", es: "ducha de lluvia empotrada termostática", fr: "douche de pluie encastrée thermostatique", zh: "恒温暗装雨淋花洒" }],
+  ["thermostatische opbouw regendouche", { en: "thermostatic exposed rain shower", de: "Thermostat-Aufputz-Regendusche", es: "ducha de lluvia vista termostática", fr: "douche de pluie apparente thermostatique", zh: "恒温明装雨淋花洒" }],
+  ["opbouw thermostatische regendouche", { en: "exposed thermostatic rain shower", de: "Aufputz-Thermostat-Regendusche", es: "ducha de lluvia vista termostática", fr: "douche de pluie apparente thermostatique", zh: "明装恒温雨淋花洒" }],
+  ["thermostatische inbouw badkraan", { en: "thermostatic concealed bath mixer", de: "Thermostat-Unterputz-Wannenarmatur", es: "grifo de bañera empotrado termostático", fr: "mitigeur bain encastré thermostatique", zh: "恒温暗装浴缸龙头" }],
+  ["thermostatische opbouw badkraan", { en: "thermostatic exposed bath mixer", de: "Thermostat-Aufputz-Wannenarmatur", es: "grifo de bañera visto termostático", fr: "mitigeur bain apparent thermostatique", zh: "恒温明装浴缸龙头" }],
+  ["thermostatische opbouw douchekraan", { en: "thermostatic exposed shower mixer", de: "Thermostat-Aufputz-Brausearmatur", es: "grifo de ducha visto termostático", fr: "mitigeur douche apparent thermostatique", zh: "恒温明装淋浴龙头" }],
+  ["opbouw baddouche thermostaatkraan", { en: "exposed bath/shower thermostat", de: "Aufputz-Wannen-/Brausethermostat", es: "termostato visto baño/ducha", fr: "thermostat bain/douche apparent", zh: "明装浴缸淋浴恒温龙头" }],
+  ["opbouw douche thermostaatkraan", { en: "exposed shower thermostat", de: "Aufputz-Brausethermostat", es: "termostato de ducha visto", fr: "thermostat douche apparent", zh: "明装淋浴恒温龙头" }],
+  ["inbouw thermostaten met stopkranen", { en: "concealed thermostats with stop valves", de: "Unterputz-Thermostate mit Absperrventilen", es: "termostatos empotrados con llaves de paso", fr: "thermostats encastrés avec robinets d'arrêt", zh: "带截止阀的暗装恒温阀" }],
+  ["hoge opbouw wastafelmengkranen", { en: "high basin mixers", de: "Hohe Waschtischarmaturen", es: "grifos de lavabo altos", fr: "mitigeurs de lavabo hauts", zh: "高款面盆龙头" }],
+  ["hoge opbouw wastafelmengkraan", { en: "high basin mixer", de: "Hohe Waschtischarmatur", es: "grifo de lavabo alto", fr: "mitigeur de lavabo haut", zh: "高款面盆龙头" }],
+  ["lage opbouw wastafelmengkraan", { en: "low basin mixer", de: "Niedrige Waschtischarmatur", es: "grifo de lavabo bajo", fr: "mitigeur de lavabo bas", zh: "低款面盆龙头" }],
+  ["verhoogde opbouw wastafelmengkraan", { en: "raised basin mixer", de: "Erhöhte Waschtischarmatur", es: "grifo de lavabo elevado", fr: "mitigeur de lavabo rehaussé", zh: "加高面盆龙头" }],
+  ["inbouw wastafelmengkraan", { en: "wall-mounted basin mixer", de: "Unterputz-Waschtischarmatur", es: "grifo de lavabo empotrado", fr: "mitigeur de lavabo encastré", zh: "暗装面盆龙头" }],
+  ["vrijstaande badmengkraan", { en: "freestanding bath mixer", de: "Freistehende Wannenarmatur", es: "grifo de bañera de pie", fr: "mitigeur bain sur pied", zh: "落地浴缸龙头" }],
+  ["inbouw fonteinkraan met inkortbare uitloop", { en: "wall-mounted cloakroom tap with shortenable spout", de: "Unterputz-Handwaschbeckenarmatur mit kürzbarem Auslauf", es: "grifo de aseo empotrado con caño recortable", fr: "robinet lave-mains encastré à bec recoupable", zh: "可截短出水嘴暗装小盆龙头" }],
+  ["inbouw fonteinkraan inkortbaar", { en: "wall-mounted cloakroom tap, shortenable", de: "Unterputz-Handwaschbeckenarmatur, kürzbar", es: "grifo de aseo empotrado recortable", fr: "robinet lave-mains encastré recoupable", zh: "可截短暗装小盆龙头" }],
+  ["opbouw fonteinkraan met gebogen uitloop", { en: "cloakroom tap with curved spout", de: "Handwaschbeckenarmatur mit gebogenem Auslauf", es: "grifo de aseo con caño curvo", fr: "robinet lave-mains à bec courbé", zh: "弯管小盆龙头" }],
+  ["opbouw fonteinkraan", { en: "cloakroom tap", de: "Handwaschbeckenarmatur", es: "grifo de aseo", fr: "robinet lave-mains", zh: "小盆龙头" }],
+  ["met 3-weg omstel", { en: "with 3-way diverter", de: "mit 3-Wege-Umsteller", es: "con inversor de 3 vías", fr: "avec inverseur 3 voies", zh: "带三路分水" }],
+  ["met drukknoppen", { en: "with push buttons", de: "mit Drucktasten", es: "con pulsadores", fr: "à boutons-poussoirs", zh: "按键式" }],
+  ["met stopkranen", { en: "with stop valves", de: "mit Absperrventilen", es: "con llaves de paso", fr: "avec robinets d'arrêt", zh: "带截止阀" }],
+  ["multifunctioneel rooster en flens voor wandmontage", { en: "multifunctional grate and flange, wall mounting", de: "Multifunktionsrost und Flansch, Wandmontage", es: "rejilla multifuncional y brida, montaje en pared", fr: "grille multifonction et bride, pose murale", zh: "多功能盖板与法兰（靠墙）" }],
+  ["multifunctioneel rooster en flens", { en: "multifunctional grate and flange", de: "Multifunktionsrost und Flansch", es: "rejilla multifuncional y brida", fr: "grille multifonction et bride", zh: "多功能盖板与法兰" }],
+  ["standaard rooster en flens voor wandmontage", { en: "standard grate and flange, wall mounting", de: "Standardrost und Flansch, Wandmontage", es: "rejilla estándar y brida, montaje en pared", fr: "grille standard et bride, pose murale", zh: "标准盖板与法兰（靠墙）" }],
+  ["standaard rooster en flens", { en: "standard grate and flange", de: "Standardrost und Flansch", es: "rejilla estándar y brida", fr: "grille standard et bride", zh: "标准盖板与法兰" }],
+  ["tegelinlegrooster en flens", { en: "tile-insert grate and flange", de: "Fliesenrost und Flansch", es: "rejilla para azulejo y brida", fr: "grille à carreler et bride", zh: "嵌瓷砖盖板与法兰" }],
+  ["glijstang met geïntegreerde wateruitlaat", { en: "slide rail with integrated water outlet", de: "Brausestange mit integriertem Wasseranschluss", es: "barra deslizante con toma de agua integrada", fr: "barre de douche avec sortie d'eau intégrée", zh: "带出水口滑杆" }],
+  ["opbouwnis met verborgen opbergruimte", { en: "surface-mounted niche with hidden storage", de: "Aufputznische mit verstecktem Stauraum", es: "hornacina de superficie con espacio oculto", fr: "niche en saillie avec rangement caché", zh: "带隐藏收纳的明装壁龛" }],
+  ["zeepdispenser en beker model a incl. wand ophanging en magnetisch opzetvlak", { en: "soap dispenser and cup, model A, incl. wall mount and magnetic base", de: "Seifenspender und Becher Modell A inkl. Wandhalter und Magnetfläche", es: "dispensador de jabón y vaso modelo A con soporte de pared y base magnética", fr: "distributeur de savon et gobelet modèle A avec fixation murale et base magnétique", zh: "皂液器与杯 A 型（含壁挂与磁吸底座）" }],
+  ["altijd open waste", { en: "always-open waste", de: "Immer-offen-Ablaufventil", es: "válvula siempre abierta", fr: "bonde toujours ouverte", zh: "常开下水器" }],
+  ["design sifon compact", { en: "design trap, compact", de: "Design-Siphon kompakt", es: "sifón de diseño compacto", fr: "siphon design compact", zh: "紧凑型设计存水弯" }],
+  ["design sifon", { en: "design trap", de: "Design-Siphon", es: "sifón de diseño", fr: "siphon design", zh: "设计存水弯" }],
+  ["2-delig met schuifdeur", { en: "2-part with sliding door", de: "2-teilig mit Schiebetür", es: "2 piezas con puerta corredera", fr: "2 parties avec porte coulissante", zh: "两件套推拉门" }],
+  ["3-delig met schuifdeur", { en: "3-part with sliding door", de: "3-teilig mit Schiebetür", es: "3 piezas con puerta corredera", fr: "3 parties avec porte coulissante", zh: "三件套推拉门" }],
+  ["2-delig met draaideur op glas", { en: "2-part with pivot door on glass", de: "2-teilig mit Drehtür an Glas", es: "2 piezas con puerta abatible sobre vidrio", fr: "2 parties avec porte pivotante sur verre", zh: "两件套玻璃侧转门" }],
+  ["2-delig met draaideur op muur", { en: "2-part with pivot door on wall", de: "2-teilig mit Drehtür an Wand", es: "2 piezas con puerta abatible a pared", fr: "2 parties avec porte pivotante au mur", zh: "两件套靠墙转门" }],
+  ["2-delig met draaideur", { en: "2-part with pivot door", de: "2-teilig mit Drehtür", es: "2 piezas con puerta abatible", fr: "2 parties avec porte pivotante", zh: "两件套转门" }],
+  ["3-delig met draaideur", { en: "3-part with pivot door", de: "3-teilig mit Drehtür", es: "3 piezas con puerta abatible", fr: "3 parties avec porte pivotante", zh: "三件套转门" }],
+  ["2-delig en 3-delig met draai-schuifdeur", { en: "2- and 3-part with pivot-sliding door", de: "2- und 3-teilig mit Dreh-Schiebetür", es: "2 y 3 piezas con puerta pivotante-corredera", fr: "2 et 3 parties avec porte pivotante-coulissante", zh: "两件/三件套旋转推拉门" }],
+  ["nisdeur 2-delig naar binnen draaiend", { en: "alcove door, 2-part, inward opening", de: "Nischentür 2-teilig nach innen öffnend", es: "puerta de hornacina 2 piezas abatible hacia dentro", fr: "porte de niche 2 parties ouvrant vers l'intérieur", zh: "壁龛两件套内开门" }],
+  ["nisdeur naar binnen draaiend", { en: "alcove door, inward opening", de: "Nischentür nach innen öffnend", es: "puerta de hornacina abatible hacia dentro", fr: "porte de niche ouvrant vers l'intérieur", zh: "壁龛内开门" }],
+  ["met pendeldeuren", { en: "with swing doors", de: "mit Pendeltüren", es: "con puertas batientes", fr: "avec portes battantes", zh: "带双向摆门" }],
+  ["met draaideur", { en: "with pivot door", de: "mit Drehtür", es: "con puerta abatible", fr: "avec porte pivotante", zh: "带转门" }],
+  ["met zijwand", { en: "with side panel", de: "mit Seitenwand", es: "con panel lateral", fr: "avec paroi latérale", zh: "带侧板" }],
+  ["badwand brons glas", { en: "bath screen, bronze glass", de: "Badewannenaufsatz Bronzeglas", es: "mampara de bañera vidrio bronce", fr: "pare-baignoire verre bronze", zh: "浴缸屏（茶色玻璃）" }],
+  ["inloopdouche", { en: "walk-in shower", de: "Walk-in-Dusche", es: "ducha walk-in", fr: "douche à l'italienne", zh: "步入式淋浴" }],
+  ["douchegoten small", { en: "shower drains, small", de: "Duschrinnen Small", es: "canaletas Small", fr: "caniveaux Small", zh: "小号淋浴地漏" }],
+  ["douchegoten xs", { en: "shower drains, XS", de: "Duschrinnen XS", es: "canaletas XS", fr: "caniveaux XS", zh: "特小号淋浴地漏" }],
+  ["douchegoot met", { en: "shower drain with", de: "Duschrinne mit", es: "canaleta de ducha con", fr: "caniveau de douche avec", zh: "淋浴地漏，" }],
+  ["douchegoten", { en: "shower drains", de: "Duschrinnen", es: "canaletas de ducha", fr: "caniveaux de douche", zh: "淋浴地漏" }],
+  ["douchebak", { en: "shower tray", de: "Duschwanne", es: "plato de ducha", fr: "receveur de douche", zh: "淋浴盆" }],
+  ["douchepaneel", { en: "shower panel", de: "Duschpaneel", es: "panel de ducha", fr: "colonne de douche", zh: "淋浴屏" }],
+  ["regendouchekop", { en: "rain shower head", de: "Regenbrausekopf", es: "rociador de lluvia", fr: "pomme de douche pluie", zh: "雨淋顶喷" }],
+  ["doucherek", { en: "shower rack", de: "Duschablage", es: "estante de ducha", fr: "étagère de douche", zh: "淋浴置物架" }],
+  ["glijstang", { en: "slide rail", de: "Brausestange", es: "barra deslizante", fr: "barre de douche", zh: "滑杆" }],
+  ["handdouche", { en: "hand shower", de: "Handbrause", es: "ducha de mano", fr: "douchette", zh: "手持花洒" }],
+  ["handdoekbeugel model b", { en: "towel bar, model B", de: "Handtuchhalter Modell B", es: "toallero modelo B", fr: "porte-serviettes modèle B", zh: "毛巾杆 B 型" }],
+  ["handdoekhaak", { en: "towel hook", de: "Handtuchhaken", es: "gancho para toallas", fr: "crochet porte-serviette", zh: "毛巾钩" }],
+  ["handdoekrek", { en: "towel rack", de: "Handtuchablage", es: "toallero", fr: "porte-serviettes", zh: "毛巾架" }],
+  ["inbouwnis", { en: "recessed niche", de: "Einbaunische", es: "hornacina empotrada", fr: "niche encastrée", zh: "嵌入式壁龛" }],
+  ["klikwaste", { en: "click waste", de: "Klick-Ablaufventil", es: "válvula click-clack", fr: "bonde clic-clac", zh: "按压式下水器" }],
+  ["muurarm gebogen", { en: "wall arm, curved", de: "Wandarm gebogen", es: "brazo de pared curvo", fr: "bras mural courbé", zh: "弯式墙臂" }],
+  ["muurarm recht", { en: "wall arm, straight", de: "Wandarm gerade", es: "brazo de pared recto", fr: "bras mural droit", zh: "直式墙臂" }],
+  ["plafondarm", { en: "ceiling arm", de: "Deckenarm", es: "brazo de techo", fr: "bras plafond", zh: "顶臂" }],
+  ["overloopring", { en: "overflow ring", de: "Überlaufring", es: "aro de rebosadero", fr: "rosace de trop-plein", zh: "溢流环" }],
+  ["pedaalemmer", { en: "pedal bin", de: "Treteimer", es: "cubo con pedal", fr: "poubelle à pédale", zh: "脚踏垃圾桶" }],
+  ["toiletborstelset", { en: "toilet brush set", de: "WC-Bürstengarnitur", es: "escobillero", fr: "brosse WC", zh: "马桶刷套装" }],
+  ["toiletrolhouder", { en: "toilet roll holder", de: "Toilettenpapierhalter", es: "portarrollos", fr: "dérouleur papier WC", zh: "卷纸架" }],
+  ["3-in-1 set", { en: "3-in-1 set", de: "3-in-1-Set", es: "set 3 en 1", fr: "set 3-en-1", zh: "三合一套装" }],
+  ["thermostaten", { en: "thermostats", de: "Thermostate", es: "termostatos", fr: "thermostats", zh: "恒温阀" }],
+  ["rond", { en: "round", de: "rund", es: "redondo", fr: "rond", zh: "圆形" }],
+  ["met", { en: "with", de: "mit", es: "con", fr: "avec", zh: "带" }],
+  ["en", { en: "and", de: "und", es: "y", fr: "et", zh: "和" }],
+];
+const WOORDEN_SORTED = [...WOORDEN].sort((a, b) => b[0].length - a[0].length);
+
+export function vertaalZin(naam: string, locale: Loc): string {
+  let t = ` ${naam} `;
+  for (const [nl, v] of WOORDEN_SORTED) {
+    const re = new RegExp(`(?<![\\p{L}\\d-])${nl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\p{L}\\d-])`, "giu");
+    t = t.replace(re, ` ${v[locale] ?? nl} `);
+  }
+  t = t.replace(/\s+/g, " ").trim();
+  return t ? t[0].toUpperCase() + t.slice(1) : naam;
 }
