@@ -122,17 +122,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
   ],
   "9579": [
     {
-      "sku": "BRA-AE-SFWQ1",
-      "options": {},
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1_4.jpg"
-      ]
-    },
-    {
       "sku": "BRA-AE-AR1MZ",
       "options": {
         "kleur": "Mat zwart"
@@ -195,7 +184,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1MW_1.jpg",
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1MW_2.jpg"
       ]
-    },
+    }
+  ],
+  "9580": [
     {
       "sku": "BRA-DB-AS8080MW",
       "options": {},
@@ -647,7 +638,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9580": [
+  "9581": [
     {
       "sku": "BRA-5-CE-318",
       "options": {
@@ -775,7 +766,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9581": [
+  "9582": [
     {
       "sku": "BRA-5-CE-003-R4",
       "options": {
@@ -909,7 +900,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9582": [
+  "9583": [
     {
       "sku": "BRA-5-CE-264",
       "options": {
@@ -977,151 +968,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9583": [
-    {
-      "sku": "BRA-5-CE-004-B6-65",
-      "options": {
-        "kleur": "Chroom"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-CE-004-B6",
-      "options": {
-        "kleur": "Chroom"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-S-004-B6-65",
-      "options": {
-        "kleur": "Mat zwart"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-S-004-B6",
-      "options": {
-        "kleur": "Mat zwart"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GK-004-B6-65",
-      "options": {
-        "kleur": "Geborsteld koper"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GK-004-B6",
-      "options": {
-        "kleur": "Geborsteld koper"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-NG-004-B6-65",
-      "options": {
-        "kleur": "Geborsteld RVS"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6-65_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6-65_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-NG-004-B6",
-      "options": {
-        "kleur": "Geborsteld RVS"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GM-004-B6-65",
-      "options": {
-        "kleur": "Geborsteld gunmetal"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6-65_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6-65_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GM-004-B6",
-      "options": {
-        "kleur": "Geborsteld gunmetal"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GG-004-B6-65",
-      "options": {
-        "kleur": "Geborsteld goud"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_3.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GG-004-B6",
-      "options": {
-        "kleur": "Geborsteld goud"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6_3.jpg"
-      ]
-    },
+  "9584": [
     {
       "sku": "BRA-5-CE-083-B6-65",
       "options": {
@@ -1267,7 +1114,153 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9584": [
+  "9585": [
+    {
+      "sku": "BRA-5-CE-004-B6-65",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-CE-004-B6",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-S-004-B6-65",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-S-004-B6",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-GK-004-B6-65",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-GK-004-B6",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-NG-004-B6-65",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6-65_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6-65_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-NG-004-B6",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-GM-004-B6-65",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6-65_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6-65_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-GM-004-B6",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-GG-004-B6-65",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_3.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-GG-004-B6",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6_3.jpg"
+      ]
+    }
+  ],
+  "9586": [
     {
       "sku": "BRA-5-CE-004-S6",
       "options": {
@@ -1557,7 +1550,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9585": [
+  "9587": [
     {
       "sku": "BRA-5-CE-001-HD6",
       "options": {
@@ -1625,7 +1618,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9586": [
+  "9588": [
     {
       "sku": "BRA-5-CE-321",
       "options": {
@@ -1693,7 +1686,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9587": [
+  "9589": [
     {
       "sku": "BRA-5-CE-229",
       "options": {
@@ -1811,7 +1804,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9588": [
+  "9590": [
     {
       "sku": "BRA-5-CE-095",
       "options": {
@@ -2221,7 +2214,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9589": [
+  "9591": [
     {
       "sku": "BRA-5-CE-093",
       "options": {
@@ -2631,7 +2624,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9590": [
+  "9592": [
     {
       "sku": "BRA-5-CE-121",
       "options": {
@@ -5657,7 +5650,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9591": [
+  "9593": [
     {
       "sku": "BRA-5-CE-184",
       "options": {
@@ -8683,7 +8676,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9592": [
+  "9594": [
     {
       "sku": "BRA-5-CE-097",
       "options": {
@@ -11709,7 +11702,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9593": [
+  "9595": [
     {
       "sku": "BRA-5-CE-291",
       "options": {
@@ -14735,7 +14728,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9594": [
+  "9596": [
     {
       "sku": "BRA-5-CE-244",
       "options": {
@@ -15145,7 +15138,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9595": [
+  "9597": [
     {
       "sku": "BRA-5-CE-249",
       "options": {
@@ -15351,7 +15344,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9596": [
+  "9598": [
     {
       "sku": "BRA-5-CE-253",
       "options": {
@@ -15784,7 +15777,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9597": [
+  "9599": [
     {
       "sku": "BRA-5-CE-002-HD6",
       "options": {
@@ -15858,7 +15851,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9598": [
+  "9600": [
     {
       "sku": "BRA-5-CE-262",
       "options": {
@@ -16028,7 +16021,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9599": [
+  "9601": [
     {
       "sku": "BRA-GS-CLI1H90200CE",
       "options": {
@@ -16246,7 +16239,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9600": [
+  "9602": [
     {
       "sku": "BRA-DR-LOSMR100CF",
       "options": {
@@ -16906,7 +16899,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9601": [
+  "9603": [
     {
       "sku": "BRA-GS-CSN1H70200CE",
       "options": {
@@ -17124,7 +17117,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9602": [
+  "9604": [
     {
       "sku": "BRA-5-GG-009",
       "options": {
@@ -17136,34 +17129,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     },
     {
-      "sku": "BRA-5-GG-147",
-      "options": {
-        "kleur": "Geborsteld goud"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147_1.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GG-008",
-      "options": {
-        "kleur": "Geborsteld goud"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-008.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-008_1.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-CF-147",
-      "options": {
-        "kleur": "Coffee"
-      },
-      "image": null,
-      "images": null
-    },
-    {
       "sku": "BRA-5-GG-159",
       "options": {
         "kleur": "Geborsteld goud"
@@ -17172,14 +17137,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-159_1.jpg"
       ]
-    },
-    {
-      "sku": "BRA-5-CF-008",
-      "options": {
-        "kleur": "Coffee"
-      },
-      "image": null,
-      "images": null
     },
     {
       "sku": "BRA-5-CF-159",
@@ -17197,26 +17154,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-009.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-009_1.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-S-147",
-      "options": {
-        "kleur": "Mat zwart"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-147.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-147_1.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-S-008",
-      "options": {
-        "kleur": "Mat zwart"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-008.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-008_1.jpg"
       ]
     },
     {
@@ -17240,32 +17177,12 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     },
     {
-      "sku": "BRA-5-CE-147",
-      "options": {
-        "kleur": "Chroom"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-147.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-147_1.jpg"
-      ]
-    },
-    {
       "sku": "BRA-5-CF-009",
       "options": {
         "kleur": "Coffee"
       },
       "image": null,
       "images": null
-    },
-    {
-      "sku": "BRA-5-CE-008",
-      "options": {
-        "kleur": "Chroom"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-008.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-008_1.jpg"
-      ]
     },
     {
       "sku": "BRA-5-CE-159",
@@ -17285,26 +17202,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-009.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-009_1.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GM-147",
-      "options": {
-        "kleur": "Geborsteld gunmetal"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-147.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-147_1.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GM-008",
-      "options": {
-        "kleur": "Geborsteld gunmetal"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-008.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-008_1.jpg"
       ]
     },
     {
@@ -17328,26 +17225,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     },
     {
-      "sku": "BRA-5-NG-147",
-      "options": {
-        "kleur": "Geborsteld RVS"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147_1.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-NG-008",
-      "options": {
-        "kleur": "Geborsteld RVS"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-008.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-008_1.jpg"
-      ]
-    },
-    {
       "sku": "BRA-5-NG-159",
       "options": {
         "kleur": "Geborsteld RVS"
@@ -17365,26 +17242,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-009.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-009_1.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GK-147",
-      "options": {
-        "kleur": "Geborsteld koper"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-147.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-147_1.jpg"
-      ]
-    },
-    {
-      "sku": "BRA-5-GK-008",
-      "options": {
-        "kleur": "Geborsteld koper"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-008.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-008_1.jpg"
       ]
     },
     {
@@ -17482,7 +17339,77 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9603": [
+  "9605": [
+    {
+      "sku": "BRA-5-GG-147",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-CF-147",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null
+    },
+    {
+      "sku": "BRA-5-S-147",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-147.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-147_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-CE-147",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-147.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-147_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-GM-147",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-147.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-147_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-NG-147",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-GK-147",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-147.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-147_1.jpg"
+      ]
+    }
+  ],
+  "9607": [
     {
       "sku": "BRA-DR-MRFW100CF",
       "options": {
@@ -17604,7 +17531,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9604": [
+  "9608": [
     {
       "sku": "BRA-DR-SRF50NG",
       "options": {
@@ -18146,7 +18073,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9605": [
+  "9609": [
     {
       "sku": "BRA-DR-SSRF50NG",
       "options": {
@@ -18232,7 +18159,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9606": [
+  "9610": [
     {
       "sku": "BRA-DR-XS70NG",
       "options": {
@@ -18276,7 +18203,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9607": [
+  "9611": [
     {
       "sku": "BRA-5-GG-224",
       "options": {
@@ -18370,7 +18297,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9608": [
+  "9612": [
     {
       "sku": "BRA-5-GG-225",
       "options": {
@@ -18464,7 +18391,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9609": [
+  "9613": [
     {
       "sku": "BRA-5-CE-154",
       "options": {
@@ -18568,7 +18495,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9610": [
+  "9614": [
     {
       "sku": "BRA-5-CE-316",
       "options": {
@@ -18694,7 +18621,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9611": [
+  "9615": [
     {
       "sku": "BRA-5-CE-003",
       "options": {
@@ -19072,7 +18999,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9612": [
+  "9616": [
     {
       "sku": "BRA-5-CE-257",
       "options": {
@@ -19142,7 +19069,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9613": [
+  "9617": [
     {
       "sku": "BRA-5-GG-088",
       "options": {
@@ -19212,7 +19139,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9614": [
+  "9618": [
     {
       "sku": "BRA-5-CE-004",
       "options": {
@@ -20534,7 +20461,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9615": [
+  "9619": [
     {
       "sku": "BRA-5-CE-004-S2-65",
       "options": {
@@ -21856,7 +21783,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9616": [
+  "9620": [
     {
       "sku": "BRA-5-CE-001",
       "options": {
@@ -22206,7 +22133,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9617": [
+  "9621": [
     {
       "sku": "BRA-5-CE-006",
       "options": {
@@ -22276,7 +22203,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9618": [
+  "9622": [
     {
       "sku": "BRA-5-CE-320",
       "options": {
@@ -22346,7 +22273,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9619": [
+  "9623": [
     {
       "sku": "BRA-5-CE-046",
       "options": {
@@ -22748,7 +22675,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9620": [
+  "9624": [
     {
       "sku": "BRA-5-CE-022",
       "options": {
@@ -23134,7 +23061,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9621": [
+  "9625": [
     {
       "sku": "BRA-5-CE-052",
       "options": {
@@ -26160,7 +26087,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9622": [
+  "9626": [
     {
       "sku": "BRA-5-CE-160",
       "options": {
@@ -29186,7 +29113,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9623": [
+  "9627": [
     {
       "sku": "BRA-5-CE-024",
       "options": {
@@ -32500,7 +32427,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9624": [
+  "9628": [
     {
       "sku": "BRA-5-CE-267",
       "options": {
@@ -35526,7 +35453,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9625": [
+  "9629": [
     {
       "sku": "BRA-5-CE-230",
       "options": {
@@ -35932,7 +35859,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9626": [
+  "9630": [
     {
       "sku": "BRA-5-CE-235",
       "options": {
@@ -36135,7 +36062,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9627": [
+  "9631": [
     {
       "sku": "BRA-5-CE-239",
       "options": {
@@ -36585,7 +36512,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9628": [
+  "9632": [
     {
       "sku": "BRA-5-CE-002",
       "options": {
@@ -36965,7 +36892,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9629": [
+  "9633": [
     {
       "sku": "BRA-5-CE-259",
       "options": {
@@ -37141,7 +37068,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9630": [
+  "9634": [
     {
       "sku": "BRA-5-CE-319",
       "options": {
@@ -37199,7 +37126,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "images": null
     }
   ],
-  "9631": [
+  "9635": [
     {
       "sku": "BRA-GS-GTN1H120200CE",
       "options": {
@@ -37345,7 +37272,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9632": [
+  "9636": [
     {
       "sku": "BRA-GS-GTC1H12090200CE",
       "options": {
@@ -37491,7 +37418,57 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9633": [
+  "9637": [
+    {
+      "sku": "BRA-GB-GD1CE",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1CE.jpg",
+      "images": null
+    },
+    {
+      "sku": "BRA-GB-GD1MZ",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1MZ.jpg",
+      "images": null
+    },
+    {
+      "sku": "BRA-GB-GD1NG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1NG.jpg",
+      "images": null
+    },
+    {
+      "sku": "BRA-GB-GD1GM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1GM.jpg",
+      "images": null
+    },
+    {
+      "sku": "BRA-GB-GD1GG",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1GG.jpg",
+      "images": null
+    },
+    {
+      "sku": "BRA-GB-GD1GK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1GK.jpg",
+      "images": null
+    }
+  ],
+  "9638": [
     {
       "sku": "BRA-5-CE-149",
       "options": {
@@ -37573,7 +37550,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9634": [
+  "9639": [
     {
       "sku": "BRA-5-GG-226",
       "options": {
@@ -37985,7 +37962,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9635": [
+  "9640": [
     {
       "sku": "BRA-5-GG-145",
       "options": {
@@ -38045,7 +38022,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9636": [
+  "9641": [
     {
       "sku": "BRA-5-GG-146",
       "options": {
@@ -38277,7 +38254,77 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9637": [
+  "9642": [
+    {
+      "sku": "BRA-5-GG-008",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-008.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-008_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-CF-008",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null
+    },
+    {
+      "sku": "BRA-5-S-008",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-008.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-008_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-CE-008",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-008.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-008_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-GM-008",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-008.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-008_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-NG-008",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-008.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-008_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-5-GK-008",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-008.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-008_1.jpg"
+      ]
+    }
+  ],
+  "9643": [
     {
       "sku": "BRA-GS-LMN1H90200CE",
       "options": {
@@ -38435,7 +38482,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9638": [
+  "9644": [
     {
       "sku": "BRA-GS-LMC1H9090200CE",
       "options": {
@@ -38593,7 +38640,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9639": [
+  "9645": [
     {
       "sku": "BRA-DR-MRF100CF",
       "options": {
@@ -38871,7 +38918,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9640": [
+  "9646": [
     {
       "sku": "BRA-GS-OBI1H50200CE",
       "options": {
@@ -39953,7 +40000,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9641": [
+  "9647": [
     {
       "sku": "BRA-GS-OBFI1HR90200CE",
       "options": {
@@ -40171,7 +40218,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9642": [
+  "9648": [
     {
       "sku": "BRA-GS-OBFI2HR9030200CE",
       "options": {
@@ -40389,7 +40436,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9643": [
+  "9649": [
     {
       "sku": "BRA-GS-OBI2H9030200CE",
       "options": {
@@ -41471,7 +41518,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9644": [
+  "9650": [
     {
       "sku": "BRA-GS-RNI1H90200CE",
       "options": {
@@ -41905,7 +41952,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9645": [
+  "9651": [
     {
       "sku": "BRA-5-GG-148",
       "options": {
@@ -41975,7 +42022,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9646": [
+  "9652": [
     {
       "sku": "BRA-5-CE-216",
       "options": {
@@ -42057,7 +42104,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9647": [
+  "9653": [
     {
       "sku": "BRA-GS-SRN1H100200CE",
       "options": {
@@ -42395,7 +42442,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9648": [
+  "9654": [
     {
       "sku": "BRA-GS-SRC1H10080200CE",
       "options": {
@@ -43405,7 +43452,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9649": [
+  "9655": [
     {
       "sku": "BRA-5-CE-045",
       "options": {
@@ -43567,7 +43614,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "images": null
     }
   ],
-  "9650": [
+  "9656": [
     {
       "sku": "BRA-5-CE-464",
       "options": {
@@ -43893,7 +43940,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9651": [
+  "9657": [
     {
       "sku": "BRA-5-CE-010",
       "options": {
@@ -44007,7 +44054,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "images": null
     }
   ],
-  "9652": [
+  "9658": [
     {
       "sku": "BRA-5-CE-003-R5",
       "options": {
@@ -44141,7 +44188,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9653": [
+  "9659": [
     {
       "sku": "BRA-5-CE-5100",
       "options": {
@@ -44335,7 +44382,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9654": [
+  "9660": [
     {
       "sku": "BRA-5-CE-265",
       "options": {
@@ -44529,7 +44576,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9655": [
+  "9661": [
     {
       "sku": "BRA-5-CE-157",
       "options": {
@@ -44903,7 +44950,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9656": [
+  "9662": [
     {
       "sku": "BRA-5-GG-089",
       "options": {
@@ -45421,7 +45468,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9657": [
+  "9663": [
     {
       "sku": "BRA-5-GG-328",
       "options": {
@@ -45999,7 +46046,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9658": [
+  "9664": [
     {
       "sku": "BRA-5-CE-001-HD7",
       "options": {
@@ -46139,7 +46186,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9659": [
+  "9665": [
     {
       "sku": "BRA-5-CE-012",
       "options": {
@@ -46245,7 +46292,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "images": null
     }
   ],
-  "9660": [
+  "9666": [
     {
       "sku": "BRA-5-CE-014",
       "options": {
@@ -46407,7 +46454,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "images": null
     }
   ],
-  "9661": [
+  "9667": [
     {
       "sku": "BRA-5-CE-234",
       "options": {
@@ -46645,7 +46692,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9662": [
+  "9668": [
     {
       "sku": "BRA-5-CE-359",
       "options": {
@@ -47055,7 +47102,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9663": [
+  "9669": [
     {
       "sku": "BRA-5-CE-357",
       "options": {
@@ -47465,7 +47512,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9664": [
+  "9670": [
     {
       "sku": "BRA-5-CE-389",
       "options": {
@@ -48907,7 +48954,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9665": [
+  "9671": [
     {
       "sku": "BRA-5-CE-413",
       "options": {
@@ -50349,7 +50396,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9666": [
+  "9672": [
     {
       "sku": "BRA-5-CE-365",
       "options": {
@@ -51791,7 +51838,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9667": [
+  "9673": [
     {
       "sku": "BRA-5-CE-437",
       "options": {
@@ -53230,7 +53277,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9668": [
+  "9674": [
     {
       "sku": "BRA-5-CE-340",
       "options": {
@@ -53634,7 +53681,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9669": [
+  "9675": [
     {
       "sku": "BRA-5-CE-349",
       "options": {
@@ -54056,7 +54103,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9670": [
+  "9676": [
     {
       "sku": "BRA-5-CE-337",
       "options": {
@@ -54214,7 +54261,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9671": [
+  "9677": [
     {
       "sku": "BRA-5-CE-043",
       "options": {
@@ -54272,7 +54319,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "images": null
     }
   ],
-  "9672": [
+  "9678": [
     {
       "sku": "BRA-5-CE-020",
       "options": {
@@ -54538,7 +54585,69 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "images": null
     }
   ],
-  "9673": [
+  "9679": [
+    {
+      "sku": "BRA-GB-TK1CE",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1CE.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1CE_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-GB-TK1MZ",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1MZ_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-GB-TK1NG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1NG_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-GB-TK1GM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GM_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-GB-TK1GG",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GG_1.jpg"
+      ]
+    },
+    {
+      "sku": "BRA-GB-TK1GK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GK_1.jpg"
+      ]
+    }
+  ],
+  "9680": [
     {
       "sku": "BRA-DR-MRF50NG",
       "options": {
@@ -54732,7 +54841,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9674": [
+  "9681": [
     {
       "sku": "BRA-5-CE-322",
       "options": {
@@ -54838,7 +54947,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9675": [
+  "9682": [
     {
       "sku": "BRA-5-CE-150",
       "options": {
@@ -54932,7 +55041,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9676": [
+  "9683": [
     {
       "sku": "BRA-GS-VOI1H50200CE",
       "options": {
@@ -55870,7 +55979,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9677": [
+  "9684": [
     {
       "sku": "BRA-GS-VOC1H8080200CE",
       "options": {
@@ -56709,7 +56818,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9678": [
+  "9685": [
     {
       "sku": "BRA-GS-VON3H6050200CE",
       "options": {
@@ -57488,7 +57597,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9679": [
+  "9686": [
     {
       "sku": "BRA-GS-VON2H6030200CE",
       "options": {
@@ -58498,7 +58607,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9680": [
+  "9687": [
     {
       "sku": "BRA-GS-VOCC1H8080200CE",
       "options": {
@@ -59340,7 +59449,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9681": [
+  "9688": [
     {
       "sku": "BRA-GS-VOCN3H6050200CE",
       "options": {
@@ -60122,7 +60231,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9682": [
+  "9689": [
     {
       "sku": "BRA-GS-VOCN2H6030200CE",
       "options": {
@@ -61132,7 +61241,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9683": [
+  "9690": [
     {
       "sku": "BRA-GS-VOCN1H60200CE",
       "options": {
@@ -61494,7 +61603,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9684": [
+  "9691": [
     {
       "sku": "BRA-GS-VOCN4H100200CE",
       "options": {
@@ -61568,7 +61677,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9685": [
+  "9692": [
     {
       "sku": "BRA-GS-VOI2H10030200GG",
       "options": {
@@ -61612,7 +61721,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9686": [
+  "9693": [
     {
       "sku": "BRA-GS-VOI2H10040200GG",
       "options": {
@@ -61656,7 +61765,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9687": [
+  "9694": [
     {
       "sku": "BRA-GS-VON1H60200CE",
       "options": {
@@ -62018,7 +62127,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9688": [
+  "9695": [
     {
       "sku": "BRA-GS-VON4H60200CE",
       "options": {
@@ -62380,7 +62489,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ]
     }
   ],
-  "9689": [
+  "9696": [
     {
       "sku": "BRA-GS-VOI2H9030200CE",
       "options": {
@@ -63238,6 +63347,56 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200GG_3.jpg",
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200GG_4.jpg"
       ]
+    }
+  ],
+  "9697": [
+    {
+      "sku": "BRA-GB-WD1CE",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1CE.jpg",
+      "images": null
+    },
+    {
+      "sku": "BRA-GB-WD1MZ",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1MZ.jpg",
+      "images": null
+    },
+    {
+      "sku": "BRA-GB-WD1NG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1NG.jpg",
+      "images": null
+    },
+    {
+      "sku": "BRA-GB-WD1GM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GM.jpg",
+      "images": null
+    },
+    {
+      "sku": "BRA-GB-WD1GG",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GG.jpg",
+      "images": null
+    },
+    {
+      "sku": "BRA-GB-WD1GK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GK.jpg",
+      "images": null
     }
   ]
 };

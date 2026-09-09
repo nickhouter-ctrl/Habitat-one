@@ -6723,14 +6723,14 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9579,
-    "name": "Asteroid douchebak",
-    "slug": "asteroid-douchebak-9579",
-    "sku": "BRA-ASTEROID-DOUCHEBAK-JB88",
+    "name": "Afvoerrooster tbv douchebak",
+    "slug": "afvoerrooster-tbv-douchebak-9579",
+    "sku": "BRA-AFVOERROOSTER-TBV-DOUCHEBAK-18FJ",
     "short": null,
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GM.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1MZ.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -6746,25 +6746,59 @@ export const catalogProducts: CatalogProduct[] = [
         "label": "Kleur",
         "values": [
           {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GG.jpg"
-          },
-          {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GM.jpg"
           },
           {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GK.jpg"
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1MZ.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1NG.jpg"
           },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GG.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GK.jpg"
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9580,
+    "name": "Asteroid douchebak",
+    "slug": "asteroid-douchebak-9580",
+    "sku": "BRA-ASTEROID-DOUCHEBAK-JB88",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80160MZ.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchebakken",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
@@ -6776,9 +6810,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9580,
+    "id": 9581,
     "name": "Carving Hoekstopkraan met flexibele slang",
-    "slug": "carving-hoekstopkraan-met-flexibele-slang-9580",
+    "slug": "carving-hoekstopkraan-met-flexibele-slang-9581",
     "sku": "BRA-CARVING-HOEKSTOPKRAAN-MET-FLEXIBELE-SLAN-1OVC",
     "short": null,
     "description": null,
@@ -6835,9 +6869,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9581,
+    "id": 9582,
     "name": "Carving Hoge opbouw wastafelmengkraan",
-    "slug": "carving-hoge-opbouw-wastafelmengkraan-9581",
+    "slug": "carving-hoge-opbouw-wastafelmengkraan-9582",
     "sku": "BRA-CARVING-HOGE-OPBOUW-WASTAFELMENGKRAAN-1JF2",
     "short": null,
     "description": null,
@@ -6894,9 +6928,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9582,
+    "id": 9583,
     "name": "Carving Inbouw fonteinkraan met inkortbare uitloop",
-    "slug": "carving-inbouw-fonteinkraan-met-inkortbare-uitloop-9582",
+    "slug": "carving-inbouw-fonteinkraan-met-inkortbare-uitloop-9583",
     "sku": "BRA-CARVING-INBOUW-FONTEINKRAAN-MET-INKORTBA-1TIY",
     "short": null,
     "description": null,
@@ -6953,9 +6987,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9583,
+    "id": 9584,
     "name": "Carving Inbouw wastafelmengkraan met gebogen uitloop",
-    "slug": "carving-inbouw-wastafelmengkraan-met-gebogen-uitloop-9583",
+    "slug": "carving-inbouw-wastafelmengkraan-met-gebogen-uitloop-9584",
     "sku": "BRA-CARVING-INBOUW-WASTAFELMENGKRAAN-MET-GEB-1BOQ",
     "short": null,
     "description": null,
@@ -6982,9 +7016,68 @@ export const catalogProducts: CatalogProduct[] = [
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6.jpg"
           },
           {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6.jpg"
+          },
+          {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65.jpg"
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9585,
+    "name": "Carving inbouw wastafelmengkraan met gebogen uitloop en rozetten model A1",
+    "slug": "carving-inbouw-wastafelmengkraan-met-gebogen-uitloop-en-rozetten-model-9585",
+    "sku": "BRA-CARVING-INBOUW-WASTAFELMENGKRAAN-MET-GEB-1YEK",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Carving",
+    "productType": "Wastafelkranen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -6997,14 +7090,14 @@ export const catalogProducts: CatalogProduct[] = [
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65.jpg"
           },
           {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6.jpg"
+          },
+          {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg"
           }
         ]
       }
@@ -7012,9 +7105,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9584,
+    "id": 9586,
     "name": "Carving Inbouw wastafelmengkraan met rechte uitloop",
-    "slug": "carving-inbouw-wastafelmengkraan-met-rechte-uitloop-9584",
+    "slug": "carving-inbouw-wastafelmengkraan-met-rechte-uitloop-9586",
     "sku": "BRA-CARVING-INBOUW-WASTAFELMENGKRAAN-MET-REC-1JOW",
     "short": null,
     "description": null,
@@ -7071,9 +7164,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9585,
+    "id": 9587,
     "name": "Carving Lage opbouw wastafelmengkraan",
-    "slug": "carving-lage-opbouw-wastafelmengkraan-9585",
+    "slug": "carving-lage-opbouw-wastafelmengkraan-9587",
     "sku": "BRA-CARVING-LAGE-OPBOUW-WASTAFELMENGKRAAN-1XTJ",
     "short": null,
     "description": null,
@@ -7130,9 +7223,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9586,
+    "id": 9588,
     "name": "Carving Opbouw fonteinkraan met gebogen uitloop",
-    "slug": "carving-opbouw-fonteinkraan-met-gebogen-uitloop-9586",
+    "slug": "carving-opbouw-fonteinkraan-met-gebogen-uitloop-9588",
     "sku": "BRA-CARVING-OPBOUW-FONTEINKRAAN-MET-GEBOGEN-SYLO",
     "short": null,
     "description": null,
@@ -7189,9 +7282,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9587,
+    "id": 9589,
     "name": "Carving Opbouw thermostaten",
-    "slug": "carving-opbouw-thermostaten-9587",
+    "slug": "carving-opbouw-thermostaten-9589",
     "sku": "BRA-CARVING-OPBOUW-THERMOSTATEN-3CG8",
     "short": null,
     "description": null,
@@ -7253,9 +7346,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9588,
+    "id": 9590,
     "name": "Carving Thermostatische inbouw badkraan met badvulcombinatie",
-    "slug": "carving-thermostatische-inbouw-badkraan-met-badvulcombinatie-9588",
+    "slug": "carving-thermostatische-inbouw-badkraan-met-badvulcombinatie-9590",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-BADKRAAN-R3XM",
     "short": null,
     "description": null,
@@ -7312,9 +7405,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9589,
+    "id": 9591,
     "name": "Carving Thermostatische inbouw badkraan met uitloop",
-    "slug": "carving-thermostatische-inbouw-badkraan-met-uitloop-9589",
+    "slug": "carving-thermostatische-inbouw-badkraan-met-uitloop-9591",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-BADKRAAN-1TJR",
     "short": null,
     "description": null,
@@ -7371,9 +7464,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9590,
+    "id": 9592,
     "name": "Carving Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-3-weg-omstel-9590",
+    "slug": "carving-thermostatische-inbouw-regendouche-met-3-weg-omstel-9592",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1DJ2",
     "short": null,
     "description": null,
@@ -7499,9 +7592,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9591,
+    "id": 9593,
     "name": "Carving Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-drukknoppen-9591",
+    "slug": "carving-thermostatische-inbouw-regendouche-met-drukknoppen-9593",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-CLUI",
     "short": null,
     "description": null,
@@ -7627,9 +7720,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9592,
+    "id": 9594,
     "name": "Carving Thermostatische inbouw regendouche met stopkranen",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-stopkranen-9592",
+    "slug": "carving-thermostatische-inbouw-regendouche-met-stopkranen-9594",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1LZJ",
     "short": null,
     "description": null,
@@ -7755,9 +7848,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9593,
+    "id": 9595,
     "name": "Carving Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "carving-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9593",
+    "slug": "carving-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9595",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-4BG5",
     "short": null,
     "description": null,
@@ -7883,9 +7976,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9594,
+    "id": 9596,
     "name": "Carving Thermostatische opbouw badkraan",
-    "slug": "carving-thermostatische-opbouw-badkraan-9594",
+    "slug": "carving-thermostatische-opbouw-badkraan-9596",
     "sku": "BRA-CARVING-THERMOSTATISCHE-OPBOUW-BADKRAAN-12VX",
     "short": null,
     "description": null,
@@ -7974,9 +8067,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9595,
+    "id": 9597,
     "name": "Carving Thermostatische opbouw douchekraan",
-    "slug": "carving-thermostatische-opbouw-douchekraan-9595",
+    "slug": "carving-thermostatische-opbouw-douchekraan-9597",
     "sku": "BRA-CARVING-THERMOSTATISCHE-OPBOUW-DOUCHEKRA-1NTM",
     "short": null,
     "description": null,
@@ -8049,9 +8142,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9596,
+    "id": 9598,
     "name": "Carving Thermostatische opbouw regendouche",
-    "slug": "carving-thermostatische-opbouw-regendouche-9596",
+    "slug": "carving-thermostatische-opbouw-regendouche-9598",
     "sku": "BRA-CARVING-THERMOSTATISCHE-OPBOUW-REGENDOUC-HP7W",
     "short": null,
     "description": null,
@@ -8140,9 +8233,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9597,
+    "id": 9599,
     "name": "Carving Verhoogde opbouw wastafelmengkraan",
-    "slug": "carving-verhoogde-opbouw-wastafelmengkraan-9597",
+    "slug": "carving-verhoogde-opbouw-wastafelmengkraan-9599",
     "sku": "BRA-CARVING-VERHOOGDE-OPBOUW-WASTAFELMENGKRA-QDSD",
     "short": null,
     "description": null,
@@ -8199,9 +8292,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9598,
+    "id": 9600,
     "name": "Carving Vrijstaande badmengkraan",
-    "slug": "carving-vrijstaande-badmengkraan-9598",
+    "slug": "carving-vrijstaande-badmengkraan-9600",
     "sku": "BRA-CARVING-VRIJSTAANDE-BADMENGKRAAN-111M",
     "short": null,
     "description": null,
@@ -8274,9 +8367,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9599,
+    "id": 9601,
     "name": "Collision",
-    "slug": "collision-9599",
+    "slug": "collision-9601",
     "sku": "BRA-COLLISION-PMWN",
     "short": null,
     "description": null,
@@ -8333,9 +8426,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9600,
+    "id": 9602,
     "name": "Complete douchegoot met",
-    "slug": "complete-douchegoot-met-9600",
+    "slug": "complete-douchegoot-met-9602",
     "sku": "BRA-COMPLETE-DOUCHEGOOT-MET-29IV",
     "short": null,
     "description": null,
@@ -8458,9 +8551,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9601,
+    "id": 9603,
     "name": "Cosmic met draaideur",
-    "slug": "cosmic-met-draaideur-9601",
+    "slug": "cosmic-met-draaideur-9603",
     "sku": "BRA-COSMIC-MET-DRAAIDEUR-18RY",
     "short": null,
     "description": null,
@@ -8517,9 +8610,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9602,
+    "id": 9604,
     "name": "Design sifon",
-    "slug": "design-sifon-9602",
+    "slug": "design-sifon-9604",
     "sku": "BRA-DESIGN-SIFON-10JV",
     "short": null,
     "description": null,
@@ -8581,9 +8674,95 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9603,
+    "id": 9605,
+    "name": "Design sifon compact",
+    "slug": "design-sifon-compact-9605",
+    "sku": "BRA-DESIGN-SIFON-COMPACT-NCP9",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-147.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "accessories",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Accessoires",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147.jpg"
+          },
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-159.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-159.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-159.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-159.jpg"
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9606,
+    "name": "Deur smal geschikt voor enkelpuntsgreep",
+    "slug": "deur-smal-geschikt-voor-enkelpuntsgreep-9606",
+    "sku": "BRA-DEUR-SMAL-GESCHIKT-VOOR-ENKELPUNTSGREEP-YNJW",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GL-D4H100.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": null,
+    "variants": []
+  },
+  {
+    "id": 9607,
     "name": "Douchegoten",
-    "slug": "douchegoten-9603",
+    "slug": "douchegoten-9607",
     "sku": "BRA-DOUCHEGOTEN-1TEO",
     "short": null,
     "description": null,
@@ -8701,9 +8880,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9604,
+    "id": 9608,
     "name": "Douchegoten met standaard rooster",
-    "slug": "douchegoten-met-standaard-rooster-9604",
+    "slug": "douchegoten-met-standaard-rooster-9608",
     "sku": "BRA-DOUCHEGOTEN-MET-STANDAARD-ROOSTER-ONKX",
     "short": null,
     "description": null,
@@ -8806,9 +8985,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9605,
+    "id": 9609,
     "name": "Douchegoten Small",
-    "slug": "douchegoten-small-9605",
+    "slug": "douchegoten-small-9609",
     "sku": "BRA-DOUCHEGOTEN-SMALL-1AJV",
     "short": null,
     "description": null,
@@ -8865,9 +9044,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9606,
+    "id": 9610,
     "name": "Douchegoten XS",
-    "slug": "douchegoten-xs-9606",
+    "slug": "douchegoten-xs-9610",
     "sku": "BRA-DOUCHEGOTEN-XS-IW2U",
     "short": null,
     "description": null,
@@ -8909,9 +9088,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9607,
+    "id": 9611,
     "name": "Doucherek 23",
-    "slug": "doucherek-23-9607",
+    "slug": "doucherek-23-9611",
     "sku": "BRA-DOUCHEREK-23-YGJD",
     "short": null,
     "description": null,
@@ -8973,9 +9152,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9608,
+    "id": 9612,
     "name": "Doucherek 40",
-    "slug": "doucherek-40-9608",
+    "slug": "doucherek-40-9612",
     "sku": "BRA-DOUCHEREK-40-YGJD",
     "short": null,
     "description": null,
@@ -9037,9 +9216,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9609,
+    "id": 9613,
     "name": "Edition Douchepaneel",
-    "slug": "edition-douchepaneel-9609",
+    "slug": "edition-douchepaneel-9613",
     "sku": "BRA-EDITION-DOUCHEPANEEL-I4R5",
     "short": null,
     "description": null,
@@ -9096,9 +9275,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9610,
+    "id": 9614,
     "name": "Edition Hoekstopkraan met flexibele slang",
-    "slug": "edition-hoekstopkraan-met-flexibele-slang-9610",
+    "slug": "edition-hoekstopkraan-met-flexibele-slang-9614",
     "sku": "BRA-EDITION-HOEKSTOPKRAAN-MET-FLEXIBELE-SLAN-1ATS",
     "short": null,
     "description": null,
@@ -9160,9 +9339,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9611,
+    "id": 9615,
     "name": "Edition Hoge opbouw wastafelmengkraan",
-    "slug": "edition-hoge-opbouw-wastafelmengkraan-9611",
+    "slug": "edition-hoge-opbouw-wastafelmengkraan-9615",
     "sku": "BRA-EDITION-HOGE-OPBOUW-WASTAFELMENGKRAAN-15DY",
     "short": null,
     "description": null,
@@ -9224,9 +9403,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9612,
+    "id": 9616,
     "name": "Edition Inbouw fonteinkraan met inkortbare uitloop",
-    "slug": "edition-inbouw-fonteinkraan-met-inkortbare-uitloop-9612",
+    "slug": "edition-inbouw-fonteinkraan-met-inkortbare-uitloop-9616",
     "sku": "BRA-EDITION-INBOUW-FONTEINKRAAN-MET-INKORTBA-1IX5",
     "short": null,
     "description": null,
@@ -9288,9 +9467,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9613,
+    "id": 9617,
     "name": "Edition Inbouw thermostaten met stopkranen",
-    "slug": "edition-inbouw-thermostaten-met-stopkranen-9613",
+    "slug": "edition-inbouw-thermostaten-met-stopkranen-9617",
     "sku": "BRA-EDITION-INBOUW-THERMOSTATEN-MET-STOPKRAN-HTP4",
     "short": null,
     "description": null,
@@ -9352,9 +9531,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9614,
+    "id": 9618,
     "name": "Edition Inbouw wastafelmengkraan met gebogen uitloop",
-    "slug": "edition-inbouw-wastafelmengkraan-met-gebogen-uitloop-9614",
+    "slug": "edition-inbouw-wastafelmengkraan-met-gebogen-uitloop-9618",
     "sku": "BRA-EDITION-INBOUW-WASTAFELMENGKRAAN-MET-GEB-578Y",
     "short": null,
     "description": null,
@@ -9411,9 +9590,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9615,
+    "id": 9619,
     "name": "Edition Inbouw wastafelmengkraan met rechte uitloop",
-    "slug": "edition-inbouw-wastafelmengkraan-met-rechte-uitloop-9615",
+    "slug": "edition-inbouw-wastafelmengkraan-met-rechte-uitloop-9619",
     "sku": "BRA-EDITION-INBOUW-WASTAFELMENGKRAAN-MET-REC-1OV0",
     "short": null,
     "description": null,
@@ -9470,9 +9649,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9616,
+    "id": 9620,
     "name": "Edition Lage opbouw wastafelmengkraan",
-    "slug": "edition-lage-opbouw-wastafelmengkraan-9616",
+    "slug": "edition-lage-opbouw-wastafelmengkraan-9620",
     "sku": "BRA-EDITION-LAGE-OPBOUW-WASTAFELMENGKRAAN-1JSF",
     "short": null,
     "description": null,
@@ -9565,9 +9744,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9617,
+    "id": 9621,
     "name": "Edition Opbouw fonteinkraan",
-    "slug": "edition-opbouw-fonteinkraan-9617",
+    "slug": "edition-opbouw-fonteinkraan-9621",
     "sku": "BRA-EDITION-OPBOUW-FONTEINKRAAN-121V",
     "short": null,
     "description": null,
@@ -9629,9 +9808,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9618,
+    "id": 9622,
     "name": "Edition Opbouw fonteinkraan met gebogen uitloop",
-    "slug": "edition-opbouw-fonteinkraan-met-gebogen-uitloop-9618",
+    "slug": "edition-opbouw-fonteinkraan-met-gebogen-uitloop-9622",
     "sku": "BRA-EDITION-OPBOUW-FONTEINKRAAN-MET-GEBOGEN-7ZCI",
     "short": null,
     "description": null,
@@ -9693,9 +9872,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9619,
+    "id": 9623,
     "name": "Edition Thermostatische inbouw badkraan met badvulcombinatie",
-    "slug": "edition-thermostatische-inbouw-badkraan-met-badvulcombinatie-9619",
+    "slug": "edition-thermostatische-inbouw-badkraan-met-badvulcombinatie-9623",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-KWKN",
     "short": null,
     "description": null,
@@ -9757,9 +9936,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9620,
+    "id": 9624,
     "name": "Edition Thermostatische inbouw badkraan met uitloop",
-    "slug": "edition-thermostatische-inbouw-badkraan-met-uitloop-9620",
+    "slug": "edition-thermostatische-inbouw-badkraan-met-uitloop-9624",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-1YPV",
     "short": null,
     "description": null,
@@ -9816,9 +9995,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9621,
+    "id": 9625,
     "name": "Edition Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-3-weg-omstel-9621",
+    "slug": "edition-thermostatische-inbouw-regendouche-met-3-weg-omstel-9625",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1SEP",
     "short": null,
     "description": null,
@@ -9944,9 +10123,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9622,
+    "id": 9626,
     "name": "Edition Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-drukknoppen-9622",
+    "slug": "edition-thermostatische-inbouw-regendouche-met-drukknoppen-9626",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1M9B",
     "short": null,
     "description": null,
@@ -10072,9 +10251,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9623,
+    "id": 9627,
     "name": "Edition Thermostatische inbouw regendouche met stopkranen",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-stopkranen-9623",
+    "slug": "edition-thermostatische-inbouw-regendouche-met-stopkranen-9627",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1NDC",
     "short": null,
     "description": null,
@@ -10205,9 +10384,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9624,
+    "id": 9628,
     "name": "Edition Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "edition-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9624",
+    "slug": "edition-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9628",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-Q77J",
     "short": null,
     "description": null,
@@ -10333,9 +10512,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9625,
+    "id": 9629,
     "name": "Edition Thermostatische opbouw badkraan",
-    "slug": "edition-thermostatische-opbouw-badkraan-9625",
+    "slug": "edition-thermostatische-opbouw-badkraan-9629",
     "sku": "BRA-EDITION-THERMOSTATISCHE-OPBOUW-BADKRAAN-UBUU",
     "short": null,
     "description": null,
@@ -10429,9 +10608,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9626,
+    "id": 9630,
     "name": "Edition Thermostatische opbouw douchekraan",
-    "slug": "edition-thermostatische-opbouw-douchekraan-9626",
+    "slug": "edition-thermostatische-opbouw-douchekraan-9630",
     "sku": "BRA-EDITION-THERMOSTATISCHE-OPBOUW-DOUCHEKRA-MKWZ",
     "short": null,
     "description": null,
@@ -10509,9 +10688,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9627,
+    "id": 9631,
     "name": "Edition Thermostatische opbouw regendouche",
-    "slug": "edition-thermostatische-opbouw-regendouche-9627",
+    "slug": "edition-thermostatische-opbouw-regendouche-9631",
     "sku": "BRA-EDITION-THERMOSTATISCHE-OPBOUW-REGENDOUC-1FHM",
     "short": null,
     "description": null,
@@ -10605,9 +10784,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9628,
+    "id": 9632,
     "name": "Edition Verhoogde opbouw wastafelmengkraan",
-    "slug": "edition-verhoogde-opbouw-wastafelmengkraan-9628",
+    "slug": "edition-verhoogde-opbouw-wastafelmengkraan-9632",
     "sku": "BRA-EDITION-VERHOOGDE-OPBOUW-WASTAFELMENGKRA-1O66",
     "short": null,
     "description": null,
@@ -10700,9 +10879,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9629,
+    "id": 9633,
     "name": "Edition Vrijstaande badmengkraan",
-    "slug": "edition-vrijstaande-badmengkraan-9629",
+    "slug": "edition-vrijstaande-badmengkraan-9633",
     "sku": "BRA-EDITION-VRIJSTAANDE-BADMENGKRAAN-DPEP",
     "short": null,
     "description": null,
@@ -10780,9 +10959,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9630,
+    "id": 9634,
     "name": "Flexibele aansluitslang gevlochten 300 mm",
-    "slug": "flexibele-aansluitslang-gevlochten-300-mm-9630",
+    "slug": "flexibele-aansluitslang-gevlochten-300-mm-9634",
     "sku": "BRA-FLEXIBELE-AANSLUITSLANG-GEVLOCHTEN-300-M-87N4",
     "short": null,
     "description": null,
@@ -10844,9 +11023,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9631,
+    "id": 9635,
     "name": "Galactic 2-delig met schuifdeur",
-    "slug": "galactic-2-delig-met-schuifdeur-9631",
+    "slug": "galactic-2-delig-met-schuifdeur-9635",
     "sku": "BRA-GALACTIC-2-DELIG-MET-SCHUIFDEUR-19Q7",
     "short": null,
     "description": null,
@@ -10903,9 +11082,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9632,
+    "id": 9636,
     "name": "Galactic 3-delig met schuifdeur",
-    "slug": "galactic-3-delig-met-schuifdeur-9632",
+    "slug": "galactic-3-delig-met-schuifdeur-9636",
     "sku": "BRA-GALACTIC-3-DELIG-MET-SCHUIFDEUR-6IIY",
     "short": null,
     "description": null,
@@ -10962,9 +11141,68 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9633,
+    "id": 9637,
+    "name": "Glasdeel tbv stabilisatiestang",
+    "slug": "glasdeel-tbv-stabilisatiestang-9637",
+    "sku": "BRA-GLASDEEL-TBV-STABILISATIESTANG-1D4O",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1CE.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1NG.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1MZ.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS3GM.jpg"
+          },
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1CE.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GG.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS1GK.jpg"
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9638,
     "name": "Handdoekhaak",
-    "slug": "handdoekhaak-9633",
+    "slug": "handdoekhaak-9638",
     "sku": "BRA-HANDDOEKHAAK-ZI8B",
     "short": null,
     "description": null,
@@ -11026,9 +11264,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9634,
+    "id": 9639,
     "name": "Handdoekrekken en -beugels",
-    "slug": "handdoekrekken-en-beugels-9634",
+    "slug": "handdoekrekken-en-beugels-9639",
     "sku": "BRA-HANDDOEKREKKEN-EN-BEUGELS-4NSB",
     "short": null,
     "description": null,
@@ -11090,9 +11328,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9635,
+    "id": 9640,
     "name": "Inbouwnis 300x300",
-    "slug": "inbouwnis-300x300-9635",
+    "slug": "inbouwnis-300x300-9640",
     "sku": "BRA-INBOUWNIS-300X300-TW1A",
     "short": null,
     "description": null,
@@ -11149,9 +11387,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9636,
+    "id": 9641,
     "name": "Inbouwnis 600x300",
-    "slug": "inbouwnis-600x300-9636",
+    "slug": "inbouwnis-600x300-9641",
     "sku": "BRA-INBOUWNIS-600X300-MXN5",
     "short": null,
     "description": null,
@@ -11213,9 +11451,73 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9637,
+    "id": 9642,
+    "name": "Klikwaste",
+    "slug": "klikwaste-9642",
+    "sku": "BRA-KLIKWASTE-N31T",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-008.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "accessories",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Accessoires",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-159.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
+          },
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-159.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-159.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-159.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147.jpg"
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9643,
     "name": "Luminis 1-delig en 2-delig met draai-schuifdeur",
-    "slug": "luminis-1-delig-en-2-delig-met-draai-schuifdeur-9637",
+    "slug": "luminis-1-delig-en-2-delig-met-draai-schuifdeur-9643",
     "sku": "BRA-LUMINIS-1-DELIG-EN-2-DELIG-MET-DRAAI-SCH-1KTX",
     "short": null,
     "description": null,
@@ -11272,9 +11574,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9638,
+    "id": 9644,
     "name": "Luminis 2-delig en 3-delig met draai-schuifdeur",
-    "slug": "luminis-2-delig-en-3-delig-met-draai-schuifdeur-9638",
+    "slug": "luminis-2-delig-en-3-delig-met-draai-schuifdeur-9644",
     "sku": "BRA-LUMINIS-2-DELIG-EN-3-DELIG-MET-DRAAI-SCH-4TPJ",
     "short": null,
     "description": null,
@@ -11331,9 +11633,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9639,
+    "id": 9645,
     "name": "multifunctioneel rooster en flens",
-    "slug": "multifunctioneel-rooster-en-flens-9639",
+    "slug": "multifunctioneel-rooster-en-flens-9645",
     "sku": "BRA-MULTIFUNCTIONEEL-ROOSTER-EN-FLENS-AOQO",
     "short": null,
     "description": null,
@@ -11411,9 +11713,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9640,
+    "id": 9646,
     "name": "Oblivion",
-    "slug": "oblivion-9640",
+    "slug": "oblivion-9646",
     "sku": "BRA-OBLIVION-1PZN",
     "short": null,
     "description": null,
@@ -11470,9 +11772,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9641,
+    "id": 9647,
     "name": "Oblivion Flow",
-    "slug": "oblivion-flow-9641",
+    "slug": "oblivion-flow-9647",
     "sku": "BRA-OBLIVION-FLOW-13WA",
     "short": null,
     "description": null,
@@ -11529,9 +11831,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9642,
+    "id": 9648,
     "name": "Oblivion Flow met zijwand",
-    "slug": "oblivion-flow-met-zijwand-9642",
+    "slug": "oblivion-flow-met-zijwand-9648",
     "sku": "BRA-OBLIVION-FLOW-MET-ZIJWAND-LQIZ",
     "short": null,
     "description": null,
@@ -11588,9 +11890,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9643,
+    "id": 9649,
     "name": "Oblivion met zijwand",
-    "slug": "oblivion-met-zijwand-9643",
+    "slug": "oblivion-met-zijwand-9649",
     "sku": "BRA-OBLIVION-MET-ZIJWAND-1RWD",
     "short": null,
     "description": null,
@@ -11647,9 +11949,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9644,
+    "id": 9650,
     "name": "Orion",
-    "slug": "orion-9644",
+    "slug": "orion-9650",
     "sku": "BRA-ORION-3U5Q",
     "short": null,
     "description": null,
@@ -11706,9 +12008,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9645,
+    "id": 9651,
     "name": "Overloopring",
-    "slug": "overloopring-9645",
+    "slug": "overloopring-9651",
     "sku": "BRA-OVERLOOPRING-Y8T2",
     "short": null,
     "description": null,
@@ -11770,9 +12072,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9646,
+    "id": 9652,
     "name": "Pedaalemmer",
-    "slug": "pedaalemmer-9646",
+    "slug": "pedaalemmer-9652",
     "sku": "BRA-PEDAALEMMER-RT67",
     "short": null,
     "description": null,
@@ -11834,9 +12136,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9647,
+    "id": 9653,
     "name": "Stellar 2-delig met draaideur",
-    "slug": "stellar-2-delig-met-draaideur-9647",
+    "slug": "stellar-2-delig-met-draaideur-9653",
     "sku": "BRA-STELLAR-2-DELIG-MET-DRAAIDEUR-1PNM",
     "short": null,
     "description": null,
@@ -11893,9 +12195,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9648,
+    "id": 9654,
     "name": "Stellar 3-delig met draaideur",
-    "slug": "stellar-3-delig-met-draaideur-9648",
+    "slug": "stellar-3-delig-met-draaideur-9654",
     "sku": "BRA-STELLAR-3-DELIG-MET-DRAAIDEUR-D442",
     "short": null,
     "description": null,
@@ -11952,9 +12254,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9649,
+    "id": 9655,
     "name": "Stripe Badvullers",
-    "slug": "stripe-badvullers-9649",
+    "slug": "stripe-badvullers-9655",
     "sku": "BRA-STRIPE-BADVULLERS-QN2Z",
     "short": null,
     "description": null,
@@ -12016,9 +12318,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9650,
+    "id": 9656,
     "name": "Stripe Fonteinkranen",
-    "slug": "stripe-fonteinkranen-9650",
+    "slug": "stripe-fonteinkranen-9656",
     "sku": "BRA-STRIPE-FONTEINKRANEN-SIK0",
     "short": null,
     "description": null,
@@ -12075,9 +12377,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9651,
+    "id": 9657,
     "name": "Stripe Handdouches en toebehoren",
-    "slug": "stripe-handdouches-en-toebehoren-9651",
+    "slug": "stripe-handdouches-en-toebehoren-9657",
     "sku": "BRA-STRIPE-HANDDOUCHES-EN-TOEBEHOREN-TGZB",
     "short": null,
     "description": null,
@@ -12139,9 +12441,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9652,
+    "id": 9658,
     "name": "Stripe Hoge opbouw wastafelmengkranen",
-    "slug": "stripe-hoge-opbouw-wastafelmengkranen-9652",
+    "slug": "stripe-hoge-opbouw-wastafelmengkranen-9658",
     "sku": "BRA-STRIPE-HOGE-OPBOUW-WASTAFELMENGKRANEN-K1WF",
     "short": null,
     "description": null,
@@ -12198,9 +12500,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9653,
+    "id": 9659,
     "name": "Stripe Inbouw 3-weg thermostaten rechthoekig",
-    "slug": "stripe-inbouw-3-weg-thermostaten-rechthoekig-9653",
+    "slug": "stripe-inbouw-3-weg-thermostaten-rechthoekig-9659",
     "sku": "BRA-STRIPE-INBOUW-3-WEG-THERMOSTATEN-RECHTHO-1GGH",
     "short": null,
     "description": null,
@@ -12257,9 +12559,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9654,
+    "id": 9660,
     "name": "Stripe Inbouw 3-weg thermostaten rond",
-    "slug": "stripe-inbouw-3-weg-thermostaten-rond-9654",
+    "slug": "stripe-inbouw-3-weg-thermostaten-rond-9660",
     "sku": "BRA-STRIPE-INBOUW-3-WEG-THERMOSTATEN-ROND-TVKX",
     "short": null,
     "description": null,
@@ -12316,9 +12618,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9655,
+    "id": 9661,
     "name": "Stripe Inbouw thermostaten met drukknoppen",
-    "slug": "stripe-inbouw-thermostaten-met-drukknoppen-9655",
+    "slug": "stripe-inbouw-thermostaten-met-drukknoppen-9661",
     "sku": "BRA-STRIPE-INBOUW-THERMOSTATEN-MET-DRUKKNOPP-D0BO",
     "short": null,
     "description": null,
@@ -12375,9 +12677,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9656,
+    "id": 9662,
     "name": "Stripe Inbouw thermostaten met stopkranen",
-    "slug": "stripe-inbouw-thermostaten-met-stopkranen-9656",
+    "slug": "stripe-inbouw-thermostaten-met-stopkranen-9662",
     "sku": "BRA-STRIPE-INBOUW-THERMOSTATEN-MET-STOPKRANE-1DE0",
     "short": null,
     "description": null,
@@ -12434,9 +12736,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9657,
+    "id": 9663,
     "name": "Stripe Inbouw wastafelmengkranen",
-    "slug": "stripe-inbouw-wastafelmengkranen-9657",
+    "slug": "stripe-inbouw-wastafelmengkranen-9663",
     "sku": "BRA-STRIPE-INBOUW-WASTAFELMENGKRANEN-ZI44",
     "short": null,
     "description": null,
@@ -12493,9 +12795,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9658,
+    "id": 9664,
     "name": "Stripe Lage opbouw wastafelmengkraan",
-    "slug": "stripe-lage-opbouw-wastafelmengkraan-9658",
+    "slug": "stripe-lage-opbouw-wastafelmengkraan-9664",
     "sku": "BRA-STRIPE-LAGE-OPBOUW-WASTAFELMENGKRAAN-1DG5",
     "short": null,
     "description": null,
@@ -12552,9 +12854,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9659,
+    "id": 9665,
     "name": "Stripe met wateruitlaat",
-    "slug": "stripe-met-wateruitlaat-9659",
+    "slug": "stripe-met-wateruitlaat-9665",
     "sku": "BRA-STRIPE-MET-WATERUITLAAT-S1YZ",
     "short": null,
     "description": null,
@@ -12616,9 +12918,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9660,
+    "id": 9666,
     "name": "Stripe Muur- en plafondarmen",
-    "slug": "stripe-muur-en-plafondarmen-9660",
+    "slug": "stripe-muur-en-plafondarmen-9666",
     "sku": "BRA-STRIPE-MUUR-EN-PLAFONDARMEN-1LSA",
     "short": null,
     "description": null,
@@ -12680,9 +12982,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9661,
+    "id": 9667,
     "name": "Stripe Opbouw thermostaten",
-    "slug": "stripe-opbouw-thermostaten-9661",
+    "slug": "stripe-opbouw-thermostaten-9667",
     "sku": "BRA-STRIPE-OPBOUW-THERMOSTATEN-1EN9",
     "short": null,
     "description": null,
@@ -12744,9 +13046,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9662,
+    "id": 9668,
     "name": "Stripe Thermostatische inbouw badkraan met badvulcombinatie",
-    "slug": "stripe-thermostatische-inbouw-badkraan-met-badvulcombinatie-9662",
+    "slug": "stripe-thermostatische-inbouw-badkraan-met-badvulcombinatie-9668",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-BADKRAAN-M-ZC8G",
     "short": null,
     "description": null,
@@ -12803,9 +13105,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9663,
+    "id": 9669,
     "name": "Stripe Thermostatische inbouw badkraan met uitloop",
-    "slug": "stripe-thermostatische-inbouw-badkraan-met-uitloop-9663",
+    "slug": "stripe-thermostatische-inbouw-badkraan-met-uitloop-9669",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-BADKRAAN-M-1DZJ",
     "short": null,
     "description": null,
@@ -12862,9 +13164,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9664,
+    "id": 9670,
     "name": "Stripe Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-3-weg-omstel-9664",
+    "slug": "stripe-thermostatische-inbouw-regendouche-met-3-weg-omstel-9670",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-6Q9W",
     "short": null,
     "description": null,
@@ -12974,9 +13276,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9665,
+    "id": 9671,
     "name": "Stripe Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-drukknoppen-9665",
+    "slug": "stripe-thermostatische-inbouw-regendouche-met-drukknoppen-9671",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-706I",
     "short": null,
     "description": null,
@@ -13086,9 +13388,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9666,
+    "id": 9672,
     "name": "Stripe Thermostatische inbouw regendouche met stopkranen",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-stopkranen-9666",
+    "slug": "stripe-thermostatische-inbouw-regendouche-met-stopkranen-9672",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-14LI",
     "short": null,
     "description": null,
@@ -13198,9 +13500,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9667,
+    "id": 9673,
     "name": "Stripe Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "stripe-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9667",
+    "slug": "stripe-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9673",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-126Q",
     "short": null,
     "description": null,
@@ -13310,9 +13612,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9668,
+    "id": 9674,
     "name": "Stripe Thermostatische opbouw badkraan",
-    "slug": "stripe-thermostatische-opbouw-badkraan-9668",
+    "slug": "stripe-thermostatische-opbouw-badkraan-9674",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-OPBOUW-BADKRAAN-FC3P",
     "short": null,
     "description": null,
@@ -13401,9 +13703,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9669,
+    "id": 9675,
     "name": "Stripe Thermostatische opbouw doucheset",
-    "slug": "stripe-thermostatische-opbouw-doucheset-9669",
+    "slug": "stripe-thermostatische-opbouw-doucheset-9675",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-OPBOUW-DOUCHESET-1YFF",
     "short": null,
     "description": null,
@@ -13492,9 +13794,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9670,
+    "id": 9676,
     "name": "Stripe Vrijstaande badmengkraan",
-    "slug": "stripe-vrijstaande-badmengkraan-9670",
+    "slug": "stripe-vrijstaande-badmengkraan-9676",
     "sku": "BRA-STRIPE-VRIJSTAANDE-BADMENGKRAAN-JJT8",
     "short": null,
     "description": null,
@@ -13551,9 +13853,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9671,
+    "id": 9677,
     "name": "Stripe Wandhouder",
-    "slug": "stripe-wandhouder-9671",
+    "slug": "stripe-wandhouder-9677",
     "sku": "BRA-STRIPE-WANDHOUDER-SSHY",
     "short": null,
     "description": null,
@@ -13615,9 +13917,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9672,
+    "id": 9678,
     "name": "Stripe wateruitlaat",
-    "slug": "stripe-wateruitlaat-9672",
+    "slug": "stripe-wateruitlaat-9678",
     "sku": "BRA-STRIPE-WATERUITLAAT-SUE5",
     "short": null,
     "description": null,
@@ -13679,9 +13981,68 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9673,
+    "id": 9679,
+    "name": "T-koppelstuk",
+    "slug": "t-koppelstuk-9679",
+    "sku": "BRA-T-KOPPELSTUK-2R5B",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1CE.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1MZ.jpg"
+          },
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1CE.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1NG.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GG.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS1GK.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS3GM.jpg"
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9680,
     "name": "tegelinlegrooster en flens",
-    "slug": "tegelinlegrooster-en-flens-9673",
+    "slug": "tegelinlegrooster-en-flens-9680",
     "sku": "BRA-TEGELINLEGROOSTER-EN-FLENS-8L0Z",
     "short": null,
     "description": null,
@@ -13768,9 +14129,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9674,
+    "id": 9681,
     "name": "Toiletborstelset",
-    "slug": "toiletborstelset-9674",
+    "slug": "toiletborstelset-9681",
     "sku": "BRA-TOILETBORSTELSET-3LA8",
     "short": null,
     "description": null,
@@ -13832,9 +14193,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9675,
+    "id": 9682,
     "name": "Toiletrolhouder",
-    "slug": "toiletrolhouder-9675",
+    "slug": "toiletrolhouder-9682",
     "sku": "BRA-TOILETROLHOUDER-K5WE",
     "short": null,
     "description": null,
@@ -13896,9 +14257,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9676,
+    "id": 9683,
     "name": "Void",
-    "slug": "void-9676",
+    "slug": "void-9683",
     "sku": "BRA-VOID-YK5A",
     "short": null,
     "description": null,
@@ -13971,9 +14332,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9677,
+    "id": 9684,
     "name": "Void 2-delig met draaideur",
-    "slug": "void-2-delig-met-draaideur-9677",
+    "slug": "void-2-delig-met-draaideur-9684",
     "sku": "BRA-VOID-2-DELIG-MET-DRAAIDEUR-1KWZ",
     "short": null,
     "description": null,
@@ -14030,9 +14391,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9678,
+    "id": 9685,
     "name": "Void 2-delig met draaideur op glas",
-    "slug": "void-2-delig-met-draaideur-op-glas-9678",
+    "slug": "void-2-delig-met-draaideur-op-glas-9685",
     "sku": "BRA-VOID-2-DELIG-MET-DRAAIDEUR-OP-GLAS-NVUQ",
     "short": null,
     "description": null,
@@ -14089,9 +14450,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9679,
+    "id": 9686,
     "name": "Void 2-delig met draaideur op muur",
-    "slug": "void-2-delig-met-draaideur-op-muur-9679",
+    "slug": "void-2-delig-met-draaideur-op-muur-9686",
     "sku": "BRA-VOID-2-DELIG-MET-DRAAIDEUR-OP-MUUR-NVZK",
     "short": null,
     "description": null,
@@ -14148,9 +14509,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9680,
+    "id": 9687,
     "name": "Void Carving 2-delig met draaideur",
-    "slug": "void-carving-2-delig-met-draaideur-9680",
+    "slug": "void-carving-2-delig-met-draaideur-9687",
     "sku": "BRA-VOID-CARVING-2-DELIG-MET-DRAAIDEUR-1SNF",
     "short": null,
     "description": null,
@@ -14207,9 +14568,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9681,
+    "id": 9688,
     "name": "Void Carving 2-delig met draaideur op glas",
-    "slug": "void-carving-2-delig-met-draaideur-op-glas-9681",
+    "slug": "void-carving-2-delig-met-draaideur-op-glas-9688",
     "sku": "BRA-VOID-CARVING-2-DELIG-MET-DRAAIDEUR-OP-GL-12KP",
     "short": null,
     "description": null,
@@ -14266,9 +14627,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9682,
+    "id": 9689,
     "name": "Void Carving 2-delig met draaideur op muur",
-    "slug": "void-carving-2-delig-met-draaideur-op-muur-9682",
+    "slug": "void-carving-2-delig-met-draaideur-op-muur-9689",
     "sku": "BRA-VOID-CARVING-2-DELIG-MET-DRAAIDEUR-OP-MU-12KU",
     "short": null,
     "description": null,
@@ -14325,9 +14686,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9683,
+    "id": 9690,
     "name": "Void Carving met draaideur",
-    "slug": "void-carving-met-draaideur-9683",
+    "slug": "void-carving-met-draaideur-9690",
     "sku": "BRA-VOID-CARVING-MET-DRAAIDEUR-1AAL",
     "short": null,
     "description": null,
@@ -14384,9 +14745,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9684,
+    "id": 9691,
     "name": "Void Carving met pendeldeuren",
-    "slug": "void-carving-met-pendeldeuren-9684",
+    "slug": "void-carving-met-pendeldeuren-9691",
     "sku": "BRA-VOID-CARVING-MET-PENDELDEUREN-19TS",
     "short": null,
     "description": null,
@@ -14443,9 +14804,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9685,
+    "id": 9692,
     "name": "Void inloopdouche helder glas met 30 zijwand incl. glascoating",
-    "slug": "void-inloopdouche-helder-glas-met-30-zijwand-incl-glascoating-9685",
+    "slug": "void-inloopdouche-helder-glas-met-30-zijwand-incl-glascoating-9692",
     "sku": "BRA-VOID-INLOOPDOUCHE-HELDER-GLAS-MET-30-ZIJ-CJ4K",
     "short": null,
     "description": null,
@@ -14498,9 +14859,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9686,
+    "id": 9693,
     "name": "Void inloopdouche helder glas met 40 zijwand incl. glascoating",
-    "slug": "void-inloopdouche-helder-glas-met-40-zijwand-incl-glascoating-9686",
+    "slug": "void-inloopdouche-helder-glas-met-40-zijwand-incl-glascoating-9693",
     "sku": "BRA-VOID-INLOOPDOUCHE-HELDER-GLAS-MET-40-ZIJ-1CRQ",
     "short": null,
     "description": null,
@@ -14553,9 +14914,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9687,
+    "id": 9694,
     "name": "Void met draaideur",
-    "slug": "void-met-draaideur-9687",
+    "slug": "void-met-draaideur-9694",
     "sku": "BRA-VOID-MET-DRAAIDEUR-3TD6",
     "short": null,
     "description": null,
@@ -14612,9 +14973,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9688,
+    "id": 9695,
     "name": "Void met pendeldeuren",
-    "slug": "void-met-pendeldeuren-9688",
+    "slug": "void-met-pendeldeuren-9695",
     "sku": "BRA-VOID-MET-PENDELDEUREN-L815",
     "short": null,
     "description": null,
@@ -14671,9 +15032,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9689,
+    "id": 9696,
     "name": "Void met zijwand",
-    "slug": "void-met-zijwand-9689",
+    "slug": "void-met-zijwand-9696",
     "sku": "BRA-VOID-MET-ZIJWAND-UFS9",
     "short": null,
     "description": null,
@@ -14727,6 +15088,87 @@ export const catalogProducts: CatalogProduct[] = [
         ]
       }
     ],
+    "variants": []
+  },
+  {
+    "id": 9697,
+    "name": "Wanddeel",
+    "slug": "wanddeel-9697",
+    "sku": "BRA-WANDDEEL-1X0W",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1CE.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchewanden",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1MZ.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GG.jpg"
+          },
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1CE.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1NG.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS3GM.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS1GK.jpg"
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9698,
+    "name": "Wirquin Douchebaksifon extra ondiep",
+    "slug": "wirquin-douchebaksifon-extra-ondiep-9698",
+    "sku": "BRA-WIRQUIN-DOUCHEBAKSIFON-EXTRA-ONDIEP-UIZA",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Douchebakken",
+    "optionAxes": null,
     "variants": []
   }
 ];

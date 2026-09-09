@@ -165,19 +165,14 @@
         "label": "Kleur",
         "values": [
           {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GG.jpg"
-          },
-          {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GM.jpg"
           },
           {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GK.jpg"
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1MZ.jpg"
           },
           {
             "value": "Geborsteld RVS",
@@ -185,25 +180,19 @@
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1NG.jpg"
           },
           {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1MZ.jpg"
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GG.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GK.jpg"
           }
         ]
       }
     ],
     "combinations": [
-      {
-        "sku": "BRA-AE-SFWQ1",
-        "options": {},
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1_3.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-SFWQ1_4.jpg"
-        ]
-      },
       {
         "sku": "BRA-AE-AR1MZ",
         "options": {
@@ -267,7 +256,25 @@
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1MW_1.jpg",
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1MW_2.jpg"
         ]
-      },
+      }
+    ]
+  },
+  {
+    "product_id": 9580,
+    "axes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1MZ.jpg"
+          }
+        ]
+      }
+    ],
+    "combinations": [
       {
         "sku": "BRA-DB-AS8080MW",
         "options": {},
@@ -721,7 +728,7 @@
     ]
   },
   {
-    "product_id": 9580,
+    "product_id": 9581,
     "axes": [
       {
         "key": "kleur",
@@ -890,7 +897,7 @@
     ]
   },
   {
-    "product_id": 9581,
+    "product_id": 9582,
     "axes": [
       {
         "key": "kleur",
@@ -1065,7 +1072,7 @@
     ]
   },
   {
-    "product_id": 9582,
+    "product_id": 9583,
     "axes": [
       {
         "key": "kleur",
@@ -1174,7 +1181,7 @@
     ]
   },
   {
-    "product_id": 9583,
+    "product_id": 9584,
     "axes": [
       {
         "key": "kleur",
@@ -1186,9 +1193,196 @@
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6.jpg"
           },
           {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6.jpg"
+          },
+          {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65.jpg"
+          }
+        ]
+      }
+    ],
+    "combinations": [
+      {
+        "sku": "BRA-5-CE-083-B6-65",
+        "options": {
+          "kleur": "Chroom"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6-65.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6-65_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6-65_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6-65_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-CE-083-B6",
+        "options": {
+          "kleur": "Chroom"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-S-083-B6-65",
+        "options": {
+          "kleur": "Mat zwart"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6-65.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6-65_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6-65_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6-65_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-S-083-B6",
+        "options": {
+          "kleur": "Mat zwart"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-GK-083-B6-65",
+        "options": {
+          "kleur": "Geborsteld koper"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6-65.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6-65_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6-65_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6-65_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-GK-083-B6",
+        "options": {
+          "kleur": "Geborsteld koper"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-NG-083-B6-65",
+        "options": {
+          "kleur": "Geborsteld RVS"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-NG-083-B6",
+        "options": {
+          "kleur": "Geborsteld RVS"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-GM-083-B6-65",
+        "options": {
+          "kleur": "Geborsteld gunmetal"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6-65.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6-65_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6-65_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6-65_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-GM-083-B6",
+        "options": {
+          "kleur": "Geborsteld gunmetal"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-GG-083-B6-65",
+        "options": {
+          "kleur": "Geborsteld goud"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6-65.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6-65_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6-65_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6-65_3.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-GG-083-B6",
+        "options": {
+          "kleur": "Geborsteld goud"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6_1.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6_2.jpg",
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6_3.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": 9585,
+    "axes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -1201,14 +1395,14 @@
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65.jpg"
           },
           {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6.jpg"
+          },
+          {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg"
           }
         ]
       }
@@ -1357,155 +1551,11 @@
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6_2.jpg",
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6_3.jpg"
         ]
-      },
-      {
-        "sku": "BRA-5-CE-083-B6-65",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6-65.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6-65_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6-65_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6-65_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-CE-083-B6",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-S-083-B6-65",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6-65.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6-65_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6-65_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6-65_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-S-083-B6",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GK-083-B6-65",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6-65.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6-65_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6-65_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6-65_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GK-083-B6",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-NG-083-B6-65",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-NG-083-B6",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GM-083-B6-65",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6-65.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6-65_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6-65_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6-65_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GM-083-B6",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GG-083-B6-65",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6-65.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6-65_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6-65_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6-65_3.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GG-083-B6",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6_1.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6_2.jpg",
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6_3.jpg"
-        ]
       }
     ]
   },
   {
-    "product_id": 9584,
+    "product_id": 9586,
     "axes": [
       {
         "key": "kleur",
@@ -1836,7 +1886,7 @@
     ]
   },
   {
-    "product_id": 9585,
+    "product_id": 9587,
     "axes": [
       {
         "key": "kleur",
@@ -1945,7 +1995,7 @@
     ]
   },
   {
-    "product_id": 9586,
+    "product_id": 9588,
     "axes": [
       {
         "key": "kleur",
@@ -2054,7 +2104,7 @@
     ]
   },
   {
-    "product_id": 9587,
+    "product_id": 9589,
     "axes": [
       {
         "key": "kleur",
@@ -2218,7 +2268,7 @@
     ]
   },
   {
-    "product_id": 9588,
+    "product_id": 9590,
     "axes": [
       {
         "key": "kleur",
@@ -2669,7 +2719,7 @@
     ]
   },
   {
-    "product_id": 9589,
+    "product_id": 9591,
     "axes": [
       {
         "key": "kleur",
@@ -3120,7 +3170,7 @@
     ]
   },
   {
-    "product_id": 9590,
+    "product_id": 9592,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -6256,7 +6306,7 @@
     ]
   },
   {
-    "product_id": 9591,
+    "product_id": 9593,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -9392,7 +9442,7 @@
     ]
   },
   {
-    "product_id": 9592,
+    "product_id": 9594,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -12528,7 +12578,7 @@
     ]
   },
   {
-    "product_id": 9593,
+    "product_id": 9595,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -15664,7 +15714,7 @@
     ]
   },
   {
-    "product_id": 9594,
+    "product_id": 9596,
     "axes": [
       {
         "key": "glijstang",
@@ -16147,7 +16197,7 @@
     ]
   },
   {
-    "product_id": 9595,
+    "product_id": 9597,
     "axes": [
       {
         "key": "handdouche",
@@ -16410,7 +16460,7 @@
     ]
   },
   {
-    "product_id": 9596,
+    "product_id": 9598,
     "axes": [
       {
         "key": "handdouche",
@@ -16916,7 +16966,7 @@
     ]
   },
   {
-    "product_id": 9597,
+    "product_id": 9599,
     "axes": [
       {
         "key": "kleur",
@@ -17031,7 +17081,7 @@
     ]
   },
   {
-    "product_id": 9598,
+    "product_id": 9600,
     "axes": [
       {
         "key": "handdouche",
@@ -17258,7 +17308,7 @@
     ]
   },
   {
-    "product_id": 9599,
+    "product_id": 9601,
     "axes": [
       {
         "key": "kleur",
@@ -17517,7 +17567,7 @@
     ]
   },
   {
-    "product_id": 9600,
+    "product_id": 9602,
     "axes": [
       {
         "key": "kleur",
@@ -18284,7 +18334,7 @@
     ]
   },
   {
-    "product_id": 9601,
+    "product_id": 9603,
     "axes": [
       {
         "key": "kleur",
@@ -18543,7 +18593,7 @@
     ]
   },
   {
-    "product_id": 9602,
+    "product_id": 9604,
     "axes": [
       {
         "key": "kleur",
@@ -18599,34 +18649,6 @@
         ]
       },
       {
-        "sku": "BRA-5-GG-147",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147_1.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GG-008",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-008.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-008_1.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-CF-147",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
         "sku": "BRA-5-GG-159",
         "options": {
           "kleur": "Geborsteld goud"
@@ -18635,14 +18657,6 @@
         "images": [
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-159_1.jpg"
         ]
-      },
-      {
-        "sku": "BRA-5-CF-008",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
       },
       {
         "sku": "BRA-5-CF-159",
@@ -18660,26 +18674,6 @@
         "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-009.jpg",
         "images": [
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-009_1.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-S-147",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-147.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-147_1.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-S-008",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-008.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-008_1.jpg"
         ]
       },
       {
@@ -18703,32 +18697,12 @@
         ]
       },
       {
-        "sku": "BRA-5-CE-147",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-147.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-147_1.jpg"
-        ]
-      },
-      {
         "sku": "BRA-5-CF-009",
         "options": {
           "kleur": "Coffee"
         },
         "image": null,
         "images": null
-      },
-      {
-        "sku": "BRA-5-CE-008",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-008.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-008_1.jpg"
-        ]
       },
       {
         "sku": "BRA-5-CE-159",
@@ -18748,26 +18722,6 @@
         "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-009.jpg",
         "images": [
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-009_1.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GM-147",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-147.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-147_1.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GM-008",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-008.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-008_1.jpg"
         ]
       },
       {
@@ -18791,26 +18745,6 @@
         ]
       },
       {
-        "sku": "BRA-5-NG-147",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147_1.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-NG-008",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-008.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-008_1.jpg"
-        ]
-      },
-      {
         "sku": "BRA-5-NG-159",
         "options": {
           "kleur": "Geborsteld RVS"
@@ -18828,26 +18762,6 @@
         "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-009.jpg",
         "images": [
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-009_1.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GK-147",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-147.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-147_1.jpg"
-        ]
-      },
-      {
-        "sku": "BRA-5-GK-008",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-008.jpg",
-        "images": [
-          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-008_1.jpg"
         ]
       },
       {
@@ -18947,7 +18861,123 @@
     ]
   },
   {
-    "product_id": 9603,
+    "product_id": 9605,
+    "axes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147.jpg"
+          },
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-159.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-159.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-159.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-159.jpg"
+          }
+        ]
+      }
+    ],
+    "combinations": [
+      {
+        "sku": "BRA-5-GG-147",
+        "options": {
+          "kleur": "Geborsteld goud"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-CF-147",
+        "options": {
+          "kleur": "Coffee"
+        },
+        "image": null,
+        "images": null
+      },
+      {
+        "sku": "BRA-5-S-147",
+        "options": {
+          "kleur": "Mat zwart"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-147.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-147_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-CE-147",
+        "options": {
+          "kleur": "Chroom"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-147.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-147_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-GM-147",
+        "options": {
+          "kleur": "Geborsteld gunmetal"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-147.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-147_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-NG-147",
+        "options": {
+          "kleur": "Geborsteld RVS"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-GK-147",
+        "options": {
+          "kleur": "Geborsteld koper"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-147.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-147_1.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": 9607,
     "axes": [
       {
         "key": "kleur",
@@ -19171,7 +19201,7 @@
     ]
   },
   {
-    "product_id": 9604,
+    "product_id": 9608,
     "axes": [
       {
         "key": "kleur",
@@ -19800,7 +19830,7 @@
     ]
   },
   {
-    "product_id": 9605,
+    "product_id": 9609,
     "axes": [
       {
         "key": "lengte",
@@ -19927,7 +19957,7 @@
     ]
   },
   {
-    "product_id": 9606,
+    "product_id": 9610,
     "axes": [
       {
         "key": "lengte",
@@ -19997,7 +20027,7 @@
     ]
   },
   {
-    "product_id": 9607,
+    "product_id": 9611,
     "axes": [
       {
         "key": "kleur",
@@ -20137,7 +20167,7 @@
     ]
   },
   {
-    "product_id": 9608,
+    "product_id": 9612,
     "axes": [
       {
         "key": "kleur",
@@ -20277,7 +20307,7 @@
     ]
   },
   {
-    "product_id": 9609,
+    "product_id": 9613,
     "axes": [
       {
         "key": "kleur",
@@ -20422,7 +20452,7 @@
     ]
   },
   {
-    "product_id": 9610,
+    "product_id": 9614,
     "axes": [
       {
         "key": "kleur",
@@ -20594,7 +20624,7 @@
     ]
   },
   {
-    "product_id": 9611,
+    "product_id": 9615,
     "axes": [
       {
         "key": "kleur",
@@ -21018,7 +21048,7 @@
     ]
   },
   {
-    "product_id": 9612,
+    "product_id": 9616,
     "axes": [
       {
         "key": "kleur",
@@ -21134,7 +21164,7 @@
     ]
   },
   {
-    "product_id": 9613,
+    "product_id": 9617,
     "axes": [
       {
         "key": "kleur",
@@ -21250,7 +21280,7 @@
     ]
   },
   {
-    "product_id": 9614,
+    "product_id": 9618,
     "axes": [
       {
         "key": "kleur",
@@ -22613,7 +22643,7 @@
     ]
   },
   {
-    "product_id": 9615,
+    "product_id": 9619,
     "axes": [
       {
         "key": "kleur",
@@ -23976,7 +24006,7 @@
     ]
   },
   {
-    "product_id": 9616,
+    "product_id": 9620,
     "axes": [
       {
         "key": "kleur",
@@ -24403,7 +24433,7 @@
     ]
   },
   {
-    "product_id": 9617,
+    "product_id": 9621,
     "axes": [
       {
         "key": "kleur",
@@ -24519,7 +24549,7 @@
     ]
   },
   {
-    "product_id": 9618,
+    "product_id": 9622,
     "axes": [
       {
         "key": "kleur",
@@ -24635,7 +24665,7 @@
     ]
   },
   {
-    "product_id": 9619,
+    "product_id": 9623,
     "axes": [
       {
         "key": "kleur",
@@ -25083,7 +25113,7 @@
     ]
   },
   {
-    "product_id": 9620,
+    "product_id": 9624,
     "axes": [
       {
         "key": "kleur",
@@ -25510,7 +25540,7 @@
     ]
   },
   {
-    "product_id": 9621,
+    "product_id": 9625,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -28646,7 +28676,7 @@
     ]
   },
   {
-    "product_id": 9622,
+    "product_id": 9626,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -31782,7 +31812,7 @@
     ]
   },
   {
-    "product_id": 9623,
+    "product_id": 9627,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -35211,7 +35241,7 @@
     ]
   },
   {
-    "product_id": 9624,
+    "product_id": 9628,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -38347,7 +38377,7 @@
     ]
   },
   {
-    "product_id": 9625,
+    "product_id": 9629,
     "axes": [
       {
         "key": "glijstang",
@@ -38831,7 +38861,7 @@
     ]
   },
   {
-    "product_id": 9626,
+    "product_id": 9630,
     "axes": [
       {
         "key": "handdouche",
@@ -39096,7 +39126,7 @@
     ]
   },
   {
-    "product_id": 9627,
+    "product_id": 9631,
     "axes": [
       {
         "key": "handdouche",
@@ -39624,7 +39654,7 @@
     ]
   },
   {
-    "product_id": 9628,
+    "product_id": 9632,
     "axes": [
       {
         "key": "kleur",
@@ -40081,7 +40111,7 @@
     ]
   },
   {
-    "product_id": 9629,
+    "product_id": 9633,
     "axes": [
       {
         "key": "handdouche",
@@ -40319,7 +40349,7 @@
     ]
   },
   {
-    "product_id": 9630,
+    "product_id": 9634,
     "axes": [
       {
         "key": "kleur",
@@ -40423,7 +40453,7 @@
     ]
   },
   {
-    "product_id": 9631,
+    "product_id": 9635,
     "axes": [
       {
         "key": "kleur",
@@ -40610,7 +40640,7 @@
     ]
   },
   {
-    "product_id": 9632,
+    "product_id": 9636,
     "axes": [
       {
         "key": "kleur",
@@ -40797,7 +40827,98 @@
     ]
   },
   {
-    "product_id": 9633,
+    "product_id": 9637,
+    "axes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1NG.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1MZ.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS3GM.jpg"
+          },
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1CE.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GG.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS1GK.jpg"
+          }
+        ]
+      }
+    ],
+    "combinations": [
+      {
+        "sku": "BRA-GB-GD1CE",
+        "options": {
+          "kleur": "Chroom"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1CE.jpg",
+        "images": null
+      },
+      {
+        "sku": "BRA-GB-GD1MZ",
+        "options": {
+          "kleur": "Mat zwart"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1MZ.jpg",
+        "images": null
+      },
+      {
+        "sku": "BRA-GB-GD1NG",
+        "options": {
+          "kleur": "Geborsteld RVS"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1NG.jpg",
+        "images": null
+      },
+      {
+        "sku": "BRA-GB-GD1GM",
+        "options": {
+          "kleur": "Geborsteld gunmetal"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1GM.jpg",
+        "images": null
+      },
+      {
+        "sku": "BRA-GB-GD1GG",
+        "options": {
+          "kleur": "Geborsteld goud"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1GG.jpg",
+        "images": null
+      },
+      {
+        "sku": "BRA-GB-GD1GK",
+        "options": {
+          "kleur": "Geborsteld koper"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1GK.jpg",
+        "images": null
+      }
+    ]
+  },
+  {
+    "product_id": 9638,
     "axes": [
       {
         "key": "kleur",
@@ -40925,7 +41046,7 @@
     ]
   },
   {
-    "product_id": 9634,
+    "product_id": 9639,
     "axes": [
       {
         "key": "kleur",
@@ -41383,7 +41504,7 @@
     ]
   },
   {
-    "product_id": 9635,
+    "product_id": 9640,
     "axes": [
       {
         "key": "kleur",
@@ -41484,7 +41605,7 @@
     ]
   },
   {
-    "product_id": 9636,
+    "product_id": 9641,
     "axes": [
       {
         "key": "kleur",
@@ -41762,7 +41883,123 @@
     ]
   },
   {
-    "product_id": 9637,
+    "product_id": 9642,
+    "axes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-159.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-147.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
+          },
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-159.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-159.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-159.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-147.jpg"
+          }
+        ]
+      }
+    ],
+    "combinations": [
+      {
+        "sku": "BRA-5-GG-008",
+        "options": {
+          "kleur": "Geborsteld goud"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-008.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-008_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-CF-008",
+        "options": {
+          "kleur": "Coffee"
+        },
+        "image": null,
+        "images": null
+      },
+      {
+        "sku": "BRA-5-S-008",
+        "options": {
+          "kleur": "Mat zwart"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-008.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-008_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-CE-008",
+        "options": {
+          "kleur": "Chroom"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-008.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-008_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-GM-008",
+        "options": {
+          "kleur": "Geborsteld gunmetal"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-008.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-008_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-NG-008",
+        "options": {
+          "kleur": "Geborsteld RVS"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-008.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-008_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-5-GK-008",
+        "options": {
+          "kleur": "Geborsteld koper"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-008.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-008_1.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": 9643,
     "axes": [
       {
         "key": "kleur",
@@ -41961,7 +42198,7 @@
     ]
   },
   {
-    "product_id": 9638,
+    "product_id": 9644,
     "axes": [
       {
         "key": "kleur",
@@ -42160,7 +42397,7 @@
     ]
   },
   {
-    "product_id": 9639,
+    "product_id": 9645,
     "axes": [
       {
         "key": "kleur",
@@ -42500,7 +42737,7 @@
     ]
   },
   {
-    "product_id": 9640,
+    "product_id": 9646,
     "axes": [
       {
         "key": "kleur",
@@ -43623,7 +43860,7 @@
     ]
   },
   {
-    "product_id": 9641,
+    "product_id": 9647,
     "axes": [
       {
         "key": "kleur",
@@ -43882,7 +44119,7 @@
     ]
   },
   {
-    "product_id": 9642,
+    "product_id": 9648,
     "axes": [
       {
         "key": "kleur",
@@ -44141,7 +44378,7 @@
     ]
   },
   {
-    "product_id": 9643,
+    "product_id": 9649,
     "axes": [
       {
         "key": "kleur",
@@ -45264,7 +45501,7 @@
     ]
   },
   {
-    "product_id": 9644,
+    "product_id": 9650,
     "axes": [
       {
         "key": "kleur",
@@ -45739,7 +45976,7 @@
     ]
   },
   {
-    "product_id": 9645,
+    "product_id": 9651,
     "axes": [
       {
         "key": "kleur",
@@ -45855,7 +46092,7 @@
     ]
   },
   {
-    "product_id": 9646,
+    "product_id": 9652,
     "axes": [
       {
         "key": "kleur",
@@ -45983,7 +46220,7 @@
     ]
   },
   {
-    "product_id": 9647,
+    "product_id": 9653,
     "axes": [
       {
         "key": "kleur",
@@ -46362,7 +46599,7 @@
     ]
   },
   {
-    "product_id": 9648,
+    "product_id": 9654,
     "axes": [
       {
         "key": "kleur",
@@ -47413,7 +47650,7 @@
     ]
   },
   {
-    "product_id": 9649,
+    "product_id": 9655,
     "axes": [
       {
         "key": "kleur",
@@ -47621,7 +47858,7 @@
     ]
   },
   {
-    "product_id": 9650,
+    "product_id": 9656,
     "axes": [
       {
         "key": "kleur",
@@ -47988,7 +48225,7 @@
     ]
   },
   {
-    "product_id": 9651,
+    "product_id": 9657,
     "axes": [
       {
         "key": "kleur",
@@ -48148,7 +48385,7 @@
     ]
   },
   {
-    "product_id": 9652,
+    "product_id": 9658,
     "axes": [
       {
         "key": "kleur",
@@ -48323,7 +48560,7 @@
     ]
   },
   {
-    "product_id": 9653,
+    "product_id": 9659,
     "axes": [
       {
         "key": "kleur",
@@ -48558,7 +48795,7 @@
     ]
   },
   {
-    "product_id": 9654,
+    "product_id": 9660,
     "axes": [
       {
         "key": "kleur",
@@ -48793,7 +49030,7 @@
     ]
   },
   {
-    "product_id": 9655,
+    "product_id": 9661,
     "axes": [
       {
         "key": "kleur",
@@ -49208,7 +49445,7 @@
     ]
   },
   {
-    "product_id": 9656,
+    "product_id": 9662,
     "axes": [
       {
         "key": "kleur",
@@ -49767,7 +50004,7 @@
     ]
   },
   {
-    "product_id": 9657,
+    "product_id": 9663,
     "axes": [
       {
         "key": "kleur",
@@ -50386,7 +50623,7 @@
     ]
   },
   {
-    "product_id": 9658,
+    "product_id": 9664,
     "axes": [
       {
         "key": "kleur",
@@ -50567,7 +50804,7 @@
     ]
   },
   {
-    "product_id": 9659,
+    "product_id": 9665,
     "axes": [
       {
         "key": "kleur",
@@ -50719,7 +50956,7 @@
     ]
   },
   {
-    "product_id": 9660,
+    "product_id": 9666,
     "axes": [
       {
         "key": "kleur",
@@ -50927,7 +51164,7 @@
     ]
   },
   {
-    "product_id": 9661,
+    "product_id": 9667,
     "axes": [
       {
         "key": "kleur",
@@ -51211,7 +51448,7 @@
     ]
   },
   {
-    "product_id": 9662,
+    "product_id": 9668,
     "axes": [
       {
         "key": "kleur",
@@ -51662,7 +51899,7 @@
     ]
   },
   {
-    "product_id": 9663,
+    "product_id": 9669,
     "axes": [
       {
         "key": "kleur",
@@ -52113,7 +52350,7 @@
     ]
   },
   {
-    "product_id": 9664,
+    "product_id": 9670,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -53649,7 +53886,7 @@
     ]
   },
   {
-    "product_id": 9665,
+    "product_id": 9671,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -55185,7 +55422,7 @@
     ]
   },
   {
-    "product_id": 9666,
+    "product_id": 9672,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -56721,7 +56958,7 @@
     ]
   },
   {
-    "product_id": 9667,
+    "product_id": 9673,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -58254,7 +58491,7 @@
     ]
   },
   {
-    "product_id": 9668,
+    "product_id": 9674,
     "axes": [
       {
         "key": "glijstang",
@@ -58731,7 +58968,7 @@
     ]
   },
   {
-    "product_id": 9669,
+    "product_id": 9675,
     "axes": [
       {
         "key": "glijstang",
@@ -59226,7 +59463,7 @@
     ]
   },
   {
-    "product_id": 9670,
+    "product_id": 9676,
     "axes": [
       {
         "key": "kleur",
@@ -59425,7 +59662,7 @@
     ]
   },
   {
-    "product_id": 9671,
+    "product_id": 9677,
     "axes": [
       {
         "key": "kleur",
@@ -59529,7 +59766,7 @@
     ]
   },
   {
-    "product_id": 9672,
+    "product_id": 9678,
     "axes": [
       {
         "key": "kleur",
@@ -59841,7 +60078,110 @@
     ]
   },
   {
-    "product_id": 9673,
+    "product_id": 9679,
+    "axes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1MZ.jpg"
+          },
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1CE.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1NG.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GG.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS1GK.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS3GM.jpg"
+          }
+        ]
+      }
+    ],
+    "combinations": [
+      {
+        "sku": "BRA-GB-TK1CE",
+        "options": {
+          "kleur": "Chroom"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1CE.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1CE_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-GB-TK1MZ",
+        "options": {
+          "kleur": "Mat zwart"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1MZ.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1MZ_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-GB-TK1NG",
+        "options": {
+          "kleur": "Geborsteld RVS"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1NG.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1NG_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-GB-TK1GM",
+        "options": {
+          "kleur": "Geborsteld gunmetal"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GM.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GM_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-GB-TK1GG",
+        "options": {
+          "kleur": "Geborsteld goud"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GG.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GG_1.jpg"
+        ]
+      },
+      {
+        "sku": "BRA-GB-TK1GK",
+        "options": {
+          "kleur": "Geborsteld koper"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GK.jpg",
+        "images": [
+          "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-TK1GK_1.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": 9680,
     "axes": [
       {
         "key": "lengte",
@@ -60106,7 +60446,7 @@
     ]
   },
   {
-    "product_id": 9674,
+    "product_id": 9681,
     "axes": [
       {
         "key": "kleur",
@@ -60258,7 +60598,7 @@
     ]
   },
   {
-    "product_id": 9675,
+    "product_id": 9682,
     "axes": [
       {
         "key": "kleur",
@@ -60398,7 +60738,7 @@
     ]
   },
   {
-    "product_id": 9676,
+    "product_id": 9683,
     "axes": [
       {
         "key": "glassoort",
@@ -61393,7 +61733,7 @@
     ]
   },
   {
-    "product_id": 9677,
+    "product_id": 9684,
     "axes": [
       {
         "key": "kleur",
@@ -62273,7 +62613,7 @@
     ]
   },
   {
-    "product_id": 9678,
+    "product_id": 9685,
     "axes": [
       {
         "key": "kleur",
@@ -63093,7 +63433,7 @@
     ]
   },
   {
-    "product_id": 9679,
+    "product_id": 9686,
     "axes": [
       {
         "key": "kleur",
@@ -64144,7 +64484,7 @@
     ]
   },
   {
-    "product_id": 9680,
+    "product_id": 9687,
     "axes": [
       {
         "key": "kleur",
@@ -65027,7 +65367,7 @@
     ]
   },
   {
-    "product_id": 9681,
+    "product_id": 9688,
     "axes": [
       {
         "key": "kleur",
@@ -65850,7 +66190,7 @@
     ]
   },
   {
-    "product_id": 9682,
+    "product_id": 9689,
     "axes": [
       {
         "key": "kleur",
@@ -66901,7 +67241,7 @@
     ]
   },
   {
-    "product_id": 9683,
+    "product_id": 9690,
     "axes": [
       {
         "key": "kleur",
@@ -67304,7 +67644,7 @@
     ]
   },
   {
-    "product_id": 9684,
+    "product_id": 9691,
     "axes": [
       {
         "key": "kleur",
@@ -67419,7 +67759,7 @@
     ]
   },
   {
-    "product_id": 9685,
+    "product_id": 9692,
     "axes": [
       {
         "key": "kleur",
@@ -67500,7 +67840,7 @@
     ]
   },
   {
-    "product_id": 9686,
+    "product_id": 9693,
     "axes": [
       {
         "key": "kleur",
@@ -67581,7 +67921,7 @@
     ]
   },
   {
-    "product_id": 9687,
+    "product_id": 9694,
     "axes": [
       {
         "key": "kleur",
@@ -67984,7 +68324,7 @@
     ]
   },
   {
-    "product_id": 9688,
+    "product_id": 9695,
     "axes": [
       {
         "key": "kleur",
@@ -68387,7 +68727,7 @@
     ]
   },
   {
-    "product_id": 9689,
+    "product_id": 9696,
     "axes": [
       {
         "key": "kleur",
@@ -69284,6 +69624,97 @@
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200GG_3.jpg",
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200GG_4.jpg"
         ]
+      }
+    ]
+  },
+  {
+    "product_id": 9697,
+    "axes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1MZ.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GG.jpg"
+          },
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1CE.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-GD1NG.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS3GM.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-SS1GK.jpg"
+          }
+        ]
+      }
+    ],
+    "combinations": [
+      {
+        "sku": "BRA-GB-WD1CE",
+        "options": {
+          "kleur": "Chroom"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1CE.jpg",
+        "images": null
+      },
+      {
+        "sku": "BRA-GB-WD1MZ",
+        "options": {
+          "kleur": "Mat zwart"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1MZ.jpg",
+        "images": null
+      },
+      {
+        "sku": "BRA-GB-WD1NG",
+        "options": {
+          "kleur": "Geborsteld RVS"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1NG.jpg",
+        "images": null
+      },
+      {
+        "sku": "BRA-GB-WD1GM",
+        "options": {
+          "kleur": "Geborsteld gunmetal"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GM.jpg",
+        "images": null
+      },
+      {
+        "sku": "BRA-GB-WD1GG",
+        "options": {
+          "kleur": "Geborsteld goud"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GG.jpg",
+        "images": null
+      },
+      {
+        "sku": "BRA-GB-WD1GK",
+        "options": {
+          "kleur": "Geborsteld koper"
+        },
+        "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GB-WD1GK.jpg",
+        "images": null
       }
     ]
   }
