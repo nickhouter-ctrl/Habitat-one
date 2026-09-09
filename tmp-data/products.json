@@ -4859,23 +4859,6 @@
     "collection": "bathroom"
   },
   {
-    "id": 9626,
-    "name": "Edition Inbouw thermostaten met stopkranen",
-    "slug": "edition-inbouw-thermostaten-met-stopkranen-9626",
-    "sku": "BRA-EDITION-INBOUW-THERMOSTATEN-MET-STOPKRAN-HTP4",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Edition",
-    "product_type": "Thermostaten",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-088.jpg",
-    "collection": "bathroom"
-  },
-  {
     "id": 9628,
     "name": "Edition inbouw wastafelmengkraan",
     "slug": "edition-inbouw-wastafelmengkraan-9628",
@@ -4924,6 +4907,23 @@
     "series": "Edition",
     "product_type": "Thermostaten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-229.jpg",
+    "collection": "bathroom"
+  },
+  {
+    "id": 9694,
+    "name": "Edition opbouw douche thermostaatkraan",
+    "slug": "edition-opbouw-douche-thermostaatkraan-9694",
+    "sku": "BRA-STRIPE-OPBOUW-THERMOSTATEN-1EN9",
+    "description": null,
+    "description_i18n": null,
+    "short_description": null,
+    "thumbnail_path": null,
+    "featured": false,
+    "stock_unit": "Pcs",
+    "brand": "brauer",
+    "series": "Stripe",
+    "product_type": "Thermostaten",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-234.jpg",
     "collection": "bathroom"
   },
   {
@@ -5165,6 +5165,23 @@
     "collection": "bathroom"
   },
   {
+    "id": 9652,
+    "name": "Glijstang",
+    "slug": "glijstang-9652",
+    "sku": "BRA-5-NG-5513-GLIJSTANG-DE59",
+    "description": null,
+    "description_i18n": null,
+    "short_description": null,
+    "thumbnail_path": null,
+    "featured": false,
+    "stock_unit": "Pcs",
+    "brand": "brauer",
+    "series": "Stripe",
+    "product_type": "Glijstangen",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5513.jpg",
+    "collection": "bathroom"
+  },
+  {
     "id": 9653,
     "name": "Glijstang met geïntegreerde wateruitlaat",
     "slug": "glijstang-met-geintegreerde-wateruitlaat-9653",
@@ -5231,23 +5248,6 @@
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-220.jpg",
     "collection": "accessories"
-  },
-  {
-    "id": 9652,
-    "name": "Handdouche",
-    "slug": "handdouche-9652",
-    "sku": "BRA-5-NG-5513-GLIJSTANG-DE59",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Stripe",
-    "product_type": "Glijstangen",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5513.jpg",
-    "collection": "bathroom"
   },
   {
     "id": 9677,
@@ -5710,8 +5710,8 @@
   },
   {
     "id": 9687,
-    "name": "Stripe lage opbouw wastafelmengkraan model A",
-    "slug": "stripe-lage-opbouw-wastafelmengkraan-model-a-9687",
+    "name": "Stripe lage opbouw wastafelmengkraan",
+    "slug": "stripe-lage-opbouw-wastafelmengkraan-9687",
     "sku": "BRA-001-STRIPE-LAGE-OPBOUW-WASTAFELMENGKRAAN-1ESF",
     "description": null,
     "description_i18n": null,
@@ -5808,23 +5808,6 @@
     "series": "Stripe",
     "product_type": "Fonteinkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-464.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9694,
-    "name": "Stripe Opbouw thermostaten",
-    "slug": "stripe-opbouw-thermostaten-9694",
-    "sku": "BRA-STRIPE-OPBOUW-THERMOSTATEN-1EN9",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Stripe",
-    "product_type": "Thermostaten",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-234.jpg",
     "collection": "bathroom"
   },
   {
@@ -5965,8 +5948,8 @@
   },
   {
     "id": 9711,
-    "name": "Stripe verhoogde opbouw wastafelmengkraan model A",
-    "slug": "stripe-verhoogde-opbouw-wastafelmengkraan-model-a-9711",
+    "name": "Stripe verhoogde opbouw wastafelmengkraan",
+    "slug": "stripe-verhoogde-opbouw-wastafelmengkraan-9711",
     "sku": "BRA-STRIPE-LAGE-OPBOUW-WASTAFELMENGKRAAN-1DG5",
     "description": null,
     "description_i18n": null,
@@ -6182,40 +6165,6 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN4H100200CE.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9725,
-    "name": "Void inloopdouche helder glas met 30 zijwand incl. glascoating",
-    "slug": "void-inloopdouche-helder-glas-met-30-zijwand-incl-glascoating-9725",
-    "sku": "BRA-VOID-INLOOPDOUCHE-HELDER-GLAS-MET-30-ZIJ-CJ4K",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": null,
-    "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK.jpg",
-    "collection": "bathroom"
-  },
-  {
-    "id": 9726,
-    "name": "Void inloopdouche helder glas met 40 zijwand incl. glascoating",
-    "slug": "void-inloopdouche-helder-glas-met-40-zijwand-incl-glascoating-9726",
-    "sku": "BRA-VOID-INLOOPDOUCHE-HELDER-GLAS-MET-40-ZIJ-1CRQ",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": null,
-    "product_type": "Douchewanden",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK.jpg",
     "collection": "bathroom"
   },
   {

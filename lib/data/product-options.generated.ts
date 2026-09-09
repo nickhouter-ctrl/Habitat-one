@@ -209,7 +209,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
   "9581": [
     {
       "sku": "BRA-DB-AS8080MW",
-      "options": {},
+      "options": {
+        "maat": "80x80 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS8080MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS8080MW_1.jpg",
@@ -224,7 +227,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS80120MW",
-      "options": {},
+      "options": {
+        "maat": "80x120 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80120MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80120MW_1.jpg",
@@ -239,7 +245,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS80140MW",
-      "options": {},
+      "options": {
+        "maat": "80x140 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80140MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80140MW_1.jpg",
@@ -254,7 +263,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS80160MW",
-      "options": {},
+      "options": {
+        "maat": "80x160 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80160MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80160MW_1.jpg",
@@ -269,7 +281,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS80180MW",
-      "options": {},
+      "options": {
+        "maat": "80x180 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80180MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80180MW_1.jpg",
@@ -284,7 +299,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS9090MW",
-      "options": {},
+      "options": {
+        "maat": "90x90 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS9090MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS9090MW_1.jpg",
@@ -299,7 +317,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS90120MW",
-      "options": {},
+      "options": {
+        "maat": "90x120 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90120MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90120MW_1.jpg",
@@ -314,7 +335,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS90140MW",
-      "options": {},
+      "options": {
+        "maat": "90x140 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90140MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90140MW_1.jpg",
@@ -329,7 +353,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS90160MW",
-      "options": {},
+      "options": {
+        "maat": "90x160 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90160MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90160MW_1.jpg",
@@ -344,7 +371,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS90180MW",
-      "options": {},
+      "options": {
+        "maat": "90x180 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90180MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90180MW_1.jpg",
@@ -359,7 +389,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS100100MW",
-      "options": {},
+      "options": {
+        "maat": "100x100 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100100MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100100MW_1.jpg",
@@ -374,7 +407,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS100120MW",
-      "options": {},
+      "options": {
+        "maat": "100x120 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100120MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100120MW_1.jpg",
@@ -389,7 +425,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS100140MW",
-      "options": {},
+      "options": {
+        "maat": "100x140 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100140MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100140MW_1.jpg",
@@ -404,7 +443,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS100160MW",
-      "options": {},
+      "options": {
+        "maat": "100x160 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100160MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100160MW_1.jpg",
@@ -419,7 +461,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-DB-AS100180MW",
-      "options": {},
+      "options": {
+        "maat": "100x180 cm",
+        "kleur": "Mat wit"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100180MW.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100180MW_1.jpg",
@@ -435,6 +480,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS8080MZ",
       "options": {
+        "maat": "80x80 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS8080MZ.jpg",
@@ -452,6 +498,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS80120MZ",
       "options": {
+        "maat": "80x120 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80120MZ.jpg",
@@ -469,6 +516,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS80140MZ",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80140MZ.jpg",
@@ -486,6 +534,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS80160MZ",
       "options": {
+        "maat": "80x160 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80160MZ.jpg",
@@ -503,6 +552,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS80180MZ",
       "options": {
+        "maat": "80x180 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS80180MZ.jpg",
@@ -520,6 +570,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS9090MZ",
       "options": {
+        "maat": "90x90 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS9090MZ.jpg",
@@ -537,6 +588,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS90120MZ",
       "options": {
+        "maat": "90x120 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90120MZ.jpg",
@@ -554,6 +606,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS90140MZ",
       "options": {
+        "maat": "90x140 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90140MZ.jpg",
@@ -571,6 +624,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS90160MZ",
       "options": {
+        "maat": "90x160 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90160MZ.jpg",
@@ -588,6 +642,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS90180MZ",
       "options": {
+        "maat": "90x180 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS90180MZ.jpg",
@@ -605,6 +660,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS100100MZ",
       "options": {
+        "maat": "100x100 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100100MZ.jpg",
@@ -622,6 +678,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS100120MZ",
       "options": {
+        "maat": "100x120 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100120MZ.jpg",
@@ -639,6 +696,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS100140MZ",
       "options": {
+        "maat": "100x140 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100140MZ.jpg",
@@ -656,6 +714,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS100160MZ",
       "options": {
+        "maat": "100x160 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100160MZ.jpg",
@@ -673,6 +732,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DB-AS100180MZ",
       "options": {
+        "maat": "100x180 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100180MZ.jpg",
@@ -910,22 +970,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
   ],
   "9587": [
     {
-      "sku": "BRA-5-CE-004-S6",
-      "options": {
-        "kleur": "Chroom",
-        "model": "Model A1",
-        "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6_3.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6_T.pdf"
-    },
-    {
       "sku": "BRA-5-CE-004-B6-65",
       "options": {
         "kleur": "Chroom",
@@ -940,6 +984,22 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65_3.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CE-004-S6",
+      "options": {
+        "kleur": "Chroom",
+        "model": "Model A1",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6_3.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6_T.pdf"
     },
     {
       "sku": "BRA-5-GK-004-S6-65",
@@ -1006,22 +1066,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S6_T.pdf"
     },
     {
-      "sku": "BRA-5-S-004-B6-65",
-      "options": {
-        "kleur": "Mat zwart",
-        "model": "Model A1",
-        "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_3.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-CE-004-S6-65",
       "options": {
         "kleur": "Chroom",
@@ -1038,20 +1082,20 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6-65_T.pdf"
     },
     {
-      "sku": "BRA-5-S-004-B6",
+      "sku": "BRA-5-S-004-B6-65",
       "options": {
         "kleur": "Mat zwart",
         "model": "Model A1",
         "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
+        "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_3.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_3.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6-65_T.pdf"
     },
     {
       "sku": "BRA-5-NG-004-S6-65",
@@ -1070,20 +1114,20 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6-65_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-004-S6",
+      "sku": "BRA-5-S-004-B6",
       "options": {
-        "kleur": "Geborsteld RVS",
+        "kleur": "Mat zwart",
         "model": "Model A1",
-        "uitloop": "Recht",
+        "uitloop": "Gebogen",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6_3.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_3.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6_T.pdf"
     },
     {
       "sku": "BRA-5-GK-004-B6-65",
@@ -1100,6 +1144,22 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65_3.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-004-S6",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model A1",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6_3.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6_T.pdf"
     },
     {
       "sku": "BRA-5-GM-004-S6-65",
@@ -1198,22 +1258,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-004-S6",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "model": "Model A1",
-        "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6_3.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6_T.pdf"
-    },
-    {
       "sku": "BRA-5-GM-004-B6-65",
       "options": {
         "kleur": "Geborsteld gunmetal",
@@ -1230,20 +1274,20 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-004-B6",
+      "sku": "BRA-5-GG-004-S6",
       "options": {
-        "kleur": "Geborsteld gunmetal",
+        "kleur": "Geborsteld goud",
         "model": "Model A1",
-        "uitloop": "Gebogen",
+        "uitloop": "Recht",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_3.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6_3.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S6_T.pdf"
     },
     {
       "sku": "BRA-5-S-004-S6",
@@ -1262,20 +1306,20 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S6_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-004-B6-65",
+      "sku": "BRA-5-GM-004-B6",
       "options": {
-        "kleur": "Geborsteld goud",
+        "kleur": "Geborsteld gunmetal",
         "model": "Model A1",
         "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
+        "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_3.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_3.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6_T.pdf"
     },
     {
       "sku": "BRA-5-CE-083-S6-65",
@@ -1292,6 +1336,22 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S6-65_3.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S6-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-004-B6-65",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "model": "Model A1",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_3.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6-65_T.pdf"
     },
     {
       "sku": "BRA-5-CE-083-S6",
@@ -1358,22 +1418,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6-65_T.pdf"
     },
     {
-      "sku": "BRA-5-S-083-S6",
-      "options": {
-        "kleur": "Mat zwart",
-        "model": "Model A2",
-        "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6_3.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6_T.pdf"
-    },
-    {
       "sku": "BRA-5-CE-083-B6",
       "options": {
         "kleur": "Chroom",
@@ -1388,6 +1432,22 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6_3.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-083-S6",
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model A2",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6_3.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6_T.pdf"
     },
     {
       "sku": "BRA-5-GK-083-S6-65",
@@ -1486,22 +1546,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S6-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-083-B6",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "model": "Model A2",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_3.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-083-S6",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -1518,20 +1562,20 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S6_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-083-S6-65",
+      "sku": "BRA-5-GK-083-B6",
       "options": {
-        "kleur": "Geborsteld gunmetal",
+        "kleur": "Geborsteld koper",
         "model": "Model A2",
-        "uitloop": "Recht",
-        "afwerking": "Rozetten"
+        "uitloop": "Gebogen",
+        "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65_3.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_3.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6_T.pdf"
     },
     {
       "sku": "BRA-5-NG-083-B6-65",
@@ -1550,20 +1594,20 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-083-S6",
+      "sku": "BRA-5-GM-083-S6-65",
       "options": {
         "kleur": "Geborsteld gunmetal",
         "model": "Model A2",
         "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
+        "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6_3.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65_3.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6-65_T.pdf"
     },
     {
       "sku": "BRA-5-NG-083-B6",
@@ -1580,6 +1624,22 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6_3.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GM-083-S6",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "model": "Model A2",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6_3.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6_T.pdf"
     },
     {
       "sku": "BRA-5-GG-083-S6-65",
@@ -1614,22 +1674,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-083-S6",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "model": "Model A2",
-        "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6_3.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6_T.pdf"
-    },
-    {
       "sku": "BRA-5-GM-083-B6",
       "options": {
         "kleur": "Geborsteld gunmetal",
@@ -1644,6 +1688,22 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6_3.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-083-S6",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "model": "Model A2",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6_3.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S6_T.pdf"
     },
     {
       "sku": "BRA-5-GG-083-B6-65",
@@ -2140,28 +2200,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-213_T.pdf"
     },
     {
-      "sku": "BRA-5-S-093",
-      "options": {
-        "kleur": "Mat zwart",
-        "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_T.pdf"
-    },
-    {
       "sku": "BRA-5-S-095",
       "options": {
         "kleur": "Mat zwart",
@@ -2182,6 +2220,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-095_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-095_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-093",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "vulling": "Uitloop",
+        "bediening": "Draaiknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093_T.pdf"
     },
     {
       "sku": "BRA-5-S-212",
@@ -2316,28 +2376,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-215_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-095",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-093",
       "options": {
         "kleur": "Geborsteld koper",
@@ -2358,6 +2396,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-093_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-093_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GK-095",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Draaiknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095_T.pdf"
     },
     {
       "sku": "BRA-5-GK-212",
@@ -2404,28 +2464,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-214_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-094",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Draaiknoppen",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-096",
       "options": {
         "kleur": "Geborsteld koper",
@@ -2446,6 +2484,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-096_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-096_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GK-094",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "vulling": "Uitloop",
+        "bediening": "Draaiknoppen",
+        "handdouche": "3-standen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094_T.pdf"
     },
     {
       "sku": "BRA-5-GK-213",
@@ -2492,28 +2552,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-215_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-093",
-      "options": {
-        "kleur": "Geborsteld RVS",
-        "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-095",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -2536,26 +2574,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-095_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-214",
+      "sku": "BRA-5-NG-093",
       "options": {
         "kleur": "Geborsteld RVS",
         "houder": "Wandhouder",
         "vulling": "Uitloop",
-        "bediening": "Drukknoppen",
+        "bediening": "Draaiknoppen",
         "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093_T.pdf"
     },
     {
       "sku": "BRA-5-NG-212",
@@ -2578,6 +2616,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-212_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-212_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-214",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "vulling": "Uitloop",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214_T.pdf"
     },
     {
       "sku": "BRA-5-NG-094",
@@ -2712,28 +2772,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-095_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-214",
-      "options": {
-        "kleur": "Geborsteld gunmetal",
-        "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Drukknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_T.pdf"
-    },
-    {
       "sku": "BRA-5-GM-212",
       "options": {
         "kleur": "Geborsteld gunmetal",
@@ -2756,26 +2794,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-212_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-096",
+      "sku": "BRA-5-GM-214",
       "options": {
         "kleur": "Geborsteld gunmetal",
         "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "3-standen"
+        "vulling": "Uitloop",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214_T.pdf"
     },
     {
       "sku": "BRA-5-GM-094",
@@ -2800,26 +2838,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-094_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-215",
+      "sku": "BRA-5-GM-096",
       "options": {
         "kleur": "Geborsteld gunmetal",
         "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Drukknoppen",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Draaiknoppen",
         "handdouche": "3-standen"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096_T.pdf"
     },
     {
       "sku": "BRA-5-GM-213",
@@ -2844,26 +2882,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-213_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-095",
+      "sku": "BRA-5-GM-215",
       "options": {
-        "kleur": "Geborsteld goud",
+        "kleur": "Geborsteld gunmetal",
         "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
+        "vulling": "Uitloop",
+        "bediening": "Drukknoppen",
+        "handdouche": "3-standen"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215_T.pdf"
     },
     {
       "sku": "BRA-5-GG-093",
@@ -2888,26 +2926,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-093_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-212",
+      "sku": "BRA-5-GG-095",
       "options": {
         "kleur": "Geborsteld goud",
         "houder": "Wandhouder",
         "vulling": "Badvulcombinatie",
-        "bediening": "Drukknoppen",
+        "bediening": "Draaiknoppen",
         "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095_T.pdf"
     },
     {
       "sku": "BRA-5-GG-214",
@@ -2930,6 +2968,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-214_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-214_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-212",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212_T.pdf"
     },
     {
       "sku": "BRA-5-GG-094",
@@ -2976,28 +3036,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-096_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-213",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Drukknoppen",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_T.pdf"
-    },
-    {
       "sku": "BRA-5-GG-215",
       "options": {
         "kleur": "Geborsteld goud",
@@ -3018,6 +3056,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-215_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-215_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-213",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Drukknoppen",
+        "handdouche": "3-standen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213_T.pdf"
     }
   ],
   "9600": [
@@ -10330,28 +10390,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-106_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-106",
-      "options": {
-        "kleur": "Geborsteld gunmetal",
-        "glijstang": "Nee",
-        "handdouche": "3-standen",
-        "hoofddouche": "30 cm",
-        "bevestiginghoofddouche": "Gebogen wandarm"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-105",
       "options": {
         "kleur": "Geborsteld koper",
@@ -10372,6 +10410,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-105_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-105_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GM-106",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "glijstang": "Nee",
+        "handdouche": "3-standen",
+        "hoofddouche": "30 cm",
+        "bevestiginghoofddouche": "Gebogen wandarm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-106_T.pdf"
     },
     {
       "sku": "BRA-5-GK-103",
@@ -14556,28 +14616,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-305_T.pdf"
     },
     {
-      "sku": "BRA-5-S-305",
-      "options": {
-        "kleur": "Mat zwart",
-        "glijstang": "Ja",
-        "handdouche": "Staafmodel",
-        "hoofddouche": "20 cm",
-        "bevestiginghoofddouche": "Gebogen wandarm"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-307",
       "options": {
         "kleur": "Geborsteld koper",
@@ -14598,6 +14636,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-307_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-307_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-305",
+      "options": {
+        "kleur": "Mat zwart",
+        "glijstang": "Ja",
+        "handdouche": "Staafmodel",
+        "hoofddouche": "20 cm",
+        "bevestiginghoofddouche": "Gebogen wandarm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-305_T.pdf"
     },
     {
       "sku": "BRA-5-GK-306",
@@ -16172,24 +16232,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-250_T.pdf"
     },
     {
-      "sku": "BRA-5-S-249",
-      "options": {
-        "kleur": "Mat zwart",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_7.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-250",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -16206,6 +16248,24 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-250_7.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-250_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-249",
+      "options": {
+        "kleur": "Mat zwart",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-249_T.pdf"
     },
     {
       "sku": "BRA-5-S-250",
@@ -17075,7 +17135,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H90200CE.jpg",
       "images": [
@@ -17088,7 +17150,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H100200CE.jpg",
       "images": [
@@ -17101,7 +17165,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H120200CE.jpg",
       "images": [
@@ -17114,7 +17180,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H90200MZ.jpg",
       "images": [
@@ -17127,7 +17195,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H100200MZ.jpg",
       "images": [
@@ -17140,7 +17210,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H120200MZ.jpg",
       "images": [
@@ -17153,7 +17225,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H90200NG.jpg",
       "images": [
@@ -17166,7 +17240,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H100200NG.jpg",
       "images": [
@@ -17179,7 +17255,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H120200NG.jpg",
       "images": [
@@ -17192,7 +17270,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H90200GK.jpg",
       "images": [
@@ -17205,7 +17285,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H100200GK.jpg",
       "images": [
@@ -17218,7 +17300,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H120200GK.jpg",
       "images": [
@@ -17231,7 +17315,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H90200GM.jpg",
       "images": [
@@ -17244,7 +17330,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H100200GM.jpg",
       "images": [
@@ -17257,7 +17345,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H120200GM.jpg",
       "images": [
@@ -17270,7 +17360,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H90200GG.jpg",
       "images": [
@@ -17283,7 +17375,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H100200GG.jpg",
       "images": [
@@ -17296,7 +17390,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CLI1H120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H120200GG.jpg",
       "images": [
@@ -17311,7 +17407,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H70200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "70x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H70200CE.jpg",
       "images": [
@@ -17324,7 +17422,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H80200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200CE.jpg",
       "images": [
@@ -17337,7 +17437,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200CE.jpg",
       "images": [
@@ -17350,7 +17452,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H70200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "70x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H70200MZ.jpg",
       "images": [
@@ -17363,7 +17467,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H80200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200MZ.jpg",
       "images": [
@@ -17376,7 +17482,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200MZ.jpg",
       "images": [
@@ -17389,7 +17497,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H70200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H70200NG.jpg",
       "images": [
@@ -17402,7 +17512,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H80200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200NG.jpg",
       "images": [
@@ -17415,7 +17527,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200NG.jpg",
       "images": [
@@ -17428,7 +17542,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H70200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H70200GK.jpg",
       "images": [
@@ -17441,7 +17557,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H80200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200GK.jpg",
       "images": [
@@ -17454,7 +17572,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200GK.jpg",
       "images": [
@@ -17467,7 +17587,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H70200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H70200GM.jpg",
       "images": [
@@ -17480,7 +17602,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H80200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200GM.jpg",
       "images": [
@@ -17493,7 +17617,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200GM.jpg",
       "images": [
@@ -17506,7 +17632,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H70200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H70200GG.jpg",
       "images": [
@@ -17519,7 +17647,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H80200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200GG.jpg",
       "images": [
@@ -17532,7 +17662,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-CSN1H90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H90200GG.jpg",
       "images": [
@@ -17701,6 +17833,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF100CF",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Coffee",
         "lengte": "100 cm"
       },
@@ -17711,6 +17844,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF70S",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Mat zwart",
         "lengte": "70 cm"
       },
@@ -17727,6 +17861,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF80S",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Mat zwart",
         "lengte": "80 cm"
       },
@@ -17743,6 +17878,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF70CF",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Coffee",
         "lengte": "70 cm"
       },
@@ -17753,6 +17889,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF90S",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Mat zwart",
         "lengte": "90 cm"
       },
@@ -17769,6 +17906,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF80CF",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Coffee",
         "lengte": "80 cm"
       },
@@ -17777,8 +17915,20 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": null
     },
     {
+      "sku": "BRA-DR-MRF90CF",
+      "options": {
+        "maat": "7x90 cm",
+        "kleur": "Coffee",
+        "lengte": "90 cm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
       "sku": "BRA-DR-MRF100S",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Mat zwart",
         "lengte": "100 cm"
       },
@@ -17793,18 +17943,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF100S_T.pdf"
     },
     {
-      "sku": "BRA-DR-MRF90CF",
-      "options": {
-        "kleur": "Coffee",
-        "lengte": "90 cm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-DR-MRF70GK",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Geborsteld koper",
         "lengte": "70 cm"
       },
@@ -17821,6 +17962,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF80GK",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Geborsteld koper",
         "lengte": "80 cm"
       },
@@ -17837,6 +17979,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF90GK",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Geborsteld koper",
         "lengte": "90 cm"
       },
@@ -17853,6 +17996,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF100GK",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Geborsteld koper",
         "lengte": "100 cm"
       },
@@ -17869,6 +18013,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF70GM",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Geborsteld gunmetal",
         "lengte": "70 cm"
       },
@@ -17885,6 +18030,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF80GM",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Geborsteld gunmetal",
         "lengte": "80 cm"
       },
@@ -17901,6 +18047,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF90GM",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Geborsteld gunmetal",
         "lengte": "90 cm"
       },
@@ -17917,6 +18064,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF100GM",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Geborsteld gunmetal",
         "lengte": "100 cm"
       },
@@ -17933,6 +18081,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF70GG",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Geborsteld goud",
         "lengte": "70 cm"
       },
@@ -17949,6 +18098,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF80GG",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Geborsteld goud",
         "lengte": "80 cm"
       },
@@ -17965,6 +18115,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF90GG",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Geborsteld goud",
         "lengte": "90 cm"
       },
@@ -17981,6 +18132,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF100GG",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Geborsteld goud",
         "lengte": "100 cm"
       },
@@ -17999,6 +18151,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW100CF",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Coffee",
         "lengte": "100 cm"
       },
@@ -18009,6 +18162,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW70CF",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Coffee",
         "lengte": "70 cm"
       },
@@ -18019,6 +18173,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW70S",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Mat zwart",
         "lengte": "70 cm"
       },
@@ -18035,6 +18190,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW80CF",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Coffee",
         "lengte": "80 cm"
       },
@@ -18045,6 +18201,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW80S",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Mat zwart",
         "lengte": "80 cm"
       },
@@ -18059,18 +18216,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80S_T.pdf"
     },
     {
-      "sku": "BRA-DR-MRFW90CF",
-      "options": {
-        "kleur": "Coffee",
-        "lengte": "90 cm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-DR-MRFW90S",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Mat zwart",
         "lengte": "90 cm"
       },
@@ -18087,6 +18235,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW100S",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Mat zwart",
         "lengte": "100 cm"
       },
@@ -18103,6 +18252,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW70GK",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Geborsteld koper",
         "lengte": "70 cm"
       },
@@ -18119,6 +18269,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW80GK",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Geborsteld koper",
         "lengte": "80 cm"
       },
@@ -18135,6 +18286,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW90GK",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Geborsteld koper",
         "lengte": "90 cm"
       },
@@ -18151,6 +18303,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW100GK",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Geborsteld koper",
         "lengte": "100 cm"
       },
@@ -18167,6 +18320,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW70GM",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Geborsteld gunmetal",
         "lengte": "70 cm"
       },
@@ -18183,6 +18337,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW80GM",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Geborsteld gunmetal",
         "lengte": "80 cm"
       },
@@ -18199,6 +18354,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW90GM",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Geborsteld gunmetal",
         "lengte": "90 cm"
       },
@@ -18215,6 +18371,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW100GM",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Geborsteld gunmetal",
         "lengte": "100 cm"
       },
@@ -18231,6 +18388,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW70GG",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Geborsteld goud",
         "lengte": "70 cm"
       },
@@ -18247,6 +18405,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW80GG",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Geborsteld goud",
         "lengte": "80 cm"
       },
@@ -18263,6 +18422,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW90GG",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Geborsteld goud",
         "lengte": "90 cm"
       },
@@ -18279,6 +18439,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW100GG",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Geborsteld goud",
         "lengte": "100 cm"
       },
@@ -18297,6 +18458,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF50NG",
       "options": {
+        "maat": "7x50 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "50 cm"
       },
@@ -18313,6 +18475,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF90NG",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "90 cm"
       },
@@ -18329,6 +18492,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF60NG",
       "options": {
+        "maat": "7x60 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "60 cm"
       },
@@ -18345,6 +18509,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF100NG",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "100 cm"
       },
@@ -18361,6 +18526,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF70NG",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "70 cm"
       },
@@ -18377,6 +18543,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF110NG",
       "options": {
+        "maat": "7x110 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "110 cm"
       },
@@ -18393,6 +18560,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF140NG",
       "options": {
+        "maat": "7x140 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "140 cm"
       },
@@ -18409,6 +18577,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF180NG",
       "options": {
+        "maat": "7x180 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "180 cm"
       },
@@ -18425,6 +18594,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF80NG",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "80 cm"
       },
@@ -18441,6 +18611,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF120NG",
       "options": {
+        "maat": "7x120 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "120 cm"
       },
@@ -18457,6 +18628,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF160NG",
       "options": {
+        "maat": "7x160 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "160 cm"
       },
@@ -18473,6 +18645,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF200NG",
       "options": {
+        "maat": "7x200 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "200 cm"
       },
@@ -18489,6 +18662,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF50S",
       "options": {
+        "maat": "7x50 cm",
         "kleur": "Mat zwart",
         "lengte": "50 cm"
       },
@@ -18505,6 +18679,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF90S",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Mat zwart",
         "lengte": "90 cm"
       },
@@ -18521,6 +18696,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF60S",
       "options": {
+        "maat": "7x60 cm",
         "kleur": "Mat zwart",
         "lengte": "60 cm"
       },
@@ -18537,6 +18713,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF100S",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Mat zwart",
         "lengte": "100 cm"
       },
@@ -18553,6 +18730,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF70S",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Mat zwart",
         "lengte": "70 cm"
       },
@@ -18569,6 +18747,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF110S",
       "options": {
+        "maat": "7x110 cm",
         "kleur": "Mat zwart",
         "lengte": "110 cm"
       },
@@ -18585,6 +18764,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF140S",
       "options": {
+        "maat": "7x140 cm",
         "kleur": "Mat zwart",
         "lengte": "140 cm"
       },
@@ -18601,6 +18781,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF180S",
       "options": {
+        "maat": "7x180 cm",
         "kleur": "Mat zwart",
         "lengte": "180 cm"
       },
@@ -18617,6 +18798,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF80S",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Mat zwart",
         "lengte": "80 cm"
       },
@@ -18633,6 +18815,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF120S",
       "options": {
+        "maat": "7x120 cm",
         "kleur": "Mat zwart",
         "lengte": "120 cm"
       },
@@ -18649,6 +18832,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF160S",
       "options": {
+        "maat": "7x160 cm",
         "kleur": "Mat zwart",
         "lengte": "160 cm"
       },
@@ -18665,6 +18849,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRF200S",
       "options": {
+        "maat": "7x200 cm",
         "kleur": "Mat zwart",
         "lengte": "200 cm"
       },
@@ -18683,6 +18868,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW50NG",
       "options": {
+        "maat": "7x50 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "50 cm"
       },
@@ -18699,6 +18885,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW90NG",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "90 cm"
       },
@@ -18715,6 +18902,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW60NG",
       "options": {
+        "maat": "7x60 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "60 cm"
       },
@@ -18731,6 +18919,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW100NG",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "100 cm"
       },
@@ -18747,6 +18936,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW70NG",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "70 cm"
       },
@@ -18763,6 +18953,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW80NG",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Geborsteld RVS",
         "lengte": "80 cm"
       },
@@ -18779,6 +18970,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW50S",
       "options": {
+        "maat": "7x50 cm",
         "kleur": "Mat zwart",
         "lengte": "50 cm"
       },
@@ -18795,6 +18987,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW90S",
       "options": {
+        "maat": "7x90 cm",
         "kleur": "Mat zwart",
         "lengte": "90 cm"
       },
@@ -18811,6 +19004,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW60S",
       "options": {
+        "maat": "7x60 cm",
         "kleur": "Mat zwart",
         "lengte": "60 cm"
       },
@@ -18827,6 +19021,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW100S",
       "options": {
+        "maat": "7x100 cm",
         "kleur": "Mat zwart",
         "lengte": "100 cm"
       },
@@ -18843,6 +19038,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW70S",
       "options": {
+        "maat": "7x70 cm",
         "kleur": "Mat zwart",
         "lengte": "70 cm"
       },
@@ -18859,6 +19055,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SRFW80S",
       "options": {
+        "maat": "7x80 cm",
         "kleur": "Mat zwart",
         "lengte": "80 cm"
       },
@@ -18877,6 +19074,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF50NG",
       "options": {
+        "maat": "7x50 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "50 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF50NG.jpg",
@@ -18894,6 +19093,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF90NG",
       "options": {
+        "maat": "7x90 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "90 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF90NG.jpg",
@@ -18911,6 +19112,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF60NG",
       "options": {
+        "maat": "7x60 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "60 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF60NG.jpg",
@@ -18928,6 +19131,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF100NG",
       "options": {
+        "maat": "7x100 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "100 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF100NG.jpg",
@@ -18945,6 +19150,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF70NG",
       "options": {
+        "maat": "7x70 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "70 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF70NG.jpg",
@@ -18962,6 +19169,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF110NG",
       "options": {
+        "maat": "7x110 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "110 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF110NG.jpg",
@@ -18979,6 +19188,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF140NG",
       "options": {
+        "maat": "7x140 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "140 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF140NG.jpg",
@@ -18996,6 +19207,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF180NG",
       "options": {
+        "maat": "7x180 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "180 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF180NG.jpg",
@@ -19013,6 +19226,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF80NG",
       "options": {
+        "maat": "7x80 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "80 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF80NG.jpg",
@@ -19030,6 +19245,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF120NG",
       "options": {
+        "maat": "7x120 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "120 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF120NG.jpg",
@@ -19047,6 +19264,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF160NG",
       "options": {
+        "maat": "7x160 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "160 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF160NG.jpg",
@@ -19064,6 +19283,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRF200NG",
       "options": {
+        "maat": "7x200 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "200 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF200NG.jpg",
@@ -19080,6 +19301,16 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     }
   ],
   "9618": [
+    {
+      "sku": "BRA-DR-MRFW90CF",
+      "options": {
+        "maat": "90 cm",
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
     {
       "sku": "BRA-DR-MRFW50NG",
       "options": {
@@ -19173,7 +19404,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-MRFW100NG",
       "options": {
-        "maat": "100 cm",
+        "maat": "NaN cm",
         "kleur": "Geborsteld RVS"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW100NG.jpg",
@@ -19193,6 +19424,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SSRF50NG",
       "options": {
+        "maat": "5x50 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "50 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF50NG.jpg",
@@ -19208,6 +19441,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SSRF90NG",
       "options": {
+        "maat": "5x90 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "90 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF90NG.jpg",
@@ -19223,6 +19458,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SSRF60NG",
       "options": {
+        "maat": "5x60 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "60 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF60NG.jpg",
@@ -19238,6 +19475,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SSRF100NG",
       "options": {
+        "maat": "5x100 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "100 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF100NG.jpg",
@@ -19253,6 +19492,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SSRF70NG",
       "options": {
+        "maat": "5x70 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "70 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF70NG.jpg",
@@ -19268,6 +19509,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-SSRF80NG",
       "options": {
+        "maat": "5x80 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "80 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF80NG.jpg",
@@ -19285,6 +19528,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-XS70NG",
       "options": {
+        "maat": "3x70 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "70 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-XS70NG.jpg",
@@ -19300,6 +19545,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-XS80NG",
       "options": {
+        "maat": "3x80 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "80 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-XS80NG.jpg",
@@ -19315,6 +19562,8 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-DR-XS90NG",
       "options": {
+        "maat": "3x90 cm",
+        "kleur": "Geborsteld RVS",
         "lengte": "90 cm"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-XS90NG.jpg",
@@ -19375,15 +19624,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-224_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-224",
-      "options": {
-        "kleur": "Coffee"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-GM-224",
       "options": {
         "kleur": "Geborsteld gunmetal"
@@ -19397,6 +19637,15 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-224_5.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-224_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-224",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-NG-224",
@@ -20129,15 +20378,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-257_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-257",
-      "options": {
-        "kleur": "Coffee"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-S-257",
       "options": {
         "kleur": "Mat zwart"
@@ -20147,6 +20387,15 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-257_1.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-257_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-257",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-GK-257",
@@ -20169,83 +20418,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-257_1.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-257_T.pdf"
-    }
-  ],
-  "9626": [
-    {
-      "sku": "BRA-5-GG-088",
-      "options": {
-        "kleur": "Geborsteld goud"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-088.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-088_1.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-088_T.pdf"
-    },
-    {
-      "sku": "BRA-5-S-088",
-      "options": {
-        "kleur": "Mat zwart"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-088.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-088_1.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-088_T.pdf"
-    },
-    {
-      "sku": "BRA-5-CF-088",
-      "options": {
-        "kleur": "Coffee"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
-      "sku": "BRA-5-CE-088",
-      "options": {
-        "kleur": "Chroom"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-088.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-088_1.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-088_T.pdf"
-    },
-    {
-      "sku": "BRA-5-GM-088",
-      "options": {
-        "kleur": "Geborsteld gunmetal"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-088.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-088_1.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-088_T.pdf"
-    },
-    {
-      "sku": "BRA-5-NG-088",
-      "options": {
-        "kleur": "Geborsteld RVS"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-088.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-088_1.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-088_T.pdf"
-    },
-    {
-      "sku": "BRA-5-GK-088",
-      "options": {
-        "kleur": "Geborsteld koper"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-088.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-088_1.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-088_T.pdf"
     }
   ],
   "9628": [
@@ -20280,21 +20452,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S2-65_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-004-S5-65",
-      "options": {
-        "kleur": "Chroom",
-        "model": "Model B1",
-        "uitloop": "Recht",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S5-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S5-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S5-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S5-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-CE-004-B5-65",
       "options": {
         "kleur": "Chroom",
@@ -20308,6 +20465,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B5-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B5-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CE-004-S5-65",
+      "options": {
+        "kleur": "Chroom",
+        "model": "Model B1",
+        "uitloop": "Recht",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S5-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S5-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S5-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S5-65_T.pdf"
     },
     {
       "sku": "BRA-5-CE-004-S4-65",
@@ -20400,21 +20572,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S3-65_T.pdf"
     },
     {
-      "sku": "BRA-5-S-004",
-      "options": {
-        "kleur": "Mat zwart",
-        "model": "Model A1",
-        "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004_T.pdf"
-    },
-    {
       "sku": "BRA-5-S-004-S2-65",
       "options": {
         "kleur": "Mat zwart",
@@ -20430,19 +20587,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S2-65_T.pdf"
     },
     {
-      "sku": "BRA-5-S-004-B5-65",
+      "sku": "BRA-5-S-004",
       "options": {
         "kleur": "Mat zwart",
-        "model": "Model B1",
+        "model": "Model A1",
         "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004_T.pdf"
     },
     {
       "sku": "BRA-5-S-004-S5-65",
@@ -20460,19 +20617,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S5-65_T.pdf"
     },
     {
-      "sku": "BRA-5-S-004-B4-65",
+      "sku": "BRA-5-S-004-B5-65",
       "options": {
         "kleur": "Mat zwart",
-        "model": "Model D1",
+        "model": "Model B1",
         "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B4-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B4-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B4-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B4-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5-65_T.pdf"
     },
     {
       "sku": "BRA-5-S-004-S4-65",
@@ -20488,6 +20645,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S4-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S4-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-004-B4-65",
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model D1",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B4-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B4-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B4-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B4-65_T.pdf"
     },
     {
       "sku": "BRA-5-S-004-B1-65",
@@ -20520,21 +20692,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S1-65_T.pdf"
     },
     {
-      "sku": "BRA-5-S-004-B3-65",
-      "options": {
-        "kleur": "Mat zwart",
-        "model": "Model C1",
-        "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-S-004-S3-65",
       "options": {
         "kleur": "Mat zwart",
@@ -20550,19 +20707,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S3-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-004",
+      "sku": "BRA-5-S-004-B3-65",
       "options": {
-        "kleur": "Geborsteld koper",
-        "model": "Model A1",
+        "kleur": "Mat zwart",
+        "model": "Model C1",
         "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3-65_T.pdf"
     },
     {
       "sku": "BRA-5-GK-004-S2-65",
@@ -20578,6 +20735,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S2-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S2-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GK-004",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "model": "Model A1",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004_T.pdf"
     },
     {
       "sku": "BRA-5-GK-004-B5-65",
@@ -20610,21 +20782,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S5-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-004-S4-65",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "model": "Model D1",
-        "uitloop": "Recht",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S4-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S4-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S4-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S4-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-004-B4-65",
       "options": {
         "kleur": "Geborsteld koper",
@@ -20638,6 +20795,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B4-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B4-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GK-004-S4-65",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "model": "Model D1",
+        "uitloop": "Recht",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S4-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S4-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S4-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S4-65_T.pdf"
     },
     {
       "sku": "BRA-5-GK-004-B1-65",
@@ -20670,21 +20842,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S1-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-004-B3-65",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "model": "Model C1",
-        "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B3-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B3-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B3-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B3-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-004-S3-65",
       "options": {
         "kleur": "Geborsteld koper",
@@ -20700,19 +20857,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S3-65_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-004-S2-65",
+      "sku": "BRA-5-GK-004-B3-65",
       "options": {
-        "kleur": "Geborsteld RVS",
-        "model": "Model A1",
-        "uitloop": "Recht",
+        "kleur": "Geborsteld koper",
+        "model": "Model C1",
+        "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S2-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B3-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S2-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S2-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B3-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B3-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S2-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B3-65_T.pdf"
     },
     {
       "sku": "BRA-5-NG-004",
@@ -20728,6 +20885,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-004-S2-65",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model A1",
+        "uitloop": "Recht",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S2-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S2-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S2-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S2-65_T.pdf"
     },
     {
       "sku": "BRA-5-NG-004-S5-65",
@@ -20760,21 +20932,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B5-65_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-004-S4-65",
-      "options": {
-        "kleur": "Geborsteld RVS",
-        "model": "Model D1",
-        "uitloop": "Recht",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-004-B4-65",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -20790,19 +20947,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B4-65_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-004-B1-65",
+      "sku": "BRA-5-NG-004-S4-65",
       "options": {
         "kleur": "Geborsteld RVS",
-        "model": "Model E1",
-        "uitloop": "Gebogen",
+        "model": "Model D1",
+        "uitloop": "Recht",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B1-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B1-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B1-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B1-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4-65_T.pdf"
     },
     {
       "sku": "BRA-5-NG-004-S1-65",
@@ -20818,6 +20975,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S1-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S1-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-004-B1-65",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model E1",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B1-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B1-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B1-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B1-65_T.pdf"
     },
     {
       "sku": "BRA-5-NG-004-B3-65",
@@ -20880,21 +21052,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-004-B5-65",
-      "options": {
-        "kleur": "Geborsteld gunmetal",
-        "model": "Model B1",
-        "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-GM-004-S5-65",
       "options": {
         "kleur": "Geborsteld gunmetal",
@@ -20910,19 +21067,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S5-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-004-B4-65",
+      "sku": "BRA-5-GM-004-B5-65",
       "options": {
         "kleur": "Geborsteld gunmetal",
-        "model": "Model D1",
+        "model": "Model B1",
         "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B4-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B4-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B4-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B4-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5-65_T.pdf"
     },
     {
       "sku": "BRA-5-GM-004-S4-65",
@@ -20940,19 +21097,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S4-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-004-S1-65",
+      "sku": "BRA-5-GM-004-B4-65",
       "options": {
         "kleur": "Geborsteld gunmetal",
-        "model": "Model E1",
-        "uitloop": "Recht",
+        "model": "Model D1",
+        "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S1-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B4-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S1-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S1-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B4-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B4-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S1-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B4-65_T.pdf"
     },
     {
       "sku": "BRA-5-GM-004-B1-65",
@@ -20968,6 +21125,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B1-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B1-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GM-004-S1-65",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "model": "Model E1",
+        "uitloop": "Recht",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S1-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S1-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S1-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S1-65_T.pdf"
     },
     {
       "sku": "BRA-5-GM-004-S3-65",
@@ -21030,21 +21202,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-004-B5-65",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "model": "Model B1",
-        "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B5-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B5-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B5-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B5-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-GG-004-S5-65",
       "options": {
         "kleur": "Geborsteld goud",
@@ -21058,6 +21215,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S5-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S5-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-004-B5-65",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "model": "Model B1",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B5-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B5-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B5-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B5-65_T.pdf"
     },
     {
       "sku": "BRA-5-GG-004-S4-65",
@@ -21090,21 +21262,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B4-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-004-S1-65",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "model": "Model E1",
-        "uitloop": "Recht",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-GG-004-B1-65",
       "options": {
         "kleur": "Geborsteld goud",
@@ -21120,19 +21277,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B1-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-004-S3-65",
+      "sku": "BRA-5-GG-004-S1-65",
       "options": {
         "kleur": "Geborsteld goud",
-        "model": "Model C1",
+        "model": "Model E1",
         "uitloop": "Recht",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S3-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S3-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S3-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S3-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1-65_T.pdf"
     },
     {
       "sku": "BRA-5-GG-004-B3-65",
@@ -21150,19 +21307,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B3-65_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-083",
+      "sku": "BRA-5-GG-004-S3-65",
       "options": {
-        "kleur": "Chroom",
-        "model": "Model A2",
-        "uitloop": "Gebogen",
+        "kleur": "Geborsteld goud",
+        "model": "Model C1",
+        "uitloop": "Recht",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S3-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S3-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S3-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S3-65_T.pdf"
     },
     {
       "sku": "BRA-5-CE-083-S2-65",
@@ -21178,6 +21335,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S2-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S2-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CE-083",
+      "options": {
+        "kleur": "Chroom",
+        "model": "Model A2",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083_T.pdf"
     },
     {
       "sku": "BRA-5-CE-083-S5-65",
@@ -21240,21 +21412,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S4-65_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-083-S1-65",
-      "options": {
-        "kleur": "Chroom",
-        "model": "Model E2",
-        "uitloop": "Recht",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-CE-083-B1-65",
       "options": {
         "kleur": "Chroom",
@@ -21270,19 +21427,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B1-65_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-083-B3-65",
+      "sku": "BRA-5-CE-083-S1-65",
       "options": {
         "kleur": "Chroom",
-        "model": "Model C2",
-        "uitloop": "Gebogen",
+        "model": "Model E2",
+        "uitloop": "Recht",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1-65_T.pdf"
     },
     {
       "sku": "BRA-5-CE-083-S3-65",
@@ -21300,19 +21457,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S3-65_T.pdf"
     },
     {
-      "sku": "BRA-5-S-083",
+      "sku": "BRA-5-CE-083-B3-65",
       "options": {
-        "kleur": "Mat zwart",
-        "model": "Model A2",
+        "kleur": "Chroom",
+        "model": "Model C2",
         "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3-65_T.pdf"
     },
     {
       "sku": "BRA-5-S-083-S2-65",
@@ -21328,6 +21485,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S2-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S2-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-083",
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model A2",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083_T.pdf"
     },
     {
       "sku": "BRA-5-S-083-S5-65",
@@ -21390,21 +21562,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S4-65_T.pdf"
     },
     {
-      "sku": "BRA-5-S-083-B1-65",
-      "options": {
-        "kleur": "Mat zwart",
-        "model": "Model E2",
-        "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-S-083-S1-65",
       "options": {
         "kleur": "Mat zwart",
@@ -21420,19 +21577,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S1-65_T.pdf"
     },
     {
-      "sku": "BRA-5-S-083-S3-65",
+      "sku": "BRA-5-S-083-B1-65",
       "options": {
         "kleur": "Mat zwart",
-        "model": "Model C2",
-        "uitloop": "Recht",
+        "model": "Model E2",
+        "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1-65_T.pdf"
     },
     {
       "sku": "BRA-5-S-083-B3-65",
@@ -21450,19 +21607,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B3-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-083",
+      "sku": "BRA-5-S-083-S3-65",
       "options": {
-        "kleur": "Geborsteld koper",
-        "model": "Model A2",
-        "uitloop": "Gebogen",
+        "kleur": "Mat zwart",
+        "model": "Model C2",
+        "uitloop": "Recht",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3-65_T.pdf"
     },
     {
       "sku": "BRA-5-GK-083-S2-65",
@@ -21480,19 +21637,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S2-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-083-S5-65",
+      "sku": "BRA-5-GK-083",
       "options": {
         "kleur": "Geborsteld koper",
-        "model": "Model B2",
-        "uitloop": "Recht",
+        "model": "Model A2",
+        "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S5-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S5-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S5-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S5-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083_T.pdf"
     },
     {
       "sku": "BRA-5-GK-083-B5-65",
@@ -21508,6 +21665,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B5-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B5-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GK-083-S5-65",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "model": "Model B2",
+        "uitloop": "Recht",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S5-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S5-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S5-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S5-65_T.pdf"
     },
     {
       "sku": "BRA-5-GK-083-S4-65",
@@ -21600,21 +21772,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S3-65_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-083-S2-65",
-      "options": {
-        "kleur": "Geborsteld RVS",
-        "model": "Model A2",
-        "uitloop": "Recht",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-083",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -21628,6 +21785,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-083-S2-65",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model A2",
+        "uitloop": "Recht",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2-65_T.pdf"
     },
     {
       "sku": "BRA-5-NG-083-B5-65",
@@ -21720,21 +21892,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B1-65_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-083-B3-65",
-      "options": {
-        "kleur": "Geborsteld RVS",
-        "model": "Model C2",
-        "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-083-S3-65",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -21748,6 +21905,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S3-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S3-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-083-B3-65",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model C2",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3-65_T.pdf"
     },
     {
       "sku": "BRA-5-GM-083",
@@ -21780,21 +21952,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S2-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-083-S5-65",
-      "options": {
-        "kleur": "Geborsteld gunmetal",
-        "model": "Model B2",
-        "uitloop": "Recht",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S5-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S5-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S5-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S5-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-GM-083-B5-65",
       "options": {
         "kleur": "Geborsteld gunmetal",
@@ -21808,6 +21965,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B5-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B5-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GM-083-S5-65",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "model": "Model B2",
+        "uitloop": "Recht",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S5-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S5-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S5-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S5-65_T.pdf"
     },
     {
       "sku": "BRA-5-GM-083-B4-65",
@@ -21840,21 +22012,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S4-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-083-B1-65",
-      "options": {
-        "kleur": "Geborsteld gunmetal",
-        "model": "Model E2",
-        "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B1-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B1-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B1-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B1-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-GM-083-S1-65",
       "options": {
         "kleur": "Geborsteld gunmetal",
@@ -21870,19 +22027,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S1-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-083-S3-65",
+      "sku": "BRA-5-GM-083-B1-65",
       "options": {
         "kleur": "Geborsteld gunmetal",
-        "model": "Model C2",
-        "uitloop": "Recht",
+        "model": "Model E2",
+        "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S3-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B1-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S3-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S3-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B1-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B1-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S3-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B1-65_T.pdf"
     },
     {
       "sku": "BRA-5-GM-083-B3-65",
@@ -21898,6 +22055,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B3-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B3-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GM-083-S3-65",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "model": "Model C2",
+        "uitloop": "Recht",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S3-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S3-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S3-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S3-65_T.pdf"
     },
     {
       "sku": "BRA-5-GG-083",
@@ -21930,21 +22102,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S2-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-083-B5-65",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "model": "Model B2",
-        "uitloop": "Gebogen",
-        "afwerking": "Rozetten"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5-65.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5-65_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5-65_T.pdf"
-    },
-    {
       "sku": "BRA-5-GG-083-S5-65",
       "options": {
         "kleur": "Geborsteld goud",
@@ -21960,19 +22117,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S5-65_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-083-B4-65",
+      "sku": "BRA-5-GG-083-B5-65",
       "options": {
         "kleur": "Geborsteld goud",
-        "model": "Model D2",
+        "model": "Model B2",
         "uitloop": "Gebogen",
         "afwerking": "Rozetten"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B4-65.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5-65.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B4-65_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B4-65_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5-65_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B4-65_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5-65_T.pdf"
     },
     {
       "sku": "BRA-5-GG-083-S4-65",
@@ -21988,6 +22145,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S4-65_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S4-65_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-083-B4-65",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "model": "Model D2",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B4-65.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B4-65_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B4-65_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B4-65_T.pdf"
     },
     {
       "sku": "BRA-5-GG-083-S1-65",
@@ -22050,21 +22222,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B3-65_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-004-B2",
-      "options": {
-        "kleur": "Chroom",
-        "model": "Model A1",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B2.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B2_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B2_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B2_T.pdf"
-    },
-    {
       "sku": "BRA-5-CE-004-S2",
       "options": {
         "kleur": "Chroom",
@@ -22078,6 +22235,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S2_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S2_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CE-004-B2",
+      "options": {
+        "kleur": "Chroom",
+        "model": "Model A1",
+        "uitloop": "Gebogen",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B2.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B2_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B2_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B2_T.pdf"
     },
     {
       "sku": "BRA-5-CE-004-B5",
@@ -22140,21 +22312,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B4_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-004-B1",
-      "options": {
-        "kleur": "Chroom",
-        "model": "Model E1",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B1.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B1_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B1_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B1_T.pdf"
-    },
-    {
       "sku": "BRA-5-CE-004-S1",
       "options": {
         "kleur": "Chroom",
@@ -22170,19 +22327,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S1_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-004-S3",
+      "sku": "BRA-5-CE-004-B1",
       "options": {
         "kleur": "Chroom",
-        "model": "Model C1",
-        "uitloop": "Recht",
+        "model": "Model E1",
+        "uitloop": "Gebogen",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S3.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B1.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S3_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S3_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B1_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B1_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S3_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B1_T.pdf"
     },
     {
       "sku": "BRA-5-CE-004-B3",
@@ -22198,6 +22355,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B3_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B3_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CE-004-S3",
+      "options": {
+        "kleur": "Chroom",
+        "model": "Model C1",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S3.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S3_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S3_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S3_T.pdf"
     },
     {
       "sku": "BRA-5-S-004-B2",
@@ -22230,21 +22402,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S2_T.pdf"
     },
     {
-      "sku": "BRA-5-S-004-S5",
-      "options": {
-        "kleur": "Mat zwart",
-        "model": "Model B1",
-        "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S5.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S5_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S5_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S5_T.pdf"
-    },
-    {
       "sku": "BRA-5-S-004-B5",
       "options": {
         "kleur": "Mat zwart",
@@ -22258,6 +22415,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-004-S5",
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model B1",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S5.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S5_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S5_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S5_T.pdf"
     },
     {
       "sku": "BRA-5-S-004-S4",
@@ -22320,21 +22492,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B1_T.pdf"
     },
     {
-      "sku": "BRA-5-S-004-B3",
-      "options": {
-        "kleur": "Mat zwart",
-        "model": "Model C1",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3_T.pdf"
-    },
-    {
       "sku": "BRA-5-S-004-S3",
       "options": {
         "kleur": "Mat zwart",
@@ -22348,6 +22505,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S3_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S3_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-004-B3",
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model C1",
+        "uitloop": "Gebogen",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B3_T.pdf"
     },
     {
       "sku": "BRA-5-GK-004-B2",
@@ -22470,21 +22642,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S1_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-004-S3",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "model": "Model C1",
-        "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S3.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S3_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S3_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S3_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-004-B3",
       "options": {
         "kleur": "Geborsteld koper",
@@ -22498,6 +22655,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B3_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B3_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GK-004-S3",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "model": "Model C1",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S3.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S3_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S3_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S3_T.pdf"
     },
     {
       "sku": "BRA-5-NG-004-S2",
@@ -22560,21 +22732,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S5_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-004-S4",
-      "options": {
-        "kleur": "Geborsteld RVS",
-        "model": "Model D1",
-        "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-004-B4",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -22588,6 +22745,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B4_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B4_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-004-S4",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model D1",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S4_T.pdf"
     },
     {
       "sku": "BRA-5-NG-004-S1",
@@ -22620,21 +22792,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B1_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-004-B3",
-      "options": {
-        "kleur": "Geborsteld RVS",
-        "model": "Model C1",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B3.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B3_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B3_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B3_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-004-S3",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -22650,19 +22807,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S3_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-004-S2",
+      "sku": "BRA-5-NG-004-B3",
       "options": {
-        "kleur": "Geborsteld gunmetal",
-        "model": "Model A1",
-        "uitloop": "Recht",
+        "kleur": "Geborsteld RVS",
+        "model": "Model C1",
+        "uitloop": "Gebogen",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S2.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B3.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S2_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S2_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B3_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B3_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S2_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B3_T.pdf"
     },
     {
       "sku": "BRA-5-GM-004-B2",
@@ -22680,19 +22837,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B2_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-004-B5",
+      "sku": "BRA-5-GM-004-S2",
       "options": {
         "kleur": "Geborsteld gunmetal",
-        "model": "Model B1",
-        "uitloop": "Gebogen",
+        "model": "Model A1",
+        "uitloop": "Recht",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S2.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S2_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S2_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S2_T.pdf"
     },
     {
       "sku": "BRA-5-GM-004-S5",
@@ -22710,19 +22867,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S5_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-004-S4",
+      "sku": "BRA-5-GM-004-B5",
       "options": {
         "kleur": "Geborsteld gunmetal",
-        "model": "Model D1",
-        "uitloop": "Recht",
+        "model": "Model B1",
+        "uitloop": "Gebogen",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S4.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S4_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S4_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S4_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B5_T.pdf"
     },
     {
       "sku": "BRA-5-GM-004-B4",
@@ -22738,6 +22895,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B4_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B4_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GM-004-S4",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "model": "Model D1",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S4.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S4_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S4_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S4_T.pdf"
     },
     {
       "sku": "BRA-5-GM-004-S1",
@@ -22860,21 +23032,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B5_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-004-B4",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "model": "Model D1",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B4.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B4_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B4_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B4_T.pdf"
-    },
-    {
       "sku": "BRA-5-GG-004-S4",
       "options": {
         "kleur": "Geborsteld goud",
@@ -22890,19 +23047,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S4_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-004-S1",
+      "sku": "BRA-5-GG-004-B4",
       "options": {
         "kleur": "Geborsteld goud",
-        "model": "Model E1",
-        "uitloop": "Recht",
+        "model": "Model D1",
+        "uitloop": "Gebogen",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B4.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B4_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B4_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B4_T.pdf"
     },
     {
       "sku": "BRA-5-GG-004-B1",
@@ -22920,19 +23077,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B1_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-004-B3",
+      "sku": "BRA-5-GG-004-S1",
       "options": {
         "kleur": "Geborsteld goud",
-        "model": "Model C1",
-        "uitloop": "Gebogen",
+        "model": "Model E1",
+        "uitloop": "Recht",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B3.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B3_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B3_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B3_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S1_T.pdf"
     },
     {
       "sku": "BRA-5-GG-004-S3",
@@ -22948,6 +23105,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S3_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S3_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-004-B3",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "model": "Model C1",
+        "uitloop": "Gebogen",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B3.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B3_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B3_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B3_T.pdf"
     },
     {
       "sku": "BRA-5-CE-083-B2",
@@ -22980,21 +23152,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S2_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-083-S5",
-      "options": {
-        "kleur": "Chroom",
-        "model": "Model B2",
-        "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S5.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S5_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S5_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S5_T.pdf"
-    },
-    {
       "sku": "BRA-5-CE-083-B5",
       "options": {
         "kleur": "Chroom",
@@ -23010,19 +23167,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B5_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-083-S4",
+      "sku": "BRA-5-CE-083-S5",
       "options": {
         "kleur": "Chroom",
-        "model": "Model D2",
+        "model": "Model B2",
         "uitloop": "Recht",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S4.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S5.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S4_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S4_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S5_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S5_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S4_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S5_T.pdf"
     },
     {
       "sku": "BRA-5-CE-083-B4",
@@ -23040,19 +23197,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B4_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-083-S1",
+      "sku": "BRA-5-CE-083-S4",
       "options": {
         "kleur": "Chroom",
-        "model": "Model E2",
+        "model": "Model D2",
         "uitloop": "Recht",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S4.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S4_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S4_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S4_T.pdf"
     },
     {
       "sku": "BRA-5-CE-083-B1",
@@ -23070,19 +23227,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B1_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-083-B3",
+      "sku": "BRA-5-CE-083-S1",
       "options": {
         "kleur": "Chroom",
-        "model": "Model C2",
-        "uitloop": "Gebogen",
+        "model": "Model E2",
+        "uitloop": "Recht",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1_T.pdf"
     },
     {
       "sku": "BRA-5-CE-083-S3",
@@ -23100,19 +23257,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S3_T.pdf"
     },
     {
-      "sku": "BRA-5-S-083-B2",
+      "sku": "BRA-5-CE-083-B3",
       "options": {
-        "kleur": "Mat zwart",
-        "model": "Model A2",
+        "kleur": "Chroom",
+        "model": "Model C2",
         "uitloop": "Gebogen",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B2.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B2_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B2_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B2_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B3_T.pdf"
     },
     {
       "sku": "BRA-5-S-083-S2",
@@ -23128,6 +23285,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S2_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S2_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-083-B2",
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model A2",
+        "uitloop": "Gebogen",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B2.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B2_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B2_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B2_T.pdf"
     },
     {
       "sku": "BRA-5-S-083-S5",
@@ -23190,21 +23362,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S4_T.pdf"
     },
     {
-      "sku": "BRA-5-S-083-B1",
-      "options": {
-        "kleur": "Mat zwart",
-        "model": "Model E2",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1_T.pdf"
-    },
-    {
       "sku": "BRA-5-S-083-S1",
       "options": {
         "kleur": "Mat zwart",
@@ -23220,19 +23377,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S1_T.pdf"
     },
     {
-      "sku": "BRA-5-S-083-S3",
+      "sku": "BRA-5-S-083-B1",
       "options": {
         "kleur": "Mat zwart",
-        "model": "Model C2",
-        "uitloop": "Recht",
+        "model": "Model E2",
+        "uitloop": "Gebogen",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B1_T.pdf"
     },
     {
       "sku": "BRA-5-S-083-B3",
@@ -23248,6 +23405,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B3_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B3_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-083-S3",
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model C2",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S3_T.pdf"
     },
     {
       "sku": "BRA-5-GK-083-B2",
@@ -23310,21 +23482,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S5_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-083-B4",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "model": "Model D2",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B4.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B4_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B4_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B4_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-083-S4",
       "options": {
         "kleur": "Geborsteld koper",
@@ -23340,19 +23497,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S4_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-083-S1",
+      "sku": "BRA-5-GK-083-B4",
       "options": {
         "kleur": "Geborsteld koper",
-        "model": "Model E2",
-        "uitloop": "Recht",
+        "model": "Model D2",
+        "uitloop": "Gebogen",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S1.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B4.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S1_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S1_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B4_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B4_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S1_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B4_T.pdf"
     },
     {
       "sku": "BRA-5-GK-083-B1",
@@ -23368,6 +23525,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B1_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B1_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GK-083-S1",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "model": "Model E2",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S1.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S1_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S1_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S1_T.pdf"
     },
     {
       "sku": "BRA-5-GK-083-B3",
@@ -23400,21 +23572,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-S3_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-083-S2",
-      "options": {
-        "kleur": "Geborsteld RVS",
-        "model": "Model A2",
-        "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-083-B2",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -23430,19 +23587,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B2_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-083-S5",
+      "sku": "BRA-5-NG-083-S2",
       "options": {
         "kleur": "Geborsteld RVS",
-        "model": "Model B2",
+        "model": "Model A2",
         "uitloop": "Recht",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S5.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S5_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S5_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S5_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S2_T.pdf"
     },
     {
       "sku": "BRA-5-NG-083-B5",
@@ -23460,19 +23617,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B5_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-083-S4",
+      "sku": "BRA-5-NG-083-S5",
       "options": {
         "kleur": "Geborsteld RVS",
-        "model": "Model D2",
+        "model": "Model B2",
         "uitloop": "Recht",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S4.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S5.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S4_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S4_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S5_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S5_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S4_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S5_T.pdf"
     },
     {
       "sku": "BRA-5-NG-083-B4",
@@ -23488,6 +23645,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B4_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B4_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-083-S4",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model D2",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S4.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S4_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S4_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S4_T.pdf"
     },
     {
       "sku": "BRA-5-NG-083-B1",
@@ -23520,21 +23692,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S1_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-083-B3",
-      "options": {
-        "kleur": "Geborsteld RVS",
-        "model": "Model C2",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-083-S3",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -23548,6 +23705,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S3_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-S3_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-083-B3",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model C2",
+        "uitloop": "Gebogen",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B3_T.pdf"
     },
     {
       "sku": "BRA-5-GM-083-S2",
@@ -23730,21 +23902,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S2_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-083-B5",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "model": "Model B2",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5_T.pdf"
-    },
-    {
       "sku": "BRA-5-GG-083-S5",
       "options": {
         "kleur": "Geborsteld goud",
@@ -23760,19 +23917,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S5_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-083-S4",
+      "sku": "BRA-5-GG-083-B5",
       "options": {
         "kleur": "Geborsteld goud",
-        "model": "Model D2",
-        "uitloop": "Recht",
+        "model": "Model B2",
+        "uitloop": "Gebogen",
         "afwerking": "Afdekplaat"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S4.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S4_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S4_2.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5_2.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S4_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B5_T.pdf"
     },
     {
       "sku": "BRA-5-GG-083-B4",
@@ -23788,6 +23945,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B4_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B4_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-083-S4",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "model": "Model D2",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S4.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S4_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S4_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S4_T.pdf"
     },
     {
       "sku": "BRA-5-GG-083-B1",
@@ -23820,21 +23992,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S1_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-083-S3",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "model": "Model C2",
-        "uitloop": "Recht",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S3.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S3_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S3_2.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S3_T.pdf"
-    },
-    {
       "sku": "BRA-5-GG-083-B3",
       "options": {
         "kleur": "Geborsteld goud",
@@ -23848,6 +24005,21 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B3_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B3_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-083-S3",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "model": "Model C2",
+        "uitloop": "Recht",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S3.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S3_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S3_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-S3_T.pdf"
     }
   ],
   "9629": [
@@ -23924,16 +24096,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-001_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-001",
-      "options": {
-        "kleur": "Coffee",
-        "typehendel": "Model A"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-S-001-HD5",
       "options": {
         "kleur": "Mat zwart",
@@ -23944,6 +24106,16 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-001-HD5_1.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-001-HD5_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-001",
+      "options": {
+        "kleur": "Coffee",
+        "typehendel": "Model A"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-S-001-HD4",
@@ -24453,27 +24625,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
   ],
   "9639": [
     {
-      "sku": "BRA-5-CE-046",
-      "options": {
-        "kleur": "Chroom",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_7.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_T.pdf"
-    },
-    {
       "sku": "BRA-5-CE-022",
       "options": {
         "kleur": "Chroom",
@@ -24495,25 +24646,25 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-022_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-208",
+      "sku": "BRA-5-CE-046",
       "options": {
         "kleur": "Chroom",
         "houder": "Wandhouder",
         "vulling": "Badvulcombinatie",
-        "bediening": "Drukknoppen",
+        "bediening": "Draaiknoppen",
         "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_7.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_7.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046_T.pdf"
     },
     {
       "sku": "BRA-5-CE-210",
@@ -24535,6 +24686,27 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-210_7.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-210_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CE-208",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208_T.pdf"
     },
     {
       "sku": "BRA-5-CE-023",
@@ -24579,19 +24751,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-047_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-047",
-      "options": {
-        "kleur": "Coffee",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "3-standen"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-CE-211",
       "options": {
         "kleur": "Chroom",
@@ -24632,6 +24791,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-209_7.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-209_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-047",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Draaiknoppen",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-S-022",
@@ -24676,40 +24848,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-046_T.pdf"
     },
     {
-      "sku": "BRA-5-S-208",
-      "options": {
-        "kleur": "Mat zwart",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Drukknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_7.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_T.pdf"
-    },
-    {
-      "sku": "BRA-5-CF-046",
-      "options": {
-        "kleur": "Coffee",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-S-210",
       "options": {
         "kleur": "Mat zwart",
@@ -24729,6 +24867,40 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-210_7.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-210_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-046",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Draaiknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
+      "sku": "BRA-5-S-208",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208_T.pdf"
     },
     {
       "sku": "BRA-5-S-047",
@@ -24815,27 +24987,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-211_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-046",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_7.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-022",
       "options": {
         "kleur": "Geborsteld koper",
@@ -24855,6 +25006,27 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-022_7.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-022_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GK-046",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Draaiknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046_T.pdf"
     },
     {
       "sku": "BRA-5-GK-208",
@@ -24941,27 +25113,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-023_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-211",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Drukknoppen",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_7.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-209",
       "options": {
         "kleur": "Geborsteld koper",
@@ -24983,25 +25134,25 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-209_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-046",
+      "sku": "BRA-5-GK-211",
       "options": {
-        "kleur": "Geborsteld RVS",
+        "kleur": "Geborsteld koper",
         "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
+        "vulling": "Uitloop",
+        "bediening": "Drukknoppen",
+        "handdouche": "3-standen"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_7.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_7.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211_T.pdf"
     },
     {
       "sku": "BRA-5-NG-022",
@@ -25025,25 +25176,25 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-022_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-208",
+      "sku": "BRA-5-NG-046",
       "options": {
         "kleur": "Geborsteld RVS",
         "houder": "Wandhouder",
         "vulling": "Badvulcombinatie",
-        "bediening": "Drukknoppen",
+        "bediening": "Draaiknoppen",
         "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_7.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_7.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046_T.pdf"
     },
     {
       "sku": "BRA-5-NG-210",
@@ -25065,6 +25216,27 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-210_7.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-210_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-208",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208_T.pdf"
     },
     {
       "sku": "BRA-5-NG-023",
@@ -25277,27 +25449,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-023_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-209",
-      "options": {
-        "kleur": "Geborsteld gunmetal",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Drukknoppen",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_7.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_T.pdf"
-    },
-    {
       "sku": "BRA-5-GM-211",
       "options": {
         "kleur": "Geborsteld gunmetal",
@@ -25319,25 +25470,25 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-211_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-022",
+      "sku": "BRA-5-GM-209",
       "options": {
-        "kleur": "Geborsteld goud",
+        "kleur": "Geborsteld gunmetal",
         "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
+        "vulling": "Badvulcombinatie",
+        "bediening": "Drukknoppen",
+        "handdouche": "3-standen"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_7.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_7.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209_T.pdf"
     },
     {
       "sku": "BRA-5-GG-046",
@@ -25361,25 +25512,25 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-046_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-210",
+      "sku": "BRA-5-GG-022",
       "options": {
         "kleur": "Geborsteld goud",
         "houder": "Wandhouder",
         "vulling": "Uitloop",
-        "bediening": "Drukknoppen",
+        "bediening": "Draaiknoppen",
         "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_7.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_7.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022_T.pdf"
     },
     {
       "sku": "BRA-5-GG-208",
@@ -25401,6 +25552,27 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-208_7.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-208_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-210",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "vulling": "Uitloop",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210_T.pdf"
     },
     {
       "sku": "BRA-5-GG-023",
@@ -31873,6 +32045,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-026_T.pdf"
     },
     {
+      "sku": "BRA-5-CF-026",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Nee",
+        "handdouche": "Staafmodel",
+        "hoofddouche": "30 cm",
+        "bevestiginghoofddouche": "Rechte wandarm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
       "sku": "BRA-5-S-024",
       "options": {
         "kleur": "Mat zwart",
@@ -31893,19 +32078,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-024_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-024_T.pdf"
-    },
-    {
-      "sku": "BRA-5-CF-026",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Nee",
-        "handdouche": "Staafmodel",
-        "hoofddouche": "30 cm",
-        "bevestiginghoofddouche": "Rechte wandarm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
     },
     {
       "sku": "BRA-5-S-026",
@@ -32040,6 +32212,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-024_T.pdf"
     },
     {
+      "sku": "BRA-5-CF-024",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Nee",
+        "handdouche": "Staafmodel",
+        "hoofddouche": "20 cm",
+        "bevestiginghoofddouche": "Rechte wandarm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
       "sku": "BRA-5-GM-026",
       "options": {
         "kleur": "Geborsteld gunmetal",
@@ -32060,19 +32245,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-026_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-026_T.pdf"
-    },
-    {
-      "sku": "BRA-5-CF-024",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Nee",
-        "handdouche": "Staafmodel",
-        "hoofddouche": "20 cm",
-        "bevestiginghoofddouche": "Rechte wandarm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
     },
     {
       "sku": "BRA-5-GG-024",
@@ -32141,19 +32313,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-074_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-074",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Nee",
-        "handdouche": "Staafmodel",
-        "hoofddouche": "20 cm",
-        "bevestiginghoofddouche": "Gebogen wandarm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-CE-025",
       "options": {
         "kleur": "Chroom",
@@ -32174,6 +32333,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-025_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-025_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-074",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Nee",
+        "handdouche": "Staafmodel",
+        "hoofddouche": "20 cm",
+        "bevestiginghoofddouche": "Gebogen wandarm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-CE-075",
@@ -32721,19 +32893,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-076_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-076",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Nee",
-        "handdouche": "3-standen",
-        "hoofddouche": "20 cm",
-        "bevestiginghoofddouche": "Rechte wandarm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-CE-028",
       "options": {
         "kleur": "Chroom",
@@ -32756,13 +32915,13 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-028_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-028",
+      "sku": "BRA-5-CF-076",
       "options": {
         "kleur": "Coffee",
         "glijstang": "Nee",
         "handdouche": "3-standen",
         "hoofddouche": "20 cm",
-        "bevestiginghoofddouche": "Gebogen wandarm"
+        "bevestiginghoofddouche": "Rechte wandarm"
       },
       "image": null,
       "images": null,
@@ -32789,6 +32948,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-030_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-030_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-028",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Nee",
+        "handdouche": "3-standen",
+        "hoofddouche": "20 cm",
+        "bevestiginghoofddouche": "Gebogen wandarm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-CE-077",
@@ -32826,19 +32998,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": null
     },
     {
-      "sku": "BRA-5-CF-077",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Nee",
-        "handdouche": "3-standen",
-        "hoofddouche": "30 cm",
-        "bevestiginghoofddouche": "Gebogen wandarm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-S-076",
       "options": {
         "kleur": "Mat zwart",
@@ -32859,6 +33018,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-076_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-076_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-077",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Nee",
+        "handdouche": "3-standen",
+        "hoofddouche": "30 cm",
+        "bevestiginghoofddouche": "Gebogen wandarm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-S-028",
@@ -33301,19 +33473,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-029_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-029",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Nee",
-        "handdouche": "3-standen",
-        "hoofddouche": "20 cm",
-        "bevestiginghoofddouche": "Plafondbuis"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-CE-031",
       "options": {
         "kleur": "Chroom",
@@ -33334,6 +33493,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-031_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-031_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-029",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Nee",
+        "handdouche": "3-standen",
+        "hoofddouche": "20 cm",
+        "bevestiginghoofddouche": "Plafondbuis"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-CF-031",
@@ -33986,19 +34158,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": null
     },
     {
-      "sku": "BRA-5-CF-035",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Ja",
-        "handdouche": "Staafmodel",
-        "hoofddouche": "30 cm",
-        "bevestiginghoofddouche": "Plafondbuis"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-S-078",
       "options": {
         "kleur": "Mat zwart",
@@ -34019,6 +34178,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-078_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-078_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-035",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Ja",
+        "handdouche": "Staafmodel",
+        "hoofddouche": "30 cm",
+        "bevestiginghoofddouche": "Plafondbuis"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-S-033",
@@ -34461,6 +34633,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-080_T.pdf"
     },
     {
+      "sku": "BRA-5-CF-080",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Ja",
+        "handdouche": "3-standen",
+        "hoofddouche": "20 cm",
+        "bevestiginghoofddouche": "Gebogen wandarm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
       "sku": "BRA-5-CE-036",
       "options": {
         "kleur": "Chroom",
@@ -34483,32 +34668,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-036_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-080",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Ja",
-        "handdouche": "3-standen",
-        "hoofddouche": "20 cm",
-        "bevestiginghoofddouche": "Gebogen wandarm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
-      "sku": "BRA-5-CF-036",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Ja",
-        "handdouche": "3-standen",
-        "hoofddouche": "20 cm",
-        "bevestiginghoofddouche": "Rechte wandarm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-CE-081",
       "options": {
         "kleur": "Chroom",
@@ -34529,6 +34688,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-081_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-081_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-036",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Ja",
+        "handdouche": "3-standen",
+        "hoofddouche": "20 cm",
+        "bevestiginghoofddouche": "Rechte wandarm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-CE-038",
@@ -34619,6 +34791,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-081_T.pdf"
     },
     {
+      "sku": "BRA-5-CF-081",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Ja",
+        "handdouche": "3-standen",
+        "hoofddouche": "30 cm",
+        "bevestiginghoofddouche": "Gebogen wandarm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
       "sku": "BRA-5-S-038",
       "options": {
         "kleur": "Mat zwart",
@@ -34641,32 +34826,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-038_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-081",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Ja",
-        "handdouche": "3-standen",
-        "hoofddouche": "30 cm",
-        "bevestiginghoofddouche": "Gebogen wandarm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
-      "sku": "BRA-5-CF-038",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Ja",
-        "handdouche": "3-standen",
-        "hoofddouche": "30 cm",
-        "bevestiginghoofddouche": "Rechte wandarm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-GK-080",
       "options": {
         "kleur": "Geborsteld koper",
@@ -34687,6 +34846,19 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-080_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-080_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-038",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Ja",
+        "handdouche": "3-standen",
+        "hoofddouche": "30 cm",
+        "bevestiginghoofddouche": "Rechte wandarm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-GK-036",
@@ -38515,17 +38687,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-232_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-232",
-      "options": {
-        "kleur": "Coffee",
-        "glijstang": "Ja",
-        "handdouche": "3-standen"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-CE-233",
       "options": {
         "kleur": "Chroom",
@@ -38541,6 +38702,17 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-233_5.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-233_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-232",
+      "options": {
+        "kleur": "Coffee",
+        "glijstang": "Ja",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-CF-233",
@@ -38947,6 +39119,16 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-236_T.pdf"
     },
     {
+      "sku": "BRA-5-CF-236",
+      "options": {
+        "kleur": "Coffee",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
       "sku": "BRA-5-S-235",
       "options": {
         "kleur": "Mat zwart",
@@ -38962,16 +39144,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-235_6.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-235_T.pdf"
-    },
-    {
-      "sku": "BRA-5-CF-236",
-      "options": {
-        "kleur": "Coffee",
-        "handdouche": "3-standen"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
     },
     {
       "sku": "BRA-5-S-236",
@@ -39241,6 +39413,17 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": null
     },
     {
+      "sku": "BRA-5-CF-239",
+      "options": {
+        "kleur": "Coffee",
+        "handdouche": "Staafmodel",
+        "hoofddouche": "20 cm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
       "sku": "BRA-5-S-240",
       "options": {
         "kleur": "Mat zwart",
@@ -39259,28 +39442,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-240_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-239",
-      "options": {
-        "kleur": "Coffee",
-        "handdouche": "Staafmodel",
-        "hoofddouche": "20 cm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
-      "sku": "BRA-5-CF-240",
-      "options": {
-        "kleur": "Coffee",
-        "handdouche": "3-standen",
-        "hoofddouche": "20 cm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-S-241",
       "options": {
         "kleur": "Mat zwart",
@@ -39297,6 +39458,17 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-241_6.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-241_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-240",
+      "options": {
+        "kleur": "Coffee",
+        "handdouche": "3-standen",
+        "hoofddouche": "20 cm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-S-242",
@@ -39620,6 +39792,16 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-002_T.pdf"
     },
     {
+      "sku": "BRA-5-CF-002",
+      "options": {
+        "kleur": "Coffee",
+        "typehendel": "Model A"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
       "sku": "BRA-5-CE-002-HD5",
       "options": {
         "kleur": "Chroom",
@@ -39633,26 +39815,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-002-HD5_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-002",
-      "options": {
-        "kleur": "Coffee",
-        "typehendel": "Model A"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
-      "sku": "BRA-5-CF-002-HD5",
-      "options": {
-        "kleur": "Coffee",
-        "typehendel": "Model B"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-CE-002-HD4",
       "options": {
         "kleur": "Chroom",
@@ -39664,6 +39826,16 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-002-HD4_2.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-002-HD4_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-002-HD5",
+      "options": {
+        "kleur": "Coffee",
+        "typehendel": "Model B"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-CE-002-HD3",
@@ -40211,7 +40383,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H120200CE.jpg",
       "images": [
@@ -40224,7 +40398,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H160200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "160x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H160200CE.jpg",
       "images": [
@@ -40237,7 +40413,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H120200MZ.jpg",
       "images": [
@@ -40250,7 +40428,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H160200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "160x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H160200MZ.jpg",
       "images": [
@@ -40263,7 +40443,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H120200NG.jpg",
       "images": [
@@ -40276,7 +40458,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H160200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H160200NG.jpg",
       "images": [
@@ -40289,7 +40473,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H120200GM.jpg",
       "images": [
@@ -40302,7 +40488,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H160200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H160200GM.jpg",
       "images": [
@@ -40315,7 +40503,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H120200GG.jpg",
       "images": [
@@ -40328,7 +40518,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H160200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H160200GG.jpg",
       "images": [
@@ -40341,7 +40533,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H120200GK.jpg",
       "images": [
@@ -40354,7 +40548,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTN1H160200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H160200GK.jpg",
       "images": [
@@ -40369,7 +40565,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H12090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200CE.jpg",
       "images": [
@@ -40382,7 +40580,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H16090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "160x90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200CE.jpg",
       "images": [
@@ -40395,7 +40595,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H12090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200MZ.jpg",
       "images": [
@@ -40408,7 +40610,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H16090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "160x90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200MZ.jpg",
       "images": [
@@ -40421,7 +40625,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H12090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200NG.jpg",
       "images": [
@@ -40434,7 +40640,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H16090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "160x90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200NG.jpg",
       "images": [
@@ -40447,7 +40655,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H12090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200GM.jpg",
       "images": [
@@ -40460,7 +40670,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H16090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "160x90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200GM.jpg",
       "images": [
@@ -40473,7 +40685,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H12090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200GG.jpg",
       "images": [
@@ -40486,7 +40700,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H16090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "160x90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200GG.jpg",
       "images": [
@@ -40499,7 +40715,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H12090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200GK.jpg",
       "images": [
@@ -40512,7 +40730,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-GTC1H16090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "160x90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H16090200GK.jpg",
       "images": [
@@ -40526,9 +40746,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
   "9652": [
     {
       "sku": "BRA-5-CF-5513",
-      "options": {
-        "houder": "Glijstang"
-      },
+      "options": {},
       "image": null,
       "images": null,
       "drawing": null
@@ -40536,8 +40754,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-CE-5513",
       "options": {
-        "kleur": "Chroom",
-        "houder": "Glijstang"
+        "kleur": "Chroom"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5513.jpg",
       "images": null,
@@ -40546,8 +40763,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-S-5513",
       "options": {
-        "kleur": "Mat zwart",
-        "houder": "Glijstang"
+        "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-5513.jpg",
       "images": null,
@@ -40556,8 +40772,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GK-5513",
       "options": {
-        "kleur": "Geborsteld koper",
-        "houder": "Glijstang"
+        "kleur": "Geborsteld koper"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-5513.jpg",
       "images": null,
@@ -40566,8 +40781,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-NG-5513",
       "options": {
-        "kleur": "Geborsteld RVS",
-        "houder": "Glijstang"
+        "kleur": "Geborsteld RVS"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-5513.jpg",
       "images": null,
@@ -40576,8 +40790,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GM-5513",
       "options": {
-        "kleur": "Geborsteld gunmetal",
-        "houder": "Glijstang"
+        "kleur": "Geborsteld gunmetal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-5513.jpg",
       "images": null,
@@ -40586,8 +40799,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GG-5513",
       "options": {
-        "kleur": "Geborsteld goud",
-        "houder": "Glijstang"
+        "kleur": "Geborsteld goud"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-5513.jpg",
       "images": null,
@@ -40736,7 +40948,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-AE-HBA60GG",
-      "options": {},
+      "options": {
+        "kleur": "Geborsteld goud",
+        "model": "Model A (60 cm)"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBA60GG.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBA60GG_1.jpg",
@@ -40747,7 +40962,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-AE-HBA60MZ",
-      "options": {},
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model A (60 cm)"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBA60MZ.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBA60MZ_1.jpg",
@@ -40758,7 +40976,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-AE-HBA60GM",
-      "options": {},
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "model": "Model A (60 cm)"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBA60GM.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBA60GM_1.jpg",
@@ -40769,7 +40990,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-AE-HBA60NG",
-      "options": {},
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model A (60 cm)"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBA60NG.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBA60NG_1.jpg",
@@ -40780,7 +41004,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-AE-HBA60GK",
-      "options": {},
+      "options": {
+        "kleur": "Geborsteld koper",
+        "model": "Model A (60 cm)"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBA60GK.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBA60GK_1.jpg",
@@ -40791,7 +41018,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-AE-HBB35GG",
-      "options": {},
+      "options": {
+        "kleur": "Geborsteld goud",
+        "model": "Model B (35 cm)"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GG.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GG_1.jpg"
@@ -40800,7 +41030,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-AE-HBB35MZ",
-      "options": {},
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model B (35 cm)"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35MZ.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35MZ_1.jpg"
@@ -40809,7 +41042,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-AE-HBB35GM",
-      "options": {},
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "model": "Model B (35 cm)"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GM.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GM_1.jpg"
@@ -40818,7 +41054,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-AE-HBB35NG",
-      "options": {},
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model B (35 cm)"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35NG.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35NG_1.jpg"
@@ -40827,7 +41066,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     },
     {
       "sku": "BRA-AE-HBB35GK",
-      "options": {},
+      "options": {
+        "kleur": "Geborsteld koper",
+        "model": "Model B (35 cm)"
+      },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GK.jpg",
       "images": [
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GK_1.jpg"
@@ -41104,6 +41346,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GG-146",
       "options": {
+        "maat": "600x300 cm",
         "kleur": "Geborsteld goud"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-146.jpg",
@@ -41115,6 +41358,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-S-146",
       "options": {
+        "maat": "600x300 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-146.jpg",
@@ -41126,6 +41370,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-CF-146",
       "options": {
+        "maat": "60x30 cm",
         "kleur": "Coffee"
       },
       "image": null,
@@ -41135,6 +41380,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GM-146",
       "options": {
+        "maat": "600x300 cm",
         "kleur": "Geborsteld gunmetal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-146.jpg",
@@ -41146,6 +41392,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-NG-146",
       "options": {
+        "maat": "600x300 cm",
         "kleur": "Geborsteld RVS"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-146.jpg",
@@ -41157,6 +41404,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GK-146",
       "options": {
+        "maat": "600x300 cm",
         "kleur": "Geborsteld koper"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-146.jpg",
@@ -41170,6 +41418,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GG-145",
       "options": {
+        "maat": "300x300 cm",
         "kleur": "Geborsteld goud"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-145.jpg",
@@ -41181,6 +41430,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-S-145",
       "options": {
+        "maat": "300x300 cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-145.jpg",
@@ -41192,6 +41442,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-CF-145",
       "options": {
+        "maat": "30x30 cm",
         "kleur": "Coffee"
       },
       "image": null,
@@ -41201,6 +41452,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GM-145",
       "options": {
+        "maat": "300x300 cm",
         "kleur": "Geborsteld gunmetal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-145.jpg",
@@ -41212,6 +41464,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-NG-145",
       "options": {
+        "maat": "300x300 cm",
         "kleur": "Geborsteld RVS"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-145.jpg",
@@ -41223,6 +41476,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GK-145",
       "options": {
+        "maat": "300x300 cm",
         "kleur": "Geborsteld koper"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-145.jpg",
@@ -41402,7 +41656,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H9090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H9090200CE.jpg",
       "images": [
@@ -41416,7 +41672,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H9090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H9090200MZ.jpg",
       "images": [
@@ -41430,7 +41688,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H9090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H9090200NG.jpg",
       "images": [
@@ -41444,7 +41704,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H9090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H9090200GM.jpg",
       "images": [
@@ -41458,7 +41720,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H9090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H9090200GG.jpg",
       "images": [
@@ -41472,7 +41736,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H9090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H9090200GK.jpg",
       "images": [
@@ -41486,7 +41752,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H12090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H12090200CE.jpg",
       "images": [
@@ -41500,7 +41768,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H12090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H12090200MZ.jpg",
       "images": [
@@ -41514,7 +41784,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H12090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H12090200NG.jpg",
       "images": [
@@ -41528,7 +41800,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H12090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H12090200GM.jpg",
       "images": [
@@ -41542,7 +41816,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H12090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H12090200GG.jpg",
       "images": [
@@ -41556,7 +41832,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMC1H12090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H12090200GK.jpg",
       "images": [
@@ -41572,7 +41850,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H120200CE.jpg",
       "images": [
@@ -41586,7 +41866,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H120200MZ.jpg",
       "images": [
@@ -41600,7 +41882,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H120200NG.jpg",
       "images": [
@@ -41614,7 +41898,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H120200GM.jpg",
       "images": [
@@ -41628,7 +41914,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H120200GG.jpg",
       "images": [
@@ -41642,7 +41930,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H120200GK.jpg",
       "images": [
@@ -41658,7 +41948,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H90200CE.jpg",
       "images": [
@@ -41672,7 +41964,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H90200MZ.jpg",
       "images": [
@@ -41686,7 +41980,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H90200NG.jpg",
       "images": [
@@ -41700,7 +41996,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H90200GM.jpg",
       "images": [
@@ -41714,7 +42012,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H90200GG.jpg",
       "images": [
@@ -41728,7 +42028,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-LMN1H90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H90200GK.jpg",
       "images": [
@@ -41865,7 +42167,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1H80140CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x140 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1H80140CE.jpg",
       "images": [
@@ -41878,7 +42182,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1H80140MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x140 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1H80140MZ.jpg",
       "images": [
@@ -41891,7 +42197,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1H80140NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x140 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1H80140NG.jpg",
       "images": [
@@ -41904,7 +42212,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1H80140GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x140 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1H80140GK.jpg",
       "images": [
@@ -41917,7 +42227,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1H80140GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x140 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1H80140GG.jpg",
       "images": [
@@ -41930,7 +42242,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1H80140GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x140 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1H80140GM.jpg",
       "images": [
@@ -41943,7 +42257,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1B80140CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x140 cm",
+        "kleur": "Chroom",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1B80140CE.jpg",
       "images": [
@@ -41956,7 +42272,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1B80140MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x140 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1B80140MZ.jpg",
       "images": [
@@ -41969,7 +42287,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1B80140NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x140 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1B80140NG.jpg",
       "images": [
@@ -41982,7 +42302,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1B80140GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x140 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1B80140GK.jpg",
       "images": [
@@ -41995,7 +42317,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1B80140GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x140 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1B80140GG.jpg",
       "images": [
@@ -42008,7 +42332,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBB1B80140GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x140 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1B80140GM.jpg",
       "images": [
@@ -42023,7 +42349,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR90200CE.jpg",
       "images": [
@@ -42036,7 +42364,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR100200CE.jpg",
       "images": [
@@ -42049,7 +42379,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR120200CE.jpg",
       "images": [
@@ -42062,7 +42394,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR90200MZ.jpg",
       "images": [
@@ -42075,7 +42409,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR100200MZ.jpg",
       "images": [
@@ -42088,7 +42424,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR120200MZ.jpg",
       "images": [
@@ -42101,7 +42439,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR90200NG.jpg",
       "images": [
@@ -42114,7 +42454,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR100200NG.jpg",
       "images": [
@@ -42127,7 +42469,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR120200NG.jpg",
       "images": [
@@ -42140,7 +42484,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR90200GK.jpg",
       "images": [
@@ -42153,7 +42499,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR100200GK.jpg",
       "images": [
@@ -42166,7 +42514,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR120200GK.jpg",
       "images": [
@@ -42179,7 +42529,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR90200GM.jpg",
       "images": [
@@ -42192,7 +42544,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR100200GM.jpg",
       "images": [
@@ -42205,7 +42559,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR120200GM.jpg",
       "images": [
@@ -42218,7 +42574,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR90200GG.jpg",
       "images": [
@@ -42231,7 +42589,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR100200GG.jpg",
       "images": [
@@ -42244,7 +42604,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI1HR120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR120200GG.jpg",
       "images": [
@@ -42259,7 +42621,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR9030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR9030200CE.jpg",
       "images": [
@@ -42272,7 +42636,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR10030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR10030200CE.jpg",
       "images": [
@@ -42285,7 +42651,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR12030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR12030200CE.jpg",
       "images": [
@@ -42298,7 +42666,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR9030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR9030200MZ.jpg",
       "images": [
@@ -42311,7 +42681,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR10030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR10030200MZ.jpg",
       "images": [
@@ -42324,7 +42696,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR12030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR12030200MZ.jpg",
       "images": [
@@ -42337,7 +42711,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR9030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR9030200NG.jpg",
       "images": [
@@ -42350,7 +42726,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR10030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR10030200NG.jpg",
       "images": [
@@ -42363,7 +42741,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR12030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR12030200NG.jpg",
       "images": [
@@ -42376,7 +42756,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR9030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR9030200GK.jpg",
       "images": [
@@ -42389,7 +42771,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR10030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR10030200GK.jpg",
       "images": [
@@ -42402,7 +42786,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR12030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR12030200GK.jpg",
       "images": [
@@ -42415,7 +42801,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR9030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR9030200GM.jpg",
       "images": [
@@ -42428,7 +42816,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR10030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR10030200GM.jpg",
       "images": [
@@ -42441,7 +42831,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR12030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR12030200GM.jpg",
       "images": [
@@ -42454,7 +42846,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR9030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR9030200GG.jpg",
       "images": [
@@ -42467,7 +42861,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR10030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR10030200GG.jpg",
       "images": [
@@ -42480,7 +42876,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBFI2HR12030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Ribbelglas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR12030200GG.jpg",
       "images": [
@@ -42495,7 +42893,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H50200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "50x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H50200CE.jpg",
       "images": [
@@ -42508,7 +42908,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H60200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "60x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H60200CE.jpg",
       "images": [
@@ -42521,7 +42923,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H70200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "70x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H70200CE.jpg",
       "images": [
@@ -42534,7 +42938,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H80200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H80200CE.jpg",
       "images": [
@@ -42547,7 +42953,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H90200CE.jpg",
       "images": [
@@ -42560,7 +42968,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H100200CE.jpg",
       "images": [
@@ -42573,7 +42983,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H110200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "110x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H110200CE.jpg",
       "images": [
@@ -42586,7 +42998,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H120200CE.jpg",
       "images": [
@@ -42599,7 +43013,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H130200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "130x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H130200CE.jpg",
       "images": [
@@ -42612,7 +43028,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H140200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H140200CE.jpg",
       "images": [
@@ -42625,7 +43043,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H50200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "50x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H50200MZ.jpg",
       "images": [
@@ -42638,7 +43058,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H60200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "60x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H60200MZ.jpg",
       "images": [
@@ -42651,7 +43073,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H70200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "70x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H70200MZ.jpg",
       "images": [
@@ -42664,7 +43088,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H80200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H80200MZ.jpg",
       "images": [
@@ -42677,7 +43103,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H90200MZ.jpg",
       "images": [
@@ -42690,7 +43118,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H100200MZ.jpg",
       "images": [
@@ -42703,7 +43133,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H110200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "110x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H110200MZ.jpg",
       "images": [
@@ -42716,7 +43148,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H120200MZ.jpg",
       "images": [
@@ -42729,7 +43163,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H130200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "130x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H130200MZ.jpg",
       "images": [
@@ -42742,7 +43178,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H140200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H140200MZ.jpg",
       "images": [
@@ -42755,7 +43193,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H50200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "50x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H50200NG.jpg",
       "images": [
@@ -42768,7 +43208,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H60200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H60200NG.jpg",
       "images": [
@@ -42781,7 +43223,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H70200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H70200NG.jpg",
       "images": [
@@ -42794,7 +43238,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H80200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H80200NG.jpg",
       "images": [
@@ -42807,7 +43253,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H90200NG.jpg",
       "images": [
@@ -42820,7 +43268,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H100200NG.jpg",
       "images": [
@@ -42833,7 +43283,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H110200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H110200NG.jpg",
       "images": [
@@ -42846,7 +43298,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H120200NG.jpg",
       "images": [
@@ -42859,7 +43313,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H130200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H130200NG.jpg",
       "images": [
@@ -42872,7 +43328,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H140200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H140200NG.jpg",
       "images": [
@@ -42885,7 +43343,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H50200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "50x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H50200GK.jpg",
       "images": [
@@ -42898,7 +43358,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H60200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H60200GK.jpg",
       "images": [
@@ -42911,7 +43373,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H70200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H70200GK.jpg",
       "images": [
@@ -42924,7 +43388,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H80200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H80200GK.jpg",
       "images": [
@@ -42937,7 +43403,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H90200GK.jpg",
       "images": [
@@ -42950,7 +43418,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H100200GK.jpg",
       "images": [
@@ -42963,7 +43433,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H110200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H110200GK.jpg",
       "images": [
@@ -42976,7 +43448,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H120200GK.jpg",
       "images": [
@@ -42989,7 +43463,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H130200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H130200GK.jpg",
       "images": [
@@ -43002,7 +43478,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H140200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H140200GK.jpg",
       "images": [
@@ -43015,7 +43493,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H50200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "50x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H50200GM.jpg",
       "images": [
@@ -43028,7 +43508,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H60200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H60200GM.jpg",
       "images": [
@@ -43041,7 +43523,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H70200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H70200GM.jpg",
       "images": [
@@ -43054,7 +43538,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H80200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H80200GM.jpg",
       "images": [
@@ -43067,7 +43553,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H90200GM.jpg",
       "images": [
@@ -43080,7 +43568,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H100200GM.jpg",
       "images": [
@@ -43093,7 +43583,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H110200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H110200GM.jpg",
       "images": [
@@ -43106,7 +43598,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H120200GM.jpg",
       "images": [
@@ -43119,7 +43613,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H130200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H130200GM.jpg",
       "images": [
@@ -43132,7 +43628,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H140200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H140200GM.jpg",
       "images": [
@@ -43145,7 +43643,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H50200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "50x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H50200GG.jpg",
       "images": [
@@ -43158,7 +43658,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H60200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H60200GG.jpg",
       "images": [
@@ -43171,7 +43673,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H70200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H70200GG.jpg",
       "images": [
@@ -43184,7 +43688,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H80200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H80200GG.jpg",
       "images": [
@@ -43197,7 +43703,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H90200GG.jpg",
       "images": [
@@ -43210,7 +43718,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H100200GG.jpg",
       "images": [
@@ -43223,7 +43733,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H110200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H110200GG.jpg",
       "images": [
@@ -43236,7 +43748,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H120200GG.jpg",
       "images": [
@@ -43249,7 +43763,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H130200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H130200GG.jpg",
       "images": [
@@ -43262,7 +43778,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1H140200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H140200GG.jpg",
       "images": [
@@ -43275,7 +43793,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B90200CE.jpg",
       "images": [
@@ -43288,7 +43808,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B100200CE.jpg",
       "images": [
@@ -43301,7 +43823,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B120200CE.jpg",
       "images": [
@@ -43314,7 +43838,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B90200MZ.jpg",
       "images": [
@@ -43327,7 +43853,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B100200MZ.jpg",
       "images": [
@@ -43340,7 +43868,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B120200MZ.jpg",
       "images": [
@@ -43353,7 +43883,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B90200NG.jpg",
       "images": [
@@ -43366,7 +43898,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B100200NG.jpg",
       "images": [
@@ -43379,7 +43913,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B120200NG.jpg",
       "images": [
@@ -43392,7 +43928,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B90200GK.jpg",
       "images": [
@@ -43405,7 +43943,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B100200GK.jpg",
       "images": [
@@ -43418,7 +43958,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B120200GK.jpg",
       "images": [
@@ -43431,7 +43973,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B90200GM.jpg",
       "images": [
@@ -43444,7 +43988,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B100200GM.jpg",
       "images": [
@@ -43457,7 +44003,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B120200GM.jpg",
       "images": [
@@ -43470,7 +44018,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B90200GG.jpg",
       "images": [
@@ -43483,7 +44033,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B100200GG.jpg",
       "images": [
@@ -43496,7 +44048,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI1B120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1B120200GG.jpg",
       "images": [
@@ -43511,7 +44065,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9030200CE.jpg",
       "images": [
@@ -43524,7 +44080,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10030200CE.jpg",
       "images": [
@@ -43537,7 +44095,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "110x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200CE.jpg",
       "images": [
@@ -43550,7 +44110,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12030200CE.jpg",
       "images": [
@@ -43563,7 +44125,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "130x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13030200CE.jpg",
       "images": [
@@ -43576,7 +44140,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14030200CE.jpg",
       "images": [
@@ -43589,7 +44155,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9040200CE.jpg",
       "images": [
@@ -43602,7 +44170,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10040200CE.jpg",
       "images": [
@@ -43615,7 +44185,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "110x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11040200CE.jpg",
       "images": [
@@ -43628,7 +44200,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12040200CE.jpg",
       "images": [
@@ -43641,7 +44215,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "130x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13040200CE.jpg",
       "images": [
@@ -43654,7 +44230,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14040200CE.jpg",
       "images": [
@@ -43667,7 +44245,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9030200MZ.jpg",
       "images": [
@@ -43680,7 +44260,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10030200MZ.jpg",
       "images": [
@@ -43693,7 +44275,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "110x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200MZ.jpg",
       "images": [
@@ -43706,7 +44290,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12030200MZ.jpg",
       "images": [
@@ -43719,7 +44305,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "130x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13030200MZ.jpg",
       "images": [
@@ -43732,7 +44320,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14030200MZ.jpg",
       "images": [
@@ -43745,7 +44335,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9040200MZ.jpg",
       "images": [
@@ -43758,7 +44350,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10040200MZ.jpg",
       "images": [
@@ -43771,7 +44365,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "110x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11040200MZ.jpg",
       "images": [
@@ -43784,7 +44380,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12040200MZ.jpg",
       "images": [
@@ -43797,7 +44395,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "130x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13040200MZ.jpg",
       "images": [
@@ -43810,7 +44410,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14040200MZ.jpg",
       "images": [
@@ -43823,7 +44425,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9030200NG.jpg",
       "images": [
@@ -43836,7 +44440,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10030200NG.jpg",
       "images": [
@@ -43849,7 +44455,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200NG.jpg",
       "images": [
@@ -43862,7 +44470,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12030200NG.jpg",
       "images": [
@@ -43875,7 +44485,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13030200NG.jpg",
       "images": [
@@ -43888,7 +44500,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14030200NG.jpg",
       "images": [
@@ -43901,7 +44515,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9040200NG.jpg",
       "images": [
@@ -43914,7 +44530,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10040200NG.jpg",
       "images": [
@@ -43927,7 +44545,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11040200NG.jpg",
       "images": [
@@ -43940,7 +44560,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12040200NG.jpg",
       "images": [
@@ -43953,7 +44575,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13040200NG.jpg",
       "images": [
@@ -43966,7 +44590,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14040200NG.jpg",
       "images": [
@@ -43979,7 +44605,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9030200GK.jpg",
       "images": [
@@ -43992,7 +44620,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10030200GK.jpg",
       "images": [
@@ -44005,7 +44635,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200GK.jpg",
       "images": [
@@ -44018,7 +44650,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12030200GK.jpg",
       "images": [
@@ -44031,7 +44665,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13030200GK.jpg",
       "images": [
@@ -44044,7 +44680,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14030200GK.jpg",
       "images": [
@@ -44057,7 +44695,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9040200GK.jpg",
       "images": [
@@ -44070,7 +44710,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10040200GK.jpg",
       "images": [
@@ -44083,7 +44725,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11040200GK.jpg",
       "images": [
@@ -44096,7 +44740,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12040200GK.jpg",
       "images": [
@@ -44109,7 +44755,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13040200GK.jpg",
       "images": [
@@ -44122,7 +44770,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14040200GK.jpg",
       "images": [
@@ -44135,7 +44785,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9030200GM.jpg",
       "images": [
@@ -44148,7 +44800,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10030200GM.jpg",
       "images": [
@@ -44161,7 +44815,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200GM.jpg",
       "images": [
@@ -44174,7 +44830,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12030200GM.jpg",
       "images": [
@@ -44187,7 +44845,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13030200GM.jpg",
       "images": [
@@ -44200,7 +44860,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14030200GM.jpg",
       "images": [
@@ -44213,7 +44875,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9040200GM.jpg",
       "images": [
@@ -44226,7 +44890,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10040200GM.jpg",
       "images": [
@@ -44239,7 +44905,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11040200GM.jpg",
       "images": [
@@ -44252,7 +44920,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12040200GM.jpg",
       "images": [
@@ -44265,7 +44935,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13040200GM.jpg",
       "images": [
@@ -44278,7 +44950,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14040200GM.jpg",
       "images": [
@@ -44291,7 +44965,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9030200GG.jpg",
       "images": [
@@ -44304,7 +44980,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10030200GG.jpg",
       "images": [
@@ -44317,7 +44995,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11030200GG.jpg",
       "images": [
@@ -44330,7 +45010,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12030200GG.jpg",
       "images": [
@@ -44343,7 +45025,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13030200GG.jpg",
       "images": [
@@ -44356,7 +45040,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14030200GG.jpg",
       "images": [
@@ -44369,7 +45055,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H9040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H9040200GG.jpg",
       "images": [
@@ -44382,7 +45070,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H10040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H10040200GG.jpg",
       "images": [
@@ -44395,7 +45085,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H11040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H11040200GG.jpg",
       "images": [
@@ -44408,7 +45100,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H12040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H12040200GG.jpg",
       "images": [
@@ -44421,7 +45115,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H13040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H13040200GG.jpg",
       "images": [
@@ -44434,7 +45130,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2H14040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2H14040200GG.jpg",
       "images": [
@@ -44447,7 +45145,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B9030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200CE.jpg",
       "images": [
@@ -44460,7 +45160,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B10030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B10030200CE.jpg",
       "images": [
@@ -44473,7 +45175,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B12030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B12030200CE.jpg",
       "images": [
@@ -44486,7 +45190,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B9030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200MZ.jpg",
       "images": [
@@ -44499,7 +45205,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B10030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B10030200MZ.jpg",
       "images": [
@@ -44512,7 +45220,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B12030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B12030200MZ.jpg",
       "images": [
@@ -44525,7 +45235,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B9030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200NG.jpg",
       "images": [
@@ -44538,7 +45250,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B10030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B10030200NG.jpg",
       "images": [
@@ -44551,7 +45265,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B12030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B12030200NG.jpg",
       "images": [
@@ -44564,7 +45280,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B9030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200GK.jpg",
       "images": [
@@ -44577,7 +45295,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B10030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B10030200GK.jpg",
       "images": [
@@ -44590,7 +45310,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B12030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B12030200GK.jpg",
       "images": [
@@ -44603,7 +45325,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B9030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200GM.jpg",
       "images": [
@@ -44616,7 +45340,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B10030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B10030200GM.jpg",
       "images": [
@@ -44629,7 +45355,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B12030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B12030200GM.jpg",
       "images": [
@@ -44642,7 +45370,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B9030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200GG.jpg",
       "images": [
@@ -44655,7 +45385,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B10030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B10030200GG.jpg",
       "images": [
@@ -44668,7 +45400,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-OBI2B12030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B12030200GG.jpg",
       "images": [
@@ -44784,7 +45518,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H90200CE.jpg",
       "images": [
@@ -44797,7 +45533,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H100200CE.jpg",
       "images": [
@@ -44810,7 +45548,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H120200CE.jpg",
       "images": [
@@ -44823,7 +45563,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H90200MZ.jpg",
       "images": [
@@ -44836,7 +45578,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H100200MZ.jpg",
       "images": [
@@ -44849,7 +45593,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H120200MZ.jpg",
       "images": [
@@ -44862,7 +45608,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H90200NG.jpg",
       "images": [
@@ -44875,7 +45623,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H100200NG.jpg",
       "images": [
@@ -44888,7 +45638,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H120200NG.jpg",
       "images": [
@@ -44901,7 +45653,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H90200GK.jpg",
       "images": [
@@ -44914,7 +45668,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H100200GK.jpg",
       "images": [
@@ -44927,7 +45683,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H120200GK.jpg",
       "images": [
@@ -44940,7 +45698,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H90200GM.jpg",
       "images": [
@@ -44953,7 +45713,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H100200GM.jpg",
       "images": [
@@ -44966,7 +45728,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H120200GM.jpg",
       "images": [
@@ -44979,7 +45743,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H90200GG.jpg",
       "images": [
@@ -44992,7 +45758,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H100200GG.jpg",
       "images": [
@@ -45005,7 +45773,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1H120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1H120200GG.jpg",
       "images": [
@@ -45018,7 +45788,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B90200CE.jpg",
       "images": [
@@ -45031,7 +45803,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B100200CE.jpg",
       "images": [
@@ -45044,7 +45818,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B120200CE.jpg",
       "images": [
@@ -45057,7 +45833,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B90200MZ.jpg",
       "images": [
@@ -45070,7 +45848,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B100200MZ.jpg",
       "images": [
@@ -45083,7 +45863,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B120200MZ.jpg",
       "images": [
@@ -45096,7 +45878,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B90200NG.jpg",
       "images": [
@@ -45109,7 +45893,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B100200NG.jpg",
       "images": [
@@ -45122,7 +45908,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B120200NG.jpg",
       "images": [
@@ -45135,7 +45923,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B90200GM.jpg",
       "images": [
@@ -45148,7 +45938,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B100200GM.jpg",
       "images": [
@@ -45161,7 +45953,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B120200GM.jpg",
       "images": [
@@ -45174,7 +45968,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B90200GG.jpg",
       "images": [
@@ -45187,7 +45983,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B100200GG.jpg",
       "images": [
@@ -45200,7 +45998,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B120200GG.jpg",
       "images": [
@@ -45213,7 +46013,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B90200GK.jpg",
       "images": [
@@ -45226,7 +46028,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B100200GK.jpg",
       "images": [
@@ -45239,7 +46043,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-RNI1B120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Brons glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B120200GK.jpg",
       "images": [
@@ -45485,7 +46291,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-CE-016",
       "options": {
-        "maat": "200 cm",
+        "maat": "NaN cm",
         "kleur": "Chroom"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-016.jpg",
@@ -45495,7 +46301,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-CF-016",
       "options": {
-        "maat": "200 cm",
+        "maat": "NaN cm",
         "kleur": "Coffee"
       },
       "image": null,
@@ -45505,7 +46311,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-CE-017",
       "options": {
-        "maat": "300 cm",
+        "maat": "NaN cm",
         "kleur": "Chroom"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-017.jpg",
@@ -45515,7 +46321,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-CF-017",
       "options": {
-        "maat": "300 cm",
+        "maat": "NaN cm",
         "kleur": "Coffee"
       },
       "image": null,
@@ -45525,7 +46331,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-S-016",
       "options": {
-        "maat": "200 cm",
+        "maat": "NaN cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-016.jpg",
@@ -45535,7 +46341,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-S-017",
       "options": {
-        "maat": "300 cm",
+        "maat": "NaN cm",
         "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-017.jpg",
@@ -45545,7 +46351,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GK-016",
       "options": {
-        "maat": "200 cm",
+        "maat": "NaN cm",
         "kleur": "Geborsteld koper"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-016.jpg",
@@ -45555,7 +46361,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GK-017",
       "options": {
-        "maat": "300 cm",
+        "maat": "NaN cm",
         "kleur": "Geborsteld koper"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-017.jpg",
@@ -45565,7 +46371,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-NG-016",
       "options": {
-        "maat": "200 cm",
+        "maat": "NaN cm",
         "kleur": "Geborsteld RVS"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-016.jpg",
@@ -45575,7 +46381,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-NG-017",
       "options": {
-        "maat": "300 cm",
+        "maat": "NaN cm",
         "kleur": "Geborsteld RVS"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-017.jpg",
@@ -45585,7 +46391,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GM-016",
       "options": {
-        "maat": "200 cm",
+        "maat": "NaN cm",
         "kleur": "Geborsteld gunmetal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-016.jpg",
@@ -45595,7 +46401,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GM-017",
       "options": {
-        "maat": "300 cm",
+        "maat": "NaN cm",
         "kleur": "Geborsteld gunmetal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-017.jpg",
@@ -45605,7 +46411,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GG-016",
       "options": {
-        "maat": "200 cm",
+        "maat": "NaN cm",
         "kleur": "Geborsteld goud"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-016.jpg",
@@ -45615,7 +46421,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-GG-017",
       "options": {
-        "maat": "300 cm",
+        "maat": "NaN cm",
         "kleur": "Geborsteld goud"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-017.jpg",
@@ -45635,16 +46441,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-010",
-      "options": {
-        "kleur": "Coffee",
-        "handdouche": "Staafmodel"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
       "sku": "BRA-5-CE-011",
       "options": {
         "kleur": "Chroom",
@@ -45655,10 +46451,10 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-011",
+      "sku": "BRA-5-CF-010",
       "options": {
         "kleur": "Coffee",
-        "handdouche": "3-standen"
+        "handdouche": "Staafmodel"
       },
       "image": null,
       "images": null,
@@ -45673,6 +46469,16 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-010.jpg",
       "images": null,
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-010_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-011",
+      "options": {
+        "kleur": "Coffee",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
     },
     {
       "sku": "BRA-5-S-011",
@@ -45769,7 +46575,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H100200CE.jpg",
       "images": [
@@ -45784,7 +46592,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H120200CE.jpg",
       "images": [
@@ -45799,7 +46609,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H140200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H140200CE.jpg",
       "images": [
@@ -45814,7 +46626,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H160200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "160x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200CE.jpg",
       "images": [
@@ -45829,7 +46643,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H100200MZ.jpg",
       "images": [
@@ -45844,7 +46660,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H120200MZ.jpg",
       "images": [
@@ -45859,7 +46677,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H140200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H140200MZ.jpg",
       "images": [
@@ -45874,7 +46694,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H160200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "160x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200MZ.jpg",
       "images": [
@@ -45889,7 +46711,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H100200NG.jpg",
       "images": [
@@ -45904,7 +46728,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H120200NG.jpg",
       "images": [
@@ -45919,7 +46745,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H140200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H140200NG.jpg",
       "images": [
@@ -45934,7 +46762,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H160200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200NG.jpg",
       "images": [
@@ -45949,7 +46779,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H100200GK.jpg",
       "images": [
@@ -45964,7 +46796,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H120200GK.jpg",
       "images": [
@@ -45979,7 +46813,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H140200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H140200GK.jpg",
       "images": [
@@ -45994,7 +46830,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H160200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200GK.jpg",
       "images": [
@@ -46009,7 +46847,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H100200GM.jpg",
       "images": [
@@ -46024,7 +46864,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H120200GM.jpg",
       "images": [
@@ -46039,7 +46881,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H140200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H140200GM.jpg",
       "images": [
@@ -46054,7 +46898,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H160200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200GM.jpg",
       "images": [
@@ -46069,7 +46915,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H100200GG.jpg",
       "images": [
@@ -46084,7 +46932,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H120200GG.jpg",
       "images": [
@@ -46099,7 +46949,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H140200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H140200GG.jpg",
       "images": [
@@ -46114,7 +46966,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRN1H160200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200GG.jpg",
       "images": [
@@ -46131,7 +46985,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10080200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10080200CE.jpg",
       "images": [
@@ -46146,7 +47002,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10090200CE.jpg",
       "images": [
@@ -46161,7 +47019,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H100100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H100100200CE.jpg",
       "images": [
@@ -46176,7 +47036,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12080200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12080200CE.jpg",
       "images": [
@@ -46191,7 +47053,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200CE.jpg",
       "images": [
@@ -46206,7 +47070,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H120100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H120100200CE.jpg",
       "images": [
@@ -46221,7 +47087,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14080200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14080200CE.jpg",
       "images": [
@@ -46236,7 +47104,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14090200CE.jpg",
       "images": [
@@ -46251,7 +47121,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H140100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H140100200CE.jpg",
       "images": [
@@ -46266,7 +47138,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16080200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "160x80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16080200CE.jpg",
       "images": [
@@ -46281,7 +47155,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "160x90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200CE.jpg",
       "images": [
@@ -46296,7 +47172,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H160100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "160x100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H160100200CE.jpg",
       "images": [
@@ -46311,7 +47189,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10080200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10080200MZ.jpg",
       "images": [
@@ -46326,7 +47206,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10090200MZ.jpg",
       "images": [
@@ -46341,7 +47223,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H100100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H100100200MZ.jpg",
       "images": [
@@ -46356,7 +47240,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12080200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12080200MZ.jpg",
       "images": [
@@ -46371,7 +47257,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200MZ.jpg",
       "images": [
@@ -46386,7 +47274,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H120100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H120100200MZ.jpg",
       "images": [
@@ -46401,7 +47291,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14080200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14080200MZ.jpg",
       "images": [
@@ -46416,7 +47308,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14090200MZ.jpg",
       "images": [
@@ -46431,7 +47325,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H140100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H140100200MZ.jpg",
       "images": [
@@ -46446,7 +47342,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16080200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "160x80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16080200MZ.jpg",
       "images": [
@@ -46461,7 +47359,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "160x90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200MZ.jpg",
       "images": [
@@ -46476,7 +47376,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H160100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "160x100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H160100200MZ.jpg",
       "images": [
@@ -46491,7 +47393,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10080200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10080200NG.jpg",
       "images": [
@@ -46506,7 +47410,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10090200NG.jpg",
       "images": [
@@ -46521,7 +47427,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H100100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H100100200NG.jpg",
       "images": [
@@ -46536,7 +47444,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12080200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12080200NG.jpg",
       "images": [
@@ -46551,7 +47461,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200NG.jpg",
       "images": [
@@ -46566,7 +47478,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H120100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H120100200NG.jpg",
       "images": [
@@ -46581,7 +47495,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14080200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14080200NG.jpg",
       "images": [
@@ -46596,7 +47512,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14090200NG.jpg",
       "images": [
@@ -46611,7 +47529,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H140100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H140100200NG.jpg",
       "images": [
@@ -46626,7 +47546,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16080200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "160x80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16080200NG.jpg",
       "images": [
@@ -46641,7 +47563,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "160x90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200NG.jpg",
       "images": [
@@ -46656,7 +47580,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H160100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "160x100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H160100200NG.jpg",
       "images": [
@@ -46671,7 +47597,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10080200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10080200GK.jpg",
       "images": [
@@ -46686,7 +47614,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10090200GK.jpg",
       "images": [
@@ -46701,7 +47631,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H100100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H100100200GK.jpg",
       "images": [
@@ -46716,7 +47648,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12080200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12080200GK.jpg",
       "images": [
@@ -46731,7 +47665,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200GK.jpg",
       "images": [
@@ -46746,7 +47682,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H120100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H120100200GK.jpg",
       "images": [
@@ -46761,7 +47699,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14080200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14080200GK.jpg",
       "images": [
@@ -46776,7 +47716,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14090200GK.jpg",
       "images": [
@@ -46791,7 +47733,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H140100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H140100200GK.jpg",
       "images": [
@@ -46806,7 +47750,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16080200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "160x80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16080200GK.jpg",
       "images": [
@@ -46821,7 +47767,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "160x90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200GK.jpg",
       "images": [
@@ -46836,7 +47784,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H160100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "160x100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H160100200GK.jpg",
       "images": [
@@ -46851,7 +47801,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10080200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10080200GM.jpg",
       "images": [
@@ -46866,7 +47818,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10090200GM.jpg",
       "images": [
@@ -46881,7 +47835,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H100100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H100100200GM.jpg",
       "images": [
@@ -46896,7 +47852,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12080200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12080200GM.jpg",
       "images": [
@@ -46911,7 +47869,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200GM.jpg",
       "images": [
@@ -46926,7 +47886,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H120100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H120100200GM.jpg",
       "images": [
@@ -46941,7 +47903,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14080200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14080200GM.jpg",
       "images": [
@@ -46956,7 +47920,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14090200GM.jpg",
       "images": [
@@ -46971,7 +47937,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H140100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H140100200GM.jpg",
       "images": [
@@ -46986,7 +47954,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16080200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "160x80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16080200GM.jpg",
       "images": [
@@ -47001,7 +47971,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "160x90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200GM.jpg",
       "images": [
@@ -47016,7 +47988,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H160100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "160x100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H160100200GM.jpg",
       "images": [
@@ -47031,7 +48005,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10080200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10080200GG.jpg",
       "images": [
@@ -47046,7 +48022,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H10090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H10090200GG.jpg",
       "images": [
@@ -47061,7 +48039,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H100100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H100100200GG.jpg",
       "images": [
@@ -47076,7 +48056,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12080200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12080200GG.jpg",
       "images": [
@@ -47091,7 +48073,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H12090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H12090200GG.jpg",
       "images": [
@@ -47106,7 +48090,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H120100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H120100200GG.jpg",
       "images": [
@@ -47121,7 +48107,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14080200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14080200GG.jpg",
       "images": [
@@ -47136,7 +48124,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H14090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H14090200GG.jpg",
       "images": [
@@ -47151,7 +48141,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H140100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H140100200GG.jpg",
       "images": [
@@ -47166,7 +48158,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16080200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "160x80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16080200GG.jpg",
       "images": [
@@ -47181,7 +48175,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H16090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "160x90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200GG.jpg",
       "images": [
@@ -47196,7 +48192,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-SRC1H160100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "160x100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H160100200GG.jpg",
       "images": [
@@ -47579,22 +48577,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-328_T.pdf"
     },
     {
-      "sku": "BRA-5-S-329",
-      "options": {
-        "kleur": "Mat zwart",
-        "model": "Model A1",
-        "uitloop": "Gebogen",
-        "afwerking": "Afdekplaat"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329_3.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-328",
       "options": {
         "kleur": "Geborsteld koper",
@@ -47609,6 +48591,22 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-328_3.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-328_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-329",
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model A1",
+        "uitloop": "Gebogen",
+        "afwerking": "Afdekplaat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329_3.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329_T.pdf"
     },
     {
       "sku": "BRA-5-S-331",
@@ -48974,26 +49972,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-348_T.pdf"
     },
     {
-      "sku": "BRA-5-S-349",
-      "options": {
-        "kleur": "Mat zwart",
-        "glijstang": "Ja",
-        "handdouche": "3-standen",
-        "hoofddouche": "25 cm"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_7.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_T.pdf"
-    },
-    {
       "sku": "BRA-5-S-348",
       "options": {
         "kleur": "Mat zwart",
@@ -49012,6 +49990,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-348_7.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-348_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-349",
+      "options": {
+        "kleur": "Mat zwart",
+        "glijstang": "Ja",
+        "handdouche": "3-standen",
+        "hoofddouche": "25 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349_T.pdf"
     },
     {
       "sku": "BRA-5-GK-349",
@@ -49320,28 +50318,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-361_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-360",
-      "options": {
-        "kleur": "Chroom",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_T.pdf"
-    },
-    {
       "sku": "BRA-5-CE-358",
       "options": {
         "kleur": "Chroom",
@@ -49364,26 +50340,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-358_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-362",
+      "sku": "BRA-5-CE-360",
       "options": {
         "kleur": "Chroom",
         "houder": "Wandhouder",
         "vulling": "Badvulcombinatie",
-        "bediening": "Drukknoppen",
+        "bediening": "Draaiknoppen",
         "handdouche": "3-standen"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360_T.pdf"
     },
     {
       "sku": "BRA-5-CE-364",
@@ -49406,6 +50382,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-364_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-364_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CE-362",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Drukknoppen",
+        "handdouche": "3-standen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362_T.pdf"
     },
     {
       "sku": "BRA-5-S-359",
@@ -49452,28 +50450,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-357_T.pdf"
     },
     {
-      "sku": "BRA-5-S-363",
-      "options": {
-        "kleur": "Mat zwart",
-        "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Drukknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_T.pdf"
-    },
-    {
       "sku": "BRA-5-S-361",
       "options": {
         "kleur": "Mat zwart",
@@ -49496,26 +50472,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-361_T.pdf"
     },
     {
-      "sku": "BRA-5-S-360",
+      "sku": "BRA-5-S-363",
       "options": {
         "kleur": "Mat zwart",
         "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "3-standen"
+        "vulling": "Uitloop",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363_T.pdf"
     },
     {
       "sku": "BRA-5-S-358",
@@ -49538,6 +50514,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-358_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-358_T.pdf"
+    },
+    {
+      "sku": "BRA-5-S-360",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Draaiknoppen",
+        "handdouche": "3-standen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360_T.pdf"
     },
     {
       "sku": "BRA-5-S-364",
@@ -49628,28 +50626,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-357_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-363",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Drukknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-361",
       "options": {
         "kleur": "Geborsteld koper",
@@ -49672,26 +50648,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-361_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-360",
+      "sku": "BRA-5-GK-363",
       "options": {
         "kleur": "Geborsteld koper",
         "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "3-standen"
+        "vulling": "Uitloop",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363_T.pdf"
     },
     {
       "sku": "BRA-5-GK-358",
@@ -49714,6 +50690,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-358_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-358_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GK-360",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Draaiknoppen",
+        "handdouche": "3-standen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360_T.pdf"
     },
     {
       "sku": "BRA-5-GK-362",
@@ -49804,28 +50802,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-359_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-363",
-      "options": {
-        "kleur": "Geborsteld RVS",
-        "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Drukknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-361",
       "options": {
         "kleur": "Geborsteld RVS",
@@ -49846,6 +50822,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-361_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-361_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-363",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "vulling": "Uitloop",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363_T.pdf"
     },
     {
       "sku": "BRA-5-NG-360",
@@ -49936,28 +50934,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-364_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-359",
-      "options": {
-        "kleur": "Geborsteld gunmetal",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_T.pdf"
-    },
-    {
       "sku": "BRA-5-GM-357",
       "options": {
         "kleur": "Geborsteld gunmetal",
@@ -49980,26 +50956,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-357_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-361",
+      "sku": "BRA-5-GM-359",
       "options": {
         "kleur": "Geborsteld gunmetal",
         "houder": "Wandhouder",
         "vulling": "Badvulcombinatie",
-        "bediening": "Drukknoppen",
+        "bediening": "Draaiknoppen",
         "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359_T.pdf"
     },
     {
       "sku": "BRA-5-GM-363",
@@ -50024,26 +51000,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-363_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-358",
+      "sku": "BRA-5-GM-361",
       "options": {
         "kleur": "Geborsteld gunmetal",
         "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Draaiknoppen",
-        "handdouche": "3-standen"
+        "vulling": "Badvulcombinatie",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361_T.pdf"
     },
     {
       "sku": "BRA-5-GM-360",
@@ -50066,6 +51042,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-360_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-360_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GM-358",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "vulling": "Uitloop",
+        "bediening": "Draaiknoppen",
+        "handdouche": "3-standen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358_T.pdf"
     },
     {
       "sku": "BRA-5-GM-364",
@@ -50112,28 +51110,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-362_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-359",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "Staafmodel"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_T.pdf"
-    },
-    {
       "sku": "BRA-5-GG-357",
       "options": {
         "kleur": "Geborsteld goud",
@@ -50156,26 +51132,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-357_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-363",
+      "sku": "BRA-5-GG-359",
       "options": {
         "kleur": "Geborsteld goud",
         "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Drukknoppen",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Draaiknoppen",
         "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359_T.pdf"
     },
     {
       "sku": "BRA-5-GG-361",
@@ -50200,26 +51176,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-361_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-360",
+      "sku": "BRA-5-GG-363",
       "options": {
         "kleur": "Geborsteld goud",
         "houder": "Wandhouder",
-        "vulling": "Badvulcombinatie",
-        "bediening": "Draaiknoppen",
-        "handdouche": "3-standen"
+        "vulling": "Uitloop",
+        "bediening": "Drukknoppen",
+        "handdouche": "Staafmodel"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363_T.pdf"
     },
     {
       "sku": "BRA-5-GG-358",
@@ -50244,26 +51220,26 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-358_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-364",
+      "sku": "BRA-5-GG-360",
       "options": {
         "kleur": "Geborsteld goud",
         "houder": "Wandhouder",
-        "vulling": "Uitloop",
-        "bediening": "Drukknoppen",
+        "vulling": "Badvulcombinatie",
+        "bediening": "Draaiknoppen",
         "handdouche": "3-standen"
       },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364.jpg",
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360.jpg",
       "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_8.jpg"
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_8.jpg"
       ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_T.pdf"
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360_T.pdf"
     },
     {
       "sku": "BRA-5-GG-362",
@@ -50286,6 +51262,28 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-362_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-362_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-364",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "vulling": "Uitloop",
+        "bediening": "Drukknoppen",
+        "handdouche": "3-standen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364_T.pdf"
     }
   ],
   "9706": [
@@ -55420,27 +56418,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-451_T.pdf"
     },
     {
-      "sku": "BRA-5-GG-451",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "glijstang": "Ja",
-        "handdouche": "Staafmodel",
-        "bevestiginghoofddouche": "Gebogen wandarm"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_4.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_5.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_6.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_7.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_8.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_T.pdf"
-    },
-    {
       "sku": "BRA-5-S-445",
       "options": {
         "kleur": "Mat zwart",
@@ -55460,6 +56437,27 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-445_8.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-445_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-451",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "glijstang": "Ja",
+        "handdouche": "Staafmodel",
+        "bevestiginghoofddouche": "Gebogen wandarm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_7.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_8.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-451_T.pdf"
     },
     {
       "sku": "BRA-5-S-447",
@@ -57067,6 +58065,15 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-322_T.pdf"
     },
     {
+      "sku": "BRA-5-CF-322",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
       "sku": "BRA-5-GG-322",
       "options": {
         "kleur": "Geborsteld goud"
@@ -57082,15 +58089,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-322_7.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-322_T.pdf"
-    },
-    {
-      "sku": "BRA-5-CF-322",
-      "options": {
-        "kleur": "Coffee"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
     },
     {
       "sku": "BRA-5-GM-322",
@@ -57161,6 +58159,15 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-150_T.pdf"
     },
     {
+      "sku": "BRA-5-CF-150",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
       "sku": "BRA-5-S-150",
       "options": {
         "kleur": "Mat zwart"
@@ -57174,15 +58181,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-150_5.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-150_T.pdf"
-    },
-    {
-      "sku": "BRA-5-CF-150",
-      "options": {
-        "kleur": "Coffee"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
     },
     {
       "sku": "BRA-5-GG-150",
@@ -57249,6 +58247,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H50200CE",
       "options": {
+        "maat": "50x200 cm",
         "kleur": "Chroom",
         "glassoort": "Helder glas"
       },
@@ -57263,6 +58262,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H60200CE",
       "options": {
+        "maat": "60x200 cm",
         "kleur": "Chroom",
         "glassoort": "Helder glas"
       },
@@ -57277,6 +58277,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H70200CE",
       "options": {
+        "maat": "70x200 cm",
         "kleur": "Chroom",
         "glassoort": "Helder glas"
       },
@@ -57291,6 +58292,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H80200CE",
       "options": {
+        "maat": "80x200 cm",
         "kleur": "Chroom",
         "glassoort": "Helder glas"
       },
@@ -57305,6 +58307,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H90200CE",
       "options": {
+        "maat": "90x200 cm",
         "kleur": "Chroom",
         "glassoort": "Helder glas"
       },
@@ -57319,6 +58322,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H100200CE",
       "options": {
+        "maat": "100x200 cm",
         "kleur": "Chroom",
         "glassoort": "Helder glas"
       },
@@ -57333,6 +58337,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H110200CE",
       "options": {
+        "maat": "110x200 cm",
         "kleur": "Chroom",
         "glassoort": "Helder glas"
       },
@@ -57347,6 +58352,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H120200CE",
       "options": {
+        "maat": "120x200 cm",
         "kleur": "Chroom",
         "glassoort": "Helder glas"
       },
@@ -57361,6 +58367,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H130200CE",
       "options": {
+        "maat": "130x200 cm",
         "kleur": "Chroom",
         "glassoort": "Helder glas"
       },
@@ -57375,6 +58382,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H140200CE",
       "options": {
+        "maat": "140x200 cm",
         "kleur": "Chroom",
         "glassoort": "Helder glas"
       },
@@ -57389,6 +58397,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H50200MZ",
       "options": {
+        "maat": "50x200 cm",
         "kleur": "Mat zwart",
         "glassoort": "Helder glas"
       },
@@ -57403,6 +58412,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H60200MZ",
       "options": {
+        "maat": "60x200 cm",
         "kleur": "Mat zwart",
         "glassoort": "Helder glas"
       },
@@ -57417,6 +58427,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H70200MZ",
       "options": {
+        "maat": "70x200 cm",
         "kleur": "Mat zwart",
         "glassoort": "Helder glas"
       },
@@ -57431,6 +58442,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H80200MZ",
       "options": {
+        "maat": "80x200 cm",
         "kleur": "Mat zwart",
         "glassoort": "Helder glas"
       },
@@ -57445,6 +58457,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H90200MZ",
       "options": {
+        "maat": "90x200 cm",
         "kleur": "Mat zwart",
         "glassoort": "Helder glas"
       },
@@ -57459,6 +58472,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H100200MZ",
       "options": {
+        "maat": "100x200 cm",
         "kleur": "Mat zwart",
         "glassoort": "Helder glas"
       },
@@ -57473,6 +58487,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H110200MZ",
       "options": {
+        "maat": "110x200 cm",
         "kleur": "Mat zwart",
         "glassoort": "Helder glas"
       },
@@ -57487,6 +58502,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H120200MZ",
       "options": {
+        "maat": "120x200 cm",
         "kleur": "Mat zwart",
         "glassoort": "Helder glas"
       },
@@ -57501,6 +58517,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H130200MZ",
       "options": {
+        "maat": "130x200 cm",
         "kleur": "Mat zwart",
         "glassoort": "Helder glas"
       },
@@ -57515,6 +58532,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H140200MZ",
       "options": {
+        "maat": "140x200 cm",
         "kleur": "Mat zwart",
         "glassoort": "Helder glas"
       },
@@ -57529,6 +58547,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H50200NG",
       "options": {
+        "maat": "50x200 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Helder glas"
       },
@@ -57543,6 +58562,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H60200NG",
       "options": {
+        "maat": "60x200 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Helder glas"
       },
@@ -57557,6 +58577,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H70200NG",
       "options": {
+        "maat": "70x200 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Helder glas"
       },
@@ -57571,6 +58592,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H80200NG",
       "options": {
+        "maat": "80x200 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Helder glas"
       },
@@ -57585,6 +58607,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H90200NG",
       "options": {
+        "maat": "90x200 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Helder glas"
       },
@@ -57599,6 +58622,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H100200NG",
       "options": {
+        "maat": "100x200 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Helder glas"
       },
@@ -57613,6 +58637,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H110200NG",
       "options": {
+        "maat": "110x200 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Helder glas"
       },
@@ -57627,6 +58652,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H120200NG",
       "options": {
+        "maat": "120x200 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Helder glas"
       },
@@ -57641,6 +58667,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H130200NG",
       "options": {
+        "maat": "130x200 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Helder glas"
       },
@@ -57655,6 +58682,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H140200NG",
       "options": {
+        "maat": "140x200 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Helder glas"
       },
@@ -57669,6 +58697,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H50200GK",
       "options": {
+        "maat": "50x200 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Helder glas"
       },
@@ -57683,6 +58712,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H60200GK",
       "options": {
+        "maat": "60x200 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Helder glas"
       },
@@ -57697,6 +58727,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H70200GK",
       "options": {
+        "maat": "70x200 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Helder glas"
       },
@@ -57711,6 +58742,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H80200GK",
       "options": {
+        "maat": "80x200 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Helder glas"
       },
@@ -57725,6 +58757,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H90200GK",
       "options": {
+        "maat": "90x200 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Helder glas"
       },
@@ -57739,6 +58772,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H100200GK",
       "options": {
+        "maat": "100x200 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Helder glas"
       },
@@ -57753,6 +58787,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H110200GK",
       "options": {
+        "maat": "110x200 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Helder glas"
       },
@@ -57767,6 +58802,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H120200GK",
       "options": {
+        "maat": "120x200 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Helder glas"
       },
@@ -57781,6 +58817,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H130200GK",
       "options": {
+        "maat": "130x200 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Helder glas"
       },
@@ -57795,6 +58832,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H140200GK",
       "options": {
+        "maat": "140x200 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Helder glas"
       },
@@ -57809,6 +58847,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H50200GM",
       "options": {
+        "maat": "50x200 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Helder glas"
       },
@@ -57823,6 +58862,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H60200GM",
       "options": {
+        "maat": "60x200 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Helder glas"
       },
@@ -57837,6 +58877,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H70200GM",
       "options": {
+        "maat": "70x200 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Helder glas"
       },
@@ -57851,6 +58892,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H80200GM",
       "options": {
+        "maat": "80x200 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Helder glas"
       },
@@ -57865,6 +58907,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H90200GM",
       "options": {
+        "maat": "90x200 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Helder glas"
       },
@@ -57879,6 +58922,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H100200GM",
       "options": {
+        "maat": "100x200 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Helder glas"
       },
@@ -57893,6 +58937,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H110200GM",
       "options": {
+        "maat": "110x200 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Helder glas"
       },
@@ -57907,6 +58952,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H120200GM",
       "options": {
+        "maat": "120x200 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Helder glas"
       },
@@ -57921,6 +58967,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H130200GM",
       "options": {
+        "maat": "130x200 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Helder glas"
       },
@@ -57935,6 +58982,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H140200GM",
       "options": {
+        "maat": "140x200 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Helder glas"
       },
@@ -57949,6 +58997,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H50200GG",
       "options": {
+        "maat": "50x200 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Helder glas"
       },
@@ -57963,6 +59012,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H60200GG",
       "options": {
+        "maat": "60x200 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Helder glas"
       },
@@ -57977,6 +59027,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H70200GG",
       "options": {
+        "maat": "70x200 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Helder glas"
       },
@@ -57991,6 +59042,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H80200GG",
       "options": {
+        "maat": "80x200 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Helder glas"
       },
@@ -58005,6 +59057,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H90200GG",
       "options": {
+        "maat": "90x200 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Helder glas"
       },
@@ -58019,6 +59072,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H100200GG",
       "options": {
+        "maat": "100x200 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Helder glas"
       },
@@ -58033,6 +59087,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H110200GG",
       "options": {
+        "maat": "110x200 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Helder glas"
       },
@@ -58047,6 +59102,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H120200GG",
       "options": {
+        "maat": "120x200 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Helder glas"
       },
@@ -58061,6 +59117,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H130200GG",
       "options": {
+        "maat": "130x200 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Helder glas"
       },
@@ -58075,6 +59132,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI1H140200GG",
       "options": {
+        "maat": "140x200 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Helder glas"
       },
@@ -58089,6 +59147,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1H80140CE",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Chroom",
         "glassoort": "Brons glas"
       },
@@ -58103,6 +59162,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1H80140MZ",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Mat zwart",
         "glassoort": "Brons glas"
       },
@@ -58117,6 +59177,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1H80140NG",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Brons glas"
       },
@@ -58131,6 +59192,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1H80140GK",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Brons glas"
       },
@@ -58145,6 +59207,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1H80140GG",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Brons glas"
       },
@@ -58159,6 +59222,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1H80140GM",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Brons glas"
       },
@@ -58173,6 +59237,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1B80140CE",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Chroom",
         "glassoort": "Brons glas"
       },
@@ -58187,6 +59252,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1B80140MZ",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Mat zwart",
         "glassoort": "Brons glas"
       },
@@ -58201,6 +59267,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1B80140NG",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Geborsteld RVS",
         "glassoort": "Brons glas"
       },
@@ -58215,6 +59282,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1B80140GK",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Geborsteld koper",
         "glassoort": "Brons glas"
       },
@@ -58229,6 +59297,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1B80140GG",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Geborsteld goud",
         "glassoort": "Brons glas"
       },
@@ -58243,6 +59312,7 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOB1B80140GM",
       "options": {
+        "maat": "80x140 cm",
         "kleur": "Geborsteld gunmetal",
         "glassoort": "Brons glas"
       },
@@ -58259,7 +59329,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H8080200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H8080200CE.jpg",
       "images": [
@@ -58274,7 +59346,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80100200CE.jpg",
       "images": [
@@ -58292,7 +59366,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80120200CE.jpg",
       "images": [
@@ -58307,7 +59383,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H9090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H9090200CE.jpg",
       "images": [
@@ -58322,7 +59400,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": null,
       "images": null,
@@ -58331,7 +59411,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90120200CE.jpg",
       "images": [
@@ -58346,7 +59428,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90140200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90140200CE.jpg",
       "images": [
@@ -58361,7 +59445,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100100200CE.jpg",
       "images": [
@@ -58376,7 +59462,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200CE.jpg",
       "images": [
@@ -58391,7 +59479,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100140200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100140200CE.jpg",
       "images": [
@@ -58406,7 +59496,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H8080200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H8080200MZ.jpg",
       "images": [
@@ -58421,7 +59513,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80100200MZ.jpg",
       "images": [
@@ -58436,7 +59530,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80120200MZ.jpg",
       "images": [
@@ -58451,7 +59547,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H9090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H9090200MZ.jpg",
       "images": [
@@ -58466,7 +59564,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90100200MZ.jpg",
       "images": [
@@ -58481,7 +59581,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90120200MZ.jpg",
       "images": [
@@ -58496,7 +59598,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90140200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90140200MZ.jpg",
       "images": [
@@ -58511,7 +59615,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100100200MZ.jpg",
       "images": [
@@ -58526,7 +59632,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200MZ.jpg",
       "images": [
@@ -58541,7 +59649,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100140200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100140200MZ.jpg",
       "images": [
@@ -58556,7 +59666,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H8080200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H8080200NG.jpg",
       "images": [
@@ -58571,7 +59683,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80100200NG.jpg",
       "images": [
@@ -58586,7 +59700,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80120200NG.jpg",
       "images": [
@@ -58601,7 +59717,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H9090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H9090200NG.jpg",
       "images": [
@@ -58616,7 +59734,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90100200NG.jpg",
       "images": [
@@ -58631,7 +59751,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90120200NG.jpg",
       "images": [
@@ -58646,7 +59768,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90140200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90140200NG.jpg",
       "images": [
@@ -58661,7 +59785,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100100200NG.jpg",
       "images": [
@@ -58676,7 +59802,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200NG.jpg",
       "images": [
@@ -58691,7 +59819,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100140200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100140200NG.jpg",
       "images": [
@@ -58706,7 +59836,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H8080200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H8080200GK.jpg",
       "images": [
@@ -58721,7 +59853,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80100200GK.jpg",
       "images": [
@@ -58736,7 +59870,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80120200GK.jpg",
       "images": [
@@ -58751,7 +59887,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H9090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H9090200GK.jpg",
       "images": [
@@ -58766,7 +59904,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90100200GK.jpg",
       "images": [
@@ -58781,7 +59921,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90120200GK.jpg",
       "images": [
@@ -58796,7 +59938,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90140200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90140200GK.jpg",
       "images": [
@@ -58811,7 +59955,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100100200GK.jpg",
       "images": [
@@ -58826,7 +59972,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200GK.jpg",
       "images": [
@@ -58841,7 +59989,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100140200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100140200GK.jpg",
       "images": [
@@ -58856,7 +60006,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H8080200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H8080200GM.jpg",
       "images": [
@@ -58871,7 +60023,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80100200GM.jpg",
       "images": [
@@ -58886,7 +60040,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80120200GM.jpg",
       "images": [
@@ -58901,7 +60057,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H9090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H9090200GM.jpg",
       "images": [
@@ -58916,7 +60074,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90100200GM.jpg",
       "images": [
@@ -58931,7 +60091,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90120200GM.jpg",
       "images": [
@@ -58946,7 +60108,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90140200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90140200GM.jpg",
       "images": [
@@ -58961,7 +60125,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100100200GM.jpg",
       "images": [
@@ -58976,7 +60142,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200GM.jpg",
       "images": [
@@ -58991,7 +60159,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100140200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100140200GM.jpg",
       "images": [
@@ -59006,7 +60176,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H8080200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H8080200GG.jpg",
       "images": [
@@ -59021,7 +60193,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80100200GG.jpg",
       "images": [
@@ -59036,7 +60210,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H80120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H80120200GG.jpg",
       "images": [
@@ -59051,7 +60227,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H9090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H9090200GG.jpg",
       "images": [
@@ -59066,7 +60244,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90100200GG.jpg",
       "images": [
@@ -59081,7 +60261,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90120200GG.jpg",
       "images": [
@@ -59096,7 +60278,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H90140200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H90140200GG.jpg",
       "images": [
@@ -59111,7 +60295,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100100200GG.jpg",
       "images": [
@@ -59126,7 +60312,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200GG.jpg",
       "images": [
@@ -59141,7 +60329,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOC1H100140200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100140200GG.jpg",
       "images": [
@@ -59158,7 +60348,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6050200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "110x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6050200CE.jpg",
       "images": [
@@ -59172,7 +60364,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6060200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6060200CE.jpg",
       "images": [
@@ -59186,7 +60380,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6070200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "130x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200CE.jpg",
       "images": [
@@ -59200,7 +60396,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7070200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7070200CE.jpg",
       "images": [
@@ -59214,7 +60412,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7080200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "150x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7080200CE.jpg",
       "images": [
@@ -59228,7 +60428,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "160x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7090200CE.jpg",
       "images": [
@@ -59242,7 +60444,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "170x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70100200CE.jpg",
       "images": [
@@ -59256,7 +60460,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70110200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "180x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70110200CE.jpg",
       "images": [
@@ -59270,7 +60476,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "190x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70120200CE.jpg",
       "images": [
@@ -59284,7 +60492,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70130200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "200x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70130200CE.jpg",
       "images": [
@@ -59298,7 +60508,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6050200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "110x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6050200MZ.jpg",
       "images": [
@@ -59312,7 +60524,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6060200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6060200MZ.jpg",
       "images": [
@@ -59326,7 +60540,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6070200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "130x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200MZ.jpg",
       "images": [
@@ -59340,7 +60556,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7070200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7070200MZ.jpg",
       "images": [
@@ -59354,7 +60572,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7080200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "150x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7080200MZ.jpg",
       "images": [
@@ -59368,7 +60588,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "160x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7090200MZ.jpg",
       "images": [
@@ -59382,7 +60604,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "170x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70100200MZ.jpg",
       "images": [
@@ -59396,7 +60620,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70110200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "180x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70110200MZ.jpg",
       "images": [
@@ -59410,7 +60636,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "190x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70120200MZ.jpg",
       "images": [
@@ -59424,7 +60652,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70130200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "200x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70130200MZ.jpg",
       "images": [
@@ -59438,7 +60668,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6050200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6050200NG.jpg",
       "images": [
@@ -59452,7 +60684,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6060200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6060200NG.jpg",
       "images": [
@@ -59466,7 +60700,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6070200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200NG.jpg",
       "images": [
@@ -59480,7 +60716,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7070200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7070200NG.jpg",
       "images": [
@@ -59494,7 +60732,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7080200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7080200NG.jpg",
       "images": [
@@ -59508,7 +60748,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7090200NG.jpg",
       "images": [
@@ -59522,7 +60764,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70100200NG.jpg",
       "images": [
@@ -59536,7 +60780,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70110200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70110200NG.jpg",
       "images": [
@@ -59550,7 +60796,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70120200NG.jpg",
       "images": [
@@ -59564,7 +60812,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70130200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70130200NG.jpg",
       "images": [
@@ -59578,7 +60828,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6050200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6050200GK.jpg",
       "images": [
@@ -59592,7 +60844,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6060200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6060200GK.jpg",
       "images": [
@@ -59606,7 +60860,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6070200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200GK.jpg",
       "images": [
@@ -59620,7 +60876,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7070200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7070200GK.jpg",
       "images": [
@@ -59634,7 +60892,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7080200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7080200GK.jpg",
       "images": [
@@ -59648,7 +60908,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7090200GK.jpg",
       "images": [
@@ -59662,7 +60924,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70100200GK.jpg",
       "images": [
@@ -59676,7 +60940,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70110200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70110200GK.jpg",
       "images": [
@@ -59690,7 +60956,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70120200GK.jpg",
       "images": [
@@ -59704,7 +60972,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70130200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70130200GK.jpg",
       "images": [
@@ -59718,7 +60988,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6050200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6050200GM.jpg",
       "images": [
@@ -59732,7 +61004,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6060200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6060200GM.jpg",
       "images": [
@@ -59746,7 +61020,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6070200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200GM.jpg",
       "images": [
@@ -59760,7 +61036,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7070200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7070200GM.jpg",
       "images": [
@@ -59774,7 +61052,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7080200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7080200GM.jpg",
       "images": [
@@ -59788,7 +61068,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7090200GM.jpg",
       "images": [
@@ -59802,7 +61084,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70100200GM.jpg",
       "images": [
@@ -59813,7 +61097,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70110200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70110200GM.jpg",
       "images": [
@@ -59827,7 +61113,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70120200GM.jpg",
       "images": [
@@ -59841,7 +61129,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70130200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70130200GM.jpg",
       "images": [
@@ -59855,7 +61145,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6050200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6050200GG.jpg",
       "images": [
@@ -59869,7 +61161,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6060200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6060200GG.jpg",
       "images": [
@@ -59883,7 +61177,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H6070200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H6070200GG.jpg",
       "images": [
@@ -59897,7 +61193,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7070200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7070200GG.jpg",
       "images": [
@@ -59911,7 +61209,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7080200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7080200GG.jpg",
       "images": [
@@ -59925,7 +61225,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H7090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H7090200GG.jpg",
       "images": [
@@ -59939,7 +61241,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70100200GG.jpg",
       "images": [
@@ -59953,7 +61257,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70110200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70110200GG.jpg",
       "images": [
@@ -59967,7 +61273,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70120200GG.jpg",
       "images": [
@@ -59981,7 +61289,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON3H70130200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70130200GG.jpg",
       "images": [
@@ -59997,7 +61307,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6030200CE.jpg",
       "images": [
@@ -60012,7 +61324,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6040200CE.jpg",
       "images": [
@@ -60027,7 +61341,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6050200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "110x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6050200CE.jpg",
       "images": [
@@ -60042,7 +61358,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6060200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6060200CE.jpg",
       "images": [
@@ -60057,7 +61375,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6070200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "130x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6070200CE.jpg",
       "images": [
@@ -60072,7 +61392,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7070200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7070200CE.jpg",
       "images": [
@@ -60087,7 +61409,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7080200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "150x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7080200CE.jpg",
       "images": [
@@ -60102,7 +61426,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "160x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200CE.jpg",
       "images": [
@@ -60117,7 +61443,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "170x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70100200CE.jpg",
       "images": [
@@ -60132,7 +61460,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70110200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "180x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70110200CE.jpg",
       "images": [
@@ -60147,7 +61477,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "190x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70120200CE.jpg",
       "images": [
@@ -60162,7 +61494,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70130200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "200x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70130200CE.jpg",
       "images": [
@@ -60177,7 +61511,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6030200MZ.jpg",
       "images": [
@@ -60192,7 +61528,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6040200MZ.jpg",
       "images": [
@@ -60207,7 +61545,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6050200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "110x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6050200MZ.jpg",
       "images": [
@@ -60222,7 +61562,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6060200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6060200MZ.jpg",
       "images": [
@@ -60237,7 +61579,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6070200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "130x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6070200MZ.jpg",
       "images": [
@@ -60252,7 +61596,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7070200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7070200MZ.jpg",
       "images": [
@@ -60267,7 +61613,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7080200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "150x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7080200MZ.jpg",
       "images": [
@@ -60282,7 +61630,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "160x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200MZ.jpg",
       "images": [
@@ -60297,7 +61647,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "170x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70100200MZ.jpg",
       "images": [
@@ -60312,7 +61664,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70110200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "180x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70110200MZ.jpg",
       "images": [
@@ -60327,7 +61681,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "190x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70120200MZ.jpg",
       "images": [
@@ -60342,7 +61698,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70130200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "200x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70130200MZ.jpg",
       "images": [
@@ -60357,7 +61715,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6030200NG.jpg",
       "images": [
@@ -60372,7 +61732,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6040200NG.jpg",
       "images": [
@@ -60387,7 +61749,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6050200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6050200NG.jpg",
       "images": [
@@ -60402,7 +61766,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6060200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6060200NG.jpg",
       "images": [
@@ -60417,7 +61783,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6070200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6070200NG.jpg",
       "images": [
@@ -60432,7 +61800,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7070200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7070200NG.jpg",
       "images": [
@@ -60447,7 +61817,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7080200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7080200NG.jpg",
       "images": [
@@ -60462,7 +61834,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200NG.jpg",
       "images": [
@@ -60477,7 +61851,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70100200NG.jpg",
       "images": [
@@ -60492,7 +61868,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70110200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70110200NG.jpg",
       "images": [
@@ -60507,7 +61885,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70120200NG.jpg",
       "images": [
@@ -60522,7 +61902,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70130200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70130200NG.jpg",
       "images": [
@@ -60537,7 +61919,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6030200GK.jpg",
       "images": [
@@ -60552,7 +61936,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6040200GK.jpg",
       "images": [
@@ -60567,7 +61953,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6050200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6050200GK.jpg",
       "images": [
@@ -60582,7 +61970,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6060200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6060200GK.jpg",
       "images": [
@@ -60597,7 +61987,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6070200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6070200GK.jpg",
       "images": [
@@ -60612,7 +62004,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7070200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7070200GK.jpg",
       "images": [
@@ -60627,7 +62021,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7080200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7080200GK.jpg",
       "images": [
@@ -60642,7 +62038,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200GK.jpg",
       "images": [
@@ -60657,7 +62055,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70100200GK.jpg",
       "images": [
@@ -60672,7 +62072,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70110200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70110200GK.jpg",
       "images": [
@@ -60687,7 +62089,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70120200GK.jpg",
       "images": [
@@ -60702,7 +62106,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70130200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70130200GK.jpg",
       "images": [
@@ -60717,7 +62123,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6030200GM.jpg",
       "images": [
@@ -60732,7 +62140,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6040200GM.jpg",
       "images": [
@@ -60747,7 +62157,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6050200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6050200GM.jpg",
       "images": [
@@ -60762,7 +62174,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6060200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6060200GM.jpg",
       "images": [
@@ -60777,7 +62191,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6070200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6070200GM.jpg",
       "images": [
@@ -60792,7 +62208,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7070200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7070200GM.jpg",
       "images": [
@@ -60807,7 +62225,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7080200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7080200GM.jpg",
       "images": [
@@ -60822,7 +62242,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200GM.jpg",
       "images": [
@@ -60837,7 +62259,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70100200GM.jpg",
       "images": [
@@ -60852,7 +62276,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70110200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70110200GM.jpg",
       "images": [
@@ -60867,7 +62293,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70120200GM.jpg",
       "images": [
@@ -60882,7 +62310,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70130200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70130200GM.jpg",
       "images": [
@@ -60897,7 +62327,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6030200GG.jpg",
       "images": [
@@ -60912,7 +62344,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6040200GG.jpg",
       "images": [
@@ -60927,7 +62361,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6050200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6050200GG.jpg",
       "images": [
@@ -60942,7 +62378,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6060200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6060200GG.jpg",
       "images": [
@@ -60957,7 +62395,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H6070200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6070200GG.jpg",
       "images": [
@@ -60972,7 +62412,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7070200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7070200GG.jpg",
       "images": [
@@ -60987,7 +62429,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7080200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7080200GG.jpg",
       "images": [
@@ -61002,7 +62446,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H7090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H7090200GG.jpg",
       "images": [
@@ -61017,7 +62463,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70100200GG.jpg",
       "images": [
@@ -61032,7 +62480,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70110200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70110200GG.jpg",
       "images": [
@@ -61047,7 +62497,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70120200GG.jpg",
       "images": [
@@ -61062,7 +62514,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON2H70130200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H70130200GG.jpg",
       "images": [
@@ -61079,7 +62533,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H8080200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H8080200CE.jpg",
       "images": [
@@ -61094,7 +62550,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80100200CE.jpg",
       "images": [
@@ -61109,7 +62567,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80120200CE.jpg",
       "images": [
@@ -61124,7 +62584,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H9090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H9090200CE.jpg",
       "images": [
@@ -61139,7 +62601,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90100200CE.jpg",
       "images": [
@@ -61154,7 +62618,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200CE.jpg",
       "images": [
@@ -61169,7 +62635,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90140200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90140200CE.jpg",
       "images": [
@@ -61184,7 +62652,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100100200CE.jpg",
       "images": [
@@ -61199,7 +62669,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100120200CE.jpg",
       "images": [
@@ -61214,7 +62686,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100140200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100140200CE.jpg",
       "images": [
@@ -61229,7 +62703,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H8080200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H8080200MZ.jpg",
       "images": [
@@ -61244,7 +62720,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80100200MZ.jpg",
       "images": [
@@ -61259,7 +62737,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80120200MZ.jpg",
       "images": [
@@ -61274,7 +62754,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H9090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H9090200MZ.jpg",
       "images": [
@@ -61289,7 +62771,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90100200MZ.jpg",
       "images": [
@@ -61304,7 +62788,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200MZ.jpg",
       "images": [
@@ -61319,7 +62805,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90140200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90140200MZ.jpg",
       "images": [
@@ -61334,7 +62822,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100100200MZ.jpg",
       "images": [
@@ -61349,7 +62839,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100120200MZ.jpg",
       "images": [
@@ -61364,7 +62856,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100140200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100140200MZ.jpg",
       "images": [
@@ -61379,7 +62873,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H8080200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H8080200NG.jpg",
       "images": [
@@ -61394,7 +62890,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80100200NG.jpg",
       "images": [
@@ -61409,7 +62907,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80120200NG.jpg",
       "images": [
@@ -61424,7 +62924,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H9090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H9090200NG.jpg",
       "images": [
@@ -61439,7 +62941,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90100200NG.jpg",
       "images": [
@@ -61454,7 +62958,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200NG.jpg",
       "images": [
@@ -61469,7 +62975,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90140200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90140200NG.jpg",
       "images": [
@@ -61484,7 +62992,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100100200NG.jpg",
       "images": [
@@ -61499,7 +63009,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100120200NG.jpg",
       "images": [
@@ -61514,7 +63026,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100140200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100140200NG.jpg",
       "images": [
@@ -61529,7 +63043,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H8080200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H8080200GK.jpg",
       "images": [
@@ -61544,7 +63060,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80100200GK.jpg",
       "images": [
@@ -61559,7 +63077,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80120200GK.jpg",
       "images": [
@@ -61574,7 +63094,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H9090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H9090200GK.jpg",
       "images": [
@@ -61589,7 +63111,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90100200GK.jpg",
       "images": [
@@ -61604,7 +63128,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200GK.jpg",
       "images": [
@@ -61619,7 +63145,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90140200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90140200GK.jpg",
       "images": [
@@ -61634,7 +63162,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100100200GK.jpg",
       "images": [
@@ -61649,7 +63179,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100120200GK.jpg",
       "images": [
@@ -61664,7 +63196,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100140200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100140200GK.jpg",
       "images": [
@@ -61679,7 +63213,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H8080200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H8080200GM.jpg",
       "images": [
@@ -61694,7 +63230,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80100200GM.jpg",
       "images": [
@@ -61709,7 +63247,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80120200GM.jpg",
       "images": [
@@ -61724,7 +63264,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H9090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H9090200GM.jpg",
       "images": [
@@ -61739,7 +63281,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90100200GM.jpg",
       "images": [
@@ -61754,7 +63298,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200GM.jpg",
       "images": [
@@ -61769,7 +63315,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90140200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90140200GM.jpg",
       "images": [
@@ -61784,7 +63332,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100100200GM.jpg",
       "images": [
@@ -61799,7 +63349,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100120200GM.jpg",
       "images": [
@@ -61814,7 +63366,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100140200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100140200GM.jpg",
       "images": [
@@ -61829,7 +63383,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H8080200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H8080200GG.jpg",
       "images": [
@@ -61844,7 +63400,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80100200GG.jpg",
       "images": [
@@ -61859,7 +63417,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H80120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H80120200GG.jpg",
       "images": [
@@ -61874,7 +63434,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H9090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H9090200GG.jpg",
       "images": [
@@ -61889,7 +63451,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90100200GG.jpg",
       "images": [
@@ -61904,7 +63468,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90120200GG.jpg",
       "images": [
@@ -61919,7 +63485,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H90140200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H90140200GG.jpg",
       "images": [
@@ -61934,7 +63502,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100100200GG.jpg",
       "images": [
@@ -61949,7 +63519,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100120200GG.jpg",
       "images": [
@@ -61964,7 +63536,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCC1H100140200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100140200GG.jpg",
       "images": [
@@ -61981,7 +63555,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6050200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "110x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6050200CE.jpg",
       "images": [
@@ -61995,7 +63571,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6060200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6060200CE.jpg",
       "images": [
@@ -62009,7 +63587,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6070200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "130x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6070200CE.jpg",
       "images": [
@@ -62023,7 +63603,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7070200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7070200CE.jpg",
       "images": [
@@ -62037,7 +63619,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7080200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "150x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7080200CE.jpg",
       "images": [
@@ -62051,7 +63635,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "160x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7090200CE.jpg",
       "images": [
@@ -62065,7 +63651,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "170x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70100200CE.jpg",
       "images": [
@@ -62079,7 +63667,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70110200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "180x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70110200CE.jpg",
       "images": [
@@ -62093,7 +63683,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "190x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70120200CE.jpg",
       "images": [
@@ -62107,7 +63699,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70130200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "200x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70130200CE.jpg",
       "images": [
@@ -62121,7 +63715,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6050200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "110x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6050200MZ.jpg",
       "images": [
@@ -62135,7 +63731,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6060200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6060200MZ.jpg",
       "images": [
@@ -62149,7 +63747,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6070200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "130x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6070200MZ.jpg",
       "images": [
@@ -62163,7 +63763,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7070200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7070200MZ.jpg",
       "images": [
@@ -62177,7 +63779,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7080200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "150x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7080200MZ.jpg",
       "images": [
@@ -62191,7 +63795,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "160x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7090200MZ.jpg",
       "images": [
@@ -62205,7 +63811,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "170x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70100200MZ.jpg",
       "images": [
@@ -62219,7 +63827,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70110200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "180x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70110200MZ.jpg",
       "images": [
@@ -62233,7 +63843,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "190x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70120200MZ.jpg",
       "images": [
@@ -62247,7 +63859,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70130200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "200x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70130200MZ.jpg",
       "images": [
@@ -62261,7 +63875,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6050200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6050200NG.jpg",
       "images": [
@@ -62275,7 +63891,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6060200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6060200NG.jpg",
       "images": [
@@ -62289,7 +63907,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6070200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6070200NG.jpg",
       "images": [
@@ -62303,7 +63923,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7070200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7070200NG.jpg",
       "images": [
@@ -62317,7 +63939,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7080200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7080200NG.jpg",
       "images": [
@@ -62331,7 +63955,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7090200NG.jpg",
       "images": [
@@ -62345,7 +63971,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70100200NG.jpg",
       "images": [
@@ -62359,7 +63987,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70110200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70110200NG.jpg",
       "images": [
@@ -62373,7 +64003,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70120200NG.jpg",
       "images": [
@@ -62387,7 +64019,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70130200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70130200NG.jpg",
       "images": [
@@ -62401,7 +64035,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6050200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6050200GK.jpg",
       "images": [
@@ -62415,7 +64051,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6060200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6060200GK.jpg",
       "images": [
@@ -62429,7 +64067,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6070200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6070200GK.jpg",
       "images": [
@@ -62443,7 +64083,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7070200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7070200GK.jpg",
       "images": [
@@ -62457,7 +64099,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7080200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7080200GK.jpg",
       "images": [
@@ -62471,7 +64115,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7090200GK.jpg",
       "images": [
@@ -62485,7 +64131,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70100200GK.jpg",
       "images": [
@@ -62499,7 +64147,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70110200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70110200GK.jpg",
       "images": [
@@ -62513,7 +64163,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70120200GK.jpg",
       "images": [
@@ -62527,7 +64179,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70130200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70130200GK.jpg",
       "images": [
@@ -62541,7 +64195,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6050200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6050200GM.jpg",
       "images": [
@@ -62555,7 +64211,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6060200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6060200GM.jpg",
       "images": [
@@ -62569,7 +64227,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6070200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6070200GM.jpg",
       "images": [
@@ -62583,7 +64243,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7070200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7070200GM.jpg",
       "images": [
@@ -62597,7 +64259,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7080200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7080200GM.jpg",
       "images": [
@@ -62611,7 +64275,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7090200GM.jpg",
       "images": [
@@ -62625,7 +64291,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70100200GM.jpg",
       "images": [
@@ -62639,7 +64307,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70110200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70110200GM.jpg",
       "images": [
@@ -62653,7 +64323,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70120200GM.jpg",
       "images": [
@@ -62667,7 +64339,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70130200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70130200GM.jpg",
       "images": [
@@ -62681,7 +64355,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6050200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6050200GG.jpg",
       "images": [
@@ -62695,7 +64371,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6060200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6060200GG.jpg",
       "images": [
@@ -62709,7 +64387,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H6070200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6070200GG.jpg",
       "images": [
@@ -62723,7 +64403,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7070200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7070200GG.jpg",
       "images": [
@@ -62737,7 +64419,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7080200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7080200GG.jpg",
       "images": [
@@ -62751,7 +64435,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H7090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H7090200GG.jpg",
       "images": [
@@ -62765,7 +64451,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70100200GG.jpg",
       "images": [
@@ -62779,7 +64467,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70110200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70110200GG.jpg",
       "images": [
@@ -62793,7 +64483,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70120200GG.jpg",
       "images": [
@@ -62807,7 +64499,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN3H70130200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H70130200GG.jpg",
       "images": [
@@ -62823,7 +64517,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6030200CE.jpg",
       "images": [
@@ -62838,7 +64534,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6040200CE.jpg",
       "images": [
@@ -62853,7 +64551,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6050200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "110x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6050200CE.jpg",
       "images": [
@@ -62868,7 +64568,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6060200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6060200CE.jpg",
       "images": [
@@ -62883,7 +64585,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6070200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "130x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6070200CE.jpg",
       "images": [
@@ -62898,7 +64602,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7070200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7070200CE.jpg",
       "images": [
@@ -62913,7 +64619,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7080200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "150x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7080200CE.jpg",
       "images": [
@@ -62928,7 +64636,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7090200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "160x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7090200CE.jpg",
       "images": [
@@ -62943,7 +64653,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "170x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70100200CE.jpg",
       "images": [
@@ -62958,7 +64670,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70110200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "180x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200CE.jpg",
       "images": [
@@ -62973,7 +64687,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70120200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "190x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70120200CE.jpg",
       "images": [
@@ -62988,7 +64704,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70130200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "200x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70130200CE.jpg",
       "images": [
@@ -63003,7 +64721,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6030200MZ.jpg",
       "images": [
@@ -63018,7 +64738,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6040200MZ.jpg",
       "images": [
@@ -63033,7 +64755,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6050200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "110x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6050200MZ.jpg",
       "images": [
@@ -63048,7 +64772,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6060200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6060200MZ.jpg",
       "images": [
@@ -63063,7 +64789,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6070200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "130x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6070200MZ.jpg",
       "images": [
@@ -63078,7 +64806,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7070200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7070200MZ.jpg",
       "images": [
@@ -63093,7 +64823,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7080200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "150x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7080200MZ.jpg",
       "images": [
@@ -63108,7 +64840,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7090200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "160x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7090200MZ.jpg",
       "images": [
@@ -63123,7 +64857,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "170x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70100200MZ.jpg",
       "images": [
@@ -63138,7 +64874,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70110200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "180x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200MZ.jpg",
       "images": [
@@ -63153,7 +64891,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70120200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "190x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70120200MZ.jpg",
       "images": [
@@ -63168,7 +64908,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70130200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "200x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70130200MZ.jpg",
       "images": [
@@ -63183,7 +64925,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6030200NG.jpg",
       "images": [
@@ -63198,7 +64942,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6040200NG.jpg",
       "images": [
@@ -63213,7 +64959,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6050200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6050200NG.jpg",
       "images": [
@@ -63228,7 +64976,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6060200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6060200NG.jpg",
       "images": [
@@ -63243,7 +64993,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6070200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6070200NG.jpg",
       "images": [
@@ -63258,7 +65010,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7070200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7070200NG.jpg",
       "images": [
@@ -63273,7 +65027,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7080200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7080200NG.jpg",
       "images": [
@@ -63288,7 +65044,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7090200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7090200NG.jpg",
       "images": [
@@ -63303,7 +65061,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70100200NG.jpg",
       "images": [
@@ -63318,7 +65078,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70110200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200NG.jpg",
       "images": [
@@ -63333,7 +65095,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70120200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70120200NG.jpg",
       "images": [
@@ -63348,7 +65112,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70130200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70130200NG.jpg",
       "images": [
@@ -63363,7 +65129,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6030200GK.jpg",
       "images": [
@@ -63378,7 +65146,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6040200GK.jpg",
       "images": [
@@ -63393,7 +65163,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6050200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6050200GK.jpg",
       "images": [
@@ -63408,7 +65180,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6060200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6060200GK.jpg",
       "images": [
@@ -63423,7 +65197,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6070200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6070200GK.jpg",
       "images": [
@@ -63438,7 +65214,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7070200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7070200GK.jpg",
       "images": [
@@ -63453,7 +65231,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7080200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7080200GK.jpg",
       "images": [
@@ -63468,7 +65248,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7090200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7090200GK.jpg",
       "images": [
@@ -63483,7 +65265,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70100200GK.jpg",
       "images": [
@@ -63498,7 +65282,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70110200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200GK.jpg",
       "images": [
@@ -63513,7 +65299,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70120200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70120200GK.jpg",
       "images": [
@@ -63528,7 +65316,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70130200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70130200GK.jpg",
       "images": [
@@ -63543,7 +65333,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6030200GM.jpg",
       "images": [
@@ -63558,7 +65350,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6040200GM.jpg",
       "images": [
@@ -63573,7 +65367,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6050200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6050200GM.jpg",
       "images": [
@@ -63588,7 +65384,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6060200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6060200GM.jpg",
       "images": [
@@ -63603,7 +65401,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6070200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6070200GM.jpg",
       "images": [
@@ -63618,7 +65418,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7070200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7070200GM.jpg",
       "images": [
@@ -63633,7 +65435,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7080200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7080200GM.jpg",
       "images": [
@@ -63648,7 +65452,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7090200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7090200GM.jpg",
       "images": [
@@ -63663,7 +65469,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70100200GM.jpg",
       "images": [
@@ -63678,7 +65486,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70110200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200GM.jpg",
       "images": [
@@ -63693,7 +65503,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70120200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70120200GM.jpg",
       "images": [
@@ -63708,7 +65520,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70130200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70130200GM.jpg",
       "images": [
@@ -63723,7 +65537,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6030200GG.jpg",
       "images": [
@@ -63738,7 +65554,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6040200GG.jpg",
       "images": [
@@ -63753,7 +65571,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6050200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6050200GG.jpg",
       "images": [
@@ -63768,7 +65588,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6060200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6060200GG.jpg",
       "images": [
@@ -63783,7 +65605,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H6070200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6070200GG.jpg",
       "images": [
@@ -63798,7 +65622,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7070200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7070200GG.jpg",
       "images": [
@@ -63813,7 +65639,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7080200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "150x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7080200GG.jpg",
       "images": [
@@ -63828,7 +65656,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H7090200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "160x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H7090200GG.jpg",
       "images": [
@@ -63843,7 +65673,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "170x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70100200GG.jpg",
       "images": [
@@ -63858,7 +65690,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70110200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "180x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70110200GG.jpg",
       "images": [
@@ -63873,7 +65707,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70120200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "190x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70120200GG.jpg",
       "images": [
@@ -63888,7 +65724,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN2H70130200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "200x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H70130200GG.jpg",
       "images": [
@@ -63905,7 +65743,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H60200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "60x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200CE.jpg",
       "images": [
@@ -63918,7 +65758,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H70200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "70x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H70200CE.jpg",
       "images": [
@@ -63931,7 +65773,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H80200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H80200CE.jpg",
       "images": [
@@ -63944,7 +65788,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H90200CE.jpg",
       "images": [
@@ -63957,7 +65803,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H100200CE.jpg",
       "images": [
@@ -63970,7 +65818,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H60200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "60x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200MZ.jpg",
       "images": [
@@ -63983,7 +65833,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H70200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "70x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H70200MZ.jpg",
       "images": [
@@ -63996,7 +65848,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H80200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H80200MZ.jpg",
       "images": [
@@ -64009,7 +65863,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H90200MZ.jpg",
       "images": [
@@ -64022,7 +65878,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H100200MZ.jpg",
       "images": [
@@ -64035,7 +65893,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H60200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200NG.jpg",
       "images": [
@@ -64048,7 +65908,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H70200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H70200NG.jpg",
       "images": [
@@ -64061,7 +65923,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H80200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H80200NG.jpg",
       "images": [
@@ -64074,7 +65938,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H90200NG.jpg",
       "images": [
@@ -64087,7 +65953,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H100200NG.jpg",
       "images": [
@@ -64100,7 +65968,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H60200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200GK.jpg",
       "images": [
@@ -64113,7 +65983,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H70200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H70200GK.jpg",
       "images": [
@@ -64126,7 +65998,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H80200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H80200GK.jpg",
       "images": [
@@ -64139,7 +66013,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H90200GK.jpg",
       "images": [
@@ -64152,7 +66028,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H100200GK.jpg",
       "images": [
@@ -64165,7 +66043,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H60200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200GM.jpg",
       "images": [
@@ -64178,7 +66058,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H70200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H70200GM.jpg",
       "images": [
@@ -64191,7 +66073,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H80200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H80200GM.jpg",
       "images": [
@@ -64204,7 +66088,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H90200GM.jpg",
       "images": [
@@ -64217,7 +66103,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H100200GM.jpg",
       "images": [
@@ -64230,7 +66118,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H60200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200GG.jpg",
       "images": [
@@ -64243,7 +66133,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H70200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H70200GG.jpg",
       "images": [
@@ -64256,7 +66148,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H80200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H80200GG.jpg",
       "images": [
@@ -64269,7 +66163,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H90200GG.jpg",
       "images": [
@@ -64282,7 +66178,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN1H100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H100200GG.jpg",
       "images": [
@@ -64297,7 +66195,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN4H100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN4H100200CE.jpg",
       "images": [
@@ -64310,7 +66210,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN4H100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN4H100200MZ.jpg",
       "images": [
@@ -64323,7 +66225,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN4H100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN4H100200NG.jpg",
       "images": [
@@ -64336,7 +66240,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN4H100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN4H100200GK.jpg",
       "images": [
@@ -64349,7 +66255,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN4H100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN4H100200GM.jpg",
       "images": [
@@ -64362,7 +66270,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOCN4H100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN4H100200GG.jpg",
       "images": [
@@ -64373,105 +66283,13 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN4H100200GG_T.pdf"
     }
   ],
-  "9725": [
-    {
-      "sku": "BRA-GS-VOI2H10030200GG",
-      "options": {
-        "maat": "100x200 cm",
-        "kleur": "Geborsteld goud"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG_4.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG_T.pdf"
-    },
-    {
-      "sku": "BRA-GS-VOI2H10030200GK",
-      "options": {
-        "maat": "100x200 cm",
-        "kleur": "Geborsteld koper"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK_4.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK_T.pdf"
-    },
-    {
-      "sku": "BRA-GS-VOI2H9030200GG",
-      "options": {
-        "maat": "90x200 cm",
-        "kleur": "Geborsteld goud"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG_4.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG_T.pdf"
-    }
-  ],
-  "9726": [
-    {
-      "sku": "BRA-GS-VOI2H10040200GG",
-      "options": {
-        "maat": "100x200 cm",
-        "kleur": "Geborsteld goud"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG_4.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG_T.pdf"
-    },
-    {
-      "sku": "BRA-GS-VOI2H10040200GK",
-      "options": {
-        "maat": "100x200 cm",
-        "kleur": "Geborsteld koper"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK_4.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK_T.pdf"
-    },
-    {
-      "sku": "BRA-GS-VOI2H9040200GG",
-      "options": {
-        "maat": "90x200 cm",
-        "kleur": "Geborsteld goud"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG.jpg",
-      "images": [
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG_1.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG_2.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG_3.jpg",
-        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG_4.jpg"
-      ],
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG_T.pdf"
-    }
-  ],
   "9727": [
     {
       "sku": "BRA-GS-VON1H60200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "60x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H60200CE.jpg",
       "images": [
@@ -64484,7 +66302,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H70200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "70x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200CE.jpg",
       "images": [
@@ -64497,7 +66317,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H80200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H80200CE.jpg",
       "images": [
@@ -64510,7 +66332,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H90200CE.jpg",
       "images": [
@@ -64523,7 +66347,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H100200CE.jpg",
       "images": [
@@ -64536,7 +66362,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H60200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "60x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H60200MZ.jpg",
       "images": [
@@ -64549,7 +66377,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H70200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "70x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200MZ.jpg",
       "images": [
@@ -64562,7 +66392,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H80200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H80200MZ.jpg",
       "images": [
@@ -64575,7 +66407,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H90200MZ.jpg",
       "images": [
@@ -64588,7 +66422,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H100200MZ.jpg",
       "images": [
@@ -64601,7 +66437,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H60200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H60200NG.jpg",
       "images": [
@@ -64614,7 +66452,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H70200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200NG.jpg",
       "images": [
@@ -64627,7 +66467,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H80200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H80200NG.jpg",
       "images": [
@@ -64640,7 +66482,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H90200NG.jpg",
       "images": [
@@ -64653,7 +66497,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H100200NG.jpg",
       "images": [
@@ -64666,7 +66512,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H60200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H60200GK.jpg",
       "images": [
@@ -64679,7 +66527,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H70200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200GK.jpg",
       "images": [
@@ -64692,7 +66542,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H80200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H80200GK.jpg",
       "images": [
@@ -64705,7 +66557,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H90200GK.jpg",
       "images": [
@@ -64718,7 +66572,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H100200GK.jpg",
       "images": [
@@ -64731,7 +66587,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H60200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H60200GM.jpg",
       "images": [
@@ -64744,7 +66602,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H70200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200GM.jpg",
       "images": [
@@ -64757,7 +66617,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H80200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H80200GM.jpg",
       "images": [
@@ -64770,7 +66632,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H90200GM.jpg",
       "images": [
@@ -64783,7 +66647,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H100200GM.jpg",
       "images": [
@@ -64796,7 +66662,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H60200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H60200GG.jpg",
       "images": [
@@ -64809,7 +66677,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H70200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H70200GG.jpg",
       "images": [
@@ -64822,7 +66692,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H80200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H80200GG.jpg",
       "images": [
@@ -64835,7 +66707,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H90200GG.jpg",
       "images": [
@@ -64848,7 +66722,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON1H100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H100200GG.jpg",
       "images": [
@@ -64863,7 +66739,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H60200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "60x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H60200CE.jpg",
       "images": [
@@ -64876,7 +66754,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H70200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "70x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H70200CE.jpg",
       "images": [
@@ -64889,7 +66769,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H80200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "80x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H80200CE.jpg",
       "images": [
@@ -64902,7 +66784,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H90200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H90200CE.jpg",
       "images": [
@@ -64915,7 +66799,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H100200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H100200CE.jpg",
       "images": [
@@ -64928,7 +66814,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H60200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "60x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H60200MZ.jpg",
       "images": [
@@ -64941,7 +66829,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H70200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "70x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H70200MZ.jpg",
       "images": [
@@ -64954,7 +66844,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H80200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "80x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H80200MZ.jpg",
       "images": [
@@ -64967,7 +66859,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H90200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H90200MZ.jpg",
       "images": [
@@ -64980,7 +66874,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H100200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H100200MZ.jpg",
       "images": [
@@ -64993,7 +66889,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H60200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H60200NG.jpg",
       "images": [
@@ -65006,7 +66904,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H70200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H70200NG.jpg",
       "images": [
@@ -65019,7 +66919,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H80200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H80200NG.jpg",
       "images": [
@@ -65032,7 +66934,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H90200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H90200NG.jpg",
       "images": [
@@ -65045,7 +66949,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H100200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H100200NG.jpg",
       "images": [
@@ -65058,7 +66964,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H60200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H60200GK.jpg",
       "images": [
@@ -65071,7 +66979,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H70200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H70200GK.jpg",
       "images": [
@@ -65084,7 +66994,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H80200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H80200GK.jpg",
       "images": [
@@ -65097,7 +67009,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H90200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H90200GK.jpg",
       "images": [
@@ -65110,7 +67024,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H100200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H100200GK.jpg",
       "images": [
@@ -65123,7 +67039,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H60200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H60200GM.jpg",
       "images": [
@@ -65136,7 +67054,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H70200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H70200GM.jpg",
       "images": [
@@ -65149,7 +67069,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H80200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H80200GM.jpg",
       "images": [
@@ -65162,7 +67084,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H90200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H90200GM.jpg",
       "images": [
@@ -65175,7 +67099,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H100200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H100200GM.jpg",
       "images": [
@@ -65188,7 +67114,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H60200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "60x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H60200GG.jpg",
       "images": [
@@ -65201,7 +67129,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H70200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "70x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H70200GG.jpg",
       "images": [
@@ -65214,7 +67144,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H80200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "80x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H80200GG.jpg",
       "images": [
@@ -65227,7 +67159,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H90200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H90200GG.jpg",
       "images": [
@@ -65240,7 +67174,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VON4H100200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H100200GG.jpg",
       "images": [
@@ -65253,9 +67189,27 @@ export const productCombinations: Record<number, ProductCombination[]> = {
   ],
   "9729": [
     {
+      "sku": "BRA-GS-VOI2H10030200GG",
+      "options": {
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GG_T.pdf"
+    },
+    {
       "sku": "BRA-GS-VOI2H9030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200CE.jpg",
       "images": [
@@ -65267,9 +67221,59 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200CE_T.pdf"
     },
     {
+      "sku": "BRA-GS-VOI2H10040200GG",
+      "options": {
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GG_T.pdf"
+    },
+    {
+      "sku": "BRA-GS-VOI2H10040200GK",
+      "options": {
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GK_T.pdf"
+    },
+    {
+      "sku": "BRA-GS-VOI2H10030200GK",
+      "options": {
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GK_T.pdf"
+    },
+    {
       "sku": "BRA-GS-VOI2H10030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200CE.jpg",
       "images": [
@@ -65281,9 +67285,27 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200CE_T.pdf"
     },
     {
+      "sku": "BRA-GS-VOI2H9030200GG",
+      "options": {
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GG_T.pdf"
+    },
+    {
       "sku": "BRA-GS-VOI2H11030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "110x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11030200CE.jpg",
       "images": [
@@ -65295,9 +67317,27 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11030200CE_T.pdf"
     },
     {
+      "sku": "BRA-GS-VOI2H9040200GG",
+      "options": {
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GG_T.pdf"
+    },
+    {
       "sku": "BRA-GS-VOI2H12030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200CE.jpg",
       "images": [
@@ -65311,7 +67351,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "130x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13030200CE.jpg",
       "images": [
@@ -65325,7 +67367,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14030200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14030200CE.jpg",
       "images": [
@@ -65339,7 +67383,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H9040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "90x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200CE.jpg",
       "images": [
@@ -65353,7 +67399,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H10040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "100x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200CE.jpg",
       "images": [
@@ -65367,7 +67415,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "110x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11040200CE.jpg",
       "images": [
@@ -65381,7 +67431,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "120x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12040200CE.jpg",
       "images": [
@@ -65395,7 +67447,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "130x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13040200CE.jpg",
       "images": [
@@ -65409,7 +67463,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14040200CE",
       "options": {
-        "kleur": "Chroom"
+        "maat": "140x200 cm",
+        "kleur": "Chroom",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200CE.jpg",
       "images": [
@@ -65423,7 +67479,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H9030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200MZ.jpg",
       "images": [
@@ -65437,7 +67495,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H10030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200MZ.jpg",
       "images": [
@@ -65451,7 +67511,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "110x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11030200MZ.jpg",
       "images": [
@@ -65465,7 +67527,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200MZ.jpg",
       "images": [
@@ -65479,7 +67543,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "130x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13030200MZ.jpg",
       "images": [
@@ -65493,7 +67559,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14030200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14030200MZ.jpg",
       "images": [
@@ -65507,7 +67575,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H9040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "90x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200MZ.jpg",
       "images": [
@@ -65521,7 +67591,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H10040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "100x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200MZ.jpg",
       "images": [
@@ -65535,7 +67607,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "110x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11040200MZ.jpg",
       "images": [
@@ -65549,7 +67623,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "120x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12040200MZ.jpg",
       "images": [
@@ -65563,7 +67639,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "130x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13040200MZ.jpg",
       "images": [
@@ -65577,7 +67655,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14040200MZ",
       "options": {
-        "kleur": "Mat zwart"
+        "maat": "140x200 cm",
+        "kleur": "Mat zwart",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200MZ.jpg",
       "images": [
@@ -65591,7 +67671,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H9030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200NG.jpg",
       "images": [
@@ -65605,7 +67687,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H10030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200NG.jpg",
       "images": [
@@ -65619,7 +67703,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11030200NG.jpg",
       "images": [
@@ -65633,7 +67719,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200NG.jpg",
       "images": [
@@ -65647,7 +67735,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13030200NG.jpg",
       "images": [
@@ -65661,7 +67751,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14030200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14030200NG.jpg",
       "images": [
@@ -65675,7 +67767,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H9040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200NG.jpg",
       "images": [
@@ -65689,7 +67783,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H10040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200NG.jpg",
       "images": [
@@ -65703,7 +67799,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11040200NG.jpg",
       "images": [
@@ -65717,7 +67815,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12040200NG.jpg",
       "images": [
@@ -65731,7 +67831,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13040200NG.jpg",
       "images": [
@@ -65745,7 +67847,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14040200NG",
       "options": {
-        "kleur": "Geborsteld RVS"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld RVS",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200NG.jpg",
       "images": [
@@ -65759,7 +67863,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H9030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GK.jpg",
       "images": [
@@ -65773,7 +67879,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11030200GK.jpg",
       "images": [
@@ -65787,7 +67895,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200GK.jpg",
       "images": [
@@ -65801,7 +67911,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13030200GK.jpg",
       "images": [
@@ -65815,7 +67927,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14030200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14030200GK.jpg",
       "images": [
@@ -65829,7 +67943,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H9040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GK.jpg",
       "images": [
@@ -65843,7 +67959,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11040200GK.jpg",
       "images": [
@@ -65857,7 +67975,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12040200GK.jpg",
       "images": [
@@ -65871,7 +67991,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13040200GK.jpg",
       "images": [
@@ -65885,7 +68007,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14040200GK",
       "options": {
-        "kleur": "Geborsteld koper"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld koper",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200GK.jpg",
       "images": [
@@ -65899,7 +68023,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H9030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9030200GM.jpg",
       "images": [
@@ -65913,7 +68039,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H10030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10030200GM.jpg",
       "images": [
@@ -65927,7 +68055,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11030200GM.jpg",
       "images": [
@@ -65941,7 +68071,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200GM.jpg",
       "images": [
@@ -65955,7 +68087,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13030200GM.jpg",
       "images": [
@@ -65969,7 +68103,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14030200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14030200GM.jpg",
       "images": [
@@ -65983,7 +68119,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H9040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "90x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H9040200GM.jpg",
       "images": [
@@ -65997,7 +68135,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H10040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "100x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H10040200GM.jpg",
       "images": [
@@ -66011,7 +68151,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11040200GM.jpg",
       "images": [
@@ -66025,7 +68167,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12040200GM.jpg",
       "images": [
@@ -66039,7 +68183,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13040200GM.jpg",
       "images": [
@@ -66053,7 +68199,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14040200GM",
       "options": {
-        "kleur": "Geborsteld gunmetal"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld gunmetal",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200GM.jpg",
       "images": [
@@ -66067,7 +68215,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11030200GG.jpg",
       "images": [
@@ -66081,7 +68231,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12030200GG.jpg",
       "images": [
@@ -66095,7 +68247,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13030200GG.jpg",
       "images": [
@@ -66109,7 +68263,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14030200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14030200GG.jpg",
       "images": [
@@ -66123,7 +68279,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H11040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "110x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H11040200GG.jpg",
       "images": [
@@ -66137,7 +68295,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H12040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "120x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H12040200GG.jpg",
       "images": [
@@ -66151,7 +68311,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H13040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "130x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H13040200GG.jpg",
       "images": [
@@ -66165,7 +68327,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-GS-VOI2H14040200GG",
       "options": {
-        "kleur": "Geborsteld goud"
+        "maat": "140x200 cm",
+        "kleur": "Geborsteld goud",
+        "glassoort": "Helder glas"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200GG.jpg",
       "images": [
@@ -66175,6 +68339,110 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200GG_4.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14040200GG_T.pdf"
+    }
+  ],
+  "9730": [
+    {
+      "sku": "BRA-AE-ZDAGG",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGG_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGG_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGG_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGG_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGG_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGG_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGG_T.pdf"
+    },
+    {
+      "sku": "BRA-AE-ZDAMZ",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAMZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAMZ_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAMZ_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAMZ_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAMZ_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAMZ_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAMZ_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAMZ_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAMZ_T.pdf"
+    },
+    {
+      "sku": "BRA-AE-ZDACE",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDACE.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDACE_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDACE_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDACE_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDACE_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDACE_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDACE_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDACE_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDACE_T.pdf"
+    },
+    {
+      "sku": "BRA-AE-ZDAGM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGM_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGM_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGM_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGM_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGM_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGM_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGM_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGM_T.pdf"
+    },
+    {
+      "sku": "BRA-AE-ZDANG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDANG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDANG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDANG_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDANG_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDANG_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDANG_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDANG_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDANG_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDANG_T.pdf"
+    },
+    {
+      "sku": "BRA-AE-ZDAGK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK_3.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK_4.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK_5.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK_6.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK_7.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK_T.pdf"
     }
   ]
 };
