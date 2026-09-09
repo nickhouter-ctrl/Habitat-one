@@ -4247,6 +4247,23 @@
     "collection": "accessories"
   },
   {
+    "id": 9731,
+    "name": "3-standen handdouche",
+    "slug": "3-standen-handdouche-9731",
+    "sku": "BRA-3-STANDEN-HANDDOUCHE-B4GI",
+    "description": null,
+    "description_i18n": null,
+    "short_description": null,
+    "thumbnail_path": null,
+    "featured": false,
+    "stock_unit": "Pcs",
+    "brand": "brauer",
+    "series": null,
+    "product_type": "Handdouches",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011.jpg",
+    "collection": "bathroom"
+  },
+  {
     "id": 9580,
     "name": "Altijd open waste",
     "slug": "altijd-open-waste-9580",
@@ -5148,23 +5165,6 @@
     "collection": "accessories"
   },
   {
-    "id": 9677,
-    "name": "Handdouche",
-    "slug": "handdouche-9677",
-    "sku": "BRA-STRIPE-HANDDOUCHES-EN-TOEBEHOREN-TGZB",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Stripe",
-    "product_type": "Handdouches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011.jpg",
-    "collection": "bathroom"
-  },
-  {
     "id": 9657,
     "name": "Inbouwnis",
     "slug": "inbouwnis-9657",
@@ -5505,6 +5505,23 @@
     "collection": "bathroom"
   },
   {
+    "id": 9677,
+    "name": "Staaf handdouche",
+    "slug": "staaf-handdouche-9677",
+    "sku": "BRA-STRIPE-HANDDOUCHES-EN-TOEBEHOREN-TGZB",
+    "description": null,
+    "description_i18n": null,
+    "short_description": null,
+    "thumbnail_path": null,
+    "featured": false,
+    "stock_unit": "Pcs",
+    "brand": "brauer",
+    "series": "Stripe",
+    "product_type": "Handdouches",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010.jpg",
+    "collection": "bathroom"
+  },
+  {
     "id": 9678,
     "name": "Stellar 2-delig met draaideur",
     "slug": "stellar-2-delig-met-draaideur-9678",
@@ -5641,23 +5658,6 @@
     "collection": "bathroom"
   },
   {
-    "id": 9690,
-    "name": "Stripe opbouw douche thermostaatkraan",
-    "slug": "stripe-opbouw-douche-thermostaatkraan-9690",
-    "sku": "BRA-345-STRIPE-OPBOUW-DOUCHE-THERMOSTAATKRAA-1S6B",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Stripe",
-    "product_type": "Douches",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-346.jpg",
-    "collection": "bathroom"
-  },
-  {
     "id": 9689,
     "name": "Stripe opbouw douche thermostaatkraan",
     "slug": "stripe-opbouw-douche-thermostaatkraan-9689",
@@ -5672,6 +5672,23 @@
     "series": "Stripe",
     "product_type": "Thermostaten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-344.jpg",
+    "collection": "bathroom"
+  },
+  {
+    "id": 9690,
+    "name": "Stripe opbouw douche thermostaatkraan",
+    "slug": "stripe-opbouw-douche-thermostaatkraan-9690",
+    "sku": "BRA-345-STRIPE-OPBOUW-DOUCHE-THERMOSTAATKRAA-1S6B",
+    "description": null,
+    "description_i18n": null,
+    "short_description": null,
+    "thumbnail_path": null,
+    "featured": false,
+    "stock_unit": "Pcs",
+    "brand": "brauer",
+    "series": "Stripe",
+    "product_type": "Douches",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-346.jpg",
     "collection": "bathroom"
   },
   {

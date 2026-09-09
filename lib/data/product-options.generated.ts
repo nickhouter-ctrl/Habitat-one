@@ -47660,28 +47660,16 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-CE-010",
       "options": {
-        "kleur": "Chroom",
-        "handdouche": "Staafmodel"
+        "kleur": "Chroom"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010.jpg",
       "images": null,
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010_T.pdf"
     },
     {
-      "sku": "BRA-5-CE-011",
-      "options": {
-        "kleur": "Chroom",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011.jpg",
-      "images": null,
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011_T.pdf"
-    },
-    {
       "sku": "BRA-5-CF-010",
       "options": {
-        "kleur": "Coffee",
-        "handdouche": "Staafmodel"
+        "kleur": "Coffee"
       },
       "image": null,
       "images": null,
@@ -47690,112 +47678,47 @@ export const productCombinations: Record<number, ProductCombination[]> = {
     {
       "sku": "BRA-5-S-010",
       "options": {
-        "kleur": "Mat zwart",
-        "handdouche": "Staafmodel"
+        "kleur": "Mat zwart"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-010.jpg",
       "images": null,
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-010_T.pdf"
     },
     {
-      "sku": "BRA-5-CF-011",
-      "options": {
-        "kleur": "Coffee",
-        "handdouche": "3-standen"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null
-    },
-    {
-      "sku": "BRA-5-S-011",
-      "options": {
-        "kleur": "Mat zwart",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-011.jpg",
-      "images": null,
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-011_T.pdf"
-    },
-    {
       "sku": "BRA-5-GK-010",
       "options": {
-        "kleur": "Geborsteld koper",
-        "handdouche": "Staafmodel"
+        "kleur": "Geborsteld koper"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-010.jpg",
       "images": null,
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-010_T.pdf"
     },
     {
-      "sku": "BRA-5-GK-011",
-      "options": {
-        "kleur": "Geborsteld koper",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-011.jpg",
-      "images": null,
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-011_T.pdf"
-    },
-    {
       "sku": "BRA-5-NG-010",
       "options": {
-        "kleur": "Geborsteld RVS",
-        "handdouche": "Staafmodel"
+        "kleur": "Geborsteld RVS"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-010.jpg",
       "images": null,
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-010_T.pdf"
     },
     {
-      "sku": "BRA-5-NG-011",
-      "options": {
-        "kleur": "Geborsteld RVS",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-011.jpg",
-      "images": null,
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-011_T.pdf"
-    },
-    {
       "sku": "BRA-5-GM-010",
       "options": {
-        "kleur": "Geborsteld gunmetal",
-        "handdouche": "Staafmodel"
+        "kleur": "Geborsteld gunmetal"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-010.jpg",
       "images": null,
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-010_T.pdf"
     },
     {
-      "sku": "BRA-5-GM-011",
-      "options": {
-        "kleur": "Geborsteld gunmetal",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-011.jpg",
-      "images": null,
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-011_T.pdf"
-    },
-    {
       "sku": "BRA-5-GG-010",
       "options": {
-        "kleur": "Geborsteld goud",
-        "handdouche": "Staafmodel"
+        "kleur": "Geborsteld goud"
       },
       "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-010.jpg",
       "images": null,
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-010_T.pdf"
-    },
-    {
-      "sku": "BRA-5-GG-011",
-      "options": {
-        "kleur": "Geborsteld goud",
-        "handdouche": "3-standen"
-      },
-      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-011.jpg",
-      "images": null,
-      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-011_T.pdf"
     }
   ],
   "9678": [
@@ -69970,6 +69893,71 @@ export const productCombinations: Record<number, ProductCombination[]> = {
         "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK_7.jpg"
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDAGK_T.pdf"
+    }
+  ],
+  "9731": [
+    {
+      "sku": "BRA-5-CE-011",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011_T.pdf"
+    },
+    {
+      "sku": "BRA-5-CF-011",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null
+    },
+    {
+      "sku": "BRA-5-S-011",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-011.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-011_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GK-011",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-011.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-011_T.pdf"
+    },
+    {
+      "sku": "BRA-5-NG-011",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-011.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-011_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GM-011",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-011.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-011_T.pdf"
+    },
+    {
+      "sku": "BRA-5-GG-011",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-011.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-011_T.pdf"
     }
   ]
 };
