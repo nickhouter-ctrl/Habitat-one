@@ -9568,7 +9568,6 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-DR-MRF70S",
       "BRA-DR-MRF80S",
       "BRA-DR-MRF70CF",
-      "BRA-DR-MRF80CF",
       "BRA-DR-MRF90S",
       "BRA-DR-MRF100S",
       "BRA-DR-MRF90CF",
@@ -9694,9 +9693,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variantSkus": [
       "BRA-DR-MRFW100CF",
       "BRA-DR-MRFW70S",
-      "BRA-DR-MRFW70CF",
       "BRA-DR-MRFW80CF",
       "BRA-DR-MRFW80S",
+      "BRA-DR-MRFW90CF",
       "BRA-DR-MRFW90S",
       "BRA-DR-MRFW100S",
       "BRA-DR-MRFW70GK",
@@ -10064,6 +10063,11 @@ export const catalogProducts: CatalogProduct[] = [
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF160NG.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
           }
         ]
       },
@@ -10203,6 +10207,7 @@ export const catalogProducts: CatalogProduct[] = [
     "variantSkus": [
       "BRA-DR-MRF50NG",
       "BRA-DR-MRF90NG",
+      "BRA-DR-MRF80CF",
       "BRA-DR-MRF60NG",
       "BRA-DR-MRF100NG",
       "BRA-DR-MRF70NG",
@@ -10290,7 +10295,7 @@ export const catalogProducts: CatalogProduct[] = [
       }
     ],
     "variantSkus": [
-      "BRA-DR-MRFW90CF",
+      "BRA-DR-MRFW70CF",
       "BRA-DR-MRFW50NG",
       "BRA-DR-MRFW60NG",
       "BRA-DR-MRFW70NG",
@@ -15565,6 +15570,293 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
+    "id": 9732,
+    "name": "Planchet Ocean Edge",
+    "slug": "planchet-ocean-edge-9732",
+    "sku": "BRA-OCEAN-EDGE-PLANCHET-OCEAN-EDGE-KHHX",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60ER.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "accessories",
+    "brand": "brauer",
+    "series": "Ocean Edge",
+    "productType": "Accessoires",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "?DR",
+            "label": "?DR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60DR.jpg"
+          },
+          {
+            "value": "?ER",
+            "label": "?ER",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60ER.jpg"
+          },
+          {
+            "value": "?GR",
+            "label": "?GR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60GR.jpg"
+          },
+          {
+            "value": "?HO",
+            "label": "?HO",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60HO.jpg"
+          },
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60CH.jpg"
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60DA.jpg"
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FC.jpg"
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FS.jpg"
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FT.jpg"
+          },
+          {
+            "value": "Forest Wheat",
+            "label": "Forest Wheat",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FW.jpg"
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60SL.jpg"
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-AE-OCE60CH",
+      "BRA-AE-OCE60SL",
+      "BRA-AE-OCE60DA",
+      "BRA-AE-OCE60FC",
+      "BRA-AE-OCE60FT",
+      "BRA-AE-OCE60FW",
+      "BRA-AE-OCE60FS"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9733,
+    "name": "Planchet Ocean Slim",
+    "slug": "planchet-ocean-slim-9733",
+    "sku": "BRA-OCEAN-SLIM-PLANCHET-OCEAN-SLIM-KJQY",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEW.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "accessories",
+    "brand": "brauer",
+    "series": "Ocean Slim",
+    "productType": "Accessoires",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "?DR",
+            "label": "?DR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60DR.jpg"
+          },
+          {
+            "value": "?ER",
+            "label": "?ER",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60ER.jpg"
+          },
+          {
+            "value": "?GR",
+            "label": "?GR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60GR.jpg"
+          },
+          {
+            "value": "?HO",
+            "label": "?HO",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60HO.jpg"
+          },
+          {
+            "value": "?TE",
+            "label": "?TE",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60TE.jpg"
+          },
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60CH.jpg"
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60DA.jpg"
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FC.jpg"
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FS.jpg"
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FT.jpg"
+          },
+          {
+            "value": "Forest Wheat",
+            "label": "Forest Wheat",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FW.jpg"
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60HW.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEB.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEN.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEW.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEZ.jpg"
+          },
+          {
+            "value": "Mat Beige",
+            "label": "Mat Beige",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MB.jpg"
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MG.jpg"
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MM.jpg"
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MT.jpg"
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MW.jpg"
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MZ.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MS.jpg"
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60SL.jpg"
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60TA.jpg"
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60TB.jpg"
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60TG.jpg"
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60VEG.jpg"
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-AE-OCS60FW",
+      "BRA-AE-OCS60LEW",
+      "BRA-AE-OCS60LEN",
+      "BRA-AE-OCS60MB",
+      "BRA-AE-OCS60FS",
+      "BRA-AE-OCS60MM",
+      "BRA-AE-OCS60MZ",
+      "BRA-AE-OCS60HW",
+      "BRA-AE-OCS60VEG",
+      "BRA-AE-OCS60FT",
+      "BRA-AE-OCS60MG",
+      "BRA-AE-OCS60SL",
+      "BRA-AE-OCS60LEB",
+      "BRA-AE-OCS60DA",
+      "BRA-AE-OCS60MT",
+      "BRA-AE-OCS60LEZ",
+      "BRA-AE-OCS60FC",
+      "BRA-AE-OCS60TB",
+      "BRA-AE-OCS60CH",
+      "BRA-AE-OCS60MW",
+      "BRA-AE-OCS60TG",
+      "BRA-AE-OCS60TA",
+      "BRA-AE-OCS60MS"
+    ],
+    "variants": []
+  },
+  {
     "id": 9676,
     "name": "Regendouchekop",
     "slug": "regendouchekop-9676",
@@ -15657,6 +15949,2549 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-5-GM-017",
       "BRA-5-GG-016",
       "BRA-5-GG-017"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9734,
+    "name": "Spiegel Citrine",
+    "slug": "spiegel-citrine-9734",
+    "sku": "BRA-CITRINE-SPIEGEL-CITRINE-PCIA",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEB.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Citrine",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "40 cm",
+            "label": "40 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-CI80RHLEN",
+      "BRA-SP-CI80RHLEZ",
+      "BRA-SP-CI80RHVEG",
+      "BRA-SP-CI80RHLEW",
+      "BRA-SP-CI80RHLEB",
+      "BRA-SP-CI120RHLEN",
+      "BRA-SP-CI120RHLEZ",
+      "BRA-SP-CI120RHVEG",
+      "BRA-SP-CI120RHLEW",
+      "BRA-SP-CI120RHLEB",
+      "BRA-SP-CI160RHLEB",
+      "BRA-SP-CI160RHVEG",
+      "BRA-SP-CI160RHLEZ",
+      "BRA-SP-CI160RHLEW",
+      "BRA-SP-CI160RHLEN",
+      "BRA-SP-CI60RHLEB",
+      "BRA-SP-CI60RHLEW",
+      "BRA-SP-CI60RHLEZ",
+      "BRA-SP-CI60RHVEG",
+      "BRA-SP-CI60RHLEN",
+      "BRA-SP-CI200RHLEN",
+      "BRA-SP-CI200RHLEZ",
+      "BRA-SP-CI200RHVEG",
+      "BRA-SP-CI200RHLEW",
+      "BRA-SP-CI200RHLEB",
+      "BRA-SP-CI40RHLEN",
+      "BRA-SP-CI40RHLEW",
+      "BRA-SP-CI40RHVEG",
+      "BRA-SP-CI40RHLEZ",
+      "BRA-SP-CI40RHLEB",
+      "BRA-SP-CI140RHLEN",
+      "BRA-SP-CI140RHVEG",
+      "BRA-SP-CI140RHLEZ",
+      "BRA-SP-CI140RHLEW",
+      "BRA-SP-CI140RHLEB",
+      "BRA-SP-CI100RHLEZ",
+      "BRA-SP-CI100RHVEG",
+      "BRA-SP-CI100RHLEW",
+      "BRA-SP-CI100RHLEB",
+      "BRA-SP-CI100RHLEN"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9735,
+    "name": "Spiegel Emerald",
+    "slug": "spiegel-emerald-9735",
+    "sku": "BRA-EMERALD-SPIEGEL-EMERALD-198Y",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM160RH.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Emerald",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "25 cm",
+            "label": "25 cm",
+            "image": null
+          },
+          {
+            "value": "40 cm",
+            "label": "40 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "75 cm",
+            "label": "75 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "90 cm",
+            "label": "90 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-EM120RH",
+      "BRA-SP-EM40RH",
+      "BRA-SP-EM100RH",
+      "BRA-SP-EM160RH",
+      "BRA-SP-EM75RH",
+      "BRA-SP-EM80RH",
+      "BRA-SP-EM140RH",
+      "BRA-SP-EM200RH",
+      "BRA-SP-EM90RH",
+      "BRA-SP-EM60RH",
+      "BRA-SP-EM25RH",
+      "BRA-SP-EM70RH"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9736,
+    "name": "Spiegel Garnet",
+    "slug": "spiegel-garnet-9736",
+    "sku": "BRA-GARNET-SPIEGEL-GARNET-MX04",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA80RH.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Garnet",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "75 cm",
+            "label": "75 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "90 cm",
+            "label": "90 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-GA80RH",
+      "BRA-SP-GA160RH",
+      "BRA-SP-GA60RH",
+      "BRA-SP-GA100RH",
+      "BRA-SP-GA75RH",
+      "BRA-SP-GA90RH",
+      "BRA-SP-GA200RH",
+      "BRA-SP-GA140RH",
+      "BRA-SP-GA120RH"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9737,
+    "name": "Spiegel Jade",
+    "slug": "spiegel-jade-9737",
+    "sku": "BRA-JADE-SPIEGEL-JADE-1PUT",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD100RO.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Jade",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "40 cm",
+            "label": "40 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "180 cm",
+            "label": "180 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          },
+          {
+            "value": "240 cm",
+            "label": "240 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "uitvoering",
+        "label": "Uitvoering",
+        "values": [
+          {
+            "value": "OV",
+            "label": "OV",
+            "image": null
+          },
+          {
+            "value": "RH",
+            "label": "RH",
+            "image": null
+          },
+          {
+            "value": "RO",
+            "label": "RO",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-JD70RO",
+      "BRA-SP-JD100RO",
+      "BRA-SP-JD80RO",
+      "BRA-SP-JD100RH",
+      "BRA-SP-JD200RH",
+      "BRA-SP-JD240RH",
+      "BRA-SP-JD120RH",
+      "BRA-SP-JD140RH",
+      "BRA-SP-JD60RH",
+      "BRA-SP-JD180RH",
+      "BRA-SP-JD160RH",
+      "BRA-SP-JD80RH",
+      "BRA-SP-JD40RH",
+      "BRA-SP-JD120OV"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9738,
+    "name": "Spiegel Jade Deluxe",
+    "slug": "spiegel-jade-deluxe-9738",
+    "sku": "BRA-JADE-DELUXE-SPIEGEL-JADE-DELUXE-Z3O7",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD80OV.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Jade Deluxe",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-JDD80OV",
+      "BRA-SP-JDD100OV",
+      "BRA-SP-JDD120OV"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9739,
+    "name": "Spiegel Jade Edge",
+    "slug": "spiegel-jade-edge-9739",
+    "sku": "BRA-JADE-EDGE-SPIEGEL-JADE-EDGE-X67V",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70ROO.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Jade Edge",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "uitvoering",
+        "label": "Uitvoering",
+        "values": [
+          {
+            "value": "RO",
+            "label": "RO",
+            "image": null
+          },
+          {
+            "value": "ROO",
+            "label": "ROO",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-JDE70RO",
+      "BRA-SP-JDE70ROO"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9740,
+    "name": "Spiegel Jasper",
+    "slug": "spiegel-jasper-9740",
+    "sku": "BRA-JASPER-SPIEGEL-JASPER-1HND",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS160RH.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Jasper",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "180 cm",
+            "label": "180 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-JS160RH",
+      "BRA-SP-JS80RH",
+      "BRA-SP-JS100RH",
+      "BRA-SP-JS120RH",
+      "BRA-SP-JS200RH",
+      "BRA-SP-JS140RH",
+      "BRA-SP-JS180RH",
+      "BRA-SP-JS60RH"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9741,
+    "name": "Spiegel Onyx",
+    "slug": "spiegel-onyx-9741",
+    "sku": "BRA-ONYX-SPIEGEL-ONYX-AOT2",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON80RHA.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Onyx",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "25 cm",
+            "label": "25 cm",
+            "image": null
+          },
+          {
+            "value": "40 cm",
+            "label": "40 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "uitvoering",
+        "label": "Uitvoering",
+        "values": [
+          {
+            "value": "RHA",
+            "label": "RHA",
+            "image": null
+          },
+          {
+            "value": "RHZ",
+            "label": "RHZ",
+            "image": null
+          },
+          {
+            "value": "ROZ",
+            "label": "ROZ",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-ON40RHA",
+      "BRA-SP-ON120RHA",
+      "BRA-SP-ON80RHA",
+      "BRA-SP-ON100RHA",
+      "BRA-SP-ON25RHA",
+      "BRA-SP-ON60RHA",
+      "BRA-SP-ON160RHA",
+      "BRA-SP-ON140RHA",
+      "BRA-SP-ON200RHA",
+      "BRA-SP-ON80RHZ",
+      "BRA-SP-ON200RHZ",
+      "BRA-SP-ON160RHZ",
+      "BRA-SP-ON100RHZ",
+      "BRA-SP-ON140RHZ",
+      "BRA-SP-ON40RHZ",
+      "BRA-SP-ON25RHZ",
+      "BRA-SP-ON60RHZ",
+      "BRA-SP-ON120RHZ",
+      "BRA-SP-ON70ROZ",
+      "BRA-SP-ON70ROOZ"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9742,
+    "name": "Spiegel Pyrite",
+    "slug": "spiegel-pyrite-9742",
+    "sku": "BRA-PYRITE-SPIEGEL-PYRITE-19EH",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY120RH.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Pyrite",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-PY100RH",
+      "BRA-SP-PY60RH",
+      "BRA-SP-PY120RH",
+      "BRA-SP-PY80RH",
+      "BRA-SP-PY200RH",
+      "BRA-SP-PY160RH",
+      "BRA-SP-PY140RH"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9743,
+    "name": "Spiegel Quartz",
+    "slug": "spiegel-quartz-9743",
+    "sku": "BRA-QUARTZ-SPIEGEL-QUARTZ-SI1P",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU120RH.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Quartz",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "50 cm",
+            "label": "50 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "90 cm",
+            "label": "90 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-QU70RH",
+      "BRA-SP-QU120RH",
+      "BRA-SP-QU80RH",
+      "BRA-SP-QU90RH",
+      "BRA-SP-QU100RH",
+      "BRA-SP-QU50RH",
+      "BRA-SP-QU140RH",
+      "BRA-SP-QU160RH",
+      "BRA-SP-QU60RH"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9744,
+    "name": "Spiegel Ruby",
+    "slug": "spiegel-ruby-9744",
+    "sku": "BRA-RUBY-SPIEGEL-RUBY-1IHH",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU160RH.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Ruby",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "40 cm",
+            "label": "40 cm",
+            "image": null
+          },
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          },
+          {
+            "value": "160 cm",
+            "label": "160 cm",
+            "image": null
+          },
+          {
+            "value": "200 cm",
+            "label": "200 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "uitvoering",
+        "label": "Uitvoering",
+        "values": [
+          {
+            "value": "OV",
+            "label": "OV",
+            "image": null
+          },
+          {
+            "value": "RH",
+            "label": "RH",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-RU40RH",
+      "BRA-SP-RU80RH",
+      "BRA-SP-RU160RH",
+      "BRA-SP-RU60RH",
+      "BRA-SP-RU100RH",
+      "BRA-SP-RU140RH",
+      "BRA-SP-RU200RH",
+      "BRA-SP-RU120RH",
+      "BRA-SP-RU60OV"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9745,
+    "name": "Spiegel Ruby Deluxe",
+    "slug": "spiegel-ruby-deluxe-9745",
+    "sku": "BRA-RUBY-DELUXE-SPIEGEL-RUBY-DELUXE-WBQ6",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RB.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Ruby Deluxe",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "uitvoering",
+        "label": "Uitvoering",
+        "values": [
+          {
+            "value": "OG",
+            "label": "OG",
+            "image": null
+          },
+          {
+            "value": "RB",
+            "label": "RB",
+            "image": null
+          },
+          {
+            "value": "RO",
+            "label": "RO",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-RUD60RB",
+      "BRA-SP-RUD100RB",
+      "BRA-SP-RUD80RB",
+      "BRA-SP-RUD120RB",
+      "BRA-SP-RUD100OG",
+      "BRA-SP-RUD60OG",
+      "BRA-SP-RUD120OG",
+      "BRA-SP-RUD80RO",
+      "BRA-SP-RUD120RO",
+      "BRA-SP-RUD100RO"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9746,
+    "name": "Spiegel Sapphire",
+    "slug": "spiegel-sapphire-9746",
+    "sku": "BRA-SAPPHIRE-SPIEGEL-SAPPHIRE-1N8P",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAS.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Sapphire",
+    "productType": "Spiegels",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-SA120RAGG",
+      "BRA-SP-SA80RAGG",
+      "BRA-SP-SA100RAGG",
+      "BRA-SP-SA120RAGM",
+      "BRA-SP-SA80RAGM",
+      "BRA-SP-SA100RAGM",
+      "BRA-SP-SA120RAS",
+      "BRA-SP-SA80RAS",
+      "BRA-SP-SA100RAS",
+      "BRA-SP-SA80RANG",
+      "BRA-SP-SA120RANG",
+      "BRA-SP-SA100RANG",
+      "BRA-SP-SA120RAGK",
+      "BRA-SP-SA80RAGK",
+      "BRA-SP-SA100RAGK"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9747,
+    "name": "Spiegelkast Impress",
+    "slug": "spiegelkast-impress-9747",
+    "sku": "BRA-IMPRESS-SPIEGELKAST-IMPRESS-2JOA",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80SL.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Impress",
+    "productType": "Spiegelkasten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "?DR",
+            "label": "?DR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80DR.jpg"
+          },
+          {
+            "value": "?ER",
+            "label": "?ER",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80ER.jpg"
+          },
+          {
+            "value": "?GR",
+            "label": "?GR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80GR.jpg"
+          },
+          {
+            "value": "?HO",
+            "label": "?HO",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80HO.jpg"
+          },
+          {
+            "value": "?TE",
+            "label": "?TE",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TE.jpg"
+          },
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80CH.jpg"
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80DA.jpg"
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FC.jpg"
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FS.jpg"
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FT.jpg"
+          },
+          {
+            "value": "Forest Wheat",
+            "label": "Forest Wheat",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FW.jpg"
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80HW.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEB.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEN.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEW.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEZ.jpg"
+          },
+          {
+            "value": "Mat Beige",
+            "label": "Mat Beige",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MB.jpg"
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MG.jpg"
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MM.jpg"
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MT.jpg"
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MW.jpg"
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MZ.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MS.jpg"
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80SL.jpg"
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TA.jpg"
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TB.jpg"
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TG.jpg"
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80VEG.jpg"
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "positie",
+        "label": "Positie",
+        "values": [
+          {
+            "value": "Links",
+            "label": "Links",
+            "image": null
+          },
+          {
+            "value": "Rechts",
+            "label": "Rechts",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SK-IM80HW",
+      "BRA-SK-IM80FS",
+      "BRA-SK-IM80FW",
+      "BRA-SK-IM80SL",
+      "BRA-SK-IM80MB",
+      "BRA-SK-IM80LEZ",
+      "BRA-SK-IM80DA",
+      "BRA-SK-IM80LEB",
+      "BRA-SK-IM80LEN",
+      "BRA-SK-IM80MZ",
+      "BRA-SK-IM80MG",
+      "BRA-SK-IM80FT",
+      "BRA-SK-IM80MM",
+      "BRA-SK-IM80TB",
+      "BRA-SK-IM80VEG",
+      "BRA-SK-IM80FC",
+      "BRA-SK-IM80TA",
+      "BRA-SK-IM80CH",
+      "BRA-SK-IM80MT",
+      "BRA-SK-IM80LEW",
+      "BRA-SK-IM80MW",
+      "BRA-SK-IM80TG",
+      "BRA-SK-IM80MS",
+      "BRA-SK-IM120MS",
+      "BRA-SK-IM120TG",
+      "BRA-SK-IM120VEG",
+      "BRA-SK-IM120TA",
+      "BRA-SK-IM120LEN",
+      "BRA-SK-IM120LEW",
+      "BRA-SK-IM120CH",
+      "BRA-SK-IM120FS",
+      "BRA-SK-IM120MW",
+      "BRA-SK-IM120FW",
+      "BRA-SK-IM120FC",
+      "BRA-SK-IM120FT",
+      "BRA-SK-IM120DA",
+      "BRA-SK-IM120MT",
+      "BRA-SK-IM120SL",
+      "BRA-SK-IM120MM",
+      "BRA-SK-IM120MB",
+      "BRA-SK-IM120TB",
+      "BRA-SK-IM120LEZ",
+      "BRA-SK-IM120MG",
+      "BRA-SK-IM120MZ",
+      "BRA-SK-IM120LEB",
+      "BRA-SK-IM120HW",
+      "BRA-SK-IM60RSL",
+      "BRA-SK-IM60RMM",
+      "BRA-SK-IM60RFC",
+      "BRA-SK-IM60LMW",
+      "BRA-SK-IM60RTB",
+      "BRA-SK-IM60RDA",
+      "BRA-SK-IM60RLEZ",
+      "BRA-SK-IM60LCH",
+      "BRA-SK-IM60LDA",
+      "BRA-SK-IM60LHW",
+      "BRA-SK-IM60LMS",
+      "BRA-SK-IM60RLEN",
+      "BRA-SK-IM60LTG",
+      "BRA-SK-IM60RMT",
+      "BRA-SK-IM60LTA",
+      "BRA-SK-IM60RMZ",
+      "BRA-SK-IM60LSL",
+      "BRA-SK-IM60RVEG",
+      "BRA-SK-IM60LLEN",
+      "BRA-SK-IM60LLEW",
+      "BRA-SK-IM60RMS",
+      "BRA-SK-IM60RTG",
+      "BRA-SK-IM60LMM",
+      "BRA-SK-IM60LMZ",
+      "BRA-SK-IM60LMT",
+      "BRA-SK-IM60RTA",
+      "BRA-SK-IM60LFC",
+      "BRA-SK-IM60RMW",
+      "BRA-SK-IM60LTB",
+      "BRA-SK-IM60RLEW",
+      "BRA-SK-IM60LLEZ",
+      "BRA-SK-IM60RCH",
+      "BRA-SK-IM60LVEG",
+      "BRA-SK-IM60RHW",
+      "BRA-SK-IM60LFT",
+      "BRA-SK-IM60LMG",
+      "BRA-SK-IM60RFS",
+      "BRA-SK-IM60LLEB",
+      "BRA-SK-IM60RLEB",
+      "BRA-SK-IM60RMB",
+      "BRA-SK-IM60RFW",
+      "BRA-SK-IM60LMB",
+      "BRA-SK-IM60RFT",
+      "BRA-SK-IM60LFW",
+      "BRA-SK-IM60RMG",
+      "BRA-SK-IM60LFS",
+      "BRA-SK-IM140LEN",
+      "BRA-SK-IM140DA",
+      "BRA-SK-IM140VEG",
+      "BRA-SK-IM140TB",
+      "BRA-SK-IM140FC",
+      "BRA-SK-IM140MW",
+      "BRA-SK-IM140MM",
+      "BRA-SK-IM140SL",
+      "BRA-SK-IM140MB",
+      "BRA-SK-IM140MT",
+      "BRA-SK-IM140TA",
+      "BRA-SK-IM140CH",
+      "BRA-SK-IM140LEW",
+      "BRA-SK-IM140MG",
+      "BRA-SK-IM140MS",
+      "BRA-SK-IM140LEB",
+      "BRA-SK-IM140TG",
+      "BRA-SK-IM140FS",
+      "BRA-SK-IM140FT",
+      "BRA-SK-IM140FW",
+      "BRA-SK-IM140HW",
+      "BRA-SK-IM140LEZ",
+      "BRA-SK-IM140MZ",
+      "BRA-SK-IM100LEN",
+      "BRA-SK-IM100FT",
+      "BRA-SK-IM100MZ",
+      "BRA-SK-IM100MG",
+      "BRA-SK-IM100FC",
+      "BRA-SK-IM100LEZ",
+      "BRA-SK-IM100FW",
+      "BRA-SK-IM100FS",
+      "BRA-SK-IM100MB",
+      "BRA-SK-IM100TG",
+      "BRA-SK-IM100HW",
+      "BRA-SK-IM100MS",
+      "BRA-SK-IM100LEB",
+      "BRA-SK-IM100TB",
+      "BRA-SK-IM100MW",
+      "BRA-SK-IM100TA",
+      "BRA-SK-IM100MT",
+      "BRA-SK-IM100CH",
+      "BRA-SK-IM100VEG",
+      "BRA-SK-IM100LEW",
+      "BRA-SK-IM100MM",
+      "BRA-SK-IM100DA",
+      "BRA-SK-IM100SL"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9748,
+    "name": "Spiegelkast Impress Deluxe",
+    "slug": "spiegelkast-impress-deluxe-9748",
+    "sku": "BRA-IMPRESS-DELUXE-SPIEGELKAST-IMPRESS-DELUX-XBE5",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120CH.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Impress Deluxe",
+    "productType": "Spiegelkasten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "?DR",
+            "label": "?DR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120DR.jpg"
+          },
+          {
+            "value": "?ER",
+            "label": "?ER",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120ER.jpg"
+          },
+          {
+            "value": "?GR",
+            "label": "?GR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120GR.jpg"
+          },
+          {
+            "value": "?HO",
+            "label": "?HO",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120HO.jpg"
+          },
+          {
+            "value": "?SR",
+            "label": "?SR",
+            "image": null
+          },
+          {
+            "value": "?TE",
+            "label": "?TE",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TE.jpg"
+          },
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120CH.jpg"
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120DA.jpg"
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FC.jpg"
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FS.jpg"
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FT.jpg"
+          },
+          {
+            "value": "Forest Wheat",
+            "label": "Forest Wheat",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FW.jpg"
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120HW.jpg"
+          },
+          {
+            "value": "Mat Beige",
+            "label": "Mat Beige",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MB.jpg"
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MG.jpg"
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MM.jpg"
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MT.jpg"
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MW.jpg"
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MZ.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MS.jpg"
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120SL.jpg"
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TA.jpg"
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TB.jpg"
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TG.jpg"
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "positie",
+        "label": "Positie",
+        "values": [
+          {
+            "value": "Links",
+            "label": "Links",
+            "image": null
+          },
+          {
+            "value": "Rechts",
+            "label": "Rechts",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SK-IMD120CH",
+      "BRA-SK-IMD120MW",
+      "BRA-SK-IMD120MG",
+      "BRA-SK-IMD120TA",
+      "BRA-SK-IMD120TG",
+      "BRA-SK-IMD120MS",
+      "BRA-SK-IMD120TB",
+      "BRA-SK-IMD120MT",
+      "BRA-SK-IMD120MB",
+      "BRA-SK-IMD120FT",
+      "BRA-SK-IMD120FC",
+      "BRA-SK-IMD120DA",
+      "BRA-SK-IMD120FW",
+      "BRA-SK-IMD120MM",
+      "BRA-SK-IMD120FS",
+      "BRA-SK-IMD120SL",
+      "BRA-SK-IMD120HW",
+      "BRA-SK-IMD120MZ",
+      "BRA-SK-IMD100CH",
+      "BRA-SK-IMD100MT",
+      "BRA-SK-IMD100TA",
+      "BRA-SK-IMD100MB",
+      "BRA-SK-IMD100MZ",
+      "BRA-SK-IMD100MG",
+      "BRA-SK-IMD100FT",
+      "BRA-SK-IMD100MW",
+      "BRA-SK-IMD100TB",
+      "BRA-SK-IMD100TG",
+      "BRA-SK-IMD100MS",
+      "BRA-SK-IMD100FS",
+      "BRA-SK-IMD100HW",
+      "BRA-SK-IMD100FW",
+      "BRA-SK-IMD100FC",
+      "BRA-SK-IMD100SL",
+      "BRA-SK-IMD100DA",
+      "BRA-SK-IMD100MM",
+      "BRA-SK-IMD60RMT",
+      "BRA-SK-IMD60LTA",
+      "BRA-SK-IMD60LTG",
+      "BRA-SK-IMD60RHW",
+      "BRA-SK-IMD60LMS",
+      "BRA-SK-IMD60LMW",
+      "BRA-SK-IMD60RTB",
+      "BRA-SK-IMD60RDA",
+      "BRA-SK-IMD60RFC",
+      "BRA-SK-IMD60RMM",
+      "BRA-SK-IMD60LCH",
+      "BRA-SK-IMD60RSL",
+      "BRA-SK-IMD60LMZ",
+      "BRA-SK-IMD60LMM",
+      "BRA-SK-IMD60RMW",
+      "BRA-SK-IMD60LTB",
+      "BRA-SK-IMD60LFC",
+      "BRA-SK-IMD60LSL",
+      "BRA-SK-IMD60LDA",
+      "BRA-SK-IMD60RCH",
+      "BRA-SK-IMD60RMZ",
+      "BRA-SK-IMD60LMT",
+      "BRA-SK-IMD60RTA",
+      "BRA-SK-IMD60RTG",
+      "BRA-SK-IMD60RMS",
+      "BRA-SK-IMD60LHW",
+      "BRA-SK-IMD60RFW",
+      "BRA-SK-IMD60LFS",
+      "BRA-SK-IMD60RMG",
+      "BRA-SK-IMD60RMB",
+      "BRA-SK-IMD60RFS",
+      "BRA-SK-IMD60LMG",
+      "BRA-SK-IMD60LFT",
+      "BRA-SK-IMD60LFW",
+      "BRA-SK-IMD60RFT",
+      "BRA-SK-IMD60LMB",
+      "BRA-SK-IMD140MT",
+      "BRA-SK-IMD140FW",
+      "BRA-SK-IMD140DA",
+      "BRA-SK-IMD140FC",
+      "BRA-SK-IMD140FT",
+      "BRA-SK-IMD140MM",
+      "BRA-SK-IMD140SL",
+      "BRA-SK-IMD140TB",
+      "BRA-SK-IMD140FS",
+      "BRA-SK-IMD140CH",
+      "BRA-SK-IMD140MS",
+      "BRA-SK-IMD140TG",
+      "BRA-SK-IMD140MW",
+      "BRA-SK-IMD140MG",
+      "BRA-SK-IMD140TA",
+      "BRA-SK-IMD140MB",
+      "BRA-SK-IMD140MZ",
+      "BRA-SK-IMD140HW",
+      "BRA-SK-IMD80MM",
+      "BRA-SK-IMD80MZ",
+      "BRA-SK-IMD80MG",
+      "BRA-SK-IMD80FT",
+      "BRA-SK-IMD80DA",
+      "BRA-SK-IMD80HW",
+      "BRA-SK-IMD80FS",
+      "BRA-SK-IMD80FW",
+      "BRA-SK-IMD80MB",
+      "BRA-SK-IMD80SL",
+      "BRA-SK-IMD80TA",
+      "BRA-SK-IMD80TG",
+      "BRA-SK-IMD80MS",
+      "BRA-SK-IMD80FC",
+      "BRA-SK-IMD80MW",
+      "BRA-SK-IMD80CH",
+      "BRA-SK-IMD80TB",
+      "BRA-SK-IMD80MT"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9749,
+    "name": "Spiegelkast Promise",
+    "slug": "spiegelkast-promise-9749",
+    "sku": "BRA-PROMISE-SPIEGELKAST-PROMISE-184U",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MB.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Promise",
+    "productType": "Spiegelkasten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "?DR",
+            "label": "?DR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120DR.jpg"
+          },
+          {
+            "value": "?ER",
+            "label": "?ER",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120ER.jpg"
+          },
+          {
+            "value": "?GR",
+            "label": "?GR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120GR.jpg"
+          },
+          {
+            "value": "?HO",
+            "label": "?HO",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120HO.jpg"
+          },
+          {
+            "value": "?SR",
+            "label": "?SR",
+            "image": null
+          },
+          {
+            "value": "?TE",
+            "label": "?TE",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TE.jpg"
+          },
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120CH.jpg"
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120DA.jpg"
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FC.jpg"
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FS.jpg"
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FT.jpg"
+          },
+          {
+            "value": "Forest Wheat",
+            "label": "Forest Wheat",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FW.jpg"
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120HW.jpg"
+          },
+          {
+            "value": "Mat Beige",
+            "label": "Mat Beige",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MB.jpg"
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MG.jpg"
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MM.jpg"
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MT.jpg"
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MW.jpg"
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MZ.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MS.jpg"
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120SL.jpg"
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TA.jpg"
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TB.jpg"
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TG.jpg"
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "positie",
+        "label": "Positie",
+        "values": [
+          {
+            "value": "Links",
+            "label": "Links",
+            "image": null
+          },
+          {
+            "value": "Rechts",
+            "label": "Rechts",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SK-PR120TG",
+      "BRA-SK-PR120HW",
+      "BRA-SK-PR120FS",
+      "BRA-SK-PR120MS",
+      "BRA-SK-PR120MB",
+      "BRA-SK-PR120FW",
+      "BRA-SK-PR120MG",
+      "BRA-SK-PR120TA",
+      "BRA-SK-PR120MT",
+      "BRA-SK-PR120CH",
+      "BRA-SK-PR120TB",
+      "BRA-SK-PR120MW",
+      "BRA-SK-PR120FT",
+      "BRA-SK-PR120FC",
+      "BRA-SK-PR120MZ",
+      "BRA-SK-PR120MM",
+      "BRA-SK-PR120DA",
+      "BRA-SK-PR120SL",
+      "BRA-SK-PR80HW",
+      "BRA-SK-PR80SL",
+      "BRA-SK-PR80FS",
+      "BRA-SK-PR80FW",
+      "BRA-SK-PR80MB",
+      "BRA-SK-PR80DA",
+      "BRA-SK-PR80MZ",
+      "BRA-SK-PR80MG",
+      "BRA-SK-PR80FT",
+      "BRA-SK-PR80MM",
+      "BRA-SK-PR80FC",
+      "BRA-SK-PR80TB",
+      "BRA-SK-PR80MW",
+      "BRA-SK-PR80TA",
+      "BRA-SK-PR80MT",
+      "BRA-SK-PR80CH",
+      "BRA-SK-PR80MS",
+      "BRA-SK-PR80TG",
+      "BRA-SK-PR100MW",
+      "BRA-SK-PR100TB",
+      "BRA-SK-PR100MT",
+      "BRA-SK-PR100FC",
+      "BRA-SK-PR100MM",
+      "BRA-SK-PR100SL",
+      "BRA-SK-PR100CH",
+      "BRA-SK-PR100TA",
+      "BRA-SK-PR100MB",
+      "BRA-SK-PR100DA",
+      "BRA-SK-PR100MG",
+      "BRA-SK-PR100TG",
+      "BRA-SK-PR100MS",
+      "BRA-SK-PR100FS",
+      "BRA-SK-PR100FT",
+      "BRA-SK-PR100FW",
+      "BRA-SK-PR100HW",
+      "BRA-SK-PR100MZ",
+      "BRA-SK-PR60RDA",
+      "BRA-SK-PR60LFW",
+      "BRA-SK-PR60LMB",
+      "BRA-SK-PR60LFS",
+      "BRA-SK-PR60RMG",
+      "BRA-SK-PR60RMZ",
+      "BRA-SK-PR60RFT",
+      "BRA-SK-PR60LHW",
+      "BRA-SK-PR60RHW",
+      "BRA-SK-PR60LMZ",
+      "BRA-SK-PR60LMM",
+      "BRA-SK-PR60RSL",
+      "BRA-SK-PR60RFS",
+      "BRA-SK-PR60RMM",
+      "BRA-SK-PR60LMG",
+      "BRA-SK-PR60LFT",
+      "BRA-SK-PR60LSL",
+      "BRA-SK-PR60RMB",
+      "BRA-SK-PR60RFW",
+      "BRA-SK-PR60LDA",
+      "BRA-SK-PR60LMT",
+      "BRA-SK-PR60RTA",
+      "BRA-SK-PR60RTG",
+      "BRA-SK-PR60RMS",
+      "BRA-SK-PR60RCH",
+      "BRA-SK-PR60RMW",
+      "BRA-SK-PR60LTB",
+      "BRA-SK-PR60LFC",
+      "BRA-SK-PR60RMT",
+      "BRA-SK-PR60RTB",
+      "BRA-SK-PR60LCH",
+      "BRA-SK-PR60LTA",
+      "BRA-SK-PR60LMW",
+      "BRA-SK-PR60RFC",
+      "BRA-SK-PR60LTG",
+      "BRA-SK-PR60LMS"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9750,
+    "name": "Spiegelkast Promise Deluxe",
+    "slug": "spiegelkast-promise-deluxe-9750",
+    "sku": "BRA-PROMISE-DELUXE-SPIEGELKAST-PROMISE-DELUX-1W8E",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RSL.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Promise Deluxe",
+    "productType": "Spiegelkasten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "?DR",
+            "label": "?DR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LDR.jpg"
+          },
+          {
+            "value": "?ER",
+            "label": "?ER",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LER.jpg"
+          },
+          {
+            "value": "?GR",
+            "label": "?GR",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LGR.jpg"
+          },
+          {
+            "value": "?HO",
+            "label": "?HO",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140HO.jpg"
+          },
+          {
+            "value": "?SR",
+            "label": "?SR",
+            "image": null
+          },
+          {
+            "value": "?TE",
+            "label": "?TE",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTE.jpg"
+          },
+          {
+            "value": "Chateau",
+            "label": "Chateau",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RCH.jpg"
+          },
+          {
+            "value": "Damascus",
+            "label": "Damascus",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LDA.jpg"
+          },
+          {
+            "value": "Forest Cacao",
+            "label": "Forest Cacao",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFC.jpg"
+          },
+          {
+            "value": "Forest Seashell",
+            "label": "Forest Seashell",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFS.jpg"
+          },
+          {
+            "value": "Forest Tan",
+            "label": "Forest Tan",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFT.jpg"
+          },
+          {
+            "value": "Forest Wheat",
+            "label": "Forest Wheat",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFW.jpg"
+          },
+          {
+            "value": "Hoogglans Wit",
+            "label": "Hoogglans Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RHW.jpg"
+          },
+          {
+            "value": "Mat Beige",
+            "label": "Mat Beige",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMB.jpg"
+          },
+          {
+            "value": "Mat Grijs",
+            "label": "Mat Grijs",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMG.jpg"
+          },
+          {
+            "value": "Mat Mokka",
+            "label": "Mat Mokka",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMM.jpg"
+          },
+          {
+            "value": "Mat Taupe",
+            "label": "Mat Taupe",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMT.jpg"
+          },
+          {
+            "value": "Mat Wit",
+            "label": "Mat Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMW.jpg"
+          },
+          {
+            "value": "Mat Zand",
+            "label": "Mat Zand",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMZ.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMS.jpg"
+          },
+          {
+            "value": "Sunlit",
+            "label": "Sunlit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RSL.jpg"
+          },
+          {
+            "value": "Timber Anthracite",
+            "label": "Timber Anthracite",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTA.jpg"
+          },
+          {
+            "value": "Timber Black",
+            "label": "Timber Black",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RTB.jpg"
+          },
+          {
+            "value": "Timber Grey",
+            "label": "Timber Grey",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTG.jpg"
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "positie",
+        "label": "Positie",
+        "values": [
+          {
+            "value": "Links",
+            "label": "Links",
+            "image": null
+          },
+          {
+            "value": "Rechts",
+            "label": "Rechts",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SK-PRD60LMW",
+      "BRA-SK-PRD60RTB",
+      "BRA-SK-PRD60RSL",
+      "BRA-SK-PRD60RMM",
+      "BRA-SK-PRD60RFC",
+      "BRA-SK-PRD60RDA",
+      "BRA-SK-PRD60LCH",
+      "BRA-SK-PRD60RHW",
+      "BRA-SK-PRD60LTG",
+      "BRA-SK-PRD60RMT",
+      "BRA-SK-PRD60LTA",
+      "BRA-SK-PRD60LMS",
+      "BRA-SK-PRD60LMZ",
+      "BRA-SK-PRD60LMM",
+      "BRA-SK-PRD60LSL",
+      "BRA-SK-PRD60RTG",
+      "BRA-SK-PRD60LMT",
+      "BRA-SK-PRD60RTA",
+      "BRA-SK-PRD60RMS",
+      "BRA-SK-PRD60RMW",
+      "BRA-SK-PRD60LTB",
+      "BRA-SK-PRD60RMZ",
+      "BRA-SK-PRD60LFC",
+      "BRA-SK-PRD60LDA",
+      "BRA-SK-PRD60RCH",
+      "BRA-SK-PRD60LHW",
+      "BRA-SK-PRD60LFS",
+      "BRA-SK-PRD60RMG",
+      "BRA-SK-PRD60RFS",
+      "BRA-SK-PRD60LFT",
+      "BRA-SK-PRD60LMG",
+      "BRA-SK-PRD60RMB",
+      "BRA-SK-PRD60RFW",
+      "BRA-SK-PRD60LFW",
+      "BRA-SK-PRD60RFT",
+      "BRA-SK-PRD60LMB",
+      "BRA-SK-PRD140FW",
+      "BRA-SK-PRD140DA",
+      "BRA-SK-PRD140FC",
+      "BRA-SK-PRD140MM",
+      "BRA-SK-PRD140TB",
+      "BRA-SK-PRD140FT",
+      "BRA-SK-PRD140MT",
+      "BRA-SK-PRD140SL",
+      "BRA-SK-PRD140FS",
+      "BRA-SK-PRD140MS",
+      "BRA-SK-PRD140TA",
+      "BRA-SK-PRD140TG",
+      "BRA-SK-PRD140MG",
+      "BRA-SK-PRD140CH",
+      "BRA-SK-PRD140MW",
+      "BRA-SK-PRD140MB",
+      "BRA-SK-PRD140MZ",
+      "BRA-SK-PRD140HW",
+      "BRA-SK-PRD100FT",
+      "BRA-SK-PRD100CH",
+      "BRA-SK-PRD100MT",
+      "BRA-SK-PRD100MZ",
+      "BRA-SK-PRD100MG",
+      "BRA-SK-PRD100TA",
+      "BRA-SK-PRD100MB",
+      "BRA-SK-PRD100MW",
+      "BRA-SK-PRD100TB",
+      "BRA-SK-PRD100TG",
+      "BRA-SK-PRD100MS",
+      "BRA-SK-PRD100FW",
+      "BRA-SK-PRD100FS",
+      "BRA-SK-PRD100HW",
+      "BRA-SK-PRD100FC",
+      "BRA-SK-PRD100SL",
+      "BRA-SK-PRD100DA",
+      "BRA-SK-PRD100MM",
+      "BRA-SK-PRD80DA",
+      "BRA-SK-PRD80SL",
+      "BRA-SK-PRD80MM",
+      "BRA-SK-PRD80FC",
+      "BRA-SK-PRD80TB",
+      "BRA-SK-PRD80MT",
+      "BRA-SK-PRD80HW",
+      "BRA-SK-PRD80MS",
+      "BRA-SK-PRD80TG",
+      "BRA-SK-PRD80TA",
+      "BRA-SK-PRD80CH",
+      "BRA-SK-PRD80MW",
+      "BRA-SK-PRD80MZ",
+      "BRA-SK-PRD80FS",
+      "BRA-SK-PRD80MB",
+      "BRA-SK-PRD80FW",
+      "BRA-SK-PRD80MG",
+      "BRA-SK-PRD80FT",
+      "BRA-SK-PRD120TG",
+      "BRA-SK-PRD120TA",
+      "BRA-SK-PRD120MS",
+      "BRA-SK-PRD120MG",
+      "BRA-SK-PRD120CH",
+      "BRA-SK-PRD120MW",
+      "BRA-SK-PRD120TB",
+      "BRA-SK-PRD120MT",
+      "BRA-SK-PRD120MB",
+      "BRA-SK-PRD120DA",
+      "BRA-SK-PRD120FT",
+      "BRA-SK-PRD120FC",
+      "BRA-SK-PRD120SL",
+      "BRA-SK-PRD120MM",
+      "BRA-SK-PRD120FW",
+      "BRA-SK-PRD120FS",
+      "BRA-SK-PRD120HW",
+      "BRA-SK-PRD120MZ"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9751,
+    "name": "Spiegelkast Rise",
+    "slug": "spiegelkast-rise-9751",
+    "sku": "BRA-RISE-SPIEGELKAST-RISE-1CEN",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140VEG.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Rise",
+    "productType": "Spiegelkasten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Lamellen Eiken Bruin",
+            "label": "Lamellen Eiken Bruin",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEB.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Naturel",
+            "label": "Lamellen Eiken Naturel",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEN.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Wit",
+            "label": "Lamellen Eiken Wit",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEW.jpg"
+          },
+          {
+            "value": "Lamellen Eiken Zwart",
+            "label": "Lamellen Eiken Zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEZ.jpg"
+          },
+          {
+            "value": "Vingerlas Eiken Grijs",
+            "label": "Vingerlas Eiken Grijs",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140VEG.jpg"
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "60 cm",
+            "label": "60 cm",
+            "image": null
+          },
+          {
+            "value": "80 cm",
+            "label": "80 cm",
+            "image": null
+          },
+          {
+            "value": "100 cm",
+            "label": "100 cm",
+            "image": null
+          },
+          {
+            "value": "120 cm",
+            "label": "120 cm",
+            "image": null
+          },
+          {
+            "value": "140 cm",
+            "label": "140 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "positie",
+        "label": "Positie",
+        "values": [
+          {
+            "value": "Links",
+            "label": "Links",
+            "image": null
+          },
+          {
+            "value": "Rechts",
+            "label": "Rechts",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SK-RI140LEZ",
+      "BRA-SK-RI140LEW",
+      "BRA-SK-RI140LEN",
+      "BRA-SK-RI140VEG",
+      "BRA-SK-RI140LEB",
+      "BRA-SK-RI60LLEN",
+      "BRA-SK-RI60RLEW",
+      "BRA-SK-RI60LVEG",
+      "BRA-SK-RI60RVEG",
+      "BRA-SK-RI60RLEN",
+      "BRA-SK-RI60LLEW",
+      "BRA-SK-RI60LLEB",
+      "BRA-SK-RI60RLEB",
+      "BRA-SK-RI60RLEZ",
+      "BRA-SK-RI60LLEZ",
+      "BRA-SK-RI80LEZ",
+      "BRA-SK-RI80LEB",
+      "BRA-SK-RI80LEN",
+      "BRA-SK-RI80LEW",
+      "BRA-SK-RI80VEG",
+      "BRA-SK-RI100LEB",
+      "BRA-SK-RI100VEG",
+      "BRA-SK-RI100LEZ",
+      "BRA-SK-RI100LEW",
+      "BRA-SK-RI100LEN",
+      "BRA-SK-RI120LEB",
+      "BRA-SK-RI120LEW",
+      "BRA-SK-RI120VEG",
+      "BRA-SK-RI120LEN",
+      "BRA-SK-RI120LEZ"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9752,
+    "name": "Spiegelverwarming",
+    "slug": "spiegelverwarming-9752",
+    "sku": "BRA-SPIEGELVERWARMING-2Y1W",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SPV5050.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "accessories",
+    "brand": "brauer",
+    "series": null,
+    "productType": "Accessoires",
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "30x38 cm",
+            "label": "30x38 cm",
+            "image": null
+          },
+          {
+            "value": "50x50 cm",
+            "label": "50x50 cm",
+            "image": null
+          },
+          {
+            "value": "50x75 cm",
+            "label": "50x75 cm",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-MB-SPV5050",
+      "BRA-MB-SPV3038",
+      "BRA-MB-SPV5075"
     ],
     "variants": []
   },
@@ -16558,73 +19393,6 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9689,
-    "name": "Stripe opbouw douche thermostaatkraan",
-    "slug": "stripe-opbouw-douche-thermostaatkraan-9689",
-    "sku": "BRA-STRIPE-OPBOUW-DOUCHE-THERMOSTAATKRAAN-1HP4",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-344.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Thermostaten",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-344.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-344.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-344.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-344.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-344.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-344.jpg"
-          }
-        ]
-      }
-    ],
-    "variantSkus": [
-      "BRA-5-CE-344",
-      "BRA-5-S-344",
-      "BRA-5-GK-344",
-      "BRA-5-NG-344",
-      "BRA-5-GM-344",
-      "BRA-5-GG-344"
-    ],
-    "variants": []
-  },
-  {
     "id": 9690,
     "name": "Stripe opbouw douche thermostaatkraan",
     "slug": "stripe-opbouw-douche-thermostaatkraan-9690",
@@ -16726,6 +19494,73 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-5-GM-345",
       "BRA-5-GG-346",
       "BRA-5-GG-345"
+    ],
+    "variants": []
+  },
+  {
+    "id": 9689,
+    "name": "Stripe opbouw douche thermostaatkraan",
+    "slug": "stripe-opbouw-douche-thermostaatkraan-9689",
+    "sku": "BRA-STRIPE-OPBOUW-DOUCHE-THERMOSTAATKRAAN-1HP4",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-344.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Thermostaten",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-344.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-344.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-344.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-344.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-344.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-344.jpg"
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-5-CE-344",
+      "BRA-5-S-344",
+      "BRA-5-GK-344",
+      "BRA-5-NG-344",
+      "BRA-5-GM-344",
+      "BRA-5-GG-344"
     ],
     "variants": []
   },

@@ -19134,18 +19134,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawingImage": null
     },
     {
-      "sku": "BRA-DR-MRF80CF",
-      "options": {
-        "maat": "7x80 cm",
-        "kleur": "Coffee",
-        "lengte": "80 cm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null,
-      "drawingImage": null
-    },
-    {
       "sku": "BRA-DR-MRF90S",
       "options": {
         "maat": "7x90 cm",
@@ -19412,18 +19400,6 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW70S_T.png"
     },
     {
-      "sku": "BRA-DR-MRFW70CF",
-      "options": {
-        "maat": "7x70 cm",
-        "kleur": "Coffee",
-        "lengte": "70 cm"
-      },
-      "image": null,
-      "images": null,
-      "drawing": null,
-      "drawingImage": null
-    },
-    {
       "sku": "BRA-DR-MRFW80CF",
       "options": {
         "maat": "7x80 cm",
@@ -19450,6 +19426,18 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       ],
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80S_T.pdf",
       "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80S_T.png"
+    },
+    {
+      "sku": "BRA-DR-MRFW90CF",
+      "options": {
+        "maat": "7x90 cm",
+        "kleur": "Coffee",
+        "lengte": "90 cm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null
     },
     {
       "sku": "BRA-DR-MRFW90S",
@@ -20282,6 +20270,18 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF90NG_T.png"
     },
     {
+      "sku": "BRA-DR-MRF80CF",
+      "options": {
+        "maat": "7x80 cm",
+        "kleur": "Coffee",
+        "lengte": "80 cm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
       "sku": "BRA-DR-MRF60NG",
       "options": {
         "maat": "7x60 cm",
@@ -20444,9 +20444,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
   ],
   "9618": [
     {
-      "sku": "BRA-DR-MRFW90CF",
+      "sku": "BRA-DR-MRFW70CF",
       "options": {
-        "maat": "90 cm",
+        "maat": "70 cm",
         "kleur": "Coffee"
       },
       "image": null,
@@ -72688,6 +72688,8298 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "images": null,
       "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-011_T.pdf",
       "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-011_T.png"
+    }
+  ],
+  "9732": [
+    {
+      "sku": "BRA-AE-OCE60CH",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60CH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCE60SL",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60SL.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60SL_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCE60DA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60DA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCE60FC",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FC.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCE60FT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FT.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCE60FW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCE60FS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FS.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60FS_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9733": [
+    {
+      "sku": "BRA-AE-OCS60FW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60LEW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60LEN",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Naturel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEN.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60MB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60FS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FS.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60MM",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MM.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60MZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60HW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60HW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60VEG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Vingerlas Eiken Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60VEG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60VEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60FT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FT.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60MG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60SL",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60SL.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60SL_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60LEB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Bruin"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60DA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60DA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60MT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MT.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60LEZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60FC",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FC.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60TB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60TB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60CH",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60CH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60MW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60TG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60TG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60TA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60TA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-AE-OCS60MS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MS.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60MS_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9734": [
+    {
+      "sku": "BRA-SP-CI80RHLEN",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEN.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI80RHLEZ",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI80RHVEG",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHVEG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI80RHLEW",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI80RHLEB",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI80RHLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI120RHLEN",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEN.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI120RHLEZ",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI120RHVEG",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHVEG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI120RHLEW",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI120RHLEB",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI160RHLEB",
+      "options": {
+        "maat": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI160RHVEG",
+      "options": {
+        "maat": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHVEG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI160RHLEZ",
+      "options": {
+        "maat": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI160RHLEW",
+      "options": {
+        "maat": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI160RHLEN",
+      "options": {
+        "maat": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEN.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI160RHLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI60RHLEB",
+      "options": {
+        "maat": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI60RHLEW",
+      "options": {
+        "maat": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI60RHLEZ",
+      "options": {
+        "maat": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI60RHVEG",
+      "options": {
+        "maat": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHVEG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI60RHLEN",
+      "options": {
+        "maat": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEN.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI60RHLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI200RHLEN",
+      "options": {
+        "maat": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEN.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI200RHLEZ",
+      "options": {
+        "maat": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI200RHVEG",
+      "options": {
+        "maat": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHVEG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI200RHLEW",
+      "options": {
+        "maat": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI200RHLEB",
+      "options": {
+        "maat": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI200RHLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI40RHLEN",
+      "options": {
+        "maat": "40 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEN.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI40RHLEW",
+      "options": {
+        "maat": "40 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI40RHVEG",
+      "options": {
+        "maat": "40 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHVEG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI40RHLEZ",
+      "options": {
+        "maat": "40 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI40RHLEB",
+      "options": {
+        "maat": "40 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI40RHLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI140RHLEN",
+      "options": {
+        "maat": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEN.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI140RHVEG",
+      "options": {
+        "maat": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHVEG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI140RHLEZ",
+      "options": {
+        "maat": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI140RHLEW",
+      "options": {
+        "maat": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI140RHLEB",
+      "options": {
+        "maat": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI140RHLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI100RHLEZ",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI100RHVEG",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHVEG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI100RHLEW",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEW.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI100RHLEB",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEB.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-CI100RHLEN",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEN.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI100RHLEN_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9735": [
+    {
+      "sku": "BRA-SP-EM120RH",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM120RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM120RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM40RH",
+      "options": {
+        "maat": "40 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM40RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM40RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM100RH",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM100RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM100RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM160RH",
+      "options": {
+        "maat": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM160RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM160RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM75RH",
+      "options": {
+        "maat": "75 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM75RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM75RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM80RH",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM80RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM80RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM140RH",
+      "options": {
+        "maat": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM140RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM140RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM200RH",
+      "options": {
+        "maat": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM200RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM200RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM90RH",
+      "options": {
+        "maat": "90 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM90RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM90RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM60RH",
+      "options": {
+        "maat": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM60RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM60RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM25RH",
+      "options": {
+        "maat": "25 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM25RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM25RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-EM70RH",
+      "options": {
+        "maat": "70 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM70RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM70RH_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9736": [
+    {
+      "sku": "BRA-SP-GA80RH",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA80RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA80RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-GA160RH",
+      "options": {
+        "maat": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA160RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA160RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-GA60RH",
+      "options": {
+        "maat": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA60RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA60RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-GA100RH",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA100RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA100RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-GA75RH",
+      "options": {
+        "maat": "75 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA75RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA75RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-GA90RH",
+      "options": {
+        "maat": "90 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA90RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA90RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-GA200RH",
+      "options": {
+        "maat": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA200RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA200RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-GA140RH",
+      "options": {
+        "maat": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA140RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA140RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-GA120RH",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA120RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA120RH_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9737": [
+    {
+      "sku": "BRA-SP-JD70RO",
+      "options": {
+        "maat": "70 cm",
+        "uitvoering": "RO"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD70RO.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD70RO_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD100RO",
+      "options": {
+        "maat": "100 cm",
+        "uitvoering": "RO"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD100RO.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD100RO_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD80RO",
+      "options": {
+        "maat": "80 cm",
+        "uitvoering": "RO"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD80RO.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD80RO_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD100RH",
+      "options": {
+        "maat": "100 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD100RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD100RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD200RH",
+      "options": {
+        "maat": "200 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD200RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD200RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD240RH",
+      "options": {
+        "maat": "240 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD240RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD240RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD120RH",
+      "options": {
+        "maat": "120 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD120RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD120RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD140RH",
+      "options": {
+        "maat": "140 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD140RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD140RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD60RH",
+      "options": {
+        "maat": "60 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD60RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD60RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD180RH",
+      "options": {
+        "maat": "180 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD180RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD180RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD160RH",
+      "options": {
+        "maat": "160 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD160RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD160RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD80RH",
+      "options": {
+        "maat": "80 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD80RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD80RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD40RH",
+      "options": {
+        "maat": "40 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD40RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD40RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JD120OV",
+      "options": {
+        "maat": "120 cm",
+        "uitvoering": "OV"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD120OV.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD120OV_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9738": [
+    {
+      "sku": "BRA-SP-JDD80OV",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD80OV.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD80OV_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD80OV_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JDD100OV",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD100OV.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD100OV_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD100OV_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JDD120OV",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD120OV.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD120OV_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD120OV_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9739": [
+    {
+      "sku": "BRA-SP-JDE70RO",
+      "options": {
+        "maat": "70 cm",
+        "uitvoering": "RO"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70RO.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70RO_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JDE70ROO",
+      "options": {
+        "maat": "70 cm",
+        "uitvoering": "ROO"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70ROO.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70ROO_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9740": [
+    {
+      "sku": "BRA-SP-JS160RH",
+      "options": {
+        "maat": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS160RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS160RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JS80RH",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS80RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS80RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JS100RH",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS100RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS100RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JS120RH",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS120RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS120RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JS200RH",
+      "options": {
+        "maat": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS200RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS200RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JS140RH",
+      "options": {
+        "maat": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS140RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS140RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JS180RH",
+      "options": {
+        "maat": "180 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS180RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS180RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JS60RH",
+      "options": {
+        "maat": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS60RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS60RH_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9741": [
+    {
+      "sku": "BRA-SP-ON40RHA",
+      "options": {
+        "maat": "40 cm",
+        "uitvoering": "RHA"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON40RHA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON40RHA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON120RHA",
+      "options": {
+        "maat": "120 cm",
+        "uitvoering": "RHA"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON120RHA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON120RHA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON80RHA",
+      "options": {
+        "maat": "80 cm",
+        "uitvoering": "RHA"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON80RHA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON80RHA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON100RHA",
+      "options": {
+        "maat": "100 cm",
+        "uitvoering": "RHA"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON100RHA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON100RHA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON25RHA",
+      "options": {
+        "maat": "25 cm",
+        "uitvoering": "RHA"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON25RHA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON25RHA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON60RHA",
+      "options": {
+        "maat": "60 cm",
+        "uitvoering": "RHA"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON60RHA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON60RHA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON160RHA",
+      "options": {
+        "maat": "160 cm",
+        "uitvoering": "RHA"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON160RHA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON160RHA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON140RHA",
+      "options": {
+        "maat": "140 cm",
+        "uitvoering": "RHA"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON140RHA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON140RHA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON200RHA",
+      "options": {
+        "maat": "200 cm",
+        "uitvoering": "RHA"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON200RHA.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON200RHA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON80RHZ",
+      "options": {
+        "maat": "80 cm",
+        "uitvoering": "RHZ"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON80RHZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON80RHZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON200RHZ",
+      "options": {
+        "maat": "200 cm",
+        "uitvoering": "RHZ"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON200RHZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON200RHZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON160RHZ",
+      "options": {
+        "maat": "160 cm",
+        "uitvoering": "RHZ"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON160RHZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON160RHZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON100RHZ",
+      "options": {
+        "maat": "100 cm",
+        "uitvoering": "RHZ"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON100RHZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON100RHZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON140RHZ",
+      "options": {
+        "maat": "140 cm",
+        "uitvoering": "RHZ"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON140RHZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON140RHZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON40RHZ",
+      "options": {
+        "maat": "40 cm",
+        "uitvoering": "RHZ"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON40RHZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON40RHZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON25RHZ",
+      "options": {
+        "maat": "25 cm",
+        "uitvoering": "RHZ"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON25RHZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON25RHZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON60RHZ",
+      "options": {
+        "maat": "60 cm",
+        "uitvoering": "RHZ"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON60RHZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON60RHZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON120RHZ",
+      "options": {
+        "maat": "120 cm",
+        "uitvoering": "RHZ"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON120RHZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON120RHZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON70ROZ",
+      "options": {
+        "maat": "70 cm",
+        "uitvoering": "ROZ"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON70ROZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON70ROZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-ON70ROOZ",
+      "options": {
+        "maat": "70 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON70ROOZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON70ROOZ_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9742": [
+    {
+      "sku": "BRA-SP-PY100RH",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY100RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY100RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-PY60RH",
+      "options": {
+        "maat": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY60RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY60RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-PY120RH",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY120RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY120RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-PY80RH",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY80RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY80RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-PY200RH",
+      "options": {
+        "maat": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY200RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY200RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-PY160RH",
+      "options": {
+        "maat": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY160RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY160RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-PY140RH",
+      "options": {
+        "maat": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY140RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY140RH_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9743": [
+    {
+      "sku": "BRA-SP-QU70RH",
+      "options": {
+        "maat": "70 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU70RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU70RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-QU120RH",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU120RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU120RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-QU80RH",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU80RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU80RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-QU90RH",
+      "options": {
+        "maat": "90 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU90RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU90RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-QU100RH",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU100RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU100RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-QU50RH",
+      "options": {
+        "maat": "50 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU50RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU50RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-QU140RH",
+      "options": {
+        "maat": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU140RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU140RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-QU160RH",
+      "options": {
+        "maat": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU160RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU160RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-QU60RH",
+      "options": {
+        "maat": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU60RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU60RH_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9744": [
+    {
+      "sku": "BRA-SP-RU40RH",
+      "options": {
+        "maat": "40 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU40RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU40RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RU80RH",
+      "options": {
+        "maat": "80 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU80RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU80RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RU160RH",
+      "options": {
+        "maat": "160 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU160RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU160RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RU60RH",
+      "options": {
+        "maat": "60 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU60RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU60RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RU100RH",
+      "options": {
+        "maat": "100 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU100RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU100RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RU140RH",
+      "options": {
+        "maat": "140 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU140RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU140RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RU200RH",
+      "options": {
+        "maat": "200 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU200RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU200RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RU120RH",
+      "options": {
+        "maat": "120 cm",
+        "uitvoering": "RH"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU120RH.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU120RH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RU60OV",
+      "options": {
+        "maat": "60 cm",
+        "uitvoering": "OV"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU60OV.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU60OV_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9745": [
+    {
+      "sku": "BRA-SP-RUD60RB",
+      "options": {
+        "maat": "60 cm",
+        "uitvoering": "RB"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD60RB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD60RB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD60RB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RUD100RB",
+      "options": {
+        "maat": "100 cm",
+        "uitvoering": "RB"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100RB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100RB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100RB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RUD80RB",
+      "options": {
+        "maat": "80 cm",
+        "uitvoering": "RB"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RUD120RB",
+      "options": {
+        "maat": "120 cm",
+        "uitvoering": "RB"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120RB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120RB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120RB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RUD100OG",
+      "options": {
+        "maat": "100 cm",
+        "uitvoering": "OG"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100OG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100OG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100OG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RUD60OG",
+      "options": {
+        "maat": "60 cm",
+        "uitvoering": "OG"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD60OG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD60OG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD60OG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RUD120OG",
+      "options": {
+        "maat": "120 cm",
+        "uitvoering": "OG"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120OG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120OG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120OG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RUD80RO",
+      "options": {
+        "maat": "80 cm",
+        "uitvoering": "RO"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RO.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RO_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RO_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RUD120RO",
+      "options": {
+        "maat": "120 cm",
+        "uitvoering": "RO"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120RO.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120RO_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD120RO_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-RUD100RO",
+      "options": {
+        "maat": "100 cm",
+        "uitvoering": "RO"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100RO.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100RO_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD100RO_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9746": [
+    {
+      "sku": "BRA-SP-SA120RAGG",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA80RAGG",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA100RAGG",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA120RAGM",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGM_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGM_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA80RAGM",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGM_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGM_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA100RAGM",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGM_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGM_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA120RAS",
+      "options": {
+        "maat": "120 cm",
+        "uitvoering": "RAS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAS_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAS_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA80RAS",
+      "options": {
+        "maat": "80 cm",
+        "uitvoering": "RAS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAS_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAS_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA100RAS",
+      "options": {
+        "maat": "100 cm",
+        "uitvoering": "RAS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAS_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAS_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA80RANG",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RANG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RANG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RANG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RANG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA120RANG",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RANG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RANG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RANG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RANG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA100RANG",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RANG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RANG_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RANG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RANG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA120RAGK",
+      "options": {
+        "maat": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGK_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGK_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA120RAGK_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA80RAGK",
+      "options": {
+        "maat": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGK_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGK_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA80RAGK_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-SA100RAGK",
+      "options": {
+        "maat": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGK_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGK_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAGK_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9747": [
+    {
+      "sku": "BRA-SK-IM80HW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80FS",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80FW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80SL",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80SL_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80SL_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80MB",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80LEZ",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Lamellen Eiken Zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80DA",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80LEB",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Lamellen Eiken Bruin"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80LEN",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Lamellen Eiken Naturel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80MZ",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80MG",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80FT",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80MM",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80TB",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80VEG",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Vingerlas Eiken Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80VEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80VEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80VEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80FC",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80TA",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80CH",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80MT",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80LEW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Lamellen Eiken Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80LEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80MW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80TG",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM80MS",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120MS",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120TG",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120VEG",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Vingerlas Eiken Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120VEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120VEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120VEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120TA",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120LEN",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Lamellen Eiken Naturel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120LEW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Lamellen Eiken Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120CH",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120FS",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120MW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120FW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120FC",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120FT",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120DA",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120MT",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120SL",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120SL_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120SL_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120MM",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120MB",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120TB",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120LEZ",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Lamellen Eiken Zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120MG",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120MZ",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120LEB",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Lamellen Eiken Bruin"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120LEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM120HW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM120HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RSL",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RSL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RSL_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RSL_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RMM",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RFC",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LMW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RTB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RTB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RTB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RTB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RDA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RDA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RDA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RDA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RLEZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Zwart",
+        "positie": "Rechts"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LCH",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LCH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LCH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LCH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LDA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LDA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LDA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LDA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LHW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LHW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LHW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LHW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LMS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RLEN",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Naturel",
+        "positie": "Rechts"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LTG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LTG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LTG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LTG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RMT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LTA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LTA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LTA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LTA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RMZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LSL",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LSL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LSL_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LSL_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RVEG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Vingerlas Eiken Grijs",
+        "positie": "Rechts"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RVEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RVEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LLEN",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Naturel",
+        "positie": "Links"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LLEW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Wit",
+        "positie": "Links"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RMS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RTG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RTG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RTG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RTG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LMM",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LMZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LMT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RTA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RTA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RTA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RTA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LFC",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RMW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LTB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LTB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LTB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LTB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RLEW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Wit",
+        "positie": "Rechts"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LLEZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Zwart",
+        "positie": "Links"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RCH",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RCH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RCH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RCH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LVEG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Vingerlas Eiken Grijs",
+        "positie": "Links"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LVEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LVEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RHW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RHW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RHW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RHW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LFT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LMG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RFS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LLEB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Bruin",
+        "positie": "Links"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RLEB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Bruin",
+        "positie": "Rechts"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RMB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RFW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LMB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LMB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RFT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RFT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LFW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60RMG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60RMG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM60LFS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM60LFS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140LEN",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Lamellen Eiken Naturel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140DA",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140VEG",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Vingerlas Eiken Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140VEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140VEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140VEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140TB",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140FC",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140MW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140MM",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140SL",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140SL_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140SL_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140MB",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140MT",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140TA",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140CH",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140LEW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Lamellen Eiken Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140MG",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140MS",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140LEB",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Lamellen Eiken Bruin"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140TG",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140FS",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140FT",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140FW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140HW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140LEZ",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Lamellen Eiken Zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140LEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM140MZ",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM140MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100LEN",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Lamellen Eiken Naturel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100FT",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100MZ",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100MG",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100FC",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100LEZ",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Lamellen Eiken Zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100FW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100FS",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100MB",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100TG",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100HW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100MS",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100LEB",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Lamellen Eiken Bruin"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100TB",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100MW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100TA",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100MT",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100CH",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100VEG",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Vingerlas Eiken Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100VEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100VEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100VEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100LEW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Lamellen Eiken Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100LEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100MM",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100DA",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IM100SL",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100SL_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM100SL_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9748": [
+    {
+      "sku": "BRA-SK-IMD120CH",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120MW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120MG",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120TA",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120TG",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120MS",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120TB",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120MT",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120MB",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120FT",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120FC",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120DA",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120FW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120MM",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120FS",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120SL",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120HW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD120MZ",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100CH",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100MT",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100TA",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100MB",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100MZ",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100MG",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100FT",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100MW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100TB",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100TG",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100MS",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100FS",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100HW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100FW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100FC",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100SL",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100DA",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD100MM",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD100MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RMT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LTA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LTA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LTA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LTA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LTG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LTG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LTG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LTG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RHW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RHW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RHW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RHW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LMS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LMW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RTB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RTB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RTB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RTB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RDA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RDA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RDA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RDA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RFC",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RMM",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LCH",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LCH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LCH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LCH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RSL",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RSL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RSL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LMZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LMM",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RMW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LTB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LTB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LTB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LTB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LFC",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LSL",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LSL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LSL_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LSL_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LDA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LDA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LDA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LDA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RCH",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RCH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RCH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RCH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RMZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LMT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RTA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RTA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RTA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RTA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RTG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RTG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RTG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RTG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RMS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LHW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LHW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LHW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LHW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RFW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LFS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RMG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RMB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RMB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RFS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LMG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LFT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LFW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LFW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60RFT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60RFT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD60LMB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD60LMB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140MT",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140FW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140DA",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140FC",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140FT",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140MM",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140SL",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140TB",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140FS",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140CH",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140MS",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140TG",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140MW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140MG",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140TA",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140MB",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140MZ",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD140HW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD140HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80MM",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80MZ",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80MG",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80FT",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80DA",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80HW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80FS",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80FW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80MB",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80SL",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80TA",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80TG",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80MS",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80FC",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80MW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80CH",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80TB",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-IMD80MT",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD80MT_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9749": [
+    {
+      "sku": "BRA-SK-PR120TG",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120HW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120FS",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120MS",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120MB",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120FW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120MG",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120TA",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120MT",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120CH",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120TB",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120MW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120FT",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120FC",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120MZ",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120MM",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120DA",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR120SL",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80HW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80SL",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80FS",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80FW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80MB",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80DA",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80MZ",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80MG",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80FT",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80MM",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80FC",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80TB",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80MW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80TA",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80MT",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80CH",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80MS",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR80TG",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR80TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100MW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100TB",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100MT",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100FC",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100MM",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100SL",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100CH",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100TA",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100MB",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100DA",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100MG",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100TG",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100MS",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100FS",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100FT",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100FW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100HW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR100MZ",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR100MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RDA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RDA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RDA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RDA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LFW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LMB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LFS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RMG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RMZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RFT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LHW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LHW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LHW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LHW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RHW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RHW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RHW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RHW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LMZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LMM",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RSL",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RSL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RSL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RFS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RMM",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LMG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LFT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LSL",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LSL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LSL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RMB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RFW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LDA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LDA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LDA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LDA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LMT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RTA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RTA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RTA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RTA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RTG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RTG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RTG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RTG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RMS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RCH",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RCH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RCH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RCH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RMW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LTB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LTB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LTB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LTB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LFC",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LFC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RMT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RMT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RTB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RTB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RTB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RTB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LCH",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LCH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LCH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LCH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LTA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LTA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LTA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LTA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LMW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60RFC",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60RFC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LTG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LTG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LTG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LTG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PR60LMS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR60LMS_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9750": [
+    {
+      "sku": "BRA-SK-PRD60LMW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RTB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RTB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RTB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RTB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RSL",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RSL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RSL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RMM",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RFC",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RDA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RDA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RDA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RDA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LCH",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LCH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LCH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LCH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RHW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RHW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RHW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RHW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LTG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RMT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LTA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LMS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LMZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LMM",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LSL",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LSL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LSL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RTG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RTG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RTG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RTG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LMT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RTA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RTA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RTA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RTA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RMS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RMW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LTB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LTB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RMZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LFC",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LDA",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LDA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LDA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LDA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RCH",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RCH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RCH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RCH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LHW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LHW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LHW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LHW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LFS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RMG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RFS",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LFT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LMG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RMB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RMB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RFW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LFW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LFW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60RFT",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RFT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD60LMB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60LMB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140FW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140DA",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140FC",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140MM",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140TB",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140FT",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140MT",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140SL",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140FS",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140MS",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140TA",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140TG",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140MG",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140CH",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140MW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140MB",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140MZ",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD140HW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD140HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100FT",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100CH",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100MT",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100MZ",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100MG",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100TA",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100MB",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100MW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100TB",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100TG",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100MS",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100FW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100FS",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100HW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100FC",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100SL",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100DA",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD100MM",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD100MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80DA",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80SL",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80MM",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80FC",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80TB",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80MT",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80HW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80MS",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80TG",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80TA",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80CH",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80MW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80MZ",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80FS",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80MB",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80FW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80MG",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD80FT",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD80FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120TG",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Grey"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120TG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120TG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120TG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120TA",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Anthracite"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120TA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120TA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120TA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120MS",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120MG",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120CH",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Chateau"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120CH.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120CH_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120CH_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120MW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120TB",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Timber Black"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120TB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120TB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120TB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120MT",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Taupe"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120MB",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Beige"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120DA",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Damascus"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120DA.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120DA_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120DA_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120FT",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Tan"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FT.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FT_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FT_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120FC",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Cacao"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FC.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FC_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FC_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120SL",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Sunlit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120SL.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120SL_1.jpg"
+      ],
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120MM",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Mokka"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MM_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MM_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120FW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Wheat"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120FS",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Forest Seashell"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FS.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FS_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120FS_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120HW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Hoogglans Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120HW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120HW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120HW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-PRD120MZ",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Mat Zand"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD120MZ_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9751": [
+    {
+      "sku": "BRA-SK-RI140LEZ",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Lamellen Eiken Zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI140LEW",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Lamellen Eiken Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI140LEN",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Lamellen Eiken Naturel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI140VEG",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Vingerlas Eiken Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140VEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140VEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140VEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI140LEB",
+      "options": {
+        "maat": "140 cm",
+        "kleur": "Lamellen Eiken Bruin"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140LEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI60LLEN",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Naturel",
+        "positie": "Links"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI60RLEW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Wit",
+        "positie": "Rechts"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI60LVEG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Vingerlas Eiken Grijs",
+        "positie": "Links"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LVEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LVEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI60RVEG",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Vingerlas Eiken Grijs",
+        "positie": "Rechts"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RVEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RVEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RVEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI60RLEN",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Naturel",
+        "positie": "Rechts"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI60LLEW",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Wit",
+        "positie": "Links"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI60LLEB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Bruin",
+        "positie": "Links"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI60RLEB",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Bruin",
+        "positie": "Rechts"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI60RLEZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Zwart",
+        "positie": "Rechts"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60RLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI60LLEZ",
+      "options": {
+        "maat": "60 cm",
+        "kleur": "Lamellen Eiken Zwart",
+        "positie": "Links"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI60LLEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI80LEZ",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Lamellen Eiken Zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI80LEB",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Lamellen Eiken Bruin"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI80LEN",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Lamellen Eiken Naturel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI80LEW",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Lamellen Eiken Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80LEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI80VEG",
+      "options": {
+        "maat": "80 cm",
+        "kleur": "Vingerlas Eiken Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80VEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80VEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI80VEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI100LEB",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Lamellen Eiken Bruin"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI100VEG",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Vingerlas Eiken Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100VEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100VEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100VEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI100LEZ",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Lamellen Eiken Zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEZ_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI100LEW",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Lamellen Eiken Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI100LEN",
+      "options": {
+        "maat": "100 cm",
+        "kleur": "Lamellen Eiken Naturel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI100LEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI120LEB",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Lamellen Eiken Bruin"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEB.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEB_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEB_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI120LEW",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Lamellen Eiken Wit"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEW.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEW_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEW_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI120VEG",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Vingerlas Eiken Grijs"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120VEG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120VEG_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120VEG_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI120LEN",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Lamellen Eiken Naturel"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEN.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEN_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEN_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SK-RI120LEZ",
+      "options": {
+        "maat": "120 cm",
+        "kleur": "Lamellen Eiken Zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEZ.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEZ_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI120LEZ_T.pdf",
+      "drawingImage": null
+    }
+  ],
+  "9752": [
+    {
+      "sku": "BRA-MB-SPV5050",
+      "options": {
+        "maat": "50x50 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SPV5050.jpg",
+      "images": null,
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-MB-SPV3038",
+      "options": {
+        "maat": "30x38 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SPV3038.jpg",
+      "images": null,
+      "drawing": null,
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-MB-SPV5075",
+      "options": {
+        "maat": "50x75 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SPV5075.jpg",
+      "images": null,
+      "drawing": null,
+      "drawingImage": null
     }
   ]
 };
