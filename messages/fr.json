@@ -2053,6 +2053,12 @@
     "coloursN": "{n} couleurs",
     "topHint": "Un plan-vasque a la vasque intégrée. Si vous choisissez un plan de toilette, vous choisissez ensuite une vasque à poser séparée.",
     "groupWashbasin": "Plan-vasque · vasque intégrée",
-    "groupWorktop": "Plan de toilette · avec vasque à poser"
+    "groupWorktop": "Plan de toilette · avec vasque à poser",
+    "matchesCabinet": "Dans la couleur du meuble",
+    "stepDrain": "Évacuation",
+    "drainHint": "Chaque vasque reçoit une bonde de la couleur du robinet. Un siphon coloré est en option. Nombre de vasques : {n}.",
+    "drainColour": "Couleur (comme le robinet)",
+    "plug": "Bonde",
+    "siphon": "Siphon"
   }
 }

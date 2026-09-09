@@ -2053,6 +2053,12 @@
     "coloursN": "{n} Farben",
     "topHint": "Ein Waschtisch hat das Becken bereits integriert. Wählen Sie eine Abdeckplatte, dann wählen Sie danach ein separates Aufsatzbecken.",
     "groupWashbasin": "Waschtisch · Becken integriert",
-    "groupWorktop": "Abdeckplatte · mit Aufsatzbecken"
+    "groupWorktop": "Abdeckplatte · mit Aufsatzbecken",
+    "matchesCabinet": "In der Schrankfarbe",
+    "stepDrain": "Ablauf",
+    "drainHint": "Zu jedem Becken gehört ein Ablaufventil in der Farbe der Armatur. Ein farbiger Siphon ist optional. Anzahl Becken: {n}.",
+    "drainColour": "Farbe (wie die Armatur)",
+    "plug": "Ablaufventil",
+    "siphon": "Siphon"
   }
 }

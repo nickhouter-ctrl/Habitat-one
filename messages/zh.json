@@ -2053,6 +2053,12 @@
     "coloursN": "{n} 种颜色",
     "topHint": "一体盆已内置洗手盆。若选择台面，接下来再单独选择台上盆。",
     "groupWashbasin": "一体盆 · 内置洗手盆",
-    "groupWorktop": "台面 · 搭配台上盆"
+    "groupWorktop": "台面 · 搭配台上盆",
+    "matchesCabinet": "与柜体同色",
+    "stepDrain": "下水",
+    "drainHint": "每个盆配一个与龙头同色的下水器，彩色存水弯可选。盆数：{n}。",
+    "drainColour": "颜色（与龙头一致）",
+    "plug": "下水器",
+    "siphon": "存水弯"
   }
 }

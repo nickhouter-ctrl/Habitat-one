@@ -2053,6 +2053,12 @@
     "coloursN": "{n} colours",
     "topHint": "A washbasin has the bowl built in. If you choose a worktop, you pick a separate bowl next.",
     "groupWashbasin": "Washbasin · bowl built in",
-    "groupWorktop": "Worktop · with separate bowl"
+    "groupWorktop": "Worktop · with separate bowl",
+    "matchesCabinet": "In the cabinet colour",
+    "stepDrain": "Drain",
+    "drainHint": "Each basin needs a waste plug, in the colour of the tap. A coloured siphon is optional. Number of basins: {n}.",
+    "drainColour": "Colour (matching the tap)",
+    "plug": "Waste plug",
+    "siphon": "Siphon"
   }
 }

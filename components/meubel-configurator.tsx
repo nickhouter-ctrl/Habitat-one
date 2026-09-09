@@ -64,7 +64,7 @@ function Stap({ nr, titel, hint, children }: { nr: number; titel: string; hint?:
   );
 }
 
-type KiesItem = { key: string; label: string; sub?: string; image?: string | null; groep?: string };
+type KiesItem = { key: string; label: string; sub?: string; image?: string | null; groep?: string; badge?: string };
 
 /**
  * Popup met een raster van grote voorbeelden. Items met een `groep` staan onder
@@ -104,6 +104,7 @@ function Kiezer({ open, titel, items, actief, onKies, onClose, labels }: {
                 >
                   <span className="relative block aspect-square w-full overflow-hidden bg-paper">
                     {i.image ? <Image src={i.image} alt="" fill sizes="(max-width:640px) 50vw, 240px" className="object-contain p-3 transition-transform duration-500 group-hover:scale-[1.04]" /> : null}
+                    {i.badge && <span className="absolute left-2 top-2 rounded-sm bg-ink px-2 py-0.5 text-[0.62rem] uppercase tracking-[0.15em] text-cream">{i.badge}</span>}
                   </span>
                   <span className="px-3 py-2.5">
                     <span className="block text-sm text-ink">{i.label}</span>
@@ -178,9 +179,10 @@ export function MeubelConfigurator() {
   const bladSeries = useMemo(() => {
     const m = new Map<string, MeubelOnderdeel[]>();
     for (const o of bladen) m.set(`${o.type}|${o.serie}`, [...(m.get(`${o.type}|${o.serie}`) ?? []), o]);
-    // wastafels eerst, daarbinnen op naam
-    return [...m.entries()].sort(([a], [b]) => (a.startsWith("Wastafel") === b.startsWith("Wastafel") ? nl(a, b) : a.startsWith("Wastafel") ? -1 : 1));
-  }, [bladen]);
+    // wastafels eerst; daarbinnen wat in de kastkleur bestaat vooraan, dan op naam
+    const inKleur = (os: MeubelOnderdeel[]) => os.some((o) => o.kleur === kleur);
+    return [...m.entries()].sort(([a, ao], [b, bo]) => (a.startsWith("Wastafel") === b.startsWith("Wastafel") ? (Number(inKleur(bo)) - Number(inKleur(ao)) || nl(a, b)) : a.startsWith("Wastafel") ? -1 : 1));
+  }, [bladen, kleur]);
   const [bladKey, setBladKey] = useState<string | null>(null);
   const bladOpties = bladKey ? bladen.filter((o) => `${o.type}|${o.serie}` === bladKey) : [];
   const bladKleuren = [...new Set(bladOpties.map((o) => o.kleur).filter(Boolean))].sort(nl) as string[];
@@ -192,6 +194,8 @@ export function MeubelConfigurator() {
   const [bladUitvoering, setBladUitvoering] = useState("");
   useEffect(() => { if (!bladUitvoeringen.includes(bladUitvoering)) setBladUitvoering(bladUitvoeringen[0] ?? ""); }, [bladUitvoeringen.join("|"), bladUitvoering]); // eslint-disable-line react-hooks/exhaustive-deps
   const blad = bladInKleur.find((o) => bladUitv(o) === bladUitvoering) ?? bladInKleur[0] ?? null;
+  // Verandert de kastkleur, dan gaat het blad mee als het in die kleur bestaat.
+  useEffect(() => { if (bladKleuren.includes(kleur)) setBladKleur(kleur); }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // 5. Waskom, alleen bij een topblad
   const waskommen = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Waskom").sort((a, b) => nl(a.serie, b.serie) || cm(a.breedte) - cm(b.breedte) || nl(a.kleur ?? "", b.kleur ?? "")), []);
@@ -210,28 +214,48 @@ export function MeubelConfigurator() {
   const spiegelOpties = spiegelKey ? spiegels.filter((o) => `${o.type}|${o.serie}` === spiegelKey).sort((a, b) => nl(a.kleur ?? "", b.kleur ?? "") || nl(a.code, b.code)) : [];
   useEffect(() => { if (spiegelOpties.length && !spiegelOpties.some((o) => o.sku === spiegelSku)) setSpiegelSku((spiegelOpties.find((o) => o.kleur === kleur) ?? spiegelOpties[0]).sku); }, [spiegelKey, spiegelOpties.length, kleur]); // eslint-disable-line react-hooks/exhaustive-deps
   const spiegel = spiegelOpties.find((o) => o.sku === spiegelSku) ?? null;
+  useEffect(() => { const s = spiegelOpties.find((o) => o.kleur === kleur); if (s) setSpiegelSku(s.sku); }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // 7. Hoge kast van dezelfde serie, liefst in dezelfde kleur
   const hogeKasten = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Hoge kast" && o.serie === serie).sort((a, b) => cm(a.breedte) - cm(b.breedte) || nl(a.kleur ?? "", b.kleur ?? "") || nl(a.code, b.code)), [serie]);
   const hogeKastenKleur = hogeKasten.filter((o) => o.kleur === kleur || !kleuren.includes(o.kleur ?? ""));
   const [hogeKastSku, setHogeKastSku] = useState<string | null>(null);
   const hogeKast = hogeKasten.find((o) => o.sku === hogeKastSku) ?? null;
+  useEffect(() => {
+    if (!hogeKast || hogeKast.kleur === kleur) return;
+    const zelfde = hogeKasten.find((o) => o.kleur === kleur && o.breedte === hogeKast.breedte && o.uitvoering === hogeKast.uitvoering && o.positie === hogeKast.positie);
+    if (zelfde) setHogeKastSku(zelfde.sku);
+  }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // 8. Greep
   const grepen = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Meubelgreep").sort((a, b) => nl(a.serie, b.serie) || cm(a.breedte) - cm(b.breedte) || nl(a.kleur ?? "", b.kleur ?? "")), []);
   const [greepSku, setGreepSku] = useState<string | null>(null);
   const greep = grepen.find((o) => o.sku === greepSku) ?? null;
 
-  const delen = [kast, blad, waskom, spiegel, hogeKast, greep].filter((o): o is MeubelOnderdeel => !!o);
+  // Afvoer: per wasbak een plug in de kraankleur, sifon in kleur optioneel.
+  // Aantal wasbakken: uit de keuze (120 cm), anders 2 vanaf 140 cm; bij een topblad telt de waskom.
+  const wasbakken = blad?.type === "Wastafel" ? (blad.wasbakken ? parseInt(blad.wasbakken, 10) || 1 : cm(blad.breedte) >= 140 ? 2 : 1) : waskom ? 1 : 0;
+  const pluggen = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Afvoerplug"), []);
+  const sifons = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Sifon"), []);
+  const kraanKleuren = useMemo(() => [...new Set(pluggen.map((o) => o.kleur).filter(Boolean))].sort(nl) as string[], [pluggen]);
+  const [kraanKleur, setKraanKleur] = useState("Chroom");
+  const [plugSerie, setPlugSerie] = useState<string | null>(pluggen.find((o) => o.serie === "Klikwaste")?.serie ?? pluggen[0]?.serie ?? null);
+  const [sifonSerie, setSifonSerie] = useState<string | null>(null);
+  const plug = wasbakken && plugSerie ? pluggen.find((o) => o.serie === plugSerie && o.kleur === kraanKleur) ?? pluggen.find((o) => o.serie === plugSerie) ?? null : null;
+  const sifon = wasbakken && sifonSerie ? sifons.find((o) => o.serie === sifonSerie && o.kleur === kraanKleur) ?? sifons.find((o) => o.serie === sifonSerie) ?? null : null;
+
+  type Deel = { o: MeubelOnderdeel; n: number };
+  const delen: Deel[] = ([[kast, 1], [blad, 1], [waskom, 1], [plug, wasbakken], [sifon, wasbakken], [spiegel, 1], [hogeKast, 1], [greep, 1]] as [MeubelOnderdeel | null, number][])
+    .filter((d): d is [MeubelOnderdeel, number] => !!d[0] && d[1] > 0).map(([o, n]) => ({ o, n }));
   const incl = prijzen.tier === "particulier";
   const prijsVan = (o: MeubelOnderdeel): number | null => { const p = prijzen.prices[o.sku]; return p && p.price > 0 ? (incl ? Math.round(p.price * (1 + p.vat / 100)) : p.price) : null; };
-  const bekend = delen.map(prijsVan).filter((p): p is number => p != null);
+  const bekend = delen.map((d) => { const p = prijsVan(d.o); return p == null ? null : p * d.n; }).filter((p): p is number => p != null);
   const totaal = bekend.reduce((a, b) => a + b, 0);
   const [toegevoegd, setToegevoegd] = useState(false);
-  const naamVan = (o: MeubelOnderdeel) => `${term(o.type, locale)} ${o.serie}`;
+  const naamVan = (o: MeubelOnderdeel) => (o.type === "Afvoerplug" || o.type === "Sifon" ? term(o.serie, locale) : `${term(o.type, locale)} ${o.serie}`);
   const omschrijving = (o: MeubelOnderdeel) => [o.breedte, o.kleur ? term(o.kleur, locale) : null, o.uitvoering ? term(o.uitvoering, locale) : null, o.positie ? term(o.positie, locale) : null, o.vorm ? term(o.vorm, locale) : null, o.wasbakken ? term(o.wasbakken, locale) : null, o.kraangat ? term(o.kraangat, locale) : null].filter(Boolean).join(" · ");
   const voegToe = () => {
-    for (const o of delen) addItem({ slug: `brands/brauer/samenstellen`, name: `${naamVan(o)} — ${omschrijving(o)}`, variant: omschrijving(o), sku: o.sku, image: o.image });
+    for (const { o, n } of delen) addItem({ slug: `brands/brauer/samenstellen`, name: `${naamVan(o)} — ${omschrijving(o)}`, variant: omschrijving(o), sku: o.sku, image: o.image, qty: n });
     setToegevoegd(true); window.setTimeout(() => setToegevoegd(false), 2500);
   };
 
@@ -286,6 +310,25 @@ export function MeubelConfigurator() {
           </Stap>
         )}
 
+        {wasbakken > 0 && pluggen.length > 0 && (
+          <Stap nr={volgende()} titel={t("stepDrain")} hint={t("drainHint", { n: wasbakken })}>
+            <p className="mb-2 text-xs uppercase tracking-[0.2em] text-ink-soft">{t("drainColour")}</p>
+            <div className="flex flex-wrap gap-2">
+              {kraanKleuren.map((k) => { const vb = pluggen.find((o) => o.kleur === k && o.image)?.image; return <Keuze key={k} actief={kraanKleur === k} onClick={() => setKraanKleur(k)} thumb={vb}>{term(k, locale)}</Keuze>; })}
+            </div>
+            <p className="mb-2 mt-4 text-xs uppercase tracking-[0.2em] text-ink-soft">{t("plug")} · {wasbakken} ×</p>
+            <div className="flex flex-wrap gap-2">
+              {[...new Set(pluggen.map((o) => o.serie))].map((sr) => { const vb = pluggen.find((o) => o.serie === sr && o.kleur === kraanKleur)?.image ?? pluggen.find((o) => o.serie === sr)?.image; return <Keuze key={sr} actief={plugSerie === sr} onClick={() => setPlugSerie(sr)} thumb={vb}>{term(sr, locale)}</Keuze>; })}
+              <Keuze actief={plugSerie === null} onClick={() => setPlugSerie(null)}>{t("none")}</Keuze>
+            </div>
+            <p className="mb-2 mt-4 text-xs uppercase tracking-[0.2em] text-ink-soft">{t("siphon")}</p>
+            <div className="flex flex-wrap gap-2">
+              <Keuze actief={sifonSerie === null} onClick={() => setSifonSerie(null)}>{t("none")}</Keuze>
+              {[...new Set(sifons.map((o) => o.serie))].map((sr) => { const vb = sifons.find((o) => o.serie === sr && o.kleur === kraanKleur)?.image ?? sifons.find((o) => o.serie === sr)?.image; return <Keuze key={sr} actief={sifonSerie === sr} onClick={() => setSifonSerie(sr)} thumb={vb}>{term(sr, locale)}</Keuze>; })}
+            </div>
+          </Stap>
+        )}
+
         <Stap nr={volgende()} titel={t("stepMirror")}>
           {spiegelSeries.length === 0 ? <p className="text-sm text-ink-soft">{t("noMatch")}</p> : (
             <Gekozen image={spiegel?.image} titel={spiegel ? naamVan(spiegel) : null} sub={spiegel ? omschrijving(spiegel) : null} onWijzig={() => setPopup("spiegel")} onWeg={() => setSpiegelKey(null)} labels={labels} />
@@ -319,9 +362,9 @@ export function MeubelConfigurator() {
             {blad && <div className="relative aspect-[3/1] w-full"><Image src={blad.image ?? ""} alt="" fill sizes="340px" className="object-contain" /></div>}
             {kast?.image ? <div className="relative aspect-[4/3] w-full"><Image src={kast.image} alt="" fill sizes="340px" className="object-contain" /></div> : <div className="aspect-[4/3] w-full bg-sand-100" />}
           </div>
-          {(hogeKast || greep) && (
+          {(hogeKast || greep || plug || sifon) && (
             <div className="mt-2 flex justify-center gap-2">
-              {[hogeKast, greep].filter((o): o is MeubelOnderdeel => !!o?.image).map((o) => (
+              {[hogeKast, greep, plug, sifon].filter((o): o is MeubelOnderdeel => !!o?.image).map((o) => (
                 <div key={o.sku} className="relative size-20"><Image src={o.image!} alt="" fill sizes="80px" className="object-contain" /></div>
               ))}
             </div>
@@ -329,10 +372,10 @@ export function MeubelConfigurator() {
         </div>
         <h3 className="mt-6 font-display text-xl text-ink">{t("summary")}</h3>
         <ul className="mt-3 divide-y divide-ink/10 text-sm">
-          {delen.map((o) => { const p = prijsVan(o); return (
+          {delen.map(({ o, n }) => { const p = prijsVan(o); return (
             <li key={o.sku} className="flex items-baseline justify-between gap-3 py-2">
-              <span className="min-w-0"><span className="text-ink">{naamVan(o)}</span><span className="block text-xs text-ink-soft">{omschrijving(o)} · {o.sku}</span></span>
-              <span className="shrink-0 tabular-nums text-ink">{prijzen.loggedIn ? (p != null ? formatEur(p, locale) : <span className="text-xs text-ink-soft">{t("priceOnRequest")}</span>) : ""}</span>
+              <span className="min-w-0"><span className="text-ink">{n > 1 ? `${n} × ` : ""}{naamVan(o)}</span><span className="block text-xs text-ink-soft">{omschrijving(o)} · {o.sku}</span></span>
+              <span className="shrink-0 tabular-nums text-ink">{prijzen.loggedIn ? (p != null ? formatEur(p * n, locale) : <span className="text-xs text-ink-soft">{t("priceOnRequest")}</span>) : ""}</span>
             </li>
           ); })}
         </ul>
@@ -346,7 +389,7 @@ export function MeubelConfigurator() {
           {toegevoegd ? <Check className="h-4 w-4" /> : <Plus className="h-4 w-4" />}
           {toegevoegd ? t("addedSet") : t("addSet")}
         </button>
-        <p className="mt-2 text-center text-xs text-ink-soft">{delen.length} {t("parts")}</p>
+        <p className="mt-2 text-center text-xs text-ink-soft">{delen.reduce((a, d) => a + d.n, 0)} {t("parts")}</p>
       </aside>
 
       {/* Popups */}
@@ -354,7 +397,7 @@ export function MeubelConfigurator() {
         items={series.map((s) => { const os = kasten.filter((o) => o.serie === s); return { key: s, label: s, sub: kleurenTekst(os), image: voorbeeld(os) }; })}
         onKies={(k) => { if (k) setSerie(k); }} />
       <Kiezer open={popup === "blad"} titel={t("stepTop")} onClose={sluit} labels={labels} actief={bladKey}
-        items={bladSeries.map(([key, os]) => { const [type, s] = key.split("|"); return { key, label: `${term(type, locale)} ${s}`, sub: kleurenTekst(os), image: voorbeeld(os), groep: type === "Wastafel" ? t("groupWashbasin") : t("groupWorktop") }; })}
+        items={bladSeries.map(([key, os]) => { const [type, s] = key.split("|"); return { key, label: `${term(type, locale)} ${s}`, sub: kleurenTekst(os), image: voorbeeld(os), groep: type === "Wastafel" ? t("groupWashbasin") : t("groupWorktop"), badge: os.some((o) => o.kleur === kleur) ? t("matchesCabinet") : undefined }; })}
         onKies={setBladKey} />
       <Kiezer open={popup === "waskom"} titel={t("stepBasin")} onClose={sluit} labels={labels} actief={waskomSku}
         items={waskommen.map((o) => ({ key: o.sku, label: naamVan(o), sub: omschrijving(o), image: o.image }))}

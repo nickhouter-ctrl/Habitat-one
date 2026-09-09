@@ -2053,6 +2053,12 @@
     "coloursN": "{n} kleuren",
     "topHint": "Een wastafel heeft de wasbak al ingebouwd. Kies je een topblad, dan kies je daarna een losse waskom.",
     "groupWashbasin": "Wastafel · wasbak ingebouwd",
-    "groupWorktop": "Topblad · met losse waskom"
+    "groupWorktop": "Topblad · met losse waskom",
+    "matchesCabinet": "In de kastkleur",
+    "stepDrain": "Afvoer",
+    "drainHint": "Per wasbak hoort er een plug bij, in de kleur van de kraan. Een sifon in kleur is optioneel. Aantal wasbakken: {n}.",
+    "drainColour": "Kleur (zoals de kraan)",
+    "plug": "Plug",
+    "siphon": "Sifon"
   }
 }

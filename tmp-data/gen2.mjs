@@ -367,7 +367,7 @@ export const productCombinations: Record<number, ProductCombination[]> = ${JSON.
   fs.writeFileSync(
     "lib/data/brauer-meubels.generated.ts",
     `// AUTO-GENERATED. Do not edit by hand. (tmp-data/gen2.mjs)
-export type MeubelType = "Onderkast" | "Bijkast" | "Hoge kast" | "Fonteinkast" | "Fonteinbak" | "Wastafel" | "Topblad" | "Waskom" | "Meubelgreep" | "Front" | "Spiegel" | "Spiegelkast";
+export type MeubelType = "Onderkast" | "Bijkast" | "Hoge kast" | "Fonteinkast" | "Fonteinbak" | "Wastafel" | "Topblad" | "Waskom" | "Meubelgreep" | "Front" | "Spiegel" | "Spiegelkast" | "Afvoerplug" | "Sifon";
 export interface MeubelOnderdeel {
   type: MeubelType;
   serie: string;
