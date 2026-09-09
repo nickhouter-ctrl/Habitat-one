@@ -349,6 +349,8 @@ export interface ProductCombination {
   images?: string[] | null;
   /** Technische tekening (PDF) van deze uitvoering. */
   drawing?: string | null;
+  /** De tekening als afbeelding, voor in de galerij. */
+  drawingImage?: string | null;
   dim?: string | null;
 }
 export const productCombinations: Record<number, ProductCombination[]> = ${JSON.stringify(

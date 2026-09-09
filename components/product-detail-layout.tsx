@@ -28,7 +28,7 @@ export interface ProductDetailLayoutProps {
   /** lowercased variant name → one or more video srcs */
   variantVideos?: Record<string, string | string[]>;
   /** Keuzes van een merkproduct: welke combinatie hoort bij welke artikelcode. */
-  combinations?: Array<{ sku: string; options: Record<string, string>; image?: string | null; images?: string[] | null; drawing?: string | null; dim?: string | null }>;
+  combinations?: Array<{ sku: string; options: Record<string, string>; image?: string | null; images?: string[] | null; drawing?: string | null; drawingImage?: string | null; dim?: string | null }>;
   labels: {
     aboutThisProduct: string;
     specifications: string;
@@ -144,7 +144,8 @@ export function ProductDetailLayout({
     // (nog) geen eigen foto, dan blijft de productfoto staan.
     if (hasOptions) {
       const src = gekozenCombinatie?.image || product.image;
-      const extra = gekozenCombinatie?.images ?? [];
+      // hoofdfoto, extra's, en als laatste de technische tekening
+      const extra = [...(gekozenCombinatie?.images ?? []), ...(gekozenCombinatie?.drawingImage ? [gekozenCombinatie.drawingImage] : [])];
       return src ? [{ type: "image", src }, ...extra.map((s) => ({ type: "image" as const, src: s }))] : [];
     }
     const variantName = (activeVariant?.name ?? "").toLowerCase().trim();
