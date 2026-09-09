@@ -21705,7 +21705,7 @@ export const catalogProducts: CatalogProduct[] = [
     "id": 9753,
     "name": "Tornado hangend toilet met bril",
     "slug": "tornado-hangend-toilet-met-bril-9753",
-    "sku": "BRA-VOOR-JE-TOILETRUIMTE-1UTF",
+    "sku": "BRA-TL-TOHW",
     "short": null,
     "description": "Het hangend toilet Tornado van BRAUER combineert strak design met slimme technologie. De verwisselbare toiletbrilbevestiging is verkrijgbaar in zes kleuren, zodat dit detail naadloos aansluit bij de gekozen kranen en accessoires. Dankzij de innovatieve cycloonspoeling wordt het toilet optimaal gereinigd, met minder spetters en minder geluid. ## Spoeltechnologie - Innovatieve cycloonspoeling voor optimale reiniging - Minder spetters en minder geluid dan conventionele spoeling - Laag waterverbruik ## Afwerking en kleur - Keramiek in hoogglans wit - Toiletbrilbevestiging verwisselbaar in zes kleuren: Chroom, Mat Zwart, RVS-kleurig, Gunmetal, Goud en Koper - Kleuren perfect te combineren met het BRAUER kranen- en meubelprogramma",
     "descriptionI18n": {

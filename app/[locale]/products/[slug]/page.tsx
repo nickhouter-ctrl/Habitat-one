@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { brandOf } from "@/lib/data/brands";
+import { term } from "@/lib/data/catalog-i18n";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowUpRight } from "lucide-react";
@@ -141,8 +143,11 @@ export default async function ProductDetailPage({
     .map((s) => (ts.has(`names.${s}`) ? ts(`names.${s}`) : s))
     .filter(Boolean);
 
-  const identifier = `${collectionIdentifierPrefix[product.collection] ?? "Habitat One"} · ${product.sku ?? name}`;
   const collectionLabel = t(collectionKey[product.collection]);
+  // Merkproducten: merk · categorie · artikelnummer (geen "Solid surface"-prefix van de eigen collectie).
+  const identifier = product.brand
+    ? [brandOf(product)?.name ?? product.brand, product.productType ? term(product.productType, locale) : collectionLabel, product.sku].filter(Boolean).join(" · ")
+    : `${collectionIdentifierPrefix[product.collection] ?? "Habitat One"} · ${product.sku ?? name}`;
   const backHref = collectionHref(product.collection);
 
   const docs = getProductDocs(product.sku, locale as DocLocale);
