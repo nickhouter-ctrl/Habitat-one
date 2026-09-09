@@ -165,110 +165,6 @@
         "label": "Kleur",
         "values": [
           {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-AE-PR1LCE",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-PR1LCF",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-PR1LGG",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-PR1LGK",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-PR1LGM",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-PR1LMZ",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-PR1LNG",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9580,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-AR1GG.jpg"
@@ -825,98 +721,7 @@
     ]
   },
   {
-    "product_id": 9581,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-468",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-468",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-468",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-468",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-468",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-468",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9582,
+    "product_id": 9580,
     "axes": [
       {
         "key": "kleur",
@@ -1085,7 +890,7 @@
     ]
   },
   {
-    "product_id": 9583,
+    "product_id": 9581,
     "axes": [
       {
         "key": "kleur",
@@ -1260,7 +1065,7 @@
     ]
   },
   {
-    "product_id": 9584,
+    "product_id": 9582,
     "axes": [
       {
         "key": "kleur",
@@ -1369,7 +1174,7 @@
     ]
   },
   {
-    "product_id": 9585,
+    "product_id": 9583,
     "axes": [
       {
         "key": "kleur",
@@ -1700,7 +1505,7 @@
     ]
   },
   {
-    "product_id": 9586,
+    "product_id": 9584,
     "axes": [
       {
         "key": "kleur",
@@ -2031,7 +1836,7 @@
     ]
   },
   {
-    "product_id": 9587,
+    "product_id": 9585,
     "axes": [
       {
         "key": "kleur",
@@ -2140,826 +1945,7 @@
     ]
   },
   {
-    "product_id": 9588,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-489",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-489",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-489",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-489",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-489",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-489",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9589,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-490",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-490",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-490",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-490",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-490",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-490",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9590,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-491",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-491",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-491",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-491",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-491",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-491",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9591,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-492",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-492",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-492",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-492",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-492",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-492",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9592,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-501",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-501",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-501",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-501",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-501",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-501",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9593,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-502",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-502",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-502",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-502",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-502",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-502",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9594,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-503",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-503",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-503",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-503",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-503",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-503",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9595,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-504",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-504",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-504",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-504",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-504",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-504",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9596,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-510",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-510",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-510",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-510",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-510",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-510",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9597,
+    "product_id": 9586,
     "axes": [
       {
         "key": "kleur",
@@ -3068,98 +2054,7 @@
     ]
   },
   {
-    "product_id": 9598,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-252",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-252",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-252",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-252",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-252",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-252",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9599,
+    "product_id": 9587,
     "axes": [
       {
         "key": "kleur",
@@ -3323,462 +2218,7 @@
     ]
   },
   {
-    "product_id": 9600,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-251",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-251",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-251",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-251",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-251",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-251",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9601,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-477",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-477",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-477",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-477",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-477",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-477",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9602,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-478",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-478",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-478",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-478",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-478",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-478",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9603,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-479",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-479",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-479",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-479",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-479",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-479",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9604,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-480",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-480",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-480",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-480",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-480",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-480",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9605,
+    "product_id": 9588,
     "axes": [
       {
         "key": "kleur",
@@ -4229,7 +2669,7 @@
     ]
   },
   {
-    "product_id": 9606,
+    "product_id": 9589,
     "axes": [
       {
         "key": "kleur",
@@ -4680,7 +3120,7 @@
     ]
   },
   {
-    "product_id": 9607,
+    "product_id": 9590,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -7816,7 +6256,7 @@
     ]
   },
   {
-    "product_id": 9608,
+    "product_id": 9591,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -10952,7 +9392,7 @@
     ]
   },
   {
-    "product_id": 9609,
+    "product_id": 9592,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -14088,7 +12528,7 @@
     ]
   },
   {
-    "product_id": 9610,
+    "product_id": 9593,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -17224,7 +15664,7 @@
     ]
   },
   {
-    "product_id": 9611,
+    "product_id": 9594,
     "axes": [
       {
         "key": "glijstang",
@@ -17707,7 +16147,7 @@
     ]
   },
   {
-    "product_id": 9612,
+    "product_id": 9595,
     "axes": [
       {
         "key": "handdouche",
@@ -17970,7 +16410,7 @@
     ]
   },
   {
-    "product_id": 9613,
+    "product_id": 9596,
     "axes": [
       {
         "key": "handdouche",
@@ -18476,7 +16916,7 @@
     ]
   },
   {
-    "product_id": 9614,
+    "product_id": 9597,
     "axes": [
       {
         "key": "kleur",
@@ -18591,7 +17031,7 @@
     ]
   },
   {
-    "product_id": 9615,
+    "product_id": 9598,
     "axes": [
       {
         "key": "handdouche",
@@ -18818,98 +17258,7 @@
     ]
   },
   {
-    "product_id": 9616,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-261",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-261",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-261",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-261",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-261",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-261",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9617,
+    "product_id": 9599,
     "axes": [
       {
         "key": "kleur",
@@ -19168,7 +17517,7 @@
     ]
   },
   {
-    "product_id": 9618,
+    "product_id": 9600,
     "axes": [
       {
         "key": "kleur",
@@ -19198,6 +17547,11 @@
             "value": "Mat zwart",
             "label": "Mat zwart",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70S.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
           }
         ]
       },
@@ -19270,6 +17624,15 @@
     ],
     "combinations": [
       {
+        "sku": "BRA-DR-LOSMR100CF",
+        "options": {
+          "kleur": "Coffee",
+          "lengte": "100 cm"
+        },
+        "image": null,
+        "images": null
+      },
+      {
         "sku": "BRA-DR-LOSMR70S",
         "options": {
           "kleur": "Mat zwart",
@@ -19281,6 +17644,15 @@
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70S_2.jpg",
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70S_3.jpg"
         ]
+      },
+      {
+        "sku": "BRA-DR-LOSMR70CF",
+        "options": {
+          "kleur": "Coffee",
+          "lengte": "70 cm"
+        },
+        "image": null,
+        "images": null
       },
       {
         "sku": "BRA-DR-MRFW70S",
@@ -19298,6 +17670,15 @@
         ]
       },
       {
+        "sku": "BRA-DR-MRFW70CF",
+        "options": {
+          "kleur": "Coffee",
+          "lengte": "70 cm"
+        },
+        "image": null,
+        "images": null
+      },
+      {
         "sku": "BRA-DR-LOSMR80S",
         "options": {
           "kleur": "Mat zwart",
@@ -19309,6 +17690,24 @@
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80S_2.jpg",
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80S_3.jpg"
         ]
+      },
+      {
+        "sku": "BRA-DR-MRFW80CF",
+        "options": {
+          "kleur": "Coffee",
+          "lengte": "80 cm"
+        },
+        "image": null,
+        "images": null
+      },
+      {
+        "sku": "BRA-DR-LOSMR80CF",
+        "options": {
+          "kleur": "Coffee",
+          "lengte": "80 cm"
+        },
+        "image": null,
+        "images": null
       },
       {
         "sku": "BRA-DR-MRFW80S",
@@ -19324,6 +17723,15 @@
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80S_4.jpg",
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80S_5.jpg"
         ]
+      },
+      {
+        "sku": "BRA-DR-LOSMR90CF",
+        "options": {
+          "kleur": "Coffee",
+          "lengte": "90 cm"
+        },
+        "image": null,
+        "images": null
       },
       {
         "sku": "BRA-DR-LOSMR90S",
@@ -19876,7 +18284,7 @@
     ]
   },
   {
-    "product_id": 9619,
+    "product_id": 9601,
     "axes": [
       {
         "key": "kleur",
@@ -20135,7 +18543,7 @@
     ]
   },
   {
-    "product_id": 9620,
+    "product_id": 9602,
     "axes": [
       {
         "key": "kleur",
@@ -20539,137 +18947,7 @@
     ]
   },
   {
-    "product_id": 9621,
-    "axes": [
-      {
-        "key": "maat",
-        "label": "Maat",
-        "values": [
-          {
-            "value": "7x70 cm",
-            "label": "7x70 cm",
-            "image": null
-          },
-          {
-            "value": "7x80 cm",
-            "label": "7x80 cm",
-            "image": null
-          },
-          {
-            "value": "7x90 cm",
-            "label": "7x90 cm",
-            "image": null
-          },
-          {
-            "value": "7x100 cm",
-            "label": "7x100 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-DR-MRF100CF",
-        "options": {
-          "maat": "7x100 cm"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-DR-MRF70CF",
-        "options": {
-          "maat": "7x70 cm"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-DR-MRF80CF",
-        "options": {
-          "maat": "7x80 cm"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-DR-MRF90CF",
-        "options": {
-          "maat": "7x90 cm"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9622,
-    "axes": [
-      {
-        "key": "maat",
-        "label": "Maat",
-        "values": [
-          {
-            "value": "7x70 cm",
-            "label": "7x70 cm",
-            "image": null
-          },
-          {
-            "value": "7x80 cm",
-            "label": "7x80 cm",
-            "image": null
-          },
-          {
-            "value": "7x90 cm",
-            "label": "7x90 cm",
-            "image": null
-          },
-          {
-            "value": "7x100 cm",
-            "label": "7x100 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-DR-MRFW100CF",
-        "options": {
-          "maat": "7x100 cm"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-DR-MRFW70CF",
-        "options": {
-          "maat": "7x70 cm"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-DR-MRFW80CF",
-        "options": {
-          "maat": "7x80 cm"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-DR-MRFW90CF",
-        "options": {
-          "maat": "7x90 cm"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9623,
+    "product_id": 9603,
     "axes": [
       {
         "key": "kleur",
@@ -20694,6 +18972,11 @@
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80NG.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
           }
         ]
       },
@@ -20765,6 +19048,24 @@
       }
     ],
     "combinations": [
+      {
+        "sku": "BRA-DR-MRFW100CF",
+        "options": {
+          "maat": "100 cm",
+          "kleur": "Coffee"
+        },
+        "image": null,
+        "images": null
+      },
+      {
+        "sku": "BRA-DR-MRFW90CF",
+        "options": {
+          "maat": "90 cm",
+          "kleur": "Coffee"
+        },
+        "image": null,
+        "images": null
+      },
       {
         "sku": "BRA-DR-MRFW50NG",
         "options": {
@@ -20870,7 +19171,7 @@
     ]
   },
   {
-    "product_id": 9624,
+    "product_id": 9604,
     "axes": [
       {
         "key": "kleur",
@@ -21499,7 +19800,7 @@
     ]
   },
   {
-    "product_id": 9625,
+    "product_id": 9605,
     "axes": [
       {
         "key": "lengte",
@@ -21626,7 +19927,7 @@
     ]
   },
   {
-    "product_id": 9626,
+    "product_id": 9606,
     "axes": [
       {
         "key": "lengte",
@@ -21696,319 +19997,7 @@
     ]
   },
   {
-    "product_id": 9627,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-472",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-472",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-472",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-472",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-472",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-472",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-472",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9628,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-471",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-471",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-471",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-471",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-471",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-471",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-471",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9629,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-470",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-470",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-470",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-470",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-470",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-470",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-470",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9630,
+    "product_id": 9607,
     "axes": [
       {
         "key": "kleur",
@@ -22148,7 +20137,7 @@
     ]
   },
   {
-    "product_id": 9631,
+    "product_id": 9608,
     "axes": [
       {
         "key": "kleur",
@@ -22288,111 +20277,7 @@
     ]
   },
   {
-    "product_id": 9633,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-467",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-467",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-467",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-467",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-467",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-467",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-467",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9634,
+    "product_id": 9609,
     "axes": [
       {
         "key": "kleur",
@@ -22537,7 +20422,7 @@
     ]
   },
   {
-    "product_id": 9635,
+    "product_id": 9610,
     "axes": [
       {
         "key": "kleur",
@@ -22709,7 +20594,7 @@
     ]
   },
   {
-    "product_id": 9636,
+    "product_id": 9611,
     "axes": [
       {
         "key": "kleur",
@@ -23133,7 +21018,7 @@
     ]
   },
   {
-    "product_id": 9637,
+    "product_id": 9612,
     "axes": [
       {
         "key": "kleur",
@@ -23249,7 +21134,7 @@
     ]
   },
   {
-    "product_id": 9638,
+    "product_id": 9613,
     "axes": [
       {
         "key": "kleur",
@@ -23365,7 +21250,7 @@
     ]
   },
   {
-    "product_id": 9640,
+    "product_id": 9614,
     "axes": [
       {
         "key": "kleur",
@@ -24728,7 +22613,7 @@
     ]
   },
   {
-    "product_id": 9641,
+    "product_id": 9615,
     "axes": [
       {
         "key": "kleur",
@@ -26091,7 +23976,7 @@
     ]
   },
   {
-    "product_id": 9642,
+    "product_id": 9616,
     "axes": [
       {
         "key": "kleur",
@@ -26518,839 +24403,7 @@
     ]
   },
   {
-    "product_id": 9644,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-485",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-485",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-485",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-485",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-485",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-485",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-485",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9645,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-486",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-486",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-486",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-486",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-486",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-486",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-486",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9646,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-487",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-487",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-487",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-487",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-487",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-487",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-487",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9647,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-488",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-488",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-488",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-488",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-488",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-488",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-488",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9648,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-497",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-497",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-497",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-497",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-497",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-497",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-497",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9649,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-498",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-498",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-498",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-498",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-498",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-498",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-498",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9650,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-499",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-499",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-499",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-499",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-499",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-499",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-499",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9651,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-500",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-500",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-500",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-500",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-500",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-500",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-500",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9652,
+    "product_id": 9617,
     "axes": [
       {
         "key": "kleur",
@@ -27466,7 +24519,7 @@
     ]
   },
   {
-    "product_id": 9653,
+    "product_id": 9618,
     "axes": [
       {
         "key": "kleur",
@@ -27582,605 +24635,7 @@
     ]
   },
   {
-    "product_id": 9654,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-238",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-238",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-238",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-238",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-238",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-238",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9655,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-237",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-237",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-237",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-237",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-237",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-237",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9656,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-473",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-473",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-473",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-473",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-473",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-473",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-473",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9657,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-474",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-474",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-474",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-474",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-474",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-474",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-474",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9658,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-475",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-475",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-475",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-475",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-475",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-475",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-475",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9659,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-476",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-CF-476",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-476",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-476",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-476",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-476",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-476",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9660,
+    "product_id": 9619,
     "axes": [
       {
         "key": "kleur",
@@ -28628,7 +25083,7 @@
     ]
   },
   {
-    "product_id": 9661,
+    "product_id": 9620,
     "axes": [
       {
         "key": "kleur",
@@ -29055,7 +25510,7 @@
     ]
   },
   {
-    "product_id": 9664,
+    "product_id": 9621,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -32191,7 +28646,7 @@
     ]
   },
   {
-    "product_id": 9665,
+    "product_id": 9622,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -35327,7 +31782,7 @@
     ]
   },
   {
-    "product_id": 9666,
+    "product_id": 9623,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -38756,7 +35211,7 @@
     ]
   },
   {
-    "product_id": 9667,
+    "product_id": 9624,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -41892,7 +38347,7 @@
     ]
   },
   {
-    "product_id": 9668,
+    "product_id": 9625,
     "axes": [
       {
         "key": "glijstang",
@@ -42376,7 +38831,7 @@
     ]
   },
   {
-    "product_id": 9669,
+    "product_id": 9626,
     "axes": [
       {
         "key": "handdouche",
@@ -42641,7 +39096,7 @@
     ]
   },
   {
-    "product_id": 9670,
+    "product_id": 9627,
     "axes": [
       {
         "key": "handdouche",
@@ -43169,7 +39624,7 @@
     ]
   },
   {
-    "product_id": 9671,
+    "product_id": 9628,
     "axes": [
       {
         "key": "kleur",
@@ -43626,7 +40081,7 @@
     ]
   },
   {
-    "product_id": 9672,
+    "product_id": 9629,
     "axes": [
       {
         "key": "handdouche",
@@ -43864,98 +40319,7 @@
     ]
   },
   {
-    "product_id": 9673,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-258",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-258",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-258",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-258",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-258",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-258",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9674,
+    "product_id": 9630,
     "axes": [
       {
         "key": "kleur",
@@ -44059,7 +40423,7 @@
     ]
   },
   {
-    "product_id": 9675,
+    "product_id": 9631,
     "axes": [
       {
         "key": "kleur",
@@ -44246,7 +40610,7 @@
     ]
   },
   {
-    "product_id": 9676,
+    "product_id": 9632,
     "axes": [
       {
         "key": "kleur",
@@ -44433,7 +40797,7 @@
     ]
   },
   {
-    "product_id": 9680,
+    "product_id": 9633,
     "axes": [
       {
         "key": "kleur",
@@ -44561,267 +40925,7 @@
     ]
   },
   {
-    "product_id": 9681,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-AE-HH40ACE",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HH40ACF",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HH40AGG",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HH40AGK",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HH40AGM",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HH40AMZ",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HH40ANG",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9682,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-AE-HRL170CF",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HRL170GG",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HRL170GK",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HRL170GM",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HRL170MZ",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HRL170NG",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9683,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-AE-HRR150CF",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HRR150GK",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HRR150GM",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-HRR150NG",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9684,
+    "product_id": 9634,
     "axes": [
       {
         "key": "kleur",
@@ -45279,7 +41383,7 @@
     ]
   },
   {
-    "product_id": 9685,
+    "product_id": 9635,
     "axes": [
       {
         "key": "kleur",
@@ -45380,7 +41484,7 @@
     ]
   },
   {
-    "product_id": 9686,
+    "product_id": 9636,
     "axes": [
       {
         "key": "kleur",
@@ -45658,151 +41762,7 @@
     ]
   },
   {
-    "product_id": 9687,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "maat",
-        "label": "Maat",
-        "values": [
-          {
-            "value": "30x30 cm",
-            "label": "30x30 cm",
-            "image": null
-          },
-          {
-            "value": "60x30 cm",
-            "label": "60x30 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-AE-NIB3030CF",
-        "options": {
-          "maat": "30x30 cm",
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-NIB3030GG",
-        "options": {
-          "maat": "30x30 cm",
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-NIB3030GK",
-        "options": {
-          "maat": "30x30 cm",
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-NIB3030GM",
-        "options": {
-          "maat": "30x30 cm",
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-NIB3030NG",
-        "options": {
-          "maat": "30x30 cm",
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-NIB6030CF",
-        "options": {
-          "maat": "60x30 cm",
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-NIB6030GG",
-        "options": {
-          "maat": "60x30 cm",
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-NIB6030GK",
-        "options": {
-          "maat": "60x30 cm",
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-NIB6030GM",
-        "options": {
-          "maat": "60x30 cm",
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-NIB6030NG",
-        "options": {
-          "maat": "60x30 cm",
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9689,
+    "product_id": 9637,
     "axes": [
       {
         "key": "kleur",
@@ -46001,7 +41961,7 @@
     ]
   },
   {
-    "product_id": 9690,
+    "product_id": 9638,
     "axes": [
       {
         "key": "kleur",
@@ -46200,7 +42160,7 @@
     ]
   },
   {
-    "product_id": 9691,
+    "product_id": 9639,
     "axes": [
       {
         "key": "kleur",
@@ -46225,6 +42185,11 @@
             "value": "Mat zwart",
             "label": "Mat zwart",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF80S.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
           }
         ]
       },
@@ -46257,6 +42222,15 @@
     ],
     "combinations": [
       {
+        "sku": "BRA-DR-MRF100CF",
+        "options": {
+          "kleur": "Coffee",
+          "lengte": "100 cm"
+        },
+        "image": null,
+        "images": null
+      },
+      {
         "sku": "BRA-DR-MRF70S",
         "options": {
           "kleur": "Mat zwart",
@@ -46287,6 +42261,15 @@
         ]
       },
       {
+        "sku": "BRA-DR-MRF70CF",
+        "options": {
+          "kleur": "Coffee",
+          "lengte": "70 cm"
+        },
+        "image": null,
+        "images": null
+      },
+      {
         "sku": "BRA-DR-MRF90S",
         "options": {
           "kleur": "Mat zwart",
@@ -46302,6 +42285,15 @@
         ]
       },
       {
+        "sku": "BRA-DR-MRF80CF",
+        "options": {
+          "kleur": "Coffee",
+          "lengte": "80 cm"
+        },
+        "image": null,
+        "images": null
+      },
+      {
         "sku": "BRA-DR-MRF100S",
         "options": {
           "kleur": "Mat zwart",
@@ -46315,6 +42307,15 @@
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF100S_4.jpg",
           "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF100S_5.jpg"
         ]
+      },
+      {
+        "sku": "BRA-DR-MRF90CF",
+        "options": {
+          "kleur": "Coffee",
+          "lengte": "90 cm"
+        },
+        "image": null,
+        "images": null
       },
       {
         "sku": "BRA-DR-MRF70GK",
@@ -46499,7 +42500,7 @@
     ]
   },
   {
-    "product_id": 9693,
+    "product_id": 9640,
     "axes": [
       {
         "key": "kleur",
@@ -47622,7 +43623,7 @@
     ]
   },
   {
-    "product_id": 9694,
+    "product_id": 9641,
     "axes": [
       {
         "key": "kleur",
@@ -47881,7 +43882,7 @@
     ]
   },
   {
-    "product_id": 9695,
+    "product_id": 9642,
     "axes": [
       {
         "key": "kleur",
@@ -48140,7 +44141,7 @@
     ]
   },
   {
-    "product_id": 9696,
+    "product_id": 9643,
     "axes": [
       {
         "key": "kleur",
@@ -49263,7 +45264,7 @@
     ]
   },
   {
-    "product_id": 9697,
+    "product_id": 9644,
     "axes": [
       {
         "key": "kleur",
@@ -49738,7 +45739,7 @@
     ]
   },
   {
-    "product_id": 9698,
+    "product_id": 9645,
     "axes": [
       {
         "key": "kleur",
@@ -49854,7 +45855,7 @@
     ]
   },
   {
-    "product_id": 9699,
+    "product_id": 9646,
     "axes": [
       {
         "key": "kleur",
@@ -49982,111 +45983,7 @@
     ]
   },
   {
-    "product_id": 9700,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-AE-RTACE",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-RTACF",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-RTAGG",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-RTAGK",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-RTAGM",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-RTAMZ",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-RTANG",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9702,
+    "product_id": 9647,
     "axes": [
       {
         "key": "kleur",
@@ -50465,7 +46362,7 @@
     ]
   },
   {
-    "product_id": 9703,
+    "product_id": 9648,
     "axes": [
       {
         "key": "kleur",
@@ -51516,7 +47413,7 @@
     ]
   },
   {
-    "product_id": 9704,
+    "product_id": 9649,
     "axes": [
       {
         "key": "kleur",
@@ -51724,98 +47621,7 @@
     ]
   },
   {
-    "product_id": 9705,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-469",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-469",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-469",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-469",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-469",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-469",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9706,
+    "product_id": 9650,
     "axes": [
       {
         "key": "kleur",
@@ -52182,7 +47988,7 @@
     ]
   },
   {
-    "product_id": 9707,
+    "product_id": 9651,
     "axes": [
       {
         "key": "kleur",
@@ -52342,7 +48148,7 @@
     ]
   },
   {
-    "product_id": 9708,
+    "product_id": 9652,
     "axes": [
       {
         "key": "kleur",
@@ -52517,7 +48323,7 @@
     ]
   },
   {
-    "product_id": 9709,
+    "product_id": 9653,
     "axes": [
       {
         "key": "kleur",
@@ -52752,7 +48558,7 @@
     ]
   },
   {
-    "product_id": 9710,
+    "product_id": 9654,
     "axes": [
       {
         "key": "kleur",
@@ -52987,7 +48793,7 @@
     ]
   },
   {
-    "product_id": 9711,
+    "product_id": 9655,
     "axes": [
       {
         "key": "kleur",
@@ -53402,7 +49208,7 @@
     ]
   },
   {
-    "product_id": 9712,
+    "product_id": 9656,
     "axes": [
       {
         "key": "kleur",
@@ -53961,7 +49767,7 @@
     ]
   },
   {
-    "product_id": 9713,
+    "product_id": 9657,
     "axes": [
       {
         "key": "kleur",
@@ -54580,7 +50386,7 @@
     ]
   },
   {
-    "product_id": 9714,
+    "product_id": 9658,
     "axes": [
       {
         "key": "kleur",
@@ -54761,735 +50567,7 @@
     ]
   },
   {
-    "product_id": 9715,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-493",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-493",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-493",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-493",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-493",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-493",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9716,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-494",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-494",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-494",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-494",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-494",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-494",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9717,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-495",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-495",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-495",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-495",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-495",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-495",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9718,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-496",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-496",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-496",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-496",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-496",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-496",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9719,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-505",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-505",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-505",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-505",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-505",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-505",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9720,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-506",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-506",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-506",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-506",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-506",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-506",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9721,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-507",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-507",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-507",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-507",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-507",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-507",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9722,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-508",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-508",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-508",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-508",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-508",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-508",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9723,
+    "product_id": 9659,
     "axes": [
       {
         "key": "kleur",
@@ -55641,7 +50719,7 @@
     ]
   },
   {
-    "product_id": 9724,
+    "product_id": 9660,
     "axes": [
       {
         "key": "kleur",
@@ -55849,7 +50927,7 @@
     ]
   },
   {
-    "product_id": 9725,
+    "product_id": 9661,
     "axes": [
       {
         "key": "kleur",
@@ -56133,462 +51211,7 @@
     ]
   },
   {
-    "product_id": 9726,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-347",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-347",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-347",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-347",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-347",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-347",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9727,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-481",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-481",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-481",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-481",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-481",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-481",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9728,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-482",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-482",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-482",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-482",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-482",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-482",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9729,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-483",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-483",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-483",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-483",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-483",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-483",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9730,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-484",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-484",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-484",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-484",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-484",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-484",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9731,
+    "product_id": 9662,
     "axes": [
       {
         "key": "kleur",
@@ -57039,7 +51662,7 @@
     ]
   },
   {
-    "product_id": 9732,
+    "product_id": 9663,
     "axes": [
       {
         "key": "kleur",
@@ -57490,7 +52113,7 @@
     ]
   },
   {
-    "product_id": 9733,
+    "product_id": 9664,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -59026,7 +53649,7 @@
     ]
   },
   {
-    "product_id": 9734,
+    "product_id": 9665,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -60562,7 +55185,7 @@
     ]
   },
   {
-    "product_id": 9735,
+    "product_id": 9666,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -62098,7 +56721,7 @@
     ]
   },
   {
-    "product_id": 9736,
+    "product_id": 9667,
     "axes": [
       {
         "key": "bevestiginghoofddouche",
@@ -63631,7 +58254,7 @@
     ]
   },
   {
-    "product_id": 9737,
+    "product_id": 9668,
     "axes": [
       {
         "key": "glijstang",
@@ -64108,7 +58731,7 @@
     ]
   },
   {
-    "product_id": 9738,
+    "product_id": 9669,
     "axes": [
       {
         "key": "glijstang",
@@ -64603,7 +59226,7 @@
     ]
   },
   {
-    "product_id": 9739,
+    "product_id": 9670,
     "axes": [
       {
         "key": "kleur",
@@ -64802,98 +59425,7 @@
     ]
   },
   {
-    "product_id": 9740,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-5-CE-336",
-        "options": {
-          "kleur": "Chroom"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GG-336",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GK-336",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-GM-336",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-NG-336",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-5-S-336",
-        "options": {
-          "kleur": "Mat zwart"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9741,
+    "product_id": 9671,
     "axes": [
       {
         "key": "kleur",
@@ -64997,7 +59529,7 @@
     ]
   },
   {
-    "product_id": 9742,
+    "product_id": 9672,
     "axes": [
       {
         "key": "kleur",
@@ -65309,7 +59841,7 @@
     ]
   },
   {
-    "product_id": 9743,
+    "product_id": 9673,
     "axes": [
       {
         "key": "lengte",
@@ -65574,85 +60106,7 @@
     ]
   },
   {
-    "product_id": 9744,
-    "axes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "combinations": [
-      {
-        "sku": "BRA-AE-TPACF",
-        "options": {
-          "kleur": "Coffee"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-TPAGG",
-        "options": {
-          "kleur": "Geborsteld goud"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-TPAGK",
-        "options": {
-          "kleur": "Geborsteld koper"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-TPAGM",
-        "options": {
-          "kleur": "Geborsteld gunmetal"
-        },
-        "image": null,
-        "images": null
-      },
-      {
-        "sku": "BRA-AE-TPANG",
-        "options": {
-          "kleur": "Geborsteld RVS"
-        },
-        "image": null,
-        "images": null
-      }
-    ]
-  },
-  {
-    "product_id": 9745,
+    "product_id": 9674,
     "axes": [
       {
         "key": "kleur",
@@ -65804,7 +60258,7 @@
     ]
   },
   {
-    "product_id": 9746,
+    "product_id": 9675,
     "axes": [
       {
         "key": "kleur",
@@ -65944,7 +60398,7 @@
     ]
   },
   {
-    "product_id": 9747,
+    "product_id": 9676,
     "axes": [
       {
         "key": "glassoort",
@@ -66939,7 +61393,7 @@
     ]
   },
   {
-    "product_id": 9748,
+    "product_id": 9677,
     "axes": [
       {
         "key": "kleur",
@@ -67819,7 +62273,7 @@
     ]
   },
   {
-    "product_id": 9749,
+    "product_id": 9678,
     "axes": [
       {
         "key": "kleur",
@@ -68639,7 +63093,7 @@
     ]
   },
   {
-    "product_id": 9750,
+    "product_id": 9679,
     "axes": [
       {
         "key": "kleur",
@@ -69690,7 +64144,7 @@
     ]
   },
   {
-    "product_id": 9751,
+    "product_id": 9680,
     "axes": [
       {
         "key": "kleur",
@@ -70573,7 +65027,7 @@
     ]
   },
   {
-    "product_id": 9752,
+    "product_id": 9681,
     "axes": [
       {
         "key": "kleur",
@@ -71396,7 +65850,7 @@
     ]
   },
   {
-    "product_id": 9753,
+    "product_id": 9682,
     "axes": [
       {
         "key": "kleur",
@@ -72447,7 +66901,7 @@
     ]
   },
   {
-    "product_id": 9754,
+    "product_id": 9683,
     "axes": [
       {
         "key": "kleur",
@@ -72850,7 +67304,7 @@
     ]
   },
   {
-    "product_id": 9755,
+    "product_id": 9684,
     "axes": [
       {
         "key": "kleur",
@@ -72965,7 +67419,7 @@
     ]
   },
   {
-    "product_id": 9756,
+    "product_id": 9685,
     "axes": [
       {
         "key": "kleur",
@@ -73046,7 +67500,7 @@
     ]
   },
   {
-    "product_id": 9757,
+    "product_id": 9686,
     "axes": [
       {
         "key": "kleur",
@@ -73127,7 +67581,7 @@
     ]
   },
   {
-    "product_id": 9758,
+    "product_id": 9687,
     "axes": [
       {
         "key": "kleur",
@@ -73530,7 +67984,7 @@
     ]
   },
   {
-    "product_id": 9759,
+    "product_id": 9688,
     "axes": [
       {
         "key": "kleur",
@@ -73933,7 +68387,7 @@
     ]
   },
   {
-    "product_id": 9760,
+    "product_id": 9689,
     "axes": [
       {
         "key": "kleur",

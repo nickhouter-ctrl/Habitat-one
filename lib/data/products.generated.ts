@@ -6723,72 +6723,8 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9579,
-    "name": "Afvalbakje 1L",
-    "slug": "afvalbakje-1l-9579",
-    "sku": "BRA-AFVALBAKJE-1L-1NTX",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9580,
     "name": "Asteroid douchebak",
-    "slug": "asteroid-douchebak-9580",
+    "slug": "asteroid-douchebak-9579",
     "sku": "BRA-ASTEROID-DOUCHEBAK-JB88",
     "short": null,
     "description": null,
@@ -6840,68 +6776,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9581,
-    "name": "Carving Complete inbouwthermostaat met 3 stopkranen inclusief in- en afbouwdelen",
-    "slug": "carving-complete-inbouwthermostaat-met-3-stopkranen-inclusief-in-en-af-9581",
-    "sku": "BRA-CARVING-COMPLETE-INBOUWTHERMOSTAAT-MET-3-KP1T",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9582,
+    "id": 9580,
     "name": "Carving Hoekstopkraan met flexibele slang",
-    "slug": "carving-hoekstopkraan-met-flexibele-slang-9582",
+    "slug": "carving-hoekstopkraan-met-flexibele-slang-9580",
     "sku": "BRA-CARVING-HOEKSTOPKRAAN-MET-FLEXIBELE-SLAN-1OVC",
     "short": null,
     "description": null,
@@ -6958,9 +6835,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9583,
+    "id": 9581,
     "name": "Carving Hoge opbouw wastafelmengkraan",
-    "slug": "carving-hoge-opbouw-wastafelmengkraan-9583",
+    "slug": "carving-hoge-opbouw-wastafelmengkraan-9581",
     "sku": "BRA-CARVING-HOGE-OPBOUW-WASTAFELMENGKRAAN-1JF2",
     "short": null,
     "description": null,
@@ -7017,9 +6894,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9584,
+    "id": 9582,
     "name": "Carving Inbouw fonteinkraan met inkortbare uitloop",
-    "slug": "carving-inbouw-fonteinkraan-met-inkortbare-uitloop-9584",
+    "slug": "carving-inbouw-fonteinkraan-met-inkortbare-uitloop-9582",
     "sku": "BRA-CARVING-INBOUW-FONTEINKRAAN-MET-INKORTBA-1TIY",
     "short": null,
     "description": null,
@@ -7076,9 +6953,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9585,
+    "id": 9583,
     "name": "Carving Inbouw wastafelmengkraan met gebogen uitloop",
-    "slug": "carving-inbouw-wastafelmengkraan-met-gebogen-uitloop-9585",
+    "slug": "carving-inbouw-wastafelmengkraan-met-gebogen-uitloop-9583",
     "sku": "BRA-CARVING-INBOUW-WASTAFELMENGKRAAN-MET-GEB-1BOQ",
     "short": null,
     "description": null,
@@ -7135,9 +7012,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9586,
+    "id": 9584,
     "name": "Carving Inbouw wastafelmengkraan met rechte uitloop",
-    "slug": "carving-inbouw-wastafelmengkraan-met-rechte-uitloop-9586",
+    "slug": "carving-inbouw-wastafelmengkraan-met-rechte-uitloop-9584",
     "sku": "BRA-CARVING-INBOUW-WASTAFELMENGKRAAN-MET-REC-1JOW",
     "short": null,
     "description": null,
@@ -7194,9 +7071,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9587,
+    "id": 9585,
     "name": "Carving Lage opbouw wastafelmengkraan",
-    "slug": "carving-lage-opbouw-wastafelmengkraan-9587",
+    "slug": "carving-lage-opbouw-wastafelmengkraan-9585",
     "sku": "BRA-CARVING-LAGE-OPBOUW-WASTAFELMENGKRAAN-1XTJ",
     "short": null,
     "description": null,
@@ -7253,540 +7130,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9588,
-    "name": "Carving Luxe thermostatische inbouw douche set 01 met stopkranen en 2-standen wandmodel douchekop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-luxe-thermostatische-inbouw-douche-set-01-met-stopkranen-en-2--9588",
-    "sku": "BRA-CARVING-LUXE-THERMOSTATISCHE-INBOUW-DOUC-ZPRD",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9589,
-    "name": "Carving Luxe thermostatische inbouw douche set 02 met stopkranen en 2-standen wandmodel douchekop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-luxe-thermostatische-inbouw-douche-set-02-met-stopkranen-en-2--9589",
-    "sku": "BRA-CARVING-LUXE-THERMOSTATISCHE-INBOUW-DOUC-1PJJ",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9590,
-    "name": "Carving Luxe thermostatische inbouw douche set 03 met stopkranen en 2-standen wandmodel douchekop en staaf handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "carving-luxe-thermostatische-inbouw-douche-set-03-met-stopkranen-en-2--9590",
-    "sku": "BRA-CARVING-LUXE-THERMOSTATISCHE-INBOUW-DOUC-1W8V",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9591,
-    "name": "Carving Luxe thermostatische inbouw douche set 04 met stopkranen en 2-standen wandmodel douchekop en 3-standen handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "carving-luxe-thermostatische-inbouw-douche-set-04-met-stopkranen-en-2--9591",
-    "sku": "BRA-CARVING-LUXE-THERMOSTATISCHE-INBOUW-DOUC-11HH",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9592,
-    "name": "Carving Luxe thermostatische inbouw douche set 05 met stopkranen en 2-standen inbouw plafond douche en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-luxe-thermostatische-inbouw-douche-set-05-met-stopkranen-en-2--9592",
-    "sku": "BRA-CARVING-LUXE-THERMOSTATISCHE-INBOUW-DOUC-4WUP",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9593,
-    "name": "Carving Luxe thermostatische inbouw douche set 06 met stopkranen en 2-standen inbouw plafond douche en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-luxe-thermostatische-inbouw-douche-set-06-met-stopkranen-en-2--9593",
-    "sku": "BRA-CARVING-LUXE-THERMOSTATISCHE-INBOUW-DOUC-1M2M",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9594,
-    "name": "Carving Luxe thermostatische inbouw douche set 07 met stopkranen en 2-standen inbouw plafond douche en staaf handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "carving-luxe-thermostatische-inbouw-douche-set-07-met-stopkranen-en-2--9594",
-    "sku": "BRA-CARVING-LUXE-THERMOSTATISCHE-INBOUW-DOUC-4LDM",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9595,
-    "name": "Carving Luxe thermostatische inbouw douche set 08 met stopkranen en 2-standen inbouw plafond douche en 3-standen handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "carving-luxe-thermostatische-inbouw-douche-set-08-met-stopkranen-en-2--9595",
-    "sku": "BRA-CARVING-LUXE-THERMOSTATISCHE-INBOUW-DOUC-1GSB",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9596,
-    "name": "Carving Opbouw fonteinkraan",
-    "slug": "carving-opbouw-fonteinkraan-9596",
-    "sku": "BRA-CARVING-OPBOUW-FONTEINKRAAN-1N80",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Fonteinkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9597,
+    "id": 9586,
     "name": "Carving Opbouw fonteinkraan met gebogen uitloop",
-    "slug": "carving-opbouw-fonteinkraan-met-gebogen-uitloop-9597",
+    "slug": "carving-opbouw-fonteinkraan-met-gebogen-uitloop-9586",
     "sku": "BRA-CARVING-OPBOUW-FONTEINKRAAN-MET-GEBOGEN-SYLO",
     "short": null,
     "description": null,
@@ -7843,68 +7189,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9598,
-    "name": "Carving Opbouw thermostaat met stijgbuis zonder beslag",
-    "slug": "carving-opbouw-thermostaat-met-stijgbuis-zonder-beslag-9598",
-    "sku": "BRA-CARVING-OPBOUW-THERMOSTAAT-MET-STIJGBUIS-169K",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9599,
+    "id": 9587,
     "name": "Carving Opbouw thermostaten",
-    "slug": "carving-opbouw-thermostaten-9599",
+    "slug": "carving-opbouw-thermostaten-9587",
     "sku": "BRA-CARVING-OPBOUW-THERMOSTATEN-3CG8",
     "short": null,
     "description": null,
@@ -7966,304 +7253,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9600,
-    "name": "Carving Opbouw thermostatische regendouche zonder stijgbuis en beslag",
-    "slug": "carving-opbouw-thermostatische-regendouche-zonder-stijgbuis-en-beslag-9600",
-    "sku": "BRA-CARVING-OPBOUW-THERMOSTATISCHE-REGENDOUC-1PBN",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9601,
-    "name": "Carving Premium thermostatische inbouw regendouche set 01 met stopkranen en 2-standen cilindervormige douchekop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-premium-thermostatische-inbouw-regendouche-set-01-met-stopkran-9601",
-    "sku": "BRA-CARVING-PREMIUM-THERMOSTATISCHE-INBOUW-R-C5LQ",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9602,
-    "name": "Carving Premium thermostatische inbouw regendouche set 02 met stopkranen en 2-standen cilindervormige douchekop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-premium-thermostatische-inbouw-regendouche-set-02-met-stopkran-9602",
-    "sku": "BRA-CARVING-PREMIUM-THERMOSTATISCHE-INBOUW-R-1S29",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9603,
-    "name": "Carving Premium thermostatische inbouw regendouche set 03 met stopkranen en 2-standen cilindervormige douchekop en staaf handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "carving-premium-thermostatische-inbouw-regendouche-set-03-met-stopkran-9603",
-    "sku": "BRA-CARVING-PREMIUM-THERMOSTATISCHE-INBOUW-R-1QMN",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9604,
-    "name": "Carving Premium thermostatische inbouw regendouche set 04 met stopkranen en 2-standen cilindervormige douchekop en 3-standen handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "carving-premium-thermostatische-inbouw-regendouche-set-04-met-stopkran-9604",
-    "sku": "BRA-CARVING-PREMIUM-THERMOSTATISCHE-INBOUW-R-COAT",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9605,
+    "id": 9588,
     "name": "Carving Thermostatische inbouw badkraan met badvulcombinatie",
-    "slug": "carving-thermostatische-inbouw-badkraan-met-badvulcombinatie-9605",
+    "slug": "carving-thermostatische-inbouw-badkraan-met-badvulcombinatie-9588",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-BADKRAAN-R3XM",
     "short": null,
     "description": null,
@@ -8320,9 +7312,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9606,
+    "id": 9589,
     "name": "Carving Thermostatische inbouw badkraan met uitloop",
-    "slug": "carving-thermostatische-inbouw-badkraan-met-uitloop-9606",
+    "slug": "carving-thermostatische-inbouw-badkraan-met-uitloop-9589",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-BADKRAAN-1TJR",
     "short": null,
     "description": null,
@@ -8379,9 +7371,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9607,
+    "id": 9590,
     "name": "Carving Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-3-weg-omstel-9607",
+    "slug": "carving-thermostatische-inbouw-regendouche-met-3-weg-omstel-9590",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1DJ2",
     "short": null,
     "description": null,
@@ -8396,7 +7388,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Carving",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -8507,9 +7499,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9608,
+    "id": 9591,
     "name": "Carving Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-drukknoppen-9608",
+    "slug": "carving-thermostatische-inbouw-regendouche-met-drukknoppen-9591",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-CLUI",
     "short": null,
     "description": null,
@@ -8524,7 +7516,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Carving",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -8635,9 +7627,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9609,
+    "id": 9592,
     "name": "Carving Thermostatische inbouw regendouche met stopkranen",
-    "slug": "carving-thermostatische-inbouw-regendouche-met-stopkranen-9609",
+    "slug": "carving-thermostatische-inbouw-regendouche-met-stopkranen-9592",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-1LZJ",
     "short": null,
     "description": null,
@@ -8652,7 +7644,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Carving",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -8763,9 +7755,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9610,
+    "id": 9593,
     "name": "Carving Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "carving-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9610",
+    "slug": "carving-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9593",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-REGENDOUC-4BG5",
     "short": null,
     "description": null,
@@ -8780,7 +7772,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Carving",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -8891,9 +7883,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9611,
+    "id": 9594,
     "name": "Carving Thermostatische opbouw badkraan",
-    "slug": "carving-thermostatische-opbouw-badkraan-9611",
+    "slug": "carving-thermostatische-opbouw-badkraan-9594",
     "sku": "BRA-CARVING-THERMOSTATISCHE-OPBOUW-BADKRAAN-12VX",
     "short": null,
     "description": null,
@@ -8982,9 +7974,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9612,
+    "id": 9595,
     "name": "Carving Thermostatische opbouw douchekraan",
-    "slug": "carving-thermostatische-opbouw-douchekraan-9612",
+    "slug": "carving-thermostatische-opbouw-douchekraan-9595",
     "sku": "BRA-CARVING-THERMOSTATISCHE-OPBOUW-DOUCHEKRA-1NTM",
     "short": null,
     "description": null,
@@ -8999,7 +7991,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Carving",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "handdouche",
@@ -9057,9 +8049,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9613,
+    "id": 9596,
     "name": "Carving Thermostatische opbouw regendouche",
-    "slug": "carving-thermostatische-opbouw-regendouche-9613",
+    "slug": "carving-thermostatische-opbouw-regendouche-9596",
     "sku": "BRA-CARVING-THERMOSTATISCHE-OPBOUW-REGENDOUC-HP7W",
     "short": null,
     "description": null,
@@ -9074,7 +8066,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Carving",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "handdouche",
@@ -9148,9 +8140,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9614,
+    "id": 9597,
     "name": "Carving Verhoogde opbouw wastafelmengkraan",
-    "slug": "carving-verhoogde-opbouw-wastafelmengkraan-9614",
+    "slug": "carving-verhoogde-opbouw-wastafelmengkraan-9597",
     "sku": "BRA-CARVING-VERHOOGDE-OPBOUW-WASTAFELMENGKRA-QDSD",
     "short": null,
     "description": null,
@@ -9207,9 +8199,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9615,
+    "id": 9598,
     "name": "Carving Vrijstaande badmengkraan",
-    "slug": "carving-vrijstaande-badmengkraan-9615",
+    "slug": "carving-vrijstaande-badmengkraan-9598",
     "sku": "BRA-CARVING-VRIJSTAANDE-BADMENGKRAAN-111M",
     "short": null,
     "description": null,
@@ -9282,68 +8274,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9616,
-    "name": "Carving Vrijstaande badmengkraan zonder beslag",
-    "slug": "carving-vrijstaande-badmengkraan-zonder-beslag-9616",
-    "sku": "BRA-CARVING-VRIJSTAANDE-BADMENGKRAAN-ZONDER-P7P6",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9617,
+    "id": 9599,
     "name": "Collision",
-    "slug": "collision-9617",
+    "slug": "collision-9599",
     "sku": "BRA-COLLISION-PMWN",
     "short": null,
     "description": null,
@@ -9400,9 +8333,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9618,
+    "id": 9600,
     "name": "Complete douchegoot met",
-    "slug": "complete-douchegoot-met-9618",
+    "slug": "complete-douchegoot-met-9600",
     "sku": "BRA-COMPLETE-DOUCHEGOOT-MET-29IV",
     "short": null,
     "description": null,
@@ -9447,6 +8380,11 @@ export const catalogProducts: CatalogProduct[] = [
             "value": "Mat zwart",
             "label": "Mat zwart",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70S.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
           }
         ]
       },
@@ -9520,9 +8458,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9619,
+    "id": 9601,
     "name": "Cosmic met draaideur",
-    "slug": "cosmic-met-draaideur-9619",
+    "slug": "cosmic-met-draaideur-9601",
     "sku": "BRA-COSMIC-MET-DRAAIDEUR-18RY",
     "short": null,
     "description": null,
@@ -9579,9 +8517,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9620,
+    "id": 9602,
     "name": "Design sifon",
-    "slug": "design-sifon-9620",
+    "slug": "design-sifon-9602",
     "sku": "BRA-DESIGN-SIFON-10JV",
     "short": null,
     "description": null,
@@ -9643,107 +8581,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9621,
-    "name": "Douchegoot met multifunctioneel rooster en flens",
-    "slug": "douchegoot-met-multifunctioneel-rooster-en-flens-9621",
-    "sku": "BRA-DOUCHEGOOT-MET-MULTIFUNCTIONEEL-ROOSTER-1JAG",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "maat",
-        "label": "Maat",
-        "values": [
-          {
-            "value": "7x70 cm",
-            "label": "7x70 cm",
-            "image": null
-          },
-          {
-            "value": "7x80 cm",
-            "label": "7x80 cm",
-            "image": null
-          },
-          {
-            "value": "7x90 cm",
-            "label": "7x90 cm",
-            "image": null
-          },
-          {
-            "value": "7x100 cm",
-            "label": "7x100 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9622,
-    "name": "Douchegoot met multifunctioneel rooster en flens voor wandmontage",
-    "slug": "douchegoot-met-multifunctioneel-rooster-en-flens-voor-wandmontage-9622",
-    "sku": "BRA-DOUCHEGOOT-MET-MULTIFUNCTIONEEL-ROOSTER-118E",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "maat",
-        "label": "Maat",
-        "values": [
-          {
-            "value": "7x70 cm",
-            "label": "7x70 cm",
-            "image": null
-          },
-          {
-            "value": "7x80 cm",
-            "label": "7x80 cm",
-            "image": null
-          },
-          {
-            "value": "7x90 cm",
-            "label": "7x90 cm",
-            "image": null
-          },
-          {
-            "value": "7x100 cm",
-            "label": "7x100 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9623,
+    "id": 9603,
     "name": "Douchegoten",
-    "slug": "douchegoten-9623",
+    "slug": "douchegoten-9603",
     "sku": "BRA-DOUCHEGOTEN-1TEO",
     "short": null,
     "description": null,
@@ -9783,6 +8623,11 @@ export const catalogProducts: CatalogProduct[] = [
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW80NG.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
           }
         ]
       },
@@ -9856,9 +8701,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9624,
+    "id": 9604,
     "name": "Douchegoten met standaard rooster",
-    "slug": "douchegoten-met-standaard-rooster-9624",
+    "slug": "douchegoten-met-standaard-rooster-9604",
     "sku": "BRA-DOUCHEGOTEN-MET-STANDAARD-ROOSTER-ONKX",
     "short": null,
     "description": null,
@@ -9961,9 +8806,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9625,
+    "id": 9605,
     "name": "Douchegoten Small",
-    "slug": "douchegoten-small-9625",
+    "slug": "douchegoten-small-9605",
     "sku": "BRA-DOUCHEGOTEN-SMALL-1AJV",
     "short": null,
     "description": null,
@@ -10020,9 +8865,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9626,
+    "id": 9606,
     "name": "Douchegoten XS",
-    "slug": "douchegoten-xs-9626",
+    "slug": "douchegoten-xs-9606",
     "sku": "BRA-DOUCHEGOTEN-XS-IW2U",
     "short": null,
     "description": null,
@@ -10064,201 +8909,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9627,
-    "name": "Douchekop cilindervormig wandmodel 2-standen met normale en krachtige stand",
-    "slug": "douchekop-cilindervormig-wandmodel-2-standen-met-normale-en-krachtige--9627",
-    "sku": "BRA-DOUCHEKOP-CILINDERVORMIG-WANDMODEL-2-STA-WGSD",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9628,
-    "name": "Douchekop inbouw plafondmodel 2-standen Ø400 met regendouche en krachtige stand",
-    "slug": "douchekop-inbouw-plafondmodel-2-standen-400-met-regendouche-en-krachti-9628",
-    "sku": "BRA-DOUCHEKOP-INBOUW-PLAFONDMODEL-2-STANDEN-1OS3",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9629,
-    "name": "Douchekop inbouw wandmodel 2-standen Ø300 met waterval- en regendouche stand",
-    "slug": "douchekop-inbouw-wandmodel-2-standen-300-met-waterval-en-regendouche-s-9629",
-    "sku": "BRA-DOUCHEKOP-INBOUW-WANDMODEL-2-STANDEN-300-1GR6",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9630,
+    "id": 9607,
     "name": "Doucherek 23",
-    "slug": "doucherek-23-9630",
+    "slug": "doucherek-23-9607",
     "sku": "BRA-DOUCHEREK-23-YGJD",
     "short": null,
     "description": null,
@@ -10320,9 +8973,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9631,
+    "id": 9608,
     "name": "Doucherek 40",
-    "slug": "doucherek-40-9631",
+    "slug": "doucherek-40-9608",
     "sku": "BRA-DOUCHEREK-40-YGJD",
     "short": null,
     "description": null,
@@ -10384,95 +9037,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9632,
-    "name": "Doucheslang ribbel 1500 mm",
-    "slug": "doucheslang-ribbel-1500-mm-9632",
-    "sku": "BRA-DOUCHESLANG-RIBBEL-1500-MM-DJGG",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Douchekranen",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9633,
-    "name": "Edition Complete inbouwthermostaat met 3 stopkranen inclusief in- en afbouwdelen",
-    "slug": "edition-complete-inbouwthermostaat-met-3-stopkranen-inclusief-in-en-af-9633",
-    "sku": "BRA-EDITION-COMPLETE-INBOUWTHERMOSTAAT-MET-3-51A7",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9634,
+    "id": 9609,
     "name": "Edition Douchepaneel",
-    "slug": "edition-douchepaneel-9634",
+    "slug": "edition-douchepaneel-9609",
     "sku": "BRA-EDITION-DOUCHEPANEEL-I4R5",
     "short": null,
     "description": null,
@@ -10487,7 +9054,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "kleur",
@@ -10529,9 +9096,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9635,
+    "id": 9610,
     "name": "Edition Hoekstopkraan met flexibele slang",
-    "slug": "edition-hoekstopkraan-met-flexibele-slang-9635",
+    "slug": "edition-hoekstopkraan-met-flexibele-slang-9610",
     "sku": "BRA-EDITION-HOEKSTOPKRAAN-MET-FLEXIBELE-SLAN-1ATS",
     "short": null,
     "description": null,
@@ -10593,9 +9160,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9636,
+    "id": 9611,
     "name": "Edition Hoge opbouw wastafelmengkraan",
-    "slug": "edition-hoge-opbouw-wastafelmengkraan-9636",
+    "slug": "edition-hoge-opbouw-wastafelmengkraan-9611",
     "sku": "BRA-EDITION-HOGE-OPBOUW-WASTAFELMENGKRAAN-15DY",
     "short": null,
     "description": null,
@@ -10657,9 +9224,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9637,
+    "id": 9612,
     "name": "Edition Inbouw fonteinkraan met inkortbare uitloop",
-    "slug": "edition-inbouw-fonteinkraan-met-inkortbare-uitloop-9637",
+    "slug": "edition-inbouw-fonteinkraan-met-inkortbare-uitloop-9612",
     "sku": "BRA-EDITION-INBOUW-FONTEINKRAAN-MET-INKORTBA-1IX5",
     "short": null,
     "description": null,
@@ -10721,9 +9288,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9638,
+    "id": 9613,
     "name": "Edition Inbouw thermostaten met stopkranen",
-    "slug": "edition-inbouw-thermostaten-met-stopkranen-9638",
+    "slug": "edition-inbouw-thermostaten-met-stopkranen-9613",
     "sku": "BRA-EDITION-INBOUW-THERMOSTATEN-MET-STOPKRAN-HTP4",
     "short": null,
     "description": null,
@@ -10785,31 +9352,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9639,
-    "name": "Edition Inbouw wastafelkraan met gebogen uitloop en rozetten model B1",
-    "slug": "edition-inbouw-wastafelkraan-met-gebogen-uitloop-en-rozetten-model-b1-9639",
-    "sku": "BRA-EDITION-INBOUW-WASTAFELKRAAN-MET-GEBOGEN-1OIX",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Wastafelkranen",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9640,
+    "id": 9614,
     "name": "Edition Inbouw wastafelmengkraan met gebogen uitloop",
-    "slug": "edition-inbouw-wastafelmengkraan-met-gebogen-uitloop-9640",
+    "slug": "edition-inbouw-wastafelmengkraan-met-gebogen-uitloop-9614",
     "sku": "BRA-EDITION-INBOUW-WASTAFELMENGKRAAN-MET-GEB-578Y",
     "short": null,
     "description": null,
@@ -10866,9 +9411,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9641,
+    "id": 9615,
     "name": "Edition Inbouw wastafelmengkraan met rechte uitloop",
-    "slug": "edition-inbouw-wastafelmengkraan-met-rechte-uitloop-9641",
+    "slug": "edition-inbouw-wastafelmengkraan-met-rechte-uitloop-9615",
     "sku": "BRA-EDITION-INBOUW-WASTAFELMENGKRAAN-MET-REC-1OV0",
     "short": null,
     "description": null,
@@ -10925,9 +9470,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9642,
+    "id": 9616,
     "name": "Edition Lage opbouw wastafelmengkraan",
-    "slug": "edition-lage-opbouw-wastafelmengkraan-9642",
+    "slug": "edition-lage-opbouw-wastafelmengkraan-9616",
     "sku": "BRA-EDITION-LAGE-OPBOUW-WASTAFELMENGKRAAN-1JSF",
     "short": null,
     "description": null,
@@ -11020,543 +9565,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9643,
-    "name": "Edition Losse inbouwthermostaat met in- en afbouwdelen",
-    "slug": "edition-losse-inbouwthermostaat-met-in-en-afbouwdelen-9643",
-    "sku": "BRA-EDITION-LOSSE-INBOUWTHERMOSTAAT-MET-IN-E-AZO3",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9644,
-    "name": "Edition Luxe thermostatische inbouw douche set 01 met stopkranen en 2-standen wandmodel douchekop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-luxe-thermostatische-inbouw-douche-set-01-met-stopkranen-en-2--9644",
-    "sku": "BRA-EDITION-LUXE-THERMOSTATISCHE-INBOUW-DOUC-1PL1",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9645,
-    "name": "Edition Luxe thermostatische inbouw douche set 02 met stopkranen en 2-standen wandmodel douchekop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-luxe-thermostatische-inbouw-douche-set-02-met-stopkranen-en-2--9645",
-    "sku": "BRA-EDITION-LUXE-THERMOSTATISCHE-INBOUW-DOUC-79GX",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9646,
-    "name": "Edition Luxe thermostatische inbouw douche set 03 met stopkranen en 2-standen wandmodel douchekop en staaf handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "edition-luxe-thermostatische-inbouw-douche-set-03-met-stopkranen-en-2--9646",
-    "sku": "BRA-EDITION-LUXE-THERMOSTATISCHE-INBOUW-DOUC-1JLT",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9647,
-    "name": "Edition Luxe thermostatische inbouw douche set 04 met stopkranen en 2-standen wandmodel douchekop en 3-standen handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "edition-luxe-thermostatische-inbouw-douche-set-04-met-stopkranen-en-2--9647",
-    "sku": "BRA-EDITION-LUXE-THERMOSTATISCHE-INBOUW-DOUC-10FX",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9648,
-    "name": "Edition Luxe thermostatische inbouw douche set 05 met stopkranen en 2-standen inbouw plafond douche en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-luxe-thermostatische-inbouw-douche-set-05-met-stopkranen-en-2--9648",
-    "sku": "BRA-EDITION-LUXE-THERMOSTATISCHE-INBOUW-DOUC-1C8K",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9649,
-    "name": "Edition Luxe thermostatische inbouw douche set 06 met stopkranen en 2-standen inbouw plafond douche en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-luxe-thermostatische-inbouw-douche-set-06-met-stopkranen-en-2--9649",
-    "sku": "BRA-EDITION-LUXE-THERMOSTATISCHE-INBOUW-DOUC-19FK",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9650,
-    "name": "Edition Luxe thermostatische inbouw douche set 07 met stopkranen en 2-standen inbouw plafond douche en staaf handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "edition-luxe-thermostatische-inbouw-douche-set-07-met-stopkranen-en-2--9650",
-    "sku": "BRA-EDITION-LUXE-THERMOSTATISCHE-INBOUW-DOUC-J9O8",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9651,
-    "name": "Edition Luxe thermostatische inbouw douche set 08 met stopkranen en 2-standen inbouw plafond douche en 3-standen handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "edition-luxe-thermostatische-inbouw-douche-set-08-met-stopkranen-en-2--9651",
-    "sku": "BRA-EDITION-LUXE-THERMOSTATISCHE-INBOUW-DOUC-1HML",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9652,
+    "id": 9617,
     "name": "Edition Opbouw fonteinkraan",
-    "slug": "edition-opbouw-fonteinkraan-9652",
+    "slug": "edition-opbouw-fonteinkraan-9617",
     "sku": "BRA-EDITION-OPBOUW-FONTEINKRAAN-121V",
     "short": null,
     "description": null,
@@ -11618,9 +9629,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9653,
+    "id": 9618,
     "name": "Edition Opbouw fonteinkraan met gebogen uitloop",
-    "slug": "edition-opbouw-fonteinkraan-met-gebogen-uitloop-9653",
+    "slug": "edition-opbouw-fonteinkraan-met-gebogen-uitloop-9618",
     "sku": "BRA-EDITION-OPBOUW-FONTEINKRAAN-MET-GEBOGEN-7ZCI",
     "short": null,
     "description": null,
@@ -11682,383 +9693,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9654,
-    "name": "Edition Opbouw thermostaat met stijgbuis zonder beslag",
-    "slug": "edition-opbouw-thermostaat-met-stijgbuis-zonder-beslag-9654",
-    "sku": "BRA-EDITION-OPBOUW-THERMOSTAAT-MET-STIJGBUIS-GNGN",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9655,
-    "name": "Edition Opbouw thermostatische regendouche zonder stijgbuis en beslag",
-    "slug": "edition-opbouw-thermostatische-regendouche-zonder-stijgbuis-en-beslag-9655",
-    "sku": "BRA-EDITION-OPBOUW-THERMOSTATISCHE-REGENDOUC-1IAD",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9656,
-    "name": "Edition Premium thermostatische inbouw regendouche set 01 met stopkranen en 2-standen cilindervormige douchekop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-premium-thermostatische-inbouw-regendouche-set-01-met-stopkran-9656",
-    "sku": "BRA-EDITION-PREMIUM-THERMOSTATISCHE-INBOUW-R-4VTC",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9657,
-    "name": "Edition Premium thermostatische inbouw regendouche set 02 met stopkranen en 2-standen cilindervormige douchekop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-premium-thermostatische-inbouw-regendouche-set-02-met-stopkran-9657",
-    "sku": "BRA-EDITION-PREMIUM-THERMOSTATISCHE-INBOUW-R-R96R",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9658,
-    "name": "Edition Premium thermostatische inbouw regendouche set 03 met stopkranen en 2-standen cilindervormige douchekop en staaf handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "edition-premium-thermostatische-inbouw-regendouche-set-03-met-stopkran-9658",
-    "sku": "BRA-EDITION-PREMIUM-THERMOSTATISCHE-INBOUW-R-14RJ",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9659,
-    "name": "Edition Premium thermostatische inbouw regendouche set 04 met stopkranen en 2-standen cilindervormige douchekop en 3-standen handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "edition-premium-thermostatische-inbouw-regendouche-set-04-met-stopkran-9659",
-    "sku": "BRA-EDITION-PREMIUM-THERMOSTATISCHE-INBOUW-R-1NRL",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9660,
+    "id": 9619,
     "name": "Edition Thermostatische inbouw badkraan met badvulcombinatie",
-    "slug": "edition-thermostatische-inbouw-badkraan-met-badvulcombinatie-9660",
+    "slug": "edition-thermostatische-inbouw-badkraan-met-badvulcombinatie-9619",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-KWKN",
     "short": null,
     "description": null,
@@ -12120,9 +9757,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9661,
+    "id": 9620,
     "name": "Edition Thermostatische inbouw badkraan met uitloop",
-    "slug": "edition-thermostatische-inbouw-badkraan-met-uitloop-9661",
+    "slug": "edition-thermostatische-inbouw-badkraan-met-uitloop-9620",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-1YPV",
     "short": null,
     "description": null,
@@ -12179,53 +9816,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9662,
-    "name": "Edition Thermostatische inbouw badkraan met uitloop en stopkranen set 01 met staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-thermostatische-inbouw-badkraan-met-uitloop-en-stopkranen-set--9662",
-    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-IN47",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Badkranen",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9663,
-    "name": "Edition Thermostatische inbouw badkraan met uitloop en stopkranen set 02 met 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-thermostatische-inbouw-badkraan-met-uitloop-en-stopkranen-set--9663",
-    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-1TK1",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Badkranen",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9664,
+    "id": 9621,
     "name": "Edition Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-3-weg-omstel-9664",
+    "slug": "edition-thermostatische-inbouw-regendouche-met-3-weg-omstel-9621",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1SEP",
     "short": null,
     "description": null,
@@ -12240,7 +9833,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -12351,9 +9944,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9665,
+    "id": 9622,
     "name": "Edition Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-drukknoppen-9665",
+    "slug": "edition-thermostatische-inbouw-regendouche-met-drukknoppen-9622",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1M9B",
     "short": null,
     "description": null,
@@ -12368,7 +9961,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -12479,9 +10072,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9666,
+    "id": 9623,
     "name": "Edition Thermostatische inbouw regendouche met stopkranen",
-    "slug": "edition-thermostatische-inbouw-regendouche-met-stopkranen-9666",
+    "slug": "edition-thermostatische-inbouw-regendouche-met-stopkranen-9623",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-1NDC",
     "short": null,
     "description": null,
@@ -12496,7 +10089,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -12612,9 +10205,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9667,
+    "id": 9624,
     "name": "Edition Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "edition-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9667",
+    "slug": "edition-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9624",
     "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-REGENDOUC-Q77J",
     "short": null,
     "description": null,
@@ -12629,7 +10222,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -12740,9 +10333,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9668,
+    "id": 9625,
     "name": "Edition Thermostatische opbouw badkraan",
-    "slug": "edition-thermostatische-opbouw-badkraan-9668",
+    "slug": "edition-thermostatische-opbouw-badkraan-9625",
     "sku": "BRA-EDITION-THERMOSTATISCHE-OPBOUW-BADKRAAN-UBUU",
     "short": null,
     "description": null,
@@ -12836,9 +10429,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9669,
+    "id": 9626,
     "name": "Edition Thermostatische opbouw douchekraan",
-    "slug": "edition-thermostatische-opbouw-douchekraan-9669",
+    "slug": "edition-thermostatische-opbouw-douchekraan-9626",
     "sku": "BRA-EDITION-THERMOSTATISCHE-OPBOUW-DOUCHEKRA-MKWZ",
     "short": null,
     "description": null,
@@ -12853,7 +10446,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "handdouche",
@@ -12916,9 +10509,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9670,
+    "id": 9627,
     "name": "Edition Thermostatische opbouw regendouche",
-    "slug": "edition-thermostatische-opbouw-regendouche-9670",
+    "slug": "edition-thermostatische-opbouw-regendouche-9627",
     "sku": "BRA-EDITION-THERMOSTATISCHE-OPBOUW-REGENDOUC-1FHM",
     "short": null,
     "description": null,
@@ -12933,7 +10526,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "handdouche",
@@ -13012,9 +10605,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9671,
+    "id": 9628,
     "name": "Edition Verhoogde opbouw wastafelmengkraan",
-    "slug": "edition-verhoogde-opbouw-wastafelmengkraan-9671",
+    "slug": "edition-verhoogde-opbouw-wastafelmengkraan-9628",
     "sku": "BRA-EDITION-VERHOOGDE-OPBOUW-WASTAFELMENGKRA-1O66",
     "short": null,
     "description": null,
@@ -13107,9 +10700,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9672,
+    "id": 9629,
     "name": "Edition Vrijstaande badmengkraan",
-    "slug": "edition-vrijstaande-badmengkraan-9672",
+    "slug": "edition-vrijstaande-badmengkraan-9629",
     "sku": "BRA-EDITION-VRIJSTAANDE-BADMENGKRAAN-DPEP",
     "short": null,
     "description": null,
@@ -13187,68 +10780,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9673,
-    "name": "Edition Vrijstaande badmengkraan zonder beslag",
-    "slug": "edition-vrijstaande-badmengkraan-zonder-beslag-9673",
-    "sku": "BRA-EDITION-VRIJSTAANDE-BADMENGKRAAN-ZONDER-1GK5",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9674,
+    "id": 9630,
     "name": "Flexibele aansluitslang gevlochten 300 mm",
-    "slug": "flexibele-aansluitslang-gevlochten-300-mm-9674",
+    "slug": "flexibele-aansluitslang-gevlochten-300-mm-9630",
     "sku": "BRA-FLEXIBELE-AANSLUITSLANG-GEVLOCHTEN-300-M-87N4",
     "short": null,
     "description": null,
@@ -13310,9 +10844,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9675,
+    "id": 9631,
     "name": "Galactic 2-delig met schuifdeur",
-    "slug": "galactic-2-delig-met-schuifdeur-9675",
+    "slug": "galactic-2-delig-met-schuifdeur-9631",
     "sku": "BRA-GALACTIC-2-DELIG-MET-SCHUIFDEUR-19Q7",
     "short": null,
     "description": null,
@@ -13369,9 +10903,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9676,
+    "id": 9632,
     "name": "Galactic 3-delig met schuifdeur",
-    "slug": "galactic-3-delig-met-schuifdeur-9676",
+    "slug": "galactic-3-delig-met-schuifdeur-9632",
     "sku": "BRA-GALACTIC-3-DELIG-MET-SCHUIFDEUR-6IIY",
     "short": null,
     "description": null,
@@ -13428,75 +10962,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9677,
-    "name": "Glijstang",
-    "slug": "glijstang-9677",
-    "sku": "BRA-GLIJSTANG-Z5CU",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Glijstangen",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9678,
-    "name": "Handdoekbeugel model A 60",
-    "slug": "handdoekbeugel-model-a-60-9678",
-    "sku": "BRA-HANDDOEKBEUGEL-MODEL-A-60-1POT",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9679,
-    "name": "Handdoekbeugel model B 35",
-    "slug": "handdoekbeugel-model-b-35-9679",
-    "sku": "BRA-HANDDOEKBEUGEL-MODEL-B-35-1POU",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9680,
+    "id": 9633,
     "name": "Handdoekhaak",
-    "slug": "handdoekhaak-9680",
+    "slug": "handdoekhaak-9633",
     "sku": "BRA-HANDDOEKHAAK-ZI8B",
     "short": null,
     "description": null,
@@ -13558,181 +11026,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9681,
-    "name": "Handdoekhouder model A",
-    "slug": "handdoekhouder-model-a-9681",
-    "sku": "BRA-HANDDOEKHOUDER-MODEL-A-15AT",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9682,
-    "name": "Handdoekradiator Linea 170",
-    "slug": "handdoekradiator-linea-170-9682",
-    "sku": "BRA-HANDDOEKRADIATOR-LINEA-170-1GHL",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9683,
-    "name": "Handdoekradiator Riva 150",
-    "slug": "handdoekradiator-riva-150-9683",
-    "sku": "BRA-HANDDOEKRADIATOR-RIVA-150-1HFA",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9684,
+    "id": 9634,
     "name": "Handdoekrekken en -beugels",
-    "slug": "handdoekrekken-en-beugels-9684",
+    "slug": "handdoekrekken-en-beugels-9634",
     "sku": "BRA-HANDDOEKREKKEN-EN-BEUGELS-4NSB",
     "short": null,
     "description": null,
@@ -13794,9 +11090,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9685,
+    "id": 9635,
     "name": "Inbouwnis 300x300",
-    "slug": "inbouwnis-300x300-9685",
+    "slug": "inbouwnis-300x300-9635",
     "sku": "BRA-INBOUWNIS-300X300-TW1A",
     "short": null,
     "description": null,
@@ -13853,9 +11149,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9686,
+    "id": 9636,
     "name": "Inbouwnis 600x300",
-    "slug": "inbouwnis-600x300-9686",
+    "slug": "inbouwnis-600x300-9636",
     "sku": "BRA-INBOUWNIS-600X300-MXN5",
     "short": null,
     "description": null,
@@ -13917,101 +11213,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9687,
-    "name": "Inbouwnis model B met geïntegreerde verlichting",
-    "slug": "inbouwnis-model-b-met-geintegreerde-verlichting-9687",
-    "sku": "BRA-INBOUWNIS-MODEL-B-MET-GEINTEGREERDE-VERL-140V",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          }
-        ]
-      },
-      {
-        "key": "maat",
-        "label": "Maat",
-        "values": [
-          {
-            "value": "30x30 cm",
-            "label": "30x30 cm",
-            "image": null
-          },
-          {
-            "value": "60x30 cm",
-            "label": "60x30 cm",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9688,
-    "name": "Klikwaste mat",
-    "slug": "klikwaste-mat-9688",
-    "sku": "BRA-KLIKWASTE-MAT-3L8X",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9689,
+    "id": 9637,
     "name": "Luminis 1-delig en 2-delig met draai-schuifdeur",
-    "slug": "luminis-1-delig-en-2-delig-met-draai-schuifdeur-9689",
+    "slug": "luminis-1-delig-en-2-delig-met-draai-schuifdeur-9637",
     "sku": "BRA-LUMINIS-1-DELIG-EN-2-DELIG-MET-DRAAI-SCH-1KTX",
     "short": null,
     "description": null,
@@ -14068,9 +11272,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9690,
+    "id": 9638,
     "name": "Luminis 2-delig en 3-delig met draai-schuifdeur",
-    "slug": "luminis-2-delig-en-3-delig-met-draai-schuifdeur-9690",
+    "slug": "luminis-2-delig-en-3-delig-met-draai-schuifdeur-9638",
     "sku": "BRA-LUMINIS-2-DELIG-EN-3-DELIG-MET-DRAAI-SCH-4TPJ",
     "short": null,
     "description": null,
@@ -14127,9 +11331,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9691,
+    "id": 9639,
     "name": "multifunctioneel rooster en flens",
-    "slug": "multifunctioneel-rooster-en-flens-9691",
+    "slug": "multifunctioneel-rooster-en-flens-9639",
     "sku": "BRA-MULTIFUNCTIONEEL-ROOSTER-EN-FLENS-AOQO",
     "short": null,
     "description": null,
@@ -14169,6 +11373,11 @@ export const catalogProducts: CatalogProduct[] = [
             "value": "Mat zwart",
             "label": "Mat zwart",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF80S.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
           }
         ]
       },
@@ -14202,31 +11411,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9692,
-    "name": "Muurarm gebogen",
-    "slug": "muurarm-gebogen-9692",
-    "sku": "BRA-MUURARM-GEBOGEN-HA6R",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Douchearmen",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9693,
+    "id": 9640,
     "name": "Oblivion",
-    "slug": "oblivion-9693",
+    "slug": "oblivion-9640",
     "sku": "BRA-OBLIVION-1PZN",
     "short": null,
     "description": null,
@@ -14283,9 +11470,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9694,
+    "id": 9641,
     "name": "Oblivion Flow",
-    "slug": "oblivion-flow-9694",
+    "slug": "oblivion-flow-9641",
     "sku": "BRA-OBLIVION-FLOW-13WA",
     "short": null,
     "description": null,
@@ -14342,9 +11529,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9695,
+    "id": 9642,
     "name": "Oblivion Flow met zijwand",
-    "slug": "oblivion-flow-met-zijwand-9695",
+    "slug": "oblivion-flow-met-zijwand-9642",
     "sku": "BRA-OBLIVION-FLOW-MET-ZIJWAND-LQIZ",
     "short": null,
     "description": null,
@@ -14401,9 +11588,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9696,
+    "id": 9643,
     "name": "Oblivion met zijwand",
-    "slug": "oblivion-met-zijwand-9696",
+    "slug": "oblivion-met-zijwand-9643",
     "sku": "BRA-OBLIVION-MET-ZIJWAND-1RWD",
     "short": null,
     "description": null,
@@ -14460,9 +11647,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9697,
+    "id": 9644,
     "name": "Orion",
-    "slug": "orion-9697",
+    "slug": "orion-9644",
     "sku": "BRA-ORION-3U5Q",
     "short": null,
     "description": null,
@@ -14519,9 +11706,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9698,
+    "id": 9645,
     "name": "Overloopring",
-    "slug": "overloopring-9698",
+    "slug": "overloopring-9645",
     "sku": "BRA-OVERLOOPRING-Y8T2",
     "short": null,
     "description": null,
@@ -14583,9 +11770,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9699,
+    "id": 9646,
     "name": "Pedaalemmer",
-    "slug": "pedaalemmer-9699",
+    "slug": "pedaalemmer-9646",
     "sku": "BRA-PEDAALEMMER-RT67",
     "short": null,
     "description": null,
@@ -14647,95 +11834,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9700,
-    "name": "Raamtrekker model A",
-    "slug": "raamtrekker-model-a-9700",
-    "sku": "BRA-RAAMTREKKER-MODEL-A-16WA",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9701,
-    "name": "Schoonmaakdoek nanovezel 400 g grijs",
-    "slug": "schoonmaakdoek-nanovezel-400-g-grijs-9701",
-    "sku": "BRA-SCHOONMAAKDOEK-NANOVEZEL-400-G-GRIJS-1X26",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": null,
-    "variants": []
-  },
-  {
-    "id": 9702,
+    "id": 9647,
     "name": "Stellar 2-delig met draaideur",
-    "slug": "stellar-2-delig-met-draaideur-9702",
+    "slug": "stellar-2-delig-met-draaideur-9647",
     "sku": "BRA-STELLAR-2-DELIG-MET-DRAAIDEUR-1PNM",
     "short": null,
     "description": null,
@@ -14792,9 +11893,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9703,
+    "id": 9648,
     "name": "Stellar 3-delig met draaideur",
-    "slug": "stellar-3-delig-met-draaideur-9703",
+    "slug": "stellar-3-delig-met-draaideur-9648",
     "sku": "BRA-STELLAR-3-DELIG-MET-DRAAIDEUR-D442",
     "short": null,
     "description": null,
@@ -14851,9 +11952,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9704,
+    "id": 9649,
     "name": "Stripe Badvullers",
-    "slug": "stripe-badvullers-9704",
+    "slug": "stripe-badvullers-9649",
     "sku": "BRA-STRIPE-BADVULLERS-QN2Z",
     "short": null,
     "description": null,
@@ -14915,68 +12016,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9705,
-    "name": "Stripe Complete inbouwthermostaat met 3 stopkranen inclusief in- en afbouwdelen",
-    "slug": "stripe-complete-inbouwthermostaat-met-3-stopkranen-inclusief-in-en-afb-9705",
-    "sku": "BRA-STRIPE-COMPLETE-INBOUWTHERMOSTAAT-MET-3-10MP",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9706,
+    "id": 9650,
     "name": "Stripe Fonteinkranen",
-    "slug": "stripe-fonteinkranen-9706",
+    "slug": "stripe-fonteinkranen-9650",
     "sku": "BRA-STRIPE-FONTEINKRANEN-SIK0",
     "short": null,
     "description": null,
@@ -15033,9 +12075,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9707,
+    "id": 9651,
     "name": "Stripe Handdouches en toebehoren",
-    "slug": "stripe-handdouches-en-toebehoren-9707",
+    "slug": "stripe-handdouches-en-toebehoren-9651",
     "sku": "BRA-STRIPE-HANDDOUCHES-EN-TOEBEHOREN-TGZB",
     "short": null,
     "description": null,
@@ -15097,9 +12139,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9708,
+    "id": 9652,
     "name": "Stripe Hoge opbouw wastafelmengkranen",
-    "slug": "stripe-hoge-opbouw-wastafelmengkranen-9708",
+    "slug": "stripe-hoge-opbouw-wastafelmengkranen-9652",
     "sku": "BRA-STRIPE-HOGE-OPBOUW-WASTAFELMENGKRANEN-K1WF",
     "short": null,
     "description": null,
@@ -15156,9 +12198,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9709,
+    "id": 9653,
     "name": "Stripe Inbouw 3-weg thermostaten rechthoekig",
-    "slug": "stripe-inbouw-3-weg-thermostaten-rechthoekig-9709",
+    "slug": "stripe-inbouw-3-weg-thermostaten-rechthoekig-9653",
     "sku": "BRA-STRIPE-INBOUW-3-WEG-THERMOSTATEN-RECHTHO-1GGH",
     "short": null,
     "description": null,
@@ -15215,9 +12257,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9710,
+    "id": 9654,
     "name": "Stripe Inbouw 3-weg thermostaten rond",
-    "slug": "stripe-inbouw-3-weg-thermostaten-rond-9710",
+    "slug": "stripe-inbouw-3-weg-thermostaten-rond-9654",
     "sku": "BRA-STRIPE-INBOUW-3-WEG-THERMOSTATEN-ROND-TVKX",
     "short": null,
     "description": null,
@@ -15274,9 +12316,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9711,
+    "id": 9655,
     "name": "Stripe Inbouw thermostaten met drukknoppen",
-    "slug": "stripe-inbouw-thermostaten-met-drukknoppen-9711",
+    "slug": "stripe-inbouw-thermostaten-met-drukknoppen-9655",
     "sku": "BRA-STRIPE-INBOUW-THERMOSTATEN-MET-DRUKKNOPP-D0BO",
     "short": null,
     "description": null,
@@ -15333,9 +12375,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9712,
+    "id": 9656,
     "name": "Stripe Inbouw thermostaten met stopkranen",
-    "slug": "stripe-inbouw-thermostaten-met-stopkranen-9712",
+    "slug": "stripe-inbouw-thermostaten-met-stopkranen-9656",
     "sku": "BRA-STRIPE-INBOUW-THERMOSTATEN-MET-STOPKRANE-1DE0",
     "short": null,
     "description": null,
@@ -15392,9 +12434,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9713,
+    "id": 9657,
     "name": "Stripe Inbouw wastafelmengkranen",
-    "slug": "stripe-inbouw-wastafelmengkranen-9713",
+    "slug": "stripe-inbouw-wastafelmengkranen-9657",
     "sku": "BRA-STRIPE-INBOUW-WASTAFELMENGKRANEN-ZI44",
     "short": null,
     "description": null,
@@ -15451,9 +12493,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9714,
+    "id": 9658,
     "name": "Stripe Lage opbouw wastafelmengkraan",
-    "slug": "stripe-lage-opbouw-wastafelmengkraan-9714",
+    "slug": "stripe-lage-opbouw-wastafelmengkraan-9658",
     "sku": "BRA-STRIPE-LAGE-OPBOUW-WASTAFELMENGKRAAN-1DG5",
     "short": null,
     "description": null,
@@ -15510,481 +12552,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9715,
-    "name": "Stripe Luxe thermostatische inbouw douche set 01 met stopkranen en 2-standen wandmodel douchekop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-luxe-thermostatische-inbouw-douche-set-01-met-stopkranen-en-2-s-9715",
-    "sku": "BRA-STRIPE-LUXE-THERMOSTATISCHE-INBOUW-DOUCH-1TU6",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9716,
-    "name": "Stripe Luxe thermostatische inbouw douche set 02 met stopkranen en 2-standen wandmodel douchekop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-luxe-thermostatische-inbouw-douche-set-02-met-stopkranen-en-2-s-9716",
-    "sku": "BRA-STRIPE-LUXE-THERMOSTATISCHE-INBOUW-DOUCH-FCCL",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9717,
-    "name": "Stripe Luxe thermostatische inbouw douche set 03 met stopkranen en 2-standen wandmodel douchekop en staaf handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "stripe-luxe-thermostatische-inbouw-douche-set-03-met-stopkranen-en-2-s-9717",
-    "sku": "BRA-STRIPE-LUXE-THERMOSTATISCHE-INBOUW-DOUCH-1AVJ",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9718,
-    "name": "Stripe Luxe thermostatische inbouw douche set 04 met stopkranen en 2-standen wandmodel douchekop en 3-standen handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "stripe-luxe-thermostatische-inbouw-douche-set-04-met-stopkranen-en-2-s-9718",
-    "sku": "BRA-STRIPE-LUXE-THERMOSTATISCHE-INBOUW-DOUCH-HIVN",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9719,
-    "name": "Stripe Luxe thermostatische inbouw douche set 05 met stopkranen en 2-standen inbouw plafond douche en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-luxe-thermostatische-inbouw-douche-set-05-met-stopkranen-en-2-s-9719",
-    "sku": "BRA-STRIPE-LUXE-THERMOSTATISCHE-INBOUW-DOUCH-12BW",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9720,
-    "name": "Stripe Luxe thermostatische inbouw douche set 06 met stopkranen en 2-standen inbouw plafond douche en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-luxe-thermostatische-inbouw-douche-set-06-met-stopkranen-en-2-s-9720",
-    "sku": "BRA-STRIPE-LUXE-THERMOSTATISCHE-INBOUW-DOUCH-10PA",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9721,
-    "name": "Stripe Luxe thermostatische inbouw douche set 07 met stopkranen en 2-standen inbouw plafond douche en staaf handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "stripe-luxe-thermostatische-inbouw-douche-set-07-met-stopkranen-en-2-s-9721",
-    "sku": "BRA-STRIPE-LUXE-THERMOSTATISCHE-INBOUW-DOUCH-U2U4",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9722,
-    "name": "Stripe Luxe thermostatische inbouw douche set 08 met stopkranen en 2-standen inbouw plafond douche en 3-standen handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "stripe-luxe-thermostatische-inbouw-douche-set-08-met-stopkranen-en-2-s-9722",
-    "sku": "BRA-STRIPE-LUXE-THERMOSTATISCHE-INBOUW-DOUCH-1EQ0",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9723,
+    "id": 9659,
     "name": "Stripe met wateruitlaat",
-    "slug": "stripe-met-wateruitlaat-9723",
+    "slug": "stripe-met-wateruitlaat-9659",
     "sku": "BRA-STRIPE-MET-WATERUITLAAT-S1YZ",
     "short": null,
     "description": null,
@@ -16046,9 +12616,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9724,
+    "id": 9660,
     "name": "Stripe Muur- en plafondarmen",
-    "slug": "stripe-muur-en-plafondarmen-9724",
+    "slug": "stripe-muur-en-plafondarmen-9660",
     "sku": "BRA-STRIPE-MUUR-EN-PLAFONDARMEN-1LSA",
     "short": null,
     "description": null,
@@ -16110,9 +12680,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9725,
+    "id": 9661,
     "name": "Stripe Opbouw thermostaten",
-    "slug": "stripe-opbouw-thermostaten-9725",
+    "slug": "stripe-opbouw-thermostaten-9661",
     "sku": "BRA-STRIPE-OPBOUW-THERMOSTATEN-1EN9",
     "short": null,
     "description": null,
@@ -16174,304 +12744,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9726,
-    "name": "Stripe Opbouw thermostatische regendouche zonder stijgbuis en beslag",
-    "slug": "stripe-opbouw-thermostatische-regendouche-zonder-stijgbuis-en-beslag-9726",
-    "sku": "BRA-STRIPE-OPBOUW-THERMOSTATISCHE-REGENDOUCH-JDWO",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9727,
-    "name": "Stripe Premium thermostatische inbouw regendouche set 01 met stopkranen en 2-standen cilindervormige douchekop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-premium-thermostatische-inbouw-regendouche-set-01-met-stopkrane-9727",
-    "sku": "BRA-STRIPE-PREMIUM-THERMOSTATISCHE-INBOUW-RE-11HN",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9728,
-    "name": "Stripe Premium thermostatische inbouw regendouche set 02 met stopkranen en 2-standen cilindervormige douchekop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-premium-thermostatische-inbouw-regendouche-set-02-met-stopkrane-9728",
-    "sku": "BRA-STRIPE-PREMIUM-THERMOSTATISCHE-INBOUW-RE-AVXS",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9729,
-    "name": "Stripe Premium thermostatische inbouw regendouche set 03 met stopkranen en 2-standen cilindervormige douchekop en staaf handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "stripe-premium-thermostatische-inbouw-regendouche-set-03-met-stopkrane-9729",
-    "sku": "BRA-STRIPE-PREMIUM-THERMOSTATISCHE-INBOUW-RE-18QX",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9730,
-    "name": "Stripe Premium thermostatische inbouw regendouche set 04 met stopkranen en 2-standen cilindervormige douchekop en 3-standen handdouche en doucheslang en geïntegreerde glijstang",
-    "slug": "stripe-premium-thermostatische-inbouw-regendouche-set-04-met-stopkrane-9730",
-    "sku": "BRA-STRIPE-PREMIUM-THERMOSTATISCHE-INBOUW-RE-1YOS",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douchekranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9731,
+    "id": 9662,
     "name": "Stripe Thermostatische inbouw badkraan met badvulcombinatie",
-    "slug": "stripe-thermostatische-inbouw-badkraan-met-badvulcombinatie-9731",
+    "slug": "stripe-thermostatische-inbouw-badkraan-met-badvulcombinatie-9662",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-BADKRAAN-M-ZC8G",
     "short": null,
     "description": null,
@@ -16528,9 +12803,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9732,
+    "id": 9663,
     "name": "Stripe Thermostatische inbouw badkraan met uitloop",
-    "slug": "stripe-thermostatische-inbouw-badkraan-met-uitloop-9732",
+    "slug": "stripe-thermostatische-inbouw-badkraan-met-uitloop-9663",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-BADKRAAN-M-1DZJ",
     "short": null,
     "description": null,
@@ -16587,9 +12862,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9733,
+    "id": 9664,
     "name": "Stripe Thermostatische inbouw regendouche met 3-weg omstel",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-3-weg-omstel-9733",
+    "slug": "stripe-thermostatische-inbouw-regendouche-met-3-weg-omstel-9664",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-6Q9W",
     "short": null,
     "description": null,
@@ -16604,7 +12879,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Stripe",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -16699,9 +12974,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9734,
+    "id": 9665,
     "name": "Stripe Thermostatische inbouw regendouche met drukknoppen",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-drukknoppen-9734",
+    "slug": "stripe-thermostatische-inbouw-regendouche-met-drukknoppen-9665",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-706I",
     "short": null,
     "description": null,
@@ -16716,7 +12991,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Stripe",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -16811,9 +13086,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9735,
+    "id": 9666,
     "name": "Stripe Thermostatische inbouw regendouche met stopkranen",
-    "slug": "stripe-thermostatische-inbouw-regendouche-met-stopkranen-9735",
+    "slug": "stripe-thermostatische-inbouw-regendouche-met-stopkranen-9666",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-14LI",
     "short": null,
     "description": null,
@@ -16828,7 +13103,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Stripe",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -16923,9 +13198,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9736,
+    "id": 9667,
     "name": "Stripe Thermostatische inbouw regendouche rond met 3-weg omstel",
-    "slug": "stripe-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9736",
+    "slug": "stripe-thermostatische-inbouw-regendouche-rond-met-3-weg-omstel-9667",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-REGENDOUCH-126Q",
     "short": null,
     "description": null,
@@ -16940,7 +13215,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Stripe",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "bevestiginghoofddouche",
@@ -17035,9 +13310,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9737,
+    "id": 9668,
     "name": "Stripe Thermostatische opbouw badkraan",
-    "slug": "stripe-thermostatische-opbouw-badkraan-9737",
+    "slug": "stripe-thermostatische-opbouw-badkraan-9668",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-OPBOUW-BADKRAAN-FC3P",
     "short": null,
     "description": null,
@@ -17126,9 +13401,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9738,
+    "id": 9669,
     "name": "Stripe Thermostatische opbouw doucheset",
-    "slug": "stripe-thermostatische-opbouw-doucheset-9738",
+    "slug": "stripe-thermostatische-opbouw-doucheset-9669",
     "sku": "BRA-STRIPE-THERMOSTATISCHE-OPBOUW-DOUCHESET-1YFF",
     "short": null,
     "description": null,
@@ -17143,7 +13418,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Stripe",
-    "productType": "Douchekranen",
+    "productType": "Douches",
     "optionAxes": [
       {
         "key": "glijstang",
@@ -17217,9 +13492,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9739,
+    "id": 9670,
     "name": "Stripe Vrijstaande badmengkraan",
-    "slug": "stripe-vrijstaande-badmengkraan-9739",
+    "slug": "stripe-vrijstaande-badmengkraan-9670",
     "sku": "BRA-STRIPE-VRIJSTAANDE-BADMENGKRAAN-JJT8",
     "short": null,
     "description": null,
@@ -17276,68 +13551,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9740,
-    "name": "Stripe Vrijstaande badmengkraan zonder beslag",
-    "slug": "stripe-vrijstaande-badmengkraan-zonder-beslag-9740",
-    "sku": "BRA-STRIPE-VRIJSTAANDE-BADMENGKRAAN-ZONDER-B-1K0P",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9741,
+    "id": 9671,
     "name": "Stripe Wandhouder",
-    "slug": "stripe-wandhouder-9741",
+    "slug": "stripe-wandhouder-9671",
     "sku": "BRA-STRIPE-WANDHOUDER-SSHY",
     "short": null,
     "description": null,
@@ -17399,9 +13615,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9742,
+    "id": 9672,
     "name": "Stripe wateruitlaat",
-    "slug": "stripe-wateruitlaat-9742",
+    "slug": "stripe-wateruitlaat-9672",
     "sku": "BRA-STRIPE-WATERUITLAAT-SUE5",
     "short": null,
     "description": null,
@@ -17463,9 +13679,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9743,
+    "id": 9673,
     "name": "tegelinlegrooster en flens",
-    "slug": "tegelinlegrooster-en-flens-9743",
+    "slug": "tegelinlegrooster-en-flens-9673",
     "sku": "BRA-TEGELINLEGROOSTER-EN-FLENS-8L0Z",
     "short": null,
     "description": null,
@@ -17552,63 +13768,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9744,
-    "name": "Toilet bedieningsplaat model A tbv Geberit UP320 en UP720",
-    "slug": "toilet-bedieningsplaat-model-a-tbv-geberit-up320-en-up720-9744",
-    "sku": "BRA-TOILET-BEDIENINGSPLAAT-MODEL-A-TBV-GEBER-1KX4",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": null
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": null
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": null
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9745,
+    "id": 9674,
     "name": "Toiletborstelset",
-    "slug": "toiletborstelset-9745",
+    "slug": "toiletborstelset-9674",
     "sku": "BRA-TOILETBORSTELSET-3LA8",
     "short": null,
     "description": null,
@@ -17670,9 +13832,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9746,
+    "id": 9675,
     "name": "Toiletrolhouder",
-    "slug": "toiletrolhouder-9746",
+    "slug": "toiletrolhouder-9675",
     "sku": "BRA-TOILETROLHOUDER-K5WE",
     "short": null,
     "description": null,
@@ -17734,9 +13896,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9747,
+    "id": 9676,
     "name": "Void",
-    "slug": "void-9747",
+    "slug": "void-9676",
     "sku": "BRA-VOID-YK5A",
     "short": null,
     "description": null,
@@ -17809,9 +13971,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9748,
+    "id": 9677,
     "name": "Void 2-delig met draaideur",
-    "slug": "void-2-delig-met-draaideur-9748",
+    "slug": "void-2-delig-met-draaideur-9677",
     "sku": "BRA-VOID-2-DELIG-MET-DRAAIDEUR-1KWZ",
     "short": null,
     "description": null,
@@ -17868,9 +14030,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9749,
+    "id": 9678,
     "name": "Void 2-delig met draaideur op glas",
-    "slug": "void-2-delig-met-draaideur-op-glas-9749",
+    "slug": "void-2-delig-met-draaideur-op-glas-9678",
     "sku": "BRA-VOID-2-DELIG-MET-DRAAIDEUR-OP-GLAS-NVUQ",
     "short": null,
     "description": null,
@@ -17927,9 +14089,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9750,
+    "id": 9679,
     "name": "Void 2-delig met draaideur op muur",
-    "slug": "void-2-delig-met-draaideur-op-muur-9750",
+    "slug": "void-2-delig-met-draaideur-op-muur-9679",
     "sku": "BRA-VOID-2-DELIG-MET-DRAAIDEUR-OP-MUUR-NVZK",
     "short": null,
     "description": null,
@@ -17986,9 +14148,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9751,
+    "id": 9680,
     "name": "Void Carving 2-delig met draaideur",
-    "slug": "void-carving-2-delig-met-draaideur-9751",
+    "slug": "void-carving-2-delig-met-draaideur-9680",
     "sku": "BRA-VOID-CARVING-2-DELIG-MET-DRAAIDEUR-1SNF",
     "short": null,
     "description": null,
@@ -18045,9 +14207,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9752,
+    "id": 9681,
     "name": "Void Carving 2-delig met draaideur op glas",
-    "slug": "void-carving-2-delig-met-draaideur-op-glas-9752",
+    "slug": "void-carving-2-delig-met-draaideur-op-glas-9681",
     "sku": "BRA-VOID-CARVING-2-DELIG-MET-DRAAIDEUR-OP-GL-12KP",
     "short": null,
     "description": null,
@@ -18104,9 +14266,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9753,
+    "id": 9682,
     "name": "Void Carving 2-delig met draaideur op muur",
-    "slug": "void-carving-2-delig-met-draaideur-op-muur-9753",
+    "slug": "void-carving-2-delig-met-draaideur-op-muur-9682",
     "sku": "BRA-VOID-CARVING-2-DELIG-MET-DRAAIDEUR-OP-MU-12KU",
     "short": null,
     "description": null,
@@ -18163,9 +14325,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9754,
+    "id": 9683,
     "name": "Void Carving met draaideur",
-    "slug": "void-carving-met-draaideur-9754",
+    "slug": "void-carving-met-draaideur-9683",
     "sku": "BRA-VOID-CARVING-MET-DRAAIDEUR-1AAL",
     "short": null,
     "description": null,
@@ -18222,9 +14384,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9755,
+    "id": 9684,
     "name": "Void Carving met pendeldeuren",
-    "slug": "void-carving-met-pendeldeuren-9755",
+    "slug": "void-carving-met-pendeldeuren-9684",
     "sku": "BRA-VOID-CARVING-MET-PENDELDEUREN-19TS",
     "short": null,
     "description": null,
@@ -18281,9 +14443,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9756,
+    "id": 9685,
     "name": "Void inloopdouche helder glas met 30 zijwand incl. glascoating",
-    "slug": "void-inloopdouche-helder-glas-met-30-zijwand-incl-glascoating-9756",
+    "slug": "void-inloopdouche-helder-glas-met-30-zijwand-incl-glascoating-9685",
     "sku": "BRA-VOID-INLOOPDOUCHE-HELDER-GLAS-MET-30-ZIJ-CJ4K",
     "short": null,
     "description": null,
@@ -18336,9 +14498,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9757,
+    "id": 9686,
     "name": "Void inloopdouche helder glas met 40 zijwand incl. glascoating",
-    "slug": "void-inloopdouche-helder-glas-met-40-zijwand-incl-glascoating-9757",
+    "slug": "void-inloopdouche-helder-glas-met-40-zijwand-incl-glascoating-9686",
     "sku": "BRA-VOID-INLOOPDOUCHE-HELDER-GLAS-MET-40-ZIJ-1CRQ",
     "short": null,
     "description": null,
@@ -18391,9 +14553,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9758,
+    "id": 9687,
     "name": "Void met draaideur",
-    "slug": "void-met-draaideur-9758",
+    "slug": "void-met-draaideur-9687",
     "sku": "BRA-VOID-MET-DRAAIDEUR-3TD6",
     "short": null,
     "description": null,
@@ -18450,9 +14612,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9759,
+    "id": 9688,
     "name": "Void met pendeldeuren",
-    "slug": "void-met-pendeldeuren-9759",
+    "slug": "void-met-pendeldeuren-9688",
     "sku": "BRA-VOID-MET-PENDELDEUREN-L815",
     "short": null,
     "description": null,
@@ -18509,9 +14671,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9760,
+    "id": 9689,
     "name": "Void met zijwand",
-    "slug": "void-met-zijwand-9760",
+    "slug": "void-met-zijwand-9689",
     "sku": "BRA-VOID-MET-ZIJWAND-UFS9",
     "short": null,
     "description": null,
@@ -18565,28 +14727,6 @@ export const catalogProducts: CatalogProduct[] = [
         ]
       }
     ],
-    "variants": []
-  },
-  {
-    "id": 9761,
-    "name": "Zeepdispenser en beker model A incl. wand ophanging en magnetisch opzetvlak",
-    "slug": "zeepdispenser-en-beker-model-a-incl-wand-ophanging-en-magnetisch-opzet-9761",
-    "sku": "BRA-ZEEPDISPENSER-EN-BEKER-MODEL-A-INCL-WAND-10T0",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "accessories",
-    "brand": "brauer",
-    "series": null,
-    "productType": "Accessoires",
-    "optionAxes": null,
     "variants": []
   }
 ];

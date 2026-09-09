@@ -41,6 +41,7 @@ const TERMEN: Record<string, Vertaling> = {
   "Douchewand-onderdelen": { en: "Shower screen fittings", de: "Duschwand-Beschläge", es: "Herrajes para mamparas", fr: "Quincaillerie de parois", zh: "淋浴屏配件" },
   "Douchebakken": { en: "Shower trays", de: "Duschwannen", es: "Platos de ducha", fr: "Receveurs de douche", zh: "淋浴盆" },
   "Toiletten": { en: "Toilets", de: "Toiletten", es: "Inodoros", fr: "Toilettes", zh: "马桶" },
+  Douches: { en: "Showers", de: "Duschen", es: "Duchas", fr: "Douches", zh: "淋浴" },
   Accessoires: { en: "Accessories", de: "Accessoires", es: "Accesorios", fr: "Accessoires", zh: "配件" },
   Toilet: { en: "Toilet", de: "WC", es: "Inodoro", fr: "WC", zh: "坐便器" },
 
