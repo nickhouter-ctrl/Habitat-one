@@ -6938,127 +6938,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9585,
-    "name": "Carving Inbouw wastafelmengkraan met gebogen uitloop",
-    "slug": "carving-inbouw-wastafelmengkraan-met-gebogen-uitloop-9585",
-    "sku": "BRA-CARVING-INBOUW-WASTAFELMENGKRAAN-MET-GEB-1BOQ",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Wastafelkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-B6.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-B6.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6-65.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-083-B6.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-083-B6-65.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-083-B6.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9586,
-    "name": "Carving inbouw wastafelmengkraan met gebogen uitloop en rozetten model A1",
-    "slug": "carving-inbouw-wastafelmengkraan-met-gebogen-uitloop-en-rozetten-model-9586",
-    "sku": "BRA-CARVING-INBOUW-WASTAFELMENGKRAAN-MET-GEB-1YEK",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Wastafelkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B6-65.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B6.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-B6.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-B6-65.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-B6.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
     "id": 9587,
-    "name": "Carving Inbouw wastafelmengkraan met rechte uitloop",
-    "slug": "carving-inbouw-wastafelmengkraan-met-rechte-uitloop-9587",
+    "name": "Carving inbouw wastafelmengkraan",
+    "slug": "carving-inbouw-wastafelmengkraan-9587",
     "sku": "BRA-CARVING-INBOUW-WASTAFELMENGKRAAN-MET-REC-1JOW",
     "short": null,
     "description": null,
@@ -7092,7 +6974,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-S6.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-083-B6.jpg"
           },
           {
             "value": "Geborsteld koper",
@@ -7102,12 +6984,60 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S6.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-B6.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-083-S6.jpg"
+          }
+        ]
+      },
+      {
+        "key": "uitloop",
+        "label": "Uitloop",
+        "values": [
+          {
+            "value": "Gebogen",
+            "label": "Gebogen",
+            "image": null
+          },
+          {
+            "value": "Recht",
+            "label": "Recht",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "afwerking",
+        "label": "Afwerking",
+        "values": [
+          {
+            "value": "Afdekplaat",
+            "label": "Afdekplaat",
+            "image": null
+          },
+          {
+            "value": "Rozetten",
+            "label": "Rozetten",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "model",
+        "label": "Model",
+        "values": [
+          {
+            "value": "Model A1",
+            "label": "Model A1",
+            "image": null
+          },
+          {
+            "value": "Model A2",
+            "label": "Model A2",
+            "image": null
           }
         ]
       }
@@ -9454,7 +9384,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003-S2.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -9472,12 +9402,17 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003-S2.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-003-R1.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-003-S1.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -9492,16 +9427,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-003-S3.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-003-R1.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-003.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-003-R1.jpg"
+          }
+        ]
+      },
+      {
+        "key": "model",
+        "label": "Model",
+        "values": [
+          {
+            "value": "Model A",
+            "label": "Model A",
+            "image": null
           },
           {
-            "value": "Coffee",
-            "label": "Coffee",
+            "value": "Model B",
+            "label": "Model B",
+            "image": null
+          },
+          {
+            "value": "Model C",
+            "label": "Model C",
             "image": null
           }
         ]
@@ -9638,15 +9589,15 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9627,
-    "name": "Edition Inbouw wastafelmengkraan met gebogen uitloop",
-    "slug": "edition-inbouw-wastafelmengkraan-met-gebogen-uitloop-9627",
-    "sku": "BRA-EDITION-INBOUW-WASTAFELMENGKRAAN-MET-GEB-578Y",
+    "id": 9628,
+    "name": "Edition inbouw wastafelmengkraan",
+    "slug": "edition-inbouw-wastafelmengkraan-9628",
+    "sku": "BRA-EDITION-INBOUW-WASTAFELMENGKRAAN-MET-REC-1OV0",
     "short": null,
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B3-65.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B5-65.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -9664,7 +9615,7 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B3-65.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B5-65.jpg"
           },
           {
             "value": "Geborsteld goud",
@@ -9692,63 +9643,92 @@ export const catalogProducts: CatalogProduct[] = [
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-B5-65.jpg"
           }
         ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9628,
-    "name": "Edition Inbouw wastafelmengkraan met rechte uitloop",
-    "slug": "edition-inbouw-wastafelmengkraan-met-rechte-uitloop-9628",
-    "sku": "BRA-EDITION-INBOUW-WASTAFELMENGKRAAN-MET-REC-1OV0",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1-65.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Wastafelkranen",
-    "optionAxes": [
+      },
       {
-        "key": "kleur",
-        "label": "Kleur",
+        "key": "uitloop",
+        "label": "Uitloop",
         "values": [
           {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-083-S1-65.jpg"
+            "value": "Gebogen",
+            "label": "Gebogen",
+            "image": null
           },
           {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-004-S4-65.jpg"
+            "value": "Recht",
+            "label": "Recht",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "afwerking",
+        "label": "Afwerking",
+        "values": [
+          {
+            "value": "Afdekplaat",
+            "label": "Afdekplaat",
+            "image": null
           },
           {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-004-S1-65.jpg"
+            "value": "Rozetten",
+            "label": "Rozetten",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "model",
+        "label": "Model",
+        "values": [
+          {
+            "value": "Model A1",
+            "label": "Model A1",
+            "image": null
           },
           {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-004-S4-65.jpg"
+            "value": "Model A2",
+            "label": "Model A2",
+            "image": null
           },
           {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-004-S3-65.jpg"
+            "value": "Model B1",
+            "label": "Model B1",
+            "image": null
           },
           {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-004-S3-65.jpg"
+            "value": "Model B2",
+            "label": "Model B2",
+            "image": null
+          },
+          {
+            "value": "Model C1",
+            "label": "Model C1",
+            "image": null
+          },
+          {
+            "value": "Model C2",
+            "label": "Model C2",
+            "image": null
+          },
+          {
+            "value": "Model D1",
+            "label": "Model D1",
+            "image": null
+          },
+          {
+            "value": "Model D2",
+            "label": "Model D2",
+            "image": null
+          },
+          {
+            "value": "Model E1",
+            "label": "Model E1",
+            "image": null
+          },
+          {
+            "value": "Model E2",
+            "label": "Model E2",
+            "image": null
           }
         ]
       }
@@ -13158,10 +13138,10 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9683,
-    "name": "Stripe inbouw wastafelmengkraan met gebogen uitloop en afdekplaat model A1",
-    "slug": "stripe-inbouw-wastafelmengkraan-met-gebogen-uitloop-en-afdekplaat-mode-9683",
-    "sku": "BRA-STRIPE-INBOUW-WASTAFELMENGKRANEN-ZI44",
+    "id": 9684,
+    "name": "Stripe inbouw wastafelmengkraan",
+    "slug": "stripe-inbouw-wastafelmengkraan-9684",
+    "sku": "BRA-328-STRIPE-INBOUW-WASTAFELMENGKRAAN-MET-I6MN",
     "short": null,
     "description": null,
     "descriptionI18n": null,
@@ -13182,14 +13162,14 @@ export const catalogProducts: CatalogProduct[] = [
         "label": "Kleur",
         "values": [
           {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-329.jpg"
+          },
+          {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-329.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-329.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -13199,194 +13179,65 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-333.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-329.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-329.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9684,
-    "name": "Stripe inbouw wastafelmengkraan met gebogen uitloop en rozetten model A1",
-    "slug": "stripe-inbouw-wastafelmengkraan-met-gebogen-uitloop-en-rozetten-model--9684",
-    "sku": "BRA-328-STRIPE-INBOUW-WASTAFELMENGKRAAN-MET-I6MN",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-328.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Wastafelkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-328.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-332.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-328.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-328.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-332.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-332.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9685,
-    "name": "Stripe inbouw wastafelmengkraan met rechte uitloop en afdekplaat model A2",
-    "slug": "stripe-inbouw-wastafelmengkraan-met-rechte-uitloop-en-afdekplaat-model-9685",
-    "sku": "BRA-334-STRIPE-INBOUW-WASTAFELMENGKRAAN-MET-1JIW",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-330.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Wastafelkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-334.jpg"
           },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-330.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-330.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-334.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-334.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-330.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9686,
-    "name": "Stripe inbouw wastafelmengkraan met rechte uitloop en rozetten model A1",
-    "slug": "stripe-inbouw-wastafelmengkraan-met-rechte-uitloop-en-rozetten-model-a-9686",
-    "sku": "BRA-331-STRIPE-INBOUW-WASTAFELMENGKRAAN-MET-1WWE",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-335.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Wastafelkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-331.jpg"
           },
           {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-331.jpg"
-          },
-          {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-335.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-334.jpg"
+          }
+        ]
+      },
+      {
+        "key": "uitloop",
+        "label": "Uitloop",
+        "values": [
+          {
+            "value": "Gebogen",
+            "label": "Gebogen",
+            "image": null
           },
           {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-335.jpg"
+            "value": "Recht",
+            "label": "Recht",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "afwerking",
+        "label": "Afwerking",
+        "values": [
+          {
+            "value": "Afdekplaat",
+            "label": "Afdekplaat",
+            "image": null
           },
           {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-335.jpg"
+            "value": "Rozetten",
+            "label": "Rozetten",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "model",
+        "label": "Model",
+        "values": [
+          {
+            "value": "Model A1",
+            "label": "Model A1",
+            "image": null
           },
           {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-331.jpg"
+            "value": "Model A2",
+            "label": "Model A2",
+            "image": null
           }
         ]
       }
