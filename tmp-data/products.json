@@ -4298,23 +4298,6 @@
     "collection": "bathroom"
   },
   {
-    "id": 9582,
-    "name": "Badvulcombinatie",
-    "slug": "badvulcombinatie-9582",
-    "sku": "BRA-045-BADVULCOMBINATIE-1YS9",
-    "description": null,
-    "description_i18n": null,
-    "short_description": null,
-    "thumbnail_path": null,
-    "featured": false,
-    "stock_unit": "Pcs",
-    "brand": "brauer",
-    "series": "Stripe",
-    "product_type": "Badvullers",
-    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-045.jpg",
-    "collection": "bathroom"
-  },
-  {
     "id": 9583,
     "name": "Carving Hoge opbouw wastafelmengkraan",
     "slug": "carving-hoge-opbouw-wastafelmengkraan-9583",
