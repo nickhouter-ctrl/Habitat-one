@@ -661,12 +661,14 @@ export function ProductDetailLayout({
 
         {/* Actions */}
         <div className="mt-10 border-t border-ink/15 pt-8">
+          {/* De gekozen uitvoering (kleur, model …) gaat als eigen regel met eigen artikelnummer naar de offerte,
+              zodat de bestelling precies klopt en een andere uitvoering apart toegevoegd kan worden. */}
           <ProductQuoteActions
             slug={product.slug}
             name={name}
-            variant={activeVariant?.name ?? null}
-            sku={activeVariant?.sku || product.sku || null}
-            image={images[0] ?? product.image ?? null}
+            variant={gekozenCombinatie ? optionAxes!.map((a) => { const w = a.values.find((v) => v.value === keuze[a.key]); return term(w?.label ?? keuze[a.key] ?? "", locale); }).filter(Boolean).join(" · ") : activeVariant?.name ?? null}
+            sku={gekozenCombinatie?.sku || activeVariant?.sku || product.sku || null}
+            image={gekozenCombinatie?.image ?? images[0] ?? product.image ?? null}
             labels={{
               enquire: labels.enquire,
               addToQuote: labels.addToQuote,
