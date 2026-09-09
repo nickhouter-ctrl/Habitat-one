@@ -74,6 +74,9 @@ const TERMEN: Record<string, Vertaling> = {
   "Brons glas": { en: "Bronze glass", de: "Bronzeglas", es: "Vidrio bronce", fr: "Verre bronze", zh: "茶色玻璃" },
   "Ribbelglas": { en: "Fluted glass", de: "Riffelglas", es: "Vidrio acanalado", fr: "Verre cannelé", zh: "条纹玻璃" },
   "Mat wit": { en: "Matt white", de: "Mattweiß", es: "Blanco mate", fr: "Blanc mat", zh: "哑光白" },
+  "Stopkranen (losse knoppen)": { en: "Stop valves (separate knobs)", de: "Absperrventile (einzelne Griffe)", es: "Llaves de paso (mandos separados)", fr: "Robinets d'arrêt (boutons séparés)", zh: "截止阀（独立旋钮）" },
+  "3-weg omstel, rechthoekige plaat": { en: "3-way diverter, rectangular plate", de: "3-Wege-Umsteller, rechteckige Rosette", es: "Inversor de 3 vías, placa rectangular", fr: "Inverseur 3 voies, plaque rectangulaire", zh: "三路分水，方形面板" },
+  "3-weg omstel, ronde plaat": { en: "3-way diverter, round plate", de: "3-Wege-Umsteller, runde Rosette", es: "Inversor de 3 vías, placa redonda", fr: "Inverseur 3 voies, plaque ronde", zh: "三路分水，圆形面板" },
   Accessoires: { en: "Accessories", de: "Accessoires", es: "Accesorios", fr: "Accessoires", zh: "配件" },
   Toilet: { en: "Toilet", de: "WC", es: "Inodoro", fr: "WC", zh: "坐便器" },
 

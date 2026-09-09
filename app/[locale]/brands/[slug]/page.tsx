@@ -166,7 +166,7 @@ export default async function BrandPage({
                 return (
                   <Link
                     key={type}
-                    href={`/brands/${slug}?type=${encodeURIComponent(type)}`}
+                    href={`/brands/${slug}?type=${encodeURIComponent(type)}#producten`}
                     className="group flex items-center gap-4 rounded-sm border border-ink/15 p-3 transition-colors hover:border-ink/40"
                   >
                     <span className="relative block size-16 shrink-0 overflow-hidden bg-paper">

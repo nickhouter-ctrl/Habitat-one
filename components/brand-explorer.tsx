@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
 
@@ -50,6 +50,13 @@ export function BrandExplorer({
   // Welke filtergroepen zijn helemaal uitgeklapt? Lange lijsten (meubelkleuren
   // lopen tot 27) vullen anders de hele kolom.
   const [uitgeklapt, setUitgeklapt] = useState<Record<string, boolean>>({});
+  // De typetegels bovenaan de merkpagina linken naar dezelfde pagina met een
+  // ander filter; de component blijft dan staan, dus de URL moet leidend zijn.
+  useEffect(() => {
+    setSerie(params?.get("serie") ?? "all");
+    setType(params?.get("type") ?? "all");
+    setKleur(params?.get("kleur") ?? "all");
+  }, [params]);
 
   /** De kleuren van een product, uit zijn keuze-assen. */
   const kleurenVan = (p: CatalogProduct): string[] => {
@@ -162,7 +169,7 @@ export function BrandExplorer({
   };
 
   return (
-    <div className="grid gap-10 lg:grid-cols-[15rem_1fr] lg:gap-14">
+    <div id="producten" className="grid scroll-mt-32 gap-10 lg:grid-cols-[15rem_1fr] lg:gap-14">
       {/* De filters blijven in beeld terwijl je door het raster scrolt, en
           scrollen zélf als de lijst langer is dan het scherm — anders moet je
           eerst de hele pagina omlaag om bij de laatste kleur te komen.
