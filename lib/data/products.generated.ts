@@ -6803,7 +6803,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": null,
-    "productType": "Douchewanden",
+    "productType": "Douchebakken",
     "optionAxes": [
       {
         "key": "kleur",
