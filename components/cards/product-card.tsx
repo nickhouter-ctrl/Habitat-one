@@ -94,7 +94,16 @@ export function ProductCard({
       data-hover-label={t("viewProduct")}
       className={cn("group block", className)}
     >
-      <div className={cn("relative aspect-[3/4] overflow-hidden", CONTAIN_COLLECTIONS.includes(product.collection) ? "bg-paper" : "bg-sand-100")}>
+      {/* Merkfoto's zijn vierkante packshots en sfeerbeelden (2000×2000): heel
+          tonen in een vierkant, niet bijsnijden — anders valt de uitloop of het
+          beslag van de kaart af. */}
+      <div
+        className={cn(
+          "relative overflow-hidden",
+          merk ? "aspect-square bg-paper" : "aspect-[3/4]",
+          !merk && (CONTAIN_COLLECTIONS.includes(product.collection) ? "bg-paper" : "bg-sand-100"),
+        )}
+      >
         {cardImage ? (
           <Image
             src={cardImage}
@@ -105,9 +114,11 @@ export function ProductCard({
               "transition-transform duration-[1.1s] ease-out group-hover:scale-[1.04]",
               // Bloempotten-kleurfilter toont de staande pot-foto → heel tonen; verlichting
               // (productfoto op wit) altijd heel; anders vult de 3:4 lifestyle-crop de kaart.
-              product.collection === "verlichting" || product.collection === "schakelmateriaal" || product.collection === "furniture" || (product.collection === "bloempotten" && imageOverride)
-                ? "object-contain p-4"
-                : "object-cover",
+              merk
+                ? "object-contain"
+                : product.collection === "verlichting" || product.collection === "schakelmateriaal" || product.collection === "furniture" || (product.collection === "bloempotten" && imageOverride)
+                  ? "object-contain p-4"
+                  : "object-cover",
             )}
             priority={priority}
           />
