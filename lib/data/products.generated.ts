@@ -6722,70 +6722,6 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9579,
-    "name": "3-Standen handdouche",
-    "slug": "3-standen-handdouche-9579",
-    "sku": "BRA-011-3-STANDEN-HANDDOUCHE-LHK8",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Handdouches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-011.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-011.jpg"
-          },
-          {
-            "value": "Coffee",
-            "label": "Coffee",
-            "image": null
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-011.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-011.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-011.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
     "id": 9580,
     "name": "Altijd open waste",
     "slug": "altijd-open-waste-9580",
@@ -7415,245 +7351,9 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9592,
-    "name": "Carving thermostatische inbouw badkraan met drukknoppen SET 03 met badvulcombinatie en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-thermostatische-inbouw-badkraan-met-drukknoppen-set-03-met-bad-9592",
-    "sku": "BRA-212-CARVING-THERMOSTATISCHE-INBOUW-BADKR-1525",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-212.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-212.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-212.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-212.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-212.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-212.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-212.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9593,
-    "name": "Carving thermostatische inbouw badkraan met drukknoppen SET 03 met uitloop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-thermostatische-inbouw-badkraan-met-drukknoppen-set-03-met-uit-9593",
-    "sku": "BRA-214-CARVING-THERMOSTATISCHE-INBOUW-BADKR-1M56",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-214.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-214.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-214.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-214.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-214.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-214.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-214.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9594,
-    "name": "Carving thermostatische inbouw badkraan met drukknoppen SET 04 met badvulcombinatie en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-thermostatische-inbouw-badkraan-met-drukknoppen-set-04-met-bad-9594",
-    "sku": "BRA-213-CARVING-THERMOSTATISCHE-INBOUW-BADKR-P5EJ",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-213.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-213.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-213.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-213.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-213.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-213.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-213.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9595,
-    "name": "Carving thermostatische inbouw badkraan met drukknoppen SET 04 met uitloop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-thermostatische-inbouw-badkraan-met-drukknoppen-set-04-met-uit-9595",
-    "sku": "BRA-215-CARVING-THERMOSTATISCHE-INBOUW-BADKR-DFWE",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-215.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-215.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-215.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-215.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-215.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-215.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-215.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
     "id": 9596,
-    "name": "Carving thermostatische inbouw badkraan SET 01 met badvulcombinatie en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-thermostatische-inbouw-badkraan-set-01-met-badvulcombinatie-en-9596",
+    "name": "Carving thermostatische inbouw badkraan",
+    "slug": "carving-thermostatische-inbouw-badkraan-9596",
     "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-BADKRAAN-R3XM",
     "short": null,
     "description": null,
@@ -7675,211 +7375,82 @@ export const catalogProducts: CatalogProduct[] = [
         "label": "Kleur",
         "values": [
           {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-095.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-095.jpg"
-          },
-          {
             "value": "Chroom",
             "label": "Chroom",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-095.jpg"
           },
           {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-095.jpg"
-          },
-          {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-095.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-095.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9597,
-    "name": "Carving thermostatische inbouw badkraan SET 01 met uitloop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-thermostatische-inbouw-badkraan-set-01-met-uitloop-en-staaf-ha-9597",
-    "sku": "BRA-CARVING-THERMOSTATISCHE-INBOUW-BADKRAAN-1TJR",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-093.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-093.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-093.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-093.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-093.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-093.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-093.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9598,
-    "name": "Carving thermostatische inbouw badkraan SET 02 met badvulcombinatie en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-thermostatische-inbouw-badkraan-set-02-met-badvulcombinatie-en-9598",
-    "sku": "BRA-096-CARVING-THERMOSTATISCHE-INBOUW-BADKR-KRVU",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-096.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-096.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-096.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-215.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-096.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-095.jpg"
           },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-096.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-096.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-096.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9599,
-    "name": "Carving thermostatische inbouw badkraan SET 02 met uitloop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "carving-thermostatische-inbouw-badkraan-set-02-met-uitloop-en-3-stande-9599",
-    "sku": "BRA-094-CARVING-THERMOSTATISCHE-INBOUW-BADKR-1XSV",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-094.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Carving",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-094.jpg"
           },
           {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-094.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-094.jpg"
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-213.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-094.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-215.jpg"
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
           },
           {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-094.jpg"
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "bediening",
+        "label": "Bediening",
+        "values": [
+          {
+            "value": "Draaiknoppen",
+            "label": "Draaiknoppen",
+            "image": null
           },
           {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-094.jpg"
+            "value": "Drukknoppen",
+            "label": "Drukknoppen",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "vulling",
+        "label": "Badvulling",
+        "values": [
+          {
+            "value": "Badvulcombinatie",
+            "label": "Badvulcombinatie",
+            "image": null
+          },
+          {
+            "value": "Uitloop",
+            "label": "Uitloop",
+            "image": null
           }
         ]
       }
@@ -10472,69 +10043,10 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9633,
-    "name": "Edition thermostatische inbouw badkraan met drukknoppen SET 03 met badvulcombinatie en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-thermostatische-inbouw-badkraan-met-drukknoppen-set-03-met-bad-9633",
-    "sku": "BRA-208-EDITION-THERMOSTATISCHE-INBOUW-BADKR-GUWL",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-208.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-208.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-208.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-208.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-208.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-208.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9634,
-    "name": "Edition thermostatische inbouw badkraan met drukknoppen SET 03 met uitloop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-thermostatische-inbouw-badkraan-met-drukknoppen-set-03-met-uit-9634",
-    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-1YPV",
+    "id": 9639,
+    "name": "Edition thermostatische inbouw badkraan",
+    "slug": "edition-thermostatische-inbouw-badkraan-9639",
+    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-KWKN",
     "short": null,
     "description": null,
     "descriptionI18n": null,
@@ -10560,260 +10072,14 @@ export const catalogProducts: CatalogProduct[] = [
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-210.jpg"
           },
           {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-210.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-210.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-210.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-210.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-210.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9635,
-    "name": "Edition thermostatische inbouw badkraan met drukknoppen SET 04 met badvulcombinatie en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-thermostatische-inbouw-badkraan-met-drukknoppen-set-04-met-bad-9635",
-    "sku": "BRA-209-EDITION-THERMOSTATISCHE-INBOUW-BADKR-V6SX",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-209.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-209.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-209.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-209.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-209.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-209.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-209.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9636,
-    "name": "Edition thermostatische inbouw badkraan met drukknoppen SET 04 met uitloop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-thermostatische-inbouw-badkraan-met-drukknoppen-set-04-met-uit-9636",
-    "sku": "BRA-211-EDITION-THERMOSTATISCHE-INBOUW-BADKR-K2SV",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-211.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-211.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-211.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-211.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-211.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-211.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-211.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9637,
-    "name": "Edition thermostatische inbouw badkraan SET 01 met badvulcombinatie en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-thermostatische-inbouw-badkraan-set-01-met-badvulcombinatie-en-9637",
-    "sku": "BRA-046-EDITION-THERMOSTATISCHE-INBOUW-BADKR-1QLX",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-046.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-046.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-046.jpg"
-          },
-          {
             "value": "Coffee",
             "label": "Coffee",
             "image": null
           },
           {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-046.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-046.jpg"
-          },
-          {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-046.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9638,
-    "name": "Edition thermostatische inbouw badkraan SET 01 met uitloop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-thermostatische-inbouw-badkraan-set-01-met-uitloop-en-staaf-ha-9638",
-    "sku": "BRA-022-EDITION-THERMOSTATISCHE-INBOUW-BADKR-1X35",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-022.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-022.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-022.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-022.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-022.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-208.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -10821,132 +10087,67 @@ export const catalogProducts: CatalogProduct[] = [
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-022.jpg"
           },
           {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-022.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9639,
-    "name": "Edition thermostatische inbouw badkraan SET 02 met badvulcombinatie en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-thermostatische-inbouw-badkraan-set-02-met-badvulcombinatie-en-9639",
-    "sku": "BRA-EDITION-THERMOSTATISCHE-INBOUW-BADKRAAN-KWKN",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-047.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-047.jpg"
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-210.jpg"
           },
           {
-            "value": "Coffee",
-            "label": "Coffee",
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-210.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-210.jpg"
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
             "image": null
           },
           {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-047.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-047.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-047.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-047.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-047.jpg"
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
           }
         ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9640,
-    "name": "Edition thermostatische inbouw badkraan SET 02 met uitloop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "edition-thermostatische-inbouw-badkraan-set-02-met-uitloop-en-3-stande-9640",
-    "sku": "BRA-023-EDITION-THERMOSTATISCHE-INBOUW-BADKR-1HDF",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-023.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Edition",
-    "productType": "Badkranen",
-    "optionAxes": [
+      },
       {
-        "key": "kleur",
-        "label": "Kleur",
+        "key": "bediening",
+        "label": "Bediening",
         "values": [
           {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-023.jpg"
+            "value": "Draaiknoppen",
+            "label": "Draaiknoppen",
+            "image": null
           },
           {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-023.jpg"
+            "value": "Drukknoppen",
+            "label": "Drukknoppen",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "vulling",
+        "label": "Badvulling",
+        "values": [
+          {
+            "value": "Badvulcombinatie",
+            "label": "Badvulcombinatie",
+            "image": null
           },
           {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-023.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-023.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-023.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-023.jpg"
+            "value": "Uitloop",
+            "label": "Uitloop",
+            "image": null
           }
         ]
       }
@@ -12036,65 +11237,6 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9652,
-    "name": "Glijstang",
-    "slug": "glijstang-9652",
-    "sku": "BRA-5-NG-5513-GLIJSTANG-DE59",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5513.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Glijstangen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-5513.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-5513.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5513.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-5513.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-5513.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-5513.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
     "id": 9653,
     "name": "Glijstang met geïntegreerde wateruitlaat",
     "slug": "glijstang-met-geintegreerde-wateruitlaat-9653",
@@ -12339,6 +11481,145 @@ export const catalogProducts: CatalogProduct[] = [
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-220.jpg"
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9652,
+    "name": "Handdouche",
+    "slug": "handdouche-9652",
+    "sku": "BRA-5-NG-5513-GLIJSTANG-DE59",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5513.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Glijstangen",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5513.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-5513.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-5513.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-5513.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-5513.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-5513.jpg"
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
+    "id": 9677,
+    "name": "Handdouche",
+    "slug": "handdouche-9677",
+    "sku": "BRA-STRIPE-HANDDOUCHES-EN-TOEBEHOREN-TGZB",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Handdouches",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010.jpg"
+          },
+          {
+            "value": "Coffee",
+            "label": "Coffee",
+            "image": null
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-011.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-010.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-010.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-011.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-010.jpg"
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
           }
         ]
       }
@@ -13519,7 +12800,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Stripe",
-    "productType": "Glijstangen",
+    "productType": "Douchekoppen",
     "optionAxes": [
       {
         "key": "kleur",
@@ -13531,19 +12812,14 @@ export const catalogProducts: CatalogProduct[] = [
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-017.jpg"
           },
           {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-016.jpg"
-          },
-          {
             "value": "Coffee",
             "label": "Coffee",
             "image": null
           },
           {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-017.jpg"
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-016.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
@@ -13551,78 +12827,35 @@ export const catalogProducts: CatalogProduct[] = [
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-016.jpg"
           },
           {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-016.jpg"
+          },
+          {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-016.jpg"
           },
           {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-016.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9677,
-    "name": "Staaf handdouche",
-    "slug": "staaf-handdouche-9677",
-    "sku": "BRA-STRIPE-HANDDOUCHES-EN-TOEBEHOREN-TGZB",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Handdouches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-010.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-010.jpg"
-          },
-          {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-010.jpg"
-          },
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-017.jpg"
+          }
+        ]
+      },
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
           {
-            "value": "Coffee",
-            "label": "Coffee",
+            "value": "200 cm",
+            "label": "200 cm",
             "image": null
           },
           {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-010.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-010.jpg"
+            "value": "300 cm",
+            "label": "300 cm",
+            "image": null
           }
         ]
       }
@@ -14279,6 +13512,97 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
+    "id": 9690,
+    "name": "Stripe opbouw douche thermostaatkraan",
+    "slug": "stripe-opbouw-douche-thermostaatkraan-9690",
+    "sku": "BRA-345-STRIPE-OPBOUW-DOUCHE-THERMOSTAATKRAA-1S6B",
+    "short": null,
+    "description": null,
+    "descriptionI18n": null,
+    "additionalSizes": null,
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-346.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "bathroom",
+    "brand": "brauer",
+    "series": "Stripe",
+    "productType": "Douches",
+    "optionAxes": [
+      {
+        "key": "kleur",
+        "label": "Kleur",
+        "values": [
+          {
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-346.jpg"
+          },
+          {
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-346.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-345.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-345.jpg"
+          },
+          {
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-345.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-345.jpg"
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variants": []
+  },
+  {
     "id": 9689,
     "name": "Stripe opbouw douche thermostaatkraan",
     "slug": "stripe-opbouw-douche-thermostaatkraan-9689",
@@ -14331,124 +13655,6 @@ export const catalogProducts: CatalogProduct[] = [
             "value": "Chroom",
             "label": "Chroom",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-344.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9690,
-    "name": "Stripe opbouw douche thermostaatkraan SET 01 met glijstang en staaf handdouche en doucheslang",
-    "slug": "stripe-opbouw-douche-thermostaatkraan-set-01-met-glijstang-en-staaf-ha-9690",
-    "sku": "BRA-345-STRIPE-OPBOUW-DOUCHE-THERMOSTAATKRAA-1S6B",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-345.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-345.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-345.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-345.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-345.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-345.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-345.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9691,
-    "name": "Stripe opbouw douche thermostaatkraan SET 02 met glijstang en 3-standen handdouche en doucheslang",
-    "slug": "stripe-opbouw-douche-thermostaatkraan-set-02-met-glijstang-en-3-stande-9691",
-    "sku": "BRA-STRIPE-THERMOSTATISCHE-OPBOUW-DOUCHESET-1YFF",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-346.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-346.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-346.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-346.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-346.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-346.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-346.jpg"
           }
         ]
       }
@@ -14639,68 +13845,9 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9695,
-    "name": "Stripe opbouw thermostatische regendouche SET 01 met 25 cm hoofddouche en staaf handdouche en doucheslang",
-    "slug": "stripe-opbouw-thermostatische-regendouche-set-01-met-25-cm-hoofddouche-9695",
+    "name": "Stripe opbouw thermostatische regendouche",
+    "slug": "stripe-opbouw-thermostatische-regendouche-9695",
     "sku": "BRA-348-STRIPE-OPBOUW-THERMOSTATISCHE-REGEND-1PHT",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-348.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Douches",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-348.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-348.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-348.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-348.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-348.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-348.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9696,
-    "name": "Stripe opbouw thermostatische regendouche SET 02 met 25 cm hoofddouche en 3-standen handdouche en doucheslang",
-    "slug": "stripe-opbouw-thermostatische-regendouche-set-02-met-25-cm-hoofddouche-9696",
-    "sku": "BRA-349-STRIPE-OPBOUW-THERMOSTATISCHE-REGEND-QTG8",
     "short": null,
     "description": null,
     "descriptionI18n": null,
@@ -14721,19 +13868,9 @@ export const catalogProducts: CatalogProduct[] = [
         "label": "Kleur",
         "values": [
           {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-349.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-349.jpg"
+            "value": "Chroom",
+            "label": "Chroom",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-349.jpg"
           },
           {
             "value": "Geborsteld goud",
@@ -14741,14 +13878,56 @@ export const catalogProducts: CatalogProduct[] = [
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-349.jpg"
           },
           {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-349.jpg"
+          },
+          {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-349.jpg"
           },
           {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-349.jpg"
+            "value": "Geborsteld RVS",
+            "label": "Geborsteld RVS",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-349.jpg"
+          },
+          {
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-349.jpg"
+          }
+        ]
+      },
+      {
+        "key": "glijstang",
+        "label": "glijstang",
+        "values": [
+          {
+            "value": "Ja",
+            "label": "Ja",
+            "image": null
+          },
+          {
+            "value": "Nee",
+            "label": "Nee",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
           }
         ]
       }
@@ -14773,7 +13952,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Stripe",
-    "productType": "Glijstangen",
+    "productType": "Douchekoppen",
     "optionAxes": [
       {
         "key": "kleur",
@@ -14815,69 +13994,10 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 9698,
-    "name": "Stripe thermostatische inbouw badkraan met drukknoppen SET 03 met badvulcombinatie en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-thermostatische-inbouw-badkraan-met-drukknoppen-set-03-met-badv-9698",
-    "sku": "BRA-361-STRIPE-THERMOSTATISCHE-INBOUW-BADKRA-RV1F",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-361.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-361.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-361.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-361.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-361.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-361.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-361.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9699,
-    "name": "Stripe thermostatische inbouw badkraan met drukknoppen SET 03 met uitloop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-thermostatische-inbouw-badkraan-met-drukknoppen-set-03-met-uitl-9699",
-    "sku": "BRA-363-STRIPE-THERMOSTATISCHE-INBOUW-BADKRA-1GB1",
+    "id": 9702,
+    "name": "Stripe thermostatische inbouw badkraan",
+    "slug": "stripe-thermostatische-inbouw-badkraan-9702",
+    "sku": "BRA-359-STRIPE-THERMOSTATISCHE-INBOUW-BADKRA-122O",
     "short": null,
     "description": null,
     "descriptionI18n": null,
@@ -14903,304 +14023,14 @@ export const catalogProducts: CatalogProduct[] = [
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-363.jpg"
           },
           {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-363.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-363.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-363.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-363.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9700,
-    "name": "Stripe thermostatische inbouw badkraan met drukknoppen SET 04 met badvulcombinatie en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-thermostatische-inbouw-badkraan-met-drukknoppen-set-04-met-badv-9700",
-    "sku": "BRA-362-STRIPE-THERMOSTATISCHE-INBOUW-BADKRA-1H9W",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-362.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-362.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-362.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-362.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-362.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-362.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9701,
-    "name": "Stripe thermostatische inbouw badkraan met drukknoppen SET 04 met uitloop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-thermostatische-inbouw-badkraan-met-drukknoppen-set-04-met-uitl-9701",
-    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-BADKRAAN-M-1DZJ",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-364.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-364.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-364.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-364.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-364.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-364.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-364.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9702,
-    "name": "Stripe thermostatische inbouw badkraan SET 01 met badvulcombinatie en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-thermostatische-inbouw-badkraan-set-01-met-badvulcombinatie-en--9702",
-    "sku": "BRA-359-STRIPE-THERMOSTATISCHE-INBOUW-BADKRA-122O",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-359.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-359.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-359.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-359.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-359.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-359.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-359.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9703,
-    "name": "Stripe thermostatische inbouw badkraan SET 01 met uitloop en staaf handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-thermostatische-inbouw-badkraan-set-01-met-uitloop-en-staaf-han-9703",
-    "sku": "BRA-357-STRIPE-THERMOSTATISCHE-INBOUW-BADKRA-102F",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-357.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-357.jpg"
-          },
-          {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-357.jpg"
           },
           {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-357.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-357.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-357.jpg"
-          },
-          {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-357.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9704,
-    "name": "Stripe thermostatische inbouw badkraan SET 02 met badvulcombinatie en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-thermostatische-inbouw-badkraan-set-02-met-badvulcombinatie-en--9704",
-    "sku": "BRA-STRIPE-THERMOSTATISCHE-INBOUW-BADKRAAN-M-ZC8G",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-360.jpg"
-          },
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-360.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-363.jpg"
           },
           {
             "value": "Geborsteld koper",
@@ -15208,78 +14038,62 @@ export const catalogProducts: CatalogProduct[] = [
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-360.jpg"
           },
           {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-360.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-360.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-360.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9705,
-    "name": "Stripe thermostatische inbouw badkraan SET 02 met uitloop en 3-standen handdouche en doucheslang en wandaansluitbocht",
-    "slug": "stripe-thermostatische-inbouw-badkraan-set-02-met-uitloop-en-3-standen-9705",
-    "sku": "BRA-358-STRIPE-THERMOSTATISCHE-INBOUW-BADKRA-G2V6",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-358.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-358.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-358.jpg"
-          },
-          {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-358.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-363.jpg"
           },
           {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-358.jpg"
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-364.jpg"
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
           },
           {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-358.jpg"
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "bediening",
+        "label": "Bediening",
+        "values": [
+          {
+            "value": "Draaiknoppen",
+            "label": "Draaiknoppen",
+            "image": null
           },
           {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-358.jpg"
+            "value": "Drukknoppen",
+            "label": "Drukknoppen",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "vulling",
+        "label": "Badvulling",
+        "values": [
+          {
+            "value": "Badvulcombinatie",
+            "label": "Badvulcombinatie",
+            "image": null
+          },
+          {
+            "value": "Uitloop",
+            "label": "Uitloop",
+            "image": null
           }
         ]
       }
@@ -15886,68 +14700,9 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9712,
-    "name": "Stripe vrijstaande badmengkraan SET 01 met staaf handdouche en doucheslang",
-    "slug": "stripe-vrijstaande-badmengkraan-set-01-met-staaf-handdouche-en-douches-9712",
+    "name": "Stripe vrijstaande badmengkraan",
+    "slug": "stripe-vrijstaande-badmengkraan-9712",
     "sku": "BRA-STRIPE-VRIJSTAANDE-BADMENGKRAAN-JJT8",
-    "short": null,
-    "description": null,
-    "descriptionI18n": null,
-    "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-337.jpg",
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "bathroom",
-    "brand": "brauer",
-    "series": "Stripe",
-    "productType": "Badkranen",
-    "optionAxes": [
-      {
-        "key": "kleur",
-        "label": "Kleur",
-        "values": [
-          {
-            "value": "Geborsteld RVS",
-            "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-337.jpg"
-          },
-          {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-337.jpg"
-          },
-          {
-            "value": "Chroom",
-            "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-337.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-337.jpg"
-          },
-          {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-337.jpg"
-          },
-          {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-337.jpg"
-          }
-        ]
-      }
-    ],
-    "variants": []
-  },
-  {
-    "id": 9713,
-    "name": "Stripe vrijstaande badmengkraan SET 02 met 3-standen handdouche en doucheslang",
-    "slug": "stripe-vrijstaande-badmengkraan-set-02-met-3-standen-handdouche-en-dou-9713",
-    "sku": "BRA-338-STRIPE-VRIJSTAANDE-BADMENGKRAAN-SET-7C07",
     "short": null,
     "description": null,
     "descriptionI18n": null,
@@ -15968,34 +14723,50 @@ export const catalogProducts: CatalogProduct[] = [
         "label": "Kleur",
         "values": [
           {
-            "value": "Geborsteld koper",
-            "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-338.jpg"
-          },
-          {
-            "value": "Geborsteld gunmetal",
-            "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-338.jpg"
-          },
-          {
             "value": "Chroom",
             "label": "Chroom",
             "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-338.jpg"
           },
           {
-            "value": "Mat zwart",
-            "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-338.jpg"
+            "value": "Geborsteld goud",
+            "label": "Geborsteld goud",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-337.jpg"
+          },
+          {
+            "value": "Geborsteld gunmetal",
+            "label": "Geborsteld gunmetal",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-337.jpg"
+          },
+          {
+            "value": "Geborsteld koper",
+            "label": "Geborsteld koper",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-337.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-338.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-337.jpg"
           },
           {
-            "value": "Geborsteld goud",
-            "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-338.jpg"
+            "value": "Mat zwart",
+            "label": "Mat zwart",
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-337.jpg"
+          }
+        ]
+      },
+      {
+        "key": "handdouche",
+        "label": "Handdouche",
+        "values": [
+          {
+            "value": "3-standen",
+            "label": "3-standen",
+            "image": null
+          },
+          {
+            "value": "Staafmodel",
+            "label": "Staafmodel",
+            "image": null
           }
         ]
       }
