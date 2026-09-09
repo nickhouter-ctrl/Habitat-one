@@ -28,7 +28,7 @@ export interface ProductDetailLayoutProps {
   /** lowercased variant name → one or more video srcs */
   variantVideos?: Record<string, string | string[]>;
   /** Keuzes van een merkproduct: welke combinatie hoort bij welke artikelcode. */
-  combinations?: Array<{ sku: string; options: Record<string, string>; image?: string | null; dim?: string | null }>;
+  combinations?: Array<{ sku: string; options: Record<string, string>; image?: string | null; images?: string[] | null; dim?: string | null }>;
   labels: {
     aboutThisProduct: string;
     specifications: string;

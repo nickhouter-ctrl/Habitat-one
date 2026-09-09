@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { ArrowUpRight, ImageOff } from "lucide-react";
@@ -48,6 +49,7 @@ export function ProductCard({
   className,
   priority = false,
   imageOverride,
+  kleur,
 }: {
   product: CatalogProduct;
   collectionLabel?: string;
@@ -56,6 +58,8 @@ export function ProductCard({
   priority?: boolean;
   /** When a colour filter is active, show the matching variant's image. */
   imageOverride?: string;
+  /** Merkproducten: de kleur waarin de kaart opent (naam uit de kleur-as). */
+  kleur?: string | null;
 }) {
   const t = useTranslations("products");
   const merk = brandOf(product);
@@ -76,7 +80,13 @@ export function ProductCard({
   }
   const colLabel = collectionLabel ?? (collectionKey[product.collection] ? t(collectionKey[product.collection]) : "");
   const noImg = noImageLabel ?? t("noImage");
-  const cardImage = imageOverride ?? product.image;
+  // Merkproducten: de kleuren met een eigen foto zijn de "stalen" onder de
+  // kaart. Aanwijzen wisselt het beeld, en het overzicht kan een kaart in een
+  // andere kleur laten openen — zo staat niet alles in chroom.
+  const kleurStalen = (product.optionAxes?.find((a) => a.key === "kleur")?.values ?? []).filter((w) => w.image);
+  const [aangewezen, setAangewezen] = useState<string | null>(null);
+  const staal = kleurStalen.find((w) => w.value === (aangewezen ?? kleur));
+  const cardImage = imageOverride ?? staal?.image ?? product.image;
 
   return (
     <Link
@@ -143,6 +153,23 @@ export function ProductCard({
             {name}
           </h3>
           {detail && <p className="mt-1 line-clamp-2 text-[0.8rem] leading-relaxed text-ink-soft">{detail}</p>}
+          {kleurStalen.length > 1 && (
+            <span className="mt-2 flex flex-wrap items-center gap-1.5" onMouseLeave={() => setAangewezen(null)}>
+              {kleurStalen.slice(0, 8).map((w) => (
+                <span
+                  key={w.value}
+                  title={w.label}
+                  onMouseEnter={() => setAangewezen(w.value)}
+                  className={cn(
+                    "relative block h-5 w-5 overflow-hidden rounded-full border bg-paper transition-colors",
+                    (aangewezen ?? kleur) === w.value ? "border-ink" : "border-ink/15 hover:border-ink/50",
+                  )}
+                >
+                  <Image src={w.image!} alt={w.label} fill sizes="20px" className="scale-[1.6] object-cover" />
+                </span>
+              ))}
+            </span>
+          )}
           <div className="mt-2"><PriceTag sku={product.sku} skus={product.variants?.map((v) => v.sku)} name={product.name} asLink={false} /></div>
         </div>
         <ArrowUpRight className="mt-1 h-4 w-4 shrink-0 text-ink-soft transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />

@@ -181,9 +181,14 @@ export function BrandExplorer({
           <p className="py-16 text-center text-ink-soft">{labels.empty}</p>
         ) : (
           <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-12 md:grid-cols-3">
-            {zichtbaar.map((p, i) => (
-              <ProductCard key={p.id} product={p} priority={i < 4} />
-            ))}
+            {zichtbaar.map((p, i) => {
+              // Met een kleurfilter opent elke kaart in die kleur; zonder filter
+              // wisselen de kleuren over het raster, zodat het overzicht niet één
+              // en al chroom is.
+              const metFoto = (p.optionAxes?.find((a) => a.key === "kleur")?.values ?? []).filter((w) => w.image);
+              const open = kleur !== "all" ? kleur : metFoto.length ? metFoto[i % metFoto.length].value : null;
+              return <ProductCard key={p.id} product={p} priority={i < 4} kleur={open} />;
+            })}
           </div>
         )}
       </div>
