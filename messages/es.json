@@ -2059,6 +2059,8 @@
     "drainHint": "Cada seno lleva una válvula de desagüe del color del grifo. Un sifón de color es opcional. Número de senos: {n}.",
     "drainColour": "Color (a juego con el grifo)",
     "plug": "Válvula",
-    "siphon": "Sifón"
+    "siphon": "Sifón",
+    "mirrorCount": "Cantidad",
+    "fitsTwice": "Más estrecho · 2 × posible"
   }
 }

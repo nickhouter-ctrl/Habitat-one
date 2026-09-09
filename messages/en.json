@@ -2059,6 +2059,8 @@
     "drainHint": "Each basin needs a waste plug, in the colour of the tap. A coloured siphon is optional. Number of basins: {n}.",
     "drainColour": "Colour (matching the tap)",
     "plug": "Waste plug",
-    "siphon": "Siphon"
+    "siphon": "Siphon",
+    "mirrorCount": "Quantity",
+    "fitsTwice": "Narrower · 2 × possible"
   }
 }

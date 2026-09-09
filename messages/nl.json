@@ -2059,6 +2059,8 @@
     "drainHint": "Per wasbak hoort er een plug bij, in de kleur van de kraan. Een sifon in kleur is optioneel. Aantal wasbakken: {n}.",
     "drainColour": "Kleur (zoals de kraan)",
     "plug": "Plug",
-    "siphon": "Sifon"
+    "siphon": "Sifon",
+    "mirrorCount": "Aantal",
+    "fitsTwice": "Smaller · 2 × mogelijk"
   }
 }

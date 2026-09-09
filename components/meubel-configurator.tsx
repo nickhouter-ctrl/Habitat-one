@@ -202,19 +202,26 @@ export function MeubelConfigurator() {
   const [waskomSku, setWaskomSku] = useState<string | null>(null);
   const waskom = blad?.type === "Topblad" ? waskommen.find((o) => o.sku === waskomSku) ?? null : null;
 
-  // 6. Spiegel of spiegelkast in dezelfde breedte
-  const spiegels = useMemo(() => meubelOnderdelen.filter((o) => (o.type === "Spiegel" || o.type === "Spiegelkast") && cm(o.breedte) === cm(breedte)), [breedte]);
+  // 6. Spiegel of spiegelkast: alles tot de kastbreedte; bij brede kasten kunnen er twee naast elkaar
+  const kastCm = cm(breedte);
+  const spiegels = useMemo(() => meubelOnderdelen.filter((o) => (o.type === "Spiegel" || o.type === "Spiegelkast") && cm(o.breedte) <= kastCm), [kastCm]);
+  const past = (o: MeubelOnderdeel) => cm(o.breedte) === kastCm;
   const spiegelSeries = useMemo(() => {
     const m = new Map<string, MeubelOnderdeel[]>();
     for (const o of spiegels) m.set(`${o.type}|${o.serie}`, [...(m.get(`${o.type}|${o.serie}`) ?? []), o]);
-    return [...m.entries()].sort(([a], [b]) => (a.startsWith("Spiegel|") === b.startsWith("Spiegel|") ? nl(a, b) : a.startsWith("Spiegel|") ? -1 : 1));
-  }, [spiegels]);
+    // spiegels vóór spiegelkasten; series met een exact passende breedte vooraan, dan op naam
+    return [...m.entries()].sort(([a, ao], [b, bo]) => (a.startsWith("Spiegel|") === b.startsWith("Spiegel|") ? (Number(bo.some(past)) - Number(ao.some(past)) || nl(a, b)) : a.startsWith("Spiegel|") ? -1 : 1));
+  }, [spiegels, kastCm]); // eslint-disable-line react-hooks/exhaustive-deps
   const [spiegelKey, setSpiegelKey] = useState<string | null>(null);
   const [spiegelSku, setSpiegelSku] = useState<string | null>(null);
-  const spiegelOpties = spiegelKey ? spiegels.filter((o) => `${o.type}|${o.serie}` === spiegelKey).sort((a, b) => nl(a.kleur ?? "", b.kleur ?? "") || nl(a.code, b.code)) : [];
-  useEffect(() => { if (spiegelOpties.length && !spiegelOpties.some((o) => o.sku === spiegelSku)) setSpiegelSku((spiegelOpties.find((o) => o.kleur === kleur) ?? spiegelOpties[0]).sku); }, [spiegelKey, spiegelOpties.length, kleur]); // eslint-disable-line react-hooks/exhaustive-deps
+  // breedste eerst (exact passend bovenaan), dan kleur
+  const spiegelOpties = spiegelKey ? spiegels.filter((o) => `${o.type}|${o.serie}` === spiegelKey).sort((a, b) => cm(b.breedte) - cm(a.breedte) || nl(a.kleur ?? "", b.kleur ?? "") || nl(a.code, b.code)) : [];
+  const liefst = (os: MeubelOnderdeel[]) => os.find((o) => past(o) && o.kleur === kleur) ?? os.find(past) ?? os.find((o) => o.kleur === kleur) ?? os[0];
+  useEffect(() => { if (spiegelOpties.length && !spiegelOpties.some((o) => o.sku === spiegelSku)) setSpiegelSku(liefst(spiegelOpties).sku); }, [spiegelKey, spiegelOpties.length, kleur]); // eslint-disable-line react-hooks/exhaustive-deps
   const spiegel = spiegelOpties.find((o) => o.sku === spiegelSku) ?? null;
-  useEffect(() => { const s = spiegelOpties.find((o) => o.kleur === kleur); if (s) setSpiegelSku(s.sku); }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { const s = spiegelOpties.find((o) => o.kleur === kleur && (!spiegel || o.breedte === spiegel.breedte)); if (s) setSpiegelSku(s.sku); }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
+  const tweeSpiegels = !!spiegel && 2 * cm(spiegel.breedte) <= kastCm;
+  const [spiegelAantal, setSpiegelAantal] = useState(1);
 
   // 7. Hoge kast van dezelfde serie, liefst in dezelfde kleur
   const hogeKasten = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Hoge kast" && o.serie === serie).sort((a, b) => cm(a.breedte) - cm(b.breedte) || nl(a.kleur ?? "", b.kleur ?? "") || nl(a.code, b.code)), [serie]);
@@ -244,8 +251,10 @@ export function MeubelConfigurator() {
   const plug = wasbakken && plugSerie ? pluggen.find((o) => o.serie === plugSerie && o.kleur === kraanKleur) ?? pluggen.find((o) => o.serie === plugSerie) ?? null : null;
   const sifon = wasbakken && sifonSerie ? sifons.find((o) => o.serie === sifonSerie && o.kleur === kraanKleur) ?? sifons.find((o) => o.serie === sifonSerie) ?? null : null;
 
+  useEffect(() => { setSpiegelAantal(tweeSpiegels && wasbakken === 2 ? 2 : 1); }, [spiegel?.sku, tweeSpiegels, wasbakken]); // eslint-disable-line react-hooks/exhaustive-deps
+
   type Deel = { o: MeubelOnderdeel; n: number };
-  const delen: Deel[] = ([[kast, 1], [blad, 1], [waskom, 1], [plug, wasbakken], [sifon, wasbakken], [spiegel, 1], [hogeKast, 1], [greep, 1]] as [MeubelOnderdeel | null, number][])
+  const delen: Deel[] = ([[kast, 1], [blad, 1], [waskom, 1], [plug, wasbakken], [sifon, wasbakken], [spiegel, spiegelAantal], [hogeKast, 1], [greep, 1]] as [MeubelOnderdeel | null, number][])
     .filter((d): d is [MeubelOnderdeel, number] => !!d[0] && d[1] > 0).map(([o, n]) => ({ o, n }));
   const incl = prijzen.tier === "particulier";
   const prijsVan = (o: MeubelOnderdeel): number | null => { const p = prijzen.prices[o.sku]; return p && p.price > 0 ? (incl ? Math.round(p.price * (1 + p.vat / 100)) : p.price) : null; };
@@ -338,6 +347,12 @@ export function MeubelConfigurator() {
               {spiegelOpties.map((o) => <Keuze key={o.sku} actief={spiegelSku === o.sku} onClick={() => setSpiegelSku(o.sku)} thumb={o.image}>{omschrijving(o) || o.code}</Keuze>)}
             </div>
           )}
+          {tweeSpiegels && (
+            <div className="mt-3 flex flex-wrap items-center gap-2">
+              <span className="mr-1 text-xs uppercase tracking-[0.2em] text-ink-soft">{t("mirrorCount")}</span>
+              {[1, 2].map((n) => <Keuze key={n} actief={spiegelAantal === n} onClick={() => setSpiegelAantal(n)}>{n} ×</Keuze>)}
+            </div>
+          )}
         </Stap>
 
         {hogeKasten.length > 0 && (
@@ -357,7 +372,11 @@ export function MeubelConfigurator() {
       <aside className="lg:sticky lg:top-28 lg:self-start">
         <div className="bg-paper p-4">
           <div className="flex flex-col items-center gap-1">
-            {spiegel && <div className="relative aspect-[4/3] w-3/4"><Image src={spiegel.image ?? ""} alt="" fill sizes="300px" className="object-contain" /></div>}
+            {spiegel && (
+              <div className="flex w-full justify-center gap-2">
+                {Array.from({ length: spiegelAantal }, (_, i) => <div key={i} className={cn("relative aspect-[4/3]", spiegelAantal === 2 ? "w-2/5" : "w-3/4")}><Image src={spiegel.image ?? ""} alt="" fill sizes="300px" className="object-contain" /></div>)}
+              </div>
+            )}
             {waskom?.image && <div className="relative aspect-[3/1] w-1/2"><Image src={waskom.image} alt="" fill sizes="170px" className="object-contain" /></div>}
             {blad && <div className="relative aspect-[3/1] w-full"><Image src={blad.image ?? ""} alt="" fill sizes="340px" className="object-contain" /></div>}
             {kast?.image ? <div className="relative aspect-[4/3] w-full"><Image src={kast.image} alt="" fill sizes="340px" className="object-contain" /></div> : <div className="aspect-[4/3] w-full bg-sand-100" />}
@@ -403,7 +422,7 @@ export function MeubelConfigurator() {
         items={waskommen.map((o) => ({ key: o.sku, label: naamVan(o), sub: omschrijving(o), image: o.image }))}
         onKies={setWaskomSku} />
       <Kiezer open={popup === "spiegel"} titel={t("stepMirror")} onClose={sluit} labels={labels} actief={spiegelKey}
-        items={spiegelSeries.map(([key, os]) => { const [type, s] = key.split("|"); return { key, label: `${term(type, locale)} ${s}`, sub: kleurenTekst(os), image: voorbeeld(os), groep: term(type, locale) }; })}
+        items={spiegelSeries.map(([key, os]) => { const [type, s] = key.split("|"); const bs = [...new Set(os.map((o) => cm(o.breedte)).filter((n) => !Number.isNaN(n)))].sort((a, b) => a - b); const br = bs.length > 1 ? `${bs[0]}–${bs[bs.length - 1]} cm` : bs.length ? `${bs[0]} cm` : ""; return { key, label: `${term(type, locale)} ${s}`, sub: [br, kleurenTekst(os)].filter(Boolean).join(" · "), image: voorbeeld(os), groep: term(type, locale), badge: !os.some(past) && os.some((o) => 2 * cm(o.breedte) <= kastCm) ? t("fitsTwice") : undefined }; })}
         onKies={setSpiegelKey} />
       <Kiezer open={popup === "hoog"} titel={t("stepTall")} onClose={sluit} labels={labels} actief={hogeKastSku}
         items={hogeKastenKleur.map((o) => ({ key: o.sku, label: naamVan(o), sub: omschrijving(o), image: o.image }))}

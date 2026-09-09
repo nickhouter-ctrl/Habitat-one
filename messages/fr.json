@@ -2059,6 +2059,8 @@
     "drainHint": "Chaque vasque reçoit une bonde de la couleur du robinet. Un siphon coloré est en option. Nombre de vasques : {n}.",
     "drainColour": "Couleur (comme le robinet)",
     "plug": "Bonde",
-    "siphon": "Siphon"
+    "siphon": "Siphon",
+    "mirrorCount": "Quantité",
+    "fitsTwice": "Plus étroit · 2 × possible"
   }
 }

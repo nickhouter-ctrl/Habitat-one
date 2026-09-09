@@ -2059,6 +2059,8 @@
     "drainHint": "每个盆配一个与龙头同色的下水器，彩色存水弯可选。盆数：{n}。",
     "drainColour": "颜色（与龙头一致）",
     "plug": "下水器",
-    "siphon": "存水弯"
+    "siphon": "存水弯",
+    "mirrorCount": "数量",
+    "fitsTwice": "较窄 · 可选 2 面"
   }
 }
