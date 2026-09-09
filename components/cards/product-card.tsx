@@ -181,7 +181,7 @@ export function ProductCard({
               ))}
             </span>
           )}
-          <div className="mt-2"><PriceTag sku={product.sku} skus={product.variants?.map((v) => v.sku)} name={product.name} asLink={false} /></div>
+          <div className="mt-2"><PriceTag sku={product.sku} skus={product.variantSkus ?? product.variants?.map((v) => v.sku)} name={product.name} asLink={false} /></div>
         </div>
         <ArrowUpRight className="mt-1 h-4 w-4 shrink-0 text-ink-soft transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
       </div>

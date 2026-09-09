@@ -2,6 +2,7 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
+import { ProductCard } from "@/components/cards/product-card";
 import { Container, Section } from "@/components/ui/section";
 import { catalogProducts } from "@/lib/data/catalog";
 import { BRANDS } from "@/lib/data/brands";
@@ -42,6 +43,17 @@ export async function BrandStrip({
     }, {}),
   ).sort((a, b) => b[1] - a[1]);
 
+  // Vier voorbeelden: per type het eerste product mét foto, elk in een andere
+  // kleur — een proefje van het assortiment, de merkpagina doet de rest.
+  const voorbeelden: Array<{ product: (typeof producten)[number]; kleur: string | null }> = [];
+  for (const [type] of types) {
+    const p = producten.find((x) => x.productType === type && x.image && !voorbeelden.some((v) => v.product.id === x.id));
+    if (!p) continue;
+    const kleuren = (p.optionAxes?.find((a) => a.key === "kleur")?.values ?? []).filter((w) => w.image);
+    voorbeelden.push({ product: p, kleur: kleuren.length ? kleuren[voorbeelden.length % kleuren.length].value : null });
+    if (voorbeelden.length === 4) break;
+  }
+
   return (
     <Section className="bg-sand-50">
       <Container>
@@ -79,6 +91,13 @@ export async function BrandStrip({
             )}
           </div>
         </div>
+        {voorbeelden.length > 0 && (
+          <div className="mt-12 grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-4">
+            {voorbeelden.map(({ product, kleur }) => (
+              <ProductCard key={product.id} product={product} kleur={kleur} />
+            ))}
+          </div>
+        )}
       </Container>
     </Section>
   );

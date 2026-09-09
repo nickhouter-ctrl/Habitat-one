@@ -164,6 +164,8 @@ const outProducts = products
       // douchegoten, badkamermeubels) — het filter op de merkpagina.
       productType: clean(p.product_type) || null,
       optionAxes: optionsByProduct[id]?.axes ?? null,
+      // alle uitvoerings-SKU's, voor de "vanaf"-prijs op de kaart (prijzen komen live uit het CRM)
+      variantSkus: optionsByProduct[id]?.combinations?.length ? [...new Set(optionsByProduct[id].combinations.map((c) => c.sku).filter(Boolean))] : null,
       variants: vs,
     };
   });
@@ -322,6 +324,8 @@ export interface CatalogProduct {
   productType?: string | null;
   /** Keuze-assen; alleen gevuld voor producten met uitvoeringen. */
   optionAxes?: OptionAxis[] | null;
+  /** SKU's van alle uitvoeringen (merkproducten) — voor de "vanaf"-prijs. */
+  variantSkus?: string[] | null;
   collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren" | "furniture";
   variants: ProductVariant[];
 }

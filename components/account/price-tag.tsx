@@ -9,6 +9,9 @@ import { usePrices, resolvePrice } from "./price-provider";
 /** Nette psychologische prijs: rond naar het dichtstbijzijnde hele bedrag en eindig op ,95. */
 function charm(n: number): number {
   if (n < 1) return Math.round(n * 100) / 100;
+  // Een prijs die al op een heel bedrag staat (merkproducten: naar boven
+  // afgerond op € 5/€ 10) blijft heel — daar hoort geen ,95 onder.
+  if (Math.abs(n - Math.round(n)) < 0.011) return Math.round(n);
   return Math.round(n) - 0.05;
 }
 
