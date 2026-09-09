@@ -309,7 +309,7 @@ export interface CatalogProduct {
   sku: string | null;
   short: string | null;
   description: string | null;
-  descriptionI18n: { nl?: string; de?: string; en?: string; es?: string } | null;
+  descriptionI18n: { nl?: string; de?: string; en?: string; es?: string; fr?: string; zh?: string } | null;
   additionalSizes: string[] | null;
   image: string | null;
   images?: string[] | null;

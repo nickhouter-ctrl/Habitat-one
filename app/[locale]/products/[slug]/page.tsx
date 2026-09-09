@@ -118,9 +118,8 @@ export default async function ProductDetailPage({
   const lead = tr.short ?? product.short ?? null;
   // Product-omschrijvingen bestaan in nl/de/en/es; talen zonder eigen vertaling
   // (fr/zh) vallen terug op Engels vóór de onvertaalde brontekst.
-  const localized =
-    product.descriptionI18n?.[locale as "nl" | "de" | "en" | "es"] ??
-    product.descriptionI18n?.en;
+  const i18n = product.descriptionI18n as Record<string, string | undefined> | null | undefined;
+  const localized = i18n?.[locale] ?? i18n?.en;
   const description = localized ?? product.description ?? null;
 
   const related = relatedProducts(product, 8);

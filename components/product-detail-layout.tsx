@@ -53,6 +53,29 @@ export interface ProductDetailLayoutProps {
  * info rail on the right with specs, swatches and the quote actions.
  * Variant state lives here so both columns stay in sync.
  */
+/**
+ * Productuitleg met lichte opmaak: "## Kop" wordt een kopje, regels met "- " een
+ * opsomming, lege regels scheiden alinea's. Zo staat de catalogusinformatie
+ * (kwaliteit, waterverbruik, montage) leesbaar onder het product.
+ */
+function Uitleg({ tekst }: { tekst: string }) {
+  const blokken = tekst.split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
+  return (
+    <div className="mt-5 space-y-3 text-[0.95rem] leading-relaxed text-ink-soft">
+      {blokken.map((b, i) => {
+        if (b.startsWith("## ")) return <h3 key={i} className="pt-2 font-display text-lg text-ink">{b.slice(3)}</h3>;
+        const regels = b.split("\n");
+        if (regels.every((r) => /^[-•]\s/.test(r))) return (
+          <ul key={i} className="space-y-1 pl-4">
+            {regels.map((r, j) => <li key={j} className="list-disc">{r.replace(/^[-•]\s+/, "")}</li>)}
+          </ul>
+        );
+        return <p key={i}>{b}</p>;
+      })}
+    </div>
+  );
+}
+
 export function ProductDetailLayout({
   product,
   name,
@@ -394,9 +417,7 @@ export function ProductDetailLayout({
             {lead}
           </p>
         )}
-        {description && (
-          <p className="mt-5 text-[0.95rem] leading-relaxed text-ink-soft">{description}</p>
-        )}
+        {description && <Uitleg tekst={description} />}
 
         {/* Big, clear specifications */}
         <dl className="mt-10 border-t border-ink/15">
