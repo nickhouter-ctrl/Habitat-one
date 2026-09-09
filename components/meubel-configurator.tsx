@@ -26,6 +26,8 @@ import { cn } from "@/lib/utils";
  * opstellingen, dus de "compositie" is een stapel van de gekozen delen.
  */
 const cm = (s: string | null) => (s ? parseInt(s, 10) : NaN);
+/** Vrijstaande, massieve wastafels: een eigen basis in stap 1, zonder kast en zonder blad. */
+const LOSSE_WASTAFELS = ["Nova"];
 const nl = (a: string | null, b: string | null) => (a ?? "").localeCompare(b ?? "", "nl", { numeric: true });
 
 /** Kleine keuzeknop (breedte, kleurstaal, uitvoering). */
@@ -151,15 +153,24 @@ export function MeubelConfigurator() {
   const labels = { none: t("none"), close: t("close"), choose: t("choose"), change: t("change"), remove: t("remove"), nothing: t("nothingChosen") };
   const [popup, setPopup] = useState<null | "serie" | "kleur" | "blad" | "waskom" | "spiegel" | "hoog" | "greep">(null);
   const sluit = () => setPopup(null);
-  /** "Ondiep · Links" → vertaald; de lege standaarduitvoering heet "Normaal". */
-  const uitvLabel = (u: string) => (u ? u.split(" · ").map((x) => term(x, locale)).join(" · ") : t("standard"));
+  /**
+   * Keuzelabel: alleen wat tussen de opties verschilt. Hebben alle opties "2 lades",
+   * dan valt dat weg en heten ze "Normaal" en "Ondiep"; bij 120 blijft "2 lades / 4 lades".
+   */
+  const uitvLabel = (u: string, alle: string[] = [u]) => {
+    const delen = u ? u.split(" · ") : [];
+    const gemeen = delen.filter((d) => alle.every((a) => a.split(" · ").includes(d)));
+    const rest = alle.length > 1 ? delen.filter((d) => !gemeen.includes(d)) : delen;
+    return rest.length ? rest.map((x) => term(x, locale)).join(" · ") : t("standard");
+  };
 
-  const kasten = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Onderkast"), []);
+  const kasten = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Onderkast" || (o.type === "Wastafel" && LOSSE_WASTAFELS.includes(o.serie))), []);
   const series = useMemo(() => [...new Set(kasten.map((o) => o.serie))].sort(nl), [kasten]);
 
   // 1. Serie
   const [serie, setSerie] = useState(series[0] ?? "");
   const kastenSerie = useMemo(() => kasten.filter((o) => o.serie === serie), [kasten, serie]);
+  const losseWastafel = LOSSE_WASTAFELS.includes(serie);
   // 2. Breedte
   const breedtes = useMemo(() => [...new Set(kastenSerie.map((o) => o.breedte).filter(Boolean))].sort((a, b) => cm(a) - cm(b)) as string[], [kastenSerie]);
   const [breedte, setBreedte] = useState<string>("");
@@ -169,14 +180,17 @@ export function MeubelConfigurator() {
   const kleuren = useMemo(() => [...new Set(kastenMaat.map((o) => o.kleur).filter(Boolean))].sort(nl) as string[], [kastenMaat]);
   const [kleur, setKleur] = useState("");
   useEffect(() => { if (!kleuren.includes(kleur)) setKleur(kleuren[0] ?? ""); }, [kleuren, kleur]);
-  const uitvVan = (o: MeubelOnderdeel) => [o.wasbakken, o.uitvoering, o.positie].filter(Boolean).join(" · ");
+  const uitvVan = (o: MeubelOnderdeel) => [o.lades, o.uitvoering, o.kraangat, o.positie].filter(Boolean).join(" · ");
   const uitvoeringen = useMemo(() => [...new Set(kastenMaat.filter((o) => o.kleur === kleur).map(uitvVan))].sort(nl), [kastenMaat, kleur]);
   const [uitvoering, setUitvoering] = useState("");
   useEffect(() => { if (!uitvoeringen.includes(uitvoering)) setUitvoering(uitvoeringen[0] ?? ""); }, [uitvoeringen, uitvoering]);
-  const kast = kastenMaat.find((o) => o.kleur === kleur && uitvVan(o) === uitvoering) ?? null;
+  // Bij 120 cm bestaat dezelfde kast met 1 of 2 sifonuitsparingen (120-1 / 120-2): die volgt het aantal wasbakken (stap 4/5).
+  const [wasbakkenNodig, setWasbakkenNodig] = useState(1);
+  const kastKandidaten = kastenMaat.filter((o) => o.kleur === kleur && uitvVan(o) === uitvoering);
+  const kast = kastKandidaten.find((o) => (o.uitsparingen ?? "").startsWith(String(Math.min(wasbakkenNodig, 2)))) ?? kastKandidaten.find((o) => (o.uitsparingen ?? "").startsWith("1")) ?? kastKandidaten[0] ?? null;
 
   // 4. Wastafel (wasbak ingebouwd) óf topblad (met losse waskom), in dezelfde breedte
-  const bladen = useMemo(() => meubelOnderdelen.filter((o) => (o.type === "Wastafel" || o.type === "Topblad") && cm(o.breedte) === cm(breedte)), [breedte]);
+  const bladen = useMemo(() => (losseWastafel ? [] : meubelOnderdelen.filter((o) => (o.type === "Wastafel" || o.type === "Topblad") && cm(o.breedte) === cm(breedte) && !LOSSE_WASTAFELS.includes(o.serie))), [breedte, losseWastafel]);
   const bladSeries = useMemo(() => {
     const m = new Map<string, MeubelOnderdeel[]>();
     for (const o of bladen) m.set(`${o.type}|${o.serie}`, [...(m.get(`${o.type}|${o.serie}`) ?? []), o]);
@@ -193,10 +207,7 @@ export function MeubelConfigurator() {
   const bladInKleur = bladOpties.filter((o) => !bladKleuren.length || o.kleur === bladKleur);
   const bladUitvoeringen = [...new Set(bladInKleur.map(bladUitv))].sort(nl);
   const [bladUitvoering, setBladUitvoering] = useState("");
-  // standaard het blad dat bij het aantal wasbakken van de kast past (120-1 → 1 wasbak, 120-2/-4 → 2 wasbakken)
-  const bladVoorKast = bladUitvoeringen.find((u) => kast?.wasbakken && u.includes(kast.wasbakken)) ?? bladUitvoeringen[0] ?? "";
-  useEffect(() => { if (!bladUitvoeringen.includes(bladUitvoering)) setBladUitvoering(bladVoorKast); }, [bladUitvoeringen.join("|"), bladUitvoering]); // eslint-disable-line react-hooks/exhaustive-deps
-  useEffect(() => { if (kast?.wasbakken && bladUitvoeringen.includes(bladVoorKast)) setBladUitvoering(bladVoorKast); }, [kast?.wasbakken]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { if (!bladUitvoeringen.includes(bladUitvoering)) setBladUitvoering(bladUitvoeringen[0] ?? ""); }, [bladUitvoeringen.join("|"), bladUitvoering]); // eslint-disable-line react-hooks/exhaustive-deps
   const blad = bladInKleur.find((o) => bladUitv(o) === bladUitvoering) ?? bladInKleur[0] ?? null;
   // Verandert de kastkleur, dan gaat het blad mee als het in die kleur bestaat.
   useEffect(() => { if (bladKleuren.includes(kleur)) setBladKleur(kleur); }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -205,6 +216,9 @@ export function MeubelConfigurator() {
   const waskommen = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Waskom").sort((a, b) => nl(a.serie, b.serie) || cm(a.breedte) - cm(b.breedte) || nl(a.kleur ?? "", b.kleur ?? "")), []);
   const [waskomSku, setWaskomSku] = useState<string | null>(null);
   const waskom = blad?.type === "Topblad" ? waskommen.find((o) => o.sku === waskomSku) ?? null : null;
+  const tweeWaskommen = !!waskom && cm(blad?.breedte ?? null) >= 120;
+  const [waskomAantal, setWaskomAantal] = useState(1);
+  useEffect(() => { if (!tweeWaskommen) setWaskomAantal(1); }, [tweeWaskommen]);
 
   // 6. Spiegel of spiegelkast: alles tot de kastbreedte; bij brede kasten kunnen er twee naast elkaar
   const kastCm = cm(breedte);
@@ -239,14 +253,15 @@ export function MeubelConfigurator() {
   }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // 8. Greep — niet bij series zonder lades (Believe en Amaze zijn open frames)
-  const ZONDER_GREEP = ["Believe", "Amaze"];
+  const ZONDER_GREEP = ["Believe", "Amaze", ...LOSSE_WASTAFELS];
   const grepen = useMemo(() => (ZONDER_GREEP.includes(serie) ? [] : meubelOnderdelen.filter((o) => o.type === "Meubelgreep")).sort((a, b) => nl(a.serie, b.serie) || cm(a.breedte) - cm(b.breedte) || nl(a.kleur ?? "", b.kleur ?? "")), [serie]); // eslint-disable-line react-hooks/exhaustive-deps
   const [greepSku, setGreepSku] = useState<string | null>(null);
   const greep = grepen.find((o) => o.sku === greepSku) ?? null;
 
   // Afvoer: per wasbak een plug in de kraankleur, sifon in kleur optioneel.
   // Aantal wasbakken: uit de keuze (120 cm), anders 2 vanaf 140 cm; bij een topblad telt de waskom.
-  const wasbakken = blad?.type === "Wastafel" ? (blad.wasbakken ? parseInt(blad.wasbakken, 10) || 1 : cm(blad.breedte) >= 140 ? 2 : 1) : waskom ? 1 : 0;
+  const wasbakken = losseWastafel && kast ? 1 : blad?.type === "Wastafel" ? (blad.wasbakken ? parseInt(blad.wasbakken, 10) || 1 : cm(blad.breedte) >= 140 ? 2 : 1) : waskom ? waskomAantal : 0;
+  useEffect(() => { setWasbakkenNodig(Math.max(1, wasbakken)); }, [wasbakken]);
   const pluggen = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Afvoerplug"), []);
   const sifons = useMemo(() => meubelOnderdelen.filter((o) => o.type === "Sifon"), []);
   const kraanKleuren = useMemo(() => [...new Set(pluggen.map((o) => o.kleur).filter(Boolean))].sort(nl) as string[], [pluggen]);
@@ -259,7 +274,7 @@ export function MeubelConfigurator() {
   useEffect(() => { setSpiegelAantal(tweeSpiegels && wasbakken === 2 ? 2 : 1); }, [spiegel?.sku, tweeSpiegels, wasbakken]); // eslint-disable-line react-hooks/exhaustive-deps
 
   type Deel = { o: MeubelOnderdeel; n: number };
-  const delen: Deel[] = ([[kast, 1], [blad, 1], [waskom, 1], [plug, wasbakken], [sifon, wasbakken], [spiegel, spiegelAantal], [hogeKast, 1], [greep, 1]] as [MeubelOnderdeel | null, number][])
+  const delen: Deel[] = ([[kast, 1], [blad, 1], [waskom, waskomAantal], [plug, wasbakken], [sifon, wasbakken], [spiegel, spiegelAantal], [hogeKast, 1], [greep, 1]] as [MeubelOnderdeel | null, number][])
     .filter((d): d is [MeubelOnderdeel, number] => !!d[0] && d[1] > 0).map(([o, n]) => ({ o, n }));
   const incl = prijzen.tier === "particulier";
   const prijsVan = (o: MeubelOnderdeel): number | null => { const p = prijzen.prices[o.sku]; return p && p.price > 0 ? (incl ? Math.round(p.price * (1 + p.vat / 100)) : p.price) : null; };
@@ -267,7 +282,7 @@ export function MeubelConfigurator() {
   const totaal = bekend.reduce((a, b) => a + b, 0);
   const [toegevoegd, setToegevoegd] = useState(false);
   const naamVan = (o: MeubelOnderdeel) => (o.type === "Afvoerplug" || o.type === "Sifon" ? term(o.serie, locale) : `${term(o.type, locale)} ${o.serie}`);
-  const omschrijving = (o: MeubelOnderdeel) => [o.breedte, o.kleur ? term(o.kleur, locale) : null, o.uitvoering ? term(o.uitvoering, locale) : null, o.positie ? term(o.positie, locale) : null, o.vorm ? term(o.vorm, locale) : null, o.wasbakken ? term(o.wasbakken, locale) : null, o.kraangat ? term(o.kraangat, locale) : null].filter(Boolean).join(" · ");
+  const omschrijving = (o: MeubelOnderdeel) => [o.breedte, o.kleur ? term(o.kleur, locale) : null, o.lades ? term(o.lades, locale) : null, o.uitvoering ? term(o.uitvoering, locale) : null, o.positie ? term(o.positie, locale) : null, o.vorm ? term(o.vorm, locale) : null, o.wasbakken ? term(o.wasbakken, locale) : null, o.kraangat ? term(o.kraangat, locale) : null].filter(Boolean).join(" · ");
   const voegToe = () => {
     for (const { o, n } of delen) addItem({ slug: `brands/brauer/samenstellen`, name: `${naamVan(o)} — ${omschrijving(o)}`, variant: omschrijving(o), sku: o.sku, image: o.image, qty: n });
     setToegevoegd(true); window.setTimeout(() => setToegevoegd(false), 2500);
@@ -278,28 +293,28 @@ export function MeubelConfigurator() {
   const voorbeeld = (os: MeubelOnderdeel[]) => (os.find((o) => o.kleur === kleur && o.image) ?? os.find((o) => o.image))?.image ?? null;
   const kleurenTekst = (os: MeubelOnderdeel[]) => { const n = new Set(os.map((o) => o.kleur).filter(Boolean)).size; return n > 1 ? t("coloursN", { n }) : (os[0]?.kleur ? term(os[0].kleur, locale) : ""); };
 
-  let nr = 4;
+  let nr = losseWastafel ? 3 : 4;
   const volgende = () => ++nr;
 
   return (
     <div className="grid gap-12 pb-24 lg:grid-cols-[1fr_22rem] lg:gap-16 lg:pb-0">
       <div>
         <Stap nr={1} titel={t("stepSeries")}>
-          <Gekozen image={voorbeeld(kastenSerie)} titel={serie} sub={kleurenTekst(kastenSerie)} onWijzig={() => setPopup("serie")} labels={labels} />
+          <Gekozen image={voorbeeld(kastenSerie)} titel={losseWastafel ? `${term("Wastafel", locale)} ${serie}` : serie} sub={[losseWastafel ? t("standaloneBasin") : null, kleurenTekst(kastenSerie)].filter(Boolean).join(" · ")} onWijzig={() => setPopup("serie")} labels={labels} />
         </Stap>
         <Stap nr={2} titel={t("stepWidth")}>
           <div className="flex flex-wrap gap-2">{breedtes.map((b) => <Keuze key={b} actief={breedte === b} onClick={() => setBreedte(b)}>{b}</Keuze>)}</div>
         </Stap>
-        <Stap nr={3} titel={t("stepColour")}>
+        <Stap nr={3} titel={losseWastafel ? t("colour") : t("stepColour")}>
           <Gekozen image={kleurStaal(kleur)} staal titel={kleur ? term(kleur, locale) : null} sub={t("coloursN", { n: kleuren.length })} onWijzig={() => setPopup("kleur")} labels={labels} />
           {uitvoeringen.length > 1 && (
             <div className="mt-3 flex flex-wrap gap-2">
-              {uitvoeringen.map((u) => <Keuze key={u} actief={uitvoering === u} onClick={() => setUitvoering(u)}>{uitvLabel(u)}</Keuze>)}
+              {uitvoeringen.map((u) => <Keuze key={u} actief={uitvoering === u} onClick={() => setUitvoering(u)}>{uitvLabel(u, uitvoeringen)}</Keuze>)}
             </div>
           )}
         </Stap>
 
-        <Stap nr={4} titel={t("stepTop")} hint={t("topHint")}>
+        {!losseWastafel && <Stap nr={4} titel={t("stepTop")} hint={t("topHint")}>
           {bladSeries.length === 0 ? <p className="text-sm text-ink-soft">{t("noMatch")}</p> : (
             <Gekozen image={blad?.image} titel={blad ? naamVan(blad) : null} sub={blad ? omschrijving(blad) : null} onWijzig={() => setPopup("blad")} onWeg={() => setBladKey(null)} labels={labels} />
           )}
@@ -310,14 +325,20 @@ export function MeubelConfigurator() {
           )}
           {blad && bladUitvoeringen.length > 1 && (
             <div className="mt-3 flex flex-wrap gap-2">
-              {bladUitvoeringen.map((u) => <Keuze key={u} actief={bladUitvoering === u} onClick={() => setBladUitvoering(u)}>{uitvLabel(u)}</Keuze>)}
+              {bladUitvoeringen.map((u) => <Keuze key={u} actief={bladUitvoering === u} onClick={() => setBladUitvoering(u)}>{uitvLabel(u, bladUitvoeringen)}</Keuze>)}
             </div>
           )}
-        </Stap>
+        </Stap>}
 
         {blad?.type === "Topblad" && (
           <Stap nr={volgende()} titel={t("stepBasin")}>
             <Gekozen image={waskom?.image} titel={waskom ? naamVan(waskom) : null} sub={waskom ? omschrijving(waskom) : null} onWijzig={() => setPopup("waskom")} onWeg={() => setWaskomSku(null)} labels={labels} />
+            {tweeWaskommen && (
+              <div className="mt-3 flex flex-wrap items-center gap-2">
+                <span className="mr-1 text-xs uppercase tracking-[0.2em] text-ink-soft">{t("mirrorCount")}</span>
+                {[1, 2].map((n) => <Keuze key={n} actief={waskomAantal === n} onClick={() => setWaskomAantal(n)}>{n} ×</Keuze>)}
+              </div>
+            )}
           </Stap>
         )}
 
@@ -379,7 +400,11 @@ export function MeubelConfigurator() {
                 {Array.from({ length: spiegelAantal }, (_, i) => <div key={i} className={cn("relative aspect-[4/3]", spiegelAantal === 2 ? "w-2/5" : "w-3/4")}><Image src={spiegel.image ?? ""} alt="" fill sizes="300px" className="object-contain" /></div>)}
               </div>
             )}
-            {waskom?.image && <div className="relative aspect-[3/1] w-1/2"><Image src={waskom.image} alt="" fill sizes="170px" className="object-contain" /></div>}
+            {waskom?.image && (
+              <div className="flex w-full justify-center gap-4">
+                {Array.from({ length: waskomAantal }, (_, i) => <div key={i} className="relative aspect-[2/1] w-1/3"><Image src={waskom.image!} alt="" fill sizes="120px" className="object-contain" /></div>)}
+              </div>
+            )}
             {blad && <div className="relative aspect-[3/1] w-full"><Image src={blad.image ?? ""} alt="" fill sizes="340px" className="object-contain" /></div>}
             {kast?.image ? <div className="relative aspect-[4/3] w-full"><Image src={kast.image} alt="" fill sizes="340px" className="object-contain" /></div> : <div className="aspect-[4/3] w-full bg-sand-100" />}
           </div>
@@ -429,7 +454,7 @@ export function MeubelConfigurator() {
 
       {/* Popups */}
       <Kiezer open={popup === "serie"} titel={t("stepSeries")} onClose={sluit} labels={labels} actief={serie}
-        items={series.map((s) => { const os = kasten.filter((o) => o.serie === s); return { key: s, label: s, sub: kleurenTekst(os), image: voorbeeld(os) }; })}
+        items={series.map((s) => { const os = kasten.filter((o) => o.serie === s); const los = LOSSE_WASTAFELS.includes(s); return { key: s, label: los ? `${term("Wastafel", locale)} ${s}` : s, sub: [los ? t("standaloneBasin") : null, kleurenTekst(os)].filter(Boolean).join(" · "), image: voorbeeld(os), groep: los ? t("standaloneBasin") : t("stepSeries") }; })}
         onKies={(k) => { if (k) setSerie(k); }} />
       <Kiezer open={popup === "kleur"} titel={t("stepColour")} onClose={sluit} labels={labels} actief={kleur}
         items={kleuren.map((k) => ({ key: k, label: term(k, locale), image: kleurStaal(k), staal: true }))}
