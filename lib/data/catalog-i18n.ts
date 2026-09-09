@@ -35,6 +35,12 @@ const TERMEN: Record<string, Vertaling> = {
   Glijstangen: { en: "Slide bars", de: "Brausestangen", es: "Barras de ducha", fr: "Barres de douche", zh: "升降杆" },
   Badvullers: { en: "Bath fillers", de: "Wanneneinläufe", es: "Caños de bañera", fr: "Becs de baignoire", zh: "浴缸出水口" },
   Badkamermeubels: { en: "Bathroom furniture", de: "Badmöbel", es: "Muebles de baño", fr: "Meubles de salle de bains", zh: "浴室家具" },
+  "Coffee": { en: "Coffee", de: "Coffee", es: "Coffee", fr: "Coffee", zh: "咖啡色" },
+  "Kraan-onderdelen": { en: "Tap parts", de: "Armaturenteile", es: "Piezas de grifería", fr: "Pièces de robinetterie", zh: "龙头配件" },
+  "Onderdelen": { en: "Parts", de: "Ersatzteile", es: "Repuestos", fr: "Pièces détachées", zh: "零件" },
+  "Douchewand-onderdelen": { en: "Shower screen fittings", de: "Duschwand-Beschläge", es: "Herrajes para mamparas", fr: "Quincaillerie de parois", zh: "淋浴屏配件" },
+  "Douchebakken": { en: "Shower trays", de: "Duschwannen", es: "Platos de ducha", fr: "Receveurs de douche", zh: "淋浴盆" },
+  "Toiletten": { en: "Toilets", de: "Toiletten", es: "Inodoros", fr: "Toilettes", zh: "马桶" },
   Accessoires: { en: "Accessories", de: "Accessoires", es: "Accesorios", fr: "Accessoires", zh: "配件" },
   Toilet: { en: "Toilet", de: "WC", es: "Inodoro", fr: "WC", zh: "坐便器" },
 

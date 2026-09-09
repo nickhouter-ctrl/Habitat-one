@@ -128,6 +128,9 @@ const outProducts = products
       cardImage = `/products/${id}.${prodExt[id]}`;
     } else if (vs.length && vs[0].images.length) {
       cardImage = vs[0].images[0];
+    } else if (typeof p.image_url === "string" && p.image_url) {
+      // merkproducten: foto uit de CRM-bucket (Supabase), geen lokaal bestand
+      cardImage = p.image_url;
     }
 
     return {
@@ -338,6 +341,8 @@ export interface ProductCombination {
   sku: string;
   options: Record<string, string>;
   image?: string | null;
+  /** Extra foto's (sfeer, detail) na de hoofdfoto. */
+  images?: string[] | null;
   dim?: string | null;
 }
 export const productCombinations: Record<number, ProductCombination[]> = ${JSON.stringify(

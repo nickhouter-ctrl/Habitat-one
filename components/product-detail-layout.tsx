@@ -143,7 +143,8 @@ export function ProductDetailLayout({
     // (nog) geen eigen foto, dan blijft de productfoto staan.
     if (hasOptions) {
       const src = gekozenCombinatie?.image || product.image;
-      return src ? [{ type: "image", src }] : [];
+      const extra = gekozenCombinatie?.images ?? [];
+      return src ? [{ type: "image", src }, ...extra.map((s) => ({ type: "image" as const, src: s }))] : [];
     }
     const variantName = (activeVariant?.name ?? "").toLowerCase().trim();
     const v = variantVideos?.[variantName];
