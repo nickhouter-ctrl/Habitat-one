@@ -10650,7 +10650,7 @@ export const catalogProducts: CatalogProduct[] = [
     "description": null,
     "descriptionI18n": null,
     "additionalSizes": null,
-    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-154.jpg",
+    "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-154_1.jpg",
     "featured": false,
     "dimensions": null,
     "materials": [],
@@ -10668,32 +10668,32 @@ export const catalogProducts: CatalogProduct[] = [
           {
             "value": "Chroom",
             "label": "Chroom",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-154.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-154_1.jpg"
           },
           {
             "value": "Geborsteld goud",
             "label": "Geborsteld goud",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-154.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-154_1.jpg"
           },
           {
             "value": "Geborsteld gunmetal",
             "label": "Geborsteld gunmetal",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-154.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-154_1.jpg"
           },
           {
             "value": "Geborsteld koper",
             "label": "Geborsteld koper",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-154.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-154_1.jpg"
           },
           {
             "value": "Geborsteld RVS",
             "label": "Geborsteld RVS",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-154.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-154_1.jpg"
           },
           {
             "value": "Mat zwart",
             "label": "Mat zwart",
-            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-154.jpg"
+            "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-154_1.jpg"
           }
         ]
       }
