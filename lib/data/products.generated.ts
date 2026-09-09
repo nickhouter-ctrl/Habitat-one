@@ -10487,7 +10487,7 @@ export const catalogProducts: CatalogProduct[] = [
     "collection": "bathroom",
     "brand": "brauer",
     "series": "Edition",
-    "productType": "Douchepanelen",
+    "productType": "Douchekranen",
     "optionAxes": [
       {
         "key": "kleur",
