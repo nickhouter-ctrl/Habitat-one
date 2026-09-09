@@ -61,6 +61,24 @@ export default async function BrandPage({
     .sort((a, b) => b[1] - a[1])
     .slice(0, 8);
 
+  /**
+   * Beeld voor een productsoort: het eerste product mét foto, liefst in de
+   * gevraagde kleur (het kleurplaatje van de kleur-as). Zo tonen de kop en de
+   * tegels echte Brauer-sfeerbeelden zonder dat er losse assets bij hoeven.
+   */
+  const beeldVoor = (type: string, kleur?: string, overslaan: string[] = []): { src: string; alt: string } | null => {
+    const p = catalogProducts.find((x) => x.brand === slug && x.productType === type && x.image && !overslaan.includes(x.image));
+    if (!p) return null;
+    const staal = kleur ? p.optionAxes?.find((a) => a.key === "kleur")?.values.find((w) => w.value === kleur && w.image)?.image : null;
+    return { src: staal ?? p.image!, alt: p.name };
+  };
+  const heroBeeld = beeldVoor("Douchewanden") ?? beeldVoor("Douches");
+  const mozaiek = [
+    beeldVoor("Douches", "Geborsteld goud", [heroBeeld?.src ?? ""]),
+    beeldVoor("Badkranen", "Mat zwart"),
+    beeldVoor("Wastafelkranen", "Geborsteld koper"),
+  ].filter((b): b is { src: string; alt: string } => !!b);
+
   const producten = catalogProducts
     .filter((p) => p.brand === slug)
     .sort(
@@ -76,24 +94,46 @@ export default async function BrandPage({
     <>
       <Section className="pt-28">
         <Container>
-          <div className="max-w-3xl">
-            <Image
-              src={merk.logo}
-              alt={merk.name}
-              width={merk.logoWidth}
-              height={merk.logoHeight}
-              className="h-9 w-auto max-w-[14rem] object-contain"
-              priority
-            />
-            <h1 className="mt-8 font-display text-3xl leading-[1.05] tracking-[-0.018em] text-ink md:text-4xl">
-              {t("brauerTitle")}
-            </h1>
-            <p className="mt-5 text-base leading-relaxed text-ink-soft md:text-[1.05rem]">
-              {t("brauerLead")}
-            </p>
+          <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_1fr] lg:gap-20">
+            <div className="max-w-3xl">
+              <Image
+                src={merk.logo}
+                alt={merk.name}
+                width={merk.logoWidth}
+                height={merk.logoHeight}
+                className="h-9 w-auto max-w-[14rem] object-contain"
+                priority
+              />
+              <h1 className="mt-8 font-display text-3xl leading-[1.05] tracking-[-0.018em] text-ink md:text-4xl">
+                {t("brauerTitle")}
+              </h1>
+              <p className="mt-5 text-base leading-relaxed text-ink-soft md:text-[1.05rem]">
+                {t("brauerLead")}
+              </p>
+            </div>
+            {heroBeeld && (
+              <div className="relative aspect-[4/5] overflow-hidden bg-sand-100">
+                <Image src={heroBeeld.src} alt={heroBeeld.alt} fill sizes="(max-width:1024px) 100vw, 45vw" className="object-cover" priority />
+              </div>
+            )}
           </div>
         </Container>
       </Section>
+
+      {/* Drie sfeerbeelden — kranen, bad en wastafel in verschillende afwerkingen. */}
+      {mozaiek.length === 3 && (
+        <Section className="pt-0">
+          <Container>
+            <div className="grid grid-cols-3 gap-3 md:gap-5">
+              {mozaiek.map((b) => (
+                <div key={b.src} className="relative aspect-square overflow-hidden bg-sand-100">
+                  <Image src={b.src} alt={b.alt} fill sizes="33vw" className="object-cover" />
+                </div>
+              ))}
+            </div>
+          </Container>
+        </Section>
+      )}
 
       {/* Waarom dit merk — drie punten die op de catalogus zelf zijn gebaseerd. */}
       <Section className="bg-sand-50">
@@ -121,16 +161,24 @@ export default async function BrandPage({
           <Container>
             <h2 className="font-display text-2xl text-ink md:text-3xl">{t("categoriesTitle")}</h2>
             <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
-              {topTypes.map(([type, n]) => (
-                <Link
-                  key={type}
-                  href={`/brands/${slug}?type=${encodeURIComponent(type)}`}
-                  className="flex items-baseline justify-between gap-3 rounded-sm border border-ink/15 px-4 py-4 transition-colors hover:border-ink/40"
-                >
-                  <span className="text-sm text-ink">{term(type, locale)}</span>
-                  <span className="text-xs text-ink/40">{n}</span>
-                </Link>
-              ))}
+              {topTypes.map(([type, n]) => {
+                const b = beeldVoor(type);
+                return (
+                  <Link
+                    key={type}
+                    href={`/brands/${slug}?type=${encodeURIComponent(type)}`}
+                    className="group flex items-center gap-4 rounded-sm border border-ink/15 p-3 transition-colors hover:border-ink/40"
+                  >
+                    <span className="relative block size-16 shrink-0 overflow-hidden bg-paper">
+                      {b && <Image src={b.src} alt="" fill sizes="64px" className="object-cover transition-transform duration-700 group-hover:scale-105" />}
+                    </span>
+                    <span className="flex min-w-0 flex-1 items-baseline justify-between gap-3">
+                      <span className="text-sm text-ink">{term(type, locale)}</span>
+                      <span className="text-xs text-ink/40">{n}</span>
+                    </span>
+                  </Link>
+                );
+              })}
             </div>
           </Container>
         </Section>
