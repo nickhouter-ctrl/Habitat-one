@@ -28,7 +28,7 @@ export interface ProductDetailLayoutProps {
   /** lowercased variant name → one or more video srcs */
   variantVideos?: Record<string, string | string[]>;
   /** Keuzes van een merkproduct: welke combinatie hoort bij welke artikelcode. */
-  combinations?: Array<{ sku: string; options: Record<string, string>; image?: string | null; images?: string[] | null; dim?: string | null }>;
+  combinations?: Array<{ sku: string; options: Record<string, string>; image?: string | null; images?: string[] | null; drawing?: string | null; dim?: string | null }>;
   labels: {
     aboutThisProduct: string;
     specifications: string;
@@ -37,6 +37,7 @@ export interface ProductDetailLayoutProps {
     elements: string;
     sku: string;
     dimensions: string;
+    drawing: string;
     materials: string;
     space: string;
     enquire: string;
@@ -408,6 +409,18 @@ export function ProductDetailLayout({
                   + {product.additionalSizes.join(" · ")}
                 </span>
               )}
+            </SpecRow>
+          )}
+          {gekozenCombinatie?.drawing && (
+            <SpecRow label={labels.drawing}>
+              <a
+                href={gekozenCombinatie.drawing}
+                target="_blank"
+                rel="noreferrer"
+                className="underline underline-offset-4 decoration-ink/30 hover:decoration-ink"
+              >
+                PDF
+              </a>
             </SpecRow>
           )}
           {materialList.length > 0 && (

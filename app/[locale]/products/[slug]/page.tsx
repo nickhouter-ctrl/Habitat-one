@@ -218,6 +218,7 @@ export default async function ProductDetailPage({
               elements: t("elements"),
               sku: t("sku"),
               dimensions: t("dimensions"),
+              drawing: t("drawing"),
               materials: t("materials"),
               space: t("space"),
               enquire: t("enquire"),

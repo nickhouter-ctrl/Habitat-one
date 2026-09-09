@@ -343,6 +343,8 @@ export interface ProductCombination {
   image?: string | null;
   /** Extra foto's (sfeer, detail) na de hoofdfoto. */
   images?: string[] | null;
+  /** Technische tekening (PDF) van deze uitvoering. */
+  drawing?: string | null;
   dim?: string | null;
 }
 export const productCombinations: Record<number, ProductCombination[]> = ${JSON.stringify(
