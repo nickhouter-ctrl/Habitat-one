@@ -1,3 +1,4 @@
+import { timingSafeEqual } from "node:crypto";
 import { revalidatePath } from "next/cache";
 import { NextResponse } from "next/server";
 
@@ -7,16 +8,16 @@ export const dynamic = "force-dynamic";
 
 /**
  * Called by the Habitat CRM when a property is published/changed.
- * Auth: `x-revalidate-secret` header (or `?secret=`) must match REVALIDATE_SECRET.
+ * Auth: `x-revalidate-secret` header must match REVALIDATE_SECRET (constant-time; no query string).
  * Body (optional): `{ "paths": ["/properties", ...] }` — defaults to `/properties`.
  * Each path is revalidated for every locale (the `en` locale has no prefix).
  */
 export async function POST(request: Request) {
   const secret = process.env.REVALIDATE_SECRET;
-  const url = new URL(request.url);
-  const provided =
-    request.headers.get("x-revalidate-secret") ?? url.searchParams.get("secret");
-  if (!secret || provided !== secret) {
+  const provided = request.headers.get("x-revalidate-secret") ?? "";
+  const a = Buffer.from(provided);
+  const b = Buffer.from(secret ?? "");
+  if (!secret || a.length !== b.length || !timingSafeEqual(a, b)) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
