@@ -9,7 +9,6 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
-      { protocol: "https", hostname: "vokzfqjyujcuuldvajvo.supabase.co" },
       // Property photos managed in the Habitat CRM (Supabase Storage)
       { protocol: "https", hostname: "kcsqmsmferruwnhsibxk.supabase.co" },
       // Furniture product photos hotlinked from the supplier CDNs (Caracole =
