@@ -120,7 +120,10 @@ export function ProductDetailLayout({
   // Merkproducten dragen Nederlandse catalogusnamen en -keuzes.
   const naam = merk ? productName(product.name, locale) : name;
   const optionAxes = product.optionAxes ?? null;
-  const hasOptions = !!optionAxes?.length && !!combinations?.length;
+  // Ook een merkproduct met één uitvoering (geen keuze-assen) draagt zijn foto's en
+  // tekening via één combinatie; de keuzerijen zelf verschijnen alleen bij assen.
+  const hasOptions = !!combinations?.length && (!!optionAxes?.length || combinations.length === 1);
+  const heeftAssen = !!optionAxes?.length;
   const [keuze, setKeuze] = useState<Record<string, string>>(() => {
     if (!optionAxes?.length || !combinations?.length) return {};
     // Begin bij de eerste combinatie die er is, niet bij een verzonnen
@@ -129,6 +132,7 @@ export function ProductDetailLayout({
   });
   const gekozenCombinatie = useMemo(() => {
     if (!hasOptions) return null;
+    if (!optionAxes?.length) return combinations![0];
     return (
       combinations!.find((c) => optionAxes!.every((a) => c.options[a.key] === keuze[a.key])) ?? null
     );
@@ -460,7 +464,7 @@ export function ProductDetailLayout({
         </dl>
 
         {/* Variant picker */}
-        {hasOptions ? (
+        {hasOptions && heeftAssen ? (
           // Merkproduct: één rij per keuze. Combinaties die niet bestaan blijven
           // zichtbaar maar uitgegrijsd — rustiger dan opties die verspringen
           // terwijl je kiest. Bij veel waarden (meubelkleuren lopen tot 27) zou
@@ -690,7 +694,7 @@ export function ProductDetailLayout({
           <ProductQuoteActions
             slug={product.slug}
             name={name}
-            variant={gekozenCombinatie ? optionAxes!.map((a) => { const w = a.values.find((v) => v.value === keuze[a.key]); return term(w?.label ?? keuze[a.key] ?? "", locale); }).filter(Boolean).join(" · ") : activeVariant?.name ?? null}
+            variant={gekozenCombinatie ? (optionAxes ?? []).map((a) => { const w = a.values.find((v) => v.value === keuze[a.key]); return term(w?.label ?? keuze[a.key] ?? "", locale); }).filter(Boolean).join(" · ") : activeVariant?.name ?? null}
             sku={gekozenCombinatie?.sku || activeVariant?.sku || product.sku || null}
             image={gekozenCombinatie?.image ?? images[0] ?? product.image ?? null}
             labels={{
