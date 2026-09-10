@@ -159,6 +159,7 @@ const outProducts = products
       // zonder pagina en zonder vertaalsleutel, en dan klapt de render.
       collection: COLLECTIONS.has(clean(p.collection)) ? clean(p.collection) : collectionFor(clean(p.name)),
       brand: clean(p.brand) ? clean(p.brand).toLowerCase() : null,
+      availability: p.availability === "stock" ? "stock" : null,
       series: clean(p.series) || null,
       // Het producttype zoals de leverancier het noemt (wastafelkranen,
       // douchegoten, badkamermeubels) — het filter op de merkpagina.
@@ -249,6 +250,7 @@ function buildFamily(fam) {
       ? Object.fromEntries(Object.entries(i18nSrc).map(([k, v]) => [k, familyText(v)]))
       : null,
     additionalSizes: null,
+    availability: members.some((x) => x.p.availability === "stock") ? "stock" : null,
     image: (members.find((x) => x.colour === "Black") ?? members[0]).p.image ?? first.image,
     featured: members.some((x) => x.p.featured),
     dimensions: null,
@@ -311,6 +313,8 @@ export interface CatalogProduct {
   description: string | null;
   descriptionI18n: { nl?: string; de?: string; en?: string; es?: string; fr?: string; zh?: string } | null;
   additionalSizes: string[] | null;
+  /** "stock" = uit voorraad leverbaar (sneller dan bestelartikelen). */
+  availability?: "stock" | null;
   image: string | null;
   images?: string[] | null;
   featured: boolean;

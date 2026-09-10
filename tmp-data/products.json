@@ -4251,6 +4251,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-323.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -4275,6 +4276,7 @@
     "series": null,
     "product_type": "Handdouches",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-011.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4299,6 +4301,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-159.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -4323,6 +4326,7 @@
     "series": null,
     "product_type": "Douchebakken",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DB-AS100100MZ.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4347,6 +4351,7 @@
     "series": "Carving",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003-R4.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4371,6 +4376,7 @@
     "series": "Carving",
     "product_type": "Fonteinkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-264.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4395,6 +4401,7 @@
     "series": "Carving",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-S6.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4419,6 +4426,7 @@
     "series": "Carving",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-001-HD6.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4443,6 +4451,7 @@
     "series": "Carving",
     "product_type": "Thermostaten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-243.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4467,6 +4476,7 @@
     "series": "Carving",
     "product_type": "Thermostaten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-248.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4491,6 +4501,7 @@
     "series": "Carving",
     "product_type": "Fonteinkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-321.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4515,6 +4526,7 @@
     "series": "Carving",
     "product_type": "Badkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-095.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4539,6 +4551,7 @@
     "series": "Carving",
     "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-185.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4563,6 +4576,7 @@
     "series": "Carving",
     "product_type": "Badkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-247.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4587,6 +4601,7 @@
     "series": "Carving",
     "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-249.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4611,6 +4626,7 @@
     "series": "Carving",
     "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-255.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4635,6 +4651,7 @@
     "series": "Carving",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-002-HD6.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4659,6 +4676,7 @@
     "series": "Carving",
     "product_type": "Badkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-262.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4683,6 +4701,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CLI1H120200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4707,6 +4726,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-CSN1H80200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4731,6 +4751,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-009.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -4755,6 +4776,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-147.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -4779,6 +4801,7 @@
     "series": null,
     "product_type": "Douchegoten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF90S.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4803,6 +4826,7 @@
     "series": null,
     "product_type": "Douchegoten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW90GM.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4827,6 +4851,7 @@
     "series": null,
     "product_type": "Douchegoten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRF120NG.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4851,6 +4876,7 @@
     "series": null,
     "product_type": "Douchegoten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SRFW100NG.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4875,6 +4901,7 @@
     "series": null,
     "product_type": "Douchegoten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRF160NG.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4899,6 +4926,7 @@
     "series": null,
     "product_type": "Douchegoten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-MRFW100NG.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4923,6 +4951,7 @@
     "series": null,
     "product_type": "Douchegoten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-SSRF70NG.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4947,6 +4976,7 @@
     "series": null,
     "product_type": "Douchegoten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-XS80NG.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -4971,6 +5001,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-224.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -4995,6 +5026,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-225.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -5019,6 +5051,7 @@
     "series": "Om op te bergen",
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-228.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -5043,6 +5076,7 @@
     "series": "Edition",
     "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-154_1.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5067,6 +5101,7 @@
     "series": "Edition",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5091,6 +5126,7 @@
     "series": "Edition",
     "product_type": "Fonteinkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-257.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5115,6 +5151,7 @@
     "series": "Edition",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-004-B5-65.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5139,6 +5176,7 @@
     "series": "Edition",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-001.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5163,6 +5201,7 @@
     "series": "Edition",
     "product_type": "Thermostaten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-229.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5187,6 +5226,7 @@
     "series": "Stripe",
     "product_type": "Thermostaten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-234.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5211,6 +5251,7 @@
     "series": "Edition",
     "product_type": "Fonteinkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-006.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5235,6 +5276,7 @@
     "series": "Edition",
     "product_type": "Fonteinkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-320.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5259,6 +5301,7 @@
     "series": "Edition",
     "product_type": "Badkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-210.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5283,6 +5326,7 @@
     "series": "Edition",
     "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-171.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5307,6 +5351,7 @@
     "series": "Edition",
     "product_type": "Badkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-232.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5331,6 +5376,7 @@
     "series": "Edition",
     "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-235.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5355,6 +5401,7 @@
     "series": "Edition",
     "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-241.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5379,6 +5426,7 @@
     "series": "Edition",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-002.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5403,6 +5451,7 @@
     "series": "Edition",
     "product_type": "Badkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-259.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5427,6 +5476,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTN1H120200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5451,6 +5501,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-GTC1H12090200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5475,6 +5526,7 @@
     "series": "Stripe",
     "product_type": "Glijstangen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5513.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5499,6 +5551,7 @@
     "series": "Stripe",
     "product_type": "Glijstangen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-020.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5523,6 +5576,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-HBB35GM.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -5547,6 +5601,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-149.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -5571,6 +5626,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-220.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -5595,6 +5651,7 @@
     "series": "Nissen",
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-145.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -5619,6 +5676,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-008.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -5643,6 +5701,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMC1H9090200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5667,6 +5726,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H120200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5691,7 +5751,58 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-LMN1H90200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
+  },
+  {
+    "id": 9759,
+    "name": "Meubelset Core A1",
+    "slug": "meubelset-core-a1-9759",
+    "sku": "BRA-MEUBELSET-MEUBELSET-CORE-A1-AEDE",
+    "description": "De BRAUER CORE Series meubelset A1 is een complete badkamermeubelset bestaande uit een onderkast met greeploze softclose lades en een keramische wastafel Frost. Het geheel is verkrijgbaar in vier breedtes (60, 80, 100 en 120 cm) en drie kleuren, en is uit voorraad leverbaar.\n\n## Kenmerken\n\n- Materiaal: MFC (meubelpaneel) met keramische wastafel\n- Greeploze lades met softclose mechanisme\n- Sifon uitsparing(en) in de lade\n- Beschikbare kleuren: Forest Cacao, Forest Wheat, Honey\n- Beschikbare breedtes: 60, 80, 100 en 120 cm",
+    "description_i18n": {
+      "de": "Das BRAUER CORE Series Möbelset A1 ist ein komplettes Badmöbelset bestehend aus einem grifflosen Unterschrank mit Softclose-Schubladen und einem keramischen Waschtisch Frost. Es ist in vier Breiten (60, 80, 100 und 120 cm) und drei Farben erhältlich und ab Lager lieferbar.\n\n## Merkmale\n\n- Material: MFC (Möbelplatte) mit keramischem Waschtisch\n- Grifflose Schubladen mit Softclose-Mechanismus\n- Siphonausschnitt(e) in der Schublade\n- Erhältliche Farben: Forest Cacao, Forest Wheat, Honey\n- Erhältliche Breiten: 60, 80, 100 und 120 cm",
+      "en": "The BRAUER CORE Series furniture set A1 is a complete bathroom furniture set consisting of a handle-free base unit with soft-close drawers and a ceramic Frost washbasin. It is available in four widths (60, 80, 100 and 120 cm) and three colours, and is available from stock.\n\n## Features\n\n- Material: MFC (furniture panel) with ceramic washbasin\n- Handle-free drawers with soft-close mechanism\n- Siphon cut-out(s) in the drawer\n- Available colours: Forest Cacao, Forest Wheat, Honey\n- Available widths: 60, 80, 100 and 120 cm",
+      "es": "El conjunto de muebles BRAUER CORE Series A1 es un set completo de muebles de baño formado por un mueble bajo sin tiradores con cajones de cierre suave y un lavabo cerámico Frost. Está disponible en cuatro anchos (60, 80, 100 y 120 cm) y tres colores, con entrega inmediata desde stock.\n\n## Características\n\n- Material: MFC (panel de mueble) con lavabo cerámico\n- Cajones sin tiradores con mecanismo de cierre suave\n- Recorte(s) para sifón en el cajón\n- Colores disponibles: Forest Cacao, Forest Wheat, Honey\n- Anchos disponibles: 60, 80, 100 y 120 cm",
+      "fr": "L'ensemble de meubles BRAUER CORE Series A1 est un meuble de salle de bain complet composé d'un meuble sous-vasque sans poignée avec tiroirs à fermeture douce et d'un lavabo en céramique Frost. Il est disponible en quatre largeurs (60, 80, 100 et 120 cm) et trois coloris, livrable depuis stock.\n\n## Caractéristiques\n\n- Matériau : MFC (panneau de meuble) avec lavabo en céramique\n- Tiroirs sans poignée avec mécanisme de fermeture douce\n- Découpe(s) pour siphon dans le tiroir\n- Coloris disponibles : Forest Cacao, Forest Wheat, Honey\n- Largeurs disponibles : 60, 80, 100 et 120 cm",
+      "nl": "De BRAUER CORE Series meubelset A1 is een complete badkamermeubelset bestaande uit een onderkast met greeploze softclose lades en een keramische wastafel Frost. Het geheel is verkrijgbaar in vier breedtes (60, 80, 100 en 120 cm) en drie kleuren, en is uit voorraad leverbaar.\n\n## Kenmerken\n\n- Materiaal: MFC (meubelpaneel) met keramische wastafel\n- Greeploze lades met softclose mechanisme\n- Sifon uitsparing(en) in de lade\n- Beschikbare kleuren: Forest Cacao, Forest Wheat, Honey\n- Beschikbare breedtes: 60, 80, 100 en 120 cm",
+      "zh": "BRAUER CORE系列浴室柜套装A1是一套完整的浴室家具组合，包含无把手软关抽屉底柜和Frost陶瓷洗手盆。套装提供四种宽度（60、80、100和120厘米）及三种颜色，均有现货供应。\n\n## 产品特点\n\n- 材质：MFC板材配陶瓷洗手盆\n- 无把手抽屉，配备软关闭机构\n- 抽屉内设排水管避让槽\n- 可选颜色：Forest Cacao、Forest Wheat、Honey\n- 可选宽度：60、80、100和120厘米"
+    },
+    "short_description": null,
+    "thumbnail_path": null,
+    "featured": false,
+    "stock_unit": "Pcs",
+    "brand": "brauer",
+    "series": "Core",
+    "product_type": "Badkamermeubels",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MS-COA1100HO.jpg",
+    "availability": "stock",
+    "collection": "furniture"
+  },
+  {
+    "id": 9760,
+    "name": "Meubelset Core A2",
+    "slug": "meubelset-core-a2-9760",
+    "sku": "BRA-MEUBELSET-MEUBELSET-CORE-A2-AEDE",
+    "description": "De BRAUER Core A2 meubelset is een complete badkamerset bestaande uit een onderkast met greeploze softclose lades en een keramieken wastafel Starfall. Het meubel is verkrijgbaar in vier breedtes (60, 80, 100 en 120 cm) en in drie natuurlijke kleuren. De set is uit voorraad leverbaar.\n\n## Kenmerken\n\n- Materiaal: MFC (meubelpaneel) en keramiek\n- Lades: greeploos met softclose mechanisme en sifon uitsparing\n- Breedtes: 60, 80, 100 en 120 cm\n- Kleuren: Forest Cacao, Forest Wheat en Honey\n- Wastafel Starfall met 1 kraangat (60/80/100 cm) of 2 kraangaten (120 cm)",
+    "description_i18n": {
+      "de": "Das BRAUER Core A2 Möbelset ist eine vollständige Badezimmerkombination aus einem grifflosen Softclose-Schubladen-Unterschrank und einem keramischen Waschtisch Starfall. Das Set ist in vier Breiten und drei natürlichen Farben erhältlich und ab Lager lieferbar.\n\n## Merkmale\n\n- Material: MDF-Möbelplatte (MFC) und Keramik\n- Schubladen: grifflos mit Softclose-Dämpfung und Siphonausschnitt\n- Breiten: 60, 80, 100 und 120 cm\n- Farben: Forest Cacao, Forest Wheat und Honey\n- Waschtisch Starfall mit 1 Hahnloch (60/80/100 cm) oder 2 Hahnlöchern (120 cm)",
+      "en": "The BRAUER Core A2 furniture set is a complete bathroom combination consisting of a handleless softclose drawer unit and a Starfall ceramic washbasin. The set is available in four widths and three natural colours, and is supplied from stock.\n\n## Features\n\n- Material: MFC (furniture board) and ceramic\n- Drawers: handleless with softclose mechanism and siphon cut-out\n- Widths: 60, 80, 100 and 120 cm\n- Colours: Forest Cacao, Forest Wheat and Honey\n- Starfall washbasin with 1 tap hole (60/80/100 cm) or 2 tap holes (120 cm)",
+      "es": "El conjunto de muebles BRAUER Core A2 es una solución completa de baño formada por un mueble bajo con cajones sin tirador y cierre suave, y un lavabo cerámico Starfall. Está disponible en cuatro anchuras y tres colores naturales, con entrega desde stock.\n\n## Características\n\n- Material: tablero MFC y cerámica\n- Cajones: sin tirador con mecanismo softclose y hueco para sifón\n- Anchuras: 60, 80, 100 y 120 cm\n- Colores: Forest Cacao, Forest Wheat y Honey\n- Lavabo Starfall con 1 orificio para grifo (60/80/100 cm) o 2 orificios (120 cm)",
+      "fr": "L'ensemble de meubles BRAUER Core A2 est une solution salle de bain complète composée d'un meuble sous-vasque à tiroirs sans poignée à fermeture douce et d'un lavabo en céramique Starfall. Il est disponible en quatre largeurs et trois coloris naturels, livrable depuis stock.\n\n## Caractéristiques\n\n- Matériau : panneau MFC et céramique\n- Tiroirs : sans poignée avec fermeture softclose et découpe pour siphon\n- Largeurs : 60, 80, 100 et 120 cm\n- Coloris : Forest Cacao, Forest Wheat et Honey\n- Vasque Starfall avec 1 trou de robinet (60/80/100 cm) ou 2 trous (120 cm)",
+      "nl": "De BRAUER Core A2 meubelset is een complete badkamerset bestaande uit een onderkast met greeploze softclose lades en een keramieken wastafel Starfall. Het meubel is verkrijgbaar in vier breedtes (60, 80, 100 en 120 cm) en in drie natuurlijke kleuren. De set is uit voorraad leverbaar.\n\n## Kenmerken\n\n- Materiaal: MFC (meubelpaneel) en keramiek\n- Lades: greeploos met softclose mechanisme en sifon uitsparing\n- Breedtes: 60, 80, 100 en 120 cm\n- Kleuren: Forest Cacao, Forest Wheat en Honey\n- Wastafel Starfall met 1 kraangat (60/80/100 cm) of 2 kraangaten (120 cm)",
+      "zh": "BRAUER Core A2浴室家具套装是一套完整的浴室组合，包含无拉手软关闭抽屉柜和Starfall陶瓷洗手盆。套装提供四种宽度和三种自然色调，现货供应。\n\n## 产品特点\n\n- 材质：MFC板材与陶瓷\n- 抽屉：无拉手设计，配备软关闭缓冲及排水管预留开口\n- 宽度：60、80、100和120厘米\n- 颜色：Forest Cacao（森林可可）、Forest Wheat（森林小麦）和Honey（蜂蜜）\n- Starfall洗手盆：60/80/100厘米款设1个水龙头孔，120厘米款设2个水龙头孔"
+    },
+    "short_description": null,
+    "thumbnail_path": null,
+    "featured": false,
+    "stock_unit": "Pcs",
+    "brand": "brauer",
+    "series": "Core",
+    "product_type": "Badkamermeubels",
+    "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MS-COA2100FW.jpg",
+    "availability": "stock",
+    "collection": "furniture"
   },
   {
     "id": 9664,
@@ -5715,6 +5826,7 @@
     "series": "Stripe",
     "product_type": "Douchearmen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5504.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5739,6 +5851,7 @@
     "series": "Stripe",
     "product_type": "Douchearmen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-014.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5763,6 +5876,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBB1B80140CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5787,6 +5901,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI1HR120200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5811,6 +5926,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBFI2HR10030200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5835,6 +5951,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI1H110200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5859,6 +5976,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-OBI2B9030200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5883,6 +6001,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-227.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -5907,6 +6026,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-RNI1B120200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -5931,6 +6051,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-148.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -5955,6 +6076,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-216.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -5979,6 +6101,7 @@
     "series": "Stripe",
     "product_type": "Douchearmen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-015.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6003,6 +6126,7 @@
     "series": "Ocean Edge",
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCE60ER.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -6027,6 +6151,7 @@
     "series": "Ocean Slim",
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-OCS60LEW.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -6051,6 +6176,7 @@
     "series": "Stripe",
     "product_type": "Douchekoppen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-017.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6075,6 +6201,7 @@
     "series": "Citrine",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-CI120RHVEG.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6099,6 +6226,7 @@
     "series": "Emerald",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-EM140RH.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6123,6 +6251,7 @@
     "series": "Garnet",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-GA80RH.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6147,6 +6276,7 @@
     "series": "Jade",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JD80RO.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6171,6 +6301,7 @@
     "series": "Jade Deluxe",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDD80OV.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6195,6 +6326,7 @@
     "series": "Jade Edge",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70RO.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6219,6 +6351,7 @@
     "series": "Jasper",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JS140RH.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6243,6 +6376,7 @@
     "series": "Onyx",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-ON80RHA.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6267,6 +6401,7 @@
     "series": "Pyrite",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-PY140RH.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6291,6 +6426,7 @@
     "series": "Quartz",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-QU100RH.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6315,6 +6451,7 @@
     "series": "Ruby",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RU60RH.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6339,6 +6476,7 @@
     "series": "Ruby Deluxe",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-RUD80RO.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6363,6 +6501,7 @@
     "series": "Sapphire",
     "product_type": "Spiegels",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-SA100RAS.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6387,6 +6526,7 @@
     "series": "Impress",
     "product_type": "Spiegelkasten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IM80SL.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6411,6 +6551,7 @@
     "series": "Impress Deluxe",
     "product_type": "Spiegelkasten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-IMD120CH.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6435,6 +6576,7 @@
     "series": "Promise",
     "product_type": "Spiegelkasten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PR120MB.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6459,6 +6601,7 @@
     "series": "Promise Deluxe",
     "product_type": "Spiegelkasten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-PRD60RSL.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6483,6 +6626,7 @@
     "series": "Rise",
     "product_type": "Spiegelkasten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SK-RI140VEG.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6507,6 +6651,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SPV5050.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -6531,6 +6676,7 @@
     "series": "Stripe",
     "product_type": "Handdouches",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-010.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6555,6 +6701,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRN1H160200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6579,6 +6726,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-SRC1H16090200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6603,6 +6751,7 @@
     "series": "Stripe",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-003-R5.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6627,6 +6776,7 @@
     "series": "Stripe",
     "product_type": "Fonteinkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-461.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6651,6 +6801,7 @@
     "series": "Stripe",
     "product_type": "Thermostaten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-018RR.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6675,6 +6826,7 @@
     "series": "Stripe",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-330.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6699,6 +6851,7 @@
     "series": "Stripe",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-001-HD7.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6723,6 +6876,7 @@
     "series": "Stripe",
     "product_type": "Thermostaten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-339.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6747,6 +6901,7 @@
     "series": "Stripe",
     "product_type": "Thermostaten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-344.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6771,6 +6926,7 @@
     "series": "Stripe",
     "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-345.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6795,6 +6951,7 @@
     "series": "Stripe",
     "product_type": "Fonteinkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-465.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6819,6 +6976,7 @@
     "series": "Stripe",
     "product_type": "Fonteinkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-464.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6843,6 +7001,7 @@
     "series": "Stripe",
     "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-348.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6867,6 +7026,7 @@
     "series": "Stripe",
     "product_type": "Douchekoppen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-466.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6891,6 +7051,7 @@
     "series": "Stripe",
     "product_type": "Badkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-358.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6915,6 +7076,7 @@
     "series": "Stripe",
     "product_type": "Douchesets",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-377.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6939,6 +7101,7 @@
     "series": "Stripe",
     "product_type": "Badkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-342.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6963,6 +7126,7 @@
     "series": "Stripe",
     "product_type": "Wastafelkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-002-HD7.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -6987,6 +7151,7 @@
     "series": "Stripe",
     "product_type": "Badkranen",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-338.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7011,6 +7176,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-322.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -7035,6 +7201,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-150.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   },
   {
@@ -7059,6 +7226,7 @@
     "series": "Toiletten hangend",
     "product_type": "Toiletten",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/TL-TOHW.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7083,6 +7251,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI1H90200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7107,6 +7276,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOC1H100120200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7131,6 +7301,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON3H70120200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7155,6 +7326,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON2H6060200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7179,6 +7351,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCC1H100100200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7203,6 +7376,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN3H6060200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7227,6 +7401,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN2H6050200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7251,6 +7426,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN1H60200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7275,6 +7451,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOCN4H100200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7299,6 +7476,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON1H100200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7323,6 +7501,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VON4H90200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7347,6 +7526,7 @@
     "series": null,
     "product_type": "Douchewanden",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/GS-VOI2H14030200CE.jpg",
+    "availability": "order_only",
     "collection": "bathroom"
   },
   {
@@ -7371,6 +7551,7 @@
     "series": null,
     "product_type": "Accessoires",
     "image_url": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-ZDACE.jpg",
+    "availability": "order_only",
     "collection": "accessories"
   }
 ]

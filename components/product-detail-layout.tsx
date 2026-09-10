@@ -23,6 +23,8 @@ export interface ProductDetailLayoutProps {
   description: string | null;
   collectionLabel: string;
   identifier: string;
+  /** Uit voorraad leverbaar: sneller dan bestelartikelen — tonen bij de prijs. */
+  inStock?: boolean;
   materialList: string[];
   spaceList: string[];
   /** lowercased variant name → one or more video srcs */
@@ -38,6 +40,7 @@ export interface ProductDetailLayoutProps {
     sku: string;
     dimensions: string;
     drawing: string;
+    inStock: string;
     materials: string;
     space: string;
     enquire: string;
@@ -86,6 +89,7 @@ export function ProductDetailLayout({
   description,
   collectionLabel,
   identifier,
+  inStock = false,
   materialList,
   spaceList,
   variantVideos,
@@ -417,6 +421,12 @@ export function ProductDetailLayout({
         {/* Prijs (verandert mee met de gekozen maat/variant). */}
         <div className="mt-5 text-2xl">
           <PriceTag sku={gekozenCombinatie?.sku || activeVariant?.sku || product.sku} name={name} className="text-2xl" />
+          {inStock && (
+            <p className="mt-2 inline-flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.18em] text-ink">
+              <span className="inline-block size-1.5 rounded-full bg-emerald-600" aria-hidden />
+              {labels.inStock}
+            </p>
+          )}
         </div>
 
         {lead && (

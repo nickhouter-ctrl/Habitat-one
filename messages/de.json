@@ -813,7 +813,8 @@
     "playVideo": "Video abspielen",
     "galleryImage": "Bild {n}",
     "galleryPrev": "Vorheriges Bild",
-    "galleryNext": "Nächstes Bild"
+    "galleryNext": "Nächstes Bild",
+    "inStock": "Ab Lager lieferbar · schnelle Lieferung"
   },
   "spaces": {
     "eyebrow": "Raum für Raum",

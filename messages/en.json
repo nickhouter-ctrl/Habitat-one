@@ -813,7 +813,8 @@
     "playVideo": "Play video",
     "galleryImage": "Image {n}",
     "galleryPrev": "Previous image",
-    "galleryNext": "Next image"
+    "galleryNext": "Next image",
+    "inStock": "In stock · fast delivery"
   },
   "spaces": {
     "eyebrow": "Room by room",

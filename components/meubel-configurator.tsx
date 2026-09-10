@@ -253,7 +253,7 @@ export function MeubelConfigurator() {
   }, [kleur]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // 8. Greep — niet bij series zonder lades (Believe en Amaze zijn open frames)
-  const ZONDER_GREEP = ["Believe", "Amaze", ...LOSSE_WASTAFELS];
+  const ZONDER_GREEP = ["Believe", "Amaze", "Core", ...LOSSE_WASTAFELS]; // Core is greeploos
   const grepen = useMemo(() => (ZONDER_GREEP.includes(serie) ? [] : meubelOnderdelen.filter((o) => o.type === "Meubelgreep")).sort((a, b) => nl(a.serie, b.serie) || cm(a.breedte) - cm(b.breedte) || nl(a.kleur ?? "", b.kleur ?? "")), [serie]); // eslint-disable-line react-hooks/exhaustive-deps
   const [greepSku, setGreepSku] = useState<string | null>(null);
   const greep = grepen.find((o) => o.sku === greepSku) ?? null;

@@ -813,7 +813,8 @@
     "playVideo": "Reproducir vídeo",
     "galleryImage": "Imagen {n}",
     "galleryPrev": "Imagen anterior",
-    "galleryNext": "Imagen siguiente"
+    "galleryNext": "Imagen siguiente",
+    "inStock": "En stock · entrega rápida"
   },
   "spaces": {
     "eyebrow": "Estancia por estancia",

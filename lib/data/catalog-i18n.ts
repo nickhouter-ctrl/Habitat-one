@@ -92,6 +92,8 @@ const TERMEN: Record<string, Vertaling> = {
   "Meubelgreep": { en: "Handle", de: "Griff", es: "Tirador", fr: "Poignée", zh: "拉手" },
   "Tornado hangend toilet met bril": { en: "Tornado wall-hung toilet with seat", de: "Tornado Wand-WC mit Sitz", es: "Inodoro suspendido Tornado con asiento", fr: "WC suspendu Tornado avec abattant", zh: "Tornado 壁挂式马桶（含座圈）" },
   "Toiletten": { en: "Toilets", de: "Toiletten", es: "Inodoros", fr: "Toilettes", zh: "马桶" },
+  "Meubelset": { en: "Bathroom furniture set", de: "Badmöbel-Set", es: "Conjunto de mueble de baño", fr: "Ensemble meuble de salle de bain", zh: "浴室柜套装" },
+  "Uit voorraad leverbaar": { en: "In stock", de: "Ab Lager lieferbar", es: "En stock", fr: "En stock", zh: "现货" },
   "Afvoerplug": { en: "Waste plug", de: "Ablaufventil", es: "Válvula de desagüe", fr: "Bonde", zh: "下水器" },
   "Sifon": { en: "Siphon", de: "Siphon", es: "Sifón", fr: "Siphon", zh: "存水弯" },
   "Klikwaste": { en: "Click-clack waste", de: "Click-Clack-Ablaufventil", es: "Válvula click-clack", fr: "Bonde clic-clac", zh: "弹跳下水器" },

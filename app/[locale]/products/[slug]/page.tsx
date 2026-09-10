@@ -214,6 +214,7 @@ export default async function ProductDetailPage({
             spaceList={spaceList}
             variantVideos={media?.videos}
             combinations={productCombinations[product.id]}
+            inStock={product.availability === "stock"}
             labels={{
               aboutThisProduct: t("aboutThisProduct"),
               specifications: t("specifications"),
@@ -223,6 +224,7 @@ export default async function ProductDetailPage({
               sku: t("sku"),
               dimensions: t("dimensions"),
               drawing: t("drawing"),
+              inStock: t("inStock"),
               materials: t("materials"),
               space: t("space"),
               enquire: t("enquire"),
