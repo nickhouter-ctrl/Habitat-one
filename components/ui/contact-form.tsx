@@ -60,7 +60,7 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
   }
 
   const fieldClass =
-    "w-full rounded-xl border border-sand-300 bg-sand-50/60 px-4 py-3 text-sm text-ink placeholder:text-ink-soft/45 transition-colors focus:border-terracotta-400 focus:bg-whitewash focus:outline-none focus:ring-2 focus:ring-terracotta-400/20";
+    "w-full rounded-sm border border-sand-300 bg-sand-50/60 px-4 py-3 text-base text-ink placeholder:text-ink-soft/45 transition-colors focus:border-terracotta-400 focus:bg-whitewash focus:outline-none focus:ring-2 focus:ring-terracotta-400/20";
   const labelClass = "mb-1.5 block text-[0.72rem] font-semibold uppercase tracking-[0.14em] text-ink-soft";
 
   return (
@@ -70,7 +70,7 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
           key="sent"
           initial={{ opacity: 0, scale: 0.97 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="flex flex-col items-center gap-4 rounded-3xl border border-olive-400/30 bg-olive-600/10 px-8 py-14 text-center"
+          className="flex flex-col items-center gap-4 rounded-sm border border-olive-400/30 bg-olive-600/10 px-8 py-14 text-center"
         >
           <CheckCircle2 className="h-12 w-12 text-olive-600" />
           <p className="max-w-sm text-lg text-ink">{t("sent")}</p>
@@ -89,13 +89,13 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
               <label className={labelClass} htmlFor="cf-name">
                 {t("name")}
               </label>
-              <input id="cf-name" name="name" required className={fieldClass} placeholder="Anna Bauer" />
+              <input id="cf-name" name="name" autoComplete="name" required className={fieldClass} placeholder="Anna Bauer" />
             </div>
             <div>
               <label className={labelClass} htmlFor="cf-email">
                 {t("email")}
               </label>
-              <input id="cf-email" name="email" type="email" required className={fieldClass} placeholder="anna@example.com" />
+              <input id="cf-email" name="email" autoComplete="email" type="email" required className={fieldClass} placeholder="anna@example.com" />
             </div>
           </div>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
@@ -103,7 +103,7 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
               <label className={labelClass} htmlFor="cf-phone">
                 {t("phone")}
               </label>
-              <input id="cf-phone" name="phone" className={fieldClass} placeholder="+34 …" />
+              <input id="cf-phone" name="phone" type="tel" autoComplete="tel" className={fieldClass} placeholder="+34 …" />
             </div>
             <div>
               <label className={labelClass} htmlFor="cf-subject">
@@ -136,7 +136,7 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
             <span>{t("consent")}</span>
           </label>
           {state === "error" && (
-            <p className="rounded-xl border border-terracotta-400/40 bg-terracotta-400/10 px-4 py-3 text-sm text-terracotta-700">
+            <p className="rounded-sm border border-terracotta-400/40 bg-terracotta-400/10 px-4 py-3 text-sm text-terracotta-700">
               {ERR_TEXT[locale] ?? ERR_TEXT.en}
             </p>
           )}

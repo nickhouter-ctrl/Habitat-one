@@ -17,7 +17,7 @@
     "showroom": "Showroom",
     "menu": "Menu",
     "close": "Close",
-    "quote": "Request a quote",
+    "quote": "My selection",
     "bookVisit": "Book a visit",
     "openMenu": "Open menu",
     "searchPlaceholder": "Search products, furniture, spaces…",
@@ -814,7 +814,8 @@
     "galleryImage": "Image {n}",
     "galleryPrev": "Previous image",
     "galleryNext": "Next image",
-    "inStock": "In stock · fast delivery"
+    "inStock": "In stock · fast delivery",
+    "showMore": "Show more"
   },
   "spaces": {
     "eyebrow": "Room by room",
@@ -1050,7 +1051,8 @@
     "receivedDesc": "We will review your request and confirm by email — or suggest an alternative time.",
     "bookAnother": "Book another",
     "chooseDate": "Choose a date",
-    "sendError": "Sending failed. Please try again or email us directly."
+    "sendError": "Sending failed. Please try again or email us directly.",
+    "requestNote": "Architects and sales professionals can request an appointment here. Visiting as a homeowner? Contact us to arrange a visit. Your preferred time is final once we confirm it."
   },
   "location": {
     "eyebrow": "Where to find us",
@@ -1934,7 +1936,7 @@
   "quoteForm": {
     "title": "Request a quote",
     "subtitle": "We'll get back to you within 24h.",
-    "yourProducts": "Products in your quote",
+    "yourProducts": "My selection",
     "noProducts": "No products added yet — fill in your details for a general enquiry.",
     "removeAria": "Remove",
     "name": "Name",
@@ -1955,7 +1957,10 @@
     "successTitle": "Thanks — we've received your request.",
     "successText": "We'll be in touch within one business day by email or phone.",
     "closeLabel": "Close",
-    "errorGeneric": "Sending failed. Please try again or email us directly."
+    "errorGeneric": "Sending failed. Please try again or email us directly.",
+    "continueBrowsing": "Continue browsing",
+    "decreaseQuantity": "Decrease quantity",
+    "increaseQuantity": "Increase quantity"
   },
   "cookieConsent": {
     "body": "We use analytics cookies to improve this website.",

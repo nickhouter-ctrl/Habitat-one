@@ -17,7 +17,7 @@
     "showroom": "Showroom",
     "menu": "Menü",
     "close": "Schließen",
-    "quote": "Angebot anfragen",
+    "quote": "Meine Auswahl",
     "bookVisit": "Termin buchen",
     "openMenu": "Menü öffnen",
     "searchPlaceholder": "Produkte, Möbel, Räume suchen…",
@@ -814,7 +814,8 @@
     "galleryImage": "Bild {n}",
     "galleryPrev": "Vorheriges Bild",
     "galleryNext": "Nächstes Bild",
-    "inStock": "Ab Lager lieferbar · schnelle Lieferung"
+    "inStock": "Ab Lager lieferbar · schnelle Lieferung",
+    "showMore": "Mehr anzeigen"
   },
   "spaces": {
     "eyebrow": "Raum für Raum",
@@ -1050,7 +1051,8 @@
     "receivedDesc": "Wir prüfen Ihre Anfrage und bestätigen per E-Mail — oder schlagen einen anderen Zeitpunkt vor.",
     "bookAnother": "Weiteren Termin buchen",
     "chooseDate": "Datum wählen",
-    "sendError": "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren."
+    "sendError": "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren.",
+    "requestNote": "Architekten und Vertriebsprofis können hier einen Termin anfragen. Privatkunden kontaktieren uns bitte für einen Besuch. Ihr Wunschtermin gilt erst nach unserer Bestätigung."
   },
   "location": {
     "eyebrow": "So findest du uns",
@@ -1934,7 +1936,7 @@
   "quoteForm": {
     "title": "Angebot anfragen",
     "subtitle": "Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
-    "yourProducts": "Produkte in Ihrem Angebot",
+    "yourProducts": "Meine Auswahl",
     "noProducts": "Noch keine Produkte hinzugefügt — füllen Sie Ihre Daten für eine allgemeine Anfrage aus.",
     "removeAria": "Entfernen",
     "name": "Name",
@@ -1955,7 +1957,10 @@
     "successTitle": "Danke — wir haben Ihre Anfrage erhalten.",
     "successText": "Sie hören innerhalb eines Werktags von uns per E-Mail oder Telefon.",
     "closeLabel": "Schließen",
-    "errorGeneric": "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren."
+    "errorGeneric": "Senden fehlgeschlagen. Bitte erneut versuchen oder direkt per Mail kontaktieren.",
+    "continueBrowsing": "Weiter stöbern",
+    "decreaseQuantity": "Menge verringern",
+    "increaseQuantity": "Menge erhöhen"
   },
   "cookieConsent": {
     "body": "Wir verwenden Analyse-Cookies, um diese Website zu verbessern.",

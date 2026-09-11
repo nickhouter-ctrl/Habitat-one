@@ -1,7 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
+import { useDialog } from "@/components/ui/use-dialog";
 import { X, ArrowUpRight, CheckCircle2, Minus, Plus } from "lucide-react";
 import { useQuote } from "@/components/quote-context";
 import { trackEvent } from "@/lib/analytics/track";
@@ -25,14 +27,7 @@ export function QuoteRequestForm() {
     setError(null);
   }
 
-  useEffect(() => {
-    if (!isOpen) return;
-    function onKey(e: KeyboardEvent) {
-      if (e.key === "Escape") closeQuote();
-    }
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [isOpen, closeQuote]);
+  const dialog = useDialog(isOpen, handleClose);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -93,14 +88,16 @@ export function QuoteRequestForm() {
 
   return (
     <div
-      className="fixed inset-0 z-[60] flex items-center justify-center bg-clay-900/60 p-4 backdrop-blur-sm"
+      className="fixed inset-0 z-[70] flex items-center justify-center bg-clay-900/60 p-4 backdrop-blur-sm"
       onClick={handleClose}
+      ref={dialog}
+      tabIndex={-1}
       role="dialog"
       aria-modal="true"
       aria-labelledby="quote-form-title"
     >
       <div
-        className="relative max-h-[92vh] w-full max-w-lg overflow-auto rounded-3xl border border-sand-200 bg-cream p-7 shadow-[0_20px_80px_-30px_rgba(58,42,32,0.45)]"
+        className="relative max-h-[92vh] w-full max-w-lg overflow-auto rounded-sm border border-ink/15 bg-background p-5 sm:p-8 shadow-[0_20px_80px_-30px_rgba(58,42,32,0.45)]"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -113,9 +110,9 @@ export function QuoteRequestForm() {
         </button>
 
         {success ? (
-          <div className="py-6 text-center">
+          <div className="py-6 text-center" role="status">
             <div className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-sea-500/15 text-sea-700">
-              <CheckCircle2 className="h-7 w-7" />
+              <CheckCircle2 className="h-11 w-11" />
             </div>
             <h3 id="quote-form-title" className="mt-4 font-display text-2xl text-ink">{t("successTitle")}</h3>
             <p className="mt-2 text-sm text-clay-700">{t("successText")}</p>
@@ -143,7 +140,8 @@ export function QuoteRequestForm() {
                 <ul className="mt-2 divide-y divide-sand-200">
                   {items.map((it) => (
                     <li key={it.key} className="flex items-center justify-between gap-2 py-2">
-                      <span className="min-w-0">
+                      {it.image && <Image src={it.image} alt="" width={56} height={64} className="h-16 w-14 shrink-0 object-cover" />}
+                      <span className="min-w-0 flex-1">
                         <span className="block truncate text-sm font-medium text-ink">
                           {it.name}
                           {it.variant && <span className="text-clay-700"> — {it.variant}</span>}
@@ -156,9 +154,9 @@ export function QuoteRequestForm() {
                         <div className="flex items-center rounded-full border border-sand-300 bg-cream">
                           <button
                             type="button"
-                            aria-label="−"
+                            aria-label={`${t("decreaseQuantity")}: ${it.name}`}
                             onClick={() => setQty(it.key, it.qty - 1)}
-                            className="grid h-7 w-7 place-items-center text-clay-700 transition-colors hover:text-terracotta-600"
+                            className="grid h-11 w-11 place-items-center text-clay-700 transition-colors hover:text-terracotta-600"
                           >
                             <Minus className="h-3.5 w-3.5" />
                           </button>
@@ -167,18 +165,18 @@ export function QuoteRequestForm() {
                           </span>
                           <button
                             type="button"
-                            aria-label="+"
+                            aria-label={`${t("increaseQuantity")}: ${it.name}`}
                             onClick={() => setQty(it.key, it.qty + 1)}
-                            className="grid h-7 w-7 place-items-center text-clay-700 transition-colors hover:text-terracotta-600"
+                            className="grid h-11 w-11 place-items-center text-clay-700 transition-colors hover:text-terracotta-600"
                           >
                             <Plus className="h-3.5 w-3.5" />
                           </button>
                         </div>
                         <button
                           type="button"
-                          aria-label={t("removeAria")}
+                          aria-label={`${t("removeAria")}: ${it.name}`}
                           onClick={() => removeItem(it.key)}
-                          className="rounded-full p-1 text-clay-700/60 transition-colors hover:bg-sand-200 hover:text-terracotta-600"
+                          className="grid h-11 w-11 place-items-center rounded-full text-clay-700/60 transition-colors hover:bg-sand-200 hover:text-terracotta-600"
                         >
                           <X className="h-4 w-4" />
                         </button>
@@ -196,7 +194,7 @@ export function QuoteRequestForm() {
                   name="type"
                   required
                   defaultValue=""
-                  className="w-full rounded-lg border border-sand-300 bg-cream px-3 py-2 text-sm focus:border-terracotta-400 focus:outline-none focus:ring-2 focus:ring-terracotta-300/40"
+                  className="w-full rounded-sm border border-ink/20 bg-paper px-4 py-3 text-base focus:border-terracotta-400 focus:outline-none focus:ring-2 focus:ring-terracotta-300/40"
                 >
                   <option value="" disabled>—</option>
                   <option value="architect">{t("typeArchitect")}</option>
@@ -233,14 +231,14 @@ export function QuoteRequestForm() {
               </Field>
 
               {error && (
-                <p className="rounded-lg border border-terracotta-400/40 bg-terracotta-400/10 px-3 py-2 text-sm text-terracotta-700">
+                <p role="alert" className="rounded-sm border border-terracotta-400/40 bg-terracotta-400/10 px-3 py-2 text-sm text-terracotta-700">
                   {error}
                 </p>
               )}
 
               <div className="flex flex-wrap items-center justify-end gap-2 pt-2">
                 <button type="button" onClick={handleClose} className="btn btn-ghost">
-                  {t("cancel")}
+                  {t("continueBrowsing")}
                 </button>
                 <button type="submit" disabled={submitting} className="btn btn-primary disabled:opacity-60">
                   {submitting ? t("submitting") : t("submit")}
@@ -256,7 +254,7 @@ export function QuoteRequestForm() {
 }
 
 const inputCls =
-  "w-full rounded-lg border border-sand-300 bg-cream px-3 py-2 text-sm focus:border-terracotta-400 focus:outline-none focus:ring-2 focus:ring-terracotta-300/40";
+  "w-full rounded-sm border border-ink/20 bg-paper px-4 py-3 text-base focus:border-terracotta-400 focus:outline-none focus:ring-2 focus:ring-terracotta-300/40";
 
 function Field({
   label,

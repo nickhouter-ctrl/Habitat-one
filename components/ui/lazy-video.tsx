@@ -25,26 +25,36 @@ export function LazyVideo({
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    const io = new IntersectionObserver(
-      (entries) => {
-        if (entries.some((e) => e.isIntersecting)) {
-          setNear(true);
-          io.disconnect();
-        }
-      },
-      { rootMargin },
-    );
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let visible = false;
+    const sync = () => {
+      if (visible && !reduce.matches && !document.hidden) {
+        setNear(true);
+        el.play().catch(() => {});
+      } else el.pause();
+    };
+    const io = new IntersectionObserver(([entry]) => {
+      visible = entry.isIntersecting;
+      sync();
+    });
+    const preload = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting && !reduce.matches) setNear(true);
+    }, { rootMargin });
+    preload.observe(el);
+    reduce.addEventListener("change", sync);
+    document.addEventListener("visibilitychange", sync);
     io.observe(el);
-    return () => io.disconnect();
+    return () => { io.disconnect(); preload.disconnect(); reduce.removeEventListener("change", sync); document.removeEventListener("visibilitychange", sync); };
   }, [rootMargin]);
 
   // Once the source is attached, kick off the load so autoplay starts.
   useEffect(() => {
     if (near && ref.current) {
       ref.current.load();
-      ref.current.play?.().catch(() => {
-        /* autoplay can be blocked — poster stays, no crash */
-      });
+      const bounds = ref.current.getBoundingClientRect();
+      if (bounds.bottom > 0 && bounds.top < window.innerHeight && !document.hidden && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        ref.current.play().catch(() => {});
+      }
     }
   }, [near]);
 
@@ -56,7 +66,6 @@ export function LazyVideo({
       muted
       loop
       playsInline
-      autoPlay={near}
       preload="none"
     >
       {near && <source src={src} type="video/mp4" />}

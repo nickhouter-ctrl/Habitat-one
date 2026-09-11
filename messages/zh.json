@@ -17,7 +17,7 @@
     "showroom": "展厅",
     "menu": "菜单",
     "close": "关闭",
-    "quote": "索取报价",
+    "quote": "我的选择",
     "bookVisit": "预约参观",
     "openMenu": "打开菜单",
     "searchPlaceholder": "搜索产品、家具、空间…",
@@ -814,7 +814,8 @@
     "galleryImage": "图片 {n}",
     "galleryPrev": "上一张图片",
     "galleryNext": "下一张图片",
-    "inStock": "现货 · 快速交付"
+    "inStock": "现货 · 快速交付",
+    "showMore": "显示更多"
   },
   "spaces": {
     "eyebrow": "逐个空间",
@@ -1050,7 +1051,8 @@
     "receivedDesc": "我们将审核您的申请并通过邮件确认——或建议其他时间。",
     "bookAnother": "再约一次",
     "chooseDate": "选择日期",
-    "sendError": "发送失败。请重试，或直接给我们发送邮件。"
+    "sendError": "发送失败。请重试，或直接给我们发送邮件。",
+    "requestNote": "建筑师和销售专业人士可在此申请预约。私人客户请联系我们安排参观。您选择的时间需经我们确认后生效。"
   },
   "location": {
     "eyebrow": "如何找到我们",
@@ -1934,7 +1936,7 @@
   "quoteForm": {
     "title": "申请报价",
     "subtitle": "我们将在 24 小时内与您联系。",
-    "yourProducts": "您报价单中的产品",
+    "yourProducts": "我的选择",
     "noProducts": "尚未添加产品——填写您的信息即可提交一般咨询。",
     "removeAria": "移除",
     "name": "姓名",
@@ -1955,7 +1957,10 @@
     "successTitle": "感谢您——我们已收到您的申请。",
     "successText": "我们将在一个工作日内通过邮件或电话回复您。",
     "closeLabel": "关闭",
-    "errorGeneric": "发送失败。请重试，或直接给我们发送邮件。"
+    "errorGeneric": "发送失败。请重试，或直接给我们发送邮件。",
+    "continueBrowsing": "继续浏览",
+    "decreaseQuantity": "减少数量",
+    "increaseQuantity": "增加数量"
   },
   "cookieConsent": {
     "body": "我们使用分析 Cookie 来改进本网站。",

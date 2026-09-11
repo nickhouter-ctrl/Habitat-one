@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { Search, X, SlidersHorizontal, ChevronRight } from "lucide-react";
 import { ProductCard } from "@/components/cards/product-card";
 import { catalogMaterials, catalogSpaces, collections, type CatalogProduct } from "@/lib/data/catalog";
+import { useDialog } from "@/components/ui/use-dialog";
 import { cn } from "@/lib/utils";
 
 // --- Colour families for the sidebar colour filter ---
@@ -102,6 +103,10 @@ export function ProductsExplorer({
   const [color, setColor] = useState<string>(initialColor);
   const [query, setQuery] = useState(initialQuery);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const filterDialog = useDialog(mobileFiltersOpen, () => setMobileFiltersOpen(false));
+  const filterKey = [collection, space, material, color, query].join("|");
+  const [pagination, setPagination] = useState({ key: filterKey, limit: 24 });
+  const visibleCount = pagination.key === filterKey ? pagination.limit : 24;
 
   // Reflect the active filters in the URL so a filtered view is shareable and
   // bookmarkable. We write directly with the History API (not the router) so
@@ -327,6 +332,7 @@ export function ProductsExplorer({
           <div className="relative min-w-0 flex-1">
             <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-soft/45" />
             <input
+              aria-label={t("searchPlaceholder")}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder={t("searchPlaceholder")}
@@ -334,6 +340,8 @@ export function ProductsExplorer({
             />
           </div>
           <button
+            aria-expanded={mobileFiltersOpen}
+            aria-controls="catalog-filters"
             onClick={() => setMobileFiltersOpen((v) => !v)}
             className="inline-flex items-center gap-2 rounded-full border border-sand-300 bg-whitewash px-4 py-3 text-sm font-medium text-ink hover:bg-sand-100 lg:hidden"
           >
@@ -343,20 +351,22 @@ export function ProductsExplorer({
           </button>
         </div>
 
-        {/* Mobile filters panel */}
-        <AnimatePresence initial={false}>
-          {mobileFiltersOpen && (
-            <motion.div
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "auto", opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-              className="overflow-hidden lg:hidden"
-            >
-              <div className="surface mt-4 rounded-2xl p-5">{Sidebar}</div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+        {/* Full-height mobile filters keep the result list in place. */}
+        {mobileFiltersOpen && (
+          <div ref={filterDialog} tabIndex={-1} role="dialog" aria-modal="true" aria-labelledby="catalog-filter-title" id="catalog-filters"
+            className="fixed inset-0 z-[65] flex justify-end bg-ink/40" onClick={() => setMobileFiltersOpen(false)}>
+            <div className="flex h-dvh w-full max-w-md flex-col bg-background shadow-xl" onClick={(e) => e.stopPropagation()}>
+              <div className="flex items-center justify-between border-b border-ink/10 px-6 py-4">
+                <h2 id="catalog-filter-title" className="text-2xl">{t("filters")}</h2>
+                <button type="button" aria-label={t("closeFilters")} onClick={() => setMobileFiltersOpen(false)} className="grid h-11 w-11 place-items-center"><X className="h-5 w-5" /></button>
+              </div>
+              <div className="min-h-0 flex-1 overflow-y-auto p-6">{Sidebar}</div>
+              <div className="border-t border-ink/10 p-5 pb-[max(1.25rem,env(safe-area-inset-bottom))]">
+                <button type="button" onClick={() => setMobileFiltersOpen(false)} className="btn btn-primary w-full">{t("showResults", { count: filtered.length })}</button>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Active-filter pills + count */}
         <div className="mt-5 flex flex-wrap items-center gap-2">
@@ -380,6 +390,7 @@ export function ProductsExplorer({
           {query.trim() && <Pill onClear={() => setQuery("")}>“{query.trim()}”</Pill>}
         </div>
 
+        {filtered.length > 0 && <p className="sr-only" role="status">{t("count", { count: filtered.length })}</p>}
         {/* Grid */}
         {filtered.length === 0 ? (
           <div className="mt-10 rounded-3xl border border-dashed border-sand-300 py-20 text-center text-ink-soft">
@@ -393,7 +404,7 @@ export function ProductsExplorer({
         ) : (
           <div className="mt-7 grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
             <AnimatePresence initial={false}>
-              {filtered.map((p) => (
+              {filtered.slice(0, visibleCount).map((p) => (
                 <motion.div
                   key={p.id}
                   initial={{ opacity: 0, scale: 0.96 }}
@@ -405,6 +416,11 @@ export function ProductsExplorer({
                 </motion.div>
               ))}
             </AnimatePresence>
+          </div>
+        )}
+        {filtered.length > visibleCount && (
+          <div className="mt-10 flex justify-center">
+            <button type="button" className="btn btn-ghost" onClick={() => setPagination({ key: filterKey, limit: visibleCount + 24 })}>{t("showMore")}</button>
           </div>
         )}
       </div>

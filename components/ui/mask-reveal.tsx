@@ -9,8 +9,8 @@ const lineVariants: Variants = {
   show: (i: number) => ({
     y: "0%",
     transition: {
-      duration: 0.95,
-      delay: 0.08 + i * 0.07,
+      duration: 0.55,
+      delay: 0.08 + i * 0.035,
       ease: [0.16, 1, 0.3, 1],
     },
   }),

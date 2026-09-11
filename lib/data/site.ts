@@ -22,8 +22,8 @@ export interface NavItem {
 }
 
 export const primaryNav: NavItem[] = [
-  { href: "/location", labelKey: "location" },
   { href: "/products", labelKey: "products" },
+  { href: "/projects", labelKey: "projects" },
   // De keukenplanner staat bewust niet in de navigatie: de pagina bestaat wel
   // (/kitchen-planner) maar wordt nog niet publiek uitgevent. Zet deze regel
   // terug zodra hij gelanceerd wordt — en dan ook de sitemap-entry in
@@ -31,7 +31,7 @@ export const primaryNav: NavItem[] = [
   { href: "/inspiration", labelKey: "inspiration" },
   { href: "/services", labelKey: "services" },
   { href: "/about", labelKey: "about" },
-  { href: "/projects", labelKey: "projects" },
+  { href: "/location", labelKey: "location" },
   { href: "/showroom", labelKey: "showroom" },
 ];
 

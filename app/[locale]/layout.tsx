@@ -8,11 +8,12 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ScrollProgress } from "@/components/ui/scroll-progress";
 import { HoverLabel } from "@/components/ui/hover-label";
+import { MotionProvider } from "@/components/ui/motion-provider";
 import { PageVeil } from "@/components/ui/page-veil";
 import { ChapterIndicator } from "@/components/ui/chapter-indicator";
 import { QuoteProvider } from "@/components/quote-context";
 import { PriceProvider } from "@/components/account/price-provider";
-import { PricePopup } from "@/components/account/price-popup";
+
 import { QuoteRequestForm } from "@/components/quote-request-form";
 import { JsonLd, localBusinessJsonLd } from "@/components/seo/json-ld";
 import { CookieConsent } from "@/components/analytics/cookie-consent";
@@ -111,19 +112,20 @@ export default async function LocaleLayout({
           {/* Binnen de intl-provider zodat cookie-consent messages + i18n-Link kan gebruiken. */}
           <CookieConsent />
           <PriceProvider>
-          <QuoteProvider>
-            <PageVeil />
-            <HoverLabel />
-            <ChapterIndicator />
-            <ScrollProgress />
-            {/* Grain — keep it cheap: no mix-blend (forces a full-screen composite layer on each paint). */}
-            <div className="pointer-events-none fixed inset-0 z-[60] hidden opacity-[0.05] [background-image:url('/site/grain.svg')] [background-size:140px_140px] motion-safe:lg:block" aria-hidden />
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-            <QuoteRequestForm />
-            <PricePopup />
-          </QuoteProvider>
+            <QuoteProvider>
+              <MotionProvider>
+                <PageVeil />
+                <HoverLabel />
+                <ChapterIndicator />
+                <ScrollProgress />
+                {/* Grain — keep it cheap: no mix-blend (forces a full-screen composite layer on each paint). */}
+                <div className="pointer-events-none fixed inset-0 z-[60] hidden opacity-[0.05] [background-image:url('/site/grain.svg')] [background-size:140px_140px] motion-safe:lg:block" aria-hidden />
+                <Header />
+                <main className="flex-1">{children}</main>
+                <Footer />
+                <QuoteRequestForm />
+              </MotionProvider>
+            </QuoteProvider>
           </PriceProvider>
         </NextIntlClientProvider>
       </body>

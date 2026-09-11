@@ -17,7 +17,7 @@
     "showroom": "Showroom",
     "menu": "Menu",
     "close": "Fermer",
-    "quote": "Demander un devis",
+    "quote": "Ma sélection",
     "bookVisit": "Réserver une visite",
     "openMenu": "Ouvrir le menu",
     "searchPlaceholder": "Rechercher produits, mobilier, espaces…",
@@ -651,7 +651,7 @@
     "allMaterials": "Tous les matériaux",
     "filters": "Filtres",
     "clearAll": "Effacer tous les filtres",
-    "showResults": "Afficher {count} produits",
+    "showResults": "Voir {count} produits",
     "activeFilters": "Filtres actifs",
     "addToQuote": "Ajouter au devis",
     "inQuote": "Ajouté au devis",
@@ -814,7 +814,8 @@
     "galleryImage": "Image {n}",
     "galleryPrev": "Image précédente",
     "galleryNext": "Image suivante",
-    "inStock": "En stock · livraison rapide"
+    "inStock": "En stock · livraison rapide",
+    "showMore": "Voir plus"
   },
   "spaces": {
     "eyebrow": "Pièce par pièce",
@@ -1050,7 +1051,8 @@
     "receivedDesc": "Nous examinerons votre demande et confirmerons par e-mail — ou proposerons un autre créneau.",
     "bookAnother": "Réserver un autre créneau",
     "chooseDate": "Choisissez une date",
-    "sendError": "L'envoi a échoué. Veuillez réessayer ou nous écrire directement."
+    "sendError": "L'envoi a échoué. Veuillez réessayer ou nous écrire directement.",
+    "requestNote": "Les architectes et professionnels de la vente peuvent demander un rendez-vous ici. Particuliers, contactez-nous pour organiser une visite. Votre créneau sera définitif après notre confirmation."
   },
   "location": {
     "eyebrow": "Où nous trouver",
@@ -1934,7 +1936,7 @@
   "quoteForm": {
     "title": "Demander un devis",
     "subtitle": "Nous vous recontactons sous 24 h.",
-    "yourProducts": "Produits dans votre devis",
+    "yourProducts": "Ma sélection",
     "noProducts": "Aucun produit ajouté pour l'instant — renseignez vos coordonnées pour une demande générale.",
     "removeAria": "Supprimer",
     "name": "Nom",
@@ -1955,7 +1957,10 @@
     "successTitle": "Merci — nous avons bien reçu votre demande.",
     "successText": "Nous vous répondrons sous un jour ouvré, par e-mail ou par téléphone.",
     "closeLabel": "Fermer",
-    "errorGeneric": "L'envoi a échoué. Veuillez réessayer ou nous écrire directement."
+    "errorGeneric": "L'envoi a échoué. Veuillez réessayer ou nous écrire directement.",
+    "continueBrowsing": "Continuer la visite",
+    "decreaseQuantity": "Réduire la quantité",
+    "increaseQuantity": "Augmenter la quantité"
   },
   "cookieConsent": {
     "body": "Nous utilisons des cookies d'analyse pour améliorer ce site.",

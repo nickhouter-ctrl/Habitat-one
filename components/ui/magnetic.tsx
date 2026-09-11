@@ -14,7 +14,7 @@ export function Magnetic({
   children,
   className,
   radius = 110,
-  strength = 0.32,
+  strength = 0.08,
 }: {
   children: ReactNode;
   className?: string;
@@ -55,10 +55,10 @@ export function Magnetic({
       y.set(0);
     }
 
-    window.addEventListener("pointermove", onMove);
+    el.addEventListener("pointermove", onMove);
     el.addEventListener("pointerleave", onLeave);
     return () => {
-      window.removeEventListener("pointermove", onMove);
+      el.removeEventListener("pointermove", onMove);
       el.removeEventListener("pointerleave", onLeave);
     };
   }, [radius, strength, x, y]);

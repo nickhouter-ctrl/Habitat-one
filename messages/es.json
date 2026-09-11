@@ -17,7 +17,7 @@
     "showroom": "Showroom",
     "menu": "Menú",
     "close": "Cerrar",
-    "quote": "Pedir presupuesto",
+    "quote": "Mi selección",
     "bookVisit": "Reservar visita",
     "openMenu": "Abrir menú",
     "searchPlaceholder": "Buscar productos, muebles, espacios…",
@@ -651,7 +651,7 @@
     "allMaterials": "Todos los materiales",
     "filters": "Filtros",
     "clearAll": "Borrar todos los filtros",
-    "showResults": "Mostrar {count} productos",
+    "showResults": "Ver {count} productos",
     "activeFilters": "Filtros activos",
     "addToQuote": "Añadir al presupuesto",
     "inQuote": "Añadido al presupuesto",
@@ -814,7 +814,8 @@
     "galleryImage": "Imagen {n}",
     "galleryPrev": "Imagen anterior",
     "galleryNext": "Imagen siguiente",
-    "inStock": "En stock · entrega rápida"
+    "inStock": "En stock · entrega rápida",
+    "showMore": "Ver más"
   },
   "spaces": {
     "eyebrow": "Estancia por estancia",
@@ -1050,7 +1051,8 @@
     "receivedDesc": "Revisaremos tu solicitud y la confirmaremos por correo — o te propondremos otra hora.",
     "bookAnother": "Reservar otra",
     "chooseDate": "Elige una fecha",
-    "sendError": "Error al enviar. Vuelve a intentarlo o escríbenos directamente."
+    "sendError": "Error al enviar. Vuelve a intentarlo o escríbenos directamente.",
+    "requestNote": "Los arquitectos y profesionales de ventas pueden solicitar una cita aquí. Si eres particular, contáctanos para organizar una visita. Confirmaremos tu horario preferido."
   },
   "location": {
     "eyebrow": "Dónde encontrarnos",
@@ -1934,7 +1936,7 @@
   "quoteForm": {
     "title": "Solicitar presupuesto",
     "subtitle": "Te contactaremos en menos de 24 horas.",
-    "yourProducts": "Productos en tu presupuesto",
+    "yourProducts": "Mi selección",
     "noProducts": "Aún no hay productos — rellena tus datos para una consulta general.",
     "removeAria": "Eliminar",
     "name": "Nombre",
@@ -1955,7 +1957,10 @@
     "successTitle": "Gracias — hemos recibido tu solicitud.",
     "successText": "Te responderemos en un día laborable por correo o teléfono.",
     "closeLabel": "Cerrar",
-    "errorGeneric": "Error al enviar. Vuelve a intentarlo o escríbenos directamente."
+    "errorGeneric": "Error al enviar. Vuelve a intentarlo o escríbenos directamente.",
+    "continueBrowsing": "Seguir explorando",
+    "decreaseQuantity": "Reducir cantidad",
+    "increaseQuantity": "Aumentar cantidad"
   },
   "cookieConsent": {
     "body": "Usamos cookies de análisis para mejorar este sitio web.",

@@ -19,7 +19,7 @@ interface PinnedStoryProps {
   lines: StoryLine[];
   cta?: { label: string; href: string };
   tone?: "dark" | "light";
-  /** Scroll height per text panel, expressed in svh (default 100 = one viewport). */
+  /** Scroll height per text panel, expressed in svh (default 60 = one viewport). */
   scrollPerLine?: number;
 }
 
@@ -39,13 +39,13 @@ export function PinnedStorySection({
   lines,
   cta,
   tone = "dark",
-  scrollPerLine = 100,
+  scrollPerLine = 60,
 }: PinnedStoryProps) {
   return (
     <section
       data-chapter={chapter}
       style={{ height: `${lines.length * scrollPerLine}svh` }}
-      className="relative"
+      className="story-section relative"
     >
       {/* Pinned background — fills the viewport while the section scrolls past */}
       <div className="sticky top-0 h-svh w-full overflow-hidden">

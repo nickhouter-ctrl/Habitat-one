@@ -93,13 +93,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   // (travertine-clad villa façade by the pool), shown uncropped (16:9).
   const magicHero = "/products/magic/travertine-beige-exterior.jpg";
 
-  // Featured Flexible Stone products — cinematic scroll-pinned stories (real video).
-  // Story 1 = Concrete Board · Mid Gray. Story 2 = Travertino · Beige.
-  const story1Product = getProductBySlug("concrete-board-");
+  // One signature material story keeps the homepage focused.
   const story2Product = getProductBySlug("ms-travertino");
-  // Concrete Board has a real autoplay video; poster falls back to its product shot.
-  const story1Video = "/products/magic/concrete-board-medium-grey.mp4";
-  const story1Poster = "/products/magic/concrete-board-medium-grey-hero.png";
   const story2Video = "/products/magic/story-travertino-beige.mp4";
   const story2Poster = "/products/magic/ms-travertino-beige-interior.jpg";
 
@@ -162,6 +157,107 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </Section>
 
+      {/* ---- The full range — one card per collection ---- */}
+      <Section chapter="Range" className="bg-paper py-20 md:py-28">
+        <Container>
+          <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+            <EditorialHeading
+              eyebrow={t("rangeEyebrow")}
+              title={t("rangeTitle")}
+              text={t("rangeText")}
+              className="max-w-2xl"
+            />
+            <Reveal direction="left">
+              <Link
+                href="/products/all"
+                className="inline-flex shrink-0 items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
+              >
+                {t("viewCatalog")}
+                <ArrowUpRight className="h-3.5 w-3.5" />
+              </Link>
+            </Reveal>
+          </div>
+          <div className="mt-14 grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-3">
+            {rangeCollections.map((c, i) => (
+              <Reveal key={c.id} delay={i * 0.05}>
+                <Link
+                  href={c.href}
+                  className="group relative block aspect-[4/3] overflow-hidden bg-sand-100"
+                >
+                  <Image
+                    src={c.img}
+                    alt={tprod(c.key)}
+                    fill
+                    sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.045]"
+                  />
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/75 via-ink/10 to-transparent" />
+                  <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-3 md:p-6">
+                    <h3 className="min-w-0 break-words text-base font-medium leading-tight text-paper sm:text-xl">{tprod(c.key)}</h3>
+                    <ArrowUpRight className="hidden h-5 w-5 shrink-0 text-paper/90 transition-transform sm:block duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </div>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+
+      {/* ---- Transformations in Jávea/Xàbia — before/after drag slider ---- */}
+      <Section chapter="Projects" className="bg-paper py-20 md:py-28">
+        <Container>
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.4fr] lg:items-center lg:gap-16">
+            <div>
+              <EditorialHeading
+                eyebrow={t("projectsEyebrow")}
+                title={t("projectsTitle")}
+                text={t("projectsText")}
+                className="max-w-none"
+              />
+              <Reveal className="mt-8">
+                <div className="border-t border-ink/10 pt-6">
+                  <p className="text-[0.7rem] uppercase tracking-[0.28em] text-ink-soft">
+                    {featuredProject.location} · {featuredProject.year}
+                  </p>
+                  <h3 className="mt-3 text-2xl font-medium leading-[1.1] text-ink md:text-3xl">
+                    {featuredProject.title}
+                  </h3>
+                  <p className="mt-2 text-[0.7rem] uppercase tracking-[0.18em] text-ink-soft/70">
+                    {featuredProject.scope}
+                  </p>
+                  <p className="mt-5 leading-relaxed text-ink-soft">{featuredProject.summary}</p>
+                  <div className="mt-7 flex flex-wrap items-center gap-4">
+                    <Link href={`/projects/${featuredProject.slug}`} className="btn btn-primary">
+                      {tp("viewProject")}
+                      <ArrowUpRight className="h-4 w-4" />
+                    </Link>
+                    <Link
+                      href="/projects"
+                      className="inline-flex items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
+                    >
+                      {t("viewProjects")}
+                      <ArrowRight className="h-3.5 w-3.5" />
+                    </Link>
+                  </div>
+                </div>
+              </Reveal>
+            </div>
+
+            <Reveal>
+              <BeforeAfter
+                beforeSrc={featuredProject.beforeImage ?? featuredProject.afterImage ?? "/site/material_card.jpg"}
+                afterSrc={featuredProject.afterImage ?? featuredProject.beforeImage ?? "/site/material_card.jpg"}
+                beforeLabel={tp("before")}
+                afterLabel={tp("after")}
+                hint={tp("dragHint")}
+              />
+            </Reveal>
+          </div>
+        </Container>
+      </Section>
+
+
       {/* ---- Flexible Stone — the signature collection ---- */}
       <Section chapter="Flexible Stone" className="bg-paper py-20 md:py-32">
         <Container>
@@ -220,124 +316,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           </div>
         </Container>
       </Section>
-
-      {/* ---- The full range — one card per collection ---- */}
-      <Section chapter="Range" className="bg-paper py-20 md:py-28">
-        <Container>
-          <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-            <EditorialHeading
-              eyebrow={t("rangeEyebrow")}
-              title={t("rangeTitle")}
-              text={t("rangeText")}
-              className="max-w-2xl"
-            />
-            <Reveal direction="left">
-              <Link
-                href="/products/all"
-                className="inline-flex shrink-0 items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
-              >
-                {t("viewCatalog")}
-                <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
-            </Reveal>
-          </div>
-          <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {rangeCollections.map((c, i) => (
-              <Reveal key={c.id} delay={i * 0.05}>
-                <Link
-                  href={c.href}
-                  className="group relative block aspect-[4/5] overflow-hidden bg-sand-100"
-                >
-                  <Image
-                    src={c.img}
-                    alt={tprod(c.key)}
-                    fill
-                    sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.045]"
-                  />
-                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/75 via-ink/10 to-transparent" />
-                  <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-6">
-                    <h3 className="text-xl font-medium leading-tight text-paper">{tprod(c.key)}</h3>
-                    <ArrowUpRight className="h-5 w-5 shrink-0 text-paper/90 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                  </div>
-                </Link>
-              </Reveal>
-            ))}
-          </div>
-        </Container>
-      </Section>
-
-
-      {/* ---- Story 1 — Concrete Board (cinematic, real video) ---- */}
-      <PinnedStorySection
-        chapter="Concrete"
-        identifier={t("story1Identifier")}
-        videoSrc={story1Video}
-        posterImage={story1Poster}
-        lines={[
-          { heading: t("story1Line1") },
-          { heading: t("story1Line2") },
-          { heading: t("story1Line3") },
-        ]}
-        cta={{
-          label: t("story1Cta"),
-          href: story1Product ? `/products/${story1Product.slug}` : "/products/flexible-stone",
-        }}
-      />
-
-      {/* ---- Transformations in Jávea/Xàbia — before/after drag slider ---- */}
-      <Section chapter="Projects" className="bg-paper py-20 md:py-28">
-        <Container>
-          <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.4fr] lg:items-center lg:gap-16">
-            <div>
-              <EditorialHeading
-                eyebrow={t("projectsEyebrow")}
-                title={t("projectsTitle")}
-                text={t("projectsText")}
-                className="max-w-none"
-              />
-              <Reveal className="mt-8">
-                <div className="border-t border-ink/10 pt-6">
-                  <p className="text-[0.7rem] uppercase tracking-[0.28em] text-ink-soft">
-                    {featuredProject.location} · {featuredProject.year}
-                  </p>
-                  <h3 className="mt-3 text-2xl font-medium leading-[1.1] text-ink md:text-3xl">
-                    {featuredProject.title}
-                  </h3>
-                  <p className="mt-2 text-[0.7rem] uppercase tracking-[0.18em] text-ink-soft/70">
-                    {featuredProject.scope}
-                  </p>
-                  <p className="mt-5 leading-relaxed text-ink-soft">{featuredProject.summary}</p>
-                  <div className="mt-7 flex flex-wrap items-center gap-4">
-                    <Link href={`/projects/${featuredProject.slug}`} className="btn btn-primary">
-                      {tp("viewProject")}
-                      <ArrowUpRight className="h-4 w-4" />
-                    </Link>
-                    <Link
-                      href="/projects"
-                      className="inline-flex items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-ink underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink"
-                    >
-                      {t("viewProjects")}
-                      <ArrowRight className="h-3.5 w-3.5" />
-                    </Link>
-                  </div>
-                </div>
-              </Reveal>
-            </div>
-
-            <Reveal>
-              <BeforeAfter
-                beforeSrc={featuredProject.beforeImage ?? featuredProject.afterImage ?? "/site/material_card.jpg"}
-                afterSrc={featuredProject.afterImage ?? featuredProject.beforeImage ?? "/site/material_card.jpg"}
-                beforeLabel={tp("before")}
-                afterLabel={tp("after")}
-                hint={tp("dragHint")}
-              />
-            </Reveal>
-          </div>
-        </Container>
-      </Section>
-
 
       {/* ---- Trust strip (typographic only) ---- */}
       <div className="border-y border-ink/10 bg-paper">

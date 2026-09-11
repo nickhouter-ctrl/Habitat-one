@@ -506,3 +506,12 @@
   letter-spacing: 0;
   font-weight: 400;
 }
+
+/* Calm, consistent interactions and readable keyboard focus. */
+:focus-visible { outline: 2px solid var(--color-ink-soft); outline-offset: 4px; }
+@media (max-width: 767px), (prefers-reduced-motion: reduce) {
+  .story-section { height: auto !important; }
+  .story-section > .sticky { position: absolute; inset: 0; height: 100%; }
+  .story-section > .absolute { position: relative; padding: 5rem 0; gap: 2rem; }
+  .story-section > .absolute > div { height: auto !important; }
+}

@@ -28,7 +28,7 @@ export function PageVeil() {
     const t = window.setTimeout(() => {
       setOpen(false);
       window.sessionStorage.setItem("h1.veil", "1");
-    }, 1500);
+    }, 1000);
     return () => window.clearTimeout(t);
   }, []);
 
@@ -41,7 +41,7 @@ export function PageVeil() {
           key="veil"
           initial={{ y: 0 }}
           exit={{ y: "-101%" }}
-          transition={{ duration: 1.1, ease: [0.76, 0, 0.24, 1] }}
+          transition={{ duration: 0.9, ease: [0.76, 0, 0.24, 1] }}
           className="pointer-events-none fixed inset-0 z-[80] grid place-items-center bg-cream"
           aria-hidden
         >
@@ -67,7 +67,7 @@ export function PageVeil() {
             initial={{ scaleX: 0 }}
             animate={{ scaleX: 1 }}
             exit={{ scaleX: 0 }}
-            transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             style={{ transformOrigin: "left center" }}
             className="absolute inset-x-0 bottom-8 mx-auto h-px w-[60vw] max-w-md bg-ink/35"
           />

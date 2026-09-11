@@ -42,7 +42,7 @@ export function AccountNavButton() {
       {/* Desktop: gelabelde knop, zelfde stijl als 'Book a visit' */}
       <Link
         href={href}
-        className="hidden items-center gap-2 border border-ink px-4 py-2.5 text-[0.72rem] font-medium uppercase tracking-[0.16em] text-ink transition-colors hover:bg-ink hover:text-paper md:inline-flex"
+        className="hidden items-center gap-2 px-2 py-2.5 text-[0.72rem] font-medium uppercase tracking-[0.16em] text-ink-soft transition-colors hover:text-ink md:inline-flex"
       >
         <Icon className="h-3.5 w-3.5" />
         {label}

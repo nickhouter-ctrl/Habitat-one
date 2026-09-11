@@ -109,6 +109,7 @@ export function AppointmentBooking() {
         <CalendarDays className="h-3.5 w-3.5" />
         {t("title")}
       </div>
+      <p className="mt-3 text-sm leading-relaxed text-cream/80">{t("requestNote")}</p>
       <AnimatePresence mode="wait">
         {step === "role" && (
           <motion.div key="role" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.3 }}>

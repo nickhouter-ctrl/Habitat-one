@@ -7,10 +7,10 @@ import { cn } from "@/lib/utils";
 type Direction = "up" | "down" | "left" | "right" | "none";
 
 const offset: Record<Direction, { x: number; y: number }> = {
-  up: { x: 0, y: 36 },
-  down: { x: 0, y: -36 },
-  left: { x: 48, y: 0 },
-  right: { x: -48, y: 0 },
+  up: { x: 0, y: 18 },
+  down: { x: 0, y: -18 },
+  left: { x: 24, y: 0 },
+  right: { x: -24, y: 0 },
   none: { x: 0, y: 0 },
 };
 
@@ -40,7 +40,7 @@ export function Reveal({
       initial={{ opacity: 0, x, y }}
       whileInView={{ opacity: 1, x: 0, y: 0 }}
       viewport={{ once, margin: "-60px" }}
-      transition={{ duration: 0.7, delay, ease: [0.16, 1, 0.3, 1] }}
+      transition={{ duration: 0.45, delay, ease: [0.16, 1, 0.3, 1] }}
     >
       {children}
     </Comp>
@@ -56,7 +56,7 @@ const itemVariants: Variants = {
   show: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.65, ease: [0.16, 1, 0.3, 1] },
+    transition: { duration: 0.45, ease: [0.16, 1, 0.3, 1] },
   },
 };
 

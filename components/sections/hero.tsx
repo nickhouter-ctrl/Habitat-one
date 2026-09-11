@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { motion, AnimatePresence, useScroll, useTransform } from "motion/react";
+import { motion, AnimatePresence, useScroll, useTransform, useReducedMotion } from "motion/react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { heroStats } from "@/lib/data/site";
@@ -41,6 +41,7 @@ export function Hero() {
   const tProducts = useTranslations("products");
   const tStats = useTranslations("stats");
   const ref = useRef<HTMLDivElement>(null);
+  const reduceMotion = useReducedMotion();
 
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-18%"]);
@@ -48,13 +49,9 @@ export function Hero() {
 
   const [slide, setSlide] = useState(0);
   const [stil, setStil] = useState(false);
-  const [beweegt, setBeweegt] = useState(true);
+  const beweegt = !reduceMotion;
   // `tik` herstart de voortgangslijn ook bij handmatig bladeren.
   const [tik, setTik] = useState(0);
-
-  useEffect(() => {
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) setBeweegt(false);
-  }, []);
 
   const ga = useCallback((naar: number) => {
     setSlide(((naar % SLIDES.length) + SLIDES.length) % SLIDES.length);
@@ -124,12 +121,12 @@ export function Hero() {
 
         {/* Alleen onderin donker, waar de tekst staat; erboven blijft de foto vrij.
             Plus een nauwelijks zichtbare vignette aan de randen. */}
-        <div className="absolute inset-0 bg-gradient-to-t from-sea-900/70 via-sea-900/15 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-sea-900/85 via-sea-900/25 to-transparent" />
         <div className="absolute inset-0 [box-shadow:inset_0_0_140px_rgba(0,0,0,0.22)]" />
 
         <motion.div
-          style={{ y: textY, opacity: fade }}
-          className="container-x relative z-10 flex h-full flex-col justify-end pb-16 md:pb-24"
+          style={{ y: reduceMotion ? 0 : textY, opacity: reduceMotion ? 1 : fade }}
+          className="container-x relative z-10 flex h-full flex-col justify-end pb-24 md:pb-24"
         >
           <motion.span
             initial={{ opacity: 0, y: 12 }}
@@ -161,7 +158,7 @@ export function Hero() {
           <motion.div
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.55 }}
+            transition={{ duration: 0.4, delay: 0.15 }}
             className="mt-8 flex flex-wrap items-center gap-3"
           >
             <Magnetic>
@@ -221,7 +218,7 @@ export function Hero() {
             type="button"
             aria-label={label}
             onClick={() => ga(slide + r)}
-            className={`absolute top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-paper/30 text-paper/80 opacity-0 backdrop-blur-sm transition-all duration-500 hover:border-paper hover:text-paper group-hover/hero:opacity-100 md:flex ${kant}`}
+            className={`absolute top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-paper/30 text-paper/80 opacity-0 backdrop-blur-sm transition-all duration-500 hover:border-paper hover:text-paper group-hover/hero:opacity-100 focus-visible:opacity-100 md:flex ${kant}`}
           >
             <Icoon className="h-5 w-5" strokeWidth={1.25} />
           </button>

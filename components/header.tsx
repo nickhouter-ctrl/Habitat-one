@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useId, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { ArrowUpRight, CalendarCheck, ChevronDown, Menu, X } from "lucide-react";
@@ -13,6 +13,7 @@ import { AccountMenuLink, AccountNavButton } from "@/components/account/account-
 import { Logo } from "@/components/logo";
 import { SearchBox } from "@/components/search/search-box";
 import { useQuote } from "@/components/quote-context";
+import { useDialog } from "@/components/ui/use-dialog";
 import { cn } from "@/lib/utils";
 
 type DropItem = { href: string; label: string };
@@ -36,12 +37,6 @@ export function Header() {
     setOpen(false);
   }
 
-  useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [open]);
 
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
@@ -189,8 +184,15 @@ function NavItem({
   mega?: MegaMenu;
 }) {
   const hasMenu = !!mega || (!!items && items.length > 0);
+  const [expanded, setExpanded] = useState(false);
+  const id = useId();
+  const trigger = useRef<HTMLButtonElement>(null);
   return (
-    <div className="group relative">
+    <div className="relative flex items-center" onMouseEnter={() => setExpanded(true)} onMouseLeave={() => setExpanded(false)}
+      onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget)) setExpanded(false); }}
+      onKeyDown={(e) => { if (e.key === "Escape") { setExpanded(false); trigger.current?.focus(); } }}
+      onClick={(e) => { if ((e.target as HTMLElement).closest("a")) setExpanded(false); }}
+    >
       <Link
         href={href}
         className={cn(
@@ -199,12 +201,13 @@ function NavItem({
         )}
       >
         {label}
-        {hasMenu && (
-          <ChevronDown className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180" />
-        )}
       </Link>
+      {hasMenu && <button ref={trigger} type="button" aria-label={label} aria-expanded={expanded} aria-controls={id}
+        onClick={() => setExpanded((value) => !value)} className="-ml-2 grid h-9 w-8 place-items-center text-ink-soft">
+        <ChevronDown className={cn("h-3.5 w-3.5 transition-transform duration-200", expanded && "rotate-180")} />
+      </button>}
       {mega ? (
-        <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-2 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
+        <div id={id} inert={!expanded} className={cn("absolute left-1/2 top-full z-50 -translate-x-1/2 pt-2 transition-opacity duration-150", expanded ? "visible opacity-100" : "invisible opacity-0")}>
           <div className="max-w-[calc(100vw-2rem)] rounded-2xl border border-sand-200 bg-cream p-5 shadow-[0_20px_50px_-25px_rgba(58,42,32,0.55)]">
             <div className="w-[40rem] max-w-[calc(100vw-3rem)] columns-3 gap-x-8 [column-fill:balance]">
               {mega.sections.map((sec, i) => (
@@ -249,7 +252,7 @@ function NavItem({
         </div>
       ) : (
         hasMenu && (
-          <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-2 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
+          <div id={id} inert={!expanded} className={cn("absolute left-1/2 top-full z-50 -translate-x-1/2 pt-2 transition-opacity duration-150", expanded ? "visible opacity-100" : "invisible opacity-0")}>
             <div className="grid min-w-[14rem] gap-0.5 rounded-2xl border border-sand-200 bg-cream p-2 shadow-[0_20px_50px_-25px_rgba(58,42,32,0.55)]">
               {items!.map((it) => (
                 <Link
@@ -282,6 +285,7 @@ function MobileMenu({
   megaMenus: Record<string, MegaMenu>;
 }) {
   const { items, openQuote } = useQuote();
+  const dialog = useDialog(true, onClose);
   // Welke menukop staat uitgeklapt (één tegelijk). Standaard dicht.
   const [expanded, setExpanded] = useState<string | null>(null);
   return (
@@ -290,7 +294,8 @@ function MobileMenu({
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
-      className="fixed inset-0 z-40 lg:hidden"
+      ref={dialog} tabIndex={-1} role="dialog" aria-modal="true" aria-label={t("openMenu")}
+      className="fixed inset-0 z-[55] lg:hidden"
     >
       <div className="absolute inset-0 bg-sea-900/40 backdrop-blur-sm" onClick={onClose} />
       <motion.div
@@ -301,6 +306,7 @@ function MobileMenu({
         className="absolute inset-x-0 top-0 max-h-[92vh] overflow-y-auto rounded-b-[2rem] border-b border-sand-200 bg-cream pb-10 pt-20 shadow-2xl"
       >
         <div className="container-x">
+          <button type="button" onClick={onClose} aria-label={t("close")} className="absolute right-5 top-5 grid h-11 w-11 place-items-center border border-ink/15"><X className="h-5 w-5" /></button>
           <SearchBox placeholder={t("searchPlaceholder")} onNavigate={onClose} />
           <nav className="mt-5 flex flex-col">
             {primaryNav.map((item, i) => {

@@ -43,11 +43,11 @@ export function ProductQuoteActions({
       </Magnetic>
       <button
         type="button"
-        onClick={() => addItem(item)}
+        onClick={() => added ? openQuote() : addItem(item)}
         className="btn btn-ghost"
       >
         {added ? <Check className="h-4 w-4" /> : <Plus className="h-4 w-4" />}
-        {added ? labels.inQuote : labels.addToQuote}
+        <span aria-live="polite">{added ? labels.inQuote : labels.addToQuote}</span>
       </button>
     </div>
   );
