@@ -22,6 +22,7 @@ function charm(n: number): number {
 export function PriceTag({
   sku,
   skus,
+  fallbacks,
   name,
   className = "",
   asLink = true,
@@ -29,6 +30,12 @@ export function PriceTag({
   sku?: string | null;
   /** Alle maat-/versie-SKU's — voor een "vanaf"-prijs op de kaart. */
   skus?: (string | null | undefined)[];
+  /**
+   * Terugval in volgorde: de eerste SKU met een prijs wint, zonder "vanaf".
+   * Voor varianten die alleen een kleurcode dragen ("WHI") en zelf geen prijs
+   * hebben — dan geldt de prijs van het product.
+   */
+  fallbacks?: (string | null | undefined)[];
   /** Productnaam voor de op-naam-fallback (bv. Flexible Stone zonder SKU-match). */
   name?: string | null;
   className?: string;
@@ -63,6 +70,12 @@ export function PriceTag({
   for (const s of seen) {
     const hit = state.prices[s];
     if (hit && hit.price > 0) found.push(hit);
+  }
+  if (found.length === 0) {
+    for (const f of fallbacks ?? []) {
+      const hit = f ? state.prices[f] : null;
+      if (hit && hit.price > 0) { found.push(hit); break; }
+    }
   }
   if (found.length === 0) {
     const byN = resolvePrice(state, null, name);

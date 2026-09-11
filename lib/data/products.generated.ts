@@ -3825,64 +3825,6 @@ export const catalogProducts: CatalogProduct[] = [
     "variants": []
   },
   {
-    "id": 406,
-    "name": "Deurstopper brons",
-    "slug": "deurstopper-brons-1778854942833",
-    "sku": "DR-010",
-    "short": null,
-    "description": "SS304 brushed bronze deurstopper.",
-    "descriptionI18n": {
-      "nl": "SS304 deurstopper in geborsteld brons.",
-      "en": "SS304 brushed-bronze door stop.",
-      "de": "Türstopper aus SS304 in gebürsteter Bronze.",
-      "es": "Tope de puerta de acero inoxidable SS304 en bronce cepillado."
-    },
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "doors",
-    "brand": null,
-    "availability": null,
-    "series": null,
-    "productType": null,
-    "optionAxes": null,
-    "variantSkus": null,
-    "variants": []
-  },
-  {
-    "id": 407,
-    "name": "Deursluiter (concealed)",
-    "slug": "deursluiter-concealed-1778854942833",
-    "sku": "DR-007",
-    "short": null,
-    "description": "CE-cert RVS #304 concealed deursluiter — voor brandwerende deur.",
-    "descriptionI18n": {
-      "nl": "CE-gecertificeerde verborgen deurdranger, RVS #304 — voor brandwerende deur.",
-      "en": "CE-certified concealed door closer, stainless steel #304 — for fire-rated doors.",
-      "de": "CE-zertifizierter verdeckter Türschließer, Edelstahl #304 — für Brandschutztüren.",
-      "es": "Cierrapuertas oculto con certificación CE, acero inoxidable #304 — para puertas cortafuegos."
-    },
-    "additionalSizes": null,
-    "image": null,
-    "featured": false,
-    "dimensions": null,
-    "materials": [],
-    "spaces": [],
-    "categories": [],
-    "collection": "doors",
-    "brand": null,
-    "availability": null,
-    "series": null,
-    "productType": null,
-    "optionAxes": null,
-    "variantSkus": null,
-    "variants": []
-  },
-  {
     "id": 408,
     "name": "Binnendeur Compleet 920×2600 (bronze)",
     "slug": "binnendeur-compleet-920-2600-bronze-1778854942833",
@@ -17380,8 +17322,39 @@ export const catalogProducts: CatalogProduct[] = [
     "availability": null,
     "series": "Jade Edge",
     "productType": "Spiegels",
-    "optionAxes": null,
-    "variantSkus": null,
+    "optionAxes": [
+      {
+        "key": "maat",
+        "label": "Maat",
+        "values": [
+          {
+            "value": "70 cm",
+            "label": "70 cm",
+            "image": null
+          }
+        ]
+      },
+      {
+        "key": "uitvoering",
+        "label": "Uitvoering",
+        "values": [
+          {
+            "value": "Zwart frame",
+            "label": "Zwart frame",
+            "image": null
+          },
+          {
+            "value": "Zwart frame met ophangband",
+            "label": "Zwart frame met ophangband",
+            "image": null
+          }
+        ]
+      }
+    ],
+    "variantSkus": [
+      "BRA-SP-JDE70RO",
+      "BRA-SP-JDE70ROO"
+    ],
     "variants": []
   },
   {

@@ -74043,6 +74043,30 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawingImage": null
     }
   ],
+  "9739": [
+    {
+      "sku": "BRA-SP-JDE70RO",
+      "options": {
+        "maat": "70 cm",
+        "uitvoering": "Zwart frame"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70RO.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70RO_T.pdf",
+      "drawingImage": null
+    },
+    {
+      "sku": "BRA-SP-JDE70ROO",
+      "options": {
+        "maat": "70 cm",
+        "uitvoering": "Zwart frame met ophangband"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70ROO.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/SP-JDE70ROO_T.pdf",
+      "drawingImage": null
+    }
+  ],
   "9740": [
     {
       "sku": "BRA-SP-JS160RH",

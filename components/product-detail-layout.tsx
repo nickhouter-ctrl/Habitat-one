@@ -420,7 +420,9 @@ export function ProductDetailLayout({
 
         {/* Prijs (verandert mee met de gekozen maat/variant). */}
         <div className="mt-5 text-2xl">
-          <PriceTag sku={gekozenCombinatie?.sku || activeVariant?.sku || product.sku} name={name} className="text-2xl" />
+          {/* Kandidaten in volgorde: gekozen combinatie, variant, product — de eerste met een prijs wint.
+              Sommige varianten dragen alleen een kleurcode ("WHI") en hebben geen eigen prijs. */}
+          <PriceTag sku={gekozenCombinatie?.sku || activeVariant?.sku || product.sku} fallbacks={[activeVariant?.sku, product.sku]} name={name} className="text-2xl" />
           {inStock && (
             <p className="mt-2 inline-flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.18em] text-ink">
               <span className="inline-block size-1.5 rounded-full bg-emerald-600" aria-hidden />
