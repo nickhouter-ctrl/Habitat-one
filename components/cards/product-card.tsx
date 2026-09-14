@@ -28,7 +28,7 @@ const collectionKey: Record<string, string> = {
 };
 
 /** Collecties met productfoto's op witte achtergrond: volledig tonen (niet bijsnijden). */
-const CONTAIN_COLLECTIONS = ["bloempotten", "verlichting", "schakelmateriaal", "furniture"];
+const CONTAIN_COLLECTIONS = ["bloempotten", "verlichting", "schakelmateriaal"];
 
 /**
  * Localised product name (falls back to the catalogue's English name).
@@ -116,7 +116,7 @@ export function ProductCard({
               // (productfoto op wit) altijd heel; anders vult de 3:4 lifestyle-crop de kaart.
               merk
                 ? "object-contain"
-                : product.collection === "verlichting" || product.collection === "schakelmateriaal" || product.collection === "furniture" || (product.collection === "bloempotten" && imageOverride)
+                : product.collection === "verlichting" || product.collection === "schakelmateriaal" || (product.collection === "bloempotten" && imageOverride)
                   ? "object-contain p-4"
                   : "object-cover",
             )}

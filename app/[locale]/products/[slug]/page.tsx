@@ -57,7 +57,7 @@ export async function generateMetadata({
   const enName = p.collection === "wall-panels" ? p.name : tr.name ?? p.name;
   const desc = tr.short ?? p.short ?? p.description ?? undefined;
   // Per-product social image (relative paths resolve against metadataBase;
-  // furniture photos are absolute supplier-CDN URLs and pass through as-is).
+  // Brauer photos are absolute Supabase URLs and pass through as-is).
   const ogImages = p.image ? [{ url: p.image, alt: enName }] : undefined;
   return {
     title: enName,
@@ -81,7 +81,6 @@ const collectionKey = {
   acrylpanelen: "collectionAcrylicPanels",
   sfeerhaarden: "collectionFireplaces",
   "pvc-vloeren": "collectionPVCFloors",
-  furniture: "collectionFurniture",
 } as const;
 
 const collectionIdentifierPrefix: Record<string, string> = {
@@ -97,7 +96,6 @@ const collectionIdentifierPrefix: Record<string, string> = {
   acrylpanelen: "Solid Surface · Acrylpanelen",
   sfeerhaarden: "Ambience · Water Vapour",
   "pvc-vloeren": "Flooring · PVC",
-  furniture: "Habitat One · Furniture",
 };
 
 
@@ -164,14 +162,7 @@ export default async function ProductDetailPage({
     category: collectionLabel,
     brand: {
       "@type": "Brand",
-      name:
-        product.collection === "furniture"
-          ? /cornelius/i.test(product.name)
-            ? "Cornelius Lifestyle"
-            : /caracole/i.test(product.name)
-              ? "Caracole"
-              : "Habitat One"
-          : "Habitat One",
+      name: brandOf(product)?.name ?? "Habitat One",
     },
     // Moet de URL van *deze* taalversie zijn — anders wijst elke vertaling naar EN.
     url: `https://www.habitat-one.com${cprefix}/products/${slug}`,

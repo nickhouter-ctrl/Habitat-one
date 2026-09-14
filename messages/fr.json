@@ -20,7 +20,7 @@
     "quote": "Ma sélection",
     "bookVisit": "Réserver une visite",
     "openMenu": "Ouvrir le menu",
-    "searchPlaceholder": "Rechercher produits, mobilier, espaces…",
+    "searchPlaceholder": "Rechercher produits, collections, espaces…",
     "location": "Localisation",
     "inspiration": "Inspiration",
     "inspEvents": "Événements",
@@ -29,7 +29,6 @@
     "inspTips": "Conseils & astuces",
     "inspBlog": "Blog",
     "inspPartners": "Partenaires",
-    "furniture": "Mobilier",
     "kitchenPlanner": "Planificateur de cuisine"
   },
   "common": {
@@ -807,15 +806,14 @@
     "groupHeatLight": "Chauffage & éclairage",
     "groupGarden": "Jardin",
     "groupDoors": "Portes",
-    "collectionFurniture": "Mobilier",
-    "allFurniture": "Tout le mobilier",
     "viewProduct": "Voir le produit",
     "playVideo": "Lire la vidéo",
     "galleryImage": "Image {n}",
     "galleryPrev": "Image précédente",
     "galleryNext": "Image suivante",
     "inStock": "En stock · livraison rapide",
-    "showMore": "Voir plus"
+    "showMore": "Voir plus",
+    "catalogIntro": "Trouvez les matériaux et produits pour votre projet."
   },
   "spaces": {
     "eyebrow": "Pièce par pièce",
@@ -945,7 +943,8 @@
       "renovation": "Rénovation ou construction neuve",
       "property": "Achat d’un bien immobilier",
       "legal": "Juridique & formalités",
-      "showroom": "Visite du showroom"
+      "showroom": "Visite du showroom",
+      "account": "Compte et aide à la connexion"
     },
     "message": "Votre message",
     "messagePlaceholder": "Parlez-nous de votre projet, terrain ou bien…",
@@ -1030,8 +1029,8 @@
     "roleSales": "Commercial",
     "roleHomeowner": "Propriétaire",
     "roleOther": "Autre",
-    "proOnly": "Les rendez-vous sont réservés aux professionnels",
-    "proOnlyDesc": "Les rendez-vous au showroom sont actuellement réservés aux architectes et aux professionnels de la vente. N’hésitez pas à nous envoyer un message — nous serons ravis de vous aider et de vous accueillir pendant les heures d’ouverture.",
+    "proOnly": "Demandez votre visite du showroom",
+    "proOnlyDesc": "Indiquez quand vous souhaitez venir et ce que vous voulez voir. Notre équipe vous contactera pour organiser la visite. Les visites se font uniquement sur rendez-vous.",
     "contactInstead": "Envoyez-nous un message",
     "continueBooking": "Continuer la réservation",
     "changeRole": "Changer de rôle",
@@ -1503,18 +1502,8 @@
       "ctaText": "Visitez l’experience center ou contactez-nous pour un conseil sur mesure."
     }
   },
-  "furniture": {
-    "eyebrow": "Caracole · Cornelius Lifestyle",
-    "title": "Mobilier",
-    "intro": "Du mobilier design pour chaque pièce — canapés, tables, lits, rangements, éclairage et décoration, sélectionnés chez Caracole et Cornelius Lifestyle.",
-    "viewAll": "Tout voir",
-    "items": "articles",
-    "searchPlaceholder": "Rechercher du mobilier…",
-    "partnersTitle": "Nos partenaires mobilier",
-    "partnersIntro": "Notre mobilier est fourni en partenariat avec ces marques renommées."
-  },
   "account": {
-    "viewPrices": "Voir les prix",
+    "viewPrices": "Connectez-vous pour les prix",
     "myAccount": "Mon compte",
     "logout": "Se déconnecter",
     "requestTitle": "Demander un compte",
@@ -1577,7 +1566,7 @@
     "metaLogin": "Connexion — Habitat One",
     "metaActivate": "Définir le mot de passe — Habitat One",
     "metaRequest": "Demander un compte — Habitat One",
-    "priceWithAccount": "Prix avec compte",
+    "priceWithAccount": "Prix après connexion",
     "priceOnRequest": "Prix sur demande",
     "priceFrom": "à partir de",
     "inclVat": "TTC",
@@ -1590,7 +1579,9 @@
     "popupClose": "Fermer",
     "popupNote": "Gratuit · réglé sous 1 jour ouvré",
     "myProjects": "Mes projets",
-    "myProjectsNote": "Suivez l'avancement, les factures et les paiements de vos travaux."
+    "myProjectsNote": "Suivez l'avancement, les factures et les paiements de vos travaux.",
+    "passwordHelp": "Mot de passe oublié ? Demandez-nous de l’aide",
+    "tooManyAttempts": "Trop de tentatives. Patientez puis réessayez."
   },
   "planner": {
     "canvas": {
@@ -1971,17 +1962,16 @@
   "search": {
     "eyebrow": "Recherche",
     "title": "Recherche",
-    "intro": "Recherchez dans toute la gamme — produits, mobilier, collections et espaces.",
+    "intro": "Recherchez dans toute la gamme — produits, collections et espaces.",
     "resultsFor": "Résultats pour «{query}»",
     "count": "{count} résultats",
     "categories": "Catégories",
     "products": "Produits",
-    "furniture": "Mobilier",
     "noResults": "Aucun résultat pour «{query}».",
     "allResults": "Voir les {count} résultats",
     "searching": "Recherche…",
     "clear": "Effacer",
-    "emptyHint": "Tapez ci-dessus pour rechercher produits, mobilier et collections.",
+    "emptyHint": "Tapez ci-dessus pour rechercher produits et collections.",
     "showMore": "Afficher plus de résultats",
     "kindCategory": "Catégorie",
     "kindSpace": "Espace",

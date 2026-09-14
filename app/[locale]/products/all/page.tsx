@@ -39,7 +39,7 @@ export default async function AllProductsPage({
   return (
     <>
       {/* ---- Quiet editorial header ---- */}
-      <Section className="bg-paper pt-28 pb-8 md:pt-36 md:pb-10" chapter={t("allProducts")}>
+      <Section className="bg-paper pt-10 pb-3 md:pt-36 md:pb-10" chapter={t("allProducts")}>
         <Container>
           <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-ink-soft">
             {t("title")}
@@ -47,10 +47,10 @@ export default async function AllProductsPage({
           <h1 className="mt-5 text-4xl font-medium leading-[1.04] tracking-[-0.02em] text-ink sm:text-5xl md:text-6xl">
             {t("allProducts")}
           </h1>
-          <p className="mt-6 max-w-2xl text-base leading-relaxed text-ink-soft md:text-lg">
-            {t("intro")}
+          <p className="mt-3 max-w-2xl text-base leading-relaxed text-ink-soft md:text-lg">
+            {t("catalogIntro")}
           </p>
-          <p className="mt-6 text-[0.66rem] uppercase tracking-[0.22em] text-ink-soft/70">
+          <p className="mt-4 text-[0.66rem] uppercase tracking-[0.22em] text-ink-soft/70">
             {rangeProducts.length} {t("title").toLowerCase()} · {t("collection")} · {t("materials")} · {t("space")}
           </p>
         </Container>

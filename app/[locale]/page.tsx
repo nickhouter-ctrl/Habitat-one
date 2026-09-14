@@ -19,6 +19,7 @@ import { projects } from "@/lib/data/projects";
 import type { Metadata } from "next";
 import { JsonLd, websiteJsonLd } from "@/components/seo/json-ld";
 import { seoAlternates } from "@/lib/seo/alternates";
+import { BRAUER_COVER_BADKAMER } from "@/lib/data/brauer-beelden";
 
 export async function generateMetadata({
   params,
@@ -80,13 +81,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const rangeCollections = [
     { id: "wall-panels", key: "collectionWallPanels", img: "/products/magic/ms-travertino-beige-interior.jpg", href: "/products/flexible-stone" },
     { id: "pvc-vloeren", key: "collectionPVCFloors", img: "/products/pvc-vloeren/lifestyle-1.jpg", href: "/products/pvc-vloeren" },
-    { id: "bathroom", key: "collectionBathroom", img: "/products/h/KKR-B051-A-life.jpg", href: "/products/bathroom" },
+    { id: "bathroom", key: "collectionBathroom", img: BRAUER_COVER_BADKAMER, href: "/products/bathroom" },
     { id: "acrylpanelen", key: "collectionAcrylicPanels", img: "/products/h/acryl/KKR-A027-badkamer.jpg", href: "/products/acrylpanelen" },
     { id: "verlichting", key: "collectionLighting", img: "/products/h/GL-001-life.jpg", href: "/products/verlichting" },
     { id: "doors", key: "collectionDoors", img: "/scenery/doors-hero.jpg", href: "/products/doors" },
     { id: "bloempotten", key: "collectionFlowerPots", img: "/products/magic/bloempotten-lifestyle-epocco-canyon.jpg", href: "/products/bloempotten" },
     { id: "sfeerhaarden", key: "collectionFireplaces", img: "/products/sfeerhaarden/hero.jpg", href: "/products/sfeerhaarden" },
-    { id: "meubels", key: "collectionFurniture", img: "/furniture/hero-elegance.webp", href: "/furniture" },
   ].sort((a, b) => tprod(a.key).localeCompare(tprod(b.key), locale));
 
   // Flexible Stone signature block — a real in-situ travertine render

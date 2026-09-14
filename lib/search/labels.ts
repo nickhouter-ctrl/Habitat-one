@@ -9,7 +9,6 @@ import type { SearchLabels } from "@/lib/search";
 export async function getSearchLabels(locale: string): Promise<SearchLabels> {
   const t = await getTranslations({ locale, namespace: "products" });
   const ts = await getTranslations({ locale, namespace: "spaces" });
-  const tf = await getTranslations({ locale, namespace: "furniture" });
   const tq = await getTranslations({ locale, namespace: "search" });
 
   const kind = { collection: "kindCategory", space: "kindSpace", service: "kindService" } as const;
@@ -19,7 +18,6 @@ export async function getSearchLabels(locale: string): Promise<SearchLabels> {
     productShort: (slug) => (t.has(`i18n.${slug}.short`) ? t(`i18n.${slug}.short`) : null),
     collectionLabel: (key) => (t.has(key) ? t(key) : key),
     spaceName: (slug) => (ts.has(`names.${slug}`) ? ts(`names.${slug}`) : slug),
-    furnitureTitle: tf("title"),
     categoryKind: (group) => tq(kind[group]),
   };
 }

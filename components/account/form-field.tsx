@@ -4,7 +4,7 @@
 import type { ReactNode } from "react";
 
 export const fieldCls =
-  "w-full rounded-lg border border-black/15 bg-white px-3 py-2.5 text-sm outline-none focus:border-ink";
+  "w-full rounded-lg border border-black/15 bg-white px-3 py-2.5 text-base outline-none focus:border-ink";
 
 export function Field({ label, htmlFor, children, className = "" }: { label: string; htmlFor: string; children: ReactNode; className?: string }) {
   return (

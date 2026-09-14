@@ -30,22 +30,6 @@ export const BRANDS: Record<string, Brand> = {
     logoHeight: 102,
     url: "https://www.brauerkranen.nl",
   },
-  caracole: {
-    slug: "caracole",
-    name: "Caracole",
-    logo: "/brands/caracole.svg",
-    logoWidth: 220,
-    logoHeight: 40,
-    url: "https://caracole.eu.com/",
-  },
-  cornelius: {
-    slug: "cornelius",
-    name: "Cornelius Lifestyle",
-    logo: "/brands/cornelius.webp",
-    logoWidth: 73,
-    logoHeight: 80,
-    url: "https://www.corneliuslifestyle.com/",
-  },
 };
 
 /** Het merk van een product, of null voor ons eigen assortiment. */

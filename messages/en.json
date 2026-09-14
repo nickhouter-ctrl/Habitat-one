@@ -20,7 +20,7 @@
     "quote": "My selection",
     "bookVisit": "Book a visit",
     "openMenu": "Open menu",
-    "searchPlaceholder": "Search products, furniture, spaces…",
+    "searchPlaceholder": "Search products, collections, spaces…",
     "location": "Location",
     "inspiration": "Inspiration",
     "inspEvents": "Events",
@@ -29,7 +29,6 @@
     "inspTips": "Tips & advice",
     "inspBlog": "Blog",
     "inspPartners": "Partners",
-    "furniture": "Furniture",
     "kitchenPlanner": "Kitchen planner"
   },
   "common": {
@@ -807,15 +806,14 @@
     "groupHeatLight": "Heating & lighting",
     "groupGarden": "Garden",
     "groupDoors": "Doors",
-    "collectionFurniture": "Furniture",
-    "allFurniture": "All furniture",
     "viewProduct": "View product",
     "playVideo": "Play video",
     "galleryImage": "Image {n}",
     "galleryPrev": "Previous image",
     "galleryNext": "Next image",
     "inStock": "In stock · fast delivery",
-    "showMore": "Show more"
+    "showMore": "Show more",
+    "catalogIntro": "Find materials and products for your project."
   },
   "spaces": {
     "eyebrow": "Room by room",
@@ -945,7 +943,8 @@
       "renovation": "Renovation or new build",
       "property": "Buying a property",
       "legal": "Legal & paperwork",
-      "showroom": "Visit the showroom"
+      "showroom": "Visit the showroom",
+      "account": "Account and login help"
     },
     "message": "Your message",
     "messagePlaceholder": "Tell us about your project, plot or property…",
@@ -1030,8 +1029,8 @@
     "roleSales": "Sales",
     "roleHomeowner": "Homeowner",
     "roleOther": "Other",
-    "proOnly": "Appointments are reserved for professionals",
-    "proOnlyDesc": "Showroom appointments are currently available for architects and sales professionals. You are very welcome to send us a message — we would love to help, and to welcome you during opening hours.",
+    "proOnly": "Request your showroom visit",
+    "proOnlyDesc": "Tell us when you would like to visit and what you want to see. Our team will contact you to arrange your visit. Visits are by appointment only.",
     "contactInstead": "Send us a message",
     "continueBooking": "Continue to booking",
     "changeRole": "Change role",
@@ -1503,18 +1502,8 @@
       "ctaText": "Visit the experience center or get in touch for tailored advice."
     }
   },
-  "furniture": {
-    "eyebrow": "Caracole · Cornelius Lifestyle",
-    "title": "Furniture",
-    "intro": "Designer furniture for every room — sofas, tables, beds, storage, lighting and decoration, curated from Caracole and Cornelius Lifestyle.",
-    "viewAll": "View all",
-    "items": "items",
-    "searchPlaceholder": "Search furniture…",
-    "partnersTitle": "Our furniture partners",
-    "partnersIntro": "Our furniture is supplied in partnership with these renowned brands."
-  },
   "account": {
-    "viewPrices": "View prices",
+    "viewPrices": "Log in for prices",
     "myAccount": "My account",
     "logout": "Log out",
     "requestTitle": "Request an account",
@@ -1577,7 +1566,7 @@
     "metaLogin": "Log in — Habitat One",
     "metaActivate": "Set your password — Habitat One",
     "metaRequest": "Request an account — Habitat One",
-    "priceWithAccount": "Price with an account",
+    "priceWithAccount": "Prices after login",
     "priceOnRequest": "Price on request",
     "priceFrom": "from",
     "inclVat": "incl. VAT",
@@ -1590,7 +1579,9 @@
     "popupClose": "Close",
     "popupNote": "Free · sorted within 1 business day",
     "myProjects": "My projects",
-    "myProjectsNote": "Follow the progress, invoices and payments of your renovation."
+    "myProjectsNote": "Follow the progress, invoices and payments of your renovation.",
+    "passwordHelp": "Forgot your password? Ask us for help",
+    "tooManyAttempts": "Too many attempts. Please wait and try again."
   },
   "planner": {
     "canvas": {
@@ -1971,17 +1962,16 @@
   "search": {
     "eyebrow": "Search",
     "title": "Search",
-    "intro": "Search the full range — products, furniture, collections and spaces.",
+    "intro": "Search the full range — products, collections and spaces.",
     "resultsFor": "Results for “{query}”",
     "count": "{count} results",
     "categories": "Categories",
     "products": "Products",
-    "furniture": "Furniture",
     "noResults": "No results for “{query}”.",
     "allResults": "View all {count} results",
     "searching": "Searching…",
     "clear": "Clear",
-    "emptyHint": "Start typing above to search products, furniture and collections.",
+    "emptyHint": "Start typing above to search products and collections.",
     "showMore": "Show more results",
     "kindCategory": "Category",
     "kindSpace": "Space",

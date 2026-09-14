@@ -56,7 +56,7 @@ export function PriceTag({
       </span>
     );
     return asLink ? (
-      <Link href="/account/aanvragen" className={`hover:text-neutral-800 ${className}`}>
+      <Link href="/account/login" className={`hover:text-neutral-800 ${className}`}>
         {inner}
       </Link>
     ) : (

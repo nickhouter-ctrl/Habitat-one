@@ -7,6 +7,7 @@ import { motion, AnimatePresence, useScroll, useTransform, useReducedMotion } fr
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { heroStats } from "@/lib/data/site";
+import { BRAUER_SLIDE_BADKAMER } from "@/lib/data/brauer-beelden";
 import { CountUp } from "@/components/ui/count-up";
 import { MaskReveal } from "@/components/ui/mask-reveal";
 import { Magnetic } from "@/components/ui/magnetic";
@@ -25,7 +26,7 @@ import { Magnetic } from "@/components/ui/magnetic";
  */
 const SLIDES: Array<{ src: string; label: (t: (k: string) => string, p: (k: string) => string) => string }> = [
   { src: "/scenery/home-hero-villa.jpg", label: (t) => t("common.place") },
-  { src: "/products/h/KKR-B051-A-life.jpg", label: (_, p) => p("collectionBathroom") },
+  { src: BRAUER_SLIDE_BADKAMER, label: (_, p) => p("collectionBathroom") },
   { src: "/products/h/acryl/KKR-A027-eetkamer.jpg", label: (_, p) => p("collectionAcrylicPanels") },
   { src: "/products/magic/ms-travertino-light-grey-interior.jpg", label: (t) => t("home.magicTitle") },
   { src: "/products/h/GL-001-life.jpg", label: (_, p) => p("collectionLighting") },

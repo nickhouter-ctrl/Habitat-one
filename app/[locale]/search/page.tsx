@@ -58,11 +58,9 @@ export default async function SearchPage({
   const products = results.products
     .map((hit) => (hit.slug ? getProductBySlug(hit.slug) : null))
     .filter((p): p is CatalogProduct => p !== null);
-  const range = products.filter((p) => p.collection !== "furniture");
-  const furniture = products.filter((p) => p.collection === "furniture");
 
   const limit = Math.min(Math.max(Number(show) || PAGE_SIZE, PAGE_SIZE), MAX_SHOWN);
-  const truncated = range.length > limit || furniture.length > limit;
+  const truncated = products.length > limit;
 
   return (
     <>
@@ -107,8 +105,7 @@ export default async function SearchPage({
             </div>
           )}
 
-          <ResultGrid title={t("products")} products={range} limit={limit} />
-          <ResultGrid title={t("furniture")} products={furniture} limit={limit} />
+          <ResultGrid title={t("products")} products={products} limit={limit} />
 
           {truncated && (
             <div className="mt-12 text-center">

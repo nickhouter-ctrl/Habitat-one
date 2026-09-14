@@ -17,11 +17,10 @@ import {
   collections,
   type CatalogProduct,
 } from "@/lib/data/catalog";
-import { furnitureGroups, type FurnitureLocale } from "@/lib/data/furniture";
 import { services } from "@/lib/data/services";
 
 /** Waar een treffer vandaan komt — de UI groepeert hierop. */
-export type HitGroup = "furniture" | "range" | "collection" | "space" | "service";
+export type HitGroup = "range" | "collection" | "space" | "service";
 
 export interface SearchHit {
   kind: "product" | "category";
@@ -56,19 +55,11 @@ export interface SearchLabels {
   collectionLabel(key: string): string;
   /** Naam van een ruimte (spaces.names.<slug>). */
   spaceName(slug: string): string;
-  /** furniture.title — "Meubels" in het Nederlands. */
-  furnitureTitle: string;
   /** Soortaanduiding onder een categorietreffer ("Categorie", "Ruimte", "Dienst"). */
-  categoryKind(group: Exclude<HitGroup, "furniture" | "range">): string;
+  categoryKind(group: Exclude<HitGroup, "range">): string;
 }
 
-// Zoeken op "meubel" of "furniture" moet meubels vinden, ongeacht de taal van de
-// site. De productnamen zijn Engels en de categorielabels staan alleen in de
-// actieve taal, dus hangen we deze woorden aan élk meubel.
-const FURNITURE_WORDS =
-  "meubel meubels meubilair furniture mobel moebel mobler muebles mueble meuble meubles 家具 caracole cornelius";
-
-// De volledige omschrijvingen zijn tot ~2 kB per meubel. Zoeken in de eerste
+// De volledige omschrijvingen lopen tot ~2 kB per product. Zoeken in de eerste
 // alinea is ruim genoeg en houdt de index onder een paar MB per taal.
 const BODY_CHARS = 600;
 
@@ -88,7 +79,6 @@ function terms(query: string): string[] {
     .filter(Boolean);
 }
 
-const INDEX_LOCALES: readonly FurnitureLocale[] = ["nl", "en", "es", "de", "fr", "zh"];
 
 interface Entry {
   hit: SearchHit;
@@ -110,40 +100,22 @@ function push(target: string[], ...values: (string | null | undefined)[]) {
 
 // --- Index opbouwen --------------------------------------------------------
 
-function productEntry(p: CatalogProduct, loc: FurnitureLocale, labels: SearchLabels): Entry {
+function productEntry(p: CatalogProduct, labels: SearchLabels): Entry {
   // Flexible Stone wordt in elke taal onder zijn Engelse naam verkocht — zelfde
   // regel als in de productkaart, anders wijkt de zoeksuggestie af van de kaart.
   const localName = p.collection === "wall-panels" ? null : labels.productName(p.slug);
   const title = localName ?? p.name;
 
-  const isFurniture = p.collection === "furniture";
   const collectionKey = collections.find((c) => c.id === p.collection)?.key;
-  const collectionName = isFurniture
-    ? labels.furnitureTitle
-    : collectionKey
-      ? labels.collectionLabel(collectionKey)
-      : null;
+  const collectionName = collectionKey ? labels.collectionLabel(collectionKey) : null;
 
   const keywords: string[] = [];
-  const subtitles: string[] = [];
 
   // De Engelse basisnaam blijft doorzoekbaar, ook als de titel vertaald is.
   push(keywords, p.name, p.slug.replace(/-/g, " "));
   push(keywords, collectionName, p.collection.replace(/-/g, " "));
-
-  if (isFurniture) {
-    keywords.push(FURNITURE_WORDS);
-    for (const slug of p.categories) {
-      for (const g of furnitureGroups) {
-        const sub = g.subs.find((s) => s.slug === slug);
-        if (!sub) continue;
-        subtitles.push(sub.label[loc] ?? sub.label.en);
-        // Zowel de actieve taal als Engels: "sofa" moet ook op /nl werken.
-        push(keywords, sub.label[loc], sub.label.en, sub.slug.replace(/-/g, " "), ...sub.aliases);
-        push(keywords, g.label[loc], g.label.en, g.slug);
-      }
-    }
-  }
+  // Merkproducten: merk, serie en producttype ("Brauer", "Douchewanden").
+  push(keywords, p.brand, p.series, p.productType);
 
   for (const slug of p.spaces) push(keywords, slug.replace(/-/g, " "), labels.spaceName(slug));
   for (const slug of p.materials) push(keywords, slug.replace(/-/g, " "));
@@ -171,9 +143,9 @@ function productEntry(p: CatalogProduct, loc: FurnitureLocale, labels: SearchLab
       slug: p.slug,
       href: `/products/${p.slug}`,
       title,
-      subtitle: subtitles[0] ?? collectionName,
+      subtitle: collectionName,
       image: p.image,
-      group: isFurniture ? "furniture" : "range",
+      group: "range",
     },
     name,
     words: name.split(/[^\p{L}\p{N}]+/u).filter(Boolean),
@@ -186,7 +158,7 @@ function productEntry(p: CatalogProduct, loc: FurnitureLocale, labels: SearchLab
 function categoryEntry(
   title: string,
   href: string,
-  group: Exclude<HitGroup, "furniture" | "range">,
+  group: Exclude<HitGroup, "range">,
   keywords: string[],
   labels: SearchLabels,
 ): Entry {
@@ -211,13 +183,15 @@ function categoryEntry(
   };
 }
 
+/** De talen waarin diensten een eigen titel/tagline hebben (lib/data/services.ts). */
+type IndexLocale = "nl" | "en" | "es" | "de" | "fr" | "zh";
+const INDEX_LOCALES: readonly IndexLocale[] = ["nl", "en", "es", "de", "fr", "zh"];
+
 function buildIndex(locale: string, labels: SearchLabels): Entry[] {
-  const loc: FurnitureLocale = INDEX_LOCALES.includes(locale as FurnitureLocale)
-    ? (locale as FurnitureLocale)
-    : "en";
+  const loc: IndexLocale = INDEX_LOCALES.includes(locale as IndexLocale) ? (locale as IndexLocale) : "en";
   const entries: Entry[] = [];
 
-  for (const p of catalogProducts) entries.push(productEntry(p, loc, labels));
+  for (const p of catalogProducts) entries.push(productEntry(p, labels));
 
   // --- Categoriepagina's ---
   for (const c of collections) {
@@ -230,40 +204,6 @@ function buildIndex(locale: string, labels: SearchLabels): Entry[] {
         labels,
       ),
     );
-  }
-
-  entries.push(
-    categoryEntry(labels.furnitureTitle, "/furniture", "collection", [FURNITURE_WORDS], labels),
-  );
-
-  const furnitureCounts = new Map<string, number>();
-  for (const p of catalogProducts) {
-    if (p.collection !== "furniture") continue;
-    for (const slug of p.categories) furnitureCounts.set(slug, (furnitureCounts.get(slug) ?? 0) + 1);
-  }
-  for (const g of furnitureGroups) {
-    const subs = g.subs.filter((s) => (furnitureCounts.get(s.slug) ?? 0) > 0);
-    if (subs.length === 0) continue;
-    entries.push(
-      categoryEntry(
-        g.label[loc] ?? g.label.en,
-        `/furniture/all?group=${g.slug}`,
-        "collection",
-        [g.label.en, g.slug, FURNITURE_WORDS],
-        labels,
-      ),
-    );
-    for (const s of subs) {
-      entries.push(
-        categoryEntry(
-          s.label[loc] ?? s.label.en,
-          `/furniture/${s.slug}`,
-          "collection",
-          [s.label.en, s.slug.replace(/-/g, " "), ...s.aliases, FURNITURE_WORDS],
-          labels,
-        ),
-      );
-    }
   }
 
   for (const s of catalogSpaces) {

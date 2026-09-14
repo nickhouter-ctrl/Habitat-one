@@ -20,7 +20,7 @@
     "quote": "Mi selección",
     "bookVisit": "Reservar visita",
     "openMenu": "Abrir menú",
-    "searchPlaceholder": "Buscar productos, muebles, espacios…",
+    "searchPlaceholder": "Buscar productos, colecciones, espacios…",
     "location": "Ubicación",
     "inspiration": "Inspiración",
     "inspEvents": "Eventos",
@@ -29,7 +29,6 @@
     "inspTips": "Consejos",
     "inspBlog": "Blog",
     "inspPartners": "Colaboradores",
-    "furniture": "Muebles",
     "kitchenPlanner": "Planificador de cocinas"
   },
   "common": {
@@ -807,15 +806,14 @@
     "groupHeatLight": "Calefacción e iluminación",
     "groupGarden": "Jardín",
     "groupDoors": "Puertas",
-    "collectionFurniture": "Muebles",
-    "allFurniture": "Todos los muebles",
     "viewProduct": "Ver producto",
     "playVideo": "Reproducir vídeo",
     "galleryImage": "Imagen {n}",
     "galleryPrev": "Imagen anterior",
     "galleryNext": "Imagen siguiente",
     "inStock": "En stock · entrega rápida",
-    "showMore": "Ver más"
+    "showMore": "Ver más",
+    "catalogIntro": "Encuentra materiales y productos para tu proyecto."
   },
   "spaces": {
     "eyebrow": "Estancia por estancia",
@@ -945,7 +943,8 @@
       "renovation": "Reforma u obra nueva",
       "property": "Comprar una propiedad",
       "legal": "Legal y papeleo",
-      "showroom": "Visitar el showroom"
+      "showroom": "Visitar el showroom",
+      "account": "Cuenta y ayuda para acceder"
     },
     "message": "Tu mensaje",
     "messagePlaceholder": "Cuéntanos tu proyecto, parcela o propiedad…",
@@ -1030,8 +1029,8 @@
     "roleSales": "Comercial",
     "roleHomeowner": "Propietario",
     "roleOther": "Otro",
-    "proOnly": "Las citas están reservadas a profesionales",
-    "proOnlyDesc": "Las citas en el showroom están disponibles actualmente para arquitectos y profesionales del sector. Puedes enviarnos un mensaje — estaremos encantados de ayudarte y de recibirte en horario de apertura.",
+    "proOnly": "Solicita tu visita al showroom",
+    "proOnlyDesc": "Dinos cuándo te gustaría venir y qué quieres ver. Nuestro equipo te contactará para organizar la visita. Solo se permiten visitas con cita previa.",
     "contactInstead": "Envíanos un mensaje",
     "continueBooking": "Continuar con la reserva",
     "changeRole": "Cambiar rol",
@@ -1503,18 +1502,8 @@
       "ctaText": "Pásate por el experience center o ponte en contacto para asesoramiento a medida."
     }
   },
-  "furniture": {
-    "eyebrow": "Caracole · Cornelius Lifestyle",
-    "title": "Muebles",
-    "intro": "Muebles de diseño para cada estancia — sofás, mesas, camas, almacenaje, iluminación y decoración, de Caracole y Cornelius Lifestyle.",
-    "viewAll": "Ver todo",
-    "items": "artículos",
-    "searchPlaceholder": "Buscar muebles…",
-    "partnersTitle": "Nuestros socios de mobiliario",
-    "partnersIntro": "Nuestros muebles se suministran en colaboración con estas reconocidas marcas."
-  },
   "account": {
-    "viewPrices": "Ver precios",
+    "viewPrices": "Accede para ver precios",
     "myAccount": "Mi cuenta",
     "logout": "Cerrar sesión",
     "requestTitle": "Solicitar cuenta",
@@ -1577,7 +1566,7 @@
     "metaLogin": "Iniciar sesión — Habitat One",
     "metaActivate": "Establecer contraseña — Habitat One",
     "metaRequest": "Solicitar cuenta — Habitat One",
-    "priceWithAccount": "Precio con cuenta",
+    "priceWithAccount": "Precios al iniciar sesión",
     "priceOnRequest": "Precio bajo pedido",
     "priceFrom": "desde",
     "inclVat": "IVA incl.",
@@ -1590,7 +1579,9 @@
     "popupClose": "Cerrar",
     "popupNote": "Gratis · resuelto en 1 día laborable",
     "myProjects": "Mis proyectos",
-    "myProjectsNote": "Siga el progreso, las facturas y los pagos de su reforma."
+    "myProjectsNote": "Siga el progreso, las facturas y los pagos de su reforma.",
+    "passwordHelp": "¿Olvidaste tu contraseña? Pídenos ayuda",
+    "tooManyAttempts": "Demasiados intentos. Espera un momento e inténtalo de nuevo."
   },
   "planner": {
     "canvas": {
@@ -1971,17 +1962,16 @@
   "search": {
     "eyebrow": "Buscar",
     "title": "Buscar",
-    "intro": "Busca en toda la gama — productos, muebles, colecciones y espacios.",
+    "intro": "Busca en toda la gama — productos, colecciones y espacios.",
     "resultsFor": "Resultados para «{query}»",
     "count": "{count} resultados",
     "categories": "Categorías",
     "products": "Productos",
-    "furniture": "Muebles",
     "noResults": "Sin resultados para «{query}».",
     "allResults": "Ver los {count} resultados",
     "searching": "Buscando…",
     "clear": "Borrar",
-    "emptyHint": "Escribe arriba para buscar productos, muebles y colecciones.",
+    "emptyHint": "Escribe arriba para buscar productos y colecciones.",
     "showMore": "Mostrar más resultados",
     "kindCategory": "Categoría",
     "kindSpace": "Espacio",

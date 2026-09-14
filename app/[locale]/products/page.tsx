@@ -9,6 +9,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { JsonLd } from "@/components/seo/json-ld";
 import { collectionHref, collections, productsByCollection, rangeProducts } from "@/lib/data/catalog";
+import { BRAUER_COVER_BADKAMER } from "@/lib/data/brauer-beelden";
 
 export async function generateMetadata({
   params,
@@ -35,7 +36,7 @@ export async function generateMetadata({
 const COLLECTION_COVER: Record<string, string> = {
   "wall-panels": "/products/magic/ms-travertino-beige-interior.jpg",
   "pvc-vloeren": "/products/pvc-vloeren/lifestyle-1.jpg",
-  bathroom: "/products/h/KKR-B051-A-life.jpg",
+  bathroom: BRAUER_COVER_BADKAMER,
   acrylpanelen: "/products/h/acryl/KKR-A027-badkamer.jpg",
   verlichting: "/products/h/GL-001-life.jpg",
   doors: "/scenery/doors-hero.jpg",
@@ -158,9 +159,6 @@ export default async function ProductsPage({
             <div className="mt-9 flex flex-wrap gap-4">
               <Link href="/products/all" className="btn btn-primary">
                 {t("viewAllProducts")}
-              </Link>
-              <Link href="/furniture" className="btn btn-ghost">
-                {t("collectionFurniture")}
               </Link>
             </div>
           </div>

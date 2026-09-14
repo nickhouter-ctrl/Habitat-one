@@ -20,7 +20,7 @@
     "quote": "Mijn selectie",
     "bookVisit": "Showroombezoek",
     "openMenu": "Menu openen",
-    "searchPlaceholder": "Zoek producten, meubels, ruimtes…",
+    "searchPlaceholder": "Zoek producten, collecties, ruimtes…",
     "location": "Locatie",
     "inspiration": "Inspiratie",
     "inspEvents": "Evenementen",
@@ -29,7 +29,6 @@
     "inspTips": "Tips & advies",
     "inspBlog": "Blogs",
     "inspPartners": "Partners",
-    "furniture": "Meubels",
     "kitchenPlanner": "Keukenplanner"
   },
   "common": {
@@ -807,15 +806,14 @@
     "groupHeatLight": "Sfeer & verlichting",
     "groupGarden": "Tuin",
     "groupDoors": "Deuren",
-    "collectionFurniture": "Meubels",
-    "allFurniture": "Alle meubels",
     "viewProduct": "Bekijk product",
     "playVideo": "Video afspelen",
     "galleryImage": "Afbeelding {n}",
     "galleryPrev": "Vorige afbeelding",
     "galleryNext": "Volgende afbeelding",
     "inStock": "Uit voorraad leverbaar · snelle levering",
-    "showMore": "Meer tonen"
+    "showMore": "Meer tonen",
+    "catalogIntro": "Vind materialen en producten voor jouw project."
   },
   "spaces": {
     "eyebrow": "Ruimte voor ruimte",
@@ -945,7 +943,8 @@
       "renovation": "Renovatie of nieuwbouw",
       "property": "Een woning kopen",
       "legal": "Juridisch & papieren",
-      "showroom": "Showroom bezoeken"
+      "showroom": "Showroom bezoeken",
+      "account": "Account en hulp bij inloggen"
     },
     "message": "Je bericht",
     "messagePlaceholder": "Vertel ons over je project, perceel of woning…",
@@ -1030,8 +1029,8 @@
     "roleSales": "Verkoop",
     "roleHomeowner": "Huiseigenaar",
     "roleOther": "Anders",
-    "proOnly": "Afspraken zijn voorbehouden aan professionals",
-    "proOnlyDesc": "Showroomafspraken zijn momenteel beschikbaar voor architecten en verkoopprofessionals. Stuur ons gerust een bericht — we helpen je graag en verwelkomen je tijdens openingstijden.",
+    "proOnly": "Vraag je showroombezoek aan",
+    "proOnlyDesc": "Vertel ons wanneer je wilt langskomen en wat je wilt bekijken. Ons team neemt contact op om je bezoek te plannen. Bezoek is alleen op afspraak.",
     "contactInstead": "Stuur ons een bericht",
     "continueBooking": "Verder naar boeken",
     "changeRole": "Rol wijzigen",
@@ -1503,18 +1502,8 @@
       "ctaText": "Kom langs in het experience center of neem contact op voor advies op maat."
     }
   },
-  "furniture": {
-    "eyebrow": "Caracole · Cornelius Lifestyle",
-    "title": "Meubels",
-    "intro": "Designmeubels voor elke ruimte — banken, tafels, bedden, opbergen, verlichting en decoratie, samengesteld van Caracole en Cornelius Lifestyle.",
-    "viewAll": "Bekijk alle",
-    "items": "items",
-    "searchPlaceholder": "Zoek meubels…",
-    "partnersTitle": "Onze meubelpartners",
-    "partnersIntro": "Onze meubels worden geleverd in samenwerking met deze gerenommeerde merken."
-  },
   "account": {
-    "viewPrices": "Bekijk prijzen",
+    "viewPrices": "Inloggen voor prijzen",
     "myAccount": "Mijn account",
     "logout": "Uitloggen",
     "requestTitle": "Account aanvragen",
@@ -1577,7 +1566,7 @@
     "metaLogin": "Inloggen — Habitat One",
     "metaActivate": "Wachtwoord instellen — Habitat One",
     "metaRequest": "Account aanvragen — Habitat One",
-    "priceWithAccount": "Prijs met account",
+    "priceWithAccount": "Prijzen na inloggen",
     "priceOnRequest": "Prijs op aanvraag",
     "priceFrom": "vanaf",
     "inclVat": "incl. btw",
@@ -1590,7 +1579,9 @@
     "popupClose": "Sluiten",
     "popupNote": "Gratis · binnen 1 werkdag geregeld",
     "myProjects": "Mijn projecten",
-    "myProjectsNote": "Volg de voortgang, facturen en betalingen van je verbouwing."
+    "myProjectsNote": "Volg de voortgang, facturen en betalingen van je verbouwing.",
+    "passwordHelp": "Wachtwoord vergeten? Vraag ons om hulp",
+    "tooManyAttempts": "Te veel pogingen. Wacht even en probeer het opnieuw."
   },
   "planner": {
     "canvas": {
@@ -1971,17 +1962,16 @@
   "search": {
     "eyebrow": "Zoeken",
     "title": "Zoeken",
-    "intro": "Zoek in het hele assortiment — producten, meubels, collecties en ruimtes.",
+    "intro": "Zoek in het hele assortiment — producten, collecties en ruimtes.",
     "resultsFor": "Resultaten voor “{query}”",
     "count": "{count} resultaten",
     "categories": "Categorieën",
     "products": "Producten",
-    "furniture": "Meubels",
     "noResults": "Geen resultaten voor “{query}”.",
     "allResults": "Alle {count} resultaten bekijken",
     "searching": "Zoeken…",
     "clear": "Wissen",
-    "emptyHint": "Typ hierboven om te zoeken in producten, meubels en collecties.",
+    "emptyHint": "Typ hierboven om te zoeken in producten en collecties.",
     "showMore": "Meer resultaten tonen",
     "kindCategory": "Categorie",
     "kindSpace": "Ruimte",

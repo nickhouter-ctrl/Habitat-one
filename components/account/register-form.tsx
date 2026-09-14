@@ -37,7 +37,7 @@ export function RegisterForm({ locale }: { locale: string }) {
       });
       const data = await res.json().catch(() => ({ ok: false }));
       if (!res.ok || !data.ok) {
-        setError(data.issues?.[0] ?? t("genericError"));
+        setError(res.status === 429 ? t("tooManyAttempts") : res.status >= 500 || res.ok ? t("sendError") : data.issues?.[0] ?? t("genericError"));
         setStatus("error");
         return;
       }

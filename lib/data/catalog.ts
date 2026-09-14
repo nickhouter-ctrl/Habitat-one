@@ -1,5 +1,4 @@
 import { catalogProducts, type CatalogProduct, type ProductVariant } from "./products.generated";
-import { furnitureProducts } from "./furniture-products.generated";
 import { SCENE_STEMS } from "./scenes.generated";
 import { catalogMaterials, type CatalogMaterial } from "./materials.generated";
 import { catalogSpaces, type CatalogSpace } from "./spaces.generated";
@@ -1113,11 +1112,6 @@ for (const p of catalogProducts) {
   }
 }
 
-// Meubels (Caracole + Cornelius) — gegenereerd uit het CRM met leverancier-
-// galerijen. Toegevoegd ná de override-/beeld-loops hierboven, zodat die alleen
-// op de eigen catalogus draaien; meubels dragen hun eigen `images`-galerij.
-catalogProducts.push(...furnitureProducts);
-
 export { catalogProducts, catalogMaterials, catalogSpaces, catalogCategories };
 export type { CatalogProduct, CatalogMaterial, CatalogSpace, CatalogCategory, ProductVariant };
 
@@ -1142,16 +1136,16 @@ export const collections: { id: Collection; key: string }[] = [
  */
 export function collectionHref(id: string): string {
   if (id === "wall-panels") return "/products/flexible-stone";
-  if (id === "furniture") return "/furniture";
   // Deurbeslag heeft (nog) geen eigen pagina — hoort bij Doors.
   if (id === "door-accessories") return "/products/doors";
   return `/products/${id}`;
 }
 
 export const productsWithImages = catalogProducts.filter((p) => p.image);
-/** Range-producten (alles behalve meubels) — voor de algemene explorer & zoek;
- * meubels leven uitsluitend onder de Furniture-tab. */
-export const rangeProducts = catalogProducts.filter((p) => p.collection !== "furniture");
+/** Range-producten — voor de algemene explorer & zoek. Sinds de meubels van de
+ * site zijn (sept 2026) is dit de hele catalogus; de naam blijft, zodat de
+ * explorer en de hub niet hoeven te weten dat er ooit een aparte tab was. */
+export const rangeProducts = catalogProducts;
 
 export function getProductBySlug(slug: string): CatalogProduct | null {
   return catalogProducts.find((p) => p.slug === slug) ?? null;
@@ -1175,11 +1169,6 @@ export function productsForSpace(slug: string) {
 export function productsByCollection(c: Collection) {
   return catalogProducts.filter((p) => p.collection === c);
 }
-/** Meubels in een subcategorie (slug uit lib/data/furniture.ts), bv. "sofas". */
-export function productsBySubcategory(subSlug: string) {
-  return catalogProducts.filter((p) => p.collection === "furniture" && p.categories.includes(subSlug));
-}
-
 export function materialName(slug: string, locale?: string): string {
   const m = getMaterialBySlug(slug);
   if (!m) return slug;
@@ -1227,32 +1216,6 @@ export function featuredProducts(n = 8): CatalogProduct[] {
   return picked;
 }
 
-// Collectie-lijn van een meubel ("… | Caracole Rhythm" → "caracole rhythm").
-function furnitureLine(name: string): string | null {
-  const m = name.match(/(caracole|cornelius)\s+([a-z'’]+)/i);
-  return m ? `${m[1]} ${m[2]}`.toLowerCase() : null;
-}
-const COMPLEMENT_SUBS = ["coffee-tables", "side-tables", "console-tables", "accent-tables", "ottomans", "poufs"];
-
 export function relatedProducts(product: CatalogProduct, n = 4): CatalogProduct[] {
-  // Meubels: eerst andere stukken uit dezelfde collectie-lijn, dan bijpassende
-  // tafels/poefs, dan dezelfde subcategorie — "maak de look compleet".
-  if (product.collection === "furniture") {
-    const pool = productsWithImages.filter((p) => p.collection === "furniture" && p.id !== product.id);
-    const line = furnitureLine(product.name);
-    const sub = product.categories[0];
-    const sameLine = line ? pool.filter((p) => furnitureLine(p.name) === line) : [];
-    const tables = pool.filter((p) => COMPLEMENT_SUBS.includes(p.categories[0] ?? "") && furnitureLine(p.name) !== line);
-    const sameSub = pool.filter((p) => p.categories[0] === sub);
-    const out: CatalogProduct[] = [];
-    const seen = new Set<number>([product.id]);
-    for (const list of [sameLine, tables, sameSub]) {
-      for (const p of list) {
-        if (out.length >= n) break;
-        if (!seen.has(p.id)) { seen.add(p.id); out.push(p); }
-      }
-    }
-    return out.slice(0, n);
-  }
   return productsWithImages.filter((p) => p.id !== product.id && p.collection === product.collection).slice(0, n);
 }

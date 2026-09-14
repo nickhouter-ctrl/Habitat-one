@@ -20,7 +20,7 @@
     "quote": "我的选择",
     "bookVisit": "预约参观",
     "openMenu": "打开菜单",
-    "searchPlaceholder": "搜索产品、家具、空间…",
+    "searchPlaceholder": "搜索产品、系列、空间…",
     "location": "位置",
     "inspiration": "灵感",
     "inspEvents": "活动",
@@ -29,7 +29,6 @@
     "inspTips": "建议与贴士",
     "inspBlog": "博客",
     "inspPartners": "合作伙伴",
-    "furniture": "家具",
     "kitchenPlanner": "厨房规划器"
   },
   "common": {
@@ -807,15 +806,14 @@
     "groupHeatLight": "采暖与照明",
     "groupGarden": "花园",
     "groupDoors": "门",
-    "collectionFurniture": "家具",
-    "allFurniture": "所有家具",
     "viewProduct": "查看产品",
     "playVideo": "播放视频",
     "galleryImage": "图片 {n}",
     "galleryPrev": "上一张图片",
     "galleryNext": "下一张图片",
     "inStock": "现货 · 快速交付",
-    "showMore": "显示更多"
+    "showMore": "显示更多",
+    "catalogIntro": "寻找适合您项目的材料和产品。"
   },
   "spaces": {
     "eyebrow": "逐个空间",
@@ -945,7 +943,8 @@
       "renovation": "翻新或新建",
       "property": "购置房产",
       "legal": "法律与文书",
-      "showroom": "参观展厅"
+      "showroom": "参观展厅",
+      "account": "账户及登录帮助"
     },
     "message": "您的留言",
     "messagePlaceholder": "告诉我们您的项目、地块或房产…",
@@ -1030,8 +1029,8 @@
     "roleSales": "销售",
     "roleHomeowner": "业主",
     "roleOther": "其他",
-    "proOnly": "预约目前仅面向专业人士",
-    "proOnlyDesc": "展厅预约目前面向建筑师与销售专业人士开放。也非常欢迎您给我们留言——我们乐于提供帮助，并在开放时间恭候您的光临。",
+    "proOnly": "申请参观展厅",
+    "proOnlyDesc": "请告诉我们您希望的参观时间及感兴趣的产品。我们的团队将联系您安排参观。参观仅接受预约。",
     "contactInstead": "给我们留言",
     "continueBooking": "继续预约",
     "changeRole": "更改身份",
@@ -1503,18 +1502,8 @@
       "ctaText": "欢迎造访体验中心，或联系我们获取量身定制的建议。"
     }
   },
-  "furniture": {
-    "eyebrow": "Caracole · Cornelius Lifestyle",
-    "title": "家具",
-    "intro": "适配每个房间的设计师家具——沙发、桌子、床、储物、灯具与饰品，甄选自 Caracole 与 Cornelius Lifestyle。",
-    "viewAll": "查看全部",
-    "items": "件",
-    "searchPlaceholder": "搜索家具…",
-    "partnersTitle": "我们的家具伙伴",
-    "partnersIntro": "我们的家具由这些知名品牌合作供应。"
-  },
   "account": {
-    "viewPrices": "查看价格",
+    "viewPrices": "登录查看价格",
     "myAccount": "我的账户",
     "logout": "退出登录",
     "requestTitle": "申请账户",
@@ -1577,7 +1566,7 @@
     "metaLogin": "登录 — Habitat One",
     "metaActivate": "设置密码 — Habitat One",
     "metaRequest": "申请账户 — Habitat One",
-    "priceWithAccount": "登录查看价格",
+    "priceWithAccount": "登录后查看价格",
     "priceOnRequest": "价格面议",
     "priceFrom": "低至",
     "inclVat": "含增值税",
@@ -1590,7 +1579,9 @@
     "popupClose": "关闭",
     "popupNote": "免费 · 1 个工作日内开通",
     "myProjects": "我的项目",
-    "myProjectsNote": "查看装修项目的进度、发票和付款。"
+    "myProjectsNote": "查看装修项目的进度、发票和付款。",
+    "passwordHelp": "忘记密码？请联系我们获取帮助",
+    "tooManyAttempts": "尝试次数过多，请稍后重试。"
   },
   "planner": {
     "canvas": {
@@ -1971,17 +1962,16 @@
   "search": {
     "eyebrow": "搜索",
     "title": "搜索",
-    "intro": "搜索全部系列 — 产品、家具、系列与空间。",
+    "intro": "搜索全部系列 — 产品、系列与空间。",
     "resultsFor": "“{query}” 的搜索结果",
     "count": "{count} 条结果",
     "categories": "分类",
     "products": "产品",
-    "furniture": "家具",
     "noResults": "没有找到“{query}”的结果。",
     "allResults": "查看全部 {count} 条结果",
     "searching": "搜索中…",
     "clear": "清除",
-    "emptyHint": "在上方输入即可搜索产品、家具和系列。",
+    "emptyHint": "在上方输入即可搜索产品和系列。",
     "showMore": "显示更多结果",
     "kindCategory": "分类",
     "kindSpace": "空间",

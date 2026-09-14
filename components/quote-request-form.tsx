@@ -139,10 +139,10 @@ export function QuoteRequestForm() {
               ) : (
                 <ul className="mt-2 divide-y divide-sand-200">
                   {items.map((it) => (
-                    <li key={it.key} className="flex items-center justify-between gap-2 py-2">
+                    <li key={it.key} className="grid grid-cols-[3.5rem_minmax(0,1fr)] items-start gap-x-3 gap-y-2 py-3">
                       {it.image && <Image src={it.image} alt="" width={56} height={64} className="h-16 w-14 shrink-0 object-cover" />}
-                      <span className="min-w-0 flex-1">
-                        <span className="block truncate text-sm font-medium text-ink">
+                      <span className="col-start-2 min-w-0">
+                        <span className="block break-words text-sm font-medium leading-relaxed text-ink">
                           {it.name}
                           {it.variant && <span className="text-clay-700"> — {it.variant}</span>}
                         </span>
@@ -150,7 +150,7 @@ export function QuoteRequestForm() {
                           <span className="block text-xs text-clay-700/60">{it.sku}</span>
                         )}
                       </span>
-                      <div className="flex shrink-0 items-center gap-1.5">
+                      <div className="col-span-2 flex items-center justify-end gap-2">
                         <div className="flex items-center rounded-full border border-sand-300 bg-cream">
                           <button
                             type="button"

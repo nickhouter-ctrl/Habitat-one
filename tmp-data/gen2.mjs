@@ -58,8 +58,17 @@ function dims(p) {
 const COLLECTIONS = new Set([
   "bathroom", "wall-panels", "backer-boards", "accessories", "doors", "door-accessories",
   "bloempotten", "verlichting", "schakelmateriaal", "acrylpanelen", "sfeerhaarden",
-  "pvc-vloeren", "furniture",
+  "pvc-vloeren",
 ]);
+// Meubels (Caracole/Cornelius) zijn van de site; "furniture" staat daarom niet
+// meer in de whitelist. De Brauer-meubelsets die het CRM nog als "furniture"
+// aanlevert vallen via de naam-regex ("meubel") automatisch onder badkamer.
+
+// Het KKR-badkamerassortiment (solid surface: baden, wastafels, spiegels,
+// douchebakken, accessoires) is van de site: badkamer = Brauer. De KKR-
+// acrylpanelen zijn géén badkamerproduct en blijven staan.
+const isKkrBadkamer = (p) =>
+  !p.brand && /^KKR-/i.test(p.sku ?? "") && p.collection !== "acrylpanelen";
 
 function collectionFor(name) {
   const n = name.toLowerCase();
@@ -272,7 +281,7 @@ function buildFamily(fam) {
 }
 const familyEmitted = new Set();
 const finalProducts = [];
-for (const p of outProducts) {
+for (const p of outProducts.filter((p) => !isKkrBadkamer(p))) {
   const rule = p.sku ? FAM_RULES.find((r) => r.re.test(p.sku)) : null;
   if (!rule) { finalProducts.push(p); continue; }
   if (familyEmitted.has(rule.fam)) continue;
@@ -330,7 +339,7 @@ export interface CatalogProduct {
   optionAxes?: OptionAxis[] | null;
   /** SKU's van alle uitvoeringen (merkproducten) — voor de "vanaf"-prijs. */
   variantSkus?: string[] | null;
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren" | "furniture";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren";
   variants: ProductVariant[];
 }
 

@@ -7,7 +7,7 @@ import { Send, CheckCircle2, Loader2 } from "lucide-react";
 import { trackEvent } from "@/lib/analytics/track";
 import { CRM_API, toCrmLocale } from "@/lib/account/crm";
 
-const subjectKeys = ["general", "materials", "renovation", "property", "legal", "showroom"] as const;
+const subjectKeys = ["general", "materials", "renovation", "property", "legal", "showroom", "account"] as const;
 
 const ERR_TEXT: Record<string, string> = {
   nl: "Versturen mislukt. Probeer het opnieuw of mail ons direct.",
@@ -143,7 +143,7 @@ export function ContactForm({ defaultSubject }: { defaultSubject?: (typeof subje
           <button
             type="submit"
             disabled={state === "sending"}
-            className="btn btn-primary mt-1 self-start disabled:opacity-70"
+            className="btn btn-primary bg-ink text-paper hover:bg-ink-soft mt-1 self-start disabled:opacity-70"
           >
             {state === "sending" ? (
               <>

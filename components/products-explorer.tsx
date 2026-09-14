@@ -336,7 +336,7 @@ export function ProductsExplorer({
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder={t("searchPlaceholder")}
-              className="w-full rounded-full border border-sand-300 bg-whitewash py-3 pl-11 pr-4 text-sm text-ink placeholder:text-ink-soft/45 focus:border-terracotta-400 focus:outline-none focus:ring-2 focus:ring-terracotta-400/15"
+              className="w-full rounded-full border border-sand-300 bg-whitewash py-3 pl-11 pr-4 text-base text-ink placeholder:text-ink-soft/45 focus:border-terracotta-400 focus:outline-none focus:ring-2 focus:ring-terracotta-400/15"
             />
           </div>
           <button

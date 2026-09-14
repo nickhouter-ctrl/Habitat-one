@@ -9,12 +9,9 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
-      // Property photos managed in the Habitat CRM (Supabase Storage)
+      // Property photos and the Brauer product/sfeerbeelden, managed in the
+      // Habitat CRM (Supabase Storage).
       { protocol: "https", hostname: "kcsqmsmferruwnhsibxk.supabase.co" },
-      // Furniture product photos hotlinked from the supplier CDNs (Caracole =
-      // Shopify, Cornelius Lifestyle = WooCommerce/WordPress).
-      { protocol: "https", hostname: "cdn.shopify.com" },
-      { protocol: "https", hostname: "www.corneliuslifestyle.com" },
     ],
   },
   async headers() {
@@ -43,6 +40,18 @@ const nextConfig: NextConfig = {
       {
         source: "/:locale(nl|es|de|fr|zh)/products/wall-panels",
         destination: "/:locale/products/flexible-stone",
+        permanent: true,
+      },
+      // De meubelcollectie (Caracole/Cornelius) is in september 2026 van de
+      // site gehaald. Oude links en zoekresultaten landen op de range-hub.
+      {
+        source: "/furniture/:path*",
+        destination: "/products",
+        permanent: true,
+      },
+      {
+        source: "/:locale(nl|es|de|fr|zh)/furniture/:path*",
+        destination: "/:locale/products",
         permanent: true,
       },
     ];

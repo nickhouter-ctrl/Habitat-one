@@ -12,6 +12,7 @@ import { PriceTag } from "@/components/account/price-tag";
 import { brandOf } from "@/lib/data/brands";
 import { term, productName } from "@/lib/data/catalog-i18n";
 import { useLocale } from "next-intl";
+import { formatDimensions, repeatsDimensions } from "@/lib/product-dimensions";
 import { cn } from "@/lib/utils";
 
 type Media = { type: "image" | "video"; src: string; poster?: string };
@@ -232,9 +233,10 @@ export function ProductDetailLayout({
   // eigen afmeting) en kleuren (de stof, als losse keuze). Elke variant draagt
   // `piece` + `colour`; we groeperen ze tot twee keuze-rijen.
   // Twee-assige keuze (maat/element + kleur) voor elk product waarvan de
-  // varianten een `piece` dragen — meubel-sets én bv. de verlichting-families.
+  // varianten een `piece` dragen — Brauer-meubelsets én bv. de verlichting-
+  // families. Bij een meubelset heten de delen "elementen", niet "maten".
   const hasPieceAxis = withImages.some((v) => v.piece);
-  const isFurnitureSet = product.collection === "furniture" && hasPieceAxis;
+  const isFurnitureSet = product.productType === "Badkamermeubels" && hasPieceAxis;
   const pieces = hasPieceAxis ? [...new Set(withImages.map((v) => v.piece).filter(Boolean) as string[])] : [];
   const setColours = hasPieceAxis ? [...new Set(withImages.map((v) => v.colour).filter(Boolean) as string[])] : [];
   const activePiece = activeVariant?.piece ?? pieces[0] ?? null;
@@ -431,12 +433,12 @@ export function ProductDetailLayout({
           )}
         </div>
 
-        {lead && (
+        {lead && !repeatsDimensions(lead, activeDim) && (
           <p className="mt-7 text-base leading-relaxed text-ink-soft md:text-[1.05rem]">
             {lead}
           </p>
         )}
-        {description && <Uitleg tekst={description} />}
+        {description && !repeatsDimensions(description, activeDim) && <Uitleg tekst={description} />}
 
         {/* Big, clear specifications */}
         <dl className="mt-10 border-t border-ink/15">
@@ -447,10 +449,10 @@ export function ProductDetailLayout({
           )}
           {activeDim && (
             <SpecRow label={labels.dimensions}>
-              {activeDim}
+              {formatDimensions(activeDim)}
               {product.additionalSizes && product.additionalSizes.length > 0 && (
                 <span className="mt-1 block text-sm text-ink-soft/65">
-                  + {product.additionalSizes.join(" · ")}
+                  + {product.additionalSizes.map(formatDimensions).join(" · ")}
                 </span>
               )}
             </SpecRow>

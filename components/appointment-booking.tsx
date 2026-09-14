@@ -4,8 +4,8 @@ import { useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "motion/react";
 import { Compass, Briefcase, HomeIcon, Sparkles, ArrowRight, ArrowLeft, CheckCircle2, Loader2, CalendarDays } from "lucide-react";
-import { Link } from "@/i18n/navigation";
 import { CRM_API, toCrmLocale } from "@/lib/account/crm";
+import { ContactForm } from "@/components/ui/contact-form";
 import { cn } from "@/lib/utils";
 
 type Role = "architect" | "sales" | "homeowner" | "other";
@@ -139,11 +139,14 @@ export function AppointmentBooking() {
             <h3 className="font-display text-xl text-cream">{t("proOnly")}</h3>
             <p className="mt-3 text-sm leading-relaxed text-cream/65">{t("proOnlyDesc")}</p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <Link href="/contact?subject=showroom" className="btn btn-primary">{t("contactInstead")}</Link>
+
               <button onClick={reset} className="btn btn-outline-light">
                 <ArrowLeft className="h-4 w-4" />
                 {t("changeRole")}
               </button>
+            </div>
+            <div className="mt-6 rounded-sm bg-background p-5 text-ink">
+              <ContactForm defaultSubject="showroom" />
             </div>
           </motion.div>
         )}

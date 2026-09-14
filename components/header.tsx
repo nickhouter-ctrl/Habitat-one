@@ -62,12 +62,6 @@ export function Header() {
       title: tProducts(g.key),
       items: g.ids.map((id) => ({ href: collectionHref(id), label: rangeLabel(id) })),
     })),
-    // Meubels — één enkele ingang onder Range (geen eigen tab meer).
-    {
-      title: tProducts("collectionFurniture"),
-      titleHref: "/furniture",
-      items: [{ href: "/furniture", label: tProducts("allFurniture") }],
-    },
   ];
 
   const dropdowns: Record<string, DropItem[]> = {

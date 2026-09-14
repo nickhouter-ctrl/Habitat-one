@@ -6,7 +6,6 @@ import { search, type SearchLabels } from "@/lib/search";
 const messages = nl as unknown as {
   products: Record<string, unknown> & { i18n: Record<string, { name?: string; short?: string }> };
   spaces: { names: Record<string, string> };
-  furniture: { title: string };
   search: Record<string, string>;
 };
 
@@ -15,7 +14,6 @@ const labels: SearchLabels = {
   productShort: (slug) => messages.products.i18n[slug]?.short ?? null,
   collectionLabel: (key) => (messages.products[key] as string) ?? key,
   spaceName: (slug) => messages.spaces.names[slug] ?? slug,
-  furnitureTitle: messages.furniture.title,
   categoryKind: (group) =>
     messages.search[
       { collection: "kindCategory", space: "kindSpace", service: "kindService" }[group]
@@ -25,21 +23,18 @@ const labels: SearchLabels = {
 const find = (q: string) => search(q, "nl", labels);
 
 describe("sitebrede zoekfunctie", () => {
-  it("vindt meubels op het Nederlandse woord — de reden dat deze index bestaat", () => {
-    const { products, categories } = find("meubels");
-    expect(products.length).toBeGreaterThan(100);
-    expect(products.every((p) => p.group === "furniture")).toBe(true);
-    expect(categories.some((c) => c.href === "/furniture")).toBe(true);
+  it("vindt de Brauer-badkamercollectie op merk en producttype", () => {
+    const { products } = find("brauer");
+    expect(products.length).toBeGreaterThan(50);
+    expect(products.every((p) => p.group === "range")).toBe(true);
+    expect(find("douchewanden").products.length).toBeGreaterThan(10);
   });
 
-  it("vindt banken zowel op het Nederlandse als het Engelse woord", () => {
-    const nlHits = find("banken").products;
-    const enHits = find("sofa").products;
-    expect(nlHits.length).toBeGreaterThan(0);
-    expect(enHits.length).toBeGreaterThan(0);
-    // Beide zoekwoorden wijzen naar dezelfde categorie.
-    expect(find("banken").categories.some((c) => c.href === "/furniture/sofas")).toBe(true);
-    expect(find("sofa").categories.some((c) => c.href === "/furniture/sofas")).toBe(true);
+  it("vindt een badkamermeubel onder de badkamercollectie — de meubeltab bestaat niet meer", () => {
+    const { products, categories } = find("meubelset");
+    expect(products.length).toBeGreaterThan(0);
+    expect(products.every((p) => p.subtitle === messages.products.collectionBathroom)).toBe(true);
+    expect(categories.some((c) => c.href.startsWith("/furniture"))).toBe(false);
   });
 
   it("blijft range-producten en collecties vinden", () => {
@@ -56,11 +51,11 @@ describe("sitebrede zoekfunctie", () => {
   });
 
   it("eist dat élk zoekwoord raakt", () => {
-    expect(find("bank zzzzzzz").products).toHaveLength(0);
+    expect(find("kraan zzzzzzz").products).toHaveLength(0);
   });
 
   it("negeert accenten en hoofdletters", () => {
-    expect(find("SOFÁ").products.length).toBeGreaterThan(0);
+    expect(find("DOUCHEWÁND").products.length).toBeGreaterThan(0);
   });
 
   it("geeft niets terug op een lege zoekterm", () => {
@@ -68,7 +63,7 @@ describe("sitebrede zoekfunctie", () => {
   });
 
   it("kapt af op `limit` maar houdt `total` eerlijk", () => {
-    const capped = search("meubels", "nl", labels, { limit: 5 });
+    const capped = search("brauer", "nl", labels, { limit: 5 });
     expect(capped.products).toHaveLength(5);
     expect(capped.total).toBeGreaterThan(5);
   });

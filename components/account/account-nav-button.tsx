@@ -12,7 +12,7 @@ import { usePrices } from "./price-provider";
 export function AccountNavButton() {
   const { loggedIn } = usePrices();
   const t = useTranslations("account");
-  const href = loggedIn ? "/account" : "/account/aanvragen";
+  const href = loggedIn ? "/account" : "/account/login";
   const label = loggedIn ? t("myAccount") : t("viewPrices");
   const Icon = loggedIn ? User : Tag;
 

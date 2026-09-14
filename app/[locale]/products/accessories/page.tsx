@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { seoAlternates } from "@/lib/seo/alternates";
 import { CollectionLuxuryPage } from "@/components/sections/collection-luxury";
+import { BRAUER_GALERIJ_ACCESSOIRES, BRAUER_HERO_ACCESSOIRES } from "@/lib/data/brauer-beelden";
 
 export async function generateMetadata({
   params,
@@ -23,13 +24,9 @@ export default async function AccessoriesPage({
   return (
     <CollectionLuxuryPage
       collectionId="accessories"
-      heroImageOverride="/products/h/KKR-8058-life.jpg"
-      galleryOverride={[
-        "/products/h/KKR-8201-life.jpg",
-        "/products/h/KKR-B-RACK09-life.jpg",
-        "/products/h/KKR-PU004-life.jpg",
-        "/products/h/KKR-WB3003B-life.jpg",
-      ]}
+      // Badkameraccessoires zijn Brauer; kop en lookbook zijn Brauer-sfeerbeelden.
+      heroImageOverride={BRAUER_HERO_ACCESSOIRES}
+      galleryOverride={BRAUER_GALERIJ_ACCESSOIRES}
     />
   );
 }

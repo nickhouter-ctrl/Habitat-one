@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { seoAlternates } from "@/lib/seo/alternates";
 import { CollectionLuxuryPage } from "@/components/sections/collection-luxury";
 import { BrandStrip } from "@/components/sections/brand-strip";
+import { BRAUER_GALERIJ_BADKAMER, BRAUER_HERO_BADKAMER } from "@/lib/data/brauer-beelden";
 
 export async function generateMetadata({
   params,
@@ -24,17 +25,12 @@ export default async function BathroomPage({
   return (
     <CollectionLuxuryPage
       collectionId="bathroom"
-      // De collectiepagina toont alleen producten mét foto; deze strook is de
-      // ingang naar het Brauer-assortiment zolang die beelden er nog niet zijn.
+      // De badkamercollectie is Brauer: de merkstrook is de ingang per
+      // producttype (kranen, douchewanden, meubels …), de kop en het lookbook
+      // zijn Brauer-sfeerbeelden (lib/data/brauer-beelden.ts).
       belowHero={<BrandStrip slug="brauer" locale={locale} />}
-      heroImageOverride="/products/h/KKR-B051-A-life.jpg"
-      galleryOverride={[
-        "/products/h/KKR-WB3003B-life.jpg",
-        "/products/h/KKR-T001-D-life.jpg",
-        "/products/h/KKR-1264-1-life.jpg",
-        "/products/h/KKR-1908-life.jpg",
-        "/products/h/KKR-2120-life.jpg",
-      ]}
+      heroImageOverride={BRAUER_HERO_BADKAMER}
+      galleryOverride={BRAUER_GALERIJ_BADKAMER}
     />
   );
 }

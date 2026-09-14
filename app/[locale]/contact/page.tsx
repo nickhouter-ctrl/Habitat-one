@@ -8,7 +8,7 @@ import { Reveal } from "@/components/ui/reveal";
 import { ContactForm } from "@/components/ui/contact-form";
 import { site } from "@/lib/data/site";
 
-const subjectKeys = ["general", "materials", "renovation", "property", "legal", "showroom"] as const;
+const subjectKeys = ["general", "materials", "renovation", "property", "legal", "showroom", "account"] as const;
 type SubjectKey = (typeof subjectKeys)[number];
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

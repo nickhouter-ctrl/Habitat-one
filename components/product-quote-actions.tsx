@@ -32,7 +32,7 @@ export function ProductQuoteActions({
         <button
           type="button"
           onClick={() => {
-            addItem(item);
+            if (!added) addItem(item);
             openQuote();
           }}
           className="btn btn-primary"

@@ -24,7 +24,7 @@ export function LoginForm() {
       });
       const data = await res.json().catch(() => ({ ok: false }));
       if (!res.ok || !data.ok) {
-        setError(t("loginError"));
+        setError(t(res.status === 429 ? "tooManyAttempts" : res.status === 400 || res.status === 401 || res.status === 403 ? "loginError" : "loginFailed"));
         setStatus("error");
         return;
       }
@@ -44,6 +44,7 @@ export function LoginForm() {
       <Field label={t("password")} htmlFor="login-password">
         <input id="login-password" name="password" type="password" required autoComplete="current-password" className={field} />
       </Field>
+      <Link href="/contact?subject=account" className="inline-block text-sm text-ink underline underline-offset-4">{t("passwordHelp")}</Link>
       {error && <p role="alert" className="text-sm text-red-600">{error}</p>}
       <button
         type="submit"
