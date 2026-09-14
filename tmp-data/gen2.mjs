@@ -214,8 +214,8 @@ const FAM_RULES = [
   { re: /^GO-MG-ZXH-(White|Black)$/, fam: "Wire cover box", piece: null, col: (m) => m[1] },
   { re: /^GO-MG-DDH-(White|Black)$/, fam: "Track feed box 5A", piece: null, col: (m) => m[1] },
   { re: /^GL-022$/, fam: "Grondspot LED IP65", piece: () => "3 W", col: null },
-  { re: /^GL-024$/, fam: "Grondspot LED IP65", piece: () => "12 W", col: null },
-  { re: /^GL-023$/, fam: "Grondspot LED IP65", piece: () => "20 W", col: null },
+  // GL-023 and GL-024 are round spots with their own photos and dimensions.
+  // Keep them as separate products; retain the existing family URL for GL-022.
 ];
 const famSlug = (name) => name.toLowerCase().replace(/[×\u2192]/g, " ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 const famMembers = new Map();

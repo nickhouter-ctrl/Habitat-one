@@ -5162,7 +5162,7 @@ export const catalogProducts: CatalogProduct[] = [
     "additionalSizes": null,
     "availability": null,
     "image": "/products/v/9222.jpg",
-    "featured": true,
+    "featured": false,
     "dimensions": null,
     "materials": [],
     "spaces": [],
@@ -5179,28 +5179,84 @@ export const catalogProducts: CatalogProduct[] = [
         ],
         "dim": "200×80×55 mm",
         "piece": "3 W"
-      },
+      }
+    ]
+  },
+  {
+    "id": 9023,
+    "name": "Grondspot LED 20W IP65",
+    "slug": "grondspot-led-20w-ip65",
+    "sku": "GL-023",
+    "short": null,
+    "description": "Inbouw-grondspot 20W, 3000K, 1700lm, IP65. RVS + gehard glas. Ø200×170 mm.",
+    "descriptionI18n": {
+      "nl": "Inbouw-grondspot 20W, 3000K, 1700lm, IP65. RVS + gehard glas. Ø200×170 mm.",
+      "en": "Recessed ground spot 20W, 3000K, 1700lm, IP65. Stainless steel + tempered glass. Ø200×170 mm.",
+      "de": "Boden-Einbaustrahler 20W, 3000K, 1700lm, IP65. Edelstahl + Hartglas. Ø200×170 mm.",
+      "es": "Foco de suelo empotrable 20W, 3000K, 1700lm, IP65. Acero inoxidable + vidrio templado. Ø200×170 mm."
+    },
+    "additionalSizes": null,
+    "image": "/products/v/9223.jpg",
+    "featured": true,
+    "dimensions": "200 × 170 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "brand": null,
+    "availability": null,
+    "series": null,
+    "productType": null,
+    "optionAxes": null,
+    "variantSkus": null,
+    "variants": [
       {
-        "id": 90241,
-        "name": "12 W",
-        "colorHex": null,
-        "sku": "GL-024",
-        "images": [
-          "/products/v/9224.jpg"
-        ],
-        "dim": "175×125 mm",
-        "piece": "12 W"
-      },
-      {
-        "id": 90231,
-        "name": "20 W",
-        "colorHex": null,
+        "id": 9123,
+        "name": "RVS / glas",
+        "colorHex": "#b8bcc0",
         "sku": "GL-023",
         "images": [
           "/products/v/9223.jpg"
-        ],
-        "dim": "200×170 mm",
-        "piece": "20 W"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9024,
+    "name": "Grondspot LED 12W IP65",
+    "slug": "grondspot-led-12w-ip65",
+    "sku": "GL-024",
+    "short": null,
+    "description": "Inbouw-grondspot 12W, 3000K, 1020lm, IP65. RVS + gehard glas. Ø175×125 mm.",
+    "descriptionI18n": {
+      "nl": "Inbouw-grondspot 12W, 3000K, 1020lm, IP65. RVS + gehard glas. Ø175×125 mm.",
+      "en": "Recessed ground spot 12W, 3000K, 1020lm, IP65. Stainless steel + tempered glass. Ø175×125 mm.",
+      "de": "Boden-Einbaustrahler 12W, 3000K, 1020lm, IP65. Edelstahl + Hartglas. Ø175×125 mm.",
+      "es": "Foco de suelo empotrable 12W, 3000K, 1020lm, IP65. Acero inoxidable + vidrio templado. Ø175×125 mm."
+    },
+    "additionalSizes": null,
+    "image": "/products/v/9224.jpg",
+    "featured": true,
+    "dimensions": "175 × 125 mm",
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "brand": null,
+    "availability": null,
+    "series": null,
+    "productType": null,
+    "optionAxes": null,
+    "variantSkus": null,
+    "variants": [
+      {
+        "id": 9124,
+        "name": "RVS / glas",
+        "colorHex": "#b8bcc0",
+        "sku": "GL-024",
+        "images": [
+          "/products/v/9224.jpg"
+        ]
       }
     ]
   },
