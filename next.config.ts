@@ -42,6 +42,28 @@ const nextConfig: NextConfig = {
         destination: "/:locale/products/flexible-stone",
         permanent: true,
       },
+      // Badkamer en accessoires zijn volledig Brauer; de merkpagina is de
+      // collectiepagina. De oude collectiepaden blijven bereikbaar.
+      {
+        source: "/products/bathroom",
+        destination: "/brands/brauer",
+        permanent: true,
+      },
+      {
+        source: "/:locale(nl|es|de|fr|zh)/products/bathroom",
+        destination: "/:locale/brands/brauer",
+        permanent: true,
+      },
+      {
+        source: "/products/accessories",
+        destination: "/brands/brauer?type=Accessoires",
+        permanent: true,
+      },
+      {
+        source: "/:locale(nl|es|de|fr|zh)/products/accessories",
+        destination: "/:locale/brands/brauer?type=Accessoires",
+        permanent: true,
+      },
       // De meubelcollectie (Caracole/Cornelius) is in september 2026 van de
       // site gehaald. Oude links en zoekresultaten landen op de range-hub.
       {

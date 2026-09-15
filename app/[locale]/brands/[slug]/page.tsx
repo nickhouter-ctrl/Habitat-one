@@ -6,7 +6,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { BrandExplorer } from "@/components/brand-explorer";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { Container, Section } from "@/components/ui/section";
-import { catalogProducts } from "@/lib/data/catalog";
+import { catalogProducts, kleurStalen } from "@/lib/data/catalog";
 import { BRANDS } from "@/lib/data/brands";
 import { term } from "@/lib/data/catalog-i18n";
 import { meubelOnderdelen } from "@/lib/data/brauer-meubels.generated";
@@ -71,6 +71,14 @@ export default async function BrandPage({
     if (!p) return null;
     const staal = kleur ? p.optionAxes?.find((a) => a.key === "kleur")?.values.find((w) => w.value === kleur && w.image)?.image : null;
     return { src: staal ?? p.image!, alt: p.name };
+  };
+  /** Tegelbeeld voor een producttype: om de beurt een andere afwerking, zodat
+   *  de tegels samen alle kleuren laten zien in plaats van alleen chroom. */
+  const tegelBeeld = (type: string, i: number): string | null => {
+    const p = catalogProducts.find((x) => x.brand === slug && x.productType === type && x.image);
+    if (!p) return null;
+    const stalen = kleurStalen(p);
+    return stalen.length > 1 ? stalen[i % stalen.length].image : p.image!;
   };
   const heroBeeld = beeldVoor("Douchewanden") ?? beeldVoor("Douchesets");
   const meubelBeeld = meubelOnderdelen.find((o) => o.type === "Onderkast" && o.image)?.image ?? null;
@@ -167,8 +175,8 @@ export default async function BrandPage({
           <Container>
             <h2 className="font-display text-2xl text-ink md:text-3xl">{t("categoriesTitle")}</h2>
             <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
-              {topTypes.map(([type, n]) => {
-                const b = beeldVoor(type);
+              {topTypes.map(([type, n], i) => {
+                const b = tegelBeeld(type, i);
                 return (
                   <Link
                     key={type}
@@ -176,7 +184,7 @@ export default async function BrandPage({
                     className="group flex items-center gap-4 rounded-sm border border-ink/15 p-3 transition-colors hover:border-ink/40"
                   >
                     <span className="relative block size-16 shrink-0 overflow-hidden bg-paper">
-                      {b && <Image src={b.src} alt="" fill sizes="64px" className="object-cover transition-transform duration-700 group-hover:scale-105" />}
+                      {b && <Image src={b} alt="" fill sizes="64px" className="object-cover transition-transform duration-700 group-hover:scale-105" />}
                     </span>
                     <span className="flex min-w-0 flex-1 items-baseline justify-between gap-3">
                       <span className="text-sm text-ink">{term(type, locale)}</span>

@@ -49,6 +49,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/", priority: 1.0, freq: "weekly" },
     { path: "/products", priority: 0.9, freq: "weekly" },
     { path: "/products/all", priority: 0.8, freq: "weekly" },
+    // Badkamer en accessoires wonen op de Brauer-merkpagina.
+    { path: "/brands/brauer", priority: 0.8, freq: "weekly" },
+    { path: "/brands/brauer/samenstellen", priority: 0.6, freq: "monthly" },
     { path: "/spaces", priority: 0.8, freq: "monthly" },
     { path: "/services", priority: 0.7, freq: "monthly" },
     { path: "/projects", priority: 0.7, freq: "monthly" },
@@ -74,7 +77,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // en staat op noindex (app/[locale]/kitchen-planner/page.tsx). Voeg hem pas
   // toe bij de lancering, samen met de nav-regel in lib/data/site.ts.
 
-  const collectionPaths = collections.map((c) => collectionHref(c.id));
+  // Badkamer en accessoires wijzen naar de merkpagina (hierboven al opgenomen).
+  const collectionPaths = collections
+    .filter((c) => c.id !== "bathroom" && c.id !== "accessories")
+    .map((c) => collectionHref(c.id));
 
   const items: MetadataRoute.Sitemap = [
     ...staticPaths.map((s) => entry(s.path, { priority: s.priority, changeFrequency: s.freq })),

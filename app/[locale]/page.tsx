@@ -81,7 +81,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const rangeCollections = [
     { id: "wall-panels", key: "collectionWallPanels", img: "/products/magic/ms-travertino-beige-interior.jpg", href: "/products/flexible-stone" },
     { id: "pvc-vloeren", key: "collectionPVCFloors", img: "/products/pvc-vloeren/lifestyle-1.jpg", href: "/products/pvc-vloeren" },
-    { id: "bathroom", key: "collectionBathroom", img: BRAUER_COVER_BADKAMER, href: "/products/bathroom" },
+    { id: "bathroom", key: "collectionBathroom", img: BRAUER_COVER_BADKAMER, href: "/brands/brauer" },
     { id: "acrylpanelen", key: "collectionAcrylicPanels", img: "/products/h/acryl/KKR-A027-badkamer.jpg", href: "/products/acrylpanelen" },
     { id: "verlichting", key: "collectionLighting", img: "/products/h/GL-001-life.jpg", href: "/products/verlichting" },
     { id: "doors", key: "collectionDoors", img: "/scenery/doors-hero.jpg", href: "/products/doors" },

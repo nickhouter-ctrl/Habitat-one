@@ -1136,6 +1136,10 @@ export const collections: { id: Collection; key: string }[] = [
  */
 export function collectionHref(id: string): string {
   if (id === "wall-panels") return "/products/flexible-stone";
+  // Badkamer en accessoires zijn volledig Brauer: de merkpagina ís de
+  // collectiepagina (met serie-, type- en kleurfilter), dus daar landen ze.
+  if (id === "bathroom") return "/brands/brauer";
+  if (id === "accessories") return "/brands/brauer?type=Accessoires#producten";
   // Deurbeslag heeft (nog) geen eigen pagina — hoort bij Doors.
   if (id === "door-accessories") return "/products/doors";
   return `/products/${id}`;
