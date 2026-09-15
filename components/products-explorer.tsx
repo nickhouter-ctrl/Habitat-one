@@ -7,7 +7,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { motion, AnimatePresence } from "motion/react";
 import { Search, X, SlidersHorizontal, ChevronRight } from "lucide-react";
 import { ProductCard } from "@/components/cards/product-card";
-import { catalogMaterials, catalogSpaces, collections, type CatalogProduct } from "@/lib/data/catalog";
+import { catalogMaterials, catalogSpaces, collections, kleurOpPositie, type CatalogProduct } from "@/lib/data/catalog";
 import { useDialog } from "@/components/ui/use-dialog";
 import { cn } from "@/lib/utils";
 
@@ -404,7 +404,7 @@ export function ProductsExplorer({
         ) : (
           <div className="mt-7 grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
             <AnimatePresence initial={false}>
-              {filtered.slice(0, visibleCount).map((p) => (
+              {filtered.slice(0, visibleCount).map((p, i) => (
                 <motion.div
                   key={p.id}
                   initial={{ opacity: 0, scale: 0.96 }}
@@ -412,7 +412,7 @@ export function ProductsExplorer({
                   exit={{ opacity: 0, scale: 0.96 }}
                   transition={{ duration: 0.25 }}
                 >
-                  <ProductCard product={p} collectionLabel={t(collectionLabel(p.collection)!)} noImageLabel={t("noImage")} imageOverride={colorVariantImage(p)} />
+                  <ProductCard product={p} collectionLabel={t(collectionLabel(p.collection)!)} noImageLabel={t("noImage")} imageOverride={colorVariantImage(p)} kleur={kleurOpPositie(p, i)} />
                 </motion.div>
               ))}
             </AnimatePresence>

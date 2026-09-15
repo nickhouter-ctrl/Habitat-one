@@ -5,7 +5,7 @@ import { useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
 
 import { ProductCard } from "@/components/cards/product-card";
-import type { CatalogProduct } from "@/lib/data/catalog";
+import { kleurOpPositie, type CatalogProduct } from "@/lib/data/catalog";
 import { term } from "@/lib/data/catalog-i18n";
 import { cn } from "@/lib/utils";
 
@@ -192,8 +192,7 @@ export function BrandExplorer({
               // Met een kleurfilter opent elke kaart in die kleur; zonder filter
               // wisselen de kleuren over het raster, zodat het overzicht niet één
               // en al chroom is.
-              const metFoto = (p.optionAxes?.find((a) => a.key === "kleur")?.values ?? []).filter((w) => w.image);
-              const open = kleur !== "all" ? kleur : metFoto.length ? metFoto[i % metFoto.length].value : null;
+              const open = kleur !== "all" ? kleur : kleurOpPositie(p, i);
               return <ProductCard key={p.id} product={p} priority={i < 4} kleur={open} />;
             })}
           </div>

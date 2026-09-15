@@ -2,11 +2,12 @@
 
 import { useRef, useState } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { motion } from "motion/react";
 import { ArrowLeft, ArrowRight, ArrowUpRight, ImageOff } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import type { CatalogProduct } from "@/lib/data/catalog";
+import { kleurOpPositie, kleurStalen, type CatalogProduct } from "@/lib/data/catalog";
+import { productName } from "@/lib/data/catalog-i18n";
 import { cn } from "@/lib/utils";
 
 export function ProductsStrip({
@@ -21,6 +22,7 @@ export function ProductsStrip({
   ctaLabel?: string;
 }) {
   const t = useTranslations("products");
+  const locale = useLocale();
   const scrollerRef = useRef<HTMLDivElement>(null);
   const [hovered, setHovered] = useState<string | null>(null);
 
@@ -41,18 +43,25 @@ export function ProductsStrip({
         )}
         style={{ scrollbarWidth: "none" }}
       >
-        {products.map((p) => {
+        {products.map((p, i) => {
           const id = p.id.toString();
           const isHovered = hovered === id;
           const anyHovered = hovered !== null;
           const dimmed = anyHovered && !isHovered;
-          // Flexible Stone (wall-panels) names stay English in every locale.
-          const name =
-            p.collection === "wall-panels"
+          // Flexible Stone (wall-panels) names stay English in every locale;
+          // merkproducten dragen Nederlandse catalogusnamen en gaan door het
+          // woordenboek.
+          const name = p.brand
+            ? productName(p.name, locale)
+            : p.collection === "wall-panels"
               ? p.name
               : t.has(`i18n.${p.slug}.name`)
                 ? t(`i18n.${p.slug}.name`)
                 : p.name;
+          // Merkproducten: om de beurt een andere afwerking, zodat de strook
+          // niet één rij chroom is. Vierkante packshots heel tonen.
+          const kleur = p.brand ? kleurOpPositie(p, i) : null;
+          const image = (kleur && kleurStalen(p).find((w) => w.value === kleur)?.image) || p.image;
           return (
             <Link
               key={p.id}
@@ -70,20 +79,20 @@ export function ProductsStrip({
                   filter: dimmed ? "grayscale(0.6)" : "grayscale(0)",
                 }}
                 transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-                className="relative aspect-[3/4] overflow-hidden bg-sand-100"
+                className={cn("relative overflow-hidden", p.brand ? "aspect-square bg-paper" : "aspect-[3/4] bg-sand-100")}
               >
-                {p.image ? (
+                {image ? (
                   <motion.div
                     animate={{ scale: isHovered ? 1.08 : 1 }}
                     transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1] }}
                     className="absolute inset-0"
                   >
                     <Image
-                      src={p.image}
+                      src={image}
                       alt={name}
                       fill
                       sizes="(max-width:640px) 70vw, (max-width:1024px) 40vw, 22vw"
-                      className="object-cover"
+                      className={p.brand ? "object-contain" : "object-cover"}
                     />
                   </motion.div>
                 ) : (

@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { ProductCard } from "@/components/cards/product-card";
 import { Container, Section } from "@/components/ui/section";
-import { catalogProducts } from "@/lib/data/catalog";
+import { catalogProducts, kleurStalen } from "@/lib/data/catalog";
 import { BRANDS } from "@/lib/data/brands";
 import { term } from "@/lib/data/catalog-i18n";
 
@@ -43,13 +43,25 @@ export async function BrandStrip({
     }, {}),
   ).sort((a, b) => b[1] - a[1]);
 
+  /**
+   * Beeld voor een producttype: het eerste product mét foto, om de beurt in
+   * een andere afwerking (goud, koper, gunmetal, RVS, mat zwart, chroom) —
+   * zo laten de tegels samen alle kleuren zien in plaats van alleen chroom.
+   */
+  const beeldVoor = (type: string, i: number): string | null => {
+    const p = producten.find((x) => x.productType === type && x.image);
+    if (!p) return null;
+    const stalen = kleurStalen(p);
+    return stalen.length > 1 ? stalen[i % stalen.length].image : p.image;
+  };
+
   // Vier voorbeelden: per type het eerste product mét foto, elk in een andere
   // kleur — een proefje van het assortiment, de merkpagina doet de rest.
   const voorbeelden: Array<{ product: (typeof producten)[number]; kleur: string | null }> = [];
   for (const [type] of types) {
     const p = producten.find((x) => x.productType === type && x.image && !voorbeelden.some((v) => v.product.id === x.id));
     if (!p) continue;
-    const kleuren = (p.optionAxes?.find((a) => a.key === "kleur")?.values ?? []).filter((w) => w.image);
+    const kleuren = kleurStalen(p);
     voorbeelden.push({ product: p, kleur: kleuren.length ? kleuren[voorbeelden.length % kleuren.length].value : null });
     if (voorbeelden.length === 4) break;
   }
@@ -83,22 +95,38 @@ export async function BrandStrip({
           </div>
           <div>
             <p className="max-w-2xl text-[0.95rem] leading-relaxed text-ink-soft">{t("brauerLead")}</p>
-            {types.length > 0 && (
-              <div className="mt-6 flex flex-wrap gap-2">
-                {types.map(([type, n]) => (
-                  <Link
-                    key={type}
-                    href={`/brands/${slug}?type=${encodeURIComponent(type)}`}
-                    className="rounded-sm border border-ink/15 px-3 py-1.5 text-sm text-ink-soft transition-colors hover:border-ink/40 hover:text-ink"
-                  >
-                    {term(type, locale)}
-                    <span className="ml-2 text-ink/40">{n}</span>
-                  </Link>
-                ))}
-              </div>
-            )}
           </div>
         </div>
+        {/* De producttypes als tegels met beeld — dezelfde ingang als op de
+            merkpagina ("Waar zoek je naar?"), zodat je vanaf de badkamerpagina
+            meteen naar kranen, douchewanden of meubels kunt. */}
+        {types.length > 0 && (
+          <div className="mt-12">
+            <h2 className="font-display text-2xl text-ink md:text-3xl">{t("categoriesTitle")}</h2>
+            <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
+              {types.map(([type, n], i) => {
+                const beeld = beeldVoor(type, i);
+                return (
+                  <Link
+                    key={type}
+                    href={`/brands/${slug}?type=${encodeURIComponent(type)}#producten`}
+                    className="group flex items-center gap-4 rounded-sm border border-ink/15 bg-paper p-3 transition-colors hover:border-ink/40"
+                  >
+                    <span className="relative block size-16 shrink-0 overflow-hidden bg-paper">
+                      {beeld && (
+                        <Image src={beeld} alt="" fill sizes="64px" className="object-cover transition-transform duration-700 group-hover:scale-105" />
+                      )}
+                    </span>
+                    <span className="flex min-w-0 flex-1 items-baseline justify-between gap-3">
+                      <span className="text-sm text-ink">{term(type, locale)}</span>
+                      <span className="text-xs text-ink/40">{n}</span>
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        )}
         {voorbeelden.length > 0 && (
           <div className="mt-12 grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-4">
             {voorbeelden.map(({ product, kleur }) => (

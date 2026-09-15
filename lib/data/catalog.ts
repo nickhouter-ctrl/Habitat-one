@@ -1192,6 +1192,24 @@ export function productImages(p: CatalogProduct): string[] {
   return out;
 }
 
+/** De kleuren met een eigen foto van een merkproduct (uit de kleur-as). */
+export function kleurStalen(p: CatalogProduct): { value: string; label: string; image: string }[] {
+  return (p.optionAxes?.find((a) => a.key === "kleur")?.values ?? []).filter(
+    (w): w is { value: string; label: string; image: string } => !!w.image,
+  );
+}
+
+/**
+ * De kleur waarin kaart nummer `i` van een raster opent. De catalogusfoto is
+ * bijna altijd chroom; door per positie een andere afwerking te kiezen laat
+ * een overzicht álle kleuren zien — goud, koper, gunmetal, RVS, mat zwart —
+ * in plaats van een rij chroom. Bij een actief kleurfilter wint dat filter.
+ */
+export function kleurOpPositie(p: CatalogProduct, i: number): string | null {
+  const stalen = kleurStalen(p);
+  return stalen.length > 1 ? stalen[i % stalen.length].value : null;
+}
+
 /** True when the product offers more than one colour option (each with imagery). */
 export function hasColourOptions(p: CatalogProduct): boolean {
   return p.variants.filter((v) => v.colorHex || v.name).length > 1;
