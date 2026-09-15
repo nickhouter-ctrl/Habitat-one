@@ -86,9 +86,9 @@ const collectionKey = {
 const collectionIdentifierPrefix: Record<string, string> = {
   "wall-panels": "Flexible Stone",
   "backer-boards": "XPS · Backer Boards",
-  bathroom: "Solid Surface · Bathroom",
+  bathroom: "Brauer · Bathroom",
   doors: "Flexible Stone · Doors",
-  accessories: "Accessories",
+  accessories: "Brauer · Accessories",
   "door-accessories": "Door details",
   bloempotten: "Garden · Bloempotten",
   verlichting: "Verlichting",
