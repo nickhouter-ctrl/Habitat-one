@@ -125,8 +125,16 @@ export async function Footer() {
           </div>
         </div>
 
+        {/* Onafhankelijkheidsverklaring: Habitat One is een experience center
+            voor bouwmaterialen en projecten, geen meubelmerk of -winkel, en
+            staat los van Habitat International / de HABITAT-meubelgroep.
+            Staat bewust op elke pagina. */}
+        <p className="max-w-3xl border-t border-cream/10 pt-6 text-xs leading-relaxed text-cream/55">
+          {t("footer.independence")}
+        </p>
+
         {/* Bottom bar */}
-        <div className="flex flex-col gap-3 border-t border-cream/10 py-7 text-xs text-cream/50 md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-col gap-3 py-7 text-xs text-cream/50 md:flex-row md:items-center md:justify-between">
           <p>
             © {year} {site.name}. {t("footer.rights")} · {t("footer.builtIn")}
           </p>

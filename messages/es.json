@@ -135,7 +135,7 @@
     "viewCatalog": "Ver el catálogo completo",
     "rangeEyebrow": "Una dirección",
     "rangeTitle": "Más que paneles de pared",
-    "rangeText": "Del baño a la iluminación — Habitat One suministra todo el interior. Descubra el resto de la gama.",
+    "rangeText": "De baños Brauer a iluminación y puertas — materiales y productos de fabricantes independientes, presentados bajo sus propias marcas. Descubre el resto de la gama.",
     "projectsEyebrow": "Antes y después",
     "projectsTitle": "Transformaciones en Jávea/Xàbia",
     "projectsText": "En cada proyecto el antes y el después están uno al lado del otro — mira cómo una casa anticuada de la Costa Blanca se convierte en un hogar mediterráneo sereno y luminoso.",
@@ -195,7 +195,7 @@
   "products": {
     "eyebrow": "La colección",
     "title": "Productos",
-    "intro": "Las piezas que más prescribimos para casas de la Costa Blanca — paneles de pared de gran formato, baño en solid surface, espejos, herrajes y más.",
+    "intro": "Los materiales y productos que más prescribimos para casas de la Costa Blanca — paneles de pared de gran formato, grifería y baño Brauer, iluminación, puertas y más, de fabricantes independientes bajo sus propias marcas.",
     "count": "{count} productos",
     "filterAll": "Todos",
     "collectionBathroom": "Baño",
@@ -995,8 +995,9 @@
     "directionsText": "En el corazón de Jávea/Xàbia con aparcamiento gratuito — a 90 minutos de Valencia y 75 del aeropuerto de Alicante."
   },
   "footer": {
-    "ctaTitle": "La experiencia integral de construcción y hogar en Jávea/Xàbia.",
+    "ctaTitle": "El centro de experiencia de materiales de construcción y proyectos en Jávea/Xàbia.",
     "ctaText": "Descubre materiales cuidadosamente seleccionados, productos innovadores y soluciones inspiradoras para tu hogar. Tanto si construyes, reformas o solo buscas ideas, nuestro showroom está diseñado para ayudarte a descubrir lo que es posible. Reserva tu visita a través de nuestra web y vive Habitat One en persona.",
+    "independence": "Habitat One es un centro de experiencia independiente de materiales de construcción y proyectos con sede en Jávea, España. Los productos mostrados en esta plataforma se suministran bajo las marcas de sus respectivos fabricantes. Habitat One no está vinculada a Habitat International S.A. ni al grupo de tiendas de muebles HABITAT.",
     "tagline": "Construye, reforma y vive con belleza en Jávea/Xàbia — materiales, diseño, derecho e inmuebles bajo un mismo techo mediterráneo.",
     "exploreTitle": "Explorar",
     "companyTitle": "Empresa",

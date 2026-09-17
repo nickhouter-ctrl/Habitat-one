@@ -116,37 +116,37 @@ export const services: Service[] = [
     },
     body: {
       en: [
-        "We take a project from a first sketch through planning drawings, technical documents and a full interior scheme — furniture, lighting, the material palette, the lot. For renovations, we survey the existing house properly first, so the design is honest about what's really there.",
+        "We take a project from a first sketch through planning drawings, technical documents and a complete interior plan — layout, lighting and the material palette. For renovations, we survey the existing house properly first, so the design is honest about what's really there.",
         "We can run the whole job with our builders, or hand a complete, buildable package to a contractor of your choice. Either way you get one set of drawings everyone works from.",
       ],
       nl: [
-        "We brengen een project van een eerste schets via vergunningstekeningen, technische documenten naar een compleet interieurplan — meubels, verlichting, het materiaalpalet, alles. Bij renovaties meten we eerst het bestaande huis goed in, zodat het ontwerp eerlijk is over wat er echt staat.",
+        "We brengen een project van een eerste schets via vergunningstekeningen, technische documenten naar een compleet interieurplan — indeling, verlichting en het materiaalpalet. Bij renovaties meten we eerst het bestaande huis goed in, zodat het ontwerp eerlijk is over wat er echt staat.",
         "We kunnen het hele werk met onze aannemers uitvoeren, of een compleet, bouwbaar pakket overdragen aan een aannemer naar keuze. Hoe dan ook krijg je één set tekeningen waar iedereen mee werkt.",
       ],
       es: [
-        "Llevamos un proyecto desde un primer boceto hasta los planos de licencia, la documentación técnica y un esquema interior completo — mobiliario, iluminación, la paleta de materiales, todo. En reformas, levantamos primero bien la casa existente, para que el diseño sea honesto con lo que hay de verdad.",
+        "Llevamos un proyecto desde un primer boceto hasta los planos de licencia, la documentación técnica y un plan interior completo — distribución, iluminación y la paleta de materiales. En reformas, levantamos primero bien la casa existente, para que el diseño sea honesto con lo que hay de verdad.",
         "Podemos ejecutar toda la obra con nuestros constructores o entregar un paquete completo y construible a un contratista de tu elección. En cualquier caso tienes un único juego de planos del que todos parten.",
       ],
       de: [
-        "Wir führen ein Projekt von der ersten Skizze über Genehmigungspläne, technische Unterlagen bis zu einem kompletten Innenkonzept — Möbel, Licht, Materialpalette, alles. Bei Renovierungen vermessen wir zuerst das Bestandshaus ordentlich, damit der Entwurf ehrlich ist mit dem, was wirklich da ist.",
+        "Wir führen ein Projekt von der ersten Skizze über Genehmigungspläne, technische Unterlagen bis zu einem kompletten Innenkonzept — Aufteilung, Licht und Materialpalette. Bei Renovierungen vermessen wir zuerst das Bestandshaus ordentlich, damit der Entwurf ehrlich ist mit dem, was wirklich da ist.",
         "Wir können die ganze Maßnahme mit unseren Bauunternehmen umsetzen oder ein vollständiges, baubares Paket an einen Bauunternehmer Ihrer Wahl übergeben. So oder so bekommen Sie einen Satz Zeichnungen, mit dem alle arbeiten.",
       ],
       fr: [
-        "Nous menons un projet de la première esquisse aux plans de permis, aux documents techniques et à un concept d'intérieur complet — mobilier, éclairage, palette de matériaux, tout. Pour les rénovations, nous relevons d'abord soigneusement la maison existante, afin que le projet soit honnête avec ce qui existe réellement.",
+        "Nous menons un projet de la première esquisse aux plans de permis, aux documents techniques et à un concept d'intérieur complet — agencement, éclairage et palette de matériaux. Pour les rénovations, nous relevons d'abord soigneusement la maison existante, afin que le projet soit honnête avec ce qui existe réellement.",
         "Nous pouvons conduire l'ensemble du chantier avec nos constructeurs, ou remettre un dossier complet et constructible à l'entrepreneur de votre choix. Dans tous les cas, vous obtenez un seul jeu de plans sur lequel tout le monde travaille.",
       ],
       zh: [
-        "我们将项目从第一张草图推进到报批图纸、技术文件，直至完整的室内方案——家具、灯光、材料方案，一应俱全。翻新项目中，我们会先对现有房屋进行细致测绘，让设计忠实于房屋的真实状况。",
+        "我们将项目从第一张草图推进到报批图纸、技术文件，直至完整的室内方案——布局、灯光与材料方案。翻新项目中，我们会先对现有房屋进行细致测绘，让设计忠实于房屋的真实状况。",
         "我们可以与自己的施工团队完成整个工程，也可以将一套完整、可落地施工的方案移交给您选定的承包商。无论哪种方式，所有人都依据同一套图纸工作。",
       ],
     },
     items: {
-      en: ["Concept & feasibility studies", "Planning & licence drawings", "Technical & construction documents", "Interior layout & joinery design", "Lighting & material schemes", "Furniture, FF&E & styling"],
-      nl: ["Concept- & haalbaarheidsstudies", "Vergunnings- & bouwaanvraagtekeningen", "Technische & uitvoeringsdocumenten", "Interieurindeling & meubelontwerp", "Verlichtings- & materiaalplannen", "Meubilair, inrichting & styling"],
-      es: ["Estudios de concepto y viabilidad", "Planos de planeamiento y licencia", "Documentación técnica y de ejecución", "Distribución interior y diseño de carpintería", "Esquemas de iluminación y materiales", "Mobiliario, equipamiento y estilismo"],
-      de: ["Konzept- & Machbarkeitsstudien", "Planungs- & Genehmigungszeichnungen", "Technische & Ausführungsunterlagen", "Innenraumplanung & Tischlerentwurf", "Licht- & Materialkonzepte", "Möbel, Ausstattung & Styling"],
-      fr: ["Études de concept & de faisabilité", "Plans d'urbanisme & de permis", "Documents techniques & d'exécution", "Aménagement intérieur & menuiserie sur mesure", "Concepts d'éclairage & de matériaux", "Mobilier, agencement & stylisme"],
-      zh: ["概念与可行性研究", "规划与报批图纸", "技术与施工文件", "室内布局与定制木作设计", "灯光与材料方案", "家具、软装与陈设"],
+      en: ["Concept & feasibility studies", "Planning & licence drawings", "Technical & construction documents", "Interior layout & joinery design", "Lighting & material schemes", "Styling & finishing advice"],
+      nl: ["Concept- & haalbaarheidsstudies", "Vergunnings- & bouwaanvraagtekeningen", "Technische & uitvoeringsdocumenten", "Interieurindeling & maatwerk timmerwerk", "Verlichtings- & materiaalplannen", "Styling- & afwerkingsadvies"],
+      es: ["Estudios de concepto y viabilidad", "Planos de planeamiento y licencia", "Documentación técnica y de ejecución", "Distribución interior y diseño de carpintería", "Esquemas de iluminación y materiales", "Asesoramiento de estilismo y acabados"],
+      de: ["Konzept- & Machbarkeitsstudien", "Planungs- & Genehmigungszeichnungen", "Technische & Ausführungsunterlagen", "Innenraumplanung & Tischlerentwurf", "Licht- & Materialkonzepte", "Styling- & Ausstattungsberatung"],
+      fr: ["Études de concept & de faisabilité", "Plans d'urbanisme & de permis", "Documents techniques & d'exécution", "Aménagement intérieur & menuiserie sur mesure", "Concepts d'éclairage & de matériaux", "Conseil en stylisme & finitions"],
+      zh: ["概念与可行性研究", "规划与报批图纸", "技术与施工文件", "室内布局与定制木作设计", "灯光与材料方案", "陈设与饰面建议"],
     },
   },
   {

@@ -135,7 +135,7 @@
     "viewCatalog": "查看完整目录",
     "rangeEyebrow": "一站式",
     "rangeTitle": "不止于墙板",
-    "rangeText": "从浴室到照明——Habitat One 供应完整的室内方案。探索更多产品系列。",
+    "rangeText": "从 Brauer 卫浴到照明与门——来自独立制造商的材料与产品，以其自有品牌呈现。探索更多产品系列。",
     "projectsEyebrow": "改造前后",
     "projectsTitle": "Jávea/Xàbia 的焕新蜕变",
     "projectsText": "每个项目都将改造前后并置呈现——看 Costa Blanca 一栋疲惫的老宅，如何蜕变为宁静明亮的地中海之家。",
@@ -195,7 +195,7 @@
   "products": {
     "eyebrow": "产品系列",
     "title": "产品",
-    "intro": "我们在 Costa Blanca 住宅中最常指定的单品——大幅面墙板、实体面材卫浴、镜子、五金等。",
+    "intro": "我们为 Costa Blanca 住宅最常选用的材料与产品——大幅面墙板、Brauer 卫浴产品、照明、门等，均来自独立制造商并以其自有品牌供应。",
     "count": "{count} 件产品",
     "filterAll": "全部",
     "collectionBathroom": "浴室",
@@ -995,8 +995,9 @@
     "directionsText": "位于 Jávea/Xàbia 市中心，提供免费停车——距瓦伦西亚仅 90 分钟车程，距阿利坎特机场 75 分钟。"
   },
   "footer": {
-    "ctaTitle": "Jávea/Xàbia 一站式的建造与生活体验。",
+    "ctaTitle": "Jávea/Xàbia 的建材与项目体验中心。",
     "ctaText": "探索精心甄选的材料、创新产品与令人心动的家居方案。无论您在建造、翻新，或只是寻找灵感，我们的展厅都会助您发现更多可能。通过网站预约来访，亲身体验 Habitat One。",
+    "independence": "Habitat One 是一家位于西班牙哈维亚（Jávea）的独立建材与项目体验中心。本平台展示的产品均以其各自制造商的商标供应。Habitat One 与 Habitat International S.A. 或 HABITAT 家具零售集团没有任何关联。",
     "tagline": "在 Jávea/Xàbia 建造、翻新、优雅生活——材料、设计、法律与房产，齐聚一个地中海屋檐下。",
     "exploreTitle": "探索",
     "companyTitle": "公司",

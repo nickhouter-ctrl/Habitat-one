@@ -13,9 +13,13 @@ export function JsonLd({ data }: { data: Record<string, unknown> }) {
 // Sitewide business identity — used in the root layout so every page carries it.
 export const localBusinessJsonLd: Record<string, unknown> = {
   "@context": "https://schema.org",
-  "@type": "HomeGoodsStore",
+  // Bewust geen winkeltype: Habitat One is een experience center voor
+  // bouwmaterialen en projecten, geen meubelwinkel (zie ook footer.independence).
+  "@type": "LocalBusiness",
   "@id": "https://www.habitat-one.com/#business",
   name: "Habitat One",
+  description:
+    "Independent building materials and project experience centre in Jávea, Spain. Products are supplied under the trade marks of their respective manufacturers. Not affiliated with Habitat International S.A. or the HABITAT furniture retail group.",
   url: "https://www.habitat-one.com",
   image: "https://www.habitat-one.com/opengraph-image",
   logo: "https://www.habitat-one.com/logo-habitat.png",

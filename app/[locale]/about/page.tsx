@@ -24,6 +24,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
   const t = await getTranslations("about");
   const tn = await getTranslations("nav");
   const tStats = await getTranslations("stats");
+  const tFooter = await getTranslations("footer");
   const tf = await getTranslations("faq");
   const faqItems = tf.raw("items") as { q: string; a: string }[];
   const faqJsonLd: Record<string, unknown> = {
@@ -119,6 +120,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                   <h3 className="font-display text-xl font-semibold leading-7 text-clay-700">{t("sub4")}</h3>
                   <p className="text-base leading-[1.75] tracking-[-0.01em] text-clay-700/65">{t("p4")}</p>
                   <p className="text-base font-medium italic leading-[1.75] tracking-[-0.01em] text-clay-700/80">{t("p5")}</p>
+                  <p className="border-t border-clay-700/10 pt-5 text-sm leading-[1.75] text-clay-700/60">{tFooter("independence")}</p>
                 </div>
               </Reveal>
             </div>

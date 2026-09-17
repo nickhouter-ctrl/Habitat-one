@@ -36,7 +36,7 @@ const identifierPrefix: Record<string, string> = {
   "wall-panels": "Flexible Stone · Collections",
   "backer-boards": "XPS · Backer Boards",
   bathroom: "Brauer · Bathroom",
-  doors: "Habitat One · Doors",
+  doors: "Flexible Stone · Doors",
   accessories: "Brauer · Accessories",
   "door-accessories": "Door details",
   bloempotten: "Garden · Bloempotten",
