@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Habitat One//360 by Cevisama 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:360-by-cevisama-2026-stand-c109@habitat-one.com
+DTSTAMP:20260918T120000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20261002
+SUMMARY:Habitat One at 360 by Cevisama · Stand C109
+LOCATION:Feria Valencia\, Av. de les Fires s/n\, 46035 València\, Spain
+DESCRIPTION:Flexible Stone live at 360 by Cevisama (Feria Valencia\, alongside Feria Hábitat València)\, 28 Sept – 1 Oct 2026. Stand C109. Details and appointments: https://www.habitat-one.com/feria
+URL:https://www.habitat-one.com/feria
+END:VEVENT
+END:VCALENDAR

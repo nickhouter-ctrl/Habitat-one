@@ -20,6 +20,7 @@ import type { Metadata } from "next";
 import { JsonLd, websiteJsonLd } from "@/components/seo/json-ld";
 import { seoAlternates } from "@/lib/seo/alternates";
 import { BRAUER_COVER_BADKAMER } from "@/lib/data/brauer-beelden";
+import { FairPopup } from "@/components/sections/fair-popup";
 
 export async function generateMetadata({
   params,
@@ -118,6 +119,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <>
       <JsonLd data={websiteJsonLd} />
       <Hero />
+      <FairPopup />
       <FairAnnouncement />
 
       {/* ---- What is Habitat One — the one-stop building experience ---- */}

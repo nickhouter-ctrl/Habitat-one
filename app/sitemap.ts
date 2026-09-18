@@ -58,6 +58,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/properties", priority: 0.7, freq: "weekly" },
     { path: "/sale", priority: 0.6, freq: "monthly" },
     { path: "/showroom", priority: 0.6, freq: "monthly" },
+    // Landingspagina beurs 2026 (uitnodigingsmail); na de beurs verwijderen of hergebruiken.
+    { path: "/feria", priority: 0.8, freq: "weekly" },
     { path: "/about", priority: 0.6, freq: "yearly" },
     { path: "/contact", priority: 0.6, freq: "yearly" },
     { path: "/location", priority: 0.6, freq: "monthly" },

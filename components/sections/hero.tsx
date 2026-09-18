@@ -11,6 +11,7 @@ import { BRAUER_SLIDE_BADKAMER } from "@/lib/data/brauer-beelden";
 import { CountUp } from "@/components/ui/count-up";
 import { MaskReveal } from "@/components/ui/mask-reveal";
 import { Magnetic } from "@/components/ui/magnetic";
+import { FairBadge } from "@/components/sections/fair-badge";
 
 /**
  * De homepage-slider: de Habitat One-range — villa, badkamer, acrylpanelen,
@@ -176,6 +177,9 @@ export function Hero() {
             </Link>
           </motion.div>
         </motion.div>
+
+        {/* Beursvlak — 360 by Cevisama, stand C109 (t/m 1 okt 2026) */}
+        <FairBadge />
 
         {/* Teller, naam van het beeld en voortgangslijn — rechtsonder */}
         <div className="absolute bottom-6 right-6 z-10 w-52 text-paper md:bottom-8 md:right-10 md:w-72">

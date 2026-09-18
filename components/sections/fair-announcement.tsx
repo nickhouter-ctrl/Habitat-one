@@ -13,6 +13,7 @@ import { LazyVideo } from "@/components/ui/lazy-video";
  */
 const VIDEO = "/scenery/feria-habitat-2026.mp4";
 const POSTER = "/scenery/feria-habitat-2026-poster.jpg";
+// Beursgegevens (naam, stand, data) staan in lib/data/feria.ts en messages `fair`.
 
 export async function FairAnnouncement() {
   const t = await getTranslations("fair");
@@ -60,7 +61,7 @@ export async function FairAnnouncement() {
             <Reveal delay={0.2}>
               <div className="mt-9 flex flex-wrap items-center gap-4">
                 <Magnetic>
-                  <Link href="/contact" className="btn btn-outline-light">
+                  <Link href="/feria" className="btn btn-outline-light">
                     {t("ctaPrimary")}
                     <ArrowUpRight className="h-4 w-4" />
                   </Link>
