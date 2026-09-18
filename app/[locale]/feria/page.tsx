@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowUpRight, CalendarDays, CalendarPlus, ExternalLink, MapPin, Navigation, Train, Car, Mail, Phone } from "lucide-react";
+import { ArrowUpRight, CalendarDays, CalendarPlus, Camera, ExternalLink, FileSignature, Layers, MapPin, Navigation, Train, Car, Mail, Phone } from "lucide-react";
 
 import { Link } from "@/i18n/navigation";
 import { seoAlternates } from "@/lib/seo/alternates";
@@ -32,6 +32,7 @@ export default async function FeriaPage({ params }: { params: Promise<{ locale: 
   setRequestLocale(locale);
   const t = await getTranslations("feria");
   const stand = feriaStandLabel(t("standWord"), t("hallWord"));
+  const demo = locale === "es" ? FERIA.windowsDemo.es : FERIA.windowsDemo.en;
 
   return (
     <>
@@ -132,47 +133,67 @@ export default async function FeriaPage({ params }: { params: Promise<{ locale: 
 
       {/* ---- Ook op de stand: aluminium kozijnen + Habitat One Windows ----
            Eigen platform (windows.habitat-one.com); de fabriek wordt bewust
-           niet genoemd of gelinkt. */}
+           niet genoemd of gelinkt. Demovideo in het Spaans op /es, anders
+           Engels; stil, dus autoplay in een lus. */}
       <Section className="bg-ink py-16 text-paper md:py-24">
         <Container>
-          <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
-            <div>
-              <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-terracotta-300">{t("windowsEyebrow")}</p>
-              <h2 className="mt-4 font-display text-3xl leading-tight md:text-4xl">{t("windowsTitle")}</h2>
-              <p className="mt-5 text-[1.02rem] leading-relaxed text-paper/75">{t("windowsLead")}</p>
-              <ul className="mt-6 space-y-3 border-t border-paper/15 pt-6 text-[0.98rem] leading-relaxed text-paper/85">
-                {(["windowsPoint1", "windowsPoint2", "windowsPoint3", "windowsPoint4"] as const).map((k) => (
-                  <li key={k} className="flex gap-4">
-                    <span className="mt-[0.7em] h-1.5 w-1.5 shrink-0 rounded-full bg-terracotta-300" />
-                    <span>{t(k)}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-8 flex flex-wrap items-center gap-4">
-                <a href={FERIA.windowsUrl} target="_blank" rel="noreferrer" className="btn btn-outline-light">
-                  {t("windowsCta")}
-                  <ExternalLink className="h-4 w-4" />
-                </a>
-                <a
-                  href="#afspraak"
-                  className="inline-flex items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-paper underline underline-offset-[6px] decoration-paper/35 hover:decoration-paper"
-                >
-                  {t("windowsDemo")}
-                  <ArrowUpRight className="h-4 w-4" />
-                </a>
+          <div className="max-w-3xl">
+            <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-terracotta-300">{t("windowsEyebrow")}</p>
+            <h2 className="mt-4 font-display text-3xl leading-[1.08] md:text-[2.8rem]">{t("windowsTitle")}</h2>
+            <p className="mt-5 max-w-2xl text-[1.02rem] leading-relaxed text-paper/75">{t("windowsLead")}</p>
+          </div>
+
+          <div className="relative mt-12">
+            <figure className="overflow-hidden rounded-md bg-paper shadow-[0_40px_100px_-30px_rgba(0,0,0,0.8)] ring-1 ring-paper/15">
+              <div className="flex items-center gap-1.5 border-b border-ink/10 bg-sand-50 px-4 py-2.5">
+                <span className="h-2.5 w-2.5 rounded-full bg-ink/15" />
+                <span className="h-2.5 w-2.5 rounded-full bg-ink/15" />
+                <span className="h-2.5 w-2.5 rounded-full bg-ink/15" />
+                <span className="ml-3 truncate text-[0.66rem] uppercase tracking-[0.2em] text-ink-soft">windows.habitat-one.com</span>
               </div>
-            </div>
-            <figure className="rounded-sm bg-paper p-4 ring-1 ring-paper/10 md:p-6">
-              <Image
-                src={FERIA.windowsDrawing}
-                alt={t("windowsCaption")}
-                width={1200}
-                height={1000}
-                sizes="(max-width:1024px) 100vw, 50vw"
-                className="h-auto w-full"
-              />
-              <figcaption className="mt-3 text-center text-xs text-ink-soft">{t("windowsCaption")}</figcaption>
+              <div className="aspect-video">
+                <LazyVideo src={demo.src} poster={demo.poster} className="h-full w-full object-cover" />
+              </div>
             </figure>
+            <figcaption className="mt-3 text-center text-xs text-paper/50 md:text-right">{t("windowsVideoCaption")}</figcaption>
+            {/* Tekening uit de configurator als klein kaartje over de hoek van het scherm. */}
+            <figure className="hidden w-52 rounded-sm bg-paper p-2 shadow-[0_24px_60px_-20px_rgba(0,0,0,0.9)] ring-1 ring-ink/10 md:absolute md:-bottom-8 md:-left-4 md:block lg:w-60 lg:-left-8">
+              <Image src={FERIA.windowsDrawing} alt={t("windowsCaption")} width={1200} height={1000} sizes="240px" loading="eager" className="h-auto w-full" />
+              <figcaption className="px-1 pb-1 pt-2 text-[0.64rem] leading-snug text-ink-soft">{t("windowsCaption")}</figcaption>
+            </figure>
+          </div>
+
+          <div className="mt-16 grid grid-cols-1 gap-8 border-t border-paper/15 pt-10 md:mt-20 md:grid-cols-3 md:gap-10">
+            {(
+              [
+                ["windowsF1Title", "windowsF1Text", Layers],
+                ["windowsF2Title", "windowsF2Text", Camera],
+                ["windowsF3Title", "windowsF3Text", FileSignature],
+              ] as const
+            ).map(([titel, tekst, Icoon]) => (
+              <div key={titel}>
+                <span className="grid h-10 w-10 place-items-center rounded-full border border-paper/20 text-terracotta-300">
+                  <Icoon className="h-4.5 w-4.5" />
+                </span>
+                <h3 className="mt-4 font-display text-xl text-paper">{t(titel)}</h3>
+                <p className="mt-2 text-[0.95rem] leading-relaxed text-paper/70">{t(tekst)}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-sm text-paper/60">{t("windowsPoint4")}</p>
+
+          <div className="mt-8 flex flex-wrap items-center gap-4">
+            <a href={FERIA.windowsUrl} target="_blank" rel="noreferrer" className="btn btn-outline-light">
+              {t("windowsCta")}
+              <ExternalLink className="h-4 w-4" />
+            </a>
+            <a
+              href="#afspraak"
+              className="inline-flex items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-paper underline underline-offset-[6px] decoration-paper/35 hover:decoration-paper"
+            >
+              {t("windowsDemo")}
+              <ArrowUpRight className="h-4 w-4" />
+            </a>
           </div>
         </Container>
       </Section>

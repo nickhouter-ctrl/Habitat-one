@@ -2047,7 +2047,14 @@
     "windowsPoint4": "Tilt & turn, casement, sliding, lift & slide, bi-fold, doors and fixed glazing — any size, any RAL colour, any glass.",
     "windowsCta": "Discover Habitat One Windows",
     "windowsDemo": "Book a demo at the stand",
-    "windowsCaption": "From the configurator: tilt & turn with fixed glass, outside view"
+    "windowsCaption": "From the configurator: tilt & turn with fixed glass, outside view",
+    "windowsF1Title": "Configurator",
+    "windowsF1Text": "Series, layout, RAL colour, glass and hardware. Drawing, 3D and price update with every change.",
+    "windowsF2Title": "Photo measuring",
+    "windowsF2Text": "Point your iPhone at the window: the frame is recognised, measured and saved with a photo.",
+    "windowsF3Title": "Dealer portal",
+    "windowsF3Text": "Quotations in your own branding, online approval, final drawings and delivery planning in one place.",
+    "windowsVideoCaption": "Demo of the platform · 1:44, no sound"
   },
   "brands": {
     "all": "All",

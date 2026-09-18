@@ -2047,7 +2047,14 @@
     "windowsPoint4": "Oscilobatiente, practicable, corredera, elevable, plegable, puertas y fijos — cualquier medida, cualquier RAL, cualquier vidrio.",
     "windowsCta": "Descubre Habitat One Windows",
     "windowsDemo": "Reserva una demo en el stand",
-    "windowsCaption": "Del configurador: oscilobatiente con vidrio fijo, vista exterior"
+    "windowsCaption": "Del configurador: oscilobatiente con vidrio fijo, vista exterior",
+    "windowsF1Title": "Configurador",
+    "windowsF1Text": "Serie, distribución, color RAL, vidrio y herraje. Plano, 3D y precio cambian con cada elección.",
+    "windowsF2Title": "Medición por foto",
+    "windowsF2Text": "Apunta con el iPhone a la ventana: se reconoce, se mide y se guarda con una foto.",
+    "windowsF3Title": "Portal de distribuidores",
+    "windowsF3Text": "Presupuestos con tu imagen, aprobación online, planos definitivos y planificación de entrega en un solo lugar.",
+    "windowsVideoCaption": "Demo de la plataforma · 1:44, sin sonido"
   },
   "brands": {
     "all": "Todos",

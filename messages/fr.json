@@ -2047,7 +2047,14 @@
     "windowsPoint4": "Oscillo-battant, à la française, coulissant, levant-coulissant, accordéon, portes et fixes — toute dimension, toute teinte RAL, tout vitrage.",
     "windowsCta": "Découvrir Habitat One Windows",
     "windowsDemo": "Réserver une démo sur le stand",
-    "windowsCaption": "Issu du configurateur : oscillo-battant avec fixe, vue extérieure"
+    "windowsCaption": "Issu du configurateur : oscillo-battant avec fixe, vue extérieure",
+    "windowsF1Title": "Configurateur",
+    "windowsF1Text": "Série, répartition, teinte RAL, vitrage et quincaillerie. Dessin, 3D et prix évoluent à chaque choix.",
+    "windowsF2Title": "Mesure par photo",
+    "windowsF2Text": "Visez la fenêtre avec l’iPhone : la menuiserie est reconnue, mesurée et enregistrée avec une photo.",
+    "windowsF3Title": "Portail revendeur",
+    "windowsF3Text": "Devis à votre image, validation en ligne, plans définitifs et planification des livraisons au même endroit.",
+    "windowsVideoCaption": "Démo de la plateforme · 1:44, sans son"
   },
   "brands": {
     "all": "Tous",

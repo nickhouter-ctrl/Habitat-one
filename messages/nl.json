@@ -2047,7 +2047,14 @@
     "windowsPoint4": "Draaikiep, draairaam, schuif, hefschuif, vouwwand, deuren en vast glas — elke maat, elke RAL-kleur, elk glas.",
     "windowsCta": "Ontdek Habitat One Windows",
     "windowsDemo": "Plan een demo op de stand",
-    "windowsCaption": "Uit de configurator: draaikiep met vast glas, buitenaanzicht"
+    "windowsCaption": "Uit de configurator: draaikiep met vast glas, buitenaanzicht",
+    "windowsF1Title": "Configurator",
+    "windowsF1Text": "Serie, indeling, RAL-kleur, glas en beslag. Tekening, 3D en prijs veranderen mee bij elke keuze.",
+    "windowsF2Title": "Fotomeettool",
+    "windowsF2Text": "Richt je iPhone op het kozijn: het kozijn wordt herkend, gemeten en met foto opgeslagen.",
+    "windowsF3Title": "Dealerportaal",
+    "windowsF3Text": "Offertes in je eigen huisstijl, online akkoord, definitieve tekeningen en leverplanning op één plek.",
+    "windowsVideoCaption": "Demo van het platform · 1:44, zonder geluid"
   },
   "brands": {
     "all": "Alle",

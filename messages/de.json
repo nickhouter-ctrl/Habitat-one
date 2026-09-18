@@ -2047,7 +2047,14 @@
     "windowsPoint4": "Dreh-Kipp, Dreh, Schiebe, Hebe-Schiebe, Falt, Türen und Festverglasung — jedes Maß, jede RAL-Farbe, jedes Glas.",
     "windowsCta": "Habitat One Windows entdecken",
     "windowsDemo": "Demo am Stand vereinbaren",
-    "windowsCaption": "Aus dem Konfigurator: Dreh-Kipp mit Festglas, Außenansicht"
+    "windowsCaption": "Aus dem Konfigurator: Dreh-Kipp mit Festglas, Außenansicht",
+    "windowsF1Title": "Konfigurator",
+    "windowsF1Text": "Serie, Aufteilung, RAL-Farbe, Glas und Beschlag. Zeichnung, 3D und Preis ändern sich mit jeder Wahl.",
+    "windowsF2Title": "Fotoaufmaß",
+    "windowsF2Text": "iPhone auf das Fenster richten: Der Rahmen wird erkannt, vermessen und mit Foto gespeichert.",
+    "windowsF3Title": "Händlerportal",
+    "windowsF3Text": "Angebote im eigenen Erscheinungsbild, Online-Freigabe, Endzeichnungen und Lieferplanung an einem Ort.",
+    "windowsVideoCaption": "Demo der Plattform · 1:44, ohne Ton"
   },
   "brands": {
     "all": "Alle",

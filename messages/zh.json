@@ -2047,7 +2047,14 @@
     "windowsPoint4": "内开内倒、平开、推拉、提升推拉、折叠、门与固定玻璃——任意尺寸、任意 RAL 颜色、任意玻璃。",
     "windowsCta": "了解 Habitat One Windows",
     "windowsDemo": "预约展位演示",
-    "windowsCaption": "来自配置器：内开内倒 + 固定玻璃，室外视图"
+    "windowsCaption": "来自配置器：内开内倒 + 固定玻璃，室外视图",
+    "windowsF1Title": "配置器",
+    "windowsF1Text": "系列、分格、RAL 颜色、玻璃与五金。每次选择，图纸、3D 与价格同步更新。",
+    "windowsF2Title": "拍照测量",
+    "windowsF2Text": "用 iPhone 对准窗户：门窗即被识别、测量并连同照片保存。",
+    "windowsF3Title": "经销商门户",
+    "windowsF3Text": "自有品牌报价、在线确认、最终图纸与交付排期，一站完成。",
+    "windowsVideoCaption": "平台演示 · 1:44，无声"
   },
   "brands": {
     "all": "全部",

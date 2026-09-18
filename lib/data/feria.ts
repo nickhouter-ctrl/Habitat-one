@@ -34,6 +34,11 @@ export const FERIA = {
   /** Het kozijnenplatform (eigen site; nooit naar de fabriek linken). */
   windowsUrl: "https://windows.habitat-one.com/",
   windowsDrawing: "/fair/windows-configurator-drawing.png",
+  /** Stille demovideo van het platform (1:44, 1080p), Engels en Spaans. */
+  windowsDemo: {
+    en: { src: "/fair/windows-demo-en.mp4", poster: "/fair/windows-demo-en-poster.jpg" },
+    es: { src: "/fair/windows-demo-es.mp4", poster: "/fair/windows-demo-es-poster.jpg" },
+  },
   video: "/scenery/feria-habitat-2026.mp4",
   poster: "/scenery/feria-habitat-2026-poster.jpg",
   logos: {
