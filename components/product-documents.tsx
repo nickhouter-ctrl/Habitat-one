@@ -1,4 +1,4 @@
-import { Ruler, Wrench, Download } from "lucide-react";
+import { Ruler, Wrench, Download, FileText } from "lucide-react";
 import type { ProductDoc } from "@/lib/data/product-docs";
 
 type Labels = {
@@ -6,6 +6,7 @@ type Labels = {
   lead: string;
   drawing: string;
   installation: string;
+  datasheet?: string;
 };
 
 function ext(file: string): string {
@@ -34,9 +35,9 @@ export function ProductDocuments({
 
         <ul className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {docs.map((doc) => {
-            const isDrawing = doc.type === "drawing";
-            const Icon = isDrawing ? Ruler : Wrench;
-            const label = isDrawing ? labels.drawing : labels.installation;
+            const Icon = doc.type === "drawing" ? Ruler : doc.type === "datasheet" ? FileText : Wrench;
+            const label =
+              doc.type === "drawing" ? labels.drawing : doc.type === "datasheet" ? (labels.datasheet ?? labels.drawing) : labels.installation;
             return (
               <li key={doc.file}>
                 <a

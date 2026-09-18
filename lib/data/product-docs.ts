@@ -3,7 +3,7 @@
 // the Habitat One logo. Drawings map 1:1 by SKU; installation guides are generic
 // per product type and are therefore shared across several SKUs.
 
-export type ProductDocType = "drawing" | "installation";
+export type ProductDocType = "drawing" | "installation" | "datasheet";
 
 export interface ProductDoc {
   /** Path under /public */
@@ -68,6 +68,20 @@ for (const d of DOCS) {
 }
 
 export type DocLocale = "nl" | "de" | "en" | "es" | "fr" | "zh";
+
+/**
+ * Technische fiche van Flexible Stone (het materiaal van de hele wandpanelen-
+ * collectie, dus niet per SKU): Engels als basis, Spaans als `-es`-variant.
+ * Andere talen vallen terug op Engels.
+ */
+export const FLEXIBLE_STONE_DATASHEET = {
+  en: "/docs/flexible-stone-technical-data-sheet.pdf",
+  es: "/docs/flexible-stone-technical-data-sheet-es.pdf",
+} as const;
+
+export function flexibleStoneDatasheet(locale: DocLocale = "en"): ProductDoc {
+  return { file: locale === "es" ? FLEXIBLE_STONE_DATASHEET.es : FLEXIBLE_STONE_DATASHEET.en, type: "datasheet" };
+}
 
 /**
  * Installatiegidsen bestaan in drie talen: het basisbestand is Spaans, met

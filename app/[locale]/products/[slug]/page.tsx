@@ -15,7 +15,7 @@ import { ProductCard } from "@/components/cards/product-card";
 import { ProductDetailLayout } from "@/components/product-detail-layout";
 import { productCombinations } from "@/lib/data/product-options.generated";
 import { ProductDocuments } from "@/components/product-documents";
-import { getProductDocs, type DocLocale } from "@/lib/data/product-docs";
+import { flexibleStoneDatasheet, getProductDocs, type DocLocale } from "@/lib/data/product-docs";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
 import { seoAlternates } from "@/lib/seo/alternates";
@@ -148,7 +148,11 @@ export default async function ProductDetailPage({
     : `${collectionIdentifierPrefix[product.collection] ?? "Habitat One"} · ${product.sku ?? name}`;
   const backHref = collectionHref(product.collection);
 
-  const docs = getProductDocs(product.sku, locale as DocLocale);
+  // Flexible Stone: de technische fiche van het materiaal hoort bij elk paneel.
+  const docs = [
+    ...(product.collection === "wall-panels" ? [flexibleStoneDatasheet(locale as DocLocale)] : []),
+    ...getProductDocs(product.sku, locale as DocLocale),
+  ];
 
   const cprefix = locale === "en" ? "" : `/${locale}`;
 
@@ -236,6 +240,7 @@ export default async function ProductDetailPage({
           lead: t("docsLead"),
           drawing: t("docDrawing"),
           installation: t("docInstallation"),
+          datasheet: t("docDatasheet"),
         }}
       />
 

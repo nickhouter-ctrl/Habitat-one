@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { seoAlternates } from "@/lib/seo/alternates";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CollectionLuxuryPage } from "@/components/sections/collection-luxury";
+import { FlexibleStoneDocs } from "@/components/sections/flexible-stone-docs";
 
 export async function generateMetadata({
   params,
@@ -28,6 +29,8 @@ export default async function FlexibleStonePage({
     <CollectionLuxuryPage
       collectionId="wall-panels"
       heroImageOverride="/scenery/flexibel-stone-hero.jpg"
+      // Technische fiche (EN/ES) direct onder de productstrook.
+      belowProducts={<FlexibleStoneDocs />}
     />
   );
 }
