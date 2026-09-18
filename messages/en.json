@@ -2036,7 +2036,18 @@
     "metro": "Metro L2 · Carolines/Fira, 600 m",
     "parking": "Parking on site (paid)",
     "contactTitle": "Questions before the fair?",
-    "backHome": "Back to the website"
+    "backHome": "Back to the website",
+    "popupTopics": "Flexible Stone · Aluminium windows",
+    "windowsEyebrow": "Also at the stand",
+    "windowsTitle": "Aluminium windows, configured to the millimetre",
+    "windowsLead": "Thermally broken aluminium windows, doors, sliding and bi-fold systems, made to size under the Habitat One name. At the stand we demonstrate the platform behind them: configure, measure, quote and order in one place.",
+    "windowsPoint1": "Configurator: series, layout, RAL colour, glass and hardware — drawing, 3D and price instantly.",
+    "windowsPoint2": "Photo measuring: point your iPhone at the façade; the frames are recognised and measured.",
+    "windowsPoint3": "Dealer portal: quotations in your own branding, online approval, final drawings and delivery planning.",
+    "windowsPoint4": "Tilt & turn, casement, sliding, lift & slide, bi-fold, doors and fixed glazing — any size, any RAL colour, any glass.",
+    "windowsCta": "Discover Habitat One Windows",
+    "windowsDemo": "Book a demo at the stand",
+    "windowsCaption": "From the configurator: tilt & turn with fixed glass, outside view"
   },
   "brands": {
     "all": "All",

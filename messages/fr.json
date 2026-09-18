@@ -2036,7 +2036,18 @@
     "metro": "Métro L2 · Carolines/Fira, 600 m",
     "parking": "Parking sur place (payant)",
     "contactTitle": "Des questions avant le salon ?",
-    "backHome": "Retour au site"
+    "backHome": "Retour au site",
+    "popupTopics": "Flexible Stone · Menuiseries aluminium",
+    "windowsEyebrow": "Également sur le stand",
+    "windowsTitle": "Des menuiseries aluminium configurées au millimètre",
+    "windowsLead": "Fenêtres, portes, coulissants et accordéons en aluminium à rupture de pont thermique, fabriqués sur mesure sous le nom Habitat One. Sur le stand, nous présentons la plateforme derrière : configurer, mesurer, chiffrer et commander au même endroit.",
+    "windowsPoint1": "Configurateur : série, répartition, teinte RAL, vitrage et quincaillerie — dessin, 3D et prix immédiats.",
+    "windowsPoint2": "Mesure par photo : visez la façade avec l’iPhone ; les menuiseries sont reconnues et mesurées.",
+    "windowsPoint3": "Portail revendeur : devis à votre image, validation en ligne, plans définitifs et planification des livraisons.",
+    "windowsPoint4": "Oscillo-battant, à la française, coulissant, levant-coulissant, accordéon, portes et fixes — toute dimension, toute teinte RAL, tout vitrage.",
+    "windowsCta": "Découvrir Habitat One Windows",
+    "windowsDemo": "Réserver une démo sur le stand",
+    "windowsCaption": "Issu du configurateur : oscillo-battant avec fixe, vue extérieure"
   },
   "brands": {
     "all": "Tous",

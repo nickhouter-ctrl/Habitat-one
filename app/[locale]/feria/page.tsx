@@ -130,6 +130,53 @@ export default async function FeriaPage({ params }: { params: Promise<{ locale: 
         </Container>
       </Section>
 
+      {/* ---- Ook op de stand: aluminium kozijnen + Habitat One Windows ----
+           Eigen platform (windows.habitat-one.com); de fabriek wordt bewust
+           niet genoemd of gelinkt. */}
+      <Section className="bg-ink py-16 text-paper md:py-24">
+        <Container>
+          <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
+            <div>
+              <p className="text-[0.7rem] font-medium uppercase tracking-[0.32em] text-terracotta-300">{t("windowsEyebrow")}</p>
+              <h2 className="mt-4 font-display text-3xl leading-tight md:text-4xl">{t("windowsTitle")}</h2>
+              <p className="mt-5 text-[1.02rem] leading-relaxed text-paper/75">{t("windowsLead")}</p>
+              <ul className="mt-6 space-y-3 border-t border-paper/15 pt-6 text-[0.98rem] leading-relaxed text-paper/85">
+                {(["windowsPoint1", "windowsPoint2", "windowsPoint3", "windowsPoint4"] as const).map((k) => (
+                  <li key={k} className="flex gap-4">
+                    <span className="mt-[0.7em] h-1.5 w-1.5 shrink-0 rounded-full bg-terracotta-300" />
+                    <span>{t(k)}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-8 flex flex-wrap items-center gap-4">
+                <a href={FERIA.windowsUrl} target="_blank" rel="noreferrer" className="btn btn-outline-light">
+                  {t("windowsCta")}
+                  <ExternalLink className="h-4 w-4" />
+                </a>
+                <a
+                  href="#afspraak"
+                  className="inline-flex items-center gap-2 text-[0.78rem] font-medium uppercase tracking-[0.18em] text-paper underline underline-offset-[6px] decoration-paper/35 hover:decoration-paper"
+                >
+                  {t("windowsDemo")}
+                  <ArrowUpRight className="h-4 w-4" />
+                </a>
+              </div>
+            </div>
+            <figure className="rounded-sm bg-paper p-4 ring-1 ring-paper/10 md:p-6">
+              <Image
+                src={FERIA.windowsDrawing}
+                alt={t("windowsCaption")}
+                width={1200}
+                height={1000}
+                sizes="(max-width:1024px) 100vw, 50vw"
+                className="h-auto w-full"
+              />
+              <figcaption className="mt-3 text-center text-xs text-ink-soft">{t("windowsCaption")}</figcaption>
+            </figure>
+          </div>
+        </Container>
+      </Section>
+
       {/* ---- Afspraak op de stand ---- */}
       <Section className="bg-sand-50 py-16 md:py-24">
         <Container>

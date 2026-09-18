@@ -31,6 +31,9 @@ export const FERIA = {
   address: "Av. de les Fires, s/n · 46035 València",
   metro: "Metro L2 · Carolines/Fira (600 m)",
   ics: "/fair/habitat-one-360-by-cevisama-2026.ics",
+  /** Het kozijnenplatform (eigen site; nooit naar de fabriek linken). */
+  windowsUrl: "https://windows.habitat-one.com/",
+  windowsDrawing: "/fair/windows-configurator-drawing.png",
   video: "/scenery/feria-habitat-2026.mp4",
   poster: "/scenery/feria-habitat-2026-poster.jpg",
   logos: {

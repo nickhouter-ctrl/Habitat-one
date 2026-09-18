@@ -2036,7 +2036,18 @@
     "metro": "Metro L2 · Carolines/Fira, 600 m",
     "parking": "Aparcamiento en el recinto (de pago)",
     "contactTitle": "¿Dudas antes de la feria?",
-    "backHome": "Volver a la web"
+    "backHome": "Volver a la web",
+    "popupTopics": "Flexible Stone · Ventanas de aluminio",
+    "windowsEyebrow": "También en el stand",
+    "windowsTitle": "Ventanas de aluminio configuradas al milímetro",
+    "windowsLead": "Ventanas, puertas, correderas y plegables de aluminio con rotura de puente térmico, fabricadas a medida bajo el nombre Habitat One. En el stand mostramos la plataforma que hay detrás: configurar, medir, presupuestar y pedir en un solo lugar.",
+    "windowsPoint1": "Configurador: serie, distribución, color RAL, vidrio y herraje — plano, 3D y precio al instante.",
+    "windowsPoint2": "Medición por foto: apunta con el iPhone a la fachada; las ventanas se reconocen y se miden.",
+    "windowsPoint3": "Portal de distribuidores: presupuestos con tu imagen, aprobación online, planos definitivos y planificación de entrega.",
+    "windowsPoint4": "Oscilobatiente, practicable, corredera, elevable, plegable, puertas y fijos — cualquier medida, cualquier RAL, cualquier vidrio.",
+    "windowsCta": "Descubre Habitat One Windows",
+    "windowsDemo": "Reserva una demo en el stand",
+    "windowsCaption": "Del configurador: oscilobatiente con vidrio fijo, vista exterior"
   },
   "brands": {
     "all": "Todos",

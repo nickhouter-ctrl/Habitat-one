@@ -2036,7 +2036,18 @@
     "metro": "地铁 L2 · Carolines/Fira 站，600 米",
     "parking": "场内停车（收费）",
     "contactTitle": "展前有疑问？",
-    "backHome": "返回网站"
+    "backHome": "返回网站",
+    "popupTopics": "Flexible Stone · 铝合金门窗",
+    "windowsEyebrow": "展位同期展示",
+    "windowsTitle": "毫米级定制的铝合金门窗",
+    "windowsLead": "以 Habitat One 之名定制生产的断桥铝合金窗、门、推拉与折叠系统。在展位上我们演示背后的平台：配置、测量、报价与下单，一站完成。",
+    "windowsPoint1": "配置器：系列、分格、RAL 颜色、玻璃与五金——图纸、3D 与价格即时呈现。",
+    "windowsPoint2": "拍照测量：用 iPhone 对准立面，门窗即被识别并测量。",
+    "windowsPoint3": "经销商门户：自有品牌报价、在线确认、最终图纸与交付排期。",
+    "windowsPoint4": "内开内倒、平开、推拉、提升推拉、折叠、门与固定玻璃——任意尺寸、任意 RAL 颜色、任意玻璃。",
+    "windowsCta": "了解 Habitat One Windows",
+    "windowsDemo": "预约展位演示",
+    "windowsCaption": "来自配置器：内开内倒 + 固定玻璃，室外视图"
   },
   "brands": {
     "all": "全部",

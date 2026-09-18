@@ -73,6 +73,7 @@ export function FairPopup() {
           <p className="text-[0.62rem] font-medium uppercase tracking-[0.3em] text-terracotta-300">{t("badgeKicker")}</p>
           <Image src={FERIA.logos.fairWhite} alt={FERIA.name} width={171} height={37} className="mt-4 h-9 w-auto" />
           <p className="mt-3 text-sm text-paper/75">{t("alongside")}</p>
+          <p className="mt-1 text-sm text-paper/60">{t("popupTopics")}</p>
           <div className="mt-6 border-t border-paper/15 pt-5">
             <p className="text-[0.78rem] uppercase tracking-[0.2em] text-paper/70">
               {FERIA.venue} · {t("badgeDates")}
