@@ -30,9 +30,11 @@ export function FairAppointmentForm() {
     const time = String(f.get("time") ?? "").trim();
     const company = String(f.get("company") ?? "").trim();
     const notes = String(f.get("notes") ?? "").trim();
+    // Eerste regel als "label: moment" — het CRM haalt daar het voorkeursmoment
+    // uit voor de ontvangstbevestiging aan de bezoeker.
+    const moment = `${day ? dayLabel(day) : "geen voorkeur"}${time ? ` · ${time}` : ""}`;
     const message = [
-      `Afspraak op de beurs: ${FERIA.name} (${FERIA.venue}), stand ${FERIA.stand}`,
-      `Dag: ${day ? dayLabel(day) : "geen voorkeur"}${time ? ` · tijd: ${time}` : ""}`,
+      `Beursafspraak ${FERIA.name} (${FERIA.venue}, stand ${FERIA.stand}): ${moment}`,
       company ? `Bedrijf: ${company}` : "",
       notes,
     ]
