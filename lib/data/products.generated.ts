@@ -45,7 +45,7 @@ export interface CatalogProduct {
   optionAxes?: OptionAxis[] | null;
   /** SKU's van alle uitvoeringen (merkproducten) — voor de "vanaf"-prijs. */
   variantSkus?: string[] | null;
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "spc-vloeren";
   variants: ProductVariant[];
 }
 
@@ -4085,11 +4085,11 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9510,
-    "name": "PVC Vloer Licht eiken visgraat",
-    "slug": "pvc-vloer-licht-eiken-visgraat",
+    "name": "SPC Vloer Licht eiken visgraat",
+    "slug": "spc-vloer-licht-eiken-visgraat",
     "sku": "190L-1",
     "short": null,
-    "description": "PVC vinylvloer met houtlook in licht eiken visgraat. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "description": "SPC-vloer met houtlook in licht eiken visgraat. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/9720.jpg",
@@ -4098,9 +4098,9 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [
-      "pvc-vloeren"
+      "spc-vloeren"
     ],
-    "collection": "pvc-vloeren",
+    "collection": "spc-vloeren",
     "brand": null,
     "availability": null,
     "series": null,
@@ -4122,11 +4122,11 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9511,
-    "name": "PVC Vloer Gerookt eiken",
-    "slug": "pvc-vloer-gerookt-eiken",
+    "name": "SPC Vloer Gerookt eiken",
+    "slug": "spc-vloer-gerookt-eiken",
     "sku": "2123-03",
     "short": null,
-    "description": "PVC vinylvloer met houtlook in gerookt eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "description": "SPC-vloer met houtlook in gerookt eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/9722.jpg",
@@ -4135,9 +4135,9 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [
-      "pvc-vloeren"
+      "spc-vloeren"
     ],
-    "collection": "pvc-vloeren",
+    "collection": "spc-vloeren",
     "brand": null,
     "availability": null,
     "series": null,
@@ -4158,11 +4158,11 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9512,
-    "name": "PVC Vloer Honing eiken",
-    "slug": "pvc-vloer-honing-eiken",
+    "name": "SPC Vloer Honing eiken",
+    "slug": "spc-vloer-honing-eiken",
     "sku": "2123-13",
     "short": null,
-    "description": "PVC vinylvloer met houtlook in honing eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "description": "SPC-vloer met houtlook in honing eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/9723.jpg",
@@ -4171,9 +4171,9 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [
-      "pvc-vloeren"
+      "spc-vloeren"
     ],
-    "collection": "pvc-vloeren",
+    "collection": "spc-vloeren",
     "brand": null,
     "availability": null,
     "series": null,
@@ -4195,11 +4195,11 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9513,
-    "name": "PVC Vloer Naturel eiken",
-    "slug": "pvc-vloer-naturel-eiken",
+    "name": "SPC Vloer Naturel eiken",
+    "slug": "spc-vloer-naturel-eiken",
     "sku": "2123-38",
     "short": null,
-    "description": "PVC vinylvloer met houtlook in naturel eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "description": "SPC-vloer met houtlook in naturel eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/9725.jpg",
@@ -4208,9 +4208,9 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [
-      "pvc-vloeren"
+      "spc-vloeren"
     ],
-    "collection": "pvc-vloeren",
+    "collection": "spc-vloeren",
     "brand": null,
     "availability": null,
     "series": null,
@@ -4232,11 +4232,11 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9514,
-    "name": "PVC Vloer Greige eiken",
-    "slug": "pvc-vloer-greige-eiken",
+    "name": "SPC Vloer Greige eiken",
+    "slug": "spc-vloer-greige-eiken",
     "sku": "2123-46",
     "short": null,
-    "description": "PVC vinylvloer met houtlook in greige eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "description": "SPC-vloer met houtlook in greige eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/9727.jpg",
@@ -4245,9 +4245,9 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [
-      "pvc-vloeren"
+      "spc-vloeren"
     ],
-    "collection": "pvc-vloeren",
+    "collection": "spc-vloeren",
     "brand": null,
     "availability": null,
     "series": null,
@@ -4269,11 +4269,11 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9515,
-    "name": "PVC Vloer Natuur eiken",
-    "slug": "pvc-vloer-natuur-eiken",
+    "name": "SPC Vloer Natuur eiken",
+    "slug": "spc-vloer-natuur-eiken",
     "sku": "6224-3",
     "short": null,
-    "description": "PVC vinylvloer met houtlook in natuur eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "description": "SPC-vloer met houtlook in natuur eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/9729.jpg",
@@ -4282,9 +4282,9 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [
-      "pvc-vloeren"
+      "spc-vloeren"
     ],
-    "collection": "pvc-vloeren",
+    "collection": "spc-vloeren",
     "brand": null,
     "availability": null,
     "series": null,
@@ -4306,11 +4306,11 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9516,
-    "name": "PVC Vloer Grijs eiken",
-    "slug": "pvc-vloer-grijs-eiken",
+    "name": "SPC Vloer Grijs eiken",
+    "slug": "spc-vloer-grijs-eiken",
     "sku": "88036-002",
     "short": null,
-    "description": "PVC vinylvloer met houtlook in grijs eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "description": "SPC-vloer met houtlook in grijs eiken. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/9731.jpg",
@@ -4319,9 +4319,9 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [
-      "pvc-vloeren"
+      "spc-vloeren"
     ],
-    "collection": "pvc-vloeren",
+    "collection": "spc-vloeren",
     "brand": null,
     "availability": null,
     "series": null,
@@ -4343,11 +4343,11 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9517,
-    "name": "PVC Vloer Teak goudbruin",
-    "slug": "pvc-vloer-teak-goudbruin",
+    "name": "SPC Vloer Teak goudbruin",
+    "slug": "spc-vloer-teak-goudbruin",
     "sku": "89004-004",
     "short": null,
-    "description": "PVC vinylvloer met houtlook in teak goudbruin. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "description": "SPC-vloer met houtlook in teak goudbruin. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/9733.jpg",
@@ -4356,9 +4356,9 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [
-      "pvc-vloeren"
+      "spc-vloeren"
     ],
-    "collection": "pvc-vloeren",
+    "collection": "spc-vloeren",
     "brand": null,
     "availability": null,
     "series": null,
@@ -4382,11 +4382,11 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9518,
-    "name": "PVC Vloer Greige eiken visgraat",
-    "slug": "pvc-vloer-greige-eiken-visgraat",
+    "name": "SPC Vloer Greige eiken visgraat",
+    "slug": "spc-vloer-greige-eiken-visgraat",
     "sku": "9510-8",
     "short": null,
-    "description": "PVC vinylvloer met houtlook in greige eiken visgraat. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
+    "description": "SPC-vloer met houtlook in greige eiken visgraat. Slijtvast, waterbestendig en eenvoudig te leggen — geschikt voor woon- en bedrijfsruimtes.",
     "descriptionI18n": null,
     "additionalSizes": null,
     "image": "/products/v/9737.jpg",
@@ -4395,9 +4395,9 @@ export const catalogProducts: CatalogProduct[] = [
     "materials": [],
     "spaces": [],
     "categories": [
-      "pvc-vloeren"
+      "spc-vloeren"
     ],
-    "collection": "pvc-vloeren",
+    "collection": "spc-vloeren",
     "brand": null,
     "availability": null,
     "series": null,

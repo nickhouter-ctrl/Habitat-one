@@ -11,13 +11,13 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "products" });
   return {
-    alternates: seoAlternates(locale, "/products/pvc-vloeren"),
-    title: t("collectionPVCFloors"),
-    description: t("chapterDescriptionPVCFloors"),
+    alternates: seoAlternates(locale, "/products/spc-vloeren"),
+    title: t("collectionSPCFloors"),
+    description: t("chapterDescriptionSPCFloors"),
   };
 }
 
-export default async function PVCFloorsPage({
+export default async function SPCFloorsPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -26,16 +26,16 @@ export default async function PVCFloorsPage({
   setRequestLocale(locale);
   return (
     <CollectionLuxuryPage
-      collectionId="pvc-vloeren"
-      heroImageOverride="/products/pvc-vloeren/hero.jpg"
+      collectionId="spc-vloeren"
+      heroImageOverride="/products/spc-vloeren/hero.jpg"
       bareHero
       editorialImages={[
-        "/products/pvc-vloeren/lifestyle-1.jpg",
-        "/products/pvc-vloeren/lifestyle-2.jpg",
+        "/products/spc-vloeren/lifestyle-1.jpg",
+        "/products/spc-vloeren/lifestyle-2.jpg",
       ]}
       galleryOverride={[
-        "/products/pvc-vloeren/gallery-1.jpg",
-        "/products/pvc-vloeren/gallery-2.jpg",
+        "/products/spc-vloeren/gallery-1.jpg",
+        "/products/spc-vloeren/gallery-2.jpg",
       ]}
     />
   );

@@ -58,7 +58,7 @@ function dims(p) {
 const COLLECTIONS = new Set([
   "bathroom", "wall-panels", "backer-boards", "accessories", "doors", "door-accessories",
   "bloempotten", "verlichting", "schakelmateriaal", "acrylpanelen", "sfeerhaarden",
-  "pvc-vloeren",
+  "spc-vloeren",
 ]);
 // Meubels (Caracole/Cornelius) zijn van de site; "furniture" staat daarom niet
 // meer in de whitelist. De Brauer-meubelsets die het CRM nog als "furniture"
@@ -72,8 +72,11 @@ const isKkrBadkamer = (p) =>
 
 function collectionFor(name) {
   const n = name.toLowerCase();
-  // PVC/vinyl vloeren eerst — eigen collectie.
-  if (/pvc.?vloer|vinyl ?vloer|vinyl floor|pvc floor/.test(n)) return "pvc-vloeren";
+  // SPC-vloeren eerst — eigen collectie. De herkenning blijft óók op "pvc" en
+  // "vinyl" staan: zo heten ze nog in oudere brondata en in het CRM (er staat
+  // nog een "Vinyl floor UP36007-27"), en die horen in dezelfde collectie te
+  // belanden. Alleen de id en de naam zijn SPC geworden.
+  if (/spc.?vloer|spc floor|pvc.?vloer|vinyl ?vloer|vinyl floor|pvc floor/.test(n)) return "spc-vloeren";
   // Schakelmateriaal & verlichting eerst — "deurbel-schakelaar" bevat "deur" en zou anders bij doors belanden.
   if (/schakelaar|stopcontact|\bdimmer\b|hotelpaneel|ventilator/.test(n)) return "schakelmateriaal";
   if (/rail-?spot|railprofiel|rail-?connector|pendelstang|wandspot|grondspot|verlichting|lighting/.test(n)) return "verlichting";
@@ -339,7 +342,7 @@ export interface CatalogProduct {
   optionAxes?: OptionAxis[] | null;
   /** SKU's van alle uitvoeringen (merkproducten) — voor de "vanaf"-prijs. */
   variantSkus?: string[] | null;
-  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "pvc-vloeren";
+  collection: "bathroom" | "wall-panels" | "backer-boards" | "accessories" | "doors" | "door-accessories" | "bloempotten" | "verlichting" | "schakelmateriaal" | "acrylpanelen" | "sfeerhaarden" | "spc-vloeren";
   variants: ProductVariant[];
 }
 

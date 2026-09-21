@@ -246,8 +246,8 @@
     "chapterDescriptionAcrylicPanels": "半透明亚克力实体面材板——天然缟玛瑙的温暖背光替代之选。适用于特色墙、浴室、吧台与灯光装置，室内户外皆宜。",
     "collectionFireplaces": "壁炉",
     "chapterDescriptionFireplaces": "水雾壁炉，以水雾与 LED 呈现逼真的 3D 火焰——无烟、无热。128 种可调火焰颜色，支持 App 控制，配以利落的哑光黑饰面。提供 70 至 300 cm 规格，可选双面通透或嵌入式炉体。",
-    "collectionPVCFloors": "PVC 地板",
-    "chapterDescriptionPVCFloors": "逼真木纹的 PVC 地板——耐磨、防水、脚感安静。锁扣系统安装便捷，适用于住宅与商业空间。提供暖调与烟熏橡木色，有长条与人字拼两种铺法。",
+    "collectionSPCFloors": "SPC 地板",
+    "chapterDescriptionSPCFloors": "逼真木纹的 SPC 地板——耐磨、防水、脚感安静。锁扣系统安装便捷，适用于住宅与商业空间。提供暖调与烟熏橡木色，有长条与人字拼两种铺法。",
     "searchPlaceholder": "搜索产品…",
     "noResults": "没有符合搜索条件的产品。",
     "clearFilters": "清除筛选",
@@ -1184,8 +1184,8 @@
       },
       {
         "date": "2026年6月",
-        "title": "新系列：PVC 地板",
-        "text": "九款全新 PVC 地板，并设有专属类别页面——耐磨、防水，非常适合海岸气候。"
+        "title": "新系列：SPC 地板",
+        "text": "九款全新 SPC 地板，并设有专属类别页面——耐磨、防水，非常适合海岸气候。"
       },
       {
         "date": "2026年5月",

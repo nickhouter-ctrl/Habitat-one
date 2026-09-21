@@ -35,7 +35,7 @@ export async function generateMetadata({
  *  productfoto. */
 const COLLECTION_COVER: Record<string, string> = {
   "wall-panels": "/products/magic/ms-travertino-beige-interior.jpg",
-  "pvc-vloeren": "/products/pvc-vloeren/lifestyle-1.jpg",
+  "spc-vloeren": "/products/spc-vloeren/lifestyle-1.jpg",
   bathroom: BRAUER_COVER_BADKAMER,
   acrylpanelen: "/products/h/acryl/KKR-A027-badkamer.jpg",
   verlichting: "/products/h/GL-001-life.jpg",

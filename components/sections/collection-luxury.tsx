@@ -29,7 +29,7 @@ const collectionKey: Record<string, string> = {
   schakelmateriaal: "collectionSwitches",
   acrylpanelen: "collectionAcrylicPanels",
   sfeerhaarden: "collectionFireplaces",
-  "pvc-vloeren": "collectionPVCFloors",
+  "spc-vloeren": "collectionSPCFloors",
 };
 
 const identifierPrefix: Record<string, string> = {
@@ -44,7 +44,7 @@ const identifierPrefix: Record<string, string> = {
   schakelmateriaal: "Schakelmateriaal",
   acrylpanelen: "Solid Surface · Acrylpanelen",
   sfeerhaarden: "Ambience · Water Vapour",
-  "pvc-vloeren": "Flooring · PVC",
+  "spc-vloeren": "Flooring · SPC",
 };
 
 const descriptionKey: Record<string, string> = {
@@ -59,7 +59,7 @@ const descriptionKey: Record<string, string> = {
   schakelmateriaal: "chapterDescriptionSwitches",
   acrylpanelen: "chapterDescriptionAcrylicPanels",
   sfeerhaarden: "chapterDescriptionFireplaces",
-  "pvc-vloeren": "chapterDescriptionPVCFloors",
+  "spc-vloeren": "chapterDescriptionSPCFloors",
 };
 
 // Big, full-width render scenes that "fall down" the Flexible Stone gallery —

@@ -80,7 +80,7 @@ const collectionKey = {
   schakelmateriaal: "collectionSwitches",
   acrylpanelen: "collectionAcrylicPanels",
   sfeerhaarden: "collectionFireplaces",
-  "pvc-vloeren": "collectionPVCFloors",
+  "spc-vloeren": "collectionSPCFloors",
 } as const;
 
 const collectionIdentifierPrefix: Record<string, string> = {
@@ -95,7 +95,7 @@ const collectionIdentifierPrefix: Record<string, string> = {
   schakelmateriaal: "Schakelmateriaal",
   acrylpanelen: "Solid Surface · Acrylpanelen",
   sfeerhaarden: "Ambience · Water Vapour",
-  "pvc-vloeren": "Flooring · PVC",
+  "spc-vloeren": "Flooring · SPC",
 };
 
 

@@ -155,8 +155,8 @@
   },
   {
     "id": 50,
-    "name": "PVC Vloeren",
-    "slug": "pvc-vloeren",
+    "name": "SPC Vloeren",
+    "slug": "spc-vloeren",
     "parent_id": 11,
     "sort_order": 1,
     "is_active": true,

@@ -32,6 +32,33 @@ const nextConfig: NextConfig = {
   // crawlers en oude links — vang 'm af i.p.v. een 404 uit [slug].
   async redirects() {
     return [
+      // De vloerencollectie heet nu SPC in plaats van PVC — dat is de juiste
+      // naam voor het materiaal. De oude adressen zijn gedeeld en staan in
+      // Google, dus die verwijzen permanent door in plaats van een 404 te
+      // geven. Eén regel voor het pad zonder taal en één met, net als bij de
+      // andere verhuizingen hieronder.
+      {
+        source: "/products/pvc-vloeren",
+        destination: "/products/spc-vloeren",
+        permanent: true,
+      },
+      {
+        source: "/:locale(nl|es|de|fr|zh)/products/pvc-vloeren",
+        destination: "/:locale/products/spc-vloeren",
+        permanent: true,
+      },
+      // De negen productpagina's: alleen het voorvoegsel verandert, dus één
+      // regel met een wildcard in plaats van negen losse.
+      {
+        source: "/products/pvc-vloer-:rest",
+        destination: "/products/spc-vloer-:rest",
+        permanent: true,
+      },
+      {
+        source: "/:locale(nl|es|de|fr|zh)/products/pvc-vloer-:rest",
+        destination: "/:locale/products/spc-vloer-:rest",
+        permanent: true,
+      },
       {
         source: "/products/wall-panels",
         destination: "/products/flexible-stone",

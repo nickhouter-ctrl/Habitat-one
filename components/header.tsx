@@ -51,7 +51,7 @@ export function Header() {
   };
   const RANGE_GROUPS: { key: string; ids: string[] }[] = [
     { key: "groupSurfaces", ids: ["wall-panels", "acrylpanelen", "backer-boards"] },
-    { key: "groupFlooring", ids: ["pvc-vloeren"] },
+    { key: "groupFlooring", ids: ["spc-vloeren"] },
     { key: "groupBathroom", ids: ["bathroom", "accessories"] },
     { key: "groupHeatLight", ids: ["sfeerhaarden", "verlichting", "schakelmateriaal"] },
     { key: "groupGarden", ids: ["bloempotten"] },
