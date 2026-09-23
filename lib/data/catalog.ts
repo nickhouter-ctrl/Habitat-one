@@ -811,9 +811,10 @@ catalogProducts.push({
 // Every variant keeps its real SKU (e.g. TBO40-102GR) so the detail page can
 // derive the size from the prefix and the colour from the variant.
 // ---------------------------------------------------------------------------
-export const PLANTER_SIZES: Record<string, { label: string; dim: string }> = {
-  TBO40: { label: "40", dim: "380 × 400 mm" },
-  TBO48: { label: "48", dim: "460 × 470 mm" },
+// `hole` = binnenmaat van het plantgat (b × d × h), opgave leverancier sept 2026.
+export const PLANTER_SIZES: Record<string, { label: string; dim: string; hole?: string }> = {
+  TBO40: { label: "40", dim: "380 × 400 mm", hole: "250 × 250 × 390 mm" },
+  TBO48: { label: "48", dim: "460 × 470 mm", hole: "290 × 270 × 460 mm" },
   TEP30T: { label: "Tall", dim: "300 × 900 mm" },
   TEP38M: { label: "Mild", dim: "380 × 700 mm" },
   TEP46H: { label: "High", dim: "460 × 1000 mm" },

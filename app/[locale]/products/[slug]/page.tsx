@@ -218,6 +218,7 @@ export default async function ProductDetailPage({
               elements: t("elements"),
               sku: t("sku"),
               dimensions: t("dimensions"),
+              holeDimensions: t("holeDimensions"),
               drawing: t("drawing"),
               inStock: t("inStock"),
               materials: t("materials"),

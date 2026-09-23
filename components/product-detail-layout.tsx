@@ -40,6 +40,8 @@ export interface ProductDetailLayoutProps {
     elements: string;
     sku: string;
     dimensions: string;
+    /** Plantgat (binnenmaat) van een plantenbak. */
+    holeDimensions: string;
     drawing: string;
     inStock: string;
     materials: string;
@@ -218,6 +220,7 @@ export function ProductDetailLayout({
   const activeSize = sizeOf(activeVariant?.sku);
   const colorsInSize = (sz: string) => withImages.filter((v) => sizeOf(v.sku) === sz);
   const planterDim = isPot ? PLANTER_SIZES[activeSize]?.dim ?? null : null;
+  const planterHole = isPot ? PLANTER_SIZES[activeSize]?.hole ?? null : null;
   // Als de gekozen variant een maat is (bv. backer-boards: "2440 × 1220 mm"),
   // laat de afmeting-regel daarmee meebewegen.
   const dimLike = (s?: string | null) => !!s && /\d\s*[×xX]\s*\d/.test(s);
@@ -455,6 +458,11 @@ export function ProductDetailLayout({
                   + {product.additionalSizes.map(formatDimensions).join(" · ")}
                 </span>
               )}
+            </SpecRow>
+          )}
+          {planterHole && (
+            <SpecRow label={labels.holeDimensions}>
+              {formatDimensions(planterHole)}
             </SpecRow>
           )}
           {gekozenCombinatie?.drawing && (
