@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
 import { useTranslations } from "next-intl";
@@ -200,8 +200,18 @@ export function ProductDetailLayout({
 
   // Welke keuze staat als venster open? null = geen.
   const [openAs, setOpenAs] = useState<string | null>(null);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
   const [mediaIdx, setMediaIdx] = useState(0);
   const current = media[mediaIdx] ?? null;
+
+  useEffect(() => {
+    if (!lightboxOpen) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setLightboxOpen(false);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [lightboxOpen]);
 
   // The gallery frame matches the active media's own aspect ratio (default
   // to a portrait product shot until the real dimensions load in).
@@ -291,8 +301,17 @@ export function ProductDetailLayout({
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
-                className="absolute inset-0"
-              >
+              className="absolute inset-0"
+              onClick={() => current.type === "image" && setLightboxOpen(true)}
+              onKeyDown={(event) => {
+                if (current.type === "image" && (event.key === "Enter" || event.key === " ")) {
+                  event.preventDefault();
+                  setLightboxOpen(true);
+                }
+              }}
+              role={current.type === "image" ? "button" : undefined}
+              tabIndex={current.type === "image" ? 0 : undefined}
+            >
                 {current.type === "video" ? (
                   <video
                     key={current.src}
@@ -772,6 +791,28 @@ export function ProductDetailLayout({
                     />
                   ))}
               </div>
+            </div>
+          </div>
+        )}
+
+        {lightboxOpen && current?.type === "image" && (
+          <div
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-ink/90 p-4 backdrop-blur-md sm:p-8"
+            role="dialog"
+            aria-modal="true"
+            aria-label={name}
+            onClick={() => setLightboxOpen(false)}
+          >
+            <div className="relative h-full w-full max-w-6xl" onClick={(event) => event.stopPropagation()}>
+              <Image src={current.src} alt={`${name} — enlarged`} fill sizes="100vw" className="object-contain" />
+              <button
+                type="button"
+                onClick={() => setLightboxOpen(false)}
+                aria-label={tb("close")}
+                className="absolute right-0 top-0 grid size-11 place-items-center rounded-full border border-paper/30 bg-ink/40 text-paper transition-colors hover:bg-ink/70"
+              >
+                <X className="size-5" />
+              </button>
             </div>
           </div>
         )}
