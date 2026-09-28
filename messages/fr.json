@@ -2170,6 +2170,11 @@
     "standQrTitle": "Ou laissez le visiteur le faire",
     "standQrHelp": "Faites scanner ce code avec son propre téléphone : il remplit ses coordonnées lui-même.",
     "otherWhich": "C’est-à-dire ?",
-    "otherWhichPh": "p. ex. photographe, promoteur, presse"
+    "otherWhichPh": "p. ex. photographe, promoteur, presse",
+    "interestsLabel": "Que pouvons-nous vous envoyer ?",
+    "interest_stalen": "Échantillons",
+    "interest_prijzen": "Prix",
+    "interest_content": "Images et documentation",
+    "interest_showroom": "Visiter le showroom à Jávea"
   }
 }

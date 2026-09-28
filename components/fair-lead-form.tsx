@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowUpRight, Check } from "lucide-react";
 
-import { FERIA_ROLES } from "@/lib/data/feria";
+import { FERIA_INTERESTS, FERIA_ROLES } from "@/lib/data/feria";
 
 /**
  * "Laat je gegevens achter" op de beursstand.
@@ -38,6 +38,7 @@ type Invoer = {
   bedrijf: string;
   rol: string;
   rolAnders: string;
+  interesses: string[];
   wens: string;
   taal: string;
   website: string; // honeypot
@@ -163,6 +164,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
       bedrijf: String(f.get("bedrijf") ?? "").trim(),
       rol: String(f.get("rol") ?? "particulier"),
       rolAnders: String(f.get("rolAnders") ?? "").trim(),
+      interesses: f.getAll("interesses").map(String),
       wens: String(f.get("wens") ?? "").trim(),
       taal: stand ? String(f.get("taal") ?? "es") : mailTaal(locale),
       website: String(f.get("website") ?? ""),
@@ -310,6 +312,23 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
           </select>
         </div>
       )}
+      {/* Bijna iedereen wil hetzelfde: stalen, prijzen, beeld. Aanvinken scheelt
+          typen én maakt het na de beurs filterbaar. */}
+      <fieldset className="sm:col-span-2">
+        <legend className={lbl}>{t("interestsLabel")}</legend>
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+          {FERIA_INTERESTS.map((k) => (
+            <label
+              key={k}
+              className="flex min-h-[3.25rem] cursor-pointer items-center gap-3 rounded-sm border border-ink/15 bg-paper px-4 py-3 text-[1rem] text-ink has-[:checked]:border-ink has-[:checked]:bg-ink/[0.04]"
+            >
+              <input type="checkbox" name="interesses" value={k} className="h-5 w-5 accent-[#1b1b1b]" />
+              {t(`interest_${k}`)}
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
       <div className="sm:col-span-2">
         <label className={lbl} htmlFor="fl-wens">{t("wish")}</label>
         <textarea id="fl-wens" name="wens" rows={3} placeholder={t("wishPh")} className={field} />

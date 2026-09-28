@@ -53,12 +53,12 @@ export default async function BeursPage({
   const t = await getTranslations("fairLead");
   const stand = (await searchParams).stand === "1";
   const standLabel = feriaStandLabel(t("standWord"), t("hallWord"));
+  const qr = await QRCode.toString(bezoekerUrl(locale), { type: "svg", margin: 1, width: 260 });
 
   // ---- Op de stand: het formulier zelf invullen, met de QR-code ernaast ----
   //      Twee kolommen zodra het scherm het toelaat (iPad liggend, laptop),
   //      eronder elkaar op een iPad die rechtop staat.
   if (stand) {
-    const qr = await QRCode.toString(bezoekerUrl(locale), { type: "svg", margin: 1, width: 260 });
     return (
       <>
         <StandMode />
@@ -132,11 +132,30 @@ export default async function BeursPage({
 
       <Section className="bg-sand-50 py-10 md:py-16">
         <Container>
-          <div className="mx-auto max-w-2xl rounded-sm border border-ink/10 bg-paper p-6 md:p-8">
-            <FairLeadForm />
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-7 lg:grid-cols-[minmax(0,1fr)_18rem] lg:gap-10">
+            <div className="rounded-sm border border-ink/10 bg-paper p-6 md:p-8">
+              <FairLeadForm />
+            </div>
+
+            {/* Op een telefoon heeft de bezoeker de code net gescand; op de iPad
+                op de balie is dit juist de manier om hem door te geven. */}
+            <aside className="hidden rounded-sm border border-ink/10 bg-paper p-6 lg:block lg:self-start">
+              <h2 className="text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-ink-soft">
+                {t("standQrTitle")}
+              </h2>
+              <div
+                className="mx-auto mt-5 w-full max-w-[14rem] [&_svg]:h-auto [&_svg]:w-full"
+                // Vaste, zelf gemaakte SVG uit de qrcode-bibliotheek.
+                dangerouslySetInnerHTML={{ __html: qr }}
+              />
+              <p className="mt-4 text-center text-sm font-medium text-ink">
+                {bezoekerUrl(locale).replace("https://www.", "")}
+              </p>
+              <p className="mt-3 text-sm leading-relaxed text-ink-soft">{t("standQrHelp")}</p>
+            </aside>
           </div>
 
-          <ul className="mx-auto mt-8 flex max-w-2xl flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-ink-soft">
+          <ul className="mx-auto mt-8 flex max-w-5xl flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-ink-soft">
             <li className="flex items-center gap-2">
               <MapPin className="h-4 w-4 shrink-0 text-terracotta-700" />
               {FERIA.venue} · {standLabel}

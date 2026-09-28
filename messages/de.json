@@ -2170,6 +2170,11 @@
     "standQrTitle": "Oder der Besucher macht es selbst",
     "standQrHelp": "Diesen Code mit dem eigenen Telefon scannen lassen — dann trägt er seine Daten selbst ein.",
     "otherWhich": "Und zwar?",
-    "otherWhichPh": "z. B. Fotograf, Projektentwickler, Presse"
+    "otherWhichPh": "z. B. Fotograf, Projektentwickler, Presse",
+    "interestsLabel": "Was dürfen wir Ihnen schicken?",
+    "interest_stalen": "Muster",
+    "interest_prijzen": "Preise",
+    "interest_content": "Bilder und Unterlagen",
+    "interest_showroom": "Showroom in Jávea besuchen"
   }
 }

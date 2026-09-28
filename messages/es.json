@@ -2170,6 +2170,11 @@
     "standQrTitle": "O que lo haga el visitante",
     "standQrHelp": "Que escanee este código con su móvil y rellene sus datos él mismo.",
     "otherWhich": "¿Qué exactamente?",
-    "otherWhichPh": "p. ej. fotógrafo, promotor, prensa"
+    "otherWhichPh": "p. ej. fotógrafo, promotor, prensa",
+    "interestsLabel": "¿Qué te enviamos?",
+    "interest_stalen": "Muestras",
+    "interest_prijzen": "Precios",
+    "interest_content": "Imágenes y documentación",
+    "interest_showroom": "Visitar el showroom en Jávea"
   }
 }

@@ -2170,6 +2170,11 @@
     "standQrTitle": "也可以请访客自己填写",
     "standQrHelp": "请对方用自己的手机扫描此码，自行填写信息。",
     "otherWhich": "具体是？",
-    "otherWhichPh": "例如：摄影师、开发商、媒体"
+    "otherWhichPh": "例如：摄影师、开发商、媒体",
+    "interestsLabel": "需要我们提供什么？",
+    "interest_stalen": "样品",
+    "interest_prijzen": "价格",
+    "interest_content": "图片与资料",
+    "interest_showroom": "参观 Jávea 展厅"
   }
 }

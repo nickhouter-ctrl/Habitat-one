@@ -2170,6 +2170,11 @@
     "standQrTitle": "Of laat de bezoeker het zelf doen",
     "standQrHelp": "Laat deze code scannen met zijn eigen telefoon — dan vult hij zijn gegevens zelf in.",
     "otherWhich": "Wat dan wel?",
-    "otherWhichPh": "bijv. fotograaf, projectontwikkelaar, pers"
+    "otherWhichPh": "bijv. fotograaf, projectontwikkelaar, pers",
+    "interestsLabel": "Waar mogen we mee komen?",
+    "interest_stalen": "Stalen / monsters",
+    "interest_prijzen": "Prijzen",
+    "interest_content": "Beeld en documentatie",
+    "interest_showroom": "Bezoek showroom Jávea"
   }
 }

@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 import { CRM_API } from "@/lib/account/server";
-import { FERIA_ROLES } from "@/lib/data/feria";
+import { FERIA_INTERESTS, FERIA_ROLES } from "@/lib/data/feria";
 
 /**
  * Gegevens van een beursbezoeker doorgeven aan het CRM.
@@ -37,6 +37,11 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: "invalid_input" }, { status: 400 });
   }
 
+  // Alleen vinkjes die we kennen doorgeven.
+  const interesses = Array.isArray(body?.interesses)
+    ? (FERIA_INTERESTS as readonly string[]).filter((k) => body.interesses.includes(k))
+    : [];
+
   const res = await fetch(`${CRM_API}/api/beurs`, {
     method: "POST",
     headers: { "content-type": "application/json" },
@@ -46,6 +51,8 @@ export async function POST(req: Request) {
       telefoon: tekst(body?.telefoon, MAX.telefoon) || undefined,
       bedrijf: tekst(body?.bedrijf, MAX.bedrijf) || undefined,
       rol,
+      rolAnders: tekst(body?.rolAnders, 120) || undefined,
+      interesses,
       taal,
       wens: tekst(body?.wens, MAX.wens) || undefined,
       // Honeypot; een bot vult dit in, een mens ziet het veld niet.
