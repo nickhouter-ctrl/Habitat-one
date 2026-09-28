@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { MapPin, Mail, Phone } from "lucide-react";
+import QRCode from "qrcode";
 
 import { Link } from "@/i18n/navigation";
 import { Container, Section } from "@/components/ui/section";
@@ -9,6 +10,14 @@ import { FairLeadForm } from "@/components/fair-lead-form";
 import { StandMode } from "@/components/stand-mode";
 import { FERIA, feriaStandLabel } from "@/lib/data/feria";
 import { site } from "@/lib/data/site";
+import { routing } from "@/i18n/routing";
+
+const BASE = "https://www.habitat-one.com";
+
+/** Dezelfde pagina zonder ?stand=1 — waar de QR-code naartoe wijst. */
+function bezoekerUrl(locale: string): string {
+  return locale === routing.defaultLocale ? `${BASE}/beurs` : `${BASE}/${locale}/beurs`;
+}
 
 /**
  * Waar de QR-code op de stand naartoe wijst: de bezoeker laat zijn gegevens
@@ -45,14 +54,16 @@ export default async function BeursPage({
   const stand = (await searchParams).stand === "1";
   const standLabel = feriaStandLabel(t("standWord"), t("hallWord"));
 
-  // ---- Op de stand: alleen het formulier, groot genoeg voor een iPad die
-  //      rechtop op de balie staat. ----
+  // ---- Op de stand: het formulier zelf invullen, met de QR-code ernaast ----
+  //      Twee kolommen zodra het scherm het toelaat (iPad liggend, laptop),
+  //      eronder elkaar op een iPad die rechtop staat.
   if (stand) {
+    const qr = await QRCode.toString(bezoekerUrl(locale), { type: "svg", margin: 1, width: 260 });
     return (
       <>
         <StandMode />
         <div className="min-h-dvh bg-sand-50">
-          <div className="mx-auto max-w-3xl px-5 py-8 md:px-8 md:py-10">
+          <div className="mx-auto max-w-6xl px-5 py-8 md:px-8 md:py-10">
             <div className="flex items-center justify-between gap-4 border-b border-ink/10 pb-5">
               <Image
                 src={FERIA.logos.fairBlack}
@@ -64,10 +75,30 @@ export default async function BeursPage({
               />
               <span className="text-[0.7rem] font-medium uppercase tracking-[0.24em] text-ink-soft">{standLabel}</span>
             </div>
-            <h1 className="mt-7 font-display text-3xl leading-tight text-ink md:text-4xl">{t("standTitle")}</h1>
-            <p className="mt-2 text-ink-soft">{t("standLead")}</p>
-            <div className="mt-7 rounded-sm border border-ink/10 bg-paper p-6 md:p-8">
-              <FairLeadForm stand />
+
+            <div className="mt-7 grid grid-cols-1 gap-7 lg:grid-cols-[minmax(0,1fr)_19rem] lg:gap-10">
+              <div>
+                <h1 className="font-display text-3xl leading-tight text-ink md:text-4xl">{t("standTitle")}</h1>
+                <p className="mt-2 text-ink-soft">{t("standLead")}</p>
+                <div className="mt-6 rounded-sm border border-ink/10 bg-paper p-6 md:p-8">
+                  <FairLeadForm stand />
+                </div>
+              </div>
+
+              <aside className="rounded-sm border border-ink/10 bg-paper p-6 lg:self-start">
+                <h2 className="text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-ink-soft">
+                  {t("standQrTitle")}
+                </h2>
+                <div
+                  className="mx-auto mt-5 w-full max-w-[15rem] [&_svg]:h-auto [&_svg]:w-full"
+                  // Vaste, zelf gemaakte SVG uit de qrcode-bibliotheek.
+                  dangerouslySetInnerHTML={{ __html: qr }}
+                />
+                <p className="mt-4 text-center text-sm font-medium text-ink">
+                  {bezoekerUrl(locale).replace("https://www.", "")}
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-ink-soft">{t("standQrHelp")}</p>
+              </aside>
             </div>
           </div>
         </div>

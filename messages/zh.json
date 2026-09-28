@@ -2161,6 +2161,15 @@
     "privacy": "我们仅使用您的信息在展会后就 Habitat One 与您联系，绝不提供给第三方；一封邮件即可退订。",
     "fairInfo": "全部展会信息",
     "standTitle": "登记访客",
-    "standLead": "姓名和邮箱即可，其余信息有助于后续跟进。"
+    "standLead": "姓名和邮箱即可，其余信息有助于后续跟进。",
+    "standToday": "本设备今日登记",
+    "standQueued": "{n} 条待联网发送——已安全保存",
+    "standNext": "下一位访客",
+    "standMailLanguage": "确认邮件的语言",
+    "standSave": "保存并发送确认",
+    "standQrTitle": "也可以请访客自己填写",
+    "standQrHelp": "请对方用自己的手机扫描此码，自行填写信息。",
+    "otherWhich": "具体是？",
+    "otherWhichPh": "例如：摄影师、开发商、媒体"
   }
 }

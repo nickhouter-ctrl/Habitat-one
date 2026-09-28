@@ -2161,6 +2161,15 @@
     "privacy": "Solo usamos tus datos para contactarte sobre Habitat One después de la feria. Nunca se comparten con terceros; para darte de baja basta un correo.",
     "fairInfo": "Toda la información de la feria",
     "standTitle": "Registrar visitante",
-    "standLead": "Con el nombre y el correo basta; el resto ayuda en el seguimiento."
+    "standLead": "Con el nombre y el correo basta; el resto ayuda en el seguimiento.",
+    "standToday": "Hoy en este dispositivo",
+    "standQueued": "{n} pendiente(s) de conexión — se guardan",
+    "standNext": "Siguiente visitante",
+    "standMailLanguage": "Idioma del correo de confirmación",
+    "standSave": "Guardar y enviar confirmación",
+    "standQrTitle": "O que lo haga el visitante",
+    "standQrHelp": "Que escanee este código con su móvil y rellene sus datos él mismo.",
+    "otherWhich": "¿Qué exactamente?",
+    "otherWhichPh": "p. ej. fotógrafo, promotor, prensa"
   }
 }

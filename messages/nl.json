@@ -2161,6 +2161,15 @@
     "privacy": "We gebruiken je gegevens alleen om na de beurs contact met je op te nemen over Habitat One. Nooit doorgegeven aan anderen; afmelden kan altijd met één mail.",
     "fairInfo": "Alle beursinformatie",
     "standTitle": "Bezoeker vastleggen",
-    "standLead": "Naam en e-mail zijn genoeg; de rest helpt bij het opvolgen."
+    "standLead": "Naam en e-mail zijn genoeg; de rest helpt bij het opvolgen.",
+    "standToday": "Vandaag op dit apparaat",
+    "standQueued": "{n} wacht op verbinding — blijft bewaard",
+    "standNext": "Volgende bezoeker",
+    "standMailLanguage": "Taal van de bevestigingsmail",
+    "standSave": "Opslaan en bevestiging sturen",
+    "standQrTitle": "Of laat de bezoeker het zelf doen",
+    "standQrHelp": "Laat deze code scannen met zijn eigen telefoon — dan vult hij zijn gegevens zelf in.",
+    "otherWhich": "Wat dan wel?",
+    "otherWhichPh": "bijv. fotograaf, projectontwikkelaar, pers"
   }
 }

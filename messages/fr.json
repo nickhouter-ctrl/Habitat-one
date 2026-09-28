@@ -2161,6 +2161,15 @@
     "privacy": "Nous utilisons vos données uniquement pour vous recontacter au sujet de Habitat One après le salon. Jamais transmises à des tiers ; un simple e-mail suffit pour vous désinscrire.",
     "fairInfo": "Toutes les informations du salon",
     "standTitle": "Enregistrer un visiteur",
-    "standLead": "Le nom et l’e-mail suffisent ; le reste facilite le suivi."
+    "standLead": "Le nom et l’e-mail suffisent ; le reste facilite le suivi.",
+    "standToday": "Aujourd’hui sur cet appareil",
+    "standQueued": "{n} en attente de connexion — conservé",
+    "standNext": "Visiteur suivant",
+    "standMailLanguage": "Langue de l’e-mail de confirmation",
+    "standSave": "Enregistrer et envoyer la confirmation",
+    "standQrTitle": "Ou laissez le visiteur le faire",
+    "standQrHelp": "Faites scanner ce code avec son propre téléphone : il remplit ses coordonnées lui-même.",
+    "otherWhich": "C’est-à-dire ?",
+    "otherWhichPh": "p. ex. photographe, promoteur, presse"
   }
 }

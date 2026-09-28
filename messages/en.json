@@ -2161,6 +2161,15 @@
     "privacy": "We only use your details to contact you about Habitat One after the fair. Never shared with anyone else; one email is enough to opt out.",
     "fairInfo": "All fair information",
     "standTitle": "Add a visitor",
-    "standLead": "Name and email are enough; the rest helps with the follow-up."
+    "standLead": "Name and email are enough; the rest helps with the follow-up.",
+    "standToday": "Today on this device",
+    "standQueued": "{n} waiting for a connection — safely stored",
+    "standNext": "Next visitor",
+    "standMailLanguage": "Language of the confirmation email",
+    "standSave": "Save and send confirmation",
+    "standQrTitle": "Or let the visitor do it",
+    "standQrHelp": "Have them scan this code with their own phone to fill in their details themselves.",
+    "otherWhich": "What exactly?",
+    "otherWhichPh": "e.g. photographer, developer, press"
   }
 }

@@ -37,6 +37,7 @@ type Invoer = {
   telefoon: string;
   bedrijf: string;
   rol: string;
+  rolAnders: string;
   wens: string;
   taal: string;
   website: string; // honeypot
@@ -108,6 +109,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
   const [staat, setStaat] = useState<"idle" | "bezig" | "klaar" | "wacht" | "fout">("idle");
   const [wachtrij, setWachtrij] = useState<Invoer[]>([]);
   const [vandaag, setVandaag] = useState(0);
+  const [rol, setRol] = useState("particulier");
   const formRef = useRef<HTMLFormElement>(null);
   const naamRef = useRef<HTMLInputElement>(null);
 
@@ -143,6 +145,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
   /** Leeg formulier, cursor terug in het naamveld — klaar voor de volgende. */
   const volgende = useCallback(() => {
     formRef.current?.reset();
+    setRol("particulier");
     setStaat("idle");
     // Na de reset staat het veld er weer; daarna pas focussen.
     setTimeout(() => naamRef.current?.focus(), 0);
@@ -159,6 +162,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
       telefoon: String(f.get("telefoon") ?? "").trim(),
       bedrijf: String(f.get("bedrijf") ?? "").trim(),
       rol: String(f.get("rol") ?? "particulier"),
+      rolAnders: String(f.get("rolAnders") ?? "").trim(),
       wens: String(f.get("wens") ?? "").trim(),
       taal: stand ? String(f.get("taal") ?? "es") : mailTaal(locale),
       website: String(f.get("website") ?? ""),
@@ -212,10 +216,10 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
         {stand && (
           <div className="mt-8">
             <button type="button" onClick={volgende} className="btn btn-primary min-h-[3.25rem] px-8 text-base">
-              Volgende bezoeker
+              {t("standNext")}
               <ArrowUpRight className="h-4 w-4" />
             </button>
-            <p className="mt-4 text-sm text-ink-soft">Vandaag op deze iPad: {vandaag}</p>
+            <p className="mt-4 text-sm text-ink-soft">{t("standToday")}: {vandaag}</p>
           </div>
         )}
       </div>
@@ -224,15 +228,15 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
 
   return (
     <form ref={formRef} onSubmit={opsturen} className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-      {/* Alleen op de stand: wat er nog niet weg is, en hoeveel er al in zitten.
-          Teksten bewust in het Nederlands — dit deel is voor ons, niet voor de
-          bezoeker. */}
+      {/* Alleen op de stand: hoeveel er al in zitten, en wat er nog niet weg is. */}
       {stand && (
         <div className="sm:col-span-2 flex flex-wrap items-center justify-between gap-3 text-sm">
-          <span className="text-ink-soft">Vandaag op deze iPad: <strong className="text-ink">{vandaag}</strong></span>
+          <span className="text-ink-soft">
+            {t("standToday")}: <strong className="text-ink">{vandaag}</strong>
+          </span>
           {wachtrij.length > 0 && (
             <span className="rounded-sm bg-terracotta-700/10 px-3 py-1.5 text-terracotta-700">
-              {wachtrij.length} wacht{wachtrij.length === 1 ? "" : "en"} op verbinding — blijft bewaard
+              {t("standQueued", { n: wachtrij.length })}
             </span>
           )}
         </div>
@@ -274,7 +278,13 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
       </div>
       <div className={stand ? undefined : "sm:col-span-2"}>
         <label className={lbl} htmlFor="fl-rol">{t("role")}</label>
-        <select id="fl-rol" name="rol" defaultValue="particulier" className={field}>
+        <select
+          id="fl-rol"
+          name="rol"
+          value={rol}
+          onChange={(e) => setRol(e.target.value)}
+          className={field}
+        >
           {FERIA_ROLES.map((r) => (
             <option key={r} value={r}>
               {t(`role_${r}`)}
@@ -282,9 +292,17 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
           ))}
         </select>
       </div>
+      {/* "Anders" zonder toelichting zegt bij het opvolgen niets — vandaar dit
+          veld, dat alleen verschijnt als het nodig is. */}
+      {rol === "anders" && (
+        <div className={stand ? undefined : "sm:col-span-2"}>
+          <label className={lbl} htmlFor="fl-rol-anders">{t("otherWhich")}</label>
+          <input id="fl-rol-anders" name="rolAnders" autoComplete="off" placeholder={t("otherWhichPh")} className={field} />
+        </div>
+      )}
       {stand && (
         <div>
-          <label className={lbl} htmlFor="fl-taal">Taal van de bevestigingsmail</label>
+          <label className={lbl} htmlFor="fl-taal">{t("standMailLanguage")}</label>
           <select id="fl-taal" name="taal" defaultValue="es" className={field}>
             <option value="es">Español</option>
             <option value="en">English</option>
@@ -309,7 +327,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
           disabled={staat === "bezig"}
           className={`btn btn-primary min-h-[3.25rem] text-base ${stand ? "w-full justify-center" : ""}`}
         >
-          {staat === "bezig" ? t("sending") : stand ? "Opslaan en bevestiging sturen" : t("send")}
+          {staat === "bezig" ? t("sending") : stand ? t("standSave") : t("send")}
           <ArrowUpRight className="h-4 w-4" />
         </button>
         {staat === "fout" && <p className="text-sm text-terracotta-700">{t("error")}</p>}

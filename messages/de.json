@@ -2161,6 +2161,15 @@
     "privacy": "Wir verwenden Ihre Daten nur, um Sie nach der Messe zu Habitat One zu kontaktieren. Keine Weitergabe an Dritte; eine E-Mail genügt zur Abmeldung.",
     "fairInfo": "Alle Messeinformationen",
     "standTitle": "Besucher erfassen",
-    "standLead": "Name und E-Mail genügen; der Rest hilft bei der Nachverfolgung."
+    "standLead": "Name und E-Mail genügen; der Rest hilft bei der Nachverfolgung.",
+    "standToday": "Heute auf diesem Gerät",
+    "standQueued": "{n} wartet auf Verbindung — bleibt gespeichert",
+    "standNext": "Nächster Besucher",
+    "standMailLanguage": "Sprache der Bestätigungsmail",
+    "standSave": "Speichern und Bestätigung senden",
+    "standQrTitle": "Oder der Besucher macht es selbst",
+    "standQrHelp": "Diesen Code mit dem eigenen Telefon scannen lassen — dann trägt er seine Daten selbst ein.",
+    "otherWhich": "Und zwar?",
+    "otherWhichPh": "z. B. Fotograf, Projektentwickler, Presse"
   }
 }
