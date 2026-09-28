@@ -515,3 +515,12 @@
   .story-section > .absolute { position: relative; padding: 5rem 0; gap: 2rem; }
   .story-section > .absolute > div { height: auto !important; }
 }
+
+/* Beursstand-modus (/beurs?stand=1): de iPad op de balie toont alleen het
+   formulier. Geen menu en geen voettekst om per ongeluk op te tikken terwijl er
+   iemand voor je staat; de gewone pagina — die de bezoeker via de QR-code ziet
+   — blijft ongemoeid. */
+html.stand-mode header,
+html.stand-mode footer {
+  display: none;
+}

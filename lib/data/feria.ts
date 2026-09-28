@@ -58,3 +58,12 @@ export const FERIA = {
 export function feriaStandLabel(standWord: string, hallWord: string): string {
   return FERIA.hall ? `${hallWord} ${FERIA.hall} · ${standWord} ${FERIA.stand}` : `${standWord} ${FERIA.stand}`;
 }
+
+/**
+ * Soorten bezoekers op de stand. De sleutels zijn exact die van het CRM
+ * (`lib/beurs.ts` daar): ze komen als tag `rol:<sleutel>` op het contact te
+ * staan en bepalen welke opvolging iemand na de beurs krijgt. Labels staan per
+ * taal in messages/*.json onder `fairLead`.
+ */
+export const FERIA_ROLES = ["architect", "ontwerper", "aannemer", "wederverkoper", "particulier", "anders"] as const;
+export type FeriaRole = (typeof FERIA_ROLES)[number];
