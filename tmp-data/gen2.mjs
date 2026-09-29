@@ -368,6 +368,10 @@ export interface ProductCombination {
   /** De tekening als afbeelding, voor in de galerij. */
   drawingImage?: string | null;
   dim?: string | null;
+  /** Leverbaarheid van deze uitvoering: "stock" = uit voorraad, "order_only" = op bestelling. */
+  availability?: "stock" | "order_only" | null;
+  /** Vanaf welke datum (ISO) de uitvoering uit voorraad leverbaar is, bv. "2027-02-01". */
+  availableFrom?: string | null;
 }
 export const productCombinations: Record<number, ProductCombination[]> = ${JSON.stringify(
     Object.fromEntries(productOptions.map((o) => [o.product_id, o.combinations ?? []])),

@@ -817,6 +817,8 @@
     "galleryPrev": "上一张图片",
     "galleryNext": "下一张图片",
     "inStock": "现货 · 快速交付",
+    "availableFrom": "{date} 起有库存",
+    "onOrder": "订购生产",
     "showMore": "显示更多",
     "catalogIntro": "寻找适合您项目的材料和产品。"
   },

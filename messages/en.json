@@ -817,6 +817,8 @@
     "galleryPrev": "Previous image",
     "galleryNext": "Next image",
     "inStock": "In stock · fast delivery",
+    "availableFrom": "In stock from {date}",
+    "onOrder": "Made to order",
     "showMore": "Show more",
     "catalogIntro": "Find materials and products for your project."
   },

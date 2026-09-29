@@ -817,6 +817,8 @@
     "galleryPrev": "Vorheriges Bild",
     "galleryNext": "Nächstes Bild",
     "inStock": "Ab Lager lieferbar · schnelle Lieferung",
+    "availableFrom": "Ab {date} ab Lager lieferbar",
+    "onOrder": "Auf Bestellung",
     "showMore": "Mehr anzeigen",
     "catalogIntro": "Finde Materialien und Produkte für dein Projekt."
   },

@@ -31,7 +31,7 @@ export interface ProductDetailLayoutProps {
   /** lowercased variant name → one or more video srcs */
   variantVideos?: Record<string, string | string[]>;
   /** Keuzes van een merkproduct: welke combinatie hoort bij welke artikelcode. */
-  combinations?: Array<{ sku: string; options: Record<string, string>; image?: string | null; images?: string[] | null; drawing?: string | null; drawingImage?: string | null; dim?: string | null }>;
+  combinations?: Array<{ sku: string; options: Record<string, string>; image?: string | null; images?: string[] | null; drawing?: string | null; drawingImage?: string | null; dim?: string | null; availability?: "stock" | "order_only" | null; availableFrom?: string | null }>;
   labels: {
     aboutThisProduct: string;
     specifications: string;
@@ -44,6 +44,9 @@ export interface ProductDetailLayoutProps {
     holeDimensions: string;
     drawing: string;
     inStock: string;
+    /** Met "{date}" als plek voor de datum, bv. "Uit voorraad leverbaar per {date}". */
+    availableFrom: string;
+    onOrder: string;
     materials: string;
     space: string;
     enquire: string;
@@ -447,12 +450,24 @@ export function ProductDetailLayout({
           {/* Kandidaten in volgorde: gekozen combinatie, variant, product — de eerste met een prijs wint.
               Sommige varianten dragen alleen een kleurcode ("WHI") en hebben geen eigen prijs. */}
           <PriceTag sku={gekozenCombinatie?.sku || activeVariant?.sku || product.sku} fallbacks={[activeVariant?.sku, product.sku]} name={name} className="text-2xl" />
-          {inStock && (
-            <p className="mt-2 inline-flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.18em] text-ink">
-              <span className="inline-block size-1.5 rounded-full bg-emerald-600" aria-hidden />
-              {labels.inStock}
-            </p>
-          )}
+          {/* Leverbaarheid van de gekozen uitvoering (merkproducten dragen die per
+              artikelcode, incl. een datum als iets pas later uit voorraad komt);
+              anders de voorraadvlag van het product. */}
+          {(() => {
+            const c = gekozenCombinatie;
+            const vanaf = c?.availableFrom
+              ? labels.availableFrom.replace("{date}", new Intl.DateTimeFormat(locale, { day: "numeric", month: "long", year: "numeric" }).format(new Date(`${c.availableFrom}T12:00:00`)))
+              : null;
+            const tekst = vanaf ?? (c ? (c.availability === "stock" ? labels.inStock : c.availability === "order_only" ? labels.onOrder : null) : inStock ? labels.inStock : null);
+            if (!tekst) return null;
+            const kleur = vanaf ? "bg-amber-500" : c?.availability === "order_only" ? "bg-ink/30" : "bg-emerald-600";
+            return (
+              <p className="mt-2 inline-flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.18em] text-ink">
+                <span className={`inline-block size-1.5 rounded-full ${kleur}`} aria-hidden />
+                {tekst}
+              </p>
+            );
+          })()}
         </div>
 
         {lead && !repeatsDimensions(lead, activeDim) && (

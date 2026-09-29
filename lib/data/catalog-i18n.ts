@@ -243,6 +243,10 @@ export function productName(naam: string, locale: string): string {
  */
 type Zin = Partial<Record<Loc, string>>;
 const WOORDEN: Array<[string, Zin]> = [
+  ["waterval- en regendouche", { en: "waterfall and rain shower", de: "Wasserfall- und Regendusche", es: "ducha cascada y lluvia", fr: "douche cascade et pluie", zh: "瀑布雨淋花洒" }],
+  ["waterval", { en: "waterfall", de: "Wasserfall", es: "cascada", fr: "cascade", zh: "瀑布" }],
+  ["opbouwverlichting", { en: "surface-mounted mirror light", de: "Aufbau-Spiegelleuchte", es: "luminaria de superficie para espejo", fr: "luminaire en applique pour miroir", zh: "镜前明装灯" }],
+  ["inbouwdeel", { en: "concealed part", de: "Unterputzteil", es: "cuerpo empotrado", fr: "corps encastré", zh: "暗装部件" }],
   ["thermostatische inbouw regendouche", { en: "thermostatic concealed rain shower", de: "Thermostat-Unterputz-Regendusche", es: "ducha de lluvia empotrada termostática", fr: "douche de pluie encastrée thermostatique", zh: "恒温暗装雨淋花洒" }],
   ["thermostatische opbouw regendouche", { en: "thermostatic exposed rain shower", de: "Thermostat-Aufputz-Regendusche", es: "ducha de lluvia vista termostática", fr: "douche de pluie apparente thermostatique", zh: "恒温明装雨淋花洒" }],
   ["opbouw thermostatische regendouche", { en: "exposed thermostatic rain shower", de: "Aufputz-Thermostat-Regendusche", es: "ducha de lluvia vista termostática", fr: "douche de pluie apparente thermostatique", zh: "明装恒温雨淋花洒" }],

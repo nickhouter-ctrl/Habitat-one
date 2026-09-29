@@ -221,6 +221,8 @@ export default async function ProductDetailPage({
               holeDimensions: t("holeDimensions"),
               drawing: t("drawing"),
               inStock: t("inStock"),
+              availableFrom: t("availableFrom", { date: "{date}" }),
+              onOrder: t("onOrder"),
               materials: t("materials"),
               space: t("space"),
               enquire: t("enquire"),

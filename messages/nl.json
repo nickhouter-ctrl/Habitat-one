@@ -817,6 +817,8 @@
     "galleryPrev": "Vorige afbeelding",
     "galleryNext": "Volgende afbeelding",
     "inStock": "Uit voorraad leverbaar · snelle levering",
+    "availableFrom": "Uit voorraad leverbaar per {date}",
+    "onOrder": "Op bestelling",
     "showMore": "Meer tonen",
     "catalogIntro": "Vind materialen en producten voor jouw project."
   },
