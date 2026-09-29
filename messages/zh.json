@@ -2175,6 +2175,8 @@
     "interest_stalen": "样品",
     "interest_prijzen": "价格",
     "interest_content": "图片与资料",
-    "interest_showroom": "参观 Jávea 展厅"
+    "interest_showroom": "参观 Jávea 展厅",
+    "place": "城市与国家",
+    "placePh": "例如：Valencia, España"
   }
 }

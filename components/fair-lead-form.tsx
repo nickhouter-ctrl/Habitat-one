@@ -36,6 +36,7 @@ type Invoer = {
   email: string;
   telefoon: string;
   bedrijf: string;
+  plaats: string;
   rol: string;
   rolAnders: string;
   interesses: string[];
@@ -162,6 +163,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
       email: String(f.get("email") ?? "").trim(),
       telefoon: String(f.get("telefoon") ?? "").trim(),
       bedrijf: String(f.get("bedrijf") ?? "").trim(),
+      plaats: String(f.get("plaats") ?? "").trim(),
       rol: String(f.get("rol") ?? "particulier"),
       rolAnders: String(f.get("rolAnders") ?? "").trim(),
       interesses: f.getAll("interesses").map(String),
@@ -277,6 +279,17 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
       <div>
         <label className={lbl} htmlFor="fl-bedrijf">{t("company")}</label>
         <input id="fl-bedrijf" name="bedrijf" autoComplete={stand ? "off" : "organization"} className={field} />
+      </div>
+      {/* Stad en land is genoeg: daarmee staat iedereen na de beurs op de kaart. */}
+      <div className="sm:col-span-2">
+        <label className={lbl} htmlFor="fl-plaats">{t("place")}</label>
+        <input
+          id="fl-plaats"
+          name="plaats"
+          autoComplete={stand ? "off" : "address-level2"}
+          placeholder={t("placePh")}
+          className={field}
+        />
       </div>
       <div className={stand ? undefined : "sm:col-span-2"}>
         <label className={lbl} htmlFor="fl-rol">{t("role")}</label>

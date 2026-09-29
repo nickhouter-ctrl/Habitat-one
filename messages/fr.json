@@ -2175,6 +2175,8 @@
     "interest_stalen": "Échantillons",
     "interest_prijzen": "Prix",
     "interest_content": "Images et documentation",
-    "interest_showroom": "Visiter le showroom à Jávea"
+    "interest_showroom": "Visiter le showroom à Jávea",
+    "place": "Ville et pays",
+    "placePh": "p. ex. Valencia, España"
   }
 }

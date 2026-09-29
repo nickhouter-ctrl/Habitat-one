@@ -2175,6 +2175,8 @@
     "interest_stalen": "Stalen / monsters",
     "interest_prijzen": "Prijzen",
     "interest_content": "Beeld en documentatie",
-    "interest_showroom": "Bezoek showroom Jávea"
+    "interest_showroom": "Bezoek showroom Jávea",
+    "place": "Stad en land",
+    "placePh": "bijv. Valencia, España"
   }
 }

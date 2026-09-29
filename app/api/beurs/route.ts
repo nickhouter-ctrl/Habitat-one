@@ -14,7 +14,7 @@ import { FERIA_INTERESTS, FERIA_ROLES } from "@/lib/data/feria";
  * Alleen een gecontroleerde payload gaat door; het rauwe verzoek nooit.
  */
 
-const MAX = { naam: 160, email: 200, telefoon: 60, bedrijf: 160, wens: 2000 } as const;
+const MAX = { naam: 160, email: 200, telefoon: 60, bedrijf: 160, plaats: 160, wens: 2000 } as const;
 
 function tekst(v: unknown, max: number): string {
   return typeof v === "string" ? v.trim().slice(0, max) : "";
@@ -53,6 +53,7 @@ export async function POST(req: Request) {
       rol,
       rolAnders: tekst(body?.rolAnders, 120) || undefined,
       interesses,
+      plaats: tekst(body?.plaats, MAX.plaats) || undefined,
       taal,
       wens: tekst(body?.wens, MAX.wens) || undefined,
       // Honeypot; een bot vult dit in, een mens ziet het veld niet.

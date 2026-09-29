@@ -76,7 +76,9 @@ export default async function BeursPage({
               <span className="text-[0.7rem] font-medium uppercase tracking-[0.24em] text-ink-soft">{standLabel}</span>
             </div>
 
-            <div className="mt-7 grid grid-cols-1 gap-7 lg:grid-cols-[minmax(0,1fr)_19rem] lg:gap-10">
+            {/* Vanaf 768px naast elkaar: een iPad staat rechtop op de balie en
+                dan moet de QR-code in beeld staan zonder te scrollen. */}
+            <div className="mt-7 grid grid-cols-1 gap-7 md:grid-cols-[minmax(0,1fr)_15rem] md:gap-8 lg:grid-cols-[minmax(0,1fr)_19rem] lg:gap-10">
               <div>
                 <h1 className="font-display text-3xl leading-tight text-ink md:text-4xl">{t("standTitle")}</h1>
                 <p className="mt-2 text-ink-soft">{t("standLead")}</p>
@@ -85,7 +87,7 @@ export default async function BeursPage({
                 </div>
               </div>
 
-              <aside className="rounded-sm border border-ink/10 bg-paper p-6 lg:self-start">
+              <aside className="rounded-sm border border-ink/10 bg-paper p-5 md:self-start md:p-6">
                 <h2 className="text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-ink-soft">
                   {t("standQrTitle")}
                 </h2>
@@ -132,14 +134,14 @@ export default async function BeursPage({
 
       <Section className="bg-sand-50 py-10 md:py-16">
         <Container>
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-7 lg:grid-cols-[minmax(0,1fr)_18rem] lg:gap-10">
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-7 md:grid-cols-[minmax(0,1fr)_15rem] md:gap-8 lg:grid-cols-[minmax(0,1fr)_18rem] lg:gap-10">
             <div className="rounded-sm border border-ink/10 bg-paper p-6 md:p-8">
               <FairLeadForm />
             </div>
 
             {/* Op een telefoon heeft de bezoeker de code net gescand; op de iPad
                 op de balie is dit juist de manier om hem door te geven. */}
-            <aside className="hidden rounded-sm border border-ink/10 bg-paper p-6 lg:block lg:self-start">
+            <aside className="hidden rounded-sm border border-ink/10 bg-paper p-5 md:block md:self-start md:p-6">
               <h2 className="text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-ink-soft">
                 {t("standQrTitle")}
               </h2>
