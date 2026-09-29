@@ -181,7 +181,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
       rolAnders: String(f.get("rolAnders") ?? "").trim(),
       interesses: f.getAll("interesses").map(String),
       wens: String(f.get("wens") ?? "").trim(),
-      taal: stand ? String(f.get("taal") ?? "es") : mailTaal(locale),
+      taal: String(f.get("taal") ?? mailTaal(locale)),
       website: String(f.get("website") ?? ""),
     };
 
@@ -316,7 +316,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
           ))}
         </select>
       </div>
-      <div className={stand ? undefined : "sm:col-span-2"}>
+      <div>
         <label className={lbl} htmlFor="fl-rol">{t("role")}</label>
         <select
           id="fl-rol"
@@ -340,16 +340,17 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
           <input id="fl-rol-anders" name="rolAnders" autoComplete="off" placeholder={t("otherWhichPh")} className={field} />
         </div>
       )}
-      {stand && (
-        <div>
-          <label className={lbl} htmlFor="fl-taal">{t("standMailLanguage")}</label>
-          <select id="fl-taal" name="taal" defaultValue="es" className={field}>
-            <option value="es">Español</option>
-            <option value="en">English</option>
-            <option value="nl">Nederlands</option>
-          </select>
-        </div>
-      )}
+      {/* De taal van de bevestigingsmail, altijd te kiezen. Stond eerst alleen op
+          het standscherm; daardoor kregen alle bezoekers die de QR-code scanden
+          Engels, want de code wees naar de Engelse pagina. */}
+      <div>
+        <label className={lbl} htmlFor="fl-taal">{stand ? t("standMailLanguage") : t("mailLanguage")}</label>
+        <select id="fl-taal" name="taal" defaultValue={mailTaal(locale)} className={field}>
+          <option value="es">Español</option>
+          <option value="en">English</option>
+          <option value="nl">Nederlands</option>
+        </select>
+      </div>
       {/* Bijna iedereen wil hetzelfde: stalen, prijzen, beeld. Aanvinken scheelt
           typen én maakt het na de beurs filterbaar. */}
       <fieldset className="sm:col-span-2">

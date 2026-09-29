@@ -2180,6 +2180,19 @@
     "interest_showroom": "Showroom in Jávea besuchen",
     "place": "Stadt",
     "placePh": "z. B. Valencia",
-    "country": "Land"
+    "country": "Land",
+    "mailLanguage": "Sprache der Bestätigung"
+  },
+  "fairFilms": {
+    "metaTitle": "Die Filme von unserem Messestand",
+    "metaDescription": "Die Filme von unserem Stand auf der 360 by Cevisama: Material, Produktion und Anwendungen von Flexible Stone.",
+    "standWord": "Stand",
+    "hallWord": "Halle",
+    "title": "Die Filme von unserem Stand",
+    "lead": "Was auf der Messe über den Bildschirm lief, jetzt in Ruhe zum Ansehen. Ohne Ton — der Text steht im Bild, auf Spanisch und Englisch.",
+    "materiaalTitle": "Material und Produktion",
+    "materiaalText": "Woraus Flexible Stone besteht, wie es produziert wird und was die technischen Prüfungen zeigen.",
+    "outro": "Fragen zu einem Projekt, zu Preisen oder Mustern? Antworten Sie einfach auf unsere E-Mail oder rufen Sie an — wir helfen gern.",
+    "cta": "Flexible Stone entdecken"
   }
 }
