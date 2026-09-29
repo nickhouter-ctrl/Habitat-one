@@ -72,5 +72,9 @@ export async function POST(req: Request) {
     const data = await res.json().catch(() => null);
     return NextResponse.json({ ok: false, error: data?.error ?? "error" }, { status: res.status });
   }
-  return NextResponse.json({ ok: true });
+  // `dubbel` = het CRM kende deze bezoeker al van een paar tellen geleden; er is
+  // niets dubbel opgeslagen en geen tweede mail verstuurd. Voor de bezoeker is
+  // dat hetzelfde als gelukt.
+  const data = await res.json().catch(() => null);
+  return NextResponse.json({ ok: true, dubbel: data?.dubbel === true });
 }

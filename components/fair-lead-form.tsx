@@ -111,6 +111,11 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
   const t = useTranslations("fairLead");
   const locale = useLocale();
   const [staat, setStaat] = useState<"idle" | "bezig" | "klaar" | "wacht" | "fout">("idle");
+  // Een tweede tik komt sneller dan React de knop uitschakelt; een ref is meteen
+  // bijgewerkt en houdt hem wél tegen. (De server kent dezelfde bezoeker binnen
+  // vijf minuten ook terug, dus een dubbele mail kan sowieso niet.)
+  const bezigRef = useRef(false);
+  const inhaalRef = useRef(false);
   const [wachtrij, setWachtrij] = useState<Invoer[]>([]);
   const [vandaag, setVandaag] = useState(0);
   const [rol, setRol] = useState("particulier");
@@ -120,8 +125,10 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
 
   /** Alles wat nog wacht opnieuw proberen. */
   const inhalen = useCallback(async () => {
+    if (inhaalRef.current) return; // al bezig; anders stuurt hij alles dubbel
     const rijen = leesWachtrij();
     if (rijen.length === 0) return;
+    inhaalRef.current = true;
     const over: Invoer[] = [];
     for (const inv of rijen) {
       const uitkomst = await verstuur(inv);
@@ -130,6 +137,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
     }
     schrijfWachtrij(over);
     setWachtrij(over);
+    inhaalRef.current = false;
   }, []);
 
   useEffect(() => {
@@ -158,7 +166,8 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
 
   async function opsturen(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (staat === "bezig") return;
+    if (bezigRef.current) return;
+    bezigRef.current = true;
     const f = new FormData(e.currentTarget);
     const inv: Invoer = {
       id: crypto.randomUUID(),
@@ -183,6 +192,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
     setStaat("bezig");
 
     const uitkomst = await verstuur(inv);
+    bezigRef.current = false;
     const over = leesWachtrij().filter((r) => r.id !== inv.id);
     if (uitkomst === "later") {
       setStaat("wacht");
