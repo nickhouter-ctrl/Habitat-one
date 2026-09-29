@@ -47794,7 +47794,9 @@ export const productCombinations: Record<number, ProductCombination[]> = {
   "9652": [
     {
       "sku": "BRA-5-CF-5513",
-      "options": {},
+      "options": {
+        "kleur": "Coffee"
+      },
       "image": null,
       "images": null,
       "drawing": null,
@@ -92368,6 +92370,9009 @@ export const productCombinations: Record<number, ProductCombination[]> = {
       "drawingImage": null,
       "availability": "stock",
       "availableFrom": null
+    }
+  ],
+  "9763": [
+    {
+      "sku": "BRA-AE-PR1LCE",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-PR1LCF",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-PR1LGG",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-PR1LGK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-PR1LGM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-PR1LMZ",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-PR1LNG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9764": [
+    {
+      "sku": "BRA-5-CE-222",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-222.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-222_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-222_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-222",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-S-222",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-222.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-222_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-222_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-222",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-222.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-222_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-222_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-222",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-222.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-222_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-222_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-222",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-222.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-222_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-222_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-222",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-222.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-222_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-222_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9765": [
+    {
+      "sku": "BRA-5-CE-045",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-045.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-045_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-045_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-045",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-S-045",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-045.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-045_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-045_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-045",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-045.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-045_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-045_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-045",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-045.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-045_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-045_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-045",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-045.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-045_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-045_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-045",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-045.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-045_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-045_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9766": [
+    {
+      "sku": "BRA-5-CE-157",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-157.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-157_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-157_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-157_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-158",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-158.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-158_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-158_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-158_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-157",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-157.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-157_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-157_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-157_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-158",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-158.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-158_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-158_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-158_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-157",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-157.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-157_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-157_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-157_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-158",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-158.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-158_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-158_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-158_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-157",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-157.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-157_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-157_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-157_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-158",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-158.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-158_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-158_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-158_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-157",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-157.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-157_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-157_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-157_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-158",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-158.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-158_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-158_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-158_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-157",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-157.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-157_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-157_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-157_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-158",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-158.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-158_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-158_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-158_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9767": [
+    {
+      "sku": "BRA-5-CE-092",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-092.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-092_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-092_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-092_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-092_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-092",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-092.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-092_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-092_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-092_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-092_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-092",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-092.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-092_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-092_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-092_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-092_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-092",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-092.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-092_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-092_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-092_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-092_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-092",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-092.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-092_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-092_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-092_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-092_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-092",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-092.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-092_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-092_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-092_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-092_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9768": [
+    {
+      "sku": "BRA-5-CE-266",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-266.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-266_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-266_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-266_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-266_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-266",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-266.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-266_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-266_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-266_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-266_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-266",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-266.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-266_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-266_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-266_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-266_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-266",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-266.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-266_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-266_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-266_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-266_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-266",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-266.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-266_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-266_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-266_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-266_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-266",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-266.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-266_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-266_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-266_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-266_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9769": [
+    {
+      "sku": "BRA-5-CE-468",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-468",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-468",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-468",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-468",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-468",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9770": [
+    {
+      "sku": "BRA-5-CE-318",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-318.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-318_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-318_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-318_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-318",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-318.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-318_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-318_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-318_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-318",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-318.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-318_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-318_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-318_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-318",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-318.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-318_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-318_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-318_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-318",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-318.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-318_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-318_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-318_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-318",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-318.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-318_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-318_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-318_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9771": [
+    {
+      "sku": "BRA-5-CE-317",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-317.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-317_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-317_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-317_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-317_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-317",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-317.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-317_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-317_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-317_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-317_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-317",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-317.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-317_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-317_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-317_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-317_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-317",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-317.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-317_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-317_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-317_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-317_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-317",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-317.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-317_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-317_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-317_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-317_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-317",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-317.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-317_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-317_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-317_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-317_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9772": [
+    {
+      "sku": "BRA-5-GG-089",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-089.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-089_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-089_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-089_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-089_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-089",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-089.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-089_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-089_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-089_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-089_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-089",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-089.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-089_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-089_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-089_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-089_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-089",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-089.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-089_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-089_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-089_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-089_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-089",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-089.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-089_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-089_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-089_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-089_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-089",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-089.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-089_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-089_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-089_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-089_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9773": [
+    {
+      "sku": "BRA-5-GG-091",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-091.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-091_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-091_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-091_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-091_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-091",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-091.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-091_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-091_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-091_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-091_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-091",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-091.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-091_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-091_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-091_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-091_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-091",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-091.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-091_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-091_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-091_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-091_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-091",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-091.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-091_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-091_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-091_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-091_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-091",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-091.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-091_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-091_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-091_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-091_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9774": [
+    {
+      "sku": "BRA-5-GG-090",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-090.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-090_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-090_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-090_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-090_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-090",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-090.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-090_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-090_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-090_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-090_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-090",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-090.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-090_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-090_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-090_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-090_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-090",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-090.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-090_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-090_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-090_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-090_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-090",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-090.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-090_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-090_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-090_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-090_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-090",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-090.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-090_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-090_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-090_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-090_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9775": [
+    {
+      "sku": "BRA-5-CE-504",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-502",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-492",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-489",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-503",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-490",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-491",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-501",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-502",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-491",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-489",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-504",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-503",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-490",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-501",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-492",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-504",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-502",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-491",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-501",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-503",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-490",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-492",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-489",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-504",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-492",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-491",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-502",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-490",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-489",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-501",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-503",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-503",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-502",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-491",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-490",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-492",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-501",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-489",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-504",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-490",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-491",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-504",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-502",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-492",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-503",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-489",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-501",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9776": [
+    {
+      "sku": "BRA-5-CE-510",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-510",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-510",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-510",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-510",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-510",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9777": [
+    {
+      "sku": "BRA-5-CE-251",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-251",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-251",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-251",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-251",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-251",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9778": [
+    {
+      "sku": "BRA-5-CE-479",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-478",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-480",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-477",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-478",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-480",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-479",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-477",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-477",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-480",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-478",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-479",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-478",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-480",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-479",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-477",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-480",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-477",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-479",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-478",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-479",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-480",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-477",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-478",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9779": [
+    {
+      "sku": "BRA-5-CE-472",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-472",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-GG-472",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-472",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-472",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-472",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-472",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9780": [
+    {
+      "sku": "BRA-5-CE-471",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-471",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-GG-471",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-471",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-471",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-471",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-471",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9781": [
+    {
+      "sku": "BRA-5-CE-470",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-470",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-GG-470",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-470",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-470",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-470",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-470",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9782": [
+    {
+      "sku": "BRA-5-CE-155",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-155.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-155_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-155_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-155_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-156",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-156.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-156_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-156_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-156_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-155",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-155.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-155_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-155_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-155_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-156",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-156.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-156_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-156_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-156_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-155",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-155.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-155_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-155_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-155_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-156",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-156.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-156_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-156_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-156_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-155",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-155.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-155_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-155_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-155_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-156",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-156.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-156_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-156_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-156_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-155",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-155.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-155_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-155_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-155_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-156",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-156.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-156_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-156_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-156_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-155",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-155.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-155_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-155_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-155_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-156",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-156.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-156_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-156_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-156_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9783": [
+    {
+      "sku": "BRA-5-CE-5100",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5100.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5100_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5100_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-5100_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-5100",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-5100.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-5100_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-5100_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-5100_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-5100",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-5100.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-5100_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-5100_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-5100_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-5100",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-5100.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-5100_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-5100_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-5100_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-5100",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-5100.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-5100_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-5100_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-5100_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-5100",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-5100.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-5100_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-5100_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-5100_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9784": [
+    {
+      "sku": "BRA-5-CE-265",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-265.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-265_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-265_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-265_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-265",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-265.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-265_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-265_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-265_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-265",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-265.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-265_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-265_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-265_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-265",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-265.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-265_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-265_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-265_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-265",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-265.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-265_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-265_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-265_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-265",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-265.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-265_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-265_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-265_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9785": [
+    {
+      "sku": "BRA-5-CE-467",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-467",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-GG-467",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-467",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-467",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-467",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-467",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9786": [
+    {
+      "sku": "BRA-5-CE-316",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-316.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-316_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-316_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-316",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-S-316",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-316.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-316_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-316_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-316",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-316.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-316_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-316_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-316",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-316.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-316_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-316_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-316",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-316.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-316_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-316_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-316",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-316.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-316_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-316_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9787": [
+    {
+      "sku": "BRA-5-CE-315",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-315.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-315_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-315_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-315_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-315",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-S-315",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-315.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-315_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-315_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-315_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-315",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-315.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-315_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-315_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-315_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-315",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-315.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-315_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-315_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-315_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-315",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-315.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-315_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-315_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-315_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-315",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-315.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-315_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-315_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-315_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9788": [
+    {
+      "sku": "BRA-5-CF-513",
+      "options": {
+        "kleur": "Coffee",
+        "model": "Model B1",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-512",
+      "options": {
+        "kleur": "Coffee",
+        "model": "Model A1",
+        "uitloop": "Gebogen",
+        "afwerking": "Rozetten"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9789": [
+    {
+      "sku": "BRA-5-GG-088",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-088.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-088_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-088_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-088_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-088",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-088.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-088_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-088_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-088_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-088",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CE-088",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-088.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-088_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-088_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-088_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-088",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-088.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-088_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-088_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-088_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-088",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-088.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-088_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-088_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-088_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-088",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-088.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-088_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-088_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-088_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9790": [
+    {
+      "sku": "BRA-5-GG-019RR",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-019RR.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-019RR_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-019RR_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-019RR_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-019RR",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-019RR.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-019RR_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-019RR_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-019RR_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-019RR",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-019RR.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-019RR_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-019RR_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-019RR_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-019RR",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-019RR.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-019RR_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-019RR_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-019RR_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-019RR",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-019RR.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-019RR_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-019RR_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-019RR_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-019RR",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-019RR.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-019RR_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-019RR_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-019RR_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9791": [
+    {
+      "sku": "BRA-5-CF-018RR",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9792": [
+    {
+      "sku": "BRA-5-CE-485",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-487",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-486",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-488",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-497",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-498",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-500",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-499",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-499",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-486",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-498",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-497",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-488",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-487",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-500",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-485",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-GG-486",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-497",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-498",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-485",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-500",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-499",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-488",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-487",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-497",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-485",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-500",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-486",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-499",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-487",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-488",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-498",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-498",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-485",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-486",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-488",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-499",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-497",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-487",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-500",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-488",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-498",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-500",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-499",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-485",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-497",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-486",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-487",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-486",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-498",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-500",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-487",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-485",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-497",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-499",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-488",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9793": [
+    {
+      "sku": "BRA-5-CE-237",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-237",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-237",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-237",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-237",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-237",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9794": [
+    {
+      "sku": "BRA-5-CE-476",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-473",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-475",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-474",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-476",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-473",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-475",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-474",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-GG-473",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-475",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-476",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-474",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-473",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-475",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-476",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-474",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-475",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-476",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-473",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-474",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-474",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-475",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-476",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-473",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-473",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-476",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-474",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-475",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9795": [
+    {
+      "sku": "BRA-5-CF-515",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Wandhouder",
+        "vulling": "Uitloop",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-CF-514",
+      "options": {
+        "kleur": "Coffee",
+        "houder": "Wandhouder",
+        "vulling": "Uitloop",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9796": [
+    {
+      "sku": "BRA-5-CE-005",
+      "options": {
+        "kleur": "Chroom",
+        "uitloop": "Gebogen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-005.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-005_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-005_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-005",
+      "options": {
+        "kleur": "Mat zwart",
+        "uitloop": "Gebogen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-005.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-005_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-005_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-005",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "uitloop": "Gebogen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-005.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-005_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-005_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-005",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "uitloop": "Gebogen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-005.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-005_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-005_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-005",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "uitloop": "Gebogen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-005.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-005_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-005_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-005",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "uitloop": "Gebogen"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-005.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-005_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-005_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9797": [
+    {
+      "sku": "BRA-AE-HBA60CF",
+      "options": {
+        "kleur": "Coffee",
+        "model": "Model A (60 cm)"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9798": [
+    {
+      "sku": "BRA-AE-HBB35CF",
+      "options": {
+        "kleur": "Coffee",
+        "model": "Model B (35 cm)"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9799": [
+    {
+      "sku": "BRA-AE-HH40ACE",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HH40ACF",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HH40AGG",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HH40AGK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HH40AGM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HH40AMZ",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HH40ANG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9800": [
+    {
+      "sku": "BRA-AE-HRL170CF",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HRL170GG",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HRL170GK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HRL170GM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HRL170MZ",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HRL170NG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9801": [
+    {
+      "sku": "BRA-AE-HRR150CF",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HRR150GK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HRR150GM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-HRR150NG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9802": [
+    {
+      "sku": "BRA-5-GG-226",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-226.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-226_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-226_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-226_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-226_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-226",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-S-226",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-226.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-226_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-226_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-226_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-226_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-226",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-226.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-226_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-226_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-226_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-226_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-226",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-226.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-226_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-226_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-226_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-226_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-226",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-226.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-226_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-226_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-226_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-226_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-226",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-226.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-226_2.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-226_4.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-226_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-226_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9803": [
+    {
+      "sku": "BRA-AE-NIB3030CF",
+      "options": {
+        "maat": "30 × 30 cm",
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-NIB3030GG",
+      "options": {
+        "maat": "30 × 30 cm",
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-NIB3030GK",
+      "options": {
+        "maat": "30 × 30 cm",
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-NIB3030GM",
+      "options": {
+        "maat": "30 × 30 cm",
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-NIB3030NG",
+      "options": {
+        "maat": "30 × 30 cm",
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-NIB6030CF",
+      "options": {
+        "maat": "60 × 30 cm",
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-NIB6030GG",
+      "options": {
+        "maat": "60 × 30 cm",
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-NIB6030GK",
+      "options": {
+        "maat": "60 × 30 cm",
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-NIB6030GM",
+      "options": {
+        "maat": "60 × 30 cm",
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-NIB6030NG",
+      "options": {
+        "maat": "60 × 30 cm",
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9804": [
+    {
+      "sku": "BRA-DR-LOSMR70S",
+      "options": {
+        "maat": "7x70 cm",
+        "kleur": "Mat zwart",
+        "lengte": "70 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR100CF",
+      "options": {
+        "maat": "7x100 cm",
+        "kleur": "Coffee",
+        "lengte": "100 cm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-DR-LOSMR70CF",
+      "options": {
+        "maat": "7x70 cm",
+        "kleur": "Coffee",
+        "lengte": "70 cm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-DR-LOSMR80S",
+      "options": {
+        "maat": "7x80 cm",
+        "kleur": "Mat zwart",
+        "lengte": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR80CF",
+      "options": {
+        "maat": "7x80 cm",
+        "kleur": "Coffee",
+        "lengte": "80 cm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-DR-LOSMR90CF",
+      "options": {
+        "maat": "7x90 cm",
+        "kleur": "Coffee",
+        "lengte": "90 cm"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-DR-LOSMR90S",
+      "options": {
+        "maat": "7x90 cm",
+        "kleur": "Mat zwart",
+        "lengte": "90 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR100S",
+      "options": {
+        "maat": "7x100 cm",
+        "kleur": "Mat zwart",
+        "lengte": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR70GK",
+      "options": {
+        "maat": "7x70 cm",
+        "kleur": "Geborsteld koper",
+        "lengte": "70 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GK_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GK_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GK_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR80GK",
+      "options": {
+        "maat": "7x80 cm",
+        "kleur": "Geborsteld koper",
+        "lengte": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GK_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GK_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GK_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR90GK",
+      "options": {
+        "maat": "7x90 cm",
+        "kleur": "Geborsteld koper",
+        "lengte": "90 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GK_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GK_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GK_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR100GK",
+      "options": {
+        "maat": "7x100 cm",
+        "kleur": "Geborsteld koper",
+        "lengte": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GK.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GK_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GK_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GK_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR50NG",
+      "options": {
+        "maat": "7x50 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "50 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR50NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR50NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR50NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR50NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR90NG",
+      "options": {
+        "maat": "7x90 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "90 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR60NG",
+      "options": {
+        "maat": "7x60 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR60NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR60NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR60NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR60NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR100NG",
+      "options": {
+        "maat": "7x100 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR70NG",
+      "options": {
+        "maat": "7x70 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "70 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR110NG",
+      "options": {
+        "maat": "7x110 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "110 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR110NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR110NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR110NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR110NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR140NG",
+      "options": {
+        "maat": "7x140 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR140NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR140NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR140NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR140NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR180NG",
+      "options": {
+        "maat": "7x180 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "180 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR180NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR180NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR180NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR180NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR80NG",
+      "options": {
+        "maat": "7x80 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR120NG",
+      "options": {
+        "maat": "7x120 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR120NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR120NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR120NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR120NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR160NG",
+      "options": {
+        "maat": "7x160 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR160NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR160NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR160NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR160NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR200NG",
+      "options": {
+        "maat": "7x200 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR200NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR200NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR200NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR200NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR70GM",
+      "options": {
+        "maat": "7x70 cm",
+        "kleur": "Geborsteld gunmetal",
+        "lengte": "70 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GM_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GM_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GM_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR80GM",
+      "options": {
+        "maat": "7x80 cm",
+        "kleur": "Geborsteld gunmetal",
+        "lengte": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GM_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GM_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GM_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR90GM",
+      "options": {
+        "maat": "7x90 cm",
+        "kleur": "Geborsteld gunmetal",
+        "lengte": "90 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GM_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GM_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GM_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR100GM",
+      "options": {
+        "maat": "7x100 cm",
+        "kleur": "Geborsteld gunmetal",
+        "lengte": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GM.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GM_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GM_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GM_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR70GG",
+      "options": {
+        "maat": "7x70 cm",
+        "kleur": "Geborsteld goud",
+        "lengte": "70 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR70GG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR80GG",
+      "options": {
+        "maat": "7x80 cm",
+        "kleur": "Geborsteld goud",
+        "lengte": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR80GG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR90GG",
+      "options": {
+        "maat": "7x90 cm",
+        "kleur": "Geborsteld goud",
+        "lengte": "90 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR90GG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSMR100GG",
+      "options": {
+        "maat": "7x100 cm",
+        "kleur": "Geborsteld goud",
+        "lengte": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSMR100GG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9805": [
+    {
+      "sku": "BRA-DR-LOSSR50NG",
+      "options": {
+        "maat": "7x50 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "50 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR50NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR50NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR50NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR50NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR90NG",
+      "options": {
+        "maat": "7x90 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "90 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR90NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR90NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR90NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR90NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR60NG",
+      "options": {
+        "maat": "7x60 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR60NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR60NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR60NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR60NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR100NG",
+      "options": {
+        "maat": "7x100 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR100NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR100NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR100NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR100NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR70NG",
+      "options": {
+        "maat": "7x70 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "70 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR70NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR70NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR70NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR70NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR110NG",
+      "options": {
+        "maat": "7x110 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "110 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR110NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR110NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR110NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR110NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR140NG",
+      "options": {
+        "maat": "7x140 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR140NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR140NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR140NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR140NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR180NG",
+      "options": {
+        "maat": "7x180 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "180 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR180NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR180NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR180NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR180NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR80NG",
+      "options": {
+        "maat": "7x80 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR80NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR80NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR80NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR80NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR120NG",
+      "options": {
+        "maat": "7x120 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR120NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR120NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR120NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR120NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR160NG",
+      "options": {
+        "maat": "7x160 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR160NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR160NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR160NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR160NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR200NG",
+      "options": {
+        "maat": "7x200 cm",
+        "kleur": "Geborsteld RVS",
+        "lengte": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR200NG.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR200NG_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR200NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR200NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR50S",
+      "options": {
+        "maat": "7x50 cm",
+        "kleur": "Mat zwart",
+        "lengte": "50 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR50S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR50S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR50S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR50S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR90S",
+      "options": {
+        "maat": "7x90 cm",
+        "kleur": "Mat zwart",
+        "lengte": "90 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR90S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR90S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR90S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR90S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR60S",
+      "options": {
+        "maat": "7x60 cm",
+        "kleur": "Mat zwart",
+        "lengte": "60 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR60S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR60S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR60S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR60S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR100S",
+      "options": {
+        "maat": "7x100 cm",
+        "kleur": "Mat zwart",
+        "lengte": "100 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR100S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR100S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR100S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR100S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR70S",
+      "options": {
+        "maat": "7x70 cm",
+        "kleur": "Mat zwart",
+        "lengte": "70 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR70S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR70S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR70S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR70S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR110S",
+      "options": {
+        "maat": "7x110 cm",
+        "kleur": "Mat zwart",
+        "lengte": "110 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR110S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR110S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR110S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR110S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR140S",
+      "options": {
+        "maat": "7x140 cm",
+        "kleur": "Mat zwart",
+        "lengte": "140 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR140S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR140S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR140S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR140S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR180S",
+      "options": {
+        "maat": "7x180 cm",
+        "kleur": "Mat zwart",
+        "lengte": "180 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR180S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR180S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR180S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR180S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR80S",
+      "options": {
+        "maat": "7x80 cm",
+        "kleur": "Mat zwart",
+        "lengte": "80 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR80S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR80S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR80S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR80S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR120S",
+      "options": {
+        "maat": "7x120 cm",
+        "kleur": "Mat zwart",
+        "lengte": "120 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR120S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR120S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR120S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR120S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR160S",
+      "options": {
+        "maat": "7x160 cm",
+        "kleur": "Mat zwart",
+        "lengte": "160 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR160S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR160S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR160S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR160S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-DR-LOSSR200S",
+      "options": {
+        "maat": "7x200 cm",
+        "kleur": "Mat zwart",
+        "lengte": "200 cm"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR200S.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR200S_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR200S_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/DR-LOSSR200S_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9806": [
+    {
+      "sku": "BRA-5-CE-223",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-223.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-223_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-223_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-223_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-223",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-S-223",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-223.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-223_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-223_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-223_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-223",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-223.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-223_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-223_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-223_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-223",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-223.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-223_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-223_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-223_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-223",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-223.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-223_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-223_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-223_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-223",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-223.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-223_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-223_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-223_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9807": [
+    {
+      "sku": "BRA-5-CF-5504",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9808": [
+    {
+      "sku": "BRA-AE-RTACE",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-AE-RTACF",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-RTAGG",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-AE-RTAGK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-AE-RTAGM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-AE-RTAMZ",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-AE-RTANG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9809": [
+    {
+      "sku": "BRA-5-CE-355",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-355.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-355_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-355_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-355_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-355_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-356",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-356.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-356_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-356_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-356_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-356_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-355",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-355.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-355_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-355_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-355_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-355_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-356",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-356.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-356_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-356_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-356_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-356_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-355",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-355.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-355_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-355_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-355_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-355_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-356",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-356.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-356_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-356_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-356_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-356_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-355",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-355.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-355_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-355_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-355_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-355_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-356",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-356.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-356_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-356_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-356_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-356_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-355",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-355.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-355_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-355_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-355_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-355_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-356",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-356.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-356_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-356_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-356_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-356_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-355",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-355.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-355_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-355_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-355_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-355_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-356",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-356.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-356_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-356_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-356_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-356_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9810": [
+    {
+      "sku": "BRA-5-CE-353",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-353.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-353_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-353_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-353_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-353_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-353",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-353.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-353_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-353_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-353_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-353_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-353",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-353.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-353_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-353_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-353_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-353_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-353",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-353.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-353_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-353_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-353_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-353_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-353",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-353.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-353_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-353_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-353_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-353_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-353",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-353.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-353_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-353_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-353_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-353_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9811": [
+    {
+      "sku": "BRA-5-CE-354",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-354.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-354_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-354_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-354_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-354_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-354",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-354.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-354_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-354_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-354_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-354_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-354",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-354.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-354_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-354_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-354_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-354_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-354",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-354.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-354_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-354_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-354_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-354_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-354",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-354.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-354_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-354_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-354_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-354_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-354",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-354.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-354_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-354_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-354_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-354_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9812": [
+    {
+      "sku": "BRA-5-CE-469",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-469",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-469",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-469",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-469",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-469",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9813": [
+    {
+      "sku": "BRA-5-CE-463",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-463.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-463_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-463_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-463_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-463",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-463.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-463_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-463_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-463_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-463",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-463.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-463_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-463_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-463_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-463",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-463.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-463_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-463_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-463_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-463",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-463.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-463_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-463_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-463_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-463",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-463.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-463_1.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-463_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-463_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9814": [
+    {
+      "sku": "BRA-5-CE-462",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-462.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-462_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-462_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-462_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-462_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-462",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-462.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-462_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-462_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-462_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-462_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-462",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-462.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-462_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-462_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-462_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-462_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-462",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-462.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-462_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-462_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-462_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-462_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-462",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-462.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-462_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-462_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-462_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-462_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-462",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-462.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-462_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-462_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-462_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-462_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9815": [
+    {
+      "sku": "BRA-5-GG-350",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-350.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-350_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-350_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-350_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-350_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-350",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-350.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-350_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-350_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-350_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-350_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-350",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-350.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-350_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-350_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-350_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-350_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-350",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-350.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-350_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-350_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-350_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-350_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-350",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-350.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-350_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-350_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-350_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-350_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-350",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-350.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-350_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-350_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-350_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-350_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9816": [
+    {
+      "sku": "BRA-5-GG-352",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-352.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-352_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-352_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-352_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-352_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-352",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-352.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-352_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-352_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-352_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-352_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-352",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-352.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-352_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-352_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-352_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-352_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-352",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-352.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-352_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-352_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-352_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-352_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-352",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-352.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-352_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-352_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-352_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-352_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-352",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-352.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-352_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-352_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-352_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-352_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9817": [
+    {
+      "sku": "BRA-5-GG-351",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-351.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-351_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-351_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-351_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-351_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-351",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-351.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-351_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-351_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-351_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-351_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-351",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-351.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-351_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-351_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-351_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-351_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-351",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-351.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-351_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-351_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-351_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-351_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-351",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-351.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-351_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-351_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-351_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-351_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-351",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-351.jpg",
+      "images": [
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-351_1.jpg",
+        "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-351_2.jpg"
+      ],
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-351_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-351_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9818": [
+    {
+      "sku": "BRA-5-CE-505",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-495",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-507",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-506",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-508",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-493",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-496",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-494",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-508",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-494",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-506",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-495",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-496",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-493",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-505",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-507",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-494",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-493",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-496",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-505",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-495",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-507",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-506",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-508",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-506",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-507",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-494",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-496",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-495",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-493",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-508",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-505",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-495",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-506",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-505",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-507",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-494",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-493",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-496",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-508",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-494",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-506",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-496",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-495",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-505",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-493",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "douchekop": "Wandmodel",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-508",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-507",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "douchekop": "Plafond",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9819": [
+    {
+      "sku": "BRA-5-CE-013",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-013.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-013_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-013_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-013",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-S-013",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-013.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-013_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-013_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-013",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-013.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-013_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-013_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-013",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-013.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-013_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-013_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-013",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-013.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-013_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-013_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-013",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-013.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-013_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-013_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9820": [
+    {
+      "sku": "BRA-5-CE-347",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-347",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-347",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-347",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-347",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-347",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9821": [
+    {
+      "sku": "BRA-5-CE-481",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-483",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-482",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CE-484",
+      "options": {
+        "kleur": "Chroom",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-484",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-481",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-483",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-482",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-483",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-484",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-482",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-481",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-483",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-481",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-482",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-484",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-484",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-483",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-481",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-482",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-483",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-481",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "Staafmodel"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-482",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Wandhouder",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-S-484",
+      "options": {
+        "kleur": "Mat zwart",
+        "houder": "Glijstang",
+        "bediening": "Stopkranen (losse knoppen)",
+        "douchekop": "Cilindervormig",
+        "handdouche": "3-standen"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9822": [
+    {
+      "sku": "BRA-5-CE-043",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-043.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-043_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-CE-043_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-CF-043",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-5-S-043",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-043.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-043_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-S-043_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GK-043",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-043.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-043_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GK-043_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-NG-043",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-043.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-043_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-NG-043_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GM-043",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-043.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-043_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GM-043_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-5-GG-043",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-043.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-043_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/5-GG-043_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9823": [
+    {
+      "sku": "BRA-AE-TPACF",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-TPAGG",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-TPAGK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-TPAGM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    },
+    {
+      "sku": "BRA-AE-TPANG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
+    }
+  ],
+  "9824": [
+    {
+      "sku": "BRA-MB-SGA5CE",
+      "options": {
+        "kleur": "Chroom"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5CE.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5CE_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5CE_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-MB-SGA5MZ",
+      "options": {
+        "kleur": "Mat zwart"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5MZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5MZ_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5MZ_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-MB-SGA5NG",
+      "options": {
+        "kleur": "Geborsteld RVS"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5NG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-MB-SGA5GM",
+      "options": {
+        "kleur": "Geborsteld gunmetal"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5GM.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5GM_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5GM_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-MB-SGA5GG",
+      "options": {
+        "kleur": "Geborsteld goud"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5GG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5GG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5GG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-MB-SGA5GK",
+      "options": {
+        "kleur": "Geborsteld koper"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5GK.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5GK_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/MB-SGA5GK_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-AE-TBA45MZ",
+      "options": {
+        "kleur": "Mat zwart",
+        "model": "Model A (45 cm)"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45MZ.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45MZ_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45MZ_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-AE-TBA45NG",
+      "options": {
+        "kleur": "Geborsteld RVS",
+        "model": "Model A (45 cm)"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45NG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45NG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45NG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-AE-TBA45GM",
+      "options": {
+        "kleur": "Geborsteld gunmetal",
+        "model": "Model A (45 cm)"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45GM.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45GM_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45GM_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-AE-TBA45GG",
+      "options": {
+        "kleur": "Geborsteld goud",
+        "model": "Model A (45 cm)"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45GG.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45GG_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45GG_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    },
+    {
+      "sku": "BRA-AE-TBA45GK",
+      "options": {
+        "kleur": "Geborsteld koper",
+        "model": "Model A (45 cm)"
+      },
+      "image": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45GK.jpg",
+      "images": null,
+      "drawing": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45GK_T.pdf",
+      "drawingImage": "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/product-images/brauer/AE-TBA45GK_T.png",
+      "availability": "stock",
+      "availableFrom": null
+    }
+  ],
+  "9825": [
+    {
+      "sku": "BRA-AE-ZDACF",
+      "options": {
+        "kleur": "Coffee"
+      },
+      "image": null,
+      "images": null,
+      "drawing": null,
+      "drawingImage": null,
+      "availability": "order_only",
+      "availableFrom": "2027-02-01"
     }
   ]
 };
