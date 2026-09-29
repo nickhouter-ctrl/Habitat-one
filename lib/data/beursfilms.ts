@@ -6,9 +6,8 @@
  * deployment. Eén regel per film; de teksten staan in messages/*.json onder
  * `fairFilms`, zodat de pagina de taal van de site volgt.
  *
- * De beursloop (3:46) staat er nog niet bij: die is 142 MB en daarmee groter
- * dan de uploadgrens van ons opslagproject. Zodra die hoger staat — of zodra we
- * een YouTube-link hebben — is dit één regel erbij.
+ * Volgorde = zoals ze op de pagina staan: eerst de korte film, want die kijkt
+ * iedereen uit; daarna de langere beursloop.
  */
 const OPSLAG = "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/beurs-films";
 
@@ -25,5 +24,10 @@ export const BEURSFILMS: Beursfilm[] = [
     id: "materiaal",
     src: `${OPSLAG}/03-habitat-materiaal-en-productie.mp4`,
     duur: "1:33",
+  },
+  {
+    id: "beursloop",
+    src: `${OPSLAG}/01-habitat-beursloop.mp4`,
+    duur: "3:46",
   },
 ];
