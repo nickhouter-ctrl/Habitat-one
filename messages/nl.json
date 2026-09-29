@@ -2176,7 +2176,8 @@
     "interest_prijzen": "Prijzen",
     "interest_content": "Beeld en documentatie",
     "interest_showroom": "Bezoek showroom Jávea",
-    "place": "Stad en land",
-    "placePh": "bijv. Valencia, España"
+    "place": "Stad",
+    "placePh": "bijv. Valencia",
+    "country": "Land"
   }
 }

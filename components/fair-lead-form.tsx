@@ -1,10 +1,11 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowUpRight, Check } from "lucide-react";
 
 import { FERIA_INTERESTS, FERIA_ROLES } from "@/lib/data/feria";
+import { landenVoorKeuze } from "@/lib/data/landen";
 
 /**
  * "Laat je gegevens achter" op de beursstand.
@@ -37,6 +38,7 @@ type Invoer = {
   telefoon: string;
   bedrijf: string;
   plaats: string;
+  land: string;
   rol: string;
   rolAnders: string;
   interesses: string[];
@@ -112,6 +114,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
   const [wachtrij, setWachtrij] = useState<Invoer[]>([]);
   const [vandaag, setVandaag] = useState(0);
   const [rol, setRol] = useState("particulier");
+  const landen = useMemo(() => landenVoorKeuze(locale), [locale]);
   const formRef = useRef<HTMLFormElement>(null);
   const naamRef = useRef<HTMLInputElement>(null);
 
@@ -164,6 +167,7 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
       telefoon: String(f.get("telefoon") ?? "").trim(),
       bedrijf: String(f.get("bedrijf") ?? "").trim(),
       plaats: String(f.get("plaats") ?? "").trim(),
+      land: String(f.get("land") ?? ""),
       rol: String(f.get("rol") ?? "particulier"),
       rolAnders: String(f.get("rolAnders") ?? "").trim(),
       interesses: f.getAll("interesses").map(String),
@@ -280,8 +284,9 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
         <label className={lbl} htmlFor="fl-bedrijf">{t("company")}</label>
         <input id="fl-bedrijf" name="bedrijf" autoComplete={stand ? "off" : "organization"} className={field} />
       </div>
-      {/* Stad en land is genoeg: daarmee staat iedereen na de beurs op de kaart. */}
-      <div className="sm:col-span-2">
+      {/* Stad en land apart: een keuzelijst raadt niets en levert precies de
+          landcode waarmee het CRM de stad op de kaart zet. */}
+      <div>
         <label className={lbl} htmlFor="fl-plaats">{t("place")}</label>
         <input
           id="fl-plaats"
@@ -290,6 +295,16 @@ export function FairLeadForm({ stand = false }: { stand?: boolean }) {
           placeholder={t("placePh")}
           className={field}
         />
+      </div>
+      <div>
+        <label className={lbl} htmlFor="fl-land">{t("country")}</label>
+        <select id="fl-land" name="land" defaultValue="ES" className={field}>
+          {landen.map((l) => (
+            <option key={l.code} value={l.code}>
+              {l.naam}
+            </option>
+          ))}
+        </select>
       </div>
       <div className={stand ? undefined : "sm:col-span-2"}>
         <label className={lbl} htmlFor="fl-rol">{t("role")}</label>

@@ -2176,7 +2176,8 @@
     "interest_prijzen": "价格",
     "interest_content": "图片与资料",
     "interest_showroom": "参观 Jávea 展厅",
-    "place": "城市与国家",
-    "placePh": "例如：Valencia, España"
+    "place": "城市",
+    "placePh": "例如：Valencia",
+    "country": "国家"
   }
 }

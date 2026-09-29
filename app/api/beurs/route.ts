@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 
 import { CRM_API } from "@/lib/account/server";
 import { FERIA_INTERESTS, FERIA_ROLES } from "@/lib/data/feria";
+import { LANDCODES } from "@/lib/data/landen";
 
 /**
  * Gegevens van een beursbezoeker doorgeven aan het CRM.
@@ -54,6 +55,9 @@ export async function POST(req: Request) {
       rolAnders: tekst(body?.rolAnders, 120) || undefined,
       interesses,
       plaats: tekst(body?.plaats, MAX.plaats) || undefined,
+      land: (LANDCODES as readonly string[]).includes(tekst(body?.land, 2).toUpperCase())
+        ? tekst(body?.land, 2).toUpperCase()
+        : undefined,
       taal,
       wens: tekst(body?.wens, MAX.wens) || undefined,
       // Honeypot; een bot vult dit in, een mens ziet het veld niet.

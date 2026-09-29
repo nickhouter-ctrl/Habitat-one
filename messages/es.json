@@ -2176,7 +2176,8 @@
     "interest_prijzen": "Precios",
     "interest_content": "Imágenes y documentación",
     "interest_showroom": "Visitar el showroom en Jávea",
-    "place": "Ciudad y país",
-    "placePh": "p. ej. Valencia, España"
+    "place": "Ciudad",
+    "placePh": "p. ej. Valencia",
+    "country": "País"
   }
 }
