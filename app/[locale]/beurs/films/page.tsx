@@ -4,6 +4,7 @@ import { ArrowUpRight, MapPin } from "lucide-react";
 
 import { Link } from "@/i18n/navigation";
 import { Container, Section } from "@/components/ui/section";
+import { FlexibleStoneDocs } from "@/components/sections/flexible-stone-docs";
 import { BEURSFILMS } from "@/lib/data/beursfilms";
 import { FERIA, feriaStandLabel } from "@/lib/data/feria";
 import { site } from "@/lib/data/site";
@@ -44,6 +45,8 @@ export default async function BeursFilmsPage({ params }: { params: Promise<{ loc
           <p className="mt-5 max-w-xl text-base leading-relaxed text-paper/80">{t("lead")}</p>
         </div>
       </section>
+
+      <FlexibleStoneDocs />
 
       <Section className="bg-paper py-12 md:py-16">
         <Container>
