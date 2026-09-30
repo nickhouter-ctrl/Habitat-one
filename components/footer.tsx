@@ -1,4 +1,4 @@
-import { getLocale, getTranslations } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { site, primaryNav } from "@/lib/data/site";
@@ -11,8 +11,6 @@ export async function Footer() {
   const t = await getTranslations();
   const nav = await getTranslations("nav");
   const year = new Date().getFullYear();
-  const locale = await getLocale();
-  const dealersLabel: Record<string, string> = { nl: "Officiële verkooppunten", en: "Official stockists", es: "Puntos de venta oficiales", de: "Offizielle Händler", fr: "Revendeurs officiels" };
 
   const explore = primaryNav.slice(0, 4);
   const company = [
@@ -82,7 +80,6 @@ export async function Footer() {
                 {nav(i.labelKey)}
               </FooterLink>
             ))}
-            <li><a href="https://crm.habitat-one.com/verkooppunten" className="link-underline text-cream/75 transition-colors hover:text-cream">{dealersLabel[locale] ?? dealersLabel.en}</a></li>
             {/* Inloggen / Mijn account — na de header de tweede plek waar
                 bezoekers hiernaar zoeken. */}
             <li>
