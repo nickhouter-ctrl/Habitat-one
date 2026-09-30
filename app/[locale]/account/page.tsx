@@ -69,6 +69,12 @@ export default async function AccountPage({ params }: { params: Promise<{ locale
         </div>
       </div>
 
+      <div className="mt-6 rounded-xl border border-terracotta-600/20 bg-terracotta-600/5 p-5">
+        <h2 className="font-medium">{t("resellerTitle")}</h2>
+        <p className="mt-2 text-sm leading-relaxed text-ink-soft">{t("resellerBody")}</p>
+        <Link href="/contact" className="mt-3 inline-flex text-sm font-medium text-terracotta-600 underline underline-offset-4">{t("resellerCta")}</Link>
+      </div>
+
       {me.referredCustomers.length > 0 && (
         <div className="mt-6 rounded-xl border border-black/10 bg-white p-4">
           <div className="flex items-center justify-between">

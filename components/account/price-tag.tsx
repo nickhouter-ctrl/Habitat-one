@@ -66,7 +66,7 @@ export function PriceTag({
 
   // Alle kandidaat-prijzen verzamelen (hoofd-SKU + maat-SKU's), anders op naam.
   const seen = [sku, ...(skus ?? [])].filter((s): s is string => !!s);
-  const found: { price: number; vat: number }[] = [];
+  const found: { price: number; retailPrice?: number | null; vat: number }[] = [];
   for (const s of seen) {
     const hit = state.prices[s];
     if (hit && hit.price > 0) found.push(hit);
@@ -90,11 +90,19 @@ export function PriceTag({
   const incl = tier === "particulier";
   const shown = incl ? charm(min.price * (1 + min.vat / 100)) : min.price;
 
+  const retail = min.retailPrice;
+  const discounted = !incl && typeof retail === "number" && Number.isFinite(retail) && retail > min.price && min.price > 0;
+  const percentage = discounted ? Math.round((1 - min.price / retail) * 1000) / 10 : 0;
+
   return (
     <span className={`font-semibold text-neutral-900 ${className}`}>
+      {discounted && <span className="mb-1 block text-xs font-normal text-neutral-500">
+        {t("retailPrice")} {multiple ? `${t("priceFrom")} ` : ""}<del>{formatEur(retail, locale)}</del> {t("exclVat")}
+      </span>}
       {multiple ? `${t("priceFrom")} ` : ""}
       {formatEur(shown, locale)}{" "}
       <span className="text-xs font-normal text-neutral-500">{incl ? t("inclVat") : t("exclVat")}</span>
+      {discounted && percentage > 0 && <span className="mt-1 block text-xs font-medium text-terracotta-600">{t("businessDiscount", { percent: new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(percentage) })}</span>}
     </span>
   );
 }

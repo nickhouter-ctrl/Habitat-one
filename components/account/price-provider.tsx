@@ -3,7 +3,7 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import { usePathname } from "next/navigation";
 
-type PriceMap = Record<string, { price: number; vat: number }>;
+type PriceMap = Record<string, { price: number; retailPrice?: number | null; vat: number }>;
 type State = { loggedIn: boolean; tier: string | null; prices: PriceMap; byName: PriceMap; loading: boolean };
 
 const PriceCtx = createContext<State>({ loggedIn: false, tier: null, prices: {}, byName: {}, loading: true });
@@ -38,7 +38,7 @@ export function resolvePrice(
   state: Pick<State, "prices" | "byName">,
   sku?: string | null,
   name?: string | null,
-): { price: number; vat: number } | undefined {
+): { price: number; retailPrice?: number | null; vat: number } | undefined {
   if (sku && state.prices[sku]) return state.prices[sku];
   if (name) {
     const key = name.trim().toLowerCase();

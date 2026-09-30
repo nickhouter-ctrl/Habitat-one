@@ -54,7 +54,7 @@ export async function fetchAccountMe(): Promise<
   }
 }
 
-type PriceMap = Record<string, { price: number; vat: number }>;
+type PriceMap = Record<string, { price: number; retailPrice?: number | null; vat: number }>;
 
 /** Tier-prijzen (sku → {price, vat} + byName) voor de ingelogde klant, of null als uitgelogd. */
 export async function fetchPrices(): Promise<{ tier: "particulier" | "aannemer"; prices: PriceMap; byName: PriceMap } | null> {
