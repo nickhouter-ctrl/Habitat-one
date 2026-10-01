@@ -30,17 +30,8 @@ export const FERIA = {
     "https://www.google.com/maps/dir/?api=1&destination=Feria+Valencia%2C+Av.+de+les+Fires%2C+46035+Val%C3%A8ncia",
   address: "Av. de les Fires, s/n · 46035 València",
   metro: "Metro L2 · Carolines/Fira (600 m)",
-  ics: "/fair/habitat-one-360-by-cevisama-2026.ics",
   /** Het kozijnenplatform (eigen site; nooit naar de fabriek linken). */
   windowsUrl: "https://windows.habitat-one.com/",
-  windowsDrawing: "/fair/windows-configurator-drawing.png",
-  /** Stille demovideo van het platform (1:44, 1080p), Engels en Spaans. */
-  windowsDemo: {
-    en: { src: "/fair/windows-demo-en.mp4", poster: "/fair/windows-demo-en-poster.jpg" },
-    es: { src: "/fair/windows-demo-es.mp4", poster: "/fair/windows-demo-es-poster.jpg" },
-  },
-  video: "/scenery/feria-habitat-2026.mp4",
-  poster: "/scenery/feria-habitat-2026-poster.jpg",
   logos: {
     /** Wit logo van 360 by Cevisama (svg) — op donkere vlakken. */
     fairWhite: "/fair/logo-360-by-cevisama-white.svg",

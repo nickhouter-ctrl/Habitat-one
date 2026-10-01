@@ -91,6 +91,18 @@ const nextConfig: NextConfig = {
         destination: "/:locale/brands/brauer?type=Accessoires",
         permanent: true,
       },
+      // De beurspagina /feria (360 by Cevisama, sept 2026) is na de beurs weg;
+      // links uit de uitnodigingsmail landen op Flexible Stone.
+      {
+        source: "/feria",
+        destination: "/products/flexible-stone",
+        permanent: false,
+      },
+      {
+        source: "/:locale(nl|es|de|fr|zh)/feria",
+        destination: "/:locale/products/flexible-stone",
+        permanent: false,
+      },
       // De meubelcollectie (Caracole/Cornelius) is in september 2026 van de
       // site gehaald. Oude links en zoekresultaten landen op de range-hub.
       {

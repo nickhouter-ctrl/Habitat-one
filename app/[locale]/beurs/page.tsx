@@ -173,12 +173,6 @@ export default async function BeursPage({
               </a>
             </li>
           </ul>
-
-          <p className="mt-8 text-center text-[0.72rem] uppercase tracking-[0.18em] text-ink-soft">
-            <Link href="/feria" className="underline underline-offset-[6px] decoration-ink/25 hover:decoration-ink">
-              {t("fairInfo")}
-            </Link>
-          </p>
         </Container>
       </Section>
     </>

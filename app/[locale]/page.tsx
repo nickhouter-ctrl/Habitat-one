@@ -3,7 +3,6 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Hero } from "@/components/sections/hero";
-import { FairAnnouncement } from "@/components/sections/fair-announcement";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { PinnedStorySection } from "@/components/sections/pinned-story";
 import { TestimonialCarousel } from "@/components/sections/testimonials";
@@ -20,7 +19,6 @@ import type { Metadata } from "next";
 import { JsonLd, websiteJsonLd } from "@/components/seo/json-ld";
 import { seoAlternates } from "@/lib/seo/alternates";
 import { BRAUER_COVER_BADKAMER } from "@/lib/data/brauer-beelden";
-import { FairPopup } from "@/components/sections/fair-popup";
 
 export async function generateMetadata({
   params,
@@ -119,8 +117,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <>
       <JsonLd data={websiteJsonLd} />
       <Hero />
-      <FairPopup />
-      <FairAnnouncement />
 
       {/* ---- What is Habitat One — the one-stop building experience ---- */}
       <Section chapter="Habitat One" className="bg-background py-20 md:py-28">
