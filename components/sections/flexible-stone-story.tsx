@@ -14,7 +14,7 @@ import {
   FS_FORMATS,
   FS_INSTALL,
   FS_INTRO,
-  FS_TECH,
+  FS_TECH_GROUPS,
   flexibleStoneHref,
 } from "@/lib/data/flexible-stone-story";
 
@@ -118,8 +118,8 @@ export async function FlexibleStoneStory() {
                   <p className="mt-2 text-[0.72rem] uppercase tracking-[0.18em] text-paper/60">{t("techFire")}</p>
                 </div>
                 <div>
-                  <p className="font-display text-5xl leading-none">100</p>
-                  <p className="mt-2 text-[0.72rem] uppercase tracking-[0.18em] text-paper/60">{t("techCycles")}</p>
+                  <p className="font-display text-5xl leading-none">0</p>
+                  <p className="mt-2 text-[0.72rem] uppercase tracking-[0.18em] text-paper/60">{t("techZero")}</p>
                 </div>
               </div>
               <a href="#documentatie" className="mt-8 inline-flex items-center gap-2 text-[0.72rem] font-medium uppercase tracking-[0.18em] text-paper underline underline-offset-[6px] decoration-paper/35 hover:decoration-paper">
@@ -127,15 +127,22 @@ export async function FlexibleStoneStory() {
                 <ArrowUpRight className="h-3.5 w-3.5" />
               </a>
             </div>
-            <dl className="divide-y divide-paper/10 border-y border-paper/15 text-sm">
-              {FS_TECH.map((row) => (
-                <div key={row.key} className="grid grid-cols-[1.2fr_1fr_1fr] gap-4 py-3">
-                  <dt className="text-paper/85">{t(`tech.${row.key}`)}</dt>
-                  <dd className="text-paper">{row.value}</dd>
-                  <dd className="text-paper/50">{row.method}</dd>
+            <div className="space-y-10">
+              {FS_TECH_GROUPS.map((group) => (
+                <div key={group.key}>
+                  <p className="mb-3 text-[0.7rem] font-medium uppercase tracking-[0.32em] text-paper/60">{t(`techGroup.${group.key}`)}</p>
+                  <dl className="divide-y divide-paper/10 border-y border-paper/15 text-sm">
+                    {group.rows.map((row) => (
+                      <div key={row.key} className="grid grid-cols-[1.2fr_1fr_1fr] gap-4 py-3">
+                        <dt className="text-paper/85">{t(`tech.${row.key}`)}</dt>
+                        <dd className="text-paper">{row.value}</dd>
+                        <dd className="text-paper/50">{row.method}</dd>
+                      </div>
+                    ))}
+                  </dl>
                 </div>
               ))}
-            </dl>
+            </div>
           </div>
         </Container>
       </Section>

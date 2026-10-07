@@ -1,10 +1,9 @@
 import Link from "next/link";
-import { Montserrat, Cormorant_Garamond } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 // Global fallback (rendered outside any [locale] layout) — self-contained, but
-// dressed in the brand fonts (Cormorant display + Montserrat) and palette.
-const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "500"] });
-const cormorant = Cormorant_Garamond({ subsets: ["latin"], weight: ["500", "600"] });
+// dressed in the brand font (Montserrat, like the logo) and palette.
+const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "500", "600"] });
 
 export default function GlobalNotFound() {
   return (
@@ -38,7 +37,7 @@ export default function GlobalNotFound() {
           </p>
           <p
             style={{
-              fontFamily: cormorant.style.fontFamily,
+              fontFamily: montserrat.style.fontFamily,
               fontSize: "clamp(4.5rem, 16vw, 7.5rem)",
               fontWeight: 600,
               lineHeight: 1,
@@ -59,7 +58,7 @@ export default function GlobalNotFound() {
           />
           <h1
             style={{
-              fontFamily: cormorant.style.fontFamily,
+              fontFamily: montserrat.style.fontFamily,
               fontSize: "1.9rem",
               fontWeight: 500,
               margin: "0 0 0.6rem",

@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Montserrat, Cormorant_Garamond } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -23,13 +23,6 @@ import "../globals.css";
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
-  display: "swap",
-});
-
-const cormorant = Cormorant_Garamond({
-  variable: "--font-cormorant",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -103,7 +96,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${montserrat.variable} ${cormorant.variable} h-full`}
+      className={`${montserrat.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-background text-ink antialiased">
         <JsonLd data={localBusinessJsonLd} />

@@ -28,25 +28,43 @@ export const FS_INTRO = { bend: `${S}/material-bending-hand.jpg`, layers: `${S}/
 
 /** Zes voordelen; `key` = vertaalsleutel onder flexibleStone.benefits. */
 export const FS_BENEFITS = [
-  { key: "curves", image: `${S}/benefit-curves.jpg` },
-  { key: "inOut", image: `${S}/benefit-interior-exterior.jpg` },
-  { key: "bathroom", image: `${S}/benefit-bathroom.jpg` },
-  { key: "slim", image: `${S}/benefit-slim.jpg` },
-  { key: "renovation", image: `${S}/benefit-renovation.jpg` },
+  { key: "curves", image: `${S}/commercial-curved-column.jpg` },
+  { key: "inOut", image: `${S}/residential-facade.jpg` },
+  { key: "bathroom", image: `${S}/bathroom-dark-stone.jpg` },
+  { key: "slim", image: `${S}/benefit-slim-edge.jpg` },
+  { key: "renovation", image: `${S}/kitchen-feature-wall.jpg` },
+  // Vuur: Nick maakt een mooier beeld (7 okt 2026); tot die tijd de testfoto uit de presentatie.
   { key: "fire", image: `${S}/benefit-fire.jpg` },
 ] as const;
 
-/** Technische samenvatting uit de datasheet (waarden taalneutraal). */
-export const FS_TECH: { key: string; value: string; method: string }[] = [
-  { key: "fire", value: "Class A2-s1", method: "GB/T 14402-2007 · GB/T 20284-2006" },
-  { key: "freezeThaw", value: "−0.42 % · no visible change", method: "ASTM C1026-13" },
-  { key: "water", value: "12.00 %", method: "ASTM C97/C97M-15" },
-  { key: "uv", value: "Grey scale 4.0 · ΔE*ab 2.6", method: "ASTM G154-12a" },
-  { key: "stain", value: "7.6 · max. 0.101 mm", method: "ANSI Z124.6-2007 §5.2" },
-  { key: "abrasion", value: "Score 8", method: "ASTM C241/C241M-15" },
-  { key: "friction", value: "Dry 1.11 · wet 0.70", method: "ASTM C1028-07" },
-  { key: "ce", value: "EN 15102:2019", method: "CE" },
-  { key: "clean", value: "PVC, phthalates, VOC: none detected", method: "EN 14372:2004 · REACH (151 SVHC)" },
+/** Alle classificaties uit de technische fiche, in drie groepen; waarden zoals in de fiche. */
+export type TechRow = { key: string; value: string; method: string };
+export const FS_TECH_GROUPS: { key: "specs" | "tests" | "composition"; rows: TechRow[] }[] = [
+  { key: "specs", rows: [
+    { key: "composition", value: "Modified clay material", method: "" },
+    { key: "installation", value: "Acrylic adhesive or equal", method: "" },
+    { key: "patent", value: "ZL 2019 2 0096552.5", method: "China patent" },
+  ] },
+  { key: "tests", rows: [
+    { key: "ce", value: "EN 15102:2019 · compliant", method: "CE" },
+    { key: "fire", value: "Class A2-s1", method: "GB/T 14402-2007 · GB/T 20284-2006" },
+    { key: "freezeThaw", value: "Weight loss −0.42 % · no visible change", method: "ASTM C1026-13" },
+    { key: "water", value: "12.00 %", method: "ASTM C97/C97M-15" },
+    { key: "gravity", value: "1.83", method: "ASTM C97/C97M-15" },
+    { key: "stain", value: "Total rating 7.6 · max. depth 0.101 mm", method: "ANSI Z124.6-2007 §5.2" },
+    { key: "chemical", value: "No visible change", method: "ANSI Z124.6-2007 §5.5" },
+    { key: "abrasion", value: "Total score 8", method: "ASTM C241/C241M-15" },
+    { key: "friction", value: "Dry 1.11 · wet 0.70", method: "ASTM C1028-07" },
+    { key: "uv", value: "Grey scale 4.0 · ΔE*ab 2.6", method: "ASTM G154-12a · ASTM D2244 · ASTM 2616-12" },
+  ] },
+  { key: "composition", rows: [
+    { key: "pvc", value: "None detected", method: "" },
+    { key: "phthalate", value: "None detected", method: "EN 14372:2004" },
+    { key: "silica", value: "Compliant", method: "OSHA silica rule" },
+    { key: "svhc", value: "None detected · REACH compliant", method: "151 substances" },
+    { key: "voc", value: "None detected · Class A", method: "" },
+    { key: "sds", value: "Available", method: "US 29 CFR 1910.1200" },
+  ] },
 ];
 
 export const FS_FORMATS = {

@@ -59,7 +59,8 @@
 
   /* Fonts (provided via next/font CSS variables) */
   --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-cormorant), ui-serif, Georgia, serif;
+  /* Koppen in hetzelfde lettertype als het logo (Montserrat); geen serif. */
+  --font-display: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
 
   /* Radii */
   --radius-xl: 1.25rem;
@@ -160,20 +161,16 @@
   .text-cream :focus-visible {
     outline-color: var(--color-gold-400);
   }
-  /* Koppen in het serif (Cormorant); broodtekst, knoppen en kapitaaltjes
-     blijven Montserrat. Zie ook de regel buiten de lagen verderop, die de
-     tracking- en gewicht-utilities op koppen overstemt. */
+  /* Koppen in het logolettertype (Montserrat), halfvet en iets strakker
+     gespatieerd; utilities (font-*, tracking-*) mogen dit overstemmen. */
   h1,
   h2,
   h3,
   h4 {
     font-family: var(--font-display);
-    font-weight: 400;
-    letter-spacing: 0;
+    font-weight: 500;
+    letter-spacing: -0.015em;
     line-height: 1.1;
-    /* Cormorant heeft een kleine x-hoogte; hiermee oogt hij even groot als
-       Montserrat op dezelfde maat. */
-    font-size-adjust: 0.5;
   }
   /* Decorative scrollbar */
   ::-webkit-scrollbar {
@@ -498,13 +495,6 @@
   to {
     width: 100%;
   }
-}
-
-/* Buiten de lagen, zodat dit wint van tracking-/font-utilities op koppen:
-   een serif wil geen negatieve letterspatiëring en geen halfvet. */
-:is(h1, h2, h3, h4):not(.font-sans) {
-  letter-spacing: 0;
-  font-weight: 400;
 }
 
 /* Calm, consistent interactions and readable keyboard focus. */
