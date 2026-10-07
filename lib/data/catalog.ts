@@ -1146,13 +1146,9 @@ export function collectionHref(id: string): string {
   return `/products/${id}`;
 }
 
-// Catalogusbeelden Flexible Stone (7 okt 2026) vervangen de oude renders en
-// gescrapete foto's volledig. Per kleur: close-up, paneel en sfeerbeeld als de
-// serie in die kleur is gevisualiseerd, anders alleen het eigen sfeerbeeld (als
-// dat er al is) en altijd de originele fabrieksstaal als laatste. Kleuren
-// zonder MS-koppeling (Zen Ando MS-036, bewust zonder beelden) houden hun oude
-// beelden. De sfeerbeelden van het paneel vormen de contextbeelden; video's
-// blijven staan.
+// Complete colour sets: replace every mapped variant's old close-up, panel
+// and scene; keep its original factory swatch last. MS-036 has no supplied set.
+// Two Lime Dacite products have a product SKU but no separate variants.
 for (const p of catalogProducts) {
   if (p.collection !== "wall-panels") continue;
   const scenes: string[] = [];
@@ -1167,8 +1163,14 @@ for (const p of catalogProducts) {
     if (imgs.length > 0) v.images = imgs;
     if (scene && !scenes.includes(scene)) scenes.push(scene);
   }
-  const own = Object.values(SM_SERIES).find((x) => x.slug === p.slug);
-  if (own) p.image = own.detail;
+  const productCode = smCode(p.sku);
+  const own = (productCode ? SM_SERIES[productCode] : undefined)
+    ?? Object.values(SM_SERIES).find((x) => x.slug === p.slug);
+  if (own) {
+    p.image = own.detail;
+    p.images = [own.detail, own.panel, own.scene];
+    if (SM_SWATCH[own.code]) p.images.push(SM_SWATCH[own.code].image);
+  }
   if (scenes.length === 0) {
     const scene = SM_SCENES[smCode(p.sku) ?? ""];
     if (scene) scenes.push(scene);
@@ -1223,6 +1225,7 @@ export function productImages(p: CatalogProduct): string[] {
     seen.add(p.image);
     out.push(p.image);
   }
+  if (p.collection === "wall-panels") for (const img of p.images ?? []) if (!seen.has(img)) { seen.add(img); out.push(img); }
   for (const v of p.variants) for (const img of v.images) if (!seen.has(img)) { seen.add(img); out.push(img); }
   return out;
 }

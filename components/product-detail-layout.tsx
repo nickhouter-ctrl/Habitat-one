@@ -175,6 +175,8 @@ export function ProductDetailLayout({
   const fallbackImage = product.image;
   const images = activeVariant?.images.length
     ? activeVariant.images
+    : product.collection === "wall-panels" && product.images?.length
+    ? product.images
     : fallbackImage
     ? [fallbackImage]
     : [];
