@@ -1,5 +1,5 @@
 import { catalogProducts, type CatalogProduct, type ProductVariant } from "./products.generated";
-import { SM_SERIES, SM_SWATCH, smCode } from "./flexible-stone-images";
+import { SM_SCENES, SM_SERIES, SM_SWATCH, smCode } from "./flexible-stone-images";
 import { SCENE_STEMS } from "./scenes.generated";
 import { catalogMaterials, type CatalogMaterial } from "./materials.generated";
 import { catalogSpaces, type CatalogSpace } from "./spaces.generated";
@@ -1147,23 +1147,34 @@ export function collectionHref(id: string): string {
   return `/products/${id}`;
 }
 
-// Catalogusbeelden Flexible Stone (7 okt 2026): de close-up wordt de kaart,
-// paneel + close-up + sfeerbeeld komen vooraan in de galerij van de kleur
-// waarin de serie is gevisualiseerd, en elke kleur eindigt met de originele
-// fabrieksstaal (MS-code). Bestaande beelden blijven daartussen staan.
+// Catalogusbeelden Flexible Stone (7 okt 2026) vervangen de oude renders en
+// gescrapete foto's volledig. Per kleur: close-up, paneel en sfeerbeeld als de
+// serie in die kleur is gevisualiseerd, anders alleen het eigen sfeerbeeld (als
+// dat er al is) en altijd de originele fabrieksstaal als laatste. Kleuren
+// zonder MS-koppeling (Zen Ando MS-036, bewust zonder beelden) houden hun oude
+// beelden. De sfeerbeelden van het paneel vormen de contextbeelden; video's
+// blijven staan.
 for (const p of catalogProducts) {
   if (p.collection !== "wall-panels") continue;
+  const scenes: string[] = [];
   for (const v of p.variants) {
     const code = smCode(v.sku);
     if (!code) continue;
     const series = SM_SERIES[code];
+    const scene = SM_SCENES[code];
     const swatch = SM_SWATCH[code];
-    const front = series ? [series.detail, series.panel, series.scene] : [];
-    const tail = swatch ? [swatch.image] : [];
-    v.images = [...front, ...v.images.filter((i) => !front.includes(i) && !tail.includes(i)), ...tail];
+    const imgs = series ? [series.detail, series.panel, series.scene] : scene ? [scene] : [];
+    if (swatch) imgs.push(swatch.image);
+    if (imgs.length > 0) v.images = imgs;
+    if (scene && !scenes.includes(scene)) scenes.push(scene);
   }
   const own = Object.values(SM_SERIES).find((x) => x.slug === p.slug);
   if (own) p.image = own.detail;
+  if (scenes.length === 0) {
+    const scene = SM_SCENES[smCode(p.sku) ?? ""];
+    if (scene) scenes.push(scene);
+  }
+  if (scenes.length > 0) productMedia[p.slug] = { ...(productMedia[p.slug] ?? {}), context: scenes.slice(0, 3) };
 }
 
 export const productsWithImages = catalogProducts.filter((p) => p.image);

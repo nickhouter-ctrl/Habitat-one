@@ -1117,6 +1117,56 @@ export const SM_SWATCH: Record<string, SmSwatch> = {
   }
 };
 
+/** Sfeerbeeld per MS-code: de serie-kleur uit de uploadset plus de kleuren
+ * waarvoor de beeldenbibliotheek (Stone-Motion-Websitebeelden) al een eigen
+ * sfeerbeeld heeft. */
+export const SM_SCENES: Record<string, string> = {
+  "MS-001": "/products/magic/sm/MS-001/scene.webp",
+  "MS-005": "/products/magic/sm/MS-005/scene.webp",
+  "MS-008": "/products/magic/sm/MS-008/scene.webp",
+  "MS-009": "/products/magic/sm/MS-009/scene.webp",
+  "MS-013": "/products/magic/sm/MS-013/scene.webp",
+  "MS-015": "/products/magic/sm/MS-015/scene.webp",
+  "MS-017": "/products/magic/sm/MS-017/scene.webp",
+  "MS-018": "/products/magic/sm/MS-018/scene.webp",
+  "MS-019": "/products/magic/sm/MS-019/scene.webp",
+  "MS-022": "/products/magic/sm/MS-022/scene.webp",
+  "MS-024": "/products/magic/sm/MS-024/scene.webp",
+  "MS-026": "/products/magic/sm/MS-026/scene.webp",
+  "MS-028": "/products/magic/sm/MS-028/scene.webp",
+  "MS-029": "/products/magic/sm/MS-029/scene.webp",
+  "MS-031": "/products/magic/sm/MS-031/scene.webp",
+  "MS-032": "/products/magic/sm/MS-032/scene.webp",
+  "MS-033": "/products/magic/sm/MS-033/scene.webp",
+  "MS-035": "/products/magic/sm/MS-035/scene.webp",
+  "MS-037": "/products/magic/sm/MS-037/scene.webp",
+  "MS-038": "/products/magic/sm/MS-038/scene.webp",
+  "MS-040": "/products/magic/sm/MS-040/scene.webp",
+  "MS-042": "/products/magic/sm/MS-042/scene.webp",
+  "MS-049": "/products/magic/sm/MS-049/scene.webp",
+  "MS-050": "/products/magic/sm/MS-050/scene.webp",
+  "MS-051": "/products/magic/sm/MS-051/scene.webp",
+  "MS-055": "/products/magic/sm/MS-055/scene.webp",
+  "MS-056": "/products/magic/sm/MS-056/scene.webp",
+  "MS-060": "/products/magic/sm/MS-060/scene.webp",
+  "MS-061": "/products/magic/sm/MS-061/scene.webp",
+  "MS-062": "/products/magic/sm/MS-062/scene.webp",
+  "MS-064": "/products/magic/sm/MS-064/scene.webp",
+  "MS-066": "/products/magic/sm/MS-066/scene.webp",
+  "MS-067": "/products/magic/sm/MS-067/scene.webp",
+  "MS-070": "/products/magic/sm/MS-070/scene.webp",
+  "MS-074": "/products/magic/sm/MS-074/scene.webp",
+  "MS-076": "/products/magic/sm/MS-076/scene.webp",
+  "MS-080": "/products/magic/sm/MS-080/scene.webp",
+  "MS-084": "/products/magic/sm/MS-084/scene.webp",
+  "MS-088": "/products/magic/sm/MS-088/scene.webp",
+  "MS-092": "/products/magic/sm/MS-092/scene.webp",
+  "MS-093": "/products/magic/sm/MS-093/scene.webp",
+  "MS-165": "/products/magic/sm/MS-165/scene.webp",
+  "MS-167": "/products/magic/sm/MS-167/scene.webp",
+  "MS-168": "/products/magic/sm/MS-168/scene.webp"
+};
+
 /** Variant-SKU op de site → MS-code in de beeldset. */
 export const SM_SKU_ALIAS: Record<string, string> = { MED: "MS-017", BUS: "MS-018" };
 
