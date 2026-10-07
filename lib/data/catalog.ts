@@ -1,4 +1,5 @@
 import { catalogProducts, type CatalogProduct, type ProductVariant } from "./products.generated";
+import { SM_SERIES, SM_SWATCH, smCode } from "./flexible-stone-images";
 import { SCENE_STEMS } from "./scenes.generated";
 import { catalogMaterials, type CatalogMaterial } from "./materials.generated";
 import { catalogSpaces, type CatalogSpace } from "./spaces.generated";
@@ -1144,6 +1145,25 @@ export function collectionHref(id: string): string {
   // Deurbeslag heeft (nog) geen eigen pagina — hoort bij Doors.
   if (id === "door-accessories") return "/products/doors";
   return `/products/${id}`;
+}
+
+// Catalogusbeelden Flexible Stone (7 okt 2026): de close-up wordt de kaart,
+// paneel + close-up + sfeerbeeld komen vooraan in de galerij van de kleur
+// waarin de serie is gevisualiseerd, en elke kleur eindigt met de originele
+// fabrieksstaal (MS-code). Bestaande beelden blijven daartussen staan.
+for (const p of catalogProducts) {
+  if (p.collection !== "wall-panels") continue;
+  for (const v of p.variants) {
+    const code = smCode(v.sku);
+    if (!code) continue;
+    const series = SM_SERIES[code];
+    const swatch = SM_SWATCH[code];
+    const front = series ? [series.detail, series.panel, series.scene] : [];
+    const tail = swatch ? [swatch.image] : [];
+    v.images = [...front, ...v.images.filter((i) => !front.includes(i) && !tail.includes(i)), ...tail];
+  }
+  const own = Object.values(SM_SERIES).find((x) => x.slug === p.slug);
+  if (own) p.image = own.detail;
 }
 
 export const productsWithImages = catalogProducts.filter((p) => p.image);

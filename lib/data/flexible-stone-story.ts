@@ -10,6 +10,7 @@
  * Teksten: messages/*.json, namespace `flexibleStone`.
  */
 import { catalogProducts } from "./catalog";
+import { SM_SWATCH, smCode } from "./flexible-stone-images";
 
 const S = "/products/magic/story";
 
@@ -174,7 +175,23 @@ export function flexibleStoneFamily(slug: string, name: string): FsFamilyKey {
 
 /** Stalen (met MS-code) die bij een paneel horen. */
 export function flexibleStoneSwatchesFor(slug: string): Swatch[] {
+  // Eerst de originele fabrieksstalen van álle kleuren van het paneel (uploadset
+  // 7 okt 2026), anders de stalen uit de presentatie.
+  const p = catalogProducts.find((x) => x.slug === slug);
   const out: Swatch[] = [];
+  if (p) {
+    for (const v of p.variants) {
+      const code = smCode(v.sku);
+      const sw = code ? SM_SWATCH[code] : undefined;
+      if (sw) out.push({ code: sw.code, name: sw.product, colour: v.name ?? sw.colour, image: sw.image });
+    }
+    if (out.length === 0) {
+      const code = smCode(p.sku);
+      const sw = code ? SM_SWATCH[code] : undefined;
+      if (sw) out.push({ code: sw.code, name: sw.product, colour: sw.colour, image: sw.image });
+    }
+  }
+  if (out.length > 0) return out;
   for (const f of FS_FAMILIES) for (const sw of f.swatches) if (flexibleStoneHref(sw.name) === `/products/${slug}`) out.push(sw);
   return out;
 }
