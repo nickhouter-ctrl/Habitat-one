@@ -33,8 +33,7 @@ export const FS_BENEFITS = [
   { key: "bathroom", image: `${S}/bathroom-dark-stone.jpg` },
   { key: "slim", image: `${S}/benefit-slim-edge.jpg` },
   { key: "renovation", image: `${S}/kitchen-feature-wall.jpg` },
-  // Vuur: Nick maakt een mooier beeld (7 okt 2026); tot die tijd de testfoto uit de presentatie.
-  { key: "fire", image: `${S}/benefit-fire.jpg` },
+  { key: "fire", image: `${S}/benefit-fire-flame.jpg` },
 ] as const;
 
 /** Alle classificaties uit de technische fiche, in drie groepen; waarden zoals in de fiche. */
