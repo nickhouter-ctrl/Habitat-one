@@ -822,6 +822,214 @@
     "showMore": "Meer tonen",
     "catalogIntro": "Vind materialen en producten voor jouw project."
   },
+  "flexibleStone": {
+    "whatEyebrow": "Wat is Flexible Stone?",
+    "whatTitle": "Steentextuur die met de wand meebuigt",
+    "whatText": "Flexible Stone is een dun decoratief oppervlak van gemodificeerde klei en natuurlijk mineraalpoeder. Steen-, beton- en houtlooks als flexibel vel dat vlakke wanden, rondingen en architectonische details volgt.",
+    "whatText2": "Grote platen en compacte formaten, voor binnen- en buitenwanden. Volgens de technische fiche zijn geen PVC, ftalaten of VOC's aangetroffen.",
+    "fact": {
+      "thin": {
+        "value": "Enkele mm",
+        "label": "dun en flexibel"
+      },
+      "format": {
+        "value": "1,2 × 3,06 m",
+        "label": "grootste plaat"
+      },
+      "finishes": {
+        "value": "30+",
+        "label": "afwerkingen"
+      }
+    },
+    "whatAltBend": "Flexible Stone met de hand gebogen",
+    "whatAltLayers": "Flexible Stone-panelen, textuur en rug",
+    "whatAltColumn": "Kolom bekleed met Flexible Stone",
+    "benefitsEyebrow": "Waarom Flexible Stone",
+    "benefitsTitle": "De voordelen van het product",
+    "benefits": {
+      "curves": {
+        "title": "Volgt rondingen",
+        "text": "Kolommen, gebogen wanden en architectonische details in één doorlopende textuur."
+      },
+      "inOut": {
+        "title": "Binnen en buiten",
+        "text": "Eén collectie voor woonruimtes, gevels, terrassen en tuinmuren."
+      },
+      "bathroom": {
+        "title": "Badkamerwanden",
+        "text": "Een geschikte afwerking voor natte ruimtes, gecombineerd met een volledig waterdichtingssysteem."
+      },
+      "slim": {
+        "title": "Slank decoratief oppervlak",
+        "text": "Enkele millimeters in plaats van massieve steen: minder gewicht en minder opbouw."
+      },
+      "renovation": {
+        "title": "Renoveren op een gezonde ondergrond",
+        "text": "Goed hechtende tegels of andere afwerkingen kunnen blijven zitten als de ondergrond geschikt is."
+      },
+      "fire": {
+        "title": "Gepubliceerde brandklasse",
+        "text": "Klasse A2-s1 volgens de technische fiche."
+      }
+    },
+    "benefitsNote": "De gekozen afwerking, de ondergrond en het plaatsingssysteem bepalen de geschiktheid per project.",
+    "techEyebrow": "Technische samenvatting",
+    "techTitle": "Geteste materiaalprestaties",
+    "techText": "Resultaten zoals vermeld in de technische fiche: brandklasse, vorst-dooi, waterabsorptie, UV-veroudering, vlek- en slijtvastheid en materiaalverklaringen. De volledige fiche is te downloaden.",
+    "techFire": "brandklasse",
+    "techCycles": "vorst-dooicycli getest",
+    "techDownload": "Download de technische fiche",
+    "tech": {
+      "fire": "Brandklasse",
+      "freezeThaw": "Vorst-dooicycli",
+      "water": "Waterabsorptie",
+      "uv": "UV- / lichtveroudering",
+      "stain": "Vlekbestendigheid",
+      "abrasion": "Slijtvastheid",
+      "friction": "Statische wrijvingscoëfficiënt",
+      "ce": "CE-certificaat",
+      "clean": "Materiaalverklaringen"
+    },
+    "formatsEyebrow": "Formaten",
+    "formatsTitle": "Grote vlakken en compacte panelen",
+    "formatsText": "Tot 1,20 × 3,06 m: brede vlakken textuur met minder naden. Compacte panelen van 0,60 × 1,20 m en 0,60 × 0,90 m zijn makkelijker te hanteren en passen bij accentwanden en kleinere renovaties.",
+    "formatsLargeTitle": "Flexible Stone-paneel in groot formaat",
+    "formatsNote": "Voorbeeldformaten. Formaten verschillen per afwerking; Habitat One bevestigt de beschikbare maten.",
+    "installEyebrow": "Plaatsing",
+    "installTitle": "Schoon plaatsen, zorgvuldig afwerken",
+    "installText": "Een voorbereide ondergrond en schoon werken beschermen de textuur. Flexible Stone wordt geplaatst met acryllijm of gelijkwaardig, zonder zwaar steenwerk.",
+    "install": {
+      "layout": {
+        "title": "Ondergrond en indeling",
+        "text": "Zorg voor een gezonde, schone basis. Meet, zet de panelen uit en bepaal de naadposities vóór het bevestigen; snijden op maat gebeurt op de werkplek."
+      },
+      "adhesive": {
+        "title": "Lijm en afwerking",
+        "text": "Gebruik acryllijm of gelijkwaardig volgens voorschrift. Houd lijm en voegmiddel van de textuurzijde."
+      }
+    },
+    "installTips": {
+      "setOut": {
+        "title": "Zet de panelen uit",
+        "text": "Leg de panelen op volgorde en bepaal het naadpatroon voordat je bevestigt."
+      },
+      "keepClean": {
+        "title": "Houd het oppervlak schoon",
+        "text": "De textuur kan lijm, voegmiddel en verf vasthouden. Bescherm het oppervlak zolang er omliggend werk is."
+      },
+      "edges": {
+        "title": "Werk randen en naden af",
+        "text": "Plan hoeken, openingen en natte zones binnen het gekozen plaatsings- en waterdichtingssysteem."
+      }
+    },
+    "appsEyebrow": "Toepassingen",
+    "appsTitle": "Van accentwand tot gevel",
+    "appsText": "Waar de textuur aan het werk gaat: binnenwanden, gebogen vlakken, badkamers, keukens, commerciële interieurs en buitenmuren.",
+    "apps": {
+      "feature": {
+        "title": "Accentwanden binnen",
+        "text": "Een textuur als achtergrond achter de bank, of één afwerking over een grotere wand."
+      },
+      "curved": {
+        "title": "Gebogen wanden en kolommen",
+        "text": "Een doorlopende textuur verzacht de overgang tussen vlakken; strijklicht toont het reliëf."
+      },
+      "living": {
+        "title": "Woonruimtes",
+        "text": "Travertijnlooks passen van nature bij hout en zachte stoffen."
+      },
+      "commercial": {
+        "title": "Commerciële interieurs",
+        "text": "Balies, barfronten en winkelwanden met een steentextuur op een geschikte basis."
+      },
+      "bathroom": {
+        "title": "Badkamerwanden",
+        "text": "Laat de afwerking doorlopen achter het bad of het meubel en verbind de zones van de badkamer."
+      },
+      "shower": {
+        "title": "Douches en natte zones",
+        "text": "Textuur die doorloopt rond gebogen douchewanden, met een volledig waterdichtings- en voegsysteem."
+      },
+      "kitchen": {
+        "title": "Keukenwanden",
+        "text": "Steentextuur naast kasten, hout en metaal. Wandvlakken, geen werkbladen."
+      },
+      "dining": {
+        "title": "Eetkamerwanden",
+        "text": "Eén wand met textuur geeft de eetruimte haar achtergrond."
+      },
+      "facade": {
+        "title": "Woninggevels",
+        "text": "Kies afwerking en paneelindeling passend bij de architectuur."
+      },
+      "terrace": {
+        "title": "Terrassen en buitenmuren",
+        "text": "Textuur als achtergrond voor beplanting en buitenleven."
+      },
+      "corner": {
+        "title": "Buitenhoeken en details",
+        "text": "Laat één afwerking om de hoek doorlopen en kader ramen met de paneelindeling."
+      },
+      "bedroom": {
+        "title": "Slaapkamerwanden",
+        "text": "Een rustig horizontaal patroon of een uitgesprokener steentextuur achter het bed."
+      }
+    },
+    "familiesEyebrow": "De collectie",
+    "familiesTitle": "Kleuren en texturen voor je project",
+    "familiesText": "Een doordacht assortiment in vijf textuurfamilies. Klik op een afwerking om het paneel te openen; stalen bevestigen kleur en reliëf in je eigen licht.",
+    "families": {
+      "travertine": {
+        "title": "Travertijn",
+        "text": "Subtiele neutrale tinten, adering en warmere tonen"
+      },
+      "stone": {
+        "title": "Steen",
+        "text": "Korrelige, ruwe en gekapte oppervlakken"
+      },
+      "concrete": {
+        "title": "Beton en lijnen",
+        "text": "Rustige vlakken en een strakker ritme"
+      },
+      "earth": {
+        "title": "Aarde en verweerd",
+        "text": "Lagen, warme kleuren en expressief reliëf"
+      },
+      "wood": {
+        "title": "Hout",
+        "text": "Houtkarakter in een flexibel decoratief oppervlak"
+      }
+    },
+    "familiesNote": "Afwerkingen met fabriekscodes. Fysieke stalen bevestigen kleur en textuur.",
+    "faqEyebrow": "Vragen",
+    "faqTitle": "Vragen over Flexible Stone",
+    "faq": {
+      "where": {
+        "q": "Waar kan het worden toegepast?",
+        "a": "Accentwanden binnen, badkamerwanden en geselecteerde buitentoepassingen. Stem afwerking en plaatsingssysteem af op de ruimte."
+      },
+      "tiles": {
+        "q": "Kan het over bestaande tegels?",
+        "a": "Een stabiele, goed hechtende ondergrond kan geschikt zijn na voorbereiding en een hechtingscontrole."
+      },
+      "look": {
+        "q": "Wat maakt het eindresultaat mooi?",
+        "a": "Paneelindeling, schoon bevestigen en zorgvuldige afwerking van de naden."
+      },
+      "ceiling": {
+        "q": "Kan het op plafonds?",
+        "a": "Plafondtoepassingen zijn mogelijk met een geschikte afwerking en bevestiging. Bevestig ondergrond en plaatsingsdetails."
+      },
+      "radius": {
+        "q": "Volgt het ook scherpe bochten?",
+        "a": "De haalbare straal hangt af van afwerking en dikte. Test een fysiek staal op het beoogde detail."
+      },
+      "insulation": {
+        "q": "Is het te combineren met isolatie?",
+        "a": "Geschikte rug- of isolatiepanelen kunnen deel uitmaken van het wandsysteem. Bevestig de volledige combinatie."
+      }
+    }
+  },
   "spaces": {
     "eyebrow": "Ruimte voor ruimte",
     "title": "Ruimtes",

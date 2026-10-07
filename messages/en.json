@@ -822,6 +822,214 @@
     "showMore": "Show more",
     "catalogIntro": "Find materials and products for your project."
   },
+  "flexibleStone": {
+    "whatEyebrow": "What is Flexible Stone?",
+    "whatTitle": "Stone texture that bends with the wall",
+    "whatText": "Flexible Stone is a thin decorative surface made from modified clay and natural mineral powder. Stone, concrete and wood-like textures come as a flexible sheet that follows flat walls, curves and architectural details.",
+    "whatText2": "Large panels and compact formats, for interior and exterior walls. The data sheet reports no detected PVC, phthalates or VOCs.",
+    "fact": {
+      "thin": {
+        "value": "A few mm",
+        "label": "thin and flexible"
+      },
+      "format": {
+        "value": "1.2 × 3.06 m",
+        "label": "largest panel"
+      },
+      "finishes": {
+        "value": "30+",
+        "label": "finishes"
+      }
+    },
+    "whatAltBend": "Flexible Stone bent by hand",
+    "whatAltLayers": "Flexible Stone panels, texture and backing",
+    "whatAltColumn": "Column wrapped in Flexible Stone",
+    "benefitsEyebrow": "Why Flexible Stone",
+    "benefitsTitle": "The product benefits",
+    "benefits": {
+      "curves": {
+        "title": "Follows curves",
+        "text": "Columns, rounded walls and architectural details in one continuous texture."
+      },
+      "inOut": {
+        "title": "Interior and exterior",
+        "text": "One range for living spaces, façades, terraces and garden walls."
+      },
+      "bathroom": {
+        "title": "Bathroom walls",
+        "text": "A suitable finish for wet areas, combined with a complete waterproofing system."
+      },
+      "slim": {
+        "title": "Slim decorative surface",
+        "text": "A few millimetres instead of solid stone: less weight and less build-up."
+      },
+      "renovation": {
+        "title": "Renovation over a sound base",
+        "text": "Firmly bonded tiles or other finishes can stay where the substrate is suitable."
+      },
+      "fire": {
+        "title": "Published fire performance",
+        "text": "Class A2-s1 according to the technical data sheet."
+      }
+    },
+    "benefitsNote": "The selected finish, substrate and installation system determine suitability for each project.",
+    "techEyebrow": "Technical summary",
+    "techTitle": "Tested material performance",
+    "techText": "Results as reported in the technical data sheet: fire rating, freeze-thaw, water absorption, UV ageing, stain and abrasion resistance, and material declarations. The complete data sheet is available as a download.",
+    "techFire": "fire rating",
+    "techCycles": "freeze-thaw cycles tested",
+    "techDownload": "Download the technical data sheet",
+    "tech": {
+      "fire": "Fire rating",
+      "freezeThaw": "Freeze-thaw cycling",
+      "water": "Water absorption",
+      "uv": "UV / light ageing",
+      "stain": "Stain resistance",
+      "abrasion": "Abrasion resistance",
+      "friction": "Static coefficient of friction",
+      "ce": "CE certificate",
+      "clean": "Material declarations"
+    },
+    "formatsEyebrow": "Formats",
+    "formatsTitle": "Large surfaces and compact panels",
+    "formatsText": "Up to 1.20 × 3.06 m: broad areas of texture with fewer joints. Compact panels of 0.60 × 1.20 m and 0.60 × 0.90 m are easier to handle and suit feature walls and smaller renovations.",
+    "formatsLargeTitle": "Large-format Flexible Stone panel",
+    "formatsNote": "Example formats. Formats vary by finish; Habitat One confirms the available dimensions.",
+    "installEyebrow": "Installation",
+    "installTitle": "Clean installation, careful detailing",
+    "installText": "A prepared surface and clean working methods protect the finished texture. Flexible Stone is installed with acrylic adhesive or equivalent, without heavy stonework.",
+    "install": {
+      "layout": {
+        "title": "Substrate and layout",
+        "text": "Prepare a sound, clean base. Measure, set out the panels and decide the joint positions before fixing; cut to size on site."
+      },
+      "adhesive": {
+        "title": "Adhesive and finishing",
+        "text": "Use acrylic adhesive or equivalent as specified. Keep adhesive and grout off the textured face."
+      }
+    },
+    "installTips": {
+      "setOut": {
+        "title": "Set out the panels",
+        "text": "Place the panels in order and decide the joint pattern before fixing."
+      },
+      "keepClean": {
+        "title": "Keep the face clean",
+        "text": "The textured surface can trap adhesive, grout and paint. Protect it while adjoining work is underway."
+      },
+      "edges": {
+        "title": "Detail the edges and joints",
+        "text": "Plan corners, openings and wet areas within the selected installation and waterproofing system."
+      }
+    },
+    "appsEyebrow": "Applications",
+    "appsTitle": "From feature wall to façade",
+    "appsText": "Where the texture goes to work: interior walls, curved surfaces, bathrooms, kitchens, commercial interiors and outdoor walls.",
+    "apps": {
+      "feature": {
+        "title": "Interior feature walls",
+        "text": "A textured backdrop behind a sofa, or one finish across a larger wall."
+      },
+      "curved": {
+        "title": "Curved walls and columns",
+        "text": "A continuous texture softens the transition between surfaces; side lighting reveals the relief."
+      },
+      "living": {
+        "title": "Living spaces",
+        "text": "Travertine-like finishes sit naturally alongside wood and soft furnishings."
+      },
+      "commercial": {
+        "title": "Commercial interiors",
+        "text": "Reception counters, bar fronts and shop walls with a stone texture on a compatible base."
+      },
+      "bathroom": {
+        "title": "Bathroom walls",
+        "text": "Continue the finish behind the bath or vanity and connect the areas of the bathroom."
+      },
+      "shower": {
+        "title": "Showers and wet areas",
+        "text": "Texture that continues around curved shower walls, with a complete waterproofing and joint system."
+      },
+      "kitchen": {
+        "title": "Kitchen feature walls",
+        "text": "Stone texture beside cabinetry, timber and metal. Wall surfaces, not worktops."
+      },
+      "dining": {
+        "title": "Dining walls",
+        "text": "A single textured wall gives the dining space its backdrop."
+      },
+      "facade": {
+        "title": "Residential façades",
+        "text": "Choose the finish and panel layout to suit the architecture."
+      },
+      "terrace": {
+        "title": "Terraces and outdoor walls",
+        "text": "Texture as a backdrop to planting and outdoor living."
+      },
+      "corner": {
+        "title": "Exterior corners and details",
+        "text": "Carry one finish around a corner and frame windows with the panel layout."
+      },
+      "bedroom": {
+        "title": "Bedroom feature walls",
+        "text": "A quiet horizontal pattern or a more pronounced stone texture behind the bed."
+      }
+    },
+    "familiesEyebrow": "The collection",
+    "familiesTitle": "Colours and textures for your project",
+    "familiesText": "A considered range in five texture families. Click a finish to open the panel; samples confirm colour and relief in your own light.",
+    "families": {
+      "travertine": {
+        "title": "Travertine finishes",
+        "text": "Subtle neutrals, veining and warmer tones"
+      },
+      "stone": {
+        "title": "Stone finishes",
+        "text": "Granular, rough and carved surface textures"
+      },
+      "concrete": {
+        "title": "Concrete and linear textures",
+        "text": "Quiet surfaces and a more structured rhythm"
+      },
+      "earth": {
+        "title": "Earth and weathered textures",
+        "text": "Layers, warm colours and expressive relief"
+      },
+      "wood": {
+        "title": "Wood textures",
+        "text": "Timber character in a flexible decorative surface"
+      }
+    },
+    "familiesNote": "Finish illustrations with factory codes. Physical samples confirm colour and texture.",
+    "faqEyebrow": "Questions",
+    "faqTitle": "Questions about Flexible Stone",
+    "faq": {
+      "where": {
+        "q": "Where can it be used?",
+        "a": "Interior feature walls, bathroom walls and selected exterior applications. Match the finish and the installation system to the space."
+      },
+      "tiles": {
+        "q": "Can it cover existing tiles?",
+        "a": "A stable, well-bonded surface may be suitable after preparation and an adhesion check."
+      },
+      "look": {
+        "q": "What makes the finish look right?",
+        "a": "Panel layout, clean fixing and careful joint detailing."
+      },
+      "ceiling": {
+        "q": "Can it be used on ceilings?",
+        "a": "Ceiling applications are possible with a suitable finish and fixing system. Confirm the substrate and installation details."
+      },
+      "radius": {
+        "q": "Can it follow tight curves?",
+        "a": "The achievable radius depends on the finish and thickness. Check a physical sample against the proposed detail."
+      },
+      "insulation": {
+        "q": "Can it be combined with insulation?",
+        "a": "Compatible backing or insulation panels can form part of the wall system. Confirm the complete combination."
+      }
+    }
+  },
   "spaces": {
     "eyebrow": "Room by room",
     "title": "Spaces",

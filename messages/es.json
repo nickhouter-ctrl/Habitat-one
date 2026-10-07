@@ -822,6 +822,214 @@
     "showMore": "Ver más",
     "catalogIntro": "Encuentra materiales y productos para tu proyecto."
   },
+  "flexibleStone": {
+    "whatEyebrow": "¿Qué es Flexible Stone?",
+    "whatTitle": "Textura de piedra que se adapta a la pared",
+    "whatText": "Flexible Stone es una superficie decorativa fina de arcilla modificada y polvo mineral natural. Texturas de piedra, hormigón y madera en una lámina flexible que sigue paredes planas, curvas y detalles arquitectónicos.",
+    "whatText2": "Paneles grandes y formatos compactos, para paredes interiores y exteriores. La ficha técnica no detecta PVC, ftalatos ni COV.",
+    "fact": {
+      "thin": {
+        "value": "Pocos mm",
+        "label": "fina y flexible"
+      },
+      "format": {
+        "value": "1,2 × 3,06 m",
+        "label": "panel más grande"
+      },
+      "finishes": {
+        "value": "30+",
+        "label": "acabados"
+      }
+    },
+    "whatAltBend": "Flexible Stone doblada a mano",
+    "whatAltLayers": "Paneles Flexible Stone, textura y reverso",
+    "whatAltColumn": "Columna revestida con Flexible Stone",
+    "benefitsEyebrow": "Por qué Flexible Stone",
+    "benefitsTitle": "Las ventajas del producto",
+    "benefits": {
+      "curves": {
+        "title": "Sigue las curvas",
+        "text": "Columnas, paredes redondeadas y detalles arquitectónicos en una textura continua."
+      },
+      "inOut": {
+        "title": "Interior y exterior",
+        "text": "Una gama para estancias, fachadas, terrazas y muros de jardín."
+      },
+      "bathroom": {
+        "title": "Paredes de baño",
+        "text": "Un acabado adecuado para zonas húmedas, combinado con un sistema completo de impermeabilización."
+      },
+      "slim": {
+        "title": "Superficie decorativa fina",
+        "text": "Unos milímetros en lugar de piedra maciza: menos peso y menos espesor."
+      },
+      "renovation": {
+        "title": "Reforma sobre una base sana",
+        "text": "Los azulejos u otros acabados bien adheridos pueden quedarse si el soporte es adecuado."
+      },
+      "fire": {
+        "title": "Comportamiento al fuego publicado",
+        "text": "Clase A2-s1 según la ficha técnica."
+      }
+    },
+    "benefitsNote": "El acabado elegido, el soporte y el sistema de instalación determinan la idoneidad de cada proyecto.",
+    "techEyebrow": "Resumen técnico",
+    "techTitle": "Prestaciones del material ensayadas",
+    "techText": "Resultados según la ficha técnica: clase de fuego, hielo-deshielo, absorción de agua, envejecimiento UV, resistencia a manchas y abrasión y declaraciones del material. La ficha completa se puede descargar.",
+    "techFire": "clase de fuego",
+    "techCycles": "ciclos hielo-deshielo ensayados",
+    "techDownload": "Descargar la ficha técnica",
+    "tech": {
+      "fire": "Clase de fuego",
+      "freezeThaw": "Ciclos hielo-deshielo",
+      "water": "Absorción de agua",
+      "uv": "Envejecimiento UV / luz",
+      "stain": "Resistencia a manchas",
+      "abrasion": "Resistencia a la abrasión",
+      "friction": "Coeficiente estático de fricción",
+      "ce": "Certificado CE",
+      "clean": "Declaraciones del material"
+    },
+    "formatsEyebrow": "Formatos",
+    "formatsTitle": "Grandes superficies y paneles compactos",
+    "formatsText": "Hasta 1,20 × 3,06 m: grandes áreas de textura con menos juntas. Los paneles compactos de 0,60 × 1,20 m y 0,60 × 0,90 m se manejan mejor y encajan en paredes de acento y reformas pequeñas.",
+    "formatsLargeTitle": "Panel Flexible Stone de gran formato",
+    "formatsNote": "Formatos de ejemplo. Varían según el acabado; Habitat One confirma las medidas disponibles.",
+    "installEyebrow": "Instalación",
+    "installTitle": "Colocación limpia, detalles cuidados",
+    "installText": "Una superficie preparada y un trabajo limpio protegen la textura. Flexible Stone se coloca con adhesivo acrílico o equivalente, sin obra pesada.",
+    "install": {
+      "layout": {
+        "title": "Soporte y replanteo",
+        "text": "Prepare una base sana y limpia. Mida, replantee los paneles y decida las juntas antes de fijar; el corte a medida se hace en obra."
+      },
+      "adhesive": {
+        "title": "Adhesivo y acabado",
+        "text": "Use adhesivo acrílico o equivalente según especificación. Mantenga adhesivo y lechada lejos de la cara texturizada."
+      }
+    },
+    "installTips": {
+      "setOut": {
+        "title": "Replantee los paneles",
+        "text": "Coloque los paneles en orden y decida el patrón de juntas antes de fijar."
+      },
+      "keepClean": {
+        "title": "Mantenga limpia la cara",
+        "text": "La textura puede atrapar adhesivo, lechada y pintura. Protéjala mientras haya trabajos cerca."
+      },
+      "edges": {
+        "title": "Detalle bordes y juntas",
+        "text": "Planifique esquinas, huecos y zonas húmedas dentro del sistema de instalación e impermeabilización elegido."
+      }
+    },
+    "appsEyebrow": "Aplicaciones",
+    "appsTitle": "De la pared de acento a la fachada",
+    "appsText": "Donde trabaja la textura: paredes interiores, superficies curvas, baños, cocinas, interiores comerciales y muros exteriores.",
+    "apps": {
+      "feature": {
+        "title": "Paredes de acento interiores",
+        "text": "Un fondo texturizado tras el sofá, o un acabado en toda una pared."
+      },
+      "curved": {
+        "title": "Paredes curvas y columnas",
+        "text": "Una textura continua suaviza la transición entre superficies; la luz rasante revela el relieve."
+      },
+      "living": {
+        "title": "Salones",
+        "text": "Los acabados tipo travertino combinan con madera y tejidos."
+      },
+      "commercial": {
+        "title": "Interiores comerciales",
+        "text": "Mostradores, frentes de barra y paredes de tienda con textura de piedra sobre una base compatible."
+      },
+      "bathroom": {
+        "title": "Paredes de baño",
+        "text": "Continúe el acabado tras la bañera o el mueble y conecte las zonas del baño."
+      },
+      "shower": {
+        "title": "Duchas y zonas húmedas",
+        "text": "Textura que sigue las paredes curvas de la ducha, con un sistema completo de impermeabilización y juntas."
+      },
+      "kitchen": {
+        "title": "Paredes de cocina",
+        "text": "Textura de piedra junto a muebles, madera y metal. Superficies de pared, no encimeras."
+      },
+      "dining": {
+        "title": "Paredes de comedor",
+        "text": "Una sola pared texturizada da fondo al comedor."
+      },
+      "facade": {
+        "title": "Fachadas residenciales",
+        "text": "Elija acabado y despiece según la arquitectura."
+      },
+      "terrace": {
+        "title": "Terrazas y muros exteriores",
+        "text": "Textura como fondo para la vegetación y la vida al aire libre."
+      },
+      "corner": {
+        "title": "Esquinas y detalles exteriores",
+        "text": "Continúe un acabado al doblar la esquina y enmarque ventanas con el despiece."
+      },
+      "bedroom": {
+        "title": "Paredes de dormitorio",
+        "text": "Un patrón horizontal tranquilo o una textura de piedra más marcada tras la cama."
+      }
+    },
+    "familiesEyebrow": "La colección",
+    "familiesTitle": "Colores y texturas para tu proyecto",
+    "familiesText": "Una gama meditada en cinco familias de textura. Pulsa un acabado para abrir el panel; las muestras confirman color y relieve con tu propia luz.",
+    "families": {
+      "travertine": {
+        "title": "Travertinos",
+        "text": "Neutros sutiles, vetas y tonos cálidos"
+      },
+      "stone": {
+        "title": "Piedra",
+        "text": "Superficies granuladas, rugosas y talladas"
+      },
+      "concrete": {
+        "title": "Hormigón y líneas",
+        "text": "Superficies serenas y un ritmo más estructurado"
+      },
+      "earth": {
+        "title": "Tierra y envejecido",
+        "text": "Capas, colores cálidos y relieve expresivo"
+      },
+      "wood": {
+        "title": "Madera",
+        "text": "Carácter de madera en una superficie decorativa flexible"
+      }
+    },
+    "familiesNote": "Ilustraciones de acabado con códigos de fábrica. Las muestras físicas confirman color y textura.",
+    "faqEyebrow": "Preguntas",
+    "faqTitle": "Preguntas sobre Flexible Stone",
+    "faq": {
+      "where": {
+        "q": "¿Dónde se puede usar?",
+        "a": "Paredes de acento interiores, paredes de baño y aplicaciones exteriores seleccionadas. Adapte acabado y sistema al espacio."
+      },
+      "tiles": {
+        "q": "¿Puede cubrir azulejos existentes?",
+        "a": "Una superficie estable y bien adherida puede servir tras la preparación y una comprobación de adherencia."
+      },
+      "look": {
+        "q": "¿Qué hace que el acabado quede bien?",
+        "a": "El despiece, una fijación limpia y un cuidado detalle de las juntas."
+      },
+      "ceiling": {
+        "q": "¿Se puede usar en techos?",
+        "a": "Es posible con un acabado y un sistema de fijación adecuados. Confirme soporte y detalles de instalación."
+      },
+      "radius": {
+        "q": "¿Sigue curvas cerradas?",
+        "a": "El radio alcanzable depende del acabado y el grosor. Compruebe una muestra física en el detalle previsto."
+      },
+      "insulation": {
+        "q": "¿Se combina con aislamiento?",
+        "a": "Paneles de respaldo o aislamiento compatibles pueden formar parte del sistema de pared. Confirme la combinación completa."
+      }
+    }
+  },
   "spaces": {
     "eyebrow": "Estancia por estancia",
     "title": "Espacios",

@@ -822,6 +822,214 @@
     "showMore": "Mehr anzeigen",
     "catalogIntro": "Finde Materialien und Produkte für dein Projekt."
   },
+  "flexibleStone": {
+    "whatEyebrow": "Was ist Flexible Stone?",
+    "whatTitle": "Steinstruktur, die sich der Wand anpasst",
+    "whatText": "Flexible Stone ist eine dünne Dekoroberfläche aus modifiziertem Ton und natürlichem Mineralpulver. Stein-, Beton- und Holzstrukturen als flexible Bahn, die ebenen Wänden, Rundungen und architektonischen Details folgt.",
+    "whatText2": "Großformate und kompakte Formate für Innen- und Außenwände. Laut Datenblatt wurden keine PVC, Phthalate oder VOC nachgewiesen.",
+    "fact": {
+      "thin": {
+        "value": "Wenige mm",
+        "label": "dünn und flexibel"
+      },
+      "format": {
+        "value": "1,2 × 3,06 m",
+        "label": "größtes Paneel"
+      },
+      "finishes": {
+        "value": "30+",
+        "label": "Oberflächen"
+      }
+    },
+    "whatAltBend": "Flexible Stone von Hand gebogen",
+    "whatAltLayers": "Flexible-Stone-Paneele, Struktur und Rückseite",
+    "whatAltColumn": "Mit Flexible Stone verkleidete Säule",
+    "benefitsEyebrow": "Warum Flexible Stone",
+    "benefitsTitle": "Die Produktvorteile",
+    "benefits": {
+      "curves": {
+        "title": "Folgt Rundungen",
+        "text": "Säulen, runde Wände und Details in einer durchgehenden Struktur."
+      },
+      "inOut": {
+        "title": "Innen und außen",
+        "text": "Ein Sortiment für Wohnräume, Fassaden, Terrassen und Gartenmauern."
+      },
+      "bathroom": {
+        "title": "Badwände",
+        "text": "Eine geeignete Oberfläche für Nassbereiche, kombiniert mit einem vollständigen Abdichtungssystem."
+      },
+      "slim": {
+        "title": "Schlanke Dekoroberfläche",
+        "text": "Wenige Millimeter statt Massivstein: weniger Gewicht, weniger Aufbau."
+      },
+      "renovation": {
+        "title": "Sanierung auf tragfähigem Grund",
+        "text": "Fest haftende Fliesen oder andere Beläge können bleiben, wenn der Untergrund geeignet ist."
+      },
+      "fire": {
+        "title": "Veröffentlichtes Brandverhalten",
+        "text": "Klasse A2-s1 laut technischem Datenblatt."
+      }
+    },
+    "benefitsNote": "Oberfläche, Untergrund und Verlegesystem bestimmen die Eignung je Projekt.",
+    "techEyebrow": "Technische Zusammenfassung",
+    "techTitle": "Geprüfte Materialleistung",
+    "techText": "Ergebnisse laut Datenblatt: Brandklasse, Frost-Tau, Wasseraufnahme, UV-Alterung, Fleck- und Abriebfestigkeit sowie Materialerklärungen. Das vollständige Datenblatt steht zum Download bereit.",
+    "techFire": "Brandklasse",
+    "techCycles": "Frost-Tau-Zyklen geprüft",
+    "techDownload": "Technisches Datenblatt herunterladen",
+    "tech": {
+      "fire": "Brandklasse",
+      "freezeThaw": "Frost-Tau-Wechsel",
+      "water": "Wasseraufnahme",
+      "uv": "UV-/Lichtalterung",
+      "stain": "Fleckbeständigkeit",
+      "abrasion": "Abriebfestigkeit",
+      "friction": "Statischer Reibungskoeffizient",
+      "ce": "CE-Zertifikat",
+      "clean": "Materialerklärungen"
+    },
+    "formatsEyebrow": "Formate",
+    "formatsTitle": "Große Flächen und kompakte Paneele",
+    "formatsText": "Bis 1,20 × 3,06 m: breite Strukturflächen mit weniger Fugen. Kompakte Paneele von 0,60 × 1,20 m und 0,60 × 0,90 m sind leichter zu handhaben und passen zu Akzentwänden und kleineren Renovierungen.",
+    "formatsLargeTitle": "Flexible-Stone-Paneel im Großformat",
+    "formatsNote": "Beispielformate. Formate variieren je Oberfläche; Habitat One bestätigt die verfügbaren Maße.",
+    "installEyebrow": "Verlegung",
+    "installTitle": "Saubere Verlegung, sorgfältige Details",
+    "installText": "Ein vorbereiteter Untergrund und sauberes Arbeiten schützen die Struktur. Flexible Stone wird mit Acrylkleber oder gleichwertig verlegt, ohne schwere Steinarbeiten.",
+    "install": {
+      "layout": {
+        "title": "Untergrund und Einteilung",
+        "text": "Tragfähige, saubere Basis vorbereiten. Messen, Paneele einteilen und Fugen vor dem Befestigen festlegen; Zuschnitt vor Ort."
+      },
+      "adhesive": {
+        "title": "Kleber und Finish",
+        "text": "Acrylkleber oder gleichwertig nach Vorgabe verwenden. Kleber und Fugenmasse von der Strukturseite fernhalten."
+      }
+    },
+    "installTips": {
+      "setOut": {
+        "title": "Paneele einteilen",
+        "text": "Paneele in Reihenfolge auslegen und das Fugenbild vor dem Befestigen festlegen."
+      },
+      "keepClean": {
+        "title": "Oberfläche sauber halten",
+        "text": "Die Struktur kann Kleber, Fugenmasse und Farbe aufnehmen. Während angrenzender Arbeiten schützen."
+      },
+      "edges": {
+        "title": "Kanten und Fugen ausbilden",
+        "text": "Ecken, Öffnungen und Nassbereiche im gewählten Verlege- und Abdichtungssystem planen."
+      }
+    },
+    "appsEyebrow": "Anwendungen",
+    "appsTitle": "Von der Akzentwand bis zur Fassade",
+    "appsText": "Wo die Struktur wirkt: Innenwände, gebogene Flächen, Bäder, Küchen, gewerbliche Interieurs und Außenwände.",
+    "apps": {
+      "feature": {
+        "title": "Akzentwände innen",
+        "text": "Ein strukturierter Hintergrund hinter dem Sofa oder eine Oberfläche über eine größere Wand."
+      },
+      "curved": {
+        "title": "Gebogene Wände und Säulen",
+        "text": "Eine durchgehende Struktur mildert den Übergang zwischen Flächen; Streiflicht zeigt das Relief."
+      },
+      "living": {
+        "title": "Wohnräume",
+        "text": "Travertinartige Oberflächen passen natürlich zu Holz und Textilien."
+      },
+      "commercial": {
+        "title": "Gewerbliche Interieurs",
+        "text": "Empfangstresen, Barfronten und Ladenwände mit Steinstruktur auf kompatiblem Untergrund."
+      },
+      "bathroom": {
+        "title": "Badwände",
+        "text": "Die Oberfläche hinter Wanne oder Waschtisch weiterführen und die Zonen des Bades verbinden."
+      },
+      "shower": {
+        "title": "Duschen und Nassbereiche",
+        "text": "Struktur, die um gebogene Duschwände läuft, mit vollständigem Abdichtungs- und Fugensystem."
+      },
+      "kitchen": {
+        "title": "Küchenwände",
+        "text": "Steinstruktur neben Schränken, Holz und Metall. Wandflächen, keine Arbeitsplatten."
+      },
+      "dining": {
+        "title": "Esszimmerwände",
+        "text": "Eine strukturierte Wand gibt dem Essbereich seinen Hintergrund."
+      },
+      "facade": {
+        "title": "Wohnhausfassaden",
+        "text": "Oberfläche und Paneelraster passend zur Architektur wählen."
+      },
+      "terrace": {
+        "title": "Terrassen und Außenwände",
+        "text": "Struktur als Hintergrund für Bepflanzung und Leben im Freien."
+      },
+      "corner": {
+        "title": "Außenecken und Details",
+        "text": "Eine Oberfläche um die Ecke führen und Fenster mit dem Raster rahmen."
+      },
+      "bedroom": {
+        "title": "Schlafzimmerwände",
+        "text": "Ein ruhiges horizontales Muster oder eine ausgeprägtere Steinstruktur hinter dem Bett."
+      }
+    },
+    "familiesEyebrow": "Die Kollektion",
+    "familiesTitle": "Farben und Strukturen für Ihr Projekt",
+    "familiesText": "Ein durchdachtes Sortiment in fünf Strukturfamilien. Klicken Sie auf eine Oberfläche, um das Paneel zu öffnen; Muster bestätigen Farbe und Relief in Ihrem eigenen Licht.",
+    "families": {
+      "travertine": {
+        "title": "Travertin",
+        "text": "Dezente Neutraltöne, Äderung und wärmere Nuancen"
+      },
+      "stone": {
+        "title": "Stein",
+        "text": "Körnige, raue und behauene Oberflächen"
+      },
+      "concrete": {
+        "title": "Beton und Linien",
+        "text": "Ruhige Flächen und ein strukturierterer Rhythmus"
+      },
+      "earth": {
+        "title": "Erde und verwittert",
+        "text": "Schichten, warme Farben und ausdrucksstarkes Relief"
+      },
+      "wood": {
+        "title": "Holz",
+        "text": "Holzcharakter in einer flexiblen Dekoroberfläche"
+      }
+    },
+    "familiesNote": "Oberflächen mit Werkscodes. Physische Muster bestätigen Farbe und Struktur.",
+    "faqEyebrow": "Fragen",
+    "faqTitle": "Fragen zu Flexible Stone",
+    "faq": {
+      "where": {
+        "q": "Wo kann es eingesetzt werden?",
+        "a": "Akzentwände innen, Badwände und ausgewählte Außenanwendungen. Oberfläche und System auf den Raum abstimmen."
+      },
+      "tiles": {
+        "q": "Kann es vorhandene Fliesen überdecken?",
+        "a": "Ein stabiler, gut haftender Untergrund kann nach Vorbereitung und Haftungsprüfung geeignet sein."
+      },
+      "look": {
+        "q": "Was macht das Ergebnis gut?",
+        "a": "Paneelraster, saubere Befestigung und sorgfältige Fugenausbildung."
+      },
+      "ceiling": {
+        "q": "Geht es auch an Decken?",
+        "a": "Deckenanwendungen sind mit geeigneter Oberfläche und Befestigung möglich. Untergrund und Details bestätigen."
+      },
+      "radius": {
+        "q": "Folgt es engen Rundungen?",
+        "a": "Der erreichbare Radius hängt von Oberfläche und Stärke ab. Ein physisches Muster am geplanten Detail prüfen."
+      },
+      "insulation": {
+        "q": "Lässt es sich mit Dämmung kombinieren?",
+        "a": "Kompatible Träger- oder Dämmplatten können Teil des Wandsystems sein. Die vollständige Kombination bestätigen."
+      }
+    }
+  },
   "spaces": {
     "eyebrow": "Raum für Raum",
     "title": "Räume",

@@ -822,6 +822,214 @@
     "showMore": "显示更多",
     "catalogIntro": "寻找适合您项目的材料和产品。"
   },
+  "flexibleStone": {
+    "whatEyebrow": "什么是 Flexible Stone？",
+    "whatTitle": "随墙而弯的石材质感",
+    "whatText": "Flexible Stone 是一种由改性黏土和天然矿物粉制成的超薄装饰面层。石材、混凝土与木纹质感以柔性板材呈现，可贴合平面墙体、曲面及建筑细节。",
+    "whatText2": "提供大幅面板材与紧凑规格，适用于室内外墙面。技术数据表显示未检出 PVC、邻苯二甲酸酯及 VOC。",
+    "fact": {
+      "thin": {
+        "value": "数毫米",
+        "label": "轻薄柔韧"
+      },
+      "format": {
+        "value": "1.2 × 3.06 米",
+        "label": "最大板材"
+      },
+      "finishes": {
+        "value": "30+",
+        "label": "种饰面"
+      }
+    },
+    "whatAltBend": "手持弯折的 Flexible Stone",
+    "whatAltLayers": "Flexible Stone 板材：质感面与背衬",
+    "whatAltColumn": "以 Flexible Stone 包覆的立柱",
+    "benefitsEyebrow": "为什么选择 Flexible Stone",
+    "benefitsTitle": "产品优势",
+    "benefits": {
+      "curves": {
+        "title": "贴合曲面",
+        "text": "立柱、弧形墙与建筑细节，以连续质感一气呵成。"
+      },
+      "inOut": {
+        "title": "室内与室外",
+        "text": "一套产品覆盖起居空间、立面、露台与庭院围墙。"
+      },
+      "bathroom": {
+        "title": "卫浴墙面",
+        "text": "适用于潮湿区域，须配合完整的防水系统。"
+      },
+      "slim": {
+        "title": "超薄装饰面层",
+        "text": "数毫米厚度取代实心石材：更轻、更薄。"
+      },
+      "renovation": {
+        "title": "在稳固基层上翻新",
+        "text": "基层合适时，黏结牢固的瓷砖或其他饰面可以保留。"
+      },
+      "fire": {
+        "title": "已公布的防火性能",
+        "text": "技术数据表所载等级 A2-s1。"
+      }
+    },
+    "benefitsNote": "所选饰面、基层与安装系统决定每个项目的适用性。",
+    "techEyebrow": "技术概要",
+    "techTitle": "经检测的材料性能",
+    "techText": "技术数据表所载结果：防火等级、冻融、吸水率、紫外老化、耐污与耐磨性能及材料声明。完整数据表可下载。",
+    "techFire": "防火等级",
+    "techCycles": "次冻融循环测试",
+    "techDownload": "下载技术数据表",
+    "tech": {
+      "fire": "防火等级",
+      "freezeThaw": "冻融循环",
+      "water": "吸水率",
+      "uv": "紫外/光老化",
+      "stain": "耐污性",
+      "abrasion": "耐磨性",
+      "friction": "静摩擦系数",
+      "ce": "CE 认证",
+      "clean": "材料声明"
+    },
+    "formatsEyebrow": "规格",
+    "formatsTitle": "大幅面与紧凑板材",
+    "formatsText": "最大 1.20 × 3.06 米：大面积连续质感，接缝更少。0.60 × 1.20 米与 0.60 × 0.90 米的紧凑板材便于搬运，适合背景墙与小型翻新。",
+    "formatsLargeTitle": "大幅面 Flexible Stone 板材",
+    "formatsNote": "示例规格。规格因饰面而异，以 Habitat One 确认的尺寸为准。",
+    "installEyebrow": "安装",
+    "installTitle": "整洁施工，细节讲究",
+    "installText": "平整的基层与整洁的施工方式保护成品质感。Flexible Stone 以丙烯酸胶或同等胶粘剂安装，无需重型石材工程。",
+    "install": {
+      "layout": {
+        "title": "基层与排版",
+        "text": "准备稳固、洁净的基层。固定前先测量、排版并确定接缝位置；现场裁切。"
+      },
+      "adhesive": {
+        "title": "胶粘与收口",
+        "text": "按规范使用丙烯酸胶或同等产品。避免胶与填缝剂沾染质感面。"
+      }
+    },
+    "installTips": {
+      "setOut": {
+        "title": "先排版",
+        "text": "按顺序摆放板材，固定前确定接缝图案。"
+      },
+      "keepClean": {
+        "title": "保持表面洁净",
+        "text": "质感表面易沾胶、填缝剂与涂料，相邻施工期间请做好保护。"
+      },
+      "edges": {
+        "title": "处理边角与接缝",
+        "text": "在所选安装与防水系统内规划阴阳角、洞口与潮湿区域。"
+      }
+    },
+    "appsEyebrow": "应用",
+    "appsTitle": "从背景墙到建筑立面",
+    "appsText": "质感发挥作用的地方：室内墙面、曲面、卫浴、厨房、商业空间与室外墙体。",
+    "apps": {
+      "feature": {
+        "title": "室内背景墙",
+        "text": "沙发后的质感背景，或整面墙的同一饰面。"
+      },
+      "curved": {
+        "title": "弧形墙与立柱",
+        "text": "连续质感柔化面与面的过渡；侧光凸显浮雕。"
+      },
+      "living": {
+        "title": "起居空间",
+        "text": "洞石类饰面与木材、软装自然相融。"
+      },
+      "commercial": {
+        "title": "商业空间",
+        "text": "接待台、吧台立面与店铺墙面，在相容基层上呈现石材质感。"
+      },
+      "bathroom": {
+        "title": "卫浴墙面",
+        "text": "饰面延伸至浴缸或浴室柜后方，连接卫浴各区域。"
+      },
+      "shower": {
+        "title": "淋浴与潮湿区",
+        "text": "质感环绕弧形淋浴墙，配合完整的防水与接缝系统。"
+      },
+      "kitchen": {
+        "title": "厨房墙面",
+        "text": "石材质感与橱柜、木材、金属并置。仅用于墙面，不用于台面。"
+      },
+      "dining": {
+        "title": "餐厅墙面",
+        "text": "一面质感墙为用餐空间定下基调。"
+      },
+      "facade": {
+        "title": "住宅立面",
+        "text": "根据建筑选择饰面与分格。"
+      },
+      "terrace": {
+        "title": "露台与室外墙",
+        "text": "质感作为植栽与户外生活的背景。"
+      },
+      "corner": {
+        "title": "室外转角与细节",
+        "text": "同一饰面转角延续，以分格勾勒窗洞。"
+      },
+      "bedroom": {
+        "title": "卧室背景墙",
+        "text": "床后安静的横向纹理或更鲜明的石材质感。"
+      }
+    },
+    "familiesEyebrow": "系列",
+    "familiesTitle": "为您的项目挑选色彩与质感",
+    "familiesText": "五大质感家族的精选系列。点击饰面查看板材；实物样板在您自己的光线下确认颜色与浮雕。",
+    "families": {
+      "travertine": {
+        "title": "洞石",
+        "text": "柔和中性色、纹理与暖色调"
+      },
+      "stone": {
+        "title": "石材",
+        "text": "颗粒、粗犷与凿面质感"
+      },
+      "concrete": {
+        "title": "混凝土与线条",
+        "text": "安静的面与更有秩序的节奏"
+      },
+      "earth": {
+        "title": "夯土与风化",
+        "text": "层次、暖色与富有表现力的浮雕"
+      },
+      "wood": {
+        "title": "木纹",
+        "text": "柔性装饰面中的木材气质"
+      }
+    },
+    "familiesNote": "饰面示意图附工厂编码。实物样板确认颜色与质感。",
+    "faqEyebrow": "常见问题",
+    "faqTitle": "关于 Flexible Stone 的问题",
+    "faq": {
+      "where": {
+        "q": "可以用在哪里？",
+        "a": "室内背景墙、卫浴墙面及部分室外应用。饰面与系统需与空间匹配。"
+      },
+      "tiles": {
+        "q": "能覆盖现有瓷砖吗？",
+        "a": "稳固、黏结牢固的表面经处理并通过附着力检查后可适用。"
+      },
+      "look": {
+        "q": "怎样才能做出好效果？",
+        "a": "合理分格、整洁固定与细致的接缝处理。"
+      },
+      "ceiling": {
+        "q": "可以用在天花吗？",
+        "a": "配合合适的饰面与固定系统可用于天花。请确认基层与安装细节。"
+      },
+      "radius": {
+        "q": "能贴合小半径曲面吗？",
+        "a": "可实现的半径取决于饰面与厚度。请以实物样板在拟定节点上验证。"
+      },
+      "insulation": {
+        "q": "能与保温层结合吗？",
+        "a": "相容的背板或保温板可作为墙体系统的一部分。请确认完整组合。"
+      }
+    }
+  },
   "spaces": {
     "eyebrow": "逐个空间",
     "title": "空间",

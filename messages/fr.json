@@ -822,6 +822,214 @@
     "showMore": "Voir plus",
     "catalogIntro": "Trouvez les matériaux et produits pour votre projet."
   },
+  "flexibleStone": {
+    "whatEyebrow": "Qu’est-ce que Flexible Stone ?",
+    "whatTitle": "Une texture de pierre qui épouse le mur",
+    "whatText": "Flexible Stone est une surface décorative fine en argile modifiée et poudre minérale naturelle. Des textures pierre, béton et bois en feuille souple qui suit les murs plans, les courbes et les détails architecturaux.",
+    "whatText2": "Grands panneaux et formats compacts, pour murs intérieurs et extérieurs. La fiche technique ne détecte ni PVC, ni phtalates, ni COV.",
+    "fact": {
+      "thin": {
+        "value": "Quelques mm",
+        "label": "fin et souple"
+      },
+      "format": {
+        "value": "1,2 × 3,06 m",
+        "label": "plus grand panneau"
+      },
+      "finishes": {
+        "value": "30+",
+        "label": "finitions"
+      }
+    },
+    "whatAltBend": "Flexible Stone plié à la main",
+    "whatAltLayers": "Panneaux Flexible Stone, texture et envers",
+    "whatAltColumn": "Colonne habillée de Flexible Stone",
+    "benefitsEyebrow": "Pourquoi Flexible Stone",
+    "benefitsTitle": "Les atouts du produit",
+    "benefits": {
+      "curves": {
+        "title": "Épouse les courbes",
+        "text": "Colonnes, murs arrondis et détails architecturaux dans une texture continue."
+      },
+      "inOut": {
+        "title": "Intérieur et extérieur",
+        "text": "Une gamme pour les pièces à vivre, façades, terrasses et murs de jardin."
+      },
+      "bathroom": {
+        "title": "Murs de salle de bains",
+        "text": "Une finition adaptée aux zones humides, associée à un système d’étanchéité complet."
+      },
+      "slim": {
+        "title": "Surface décorative fine",
+        "text": "Quelques millimètres au lieu de pierre massive : moins de poids, moins d’épaisseur."
+      },
+      "renovation": {
+        "title": "Rénovation sur support sain",
+        "text": "Un carrelage ou une finition bien adhérents peuvent rester si le support convient."
+      },
+      "fire": {
+        "title": "Réaction au feu publiée",
+        "text": "Classe A2-s1 selon la fiche technique."
+      }
+    },
+    "benefitsNote": "La finition choisie, le support et le système de pose déterminent l’adéquation à chaque projet.",
+    "techEyebrow": "Résumé technique",
+    "techTitle": "Performances testées du matériau",
+    "techText": "Résultats de la fiche technique : réaction au feu, gel-dégel, absorption d’eau, vieillissement UV, résistance aux taches et à l’abrasion, déclarations matière. La fiche complète est téléchargeable.",
+    "techFire": "réaction au feu",
+    "techCycles": "cycles gel-dégel testés",
+    "techDownload": "Télécharger la fiche technique",
+    "tech": {
+      "fire": "Réaction au feu",
+      "freezeThaw": "Cycles gel-dégel",
+      "water": "Absorption d’eau",
+      "uv": "Vieillissement UV / lumière",
+      "stain": "Résistance aux taches",
+      "abrasion": "Résistance à l’abrasion",
+      "friction": "Coefficient de frottement statique",
+      "ce": "Certificat CE",
+      "clean": "Déclarations matière"
+    },
+    "formatsEyebrow": "Formats",
+    "formatsTitle": "Grandes surfaces et panneaux compacts",
+    "formatsText": "Jusqu’à 1,20 × 3,06 m : de larges surfaces texturées avec moins de joints. Les panneaux compacts de 0,60 × 1,20 m et 0,60 × 0,90 m sont plus faciles à manipuler et conviennent aux murs d’accent et aux petites rénovations.",
+    "formatsLargeTitle": "Panneau Flexible Stone grand format",
+    "formatsNote": "Formats donnés à titre d’exemple. Ils varient selon la finition ; Habitat One confirme les dimensions disponibles.",
+    "installEyebrow": "Pose",
+    "installTitle": "Pose propre, finitions soignées",
+    "installText": "Un support préparé et un travail propre protègent la texture. Flexible Stone se pose à la colle acrylique ou équivalente, sans gros œuvre.",
+    "install": {
+      "layout": {
+        "title": "Support et calepinage",
+        "text": "Préparer une base saine et propre. Mesurer, calepiner les panneaux et définir les joints avant la fixation ; la découpe se fait sur place."
+      },
+      "adhesive": {
+        "title": "Colle et finition",
+        "text": "Utiliser une colle acrylique ou équivalente selon prescription. Tenir colle et joint à l’écart de la face texturée."
+      }
+    },
+    "installTips": {
+      "setOut": {
+        "title": "Calepiner les panneaux",
+        "text": "Disposer les panneaux dans l’ordre et définir le dessin des joints avant la fixation."
+      },
+      "keepClean": {
+        "title": "Garder la face propre",
+        "text": "La texture peut retenir colle, joint et peinture. La protéger pendant les travaux voisins."
+      },
+      "edges": {
+        "title": "Soigner bords et joints",
+        "text": "Prévoir angles, ouvertures et zones humides dans le système de pose et d’étanchéité retenu."
+      }
+    },
+    "appsEyebrow": "Applications",
+    "appsTitle": "Du mur d’accent à la façade",
+    "appsText": "Là où la texture s’exprime : murs intérieurs, surfaces courbes, salles de bains, cuisines, intérieurs commerciaux et murs extérieurs.",
+    "apps": {
+      "feature": {
+        "title": "Murs d’accent intérieurs",
+        "text": "Un fond texturé derrière le canapé, ou une seule finition sur un grand mur."
+      },
+      "curved": {
+        "title": "Murs courbes et colonnes",
+        "text": "Une texture continue adoucit la transition entre les surfaces ; la lumière rasante révèle le relief."
+      },
+      "living": {
+        "title": "Pièces à vivre",
+        "text": "Les finitions travertin s’accordent naturellement au bois et aux textiles."
+      },
+      "commercial": {
+        "title": "Intérieurs commerciaux",
+        "text": "Comptoirs, façades de bar et murs de boutique avec une texture de pierre sur support compatible."
+      },
+      "bathroom": {
+        "title": "Murs de salle de bains",
+        "text": "Prolonger la finition derrière la baignoire ou le meuble et relier les espaces."
+      },
+      "shower": {
+        "title": "Douches et zones humides",
+        "text": "Une texture qui suit les parois courbes de la douche, avec un système d’étanchéité et de joints complet."
+      },
+      "kitchen": {
+        "title": "Murs de cuisine",
+        "text": "Texture de pierre à côté des meubles, du bois et du métal. Surfaces murales, pas de plans de travail."
+      },
+      "dining": {
+        "title": "Murs de salle à manger",
+        "text": "Un seul mur texturé donne son décor à l’espace repas."
+      },
+      "facade": {
+        "title": "Façades résidentielles",
+        "text": "Choisir la finition et le calepinage selon l’architecture."
+      },
+      "terrace": {
+        "title": "Terrasses et murs extérieurs",
+        "text": "La texture en toile de fond des plantations et de la vie dehors."
+      },
+      "corner": {
+        "title": "Angles et détails extérieurs",
+        "text": "Prolonger une finition à l’angle et encadrer les fenêtres avec le calepinage."
+      },
+      "bedroom": {
+        "title": "Murs de chambre",
+        "text": "Un motif horizontal calme ou une texture de pierre plus marquée derrière le lit."
+      }
+    },
+    "familiesEyebrow": "La collection",
+    "familiesTitle": "Couleurs et textures pour votre projet",
+    "familiesText": "Une gamme réfléchie en cinq familles de textures. Cliquez sur une finition pour ouvrir le panneau ; les échantillons confirment couleur et relief sous votre lumière.",
+    "families": {
+      "travertine": {
+        "title": "Travertins",
+        "text": "Neutres subtils, veinage et tons plus chauds"
+      },
+      "stone": {
+        "title": "Pierre",
+        "text": "Surfaces granuleuses, brutes et taillées"
+      },
+      "concrete": {
+        "title": "Béton et lignes",
+        "text": "Surfaces calmes et rythme plus structuré"
+      },
+      "earth": {
+        "title": "Terre et patiné",
+        "text": "Strates, couleurs chaudes et relief expressif"
+      },
+      "wood": {
+        "title": "Bois",
+        "text": "Le caractère du bois dans une surface décorative souple"
+      }
+    },
+    "familiesNote": "Illustrations de finitions avec codes usine. Les échantillons physiques confirment couleur et texture.",
+    "faqEyebrow": "Questions",
+    "faqTitle": "Questions sur Flexible Stone",
+    "faq": {
+      "where": {
+        "q": "Où peut-on l’utiliser ?",
+        "a": "Murs d’accent intérieurs, murs de salle de bains et certaines applications extérieures. Adapter finition et système à l’espace."
+      },
+      "tiles": {
+        "q": "Peut-il recouvrir un carrelage existant ?",
+        "a": "Une surface stable et bien adhérente peut convenir après préparation et contrôle d’adhérence."
+      },
+      "look": {
+        "q": "Qu’est-ce qui fait un beau résultat ?",
+        "a": "Le calepinage, une fixation propre et des joints soignés."
+      },
+      "ceiling": {
+        "q": "Peut-on l’utiliser au plafond ?",
+        "a": "Possible avec une finition et une fixation adaptées. Confirmer le support et les détails de pose."
+      },
+      "radius": {
+        "q": "Suit-il des courbes serrées ?",
+        "a": "Le rayon atteignable dépend de la finition et de l’épaisseur. Vérifier un échantillon sur le détail prévu."
+      },
+      "insulation": {
+        "q": "Se combine-t-il avec une isolation ?",
+        "a": "Des panneaux support ou isolants compatibles peuvent faire partie du système de mur. Confirmer la combinaison complète."
+      }
+    }
+  },
   "spaces": {
     "eyebrow": "Pièce par pièce",
     "title": "Espaces",
