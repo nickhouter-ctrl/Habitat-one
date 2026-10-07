@@ -1,11 +1,24 @@
 import type { Localized } from "@/lib/i18n-content";
 
+// Spaanse nummers sinds 7 oktober 2026. Hiervoor stond hier één Nederlands
+// 06-nummer (+31 6 51170545). De laatste negen cijfers daarvan — 651170545 —
+// vormen ook een geldig Spaans mobiel nummer, dus wie in Spanje de landcode
+// wegdacht en intoetste wat hij zag, belde een wildvreemde. Die kreeg onze
+// klanten aan de lijn en meldde het zelf via het contactformulier.
+// Hans staat vooraan: dat nummer vult de plekken waar maar één nummer past.
+const phones = [
+  { name: "Hans", display: "+34 610 431 263", href: "+34610431263" },
+  { name: "Nick", display: "+34 663 361 623", href: "+34663361623" },
+] as const;
+
 export const site = {
   name: "Habitat One",
   email: "hi@habitat-one.com",
-  phone: "+31 6 51170545",
-  phoneHref: "+31651170545",
-  whatsapp: "+31 6 51170545",
+  phones,
+  // Voettekst, beurspagina's en de schema.org-gegevens hebben één veld.
+  phone: phones[0].display,
+  phoneHref: phones[0].href,
+  whatsapp: phones[0].display,
   addressLines: ["Camí de la Fontana 3, Locales 2, 3 en 5", "03730 Jávea (Alicante) · España"],
   mapUrl:
     "https://www.google.com/maps/dir/?api=1&destination=Cam%C3%AD+de+la+Fontana+3%2C+03730+J%C3%A1vea%2C+Alicante%2C+Spain",

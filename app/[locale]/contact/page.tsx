@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { seoAlternates } from "@/lib/seo/alternates";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Mail, Phone, MapPin, Clock, Languages } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { PageHeader } from "@/components/ui/page-header";
 import { Container, Section } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
@@ -31,12 +32,20 @@ export default async function ContactPage({
   const t = await getTranslations("contact");
   const defaultSubject = subjectKeys.includes(subject as SubjectKey) ? (subject as SubjectKey) : undefined;
 
-  const info = [
-    { icon: MapPin, label: t("addressLabel"), lines: site.addressLines },
-    { icon: Phone, label: t("phoneLabel"), lines: [site.phone], href: `tel:${site.phoneHref}` },
-    { icon: Mail, label: t("emailLabel"), lines: [site.email], href: `mailto:${site.email}` },
-    { icon: Clock, label: t("hoursLabel"), lines: [t("hoursByAppointment")] },
-    { icon: Languages, label: t("languagesLabel"), lines: [site.languages.join(" · ")] },
+  // De href zit per regel en niet per rij: telefoon heeft er twee, elk met een
+  // eigen tel:-link. De annotatie is nodig omdat regels zonder href anders een
+  // eigen type krijgen en `l.href` dan niet bestaat.
+  const info: { icon: LucideIcon; label: string; lines: { text: string; href?: string }[] }[] = [
+    { icon: MapPin, label: t("addressLabel"), lines: site.addressLines.map((text) => ({ text })) },
+    {
+      icon: Phone,
+      label: t("phoneLabel"),
+      // Met naam erbij: bezoekers bellen liever een persoon dan een bedrijf.
+      lines: site.phones.map((p) => ({ text: `${p.name} · ${p.display}`, href: `tel:${p.href}` })),
+    },
+    { icon: Mail, label: t("emailLabel"), lines: [{ text: site.email, href: `mailto:${site.email}` }] },
+    { icon: Clock, label: t("hoursLabel"), lines: [{ text: t("hoursByAppointment") }] },
+    { icon: Languages, label: t("languagesLabel"), lines: [{ text: site.languages.join(" · ") }] },
   ];
 
   return (
@@ -68,13 +77,13 @@ export default async function ContactPage({
                         <div>
                           <p className="text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-cream/45">{row.label}</p>
                           {row.lines.map((l) =>
-                            row.href ? (
-                              <a key={l} href={row.href} className="block text-sm text-cream transition-colors hover:text-terracotta-300">
-                                {l}
+                            l.href ? (
+                              <a key={l.text} href={l.href} className="block text-sm text-cream transition-colors hover:text-terracotta-300">
+                                {l.text}
                               </a>
                             ) : (
-                              <p key={l} className="text-sm text-cream/85">
-                                {l}
+                              <p key={l.text} className="text-sm text-cream/85">
+                                {l.text}
                               </p>
                             ),
                           )}

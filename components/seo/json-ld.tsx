@@ -1,3 +1,5 @@
+import { site } from "@/lib/data/site";
+
 // Renders a JSON-LD <script> for structured data (schema.org).
 // Server component — the JSON is serialised at render time.
 export function JsonLd({ data }: { data: Record<string, unknown> }) {
@@ -24,7 +26,9 @@ export const localBusinessJsonLd: Record<string, unknown> = {
   image: "https://www.habitat-one.com/opengraph-image",
   logo: "https://www.habitat-one.com/logo-habitat.png",
   email: "hi@habitat-one.com",
-  telephone: "+31651170545",
+  // Uit lib/data/site zodat dit nummer niet los kan raken van de site zelf —
+  // Google toont dit als hét bedrijfsnummer, dus een verouderde kopie hier is duur.
+  telephone: site.phoneHref,
   priceRange: "€€€",
   address: {
     "@type": "PostalAddress",

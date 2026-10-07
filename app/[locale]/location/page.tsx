@@ -65,11 +65,19 @@ export default async function LocationPage({ params }: { params: Promise<{ local
                     <span key={l} className="block">{l}</span>
                   ))}
                 </address>
-                <p className="mt-3 text-ink-soft">
-                  <a className="hover:text-ink" href={`tel:${site.phoneHref}`}>{site.phone}</a>
-                  {" · "}
-                  <a className="hover:text-ink" href={`mailto:${site.email}`}>{site.email}</a>
-                </p>
+                {/* Beide nummers onder elkaar: op de locatiepagina staat een
+                    bezoeker op het punt langs te komen en wil hij iemand bellen. */}
+                <div className="mt-3 text-ink-soft">
+                  {site.phones.map((p) => (
+                    <p key={p.href}>
+                      {p.name}{" "}
+                      <a className="hover:text-ink" href={`tel:${p.href}`}>{p.display}</a>
+                    </p>
+                  ))}
+                  <p className="mt-1">
+                    <a className="hover:text-ink" href={`mailto:${site.email}`}>{site.email}</a>
+                  </p>
+                </div>
               </div>
             </Reveal>
 
