@@ -659,7 +659,6 @@ export const productMedia: Record<string, ProductMedia> = {
     ],
   },
   "rockface-stone": {
-    videos: { beige: `${MAGIC}/rockface-stone-beige.mp4` },
     context: [
       `${MAGIC}/rockface-stone-beige-exterior.png`,
       `${MAGIC}/rockface-stone-dark-grey-exterior.png`,
