@@ -1001,6 +1001,12 @@
       }
     },
     "familiesNote": "Oberflächen mit Werkscodes. Physische Muster bestätigen Farbe und Struktur.",
+    "panelEyebrow": "Flexible Stone",
+    "panelTitle": "So kommt diese Textur zur Geltung",
+    "panelText": "Stimmungsbilder aus derselben Texturfamilie und die Werksmuster dieses Paneels. Physische Muster bestätigen Farbe und Relief.",
+    "panelSwatches": "Muster dieses Paneels",
+    "panelMore": "Alle Farben und Texturen",
+    "panelApps": "Alle Anwendungen",
     "faqEyebrow": "Fragen",
     "faqTitle": "Fragen zu Flexible Stone",
     "faq": {

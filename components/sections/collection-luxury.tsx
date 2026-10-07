@@ -67,14 +67,14 @@ const descriptionKey: Record<string, string> = {
 const MAGIC_GALLERY: { src: string; label: string; video?: boolean }[] = [
   { src: "/products/magic/magic-gallery-intro.mp4", label: "Flexible Stone", video: true },
   { src: "/products/magic/magic-gallery-reveal.mp4", label: "Flexible Stone", video: true },
-  { src: "/products/magic/concrete-board-pure-white-hero.png", label: "Concrete Board · Pure White" },
-  { src: "/products/magic/ms-travertino-light-grey-interior.jpg", label: "MS Travertino · Light Grey" },
-  { src: "/products/magic/huge-travertine-gradient-yellow-exterior.jpg", label: "Huge Travertine · Gradient Yellow" },
-  { src: "/products/magic/ripple-board-red-hero.png", label: "Ripple Board · Red" },
-  { src: "/products/magic/italian-travertine-red-interior.jpg", label: "Italian Travertine · Red" },
-  { src: "/products/magic/age-stone-dark-grey-exterior.jpg", label: "Age Stone · Dark Grey" },
-  { src: "/products/magic/ancient-wood-board-khaki-interior.jpg", label: "Ancient Wood Board · Khaki" },
-  { src: "/products/magic/ms-travertino-medium-grey-interior.jpg", label: "MS Travertino · Medium Grey" },
+  { src: "/products/magic/story/curved-shower.jpg", label: "Travertine · Curved shower" },
+  { src: "/products/magic/story/bathroom-dark-stone.jpg", label: "Stone · Walk-in shower" },
+  { src: "/products/magic/story/curved-wall-lit.jpg", label: "Travertine · Curved wall" },
+  { src: "/products/magic/story/bathroom-bath.jpg", label: "Rough stone · Bathroom wall" },
+  { src: "/products/magic/story/project-shower.jpg", label: "Travertine · Shower & vanity" },
+  { src: "/products/magic/story/curved-wall-concrete.jpg", label: "Concrete board · Curved wall" },
+  { src: "/products/magic/story/bathroom-warm-travertine.jpg", label: "Travertine · Shower wall" },
+  { src: "/products/magic/story/residential-facade.jpg", label: "Travertine · Facade" },
 ];
 
 /**

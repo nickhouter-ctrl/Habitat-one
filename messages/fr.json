@@ -1001,6 +1001,12 @@
       }
     },
     "familiesNote": "Illustrations de finitions avec codes usine. Les échantillons physiques confirment couleur et texture.",
+    "panelEyebrow": "Flexible Stone",
+    "panelTitle": "Cette texture mise en situation",
+    "panelText": "Images d'ambiance de la même famille de textures et échantillons d'usine de ce panneau. Les échantillons physiques confirment couleur et relief.",
+    "panelSwatches": "Échantillons de ce panneau",
+    "panelMore": "Toutes les couleurs et textures",
+    "panelApps": "Toutes les applications",
     "faqEyebrow": "Questions",
     "faqTitle": "Questions sur Flexible Stone",
     "faq": {

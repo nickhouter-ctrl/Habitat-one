@@ -1001,6 +1001,12 @@
       }
     },
     "familiesNote": "饰面示意图附工厂编码。实物样板确认颜色与质感。",
+    "panelEyebrow": "Flexible Stone",
+    "panelTitle": "这种纹理的呈现效果",
+    "panelText": "同一纹理系列的氛围图片及本面板的工厂色样。实物样板可确认颜色与浮雕效果。",
+    "panelSwatches": "本面板的色样",
+    "panelMore": "全部颜色与纹理",
+    "panelApps": "全部应用",
     "faqEyebrow": "常见问题",
     "faqTitle": "关于 Flexible Stone 的问题",
     "faq": {

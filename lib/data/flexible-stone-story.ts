@@ -13,13 +13,14 @@ import { catalogProducts } from "./catalog";
 
 const S = "/products/magic/story";
 
-/** Hero-slideshow: echte foto's van het materiaal en projecten, geen renders vooraan. */
+/** Hero-slideshow: douches en rondingen vooraan (Nicks voorkeur, 7 okt 2026), daarna projecten. */
 export const FS_HERO_SLIDES = [
+  `${S}/curved-shower.jpg`,
+  `${S}/curved-wall-lit.jpg`,
+  `${S}/bathroom-dark-stone.jpg`,
   `${S}/cover-curved-facade.jpg`,
   `${S}/commercial-curved-column.jpg`,
-  `${S}/exterior-building-grey.jpg`,
-  `${S}/relief-light-ribbed.jpg`,
-  `${S}/curved-shower.jpg`,
+  `${S}/bathroom-warm-travertine.jpg`,
 ];
 
 export const FS_INTRO = { bend: `${S}/material-bending-hand.jpg`, layers: `${S}/material-layers-leaf.jpg`, column: `${S}/column-wrapped.jpg` };
@@ -153,3 +154,62 @@ export function flexibleStoneHref(name: string): string | null {
   }
   return best ? `/products/${best.slug}` : null;
 }
+
+/** Textuurfamilie van een paneel: eerst via de stalenlijst, anders op naam. */
+export type FsFamilyKey = "travertine" | "stone" | "concrete" | "earth" | "wood";
+
+export function flexibleStoneFamily(slug: string, name: string): FsFamilyKey {
+  for (const f of FS_FAMILIES) {
+    for (const sw of f.swatches) {
+      if (flexibleStoneHref(sw.name) === `/products/${slug}`) return f.key as FsFamilyKey;
+    }
+  }
+  const n = norm(name);
+  if (/travert|romanite/.test(n)) return "travertine";
+  if (/wood/.test(n) && !/cement|concrete/.test(n)) return "wood";
+  if (/cement|concrete|line|ripple/.test(n)) return "concrete";
+  if (/earth|age stone|rust/.test(n)) return "earth";
+  return "stone";
+}
+
+/** Stalen (met MS-code) die bij een paneel horen. */
+export function flexibleStoneSwatchesFor(slug: string): Swatch[] {
+  const out: Swatch[] = [];
+  for (const f of FS_FAMILIES) for (const sw of f.swatches) if (flexibleStoneHref(sw.name) === `/products/${slug}`) out.push(sw);
+  return out;
+}
+
+/**
+ * Sfeerbeelden per textuurfamilie voor de paneelpagina's. Alleen beelden waarvan
+ * de textuur ook echt bij de familie hoort; `caption` verwijst naar een
+ * toepassing (flexibleStone.apps.*) of voordeel (flexibleStone.benefits.*).
+ */
+export type FsScene = { image: string; caption: { ns: "apps" | "benefits"; key: string } };
+export const FS_PANEL_SCENES: Record<FsFamilyKey, FsScene[]> = {
+  travertine: [
+    { image: `${S}/curved-shower.jpg`, caption: { ns: "apps", key: "shower" } },
+    { image: `${S}/curved-wall-lit.jpg`, caption: { ns: "apps", key: "curved" } },
+    { image: `${S}/residential-facade.jpg`, caption: { ns: "apps", key: "facade" } },
+  ],
+  stone: [
+    { image: `${S}/bathroom-dark-stone.jpg`, caption: { ns: "apps", key: "shower" } },
+    { image: `${S}/bathroom-bath.jpg`, caption: { ns: "apps", key: "bathroom" } },
+    { image: `${S}/bar-front.jpg`, caption: { ns: "apps", key: "commercial" } },
+  ],
+  concrete: [
+    { image: `${S}/curved-wall-concrete.jpg`, caption: { ns: "apps", key: "curved" } },
+    { image: `${S}/interior-feature-wall.jpg`, caption: { ns: "apps", key: "feature" } },
+    { image: `${S}/exterior-building-grey.jpg`, caption: { ns: "apps", key: "facade" } },
+  ],
+  earth: [
+    { image: `${S}/bedroom-expressive.jpg`, caption: { ns: "apps", key: "bedroom" } },
+    { image: `${S}/dining-feature-wall.jpg`, caption: { ns: "apps", key: "dining" } },
+    { image: `${S}/terrace-outdoor-wall.jpg`, caption: { ns: "apps", key: "terrace" } },
+  ],
+  // Houtlooks: geen projectfoto's met houttextuur in de presentatie; toon het materiaal zelf.
+  wood: [
+    { image: `${S}/material-bending-hand.jpg`, caption: { ns: "benefits", key: "slim" } },
+    { image: `${S}/faq-curved-panel.jpg`, caption: { ns: "benefits", key: "curves" } },
+    { image: `${S}/column-wrapped.jpg`, caption: { ns: "benefits", key: "inOut" } },
+  ],
+};

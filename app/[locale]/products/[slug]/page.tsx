@@ -15,6 +15,7 @@ import { ProductCard } from "@/components/cards/product-card";
 import { ProductDetailLayout } from "@/components/product-detail-layout";
 import { productCombinations } from "@/lib/data/product-options.generated";
 import { ProductDocuments } from "@/components/product-documents";
+import { FlexibleStonePanel } from "@/components/sections/flexible-stone-panel";
 import { flexibleStoneDatasheet, getProductDocs, type DocLocale } from "@/lib/data/product-docs";
 import { CtaBanner } from "@/components/sections/cta-banner";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/json-ld";
@@ -276,6 +277,9 @@ export default async function ProductDetailPage({
           </div>
         </section>
       )}
+
+      {/* ---- Flexible Stone: sfeerbeelden van de textuurfamilie + fabrieksstalen ---- */}
+      {product.collection === "wall-panels" && <FlexibleStonePanel slug={slug} name={name} />}
 
       {/* ---- Related products / similar plates ---- */}
       {related.length > 0 && (
