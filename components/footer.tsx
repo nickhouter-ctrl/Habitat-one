@@ -80,6 +80,11 @@ export async function Footer() {
                 {nav(i.labelKey)}
               </FooterLink>
             ))}
+            <li>
+              <a href="https://windows.habitat-one.com" className="link-underline text-cream/75 transition-colors hover:text-cream">
+                {nav("windows")}
+              </a>
+            </li>
             {/* Inloggen / Mijn account — na de header de tweede plek waar
                 bezoekers hiernaar zoeken. */}
             <li>

@@ -46,6 +46,8 @@ export const primaryNav: NavItem[] = [
   { href: "/about", labelKey: "about" },
   { href: "/location", labelKey: "location" },
   { href: "/showroom", labelKey: "showroom" },
+  // Aluminium kozijnen hebben een eigen site (configurator, app, dealerportaal); hier alleen de verwijzing.
+  { href: "https://windows.habitat-one.com", labelKey: "windows" },
 ];
 
 export interface Testimonial {
