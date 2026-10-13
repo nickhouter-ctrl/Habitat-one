@@ -32,6 +32,8 @@ const nextConfig: NextConfig = {
   // crawlers en oude links — vang 'm af i.p.v. een 404 uit [slug].
   async redirects() {
     return [
+      { source: "/brochure/en", destination: "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/website-brochures/stone-motion-hardcover-en.pdf", permanent: false },
+      { source: "/brochure/es", destination: "https://kcsqmsmferruwnhsibxk.supabase.co/storage/v1/object/public/website-brochures/stone-motion-hardcover-es.pdf", permanent: false },
       // De vloerencollectie heet nu SPC in plaats van PVC — dat is de juiste
       // naam voor het materiaal. De oude adressen zijn gedeeld en staan in
       // Google, dus die verwijzen permanent door in plaats van een 404 te
