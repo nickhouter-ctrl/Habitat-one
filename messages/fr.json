@@ -2194,7 +2194,7 @@
     "increaseQuantity": "Augmenter la quantité"
   },
   "cookieConsent": {
-    "body": "Nous utilisons des cookies d'analyse pour améliorer ce site.",
+    "body": "Nous utilisons des cookies d'analyse et de marketing (Google Analytics, Meta Pixel) pour améliorer ce site et nos publicités.",
     "accept": "Accepter",
     "decline": "Refuser",
     "more": "En savoir plus"

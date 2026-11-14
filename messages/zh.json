@@ -2194,7 +2194,7 @@
     "increaseQuantity": "增加数量"
   },
   "cookieConsent": {
-    "body": "我们使用分析 Cookie 来改进本网站。",
+    "body": "我们使用分析和营销 Cookie（Google Analytics、Meta Pixel）来改进本网站和我们的广告。",
     "accept": "接受",
     "decline": "拒绝",
     "more": "了解更多"

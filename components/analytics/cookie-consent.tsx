@@ -3,6 +3,7 @@
 import { useCallback, useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
+import { MetaPixel } from "@/components/analytics/meta-pixel";
 import { Link } from "@/i18n/navigation";
 
 const KEY = "h1-cookie-consent";
@@ -73,7 +74,7 @@ function subscribe(onChange: () => void): () => void {
 }
 
 /**
- * GDPR cookie consent — Google Analytics laadt pas nadat de bezoeker accepteert.
+ * GDPR cookie consent — Google Analytics en de Meta Pixel laden pas nadat de bezoeker accepteert.
  * De keuze wordt 6 maanden onthouden; daarna (of bij een verlopen keuze) wordt
  * de banner opnieuw getoond. Bezoekers kunnen 'm zelf heropenen via de
  * "Cookievoorkeuren"-link in de footer (custom event).
@@ -94,12 +95,18 @@ export function CookieConsent() {
         ad_personalization: "denied",
         analytics_storage: "denied",
       });
+      window.fbq?.("consent", "revoke");
     }
   }, []);
 
   return (
     <>
-      {consent === "granted" && <GoogleAnalytics />}
+      {consent === "granted" && (
+        <>
+          <GoogleAnalytics />
+          <MetaPixel />
+        </>
+      )}
       {!decided && (
         <div className="fixed inset-x-0 bottom-0 z-[60] p-4 md:p-5">
           <div className="surface mx-auto flex max-w-3xl flex-col items-start gap-3 rounded-2xl border border-ink/10 bg-paper p-4 shadow-lg sm:flex-row sm:items-center sm:gap-5 md:p-5">
