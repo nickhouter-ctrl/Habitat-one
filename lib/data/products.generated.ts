@@ -27871,5 +27871,165 @@ export const catalogProducts: CatalogProduct[] = [
       "BRA-AE-ZDAGK"
     ],
     "variants": []
+  },
+  {
+    "id": 9826,
+    "name": "LED neon strip 220V side lit",
+    "slug": "led-neon-strip-220v-side-lit",
+    "sku": null,
+    "short": null,
+    "description": "220V LED-neonstrip met zijlicht — licht aan de smalle zijde, ideaal voor gleuven, plinten en contouren · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
+    "descriptionI18n": {
+      "nl": "220V LED-neonstrip met zijlicht — licht aan de smalle zijde, ideaal voor gleuven, plinten en contouren · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
+      "en": "220V LED neon strip, side lit — light from the narrow edge, ideal for slots, skirting and outlines · 120 LED/m · 10W/m · 3000K warm white · silicone · IP67 · CRI≥85 · 100 m roll",
+      "es": "Tira LED neón 220V de emisión lateral — luz por el canto estrecho, ideal para ranuras, zócalos y contornos · 120 LED/m · 10W/m · 3000K blanco cálido · silicona · IP67 · CRI≥85 · rollo de 100 m",
+      "de": "220V LED-Neonstreifen, seitlich leuchtend — Licht an der schmalen Seite, ideal für Fugen, Sockelleisten und Konturen · 120 LED/m · 10W/m · 3000K warmweiß · Silikon · IP67 · CRI≥85 · Rolle 100 m"
+    },
+    "additionalSizes": null,
+    "availability": null,
+    "image": "/products/9826.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 98261,
+        "name": "4×8 mm",
+        "colorHex": null,
+        "sku": "GO-0408-SIDE-220V",
+        "images": [
+          "/products/9826.jpg"
+        ],
+        "dim": "4×8 mm",
+        "piece": "4×8 mm"
+      },
+      {
+        "id": 98271,
+        "name": "6×12 mm",
+        "colorHex": null,
+        "sku": "GO-0612-SIDE-220V",
+        "images": [
+          "/products/9827.jpg"
+        ],
+        "dim": "6×12 mm",
+        "piece": "6×12 mm"
+      },
+      {
+        "id": 98281,
+        "name": "8×16 mm",
+        "colorHex": null,
+        "sku": "GO-0816B-SIDE-220V",
+        "images": [
+          "/products/9828.jpg"
+        ],
+        "dim": "8×16 mm",
+        "piece": "8×16 mm"
+      },
+      {
+        "id": 98291,
+        "name": "10×10 mm",
+        "colorHex": null,
+        "sku": "GO-1010-SIDE-220V",
+        "images": [
+          "/products/9829.jpg"
+        ],
+        "dim": "10×10 mm",
+        "piece": "10×10 mm"
+      },
+      {
+        "id": 98301,
+        "name": "12×12 mm",
+        "colorHex": null,
+        "sku": "GO-1212-SIDE-220V",
+        "images": [
+          "/products/9830.jpg"
+        ],
+        "dim": "12×12 mm",
+        "piece": "12×12 mm"
+      },
+      {
+        "id": 98311,
+        "name": "16×16 mm",
+        "colorHex": null,
+        "sku": "GO-1616-220V",
+        "images": [
+          "/products/9831.jpg"
+        ],
+        "dim": "16×16 mm",
+        "piece": "16×16 mm"
+      }
+    ]
+  },
+  {
+    "id": 9832,
+    "name": "LED neon strip 220V front lit",
+    "slug": "led-neon-strip-220v-front-lit",
+    "sku": null,
+    "short": null,
+    "description": "220V LED-neonstrip met frontlicht — gelijkmatige lichtlijn aan de bovenzijde, ideaal voor plafonds, nissen en wanden · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
+    "descriptionI18n": {
+      "nl": "220V LED-neonstrip met frontlicht — gelijkmatige lichtlijn aan de bovenzijde, ideaal voor plafonds, nissen en wanden · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
+      "en": "220V LED neon strip, front lit — an even line of light on top, ideal for ceilings, niches and walls · 120 LED/m · 10W/m · 3000K warm white · silicone · IP67 · CRI≥85 · 100 m roll",
+      "es": "Tira LED neón 220V de emisión frontal — línea de luz uniforme por arriba, ideal para techos, hornacinas y paredes · 120 LED/m · 10W/m · 3000K blanco cálido · silicona · IP67 · CRI≥85 · rollo de 100 m",
+      "de": "220V LED-Neonstreifen, frontal leuchtend — gleichmäßige Lichtlinie oben, ideal für Decken, Nischen und Wände · 120 LED/m · 10W/m · 3000K warmweiß · Silikon · IP67 · CRI≥85 · Rolle 100 m"
+    },
+    "additionalSizes": null,
+    "availability": null,
+    "image": "/products/9832.jpg",
+    "featured": false,
+    "dimensions": null,
+    "materials": [],
+    "spaces": [],
+    "categories": [],
+    "collection": "verlichting",
+    "variants": [
+      {
+        "id": 98321,
+        "name": "8×8 mm",
+        "colorHex": null,
+        "sku": "GO-0808-FRONT-220V",
+        "images": [
+          "/products/9832.jpg"
+        ],
+        "dim": "8×8 mm",
+        "piece": "8×8 mm"
+      },
+      {
+        "id": 98331,
+        "name": "10×10 mm",
+        "colorHex": null,
+        "sku": "GO-1010-FRONT-220V",
+        "images": [
+          "/products/9833.jpg"
+        ],
+        "dim": "10×10 mm",
+        "piece": "10×10 mm"
+      },
+      {
+        "id": 98341,
+        "name": "12×12 mm",
+        "colorHex": null,
+        "sku": "GO-1212-FRONT-220V",
+        "images": [
+          "/products/9834.jpg"
+        ],
+        "dim": "12×12 mm",
+        "piece": "12×12 mm"
+      },
+      {
+        "id": 98351,
+        "name": "15×10 mm",
+        "colorHex": null,
+        "sku": "GO-1510-FRONT-220V",
+        "images": [
+          "/products/9835.jpg"
+        ],
+        "dim": "15×10 mm",
+        "piece": "15×10 mm"
+      }
+    ]
   }
 ];
