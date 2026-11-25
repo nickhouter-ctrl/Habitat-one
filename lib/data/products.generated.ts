@@ -27874,16 +27874,16 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9826,
-    "name": "LED neon strip 220V side lit",
-    "slug": "led-neon-strip-220v-side-lit",
+    "name": "LED strip 220V side lit",
+    "slug": "led-strip-220v-side-lit",
     "sku": null,
     "short": null,
-    "description": "220V LED-neonstrip met zijlicht — licht aan de smalle zijde, ideaal voor gleuven, plinten en contouren · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
+    "description": "220V LED-strip met zijlicht — licht aan de smalle zijde, ideaal voor gleuven, plinten en contouren · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
     "descriptionI18n": {
-      "nl": "220V LED-neonstrip met zijlicht — licht aan de smalle zijde, ideaal voor gleuven, plinten en contouren · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
-      "en": "220V LED neon strip, side lit — light from the narrow edge, ideal for slots, skirting and outlines · 120 LED/m · 10W/m · 3000K warm white · silicone · IP67 · CRI≥85 · 100 m roll",
-      "es": "Tira LED neón 220V de emisión lateral — luz por el canto estrecho, ideal para ranuras, zócalos y contornos · 120 LED/m · 10W/m · 3000K blanco cálido · silicona · IP67 · CRI≥85 · rollo de 100 m",
-      "de": "220V LED-Neonstreifen, seitlich leuchtend — Licht an der schmalen Seite, ideal für Fugen, Sockelleisten und Konturen · 120 LED/m · 10W/m · 3000K warmweiß · Silikon · IP67 · CRI≥85 · Rolle 100 m"
+      "nl": "220V LED-strip met zijlicht — licht aan de smalle zijde, ideaal voor gleuven, plinten en contouren · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
+      "en": "220V LED strip, side lit — light from the narrow edge, ideal for slots, skirting and outlines · 120 LED/m · 10W/m · 3000K warm white · silicone · IP67 · CRI≥85 · 100 m roll",
+      "es": "Tira LED 220V de emisión lateral — luz por el canto estrecho, ideal para ranuras, zócalos y contornos · 120 LED/m · 10W/m · 3000K blanco cálido · silicona · IP67 · CRI≥85 · rollo de 100 m",
+      "de": "220V LED-Streifen, seitlich leuchtend — Licht an der schmalen Seite, ideal für Fugen, Sockelleisten und Konturen · 120 LED/m · 10W/m · 3000K warmweiß · Silikon · IP67 · CRI≥85 · Rolle 100 m"
     },
     "additionalSizes": null,
     "availability": null,
@@ -27965,16 +27965,16 @@ export const catalogProducts: CatalogProduct[] = [
   },
   {
     "id": 9832,
-    "name": "LED neon strip 220V front lit",
-    "slug": "led-neon-strip-220v-front-lit",
+    "name": "LED strip 220V front lit",
+    "slug": "led-strip-220v-front-lit",
     "sku": null,
     "short": null,
-    "description": "220V LED-neonstrip met frontlicht — gelijkmatige lichtlijn aan de bovenzijde, ideaal voor plafonds, nissen en wanden · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
+    "description": "220V LED-strip met frontlicht — gelijkmatige lichtlijn aan de bovenzijde, ideaal voor plafonds, nissen en wanden · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
     "descriptionI18n": {
-      "nl": "220V LED-neonstrip met frontlicht — gelijkmatige lichtlijn aan de bovenzijde, ideaal voor plafonds, nissen en wanden · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
-      "en": "220V LED neon strip, front lit — an even line of light on top, ideal for ceilings, niches and walls · 120 LED/m · 10W/m · 3000K warm white · silicone · IP67 · CRI≥85 · 100 m roll",
-      "es": "Tira LED neón 220V de emisión frontal — línea de luz uniforme por arriba, ideal para techos, hornacinas y paredes · 120 LED/m · 10W/m · 3000K blanco cálido · silicona · IP67 · CRI≥85 · rollo de 100 m",
-      "de": "220V LED-Neonstreifen, frontal leuchtend — gleichmäßige Lichtlinie oben, ideal für Decken, Nischen und Wände · 120 LED/m · 10W/m · 3000K warmweiß · Silikon · IP67 · CRI≥85 · Rolle 100 m"
+      "nl": "220V LED-strip met frontlicht — gelijkmatige lichtlijn aan de bovenzijde, ideaal voor plafonds, nissen en wanden · 120 LED/m · 10W/m · 3000K warm wit · siliconen · IP67 · CRI≥85 · rol 100 m",
+      "en": "220V LED strip, front lit — an even line of light on top, ideal for ceilings, niches and walls · 120 LED/m · 10W/m · 3000K warm white · silicone · IP67 · CRI≥85 · 100 m roll",
+      "es": "Tira LED 220V de emisión frontal — línea de luz uniforme por arriba, ideal para techos, hornacinas y paredes · 120 LED/m · 10W/m · 3000K blanco cálido · silicona · IP67 · CRI≥85 · rollo de 100 m",
+      "de": "220V LED-Streifen, frontal leuchtend — gleichmäßige Lichtlinie oben, ideal für Decken, Nischen und Wände · 120 LED/m · 10W/m · 3000K warmweiß · Silikon · IP67 · CRI≥85 · Rolle 100 m"
     },
     "additionalSizes": null,
     "availability": null,

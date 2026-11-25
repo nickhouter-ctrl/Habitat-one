@@ -81,7 +81,7 @@ function collectionFor(name) {
   if (/schakelaar|stopcontact|\bdimmer\b|hotelpaneel|ventilator/.test(n)) return "schakelmateriaal";
   if (/rail-?spot|railprofiel|rail-?connector|pendelstang|wandspot|grondspot|verlichting|lighting/.test(n)) return "verlichting";
   // Golden Ocean magnetic-track-systeem (namen bevatten geen "verlichting"/"lighting").
-  if (/magnetic track|track light|floodlight|spotlight|grille light|flexible light|pendant light|power supply|surface-mounted track|track connector|track feed box|wire cover box|led neon strip|led-?strip/.test(n)) return "verlichting";
+  if (/magnetic track|track light|floodlight|spotlight|grille light|flexible light|pendant light|power supply|surface-mounted track|track connector|track feed box|wire cover box|led[- ]?strip/.test(n)) return "verlichting";
   if (/fireplace|waterdamp|sfeerhaard|water ?vapou?r/.test(n)) return "sfeerhaarden";
   if (/hinge|scharnier|bisagra/.test(n)) return "door-accessories";
   if (/\bdoor\b|deur|tür|puerta/.test(n)) return "doors";
@@ -225,10 +225,10 @@ const FAM_RULES = [
   { re: /^GO-MG-MZ-CL-(White|Black)$/, fam: "Track connector", piece: () => "Vertical L", col: (m) => m[1] },
   { re: /^GO-MG-ZXH-(White|Black)$/, fam: "Wire cover box", piece: null, col: (m) => m[1] },
   { re: /^GO-MG-DDH-(White|Black)$/, fam: "Track feed box 5A", piece: null, col: (m) => m[1] },
-  // 220V LED-neonstrips (Golden Ocean, GOV260824): per lichtrichting één product, maat als keuze.
-  { re: /^GO-(\d{2})(\d{2})B?-SIDE-220V$/, fam: "LED neon strip 220V side lit", piece: (m) => `${+m[1]}×${+m[2]} mm`, col: null },
-  { re: /^GO-1616-220V$/, fam: "LED neon strip 220V side lit", piece: () => "16×16 mm", col: null },
-  { re: /^GO-(\d{2})(\d{2})-FRONT-220V$/, fam: "LED neon strip 220V front lit", piece: (m) => `${+m[1]}×${+m[2]} mm`, col: null },
+  // 220V LED-strips (Golden Ocean, GOV260824): per lichtrichting één product, maat als keuze.
+  { re: /^GO-(\d{2})(\d{2})B?-SIDE-220V$/, fam: "LED strip 220V side lit", piece: (m) => `${+m[1]}×${+m[2]} mm`, col: null },
+  { re: /^GO-1616-220V$/, fam: "LED strip 220V side lit", piece: () => "16×16 mm", col: null },
+  { re: /^GO-(\d{2})(\d{2})-FRONT-220V$/, fam: "LED strip 220V front lit", piece: (m) => `${+m[1]}×${+m[2]} mm`, col: null },
   { re: /^GL-022$/, fam: "Grondspot LED IP65", piece: () => "3 W", col: null },
   // GL-023 and GL-024 are round spots with their own photos and dimensions.
   // Keep them as separate products; retain the existing family URL for GL-022.
