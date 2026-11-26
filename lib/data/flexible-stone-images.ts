@@ -988,8 +988,8 @@ export const SM_SERIES: Record<string, SmSeries> = {
     "detail": "/products/magic/sm/MS-167/detail-4a6eddb0725a.webp",
     "scene": "/products/magic/sm/MS-167/scene-d120cada238f.webp"
   },
-  "MS-168": {
-    "code": "MS-168",
+  "MS-287-1": {
+    "code": "MS-287-1",
     "product": "Milan Travertine",
     "colour": "White",
     "slug": "milan-travertine",
@@ -1785,12 +1785,12 @@ export const SM_SWATCH: Record<string, SmSwatch> = {
     "series": "MS-167",
     "image": "/products/magic/sm/swatch/MS-167.jpg"
   },
-  "MS-168": {
-    "code": "MS-168",
+  "MS-287-1": {
+    "code": "MS-287-1",
     "product": "Milan Travertine",
     "colour": "White",
     "slug": "milan-travertine",
-    "series": "MS-168",
+    "series": "MS-287-1",
     "image": "/products/magic/sm/swatch/MS-168.jpg"
   }
 };
@@ -1894,7 +1894,7 @@ export const SM_SCENES: Record<string, string> = {
   "MS-165": "/products/magic/sm/MS-165/scene-7c0ae2aeb61f.webp",
   "MS-166": "/products/magic/sm/MS-166/scene-69af04d9fea4.webp",
   "MS-167": "/products/magic/sm/MS-167/scene-d120cada238f.webp",
-  "MS-168": "/products/magic/sm/MS-168/scene-afa7d9cf4314.webp"
+  "MS-287-1": "/products/magic/sm/MS-168/scene-afa7d9cf4314.webp"
 };
 
 /** Variant-SKU op de site → MS-code in de beeldset. */
