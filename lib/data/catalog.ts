@@ -732,7 +732,7 @@ for (const m of Object.values(productMedia)) {
 }
 
 // ---------------------------------------------------------------------------
-// Manually added product: Romanite — Cloudy Yellow (MS-167, 600 × 1200 mm).
+// Manually added product: Romanite — Cloudy Yellow (MS-167, 1200 × 600 mm).
 // A pale cream-ivory vein-cut roman travertine; not in the source catalogue yet.
 // Imagery generated from the real proforma photo (texture close-up → thin flat
 // panel → interior + exterior scene). Injected after the scene post-pass so its
@@ -743,17 +743,18 @@ catalogProducts.push({
   name: "Romanite",
   slug: "romanite",
   sku: "MS-167",
-  short: "600 × 1200 mm",
+  short: "1200 × 600 mm",
   description: null,
   descriptionI18n: null,
   additionalSizes: null,
   image: `${MAGIC}/romanite-cloudy-yellow-closeup.png`,
   featured: false,
-  dimensions: "600 × 1200 mm",
+  dimensions: "1200 × 600 mm",
   materials: ["travertine"],
   spaces: ["living-room", "bedroom", "kitchen"],
   categories: [],
   collection: "wall-panels",
+  availability: "stock",
   variants: [
     {
       id: 900168,
@@ -770,31 +771,35 @@ catalogProducts.push({
   ],
 });
 
-// Manually added product: Milan Travertine — White (MS-168, 600 × 1200 mm).
+// Manually added product: Milan Travertine — White (MS-287-1, 1200 × 600 mm).
+// MS-287-1 is the CRM code of the 1200 × 600 format in stock (Nick 25-11-2026);
+// the old MS-168 did not exist in the CRM, so the site priced it via the name
+// ("Milan Travertine") and showed the €231 large-panel price.
 // A pale cool cream-white vein-cut travertine; imagery generated from the real
 // proforma photo (close-up → flat panel → interior + exterior scene).
 catalogProducts.push({
   id: 900170,
   name: "Milan Travertine",
   slug: "milan-travertine",
-  sku: "MS-168",
-  short: "600 × 1200 mm",
+  sku: "MS-287-1",
+  short: "1200 × 600 mm",
   description: null,
   descriptionI18n: null,
   additionalSizes: null,
   image: `${MAGIC}/milan-travertine-white-closeup.png`,
   featured: false,
-  dimensions: "600 × 1200 mm",
+  dimensions: "1200 × 600 mm",
   materials: ["travertine"],
   spaces: ["living-room", "bedroom", "kitchen"],
   categories: [],
   collection: "wall-panels",
+  availability: "stock",
   variants: [
     {
       id: 900171,
       name: "White",
       colorHex: "#E6E5E0",
-      sku: "MS-168",
+      sku: "MS-287-1",
       images: [
         `${MAGIC}/milan-travertine-white-closeup.png`,
         `${MAGIC}/milan-travertine-white-landscape.png`,
